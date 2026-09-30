@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Herriman, UT | FIX Restoration"
-h1: "Sewage Cleanup and Sanitization in Herriman"
-meta_description: "Sewage cleanup and sanitization in Herriman, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Sewage Cleanup and Sanitization in Herriman, UT | FIX Restoration"
+h1: "Emergency Sewage Cleanup and Sanitization in Herriman"
+meta_description: "Emergency sewage cleanup and sanitization in Herriman, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "sewage cleanup and sanitization herriman"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Herriman? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Herriman sits at the base of the Oquirrh Mountains on a bench of clay-heavy soil that drains slowly and shifts with seasonal freeze-thaw cycles. When a sewer line backs up or a septic system overflows in this kind of ground, the contaminated water does not just pool on your floor, it migrates fast, wicking into concrete slabs and subfloor materials before the smell even registers. FIX Restoration responds to sewage backup and raw sewage removal calls across Herriman, handling the extraction, disinfection, and structural drying that turns a genuinely hazardous situation back into a livable space.
 
 ## Why Herriman Properties See Sewage Backup Issues

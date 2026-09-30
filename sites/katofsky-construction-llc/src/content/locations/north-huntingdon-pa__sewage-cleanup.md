@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in North Huntingdon, PA | Katofsky Construction LLC"
-h1: "Sewage Cleanup and Sanitization in North Huntingdon"
-meta_description: "24/7 sewage cleanup and sanitization in North Huntingdon, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "Emergency Sewage Cleanup and Sanitization in North Huntingdon | Katofsky Construction LLC"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in North Huntingdon"
+meta_description: "24/7 emergency sewage cleanup and sanitization in North Huntingdon, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "sewage cleanup and sanitization north huntingdon"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

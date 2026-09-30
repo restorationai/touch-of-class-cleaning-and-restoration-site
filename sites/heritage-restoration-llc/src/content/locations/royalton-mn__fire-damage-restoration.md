@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Royalton, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Royalton"
-meta_description: "Fire damage restoration in Royalton, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Royalton, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Royalton"
+meta_description: "Emergency fire damage restoration in Royalton, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration royalton"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Royalton? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Royalton sits in Morrison County where long, cold winters mean homes run their heating systems hard from October through April, and a furnace fire or chimney flare-up in a wood-frame house can spread fast before a rural fire department can arrive. When smoke has already worked its way into wall cavities and the smell of char is coming through every vent, the clock is running on secondary damage. Heritage Restoration LLC holds IICRC FSRT (Fire and Smoke Restoration) certification and responds to fire losses throughout Royalton and the surrounding Morrison County area.
 
 ## Why Royalton Properties Face Particular Fire Damage Challenges

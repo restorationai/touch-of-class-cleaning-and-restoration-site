@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Pearl City, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in Pearl City"
-meta_description: "24/7 flood damage restoration in Pearl City, HI. Call (808) 349-3407."
+title: "24/7 Emergency Flood Damage Restoration in Pearl City, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in Pearl City"
+meta_description: "24/7 emergency flood damage restoration in Pearl City, HI. Call (808) 349-3407."
 primary_keyword: "flood damage restoration pearl city"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Pearl City? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 When storm runoff funnels down the terraced hillsides of Pacific Palisades and Momilani, it doesn't stop at the curb, it finds the path of least resistance straight into lower-level living areas, garages, and ohana units. Pearl City's mix of 1960s and 70s tract homes, many still running original galvanized supply lines that are quietly corroding from the inside out, means a single heavy rain event can trigger both exterior flooding and an interior pipe failure at the same time. If you're dealing with standing water in your home right now, call AAA Water Damage Restoration & Carpet Care at (808) 349-3407, we're available around the clock.
 
 ## Why Pearl City Properties See Flood Damage Issues

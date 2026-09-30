@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Slayton, MN | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Slayton"
-meta_description: "Biohazard cleanup in Slayton, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Slayton, MN | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Slayton"
+meta_description: "Emergency biohazard cleanup in Slayton, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup slayton"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Slayton? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Murray County's wide-open prairie winters and the freeze-thaw cycles around Lake Sarah create conditions that push Slayton properties hard, and when a biohazard situation arises inside one of those homes or commercial buildings, the stress compounds quickly. Whether the incident involves blood, bodily fluids, sharps, or other infectious material, the priority is the same: contain the risk, restore the space with discretion, and let the people involved focus on what matters most. Crew Restoration & Construction handles that work calmly and thoroughly, serving the 56172 ZIP code with the same care we bring to every job.
 
 ## Why Slayton Properties Present Unique Biohazard Challenges

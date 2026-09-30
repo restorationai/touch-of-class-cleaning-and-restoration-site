@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Plainfield, NJ | The Restoration Group"
-h1: "Storm Damage Restoration in Plainfield"
-meta_description: "24/7 storm damage restoration in Plainfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Storm Damage Restoration in Plainfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Plainfield"
+meta_description: "24/7 emergency storm damage restoration in Plainfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "storm damage restoration plainfield"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Plainfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 When Tropical Storm Ida tore through Union County in September 2021, the neighborhoods hugging Cedar Brook and the Green Brook corridor took some of the hardest hits in the state, and Plainfield's East Front Street area saw flooding that left residents stranded and basements submerged for days. That kind of storm doesn't announce itself with time to prepare, and the damage it leaves behind, saturated framing, wind-stripped roofing, downed trees punching through century-old Victorian facades, requires a response that understands both the urgency and the specific vulnerabilities of this city's building stock. The Restoration Group is an IICRC Certified Firm (#210213) based in Kenilworth, reachable around the clock at (855) 650-7422.
 
 ## Why Plainfield Properties See Severe Storm Damage

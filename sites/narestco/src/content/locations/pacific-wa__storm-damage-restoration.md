@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Pacific, WA | National Restoration Construction"
-h1: "Storm Damage Restoration in Pacific"
-meta_description: "24/7 storm damage restoration in Pacific, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Storm Damage Restoration in Pacific, WA | National Restoration Construction"
+h1: "24/7 Emergency Storm Damage Restoration in Pacific"
+meta_description: "24/7 emergency storm damage restoration in Pacific, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "storm damage restoration pacific"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

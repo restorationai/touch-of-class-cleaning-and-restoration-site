@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Poplarville, MS | HomeLyft Restoration MS"
-h1: "Water Damage Restoration in Poplarville"
-meta_description: "Water damage restoration in Poplarville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Water Damage Restoration in Poplarville, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Water Damage Restoration in Poplarville"
+meta_description: "24/7 emergency water damage restoration in Poplarville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "water damage restoration poplarville"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

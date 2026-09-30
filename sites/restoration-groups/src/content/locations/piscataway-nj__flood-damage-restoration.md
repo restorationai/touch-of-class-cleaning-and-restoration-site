@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Piscataway, NJ | The Restoration Group"
-h1: "Flood Damage Restoration in Piscataway"
-meta_description: "24/7 flood damage restoration in Piscataway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Flood Damage Restoration in Piscataway, NJ | The Restoration Group"
+h1: "24/7 Emergency Flood Damage Restoration in Piscataway"
+meta_description: "24/7 emergency flood damage restoration in Piscataway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "flood damage restoration piscataway"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Piscataway? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and stop the damage from spreading.
+
 When the Raritan River crests its banks along River Road, the flooding that follows isn't a slow seep, it's a surge that pushes silt-laden water into finished basements, saturates crawl spaces, and soaks the subfloor framing of split-levels and postwar capes before most homeowners realize how far it's traveled. Piscataway's position along the river made it one of the hardest-hit communities during Ida in 2021, and the same geography that made Johnson Park a beautiful greenway turns the flatlands east of it into a retention basin when storm systems stall over Central Jersey.
 
 ## Why Piscataway Properties See Flood Damage Differently

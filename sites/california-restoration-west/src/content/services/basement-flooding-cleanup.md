@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Basement Flooding Cleanup in Ventura | California Restoration West "
-h1: "Basement Flooding Cleanup in Ventura"
-meta_description: "24/7 basement flooding cleanup in Ventura and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "24/7 Emergency Basement Flooding Cleanup in Ventura | California Restoration West "
+h1: "24/7 Emergency Basement Flooding Cleanup in Ventura"
+meta_description: "24/7 emergency basement flooding cleanup in Ventura and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "basement flooding cleanup ventura"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"

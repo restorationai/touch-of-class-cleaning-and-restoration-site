@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Needham, MA | Quality Contracting, Inc."
-h1: "Fire Damage Restoration in Needham"
-meta_description: "Fire damage restoration in Needham, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Fire Damage Restoration in Needham, MA | Quality Contracting, Inc."
+h1: "Emergency Fire Damage Restoration in Needham"
+meta_description: "Emergency fire damage restoration in Needham, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "fire damage restoration needham"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Needham? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Needham is a town where older Colonial and Cape Cod homes sit alongside mid-century ranches and newer construction, a mix that matters enormously after a fire. Smoke behaves differently in a 1920s plaster-and-lath Colonial than in a 2010 stick-frame addition: it migrates into wall cavities, settles into porous original woodwork, and lingers in ways that a surface cleaning will never fully address. When fire damage hits a Needham property, the structural and cosmetic layers of the problem are rarely the same depth, and the restoration work has to account for both.
 
 ## Why Needham's Housing Stock Shapes Fire Damage Restoration

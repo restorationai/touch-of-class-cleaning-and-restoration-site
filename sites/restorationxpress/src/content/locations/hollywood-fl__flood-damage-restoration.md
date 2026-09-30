@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Hollywood, FL | RestorationXpress "
-h1: "Flood Damage Restoration in Hollywood"
-meta_description: "Flood damage restoration in Hollywood, FL. Insurance billing accepted. Call (954) 932-5420."
+title: "Emergency Flood Damage Restoration in Hollywood, FL | RestorationXpress "
+h1: "Emergency Flood Damage Restoration in Hollywood"
+meta_description: "Emergency flood damage restoration in Hollywood, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "flood damage restoration hollywood"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Hollywood? Call now for emergency service.** Our crew responds fast to pump out the water and stop the damage from spreading.
+
 Hollywood sits at the intersection of two flood realities that most inland Florida cities never face simultaneously: the Atlantic pushes storm surge west through the barrier island, while the flat Broward County terrain, barely a few feet above sea level, gives standing water almost nowhere to drain. After a heavy rain event or a plumbing failure in one of Hollywood's older beachside bungalows, water doesn't just pool on the surface; it finds every gap in a slab foundation, wicks into wall cavities, and begins feeding mold colonies within 24 to 48 hours. RestorationXpress responds to flood damage calls across Hollywood and can be reached at (954) 932-5420.
 
 ## Why Hollywood Properties See Flood Damage Differently

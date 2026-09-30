@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Lyman, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Lyman"
-meta_description: "Board-up and tarping in Lyman, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Lyman, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Lyman"
+meta_description: "24/7 emergency board-up and tarping in Lyman, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping lyman"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Lyman? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Gulf Coast storms don't politely announce themselves, and in Lyman, sitting in Harrison County where pine-heavy lots and older residential construction meet the full force of Gulf-driven wind and rain, a broken window or torn roof section can go from manageable to catastrophic within hours. When a tree limb punches through your roof decking or a fire leaves an exterior wall exposed, the clock starts immediately: rain infiltration, looters, and liability don't wait for morning. HomeLyft Restoration MS deploys from Gulfport to secure storm- and fire-damaged structures across the Lyman area before secondary damage compounds the loss.
 
 ## Why Lyman Properties Face Elevated Board-Up and Tarping Risks

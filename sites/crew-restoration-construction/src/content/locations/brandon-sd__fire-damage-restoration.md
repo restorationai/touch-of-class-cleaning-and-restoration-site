@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Brandon, SD | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Brandon"
-meta_description: "Fire damage restoration in Brandon, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Brandon, SD | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Brandon"
+meta_description: "Emergency fire damage restoration in Brandon, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration brandon"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Brandon? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 A house fire in Brandon hits differently than one in an older urban neighborhood. The newer subdivisions spreading east of Sioux Falls, including developments near Aspen Heights and around the Brandon Golf Course corridor, are built with engineered lumber, OSB sheathing, and open floor plans that allow fire to travel faster and farther than older stick-frame construction. That speed changes the recovery math: by the time a fire is out, smoke and soot have often penetrated HVAC systems, wall cavities, and attic spaces well beyond the visible char line. Crew Restoration & Construction works in the 57005 ZIP code regularly and understands what post-fire recovery looks like in Brandon's specific housing stock.
 
 ## Why Brandon's Newer Homes Present Unique Fire Damage Challenges

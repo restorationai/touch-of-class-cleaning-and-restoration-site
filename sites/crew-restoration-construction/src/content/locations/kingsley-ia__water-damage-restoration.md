@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Kingsley, IA | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Kingsley"
-meta_description: "Water damage restoration in Kingsley, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Kingsley, IA | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Kingsley"
+meta_description: "Emergency water damage restoration in Kingsley, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration kingsley"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Kingsley? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Standing water doesn't wait for a convenient time, and in Kingsley the conditions that cause it can arrive fast, a frozen pipe cracking during a January cold snap that rolls off the Loess Hills, a sump pump overwhelmed by spring snowmelt soaking into the clay-heavy soil, or a washing machine line that lets go while you're at work. When water gets into the floor system or wall cavities of a Plymouth County home, the clock starts immediately. Crew Restoration & Construction responds to water damage calls in Kingsley's 51028 ZIP code, bringing industrial extraction and structural drying equipment directly to your door.
 
 ## Why Kingsley Properties See Water Damage Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Tehachapi, CA | ProRestoration Services"
-h1: "Smoke Damage Restoration in Tehachapi"
-meta_description: "24/7 smoke damage restoration in Tehachapi, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Smoke Damage Restoration in Tehachapi, CA | ProRestoration Services"
+h1: "24/7 Emergency Smoke Damage Restoration in Tehachapi"
+meta_description: "24/7 emergency smoke damage restoration in Tehachapi, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "smoke damage restoration tehachapi"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Tehachapi? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 When a wood-stove fire flares up in a Bear Valley Springs cabin or a chimney fire scorches the walls of an older home near Downtown Tehachapi, the visible char is only part of the problem. At 4,000 feet, Tehachapi's dry mountain air carries smoke particles deep into porous surfaces, rough-sawn wood paneling, adobe-style stucco, and the dense insulation common in high-desert homes, where odor compounds settle and harden within hours. Getting a trained crew on-site fast is the difference between a thorough restoration and a home that smells like a campfire every time the heat kicks on. Call ProRestoration Services at (661) 393-9306 any time, crews are available around the clock.
 
 ## Why Tehachapi Properties See Smoke Damage Differently

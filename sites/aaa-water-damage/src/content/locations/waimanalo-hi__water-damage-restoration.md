@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Waimanalo, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Water Damage Restoration in Waimanalo"
-meta_description: "24/7 water damage restoration in Waimanalo, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "24/7 Emergency Water Damage Restoration in Waimanalo, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Damage Restoration in Waimanalo"
+meta_description: "24/7 emergency water damage restoration in Waimanalo, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "water damage restoration waimanalo"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Waimanalo? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Waimanalo sits on Oahu's windward coast where trade winds push moisture-laden air directly into homes and buildings, and the combination of heavy rainfall, clay-heavy soils, and a water table that rises quickly after storms makes water damage here behave differently than it does in drier parts of the island. When water gets into a Waimanalo home, whether from a burst supply line, a roof breach during a Kona storm, or flooding that backs up through a crawl space, the humid baseline conditions mean materials stay wet far longer than mainland drying charts predict. AAA Water Damage Restoration & Carpet Care responds 24/7 and can be reached at (808) 349-3407.
 
 ## Why Waimanalo Properties See Water Damage Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Crooks, SD | Crew Restoration & Construction"
-h1: "Flood Damage Restoration in Crooks"
-meta_description: "Flood damage restoration in Crooks, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Flood Damage Restoration in Crooks, SD | Crew Restoration & Construction"
+h1: "Emergency Flood Damage Restoration in Crooks"
+meta_description: "Emergency flood damage restoration in Crooks, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "flood damage restoration crooks"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

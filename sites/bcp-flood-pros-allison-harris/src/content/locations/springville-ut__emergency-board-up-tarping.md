@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Springville, UT | FIX Restoration"
-h1: "Board-Up and Tarping in Springville"
-meta_description: "Board-up and tarping in Springville, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Board-Up and Tarping in Springville, UT | FIX Restoration"
+h1: "Emergency Board-Up and Tarping in Springville"
+meta_description: "Emergency board-up and tarping in Springville, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "emergency board-up and tarping springville"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Springville? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Springville sits at the foot of the Wasatch Range, where late-spring windstorms can strip shingles in an afternoon and winter temperature swings, warm Chinook air followed by hard freezes, stress rooflines in ways that catch homeowners off guard. When a storm tears open a section of roof or a fire pushes out a window, the gap between the damage and the repair is where the real loss compounds: rain gets into the framing, smoke odor migrates through the house, and opportunistic entry becomes a real concern. FIX Restoration responds to those calls from its American Fork base, covering Springville properties with board-up and tarping work designed to stop the bleeding before the restoration clock runs any further.
 
 ## Why Springville Properties Are Vulnerable After Storm and Fire Events

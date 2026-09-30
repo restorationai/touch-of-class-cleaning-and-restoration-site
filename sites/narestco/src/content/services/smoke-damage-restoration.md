@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Smoke Damage Restoration in Federal Way | National Restoration Construction"
-h1: "Smoke Damage Restoration in Federal Way"
-meta_description: "24/7 smoke damage restoration in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Smoke Damage Restoration in Federal Way | National Restoration Construction"
+h1: "24/7 Emergency Smoke Damage Restoration in Federal Way"
+meta_description: "24/7 emergency smoke damage restoration in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "smoke damage restoration federal way"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "smoke-damage-restoration"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Federal Way? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Smoke doesn't stop damaging your home when the fire goes out. Within hours, acidic soot begins etching glass, pitting metal fixtures, and permanently yellowing painted surfaces. Within days, the odor, a complex mix of burned polymers, charred wood, and vaporized household chemicals, works its way into drywall cavities, HVAC ductwork, and the fibers of every soft surface in the building. National Restoration Construction responds to smoke damage calls across Federal Way and the surrounding Puget Sound region, stopping that clock before the damage becomes irreversible.
 
 ## How We Handle Smoke Damage

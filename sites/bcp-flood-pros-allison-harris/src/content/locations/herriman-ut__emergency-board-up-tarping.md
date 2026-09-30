@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Herriman, UT | FIX Restoration"
-h1: "Board-Up and Tarping in Herriman"
-meta_description: "Board-up and tarping in Herriman, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Board-Up and Tarping in Herriman, UT | FIX Restoration"
+h1: "Emergency Board-Up and Tarping in Herriman"
+meta_description: "Emergency board-up and tarping in Herriman, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "emergency board-up and tarping herriman"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Herriman? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Herriman sits at the base of the Oquirrh Mountains, where high-desert wind gusts and rapid freeze-thaw cycles through late winter and early spring can turn a broken window or lifted shingles into a much larger problem within hours. When a storm tears roofing material loose or a fire leaves an exterior wall exposed, the gap between the damage and a proper temporary seal is where secondary losses happen. FIX Restoration responds to those calls from our American Fork location, securing Herriman properties with structural board-up and heavy-duty roof tarping before the next weather event compounds what's already a stressful situation.
 
 ## Why Herriman Properties Are Particularly Vulnerable to Open-Structure Damage

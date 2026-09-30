@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Plano, TX | Reign Restoration"
-h1: "Fire Damage Restoration in Plano"
-meta_description: "24/7 fire damage restoration in Plano, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Fire Damage Restoration in Plano, TX | Reign Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Plano"
+meta_description: "24/7 emergency fire damage restoration in Plano, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "fire damage restoration plano"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

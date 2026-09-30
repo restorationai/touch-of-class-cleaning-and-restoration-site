@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Comanche, TX | Air Care Restoration"
-h1: "Storm Damage Restoration in Comanche"
-meta_description: "24/7 storm damage restoration in Comanche, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Storm Damage Restoration in Comanche, TX | Air Care Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Comanche"
+meta_description: "24/7 emergency storm damage restoration in Comanche, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "storm damage restoration comanche"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Comanche? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Comanche sits in the heart of the Texas Cross Timbers, where the open rolling terrain gives spring and summer thunderstorms almost nothing to slow them down before they reach your roof. Hail the size of quarters, straight-line winds that can top 70 mph, and the occasional tornado touchdown are part of life in Comanche County, and when that weather hits, the damage it leaves behind moves fast. Water intrudes through breached shingles within minutes, and structural stress from downed trees or debris can compromise framing that isn't immediately visible from the ground.
 
 ## Why Comanche Properties See Serious Storm Damage

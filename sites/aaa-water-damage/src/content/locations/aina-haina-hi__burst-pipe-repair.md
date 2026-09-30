@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Aina Haina, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Burst Pipe Cleanup and Repair in Aina Haina"
-meta_description: "24/7 burst pipe cleanup and repair in Aina Haina, HI. Call (808) 349-3407."
+title: "Emergency Burst Pipe Cleanup and Repair in Aina Haina, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Aina Haina"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Aina Haina, HI. Call (808) 349-3407."
 primary_keyword: "burst pipe cleanup and repair aina haina"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Aina Haina? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 When a pipe lets go inside a 1960s ranch home in Aina Haina Valley, the clock starts running faster than most homeowners expect. The original galvanized supply lines in these homes have been corroding from the inside out for decades, and the single-wall redwood construction that defines so much of this stretch between Kahala and Hawaii Kai acts like a sponge, water wicks into wall cavities and subfloor framing within minutes, not hours. If you're standing in a wet room right now, call (808) 349-3407 and we'll get crews moving.
 
 ## Why Aina Haina Properties See More Burst Pipe Events

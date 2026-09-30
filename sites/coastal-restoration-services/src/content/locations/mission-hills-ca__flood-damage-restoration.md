@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Mission Hills, CA | Coastal Restoration Services Inc"
-h1: "Flood Damage Restoration in Mission Hills"
-meta_description: "Flood damage restoration in Mission Hills, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Flood Damage Restoration in Mission Hills, CA | Coastal Restoration Services Inc"
+h1: "Emergency Flood Damage Restoration in Mission Hills"
+meta_description: "Emergency flood damage restoration in Mission Hills, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "flood damage restoration mission hills"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in American Fork, UT | Home Pride Restoration and Cleaning"
-h1: "Fire Damage Restoration in American Fork"
-meta_description: "24/7 fire damage restoration in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Fire Damage Restoration in American Fork, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Fire Damage Restoration in American Fork"
+meta_description: "24/7 emergency fire damage restoration in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "fire damage restoration american fork"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in American Fork? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 When a kitchen fire tears through a home near American Fork's older neighborhoods along 100 North or a garage blaze scorches a newer build in the Shadow Ridge area, the damage compounds fast, smoke infiltrates HVAC systems within hours, soot begins etching surfaces within days, and the dry Utah County air can lock odor molecules into porous materials before most homeowners even know where to start. Home Pride Restoration and Cleaning has been working fire damage scenes across the Wasatch Front since 1997, and the specific combination of American Fork's housing stock, elevation, and climate creates a fire restoration picture that looks different here than it does almost anywhere else in the valley.
 
 ## Why American Fork Properties See Distinct Fire Damage Patterns

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Lyman, MS | HomeLyft Restoration MS"
-h1: "Storm Damage Restoration in Lyman"
-meta_description: "Storm damage restoration in Lyman, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Storm Damage Restoration in Lyman, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Storm Damage Restoration in Lyman"
+meta_description: "24/7 emergency storm damage restoration in Lyman, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "storm damage restoration lyman"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Lyman? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Lyman sits squarely in the path of Gulf Coast weather systems that roll in from the south with little warning, the kind of storms that drop a 60-foot pine across a roofline in Harrison County before a homeowner has time to pull their car into the garage. When that happens, the damage compounds fast: wind-driven rain soaks into wall cavities, insulation loses its R-value overnight, and what looked like a roofing problem on Monday becomes a mold concern by the weekend. HomeLyft Restoration MS responds to storm damage in Lyman with the same IICRC-certified process we use across the Mississippi Gulf Coast, calibrated to the specific way these homes are built and the way these storms behave.
 
 ## Why Lyman Properties Are Vulnerable to Storm Damage

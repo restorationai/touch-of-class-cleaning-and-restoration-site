@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Cicero, IL | Dry Bros Water & Fire Restoration"
-h1: "Smoke Damage Restoration in Cicero"
-meta_description: "Smoke damage restoration in Cicero, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Smoke Damage Restoration in Cicero, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in Cicero"
+meta_description: "24/7 emergency smoke damage restoration in Cicero, IL. Insurance billing accepted. Call us now."
 primary_keyword: "smoke damage restoration cicero"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Cicero? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Cicero's dense residential blocks, row after row of brick two-flats and bungalows built between the 1910s and 1950s, hold onto smoke the way old masonry holds onto cold: deeply, invisibly, and long after the fire trucks have left. When a kitchen fire or an electrical blaze chars the interior of one of these tightly constructed homes, smoke residue doesn't just coat the walls. It migrates into plaster, burrows into the mortar between brick courses, and settles into the wooden subfloor beneath linoleum that's been layered over original hardwood for decades. Dry Bros Water & Fire Restoration responds to smoke damage calls across Cicero and the broader Cook County corridor, helping homeowners move from the acrid, lingering smell of a fire back to a livable, safe home.
 
 ## Why Cicero's Housing Stock Makes Smoke Damage Harder to Clear

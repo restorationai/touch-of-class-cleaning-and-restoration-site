@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Sewage Cleanup and Sanitization in Abilene | Air Care Restoration"
-h1: "Sewage Cleanup and Sanitization in Abilene"
-meta_description: "24/7 sewage cleanup and sanitization in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Abilene | Air Care Restoration"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Abilene"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "sewage cleanup and sanitization abilene"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Abilene? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows, what comes up with it is classified as Category 3 water, the most contaminated class of water loss, carrying bacteria, viruses, and parasites that can survive on porous surfaces for days. The smell hits first, usually in a bathroom or utility room, and the instinct is to grab a mop. That instinct is dangerous. Raw sewage contamination is not a cleanup job; it is a sanitization protocol, and the difference between those two things is what determines whether your home is actually safe to occupy again.
 
 ## What sewage cleanup and sanitization actually involves

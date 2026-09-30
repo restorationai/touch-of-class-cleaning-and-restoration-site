@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Seattle, WA | National Restoration Construction"
-h1: "Fire Damage Restoration in Seattle"
-meta_description: "24/7 fire damage restoration in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Fire Damage Restoration in Seattle, WA | National Restoration Construction"
+h1: "24/7 Emergency Fire Damage Restoration in Seattle"
+meta_description: "24/7 emergency fire damage restoration in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "fire damage restoration seattle"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

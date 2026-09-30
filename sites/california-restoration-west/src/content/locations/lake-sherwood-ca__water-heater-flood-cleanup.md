@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Heater Flood Cleanup in Lake Sherwood, CA | California Restoration West "
-h1: "Water Heater Flood Cleanup in Lake Sherwood"
-meta_description: "24/7 water heater flood cleanup in Lake Sherwood, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "Emergency Water Heater Flood Cleanup in Lake Sherwood, CA | California Restoration West "
+h1: "24/7 Emergency Water Heater Flood Cleanup in Lake Sherwood"
+meta_description: "24/7 emergency water heater flood cleanup in Lake Sherwood, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "water heater flood cleanup lake sherwood"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"

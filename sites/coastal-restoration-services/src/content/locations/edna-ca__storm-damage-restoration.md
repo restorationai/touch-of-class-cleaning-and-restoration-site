@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Edna, CA | Coastal Restoration Services Inc"
-h1: "Storm Damage Restoration in Edna"
-meta_description: "Storm damage restoration in Edna, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Storm Damage Restoration in Edna, CA | Coastal Restoration Services Inc"
+h1: "Emergency Storm Damage Restoration in Edna"
+meta_description: "Emergency storm damage restoration in Edna, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "storm damage restoration edna"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Edna? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 When a Pacific storm system pushes inland through San Luis Obispo County, Edna sits in a geographic pocket that can funnel wind and rain in ways that catch property owners off guard. The area's mix of agricultural land, older ranch-style homes, and proximity to the Santa Maria Valley means a single severe weather event can leave behind downed trees across driveways, compromised rooflines, and standing water that has nowhere to drain quickly. Coastal Restoration Services Inc responds to that kind of damage, the kind that doesn't wait for a convenient moment.
 
 ## Why Edna Properties See Storm Damage Issues

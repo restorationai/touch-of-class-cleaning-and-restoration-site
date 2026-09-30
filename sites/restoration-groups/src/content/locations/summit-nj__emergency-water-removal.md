@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Summit, NJ | The Restoration Group"
-h1: "Emergency Water Removal & Cleanup in Summit"
+title: "24/7 Emergency Water Removal & Cleanup in Summit, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Removal & Cleanup in Summit"
 meta_description: "24/7 emergency water removal and cleanup in Summit, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "emergency water removal summit"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Summit? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to extract the water and start drying.
+
 Summit's steep hillside lots and century-old housing stock create a particular kind of water damage problem, one that rarely announces itself at the front door. More often, it's a failed copper supply line inside a plaster wall, a clay sewer lateral overwhelmed by root intrusion beneath a Springfield Avenue street tree, or a freeze event that bursts an uninsulated radiator line in a back wing that hasn't been properly heated since the 1940s. When water finds its way into a finished basement or behind original millwork in a 1910 Colonial, the clock starts immediately, and the margin for error is narrow.
 
 ## Why Summit Properties See Water Damage Differently

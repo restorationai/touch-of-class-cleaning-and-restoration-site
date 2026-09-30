@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Hoboken, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Hoboken"
-meta_description: "24/7 smoke damage restoration in Hoboken, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Hoboken, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Hoboken"
+meta_description: "24/7 emergency smoke damage restoration in Hoboken, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration hoboken"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Hoboken? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 Smoke from a kitchen fire or an electrical fault doesn't stop moving when the flames go out. In Hoboken's dense rows of 19th-century brownstones and brick rowhomes, buildings where interior walls share party-wall stacks and HVAC chases run between units, smoke residue migrates faster and farther than most homeowners expect. By the time the fire department clears the scene, soot has already settled into plaster ceilings, crept behind baseboards, and embedded itself in the porous brick that gives Downtown Hoboken its character. Acting within the first few hours matters more here than almost anywhere else.
 
 ## Why Hoboken Properties Face Distinct Smoke Damage Challenges

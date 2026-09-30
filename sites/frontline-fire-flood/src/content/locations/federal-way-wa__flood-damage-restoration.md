@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Federal Way, WA | Frontline Fire & Flood"
-h1: "Flood Damage Restoration in Federal Way"
-meta_description: "24/7 flood damage restoration in Federal Way, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Flood Damage Restoration in Federal Way, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Flood Damage Restoration in Federal Way"
+meta_description: "24/7 emergency flood damage restoration in Federal Way, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "flood damage restoration federal way"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

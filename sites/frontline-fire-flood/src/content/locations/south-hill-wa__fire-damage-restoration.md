@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in South Hill, WA | Frontline Fire & Flood"
-h1: "Fire Damage Restoration in South Hill"
-meta_description: "24/7 fire damage restoration in South Hill, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Fire Damage Restoration in South Hill, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Fire Damage Restoration in South Hill"
+meta_description: "24/7 emergency fire damage restoration in South Hill, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration south hill"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in South Hill? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 South Hill sits in a part of Pierce County where wood-framed construction dominates the residential landscape, the kind of platform-frame homes built rapidly during the area's growth decades that, when fire touches them, can move smoke and char through wall cavities faster than the flames themselves travel. If you're dealing with fire damage in South Hill right now, the visible scorching is rarely the whole story. Soot has already settled into HVAC ductwork, insulation, and the gaps between subfloor layers while you were waiting for the fire department to clear the scene.
 
 ## Why South Hill Properties See Fire Damage Spread Differently

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Petal, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Petal"
-meta_description: "Sewage cleanup and sanitization in Petal, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Petal, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Petal"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Petal, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization petal"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Petal? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Sewage backing up into a Petal home hits differently than a simple water leak. The humid, subtropical climate of Forrest County means that raw sewage, whether from a sewer line backup, a failed septic system, or a municipal main overflow, begins generating dangerous bacterial and viral contamination almost immediately, and the warm temperatures that define Mississippi summers accelerate that process. If you're dealing with standing sewage in a bathroom, crawl space, or utility room in Petal right now, the clock is already running.
 
 ## Why Petal Properties See Sewage Backup Issues

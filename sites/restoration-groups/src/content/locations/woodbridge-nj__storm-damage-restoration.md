@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Woodbridge, NJ | The Restoration Group"
-h1: "Storm Damage Restoration in Woodbridge"
-meta_description: "24/7 storm damage restoration in Woodbridge, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Storm Damage Restoration in Woodbridge, NJ | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Woodbridge"
+meta_description: "24/7 emergency storm damage restoration in Woodbridge, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "storm damage restoration woodbridge"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Woodbridge? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 When Tropical Storm Ida tore through central New Jersey in September 2021, Woodbridge Township absorbed some of the worst of it, the Rahway River and Woodbridge River overflowed into low-lying streets in Sewaren and Port Reading, stripping siding, collapsing fences, and driving floodwater into finished basements that hadn't seen a drop of standing water in decades. That kind of storm doesn't announce itself with enough warning to move furniture, and the damage it leaves behind, saturated framing, wind-torn rooflines, downed trees punching through garage roofs, demands a fast, methodical response. The Restoration Group operates 24/7 and can be reached at (855) 650-7422 the moment the weather clears enough to assess.
 
 ## Why Woodbridge Properties See Repeated Storm Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in University Place, WA | National Restoration Construction"
-h1: "Smoke Damage Restoration in University Place"
-meta_description: "24/7 smoke damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "Emergency Smoke Damage Restoration in University Place, WA | National Restoration Construction"
+h1: "24/7 Emergency Smoke Damage Restoration in University Place"
+meta_description: "24/7 emergency smoke damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "smoke damage restoration university place"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in University Place? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Smoke doesn't stop moving when the flames go out. In University Place's 1960s and '70s ramblers and split-levels, the kind of low-slung wood-frame homes that line the streets of Beckonridge and Sunset Terrace, smoke particles work their way into ceiling cavities, crawl spaces, and the narrow wall bays between original studs within hours of a fire. By the time the fire department clears the scene, soot has already begun bonding to every porous surface it touched. National Restoration Construction (206) 883-0333 responds to smoke damage calls across the 98466 and 98467 ZIP codes, and we know what these homes hold onto.
 
 ## Why University Place Homes Hold Smoke Longer

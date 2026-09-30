@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Sandy Valley, NV | Life Savers Restoration LLC"
-h1: "Smoke Damage Restoration in Sandy Valley"
-meta_description: "24/7 smoke damage restoration in Sandy Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
+title: "24/7 Emergency Smoke Damage Restoration in Sandy Valley, NV | Life Savers Restoration LLC"
+h1: "24/7 Emergency Smoke Damage Restoration in Sandy Valley"
+meta_description: "24/7 emergency smoke damage restoration in Sandy Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
 primary_keyword: "smoke damage restoration sandy valley"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

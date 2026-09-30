@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Cambria, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Cambria"
-meta_description: "Board-up and tarping in Cambria, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Cambria, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Cambria"
+meta_description: "Emergency board-up and tarping in Cambria, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping cambria"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Cambria? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Cambria sits on a narrow coastal shelf where Pacific storms roll in fast, wildfire embers drift down from the Santa Lucia Range, and the salt air works on wood-framed structures year-round. When a broken window, a fire-damaged wall, or a storm-peeled roof section leaves your property exposed, every hour of delay compounds the loss, marine moisture finds open cavities quickly, and a structure that was stable at noon can have saturated insulation and swelling framing by nightfall. Coastal Restoration Services Inc responds to board-up and tarping calls throughout Cambria, securing properties before secondary damage takes hold.
 
 ## Why Cambria Properties Are Especially Vulnerable After Structural Damage

@@ -1,7 +1,7 @@
 ---
 archetype: "service-landing"
-title: "Emergency Water Removal & Cleanup in Kenilworth | The Restoration Group"
-h1: "Emergency Water Removal & Cleanup in Kenilworth"
+title: "24/7 Emergency Water Removal & Cleanup in Kenilworth | The Restoration Group"
+h1: "24/7 Emergency Water Removal & Cleanup in Kenilworth"
 meta_description: "24/7 emergency water removal and cleanup in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "emergency water removal kenilworth"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

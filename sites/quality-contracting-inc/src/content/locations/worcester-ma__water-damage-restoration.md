@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Worcester, MA | Quality Contracting, Inc."
-h1: "Water Damage Restoration in Worcester"
-meta_description: "Water damage restoration in Worcester, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Water Damage Restoration in Worcester, MA | Quality Contracting, Inc."
+h1: "Emergency Water Damage Restoration in Worcester"
+meta_description: "Emergency water damage restoration in Worcester, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "water damage restoration worcester"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Worcester? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Worcester's flat-roofed triple-deckers were built for a different era of plumbing, cast-iron drain stacks, shared risers running three stories, and roof membranes that have been patched more times than most owners can count. When one of those systems fails during a January freeze or a heavy spring rain, water doesn't just pool on the floor; it travels through ceiling joists, down wall cavities, and into the unit below before anyone realizes there's a problem. Quality Contracting, Inc. handles water damage restoration across Worcester and reaches the city quickly from our Auburn base, just off I-290.
 
 ## Why Worcester Properties See Water Damage Differently

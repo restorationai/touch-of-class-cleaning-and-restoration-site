@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Hollywood, FL | RestorationXpress "
-h1: "Water Damage Restoration in Hollywood"
-meta_description: "Water damage restoration in Hollywood, FL. Insurance billing accepted. Call (954) 932-5420."
+title: "Emergency Water Damage Restoration in Hollywood, FL | RestorationXpress "
+h1: "Emergency Water Damage Restoration in Hollywood"
+meta_description: "Emergency water damage restoration in Hollywood, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "water damage restoration hollywood"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Hollywood? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Hollywood's proximity to the Atlantic and the Intracoastal Waterway means water intrusion here rarely follows a simple script. A slow leak behind a wall in a 1960s Hollywood Lakes bungalow can saturate cypress framing and original terrazzo subfloors long before a homeowner notices the smell, and by then, the window for straightforward drying has already closed. RestorationXpress responds to water damage calls across Hollywood and the surrounding South Broward corridor, bringing industrial extraction and structural drying equipment to properties that range from beachside cottages to newer HOA communities inland.
 
 ## Why Hollywood Properties See More Water Damage Than You'd Expect

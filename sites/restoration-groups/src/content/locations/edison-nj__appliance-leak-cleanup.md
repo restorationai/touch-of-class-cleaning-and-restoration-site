@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Edison, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in Edison"
-meta_description: "24/7 appliance leak cleanup in Edison, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Appliance Leak Cleanup in Edison, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Edison"
+meta_description: "24/7 emergency appliance leak cleanup in Edison, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "appliance leak cleanup edison"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Edison? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 A dishwasher that quietly leaked under the toe-kick for two weeks, a washing machine supply hose that finally gave out on a Saturday morning, a refrigerator ice maker line that dripped unnoticed behind a finished wall, these are the calls that come out of Edison's postwar split-levels and colonials every week. Because so much of the township's housing stock was built in the 1950s and 60s with original galvanized supply lines still in place, a single failed appliance connection can push water into a finished basement before anyone realizes there's a problem. When that happens, the clock matters: mold can begin colonizing wet framing and drywall in as little as 24 to 48 hours.
 
 ## Why Edison Homes See More Appliance Leak Damage Than You'd Expect

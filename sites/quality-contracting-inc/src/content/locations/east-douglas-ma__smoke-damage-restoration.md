@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in East Douglas, MA | Quality Contracting, Inc."
-h1: "Smoke Damage Restoration in East Douglas"
-meta_description: "Smoke damage restoration in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Smoke Damage Restoration in East Douglas, MA | Quality Contracting, Inc."
+h1: "Emergency Smoke Damage Restoration in East Douglas"
+meta_description: "Emergency smoke damage restoration in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "smoke damage restoration east douglas"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

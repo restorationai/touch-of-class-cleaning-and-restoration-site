@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Union, NJ | The Restoration Group"
-h1: "Emergency Water Removal & Cleanup in Union"
+title: "24/7 Emergency Water Removal & Cleanup in Union, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Removal & Cleanup in Union"
 meta_description: "24/7 emergency water removal and cleanup in Union, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "emergency water removal union"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

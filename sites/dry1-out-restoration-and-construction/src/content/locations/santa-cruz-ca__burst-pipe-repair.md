@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Santa Cruz, CA | Dry1 Out Restoration and Construction"
-h1: "Burst Pipe Cleanup and Repair in Santa Cruz"
-meta_description: "24/7 burst pipe cleanup and repair in Santa Cruz, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+title: "Emergency Burst Pipe Cleanup and Repair in Santa Cruz, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Santa Cruz"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Santa Cruz, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "burst pipe cleanup and repair santa cruz"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

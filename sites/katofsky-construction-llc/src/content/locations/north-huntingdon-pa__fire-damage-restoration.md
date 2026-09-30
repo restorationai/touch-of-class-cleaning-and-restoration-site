@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in North Huntingdon, PA | Katofsky Construction LLC"
-h1: "Fire Damage Restoration in North Huntingdon"
-meta_description: "24/7 fire damage restoration in North Huntingdon, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "Emergency Fire Damage Restoration in North Huntingdon, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Fire Damage Restoration in North Huntingdon"
+meta_description: "24/7 emergency fire damage restoration in North Huntingdon, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "fire damage restoration north huntingdon"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in North Huntingdon? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 A house fire in North Huntingdon leaves more than charred walls. The smoke travels fast through the ductwork of the split-level and colonial homes that define much of this Westmoreland County township, and the residue it deposits keeps working long after the flames are out. Soot is acidic. Within days it etches metal fixtures, discolors grout, and begins breaking down the finish on wood trim. Getting a trained crew on-site quickly is not about optics; it is about stopping a second wave of damage before it compounds the first.
 
 ## Why North Huntingdon Properties Are Particularly Vulnerable After a Fire

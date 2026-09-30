@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Elizabeth, NJ | The Restoration Group"
-h1: "Fire Damage Restoration in Elizabeth"
-meta_description: "24/7 fire damage restoration in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Fire Damage Restoration in Elizabeth, NJ | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in Elizabeth"
+meta_description: "24/7 emergency fire damage restoration in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "fire damage restoration elizabeth"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Elizabeth? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and start the recovery.
+
 A kitchen fire in a two-family frame house on the Elmora side of Elizabeth doesn't stay a kitchen problem for long. Smoke travels through shared wall cavities, soot settles into the second-floor unit, and the landlord is fielding calls from two sets of tenants before the fire department has even cleared the scene. Elizabeth's dense stock of early-1900s multifamily construction, wood-frame buildings with balloon framing, plaster walls, and minimal fire-stopping between floors, means a single-room fire can contaminate a structure in ways that don't show up until a restoration crew starts pulling trim and testing air quality. The Restoration Group responds 24/7 from our Kenilworth shop, roughly ten minutes from most Elizabeth addresses, to document, stabilize, and restore.
 
 ## Why Elizabeth's Building Stock Complicates Fire Damage

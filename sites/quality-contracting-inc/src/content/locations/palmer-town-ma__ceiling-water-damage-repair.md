@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Palmer Town, MA | Quality Contracting, Inc."
-h1: "Ceiling Water Damage Repair in Palmer Town"
-meta_description: "Ceiling water damage repair in Palmer Town, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Ceiling Water Damage Repair in Palmer Town, MA | Quality Contracting, Inc."
+h1: "Emergency Ceiling Water Damage Repair in Palmer Town"
+meta_description: "Emergency ceiling water damage repair in Palmer Town, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "ceiling water damage repair palmer town"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

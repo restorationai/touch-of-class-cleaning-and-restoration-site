@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Alton, IA | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Alton"
-meta_description: "Water damage restoration in Alton, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Alton, IA | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Alton"
+meta_description: "Emergency water damage restoration in Alton, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration alton"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Alton? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 The Floyd River that runs along the edge of Alton, IA has a way of reminding homeowners just how quickly standing water becomes a structural problem. Spring snowmelt and heavy summer storms push that river higher than most years, and when drainage backs up in the 51003 ZIP code, whether from a flooded basement, a burst supply line, or a failed sump pump, water finds its way into wall cavities, under flooring, and into the framing before most people realize the damage has started. Crew Restoration & Construction responds to water damage calls across Sioux County, including Alton, with the equipment and trained crews to stop the spread and dry the structure before secondary damage sets in.
 
 ## Why Alton Properties See Water Damage Issues

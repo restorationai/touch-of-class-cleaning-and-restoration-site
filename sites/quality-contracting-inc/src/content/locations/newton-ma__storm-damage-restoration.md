@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Newton, MA | Quality Contracting, Inc."
-h1: "Storm Damage Restoration in Newton"
-meta_description: "Storm damage restoration in Newton, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Storm Damage Restoration in Newton, MA | Quality Contracting, Inc."
+h1: "Emergency Storm Damage Restoration in Newton"
+meta_description: "Emergency storm damage restoration in Newton, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "storm damage restoration newton"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Newton? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Newton sits in one of Massachusetts' most storm-exposed suburban corridors, where nor'easters rolling in off the Atlantic can drop a foot of wet snow overnight and summer thunderstorms routinely topple the mature oaks and maples that line the city's older residential streets. When a tree comes through a roof or a microburst peels back siding, the clock starts immediately, water follows the path of least resistance into wall cavities, attic insulation, and the plaster ceilings common in Newton's pre-war housing stock. Quality Contracting, Inc. responds to storm damage calls across Newton and coordinates the full scope of work from emergency board-up through structural repair.
 
 ## Why Newton Properties See Significant Storm Damage

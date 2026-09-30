@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Westfield, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in Westfield"
-meta_description: "24/7 appliance leak cleanup in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Appliance Leak Cleanup in Westfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Westfield"
+meta_description: "24/7 emergency appliance leak cleanup in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "appliance leak cleanup westfield"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Westfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 A refrigerator ice maker line that weeps for weeks behind a built-in cabinet, or a washing machine hose that lets go overnight, in Westfield's stock of Victorian, Tudor, and center-hall colonials, those events hit differently than they do in newer construction. Plaster walls and original hardwood floors absorb standing water faster than you'd expect, finished basements in neighborhoods like Wychwood and The Gardens can sustain five-figure losses in a single evening, and the century-old infrastructure hiding inside these walls means the source of a leak isn't always where the water shows up. The Restoration Group responds 24/7 from Kenilworth to contain the damage before it compounds.
 
 ## Why Westfield Homes See Appliance Leak Damage Differently

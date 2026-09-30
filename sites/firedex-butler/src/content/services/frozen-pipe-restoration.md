@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Frozen Pipe Restoration in Cranberry Township | FireDEX Butler"
-h1: "Frozen Pipe Restoration in Cranberry Township"
-meta_description: "24/7 frozen pipe restoration in Cranberry Township and surrounding areas. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Frozen Pipe Restoration in Cranberry Township | FireDEX Butler"
+h1: "24/7 Emergency Frozen Pipe Restoration in Cranberry Township"
+meta_description: "24/7 emergency frozen pipe restoration in Cranberry Township and surrounding areas. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "frozen pipe restoration cranberry township"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "frozen-pipe-restoration"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Cranberry Township? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 ## When a frozen pipe thaws, the real damage is just getting started
 
 The pipe itself freezing is not the crisis, the crisis is the 30 to 90 seconds after it thaws. A single half-inch copper supply line running through an uninsulated exterior wall can release 250 gallons of water in an hour once pressure returns. By the time you hear water running somewhere it shouldn't, it has already traveled behind drywall, soaked into subfloor sheathing, and begun wicking up wall cavities. Frozen pipe restoration is not just plumbing, it is a race against secondary damage that starts the moment the ice lets go.

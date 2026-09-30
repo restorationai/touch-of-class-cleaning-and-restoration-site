@@ -1,9 +1,9 @@
 ---
 hero: '/images/services/storm-damage-restoration.webp'
 archetype: "service-landing"
-title: "Storm Damage Restoration in Saratoga Springs | Home Pride Restoration and Cleaning"
-h1: "Storm Damage Restoration in Saratoga Springs"
-meta_description: "24/7 storm damage restoration in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Storm Damage Restoration in Saratoga Springs | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Storm Damage Restoration in Saratoga Springs"
+meta_description: "24/7 emergency storm damage restoration in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "storm damage restoration saratoga springs"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -18,6 +18,9 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Saratoga Springs? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 A storm doesn't announce when it's done damaging your home. The wind stops, the rain moves on, and then the real problems start. Water pools under roof decking before you notice the ceiling stain. A downed tree punches through the fascia and leaves a gap that soaks the wall cavity for days. Hail cracks flashing that looks fine from the ground but lets every subsequent rain in deeper. Storm damage restoration is the work of finding every entry point, stopping the bleeding, and rebuilding what the weather took apart, before secondary damage turns a repair into a reconstruction.
 
 ## What storm damage restoration actually involves

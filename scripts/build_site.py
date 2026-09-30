@@ -1572,6 +1572,26 @@ def update_content_md(
         if isinstance(faq, list) else faq
     fm = {k: _no_em(v) for k, v in fm.items()}
 
+    # EMERGENCY NAMING RULE (Santino 2026-09-30, scripts/emergency_naming.py):
+    # an URGENT service page (and its city variants) opens with one
+    # emergency-response line; "We answer 24/7" only on 24/7 truth, an
+    # on-site time only when brand.response_minutes is on file. Title/H1
+    # leads come from the plan; this pins the opening line on every render.
+    if arc in ("service-landing", "service-area-service"):
+        try:
+            import emergency_naming as _en
+            _slug = site_dir.name
+            _svc = str(fm.get("service_slug") or "")
+            _tr = _en.truth(_slug)
+            if _en.applies(_slug, _svc, _tr):
+                _city = str(fm.get("city") or "")
+                if not _city:
+                    _m = re.match(r"^.+? in (.+)$", str(fm.get("h1") or ""))
+                    _city = _m.group(1).strip() if _m else ""
+                body_markdown = _en.with_opening(body_markdown, _en.family(_svc, _slug), _city, _tr)
+        except Exception as _e:  # noqa: BLE001 -- a render never fails over the opening line
+            print(f"      emergency opening skipped ({str(_e)[:80]})")
+
     # Update render-specific fields
     fm["faq"] = faq
     fm["generated_at"] = now_iso()

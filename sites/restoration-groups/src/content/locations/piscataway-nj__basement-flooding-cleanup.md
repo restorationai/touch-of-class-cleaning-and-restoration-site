@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Piscataway, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in Piscataway"
-meta_description: "24/7 basement flooding cleanup in Piscataway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Basement Flooding Cleanup in Piscataway, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Piscataway"
+meta_description: "24/7 emergency basement flooding cleanup in Piscataway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "basement flooding cleanup piscataway"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Piscataway? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 When the Raritan River crests after a heavy storm, properties along River Road and the Johnson Park flatlands don't just get wet, they get inundated fast, sometimes with several inches of murky water pushing through foundation walls before the rain has even stopped. Piscataway's position in the Raritan Valley means that events like Ida in 2021 aren't anomalies; they're a recurring pattern that the township's older housing stock, postwar capes, split-levels, and finished basements throughout neighborhoods like Stelton and Possumtown, was simply not built to handle without professional intervention.
 
 ## Why Piscataway Properties See Basement Flooding Issues

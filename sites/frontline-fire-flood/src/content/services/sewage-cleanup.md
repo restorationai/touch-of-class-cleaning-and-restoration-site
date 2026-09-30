@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Sewage Cleanup and Sanitization in Lakewood | Frontline Fire & Flood"
-h1: "Sewage Cleanup and Sanitization in Lakewood"
-meta_description: "24/7 sewage cleanup and sanitization in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Lakewood | Frontline Fire & Flood"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Lakewood"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "sewage cleanup and sanitization lakewood"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Lakewood? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows, the clock starts immediately, not because of the water, but because of what's in it. Raw sewage carries bacteria, viruses, and parasites classified as Category 3 "black water" under the IICRC S500 standard, meaning any porous material it contacts is considered contaminated and typically cannot be restored. Within hours, pathogens begin migrating beyond the visible wet zone. What looks like a contained mess in a basement bathroom is often already inside the subfloor, wicking up drywall, and soaking into insulation you can't see from the doorway.
 
 ## What sewage cleanup and sanitization actually involves

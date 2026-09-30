@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Camp Pendleton Mainside, CA | Flood Fixers"
-h1: "Burst Pipe Cleanup and Repair in Camp Pendleton Mainside"
-meta_description: "24/7 burst pipe cleanup and repair in Camp Pendleton Mainside, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "Emergency Burst Pipe Cleanup and Repair in Camp Pendleton Mainside | Flood Fixers"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Camp Pendleton Mainside"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Camp Pendleton Mainside, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "burst pipe cleanup and repair camp pendleton mainside"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

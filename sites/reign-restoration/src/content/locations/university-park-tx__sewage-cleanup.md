@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in University Park, TX | Reign Restoration"
-h1: "Sewage Cleanup and Sanitization in University Park"
-meta_description: "24/7 sewage cleanup and sanitization in University Park, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "Emergency Sewage Cleanup and Sanitization in University Park | Reign Restoration"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in University Park"
+meta_description: "24/7 emergency sewage cleanup and sanitization in University Park, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "sewage cleanup and sanitization university park"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

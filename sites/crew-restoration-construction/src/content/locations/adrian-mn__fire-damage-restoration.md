@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Adrian, MN | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Adrian"
-meta_description: "Fire damage restoration in Adrian, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Adrian, MN | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Adrian"
+meta_description: "Emergency fire damage restoration in Adrian, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration adrian"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Adrian? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When a fire tears through a home along the quiet streets near Downtown Adrian or out past the grain elevators on the edge of town, the damage rarely stops at the charred walls. Smoke migrates through every gap, into closets, ductwork, attic insulation, while water from suppression efforts soaks into subfloors and wall cavities before the last ember cools. In a small Nobles County community like Adrian (ZIP 56110), where neighbors know each other and a single house fire draws half the block outside, getting the right restoration crew on-site fast matters as much as the work itself.
 
 ## Why Adrian Properties See Particular Fire Damage Challenges

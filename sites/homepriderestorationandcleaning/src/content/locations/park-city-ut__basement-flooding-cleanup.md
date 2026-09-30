@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Park City, UT | Home Pride Restoration and Cleaning"
-h1: "Basement Flooding Cleanup in Park City"
-meta_description: "24/7 basement flooding cleanup in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Basement Flooding Cleanup in Park City, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Basement Flooding Cleanup in Park City"
+meta_description: "24/7 emergency basement flooding cleanup in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "basement flooding cleanup park city"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Park City? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Park City's snowmelt season hits fast. When the Wasatch snowpack starts releasing in late March and April, water doesn't just run off, it saturates the ground around foundations that have been frozen solid all winter, then suddenly can't drain. If your basement is taking on water right now, you're likely dealing with that exact pressure: hydrostatic force pushing through foundation walls or floor seams, not a simple pipe drip. Home Pride Restoration and Cleaning has been responding to exactly this kind of flooding since 1997, and the conditions here require a different approach than a typical valley flood call.
 
 ## Why Park City Basements Flood Differently Than Most Utah Homes

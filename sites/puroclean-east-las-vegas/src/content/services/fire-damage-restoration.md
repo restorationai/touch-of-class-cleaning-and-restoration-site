@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Las Vegas | PuroClean of East Las Vegas"
-h1: "Fire Damage Restoration in Las Vegas"
-meta_description: "Fire damage restoration in Las Vegas and surrounding areas. Insurance billing accepted. Call +17025513040."
+title: "Emergency Fire Damage Restoration in Las Vegas | PuroClean of East Las Vegas"
+h1: "Emergency Fire Damage Restoration in Las Vegas"
+meta_description: "Emergency fire damage restoration in Las Vegas and surrounding areas. Insurance billing accepted. Call +17025513040."
 primary_keyword: "fire damage restoration las vegas"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Las Vegas? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 ## What fire damage restoration actually involves
 
 The fire is out, but the damage is still spreading. Within hours of extinguishment, acidic soot begins etching metal fixtures, yellowing wall paint, and permanently staining grout. Smoke odor migrates into wall cavities, HVAC ductwork, and soft furnishings, often in rooms that never saw a flame. The water from suppression efforts soaks into subfloors and drywall, creating a secondary damage layer that can go unnoticed for days. Fire damage restoration is a race against chemistry as much as a cleanup job.

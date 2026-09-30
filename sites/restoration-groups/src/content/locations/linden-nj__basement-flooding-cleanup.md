@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Linden, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in Linden"
-meta_description: "24/7 basement flooding cleanup in Linden, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Basement Flooding Cleanup in Linden, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Linden"
+meta_description: "24/7 emergency basement flooding cleanup in Linden, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "basement flooding cleanup linden"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Linden? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 When the Rahway River or Morses Creek overtops its banks, as both did during Ida in 2021, low-lying streets in Tremley Point can go from dry to ankle-deep in hours. But most of the flooded basement calls we take in Linden, NJ 07036 aren't storm events at all: they're a cast-iron drain that finally gave out under a 1950s split-level, or a supply line that let go behind the utility wall of a finished basement someone converted into a family room twenty years ago. Either way, standing water in a basement starts damaging structural framing, insulation, and drywall within the first few hours, and mold can begin colonizing porous materials in as little as 24 to 48 hours.
 
 ## Why Linden Properties See Basement Flooding More Than Most

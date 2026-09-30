@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Grove City, PA | DISS Restoration"
-h1: "Water Damage Restoration in Grove City"
-meta_description: "24/7 water damage restoration in Grove City, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Water Damage Restoration in Grove City, PA | DISS Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Grove City"
+meta_description: "24/7 emergency water damage restoration in Grove City, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "water damage restoration grove city"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Grove City? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Grove City sits in a part of western Pennsylvania where the ground stays saturated well into spring, basement walls in older neighborhoods take on water every time snowmelt and rain arrive together, and the clay-heavy soil beneath many homes drains slowly enough that a sump pump failure can mean several inches of standing water before the homeowner even realizes something is wrong. When that happens, the clock matters: mold can begin colonizing wet framing and insulation within 24 to 48 hours, and the longer water sits behind plaster or beneath hardwood, the more structural material ends up in a dumpster instead of a drying chamber. DISS Restoration responds 24/7 and can be reached directly at (724) 981-1441.
 
 ## Why Grove City Properties See Water Damage Issues

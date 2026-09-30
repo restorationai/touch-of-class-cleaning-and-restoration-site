@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Trauma Scene Cleanup in Port Orchard, WA | National Restoration Construction"
-h1: "Trauma Scene Cleanup in Port Orchard"
-meta_description: "24/7 trauma scene cleanup in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Trauma Scene Cleanup in Port Orchard, WA | National Restoration Construction"
+h1: "24/7 Emergency Trauma Scene Cleanup in Port Orchard"
+meta_description: "24/7 emergency trauma scene cleanup in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "trauma scene cleanup port orchard"
 secondary_keywords: ["trauma cleanup services", "trauma scene cleaning", "accident scene cleanup", "crime and trauma decontamination", "emergency trauma cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Trauma Scene Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Port Orchard? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something traumatic happens in a home or business near the Sinclair Inlet waterfront, the last thing a family should have to manage is the cleanup. Port Orchard's mix of older mid-century homes along Bay Street, rural acreage properties on private septic systems, and newer developments like McCormick Woods means the physical conditions of each scene vary widely, and so does the coordination required to handle it properly. National Restoration Construction responds to trauma scene calls throughout the 98366 and 98367 ZIP codes with certified technicians, full discretion, and direct insurance billing so families can focus on what actually matters.
 
 ## What Trauma Scene Cleanup Involves in Port Orchard

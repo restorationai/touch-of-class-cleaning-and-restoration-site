@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Cottonwood Heights, UT | FIX Restoration"
-h1: "Water Damage Restoration in Cottonwood Heights"
-meta_description: "Water damage restoration in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Damage Restoration in Cottonwood Heights, UT | FIX Restoration"
+h1: "Emergency Water Damage Restoration in Cottonwood Heights"
+meta_description: "Emergency water damage restoration in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water damage restoration cottonwood heights"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Cottonwood Heights? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Cottonwood Heights sits at the base of the Wasatch Range, where snowmelt season runs long and the freeze-thaw cycle can stress aging supply lines and foundation walls well into April. When a pipe lets go or a finished basement takes on water, the elevation and soil conditions here mean moisture travels fast and hides in places a surface reading won't catch. FIX Restoration responds to water damage calls throughout Cottonwood Heights, bringing professional extraction and structural drying equipment to homes and commercial properties across the city.
 
 ## Why Cottonwood Heights Properties See Water Damage Issues

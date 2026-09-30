@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in Honolulu | AAA Water Damage Restoration & Carpet Care"
-h1: "Water Damage Restoration in Honolulu"
-meta_description: "24/7 water damage restoration in Honolulu and surrounding areas. Call (808) 349-3407."
+title: "24/7 Emergency Water Damage Restoration in Honolulu | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Damage Restoration in Honolulu"
+meta_description: "24/7 emergency water damage restoration in Honolulu and surrounding areas. Call (808) 349-3407."
 primary_keyword: "water damage restoration honolulu"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Honolulu? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Standing water doesn't wait. Within the first hour after a pipe bursts or a washing machine line fails, water is already wicking into drywall, traveling under baseboards, and soaking into the subfloor beneath your feet, none of it visible from the surface. By 24 to 48 hours, that hidden moisture becomes the conditions mold needs to take hold. Water damage restoration is the work of stopping that clock: removing the water, drying the structure completely, and verifying with instruments that the moisture is actually gone, not just that the surface feels dry.
 
 ## What water damage restoration actually involves

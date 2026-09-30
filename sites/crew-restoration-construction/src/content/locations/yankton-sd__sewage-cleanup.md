@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Yankton, SD | Crew Restoration & Construction"
-h1: "Sewage Cleanup and Sanitization in Yankton"
-meta_description: "Sewage cleanup and sanitization in Yankton, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Sewage Cleanup and Sanitization in Yankton, SD | Crew Restoration & Construction"
+h1: "Emergency Sewage Cleanup and Sanitization in Yankton"
+meta_description: "Emergency sewage cleanup and sanitization in Yankton, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "sewage cleanup and sanitization yankton"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Yankton? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows in Yankton, the damage moves fast, raw sewage soaks into subfloor framing, wicks up drywall, and leaves behind pathogens that don't disappear when the water recedes. Yankton's older residential neighborhoods, many of them built on lots that drain toward the Missouri River corridor, can see compounding problems when spring snowmelt or heavy rain saturates the ground and overwhelms aging lateral lines. That combination of aging infrastructure and saturated clay soils makes sewage events here more involved than a simple pump-and-dry job.
 
 ## Why Yankton Properties See Sewage Backup Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard and Trauma Cleanup in University Place, WA | National Restoration Construction"
-h1: "Biohazard and Trauma Cleanup in University Place"
-meta_description: "24/7 biohazard and trauma cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "Emergency Biohazard and Trauma Cleanup in University Place | National Restoration Construction"
+h1: "24/7 Emergency Biohazard and Trauma Cleanup in University Place"
+meta_description: "24/7 emergency biohazard and trauma cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "biohazard and trauma cleanup university place"
 secondary_keywords: ["trauma scene cleanup", "unattended death cleanup", "blood cleanup", "bodily fluid cleanup", "biohazard remediation"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard and Trauma Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in University Place? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something traumatic happens inside a home, an unattended death, a serious accident, a situation involving blood or bodily fluids, the people left to manage the aftermath are rarely prepared for what comes next. In University Place, where so many residences are 1960s and '70s ramblers and split-levels with original hardwood subfloors, porous concrete slabs, and minimal crawl-space barriers, biological contamination doesn't stay on the surface. It migrates. Calling (206) 883-0333 connects you with a certified team that can be on-site quickly, work discreetly, and handle every step so you don't have to.
 
 ## Why University Place Homes Present Specific Challenges for Biohazard Remediation

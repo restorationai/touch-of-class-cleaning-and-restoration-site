@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Westborough, MA | Quality Contracting, Inc."
-h1: "Water Damage Restoration in Westborough"
-meta_description: "Water damage restoration in Westborough, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Water Damage Restoration in Westborough, MA | Quality Contracting, Inc."
+h1: "Emergency Water Damage Restoration in Westborough"
+meta_description: "Emergency water damage restoration in Westborough, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "water damage restoration westborough"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Westborough? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Westborough sits at a geographic crossroads in central Worcester County where glacially deposited soils hold water poorly and seasonal freeze-thaw cycles put real stress on foundations, supply lines, and slab edges. When a pipe lets go in January or a sump pump fails during a spring nor'easter, the water doesn't just pool, it moves fast through subfloor cavities and wall assemblies before a homeowner even realizes the scope of the problem. Quality Contracting, Inc. responds to those calls from our Auburn location, bringing commercial-grade extraction and drying equipment to Westborough properties before saturation becomes structural damage.
 
 ## Why Westborough Properties See Water Damage

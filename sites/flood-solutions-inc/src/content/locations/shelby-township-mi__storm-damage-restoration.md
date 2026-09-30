@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Shelby Township, MI | Flood Solutions inc"
-h1: "Storm Damage Restoration in Shelby Township"
-meta_description: "Storm damage restoration in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Storm Damage Restoration in Shelby Township, MI | Flood Solutions inc"
+h1: "Emergency Storm Damage Restoration in Shelby Township"
+meta_description: "Emergency storm damage restoration in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "storm damage restoration shelby township"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "storm-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Shelby Township? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Shelby Township sits in the middle of Macomb County's storm corridor, where fast-moving spring squall lines and late-summer derechos can drop several inches of rain in under an hour, snap mature oaks onto rooftops, and push debris into window wells before most residents have time to move cars into the garage. When that kind of weather hits, the damage it leaves behind is rarely limited to what you can see from the curb. Storm damage restoration here means working through a layered problem: wind-lifted shingles that let water into the attic, saturated insulation that doesn't show up on a moisture meter at the surface, and structural framing that took an impact load it wasn't designed for.
 
 ## Why Shelby Township Properties See Severe Storm Damage

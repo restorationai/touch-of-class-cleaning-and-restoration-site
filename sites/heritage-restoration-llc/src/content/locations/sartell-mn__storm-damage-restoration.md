@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Sartell, MN | Heritage Restoration LLC"
-h1: "Storm Damage Restoration in Sartell"
-meta_description: "Storm damage restoration in Sartell, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Storm Damage Restoration in Sartell, MN | Heritage Restoration LLC"
+h1: "Emergency Storm Damage Restoration in Sartell"
+meta_description: "Emergency storm damage restoration in Sartell, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "storm damage restoration sartell"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Sartell? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Sartell sits squarely in central Minnesota's storm corridor, where late-spring and summer thunderstorms regularly push through Stearns County with enough wind to peel roofing, drop mature oaks across driveways, and drive rain horizontally into siding seams. When a severe line of weather moves through, the damage it leaves behind, soaked attic insulation, crushed fascia, water-logged wall cavities, starts compounding within hours. Heritage Restoration LLC responds to storm damage calls across Sartell, working methodically to stop the deterioration before it becomes a much larger repair.
 
 ## Why Sartell Properties See Storm Damage the Way They Do

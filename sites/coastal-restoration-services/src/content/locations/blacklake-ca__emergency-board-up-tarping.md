@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Blacklake, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Blacklake"
-meta_description: "Board-up and tarping in Blacklake, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Blacklake, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Blacklake"
+meta_description: "Emergency board-up and tarping in Blacklake, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping blacklake"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Blacklake? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a broken window, blown-off roof section, or fire-damaged wall leaves a Blacklake property exposed, the Pacific coastal air doesn't wait. Salt-laden moisture and marine layer fog can push through an unprotected opening within hours, turning a contained incident into a much larger restoration job. Coastal Restoration Services Inc responds to those calls, securing structures with plywood board-up and heavy-duty roof tarping so the damage stops where it started, not three rooms deeper.
 
 ## Why Blacklake Properties Are Vulnerable After Structural Damage

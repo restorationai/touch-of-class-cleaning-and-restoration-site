@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Selma, NC | Go Green Restoration of NC"
-h1: "Biohazard Cleanup in Selma"
-meta_description: "24/7 biohazard cleanup in Selma, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Biohazard Cleanup in Selma, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Biohazard Cleanup in Selma"
+meta_description: "24/7 emergency biohazard cleanup in Selma, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "biohazard cleanup selma"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

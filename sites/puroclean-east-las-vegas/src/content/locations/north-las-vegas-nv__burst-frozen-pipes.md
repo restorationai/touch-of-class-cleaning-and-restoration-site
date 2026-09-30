@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst & Frozen Pipes in North Las Vegas, NV | PuroClean of East Las Vegas"
-h1: "Burst & Frozen Pipes in North Las Vegas"
-meta_description: "Burst & frozen pipes in North Las Vegas, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Burst & Frozen Pipes in North Las Vegas, NV | PuroClean of East Las Vegas"
+h1: "Emergency Burst & Frozen Pipes in North Las Vegas"
+meta_description: "Emergency burst & frozen pipes in North Las Vegas, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "burst & frozen pipes north las vegas"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -20,6 +20,9 @@ state: "NV"
 service_display: "Burst & Frozen Pipes"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in North Las Vegas? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 North Las Vegas sits in a desert basin, so frozen pipes might sound like someone else's problem, until a January night drops into the mid-20s and the copper supply lines running through an uninsulated garage wall in Aliante crack before sunrise. When that happens, the damage isn't just a plumbing repair. Water behind drywall, under tile, and into subfloor cavities can begin supporting mold growth within 24 to 48 hours. PuroClean of East Las Vegas handles the full scope: stopping the spread, drying the structure, and restoring what the water reached.
 
 ## Why North Las Vegas Properties See Burst Pipe Issues

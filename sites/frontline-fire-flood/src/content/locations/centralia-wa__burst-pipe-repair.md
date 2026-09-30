@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Centralia, WA | Frontline Fire & Flood"
-h1: "Burst Pipe Cleanup and Repair in Centralia"
-meta_description: "24/7 burst pipe cleanup and repair in Centralia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "Emergency Burst Pipe Cleanup and Repair in Centralia, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Centralia"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Centralia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "burst pipe cleanup and repair centralia"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

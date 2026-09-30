@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Beresford, SD | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Beresford"
-meta_description: "Storm damage restoration in Beresford, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Beresford, SD | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Beresford"
+meta_description: "Emergency storm damage restoration in Beresford, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration beresford"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Beresford? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 The stretch of Union County along I-29 is no stranger to violent weather. When a fast-moving line of thunderstorms or a tornado-warned supercell rolls through the 57004 corridor, homes near Downtown Beresford and out toward the Beresford Golf Course can take on hail damage, wind-driven rain, and downed trees within minutes, before any crew is even on the road. Crew Restoration & Construction responds to that kind of sudden, stressful damage with structured assessments and real repair work, not just tarps and promises.
 
 ## Why Beresford Properties See Serious Storm Damage

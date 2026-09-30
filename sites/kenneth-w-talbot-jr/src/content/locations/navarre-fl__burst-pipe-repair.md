@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Navarre, FL | Veterans Remediation & Restoration "
-h1: "Burst Pipe Cleanup and Repair in Navarre"
-meta_description: "24/7 burst pipe cleanup and repair in Navarre, FL. Insurance billing accepted. Call (337) 344-1248."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Navarre, FL | Veterans Remediation & Restoration "
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Navarre"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Navarre, FL. Insurance billing accepted. Call (337) 344-1248."
 primary_keyword: "burst pipe cleanup and repair navarre"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

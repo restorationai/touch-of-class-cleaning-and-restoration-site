@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Berwyn, IL | Dry Bros Water & Fire Restoration"
-h1: "Fire Damage Restoration in Berwyn"
-meta_description: "Fire damage restoration in Berwyn, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Fire Damage Restoration in Berwyn, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Berwyn"
+meta_description: "24/7 emergency fire damage restoration in Berwyn, IL. Insurance billing accepted. Call us now."
 primary_keyword: "fire damage restoration berwyn"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Berwyn? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Berwyn's dense grid of brick bungalows and two-flats, most of them built between the 1920s and 1950s, creates fire conditions that newer construction simply doesn't. Balloon-frame cavities inside those older walls act like chimneys, pulling smoke and heat vertically through the structure long after the visible flames are out. If you're dealing with fire damage in Berwyn right now, the clock on secondary damage, smoke penetration, soot corrosion, and water from suppression, is already running. Dry Bros Water & Fire Restoration responds to calls across Berwyn and the broader Cook County area, and we understand what post-fire work actually looks like inside these homes.
 
 ## Why Berwyn's Building Stock Shapes Fire Damage Differently

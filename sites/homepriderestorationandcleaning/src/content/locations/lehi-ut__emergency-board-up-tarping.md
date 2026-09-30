@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Lehi, UT | Home Pride Restoration and Cleaning"
-h1: "Emergency Board-Up and Tarping in Lehi"
+title: "24/7 Emergency Board-Up and Tarping in Lehi, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Board-Up and Tarping in Lehi"
 meta_description: "24/7 emergency board-up and tarping in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "emergency board-up and tarping lehi"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

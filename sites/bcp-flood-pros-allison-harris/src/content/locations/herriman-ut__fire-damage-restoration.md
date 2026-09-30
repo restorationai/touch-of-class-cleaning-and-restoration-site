@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Herriman, UT | FIX Restoration"
-h1: "Fire Damage Restoration in Herriman"
-meta_description: "Fire damage restoration in Herriman, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in Herriman, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in Herriman"
+meta_description: "Emergency fire damage restoration in Herriman, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration herriman"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Herriman? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Herriman sits at the base of the Oquirrh Mountains, where rapid suburban growth over the past two decades has produced neighborhoods full of stucco-clad homes with open floor plans, engineered lumber framing, and attached garages. When fire moves through that kind of construction, it travels fast and leaves behind a layered mess: charred framing, smoke that has wicked into HVAC ductwork, and soot that settles into every horizontal surface within hours. FIX Restoration has been working fire damage jobs across the Salt Lake Valley since 2012, and the team understands what a post-fire property in this corner of the valley actually looks like.
 
 ## Why Herriman's Housing Stock Shapes Fire Damage Recovery

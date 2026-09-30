@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Heater Flood Cleanup in Shelby Township, MI | Flood Solutions inc"
-h1: "Water Heater Flood Cleanup in Shelby Township"
-meta_description: "Water heater flood cleanup in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Water Heater Flood Cleanup in Shelby Township, MI | Flood Solutions inc"
+h1: "Emergency Water Heater Flood Cleanup in Shelby Township"
+meta_description: "Emergency water heater flood cleanup in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "water heater flood cleanup shelby township"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "water-heater-flood-cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Shelby Township? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 When a water heater lets go in Shelby Township, the damage rarely stays contained. These units typically hold 40 to 80 gallons, and when a tank ruptures or a fitting fails, that water moves fast across finished basement floors, under drywall, and into the subfloor before most homeowners realize what happened. Macomb County's clay-heavy soil means basements here drain slowly and stay damp longer than in sandier regions to the south, which gives standing water more time to work its way into materials. Flood Solutions Inc. has been handling exactly this kind of loss since 1996, and our crew reaches Shelby Township from our Macomb headquarters quickly via Hall Road or 23 Mile Road.
 
 ## Why Shelby Township Homes Are Vulnerable to Water Heater Failures

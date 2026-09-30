@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Biohazard Cleanup in Sioux Falls | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Sioux Falls"
-meta_description: "Biohazard cleanup in Sioux Falls and surrounding areas. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Sioux Falls | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Sioux Falls"
+meta_description: "Emergency biohazard cleanup in Sioux Falls and surrounding areas. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup sioux falls"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

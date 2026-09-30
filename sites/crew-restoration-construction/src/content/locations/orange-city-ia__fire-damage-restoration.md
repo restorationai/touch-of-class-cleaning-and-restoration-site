@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Orange City, IA | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Orange City"
-meta_description: "Fire damage restoration in Orange City, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Orange City, IA | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Orange City"
+meta_description: "Emergency fire damage restoration in Orange City, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration orange city"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Orange City? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When fire tears through a home in Orange City, the damage rarely stops at the charred walls you can see. Smoke travels fast through the tight, well-insulated construction common in this part of northwest Iowa, and the dry prairie winters that make Sioux County living so distinct also mean heating systems run hard, a leading factor in the residential fires we respond to across the 51041 ZIP code. Whether the fire started in a kitchen, a furnace room, or an attached garage, the clock on secondary damage from smoke residue and water used to suppress the flames starts immediately.
 
 ## Why Orange City Properties Face Distinct Fire Damage Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Biohazard Cleanup in Abilene | Air Care Restoration"
-h1: "Biohazard Cleanup in Abilene"
-meta_description: "24/7 biohazard cleanup in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Biohazard Cleanup in Abilene | Air Care Restoration"
+h1: "24/7 Emergency Biohazard Cleanup in Abilene"
+meta_description: "24/7 emergency biohazard cleanup in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "biohazard cleanup abilene"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -17,6 +17,9 @@ service_slug: "biohazard-cleanup"
 service_display: "Biohazard Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Abilene? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Some situations don't wait for business hours, and they don't get easier with time. When a death, trauma, or hazardous material exposure occurs in a home or property, the substances left behind, blood, bodily fluids, or infectious material, begin to break down within hours, penetrating porous surfaces and creating biological risks that standard cleaning cannot address. The right response is fast, discreet, and handled by technicians trained to treat the space, and everyone connected to it, with care.
 
 ## What biohazard cleanup actually involves

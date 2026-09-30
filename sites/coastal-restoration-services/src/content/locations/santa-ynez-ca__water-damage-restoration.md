@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Santa Ynez, CA | Coastal Restoration Services Inc"
-h1: "Water Damage Restoration in Santa Ynez"
-meta_description: "Water damage restoration in Santa Ynez, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Water Damage Restoration in Santa Ynez, CA | Coastal Restoration Services Inc"
+h1: "Emergency Water Damage Restoration in Santa Ynez"
+meta_description: "Emergency water damage restoration in Santa Ynez, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "water damage restoration santa ynez"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Santa Ynez? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Santa Ynez sits in a valley that swings between bone-dry summers and concentrated winter rains, and when those rains arrive, they arrive fast. Saturated hillside soils shed water quickly onto flat valley floors, and older ranch-style homes throughout the area often lack the modern drainage infrastructure to handle sudden surges. Whether a storm-driven roof leak has soaked through ceiling drywall or a supply line failed quietly behind a cabinet, standing water in a Santa Ynez home begins damaging structural materials within hours and can support mold colonization in as little as 24 to 48 hours.
 
 ## Why Santa Ynez Properties See Water Damage Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Albany, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Albany"
-meta_description: "Fire damage restoration in Albany, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Albany, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Albany"
+meta_description: "Emergency fire damage restoration in Albany, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration albany"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Albany? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Albany sits in Stearns County, where long winters, older agricultural-era housing stock, and the kind of tight-knit small-town construction that predates modern fire-resistive codes all shape what happens after a house fire. When smoke has worked its way into the wall cavities of a wood-framed farmhouse or a mid-century bungalow on the edge of town, the cleanup is rarely as simple as it looks from the curb. Heritage Restoration LLC responds to fire damage calls in Albany with an IICRC FSRT-certified crew and the equipment to handle both the visible char and the invisible residue that travels far beyond the burn zone.
 
 ## Why Albany Properties Face Particular Fire Damage Challenges

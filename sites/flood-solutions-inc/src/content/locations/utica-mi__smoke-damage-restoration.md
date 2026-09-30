@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Utica, MI | Flood Solutions inc"
-h1: "Smoke Damage Restoration in Utica"
-meta_description: "Smoke damage restoration in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Smoke Damage Restoration in Utica, MI | Flood Solutions inc"
+h1: "Emergency Smoke Damage Restoration in Utica"
+meta_description: "Emergency smoke damage restoration in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "smoke damage restoration utica"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "smoke-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Utica? Call now for emergency service.** Our crew responds fast to stop smoke and soot damage from spreading.
+
 Smoke from a house fire doesn't stay in the room where it started. In Utica's older ranch-style and split-level homes, built heavily through the 1960s and 1970s, smoke travels fast through open floor plans, crawls into HVAC ductwork, and settles into the wood framing and insulation long before a fire truck leaves the driveway. That lingering odor and the invisible residue coating every surface are what Flood Solutions Inc has been addressing since 1996, and getting it right in Utica means understanding exactly how these homes hold onto smoke.
 
 ## Why Utica Properties Hold Smoke Longer

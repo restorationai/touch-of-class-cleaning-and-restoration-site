@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Eagle Mountain, UT | FIX Restoration"
-h1: "Storm Damage Restoration in Eagle Mountain"
-meta_description: "Storm damage restoration in Eagle Mountain, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Storm Damage Restoration in Eagle Mountain, UT | FIX Restoration"
+h1: "Emergency Storm Damage Restoration in Eagle Mountain"
+meta_description: "Emergency storm damage restoration in Eagle Mountain, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "storm damage restoration eagle mountain"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Eagle Mountain? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Eagle Mountain sits at the edge of Utah Lake Valley where the Wasatch Front funnels cold fronts down from the mountains with surprising speed. What starts as a gray afternoon can turn into a hailstorm that strips shingles, snaps young trees planted in newer subdivisions, and drives wind-blown rain under soffits before homeowners have time to move vehicles into the garage. FIX Restoration has been responding to storm losses across Utah County since 2012, and the damage patterns here in Eagle Mountain have their own character worth understanding before you call anyone.
 
 ## Why Eagle Mountain Properties See Distinctive Storm Damage

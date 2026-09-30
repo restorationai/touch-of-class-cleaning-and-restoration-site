@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Searchlight, NV | Life Savers Restoration LLC"
-h1: "Emergency Water Removal & Cleanup in Searchlight"
+title: "24/7 Emergency Water Removal & Cleanup in Searchlight, NV | Life Savers Restoration LLC"
+h1: "24/7 Emergency Water Removal & Cleanup in Searchlight"
 meta_description: "24/7 emergency water removal & cleanup in Searchlight, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
 primary_keyword: "emergency water removal & cleanup searchlight"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]

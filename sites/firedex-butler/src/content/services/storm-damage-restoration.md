@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Storm Damage Restoration in Cranberry Township | FireDEX Butler"
-h1: "Storm Damage Restoration in Cranberry Township"
-meta_description: "24/7 storm damage restoration in Cranberry Township and surrounding areas. Insurance billing accepted. Call (724) 452-7400."
+title: "Emergency Storm Damage Restoration in Cranberry Township | FireDEX Butler"
+h1: "24/7 Emergency Storm Damage Restoration in Cranberry Township"
+meta_description: "24/7 emergency storm damage restoration in Cranberry Township and surrounding areas. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "storm damage restoration cranberry township"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Cranberry Township? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 A storm moves through fast. The damage it leaves behind does not. A single line of severe weather can drive water through a compromised roof within minutes, drop a tree onto a load-bearing wall, and scatter debris across three floors, all before you have a chance to call anyone. What happens in the first few hours after that determines whether you're looking at a contained repair or a months-long reconstruction project.
 
 ## What storm damage restoration actually involves

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Algona, WA | National Restoration Construction"
-h1: "Biohazard Cleanup in Algona"
-meta_description: "24/7 biohazard cleanup in Algona, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Biohazard Cleanup in Algona, WA | National Restoration Construction"
+h1: "24/7 Emergency Biohazard Cleanup in Algona"
+meta_description: "24/7 emergency biohazard cleanup in Algona, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "biohazard cleanup algona"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

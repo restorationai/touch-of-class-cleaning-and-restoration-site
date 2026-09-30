@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard and Trauma Cleanup in Renton, WA | National Restoration Construction"
-h1: "Biohazard and Trauma Cleanup in Renton"
-meta_description: "24/7 biohazard and trauma cleanup in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Biohazard and Trauma Cleanup in Renton, WA | National Restoration Construction"
+h1: "24/7 Emergency Biohazard and Trauma Cleanup in Renton"
+meta_description: "24/7 emergency biohazard and trauma cleanup in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "biohazard and trauma cleanup renton"
 secondary_keywords: ["trauma scene cleanup", "unattended death cleanup", "blood cleanup", "bodily fluid cleanup", "biohazard remediation"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard and Trauma Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Renton? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something traumatic happens at a Renton property, the last thing you should have to think about is how to safely restore the space. Whether you're a homeowner near the Renton Highlands, a landlord managing units off Rainier Avenue, or a property manager dealing with an unattended death in a commercial building, the situation calls for trained professionals who can move quickly and handle everything with discretion. National Restoration Construction has responded to biohazard and trauma cleanup calls across the South King County area since 2004, and we understand that what you need right now is a clear plan and someone who shows up.
 
 ## What Our Biohazard and Trauma Cleanup Response in Renton Looks Like

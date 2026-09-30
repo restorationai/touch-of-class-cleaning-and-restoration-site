@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Lake Isabella, CA | ProRestoration Services"
-h1: "Biohazard Cleanup in Lake Isabella"
-meta_description: "24/7 biohazard cleanup in Lake Isabella, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Biohazard Cleanup in Lake Isabella, CA | ProRestoration Services"
+h1: "24/7 Emergency Biohazard Cleanup in Lake Isabella"
+meta_description: "24/7 emergency biohazard cleanup in Lake Isabella, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "biohazard cleanup lake isabella"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

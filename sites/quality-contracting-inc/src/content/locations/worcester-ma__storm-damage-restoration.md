@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Worcester, MA | Quality Contracting, Inc."
-h1: "Storm Damage Restoration in Worcester"
-meta_description: "Storm damage restoration in Worcester, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Storm Damage Restoration in Worcester, MA | Quality Contracting, Inc."
+h1: "Emergency Storm Damage Restoration in Worcester"
+meta_description: "Emergency storm damage restoration in Worcester, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "storm damage restoration worcester"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Worcester? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Worcester's nor'easters don't politely announce themselves. One hour you're watching a storm cell track up I-290 on radar; the next, a white oak has punched through the flat roof of a triple-decker on Burncoat Street, and water is already sheeting down through three units of plaster ceilings. Storm damage in Worcester moves fast, and the city's particular mix of century-old housing stock, steep glacial hills, and unpredictable New England weather means the aftermath is rarely simple. Quality Contracting, Inc. is based in Auburn, less than ten minutes from Worcester's city limits, and we handle the full scope of storm damage restoration, from emergency tarping and tree debris removal through structural repairs and interior rebuild.
 
 ## Why Worcester Properties See Serious Storm Damage

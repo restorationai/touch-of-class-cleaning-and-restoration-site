@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Marlborough, MA | Quality Contracting, Inc."
-h1: "Smoke Damage Restoration in Marlborough"
-meta_description: "Smoke damage restoration in Marlborough, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Smoke Damage Restoration in Marlborough, MA | Quality Contracting, Inc."
+h1: "Emergency Smoke Damage Restoration in Marlborough"
+meta_description: "Emergency smoke damage restoration in Marlborough, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "smoke damage restoration marlborough"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

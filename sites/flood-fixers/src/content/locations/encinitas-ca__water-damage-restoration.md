@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Encinitas, CA | Flood Fixers"
-h1: "Water Damage Restoration in Encinitas"
-meta_description: "24/7 water damage restoration in Encinitas, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "24/7 Emergency Water Damage Restoration in Encinitas, CA | Flood Fixers"
+h1: "24/7 Emergency Water Damage Restoration in Encinitas"
+meta_description: "24/7 emergency water damage restoration in Encinitas, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "water damage restoration encinitas"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Encinitas? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Encinitas sits right where the Pacific's marine layer meets the coastal bluffs, and that combination does real damage to homes year-round, not just during the occasional winter storm. When a water heater fails in a Cardiff-by-the-Sea bungalow or a supply line bursts behind a Leucadia kitchen wall, the ambient humidity that already hovers in the 70–80% range means saturated materials stay wet far longer than they would inland. Flood Fixers dispatches from San Diego and can have a crew with extraction equipment on your property within 60–90 minutes of your call to (855) 204-1124.
 
 ## Why Encinitas Properties See Water Damage Differently Than Inland Homes

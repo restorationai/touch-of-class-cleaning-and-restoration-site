@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Linden, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in Linden"
-meta_description: "24/7 appliance leak cleanup in Linden, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Appliance Leak Cleanup in Linden, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Linden"
+meta_description: "24/7 emergency appliance leak cleanup in Linden, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "appliance leak cleanup linden"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Linden? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 A slow drip from a refrigerator ice maker line or a washing machine supply hose that finally lets go can dump dozens of gallons onto a finished basement floor before anyone notices, and in Linden's heavily postwar housing stock, that finished basement is almost always there. The capes, colonials, and split-levels built across Sunnyside and the West End between the 1940s and 1960s were finished below grade by successive owners, often with original copper or galvanized supply lines that have never been replaced. When those lines fail, water doesn't just sit on concrete, it wicks into the framing, insulation, and drywall that turned a utility space into living space decades ago.
 
 ## Why Linden Homes See Appliance Leaks More Often

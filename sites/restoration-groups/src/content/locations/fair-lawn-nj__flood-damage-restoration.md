@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Fair Lawn, NJ | The Restoration Group"
-h1: "Flood Damage Restoration in Fair Lawn"
-meta_description: "24/7 flood damage restoration in Fair Lawn, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Flood Damage Restoration in Fair Lawn, NJ | The Restoration Group"
+h1: "24/7 Emergency Flood Damage Restoration in Fair Lawn"
+meta_description: "24/7 emergency flood damage restoration in Fair Lawn, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "flood damage restoration fair lawn"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Fair Lawn? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and stop the damage from spreading.
+
 When the Passaic River backs up or the Saddle River jumps its banks during a heavy nor'easter, the flooding doesn't stay outside, it moves through window wells, under sill plates, and straight into finished basements across Fair Lawn's River Road and Saddle River Road corridors. Tropical Storm Ida in 2021 made that painfully clear for hundreds of 07410 homeowners who watched water rise faster than sump pumps could handle it. If you're dealing with standing water right now, the clock matters: mold colonization can begin within 24 to 48 hours on wet framing and drywall.
 
 ## Why Fair Lawn Properties See Repeated Flood Damage

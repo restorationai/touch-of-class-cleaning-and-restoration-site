@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Centralia, WA | Frontline Fire & Flood"
-h1: "Emergency Water Removal & Cleanup in Centralia"
+title: "24/7 Emergency Water Removal & Cleanup in Centralia, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Water Removal & Cleanup in Centralia"
 meta_description: "24/7 emergency water removal and cleanup in Centralia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency water removal centralia"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

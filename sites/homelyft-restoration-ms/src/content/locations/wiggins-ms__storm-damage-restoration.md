@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Wiggins, MS | HomeLyft Restoration MS"
-h1: "Storm Damage Restoration in Wiggins"
-meta_description: "Storm damage restoration in Wiggins, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Storm Damage Restoration in Wiggins, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Storm Damage Restoration in Wiggins"
+meta_description: "24/7 emergency storm damage restoration in Wiggins, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "storm damage restoration wiggins"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Wiggins? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Stone County sits in the heart of South Mississippi's storm corridor, and Wiggins takes the full force of it, from Gulf-fed tropical systems that push inland with surprising intensity to the fast-moving supercell thunderstorms that spin off tornadoes with little warning across the Piney Woods. When a storm tears through your neighborhood, the damage compounds quickly: a punctured roof lets in rain, soaked insulation drives moisture into wall cavities, and within 24 to 48 hours, the conditions for mold growth are already in place. HomeLyft Restoration MS responds to storm damage calls across Wiggins and Stone County, working to stabilize your property before secondary damage turns a bad situation into a far more expensive one.
 
 ## Why Wiggins Properties Are Especially Vulnerable to Storm Damage

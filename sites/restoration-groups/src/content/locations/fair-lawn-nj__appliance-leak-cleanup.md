@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Fair Lawn, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in Fair Lawn"
-meta_description: "24/7 appliance leak cleanup in Fair Lawn, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Appliance Leak Cleanup in Fair Lawn, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Fair Lawn"
+meta_description: "24/7 emergency appliance leak cleanup in Fair Lawn, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "appliance leak cleanup fair lawn"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Fair Lawn? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 A refrigerator ice maker line that drips for weeks behind a finished cabinet, a washing machine hose that lets go on a Saturday morning, a water heater that quietly pools on a utility room floor, appliance leaks in Fair Lawn's older housing stock tend to go unnoticed until the damage is already working its way into subfloors and wall cavities. The borough's concentration of 1920s–1940s Radburn planned-community homes and postwar capes means original cast-iron drains, galvanized supply lines, and finished basements that absorb water fast and dry slowly. When you call (855) 650-7422, a crew dispatched from our nearby Kenilworth location can be on-site around the clock.
 
 ## Why Fair Lawn Homes See More Appliance Leak Damage

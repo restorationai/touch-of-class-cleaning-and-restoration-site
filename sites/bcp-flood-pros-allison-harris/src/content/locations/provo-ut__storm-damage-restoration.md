@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Provo, UT | FIX Restoration"
-h1: "Storm Damage Restoration in Provo"
-meta_description: "Storm damage restoration in Provo, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Storm Damage Restoration in Provo, UT | FIX Restoration"
+h1: "Emergency Storm Damage Restoration in Provo"
+meta_description: "Emergency storm damage restoration in Provo, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "storm damage restoration provo"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Provo? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Provo sits in a geographic pressure cooker. The Wasatch Front funnels cold air down from the mountains while warm desert air pushes up from Utah Valley, and when those systems collide, especially in spring and late summer, the result can be hail the size of marbles, microbursts that snap mature cottonwoods, and rain that overwhelms storm drains in minutes. If a storm has left your property with a caved soffit, a flooded basement, or a tree through your roof, FIX Restoration responds from American Fork and can be working your address while the ground is still wet.
 
 ## Why Provo Properties Take Storm Hits Differently

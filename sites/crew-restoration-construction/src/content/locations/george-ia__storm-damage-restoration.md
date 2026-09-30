@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in George, IA | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in George"
-meta_description: "Storm damage restoration in George, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in George, IA | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in George"
+meta_description: "Emergency storm damage restoration in George, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration george"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in George? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Northwest Iowa's storm season hits Lyon County with a particular ferocity that residents of George know well, supercell thunderstorms rolling off the South Dakota plains can drop baseball-sized hail, spin up brief tornadoes, and topple mature shelter-belt trees onto homes and outbuildings before a warning siren finishes its cycle. When that happens in the 51237 ZIP code, the damage is rarely just cosmetic. A punctured roof lets rain into wall cavities within hours, and in a town where a lot of the housing stock dates to the mid-twentieth century, that water finds insulation and wood framing that was never designed to dry quickly on its own.
 
 ## Why George Properties Face Distinct Storm Damage Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Royse City | Reign Restoration"
-h1: "Fire Damage Restoration in Royse City"
-meta_description: "Fire damage restoration in Royse City and surrounding areas. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Fire Damage Restoration in Royse City | Reign Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Royse City"
+meta_description: "24/7 emergency fire damage restoration in Royse City and surrounding areas. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "fire damage restoration royse city"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Royse City? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 The fire is out, but the damage isn't done. In the hours after a house fire, soot particles are still migrating through your ductwork, smoke acids are etching glass and metal surfaces, and protein residue from burned food or upholstery is bonding to every porous surface in the home. What you can see, the charred drywall, the scorched cabinets, is often less destructive than what you can't. Effective fire damage restoration means stopping that secondary damage clock before it runs out.
 
 ## What fire damage restoration actually involves

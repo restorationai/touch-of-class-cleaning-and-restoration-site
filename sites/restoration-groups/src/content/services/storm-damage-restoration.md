@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Storm Damage Restoration in Kenilworth | The Restoration Group"
-h1: "Storm Damage Restoration in Kenilworth"
-meta_description: "24/7 storm damage restoration in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Storm Damage Restoration in Kenilworth | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Kenilworth"
+meta_description: "24/7 emergency storm damage restoration in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "storm damage restoration kenilworth"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Kenilworth? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 A severe storm can leave a house looking structurally intact while hiding the damage that will cost you the most: a roof deck saturated overnight, insulation that has absorbed two inches of rain, a basement wall bowing from soil pressure after a tree root ball shifted. The visible debris, broken branches, stripped shingles, shattered glass, is the easy part. The problems that develop in the 24 to 72 hours after the storm passes are what turn a manageable repair into a major rebuild.
 
 ## What storm damage restoration actually involves

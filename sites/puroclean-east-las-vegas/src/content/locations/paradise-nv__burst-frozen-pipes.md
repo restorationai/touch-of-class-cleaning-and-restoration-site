@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst & Frozen Pipes in Paradise, NV | PuroClean of East Las Vegas"
-h1: "Burst & Frozen Pipes in Paradise"
-meta_description: "Burst & frozen pipes in Paradise, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Burst & Frozen Pipes in Paradise, NV | PuroClean of East Las Vegas"
+h1: "Emergency Burst & Frozen Pipes in Paradise"
+meta_description: "Emergency burst & frozen pipes in Paradise, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "burst & frozen pipes paradise"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -20,6 +20,9 @@ state: "NV"
 service_display: "Burst & Frozen Pipes"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Paradise? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 Paradise, Nevada sits in a desert basin where winter nights can drop into the low 20s, cold enough to freeze the uninsulated supply lines tucked inside exterior walls and garage spaces of the area's aging mid-century homes and high-density condo towers. When those pipes let go, water doesn't wait for business hours. A single three-quarter-inch copper line can dump hundreds of gallons into flooring, drywall, and cabinetry before the main shutoff is even located. If a burst or frozen pipe has already started that clock in your home or unit, the steps you take in the next hour matter more than almost anything else.
 
 ## Why Paradise Properties See Burst and Frozen Pipe Issues

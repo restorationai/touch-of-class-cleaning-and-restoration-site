@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Pierz, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Pierz"
-meta_description: "Fire damage restoration in Pierz, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Pierz, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Pierz"
+meta_description: "Emergency fire damage restoration in Pierz, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration pierz"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Pierz? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Pierz sits in Morrison County where hard Minnesota winters push heating systems to their limits, and when a furnace malfunction, chimney fire, or electrical fault ignites inside a home, the cold air outside can actually pull smoke deeper into wall cavities and attic insulation before the fire department finishes its work. That combination of tight, well-sealed homes and sub-zero drafts creates smoke and soot patterns that are genuinely different from what restoration crews encounter in milder climates. Heritage Restoration LLC holds IICRC FSRT certification specifically for fire and smoke restoration, and the team operates out of Little Falls, putting Pierz properties within practical reach for prompt response.
 
 ## Why Pierz Properties Are Vulnerable to Fire Damage

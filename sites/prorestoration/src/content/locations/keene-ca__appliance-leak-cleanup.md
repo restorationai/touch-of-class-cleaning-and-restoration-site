@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Keene, CA | ProRestoration Services"
-h1: "Appliance Leak Cleanup in Keene"
-meta_description: "24/7 appliance leak cleanup in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Appliance Leak Cleanup in Keene, CA | ProRestoration Services"
+h1: "24/7 Emergency Appliance Leak Cleanup in Keene"
+meta_description: "24/7 emergency appliance leak cleanup in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "appliance leak cleanup keene"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"

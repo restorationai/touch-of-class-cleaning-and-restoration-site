@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Cottonwood Heights, UT | FIX Restoration"
-h1: "Biohazard Cleanup in Cottonwood Heights"
-meta_description: "Biohazard cleanup in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Biohazard Cleanup in Cottonwood Heights, UT | FIX Restoration"
+h1: "Emergency Biohazard Cleanup in Cottonwood Heights"
+meta_description: "Emergency biohazard cleanup in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "biohazard cleanup cottonwood heights"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

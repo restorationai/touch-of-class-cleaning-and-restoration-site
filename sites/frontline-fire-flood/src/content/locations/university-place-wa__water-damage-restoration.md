@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in University Place, WA | Frontline Fire & Flood"
-h1: "Water Damage Restoration in University Place"
-meta_description: "24/7 water damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "Emergency Water Damage Restoration in University Place, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Water Damage Restoration in University Place"
+meta_description: "24/7 emergency water damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration university place"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

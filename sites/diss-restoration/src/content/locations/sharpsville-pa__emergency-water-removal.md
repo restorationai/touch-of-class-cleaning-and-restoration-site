@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Sharpsville, PA | DISS Restoration"
-h1: "Emergency Water Removal & Cleanup in Sharpsville"
+title: "24/7 Emergency Water Removal & Cleanup in Sharpsville, PA | DISS Restoration"
+h1: "24/7 Emergency Water Removal & Cleanup in Sharpsville"
 meta_description: "24/7 emergency water removal & cleanup in Sharpsville, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "emergency water removal & cleanup sharpsville"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]

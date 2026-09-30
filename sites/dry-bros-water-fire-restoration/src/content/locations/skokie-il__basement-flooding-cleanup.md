@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Skokie, IL | Dry Bros Water & Fire Restoration"
-h1: "Basement Flooding Cleanup in Skokie"
-meta_description: "Basement flooding cleanup in Skokie, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Basement Flooding Cleanup in Skokie, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Basement Flooding Cleanup in Skokie"
+meta_description: "24/7 emergency basement flooding cleanup in Skokie, IL. Insurance billing accepted. Call us now."
 primary_keyword: "basement flooding cleanup skokie"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Skokie? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Skokie sits on the flat, clay-heavy glacial lakebed that underlies much of the North Shore, and that soil profile is one of the main reasons basements here flood so readily. When heavy rain saturates ground that drains slowly, hydrostatic pressure builds against foundation walls fast, and once water finds a crack in a poured-concrete or block foundation, it doesn't trickle in, it pushes. If you're standing in a wet basement right now, call Dry Bros Water & Fire Restoration now and we'll walk you through immediate steps while we get a crew scheduled.
 
 ## Why Skokie Properties See Basement Flooding So Often

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Foley, MN | Heritage Restoration LLC"
-h1: "Storm Damage Restoration in Foley"
-meta_description: "Storm damage restoration in Foley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Storm Damage Restoration in Foley, MN | Heritage Restoration LLC"
+h1: "Emergency Storm Damage Restoration in Foley"
+meta_description: "Emergency storm damage restoration in Foley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "storm damage restoration foley"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Foley? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Foley sits in the heart of Benton County, where the transition from central Minnesota's lake country to its open agricultural plains creates a weather pattern that can swing hard, severe thunderstorms rolling in off the prairie, straight-line winds that hit without the rotational warning signs of a tornado, and late-season ice storms that load roofs and snap mature trees with little notice. When a storm tears through and leaves your property open to the sky, the clock starts immediately: water follows every gap, insulation loses its value the moment it gets wet, and wood framing that stays damp for more than a day or two begins a process that doesn't stop on its own.
 
 ## Why Foley Properties Are Vulnerable to Storm Damage

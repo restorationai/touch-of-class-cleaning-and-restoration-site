@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Provo, UT | FIX Restoration"
-h1: "Water Damage Restoration in Provo"
-meta_description: "Water damage restoration in Provo, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Damage Restoration in Provo, UT | FIX Restoration"
+h1: "Emergency Water Damage Restoration in Provo"
+meta_description: "Emergency water damage restoration in Provo, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water damage restoration provo"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Provo? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Provo sits at the foot of the Wasatch Range, where spring snowmelt and seasonal storms push groundwater levels higher than most Utah Front Front Range cities expect, and where a slow pipe leak or a washing machine supply line failure can saturate a basement slab before a homeowner notices anything wrong. FIX Restoration responds to water damage calls across Provo, working to stop the spread, extract standing water, and get structural drying underway before secondary damage sets in.
 
 ## Why Provo Properties See Water Damage Issues

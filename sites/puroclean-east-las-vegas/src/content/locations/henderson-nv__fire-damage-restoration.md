@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Henderson, NV | PuroClean of East Las Vegas"
-h1: "Fire Damage Restoration in Henderson"
-meta_description: "Fire damage restoration in Henderson, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Fire Damage Restoration in Henderson, NV | PuroClean of East Las Vegas"
+h1: "Emergency Fire Damage Restoration in Henderson"
+meta_description: "Emergency fire damage restoration in Henderson, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "fire damage restoration henderson"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NV"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Henderson? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Henderson's master-planned communities, the stucco-and-tile subdivisions of Green Valley Ranch, Anthem, and Seven Hills, were built fast and built close together. When a kitchen fire or garage ignition gets into the attic space of one of those tightly spaced homes, smoke and soot travel further and faster than most homeowners expect, seeping into HVAC ductwork, soaking into the textured drywall ceilings that are standard in post-2000 Nevada construction, and leaving behind an acrid, oily residue that doesn't simply air out. If you're dealing with fire or smoke damage in Henderson right now, the decisions you make in the first 24 to 48 hours will directly affect how much of your home can be restored versus replaced.
 
 ## Why Henderson Homes Face Distinct Fire Damage Challenges

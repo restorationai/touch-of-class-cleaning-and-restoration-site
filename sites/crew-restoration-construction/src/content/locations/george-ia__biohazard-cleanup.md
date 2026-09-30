@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in George, IA | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in George"
-meta_description: "Biohazard cleanup in George, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in George, IA | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in George"
+meta_description: "Emergency biohazard cleanup in George, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup george"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in George? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 George is a small Lyon County farm town where neighbors know each other by name, which makes an unexpected biohazard situation feel especially isolating. Whether you're dealing with the aftermath of an unattended death, a trauma event, or the discovery of infectious material in a rental property or older home near Downtown George, the priority is the same: discreet, thorough remediation handled by people who understand what they're doing and why it matters. Crew Restoration & Construction responds to calls throughout the 51237 ZIP code and can walk you through next steps before we ever arrive on site.
 
 ## Why George Properties Present Unique Biohazard Challenges

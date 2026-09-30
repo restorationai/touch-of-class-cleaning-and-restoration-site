@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Moapa Town, NV | PuroClean of East Las Vegas"
-h1: "Biohazard Cleanup in Moapa Town"
-meta_description: "Biohazard cleanup in Moapa Town, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Biohazard Cleanup in Moapa Town, NV | PuroClean of East Las Vegas"
+h1: "Emergency Biohazard Cleanup in Moapa Town"
+meta_description: "Emergency biohazard cleanup in Moapa Town, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "biohazard cleanup moapa town"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

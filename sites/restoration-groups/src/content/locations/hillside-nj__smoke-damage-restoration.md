@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Hillside, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Hillside"
-meta_description: "24/7 smoke damage restoration in Hillside, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Hillside, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Hillside"
+meta_description: "24/7 emergency smoke damage restoration in Hillside, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration hillside"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Hillside? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 When a kitchen fire tears through one of Hillside's compact 1940s colonials or a two-family on the Saybrook side of town, the smoke doesn't stop at the room where the flames were. It follows the path of least resistance, up through balloon-framed wall cavities, into finished basements, and deep into the plaster and lathe that line most pre-war homes in the 07205 ZIP code. By the time the fire department clears the scene, soot has already begun bonding to surfaces, and the acrid, oily odor of smoke residue has settled into every porous material in the structure. Fast, methodical smoke damage restoration is the only way to stop that contamination from becoming permanent.
 
 ## Why Hillside Homes Are Especially Vulnerable to Smoke Damage

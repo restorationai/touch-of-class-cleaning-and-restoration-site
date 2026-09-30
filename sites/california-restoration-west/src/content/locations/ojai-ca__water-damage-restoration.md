@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Ojai, CA | California Restoration West "
-h1: "Water Damage Restoration in Ojai"
-meta_description: "24/7 water damage restoration in Ojai, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "24/7 Emergency Water Damage Restoration in Ojai, CA | California Restoration West "
+h1: "24/7 Emergency Water Damage Restoration in Ojai"
+meta_description: "24/7 emergency water damage restoration in Ojai, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "water damage restoration ojai"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Ojai? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Ojai sits in a narrow east-west valley where the Ventura River watershed funnels seasonal rain off the Topa Topa Mountains directly toward the valley floor. When a pipe bursts, a roof flashing fails, or a winter storm overwhelms drainage on a hillside lot, water moves fast and has nowhere obvious to go. That combination, compressed geography, clay-heavy soils that resist percolation, and a housing stock that includes many mid-century and older adobe-influenced structures, makes water damage in Ojai behave differently than it does in a flat coastal city. California Restoration West responds 24/7 and is certified by the IICRC in Water Restoration, Structural Drying, and Applied Microbial Remediation, so when the call comes in, the crew arriving is trained for exactly this kind of loss.
 
 ## Why Ojai Properties See Water Damage Differently

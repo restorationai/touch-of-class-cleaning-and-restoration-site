@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Canton, SD | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Canton"
-meta_description: "Board-up and tarping in Canton, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Canton, SD | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Canton"
+meta_description: "Emergency board-up and tarping in Canton, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping canton"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Canton? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a severe storm tears shingles off a century-old farmhouse near the Big Sioux River, or a fire punches out the windows of a Downtown Canton storefront, every hour the structure sits open accelerates the damage. South Dakota's spring weather swings, hail one afternoon, driving rain the next, mean that an unprotected roof deck or broken window can go from a manageable repair to a full interior gut in less than 48 hours. Crew Restoration & Construction responds to those calls with plywood, structural screws, and heavy-duty polyethylene tarps, getting Canton properties sealed before the next weather system rolls through.
 
 ## Why Canton Properties Are Particularly Vulnerable After a Disaster

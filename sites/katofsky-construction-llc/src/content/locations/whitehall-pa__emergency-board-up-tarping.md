@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Whitehall, PA | Katofsky Construction LLC"
-h1: "Emergency Board-Up and Tarping in Whitehall"
+title: "24/7 Emergency Board-Up and Tarping in Whitehall, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Board-Up and Tarping in Whitehall"
 meta_description: "24/7 emergency board-up and tarping in Whitehall, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "emergency board-up and tarping whitehall"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

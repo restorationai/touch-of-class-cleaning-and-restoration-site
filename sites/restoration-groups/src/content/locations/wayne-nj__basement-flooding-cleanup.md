@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Wayne, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in Wayne"
-meta_description: "24/7 basement flooding cleanup in Wayne, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Basement Flooding Cleanup in Wayne, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Wayne"
+meta_description: "24/7 emergency basement flooding cleanup in Wayne, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "basement flooding cleanup wayne"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Wayne? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 Wayne's relationship with water is complicated. The Passaic and Pompton Rivers have pushed into the Mountain View and Hoffman Grove sections repeatedly, most memorably during Irene in 2011 and again when Ida dropped seven inches overnight in September 2021, and the lake communities around Packanack Lake and Pines Lake sit on finished basements that were never designed to hold back a storm surge. When a basement floods here, the clock starts immediately: standing water that lingers more than 24 to 48 hours creates conditions where mold can begin colonizing porous materials, and in the midcentury split-levels and ranches common throughout 07470, that means wall framing, insulation, and finished drywall can all be compromised before the water is even gone.
 
 ## Why Wayne Properties See Basement Flooding So Often

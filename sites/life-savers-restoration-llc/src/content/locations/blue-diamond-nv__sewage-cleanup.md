@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Blue Diamond, NV | Life Savers Restoration LLC"
-h1: "Sewage Cleanup and Sanitization in Blue Diamond"
-meta_description: "24/7 sewage cleanup and sanitization in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
+title: "Emergency Sewage Cleanup and Sanitization in Blue Diamond | Life Savers Restoration LLC"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Blue Diamond"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
 primary_keyword: "sewage cleanup and sanitization blue diamond"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Beresford, SD | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Beresford"
-meta_description: "Water damage restoration in Beresford, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Beresford, SD | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Beresford"
+meta_description: "Emergency water damage restoration in Beresford, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration beresford"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Beresford? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 When a pipe lets go in the middle of a South Dakota winter, or a summer storm pushes water under the door of a home near Downtown Beresford, the clock starts immediately. Sitting at the Union-Lincoln county line along I-29, Beresford's mix of older housing stock and wide seasonal temperature swings creates conditions where water moves fast and hides in places that aren't obvious until the damage is already deep. Crew Restoration & Construction responds to water losses across the 57004 ZIP code, handling everything from initial water extraction to full structural drying and reconstruction.
 
 ## Why Beresford Properties See Water Damage Issues

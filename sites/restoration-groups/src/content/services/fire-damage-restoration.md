@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Kenilworth | The Restoration Group"
-h1: "Fire Damage Restoration in Kenilworth"
-meta_description: "24/7 fire damage restoration in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Fire Damage Restoration in Kenilworth | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in Kenilworth"
+meta_description: "24/7 emergency fire damage restoration in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "fire damage restoration kenilworth"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Kenilworth? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and start the recovery.
+
 ## What fire damage restoration actually involves
 
 The fire is out, but the damage isn't done. In the hours after a structural fire, soot particles are still migrating, settling into HVAC ducts, embedding in porous surfaces, and reacting with moisture in the air to form acidic residues that etch metal fixtures, yellow paint, and permanently stain grout if left more than 72 hours. The smell of smoke that seems to fade by morning has actually absorbed into wall cavities, subfloor insulation, and the wood framing itself. Fire and smoke restoration is not cleaning, it is a systematic reversal of chemical and physical processes that are still actively happening when the crew arrives.

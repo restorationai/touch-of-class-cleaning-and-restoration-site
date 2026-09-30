@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Oak Park, IL | Dry Bros Water & Fire Restoration"
-h1: "Basement Flooding Cleanup in Oak Park"
-meta_description: "Basement flooding cleanup in Oak Park, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Basement Flooding Cleanup in Oak Park, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Basement Flooding Cleanup in Oak Park"
+meta_description: "24/7 emergency basement flooding cleanup in Oak Park, IL. Insurance billing accepted. Call us now."
 primary_keyword: "basement flooding cleanup oak park"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Oak Park? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Oak Park sits on some of the flattest, most clay-dense ground in Cook County, and when a heavy rain event overwhelms the combined sewer system that serves much of this village, that clay has nowhere to send the water except into the basements of the bungalows, Foursquares, and Prairie-style homes that line street after street here. A flooded basement in Oak Park isn't just a puddle problem. It's standing water against century-old stone foundations, saturated floor joists that haven't dried since they were milled, and a clock ticking toward mold colonization in as little as 24 to 48 hours. Dry Bros Water & Fire Restoration responds to exactly this kind of loss, extraction, structural drying, and documentation, so you're not left guessing what comes next.
 
 ## Why Oak Park Basements Flood the Way They Do

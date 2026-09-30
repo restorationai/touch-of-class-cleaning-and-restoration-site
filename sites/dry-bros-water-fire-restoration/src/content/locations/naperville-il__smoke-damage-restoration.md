@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Naperville, IL | Dry Bros Water & Fire Restoration"
-h1: "Smoke Damage Restoration in Naperville"
-meta_description: "Smoke damage restoration in Naperville, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Smoke Damage Restoration in Naperville, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in Naperville"
+meta_description: "24/7 emergency smoke damage restoration in Naperville, IL. Insurance billing accepted. Call us now."
 primary_keyword: "smoke damage restoration naperville"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Naperville? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Naperville's mix of 1970s and 1980s ranch homes, newer suburban developments, and a handful of older in-town properties near the Riverwalk corridor creates a surprisingly varied landscape for smoke damage, and the damage itself behaves differently depending on what the walls, ceilings, and HVAC systems are made of. After a kitchen fire in a split-level off Route 59, or a garage fire in one of the established neighborhoods closer to downtown, smoke residue doesn't just coat surfaces. It migrates through ductwork, settles into porous materials, and, if the home sat closed up while firefighters worked, embeds itself in insulation, subflooring, and the spaces behind drywall. Dry Bros Water & Fire Restoration responds to those situations throughout Naperville and the broader DuPage County area.
 
 ## Why Naperville Homes Hold Smoke Differently

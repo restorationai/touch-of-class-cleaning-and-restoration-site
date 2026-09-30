@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Burst Pipe Cleanup and Repair in Kalaeloa"
-meta_description: "24/7 burst pipe cleanup and repair in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Kalaeloa"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "burst pipe cleanup and repair kalaeloa"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Kalaeloa? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Kalaeloa sits on the western edge of Oahu in a former military installation zone where the plumbing infrastructure is aging, the salt air is relentless, and a pipe that bursts at 2 a.m. can flood a concrete slab home faster than most people expect. The combination of high humidity, corrosive coastal air, and supply lines that predate modern materials creates conditions where a single water line break can saturate flooring, walls, and subfloor cavities before the water even reaches a visible puddle. When that happens, the window to prevent secondary damage is measured in hours.
 
 ## Why Kalaeloa Properties See Burst Pipe Issues

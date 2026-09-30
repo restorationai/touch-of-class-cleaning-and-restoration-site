@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Tacoma, WA | National Restoration Construction"
-h1: "Burst Pipe Cleanup and Repair in Tacoma"
-meta_description: "24/7 burst pipe cleanup and repair in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Tacoma, WA | National Restoration Construction"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Tacoma"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "burst pipe cleanup and repair tacoma"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Tacoma? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A pipe burst doesn't wait for business hours. Whether a frozen supply line let go overnight in a Hilltop bungalow or a corroded fitting failed in a Proctor District basement, the first hour matters more than almost any other. National Restoration Construction dispatches from Federal Way, roughly 15 minutes from central Tacoma, so when you reach us at **(206) 883-0333**, a crew with extraction equipment can be at your door in 60–90 minutes, often faster depending on your neighborhood and traffic on I-5.
 
 ## Why Tacoma Properties Are Vulnerable to Burst Pipes

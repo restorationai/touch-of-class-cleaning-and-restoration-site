@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Somis, CA | California Restoration West "
-h1: "Water Damage Restoration in Somis"
-meta_description: "24/7 water damage restoration in Somis, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "24/7 Emergency Water Damage Restoration in Somis, CA | California Restoration West "
+h1: "24/7 Emergency Water Damage Restoration in Somis"
+meta_description: "24/7 emergency water damage restoration in Somis, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "water damage restoration somis"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Somis? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Somis sits in a narrow agricultural corridor between the Santa Monica Mountains and the hills above Camarillo, where the land stays relatively dry most of the year until it doesn't. When the region's infrequent but intense winter storms arrive, or when an irrigation line serving one of the area's many lemon and avocado groves fails near a residential property, water moves fast across the clay-heavy soils and has nowhere obvious to go. If you're dealing with standing water, soaked drywall, or a crawl space that smells like it's been wet for days, California Restoration West responds around the clock from its Ventura base. Call (805) 290-7292.
 
 ## Why Somis Properties See Water Damage Issues

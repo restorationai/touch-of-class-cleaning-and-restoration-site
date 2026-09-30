@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Water Damage Restoration in Royal Kunia"
-meta_description: "24/7 water damage restoration in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "24/7 Emergency Water Damage Restoration in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Damage Restoration in Royal Kunia"
+meta_description: "24/7 emergency water damage restoration in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "water damage restoration royal kunia"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Royal Kunia? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Royal Kunia sits in the rain shadow of the Waianae Range, but that drier microclimate does not mean water damage is rare here. When trade winds stall and Kona weather patterns push moisture inland from the south, this planned community on Oahu's central plain can absorb heavy rainfall faster than its drainage infrastructure handles it. Add the humidity that never fully leaves central Oahu, and a slow leak behind a wall or under a slab can quietly saturate building materials for days before a homeowner notices anything wrong. If you are dealing with standing water, soaked flooring, or a musty smell that arrived after a storm or plumbing failure, calling (808) 349-3407 connects you with a crew available around the clock.
 
 ## Why Royal Kunia Properties See Water Damage Issues

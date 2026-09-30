@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in East Douglas, MA | Quality Contracting, Inc."
-h1: "Water Damage Restoration in East Douglas"
-meta_description: "Water damage restoration in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Water Damage Restoration in East Douglas, MA | Quality Contracting, Inc."
+h1: "Emergency Water Damage Restoration in East Douglas"
+meta_description: "Emergency water damage restoration in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "water damage restoration east douglas"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in East Douglas? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 East Douglas sits in the Blackstone Valley corridor of Worcester County, where cold winters, clay-heavy soils, and a housing stock that skews older than the state average create conditions that make water damage both more likely and harder to resolve than in newer suburban communities. When a pipe bursts behind plaster walls, or a nor'easter pushes water through a foundation that was poured decades before modern waterproofing standards, the damage can spread faster than it looks from the surface. Quality Contracting, Inc. serves East Douglas homeowners and property managers with hands-on water removal, structural drying, and full water mitigation from our Auburn location.
 
 ## Why East Douglas Properties Are Vulnerable to Water Damage

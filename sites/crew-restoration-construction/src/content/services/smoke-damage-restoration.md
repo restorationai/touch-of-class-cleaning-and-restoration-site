@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Smoke Damage Restoration in Sioux Falls | Crew Restoration & Construction"
-h1: "Smoke Damage Restoration in Sioux Falls"
-meta_description: "Smoke damage restoration in Sioux Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Smoke Damage Restoration in Sioux Falls | Crew Restoration & Construction"
+h1: "Emergency Smoke Damage Restoration in Sioux Falls"
+meta_description: "Emergency smoke damage restoration in Sioux Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "smoke damage restoration sioux falls"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "smoke-damage-restoration"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Sioux Falls? Call now for emergency service.** Our crew responds fast to stop smoke and soot damage from spreading.
+
 A kitchen fire that stayed out in twenty minutes can still leave a house smelling like it burned for hours. Smoke doesn't stop at the room of origin: it rides HVAC ductwork into bedrooms, settles into drywall pores, and bonds to anything with a slight electrostatic charge, cabinets, carpet fibers, even the inside of light fixtures. If the odor is still there after the fire department leaves and the flames are out, that's residue and off-gassing, not a smell that airs out on its own.
 
 ## What Smoke Damage Restoration actually involves

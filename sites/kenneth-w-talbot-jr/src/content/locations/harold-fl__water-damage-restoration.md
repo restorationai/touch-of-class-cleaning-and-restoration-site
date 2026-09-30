@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Harold, FL | Veterans Remediation & Restoration "
-h1: "Water Damage Restoration in Harold"
-meta_description: "24/7 water damage restoration in Harold, FL. Insurance billing accepted. Call (337) 344-1248."
+title: "24/7 Emergency Water Damage Restoration in Harold, FL | Veterans Remediation & Restoration "
+h1: "24/7 Emergency Water Damage Restoration in Harold"
+meta_description: "24/7 emergency water damage restoration in Harold, FL. Insurance billing accepted. Call (337) 344-1248."
 primary_keyword: "water damage restoration harold"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

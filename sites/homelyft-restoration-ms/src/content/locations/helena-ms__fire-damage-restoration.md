@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Helena, MS | HomeLyft Restoration MS"
-h1: "Fire Damage Restoration in Helena"
-meta_description: "Fire damage restoration in Helena, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Fire Damage Restoration in Helena, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Fire Damage Restoration in Helena"
+meta_description: "24/7 emergency fire damage restoration in Helena, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "fire damage restoration helena"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Helena? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 A house fire in Helena leaves behind more than charred walls, it leaves behind a chemical residue that keeps working long after the flames are out. Smoke particles from burning synthetic materials bond to drywall, insulation, and wood framing within hours, and in Phillips County's humid summers, that moisture-laden air accelerates the corrosion of metal fixtures and deepens odor penetration into porous surfaces. The sooner a structured restoration process begins, the less secondary damage compounds the original loss.
 
 ## Why Helena Properties See Distinct Fire Damage Challenges

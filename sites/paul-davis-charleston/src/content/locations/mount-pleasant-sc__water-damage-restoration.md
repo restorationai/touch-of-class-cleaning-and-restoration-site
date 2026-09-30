@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Mount Pleasant, SC | Paul Davis Restoration of Charleston"
-h1: "Water Damage Restoration in Mount Pleasant"
-meta_description: "Water damage restoration in Mount Pleasant, SC. Insurance billing accepted. Call."
+title: "Emergency Water Damage Restoration in Mount Pleasant, SC | Paul Davis Restoration of Charleston"
+h1: "Emergency Water Damage Restoration in Mount Pleasant"
+meta_description: "Emergency water damage restoration in Mount Pleasant, SC. Insurance billing accepted. Call."
 primary_keyword: "water damage restoration mount pleasant"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

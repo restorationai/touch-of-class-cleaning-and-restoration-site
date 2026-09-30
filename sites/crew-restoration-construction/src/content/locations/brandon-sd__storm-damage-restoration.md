@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Brandon, SD | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Brandon"
-meta_description: "Storm damage restoration in Brandon, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Brandon, SD | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Brandon"
+meta_description: "Emergency storm damage restoration in Brandon, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration brandon"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Brandon? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Brandon sits directly in the path of the severe weather systems that roll across the eastern South Dakota plains, and the newer subdivisions spreading out from Sioux Falls carry their own vulnerabilities. Homes built in the last decade in areas like Aspen Heights often feature engineered roof trusses and OSB sheathing that perform well under normal loads, but when a straight-line wind event or hail-producing supercell moves through Minnehaha County, those materials can fail fast and leave interiors exposed within minutes. Crew Restoration & Construction responds to storm damage calls across Brandon (57005) and works through the full scope: emergency tarping and board-up, structural drying, debris removal, and reconstruction.
 
 ## Why Brandon Properties See Elevated Storm Damage Risk

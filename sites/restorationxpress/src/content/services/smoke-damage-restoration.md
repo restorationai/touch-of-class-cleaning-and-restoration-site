@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Smoke Damage Restoration in Davie | RestorationXpress "
-h1: "Smoke Damage Restoration in Davie"
-meta_description: "Smoke damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 932-5420."
+title: "Emergency Smoke Damage Restoration in Davie | RestorationXpress "
+h1: "Emergency Smoke Damage Restoration in Davie"
+meta_description: "Emergency smoke damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "smoke damage restoration davie"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "smoke-damage-restoration"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Davie? Call now for emergency service.** Our crew responds fast to stop smoke and soot damage from spreading.
+
 Even after the flames are out and the fire department leaves, smoke keeps working. In the first 24 to 72 hours after a fire, acidic soot particles etch into porous surfaces, drywall, wood trim, upholstery, grout, and the oily residue from burned synthetics bonds to whatever it touches. What smells like a campfire on day one smells like a chemical plant by day three. Smoke damage restoration is the specialized process of stopping that progression, neutralizing odor at the molecular level, and recovering materials that look, at first glance, like they should be thrown away.
 
 ## What Smoke Damage Restoration actually involves

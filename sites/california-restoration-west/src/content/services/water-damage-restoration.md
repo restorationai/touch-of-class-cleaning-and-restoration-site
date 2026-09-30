@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in Ventura | California Restoration West "
-h1: "Water Damage Restoration in Ventura"
-meta_description: "24/7 water damage restoration in Ventura and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "24/7 Emergency Water Damage Restoration in Ventura | California Restoration West "
+h1: "24/7 Emergency Water Damage Restoration in Ventura"
+meta_description: "24/7 emergency water damage restoration in Ventura and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "water damage restoration ventura"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Ventura? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Water you can see is only part of the problem. Within the first hour after a pipe bursts or a washing machine line fails, water is already moving, wicking into drywall, traveling under flooring, pooling inside wall cavities where no one will notice it until the smell starts or the paint bubbles. The clock matters here because wet building materials don't stay wet in isolation: at the right temperature and humidity, mold colonization can begin in as little as 24 to 48 hours. Water damage restoration is the work of stopping that clock.
 
 ## What water damage restoration actually involves

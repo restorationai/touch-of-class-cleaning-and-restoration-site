@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Waimanalo, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in Waimanalo"
-meta_description: "24/7 flood damage restoration in Waimanalo, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "24/7 Emergency Flood Damage Restoration in Waimanalo, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in Waimanalo"
+meta_description: "24/7 emergency flood damage restoration in Waimanalo, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "flood damage restoration waimanalo"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Waimanalo? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Waimanalo sits at the base of the Ko'olau Range, where trade winds push moisture-laden air against steep cliffs and rainfall totals can spike dramatically in a matter of hours. When that rain overwhelms the drainage channels that run through this low-lying coastal community, floodwater moves fast and carries red laterite soil, debris, and contaminants directly into homes. Flood damage restoration here is not a one-size approach, the combination of tropical humidity, older plantation-era construction, and proximity to the ocean creates conditions that keep materials wet long after the water appears to be gone.
 
 ## Why Waimanalo Properties Are Particularly Vulnerable to Flood Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Morristown, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Morristown"
-meta_description: "24/7 smoke damage restoration in Morristown, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Morristown, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Morristown"
+meta_description: "24/7 emergency smoke damage restoration in Morristown, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration morristown"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Morristown? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 A kitchen fire in one of Morristown's 1890s Victorians near the Historic District doesn't just leave char marks, it drives acidic smoke residue into horsehair plaster, pocket-door casings, and the kind of built-in millwork that can't be ordered from a lumber yard. Within hours, that residue begins etching brass hardware, yellowing ceiling medallions, and embedding itself in the original-growth wood floors that define so much of the housing stock around the Green. If you're dealing with smoke damage in Morristown right now, the window to limit permanent loss is shorter than most people realize.
 
 ## Why Morristown Properties Are Especially Vulnerable to Smoke Damage

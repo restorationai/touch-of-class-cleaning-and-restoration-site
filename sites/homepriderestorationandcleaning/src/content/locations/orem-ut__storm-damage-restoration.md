@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Orem, UT | Home Pride Restoration and Cleaning"
-h1: "Storm Damage Restoration in Orem"
-meta_description: "24/7 storm damage restoration in Orem, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Storm Damage Restoration in Orem, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Storm Damage Restoration in Orem"
+meta_description: "24/7 emergency storm damage restoration in Orem, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "storm damage restoration orem"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Orem? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Utah Lake's weather patterns don't read the same forecast twice. Orem sits at the foot of the Wasatch Range where cold canyon air funnels down from Provo Canyon and collides with warm valley thermals, producing the kind of fast-moving microbursts and hail events that can strip shingles, drop mature cottonwoods, and push water under doors before a homeowner has time to move furniture. When that happens, Home Pride Restoration and Cleaning, IICRC Certified and operating since 1997, can have a crew on your property from our Saratoga Springs headquarters in roughly 45 to 60 minutes via I-15 North to University Parkway.
 
 ## Why Orem Properties See Distinctive Storm Damage Patterns

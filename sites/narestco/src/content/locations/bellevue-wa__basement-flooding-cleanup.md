@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Bellevue, WA | National Restoration Construction"
-h1: "Basement Flooding Cleanup in Bellevue"
-meta_description: "24/7 basement flooding cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Basement Flooding Cleanup in Bellevue, WA | National Restoration Construction"
+h1: "24/7 Emergency Basement Flooding Cleanup in Bellevue"
+meta_description: "24/7 emergency basement flooding cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "basement flooding cleanup bellevue"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Bellevue? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 If you're standing in your Bellevue basement right now watching water creep across the floor, or you just discovered it after a night of heavy rain, the clock is already working against you. Mold can begin colonizing wet building materials in as little as 24 to 48 hours, and the longer water sits against concrete, drywall, and wood framing, the more expensive the recovery becomes. National Restoration Construction dispatches from Federal Way and can have a crew at most Bellevue addresses within 60 to 90 minutes of your call at (206) 883-0333.
 
 ## Why Bellevue Basements Flood

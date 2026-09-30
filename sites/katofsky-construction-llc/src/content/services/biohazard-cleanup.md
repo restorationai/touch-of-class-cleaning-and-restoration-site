@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Biohazard Cleanup in Pittsburgh | Katofsky Construction LLC"
-h1: "Biohazard Cleanup in Pittsburgh"
-meta_description: "24/7 biohazard cleanup in Pittsburgh and surrounding areas. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "24/7 Emergency Biohazard Cleanup in Pittsburgh | Katofsky Construction LLC"
+h1: "24/7 Emergency Biohazard Cleanup in Pittsburgh"
+meta_description: "24/7 emergency biohazard cleanup in Pittsburgh and surrounding areas. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "biohazard cleanup pittsburgh"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -17,6 +17,9 @@ service_slug: "biohazard-cleanup"
 service_display: "Biohazard Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Pittsburgh? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something happens in a home or property that leaves behind blood, bodily fluids, or other infectious material, the instinct is to clean it up and move on. That instinct can make things worse. Pathogens like bloodborne viruses and bacteria are not visible to the naked eye, they do not stay where you can see them, and household cleaners do not neutralize them. Biohazard remediation is a regulated process, not a deeper version of ordinary cleaning, and the difference matters for your health, your property, and your insurance claim.
 
 ## What biohazard cleanup actually involves

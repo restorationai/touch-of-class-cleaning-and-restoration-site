@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Yorba Linda, CA | Dry County Restoration"
-h1: "Water Damage Restoration in Yorba Linda"
-meta_description: "24/7 water damage restoration in Yorba Linda, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "24/7 Emergency Water Damage Restoration in Yorba Linda, CA | Dry County Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Yorba Linda"
+meta_description: "24/7 emergency water damage restoration in Yorba Linda, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "water damage restoration yorba linda"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

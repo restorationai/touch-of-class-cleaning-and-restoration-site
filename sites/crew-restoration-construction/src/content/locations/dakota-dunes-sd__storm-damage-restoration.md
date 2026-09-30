@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Dakota Dunes, SD | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Dakota Dunes"
-meta_description: "Storm damage restoration in Dakota Dunes, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Dakota Dunes, SD | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Dakota Dunes"
+meta_description: "Emergency storm damage restoration in Dakota Dunes, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration dakota dunes"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Dakota Dunes? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 When a severe storm rolls across the Missouri River corridor and stalls over Dakota Dunes, the damage can escalate fast. The community sits at the confluence of the Missouri and Big Sioux rivers, which means storm runoff has nowhere to go, water backs up, saturates the ground, and pushes into finished basements and crawl spaces before the rain even stops. Crew Restoration & Construction responds to storm damage calls throughout the 57049 ZIP code, from the riverside lots near Two Rivers to the wooded fairway properties in The Dunes golf community.
 
 ## Why Dakota Dunes Properties See Severe Storm Damage

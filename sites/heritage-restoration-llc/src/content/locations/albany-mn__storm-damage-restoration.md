@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Albany, MN | Heritage Restoration LLC"
-h1: "Storm Damage Restoration in Albany"
-meta_description: "Storm damage restoration in Albany, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Storm Damage Restoration in Albany, MN | Heritage Restoration LLC"
+h1: "Emergency Storm Damage Restoration in Albany"
+meta_description: "Emergency storm damage restoration in Albany, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "storm damage restoration albany"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Albany? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Central Minnesota's storm season hits Stearns County hard, and Albany sits squarely in the path of the fast-moving systems that funnel down from the north and northwest each spring and summer. When a severe thunderstorm drops a white oak across a roofline or a straight-line wind event peels back soffit and drives rain into wall cavities, the clock starts immediately. Moisture that reaches wood framing or insulation in an older Albany home can begin supporting mold growth within 24 to 48 hours, which means the gap between the storm passing and your first call matters.
 
 ## Why Albany Properties See Storm Damage Differently

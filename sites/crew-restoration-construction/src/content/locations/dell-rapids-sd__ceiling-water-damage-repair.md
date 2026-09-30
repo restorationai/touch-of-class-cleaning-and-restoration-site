@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Dell Rapids, SD | Crew Restoration & Construction"
-h1: "Ceiling Water Damage Repair in Dell Rapids"
-meta_description: "Ceiling water damage repair in Dell Rapids, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Ceiling Water Damage Repair in Dell Rapids, SD | Crew Restoration & Construction"
+h1: "Emergency Ceiling Water Damage Repair in Dell Rapids"
+meta_description: "Emergency ceiling water damage repair in Dell Rapids, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "ceiling water damage repair dell rapids"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

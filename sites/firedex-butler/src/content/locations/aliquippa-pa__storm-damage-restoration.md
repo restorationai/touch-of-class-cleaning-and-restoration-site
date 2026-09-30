@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Aliquippa, PA | FireDEX Butler"
-h1: "Storm Damage Restoration in Aliquippa"
-meta_description: "24/7 storm damage restoration in Aliquippa, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Storm Damage Restoration in Aliquippa, PA | FireDEX Butler"
+h1: "24/7 Emergency Storm Damage Restoration in Aliquippa"
+meta_description: "24/7 emergency storm damage restoration in Aliquippa, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "storm damage restoration aliquippa"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Mars, PA | FireDEX Butler"
-h1: "Sewage Cleanup and Sanitization in Mars"
-meta_description: "24/7 sewage cleanup and sanitization in Mars, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Mars, PA | FireDEX Butler"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Mars"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Mars, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "sewage cleanup and sanitization mars"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Mars? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows in Mars, the damage is immediate and the health risk is real. Raw sewage carries bacteria, viruses, and parasites that contaminate flooring, wall cavities, and HVAC systems within hours of contact. What makes this borough's situation distinct is the combination of century-old cast-iron drain lines running beneath the original Mars Borough streetscape and the fast-expanding tract homes pushing out along the Route 228 corridor, two very different building profiles, but both vulnerable to sewage events that demand professional extraction, disinfection, and documentation before any reconstruction begins. FireDEX Butler is available around the clock and reaches the 16046 ZIP code quickly from our Cranberry Township base.
 
 ## Why Mars Properties See Sewage Backup Issues

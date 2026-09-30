@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Alton, IA | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Alton"
-meta_description: "Board-up and tarping in Alton, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Alton, IA | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Alton"
+meta_description: "Emergency board-up and tarping in Alton, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping alton"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Alton? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a storm tears shingles off a farmhouse on the edge of Alton or a fire breaks a window out of a century-old home near St. Mary's Catholic Church, the clock starts immediately. Northwest Iowa winters are unforgiving, an unprotected opening can let in wind-driven snow, rain, or sub-zero air within hours, turning a manageable loss into a gut-renovation. Crew Restoration & Construction dispatches board-up and tarping crews to the 51003 area to close off those vulnerabilities before secondary damage compounds the original problem.
 
 ## Why Alton Properties Are Particularly Vulnerable After a Loss

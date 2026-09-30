@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Panama City Beach, FL | Veterans Remediation & Restoration "
-h1: "Ceiling Water Damage Repair in Panama City Beach"
-meta_description: "24/7 ceiling water damage repair in Panama City Beach, FL. Insurance billing accepted. Call (337) 344-1248."
+title: "Emergency Ceiling Water Damage Repair in Panama City Beach | Veterans Remediation & Restoration "
+h1: "24/7 Emergency Ceiling Water Damage Repair in Panama City Beach"
+meta_description: "24/7 emergency ceiling water damage repair in Panama City Beach, FL. Insurance billing accepted. Call (337) 344-1248."
 primary_keyword: "ceiling water damage repair panama city beach"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

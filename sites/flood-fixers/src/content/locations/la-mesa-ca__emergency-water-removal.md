@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in La Mesa, CA | Flood Fixers"
-h1: "Emergency Water Removal & Cleanup in La Mesa"
+title: "24/7 Emergency Water Removal & Cleanup in La Mesa, CA | Flood Fixers"
+h1: "24/7 Emergency Water Removal & Cleanup in La Mesa"
 meta_description: "24/7 emergency water removal and cleanup in La Mesa, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "emergency water removal la mesa"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Provo, UT | Home Pride Restoration and Cleaning"
-h1: "Sewage Cleanup and Sanitization in Provo"
-meta_description: "24/7 sewage cleanup and sanitization in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Provo, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Provo"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "sewage cleanup and sanitization provo"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Provo? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Provo sits at roughly 4,500 feet elevation on the eastern bench of Utah Lake, and when the ground freezes hard in January or thaws fast in March, the clay-heavy soils along the Wasatch foothills shift enough to stress sewer laterals that were already aging. When one of those laterals cracks or a municipal main backs up into your basement, you're not dealing with clean water, you're dealing with Category 3 contamination: raw sewage, bacteria, and pathogens that begin colonizing porous surfaces within hours. Home Pride Restoration and Cleaning has handled these calls across Utah County since 1997, and our IICRC-certified technicians carry the equipment and training to stop the spread before it becomes a gut-renovation.
 
 ## Why Provo Properties See Sewage Backup More Than You'd Expect

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Gautier, MS | HomeLyft Restoration MS"
-h1: "Storm Damage Restoration in Gautier"
-meta_description: "Storm damage restoration in Gautier, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Storm Damage Restoration in Gautier, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Storm Damage Restoration in Gautier"
+meta_description: "24/7 emergency storm damage restoration in Gautier, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "storm damage restoration gautier"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

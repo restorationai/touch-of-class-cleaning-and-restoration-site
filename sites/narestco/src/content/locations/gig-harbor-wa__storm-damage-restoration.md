@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Gig Harbor, WA | National Restoration Construction"
-h1: "Storm Damage Restoration in Gig Harbor"
-meta_description: "24/7 storm damage restoration in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Storm Damage Restoration in Gig Harbor, WA | National Restoration Construction"
+h1: "24/7 Emergency Storm Damage Restoration in Gig Harbor"
+meta_description: "24/7 emergency storm damage restoration in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "storm damage restoration gig harbor"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Gig Harbor? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 When a Pacific storm rolls through the Tacoma Narrows and unloads on Gig Harbor, the damage compounds fast. Salt-laden wind drives rain horizontally into siding joints, mature Douglas firs topple onto rooflines, and the steep lots along the harbor rim funnel runoff straight toward foundations before the storm has even passed. National Restoration Construction dispatches crews from Federal Way within hours of your call, reaching Gig Harbor via SR-16 across the Narrows Bridge, so the window between storm impact and secondary damage stays as short as possible.
 
 ## Why Gig Harbor Properties See Disproportionate Storm Damage

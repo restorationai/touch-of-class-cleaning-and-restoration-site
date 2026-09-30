@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Brookfield, IL | Dry Bros Water & Fire Restoration"
-h1: "Emergency Board-Up and Tarping in Brookfield"
+title: "24/7 Emergency Board-Up and Tarping in Brookfield, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Board-Up and Tarping in Brookfield"
 meta_description: "24/7 emergency board-up and tarping in Brookfield, IL. Insurance billing accepted. Call (877) 379-2767."
 primary_keyword: "emergency board-up and tarping brookfield"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Biohazard Cleanup in Kenilworth | The Restoration Group"
-h1: "Biohazard Cleanup in Kenilworth"
-meta_description: "24/7 biohazard cleanup in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Biohazard Cleanup in Kenilworth | The Restoration Group"
+h1: "24/7 Emergency Biohazard Cleanup in Kenilworth"
+meta_description: "24/7 emergency biohazard cleanup in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "biohazard cleanup kenilworth"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -17,6 +17,9 @@ service_slug: "biohazard-cleanup"
 service_display: "Biohazard Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Kenilworth? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to handle the cleanup with discretion and care.
+
 Some situations can't wait for a callback, and they can't be handled with household cleaners and good intentions. Blood, bodily fluids, and other infectious materials carry pathogen risks that aren't visible to the eye and don't disappear when a surface looks clean. Whether the cause is a traumatic accident, an unattended death, or a hoarding situation with biohazardous accumulation, the priority is the same: contain the risk, remove the material safely, and restore the space so the people who live or work there can return without worry.
 
 ## What biohazard cleanup actually involves

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Plainfield, NJ | The Restoration Group"
-h1: "Flood Damage Restoration in Plainfield"
-meta_description: "24/7 flood damage restoration in Plainfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Flood Damage Restoration in Plainfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Flood Damage Restoration in Plainfield"
+meta_description: "24/7 emergency flood damage restoration in Plainfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "flood damage restoration plainfield"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Plainfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and stop the damage from spreading.
+
 When Tropical Storm Ida tore through Union County in September 2021, Cedar Brook and the Green Brook overflowed their banks and turned the streets near East Front Street into channels. Plainfield lost lives that night, and hundreds of homes, many of them century-old Victorians and Queen Annes with finished basements, took on water faster than any sump pump could handle. That kind of flooding doesn't just wet a floor; it saturates original plaster, wicks into balloon-frame walls, and leaves behind a contamination and structural drying problem that can compound for weeks if the response is slow.
 
 ## Why Plainfield Properties Are Especially Vulnerable to Flood Damage

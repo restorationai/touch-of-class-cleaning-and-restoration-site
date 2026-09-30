@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Bellevue, WA | National Restoration Construction"
-h1: "Burst Pipe Cleanup and Repair in Bellevue"
-meta_description: "24/7 burst pipe cleanup and repair in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Bellevue, WA | National Restoration Construction"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Bellevue"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "burst pipe cleanup and repair bellevue"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Bellevue? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A burst pipe doesn't wait for a convenient moment. Water is already moving through your walls, soaking into subfloor joists, and pooling behind cabinets by the time you find the shutoff valve. If you're in Bellevue right now dealing with a pipe break, the next hour matters more than the next day, and that's exactly the window where National Restoration Construction works.
 
 ## Why Bellevue Properties See Burst Pipe Emergencies

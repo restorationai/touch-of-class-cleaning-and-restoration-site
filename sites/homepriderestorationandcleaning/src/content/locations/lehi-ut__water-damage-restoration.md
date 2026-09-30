@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Lehi, UT | Home Pride Restoration and Cleaning"
-h1: "Water Damage Restoration in Lehi"
-meta_description: "24/7 water damage restoration in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Water Damage Restoration in Lehi, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Water Damage Restoration in Lehi"
+meta_description: "24/7 emergency water damage restoration in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "water damage restoration lehi"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Lehi? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Lehi's rapid growth along the Silicon Slopes corridor has brought thousands of new townhomes, mixed-use developments, and tract subdivisions online in the last decade, and with fast construction comes fast plumbing failures. When a supply line lets go at 2 a.m. in a newer build near Traverse Mountain or a sewer backup floods a finished basement off Thanksgiving Point Drive, the clock starts immediately. Mold can begin colonizing wet framing within 24 to 48 hours, and Utah's semi-arid climate creates a false sense of security, interiors dry slowly when HVAC systems aren't running at full capacity in shoulder seasons.
 
 ## Why Lehi Properties See Water Damage Issues

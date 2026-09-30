@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Blue Diamond, NV | Life Savers Restoration LLC"
-h1: "Burst Pipe Cleanup and Repair in Blue Diamond"
-meta_description: "24/7 burst pipe cleanup and repair in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
+title: "Emergency Burst Pipe Cleanup and Repair in Blue Diamond, NV | Life Savers Restoration LLC"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Blue Diamond"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
 primary_keyword: "burst pipe cleanup and repair blue diamond"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

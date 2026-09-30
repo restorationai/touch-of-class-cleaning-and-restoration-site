@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Westborough, MA | Quality Contracting, Inc."
-h1: "Storm Damage Restoration in Westborough"
-meta_description: "Storm damage restoration in Westborough, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Storm Damage Restoration in Westborough, MA | Quality Contracting, Inc."
+h1: "Emergency Storm Damage Restoration in Westborough"
+meta_description: "Emergency storm damage restoration in Westborough, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "storm damage restoration westborough"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Westborough? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Westborough sits in one of central Massachusetts's more exposed inland corridors, when nor'easters push up from the coast or fast-moving summer squall lines roll across Worcester County, the town absorbs the full force before the storm breaks apart over higher terrain to the west. That combination of late-season hurricanes, ice storms that snap mature oaks at the root, and microbursts capable of lifting shingles in a single gust makes storm damage restoration a recurring reality for homeowners here, not a once-in-a-decade event. Quality Contracting, Inc. responds to those calls from its Auburn base, handling everything from wind-torn rooflines to water intrusion left behind when a tree punches through a soffit.
 
 ## Why Westborough Properties See Storm Damage

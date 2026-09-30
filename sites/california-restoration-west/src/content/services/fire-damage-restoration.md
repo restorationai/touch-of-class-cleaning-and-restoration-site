@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Ventura | California Restoration West "
-h1: "Fire Damage Restoration in Ventura"
-meta_description: "24/7 fire damage restoration in Ventura and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "24/7 Emergency Fire Damage Restoration in Ventura | California Restoration West "
+h1: "24/7 Emergency Fire Damage Restoration in Ventura"
+meta_description: "24/7 emergency fire damage restoration in Ventura and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "fire damage restoration ventura"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

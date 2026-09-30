@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board Up in Rochester Hills, MI | Flood Solutions inc"
-h1: "Board Up in Rochester Hills"
-meta_description: "Board up in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Board Up in Rochester Hills, MI | Flood Solutions inc"
+h1: "Emergency Board Up in Rochester Hills"
+meta_description: "Emergency board up in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "emergency board up rochester hills"
 secondary_keywords: []
 search_intent: "local_specialty"

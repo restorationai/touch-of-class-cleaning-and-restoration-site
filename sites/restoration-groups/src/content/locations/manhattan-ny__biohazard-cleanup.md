@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Manhattan, NY | The Restoration Group"
-h1: "Biohazard Cleanup in Manhattan"
-meta_description: "24/7 biohazard cleanup in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Biohazard Cleanup in Manhattan, NY | The Restoration Group"
+h1: "24/7 Emergency Biohazard Cleanup in Manhattan"
+meta_description: "24/7 emergency biohazard cleanup in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "biohazard cleanup manhattan"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Manhattan? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to handle the cleanup with discretion and care.
+
 Manhattan's density creates circumstances that simply don't exist elsewhere, a single incident in a pre-war Upper East Side co-op or a Midtown high-rise can affect shared corridors, adjacent units, and building staff before anyone has made a single call. When a situation involves blood, bodily fluids, sharps, or other infectious material, the stakes extend beyond the immediate space: building management needs documentation, neighboring residents need reassurance, and the affected unit needs to be returned to a safe, habitable condition as quickly and discreetly as possible. The Restoration Group responds 24/7 and handles every stage of the process so families and property managers don't have to navigate it alone.
 
 ## Why Manhattan Properties Present Unique Biohazard Challenges

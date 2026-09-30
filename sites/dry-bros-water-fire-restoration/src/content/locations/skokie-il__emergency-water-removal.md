@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Skokie, IL | Dry Bros Water & Fire Restoration"
-h1: "Emergency Water Removal & Cleanup in Skokie"
-meta_description: "emergency water removal and cleanup in Skokie, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Water Removal & Cleanup in Skokie, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Water Removal & Cleanup in Skokie"
+meta_description: "24/7 emergency water removal and cleanup in Skokie, IL. Insurance billing accepted. Call us now."
 primary_keyword: "emergency water removal skokie"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Skokie? We answer 24/7.** Call now and our crew heads out to extract the water and start drying.
+
 Skokie sits on some of the flattest, most clay-dense terrain in Cook County, and when a pipe bursts or a basement floods here, that water has nowhere to go fast. The same dense soil that makes Skokie's older bungalows and split-levels feel solid underfoot also slows drainage and keeps moisture trapped against foundation walls long after the visible puddles are gone. If you're dealing with standing water, soaked drywall, or that unmistakable musty smell spreading through your home, the clock is already running.
 
 ## Why Skokie Properties See Water Damage Differently

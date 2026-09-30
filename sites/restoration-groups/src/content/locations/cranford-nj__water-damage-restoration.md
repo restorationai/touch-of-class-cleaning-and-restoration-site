@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Cranford, NJ | The Restoration Group"
-h1: "Water Damage Restoration in Cranford"
-meta_description: "24/7 water damage restoration in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Water Damage Restoration in Cranford, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Damage Restoration in Cranford"
+meta_description: "24/7 emergency water damage restoration in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "water damage restoration cranford"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Cranford? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start drying your property.
+
 Cranford's nickname, the Venice of New Jersey, captures the beauty of the Rahway River winding through town, but it also explains why water damage restoration is the most urgent home-repair call in Union County. Hurricanes Floyd, Irene, and Ida each put entire blocks underwater here, and the flooding doesn't stop between named storms: overwhelmed storm sewers push water into basements across Sunny Acres and Cranford West every time a heavy nor'easter stalls over the area. When that happens, the clock starts immediately, mold colonies can establish in porous materials within 24 to 48 hours, and the 1920s and 1930s colonial and cape-cod homes that line most streets in 07016 have full basements, balloon-frame walls, and original plaster that hold moisture far longer than modern construction.
 
 ## Why Cranford Properties See Repeated Water Damage

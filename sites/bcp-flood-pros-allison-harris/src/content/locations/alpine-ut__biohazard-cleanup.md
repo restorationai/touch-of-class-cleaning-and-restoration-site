@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Alpine, UT | FIX Restoration"
-h1: "Biohazard Cleanup in Alpine"
-meta_description: "Biohazard cleanup in Alpine, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Biohazard Cleanup in Alpine, UT | FIX Restoration"
+h1: "Emergency Biohazard Cleanup in Alpine"
+meta_description: "Emergency biohazard cleanup in Alpine, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "biohazard cleanup alpine"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Alpine? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Alpine sits at the base of the Wasatch Range in northern Utah County, where tight-knit neighborhoods and a strong sense of community make an already difficult situation feel even more exposed. When a home or property in Alpine requires biohazard cleanup, the priority is discretion, safety, and a process that protects both the people involved and the structure itself. FIX Restoration has been handling sensitive remediation work across Utah County since 2012, and the team understands that a call like this one rarely comes at a convenient moment.
 
 ## Why Alpine Properties Present Unique Biohazard Considerations

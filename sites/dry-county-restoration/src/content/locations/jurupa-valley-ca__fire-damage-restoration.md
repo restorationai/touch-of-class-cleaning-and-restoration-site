@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Jurupa Valley, CA | Dry County Restoration"
-h1: "Fire Damage Restoration in Jurupa Valley"
-meta_description: "24/7 fire damage restoration in Jurupa Valley, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "24/7 Emergency Fire Damage Restoration in Jurupa Valley, CA | Dry County Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Jurupa Valley"
+meta_description: "24/7 emergency fire damage restoration in Jurupa Valley, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "fire damage restoration jurupa valley"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

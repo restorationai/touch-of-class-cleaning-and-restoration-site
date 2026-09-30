@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Yorba Linda, CA | Dry County Restoration"
-h1: "Ceiling Water Damage Repair in Yorba Linda"
-meta_description: "24/7 ceiling water damage repair in Yorba Linda, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "Emergency Ceiling Water Damage Repair in Yorba Linda, CA | Dry County Restoration"
+h1: "24/7 Emergency Ceiling Water Damage Repair in Yorba Linda"
+meta_description: "24/7 emergency ceiling water damage repair in Yorba Linda, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "ceiling water damage repair yorba linda"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

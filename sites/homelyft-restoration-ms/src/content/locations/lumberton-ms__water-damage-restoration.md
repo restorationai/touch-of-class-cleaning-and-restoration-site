@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Lumberton, MS | HomeLyft Restoration MS"
-h1: "Water Damage Restoration in Lumberton"
-meta_description: "Water damage restoration in Lumberton, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Water Damage Restoration in Lumberton, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Water Damage Restoration in Lumberton"
+meta_description: "24/7 emergency water damage restoration in Lumberton, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "water damage restoration lumberton"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Lumberton? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Lumberton sits in the heart of Lamar County, where the humid subtropical climate means heavy rainfall, slow-draining clay-heavy soils, and a housing stock that includes plenty of older pier-and-beam homes that were never designed to shed standing water quickly. When a supply line bursts or a storm pushes water under your foundation, that combination turns a manageable leak into a structural problem within hours. HomeLyft Restoration MS responds to water damage calls in Lumberton and coordinates everything from initial water extraction through final structural drying, handled by an IICRC Certified Firm with credentials in Water Restoration (WRT) and Applied Structural Drying (ASD).
 
 ## Why Lumberton Properties See Water Damage Issues

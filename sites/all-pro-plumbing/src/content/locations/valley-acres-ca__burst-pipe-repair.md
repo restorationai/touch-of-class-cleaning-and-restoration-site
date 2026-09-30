@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst and Leaking Pipe Repair in Valley Acres, CA | All Pro Plumbing Heating and Air"
-h1: "Burst and Leaking Pipe Repair in Valley Acres"
-meta_description: "Trusted burst and leaking pipe repair in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242."
+title: "Emergency Burst and Leaking Pipe Repair in Valley Acres, CA | All Pro Plumbing Heating and Air"
+h1: "24/7 Emergency Burst and Leaking Pipe Repair in Valley Acres"
+meta_description: "Trusted 24/7 emergency burst and leaking pipe repair in Valley Acres, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242."
 primary_keyword: "burst and leaking pipe repair valley acres"
 secondary_keywords: ["burst pipe repair", "pipe burst in wall", "water line repair", "leaking pipe repair", "frozen pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Burst and Leaking Pipe Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Valley Acres? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Valley Acres sits in the southern San Joaquin Valley, where summer temperatures regularly push past 100°F and winter nights can drop sharply enough to stress older supply lines that were never designed with freeze protection in mind. That thermal swing, combined with the region's clay-heavy soils that expand and contract with seasonal moisture changes, puts real mechanical pressure on buried water lines and the pipes running through exterior walls. When a line finally lets go, water moves fast through slab foundations and into living spaces, and the clock starts immediately on secondary damage. All Pro Plumbing Heating and Air responds around the clock from Bakersfield to stop the loss and get your water back on.
 
 ## Why Valley Acres Properties See Burst and Leaking Pipe Issues

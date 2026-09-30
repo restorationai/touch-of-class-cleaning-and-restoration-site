@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Kirkland, WA | National Restoration Construction"
-h1: "Burst Pipe Cleanup and Repair in Kirkland"
-meta_description: "24/7 burst pipe cleanup and repair in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Kirkland, WA | National Restoration Construction"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Kirkland"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "burst pipe cleanup and repair kirkland"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Kirkland? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A burst pipe doesn't wait for a convenient moment. One minute your home is fine; the next, water is sheeting down drywall, soaking into subfloor, and spreading faster than you can grab towels. If you're searching from Kirkland right now, National Restoration Construction can have a crew on your property, equipped and ready to work, typically within 60 to 90 minutes. The sooner extraction starts, the less structural damage and the smaller the mold window.
 
 ## Why Kirkland Properties See Burst Pipe Emergencies

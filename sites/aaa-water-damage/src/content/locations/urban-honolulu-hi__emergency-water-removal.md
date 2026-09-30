@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Urban Honolulu, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Emergency Water Removal & Cleanup in Urban Honolulu"
+title: "24/7 Emergency Water Removal & Cleanup in Urban Honolulu, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Removal & Cleanup in Urban Honolulu"
 meta_description: "24/7 emergency water removal and cleanup in Urban Honolulu, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "emergency water removal urban honolulu"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

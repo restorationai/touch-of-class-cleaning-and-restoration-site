@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Auburn, WA | National Restoration Construction"
-h1: "Storm Damage Restoration in Auburn"
-meta_description: "24/7 storm damage restoration in Auburn, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Storm Damage Restoration in Auburn, WA | National Restoration Construction"
+h1: "24/7 Emergency Storm Damage Restoration in Auburn"
+meta_description: "24/7 emergency storm damage restoration in Auburn, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "storm damage restoration auburn"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Auburn? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 When a storm tears through Auburn, whether it's a line of Pacific low-pressure systems dumping rain faster than gutters can drain, or a wind event snapping a fir tree onto your roof at 2 a.m., the damage doesn't wait for business hours. Structural openings let water in within minutes. Saturated insulation and sheathing can begin supporting mold growth in as little as 24–48 hours. If you're standing in your home right now watching a ceiling stain spread or a tarp flapping loose over a hole in your roof, this is the page you needed to find. National Restoration Construction dispatches from Federal Way, less than 10 miles from most Auburn neighborhoods, and typically has a crew on-site within 60 to 90 minutes of your call.
 
 ## Why Auburn Properties Face Elevated Storm Damage Risk

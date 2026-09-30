@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Elmdale, MN | Heritage Restoration LLC"
-h1: "Water Damage Restoration in Elmdale"
-meta_description: "Water damage restoration in Elmdale, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in Elmdale, MN | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in Elmdale"
+meta_description: "Emergency water damage restoration in Elmdale, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration elmdale"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Elmdale? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Minnesota winters do not ease into spring so much as they collapse into it, and Elmdale feels that shift hard. When frozen ground thaws faster than drainage can keep up, water finds its way into basements, crawlspaces, and wall cavities before most homeowners realize anything is wrong. A slow seep behind drywall can read dry at the surface while the framing behind it stays saturated for days, quietly feeding conditions that make structural drying far more complicated than a simple extraction job.
 
 ## Why Elmdale Properties See Water Damage Issues

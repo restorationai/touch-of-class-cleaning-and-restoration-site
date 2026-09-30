@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Gig Harbor, WA | National Restoration Construction"
-h1: "Emergency Board-Up and Tarping in Gig Harbor"
+title: "24/7 Emergency Board-Up and Tarping in Gig Harbor, WA | National Restoration Construction"
+h1: "24/7 Emergency Board-Up and Tarping in Gig Harbor"
 meta_description: "24/7 emergency board-up and tarping in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "emergency board-up and tarping gig harbor"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

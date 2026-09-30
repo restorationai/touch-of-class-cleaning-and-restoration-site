@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Parker, SD | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Parker"
-meta_description: "Board-up and tarping in Parker, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Parker, SD | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Parker"
+meta_description: "Emergency board-up and tarping in Parker, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping parker"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Parker? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a spring hailstorm tears shingles off a century-old farmhouse on the edge of Parker, or a kitchen fire blows out windows on a quiet block near the Turner County Courthouse, every hour the structure sits open to the elements adds damage that didn't exist before. South Dakota's Turner County sits squarely in a corridor where severe weather can pivot from thunderstorm to straight-line wind event in under an hour, and in a small community like Parker (57053), there isn't always a local crew standing by with plywood and poly tarps. That's where Crew Restoration & Construction comes in, dispatching from Sioux Falls to secure your property before secondary damage compounds the original loss.
 
 ## Why Parker Properties Face Particular Board-Up and Tarping Challenges

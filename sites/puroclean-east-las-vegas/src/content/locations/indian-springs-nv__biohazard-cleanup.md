@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Indian Springs, NV | PuroClean of East Las Vegas"
-h1: "Biohazard Cleanup in Indian Springs"
-meta_description: "Biohazard cleanup in Indian Springs, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Biohazard Cleanup in Indian Springs, NV | PuroClean of East Las Vegas"
+h1: "Emergency Biohazard Cleanup in Indian Springs"
+meta_description: "Emergency biohazard cleanup in Indian Springs, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "biohazard cleanup indian springs"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

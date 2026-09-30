@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Montclair, NJ | The Restoration Group"
-h1: "Water Damage Restoration in Montclair"
-meta_description: "24/7 water damage restoration in Montclair, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Water Damage Restoration in Montclair, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Damage Restoration in Montclair"
+meta_description: "24/7 emergency water damage restoration in Montclair, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "water damage restoration montclair"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Montclair? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start drying your property.
+
 When Tropical Storm Ida tore through Essex County in September 2021, Frog Hollow and the South End bore the worst of it, sewer lines backed up into finished basements, the Yantacaw Creek overran its banks, and homeowners were left standing in two feet of murky water wondering what to do next. That kind of flooding isn't a fluke in Montclair; it's a pattern baked into the town's topography, its aging infrastructure, and a housing stock that predates modern waterproofing by a century. When water gets into your home here, the clock starts immediately, and the building itself makes the job harder than it looks.
 
 ## Why Montclair Properties See Water Damage Differently

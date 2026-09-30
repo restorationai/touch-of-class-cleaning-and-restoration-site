@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Andrews? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Andrews sits in the heart of the Permian Basin, where the same caliche-heavy soil that makes the oil patch productive also creates drainage headaches for homeowners. When water escapes a broken supply line, a failed water heater, or a sudden West Texas cloudburst, it has nowhere to go fast, caliche resists absorption, so water pools against foundations and finds its way inside rather than dispersing into the ground. If you're dealing with standing water or soaked flooring in Andrews right now, calling (432) 847-4704 puts you in touch with a crew based in Midland that knows this corner of Texas.
 
 ## Why Andrews Properties See Water Damage Differently Than Most of Texas

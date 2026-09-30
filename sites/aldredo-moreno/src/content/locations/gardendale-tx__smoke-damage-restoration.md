@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Gardendale, TX | ACS Enterprise "
-h1: "Smoke Damage Restoration in Gardendale"
-meta_description: "Smoke damage restoration in Gardendale, TX. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Smoke Damage Restoration in Gardendale, TX | ACS Enterprise "
+h1: "Emergency Smoke Damage Restoration in Gardendale"
+meta_description: "Emergency smoke damage restoration in Gardendale, TX. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "smoke damage restoration gardendale"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

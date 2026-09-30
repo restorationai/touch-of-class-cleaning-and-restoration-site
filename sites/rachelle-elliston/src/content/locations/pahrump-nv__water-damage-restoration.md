@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Pahrump, NV | Desert Valley Contracting Inc "
-h1: "Water Damage Restoration in Pahrump"
-meta_description: "24/7 water damage restoration in Pahrump, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+title: "24/7 Emergency Water Damage Restoration in Pahrump, NV | Desert Valley Contracting Inc "
+h1: "24/7 Emergency Water Damage Restoration in Pahrump"
+meta_description: "24/7 emergency water damage restoration in Pahrump, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "water damage restoration pahrump"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

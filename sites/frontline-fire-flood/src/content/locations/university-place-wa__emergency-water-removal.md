@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
 title: "Emergency Water Removal & Cleanup in University Place, WA | Frontline Fire & Flood"
-h1: "Emergency Water Removal & Cleanup in University Place"
+h1: "24/7 Emergency Water Removal & Cleanup in University Place"
 meta_description: "24/7 emergency water removal and cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency water removal university place"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in University Place? We answer 24/7.** Call now and our crew heads out to extract the water and start drying.
+
 University Place sits on a west-facing slope above Puget Sound, and that geography matters when a pipe bursts or a crawl space floods. Rainwater that misses the storm drain finds the path of least resistance downhill, and in many UP neighborhoods, that path runs straight under a home's foundation. When standing water shows up in your basement or soaked flooring telegraphs a hidden leak, the clock starts immediately: mold can begin colonizing wet building materials within 24 to 48 hours, and University Place's cool, humid winters give it every advantage.
 
 ## Why University Place Properties See Water Damage More Than You'd Expect

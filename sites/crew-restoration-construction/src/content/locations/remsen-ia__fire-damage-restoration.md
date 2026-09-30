@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Remsen, IA | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Remsen"
-meta_description: "Fire damage restoration in Remsen, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Remsen, IA | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Remsen"
+meta_description: "Emergency fire damage restoration in Remsen, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration remsen"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Remsen? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 The smell hits before you even open the front door, that sharp, acrid mix of charred wood, melted plastic, and smoke that soaks into every surface of a home. For residents near St. Mary's Catholic Church or along the older residential streets of Downtown Remsen, a house fire doesn't just mean visible damage. It means soot in the ductwork, odor locked into plaster walls, and structural questions that won't wait. Crew Restoration & Construction responds to fire damage calls in Remsen (51050) and works through the full scope, from initial board-up and debris removal to rebuilt walls and restored finishes.
 
 ## Why Remsen Homes Present Specific Fire Damage Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Sewage Cleanup and Sanitization in North Las Vegas | Desert Valley Contracting Inc "
-h1: "Sewage Cleanup and Sanitization in North Las Vegas"
-meta_description: "24/7 sewage cleanup and sanitization in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+title: "Emergency Sewage Cleanup and Sanitization in North Las Vegas | Desert Valley Contracting Inc "
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in North Las Vegas"
+meta_description: "24/7 emergency sewage cleanup and sanitization in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "sewage cleanup and sanitization north las vegas"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in North Las Vegas? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Raw sewage backing up into a bathtub or floor drain is not just a plumbing problem. The water carries fecal coliform bacteria, hepatitis A, and other pathogens that soak into drywall, subfloor, and grout within the first hour of contact. Every minute the material sits, the contamination zone expands and the remediation cost grows. If you are standing in a bathroom that smells like a sewer line, the clock is already running.
 
 ## What sewage cleanup and sanitization actually involves

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Flensburg, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Flensburg"
-meta_description: "Fire damage restoration in Flensburg, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Flensburg, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Flensburg"
+meta_description: "Emergency fire damage restoration in Flensburg, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration flensburg"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Flensburg? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Flensburg sits in Stearns County, where winters are long and heating systems work hard from October through April. When a furnace malfunction, chimney fire, or electrical fault ignites a home here, the cold air that rushes in through broken windows and compromised walls can set soot and smoke odor faster than in milder climates, and it can push residue deeper into porous materials before a crew ever arrives. Heritage Restoration LLC holds IICRC FSRT (Fire and Smoke Restoration) certification and responds to fire-damaged properties throughout the Flensburg area, working methodically through every phase of cleanup, deodorization, and structural repair.
 
 ## Why Flensburg Properties Face Particular Fire Damage Challenges

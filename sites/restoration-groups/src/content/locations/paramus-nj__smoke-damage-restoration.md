@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Paramus, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Paramus"
-meta_description: "24/7 smoke damage restoration in Paramus, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Paramus, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Paramus"
+meta_description: "24/7 emergency smoke damage restoration in Paramus, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration paramus"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Paramus? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 A kitchen fire in a 1960s split-level off Farview Avenue leaves more than charred cabinets, it leaves smoke particles baked into plaster walls, absorbed by the original hardwood floors, and circulating through ductwork that may not have been cleaned since the Carter administration. Paramus's postwar housing stock, much of it built between 1950 and 1970, presents specific challenges after a fire: older plaster and horsehair-backed drywall hold smoke odor differently than modern materials, and the finished basements common across West Paramus and East Paramus give smoke a second place to settle that's easy to overlook until the smell returns weeks later.
 
 ## Why Paramus Homes Hold Smoke Damage Longer

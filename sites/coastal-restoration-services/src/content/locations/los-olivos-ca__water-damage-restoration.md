@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Los Olivos, CA | Coastal Restoration Services Inc"
-h1: "Water Damage Restoration in Los Olivos"
-meta_description: "Water damage restoration in Los Olivos, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Water Damage Restoration in Los Olivos, CA | Coastal Restoration Services Inc"
+h1: "Emergency Water Damage Restoration in Los Olivos"
+meta_description: "Emergency water damage restoration in Los Olivos, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "water damage restoration los olivos"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Los Olivos? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Los Olivos sits in the Santa Ynez Valley, where the gap between a dry summer and a saturated winter can be dramatic. When a water heater fails behind a tasting room, a supply line bursts under a century-old ranch house, or a winter storm pushes water under a door threshold that's never seen that much rain, the clock starts immediately. Coastal Restoration Services Inc responds to water damage calls throughout Los Olivos and the surrounding Santa Barbara County wine country, bringing the equipment and process discipline needed to dry a structure before secondary damage sets in.
 
 ## Why Los Olivos Properties See Water Damage Differently

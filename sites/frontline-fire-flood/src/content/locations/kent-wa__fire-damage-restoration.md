@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Kent, WA | Frontline Fire & Flood"
-h1: "Fire Damage Restoration in Kent"
-meta_description: "24/7 fire damage restoration in Kent, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Fire Damage Restoration in Kent, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Fire Damage Restoration in Kent"
+meta_description: "24/7 emergency fire damage restoration in Kent, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration kent"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Kent? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Kent sits at the southern end of the Green River Valley, where industrial corridors, mid-century residential neighborhoods, and newer mixed-use developments sit side by side. When a structure fire moves through that mix, whether it's a 1960s ranch home off East Hill or a warehouse-adjacent rental near the valley floor, the damage rarely stops at char marks. Smoke travels through every gap in the building envelope, soot settles into HVAC ducts and wall cavities, and the water from suppression efforts begins its own clock the moment the hoses stop. Frontline Fire & Flood holds IICRC FSRT (Fire & Smoke Restoration) certification and responds 24/7 to fire damage calls throughout Kent.
 
 ## Why Kent Properties Face Distinct Fire Damage Challenges

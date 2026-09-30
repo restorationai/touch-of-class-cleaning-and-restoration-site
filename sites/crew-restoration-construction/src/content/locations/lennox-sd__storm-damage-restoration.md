@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Lennox, SD | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Lennox"
-meta_description: "Storm damage restoration in Lennox, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Lennox, SD | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Lennox"
+meta_description: "Emergency storm damage restoration in Lennox, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration lennox"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Lennox? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 When a severe storm rolls across Lincoln County, Lennox takes it differently than the larger cities to the north. The open prairie surrounding the 57039 ZIP code offers almost no windbreak before storms reach town, meaning straight-line winds and hail that might lose energy passing through Sioux Falls suburbs arrive in Lennox at nearly full force. Homes near the Lennox City Park area and along the residential streets of Downtown Lennox can go from intact to compromised in minutes, missing shingles, cracked siding, downed trees pressing into rooflines, and water pushing through gaps that weren't there the morning before.
 
 ## Why Lennox Properties See Elevated Storm Damage Risk

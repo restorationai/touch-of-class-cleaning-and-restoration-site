@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Heater Flood Cleanup in Utica, MI | Flood Solutions inc"
-h1: "Water Heater Flood Cleanup in Utica"
-meta_description: "Water heater flood cleanup in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Water Heater Flood Cleanup in Utica, MI | Flood Solutions inc"
+h1: "Emergency Water Heater Flood Cleanup in Utica"
+meta_description: "Emergency water heater flood cleanup in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "water heater flood cleanup utica"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "water-heater-flood-cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Utica? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 When a water heater fails in Utica, the damage rarely stays contained to the utility room. Macomb County's older ranch-style homes, many built during the suburban expansion of the 1960s and 70s, often have water heaters sitting on concrete slabs or in finished basements where a slow leak or sudden burst can saturate carpet, drywall, and subfloor before a homeowner notices anything wrong. Flood Solutions Inc. has been responding to exactly this kind of loss since 1996, and our team in Macomb can reach Utica quickly via Hall Road or M-59 to begin stopping the damage before it compounds.
 
 ## Why Utica Homes Are Particularly Vulnerable to Water Heater Failures

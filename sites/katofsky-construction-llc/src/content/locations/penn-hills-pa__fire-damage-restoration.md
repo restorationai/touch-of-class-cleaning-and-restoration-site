@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Penn Hills, PA | Katofsky Construction LLC"
-h1: "Fire Damage Restoration in Penn Hills"
-meta_description: "24/7 fire damage restoration in Penn Hills, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "24/7 Emergency Fire Damage Restoration in Penn Hills, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Fire Damage Restoration in Penn Hills"
+meta_description: "24/7 emergency fire damage restoration in Penn Hills, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "fire damage restoration penn hills"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Penn Hills? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Penn Hills sits on Pittsburgh's eastern edge, where decades of dense residential development produced a housing stock that skews heavily toward mid-century construction, brick exteriors, plaster-and-lath interiors, and older electrical panels that can turn a small kitchen fire into a whole-house smoke event before the first engine arrives. When fire moves through that kind of home, the damage rarely stops at the char line. Soot travels through forced-air ductwork, smoke odor soaks into plaster, and structural members hidden behind original finishes absorb heat in ways that don't show up on a visual walk-through. Katofsky Construction LLC responds to fire damage calls in Penn Hills around the clock, bringing the equipment and process discipline the job actually requires.
 
 ## Why Penn Hills Homes Are Particularly Vulnerable After a Fire

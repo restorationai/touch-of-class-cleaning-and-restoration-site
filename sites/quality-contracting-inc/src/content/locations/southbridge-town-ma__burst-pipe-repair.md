@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Southbridge Town, MA | Quality Contracting, Inc."
-h1: "Burst Pipe Cleanup and Repair in Southbridge Town"
-meta_description: "Burst pipe cleanup and repair in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Burst Pipe Cleanup and Repair in Southbridge Town | Quality Contracting, Inc."
+h1: "Emergency Burst Pipe Cleanup and Repair in Southbridge Town"
+meta_description: "Emergency burst pipe cleanup and repair in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "burst pipe cleanup and repair southbridge town"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"

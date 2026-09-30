@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Ellisville, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Ellisville"
-meta_description: "Sewage cleanup and sanitization in Ellisville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "Emergency Sewage Cleanup and Sanitization in Ellisville, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Ellisville"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Ellisville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization ellisville"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Ellisville? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Sewage backing up into a home in Ellisville hits differently than a simple plumbing leak. Jones County's clay-heavy soils drain slowly after heavy rain, and when the ground is already saturated, common during Mississippi's humid summer storm season, municipal sewer lines and private septic systems can surcharge simultaneously, pushing raw waste back through floor drains, toilets, and tub drains with little warning. HomeLyft Restoration MS responds to those calls with IICRC-certified technicians, EPA Lead-Safe credentials, and the equipment to remove contaminated material, disinfect affected surfaces, and document the loss for your insurance carrier.
 
 ## Why Ellisville Properties See Sewage Backup Problems

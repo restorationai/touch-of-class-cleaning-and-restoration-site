@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Los Alamos, CA | Coastal Restoration Services Inc"
-h1: "Ceiling Water Damage Repair in Los Alamos"
-meta_description: "Ceiling water damage repair in Los Alamos, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Ceiling Water Damage Repair in Los Alamos, CA | Coastal Restoration Services Inc"
+h1: "Emergency Ceiling Water Damage Repair in Los Alamos"
+meta_description: "Emergency ceiling water damage repair in Los Alamos, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "ceiling water damage repair los alamos"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

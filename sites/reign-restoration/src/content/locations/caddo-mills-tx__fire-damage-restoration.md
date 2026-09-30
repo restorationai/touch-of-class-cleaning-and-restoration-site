@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Caddo Mills, TX | Reign Restoration"
-h1: "Fire Damage Restoration in Caddo Mills"
-meta_description: "24/7 fire damage restoration in Caddo Mills, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Fire Damage Restoration in Caddo Mills, TX | Reign Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Caddo Mills"
+meta_description: "24/7 emergency fire damage restoration in Caddo Mills, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "fire damage restoration caddo mills"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

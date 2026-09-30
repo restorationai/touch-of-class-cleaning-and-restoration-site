@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Vandenberg Village | Coastal Restoration Services Inc"
-h1: "Fire Damage Restoration in Vandenberg Village"
-meta_description: "Fire damage restoration in Vandenberg Village and surrounding areas. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Fire Damage Restoration in Vandenberg Village | Coastal Restoration Services Inc"
+h1: "Emergency Fire Damage Restoration in Vandenberg Village"
+meta_description: "Emergency fire damage restoration in Vandenberg Village and surrounding areas. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "fire damage restoration vandenberg village"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Vandenberg Village? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 The fire is out, but the damage is still spreading. Within hours of extinguishment, acidic soot begins etching metal fixtures, yellowing painted surfaces, and embedding itself into porous materials like drywall and wood framing. The sharp, oily smell that clings to every room isn't just unpleasant; it's a sign that combustion byproducts are actively degrading surfaces and air quality. Fast, methodical fire and smoke restoration isn't optional, it's the difference between salvaging a home and replacing it.
 
 ## What fire damage restoration actually involves

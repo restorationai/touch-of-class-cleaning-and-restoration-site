@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Worthing, SD | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Worthing"
-meta_description: "Storm damage restoration in Worthing, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Worthing, SD | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Worthing"
+meta_description: "Emergency storm damage restoration in Worthing, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration worthing"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Worthing? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 The stretch of Lincoln County along I-29 south of Sioux Falls sits squarely in South Dakota's severe weather corridor, and Worthing takes the full force of it. Spring and early summer bring supercell thunderstorms that can drop baseball-sized hail, spin up brief but violent tornadoes, and deposit six inches of rain in under an hour, all before the afternoon commute ends. When a storm tears through the 57077 ZIP code, the window between the last thunderclap and the start of secondary damage (mold, structural warping, compromised insulation) is measured in hours, not days.
 
 ## Why Worthing Properties See Elevated Storm Damage Risk

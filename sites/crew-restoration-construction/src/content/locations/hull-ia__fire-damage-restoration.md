@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Hull, IA | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Hull"
-meta_description: "Fire damage restoration in Hull, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Hull, IA | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Hull"
+meta_description: "Emergency fire damage restoration in Hull, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration hull"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Hull? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Hull, Iowa sits in the heart of Sioux County's agricultural flatlands, where winter winds cut across open fields with little to slow them down. When a house fire breaks out here, whether it starts in a grain-storage outbuilding, a kitchen, or an older furnace room, the same open geography that defines this community means smoke and soot travel fast, penetrating wall cavities, ductwork, and attic insulation before the fire trucks have finished packing up. Crew Restoration & Construction responds to fire damage in Hull and the surrounding 51239 area, working to stabilize your property and begin the recovery process before secondary damage compounds the loss.
 
 ## Why Hull Properties Face Distinct Fire Damage Challenges

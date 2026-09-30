@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Highland Park, NJ | The Restoration Group"
-h1: "Emergency Board-Up and Tarping in Highland Park"
+title: "24/7 Emergency Board-Up and Tarping in Highland Park, NJ | The Restoration Group"
+h1: "24/7 Emergency Board-Up and Tarping in Highland Park"
 meta_description: "24/7 emergency board-up and tarping in Highland Park, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "emergency board-up and tarping highland park"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Highland Park? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure broken windows, doors and roofs.
+
 When a storm punches through a roof on River Road or a kitchen fire blows out windows in a Livingston Manor two-family, the first hour is the one that determines how much of the structure you save. Highland Park's dense corridor of 1910s–1940s colonials and bungalows sits directly alongside the Raritan River's flood plain, the same low-lying geography that left Donaldson Park and surrounding streets underwater during Hurricane Ida in 2021. Exposed openings in homes like these don't just invite rain; they invite the kind of secondary damage that turns a manageable loss into a gut renovation. Emergency board-up and tarping stops that clock.
 
 ## Why Highland Park Properties Need Board-Up and Tarping More Than Most

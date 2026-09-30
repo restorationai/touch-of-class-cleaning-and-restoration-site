@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Maplewood, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Maplewood"
-meta_description: "24/7 smoke damage restoration in Maplewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Maplewood, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Maplewood"
+meta_description: "24/7 emergency smoke damage restoration in Maplewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration maplewood"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Maplewood? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 Smoke doesn't stop at the room where the fire started. In Maplewood's older Tudor and craftsman homes, many of them built between 1910 and 1940 with original plaster walls, wood-lathe ceilings, and interconnected attic spaces, smoke travels fast and settles deep. The same porous plaster that gives these houses their character also absorbs soot and odor molecules in ways that modern drywall simply doesn't, and a kitchen fire in a Hilton neighborhood colonial can leave residue in second-floor bedrooms before the fire department has even cleared the scene. Getting the right team on-site quickly matters enormously here.
 
 ## Why Maplewood Properties See Smoke Damage Differently

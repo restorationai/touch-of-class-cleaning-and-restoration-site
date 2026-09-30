@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Ridgewood, NJ | The Restoration Group"
-h1: "Fire Damage Restoration in Ridgewood"
-meta_description: "24/7 fire damage restoration in Ridgewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Fire Damage Restoration in Ridgewood, NJ | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in Ridgewood"
+meta_description: "24/7 emergency fire damage restoration in Ridgewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "fire damage restoration ridgewood"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Ridgewood? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and start the recovery.
+
 The smell hits before you see the damage, that acrid mix of charred wood, melted wiring insulation, and smoke that seeps into plaster and settles into every corner of a house. In Ridgewood's older neighborhoods, where Victorians and Tudor revivals along the Heights and Old Country Club sections were built with old-growth timber framing, balloon-frame construction, and horsehair plaster walls, a kitchen fire or electrical failure doesn't stay contained the way it might in a newer build. Smoke travels fast through open wall cavities, and the structural consequences can be far more complex than the visible char suggests. The Restoration Group responds 24/7 to fire damage calls across Ridgewood (07450), call (855) 650-7422 the moment it's safe to do so.
 
 ## Why Ridgewood Homes Face Distinct Fire Damage Challenges

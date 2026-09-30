@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Piscataway, NJ | The Restoration Group"
-h1: "Water Damage Restoration in Piscataway"
-meta_description: "24/7 water damage restoration in Piscataway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Water Damage Restoration in Piscataway, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Damage Restoration in Piscataway"
+meta_description: "24/7 emergency water damage restoration in Piscataway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "water damage restoration piscataway"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Piscataway? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start drying your property.
+
 The Raritan River doesn't forget Piscataway. Residents along River Road and in the Johnson Park flatlands still talk about the night Ida rolled through in 2021, basements filling faster than sump pumps could cycle, finished floors buckling before morning. But riverine flooding isn't the only water story here. Burst galvanized supply lines in postwar split-levels off Stelton Road, sprinkler discharges in the Centennial Avenue warehouse corridor, and slow roof leaks soaking the attics of Society Hill townhomes all generate calls that need a fast, methodical response, not a crew that shows up with a few box fans.
 
 ## Why Piscataway Properties See Repeated Water Damage

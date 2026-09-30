@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in McLendon-Chisholm, TX | Reign Restoration"
-h1: "Storm Damage Restoration in McLendon-Chisholm"
-meta_description: "24/7 storm damage restoration in McLendon-Chisholm, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "Emergency Storm Damage Restoration in McLendon-Chisholm, TX | Reign Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in McLendon-Chisholm"
+meta_description: "24/7 emergency storm damage restoration in McLendon-Chisholm, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "storm damage restoration mclendon-chisholm"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

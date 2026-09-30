@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Lehi? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Lehi's rapid growth has brought tens of thousands of new residents into homes built on the benches and valley floor between Utah Lake and the Wasatch foothills, and that geography matters the moment water starts spreading across your floors. The clay-heavy soils common throughout this part of Utah Valley drain slowly, which means a broken supply line, a failed sump pump, or a storm that overwhelms a window well can push water into a crawl space or finished basement faster than most homeowners expect. When that happens, the clock starts immediately: mold can begin colonizing wet framing and insulation within 24 to 48 hours, and saturated subfloor materials rarely look or feel wet at the surface even when the structure underneath is holding significant moisture.
 
 ## Why Lehi Properties See Water Damage Issues

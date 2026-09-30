@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in St. Martin, MS | HomeLyft Restoration MS"
-h1: "Storm Damage Restoration in St. Martin"
-meta_description: "Storm damage restoration in St. Martin, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Storm Damage Restoration in St. Martin, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Storm Damage Restoration in St. Martin"
+meta_description: "24/7 emergency storm damage restoration in St. Martin, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "storm damage restoration st. martin"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in St. Martin? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 St. Martin sits in a stretch of Jackson County where Gulf-driven storms don't just pass through, they linger, stall, and leave behind a particular kind of damage that coastal Mississippi homeowners know all too well: saturated roof decking, wind-driven rain forced under siding, and debris fields that can take out a fence line, a carport, or a century-old live oak in the same gust. When a storm rolls through this community, the damage often looks manageable from the street but runs much deeper once you pull back the wet insulation or lift a waterlogged subfloor panel.
 
 ## Why St. Martin Properties Face Distinct Storm Damage Challenges

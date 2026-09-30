@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Shelby Township, MI | Flood Solutions inc"
-h1: "Smoke Damage Restoration in Shelby Township"
-meta_description: "Smoke damage restoration in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Smoke Damage Restoration in Shelby Township, MI | Flood Solutions inc"
+h1: "Emergency Smoke Damage Restoration in Shelby Township"
+meta_description: "Emergency smoke damage restoration in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "smoke damage restoration shelby township"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "smoke-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Shelby Township? Call now for emergency service.** Our crew responds fast to stop smoke and soot damage from spreading.
+
 Smoke from a house fire doesn't stop moving when the flames go out. In Shelby Township, where a significant share of the residential housing stock consists of brick ranch homes and two-story colonials built between the 1960s and 1990s, those older construction materials, wood framing, plaster-over-drywall ceilings, fiberglass batt insulation, absorb smoke particles and odor compounds deeply and unevenly. By the time you call Flood Solutions inc at (586) 580-0197, the visible soot may be the smallest part of the problem.
 
 ## Why Shelby Township Homes Hold Smoke Longer

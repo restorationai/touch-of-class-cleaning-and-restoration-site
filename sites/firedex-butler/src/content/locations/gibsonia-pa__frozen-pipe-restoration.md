@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Gibsonia, PA | FireDEX Butler"
-h1: "Frozen Pipe Restoration in Gibsonia"
-meta_description: "24/7 frozen pipe restoration in Gibsonia, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Frozen Pipe Restoration in Gibsonia, PA | FireDEX Butler"
+h1: "24/7 Emergency Frozen Pipe Restoration in Gibsonia"
+meta_description: "24/7 emergency frozen pipe restoration in Gibsonia, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "frozen pipe restoration gibsonia"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Gibsonia? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 January in Gibsonia hits differently than in Pittsburgh's South Hills. Out here in Richland Township, wooded lots sit exposed on ridgelines above Route 8, and the temperature swings that follow a cold front can drop an unheated bonus room or garage from 50°F to 18°F overnight. When that happens to a supply line feeding a finished basement, the kind of setup that's standard in the 1990s-to-2000s-era homes throughout the Treesdale and Pine-Richland corridor, you're not just dealing with a frozen pipe. You're dealing with the aftermath of a thaw: standing water on engineered hardwood, soaked insulation behind drywall, and a clock that starts ticking toward mold the moment temperatures rise.
 
 ## Why Gibsonia Properties Are Particularly Vulnerable to Frozen Pipe Damage

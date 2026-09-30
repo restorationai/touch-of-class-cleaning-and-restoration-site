@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Edison, NJ | The Restoration Group"
-h1: "Burst Pipe Cleanup and Repair in Edison"
-meta_description: "24/7 burst pipe cleanup and repair in Edison, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Edison, NJ | The Restoration Group"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Edison"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Edison, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "burst pipe cleanup and repair edison"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Edison? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 When a supply line lets go inside a postwar split-level in Clara Barton or a copper riser fails in one of Edison's older garden-apartment complexes off Oak Tree Road, the water doesn't wait for business hours. Edison's housing stock, tens of thousands of capes, colonials, and split-levels built between the 1950s and 1980s, was plumbed with galvanized steel and early copper that is now at or past its service life. A single overnight freeze, a pressure spike from a main-line repair, or simple metal fatigue can send dozens of gallons per minute into a finished basement before anyone smells the damage. The Restoration Group responds 24/7, dispatching from Kenilworth directly to Edison addresses across every ZIP code in the township.
 
 ## Why Edison Properties See Burst Pipe Issues

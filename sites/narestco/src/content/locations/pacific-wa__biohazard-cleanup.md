@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Pacific, WA | National Restoration Construction"
-h1: "Biohazard Cleanup in Pacific"
-meta_description: "24/7 biohazard cleanup in Pacific, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Biohazard Cleanup in Pacific, WA | National Restoration Construction"
+h1: "24/7 Emergency Biohazard Cleanup in Pacific"
+meta_description: "24/7 emergency biohazard cleanup in Pacific, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "biohazard cleanup pacific"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

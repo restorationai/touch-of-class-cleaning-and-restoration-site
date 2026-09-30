@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in North Las Vegas, NV | PuroClean of East Las Vegas"
-h1: "Fire Damage Restoration in North Las Vegas"
-meta_description: "Fire damage restoration in North Las Vegas, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Fire Damage Restoration in North Las Vegas, NV | PuroClean of East Las Vegas"
+h1: "Emergency Fire Damage Restoration in North Las Vegas"
+meta_description: "Emergency fire damage restoration in North Las Vegas, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "fire damage restoration north las vegas"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NV"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in North Las Vegas? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When a kitchen fire races through a home near Aliante or a garage blaze scorches a property in Cheyenne Ranch, the damage doesn't stop when the flames do. North Las Vegas's dry desert heat, routinely above 110°F in summer, accelerates the bonding of smoke residue to surfaces, meaning every hour between extinguishment and professional cleanup is an hour of deeper, costlier penetration. PuroClean of East Las Vegas responds to fire damage calls across North Las Vegas, working through the acrid smell of char and the brittle reality of heat-warped framing to bring properties back to livable condition.
 
 ## Why North Las Vegas Properties Face Distinct Fire Damage Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Summit, NJ | The Restoration Group"
-h1: "Storm Damage Restoration in Summit"
-meta_description: "24/7 storm damage restoration in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Storm Damage Restoration in Summit, NJ | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Summit"
+meta_description: "24/7 emergency storm damage restoration in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "storm damage restoration summit"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Summit? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 Summit's hilltop geography and century-old housing stock create a specific kind of storm vulnerability that flat-lot suburbs don't face. When a nor'easter or fast-moving summer squall rolls through Union County, the steep grades running off the Watchung ridgeline funnel sheets of stormwater directly toward foundation walls and lower-level entries, and in the 1890s–1930s Colonials and Tudors that define neighborhoods like the Franklin School area and Northside, that water meets slate roofs, copper gutters, plaster walls, and deep finished basements that demand a very different recovery approach than modern construction.
 
 ## Why Summit Properties See Distinctive Storm Damage Patterns

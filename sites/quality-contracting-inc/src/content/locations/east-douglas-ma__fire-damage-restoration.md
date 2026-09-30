@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in East Douglas, MA | Quality Contracting, Inc."
-h1: "Fire Damage Restoration in East Douglas"
-meta_description: "Fire damage restoration in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Fire Damage Restoration in East Douglas, MA | Quality Contracting, Inc."
+h1: "Emergency Fire Damage Restoration in East Douglas"
+meta_description: "Emergency fire damage restoration in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "fire damage restoration east douglas"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in East Douglas? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 East Douglas sits in the wooded, rural-residential corner of Worcester County where older wood-frame homes on generous lots are the norm rather than the exception. When fire moves through a house like that, it rarely stays in one room: it travels through balloon-frame wall cavities, settles into attic insulation, and leaves smoke residue in every closet and ductwork run before the fire department has the hose packed away. If you are dealing with that right now, call Quality Contracting, Inc. at (508) 756-8800 and let us walk you through what comes next.
 
 ## Why East Douglas Homes Are Particularly Vulnerable to Fire Spread

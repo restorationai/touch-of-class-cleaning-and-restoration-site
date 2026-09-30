@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Greenville, TX | Reign Restoration"
-h1: "Water Damage Restoration in Greenville"
-meta_description: "Water damage restoration in Greenville, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Water Damage Restoration in Greenville, TX | Reign Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Greenville"
+meta_description: "24/7 emergency water damage restoration in Greenville, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "water damage restoration greenville"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Greenville? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Greenville sits in Hunt County where the blackland prairie clay soil expands and contracts dramatically with seasonal rainfall swings, and when that clay shifts, it stresses foundations, cracks slab penetrations, and opens pathways for water to enter homes that were bone-dry the season before. A pipe burst, a washing machine overflow, or a hard spring storm can turn a manageable situation into a structural problem within hours if the water isn't extracted and the structure isn't dried correctly. Reign Restoration responds to water damage calls across Greenville, operating out of Royse City and reaching Hunt County properties without the long dispatch delays that come with calling a distant metro contractor.
 
 ## Why Greenville Properties See Water Damage Issues

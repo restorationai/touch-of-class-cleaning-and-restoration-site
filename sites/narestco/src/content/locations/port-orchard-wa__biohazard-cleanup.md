@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard and Trauma Cleanup in Port Orchard, WA | National Restoration Construction"
-h1: "Biohazard and Trauma Cleanup in Port Orchard"
-meta_description: "24/7 biohazard and trauma cleanup in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "Emergency Biohazard and Trauma Cleanup in Port Orchard, WA | National Restoration Construction"
+h1: "24/7 Emergency Biohazard and Trauma Cleanup in Port Orchard"
+meta_description: "24/7 emergency biohazard and trauma cleanup in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "biohazard and trauma cleanup port orchard"
 secondary_keywords: ["trauma scene cleanup", "unattended death cleanup", "blood cleanup", "bodily fluid cleanup", "biohazard remediation"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard and Trauma Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Port Orchard? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something traumatic happens in a home or business near the Sinclair Inlet waterfront or out on a rural South Kitsap acreage property, the last thing a family should have to manage is figuring out who to call and whether that company will handle the situation with discretion. Biohazard and trauma cleanup in Port Orchard carries logistical layers that don't exist in denser metro areas, private wells, septic systems, older housing stock, and long driveways off county roads all factor into how a scene is safely contained and cleared. National Restoration Construction has been handling these calls since 2004, and we treat each one as the singular, private matter it is.
 
 ## Why Port Orchard Properties Present Unique Biohazard Challenges

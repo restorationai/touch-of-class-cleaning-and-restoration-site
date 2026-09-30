@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Laurel, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Laurel"
-meta_description: "Board-up and tarping in Laurel, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Laurel, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Laurel"
+meta_description: "24/7 emergency board-up and tarping in Laurel, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping laurel"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Laurel? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Laurel sits squarely in the path of Gulf-fed storm systems that push north through Jones County, and when a severe thunderstorm or tornado-warned cell tears through, the damage it leaves behind, blown roof decking, shattered windows, doors ripped from frames, doesn't wait for business hours to get worse. Rain following a structural breach can double or triple the total loss in hours, which is why getting plywood over openings and heavy-duty tarps over exposed roof sections as fast as possible is the single most consequential thing a property owner can do after the initial event.
 
 ## Why Laurel Properties Face Repeated Board-Up and Tarping Needs

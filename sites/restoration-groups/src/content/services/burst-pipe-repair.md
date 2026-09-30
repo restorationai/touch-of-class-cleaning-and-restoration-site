@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Burst Pipe Cleanup and Repair in Kenilworth | The Restoration Group"
-h1: "Burst Pipe Cleanup and Repair in Kenilworth"
-meta_description: "24/7 burst pipe cleanup and repair in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Kenilworth | The Restoration Group"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Kenilworth"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "burst pipe cleanup and repair kenilworth"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "burst-pipe-repair"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Kenilworth? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 A pipe doesn't burst gradually, it fails in seconds, and the water that follows doesn't wait. By the time you hear the rush or notice the ceiling sagging, gallons have already moved behind walls, under subfloor, and into insulation that will hold moisture for weeks if it isn't pulled and dried correctly. The cleanup isn't just about mopping up standing water. It's about stopping secondary damage, swelling framing, buckled hardwood, mold colonization that can begin within 24 to 48 hours of saturation, before it turns a plumbing failure into a gut renovation.
 
 ## What burst pipe cleanup and repair actually involves

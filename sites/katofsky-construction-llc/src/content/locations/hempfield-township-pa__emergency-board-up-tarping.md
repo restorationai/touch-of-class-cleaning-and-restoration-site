@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Hempfield Township, PA | Katofsky Construction LLC"
-h1: "Emergency Board-Up and Tarping in Hempfield Township"
+h1: "24/7 Emergency Board-Up and Tarping in Hempfield Township"
 meta_description: "24/7 emergency board-up and tarping in Hempfield Township, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "emergency board-up and tarping hempfield township"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

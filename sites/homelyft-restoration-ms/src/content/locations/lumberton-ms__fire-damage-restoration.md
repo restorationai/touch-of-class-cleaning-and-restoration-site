@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Lumberton, MS | HomeLyft Restoration MS"
-h1: "Fire Damage Restoration in Lumberton"
-meta_description: "Fire damage restoration in Lumberton, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Fire Damage Restoration in Lumberton, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Fire Damage Restoration in Lumberton"
+meta_description: "24/7 emergency fire damage restoration in Lumberton, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "fire damage restoration lumberton"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Lumberton? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 When fire tears through a Lumberton home, the damage rarely stops at the charred walls. Lamar County's humid subtropical climate means smoke residue and soot begin bonding to surfaces within hours, while the moisture already present in the air accelerates corrosion on metal fixtures, electronics, and structural fasteners before a cleanup crew ever arrives. That combination, Southern heat, high ambient humidity, and the particular building materials common to this part of Mississippi, makes fire and smoke restoration here a more layered job than it might be in a drier climate.
 
 ## Why Lumberton Properties Face Distinct Fire Damage Challenges

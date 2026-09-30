@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Evans City, PA | FireDEX Butler"
-h1: "Smoke Damage Restoration in Evans City"
-meta_description: "24/7 smoke damage restoration in Evans City, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Smoke Damage Restoration in Evans City, PA | FireDEX Butler"
+h1: "24/7 Emergency Smoke Damage Restoration in Evans City"
+meta_description: "24/7 emergency smoke damage restoration in Evans City, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "smoke damage restoration evans city"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Evans City? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 The 1920s frame house on Evans City Main Street looks fine from the curb the morning after a kitchen fire, but open the front door and the smell hits you like a wall. Smoke from a single room can migrate through every gap in balloon-frame construction, settle into horsehair plaster, and coat attic rafters before the fire department's hoses are even rolled back up. In a borough where most of the housing stock was built between 1900 and 1950, smoke doesn't just dirty surfaces, it penetrates them, and it does so faster than most homeowners realize.
 
 ## Why Evans City Properties See Smoke Damage Differently

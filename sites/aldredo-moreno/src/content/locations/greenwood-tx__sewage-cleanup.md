@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Greenwood, TX | ACS Enterprise "
-h1: "Sewage Cleanup and Sanitization in Greenwood"
-meta_description: "Sewage cleanup and sanitization in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Sewage Cleanup and Sanitization in Greenwood, TX | ACS Enterprise "
+h1: "Emergency Sewage Cleanup and Sanitization in Greenwood"
+meta_description: "Emergency sewage cleanup and sanitization in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "sewage cleanup and sanitization greenwood"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Greenwood? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Greenwood sits in the Permian Basin's high desert terrain, where the caliche-heavy soil and wide temperature swings between seasons put real stress on buried sewer lines and aging septic systems. When a line lets go, whether it's a root intrusion, a collapsed lateral, or a septic tank that's finally had enough, raw sewage doesn't just create a mess. It introduces pathogens, saturates subfloor materials, and begins breaking down structural components within hours. ACS Enterprise responds to sewage backup and overflow calls across Greenwood and the surrounding Midland County area, handling extraction, disinfection, and documentation from the first call through final clearance.
 
 ## Why Greenwood Properties See Sewage Backup Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Chesterfield, MI | Flood Solutions inc"
-h1: "Burst Pipe Cleanup and Repair in Chesterfield"
-meta_description: "Burst pipe cleanup and repair in Chesterfield, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Burst Pipe Cleanup and Repair in Chesterfield, MI | Flood Solutions inc"
+h1: "Emergency Burst Pipe Cleanup and Repair in Chesterfield"
+meta_description: "Emergency burst pipe cleanup and repair in Chesterfield, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "burst pipe cleanup and repair chesterfield"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "burst-pipe-repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Chesterfield? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 Chesterfield's freeze-thaw cycle hits hard between December and March, and when a supply line or exterior wall pipe gives way at 2 a.m., the water does not wait for morning. Michigan winters push ground frost deep into the clay-heavy soils that underlie much of Macomb County, and that frost movement stresses both the older galvanized lines found in established Chesterfield subdivisions and the PEX runs in newer construction alike. Flood Solutions inc has been responding to pipe break water damage across the region since 1996, and the team knows how quickly a burst pipe in a finished basement can turn a manageable situation into a structural problem.
 
 ## Why Chesterfield Properties See Burst Pipe Issues

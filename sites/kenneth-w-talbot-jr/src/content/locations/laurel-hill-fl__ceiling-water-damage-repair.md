@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Laurel Hill, FL | Veterans Remediation & Restoration "
-h1: "Ceiling Water Damage Repair in Laurel Hill"
-meta_description: "24/7 ceiling water damage repair in Laurel Hill, FL. Insurance billing accepted. Call (337) 344-1248."
+title: "Emergency Ceiling Water Damage Repair in Laurel Hill, FL | Veterans Remediation & Restoration "
+h1: "24/7 Emergency Ceiling Water Damage Repair in Laurel Hill"
+meta_description: "24/7 emergency ceiling water damage repair in Laurel Hill, FL. Insurance billing accepted. Call (337) 344-1248."
 primary_keyword: "ceiling water damage repair laurel hill"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

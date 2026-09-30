@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Seattle, WA | National Restoration Construction"
-h1: "Basement Flooding Cleanup in Seattle"
-meta_description: "24/7 basement flooding cleanup in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Basement Flooding Cleanup in Seattle, WA | National Restoration Construction"
+h1: "24/7 Emergency Basement Flooding Cleanup in Seattle"
+meta_description: "24/7 emergency basement flooding cleanup in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "basement flooding cleanup seattle"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Seattle? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 If there's standing water in your basement right now, every hour matters. Water migrates into wall cavities, soaks into concrete block, and begins saturating wood framing faster than most people expect, and in Seattle's wet climate, the window between a flooded basement and a mold problem is shorter than it is almost anywhere else in the country. National Restoration Construction dispatches from Federal Way, putting a crew on-site at most Seattle addresses within 60–90 minutes of your call.
 
 ## Why Seattle Basements Flood, and Why It's Worse Here Than You Think

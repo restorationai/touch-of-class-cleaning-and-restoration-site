@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst and Leaking Pipe Repair in Delano, CA | All Pro Plumbing Heating and Air"
-h1: "Burst and Leaking Pipe Repair in Delano"
-meta_description: "Trusted burst and leaking pipe repair in Delano, CA. Plumbing and HVAC pros, upfront pricing. Call (661) 863-9242."
+title: "24/7 Emergency Burst and Leaking Pipe Repair in Delano, CA | All Pro Plumbing Heating and Air"
+h1: "24/7 Emergency Burst and Leaking Pipe Repair in Delano"
+meta_description: "Trusted 24/7 emergency burst and leaking pipe repair in Delano, CA. Plumbing and HVAC pros, upfront pricing. Call (661) 863-9242."
 primary_keyword: "burst and leaking pipe repair delano"
 secondary_keywords: ["burst pipe repair", "pipe burst in wall", "water line repair", "leaking pipe repair", "frozen pipe repair"]
 search_intent: "local_emergency"

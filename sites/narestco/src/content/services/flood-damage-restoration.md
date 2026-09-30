@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Flood Damage Restoration in Federal Way | National Restoration Construction"
-h1: "Flood Damage Restoration in Federal Way"
-meta_description: "24/7 flood damage restoration in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Flood Damage Restoration in Federal Way | National Restoration Construction"
+h1: "24/7 Emergency Flood Damage Restoration in Federal Way"
+meta_description: "24/7 emergency flood damage restoration in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "flood damage restoration federal way"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "flood-damage-restoration"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Federal Way? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Floodwater doesn't wait. Whether a burst pipe soaked your basement overnight or a heavy Pacific Northwest rain event pushed water through your crawl space, the clock starts the moment moisture contacts your structure. National Restoration Construction responds to flood damage calls across Federal Way and the surrounding region, deploying extraction equipment, industrial drying systems, and trained technicians to stop the damage before it compounds into a mold problem or a structural one.
 
 ## How We Handle Flood Damage

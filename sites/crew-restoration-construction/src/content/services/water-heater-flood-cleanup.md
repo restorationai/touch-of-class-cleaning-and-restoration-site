@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Heater Flood Cleanup in Sioux Falls | Crew Restoration & Construction"
-h1: "Water Heater Flood Cleanup in Sioux Falls"
-meta_description: "Water heater flood cleanup in Sioux Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Heater Flood Cleanup in Sioux Falls | Crew Restoration & Construction"
+h1: "Emergency Water Heater Flood Cleanup in Sioux Falls"
+meta_description: "Emergency water heater flood cleanup in Sioux Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water heater flood cleanup sioux falls"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-heater-flood-cleanup"
 service_display: "Water Heater Flood Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Sioux Falls? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 A water heater rarely fails all at once. More often the tank starts weeping at a seam or the bottom rusts through after years of sediment buildup, and by the time anyone notices, water has been running across the utility room floor or seeping into the subfloor below for hours. In a basement, that water finds the path of least resistance: under drywall, into insulation cavities, along the bottom plate of framed walls, and sometimes into the ductwork if the unit sits near the furnace. What looks like a small puddle on the surface is frequently a much larger saturation problem underneath.
 
 ## What Water Heater Flood Cleanup actually involves

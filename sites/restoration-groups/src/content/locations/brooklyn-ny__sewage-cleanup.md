@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Brooklyn, NY | The Restoration Group"
-h1: "Sewage Cleanup and Sanitization in Brooklyn"
-meta_description: "24/7 sewage cleanup and sanitization in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "Emergency Sewage Cleanup and Sanitization in Brooklyn, NY | The Restoration Group"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Brooklyn"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "sewage cleanup and sanitization brooklyn"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NY"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Brooklyn? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to contain the contamination and start the cleanup.
+
 When a sewer line backs up into a garden-level apartment in Park Slope or a cellar unit in Brooklyn Heights, the clock starts immediately, raw sewage carries Category 3 contamination that begins soaking into century-old masonry and original hardwood floors within minutes. Brooklyn's dense brownstone belt, much of it built between the 1880s and 1920s, sits atop aging combined sewer infrastructure that was never designed for today's population density or the kind of rainfall events that have become routine since Hurricane Ida turned basement apartments into swimming pools. The Restoration Group responds 24/7 to sewage backup emergencies across Brooklyn, bringing the equipment and documentation that brownstone owners, co-op boards, and commercial landlords actually need.
 
 ## Why Brooklyn Properties See Sewage Backup More Often

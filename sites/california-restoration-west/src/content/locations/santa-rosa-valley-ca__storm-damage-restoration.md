@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Santa Rosa Valley, CA | California Restoration West "
-h1: "Storm Damage Restoration in Santa Rosa Valley"
-meta_description: "24/7 storm damage restoration in Santa Rosa Valley, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "Emergency Storm Damage Restoration in Santa Rosa Valley, CA | California Restoration West "
+h1: "24/7 Emergency Storm Damage Restoration in Santa Rosa Valley"
+meta_description: "24/7 emergency storm damage restoration in Santa Rosa Valley, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "storm damage restoration santa rosa valley"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Farrell, PA | DISS Restoration"
-h1: "Fire Damage Restoration in Farrell"
-meta_description: "24/7 fire damage restoration in Farrell, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Fire Damage Restoration in Farrell, PA | DISS Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Farrell"
+meta_description: "24/7 emergency fire damage restoration in Farrell, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "fire damage restoration farrell"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Farrell? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Farrell sits in Mercer County's industrial corridor, and the city's housing stock reflects that history: dense rows of brick and frame homes built through the mid-twentieth century, many with original plaster walls, older balloon-frame construction, and electrical systems that have been patched and extended over decades. When a fire moves through one of these homes, the damage rarely stays in one room. Smoke travels through balloon-frame wall cavities from basement to attic in minutes, and the soot that settles into plaster is chemically different from what embeds in modern drywall. DISS Restoration's IICRC FSRT-certified technicians understand that distinction, and it shapes every step of the work from the moment they arrive.
 
 ## Why Farrell's Older Housing Stock Complicates Fire and Smoke Restoration

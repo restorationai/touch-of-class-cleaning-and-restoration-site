@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Maplewood, NJ | The Restoration Group"
-h1: "Fire Damage Restoration in Maplewood"
-meta_description: "24/7 fire damage restoration in Maplewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Fire Damage Restoration in Maplewood, NJ | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in Maplewood"
+meta_description: "24/7 emergency fire damage restoration in Maplewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "fire damage restoration maplewood"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Maplewood? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and start the recovery.
+
 A house fire in Maplewood hits differently than in newer construction towns. The Tudors and colonials that line streets in the Hilton and Jefferson neighborhoods were built between the 1910s and 1930s, and their original plaster walls, knob-and-tube-era wiring, and old-growth wood framing don't just burn, they absorb smoke and char in ways that synthetic modern materials don't. Soot migrates deep into plaster, odor embeds in exposed beam cavities, and what looks like surface damage on the outside of a wall often signals structural compromise inside. If you've just had a fire at a property in the 07040 ZIP code, the clock on secondary damage, acidic soot etching fixtures, smoke odor permanently bonding to porous surfaces, starts the moment flames are out.
 
 ## Why Maplewood's Housing Stock Complicates Fire Damage

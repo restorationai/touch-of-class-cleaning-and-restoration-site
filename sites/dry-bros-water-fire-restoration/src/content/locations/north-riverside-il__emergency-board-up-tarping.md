@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in North Riverside, IL | Dry Bros Water & Fire Restoration"
-h1: "Emergency Board-Up and Tarping in North Riverside"
+title: "24/7 Emergency Board-Up and Tarping in North Riverside, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Board-Up and Tarping in North Riverside"
 meta_description: "24/7 emergency board-up and tarping in North Riverside, IL. Insurance billing accepted. Call (877) 379-2767."
 primary_keyword: "emergency board-up and tarping north riverside"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

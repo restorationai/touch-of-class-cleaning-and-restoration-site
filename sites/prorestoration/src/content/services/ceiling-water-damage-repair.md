@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Ceiling Water Damage Repair in Bakersfield | ProRestoration Services"
-h1: "Ceiling Water Damage Repair in Bakersfield"
-meta_description: "24/7 ceiling water damage repair in Bakersfield and surrounding areas. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Ceiling Water Damage Repair in Bakersfield | ProRestoration Services"
+h1: "24/7 Emergency Ceiling Water Damage Repair in Bakersfield"
+meta_description: "24/7 emergency ceiling water damage repair in Bakersfield and surrounding areas. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "ceiling water damage repair bakersfield"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

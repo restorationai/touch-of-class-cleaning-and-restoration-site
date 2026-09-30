@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Heater Flood Cleanup in Vandenberg Village, CA | Coastal Restoration Services Inc"
-h1: "Water Heater Flood Cleanup in Vandenberg Village"
-meta_description: "Water heater flood cleanup in Vandenberg Village, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Water Heater Flood Cleanup in Vandenberg Village | Coastal Restoration Services Inc"
+h1: "Emergency Water Heater Flood Cleanup in Vandenberg Village"
+meta_description: "Emergency water heater flood cleanup in Vandenberg Village, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "water heater flood cleanup vandenberg village"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"

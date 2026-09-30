@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Ridgewood, NJ | The Restoration Group"
-h1: "Storm Damage Restoration in Ridgewood"
-meta_description: "24/7 storm damage restoration in Ridgewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Storm Damage Restoration in Ridgewood, NJ | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Ridgewood"
+meta_description: "24/7 emergency storm damage restoration in Ridgewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "storm damage restoration ridgewood"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Ridgewood? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 When Tropical Storm Ida pushed up through Bergen County in September 2021, the Ho-Ho-Kus Brook overtopped its banks and sent water surging into basements along the village's lower-lying streets, a reminder that Ridgewood's charm comes with real exposure. The mature oaks and sycamores that shade the Heights and Old Country Club neighborhoods drop limbs onto slate and clay-tile roofs that were never designed to absorb that kind of impact, and a single compromised roof section can soak the plaster ceilings and finished basements of a century-old Tudor before the rain stops. When a storm hits 07450, The Restoration Group responds around the clock, call (855) 650-7422.
 
 ## Why Ridgewood Properties Face Distinct Storm Damage Risks

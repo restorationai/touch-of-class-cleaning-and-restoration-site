@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Henderson | Life Savers Restoration LLC"
-h1: "Fire Damage Restoration in Henderson"
-meta_description: "24/7 fire damage restoration in Henderson and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
+title: "24/7 Emergency Fire Damage Restoration in Henderson | Life Savers Restoration LLC"
+h1: "24/7 Emergency Fire Damage Restoration in Henderson"
+meta_description: "24/7 emergency fire damage restoration in Henderson and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
 primary_keyword: "fire damage restoration henderson"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Henderson? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 The fire is out, but the damage isn't done. In the hours after a house fire, soot continues to etch into porous surfaces, acidic smoke residue corrodes metal fixtures, and the smell of combustion works its way deeper into drywall, insulation, and HVAC ductwork. What looks like surface discoloration on day one can become permanent staining by day three. Fire and smoke restoration is a race against secondary damage, and it requires a very different skill set than simply cleaning up debris.
 
 ## What Fire Damage Restoration actually involves

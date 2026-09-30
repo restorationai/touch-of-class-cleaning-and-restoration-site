@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Temescal Valley, CA | Dry County Restoration"
-h1: "Smoke Damage Restoration in Temescal Valley"
-meta_description: "24/7 smoke damage restoration in Temescal Valley, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "Emergency Smoke Damage Restoration in Temescal Valley, CA | Dry County Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in Temescal Valley"
+meta_description: "24/7 emergency smoke damage restoration in Temescal Valley, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "smoke damage restoration temescal valley"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

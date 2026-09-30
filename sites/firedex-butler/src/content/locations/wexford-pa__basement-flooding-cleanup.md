@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Wexford, PA | FireDEX Butler"
-h1: "Basement Flooding Cleanup in Wexford"
-meta_description: "24/7 basement flooding cleanup in Wexford, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Basement Flooding Cleanup in Wexford, PA | FireDEX Butler"
+h1: "24/7 Emergency Basement Flooding Cleanup in Wexford"
+meta_description: "24/7 emergency basement flooding cleanup in Wexford, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "basement flooding cleanup wexford"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Wexford? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 The finished lower levels that define so many homes in Pine Township and English Farms, the home theaters, wet bars, and walkout family rooms built into Wexford's rolling topography, are exactly what's at stake when a sump pump fails at 2 a.m. or a supply line lets go behind the drywall. Water moves fast through luxury vinyl plank and into the framing beneath it, and in the large two-story and estate homes common throughout the 15090 ZIP code, a single flooding event can mean tens of thousands of dollars in contents and finish losses if extraction doesn't start within hours.
 
 ## Why Wexford Properties See Basement Flooding So Often

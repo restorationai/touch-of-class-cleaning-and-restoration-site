@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Pipestone, MN | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Pipestone"
-meta_description: "Water damage restoration in Pipestone, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Pipestone, MN | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Pipestone"
+meta_description: "Emergency water damage restoration in Pipestone, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration pipestone"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Pipestone? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Pipestone sits in the southwest corner of Minnesota where spring snowmelt and summer thunderstorms can dump inches of water in hours onto ground that's already saturated from a long freeze-thaw cycle. When a basement floods or a supply line fails in a home near the Hiawatha Pageant grounds or along the older residential blocks feeding into Downtown Pipestone, the clock starts immediately, mold colonies can begin forming within 24 to 48 hours of a moisture event, and in a community where many homes were built before modern vapor barriers existed, water travels fast through wall cavities and subfloor assemblies that were never designed to shed it.
 
 ## Why Pipestone Properties See Water Damage Issues

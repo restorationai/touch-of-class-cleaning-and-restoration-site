@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Helena, MS | HomeLyft Restoration MS"
-h1: "Water Damage Restoration in Helena"
-meta_description: "Water damage restoration in Helena, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Water Damage Restoration in Helena, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Water Damage Restoration in Helena"
+meta_description: "24/7 emergency water damage restoration in Helena, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "water damage restoration helena"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Helena? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Helena sits in the Mississippi Delta lowlands where the ground stays saturated for weeks after a heavy rain, and when water finds its way into a home, through a failed supply line, a backed-up floor drain, or a roof breach during a Gulf-driven storm system, it moves fast through the older housing stock that defines much of this town. The clay-heavy soils common throughout Phillips County don't drain quickly, which means water that pools against a foundation keeps pressing inward long after the rain stops. HomeLyft Restoration MS responds to those calls with IICRC-certified technicians trained specifically in water damage restoration and structural drying.
 
 ## Why Helena Properties See Water Damage Differently Than Other Mississippi Towns

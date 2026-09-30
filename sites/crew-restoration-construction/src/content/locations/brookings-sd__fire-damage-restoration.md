@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Brookings, SD | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Brookings"
-meta_description: "Fire damage restoration in Brookings, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Brookings, SD | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Brookings"
+meta_description: "Emergency fire damage restoration in Brookings, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration brookings"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Brookings? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 A house fire in Brookings hits differently than in a larger city. With South Dakota State University anchoring so much of the local housing market, from older rental homes near campus to established neighborhoods like Pheasant Ridge, the mix of building ages and occupancy types means fire and smoke damage can look very different from one block to the next. Crew Restoration & Construction responds to fire damage calls across the 57006 ZIP code, bringing structural drying, soot removal, and odor control to properties ranging from mid-century bungalows to newer construction on the city's east side.
 
 ## Why Brookings Properties See Distinct Fire Damage Patterns

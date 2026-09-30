@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Tacoma, WA | Frontline Fire & Flood"
-h1: "Fire Damage Restoration in Tacoma"
-meta_description: "24/7 fire damage restoration in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Fire Damage Restoration in Tacoma, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Fire Damage Restoration in Tacoma"
+meta_description: "24/7 emergency fire damage restoration in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration tacoma"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Tacoma? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Tacoma's mix of century-old Craftsman bungalows, mid-century wood-frame construction, and newer infill development means a house fire here rarely behaves the way it does in a city built mostly after 1980. Older balloon-frame homes, common throughout the city's historic neighborhoods, allow smoke and heat to travel vertically inside wall cavities with almost no resistance, pushing soot and toxic residue into attic spaces and crawlspaces long before the fire department clears the scene. When that happens, the visible char is only part of the story. Frontline Fire & Flood's IICRC FSRT-certified technicians respond 24/7 and understand what Tacoma's housing stock actually hides after a fire.
 
 ## Why Tacoma's Building Stock Shapes Fire Damage Restoration

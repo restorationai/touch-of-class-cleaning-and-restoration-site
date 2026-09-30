@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Troy, MI | Flood & Fire Solutions"
-h1: "Sewage Cleanup and Sanitization in Troy"
-meta_description: "Sewage cleanup and sanitization in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Sewage Cleanup and Sanitization in Troy, MI | Flood & Fire Solutions"
+h1: "Emergency Sewage Cleanup and Sanitization in Troy"
+meta_description: "Emergency sewage cleanup and sanitization in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "sewage cleanup and sanitization troy"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Troy? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Troy sits at the northern edge of Oakland County, where older subdivisions built during the postwar boom share streets with newer commercial corridors along Big Beaver Road and Coolidge Highway. That mix of housing ages matters when a sewer line backs up: cast-iron drain stacks from the 1950s and 1960s corrode from the inside out, and a single blockage can push raw sewage back through floor drains, utility sinks, and even first-floor toilets before a homeowner realizes what is happening. When that happens, the contamination is not just an odor problem. Category 3 water, the classification for sewage, carries bacteria, viruses, and pathogens that absorb into drywall, subfloor, and insulation within hours.
 
 ## Why Troy Properties See Sewage Backup Issues

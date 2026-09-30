@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Frisco, TX | Reign Restoration"
-h1: "Smoke Damage Restoration in Frisco"
-meta_description: "24/7 smoke damage restoration in Frisco, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Smoke Damage Restoration in Frisco, TX | Reign Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in Frisco"
+meta_description: "24/7 emergency smoke damage restoration in Frisco, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "smoke damage restoration frisco"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

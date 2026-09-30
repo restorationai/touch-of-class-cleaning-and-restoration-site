@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Lennox, SD | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Lennox"
-meta_description: "Water damage restoration in Lennox, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Lennox, SD | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Lennox"
+meta_description: "Emergency water damage restoration in Lennox, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration lennox"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Lennox? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Spring snowmelt across Lincoln County farmland moves fast, and when saturated ground backs up against the foundations of Lennox's newer residential subdivisions, water finds its way inside before most homeowners realize there's a problem. A wet basement in the 57039 ZIP code isn't just an inconvenience, within 24 to 48 hours, standing water begins softening subfloor sheathing, and mold colonies can establish themselves in as little as 72 hours on wet drywall paper. Crew Restoration & Construction responds to water damage calls in Lennox with the equipment and process to stop that clock.
 
 ## Why Lennox Properties See Water Damage Issues

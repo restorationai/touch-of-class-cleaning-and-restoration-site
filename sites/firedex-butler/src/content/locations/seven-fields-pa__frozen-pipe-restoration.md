@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Seven Fields, PA | FireDEX Butler"
-h1: "Frozen Pipe Restoration in Seven Fields"
-meta_description: "24/7 frozen pipe restoration in Seven Fields, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Frozen Pipe Restoration in Seven Fields, PA | FireDEX Butler"
+h1: "24/7 Emergency Frozen Pipe Restoration in Seven Fields"
+meta_description: "24/7 emergency frozen pipe restoration in Seven Fields, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "frozen pipe restoration seven fields"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Seven Fields? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Seven Fields Borough sits at the edge of one of Butler County's coldest wind corridors, the open stretch along the Route 228 corridor where temperatures can drop several degrees below what Cranberry Township registers just a mile south. That matters in a community built almost entirely after 1988, because the copper and PEX supply lines running through exterior walls, uninsulated garage ceilings, and second-floor laundry chases in Castlebrook and Wakefield Estates weren't always designed with a hard Pennsylvania freeze in mind. When those lines let go, FireDEX Butler is minutes away and available around the clock to stop the damage before it compounds.
 
 ## Why Seven Fields Properties See Frozen Pipe Damage

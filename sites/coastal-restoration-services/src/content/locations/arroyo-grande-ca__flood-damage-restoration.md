@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Arroyo Grande, CA | Coastal Restoration Services Inc"
-h1: "Flood Damage Restoration in Arroyo Grande"
-meta_description: "Flood damage restoration in Arroyo Grande, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Flood Damage Restoration in Arroyo Grande, CA | Coastal Restoration Services Inc"
+h1: "Emergency Flood Damage Restoration in Arroyo Grande"
+meta_description: "Emergency flood damage restoration in Arroyo Grande, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "flood damage restoration arroyo grande"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Hattiesburg, MS | HomeLyft Restoration MS"
-h1: "Storm Damage Restoration in Hattiesburg"
-meta_description: "Storm damage restoration in Hattiesburg, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Storm Damage Restoration in Hattiesburg, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Storm Damage Restoration in Hattiesburg"
+meta_description: "24/7 emergency storm damage restoration in Hattiesburg, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "storm damage restoration hattiesburg"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Hattiesburg? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Hattiesburg sits in the heart of the Piney Woods, where Gulf-fed storm systems can stall and intensify before forecasters finish updating their models. A slow-moving tropical system or a fast-spinning tornado cell can drop a loblolly pine through a roof, push six inches of rainwater under a slab, and leave structural sheathing soaking for days in the region's thick summer humidity, all before a homeowner has had a chance to call their insurance agent. When that happens, the window for preventing secondary mold growth is measured in hours, not days.
 
 ## Why Hattiesburg Properties Take a Hard Hit in Severe Weather

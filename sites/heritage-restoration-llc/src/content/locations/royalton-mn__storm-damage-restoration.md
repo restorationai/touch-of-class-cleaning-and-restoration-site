@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Royalton, MN | Heritage Restoration LLC"
-h1: "Storm Damage Restoration in Royalton"
-meta_description: "Storm damage restoration in Royalton, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Storm Damage Restoration in Royalton, MN | Heritage Restoration LLC"
+h1: "Emergency Storm Damage Restoration in Royalton"
+meta_description: "Emergency storm damage restoration in Royalton, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "storm damage restoration royalton"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Royalton? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Royalton sits in Morrison County where the Mississippi River corridor funnels severe weather systems with surprising regularity, spring derechos, late-summer hail lines, and early-season ice storms can all arrive within weeks of each other. When a storm tears shingles off a farmhouse-style home on the north edge of town or drops a cottonwood across a garage roof, the window to prevent secondary damage is short. Heritage Restoration LLC responds to storm damage calls in Royalton and the surrounding Morrison County area, working to stabilize structures before water intrusion, wind exposure, or debris load turns a repair into a rebuild.
 
 ## Why Royalton Properties See Repeated Storm Damage

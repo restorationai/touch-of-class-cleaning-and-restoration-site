@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Olympia, WA | Frontline Fire & Flood"
-h1: "Burst Pipe Cleanup and Repair in Olympia"
-meta_description: "24/7 burst pipe cleanup and repair in Olympia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Olympia, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Olympia"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Olympia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "burst pipe cleanup and repair olympia"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Frozen Pipe Restoration in Federal Way | National Restoration Construction"
-h1: "Frozen Pipe Restoration in Federal Way"
-meta_description: "24/7 frozen pipe restoration in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Frozen Pipe Restoration in Federal Way | National Restoration Construction"
+h1: "24/7 Emergency Frozen Pipe Restoration in Federal Way"
+meta_description: "24/7 emergency frozen pipe restoration in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "frozen pipe restoration federal way"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "frozen-pipe-restoration"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Federal Way? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A frozen pipe doesn't announce itself, it announces itself when it bursts. One morning the faucet runs dry, and by afternoon you're looking at a ceiling stain, a wet subfloor, or water sheeting down an interior wall. National Restoration Construction responds to frozen pipe damage across Federal Way and the surrounding region with extraction equipment, structural drying gear, and licensed repair crews who handle the water *and* the pipe, so you're not coordinating three separate contractors while your floors absorb another inch of moisture.
 
 ## How we handle frozen pipe restoration

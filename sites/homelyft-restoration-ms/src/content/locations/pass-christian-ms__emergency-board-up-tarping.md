@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Pass Christian, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Pass Christian"
-meta_description: "Board-up and tarping in Pass Christian, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Pass Christian, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Pass Christian"
+meta_description: "24/7 emergency board-up and tarping in Pass Christian, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping pass christian"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Pass Christian? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Pass Christian sits directly in the path of Gulf storm systems that roll off the Mississippi Sound with little warning, and when a hurricane shutter fails, a tree limb punches through a roof, or a fire leaves a wall exposed to the elements, every hour without a proper board-up or tarp multiplies the damage inside. HomeLyft Restoration MS responds to those calls from our Gulfport location, bringing plywood, heavy-duty polyethylene tarping, and the hardware to make it hold, not just overnight, but through whatever weather follows the initial event.
 
 ## Why Pass Christian Properties See Elevated Board-Up and Tarping Needs

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Utica, MI | Flood & Fire Solutions"
-h1: "Water Damage Restoration in Utica"
-meta_description: "Water damage restoration in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Water Damage Restoration in Utica, MI | Flood & Fire Solutions"
+h1: "Emergency Water Damage Restoration in Utica"
+meta_description: "Emergency water damage restoration in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "water damage restoration utica"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Utica? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Utica sits in the heart of Macomb County, where clay-heavy soil and flat terrain make it one of the harder places in metro Detroit for water to go anywhere fast. When a basement floods after a heavy spring storm or a supply line lets go behind a finished wall, that standing water has nowhere to drain on its own, and the longer it sits, the deeper the damage runs. Flood Solutions Inc. has been responding to exactly these situations across Macomb County since 1996, and the team understands what water does to the specific mix of ranch homes, split-levels, and newer subdivisions that make up Utica's housing stock.
 
 ## Why Utica Properties See Water Damage Issues

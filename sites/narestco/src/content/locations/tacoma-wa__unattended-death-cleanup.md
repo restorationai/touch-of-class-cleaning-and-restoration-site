@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Unattended Death Cleanup in Tacoma, WA | National Restoration Construction"
-h1: "Unattended Death Cleanup in Tacoma"
-meta_description: "24/7 unattended death cleanup in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Unattended Death Cleanup in Tacoma, WA | National Restoration Construction"
+h1: "24/7 Emergency Unattended Death Cleanup in Tacoma"
+meta_description: "24/7 emergency unattended death cleanup in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "unattended death cleanup tacoma"
 secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased estate cleanup", "odor removal after death", "discreet death cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Unattended Death Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Tacoma? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Tacoma's older housing stock and marine climate create conditions that complicate unattended death cleanup in ways that rarely come up in newer, drier cities. When a death goes undiscovered for days or weeks inside a home built in the Stadium District or Proctor neighborhood, many of which date to the 1910s and 1920s, the combination of original fir subfloors, plaster-and-lath walls, and Puget Sound humidity means biological material migrates into structural cavities faster than it would in modern construction. National Restoration Construction responds to these situations with the discretion, technical preparation, and regulatory compliance the circumstances require.
 
 ## Why Tacoma's Building Stock and Climate Shape This Work

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Oildale, CA | ProRestoration Services"
-h1: "Water Damage Restoration in Oildale"
-meta_description: "24/7 water damage restoration in Oildale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Water Damage Restoration in Oildale, CA | ProRestoration Services"
+h1: "24/7 Emergency Water Damage Restoration in Oildale"
+meta_description: "24/7 emergency water damage restoration in Oildale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "water damage restoration oildale"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

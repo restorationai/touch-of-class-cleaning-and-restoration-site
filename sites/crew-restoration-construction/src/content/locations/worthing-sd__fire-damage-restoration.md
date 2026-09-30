@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Worthing, SD | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Worthing"
-meta_description: "Fire damage restoration in Worthing, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Worthing, SD | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Worthing"
+meta_description: "Emergency fire damage restoration in Worthing, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration worthing"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Worthing? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 The morning after a house fire in Worthing hits differently than in a bigger city. There are no firetrucks still idling outside, no neighbors crowding the sidewalk, just the sharp, acrid smell of smoke soaked into the walls of a home that was probably built in the last decade or two as this I-29 corridor community grew south from Sioux Falls. That smell doesn't leave on its own, and the structural damage underneath the char doesn't wait. If your property in the 57077 ZIP code has been through a fire, the window for limiting secondary damage, soot migration, smoke odor embedding into HVAC systems, moisture from suppression water, is measured in hours, not days.
 
 ## Why Worthing Properties Face Particular Fire Damage Challenges

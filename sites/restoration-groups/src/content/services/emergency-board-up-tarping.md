@@ -1,7 +1,7 @@
 ---
 archetype: "service-landing"
-title: "Emergency Board-Up and Tarping in Kenilworth | The Restoration Group"
-h1: "Emergency Board-Up and Tarping in Kenilworth"
+title: "24/7 Emergency Board-Up and Tarping in Kenilworth | The Restoration Group"
+h1: "24/7 Emergency Board-Up and Tarping in Kenilworth"
 meta_description: "24/7 emergency board-up and tarping in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "emergency board-up and tarping kenilworth"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

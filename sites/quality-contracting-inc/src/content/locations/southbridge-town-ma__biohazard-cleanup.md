@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Southbridge Town, MA | Quality Contracting, Inc."
-h1: "Biohazard Cleanup in Southbridge Town"
-meta_description: "Biohazard cleanup in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Biohazard Cleanup in Southbridge Town, MA | Quality Contracting, Inc."
+h1: "Emergency Biohazard Cleanup in Southbridge Town"
+meta_description: "Emergency biohazard cleanup in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "biohazard cleanup southbridge town"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

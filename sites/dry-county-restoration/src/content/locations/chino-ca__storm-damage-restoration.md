@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Chino, CA | Dry County Restoration"
-h1: "Storm Damage Restoration in Chino"
-meta_description: "24/7 storm damage restoration in Chino, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "24/7 Emergency Storm Damage Restoration in Chino, CA | Dry County Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Chino"
+meta_description: "24/7 emergency storm damage restoration in Chino, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "storm damage restoration chino"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

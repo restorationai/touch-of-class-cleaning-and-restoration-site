@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard and Trauma Cleanup in Mars, PA | FireDEX Butler"
-h1: "Biohazard and Trauma Cleanup in Mars"
-meta_description: "24/7 biohazard and trauma cleanup in Mars, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Biohazard and Trauma Cleanup in Mars, PA | FireDEX Butler"
+h1: "24/7 Emergency Biohazard and Trauma Cleanup in Mars"
+meta_description: "24/7 emergency biohazard and trauma cleanup in Mars, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "biohazard and trauma cleanup mars"
 secondary_keywords: ["trauma scene cleanup", "unattended death cleanup", "blood cleanup", "bodily fluid cleanup", "biohazard remediation"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard and Trauma Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Mars? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something unthinkable happens inside a Mars Borough home or along the Route 228 corridor, the last thing a family should be managing is cleanup. Biohazard and trauma scenes, unattended deaths, accidents, serious injuries, leave behind biological material that requires professional handling, proper disposal under Pennsylvania Department of Environmental Protection guidelines, and a level of discretion that ordinary cleaning services simply cannot provide. FireDEX Butler has been responding to these calls since 1981, and our team treats every situation with the privacy and care the moment demands.
 
 ## What Makes Biohazard Response in Mars Different

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Garretson, SD | Crew Restoration & Construction"
-h1: "Sewage Cleanup and Sanitization in Garretson"
-meta_description: "Sewage cleanup and sanitization in Garretson, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Sewage Cleanup and Sanitization in Garretson, SD | Crew Restoration & Construction"
+h1: "Emergency Sewage Cleanup and Sanitization in Garretson"
+meta_description: "Emergency sewage cleanup and sanitization in Garretson, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "sewage cleanup and sanitization garretson"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Garretson? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows in Garretson, the problem doesn't stay contained for long. The area's clay-heavy soils along Split Rock Creek hold moisture close to foundations, and once raw sewage infiltrates a crawl space or basement floor, contamination spreads faster than most homeowners expect. Crew Restoration & Construction responds to sewage backup calls in the 57030 ZIP code with the same urgency we bring to larger metro jobs, because the health risks are identical regardless of town size.
 
 ## Why Garretson Properties See Sewage Backup Issues

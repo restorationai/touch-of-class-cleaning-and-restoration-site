@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Lakewood Ranch, FL | DRYCOR RESTORE"
-h1: "Flood Damage Restoration in Lakewood Ranch"
-meta_description: "24/7 flood damage restoration in Lakewood Ranch, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "Emergency Flood Damage Restoration in Lakewood Ranch, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Flood Damage Restoration in Lakewood Ranch"
+meta_description: "24/7 emergency flood damage restoration in Lakewood Ranch, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "flood damage restoration lakewood ranch"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

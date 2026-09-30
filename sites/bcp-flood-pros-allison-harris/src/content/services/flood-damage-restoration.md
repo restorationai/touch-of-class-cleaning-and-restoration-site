@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Flood Damage Restoration in American Fork | FIX Restoration"
-h1: "Flood Damage Restoration in American Fork"
-meta_description: "Flood damage restoration in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Flood Damage Restoration in American Fork | FIX Restoration"
+h1: "Emergency Flood Damage Restoration in American Fork"
+meta_description: "Emergency flood damage restoration in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "flood damage restoration american fork"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

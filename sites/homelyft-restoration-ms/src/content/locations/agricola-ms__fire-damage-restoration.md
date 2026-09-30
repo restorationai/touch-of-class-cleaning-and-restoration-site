@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Agricola, MS | HomeLyft Restoration MS"
-h1: "Fire Damage Restoration in Agricola"
-meta_description: "Fire damage restoration in Agricola, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Fire Damage Restoration in Agricola, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Fire Damage Restoration in Agricola"
+meta_description: "24/7 emergency fire damage restoration in Agricola, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "fire damage restoration agricola"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Agricola? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 When fire tears through a home in Agricola, the damage rarely stops at the charred walls. South Mississippi's humid Gulf Coast climate, the same air that makes Stone County summers so heavy, drives smoke odor deeper into porous materials and accelerates secondary damage within hours of the flames going out. HomeLyft Restoration MS responds to fire losses throughout the Agricola area, bringing IICRC FSRT-certified fire and smoke restoration technicians and a documented process designed for the specific building stock and conditions found in this part of the state.
 
 ## Why Agricola Properties Face Distinct Fire Damage Challenges

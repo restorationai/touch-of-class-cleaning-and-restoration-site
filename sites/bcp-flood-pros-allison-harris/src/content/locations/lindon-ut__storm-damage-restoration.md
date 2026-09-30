@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Lindon, UT | FIX Restoration"
-h1: "Storm Damage Restoration in Lindon"
-meta_description: "Storm damage restoration in Lindon, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Storm Damage Restoration in Lindon, UT | FIX Restoration"
+h1: "Emergency Storm Damage Restoration in Lindon"
+meta_description: "Emergency storm damage restoration in Lindon, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "storm damage restoration lindon"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Lindon? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Lindon sits in a stretch of Utah County where the Wasatch Front does something particular: storms build fast over the mountains to the east, drop hail or heavy snow on the bench neighborhoods, and then push wind gusts down toward the valley floor with enough force to strip shingles, split mature trees, and drive water under door thresholds before most homeowners realize what's happening. When that kind of storm rolls through, the damage it leaves behind is rarely limited to what you can see from the driveway.
 
 ## Why Lindon Properties Are Vulnerable to Storm Damage

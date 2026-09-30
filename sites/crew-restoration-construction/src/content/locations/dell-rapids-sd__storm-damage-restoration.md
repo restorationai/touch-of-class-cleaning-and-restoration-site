@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Dell Rapids, SD | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Dell Rapids"
-meta_description: "Storm damage restoration in Dell Rapids, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Dell Rapids, SD | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Dell Rapids"
+meta_description: "Emergency storm damage restoration in Dell Rapids, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration dell rapids"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Dell Rapids? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 When a severe storm rolls across Minnehaha County, the Big Sioux River corridor through Dell Rapids takes the brunt of it. Properties along the river's quartzite bluffs can absorb wind-driven rain from multiple directions, and the same geography that makes The Dells of the Big Sioux a scenic landmark also funnels water toward low-lying lots when the river swells. Crew Restoration & Construction responds to storm damage throughout the 57022 ZIP code, from tree limbs punched through rooflines near Rocky Run to flooded basements in older homes along the Downtown Dell Rapids Historic District.
 
 ## Why Dell Rapids Properties See Elevated Storm Damage Risk

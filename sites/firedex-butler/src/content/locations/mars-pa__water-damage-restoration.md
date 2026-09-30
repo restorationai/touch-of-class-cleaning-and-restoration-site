@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Mars, PA | FireDEX Butler"
-h1: "Water Damage Restoration in Mars"
-meta_description: "24/7 water damage restoration in Mars, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Water Damage Restoration in Mars, PA | FireDEX Butler"
+h1: "24/7 Emergency Water Damage Restoration in Mars"
+meta_description: "24/7 emergency water damage restoration in Mars, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "water damage restoration mars"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Mars? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Breakneck Creek doesn't give much warning. When a fast-moving storm cell rolls through Butler County and the creek rises, low-lying blocks near Mars Borough can go from dry to ankle-deep in a matter of hours, and that's before you account for the century-old stone foundations that line some of the borough's oldest streets, which seep groundwater long after the rain stops. Whether the water in your home came through a cracked foundation wall, a failed supply line under a finished basement in Adams Ridge, or a backed-up cast-iron drain in one of the pre-war homes along the Route 228 corridor, the clock starts the moment moisture contacts your structure.
 
 ## Why Mars Properties See Water Damage Issues

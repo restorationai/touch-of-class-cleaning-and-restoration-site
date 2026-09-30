@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Flensburg, MN | Heritage Restoration LLC"
-h1: "Water Damage Restoration in Flensburg"
-meta_description: "Water damage restoration in Flensburg, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in Flensburg, MN | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in Flensburg"
+meta_description: "Emergency water damage restoration in Flensburg, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration flensburg"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Flensburg? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Flensburg sits in Morrison County, where the swing between deep-freeze winters and wet spring thaws puts real stress on residential plumbing and foundations. When a pipe bursts in January or snowmelt backs up through a basement floor drain in April, the water moves fast and the damage compounds quickly. Heritage Restoration LLC responds to water damage calls across Flensburg and the surrounding Morrison County area, bringing IICRC-certified water damage restoration and structural drying to homes that often need more than a shop vac and a few fans.
 
 ## Why Flensburg Properties Face Particular Water Damage Risks

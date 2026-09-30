@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Sandy Valley, NV | Desert Valley Contracting Inc "
-h1: "Flood Damage Restoration in Sandy Valley"
-meta_description: "24/7 flood damage restoration in Sandy Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+title: "24/7 Emergency Flood Damage Restoration in Sandy Valley, NV | Desert Valley Contracting Inc "
+h1: "24/7 Emergency Flood Damage Restoration in Sandy Valley"
+meta_description: "24/7 emergency flood damage restoration in Sandy Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "flood damage restoration sandy valley"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Millburn, NJ | The Restoration Group"
-h1: "Emergency Water Removal & Cleanup in Millburn"
+title: "24/7 Emergency Water Removal & Cleanup in Millburn, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Removal & Cleanup in Millburn"
 meta_description: "24/7 emergency water removal and cleanup in Millburn, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "emergency water removal millburn"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Millburn? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to extract the water and start drying.
+
 The West Branch of the Rahway River doesn't give much warning. When it overtops its banks near Taylor Park and pushes through downtown Millburn, as it did catastrophically during Ida in 2021, finished basements fill in minutes, not hours. But river flooding is only one chapter of the story here. The large Colonials and Tudors that line the streets of Short Hills and Old Short Hills carry aging cast-iron and copper plumbing that fails quietly behind plaster walls, sometimes for days before a homeowner notices the ceiling stain or the soft floor. When water finds your property in Millburn, the clock starts immediately, and the response needs to match.
 
 ## Why Millburn Properties See Elevated Water Damage Risk

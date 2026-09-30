@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in South Jordan, UT | Home Pride Restoration and Cleaning"
-h1: "Burst Pipe Cleanup and Repair in South Jordan"
-meta_description: "24/7 burst pipe cleanup and repair in South Jordan, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "Emergency Burst Pipe Cleanup and Repair in South Jordan, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in South Jordan"
+meta_description: "24/7 emergency burst pipe cleanup and repair in South Jordan, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "burst pipe cleanup and repair south jordan"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in South Jordan? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 South Jordan's rapid growth over the past two decades has pushed new subdivisions right up against the Oquirrh Mountain foothills, where winter temperatures routinely dip into the single digits and exposed supply lines in garages, crawl spaces, and exterior walls freeze without much warning. When a pipe lets go, whether it's a copper elbow in a 2005 Daybreak townhome or a galvanized line in an older Bingham Junction-area property, the water doesn't wait. A half-inch break can dump 50 gallons a minute into your subfloor, and within 24 to 48 hours, secondary mold colonization becomes a real concern. Home Pride Restoration and Cleaning has been responding to exactly these situations since 1997, and our IICRC-certified crews carry the extraction and drying equipment to stop the clock on damage the moment we walk in.
 
 ## Why South Jordan Properties See Burst Pipe Issues

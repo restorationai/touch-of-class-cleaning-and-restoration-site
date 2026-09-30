@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in University Place, WA | National Restoration Construction"
-h1: "Ceiling Water Damage Repair in University Place"
-meta_description: "24/7 ceiling water damage repair in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "Emergency Ceiling Water Damage Repair in University Place | National Restoration Construction"
+h1: "24/7 Emergency Ceiling Water Damage Repair in University Place"
+meta_description: "24/7 emergency ceiling water damage repair in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "ceiling water damage repair university place"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

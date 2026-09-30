@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Sewage Cleanup and Sanitization in Chicago | Dry Bros Water & Fire Restoration"
-h1: "Sewage Cleanup and Sanitization in Chicago"
-meta_description: "Sewage cleanup and sanitization in Chicago and surrounding areas. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Chicago | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Chicago"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "sewage cleanup and sanitization chicago"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Chicago? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 When a sewer line backs up, the water pooling in your basement or flooding your bathroom floor isn't just water, it's Category 3 contamination carrying fecal coliform bacteria, viruses, and pathogens that can colonize porous materials within hours. The smell hits first: that unmistakable sulfur-and-waste odor that soaks into drywall, subfloor, and insulation before most homeowners even realize the scope of what they're dealing with. Sewage cleanup isn't a mop-and-bleach job. It requires controlled removal, EPA-registered disinfectants, and verification testing to confirm the space is actually safe.
 
 ## What sewage cleanup and sanitization actually involves

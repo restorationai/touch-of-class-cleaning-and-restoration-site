@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in American Fork | FIX Restoration"
-h1: "Fire Damage Restoration in American Fork"
-meta_description: "Fire damage restoration in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in American Fork | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in American Fork"
+meta_description: "Emergency fire damage restoration in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration american fork"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in American Fork? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 The fire is out, but the damage is still spreading. Soot particles continue to etch into porous surfaces for days after the flames are extinguished. Acidic smoke residue corrodes metal fixtures, discolors grout, and permanently stains synthetic fabrics if it isn't neutralized quickly. The smell that seems to fade in a few hours will resurface weeks later from inside wall cavities, HVAC ducts, and subfloor framing, long after a surface cleaning has been done. Fire damage restoration is a race against secondary damage that most homeowners don't know is still happening.
 
 ## What fire damage restoration actually involves

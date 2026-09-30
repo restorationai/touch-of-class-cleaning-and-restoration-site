@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Las Vegas, NV | Life Savers Restoration LLC"
-h1: "Biohazard Cleanup in Las Vegas"
-meta_description: "24/7 biohazard cleanup in Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
+title: "24/7 Emergency Biohazard Cleanup in Las Vegas, NV | Life Savers Restoration LLC"
+h1: "24/7 Emergency Biohazard Cleanup in Las Vegas"
+meta_description: "24/7 emergency biohazard cleanup in Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
 primary_keyword: "biohazard cleanup las vegas"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

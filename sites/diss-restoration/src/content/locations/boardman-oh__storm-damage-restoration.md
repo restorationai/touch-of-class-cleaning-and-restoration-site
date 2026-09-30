@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Boardman, OH | DISS Restoration"
-h1: "Storm Damage Restoration in Boardman"
-meta_description: "24/7 storm damage restoration in Boardman, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Storm Damage Restoration in Boardman, OH | DISS Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Boardman"
+meta_description: "24/7 emergency storm damage restoration in Boardman, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "storm damage restoration boardman"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "OH"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Boardman? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Mahoning County sits in a corridor where Great Lakes weather systems collide with Appalachian cold air, and Boardman feels that tension every storm season. High winds peel shingles off the split-levels along Southern Boulevard, hail punches through soffit panels on ranch homes built in the postwar boom, and fast-moving lines of severe thunderstorms can drop a mature oak across a roof before a homeowner has time to move the car. When that happens, the window between the storm passing and secondary damage beginning, water soaking into attic insulation, mold spores finding a foothold, is measured in hours, not days.
 
 ## Why Boardman Properties See Storm Damage the Way They Do

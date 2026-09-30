@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Evergreen Park, IL | Dry Bros Water & Fire Restoration"
-h1: "Emergency Board-Up and Tarping in Evergreen Park"
+title: "24/7 Emergency Board-Up and Tarping in Evergreen Park, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Board-Up and Tarping in Evergreen Park"
 meta_description: "24/7 emergency board-up and tarping in Evergreen Park, IL. Insurance billing accepted. Call (877) 379-2767."
 primary_keyword: "emergency board-up and tarping evergreen park"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

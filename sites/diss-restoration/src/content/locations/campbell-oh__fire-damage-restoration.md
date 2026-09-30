@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Campbell, OH | DISS Restoration"
-h1: "Fire Damage Restoration in Campbell"
-meta_description: "24/7 fire damage restoration in Campbell, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Fire Damage Restoration in Campbell, OH | DISS Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Campbell"
+meta_description: "24/7 emergency fire damage restoration in Campbell, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "fire damage restoration campbell"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "OH"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Campbell? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Campbell sits just north of Youngstown along the Mahoning River, and the city's tight grid of early-to-mid 20th-century frame and brick homes means a kitchen fire or electrical fire can spread through balloon-framed walls faster than most homeowners expect. That construction style, common throughout Mahoning County's older mill towns, creates hidden channels inside the wall cavity where smoke and soot travel silently to floors you never suspected were affected. When fire touches a Campbell home, the visible char is rarely the whole story.
 
 ## Why Campbell Properties See Fire Damage Differently

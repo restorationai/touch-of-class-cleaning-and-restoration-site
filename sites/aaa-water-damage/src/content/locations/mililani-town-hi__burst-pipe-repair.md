@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Mililani Town, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Burst Pipe Cleanup and Repair in Mililani Town"
-meta_description: "24/7 burst pipe cleanup and repair in Mililani Town, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "Emergency Burst Pipe Cleanup and Repair in Mililani Town, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Mililani Town"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Mililani Town, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "burst pipe cleanup and repair mililani town"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Mililani Town? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Mililani Town sits in the middle of Oahu at roughly 1,000 feet elevation, where nighttime temperatures can drop noticeably compared to the coast and where the trade winds that keep the rest of the island comfortable sometimes mask how cold a concrete-slab home can get in January. That temperature swing, combined with the island's aging water infrastructure in planned communities built out from the 1970s onward, creates real conditions for a pipe to fail without warning. When a water line lets go inside a Mililani Town home, the clock starts immediately: standing water on a concrete slab can begin wicking into drywall and cabinetry within the first hour.
 
 ## Why Mililani Town Properties See Burst Pipe Issues

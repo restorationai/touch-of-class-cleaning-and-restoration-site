@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board Up in Concord, CA | Dry1 Out Restoration and Construction"
-h1: "Emergency Board Up in Concord"
+title: "24/7 Emergency Board Up in Concord, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Board Up in Concord"
 meta_description: "24/7 emergency board up in Concord, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "emergency board up concord"
 secondary_keywords: []

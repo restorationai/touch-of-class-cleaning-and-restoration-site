@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Canton, SD | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Canton"
-meta_description: "Biohazard cleanup in Canton, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Canton, SD | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Canton"
+meta_description: "Emergency biohazard cleanup in Canton, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup canton"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Canton? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Canton sits along the Big Sioux River in Lincoln County, where older homes, tight-knit neighborhoods, and the kind of circumstances that no family plans for can intersect without warning. When a biohazard situation arises, whether in a century-old craftsman near Downtown Canton or a rental property closer to the river corridor, the priority is the same: safe, discreet, and thorough cleanup handled by people who know what they're doing. Crew Restoration & Construction responds to those calls with clinical precision and genuine respect for what families and property owners are going through.
 
 ## Why Canton's Housing Stock and Setting Matter for Biohazard Cleanup

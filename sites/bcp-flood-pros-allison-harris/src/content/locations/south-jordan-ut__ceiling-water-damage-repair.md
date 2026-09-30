@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in South Jordan, UT | FIX Restoration"
-h1: "Ceiling Water Damage Repair in South Jordan"
-meta_description: "Ceiling water damage repair in South Jordan, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Ceiling Water Damage Repair in South Jordan, UT | FIX Restoration"
+h1: "Emergency Ceiling Water Damage Repair in South Jordan"
+meta_description: "Emergency ceiling water damage repair in South Jordan, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "ceiling water damage repair south jordan"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

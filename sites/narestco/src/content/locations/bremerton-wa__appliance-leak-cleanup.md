@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Bremerton, WA | National Restoration Construction"
-h1: "Appliance Leak Cleanup in Bremerton"
-meta_description: "24/7 appliance leak cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Appliance Leak Cleanup in Bremerton, WA | National Restoration Construction"
+h1: "24/7 Emergency Appliance Leak Cleanup in Bremerton"
+meta_description: "24/7 emergency appliance leak cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "appliance leak cleanup bremerton"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Bremerton? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A refrigerator ice maker line that drips for weeks behind a 1940s Charleston bungalow can saturate the original fir subfloor long before the homeowner notices the buckle. In Bremerton, where a significant share of the housing stock was built during the wartime shipyard boom and still runs on aging galvanized supply lines, appliance leaks don't behave the way they do in newer construction, water finds every seam in the original framing, pools in unconditioned crawl spaces, and starts feeding mold colonies within 24 to 48 hours. National Restoration Construction responds to appliance leak emergencies across Bremerton and Kitsap County, typically reaching most addresses within 90 minutes of your call to (206) 883-0333.
 
 ## Why Bremerton Homes See Appliance Leaks Differently

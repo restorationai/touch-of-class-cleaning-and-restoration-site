@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Rice, MN | Heritage Restoration LLC"
-h1: "Water Damage Restoration in Rice"
-meta_description: "Water damage restoration in Rice, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in Rice, MN | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in Rice"
+meta_description: "Emergency water damage restoration in Rice, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration rice"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Rice? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Rice, Minnesota sits in Morrison County where the Mississippi River corridor and the surrounding low-lying terrain create conditions that push water where it does not belong. Spring snowmelt across the region can saturate ground that is already frozen underneath, leaving nowhere for runoff to go except toward foundations, crawl spaces, and basement walls. When that happens inside a home, the clock starts immediately. Heritage Restoration LLC responds to water damage calls in Rice with IICRC-certified technicians trained in water damage restoration, structural drying, and applied structural drying, so the work begins before secondary damage has a chance to set in.
 
 ## Why Rice Properties Are Vulnerable to Water Damage

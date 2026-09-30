@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Kaneohe Base, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Water Damage Restoration in Kaneohe Base"
-meta_description: "24/7 water damage restoration in Kaneohe Base, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "24/7 Emergency Water Damage Restoration in Kaneohe Base, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Damage Restoration in Kaneohe Base"
+meta_description: "24/7 emergency water damage restoration in Kaneohe Base, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "water damage restoration kaneohe base"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Kaneohe Base? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Marine Corps Base Hawaii sits on a peninsula where the Ko'olau Mountains funnel rainfall almost daily onto structures built for military durability but not always for the relentless humidity that follows. When water gets into a home or housing unit here, it moves fast, and the warm, moist air that never fully leaves the windward side of O'ahu gives mold a running start. If you're dealing with standing water, soaked flooring, or wet walls anywhere on or near Kaneohe Base, the clock matters more here than almost anywhere else in the state.
 
 ## Why Kaneohe Base Properties See Water Damage Differently

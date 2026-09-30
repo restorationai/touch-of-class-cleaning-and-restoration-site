@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Naperville, IL | Dry Bros Water & Fire Restoration"
-h1: "Storm Damage Restoration in Naperville"
-meta_description: "Storm damage restoration in Naperville, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Storm Damage Restoration in Naperville, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Naperville"
+meta_description: "24/7 emergency storm damage restoration in Naperville, IL. Insurance billing accepted. Call us now."
 primary_keyword: "storm damage restoration naperville"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Naperville? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Naperville sits squarely in the corridor where Great Lakes moisture collides with Plains air masses, producing the kind of fast-moving severe weather that can peel shingles, drop 80-foot oaks across rooflines, and push three inches of rain through a window seal before a homeowner can move furniture. When a derecho or a rotating supercell moves through DuPage County, the damage it leaves behind is rarely just cosmetic, water follows every breach, and what looks like a roofing problem at noon can be a saturated attic and compromised ceiling joists by nightfall.
 
 ## Why Naperville Properties See Storm Damage Differently

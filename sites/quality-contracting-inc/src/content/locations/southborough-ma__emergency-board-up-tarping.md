@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Southborough, MA | Quality Contracting, Inc."
-h1: "Board-Up and Tarping in Southborough"
-meta_description: "Board-up and tarping in Southborough, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Board-Up and Tarping in Southborough, MA | Quality Contracting, Inc."
+h1: "Emergency Board-Up and Tarping in Southborough"
+meta_description: "Emergency board-up and tarping in Southborough, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "emergency board-up and tarping southborough"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Southborough? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Southborough sits in a part of central Massachusetts where nor'easters can drop wet, heavy snow on roofs that were never designed to shed it quickly, and where summer thunderstorms roll off the Sudbury River valley fast enough to catch homeowners off guard. When a storm tears off a section of roof, a fire blows out a window, or a fallen limb punches through a soffit, the gap between the damage happening and a contractor arriving is the window where the real cost accumulates, rain soaking into framing, smoke odor migrating into adjacent rooms, or an unsecured opening inviting additional exposure. Getting durable plywood and heavy-duty tarps in place quickly is the single most effective thing you can do to stop a bad situation from becoming a much worse one.
 
 ## Why Southborough Properties See Elevated Board-Up and Tarping Needs

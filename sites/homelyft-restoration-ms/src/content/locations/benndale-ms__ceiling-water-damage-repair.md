@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Benndale, MS | HomeLyft Restoration MS"
-h1: "Ceiling Water Damage Repair in Benndale"
-meta_description: "24/7 ceiling water damage repair in Benndale, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Ceiling Water Damage Repair in Benndale, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Ceiling Water Damage Repair in Benndale"
+meta_description: "24/7 emergency ceiling water damage repair in Benndale, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "ceiling water damage repair benndale"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

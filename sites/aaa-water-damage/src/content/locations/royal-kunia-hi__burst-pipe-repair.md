@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Burst Pipe Cleanup and Repair in Royal Kunia"
-meta_description: "24/7 burst pipe cleanup and repair in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "Emergency Burst Pipe Cleanup and Repair in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Royal Kunia"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "burst pipe cleanup and repair royal kunia"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Royal Kunia? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Royal Kunia sits in a pocket of central Oahu where the trade winds can shift quickly, temperatures stay warm year-round, and homes built during the planned community's development era often share infrastructure patterns that make a burst pipe more than just a single-unit problem. When a water line lets go inside one of these residences, the warm ambient air accelerates secondary damage: flooring buckles faster, drywall wicks moisture up the wall cavity within hours, and the window for preventing mold growth is shorter than most mainland homeowners expect. If a pipe has burst in your home, call (808) 349-3407 now.
 
 ## Why Royal Kunia Properties See Burst Pipe Issues

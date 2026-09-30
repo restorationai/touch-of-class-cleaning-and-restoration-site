@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Plainfield, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in Plainfield"
-meta_description: "24/7 basement flooding cleanup in Plainfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Basement Flooding Cleanup in Plainfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Plainfield"
+meta_description: "24/7 emergency basement flooding cleanup in Plainfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "basement flooding cleanup plainfield"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Plainfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 When Tropical Storm Ida tore through Union County in September 2021, the Green Brook and Cedar Brook overflowed into Plainfield's lowest-lying streets, and the East Front Street corridor took some of the worst of it, basements that had stayed dry for decades filled in hours. That kind of flooding doesn't just leave standing water; it soaks into the framing, saturates decades-old insulation, and starts the mold clock running within 24 to 48 hours. If your basement is wet right now, the decisions you make in the next few hours determine whether this is a cleanup job or a full rebuild.
 
 ## Why Plainfield Properties Are Especially Vulnerable to Basement Flooding

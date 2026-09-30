@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Union, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in Union"
-meta_description: "24/7 appliance leak cleanup in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Appliance Leak Cleanup in Union, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Union"
+meta_description: "24/7 emergency appliance leak cleanup in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "appliance leak cleanup union"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Union? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 A refrigerator ice maker line that drips for weeks behind a finished wall, a washing machine hose that lets go overnight in a split-level laundry room, a water heater that quietly rusts through its tank in a 1950s cape, Union Township's postwar housing stock makes appliance leak damage a recurring story. Many homes in neighborhoods like Battle Hill and Vauxhall were built between 1940 and 1965 with original galvanized supply lines and cast-iron drains that are now well past their design life, and nearly all of them sit on finished or semi-finished basements where water has somewhere to hide before anyone notices.
 
 ## Why Union Properties See Appliance Leak Issues

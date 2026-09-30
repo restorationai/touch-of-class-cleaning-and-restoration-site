@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Rahway, NJ | The Restoration Group"
-h1: "Emergency Water Removal & Cleanup in Rahway"
+title: "24/7 Emergency Water Removal & Cleanup in Rahway, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Removal & Cleanup in Rahway"
 meta_description: "24/7 emergency water removal and cleanup in Rahway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "emergency water removal rahway"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Rahway? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to extract the water and start drying.
+
 The Rahway River has a long memory. Residents near Rahway River Park and the low-lying streets of Downtown Rahway know what it means to watch water climb a basement staircase after a heavy rain, and Tropical Storm Ida in 2021 was a brutal reminder of how fast that can happen. Whether the source is a river cresting its banks, a failed sump pump in a century-old Victorian, or a burst supply line behind a finished basement wall, standing water in a Rahway home starts causing structural and microbial damage within hours. Getting it out fast, and cleaning up what's left, is the only way to limit what comes next.
 
 ## Why Rahway Properties See Water Damage So Often

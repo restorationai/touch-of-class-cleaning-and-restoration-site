@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Millburn, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in Millburn"
-meta_description: "24/7 basement flooding cleanup in Millburn, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Basement Flooding Cleanup in Millburn, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Millburn"
+meta_description: "24/7 emergency basement flooding cleanup in Millburn, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "basement flooding cleanup millburn"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Millburn? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 The West Branch of the Rahway River has a long memory in Millburn. When Tropical Storm Ida tore through Essex County in September 2021, it didn't just flood the downtown business district along Millburn Avenue, it pushed water into finished basements, wine cellars, and mechanical rooms across the township, including homes blocks away from the riverbank that had never taken on water before. If your basement is wet right now, the clock matters: standing water against a finished wall can begin feeding mold colonies within 24 to 48 hours, and in a 1920s Tudor or colonial with original plaster and old-growth framing, the damage compounds faster than most homeowners expect.
 
 ## Why Millburn Properties See Basement Flooding Issues

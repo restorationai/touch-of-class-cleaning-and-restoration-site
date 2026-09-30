@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Worcester, MA | Quality Contracting, Inc."
-h1: "Sewage Cleanup and Sanitization in Worcester"
-meta_description: "Sewage cleanup and sanitization in Worcester, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Sewage Cleanup and Sanitization in Worcester, MA | Quality Contracting, Inc."
+h1: "Emergency Sewage Cleanup and Sanitization in Worcester"
+meta_description: "Emergency sewage cleanup and sanitization in Worcester, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "sewage cleanup and sanitization worcester"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Worcester? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Worcester's dense stock of triple-decker rentals and early-twentieth-century multifamily homes was built with cast-iron drain stacks that are now pushing a century of use. When one of those stacks cracks, a shared sewer lateral backs up, or a septic system overflows on a property near Quinsigamond Village or Main South, the contamination doesn't stay in one unit, it migrates through floor joists, shared wall cavities, and the original horsehair-plaster subfloor that soaks up Category 3 sewage like a sponge. Quality Contracting, Inc. responds to sewage backup and raw sewage removal calls across Worcester, bringing the extraction equipment and EPA-registered disinfectants the job demands.
 
 ## Why Worcester Properties See Sewage Backup More Often Than You'd Expect

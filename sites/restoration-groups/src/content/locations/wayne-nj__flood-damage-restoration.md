@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Wayne, NJ | The Restoration Group"
-h1: "Flood Damage Restoration in Wayne"
-meta_description: "24/7 flood damage restoration in Wayne, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Flood Damage Restoration in Wayne, NJ | The Restoration Group"
+h1: "24/7 Emergency Flood Damage Restoration in Wayne"
+meta_description: "24/7 emergency flood damage restoration in Wayne, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "flood damage restoration wayne"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Wayne? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and stop the damage from spreading.
+
 When the Pompton River backs up through Hoffman Grove or the Passaic crests along Mountain View, the water doesn't wait for business hours, and neither do we. Wayne's geography puts thousands of homes directly in the path of recurring flood events, from the slow-rise river flooding that plagued both neighborhoods during Tropical Storm Irene in 2011 and Hurricane Ida in 2021, to the sudden basement inundation that catches Pines Lake and Packanack Lake homeowners off guard after a fast-moving nor'easter. If you're standing in water right now, call (855) 650-7422, The Restoration Group responds 24/7 from our Kenilworth base.
 
 ## Why Wayne Properties Flood the Way They Do

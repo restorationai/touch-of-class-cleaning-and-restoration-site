@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Basement Flooding Cleanup in Chicago | Dry Bros Water & Fire Restoration"
-h1: "Basement Flooding Cleanup in Chicago"
-meta_description: "Basement flooding cleanup in Chicago and surrounding areas. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Basement Flooding Cleanup in Chicago | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Basement Flooding Cleanup in Chicago"
+meta_description: "24/7 emergency basement flooding cleanup in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "basement flooding cleanup chicago"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "basement-flooding-cleanup"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Chicago? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Standing water in a basement moves fast. Within the first hour, it wicks into drywall, soaks into fiberglass insulation, and begins saturating the concrete slab beneath your flooring. By hour 24, the conditions that allow mold to colonize are already forming behind walls you cannot see. Basement flooding is not a cleanup problem, it is a structural drying race, and the clock started the moment water entered the space.
 
 ## What basement flooding cleanup actually involves

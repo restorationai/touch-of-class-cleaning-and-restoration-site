@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Cicero, IL | Dry Bros Water & Fire Restoration"
-h1: "Fire Damage Restoration in Cicero"
-meta_description: "Fire damage restoration in Cicero, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Fire Damage Restoration in Cicero, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Cicero"
+meta_description: "24/7 emergency fire damage restoration in Cicero, IL. Insurance billing accepted. Call us now."
 primary_keyword: "fire damage restoration cicero"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Cicero? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Cicero's housing stock tells a story in smoke. The town's dense grid of brick two-flats and bungalows, most of them built between the 1910s and 1950s, were constructed with balloon-frame interiors behind their masonry facades, a framing style that lets fire travel vertically through wall cavities with almost no resistance. When a kitchen fire or electrical fault ignites in one of these homes, the damage rarely stays where it started. Smoke and soot migrate through every gap in that open framing, and the odor embeds itself in plaster, original hardwood, and the century-old mortar between courses of brick. Fire damage restoration in Cicero means working with the building's actual bones, not assuming it behaves like new construction.
 
 ## Why Cicero's Building Stock Shapes Fire Damage

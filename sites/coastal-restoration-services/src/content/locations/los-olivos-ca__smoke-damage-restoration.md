@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Los Olivos, CA | Coastal Restoration Services Inc"
-h1: "Smoke Damage Restoration in Los Olivos"
-meta_description: "Smoke damage restoration in Los Olivos, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Smoke Damage Restoration in Los Olivos, CA | Coastal Restoration Services Inc"
+h1: "Emergency Smoke Damage Restoration in Los Olivos"
+meta_description: "Emergency smoke damage restoration in Los Olivos, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "smoke damage restoration los olivos"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

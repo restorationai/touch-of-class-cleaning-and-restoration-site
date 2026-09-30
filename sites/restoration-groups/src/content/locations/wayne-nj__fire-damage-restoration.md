@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Wayne, NJ | The Restoration Group"
-h1: "Fire Damage Restoration in Wayne"
-meta_description: "24/7 fire damage restoration in Wayne, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Fire Damage Restoration in Wayne, NJ | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in Wayne"
+meta_description: "24/7 emergency fire damage restoration in Wayne, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "fire damage restoration wayne"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Wayne? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and start the recovery.
+
 Wayne's older housing stock carries a fire risk profile that most homeowners don't think about until it's too late. The 1950s and 1960s colonials and split-levels that line the streets near Packanack Lake and Pines Lake were built before modern fire-stop blocking became code, meaning a kitchen fire can travel through wall cavities faster than it would in a newer home, and smoke can saturate insulation and framing in areas that look untouched from the outside. When that happens, the cleanup is never just about what burned.
 
 ## Why Wayne Properties See Elevated Fire Damage Challenges

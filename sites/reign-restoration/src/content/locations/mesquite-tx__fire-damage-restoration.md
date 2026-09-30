@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Mesquite, TX | Reign Restoration"
-h1: "Fire Damage Restoration in Mesquite"
-meta_description: "Fire damage restoration in Mesquite, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Fire Damage Restoration in Mesquite, TX | Reign Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Mesquite"
+meta_description: "24/7 emergency fire damage restoration in Mesquite, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "fire damage restoration mesquite"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Mesquite? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 A house fire in Mesquite leaves behind more than charred walls, it leaves behind a smell that seeps into every porous surface, a fine layer of acidite soot that etches chrome fixtures within hours, and structural questions that don't wait for business hours. Mesquite's mix of 1970s–1980s brick ranch homes and newer infill construction along the I-635 corridor means fire damage behaves differently block to block, and the restoration approach has to match the materials on hand, not a one-size template.
 
 ## Why Mesquite Properties Are Particularly Vulnerable to Fire Damage

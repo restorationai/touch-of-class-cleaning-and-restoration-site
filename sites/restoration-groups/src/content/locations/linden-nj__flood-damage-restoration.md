@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Linden, NJ | The Restoration Group"
-h1: "Flood Damage Restoration in Linden"
-meta_description: "24/7 flood damage restoration in Linden, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Flood Damage Restoration in Linden, NJ | The Restoration Group"
+h1: "24/7 Emergency Flood Damage Restoration in Linden"
+meta_description: "24/7 emergency flood damage restoration in Linden, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "flood damage restoration linden"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Linden? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and stop the damage from spreading.
+
 When the Rahway River or Morses Creek overflows, as both did during Hurricane Ida in 2021, the flooding hits Linden's low-lying neighborhoods fast and hard. Tremley Point and the streets that fan out toward the Arthur Kill can go from damp to knee-deep in hours, and the postwar capes and split-levels that make up most of Linden's residential stock weren't built with that kind of water intrusion in mind. If you're dealing with standing water, soaked drywall, or a finished basement that's turned into a wading pool, the window to prevent secondary mold growth is shorter than most homeowners realize.
 
 ## Why Linden Properties See Flood Damage Differently

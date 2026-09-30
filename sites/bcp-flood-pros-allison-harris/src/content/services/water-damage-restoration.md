@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in American Fork | FIX Restoration"
-h1: "Water Damage Restoration in American Fork"
-meta_description: "Water damage restoration in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Damage Restoration in American Fork | FIX Restoration"
+h1: "Emergency Water Damage Restoration in American Fork"
+meta_description: "Emergency water damage restoration in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water damage restoration american fork"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in American Fork? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Water you can see is rarely the whole problem. A burst pipe or washing machine overflow soaks carpet and drywall fast, but the water that wicks into wall cavities, migrates under subfloor sheathing, and saturates insulation behind a vapor barrier is what drives mold growth, structural softening, and the kind of secondary damage that shows up weeks later on an insurance reinspection. Water damage restoration is the work of finding all of it, not just the visible puddle, and removing it completely before the clock runs out.
 
 ## What Water Damage Restoration actually involves

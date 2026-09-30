@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Commercial Fire Restoration in Moapa Town, NV | PuroClean of East Las Vegas"
-h1: "Commercial Fire Restoration in Moapa Town"
-meta_description: "Commercial fire restoration in Moapa Town, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Commercial Fire Restoration in Moapa Town, NV | PuroClean of East Las Vegas"
+h1: "Emergency Commercial Fire Restoration in Moapa Town"
+meta_description: "Emergency commercial fire restoration in Moapa Town, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "commercial fire restoration moapa town"
 secondary_keywords: []
 search_intent: "local_specialty"

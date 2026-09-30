@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Hide-A-Way Lake, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Hide-A-Way Lake"
-meta_description: "Board-up and tarping in Hide-A-Way Lake, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Hide-A-Way Lake, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Hide-A-Way Lake"
+meta_description: "24/7 emergency board-up and tarping in Hide-A-Way Lake, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping hide-a-way lake"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Hide-A-Way Lake? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Hide-A-Way Lake sits tucked into the piney hill country of Rankin County, where afternoon thunderstorms can roll through fast enough to strip shingles before a homeowner has time to move furniture away from a leaking ceiling. When a storm tears open a roof, a fire blows out windows, or a fallen tree punches through a wall, the window between the initial damage and secondary water intrusion is measured in hours, not days. HomeLyft Restoration MS responds from Gulfport to secure your property with structural board-up and heavy-duty roof tarping before the next rain event compounds the loss.
 
 ## Why Hide-A-Way Lake Properties Face Distinct Board-Up and Tarping Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Frisco, TX | Reign Restoration"
-h1: "Fire Damage Restoration in Frisco"
-meta_description: "24/7 fire damage restoration in Frisco, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Fire Damage Restoration in Frisco, TX | Reign Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Frisco"
+meta_description: "24/7 emergency fire damage restoration in Frisco, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "fire damage restoration frisco"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Frisco? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 A kitchen fire in a Stonebriar home or a garage blaze in Phillips Creek Ranch leaves behind more than char and ash, it leaves behind a building that has absorbed heat, smoke, and soot into every cavity of its two-story volume ceilings, attic air handler, and brick veneer exterior. Frisco's housing stock is almost entirely slab-on-grade construction built since the late 1990s, which means the structural bones are relatively modern, but the open floor plans and tall ceilings that define the city's neighborhoods also mean smoke travels farther and faster than in a compartmentalized older home. Reign Restoration responds 24/7 and holds IICRC FSRT (Fire & Smoke Restoration Technician) certification, so the crew arriving at your door is trained specifically for what a post-fire structure actually needs.
 
 ## Why Frisco Homes Present Specific Fire Damage Challenges

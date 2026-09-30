@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Maynard, MA | Quality Contracting, Inc."
-h1: "Burst Pipe Cleanup and Repair in Maynard"
-meta_description: "Burst pipe cleanup and repair in Maynard, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Burst Pipe Cleanup and Repair in Maynard, MA | Quality Contracting, Inc."
+h1: "Emergency Burst Pipe Cleanup and Repair in Maynard"
+meta_description: "Emergency burst pipe cleanup and repair in Maynard, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "burst pipe cleanup and repair maynard"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"

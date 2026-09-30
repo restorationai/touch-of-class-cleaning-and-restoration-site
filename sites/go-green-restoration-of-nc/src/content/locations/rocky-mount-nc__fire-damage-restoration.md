@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Rocky Mount, NC | Go Green Restoration of NC"
-h1: "Fire Damage Restoration in Rocky Mount"
-meta_description: "24/7 fire damage restoration in Rocky Mount, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Fire Damage Restoration in Rocky Mount, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Fire Damage Restoration in Rocky Mount"
+meta_description: "24/7 emergency fire damage restoration in Rocky Mount, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "fire damage restoration rocky mount"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NC"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Rocky Mount? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Rocky Mount's older residential neighborhoods carry a fire risk profile that's easy to underestimate. Homes in areas like Westridge and Englewood were built across several decades of changing electrical code, and when a kitchen fire or electrical fault tears through one of them, the damage rarely stops at the charred walls. Smoke travels through HVAC ducts, soot settles into plaster and brick, and the humid Nash County climate, already primed by proximity to the Tar River basin, accelerates secondary damage the moment firefighters leave the scene.
 
 ## Why Rocky Mount Properties See Fire Damage Differently

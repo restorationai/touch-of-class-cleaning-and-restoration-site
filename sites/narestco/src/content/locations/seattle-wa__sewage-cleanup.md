@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Seattle, WA | National Restoration Construction"
-h1: "Sewage Cleanup and Sanitization in Seattle"
-meta_description: "24/7 sewage cleanup and sanitization in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "Emergency Sewage Cleanup and Sanitization in Seattle, WA | National Restoration Construction"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Seattle"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "sewage cleanup and sanitization seattle"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Seattle? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Sewage backing up into a Seattle basement or crawl space isn't just a mess, it's a health hazard that gets worse every hour you wait. Raw sewage carries bacteria, viruses, and pathogens that soak into drywall, subfloor, and insulation faster than most people expect. If you're standing in it right now, or you just found it this morning, National Restoration Construction dispatches from Federal Way and can have a certified technician at your door within 60–90 minutes for most Seattle addresses. Call **(206) 883-0333** and we'll walk you through what to do while we're on the way.
 
 ## Why Seattle Properties See Sewage Emergencies More Often Than You'd Think

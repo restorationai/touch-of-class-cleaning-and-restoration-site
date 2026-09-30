@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Shaler Township, PA | Katofsky Construction LLC"
-h1: "Fire Damage Restoration in Shaler Township"
-meta_description: "24/7 fire damage restoration in Shaler Township, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "Emergency Fire Damage Restoration in Shaler Township, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Fire Damage Restoration in Shaler Township"
+meta_description: "24/7 emergency fire damage restoration in Shaler Township, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "fire damage restoration shaler township"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Shaler Township? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Shaler Township sits just north of Pittsburgh along the Allegheny River valley, and its housing stock tells the story of a community built up through the mid-twentieth century. Many homes here were framed in the 1940s, 1950s, and 1960s, when balloon-frame construction was common and interior walls were often finished with plaster over wood lath. When fire moves through that kind of structure, it travels fast and hides deep. Smoke and char work their way into wall cavities, attic spaces, and floor systems in ways that aren't always visible from the surface. Katofsky Construction LLC responds to fire damage calls in Shaler Township around the clock, bringing the equipment and process discipline to find what the fire left behind.
 
 ## Why Shaler Township Properties See Distinctive Fire Damage Patterns

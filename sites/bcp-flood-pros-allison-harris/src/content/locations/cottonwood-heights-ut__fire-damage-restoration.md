@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Cottonwood Heights, UT | FIX Restoration"
-h1: "Fire Damage Restoration in Cottonwood Heights"
-meta_description: "Fire damage restoration in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in Cottonwood Heights, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in Cottonwood Heights"
+meta_description: "Emergency fire damage restoration in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration cottonwood heights"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Cottonwood Heights? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Cottonwood Heights sits at the foot of the Wasatch Range, where dry canyon winds funneling down from Big Cottonwood and Little Cottonwood canyons can push a structure fire through a home faster than in most Front Range communities. That same low humidity that makes Utah winters feel manageable also means smoke particles travel farther, penetrate deeper into porous materials, and leave odor compounds locked into insulation and framing long after the visible char is gone. When fire damage hits a home in this city, the restoration work has to account for conditions that are genuinely different from the valley floor.
 
 ## Why Cottonwood Heights Homes Present Specific Fire Damage Challenges

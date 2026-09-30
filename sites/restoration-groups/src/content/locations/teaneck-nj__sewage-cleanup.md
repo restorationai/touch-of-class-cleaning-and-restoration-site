@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Teaneck, NJ | The Restoration Group"
-h1: "Sewage Cleanup and Sanitization in Teaneck"
-meta_description: "24/7 sewage cleanup and sanitization in Teaneck, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "Emergency Sewage Cleanup and Sanitization in Teaneck, NJ | The Restoration Group"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Teaneck"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Teaneck, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "sewage cleanup and sanitization teaneck"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Teaneck? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to contain the contamination and start the cleanup.
+
 When a sewer line backs up into a finished basement in Teaneck, the clock starts immediately, raw sewage carries Category 3 water contamination that begins soaking into drywall, subflooring, and stored belongings within minutes. Teaneck's housing stock complicates that timeline: the 1920s and 1930s brick Tudors and center-hall colonials that line streets through West Englewood and The Grange were built with cast-iron drain stacks that are now a century old, corroded in spots, and prone to root intrusion and collapse. A single overnight backup can fill a finished basement with inches of blackwater before anyone notices. The Restoration Group responds 24/7 from Kenilworth to stop the contamination, extract the waste, and sanitize every affected surface to safe, documentable standards.
 
 ## Why Teaneck Homes See Sewage Backups More Than Most

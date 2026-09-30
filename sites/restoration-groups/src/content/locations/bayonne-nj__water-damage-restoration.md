@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Bayonne, NJ | The Restoration Group"
-h1: "Water Damage Restoration in Bayonne"
-meta_description: "24/7 water damage restoration in Bayonne, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Water Damage Restoration in Bayonne, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Damage Restoration in Bayonne"
+meta_description: "24/7 emergency water damage restoration in Bayonne, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "water damage restoration bayonne"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Bayonne? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start drying your property.
+
 Bayonne sits on a narrow peninsula between Newark Bay and the Kill Van Kull, and that geography has a way of showing up inside homes. Storm surge pushed through low-lying blocks near Constable Hook during Sandy in 2012, and the same tidal exposure that made those losses catastrophic still shapes how water behaves here today, backing up through cast-iron floor drains, saturating finished basement slabs, and wicking into the balloon-framed walls of early 20th-century two- and three-family homes before a homeowner ever notices a wet carpet. When water gets into a Bayonne property, the clock moves fast. The Restoration Group responds 24/7 and can be reached at (855) 650-7422.
 
 ## Why Bayonne Properties See Water Damage Differently

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Trauma Scene Cleanup in Everett, WA | National Restoration Construction"
-h1: "Trauma Scene Cleanup in Everett"
-meta_description: "24/7 trauma scene cleanup in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Trauma Scene Cleanup in Everett, WA | National Restoration Construction"
+h1: "24/7 Emergency Trauma Scene Cleanup in Everett"
+meta_description: "24/7 emergency trauma scene cleanup in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "trauma scene cleanup everett"
 secondary_keywords: ["trauma cleanup services", "trauma scene cleaning", "accident scene cleanup", "crime and trauma decontamination", "emergency trauma cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Trauma Scene Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Everett? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something traumatic happens inside a home or business in Everett, the hours immediately after are disorienting. Families near Naval Station Everett, renters in older Bayside apartments, and property managers overseeing commercial buildings along the waterfront all face the same reality: the physical aftermath needs to be addressed carefully, discreetly, and by people who understand both the emotional weight and the technical requirements. National Restoration Construction has handled trauma scene cleanup across Snohomish County since 2004, and our crews know what it takes to work respectfully in spaces where something difficult has occurred.
 
 ## Why Everett's Housing Stock and Climate Affect Trauma Cleanup

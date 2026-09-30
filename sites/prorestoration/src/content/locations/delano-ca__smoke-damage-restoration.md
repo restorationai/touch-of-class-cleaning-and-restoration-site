@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Delano, CA | ProRestoration Services"
-h1: "Smoke Damage Restoration in Delano"
-meta_description: "24/7 smoke damage restoration in Delano, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Smoke Damage Restoration in Delano, CA | ProRestoration Services"
+h1: "24/7 Emergency Smoke Damage Restoration in Delano"
+meta_description: "24/7 emergency smoke damage restoration in Delano, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "smoke damage restoration delano"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Delano? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 A kitchen fire in a Downtown Delano bungalow, the kind built before 1960 when the neighborhood was still anchored by farmworker families and small commercial blocks, doesn't just leave char on the cabinets. The smoke works into the plaster walls, soaks into the wood-framed ceilings, and settles into every closet and air duct within hours. By the time the fire department clears the scene, the odor chemistry has already begun bonding to surfaces in ways that a coat of paint and a weekend of airing out will never fix. ProRestoration Services handles smoke damage restoration in Delano and the surrounding 93215 corridor, responding around the clock because smoke residue doesn't wait for business hours.
 
 ## Why Delano Properties Are Especially Vulnerable to Smoke Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Laurel, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Laurel"
-meta_description: "Sewage cleanup and sanitization in Laurel, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Laurel, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Laurel"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Laurel, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization laurel"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Laurel? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Sewage backups don't wait for a convenient moment, and in Laurel, where a mix of aging cast-iron drain lines, clay-tile sewer laterals, and the region's heavy seasonal rainfall conspire against older plumbing systems, a single backup can push raw waste into living spaces faster than most homeowners expect. Whether the source is a overwhelmed municipal sewer main on a rain-soaked night or a septic system that's reached its limit, the contamination left behind is a Category 3 biohazard that requires more than a mop and bleach to resolve safely.
 
 ## Why Laurel Properties Experience Sewage Backup More Than You'd Expect

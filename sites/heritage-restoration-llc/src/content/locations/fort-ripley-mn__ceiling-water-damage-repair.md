@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Fort Ripley, MN | Heritage Restoration LLC"
-h1: "Ceiling Water Damage Repair in Fort Ripley"
-meta_description: "Ceiling water damage repair in Fort Ripley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Ceiling Water Damage Repair in Fort Ripley, MN | Heritage Restoration LLC"
+h1: "Emergency Ceiling Water Damage Repair in Fort Ripley"
+meta_description: "Emergency ceiling water damage repair in Fort Ripley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "ceiling water damage repair fort ripley"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Draper, UT | Home Pride Restoration and Cleaning"
-h1: "Sewage Cleanup and Sanitization in Draper"
-meta_description: "24/7 sewage cleanup and sanitization in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Draper, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Draper"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "sewage cleanup and sanitization draper"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

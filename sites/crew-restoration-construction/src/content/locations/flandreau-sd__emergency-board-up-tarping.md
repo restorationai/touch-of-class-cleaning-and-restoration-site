@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Flandreau, SD | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Flandreau"
-meta_description: "Board-up and tarping in Flandreau, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Flandreau, SD | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Flandreau"
+meta_description: "Emergency board-up and tarping in Flandreau, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping flandreau"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Flandreau? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a spring storm rolls up the Big Sioux River valley and peels back a section of roof, or a fire tears through one of Flandreau's older wood-frame homes near Downtown, the window between damage and disaster is measured in hours, not days. Rain, wind, and opportunistic theft can turn a manageable loss into a gut renovation if the structure isn't secured fast. Crew Restoration & Construction responds to those calls across the 57028 ZIP code, boarding windows, sheathing compromised rooflines, and wrapping exposed framing before the next weather system arrives.
 
 ## Why Flandreau Properties Are Particularly Vulnerable After a Loss

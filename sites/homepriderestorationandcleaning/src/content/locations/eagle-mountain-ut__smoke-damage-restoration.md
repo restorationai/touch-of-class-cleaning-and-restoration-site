@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Eagle Mountain, UT | Home Pride Restoration and Cleaning"
-h1: "Smoke Damage Restoration in Eagle Mountain"
-meta_description: "24/7 smoke damage restoration in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "Emergency Smoke Damage Restoration in Eagle Mountain, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Smoke Damage Restoration in Eagle Mountain"
+meta_description: "24/7 emergency smoke damage restoration in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "smoke damage restoration eagle mountain"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Eagle Mountain? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Eagle Mountain sits at the edge of Utah Lake's high desert basin, where dry summers, gusty canyon winds, and a fast-growing inventory of stucco-and-frame homes create conditions that make smoke damage uniquely stubborn. When a kitchen fire, garage blaze, or nearby wildfire pushes smoke through your home, the alkaline dust already in the air bonds with soot particles and drives them deeper into porous surfaces, drywall, insulation, HVAC ductwork, even the OSB sheathing common in Eagle Mountain's newer construction. Home Pride Restoration and Cleaning has been handling exactly this kind of damage since 1997, and we know what it takes to get a home in this part of Utah County back to livable.
 
 ## Why Eagle Mountain Homes Hold Smoke Differently

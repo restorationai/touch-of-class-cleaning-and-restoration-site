@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Ewa Beach, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Burst Pipe Cleanup and Repair in Ewa Beach"
-meta_description: "24/7 burst pipe cleanup and repair in Ewa Beach, HI. Call (808) 349-3407."
+title: "Emergency Burst Pipe Cleanup and Repair in Ewa Beach, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Ewa Beach"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Ewa Beach, HI. Call (808) 349-3407."
 primary_keyword: "burst pipe cleanup and repair ewa beach"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Ewa Beach? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 When a pipe lets go inside one of Ewa Beach's tightly-built slab-on-grade homes, water has nowhere obvious to go. It spreads fast across finished concrete floors, saturates baseboards, and wicks into drywall before most homeowners realize the damage is already inside the walls. The flat Ewa plain doesn't help, poor surface drainage means water that escapes through a garage or exterior wall can pond against the foundation rather than run off, compounding what started as a plumbing failure into a broader structural drying problem. AAA Water Damage Restoration & Carpet Care responds around the clock to pipe burst emergencies across Ewa Beach, including 96706.
 
 ## Why Ewa Beach Properties Are Especially Vulnerable to Burst Pipe Damage

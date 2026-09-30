@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Rockwall, TX | Reign Restoration"
-h1: "Water Damage Restoration in Rockwall"
-meta_description: "Water damage restoration in Rockwall, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Water Damage Restoration in Rockwall, TX | Reign Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Rockwall"
+meta_description: "24/7 emergency water damage restoration in Rockwall, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "water damage restoration rockwall"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Rockwall? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Rockwall sits on the eastern shore of Lake Ray Hubbard, and that proximity to water is more than scenic, it means the soil stays saturated longer after heavy rain events, hydrostatic pressure builds against slab foundations, and when a supply line fails or a roof seam gives way during a North Texas storm, water moves fast through a home. Reign Restoration responds to water damage calls across Rockwall, working from our Royse City base to reach affected properties before secondary damage compounds the loss.
 
 ## Why Rockwall Properties Are Vulnerable to Water Damage

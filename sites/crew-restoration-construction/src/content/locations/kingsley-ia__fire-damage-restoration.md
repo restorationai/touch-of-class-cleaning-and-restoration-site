@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Kingsley, IA | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Kingsley"
-meta_description: "Fire damage restoration in Kingsley, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Kingsley, IA | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Kingsley"
+meta_description: "Emergency fire damage restoration in Kingsley, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration kingsley"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Kingsley? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When fire tears through a home in Kingsley's 51028, the damage rarely stops at the charred walls. Out here in Plymouth County, where the rolling Loess Hills funnel dry western Iowa winds across aging farmhouses and modest post-war bungalows, smoke travels fast and deep, saturating insulation, crawling into ductwork, and leaving behind acidic soot that begins etching metal fixtures and staining porous surfaces within hours. Crew Restoration & Construction responds to fire losses across the region, and we understand that a Kingsley property presents a specific set of challenges that a cookie-cutter approach won't solve.
 
 ## Why Kingsley Properties Are Vulnerable to Severe Fire Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in North Sioux City, SD | Crew Restoration & Construction"
-h1: "Water Damage Restoration in North Sioux City"
-meta_description: "Water damage restoration in North Sioux City, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in North Sioux City, SD | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in North Sioux City"
+meta_description: "Emergency water damage restoration in North Sioux City, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration north sioux city"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in North Sioux City? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 When McCook Lake crested its banks during recent flood seasons, homes along the lake's edge in North Sioux City faced something most water damage scenarios don't: saturated ground that had nowhere left to drain. That means water doesn't just enter through a broken pipe or a failed sump, it wicks upward through slab edges, seeps through foundation walls, and pools beneath crawl spaces for days after the visible flooding recedes. Crew Restoration & Construction responds to exactly that kind of layered, slow-moving damage across the 57049 ZIP code and the surrounding Dakota Dunes corridor.
 
 ## Why North Sioux City Properties See Water Damage Issues

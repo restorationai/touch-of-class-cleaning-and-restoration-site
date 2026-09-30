@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Benjamin, UT | Home Pride Restoration and Cleaning"
-h1: "Emergency Board-Up and Tarping in Benjamin"
+title: "24/7 Emergency Board-Up and Tarping in Benjamin, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Board-Up and Tarping in Benjamin"
 meta_description: "24/7 emergency board-up and tarping in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "emergency board-up and tarping benjamin"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

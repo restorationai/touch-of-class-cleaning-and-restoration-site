@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Heater Flood Cleanup in Macomb | Flood Solutions inc"
-h1: "Water Heater Flood Cleanup in Macomb"
-meta_description: "Water heater flood cleanup in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Water Heater Flood Cleanup in Macomb | Flood Solutions inc"
+h1: "Emergency Water Heater Flood Cleanup in Macomb"
+meta_description: "Emergency water heater flood cleanup in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "water heater flood cleanup macomb"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-heater-flood-cleanup"
 service_display: "water-heater-flood-cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Macomb? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 A water heater that bursts or fails slowly can push dozens of gallons across a utility room floor before anyone notices the smell of mineral-laden water soaking into drywall or the soft give of a subfloor that has been wet for hours. Unlike a pipe burst that announces itself loudly, water heater leak damage often starts quiet, hidden behind the unit or under a drip pan that overflowed sometime overnight. By the time you find it, the water has already made decisions for you about what gets saved and what gets replaced.
 
 ## What water heater flood cleanup actually involves

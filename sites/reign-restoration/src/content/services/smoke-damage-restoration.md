@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Smoke Damage Restoration in Royse City | Reign Restoration"
-h1: "Smoke Damage Restoration in Royse City"
-meta_description: "24/7 smoke damage restoration in Royse City and surrounding areas. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Smoke Damage Restoration in Royse City | Reign Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in Royse City"
+meta_description: "24/7 emergency smoke damage restoration in Royse City and surrounding areas. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "smoke damage restoration royse city"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Lehi, UT | Home Pride Restoration and Cleaning"
-h1: "Appliance Leak Cleanup in Lehi"
-meta_description: "24/7 appliance leak cleanup in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Appliance Leak Cleanup in Lehi, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Appliance Leak Cleanup in Lehi"
+meta_description: "24/7 emergency appliance leak cleanup in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "appliance leak cleanup lehi"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Lehi? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Lehi's rapid growth has brought tens of thousands of new homes online in the past decade, and with them, a surge of appliance installations that don't always get the follow-up attention they need. A refrigerator ice maker line tucked behind cabinetry, a washing machine hose that's been under tension since the house was built, a water heater sitting on a concrete slab in a finished basement, when any of these let go, water moves fast through the open floor plans and engineered-wood subfloors common in Lehi's newer subdivisions. Home Pride Restoration and Cleaning has handled appliance leak cleanup across Utah County since 1997, and we know exactly what that water is doing inside your walls before you can even see it.
 
 ## Why Lehi Homes See More Appliance Leak Damage Than You'd Expect

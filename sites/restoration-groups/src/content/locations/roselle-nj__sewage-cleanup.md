@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Roselle, NJ | The Restoration Group"
-h1: "Sewage Cleanup and Sanitization in Roselle"
-meta_description: "24/7 sewage cleanup and sanitization in Roselle, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "Emergency Sewage Cleanup and Sanitization in Roselle, NJ | The Restoration Group"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Roselle"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Roselle, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "sewage cleanup and sanitization roselle"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Roselle? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to contain the contamination and start the cleanup.
+
 When Tropical Storm Ida tore through Union County in September 2021, basements across Roselle backed up with a mix of stormwater and raw sewage, and the homes hit hardest were the postwar capes and colonials near Warinanco Park, where aging cast-iron drain lines had already been running on borrowed time. A sewage backup is not a mop-and-bucket problem. Category 3 black water carries pathogens that saturate porous materials within hours, and in a finished basement the contamination moves fast through drywall, insulation, and subfloor framing before you can even locate the shutoff. The Restoration Group responds 24/7 from Kenilworth and can be on-site in Roselle the same day you call (855) 650-7422.
 
 ## Why Roselle Properties See Sewage Backup So Often

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Crime Scene Cleanup in Normandy Park, WA | National Restoration Construction"
-h1: "Crime Scene Cleanup in Normandy Park"
-meta_description: "24/7 crime scene cleanup in Normandy Park, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Crime Scene Cleanup in Normandy Park, WA | National Restoration Construction"
+h1: "24/7 Emergency Crime Scene Cleanup in Normandy Park"
+meta_description: "24/7 emergency crime scene cleanup in Normandy Park, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "crime scene cleanup normandy park"
 secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cleanup", "homicide cleanup", "suicide scene cleanup"]
 search_intent: "local_sensitive"

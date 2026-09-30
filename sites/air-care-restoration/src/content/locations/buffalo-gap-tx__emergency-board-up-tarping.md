@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Buffalo Gap, TX | Air Care Restoration"
-h1: "Emergency Board-Up and Tarping in Buffalo Gap"
+title: "24/7 Emergency Board-Up and Tarping in Buffalo Gap, TX | Air Care Restoration"
+h1: "24/7 Emergency Board-Up and Tarping in Buffalo Gap"
 meta_description: "24/7 emergency board-up and tarping in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "emergency board-up and tarping buffalo gap"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

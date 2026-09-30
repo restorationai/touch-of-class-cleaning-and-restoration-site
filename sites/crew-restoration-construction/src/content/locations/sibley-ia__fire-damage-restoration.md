@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Sibley, IA | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Sibley"
-meta_description: "Fire damage restoration in Sibley, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Sibley, IA | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Sibley"
+meta_description: "Emergency fire damage restoration in Sibley, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration sibley"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Sibley? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When a fire tears through a home near the Osceola County Courthouse or along the older residential blocks that ring Downtown Sibley, the damage rarely stops at the charred walls. Smoke travels through every gap in a structure, into closets, ductwork, and the attic cavities common in the region's aging housing stock, while soot begins bonding to surfaces within hours. Crew Restoration & Construction responds to fire and smoke damage throughout Sibley (51249) and the surrounding Osceola County area, helping homeowners move from crisis to a fully restored property.
 
 ## Why Sibley's Housing Stock Complicates Fire Damage Recovery

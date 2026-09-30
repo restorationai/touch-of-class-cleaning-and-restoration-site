@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Elk Point, SD | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Elk Point"
-meta_description: "Board-up and tarping in Elk Point, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Elk Point, SD | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Elk Point"
+meta_description: "Emergency board-up and tarping in Elk Point, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping elk point"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Elk Point? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a storm tears shingles off a century-old farmhouse on the edge of Elk Point or a fire blows out the windows of a building near the Union County Courthouse, every hour the structure sits open to the elements accelerates the damage. This corner of Union County sits close to the Missouri River, where spring weather can swing from hail to high winds inside the same afternoon, and an unprotected roof opening or broken window can let in enough rain overnight to turn a manageable repair into a gut renovation. Crew Restoration & Construction responds to those calls with board-up and tarping crews dispatched from Sioux Falls, bringing the materials and equipment needed to stabilize a property before the next weather event arrives.
 
 ## Why Elk Point Properties Are Particularly Vulnerable After a Disaster

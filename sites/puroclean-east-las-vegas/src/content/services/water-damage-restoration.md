@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in Las Vegas | PuroClean of East Las Vegas"
-h1: "Water Damage Restoration in Las Vegas"
-meta_description: "Water damage restoration in Las Vegas and surrounding areas. Insurance billing accepted. Call +17025513040."
+title: "Emergency Water Damage Restoration in Las Vegas | PuroClean of East Las Vegas"
+h1: "Emergency Water Damage Restoration in Las Vegas"
+meta_description: "Emergency water damage restoration in Las Vegas and surrounding areas. Insurance billing accepted. Call +17025513040."
 primary_keyword: "water damage restoration las vegas"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Las Vegas? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 ## What happens in the first 48 hours matters more than anything else
 
 Water doesn't stay where it lands. Within minutes of a pipe burst or appliance failure, water migrates under baseboards, wicks up drywall, and saturates subfloor materials you can't see from the surface. Within 24 to 48 hours, that trapped moisture creates the temperature and humidity conditions mold needs to colonize. Water damage restoration is a race against that clock, and the goal isn't just removing visible water, it's eliminating the hidden moisture that causes the real long-term damage.

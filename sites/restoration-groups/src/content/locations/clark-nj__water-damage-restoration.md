@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Clark, NJ | The Restoration Group"
-h1: "Water Damage Restoration in Clark"
-meta_description: "24/7 water damage restoration in Clark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Water Damage Restoration in Clark, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Damage Restoration in Clark"
+meta_description: "24/7 emergency water damage restoration in Clark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "water damage restoration clark"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Clark? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start drying your property.
+
 Clark's compact postwar neighborhoods sit on some of Union County's most flood-prone ground. The Robinson's Branch tributary winds through low areas near Lake Avenue, and the Rahway River hugs the town's northern and western edges, a combination that turned routine sump-pump failures into full basement floods during Hurricane Ida in 2021, when backed-up sewers pushed water into finished lower levels off Valley Road. When that happens in a 1960s split-level with copper supply lines and a cast-iron drain stack that's been in the ground for sixty years, the damage moves fast and the drying window is short.
 
 ## Why Clark Properties See Water Damage Issues

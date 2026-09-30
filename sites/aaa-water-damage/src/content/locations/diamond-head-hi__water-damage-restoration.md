@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Diamond Head, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Water Damage Restoration in Diamond Head"
-meta_description: "24/7 water damage restoration in Diamond Head, HI. Call (808) 349-3407."
+title: "24/7 Emergency Water Damage Restoration in Diamond Head, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Damage Restoration in Diamond Head"
+meta_description: "24/7 emergency water damage restoration in Diamond Head, HI. Call (808) 349-3407."
 primary_keyword: "water damage restoration diamond head"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Diamond Head? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Salt air and aging plumbing are a punishing combination. Along the Gold Coast stretch between Waikiki and Kahala, the vintage co-op and condo towers built in the 1950s and '60s sit close enough to the ocean that salt spray has been quietly corroding their cast-iron drain stacks and galvanized risers for decades. When one of those risers finally gives way on an upper floor, the water doesn't stop at the unit where it started, it travels down through ceilings and walls, soaking multiple units before anyone realizes what's happening. If you're dealing with that right now in the 96815 or 96816 ZIP codes, call AAA Water Damage Restoration & Carpet Care at (808) 349-3407. We respond around the clock.
 
 ## Why Diamond Head Properties See Water Damage Differently

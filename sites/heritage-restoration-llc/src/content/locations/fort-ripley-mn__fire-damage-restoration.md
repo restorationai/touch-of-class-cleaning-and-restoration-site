@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Fort Ripley, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Fort Ripley"
-meta_description: "Fire damage restoration in Fort Ripley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Fort Ripley, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Fort Ripley"
+meta_description: "Emergency fire damage restoration in Fort Ripley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration fort ripley"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Fort Ripley? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Fort Ripley sits in a stretch of central Minnesota where long, cold winters and dense pine forest create a particular fire risk profile. Wood-framed cabins and rural homes along the Mississippi River corridor often rely on older wood-burning stoves and propane systems that can fail during the deep freezes Crow Wing County regularly sees. When fire moves through that kind of structure, the damage is rarely limited to charred surfaces. Smoke travels fast through uninsulated wall cavities, soot settles into every horizontal surface, and the smell of combustion can linger for months if the restoration isn't handled systematically from the start.
 
 ## Why Fort Ripley Properties Are Vulnerable to Structural Fire Damage

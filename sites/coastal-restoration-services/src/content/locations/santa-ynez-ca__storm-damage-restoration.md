@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Santa Ynez, CA | Coastal Restoration Services Inc"
-h1: "Storm Damage Restoration in Santa Ynez"
-meta_description: "Storm damage restoration in Santa Ynez, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Storm Damage Restoration in Santa Ynez, CA | Coastal Restoration Services Inc"
+h1: "Emergency Storm Damage Restoration in Santa Ynez"
+meta_description: "Emergency storm damage restoration in Santa Ynez, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "storm damage restoration santa ynez"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Santa Ynez? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Santa Ynez sits in a valley that funnels weather in ways that catch property owners off guard. The Santa Ynez Mountains to the south and the San Rafael range to the north create a corridor where Diablo wind events accelerate, sending gusts through the valley floor that can strip roofing, splinter mature oaks, and drive rain sideways into window frames and soffits that were never designed for that angle of impact. When a storm tears through this stretch of Santa Barbara County, the damage often looks minor from the street, and turns out to be extensive once you open the walls.
 
 ## Why Santa Ynez Properties See Disproportionate Storm Damage

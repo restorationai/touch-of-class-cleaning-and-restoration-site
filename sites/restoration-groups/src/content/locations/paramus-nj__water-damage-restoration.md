@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Paramus, NJ | The Restoration Group"
-h1: "Water Damage Restoration in Paramus"
-meta_description: "24/7 water damage restoration in Paramus, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Water Damage Restoration in Paramus, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Damage Restoration in Paramus"
+meta_description: "24/7 emergency water damage restoration in Paramus, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "water damage restoration paramus"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Paramus? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start drying your property.
+
 The Saddle River doesn't announce itself, it just rises. When Ida swept through Bergen County in 2021, basements across Paramus filled in hours, and the postwar ranches and split-levels that line the low-lying streets near Van Saun County Park took the worst of it. Whether the source is a hundred-year storm or a cast-iron drain that finally gave out under a 1962 colonial in West Paramus, standing water inside a home moves fast: it wicks into subfloor sheathing, soaks through drywall paper, and creates the warm, damp conditions mold needs to colonize within 24 to 48 hours. The Restoration Group responds around the clock, call (855) 650-7422 the moment you find water.
 
 ## Why Paramus Properties See Water Damage So Often

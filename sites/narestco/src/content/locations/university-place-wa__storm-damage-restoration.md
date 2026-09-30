@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in University Place, WA | National Restoration Construction"
-h1: "Storm Damage Restoration in University Place"
-meta_description: "24/7 storm damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "Emergency Storm Damage Restoration in University Place, WA | National Restoration Construction"
+h1: "24/7 Emergency Storm Damage Restoration in University Place"
+meta_description: "24/7 emergency storm damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "storm damage restoration university place"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in University Place? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 When a Pacific storm rolls through West Pierce County and drops a Douglas fir across a Sunset Terrace split-level, the clock starts immediately, not just on the structural damage, but on the water intrusion that follows every broken roof plane. University Place sits in a narrow corridor between Puget Sound and the Narrows where winter windstorms regularly exceed 50 mph, and the 1960s–70s ramblers and split-levels that make up most of the housing stock were not built with modern hurricane straps or engineered sheathing. National Restoration Construction has been responding to storm losses across the South Sound since 2004, and our crews know what a wind event does to these homes differently than it does to newer construction.
 
 ## Why University Place Properties Are Especially Vulnerable After a Storm

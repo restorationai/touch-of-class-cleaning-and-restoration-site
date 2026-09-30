@@ -1,9 +1,9 @@
 ---
 hero: '/images/services/burst-pipe-repair.webp'
 archetype: "service-landing"
-title: "Burst Pipe Cleanup and Repair in Saratoga Springs | Home Pride Restoration and Cleaning"
-h1: "Burst Pipe Cleanup and Repair in Saratoga Springs"
-meta_description: "24/7 burst pipe cleanup and repair in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "Emergency Burst Pipe Cleanup and Repair in Saratoga Springs | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Saratoga Springs"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "burst pipe cleanup and repair saratoga springs"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -18,6 +18,9 @@ service_slug: "burst-pipe-repair"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Saratoga Springs? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A pipe doesn't burst gradually, it lets go all at once, and in the time it takes to find the shutoff valve, water is already moving through wall cavities, soaking subfloor, and wicking into insulation you can't see. The damage clock starts the moment pressure releases, not the moment you call for help. That gap between the break and the first extraction truck on your driveway is where most of the long-term structural and mold risk is created.
 
 ## What Burst Pipe Cleanup and Repair actually involves

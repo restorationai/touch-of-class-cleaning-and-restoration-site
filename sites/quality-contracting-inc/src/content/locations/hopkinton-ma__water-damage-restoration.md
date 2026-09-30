@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Hopkinton, MA | Quality Contracting, Inc."
-h1: "Water Damage Restoration in Hopkinton"
-meta_description: "Water damage restoration in Hopkinton, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Water Damage Restoration in Hopkinton, MA | Quality Contracting, Inc."
+h1: "Emergency Water Damage Restoration in Hopkinton"
+meta_description: "Emergency water damage restoration in Hopkinton, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "water damage restoration hopkinton"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Hopkinton? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Hopkinton sits at the headwaters of the Sudbury River watershed, and that geography matters the moment a pipe bursts or a basement takes on water. The town's mix of glacially deposited soils, heavy clay in lower-lying areas, sandy loam on the higher ridgelines, means water doesn't always drain where you expect it to. A finished basement that stayed dry for a decade can flood in hours when saturated ground has nowhere left to shed runoff. When that happens, the window for effective water removal and structural drying is measured in hours, not days. Quality Contracting, Inc. serves Hopkinton from our Auburn location and can be reached at (508) 756-8800.
 
 ## Why Hopkinton Properties See Water Damage Issues

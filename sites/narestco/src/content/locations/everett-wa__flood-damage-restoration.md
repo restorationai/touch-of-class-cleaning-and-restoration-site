@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Everett, WA | National Restoration Construction"
-h1: "Flood Damage Restoration in Everett"
-meta_description: "24/7 flood damage restoration in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Flood Damage Restoration in Everett, WA | National Restoration Construction"
+h1: "24/7 Emergency Flood Damage Restoration in Everett"
+meta_description: "24/7 emergency flood damage restoration in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "flood damage restoration everett"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Everett? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Standing water doesn't wait, and neither should you. Whether a burst pipe flooded your basement overnight, a storm pushed water through your crawl space, or the Snohomish River's floodplain finally caught up with your property, the clock starts the moment water contacts your flooring, drywall, and framing. National Restoration Construction has been handling flood cleanup across the greater Puget Sound region since 2004, and we're dispatching to Everett addresses every week, not as an afterthought, but as a regular part of our service area.
 
 ## Why Everett Properties Are Especially Vulnerable to Flood Damage

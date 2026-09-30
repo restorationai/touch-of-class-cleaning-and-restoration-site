@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Roselle, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Roselle"
-meta_description: "24/7 smoke damage restoration in Roselle, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Roselle, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Roselle"
+meta_description: "24/7 emergency smoke damage restoration in Roselle, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration roselle"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Roselle? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 The morning after a house fire in Roselle, the visible char is only part of the problem. Smoke travels fast through the tight floor plans of the town's early-1900s Victorians and postwar capes, creeping into finished basements, seeping behind original horsehair-plaster walls, and settling into every closet along Chestnut Street and beyond. By the time the fire department clears the scene, acidic smoke residue has already begun etching metal fixtures, yellowing ceilings, and embedding odor into porous surfaces. The window to limit secondary damage is measured in hours, not days.
 
 ## Why Roselle Properties Are Especially Vulnerable to Smoke Damage

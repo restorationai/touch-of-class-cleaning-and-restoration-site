@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Edison, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in Edison"
-meta_description: "24/7 basement flooding cleanup in Edison, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Basement Flooding Cleanup in Edison, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Edison"
+meta_description: "24/7 emergency basement flooding cleanup in Edison, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "basement flooding cleanup edison"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Edison? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 When the Raritan River swells after a nor'easter or a summer cloudburst, low-lying streets in Edison's Clara Barton and Stelton neighborhoods can see water pushing through foundation walls before the rain even stops. Tropical Storm Ida in 2021 made that painfully clear for hundreds of township residents. Whether it's a river-fed intrusion, a failed sump pump in a finished split-level, or aging cast-iron drain lines backing up under a postwar cape, a flooded basement in Edison demands fast extraction, every hour of standing water accelerates structural saturation and creates conditions where mold can begin colonizing porous materials within 24 to 48 hours.
 
 ## Why Edison Properties See Basement Flooding Issues

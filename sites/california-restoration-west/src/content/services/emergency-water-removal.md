@@ -1,7 +1,7 @@
 ---
 archetype: "service-landing"
-title: "Emergency Water Removal & Cleanup in Ventura | California Restoration West "
-h1: "Emergency Water Removal & Cleanup in Ventura"
+title: "24/7 Emergency Water Removal & Cleanup in Ventura | California Restoration West "
+h1: "24/7 Emergency Water Removal & Cleanup in Ventura"
 meta_description: "24/7 emergency water removal and cleanup in Ventura and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "emergency water removal ventura"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Moselle, MS | HomeLyft Restoration MS"
-h1: "Biohazard Cleanup in Moselle"
-meta_description: "Biohazard cleanup in Moselle, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Biohazard Cleanup in Moselle, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Biohazard Cleanup in Moselle"
+meta_description: "24/7 emergency biohazard cleanup in Moselle, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "biohazard cleanup moselle"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Moselle? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something unexpected and deeply difficult happens inside a Moselle home or property, the last thing a family should have to manage is figuring out how to safely restore the space. Biohazard situations, whether involving blood, bodily fluids, sharps, or other infectious materials, require more than cleaning. They require trained technicians, regulated disposal, and a team that understands how Jones County's humid Gulf Coast climate can accelerate the degradation of affected materials if remediation is delayed even by a few hours.
 
 ## Why Moselle Properties Present Unique Biohazard Challenges

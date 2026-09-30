@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Tea, SD | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Tea"
-meta_description: "Fire damage restoration in Tea, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Tea, SD | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Tea"
+meta_description: "Emergency fire damage restoration in Tea, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration tea"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Tea? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Tea has grown faster than almost any small city in South Dakota over the past decade, and that growth shows in its housing stock, subdivision after subdivision of stick-framed homes in Sunrise Ridge and Prairie Meadows, many built within the last fifteen years with open floor plans and engineered lumber that behave very differently in a fire than the older construction found closer to Sioux Falls. When a kitchen fire or electrical fault tears through one of these newer builds, the synthetic materials, foam insulation, OSB sheathing, composite cabinetry, produce a dense, oily smoke that penetrates further and faster than smoke from dimensional lumber. Getting the right team on-site quickly, with the right equipment, is the difference between salvaging a home and losing it to secondary damage.
 
 ## Why Tea's New Construction Creates Specific Fire Damage Challenges

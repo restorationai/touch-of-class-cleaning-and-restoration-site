@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Vineyard, UT | FIX Restoration"
-h1: "Water Damage Restoration in Vineyard"
-meta_description: "Water damage restoration in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Damage Restoration in Vineyard, UT | FIX Restoration"
+h1: "Emergency Water Damage Restoration in Vineyard"
+meta_description: "Emergency water damage restoration in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water damage restoration vineyard"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Vineyard? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Vineyard sits on the eastern shore of Utah Lake, and that geography matters when water finds its way into your home. The city's rapid growth over the past decade has brought thousands of new construction homes to a landscape with a high water table and clay-heavy soils that drain poorly after heavy rain or snowmelt from the Wasatch front. When a pipe bursts or an appliance line fails in a Vineyard home, water moves fast and the ground beneath offers little help pulling it away. FIX Restoration responds to water damage calls across Vineyard and can be reached at (801) 930-9750.
 
 ## Why Vineyard Properties Face Elevated Water Damage Risk

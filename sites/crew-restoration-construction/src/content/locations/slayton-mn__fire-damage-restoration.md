@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Slayton, MN | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Slayton"
-meta_description: "Fire damage restoration in Slayton, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Slayton, MN | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Slayton"
+meta_description: "Emergency fire damage restoration in Slayton, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration slayton"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Slayton? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When a fire tears through a home near Lake Sarah or a commercial building in Downtown Slayton, the damage doesn't stop when the flames do. Smoke and soot keep working, etching surfaces, corroding metal fixtures, and embedding odor into wall cavities, while the water used to suppress the fire soaks into subflooring and insulation. In a county seat like Slayton, where many structures carry decades of history and the nearest large metro is hours away, getting a qualified restoration crew on-site fast is the difference between saving a structure and losing it.
 
 ## Why Slayton Properties See Fire Damage Differently

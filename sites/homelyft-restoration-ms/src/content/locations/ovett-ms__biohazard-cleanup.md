@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Ovett, MS | HomeLyft Restoration MS"
-h1: "Biohazard Cleanup in Ovett"
-meta_description: "Biohazard cleanup in Ovett, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Biohazard Cleanup in Ovett, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Biohazard Cleanup in Ovett"
+meta_description: "24/7 emergency biohazard cleanup in Ovett, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "biohazard cleanup ovett"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Ovett? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something traumatic or hazardous happens at a home or property in Ovett, the aftermath rarely waits for a convenient moment. Jones County's rural character means that properties here, many of them older wood-frame homes on larger lots, set back from state routes with limited foot traffic, can sit undiscovered longer than in denser communities. That isolation, combined with Mississippi's high humidity, means that biological material can begin to affect surfaces and air quality faster than most people expect. HomeLyft Restoration MS responds to those situations with discretion, proper containment, and the certified process that protects everyone involved.
 
 ## Why Ovett Properties Present Unique Biohazard Considerations

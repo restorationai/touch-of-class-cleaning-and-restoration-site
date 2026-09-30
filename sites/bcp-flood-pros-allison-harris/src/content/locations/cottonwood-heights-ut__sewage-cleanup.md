@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Cottonwood Heights, UT | FIX Restoration"
-h1: "Sewage Cleanup and Sanitization in Cottonwood Heights"
-meta_description: "Sewage cleanup and sanitization in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Sewage Cleanup and Sanitization in Cottonwood Heights | FIX Restoration"
+h1: "Emergency Sewage Cleanup and Sanitization in Cottonwood Heights"
+meta_description: "Emergency sewage cleanup and sanitization in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "sewage cleanup and sanitization cottonwood heights"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Cottonwood Heights? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Cottonwood Heights sits at the base of the Wasatch Range, where the freeze-thaw cycle hits hard every winter and aging lateral sewer lines take a beating year after year. When a sewer backup forces raw sewage into a basement or crawl space, the clock starts immediately: Category 3 water carries pathogens that begin colonizing porous materials within hours. FIX Restoration responds to sewage cleanup and sanitization calls throughout Cottonwood Heights, bringing the extraction equipment, EPA-registered disinfectants, and drying technology needed to stop the damage before it compounds.
 
 ## Why Cottonwood Heights Properties See Sewage Backup Issues

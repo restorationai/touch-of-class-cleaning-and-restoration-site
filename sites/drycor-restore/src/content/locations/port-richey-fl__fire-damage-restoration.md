@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Port Richey, FL | DRYCOR RESTORE"
-h1: "Fire Damage Restoration in Port Richey"
-meta_description: "24/7 fire damage restoration in Port Richey, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "24/7 Emergency Fire Damage Restoration in Port Richey, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Fire Damage Restoration in Port Richey"
+meta_description: "24/7 emergency fire damage restoration in Port Richey, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "fire damage restoration port richey"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Port Richey? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Port Richey sits close to the Gulf Coast in a climate that makes fire damage more complicated than it looks on the surface. The humidity that rolls in from Tampa Bay and the surrounding wetlands does not pause after a fire is out. Smoke residue absorbs moisture, soot compounds oxidize faster in humid air, and the window between extinguishment and the start of secondary damage is shorter here than in drier parts of the state. When fire touches a home in Port Richey, the clock starts immediately.
 
 ## Why Port Richey Properties Face Particular Challenges After a Fire

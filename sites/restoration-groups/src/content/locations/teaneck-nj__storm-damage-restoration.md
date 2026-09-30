@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Teaneck, NJ | The Restoration Group"
-h1: "Storm Damage Restoration in Teaneck"
-meta_description: "24/7 storm damage restoration in Teaneck, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Storm Damage Restoration in Teaneck, NJ | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Teaneck"
+meta_description: "24/7 emergency storm damage restoration in Teaneck, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "storm damage restoration teaneck"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Teaneck? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 When a nor'easter or fast-moving summer storm rolls through Bergen County, Teaneck's older housing stock takes the hit differently than newer suburban construction. The 1920s–40s brick Tudors and center-hall colonials that line streets through the Grange and West Englewood were built before modern storm-strapping codes, and their wide canopy trees, gorgeous in October, become projectiles when wind gusts hit 60 mph. Add the low-lying corridors along Teaneck Creek and the Hackensack River, and a single severe weather event can mean a fallen oak through a roof, a flooded finished basement, and a compromised cast-iron drain line all at once. The Restoration Group responds 24/7 and can be on-site in Teaneck from our Kenilworth base to begin stabilizing your property before secondary damage compounds the loss.
 
 ## Why Teaneck Properties See Disproportionate Storm Damage

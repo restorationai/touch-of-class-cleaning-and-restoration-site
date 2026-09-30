@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Leakesville, MS | HomeLyft Restoration MS"
-h1: "Fire Damage Restoration in Leakesville"
-meta_description: "Fire damage restoration in Leakesville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Fire Damage Restoration in Leakesville, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Fire Damage Restoration in Leakesville"
+meta_description: "24/7 emergency fire damage restoration in Leakesville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "fire damage restoration leakesville"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Leakesville? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 When fire moves through a home in Leakesville, it rarely stops at the room where it started. Greene County's humid subtropical climate means that smoke odor, already one of the most stubborn byproducts of structural fire, binds to surfaces faster in high-humidity air, and the older wood-frame construction common throughout this part of rural Mississippi absorbs char and soot deep into framing members that a surface wipe-down will never reach. HomeLyft Restoration MS responds to fire damage calls in Leakesville with an IICRC FSRT-certified team and the equipment to address what the flames left behind at every layer.
 
 ## Why Leakesville Properties Face Distinct Fire Damage Challenges

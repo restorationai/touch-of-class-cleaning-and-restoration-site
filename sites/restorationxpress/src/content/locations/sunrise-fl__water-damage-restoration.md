@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Sunrise, FL | RestorationXpress "
-h1: "Water Damage Restoration in Sunrise"
-meta_description: "Water damage restoration in Sunrise, FL. Insurance billing accepted. Call (954) 932-5420."
+title: "Emergency Water Damage Restoration in Sunrise, FL | RestorationXpress "
+h1: "Emergency Water Damage Restoration in Sunrise"
+meta_description: "Emergency water damage restoration in Sunrise, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "water damage restoration sunrise"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Sunrise? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Sunrise sits at the western edge of Broward County, where the low-lying terrain near the Everglades drains slowly and summer thunderstorms can drop several inches of rain in under an hour. When that water finds its way into a slab-on-grade home in Welleby or a townhouse near Sawgrass Mills, it doesn't just pool on the tile, it wicks into drywall, travels under baseboards, and begins feeding mold colonies within 24 to 48 hours. RestorationXpress responds from Davie to extract standing water, dry structural materials, and document everything your insurance adjuster needs before secondary damage compounds the loss.
 
 ## Why Sunrise Properties See Water Damage Issues

@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Sewickley Heights, PA | FireDEX Butler"
-h1: "Emergency Board-Up and Tarping in Sewickley Heights"
+title: "24/7 Emergency Board-Up and Tarping in Sewickley Heights, PA | FireDEX Butler"
+h1: "24/7 Emergency Board-Up and Tarping in Sewickley Heights"
 meta_description: "24/7 emergency board-up and tarping in Sewickley Heights, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "emergency board-up and tarping sewickley heights"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

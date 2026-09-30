@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Rowlett, TX | Reign Restoration"
-h1: "Storm Damage Restoration in Rowlett"
-meta_description: "Storm damage restoration in Rowlett, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Storm Damage Restoration in Rowlett, TX | Reign Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Rowlett"
+meta_description: "24/7 emergency storm damage restoration in Rowlett, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "storm damage restoration rowlett"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Rowlett? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Rowlett sits squarely in the corridor that North Texas meteorologists call "Tornado Alley's eastern edge", a stretch where supercell storms rolling off the Blackland Prairie can escalate from hail warnings to confirmed tornadoes in under thirty minutes. When a storm tears through, the damage isn't just cosmetic. Roof decking gets peeled back, fence panels become projectiles, and water follows every new opening straight into wall cavities before the rain has even stopped. Reign Restoration responds to that reality from its base in Royse City, just west on I-30, and handles the full scope of what North Texas storms leave behind.
 
 ## Why Rowlett Properties See Disproportionate Storm Damage

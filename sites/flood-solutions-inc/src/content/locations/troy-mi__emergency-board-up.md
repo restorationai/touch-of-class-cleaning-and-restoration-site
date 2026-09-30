@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board Up in Troy, MI | Flood Solutions inc"
-h1: "Board Up in Troy"
-meta_description: "Board up in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Board Up in Troy, MI | Flood Solutions inc"
+h1: "Emergency Board Up in Troy"
+meta_description: "Emergency board up in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "emergency board up troy"
 secondary_keywords: []
 search_intent: "local_specialty"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Orem, UT | Home Pride Restoration and Cleaning"
-h1: "Sewage Cleanup and Sanitization in Orem"
-meta_description: "24/7 sewage cleanup and sanitization in Orem, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Orem, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Orem"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Orem, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "sewage cleanup and sanitization orem"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Orem? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows in Orem, the clock starts immediately. Raw sewage carries bacteria, viruses, and parasites classified as Category 3 water, the most hazardous contamination level in the restoration industry, and Utah Valley's clay-heavy soil means standing effluent doesn't drain away on its own. It migrates. Within hours it can saturate subfloor framing, wick into drywall, and reach wall cavities that won't show visible damage until mold has already taken hold. If you're dealing with sewage in your home or business right now, call (801) 995-2437.
 
 ## Why Orem Properties Are Vulnerable to Sewage Backups

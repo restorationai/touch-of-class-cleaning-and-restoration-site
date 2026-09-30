@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Southborough, MA | Quality Contracting, Inc."
-h1: "Fire Damage Restoration in Southborough"
-meta_description: "Fire damage restoration in Southborough, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Fire Damage Restoration in Southborough, MA | Quality Contracting, Inc."
+h1: "Emergency Fire Damage Restoration in Southborough"
+meta_description: "Emergency fire damage restoration in Southborough, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "fire damage restoration southborough"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Southborough? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Southborough sits in one of central Massachusetts's older residential corridors, where Colonial and Cape Cod homes built decades ago still carry original wood framing, horsehair plaster, and balloon-frame construction that behaves very differently after a fire than modern stick-built houses do. Smoke travels fast through those open cavities, odor embeds deep into plaster and old-growth lumber, and structural char can extend well beyond what's visible at the surface. If you're dealing with fire damage in Southborough, the recovery process needs to account for that kind of building, not a generic checklist written for newer construction.
 
 ## Why Southborough's Housing Stock Shapes Fire Damage Recovery

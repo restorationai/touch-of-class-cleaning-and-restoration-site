@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Milton, WA | National Restoration Construction"
-h1: "Ceiling Water Damage Repair in Milton"
-meta_description: "24/7 ceiling water damage repair in Milton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Ceiling Water Damage Repair in Milton, WA | National Restoration Construction"
+h1: "24/7 Emergency Ceiling Water Damage Repair in Milton"
+meta_description: "24/7 emergency ceiling water damage repair in Milton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "ceiling water damage repair milton"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

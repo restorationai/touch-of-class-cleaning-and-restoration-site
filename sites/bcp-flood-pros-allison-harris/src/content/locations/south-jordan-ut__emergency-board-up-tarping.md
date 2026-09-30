@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in South Jordan, UT | FIX Restoration"
-h1: "Board-Up and Tarping in South Jordan"
-meta_description: "Board-up and tarping in South Jordan, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Board-Up and Tarping in South Jordan, UT | FIX Restoration"
+h1: "Emergency Board-Up and Tarping in South Jordan"
+meta_description: "Emergency board-up and tarping in South Jordan, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "emergency board-up and tarping south jordan"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in South Jordan? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 South Jordan sits at the base of the Wasatch Front where late-summer thunderstorms roll in fast off the mountains and winter inversions trap cold air that turns rooflines brittle. When a hailstorm punches through a skylight on a Saturday evening, or a house fire leaves exterior walls exposed overnight, the window between the damage event and secondary loss is short. FIX Restoration responds to board-up and tarping calls across South Jordan, securing openings and protecting roof decks so that smoke, rain, and opportunistic intrusion do not compound what is already a difficult situation.
 
 ## Why South Jordan Properties See Board-Up and Tarping Needs

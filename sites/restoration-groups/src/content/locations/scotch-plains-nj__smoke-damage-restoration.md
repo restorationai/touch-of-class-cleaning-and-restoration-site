@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Scotch Plains, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Scotch Plains"
-meta_description: "24/7 smoke damage restoration in Scotch Plains, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Scotch Plains, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Scotch Plains"
+meta_description: "24/7 emergency smoke damage restoration in Scotch Plains, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration scotch plains"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Scotch Plains? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 A kitchen fire that gets knocked down fast can still leave a Scotch Plains home smelling like a chimney for months. Smoke is deceptive, the visible char is only part of the story. In the mid-century split-levels and colonials that line the streets off Park Avenue and through the Shackamaxon neighborhood, smoke particles travel through forced-air ductwork, settle into plaster ceilings, and seep behind original wood paneling before the fire trucks have even left the driveway. Getting the structure back to livable takes more than airing out a window.
 
 ## Why Scotch Plains Homes Are Particularly Vulnerable to Smoke Damage

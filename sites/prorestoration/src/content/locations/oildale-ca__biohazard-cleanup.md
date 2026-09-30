@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Oildale, CA | ProRestoration Services"
-h1: "Biohazard Cleanup in Oildale"
-meta_description: "24/7 biohazard cleanup in Oildale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Biohazard Cleanup in Oildale, CA | ProRestoration Services"
+h1: "24/7 Emergency Biohazard Cleanup in Oildale"
+meta_description: "24/7 emergency biohazard cleanup in Oildale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "biohazard cleanup oildale"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

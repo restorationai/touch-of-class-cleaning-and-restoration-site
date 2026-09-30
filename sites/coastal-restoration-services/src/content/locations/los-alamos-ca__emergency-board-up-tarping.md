@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Los Alamos, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Los Alamos"
-meta_description: "Board-up and tarping in Los Alamos, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Los Alamos, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Los Alamos"
+meta_description: "Emergency board-up and tarping in Los Alamos, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping los alamos"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Los Alamos? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Los Alamos sits in the Santa Ynez Valley corridor where dry, fire-prone summers and the occasional Pacific storm can leave a property suddenly exposed, a burned-out eave, a wind-lifted roof section, a window shattered by debris. When that happens, the gap between the damage event and a proper repair isn't measured in days; it's measured in hours before rain, pests, or opportunistic theft compounds the loss. Coastal Restoration Services Inc responds to those calls for Los Alamos properties, securing structures with board-up and tarping work that holds until permanent repairs can begin.
 
 ## Why Los Alamos Properties Face Distinct Board-Up and Tarping Needs

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in American Fork, UT | Home Pride Restoration and Cleaning"
-h1: "Storm Damage Restoration in American Fork"
-meta_description: "24/7 storm damage restoration in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Storm Damage Restoration in American Fork, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Storm Damage Restoration in American Fork"
+meta_description: "24/7 emergency storm damage restoration in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "storm damage restoration american fork"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in American Fork? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 American Fork sits at the base of the Wasatch Front where late-spring microbursts and summer monsoon moisture can stack up fast, and when a storm rolls through, it rarely gives you time to move the patio furniture. Hail the size of marbles, winds that snap mature cottonwoods, and flash flooding that sheets off the mountain slopes can leave a home with a punched-in roof, flooded basement, and a yard full of debris all at once. Home Pride Restoration and Cleaning has been responding to exactly that kind of damage since 1997, and our crews know what a Utah County storm leaves behind.
 
 ## Why American Fork Properties See Concentrated Storm Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Kent, WA | National Restoration Construction"
-h1: "Storm Damage Restoration in Kent"
-meta_description: "24/7 storm damage restoration in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Storm Damage Restoration in Kent, WA | National Restoration Construction"
+h1: "24/7 Emergency Storm Damage Restoration in Kent"
+meta_description: "24/7 emergency storm damage restoration in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "storm damage restoration kent"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Kent? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 When a storm tears through Kent, whether it's a wind-driven atmospheric river that peels back your roof, a fallen cedar crushing your fence line, or hail that punches through a skylight at 2 a.m., the first hour matters more than most people realize. Water that gets inside a compromised structure starts working fast: within 24 to 48 hours, saturated drywall and insulation can begin supporting mold growth. National Restoration Construction dispatches from Federal Way, putting a crew at most Kent addresses within 60 to 90 minutes of your call at **(206) 883-0333**.
 
 ## Why Kent Properties See Storm Damage So Often

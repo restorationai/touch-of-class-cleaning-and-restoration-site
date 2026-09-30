@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Warren, MI | Flood Solutions inc"
-h1: "Basement Flooding Cleanup in Warren"
-meta_description: "Basement flooding cleanup in Warren, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Basement Flooding Cleanup in Warren, MI | Flood Solutions inc"
+h1: "Emergency Basement Flooding Cleanup in Warren"
+meta_description: "Emergency basement flooding cleanup in Warren, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "basement flooding cleanup warren"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "basement-flooding-cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Warren? Call now for emergency service.** Our crew responds fast to pump out the water and start drying.
+
 Warren sits on some of the flattest terrain in Macomb County, and when a heavy spring storm rolls through or a water main lets go under a residential street, that flatness has nowhere to send the water except down. Basements in this city collect it fast. Whether the source is a sump pump that quit during a power flicker, a cracked block foundation wall, or a backed-up floor drain, the clock starts the moment water touches your concrete floor. Flood Solutions inc has been responding to exactly this kind of loss since 1996, and the conditions in Warren are ones we know well.
 
 ## Why Warren Properties See Basement Flooding So Often

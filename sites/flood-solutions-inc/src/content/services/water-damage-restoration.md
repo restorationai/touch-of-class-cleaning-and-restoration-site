@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in Macomb | Flood & Fire Solutions"
-h1: "Water Damage Restoration in Macomb"
-meta_description: "Water damage restoration in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Water Damage Restoration in Macomb | Flood & Fire Solutions"
+h1: "Emergency Water Damage Restoration in Macomb"
+meta_description: "Emergency water damage restoration in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "water damage restoration macomb"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Macomb? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Standing water doesn't wait. Within the first hour after a pipe bursts or a washing machine supply line fails, water is already wicking into drywall, migrating under flooring, and beginning to saturate the wood framing behind your walls. By 24 to 48 hours, conditions are right for mold colonization, and by then, what started as a plumbing problem has become a structural one. Water damage restoration is the work of stopping that clock: removing the water, drying the structure completely, and verifying with instruments, not guesswork, that the building is actually dry.
 
 ## What water damage restoration actually involves

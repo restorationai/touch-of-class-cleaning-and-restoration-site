@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Bloomfield, NJ | The Restoration Group"
-h1: "Fire Damage Restoration in Bloomfield"
-meta_description: "24/7 fire damage restoration in Bloomfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Fire Damage Restoration in Bloomfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in Bloomfield"
+meta_description: "24/7 emergency fire damage restoration in Bloomfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "fire damage restoration bloomfield"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Bloomfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and start the recovery.
+
 The smell of smoke doesn't leave a house the way water does, it seeps into plaster, travels through ductwork, and settles into the original-growth fir framing that's common in Bloomfield's 1920s colonials and Tudors. When a kitchen fire chars the cabinets in a Watsessing two-family or an electrical fault scorches the attic of a Brookdale colonial, the visible damage is only part of the problem. Soot particles and acidic smoke residues begin etching metal fixtures, discoloring grout, and breaking down fabric within hours. Getting the right crew on-site fast, and with the right equipment, is the difference between restoring a home and replacing it.
 
 ## Why Bloomfield's Housing Stock Complicates Fire Damage

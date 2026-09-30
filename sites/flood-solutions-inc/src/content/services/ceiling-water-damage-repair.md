@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Ceiling Water Damage Repair in Macomb | Flood Solutions inc"
-h1: "Ceiling Water Damage Repair in Macomb"
-meta_description: "Ceiling water damage repair in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Ceiling Water Damage Repair in Macomb | Flood Solutions inc"
+h1: "Emergency Ceiling Water Damage Repair in Macomb"
+meta_description: "Emergency ceiling water damage repair in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "ceiling water damage repair macomb"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "ceiling-water-damage-repair"
 service_display: "ceiling-water-damage-repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water coming through the ceiling in Macomb? Call now for emergency service.** Our crew responds fast to stop the leak damage and start drying.
+
 A bubble forming in your drywall ceiling is not just cosmetic. Within 24 to 48 hours of water pooling above a ceiling surface, gypsum board begins to swell, joint compound softens, and the weight of absorbed water can cause a section to collapse without warning. Whether the source is a burst pipe in the floor above, a roof leak that tracked along a rafter, or an overflowed upstairs bathroom, the ceiling is often where the damage becomes visible long after the water has already spread laterally through insulation and framing. Getting that ceiling assessed and dried correctly is what prevents a contained incident from becoming a structural repair.
 
 ## What ceiling water damage repair actually involves

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Biloxi, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Biloxi"
-meta_description: "Board-up and tarping in Biloxi, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Biloxi, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Biloxi"
+meta_description: "24/7 emergency board-up and tarping in Biloxi, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping biloxi"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Biloxi? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Biloxi sits directly in the path of Gulf storms that can go from tropical watch to landfall in under 48 hours, and when a hurricane shutter fails, a tree limb punches through a roof, or a fire vents through a window on a beachside cottage, every hour the structure sits open accelerates the damage. Salt-laden air, high humidity, and the city's proximity to the Mississippi Sound mean that an unprotected opening doesn't just let in rain, it invites rapid moisture intrusion, mold colonization, and corrosion of metal fasteners that can begin within 24 to 48 hours of exposure. HomeLyft Restoration MS responds from Gulfport to board up and tarp Biloxi properties before secondary damage compounds the loss.
 
 ## Why Biloxi Properties Face Elevated Board-Up and Tarping Needs

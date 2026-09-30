@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Sewage Cleanup and Sanitization in Henderson | Life Savers Restoration LLC"
-h1: "Sewage Cleanup and Sanitization in Henderson"
-meta_description: "24/7 sewage cleanup and sanitization in Henderson and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Henderson | Life Savers Restoration LLC"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Henderson"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Henderson and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
 primary_keyword: "sewage cleanup and sanitization henderson"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Henderson? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows, the material that surfaces isn't just water, it's Category 3 "black water" carrying fecal coliform bacteria, hepatitis-risk pathogens, and aerosolized contaminants that begin colonizing porous surfaces within hours. The smell hits first, but the real damage is invisible: raw sewage saturates subfloor sheathing, wicks into drywall cavities, and soaks into carpet padding long before the surface looks wet. This is not a cleanup you can manage with a mop and bleach.
 
 ## What sewage cleanup and sanitization actually involves

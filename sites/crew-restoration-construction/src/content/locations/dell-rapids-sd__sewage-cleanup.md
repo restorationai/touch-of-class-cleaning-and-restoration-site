@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Dell Rapids, SD | Crew Restoration & Construction"
-h1: "Sewage Cleanup and Sanitization in Dell Rapids"
-meta_description: "Sewage cleanup and sanitization in Dell Rapids, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Sewage Cleanup and Sanitization in Dell Rapids, SD | Crew Restoration & Construction"
+h1: "Emergency Sewage Cleanup and Sanitization in Dell Rapids"
+meta_description: "Emergency sewage cleanup and sanitization in Dell Rapids, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "sewage cleanup and sanitization dell rapids"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Dell Rapids? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows near the Big Sioux River corridor, the contamination risk compounds fast. Dell Rapids sits along flood-prone stretches where high water tables and saturated quartzite-lined soils can push raw sewage toward foundations long after the visible mess is gone. Crew Restoration & Construction responds to sewage backup and sanitization calls throughout the 57022 ZIP code, removing biohazardous waste, treating affected surfaces, and restoring safe conditions before secondary contamination takes hold.
 
 ## Why Dell Rapids Properties See Sewage Backup Issues

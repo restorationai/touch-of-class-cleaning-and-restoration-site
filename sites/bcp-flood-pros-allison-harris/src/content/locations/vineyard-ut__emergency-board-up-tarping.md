@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Vineyard, UT | FIX Restoration"
-h1: "Board-Up and Tarping in Vineyard"
-meta_description: "Board-up and tarping in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Board-Up and Tarping in Vineyard, UT | FIX Restoration"
+h1: "Emergency Board-Up and Tarping in Vineyard"
+meta_description: "Emergency board-up and tarping in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "emergency board-up and tarping vineyard"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"

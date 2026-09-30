@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Milford, MA | Quality Contracting, Inc."
-h1: "Basement Flooding Cleanup in Milford"
-meta_description: "Basement flooding cleanup in Milford, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Basement Flooding Cleanup in Milford, MA | Quality Contracting, Inc."
+h1: "Emergency Basement Flooding Cleanup in Milford"
+meta_description: "Emergency basement flooding cleanup in Milford, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "basement flooding cleanup milford"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Cranford, NJ | The Restoration Group"
-h1: "Storm Damage Restoration in Cranford"
-meta_description: "24/7 storm damage restoration in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Storm Damage Restoration in Cranford, NJ | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Cranford"
+meta_description: "24/7 emergency storm damage restoration in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "storm damage restoration cranford"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Cranford? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 Cranford's nickname, the Venice of New Jersey, captures something real: the Rahway River doesn't just border the town, it runs through the middle of it, and when a nor'easter or a remnant tropical system pushes that river over its banks, whole blocks between Riverside Drive and Nomahegan Park can be underwater within hours. Storms here aren't abstract weather events. Hurricanes Floyd, Irene, and Ida each left their mark on this ZIP code (07016), and many homeowners in Cranford have been through the cleanup cycle more than once. The Restoration Group is based in Kenilworth, one town over, and our crews know exactly what post-storm Cranford looks like, and what it takes to dry it out properly.
 
 ## Why Cranford Properties Face Repeat Storm Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in South Jordan, UT | FIX Restoration"
-h1: "Biohazard Cleanup in South Jordan"
-meta_description: "Biohazard cleanup in South Jordan, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Biohazard Cleanup in South Jordan, UT | FIX Restoration"
+h1: "Emergency Biohazard Cleanup in South Jordan"
+meta_description: "Emergency biohazard cleanup in South Jordan, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "biohazard cleanup south jordan"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in South Jordan? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 South Jordan has grown fast, and that growth brings a mix of established subdivisions, newer master-planned communities, and the kind of density that means neighbors are close and discretion matters. When a biohazard situation arises in a home or property here, whether it involves an unattended death, bodily fluids, or infectious material, the priority is the same: safe, thorough cleanup handled quietly and correctly. FIX Restoration has been doing this work across the Wasatch Front since 2012, and we understand that the call itself is one of the hardest a person makes.
 
 ## Why South Jordan Properties Present Specific Considerations

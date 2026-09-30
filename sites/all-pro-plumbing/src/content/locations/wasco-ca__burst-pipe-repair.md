@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst and Leaking Pipe Repair in Wasco, CA | All Pro Plumbing Heating and Air"
-h1: "Burst and Leaking Pipe Repair in Wasco"
-meta_description: "Trusted burst and leaking pipe repair in Wasco, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242."
+title: "24/7 Emergency Burst and Leaking Pipe Repair in Wasco, CA | All Pro Plumbing Heating and Air"
+h1: "24/7 Emergency Burst and Leaking Pipe Repair in Wasco"
+meta_description: "Trusted 24/7 emergency burst and leaking pipe repair in Wasco, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242."
 primary_keyword: "burst and leaking pipe repair wasco"
 secondary_keywords: ["burst pipe repair", "pipe burst in wall", "water line repair", "leaking pipe repair", "frozen pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Burst and Leaking Pipe Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Wasco? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Wasco sits in the heart of Kern County's agricultural flatlands, where summer temperatures routinely push past 100°F and winter nights can drop hard enough to catch older irrigation-era plumbing off guard. That temperature swing, combined with the area's mix of mid-century ranch homes and newer tract construction built on expansive clay soils, creates conditions where a pipe can fail quietly behind a wall for days before a homeowner notices the buckled drywall or the spike on the water bill. When a burst or leaking pipe does announce itself in Wasco, the response window matters: standing water in a slab-on-grade home can reach the subfloor framing within hours.
 
 ## Why Wasco Properties See Burst and Leaking Pipe Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Youngstown | DISS Restoration"
-h1: "Fire Damage Restoration in Youngstown"
-meta_description: "24/7 fire damage restoration in Youngstown and surrounding areas. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Fire Damage Restoration in Youngstown | DISS Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Youngstown"
+meta_description: "24/7 emergency fire damage restoration in Youngstown and surrounding areas. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "fire damage restoration youngstown"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Youngstown? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Smoke doesn't stop moving when the flames go out. Within hours of a house fire, soot particles migrate through ductwork, settle into closet corners, and bond to cool surfaces in rooms that never saw a flame. The odor penetrates drywall, insulation, and wood framing, and if protein-based materials burned (food, hair, upholstery), that residue is nearly invisible yet produces some of the most persistent smells in residential restoration. Getting fire damage right means understanding what burned, where the byproducts traveled, and in what order to address them.
 
 ## What fire and smoke restoration actually involves

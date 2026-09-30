@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Oak Hills, PA | FireDEX Butler"
-h1: "Emergency Board-Up and Tarping in Oak Hills"
+title: "24/7 Emergency Board-Up and Tarping in Oak Hills, PA | FireDEX Butler"
+h1: "24/7 Emergency Board-Up and Tarping in Oak Hills"
 meta_description: "24/7 emergency board-up and tarping in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "emergency board-up and tarping oak hills"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

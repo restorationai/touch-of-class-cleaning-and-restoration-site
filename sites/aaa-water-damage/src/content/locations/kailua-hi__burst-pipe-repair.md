@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Kailua, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Burst Pipe Cleanup and Repair in Kailua"
-meta_description: "24/7 burst pipe cleanup and repair in Kailua, HI. Call (808) 349-3407."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Kailua, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Kailua"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Kailua, HI. Call (808) 349-3407."
 primary_keyword: "burst pipe cleanup and repair kailua"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Kailua? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A pipe that lets go overnight in a Kailua beach cottage can run undetected for days, especially if the home is a vacation rental or second property and no one is on-island to notice the smell or the soft floor. Kailua's combination of salt-air corrosion, high water tables near Kawainui Marsh, and the single-wall construction common throughout the 96734 ZIP code means water moves fast: into wall cavities, under slab, and through the lightweight framing that makes these homes so charming and so vulnerable at the same time. When a pipe breaks here, the clock starts immediately.
 
 ## Why Kailua Properties See Burst Pipe Issues

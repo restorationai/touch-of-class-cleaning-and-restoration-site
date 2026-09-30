@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Moselle, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Moselle"
-meta_description: "Sewage cleanup and sanitization in Moselle, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "Emergency Sewage Cleanup and Sanitization in Moselle, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Moselle"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Moselle, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization moselle"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Moselle? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Sewage backing up into a Moselle home hits differently than a simple pipe leak, the smell alone tells you something has gone seriously wrong, and the clock starts ticking the moment raw waste contacts your floors, walls, or subfloor. Jones County's clay-heavy soils and the area's seasonal rainfall patterns put real stress on older septic systems and lateral sewer lines, and when those systems fail, the contamination spreads faster than most homeowners expect. HomeLyft Restoration MS responds to sewage backup calls across Moselle and the surrounding county, bringing IICRC-certified technicians and the containment equipment the job demands.
 
 ## Why Moselle Properties See Sewage Backup Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in El Paso de Robles, CA | Coastal Restoration Services Inc"
-h1: "Storm Damage Restoration in El Paso de Robles"
-meta_description: "Storm damage restoration in El Paso de Robles, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Storm Damage Restoration in El Paso de Robles, CA | Coastal Restoration Services Inc"
+h1: "Emergency Storm Damage Restoration in El Paso de Robles"
+meta_description: "Emergency storm damage restoration in El Paso de Robles, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "storm damage restoration el paso de robles"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in El Paso de Robles? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Paso Robles sits in a climatic crossroads that most coastal California towns don't share: summer heat that routinely cracks 100°F gives way to winters where Pacific storm systems funnel through the Salinas River corridor and drop inches of rain on soil that has been baked hard all season. When those storms arrive, water doesn't soak in, it sheets across driveways, backs up through window wells, and finds every gap in a roof that spent six dry months expanding and contracting in the heat. If a storm has just torn through your property, Coastal Restoration Services Inc is ready to help you assess the damage and start recovery. Call **(805) 345-7440**.
 
 ## Why El Paso de Robles Properties See Storm Damage Differently

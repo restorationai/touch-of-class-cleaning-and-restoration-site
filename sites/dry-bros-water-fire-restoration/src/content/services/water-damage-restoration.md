@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in Chicago | Dry Bros Water & Fire Restoration"
-h1: "Water Damage Restoration in Chicago"
-meta_description: "Water damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Water Damage Restoration in Chicago | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Chicago"
+meta_description: "24/7 emergency water damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "water damage restoration chicago"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Chicago? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Standing water doesn't wait. Within the first hour after a pipe bursts or a sump pump fails, water is already wicking into drywall, migrating under flooring, and soaking into wall cavities where no fan will reach it. By 24 to 48 hours, that hidden moisture becomes the conditions mold needs to colonize. Water damage restoration is the work of stopping that clock, pulling the water out, drying the structure down to its core, and verifying with instruments that what looks dry actually is.
 
 ## What Water Damage Restoration actually involves

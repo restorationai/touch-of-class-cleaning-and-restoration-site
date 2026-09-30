@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Heater Flood Cleanup in Luverne, MN | Crew Restoration & Construction"
-h1: "Water Heater Flood Cleanup in Luverne"
-meta_description: "Water heater flood cleanup in Luverne, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Heater Flood Cleanup in Luverne, MN | Crew Restoration & Construction"
+h1: "Emergency Water Heater Flood Cleanup in Luverne"
+meta_description: "Emergency water heater flood cleanup in Luverne, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water heater flood cleanup luverne"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"

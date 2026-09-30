@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Cedar Fort, UT | FIX Restoration"
-h1: "Sewage Cleanup and Sanitization in Cedar Fort"
-meta_description: "Sewage cleanup and sanitization in Cedar Fort, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Sewage Cleanup and Sanitization in Cedar Fort, UT | FIX Restoration"
+h1: "Emergency Sewage Cleanup and Sanitization in Cedar Fort"
+meta_description: "Emergency sewage cleanup and sanitization in Cedar Fort, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "sewage cleanup and sanitization cedar fort"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Cedar Fort? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Cedar Fort sits in a rural pocket of Utah County where most properties rely on private septic systems rather than a municipal sewer connection. When a septic tank backs up or a drain field fails, raw sewage doesn't just create an unpleasant smell, it introduces bacteria, viruses, and parasites into living spaces that ordinary cleaning products cannot neutralize. FIX Restoration responds to sewage backup and septic overflow calls throughout Cedar Fort and the surrounding area, bringing the extraction equipment, EPA-registered disinfectants, and containment protocols the situation actually requires.
 
 ## Why Cedar Fort Properties See Sewage Backup Issues

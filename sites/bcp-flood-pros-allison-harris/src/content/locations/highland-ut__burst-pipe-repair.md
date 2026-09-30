@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Highland, UT | FIX Restoration"
-h1: "Burst Pipe Cleanup and Repair in Highland"
-meta_description: "Burst pipe cleanup and repair in Highland, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Burst Pipe Cleanup and Repair in Highland, UT | FIX Restoration"
+h1: "Emergency Burst Pipe Cleanup and Repair in Highland"
+meta_description: "Emergency burst pipe cleanup and repair in Highland, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "burst pipe cleanup and repair highland"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Picayune, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Picayune"
-meta_description: "Board-up and tarping in Picayune, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Picayune, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Picayune"
+meta_description: "24/7 emergency board-up and tarping in Picayune, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping picayune"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Picayune? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Picayune sits in Pearl River County at the edge of Mississippi's piney woods, where Gulf-fed storm systems can stall and dump rain for days, and where a single overnight thunderstorm can leave a homeowner staring at a hole in their roof or a shattered window by morning. When that happens, the gap between the damage you have right now and the damage you'll have in 48 hours is almost entirely determined by how fast the opening gets covered. HomeLyft Restoration MS dispatches board-up and tarping crews from Gulfport to Picayune to stop that clock.
 
 ## Why Picayune Properties Face Elevated Board-Up and Tarping Needs

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in McKinney, TX | Reign Restoration"
-h1: "Fire Damage Restoration in McKinney"
-meta_description: "24/7 fire damage restoration in McKinney, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Fire Damage Restoration in McKinney, TX | Reign Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in McKinney"
+meta_description: "24/7 emergency fire damage restoration in McKinney, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "fire damage restoration mckinney"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in McKinney? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 The smell hits before you fully process what happened, that sharp, acrid mix of charred wood, melted plastic, and smoke that settles into every surface it touches. Whether a kitchen fire spread through a Craig Ranch slab home or a chimney failure scorched the attic of a pier-and-beam Folk Victorian near Historic Downtown McKinney, the clock starts the moment flames are out. Smoke residue becomes permanently bonded to porous materials within hours, and soot that migrates through HVAC ductwork can contaminate rooms that never saw a single flame. Reign Restoration's IICRC FSRT-certified team responds 24/7, call (214) 304-0621 the moment the fire department clears the scene.
 
 ## Why McKinney's Housing Stock Shapes Fire Damage Differently

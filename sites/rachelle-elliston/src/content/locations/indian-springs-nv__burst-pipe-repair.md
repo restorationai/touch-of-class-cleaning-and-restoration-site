@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Indian Springs, NV | Desert Valley Contracting Inc "
-h1: "Burst Pipe Cleanup and Repair in Indian Springs"
-meta_description: "24/7 burst pipe cleanup and repair in Indian Springs, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+title: "Emergency Burst Pipe Cleanup and Repair in Indian Springs | Desert Valley Contracting Inc "
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Indian Springs"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Indian Springs, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "burst pipe cleanup and repair indian springs"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Mars, PA | FireDEX Butler"
-h1: "Smoke Damage Restoration in Mars"
-meta_description: "24/7 smoke damage restoration in Mars, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Smoke Damage Restoration in Mars, PA | FireDEX Butler"
+h1: "24/7 Emergency Smoke Damage Restoration in Mars"
+meta_description: "24/7 emergency smoke damage restoration in Mars, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "smoke damage restoration mars"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Mars? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 When smoke from a kitchen fire, chimney flare-up, or electrical fault works its way into the walls and ductwork of a Mars home, the clock starts immediately. Smoke residue, especially the oily, wet-smoke deposits common in older Borough homes along Breakneck Creek, bonds to surfaces within hours, and the acidite gases it carries begin etching metal fixtures, yellowing trim paint, and penetrating porous stone foundations long before the smell becomes your only clue something is wrong. If you're in the 16046 ZIP code and dealing with the aftermath of a fire, here's what to expect from a team that has been doing this work since 1981.
 
 ## Why Mars Properties See Smoke Damage Differently

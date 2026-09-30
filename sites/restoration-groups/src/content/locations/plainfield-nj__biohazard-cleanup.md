@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Plainfield, NJ | The Restoration Group"
-h1: "Biohazard Cleanup in Plainfield"
-meta_description: "24/7 biohazard cleanup in Plainfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Biohazard Cleanup in Plainfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Biohazard Cleanup in Plainfield"
+meta_description: "24/7 emergency biohazard cleanup in Plainfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "biohazard cleanup plainfield"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Plainfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to handle the cleanup with discretion and care.
+
 Plainfield's dense mix of Victorian-era rowhouses, postwar two-families, and occupied apartment buildings along corridors like East Front Street means that when a biohazard situation arises, whether in a finished basement, a rented upper floor, or a long-vacant unit, the circumstances are rarely straightforward. Older construction holds odors differently, neighboring units share ventilation, and the people involved are often already managing something difficult. The Restoration Group handles these situations with discretion, proper containment, and the documentation your insurance carrier will need.
 
 ## Why Plainfield Properties Present Unique Biohazard Challenges

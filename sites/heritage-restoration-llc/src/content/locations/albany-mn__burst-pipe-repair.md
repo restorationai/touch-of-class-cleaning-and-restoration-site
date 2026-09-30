@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Albany, MN | Heritage Restoration LLC"
-h1: "Burst Pipe Cleanup and Repair in Albany"
-meta_description: "Burst pipe cleanup and repair in Albany, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Burst Pipe Cleanup and Repair in Albany, MN | Heritage Restoration LLC"
+h1: "Emergency Burst Pipe Cleanup and Repair in Albany"
+meta_description: "Emergency burst pipe cleanup and repair in Albany, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "burst pipe cleanup and repair albany"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"

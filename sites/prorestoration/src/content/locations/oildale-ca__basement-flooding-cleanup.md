@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Oildale, CA | ProRestoration Services"
-h1: "Basement Flooding Cleanup in Oildale"
-meta_description: "24/7 basement flooding cleanup in Oildale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Basement Flooding Cleanup in Oildale, CA | ProRestoration Services"
+h1: "24/7 Emergency Basement Flooding Cleanup in Oildale"
+meta_description: "24/7 emergency basement flooding cleanup in Oildale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "basement flooding cleanup oildale"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"

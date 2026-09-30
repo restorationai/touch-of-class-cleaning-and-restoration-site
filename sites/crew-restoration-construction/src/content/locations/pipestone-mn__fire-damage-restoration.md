@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Pipestone, MN | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Pipestone"
-meta_description: "Fire damage restoration in Pipestone, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Pipestone, MN | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Pipestone"
+meta_description: "Emergency fire damage restoration in Pipestone, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration pipestone"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Pipestone? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 The smell of smoke doesn't leave a house the way it entered, it seeps into wall cavities, saturates insulation, and coats every surface with a fine layer of acidic residue that keeps corroding long after the flames are out. In Pipestone, that challenge is compounded by the city's distinctive building stock: the same Sioux quartzite that makes the Downtown Pipestone Historic District one of the most architecturally striking small towns on the prairie also makes fire-damaged structures here genuinely harder to restore than a standard stick-frame home. Crew Restoration & Construction works in Pipestone (56164) and understands what that means in practice.
 
 ## Why Pipestone Properties Face Unique Fire Damage Challenges

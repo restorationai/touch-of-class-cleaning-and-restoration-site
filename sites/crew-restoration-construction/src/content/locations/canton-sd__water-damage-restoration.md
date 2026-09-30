@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Canton, SD | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Canton"
-meta_description: "Water damage restoration in Canton, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Canton, SD | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Canton"
+meta_description: "Emergency water damage restoration in Canton, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration canton"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Canton? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 The Big Sioux River doesn't give much warning. A heavy spring thaw or a backed-up sump pump in one of Canton's older homes can put several inches of water on a basement floor before you've had a chance to move anything out of the way. Whether the source is a burst supply line in a century-old craftsman near Downtown Canton or a failed sump in a ranch house on the south end of town, the clock starts the moment water touches your framing, insulation, and flooring, and it doesn't stop on its own.
 
 ## Why Canton Properties See More Water Damage Than You'd Expect

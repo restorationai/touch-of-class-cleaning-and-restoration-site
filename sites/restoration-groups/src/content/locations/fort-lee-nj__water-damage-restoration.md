@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Fort Lee, NJ | The Restoration Group"
-h1: "Water Damage Restoration in Fort Lee"
-meta_description: "24/7 water damage restoration in Fort Lee, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Water Damage Restoration in Fort Lee, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Damage Restoration in Fort Lee"
+meta_description: "24/7 emergency water damage restoration in Fort Lee, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "water damage restoration fort lee"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Hurley, MS | HomeLyft Restoration MS"
-h1: "Fire Damage Restoration in Hurley"
-meta_description: "Fire damage restoration in Hurley, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Fire Damage Restoration in Hurley, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Fire Damage Restoration in Hurley"
+meta_description: "24/7 emergency fire damage restoration in Hurley, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "fire damage restoration hurley"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Hurley? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Hurley sits in the piney woods of Jackson County, where warm, humid Gulf Coast air pushes inland year-round. That humidity doesn't just complicate everyday life, after a house fire, it turns an already serious situation into a race against secondary damage. Smoke residue that might stay dry and powdery in an arid climate becomes sticky and acidic in Hurley's moisture-laden air within hours, etching into drywall, cabinetry, and HVAC ducts faster than most homeowners expect. If you've just lived through a fire at your Hurley property, the clock is already running.
 
 ## Why Hurley Properties Face Compounding Fire Damage Challenges

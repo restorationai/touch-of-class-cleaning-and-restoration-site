@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Tye, TX | Air Care Restoration"
-h1: "Flood Damage Restoration in Tye"
-meta_description: "24/7 flood damage restoration in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Flood Damage Restoration in Tye, TX | Air Care Restoration"
+h1: "24/7 Emergency Flood Damage Restoration in Tye"
+meta_description: "24/7 emergency flood damage restoration in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "flood damage restoration tye"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "flood-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Tye? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Flat Rolling Plains terrain and clay-heavy soil mean water in Tye doesn't always behave the way homeowners expect. A slab leak or heavy spring storm can push moisture sideways under a foundation for days before it ever shows up as a stain on the baseboard, and by the time carpet starts to feel spongy near an exterior wall, the drywall and insulation behind it may already be saturated. Air Care Restoration works flood and water losses across Taylor County, and Tye's mix of manufactured housing, slab-on-grade ranch homes, and older frame construction each dry out differently.
 
 ## Why Tye Properties See Flood Damage

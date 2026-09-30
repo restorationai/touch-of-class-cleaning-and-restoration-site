@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Dakota Dunes, SD | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Dakota Dunes"
-meta_description: "Board-up and tarping in Dakota Dunes, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Dakota Dunes, SD | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Dakota Dunes"
+meta_description: "Emergency board-up and tarping in Dakota Dunes, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping dakota dunes"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Dakota Dunes? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a storm tears shingles off a roof overlooking the Missouri River or a fire blows out windows in a Two Rivers home, every hour the structure sits open accelerates the damage. Dakota Dunes sits in a flood-prone corridor where humidity spikes fast after a weather event, and an unprotected opening, whether from a broken window, a collapsed soffit, or fire-damaged framing, can let moisture, wildlife, and wind-driven debris compound an already serious loss within hours. Crew Restoration & Construction responds to those calls, boards up the openings, and gets a tarp over the roof before the next weather system moves in.
 
 ## Why Dakota Dunes Properties See Board-Up and Tarping Issues

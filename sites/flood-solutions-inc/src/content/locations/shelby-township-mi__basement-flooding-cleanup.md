@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Shelby Township, MI | Flood Solutions inc"
-h1: "Basement Flooding Cleanup in Shelby Township"
-meta_description: "Basement flooding cleanup in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Basement Flooding Cleanup in Shelby Township, MI | Flood Solutions inc"
+h1: "Emergency Basement Flooding Cleanup in Shelby Township"
+meta_description: "Emergency basement flooding cleanup in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "basement flooding cleanup shelby township"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "basement-flooding-cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Shelby Township? Call now for emergency service.** Our crew responds fast to pump out the water and start drying.
+
 Shelby Township sits on a clay-heavy glacial till that drains slowly, and when a spring storm or a failed sump pump sends water into your basement, that clay holds moisture against your foundation long after the rain has stopped. Basement flooding cleanup in Shelby Township is not simply a matter of running a shop vac and opening a window. Water migrates behind finished drywall, saturates fiberglass insulation, and begins working on wood framing within the first day. Flood Solutions inc has been responding to exactly this kind of loss since 1996, and the team operates out of Macomb, putting Shelby Township well within reach.
 
 ## Why Shelby Township Properties See Basement Flooding

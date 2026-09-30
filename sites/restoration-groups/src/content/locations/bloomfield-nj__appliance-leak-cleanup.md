@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Bloomfield, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in Bloomfield"
-meta_description: "24/7 appliance leak cleanup in Bloomfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Appliance Leak Cleanup in Bloomfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Bloomfield"
+meta_description: "24/7 emergency appliance leak cleanup in Bloomfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "appliance leak cleanup bloomfield"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Bloomfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 A refrigerator ice maker line that drips for weeks behind a cabinet, a washing machine hose that finally lets go on a Saturday morning, a water heater that quietly floods a finished basement, these are the calls we get from Bloomfield homeowners regularly. The town's dense stock of 1920s colonials and two-families, most with fully finished basements, means a single appliance failure can saturate original hardwood subfloors, century-old plaster walls, and framing that was never designed to shed standing water quickly. When that happens in the 07003 zip code, the window to prevent secondary mold growth is measured in hours, not days.
 
 ## Why Bloomfield Homes Are Especially Vulnerable to Appliance Leaks

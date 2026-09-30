@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Shelby Township, MI | Flood & Fire Solutions"
-h1: "Fire Damage Restoration in Shelby Township"
-meta_description: "Fire damage restoration in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Fire Damage Restoration in Shelby Township, MI | Flood & Fire Solutions"
+h1: "Emergency Fire Damage Restoration in Shelby Township"
+meta_description: "Emergency fire damage restoration in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "fire damage restoration shelby township"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Shelby Township? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When fire moves through a Shelby Township home, it rarely stops at the room where it started. The tight, well-insulated construction common in Macomb County's suburban neighborhoods, many of them built during the development boom of the 1980s and 1990s, traps smoke and combustion gases in wall cavities, HVAC ducts, and attic spaces long after the flames are out. Flood Solutions Inc has been working through fire losses in southeast Michigan since 1996, and the pattern here is consistent: the visible char is rarely the whole story.
 
 ## Why Shelby Township Properties See Distinct Fire Damage Patterns

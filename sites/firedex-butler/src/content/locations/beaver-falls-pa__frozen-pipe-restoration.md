@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Beaver Falls, PA | FireDEX Butler"
-h1: "Frozen Pipe Restoration in Beaver Falls"
-meta_description: "24/7 frozen pipe restoration in Beaver Falls, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Frozen Pipe Restoration in Beaver Falls, PA | FireDEX Butler"
+h1: "24/7 Emergency Frozen Pipe Restoration in Beaver Falls"
+meta_description: "24/7 emergency frozen pipe restoration in Beaver Falls, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "frozen pipe restoration beaver falls"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Beaver Falls? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 When a cold snap drops hard into the Beaver River valley and temperatures stay below freezing for two or three days straight, the older homes climbing up College Hill toward Geneva College are among the first to feel it. Cast-iron drains, galvanized supply lines, and furnaces that have been coaxing heat through drafty frame houses since the Truman administration were not engineered for the kind of sustained cold that now arrives most winters in Beaver Falls. When those pipes finally let go, and they do, the water moves fast, and the damage compounds by the hour.
 
 ## Why Beaver Falls Properties See Frozen Pipe Issues

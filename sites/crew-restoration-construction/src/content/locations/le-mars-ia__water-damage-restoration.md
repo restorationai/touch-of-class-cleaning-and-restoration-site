@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Le Mars, IA | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Le Mars"
-meta_description: "Water damage restoration in Le Mars, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Le Mars, IA | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Le Mars"
+meta_description: "Emergency water damage restoration in Le Mars, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration le mars"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Le Mars? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Le Mars sits in the heart of Plymouth County, where the Big Sioux River basin and northwest Iowa's clay-heavy soils create drainage conditions that can turn a slow pipe leak or a heavy spring rain into a serious structural problem faster than most homeowners expect. Whether the water is coming from a burst supply line in a century-old craftsman near the Plymouth County Courthouse or a sump pump failure in a newer build on the edge of town, the window between a wet floor and permanent damage to framing, insulation, and finishes is measured in hours, not days. Crew Restoration & Construction responds to water damage calls throughout Le Mars (51031) and the surrounding Plymouth County area, bringing industrial extraction and drying equipment directly to your door.
 
 ## Why Le Mars Properties See Water Damage Issues

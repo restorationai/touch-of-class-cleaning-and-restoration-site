@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Sandy, UT | FIX Restoration"
-h1: "Water Damage Restoration in Sandy"
-meta_description: "Water damage restoration in Sandy, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Damage Restoration in Sandy, UT | FIX Restoration"
+h1: "Emergency Water Damage Restoration in Sandy"
+meta_description: "Emergency water damage restoration in Sandy, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water damage restoration sandy"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Sandy? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Sandy sits at the base of the Wasatch Front, where snowmelt from the mountains to the east and the freeze-thaw cycles that come with Utah winters put real pressure on the pipes, foundations, and drainage systems of homes throughout the city. When a supply line fails at 2 a.m. or a backed-up drain sends water across a finished basement floor, the clock starts immediately. FIX Restoration responds to water damage calls in Sandy and works to stop the spread before saturated framing, flooring, and insulation turn a manageable cleanup into a full gut job.
 
 ## Why Sandy Properties See Water Damage Issues

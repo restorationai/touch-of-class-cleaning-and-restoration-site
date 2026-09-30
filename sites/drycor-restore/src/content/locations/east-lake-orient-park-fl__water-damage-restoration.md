@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in East Lake-Orient Park, FL | DRYCOR RESTORE"
-h1: "Water Damage Restoration in East Lake-Orient Park"
-meta_description: "24/7 water damage restoration in East Lake-Orient Park, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "Emergency Water Damage Restoration in East Lake-Orient Park | DRYCOR RESTORE"
+h1: "24/7 Emergency Water Damage Restoration in East Lake-Orient Park"
+meta_description: "24/7 emergency water damage restoration in East Lake-Orient Park, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "water damage restoration east lake-orient park"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Hawarden, IA | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Hawarden"
-meta_description: "Storm damage restoration in Hawarden, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Hawarden, IA | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Hawarden"
+meta_description: "Emergency storm damage restoration in Hawarden, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration hawarden"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Hawarden? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 When a severe storm rolls across the Big Sioux River valley and into Hawarden, it doesn't announce itself politely. Hail the size of marbles strips shingles in minutes, straight-line winds snap mature trees onto rooftops along the Central Avenue district, and flash flooding pushes debris into basements before homeowners have time to move a single box. If your property in the 51023 ZIP code took a hit, the window for limiting secondary damage, mold, structural rot, compromised insulation, is measured in hours, not days. Crew Restoration & Construction responds to storm-damaged properties throughout Sioux County, and we know what these storms actually do to homes in this corner of Iowa.
 
 ## Why Hawarden Properties Are Especially Vulnerable to Severe Weather

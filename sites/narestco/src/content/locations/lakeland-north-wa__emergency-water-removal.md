@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Lakeland North, WA | National Restoration Construction"
-h1: "Emergency Water Removal & Cleanup in Lakeland North"
+title: "24/7 Emergency Water Removal & Cleanup in Lakeland North, WA | National Restoration Construction"
+h1: "24/7 Emergency Water Removal & Cleanup in Lakeland North"
 meta_description: "24/7 emergency water removal & cleanup in Lakeland North, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "emergency water removal & cleanup lakeland north"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]

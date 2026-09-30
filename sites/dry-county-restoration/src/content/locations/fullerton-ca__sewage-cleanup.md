@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Fullerton, CA | Dry County Restoration"
-h1: "Sewage Cleanup and Sanitization in Fullerton"
-meta_description: "24/7 sewage cleanup and sanitization in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "Emergency Sewage Cleanup and Sanitization in Fullerton, CA | Dry County Restoration"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Fullerton"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "sewage cleanup and sanitization fullerton"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Fullerton? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Fullerton sits on a stretch of the Los Angeles Basin where aging clay sewer laterals and decades of root intrusion from mature street trees create conditions that make sewage backups more than a random bad-luck event, they're a recurring reality for many homeowners, particularly in neighborhoods with housing stock built before the 1970s. When a sewer line backup sends raw sewage into a bathroom, laundry room, or crawl space, the clock starts immediately: Category 3 water (the classification for sewage-contaminated water) begins colonizing porous materials within hours, and the odor and pathogen load make the space genuinely unsafe until professional sanitization is complete. Dry County Restoration responds 24/7 and can be on-site in Fullerton the same day you call (951) 667-9910.
 
 ## Why Fullerton Properties See Sewage Backup Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in University Place, WA | Frontline Fire & Flood"
-h1: "Fire Damage Restoration in University Place"
-meta_description: "24/7 fire damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "Emergency Fire Damage Restoration in University Place, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Fire Damage Restoration in University Place"
+meta_description: "24/7 emergency fire damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration university place"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in University Place? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 University Place sits on a wooded plateau above the Puget Sound shoreline, and that setting shapes how fire damage plays out here in ways that aren't obvious until you're standing inside a smoke-filled room. The dense tree canopy that makes neighborhoods like Chambers Bay and Cirque Drive so appealing also means embers from a deck or exterior fire can travel into attic vents before anyone realizes the structure is involved. When that happens, the visible char is only part of the problem, smoke infiltrates wall cavities, HVAC ductwork, and the crawl spaces common in this area's split-level and ranch-style homes, sometimes before the fire department has cleared the scene.
 
 ## Why University Place Properties See Distinctive Fire Damage Patterns

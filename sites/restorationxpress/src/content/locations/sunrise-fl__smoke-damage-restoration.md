@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Sunrise, FL | RestorationXpress "
-h1: "Smoke Damage Restoration in Sunrise"
-meta_description: "Smoke damage restoration in Sunrise, FL. Insurance billing accepted. Call (954) 932-5420."
+title: "Emergency Smoke Damage Restoration in Sunrise, FL | RestorationXpress "
+h1: "Emergency Smoke Damage Restoration in Sunrise"
+meta_description: "Emergency smoke damage restoration in Sunrise, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "smoke damage restoration sunrise"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Sunrise? Call now for emergency service.** Our crew responds fast to stop smoke and soot damage from spreading.
+
 Smoke doesn't stop moving when the flames go out. In Sunrise, where the humid subtropical climate keeps indoor surfaces perpetually damp, smoke residue bonds to walls, ceilings, and HVAC ducts faster than it does in drier climates, and that sticky, acidic film starts etching finishes and corroding metal within hours of a fire. Whether the fire started in a kitchen off Sawgrass Lakes or in a garage unit near the Sunset Strip, the window for reversing the worst of the damage is narrow. RestorationXpress responds out of Davie and can reach most Sunrise addresses promptly, call (954) 932-5420 as soon as the fire marshal clears you to re-enter.
 
 ## Why Sunrise Properties See Smoke Damage Differently

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Blood Cleanup in Temecula, CA | Dry1 Out Restoration and Construction"
-h1: "Blood Cleanup in Temecula"
-meta_description: "24/7 blood cleanup in Temecula, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+title: "24/7 Emergency Blood Cleanup in Temecula, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Blood Cleanup in Temecula"
+meta_description: "24/7 emergency blood cleanup in Temecula, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "blood cleanup temecula"
 secondary_keywords: []
 search_intent: "local_specialty"

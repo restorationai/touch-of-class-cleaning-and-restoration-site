@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Biohazard and Trauma Cleanup in Cranberry Township | FireDEX Butler"
-h1: "Biohazard and Trauma Cleanup in Cranberry Township"
-meta_description: "24/7 biohazard and trauma cleanup in Cranberry Township and surrounding areas. Insurance billing accepted. Call (724) 452-7400."
+title: "Emergency Biohazard and Trauma Cleanup in Cranberry Township | FireDEX Butler"
+h1: "24/7 Emergency Biohazard and Trauma Cleanup in Cranberry Township"
+meta_description: "24/7 emergency biohazard and trauma cleanup in Cranberry Township and surrounding areas. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "biohazard and trauma cleanup cranberry township"
 secondary_keywords: ["trauma scene cleanup", "unattended death cleanup", "blood cleanup", "bodily fluid cleanup", "biohazard remediation"]
 search_intent: "local_sensitive"
@@ -17,6 +17,9 @@ service_slug: "biohazard-cleanup"
 service_display: "Biohazard and Trauma Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Cranberry Township? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something traumatic happens inside a home or property, the people closest to it shouldn't have to think about cleanup. Whether it's an unattended death discovered days later, a traumatic injury, or another biohazard event, biological contamination doesn't wait, and improper handling can spread pathogens, compromise structural materials, and create liability for property owners. This is work that requires specialized training, regulated disposal, and a team that understands the weight of what they're walking into.
 
 ## What biohazard and trauma cleanup actually involves

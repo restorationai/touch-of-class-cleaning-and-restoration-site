@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Hoboken, NJ | The Restoration Group"
-h1: "Flood Damage Restoration in Hoboken"
-meta_description: "24/7 flood damage restoration in Hoboken, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Flood Damage Restoration in Hoboken, NJ | The Restoration Group"
+h1: "24/7 Emergency Flood Damage Restoration in Hoboken"
+meta_description: "24/7 emergency flood damage restoration in Hoboken, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "flood damage restoration hoboken"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Hoboken? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and stop the damage from spreading.
+
 Hoboken sits on what was once tidal marsh, and the city hasn't forgotten it. Every heavy rain that overwhelms the combined sewer system sends water backing up through floor drains into below-grade units from Southwest Hoboken to the blocks surrounding Hoboken Terminal. When that happens, the clock starts immediately: standing water in a basement apartment or garden-level unit can begin feeding mold colonies within 24 to 48 hours, and in a city of dense 19th-century brownstones with shared party walls, one flooded unit rarely stays one unit's problem for long. The Restoration Group responds around the clock, call (855) 650-7422 the moment water appears.
 
 ## Why Hoboken Properties Flood the Way They Do

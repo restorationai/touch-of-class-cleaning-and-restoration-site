@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Summit View, WA | Frontline Fire & Flood"
-h1: "Fire Damage Restoration in Summit View"
-meta_description: "24/7 fire damage restoration in Summit View, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Fire Damage Restoration in Summit View, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Fire Damage Restoration in Summit View"
+meta_description: "24/7 emergency fire damage restoration in Summit View, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration summit view"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

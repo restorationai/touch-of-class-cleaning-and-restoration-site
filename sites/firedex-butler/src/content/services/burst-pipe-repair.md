@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Burst Pipe Cleanup and Repair in Cranberry Township | FireDEX Butler"
-h1: "Burst Pipe Cleanup and Repair in Cranberry Township"
-meta_description: "24/7 burst pipe cleanup and repair in Cranberry Township and surrounding areas. Insurance billing accepted. Call (724) 452-7400."
+title: "Emergency Burst Pipe Cleanup and Repair in Cranberry Township | FireDEX Butler"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Cranberry Township"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Cranberry Township and surrounding areas. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "burst pipe cleanup and repair cranberry township"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "burst-pipe-repair"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Cranberry Township? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A pipe doesn't announce itself before it bursts. One morning you walk into the basement and your feet are wet. Or you come home after a weekend away to find the ceiling in the hallway has collapsed under the weight of standing water. Within the first hour, water from a broken supply line or failed copper fitting can travel through wall cavities, saturate subfloor sheathing, and begin wicking into framing lumber, damage that a shop vac and a few box fans won't undo. The window to prevent secondary mold growth and structural deterioration is measured in days, not weeks.
 
 ## What burst pipe cleanup and repair actually involves

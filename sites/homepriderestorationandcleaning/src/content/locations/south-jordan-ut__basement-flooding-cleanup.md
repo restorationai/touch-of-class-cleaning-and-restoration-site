@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in South Jordan, UT | Home Pride Restoration and Cleaning"
-h1: "Basement Flooding Cleanup in South Jordan"
-meta_description: "24/7 basement flooding cleanup in South Jordan, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Basement Flooding Cleanup in South Jordan, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Basement Flooding Cleanup in South Jordan"
+meta_description: "24/7 emergency basement flooding cleanup in South Jordan, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "basement flooding cleanup south jordan"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in South Jordan? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 South Jordan sits on the eastern bench of the Salt Lake Valley, where clay-heavy soils and a high water table, especially in the lower-elevation pockets near the Daybreak community and the older subdivisions along Redwood Road, create conditions that push water into basements fast and keep it there. When a sump pump fails during a spring snowmelt surge or a supply line lets go overnight, you can be looking at several inches of standing water before sunrise. Home Pride Restoration and Cleaning has handled flooded basement cleanup across South Jordan since 1997, and the calls we get here have a specific character: water that moves slow through dense soil, homes with finished basements used as living space, and homeowners who need answers quickly.
 
 ## Why South Jordan Basements Flood, and Why It Matters Here

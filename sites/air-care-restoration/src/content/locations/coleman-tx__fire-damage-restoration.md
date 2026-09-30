@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Coleman, TX | Air Care Restoration"
-h1: "Fire Damage Restoration in Coleman"
-meta_description: "24/7 fire damage restoration in Coleman, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Fire Damage Restoration in Coleman, TX | Air Care Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Coleman"
+meta_description: "24/7 emergency fire damage restoration in Coleman, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "fire damage restoration coleman"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Coleman? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Coleman sits in the heart of West Texas, where dry summers, seasonal grass fires, and aging wood-frame construction create conditions that make structural fires both more likely and more damaging than in many other parts of the state. When a fire moves through a home here, whether it started in a kitchen, spread from a nearby field, or traced back to aging wiring in an older Coleman house, the aftermath is rarely just charred walls. Smoke penetrates deeply into porous materials, soot settles into HVAC systems and crawl spaces, and the dry West Texas air can actually accelerate odor bonding in fabrics and framing before cleanup even begins.
 
 ## Why Coleman Properties Face Distinctive Fire Damage Challenges

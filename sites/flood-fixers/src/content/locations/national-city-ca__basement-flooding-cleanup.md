@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in National City, CA | Flood Fixers"
-h1: "Basement Flooding Cleanup in National City"
-meta_description: "24/7 basement flooding cleanup in National City, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "Emergency Basement Flooding Cleanup in National City, CA | Flood Fixers"
+h1: "24/7 Emergency Basement Flooding Cleanup in National City"
+meta_description: "24/7 emergency basement flooding cleanup in National City, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "basement flooding cleanup national city"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in National City? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 National City sits at the southern edge of San Diego County, where the marine layer rolls in off San Diego Bay and seasonal rain events can drop an inch or more in a few hours on ground that's already saturated from weeks of coastal humidity. When that water finds a basement, and in National City's older residential corridors it often does, through cracked block foundations, failing sump pits, or overwhelmed perimeter drains, it doesn't just sit there. Within 24 to 48 hours, standing water in an enclosed below-grade space becomes a mold incubator. Flood Fixers responds to basement flooding cleanup calls across National City, typically placing a crew on-site within 60 to 90 minutes of your call to (855) 204-1124.
 
 ## Why National City Properties See Basement Flooding Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Lake Isabella, CA | ProRestoration Services"
-h1: "Smoke Damage Restoration in Lake Isabella"
-meta_description: "24/7 smoke damage restoration in Lake Isabella, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Smoke Damage Restoration in Lake Isabella, CA | ProRestoration Services"
+h1: "24/7 Emergency Smoke Damage Restoration in Lake Isabella"
+meta_description: "24/7 emergency smoke damage restoration in Lake Isabella, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "smoke damage restoration lake isabella"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Lake Isabella? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Smoke from a wildfire doesn't stop at your front door. In the Kern River Valley, where the 2016 Erskine Fire erased roughly 280 homes and left the surrounding hills scarred, smoke infiltrates structures in ways that catch property owners off guard months after the flames are out, settling into insulation, embedding in the porous wood of older cabins, and coating every surface inside a manufactured home with a film that ordinary cleaning won't touch. If you're dealing with smoke residue in Lake Isabella or the surrounding communities, the damage is almost certainly deeper than it looks.
 
 ## Why Lake Isabella Properties Are Especially Vulnerable to Smoke Damage

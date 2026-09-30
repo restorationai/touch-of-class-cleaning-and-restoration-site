@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Worthing, SD | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Worthing"
-meta_description: "Biohazard cleanup in Worthing, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Worthing, SD | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Worthing"
+meta_description: "Emergency biohazard cleanup in Worthing, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup worthing"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Worthing? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Worthing is a quiet bedroom community tucked just south of Sioux Falls along I-29, and most residents here chose it precisely for that calm, newer subdivisions, short commutes, and a small-town feel that bigger cities can't offer. When something goes wrong inside a home in that kind of community, whether it's an unattended death, a traumatic accident, or the discovery of discarded sharps and infectious materials, the need for discreet, professional biohazard cleanup is immediate and deeply personal. Crew Restoration & Construction responds to those calls with the same care and confidentiality that Worthing families deserve.
 
 ## Why Worthing Properties Present Unique Biohazard Considerations

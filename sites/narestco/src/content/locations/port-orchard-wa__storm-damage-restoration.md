@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Port Orchard, WA | National Restoration Construction"
-h1: "Storm Damage Restoration in Port Orchard"
-meta_description: "24/7 storm damage restoration in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Storm Damage Restoration in Port Orchard, WA | National Restoration Construction"
+h1: "24/7 Emergency Storm Damage Restoration in Port Orchard"
+meta_description: "24/7 emergency storm damage restoration in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "storm damage restoration port orchard"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Port Orchard? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 When a Pacific storm rolls through Sinclair Inlet and stalls over South Kitsap, Port Orchard takes a different kind of beating than most Puget Sound communities. The low-lying Bay Street waterfront floods during king tides even without a storm; add 60 mph gusts and saturated soil from weeks of winter rain, and you get downed trees crushing roofs in McCormick Woods, standing water pooling in crawl spaces along the Annapolis shoreline, and debris-blocked drainage systems that turn a single night's storm into a week-long water intrusion problem. National Restoration Construction has been responding to exactly these conditions since 2004, and our crews understand the specific way storm damage compounds in this corner of Kitsap County.
 
 ## Why Port Orchard Properties See Distinctive Storm Damage Patterns

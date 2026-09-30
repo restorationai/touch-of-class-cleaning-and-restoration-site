@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in West Middlesex, PA | DISS Restoration"
-h1: "Storm Damage Restoration in West Middlesex"
-meta_description: "24/7 storm damage restoration in West Middlesex, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "Emergency Storm Damage Restoration in West Middlesex, PA | DISS Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in West Middlesex"
+meta_description: "24/7 emergency storm damage restoration in West Middlesex, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "storm damage restoration west middlesex"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Summerlin South, NV | Desert Valley Contracting Inc "
-h1: "Basement Flooding Cleanup in Summerlin South"
-meta_description: "24/7 basement flooding cleanup in Summerlin South, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+title: "Emergency Basement Flooding Cleanup in Summerlin South, NV | Desert Valley Contracting Inc "
+h1: "24/7 Emergency Basement Flooding Cleanup in Summerlin South"
+meta_description: "24/7 emergency basement flooding cleanup in Summerlin South, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "basement flooding cleanup summerlin south"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"

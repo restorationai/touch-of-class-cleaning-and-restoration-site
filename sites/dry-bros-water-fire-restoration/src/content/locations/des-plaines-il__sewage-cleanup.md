@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Des Plaines, IL | Dry Bros Water & Fire Restoration"
-h1: "Sewage Cleanup and Sanitization in Des Plaines"
-meta_description: "Sewage cleanup and sanitization in Des Plaines, IL. Insurance billing accepted. Call us now."
+title: "Emergency Sewage Cleanup and Sanitization in Des Plaines, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Des Plaines"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Des Plaines, IL. Insurance billing accepted. Call us now."
 primary_keyword: "sewage cleanup and sanitization des plaines"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Des Plaines? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Des Plaines sits at the confluence of the Des Plaines River and Salt Creek, and that geography matters the moment a sewer line backs up in your basement. The city's combined sewer infrastructure, which carries both stormwater and sanitary waste in a single pipe, means that a hard rain can overwhelm the system and push raw sewage backward into homes across the city. When that happens, what's on your floor isn't just water. It's Category 3 contamination: bacteria, viruses, and pathogens that require professional removal and sanitization, not a mop and a bottle of bleach. Dry Bros Water & Fire Restoration responds to exactly these situations, handling sewage backup cleanup and full sanitization so the space is safe to occupy again.
 
 ## Why Des Plaines Properties See Sewage Backup Issues

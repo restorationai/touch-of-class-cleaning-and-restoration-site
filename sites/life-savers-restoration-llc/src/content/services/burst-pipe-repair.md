@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Burst Pipe Cleanup and Repair in Henderson | Life Savers Restoration LLC"
-h1: "Burst Pipe Cleanup and Repair in Henderson"
-meta_description: "24/7 burst pipe cleanup and repair in Henderson and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Henderson | Life Savers Restoration LLC"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Henderson"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Henderson and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
 primary_keyword: "burst pipe cleanup and repair henderson"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

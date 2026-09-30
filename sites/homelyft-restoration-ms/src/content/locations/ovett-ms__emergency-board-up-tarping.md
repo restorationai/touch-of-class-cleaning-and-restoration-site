@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Ovett, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Ovett"
-meta_description: "Board-up and tarping in Ovett, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Ovett, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Ovett"
+meta_description: "24/7 emergency board-up and tarping in Ovett, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping ovett"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Ovett? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Ovett sits in the piney woods of Jones County, where summer thunderstorms roll through fast and hard, and where a single fallen pine can punch through a roof before the rain even stops. When that happens, or when a house fire blows out windows and leaves walls exposed to the elements, every hour the structure sits open accelerates the damage. HomeLyft Restoration MS boards up openings, secures doors, and installs heavy-duty polyethylene tarps to stop weather, pests, and trespassers from turning a manageable loss into a gut-renovation.
 
 ## Why Ovett Properties Face Particular Board-Up and Tarping Risks

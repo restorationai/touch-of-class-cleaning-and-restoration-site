@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Flood Damage Restoration in Chicago | Dry Bros Water & Fire Restoration"
-h1: "Flood Damage Restoration in Chicago"
-meta_description: "Flood damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Flood Damage Restoration in Chicago | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Flood Damage Restoration in Chicago"
+meta_description: "24/7 emergency flood damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "flood damage restoration chicago"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "flood-damage-restoration"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Chicago? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Standing water doesn't wait. Within the first hour after a flood, whether from a backed-up sewer line, a storm surge through a basement window, or a failed sump pump during a heavy Chicago rain, water is already wicking into drywall, saturating subfloor panels, and beginning the chemical process that will turn a manageable cleanup into a structural repair job if it isn't stopped. Flood damage restoration is the race against that clock: extracting water fast, drying materials to measurable standards, and making sure nothing wet gets sealed behind a wall.
 
 ## What flood damage restoration actually involves

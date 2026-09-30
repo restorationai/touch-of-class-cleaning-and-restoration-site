@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Greenwood, TX | ACS Enterprise "
-h1: "Ceiling Water Damage Repair in Greenwood"
-meta_description: "Ceiling water damage repair in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Ceiling Water Damage Repair in Greenwood, TX | ACS Enterprise "
+h1: "Emergency Ceiling Water Damage Repair in Greenwood"
+meta_description: "Emergency ceiling water damage repair in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "ceiling water damage repair greenwood"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

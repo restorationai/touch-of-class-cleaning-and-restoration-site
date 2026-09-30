@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Alpine, UT | FIX Restoration"
-h1: "Fire Damage Restoration in Alpine"
-meta_description: "Fire damage restoration in Alpine, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in Alpine, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in Alpine"
+meta_description: "Emergency fire damage restoration in Alpine, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration alpine"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Alpine? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Alpine sits at the base of the Wasatch Front where dry canyon winds, steep terrain, and a housing stock built largely during the rapid Utah County growth of the 1980s through 2000s create a specific set of fire risks that homeowners here know well. When a kitchen fire chars cabinets and pushes smoke into every room, or a wildland-interface ember event scorches an exterior wall, the damage does not wait for a convenient time. FIX Restoration operates out of American Fork and responds to fire and smoke damage calls across Alpine, working through the full scope of loss from initial board-up to final reconstruction.
 
 ## Why Alpine Properties Face Distinct Fire Damage Challenges

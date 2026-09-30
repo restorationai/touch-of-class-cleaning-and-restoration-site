@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Long Prairie, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Long Prairie"
-meta_description: "Fire damage restoration in Long Prairie, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Long Prairie, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Long Prairie"
+meta_description: "Emergency fire damage restoration in Long Prairie, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration long prairie"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Long Prairie? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Long Prairie winters are no gentle thing. When temperatures drop hard across Todd County and a house fire breaks out in the middle of a January cold snap, the aftermath is more complicated than the fire itself: smoke odor locks into frozen surfaces, water from suppression efforts freezes in wall cavities before it can be extracted, and the structural damage can be hidden under ice before anyone realizes the full scope. Heritage Restoration LLC holds IICRC FSRT (Fire and Smoke Restoration) certification and responds to fire damage calls throughout Long Prairie and the surrounding Todd County area.
 
 ## Why Long Prairie Properties Face Distinct Fire Damage Challenges

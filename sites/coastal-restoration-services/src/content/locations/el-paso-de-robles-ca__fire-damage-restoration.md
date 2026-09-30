@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in El Paso de Robles, CA | Coastal Restoration Services Inc"
-h1: "Fire Damage Restoration in El Paso de Robles"
-meta_description: "Fire damage restoration in El Paso de Robles, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Fire Damage Restoration in El Paso de Robles, CA | Coastal Restoration Services Inc"
+h1: "Emergency Fire Damage Restoration in El Paso de Robles"
+meta_description: "Emergency fire damage restoration in El Paso de Robles, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "fire damage restoration el paso de robles"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in El Paso de Robles? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 The dry summers and Santa Ana-influenced wind patterns that sweep through the Paso Robles wine country don't just threaten vineyards, they create conditions where a kitchen fire or an electrical fault in an older ranch-style home can spread faster than expected, and where smoke travels deep into porous adobe and stucco walls long before the flames are out. If you've just dealt with a fire at your El Paso de Robles property, the damage you can see is only part of the problem.
 
 ## Why El Paso de Robles Properties Face Distinct Fire Damage Challenges

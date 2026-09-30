@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Provo, UT | FIX Restoration"
-h1: "Fire Damage Restoration in Provo"
-meta_description: "Fire damage restoration in Provo, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in Provo, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in Provo"
+meta_description: "Emergency fire damage restoration in Provo, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration provo"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Provo? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Provo sits at the foot of the Wasatch Range, where dry canyon winds and low humidity can turn a kitchen fire into a whole-house smoke event faster than most homeowners expect. The same arid climate that dries out lumber in older Provo neighborhoods also pulls smoke particles deep into porous materials, drywall, insulation, even the mortar between brick, making fire cleanup here a more layered problem than it might be in a wetter climate. If you're dealing with fire or smoke damage in Provo, the window for limiting secondary damage is short. Call FIX Restoration at (801) 930-9750.
 
 ## Why Provo Properties Face Distinct Fire Damage Challenges

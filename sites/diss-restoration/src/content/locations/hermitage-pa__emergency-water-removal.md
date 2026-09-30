@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Hermitage, PA | DISS Restoration"
-h1: "Emergency Water Removal & Cleanup in Hermitage"
+title: "24/7 Emergency Water Removal & Cleanup in Hermitage, PA | DISS Restoration"
+h1: "24/7 Emergency Water Removal & Cleanup in Hermitage"
 meta_description: "24/7 emergency water removal & cleanup in Hermitage, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "emergency water removal & cleanup hermitage"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]

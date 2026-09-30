@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in McCamey, TX | ACS Enterprise "
-h1: "Storm Damage Restoration in McCamey"
-meta_description: "Storm damage restoration in McCamey, TX. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Storm Damage Restoration in McCamey, TX | ACS Enterprise "
+h1: "Emergency Storm Damage Restoration in McCamey"
+meta_description: "Emergency storm damage restoration in McCamey, TX. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "storm damage restoration mccamey"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in McCamey? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 McCamey sits in the heart of the Permian Basin, where West Texas storms arrive fast and hit hard. The same open terrain that made Upton County a landmark for wind energy makes every structure in town vulnerable to the kind of gusts, hail, and flash flooding that can strip a roof, push water under a door, and saturate wall cavities before the sky even clears. When that happens, ACS Enterprise is available to respond from Midland and get the cleanup process moving.
 
 ## Why McCamey Properties See Serious Storm Damage

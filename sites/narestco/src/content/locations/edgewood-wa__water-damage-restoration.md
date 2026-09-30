@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Edgewood, WA | National Restoration Construction"
-h1: "Water Damage Restoration in Edgewood"
-meta_description: "24/7 water damage restoration in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Water Damage Restoration in Edgewood, WA | National Restoration Construction"
+h1: "24/7 Emergency Water Damage Restoration in Edgewood"
+meta_description: "24/7 emergency water damage restoration in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "water damage restoration edgewood"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Edgewood? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Edgewood sits in a stretch of Pierce County where heavy clay soils and a wet season that runs well into May create the kind of slow-draining ground conditions that push water toward foundations rather than away from them. When a supply line fails or a storm overwhelms a crawl space drain, that standing water does not just sit on the surface, it wicks into subfloor sheathing, insulation batts, and wall cavities before most homeowners realize the extent of what they are dealing with. National Restoration Construction responds to water damage calls in Edgewood from its Federal Way headquarters, keeping drive times short so mitigation starts before secondary damage compounds the loss.
 
 ## Why Edgewood Properties See Water Damage Issues

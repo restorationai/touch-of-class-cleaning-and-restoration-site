@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Oak Park, IL | Dry Bros Water & Fire Restoration"
-h1: "Smoke Damage Restoration in Oak Park"
-meta_description: "Smoke damage restoration in Oak Park, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Smoke Damage Restoration in Oak Park, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in Oak Park"
+meta_description: "24/7 emergency smoke damage restoration in Oak Park, IL. Insurance billing accepted. Call us now."
 primary_keyword: "smoke damage restoration oak park"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Oak Park? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Oak Park's architectural identity, block after block of Prairie-style homes, Victorian-era two-flats, and Craftsman bungalows built largely before World War II, makes smoke damage a more complicated problem here than in newer suburbs. When a kitchen fire or an electrical fault sends smoke through one of these older structures, it doesn't just coat surfaces. It travels through original plaster walls, settles into century-old woodwork, and embeds itself in the kind of dense, old-growth lumber you simply don't find in modern construction. That combination of age, craftsmanship, and tight floor plans means smoke residue cleanup in Oak Park requires a different level of care than a standard post-fire cleanup.
 
 ## Why Oak Park's Older Housing Stock Complicates Smoke Damage

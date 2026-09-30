@@ -1,7 +1,7 @@
 ---
 archetype: "service-landing"
-title: "Emergency Board-Up and Tarping in Youngstown | DISS Restoration"
-h1: "Emergency Board-Up and Tarping in Youngstown"
+title: "24/7 Emergency Board-Up and Tarping in Youngstown | DISS Restoration"
+h1: "24/7 Emergency Board-Up and Tarping in Youngstown"
 meta_description: "24/7 emergency board-up and tarping in Youngstown and surrounding areas. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "emergency board-up and tarping youngstown"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Smoke Damage Restoration in Freeport | Veterans Remediation & Restoration "
-h1: "Smoke Damage Restoration in Freeport"
-meta_description: "24/7 smoke damage restoration in Freeport and surrounding areas. Insurance billing accepted. Call (337) 344-1248."
+title: "24/7 Emergency Smoke Damage Restoration in Freeport | Veterans Remediation & Restoration "
+h1: "24/7 Emergency Smoke Damage Restoration in Freeport"
+meta_description: "24/7 emergency smoke damage restoration in Freeport and surrounding areas. Insurance billing accepted. Call (337) 344-1248."
 primary_keyword: "smoke damage restoration freeport"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

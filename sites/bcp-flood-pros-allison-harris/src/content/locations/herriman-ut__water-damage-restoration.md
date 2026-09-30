@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Herriman, UT | FIX Restoration"
-h1: "Water Damage Restoration in Herriman"
-meta_description: "Water damage restoration in Herriman, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Damage Restoration in Herriman, UT | FIX Restoration"
+h1: "Emergency Water Damage Restoration in Herriman"
+meta_description: "Emergency water damage restoration in Herriman, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water damage restoration herriman"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Herriman? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Herriman sits at the base of the Oquirrh Mountains in one of Utah's fastest-growing corners of Salt Lake County, and that rapid growth brings a particular water damage challenge: subdivisions built in the 2010s and early 2020s are still settling into clay-heavy soils that drain poorly after snowmelt or heavy summer monsoon rain. When water finds its way into a slab, a finished basement, or a laundry room on the upper floor of a two-story townhome, it moves fast and hides well. FIX Restoration responds to those calls from our American Fork location, and we know the difference between a quick surface dry and a job that's actually finished.
 
 ## Why Herriman Properties Are Prone to Water Intrusion

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Riverside, CA | Dry County Restoration"
-h1: "Burst Pipe Cleanup and Repair in Riverside"
-meta_description: "24/7 burst pipe cleanup and repair in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "Emergency Burst Pipe Cleanup and Repair in Riverside, CA | Dry County Restoration"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Riverside"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "burst pipe cleanup and repair riverside"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

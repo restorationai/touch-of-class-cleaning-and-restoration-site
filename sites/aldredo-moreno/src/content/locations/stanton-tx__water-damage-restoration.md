@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Stanton, TX | ACS Enterprise "
-h1: "Water Damage Restoration in Stanton"
-meta_description: "Water damage restoration in Stanton, TX. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Water Damage Restoration in Stanton, TX | ACS Enterprise "
+h1: "Emergency Water Damage Restoration in Stanton"
+meta_description: "Emergency water damage restoration in Stanton, TX. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "water damage restoration stanton"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Stanton? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Stanton sits in the heart of Martin County, where the Permian Basin's flat, caliche-heavy soil drains poorly after a hard rain and where summer thunderstorms can drop an inch of water in under an hour on ground that's already baked solid. When that water finds its way into a home, through a foundation seam, a failed water heater, or a supply line that finally gave out, it moves fast and hides longer than most homeowners expect. ACS Enterprise responds to water damage calls across Stanton and the surrounding Martin County area, helping property owners stop the spread before saturated materials become a secondary problem.
 
 ## Why Stanton Properties See Water Damage Issues

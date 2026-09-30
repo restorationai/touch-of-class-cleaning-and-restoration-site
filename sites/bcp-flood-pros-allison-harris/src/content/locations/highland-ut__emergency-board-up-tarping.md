@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Highland, UT | FIX Restoration"
-h1: "Board-Up and Tarping in Highland"
-meta_description: "Board-up and tarping in Highland, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Board-Up and Tarping in Highland, UT | FIX Restoration"
+h1: "Emergency Board-Up and Tarping in Highland"
+meta_description: "Emergency board-up and tarping in Highland, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "emergency board-up and tarping highland"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Highland? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Highland sits at the base of the Wasatch Front where winter storms can drop heavy snow loads overnight and summer thunderstorms roll in fast off the mountains, conditions that can leave a roof compromised, a window shattered, or a structure exposed before a full restoration crew can mobilize. When that happens, the immediate priority is sealing the opening: stopping wind-driven rain or snow from turning a manageable loss into a gut-renovation. FIX Restoration responds to those calls out of American Fork, putting board-up and tarping crews on Highland properties quickly so the damage footprint stops growing.
 
 ## Why Highland Properties Face Particular Board-Up and Tarping Needs

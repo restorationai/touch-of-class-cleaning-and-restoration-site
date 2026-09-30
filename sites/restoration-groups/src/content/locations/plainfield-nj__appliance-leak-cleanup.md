@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Plainfield, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in Plainfield"
-meta_description: "24/7 appliance leak cleanup in Plainfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Appliance Leak Cleanup in Plainfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Plainfield"
+meta_description: "24/7 emergency appliance leak cleanup in Plainfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "appliance leak cleanup plainfield"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Plainfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 Plainfield's deep-rooted Victorian and Queen Anne housing stock, much of it built before modern appliance hookups existed, was never designed for the water loads a leaking dishwasher, washing machine, or refrigerator ice maker line can dump in minutes. When a supply hose lets go in a finished basement off Sleepy Hollow or a water heater quietly weeps behind drywall in a Netherwood colonial, the damage compounds fast: original hardwood subfloors swell, plaster wicks moisture up the wall cavity, and cast-iron drain lines that have been in place for decades may already be partially blocked, turning a contained spill into a spreading flood. The Restoration Group is IICRC Certified Firm #210213, responds 24/7, and reaches Plainfield from our Kenilworth headquarters in minutes.
 
 ## Why Plainfield Homes Are Especially Vulnerable to Appliance Leaks

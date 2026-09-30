@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Maricopa, CA | ProRestoration Services"
-h1: "Fire Damage Restoration in Maricopa"
-meta_description: "24/7 fire damage restoration in Maricopa, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Fire Damage Restoration in Maricopa, CA | ProRestoration Services"
+h1: "24/7 Emergency Fire Damage Restoration in Maricopa"
+meta_description: "24/7 emergency fire damage restoration in Maricopa, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "fire damage restoration maricopa"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

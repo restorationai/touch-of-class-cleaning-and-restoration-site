@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Hurley, MS | HomeLyft Restoration MS"
-h1: "Biohazard Cleanup in Hurley"
-meta_description: "Biohazard cleanup in Hurley, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Biohazard Cleanup in Hurley, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Biohazard Cleanup in Hurley"
+meta_description: "24/7 emergency biohazard cleanup in Hurley, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "biohazard cleanup hurley"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Hurley? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Hurley sits in the piney woods of Jackson County, where the humidity rarely lets up and older homes along the rural corridors can go weeks without a neighbor noticing something is wrong. When a biohazard situation arises, whether from an unattended death, an accident, or the discovery of discarded needles on a property, the combination of heat, moisture, and isolation can accelerate biological breakdown faster than most property owners realize. HomeLyft Restoration MS responds to those calls with a certified team, full discretion, and the equipment to handle infectious material safely from start to finish.
 
 ## Why Hurley Properties Present Unique Biohazard Challenges

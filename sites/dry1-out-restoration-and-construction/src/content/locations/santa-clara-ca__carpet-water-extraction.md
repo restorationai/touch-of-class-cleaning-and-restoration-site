@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Carpet Water Extraction in Santa Clara, CA | Dry1 Out Restoration and Construction"
-h1: "Carpet Water Extraction in Santa Clara"
-meta_description: "24/7 carpet water extraction in Santa Clara, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+title: "24/7 Emergency Carpet Water Extraction in Santa Clara, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Carpet Water Extraction in Santa Clara"
+meta_description: "24/7 emergency carpet water extraction in Santa Clara, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "carpet water extraction santa clara"
 secondary_keywords: []
 search_intent: "local_specialty"

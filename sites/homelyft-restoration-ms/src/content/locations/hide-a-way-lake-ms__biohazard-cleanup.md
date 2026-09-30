@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Hide-A-Way Lake, MS | HomeLyft Restoration MS"
-h1: "Biohazard Cleanup in Hide-A-Way Lake"
-meta_description: "Biohazard cleanup in Hide-A-Way Lake, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Biohazard Cleanup in Hide-A-Way Lake, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Biohazard Cleanup in Hide-A-Way Lake"
+meta_description: "24/7 emergency biohazard cleanup in Hide-A-Way Lake, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "biohazard cleanup hide-a-way lake"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Hide-A-Way Lake? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Hide-A-Way Lake is a private lake community tucked into the piney hills of Rankin County, a place where neighbors know each other and privacy matters deeply. When something unexpected leaves a home or property in need of biohazard cleanup, that closeness makes discretion just as important as speed. HomeLyft Restoration MS responds to these situations with a clinical, methodical approach: unmarked vehicles, contained work areas, and a team that understands the weight of what families in this community are navigating.
 
 ## Why Hide-A-Way Lake Properties Present Unique Biohazard Challenges

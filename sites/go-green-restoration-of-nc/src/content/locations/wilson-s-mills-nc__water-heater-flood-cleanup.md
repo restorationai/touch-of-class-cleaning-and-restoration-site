@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Heater Flood Cleanup in Wilson's Mills, NC | Go Green Restoration of NC"
-h1: "Water Heater Flood Cleanup in Wilson's Mills"
-meta_description: "24/7 water heater flood cleanup in Wilson's Mills, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "Emergency Water Heater Flood Cleanup in Wilson's Mills, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Water Heater Flood Cleanup in Wilson's Mills"
+meta_description: "24/7 emergency water heater flood cleanup in Wilson's Mills, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "water heater flood cleanup wilson's mills"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"

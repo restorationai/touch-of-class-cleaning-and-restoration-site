@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Troy, MI | Flood Solutions inc"
-h1: "Smoke Damage Restoration in Troy"
-meta_description: "Smoke damage restoration in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Smoke Damage Restoration in Troy, MI | Flood Solutions inc"
+h1: "Emergency Smoke Damage Restoration in Troy"
+meta_description: "Emergency smoke damage restoration in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "smoke damage restoration troy"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "smoke-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Troy? Call now for emergency service.** Our crew responds fast to stop smoke and soot damage from spreading.
+
 Troy's winters are long and dry indoors, but when a kitchen fire or electrical fault sends smoke through a split-level or colonial, the damage spreads faster than most homeowners expect. Smoke follows air pressure, slipping into HVAC ducts, settling into closets, and embedding in the insulation behind drywall before the fire department has finished their paperwork. In a city where a significant share of the housing stock dates to the 1960s and 1970s, those older forced-air systems can carry residue to every room in the house within hours of a fire being extinguished.
 
 ## Why Troy Properties See Smoke Damage Differently

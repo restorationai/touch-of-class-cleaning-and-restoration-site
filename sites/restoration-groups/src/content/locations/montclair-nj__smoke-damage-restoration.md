@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Montclair, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Montclair"
-meta_description: "24/7 smoke damage restoration in Montclair, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Montclair, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Montclair"
+meta_description: "24/7 emergency smoke damage restoration in Montclair, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration montclair"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Montclair? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 A kitchen fire in a Victorian on Upper Montclair's tree-lined streets leaves behind more than charred cabinets, the smoke works its way into original plaster walls, travels through the balloon-frame cavities common in pre-1920 construction, and settles into every finished basement and attic space before the fire trucks have pulled away. Smoke residue is acidic; within hours it begins etching metal fixtures, yellowing woodwork, and embedding itself into the porous surfaces that make Montclair's older homes so architecturally distinctive. Acting fast matters more than most homeowners realize.
 
 ## Why Montclair Properties Are Especially Vulnerable to Smoke Damage

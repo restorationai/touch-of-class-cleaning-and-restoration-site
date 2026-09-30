@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Crime Scene Cleanup in Federal Way | National Restoration Construction"
-h1: "Crime Scene Cleanup in Federal Way"
-meta_description: "24/7 crime scene cleanup in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Crime Scene Cleanup in Federal Way | National Restoration Construction"
+h1: "24/7 Emergency Crime Scene Cleanup in Federal Way"
+meta_description: "24/7 emergency crime scene cleanup in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "crime scene cleanup federal way"
 secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cleanup", "homicide cleanup", "suicide scene cleanup"]
 search_intent: "local_sensitive"
@@ -17,6 +17,9 @@ service_slug: "crime-scene-cleanup"
 service_display: "Crime Scene Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Federal Way? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When law enforcement clears a scene and hands the property back to a family or landlord, the hardest part is often just beginning. Blood-borne pathogens, tissue matter, and chemical residues left behind after a violent incident or unattended death don't simply disappear, and they can't be safely addressed with household cleaners, a pair of gloves, and good intentions. What follows is a regulated, methodical process that requires specialized training, licensed waste disposal, and the kind of discretion that lets families and property owners move forward without unnecessary exposure to what was left behind.
 
 ## What crime scene cleanup actually involves

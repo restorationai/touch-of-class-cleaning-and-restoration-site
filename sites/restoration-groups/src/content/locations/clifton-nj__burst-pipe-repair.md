@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Clifton, NJ | The Restoration Group"
-h1: "Burst Pipe Cleanup and Repair in Clifton"
-meta_description: "24/7 burst pipe cleanup and repair in Clifton, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Clifton, NJ | The Restoration Group"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Clifton"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Clifton, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "burst pipe cleanup and repair clifton"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Clifton? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 When a supply line lets go in a Clifton home, the damage clock starts immediately, and in a city where so many houses are 1950s and 1960s capes and split-levels with original galvanized or early copper supply lines, that clock runs fast. Those aging pipes don't announce themselves before they fail. One hard freeze along the Weasel Brook corridor or a pressure spike on a cold January morning can split a line that's been quietly corroding for decades, and by the time a homeowner smells the damp or hears water moving under the subfloor, the finished basement is already soaked. The Restoration Group responds 24/7 from Kenilworth, call (855) 650-7422.
 
 ## Why Clifton's Housing Stock Makes Burst Pipes a Bigger Problem

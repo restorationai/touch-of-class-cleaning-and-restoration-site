@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Heater Flood Cleanup in Laurel Hill, FL | Veterans Remediation & Restoration "
-h1: "Water Heater Flood Cleanup in Laurel Hill"
-meta_description: "24/7 water heater flood cleanup in Laurel Hill, FL. Insurance billing accepted. Call (337) 344-1248."
+title: "24/7 Emergency Water Heater Flood Cleanup in Laurel Hill, FL | Veterans Remediation & Restoration "
+h1: "24/7 Emergency Water Heater Flood Cleanup in Laurel Hill"
+meta_description: "24/7 emergency water heater flood cleanup in Laurel Hill, FL. Insurance billing accepted. Call (337) 344-1248."
 primary_keyword: "water heater flood cleanup laurel hill"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"

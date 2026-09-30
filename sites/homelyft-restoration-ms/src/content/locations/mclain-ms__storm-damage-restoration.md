@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in McLain, MS | HomeLyft Restoration MS"
-h1: "Storm Damage Restoration in McLain"
-meta_description: "Storm damage restoration in McLain, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Storm Damage Restoration in McLain, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Storm Damage Restoration in McLain"
+meta_description: "24/7 emergency storm damage restoration in McLain, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "storm damage restoration mclain"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in McLain? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 When a Gulf-driven storm tears through Greene County, McLain takes the kind of punishment that flat, heavily wooded terrain amplifies, downed pines across rooflines, wind-driven rain finding every gap in older siding, and standing water that has nowhere to drain fast. HomeLyft Restoration MS responds to that reality with crews trained specifically for Mississippi's storm season, holding IICRC certification and Mississippi contractor license #RO 2728 to handle everything from initial tarping to full structural rebuild.
 
 ## Why McLain Properties See Severe Storm Damage

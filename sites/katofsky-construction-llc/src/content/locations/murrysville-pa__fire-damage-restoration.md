@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Murrysville, PA | Katofsky Construction LLC"
-h1: "Fire Damage Restoration in Murrysville"
-meta_description: "24/7 fire damage restoration in Murrysville, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "24/7 Emergency Fire Damage Restoration in Murrysville, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Fire Damage Restoration in Murrysville"
+meta_description: "24/7 emergency fire damage restoration in Murrysville, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "fire damage restoration murrysville"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Murrysville? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 A house fire in Murrysville leaves behind more than charred walls. The smoke works into every cavity, the soot settles on surfaces two rooms away from the flames, and the water from suppression efforts soaks into subfloors that may already be dealing with western Pennsylvania's clay-heavy soil and seasonal moisture swings. Getting the restoration right here means understanding what the fire actually did to the whole structure, not just the room that burned.
 
 ## Why Murrysville Properties See Distinct Fire Damage Challenges

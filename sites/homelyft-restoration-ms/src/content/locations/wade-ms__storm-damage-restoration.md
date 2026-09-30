@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Wade, MS | HomeLyft Restoration MS"
-h1: "Storm Damage Restoration in Wade"
-meta_description: "Storm damage restoration in Wade, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Storm Damage Restoration in Wade, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Storm Damage Restoration in Wade"
+meta_description: "24/7 emergency storm damage restoration in Wade, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "storm damage restoration wade"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Wade? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Wade sits in the heart of Forrest County, where Gulf Coast humidity collides with the kind of fast-moving storm systems that roll up from the south with little warning. A line of severe thunderstorms can drop a 60-foot pine across a roofline in seconds, and by the time the rain stops, water has already found its way through the breach and into wall cavities, insulation, and subfloor framing. HomeLyft Restoration MS responds to that sequence of damage, structural, moisture, and debris, as a single connected problem, not a series of separate calls.
 
 ## Why Wade Properties See Serious Storm Damage

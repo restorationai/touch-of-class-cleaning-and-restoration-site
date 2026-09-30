@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Baltic, SD | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Baltic"
-meta_description: "Board-up and tarping in Baltic, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Baltic, SD | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Baltic"
+meta_description: "Emergency board-up and tarping in Baltic, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping baltic"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Baltic? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a storm tears shingles off a roof near the Big Sioux River or a fire blows out the windows of a Downtown Baltic home, the clock starts immediately. Exposed openings invite rain, wind-driven debris, and opportunistic entry, and in Baltic's climate, where late-spring storms can swing from hail to overnight freezing within hours, a few unprotected hours can turn a manageable loss into a gutted interior. Crew Restoration & Construction responds to those calls with plywood, heavy-gauge tarps, and the hardware to make them hold.
 
 ## Why Baltic Properties See Board-Up and Tarping Emergencies

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Del Mar, CA | Flood Fixers"
-h1: "Flood Damage Restoration in Del Mar"
-meta_description: "24/7 flood damage restoration in Del Mar, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "24/7 Emergency Flood Damage Restoration in Del Mar, CA | Flood Fixers"
+h1: "24/7 Emergency Flood Damage Restoration in Del Mar"
+meta_description: "24/7 emergency flood damage restoration in Del Mar, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "flood damage restoration del mar"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

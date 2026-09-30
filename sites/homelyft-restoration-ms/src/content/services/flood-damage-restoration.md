@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Flood Damage Restoration in Gulfport | HomeLyft Restoration MS"
-h1: "Flood Damage Restoration in Gulfport"
-meta_description: "24/7 flood damage restoration in Gulfport and surrounding areas. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Flood Damage Restoration in Gulfport | HomeLyft Restoration MS"
+h1: "24/7 Emergency Flood Damage Restoration in Gulfport"
+meta_description: "24/7 emergency flood damage restoration in Gulfport and surrounding areas. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "flood damage restoration gulfport"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

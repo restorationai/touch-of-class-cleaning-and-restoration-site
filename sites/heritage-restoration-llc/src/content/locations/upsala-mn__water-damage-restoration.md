@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Upsala, MN | Heritage Restoration LLC"
-h1: "Water Damage Restoration in Upsala"
-meta_description: "Water damage restoration in Upsala, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in Upsala, MN | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in Upsala"
+meta_description: "Emergency water damage restoration in Upsala, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration upsala"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Upsala? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Upsala sits in Morrison County where long winters, rapid spring thaws, and clay-heavy soils create conditions that push water into basements and crawl spaces with little warning. When snowmelt has nowhere to drain and frozen ground stays impermeable well into April, even a modest pipe failure or sump pump outage can leave several inches of standing water across a finished lower level before the morning is over. Heritage Restoration LLC responds to water damage calls in Upsala from our base in Little Falls, and our IICRC-certified technicians bring the same structural drying standards to rural Morrison County properties that larger metro crews apply in the cities.
 
 ## Why Upsala Properties See Water Damage Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Carnegie, PA | Katofsky Construction LLC"
-h1: "Fire Damage Restoration in Carnegie"
-meta_description: "24/7 fire damage restoration in Carnegie, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "24/7 Emergency Fire Damage Restoration in Carnegie, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Fire Damage Restoration in Carnegie"
+meta_description: "24/7 emergency fire damage restoration in Carnegie, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "fire damage restoration carnegie"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Carnegie? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Carnegie sits just southwest of Pittsburgh along Chartiers Creek, and the borough's housing stock tells the story of a working-class steel-era community: row houses, brick doubles, and wood-frame colonials built mostly between the 1910s and 1950s. When fire moves through one of those older homes, it does not behave the way it does in a newer build. Balloon-frame construction, common in Carnegie's pre-war housing, allows smoke and heat to travel vertically through wall cavities with almost no resistance, spreading soot and char to floors and attic spaces that look untouched from the outside. If you are standing in a Carnegie home after a fire, the visible damage is rarely the full picture.
 
 ## Why Carnegie Properties See Elevated Fire Damage Complexity

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Cambria, CA | Coastal Restoration Services Inc"
-h1: "Storm Damage Restoration in Cambria"
-meta_description: "Storm damage restoration in Cambria, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Storm Damage Restoration in Cambria, CA | Coastal Restoration Services Inc"
+h1: "Emergency Storm Damage Restoration in Cambria"
+meta_description: "Emergency storm damage restoration in Cambria, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "storm damage restoration cambria"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Cambria? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Cambria sits on a narrow coastal shelf where Pacific storm systems roll in hard off the water, often with little warning. When a winter atmospheric river drops several inches of rain in a matter of hours, or when a powerful northwest swell drives wind-driven rain sideways into siding and window frames, the damage to homes along this stretch of San Luis Obispo County can escalate quickly. Coastal Restoration Services Inc responds to storm damage calls throughout Cambria, bringing the equipment and process knowledge needed to stop secondary damage before it compounds the original loss.
 
 ## Why Cambria Properties See Disproportionate Storm Damage

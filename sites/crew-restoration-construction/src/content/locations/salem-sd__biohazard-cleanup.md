@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Salem, SD | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Salem"
-meta_description: "Biohazard cleanup in Salem, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Salem, SD | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Salem"
+meta_description: "Emergency biohazard cleanup in Salem, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup salem"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Salem? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 When something traumatic or hazardous happens inside a Salem home or business, the last thing a family should be managing is the cleanup. McCook County's position along the I-90 corridor means properties here range from century-old farmhouses on the edge of town to newer commercial buildings near the courthouse square, and the materials inside those structures respond very differently when contaminated. Crew Restoration & Construction handles biohazard remediation with the discretion and thoroughness the situation demands, so you can focus on what matters while we handle the rest. Call (605) 965-2727.
 
 ## Why Salem Properties Present Unique Biohazard Challenges

@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Green Tree, PA | Katofsky Construction LLC"
-h1: "Emergency Board-Up and Tarping in Green Tree"
+title: "24/7 Emergency Board-Up and Tarping in Green Tree, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Board-Up and Tarping in Green Tree"
 meta_description: "24/7 emergency board-up and tarping in Green Tree, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "emergency board-up and tarping green tree"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

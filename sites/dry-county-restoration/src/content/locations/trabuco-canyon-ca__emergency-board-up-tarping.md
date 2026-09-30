@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Trabuco Canyon, CA | Dry County Restoration"
-h1: "Emergency Board-Up and Tarping in Trabuco Canyon"
+title: "24/7 Emergency Board-Up and Tarping in Trabuco Canyon, CA | Dry County Restoration"
+h1: "24/7 Emergency Board-Up and Tarping in Trabuco Canyon"
 meta_description: "24/7 emergency board-up and tarping in Trabuco Canyon, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "emergency board-up and tarping trabuco canyon"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

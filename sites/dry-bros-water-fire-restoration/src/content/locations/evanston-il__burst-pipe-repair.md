@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Evanston, IL | Dry Bros Water & Fire Restoration"
-h1: "Burst Pipe Cleanup and Repair in Evanston"
-meta_description: "Burst pipe cleanup and repair in Evanston, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Evanston, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Evanston"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Evanston, IL. Insurance billing accepted. Call us now."
 primary_keyword: "burst pipe cleanup and repair evanston"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Evanston? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Evanston's winters are punishing in a specific way: temperatures can swing from the low teens to above freezing within a single week, and that freeze-thaw cycling is exactly what splits supply lines in older homes. When a pipe lets go, behind a kitchen wall, under a basement slab, or inside an exterior soffit, water moves fast and quietly before anyone notices. Dry Bros Water & Fire Restoration responds to burst pipe calls across Evanston, helping property owners stop the damage, dry the structure, and coordinate repairs before secondary problems like mold take hold.
 
 ## Why Evanston Properties See Burst Pipe Issues

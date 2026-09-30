@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Lyman, MS | HomeLyft Restoration MS"
-h1: "Water Damage Restoration in Lyman"
-meta_description: "Water damage restoration in Lyman, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Water Damage Restoration in Lyman, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Water Damage Restoration in Lyman"
+meta_description: "24/7 emergency water damage restoration in Lyman, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "water damage restoration lyman"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Lyman? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Lyman sits in Harrison County where the Gulf Coast's humidity rarely lets up, even a slow pipe drip behind a cabinet can turn into a mold-ready environment within 48 to 72 hours when summer dew points hover in the low 70s. That combination of subtropical heat, older slab-on-grade construction common throughout this part of the county, and soil that drains poorly after heavy rain events means water damage here tends to spread faster and deeper than homeowners expect. HomeLyft Restoration MS responds out of Gulfport and handles the full scope: water extraction, structural drying, moisture mapping, and controlled demolition of unsalvageable materials, all documented for your insurance carrier.
 
 ## Why Lyman Properties See Water Damage Issues

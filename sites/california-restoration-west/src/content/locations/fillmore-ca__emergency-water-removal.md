@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Fillmore, CA | California Restoration West "
-h1: "Emergency Water Removal & Cleanup in Fillmore"
+title: "24/7 Emergency Water Removal & Cleanup in Fillmore, CA | California Restoration West "
+h1: "24/7 Emergency Water Removal & Cleanup in Fillmore"
 meta_description: "24/7 emergency water removal and cleanup in Fillmore, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "emergency water removal fillmore"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Fillmore? We answer 24/7.** Call now and our crew heads out to extract the water and start drying.
+
 Fillmore sits in the Santa Clara River valley at the foot of the Topatopa Mountains, where irrigation agriculture, aging municipal infrastructure, and a housing stock that includes homes built well before modern plumbing codes all converge to create water damage conditions that are genuinely different from what you find in newer Ventura County suburbs. When a supply line fails, a sewer backs up, or a winter storm pushes runoff into a crawl space, the damage moves fast, and in Fillmore's older wood-frame bungalows and ranch homes, it moves into materials that hold moisture long after the surface looks dry.
 
 ## Why Fillmore Properties See Water Damage Differently

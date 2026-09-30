@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in University Place, WA | National Restoration Construction"
-h1: "Flood Damage Restoration in University Place"
-meta_description: "24/7 flood damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "Emergency Flood Damage Restoration in University Place, WA | National Restoration Construction"
+h1: "24/7 Emergency Flood Damage Restoration in University Place"
+meta_description: "24/7 emergency flood damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "flood damage restoration university place"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in University Place? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 The Narrows weather doesn't ease up in winter, and neither does the water. University Place sits in a pocket of West Pierce County where slope drainage off the bluffs above Chambers Creek pushes groundwater toward foundations just as storm systems roll in off Puget Sound, and in the 1960s and '70s ramblers that make up most of the housing stock in neighborhoods like Beckonridge and Sunset Terrace, that means aging cast-iron drains, original supply lines, and crawl spaces with little to no vapor barrier standing between your family and a serious flood loss.
 
 ## Why University Place Properties See Flood Damage Differently

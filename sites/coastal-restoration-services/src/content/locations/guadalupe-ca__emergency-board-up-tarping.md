@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Guadalupe, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Guadalupe"
-meta_description: "Board-up and tarping in Guadalupe, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Guadalupe, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Guadalupe"
+meta_description: "Emergency board-up and tarping in Guadalupe, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping guadalupe"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Guadalupe? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Guadalupe sits in a corridor where Pacific marine layer rolls in off the Santa Maria Valley floor nearly year-round, and when a fire, storm, or break-in leaves a structure open to that damp, salt-tinged air, every hour of delay adds moisture, corrosion, and security risk. Coastal Restoration Services Inc responds to board-up and tarping calls throughout Guadalupe, securing damaged openings and covering compromised rooflines before the next coastal fog event turns a bad situation into a mold problem.
 
 ## Why Guadalupe Properties Face Distinct Board-Up and Tarping Needs

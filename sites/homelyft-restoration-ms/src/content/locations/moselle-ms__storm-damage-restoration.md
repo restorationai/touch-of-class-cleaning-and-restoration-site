@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Moselle, MS | HomeLyft Restoration MS"
-h1: "Storm Damage Restoration in Moselle"
-meta_description: "Storm damage restoration in Moselle, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Storm Damage Restoration in Moselle, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Storm Damage Restoration in Moselle"
+meta_description: "24/7 emergency storm damage restoration in Moselle, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "storm damage restoration moselle"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Moselle? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Moselle sits in Jones County at the crossroads of two weather realities: the Gulf-fed humidity that pushes up from the south and the tornado-prone corridor that cuts through central Mississippi with little warning. When a severe storm rolls through, whether it's a fast-moving line of thunderstorms in spring or a hurricane remnant spinning inland from the Gulf, the damage it leaves behind in Moselle can range from a handful of lifted shingles to a tree through the living room and a house full of standing water. HomeLyft Restoration MS responds to that full spectrum, dispatching from Gulfport with the equipment and certifications to handle whatever the storm left behind.
 
 ## Why Moselle Properties Are Especially Vulnerable to Storm Damage

@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Renton, WA | National Restoration Construction"
-h1: "Emergency Board-Up and Tarping in Renton"
+title: "24/7 Emergency Board-Up and Tarping in Renton, WA | National Restoration Construction"
+h1: "24/7 Emergency Board-Up and Tarping in Renton"
 meta_description: "24/7 emergency board-up and tarping in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "emergency board-up and tarping renton"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

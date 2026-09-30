@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Flandreau, SD | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Flandreau"
-meta_description: "Storm damage restoration in Flandreau, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Flandreau, SD | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Flandreau"
+meta_description: "Emergency storm damage restoration in Flandreau, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration flandreau"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Flandreau? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 When a severe storm rolls across Moody County, Flandreau takes the hit differently than most South Dakota towns its size. The Big Sioux River corridor funnels wind and water straight through the heart of the community, and the mix of older residential housing near Downtown Flandreau and structures on the Flandreau Santee Sioux Reservation means storm damage here rarely looks the same twice. If you're staring at a caved soffit, a tree through your roof, or standing water creeping across your floor after last night's storm, call Crew Restoration & Construction at (605) 965-2727.
 
 ## Why Flandreau Properties See Severe Storm Damage

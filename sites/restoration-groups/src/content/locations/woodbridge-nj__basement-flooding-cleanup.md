@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Woodbridge, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in Woodbridge"
-meta_description: "24/7 basement flooding cleanup in Woodbridge, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Basement Flooding Cleanup in Woodbridge, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Woodbridge"
+meta_description: "24/7 emergency basement flooding cleanup in Woodbridge, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "basement flooding cleanup woodbridge"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Woodbridge? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 When the Rahway River climbs its banks after a heavy storm, the way it did during Ida in 2021, swamping low-lying streets across Woodbridge Township, basements fill faster than a sump pump can cycle. Whether the water is pushing through a cracked foundation wall in a postwar split-level off Route 1 & 9 or backing up through an aging cast-iron drain in a finished basement in Colonia, the clock starts the moment flooding begins. Mold can begin colonizing wet framing and insulation within 24 to 48 hours, and saturated subfloor assemblies common in mid-century construction hold moisture far longer than they appear to from the surface.
 
 ## Why Woodbridge Properties See Basement Flooding Issues

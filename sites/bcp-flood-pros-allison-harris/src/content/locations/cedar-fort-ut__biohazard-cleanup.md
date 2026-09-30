@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Cedar Fort, UT | FIX Restoration"
-h1: "Biohazard Cleanup in Cedar Fort"
-meta_description: "Biohazard cleanup in Cedar Fort, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Biohazard Cleanup in Cedar Fort, UT | FIX Restoration"
+h1: "Emergency Biohazard Cleanup in Cedar Fort"
+meta_description: "Emergency biohazard cleanup in Cedar Fort, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "biohazard cleanup cedar fort"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Cedar Fort? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Cedar Fort sits at the edge of Utah Lake's western benchlands, a small, tight-knit community where neighbors know each other and privacy carries real weight. When a biohazard situation arises here, whether in a rural property on the outskirts of town or a newer home closer to the Cedar Valley corridor, the last thing a family needs is a crew that treats the call like any other job. FIX Restoration handles biohazard cleanup in Cedar Fort with the discretion and care the situation demands, working efficiently so you can focus on what matters.
 
 ## Why Cedar Fort Properties Present Unique Biohazard Considerations

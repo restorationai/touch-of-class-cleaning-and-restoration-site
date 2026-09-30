@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Wexford, PA | FireDEX Butler"
-h1: "Frozen Pipe Restoration in Wexford"
-meta_description: "24/7 frozen pipe restoration in Wexford, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Frozen Pipe Restoration in Wexford, PA | FireDEX Butler"
+h1: "24/7 Emergency Frozen Pipe Restoration in Wexford"
+meta_description: "24/7 emergency frozen pipe restoration in Wexford, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "frozen pipe restoration wexford"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Wexford? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 When temperatures in the North Hills drop hard and fast, the kind of cold snap that settles in off Lake Erie and parks over Pine Township for three or four days, the large two-story and estate homes that define Wexford's 15090 ZIP code are quietly at risk. Bonus rooms cantilevered over garages, long supply runs through uninsulated exterior walls, and finished walk-out basements with wet bars and home theaters all create conditions where a single frozen pipe can turn into a five-figure loss before the homeowner realizes the water heater closet has been flooding since 2 a.m. FireDEX Butler has been responding to exactly these calls since 1981, and we're available around the clock.
 
 ## Why Wexford Properties Are Especially Vulnerable to Winter Pipe Failures

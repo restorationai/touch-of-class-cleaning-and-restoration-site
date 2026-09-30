@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Edna, CA | Coastal Restoration Services Inc"
-h1: "Fire Damage Restoration in Edna"
-meta_description: "Fire damage restoration in Edna, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Fire Damage Restoration in Edna, CA | Coastal Restoration Services Inc"
+h1: "Emergency Fire Damage Restoration in Edna"
+meta_description: "Emergency fire damage restoration in Edna, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "fire damage restoration edna"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Edna? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When fire tears through a home in Edna, the damage rarely stops at the charred walls. This small San Luis Obispo County community sits in a region where dry seasonal winds and the surrounding agricultural landscape can accelerate how quickly a structure fire spreads, and how deeply smoke odor penetrates every surface. Whether the fire started in a kitchen, a detached garage, or a farm outbuilding on the rural edges of town, the window for effective restoration closes faster than most homeowners realize. Coastal Restoration Services Inc responds to fire and smoke damage calls across Edna and the surrounding area, bringing the equipment and process discipline that post-fire restoration demands.
 
 ## Why Edna Properties Face Particular Fire Damage Challenges

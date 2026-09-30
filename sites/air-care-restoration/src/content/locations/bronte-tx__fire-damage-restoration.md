@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Bronte, TX | Air Care Restoration"
-h1: "Fire Damage Restoration in Bronte"
-meta_description: "24/7 fire damage restoration in Bronte, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Fire Damage Restoration in Bronte, TX | Air Care Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Bronte"
+meta_description: "24/7 emergency fire damage restoration in Bronte, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "fire damage restoration bronte"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Bronte? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Bronte sits in the heart of Coke County, where the West Texas wind that keeps summer temperatures bearable can also fan a grass or structure fire faster than most homeowners expect. When a fire moves through a home here, whether it starts in a kitchen, an outbuilding, or from a wildfire ember landing on a cedar-shake roof, the smoke doesn't just linger in the room where the flames were. It migrates through every gap in the framing, settles into insulation, and embeds itself in the caliche dust that finds its way into nearly every older West Texas home. That combination of fire char and smoke residue demands a methodical response, not just a cleanup crew with fans.
 
 ## Why Bronte Properties Face Particular Fire Damage Challenges

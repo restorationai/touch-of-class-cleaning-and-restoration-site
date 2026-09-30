@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Riverton, UT | Home Pride Restoration and Cleaning"
-h1: "Sewage Cleanup and Sanitization in Riverton"
-meta_description: "24/7 sewage cleanup and sanitization in Riverton, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "Emergency Sewage Cleanup and Sanitization in Riverton, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Riverton"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Riverton, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "sewage cleanup and sanitization riverton"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Riverton? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows in Riverton, the clock starts immediately. Raw sewage contains Category 3 water, the most hazardous classification, and at Utah's high-desert elevation, the dry air can accelerate the concentration of airborne pathogens even as it masks the moisture soaking into subfloor framing. Riverton's mix of newer master-planned subdivisions and older ranch-style homes along the Bingham Highway corridor means the plumbing configurations we encounter vary widely, and the cleanup approach has to match the structure. Call (801) 995-2437 any hour, our IICRC-certified crews are ready.
 
 ## Why Riverton Properties Experience Sewage Backup Problems

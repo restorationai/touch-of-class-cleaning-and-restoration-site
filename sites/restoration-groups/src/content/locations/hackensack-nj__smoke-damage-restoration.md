@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Hackensack, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Hackensack"
-meta_description: "24/7 smoke damage restoration in Hackensack, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Hackensack, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Hackensack"
+meta_description: "24/7 emergency smoke damage restoration in Hackensack, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration hackensack"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Hackensack? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 Smoke from a kitchen fire in a Fairmount two-family or a sprinkler-triggered blaze in one of the Prospect Avenue high-rises doesn't just leave visible char, it moves through every cavity in the building within minutes, coating surfaces you can't see and embedding itself in the plaster and lathe that line so many of Hackensack's prewar homes. That invisible residue keeps off-gassing for weeks, and in a stacked multi-unit building, the odor migrates to neighbors who weren't even involved in the fire. Getting a trained crew on-site fast is the only way to stop the spread before it becomes a building-wide problem.
 
 ## Why Hackensack's Housing Stock Complicates Smoke Damage

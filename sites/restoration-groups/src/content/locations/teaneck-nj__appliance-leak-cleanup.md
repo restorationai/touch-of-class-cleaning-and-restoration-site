@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Teaneck, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in Teaneck"
-meta_description: "24/7 appliance leak cleanup in Teaneck, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Appliance Leak Cleanup in Teaneck, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Teaneck"
+meta_description: "24/7 emergency appliance leak cleanup in Teaneck, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "appliance leak cleanup teaneck"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Teaneck? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 A washing machine hose that lets go overnight or a refrigerator ice maker line that weeps for weeks looks different inside a 1930s Teaneck Tudor than it does in a newer construction home. The finished basements common throughout the Grange and West Teaneck, often converted decades ago with drop ceilings, carpet over concrete, and cast-iron drain lines, trap moisture in ways that modern open-plan lower levels simply don't. By the time you notice the smell or the soft spot in the floor, water has already been working its way into the substructure for longer than you'd want. The Restoration Group responds 24/7 to appliance leak cleanup calls across Teaneck, ZIP 07666, and the surrounding Bergen County corridor.
 
 ## Why Teaneck Homes See More Appliance Leak Damage

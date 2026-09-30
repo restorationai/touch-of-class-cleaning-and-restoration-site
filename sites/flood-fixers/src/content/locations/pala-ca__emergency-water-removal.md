@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Pala, CA | Flood Fixers"
-h1: "Emergency Water Removal & Cleanup in Pala"
+title: "24/7 Emergency Water Removal & Cleanup in Pala, CA | Flood Fixers"
+h1: "24/7 Emergency Water Removal & Cleanup in Pala"
 meta_description: "24/7 emergency water removal and cleanup in Pala, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "emergency water removal pala"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

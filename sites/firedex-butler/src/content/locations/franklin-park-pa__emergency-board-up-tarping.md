@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Franklin Park, PA | FireDEX Butler"
-h1: "Emergency Board-Up and Tarping in Franklin Park"
+title: "24/7 Emergency Board-Up and Tarping in Franklin Park, PA | FireDEX Butler"
+h1: "24/7 Emergency Board-Up and Tarping in Franklin Park"
 meta_description: "24/7 emergency board-up and tarping in Franklin Park, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "emergency board-up and tarping franklin park"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

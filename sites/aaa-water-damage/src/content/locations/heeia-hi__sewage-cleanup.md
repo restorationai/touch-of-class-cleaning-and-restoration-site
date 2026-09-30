@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Heeia, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Sewage Cleanup and Sanitization in Heeia"
-meta_description: "24/7 sewage cleanup and sanitization in Heeia, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Heeia, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Heeia"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Heeia, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "sewage cleanup and sanitization heeia"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Heeia? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Heeia sits in a narrow, rain-soaked valley on the windward side of Oahu where the Ko'olau Mountains push heavy rainfall directly into the lowlands below. That combination of saturated soil, aging infrastructure, and the area's reliance on both municipal sewer connections and private septic systems means a sewage backup here can escalate faster than it would almost anywhere else on the island. When raw sewage surfaces in a crawl space, floods a bathroom, or backs up through a floor drain, the window for safe cleanup is short and the contamination risk is real.
 
 ## Why Heeia Properties See Sewage Backup Problems

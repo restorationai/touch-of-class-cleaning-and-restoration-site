@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Berwyn, IL | Dry Bros Water & Fire Restoration"
-h1: "Emergency Water Removal & Cleanup in Berwyn"
-meta_description: "emergency water removal and cleanup in Berwyn, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Water Removal & Cleanup in Berwyn, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Water Removal & Cleanup in Berwyn"
+meta_description: "24/7 emergency water removal and cleanup in Berwyn, IL. Insurance billing accepted. Call us now."
 primary_keyword: "emergency water removal berwyn"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Berwyn? We answer 24/7.** Call now and our crew heads out to extract the water and start drying.
+
 Berwyn sits on some of the flattest, most clay-dense ground in Cook County, and that geology has a direct effect on what happens inside a home when water intrudes. Clay soil sheds rainfall instead of absorbing it, pushing water toward foundations and into basement floor drains faster than most homeowners expect. When that standing water reaches the finished spaces of a Berwyn bungalow, the kind of compact, brick-clad home built in dense rows across this city through the 1920s and 1940s, it moves quickly through original hardwood subfloors, plaster walls, and decades-old mortar joints. Getting the water out fast is not just about comfort, it's about stopping a chain reaction that begins within hours of the initial loss.
 
 ## Why Berwyn Properties Face Distinct Water Damage Risks

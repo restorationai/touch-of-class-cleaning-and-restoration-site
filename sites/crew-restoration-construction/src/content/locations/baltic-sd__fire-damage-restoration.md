@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Baltic, SD | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Baltic"
-meta_description: "Fire damage restoration in Baltic, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Baltic, SD | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Baltic"
+meta_description: "Emergency fire damage restoration in Baltic, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration baltic"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Baltic? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When a fire tears through a home near the Big Sioux River corridor or along the quiet streets of Downtown Baltic, the damage rarely stops at the charred walls. Smoke travels fast through older wood-frame construction, soot settles into every ceiling cavity, and the water left behind by fire suppression can begin growing mold within 48 to 72 hours, especially during South Dakota's humid spring thaw. Crew Restoration & Construction responds to fire losses in Baltic (ZIP 57003) and the surrounding Minnehaha County area, handling everything from initial board-up to full structural rebuild.
 
 ## Why Baltic Properties Face Particular Challenges After a Fire

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Lake Sherwood, CA | California Restoration West "
-h1: "Water Damage Restoration in Lake Sherwood"
-meta_description: "24/7 water damage restoration in Lake Sherwood, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "24/7 Emergency Water Damage Restoration in Lake Sherwood, CA | California Restoration West "
+h1: "24/7 Emergency Water Damage Restoration in Lake Sherwood"
+meta_description: "24/7 emergency water damage restoration in Lake Sherwood, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "water damage restoration lake sherwood"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Lake Sherwood? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Lake Sherwood sits tucked into the hills above Westlake Village, where the private lake, mature landscaping, and custom hillside homes create a setting that looks serene until a supply line fails or a storm sends water sheeting down a slope and into a garage or lower level. The combination of hillside grading, older estate-style construction, and a gated community environment means water losses here behave differently than a flat-lot suburban claim, and the response has to match that reality. California Restoration West handles water removal, structural drying, and full water mitigation for Lake Sherwood properties, available around the clock.
 
 ## Why Lake Sherwood Properties See Water Damage Differently

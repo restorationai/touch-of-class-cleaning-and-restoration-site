@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Mars, PA | FireDEX Butler"
-h1: "Fire Damage Restoration in Mars"
-meta_description: "24/7 fire damage restoration in Mars, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Fire Damage Restoration in Mars, PA | FireDEX Butler"
+h1: "24/7 Emergency Fire Damage Restoration in Mars"
+meta_description: "24/7 emergency fire damage restoration in Mars, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "fire damage restoration mars"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Mars? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 When fire tears through a home along the Route 228 corridor or in the older blocks of Mars Borough, the damage compounds fast, smoke odor penetrates plaster, soot migrates into HVAC ducts, and the water left behind by suppression hoses soaks into materials that may have been in place since the early 1900s. FireDEX Butler has been responding to residential and commercial fire losses across Butler County since 1981, and the team knows that a fire in a century-old craftsman near Breakneck Creek calls for a different approach than a fire in a builder-grade semi-custom in Adams Ridge.
 
 ## Why Mars Properties See Distinctive Fire Damage Challenges

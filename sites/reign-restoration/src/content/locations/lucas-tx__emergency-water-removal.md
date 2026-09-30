@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Lucas, TX | Reign Restoration"
-h1: "Emergency Water Removal & Cleanup in Lucas"
+title: "24/7 Emergency Water Removal & Cleanup in Lucas, TX | Reign Restoration"
+h1: "24/7 Emergency Water Removal & Cleanup in Lucas"
 meta_description: "24/7 emergency water removal & cleanup in Lucas, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "emergency water removal & cleanup lucas"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]

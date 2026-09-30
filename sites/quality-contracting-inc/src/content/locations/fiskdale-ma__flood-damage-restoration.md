@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Fiskdale, MA | Quality Contracting, Inc."
-h1: "Flood Damage Restoration in Fiskdale"
-meta_description: "Flood damage restoration in Fiskdale, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Flood Damage Restoration in Fiskdale, MA | Quality Contracting, Inc."
+h1: "Emergency Flood Damage Restoration in Fiskdale"
+meta_description: "Emergency flood damage restoration in Fiskdale, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "flood damage restoration fiskdale"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

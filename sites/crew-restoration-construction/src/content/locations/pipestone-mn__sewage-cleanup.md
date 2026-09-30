@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Pipestone, MN | Crew Restoration & Construction"
-h1: "Sewage Cleanup and Sanitization in Pipestone"
-meta_description: "Sewage cleanup and sanitization in Pipestone, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Sewage Cleanup and Sanitization in Pipestone, MN | Crew Restoration & Construction"
+h1: "Emergency Sewage Cleanup and Sanitization in Pipestone"
+meta_description: "Emergency sewage cleanup and sanitization in Pipestone, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "sewage cleanup and sanitization pipestone"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Pipestone? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows in Pipestone, the problem doesn't stay contained for long. The city's older housing stock, much of it built in the mid-20th century with aging clay or cast-iron drain lines, is especially vulnerable to root intrusion and pipe collapse, and when those lines fail, raw sewage can saturate subfloor cavities, crawl spaces, and finished basements within hours. Crew Restoration & Construction responds to sewage backup calls across the 56164 area, handling everything from initial extraction to full sanitization so the space is safe to occupy again.
 
 ## Why Pipestone Properties See Sewage Backup Issues

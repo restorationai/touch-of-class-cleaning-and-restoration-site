@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Petal, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Petal"
-meta_description: "Board-up and tarping in Petal, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Petal, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Petal"
+meta_description: "24/7 emergency board-up and tarping in Petal, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping petal"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"

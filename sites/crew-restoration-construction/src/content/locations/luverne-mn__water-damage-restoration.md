@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Luverne, MN | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Luverne"
-meta_description: "Water damage restoration in Luverne, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Luverne, MN | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Luverne"
+meta_description: "Emergency water damage restoration in Luverne, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration luverne"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Luverne? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 When a prairie storm rolls across Rock County and drops two inches of rain in under an hour, Luverne properties don't always have time to drain. The flat southwestern Minnesota landscape means surface water has nowhere to go quickly, and it finds its way into basements, crawl spaces, and around foundations before most homeowners realize what's happening. Crew Restoration & Construction responds to water damage calls in the 56156 area, bringing the extraction equipment and structural drying process needed to stop a wet floor from becoming a rotting subfloor.
 
 ## Why Luverne Properties See Water Damage Issues

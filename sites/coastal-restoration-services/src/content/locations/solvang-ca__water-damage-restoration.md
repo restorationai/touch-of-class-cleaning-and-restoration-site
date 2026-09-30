@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Solvang, CA | Coastal Restoration Services Inc"
-h1: "Water Damage Restoration in Solvang"
-meta_description: "Water damage restoration in Solvang, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Water Damage Restoration in Solvang, CA | Coastal Restoration Services Inc"
+h1: "Emergency Water Damage Restoration in Solvang"
+meta_description: "Emergency water damage restoration in Solvang, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "water damage restoration solvang"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Solvang? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Solvang's Danish-village architecture and Mediterranean climate create a deceptively dry-looking landscape, but the Santa Ynez Valley's clay-heavy soils shed water fast during winter rains, and when a pipe bursts inside one of the city's older stucco-and-timber buildings, water finds its way into wall cavities and subfloor systems before most homeowners realize anything is wrong. Coastal Restoration Services Inc responds to water damage calls across Solvang, bringing industrial extraction and structural drying equipment calibrated for the specific building materials and soil conditions found here.
 
 ## Why Solvang Properties Are Vulnerable to Water Damage

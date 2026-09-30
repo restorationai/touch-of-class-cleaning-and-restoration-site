@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Renton, WA | National Restoration Construction"
-h1: "Water Damage Restoration in Renton"
-meta_description: "24/7 water damage restoration in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Water Damage Restoration in Renton, WA | National Restoration Construction"
+h1: "24/7 Emergency Water Damage Restoration in Renton"
+meta_description: "24/7 emergency water damage restoration in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "water damage restoration renton"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Renton? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Standing water doesn't wait, and neither should you. Whether a pipe burst in a Renton Hill craftsman at 2 a.m. or a washing machine supply line let go in a Highlands apartment, the first hour after a water damage event is the most important one. National Restoration Construction has been responding to exactly these situations across the greater Seattle area since 2004, and from our Federal Way headquarters, we can reach most of Renton in under an hour.
 
 ## Why Renton Properties Are Especially Vulnerable to Water Damage

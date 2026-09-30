@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Pleasant Grove, UT | FIX Restoration"
-h1: "Storm Damage Restoration in Pleasant Grove"
-meta_description: "Storm damage restoration in Pleasant Grove, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Storm Damage Restoration in Pleasant Grove, UT | FIX Restoration"
+h1: "Emergency Storm Damage Restoration in Pleasant Grove"
+meta_description: "Emergency storm damage restoration in Pleasant Grove, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "storm damage restoration pleasant grove"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Pleasant Grove? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Pleasant Grove sits at the base of the Wasatch Front where storm systems funnel down from the mountains with little warning, a clear afternoon can turn into a hail-and-microburst event before most residents have time to move cars into the garage. When that happens, the damage is rarely just cosmetic. Wind-driven rain finds its way under lifted shingles, hail punches through soffit vents, and snapped cottonwood limbs land on rooflines that were already carrying the weight of a wet spring snowpack. FIX Restoration, based in American Fork, has been working through these conditions since 2012, close enough to Pleasant Grove to mobilize quickly, familiar enough with the local terrain to know what to look for.
 
 ## Why Pleasant Grove Properties See Repeated Storm Damage

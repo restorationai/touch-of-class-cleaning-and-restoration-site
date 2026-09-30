@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Vandenberg Village, CA | Coastal Restoration Services Inc"
-h1: "Fire Damage Restoration in Vandenberg Village"
-meta_description: "Fire damage restoration in Vandenberg Village, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Fire Damage Restoration in Vandenberg Village, CA | Coastal Restoration Services Inc"
+h1: "Emergency Fire Damage Restoration in Vandenberg Village"
+meta_description: "Emergency fire damage restoration in Vandenberg Village, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "fire damage restoration vandenberg village"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Vandenberg Village? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 The dry Santa Barbara County air and the Santa Ana wind patterns that sweep through Vandenberg Village can turn a small kitchen fire into a whole-house smoke event faster than homeowners expect. When that happens, the clock starts immediately, soot begins etching glass and metal within hours, and the acrid odor from burning synthetic materials bonds to drywall, insulation, and HVAC ductwork in ways that don't simply air out. Coastal Restoration Services Inc is based right here in Vandenberg Village, which means the crew responding to your home isn't driving in from another county.
 
 ## Why Vandenberg Village Properties Face Distinct Fire Damage Challenges

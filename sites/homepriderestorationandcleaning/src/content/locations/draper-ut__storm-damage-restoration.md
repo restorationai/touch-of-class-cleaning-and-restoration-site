@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Draper, UT | Home Pride Restoration and Cleaning"
-h1: "Storm Damage Restoration in Draper"
-meta_description: "24/7 storm damage restoration in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Storm Damage Restoration in Draper, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Storm Damage Restoration in Draper"
+meta_description: "24/7 emergency storm damage restoration in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "storm damage restoration draper"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

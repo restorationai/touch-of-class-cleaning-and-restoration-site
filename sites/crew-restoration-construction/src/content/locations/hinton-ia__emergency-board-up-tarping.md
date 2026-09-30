@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Hinton, IA | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Hinton"
-meta_description: "Board-up and tarping in Hinton, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Hinton, IA | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Hinton"
+meta_description: "Emergency board-up and tarping in Hinton, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping hinton"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Hinton? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a severe thunderstorm tears shingles off a farmhouse on the west side of Hinton or a fire guts a kitchen near Downtown Hinton, the clock starts immediately, exposed framing, broken windows, and open roof decking invite rain, wildlife, and theft within hours. Along the Highway 75 corridor through Plymouth County, those storms can arrive fast and leave serious structural gaps that need to be closed before the next weather system rolls in off the Missouri River basin. Crew Restoration & Construction responds to those calls, securing damaged properties with structural board-up and heavy-duty roof tarping so the damage stops where it is.
 
 ## Why Hinton Properties Are Vulnerable After Storm and Fire Events

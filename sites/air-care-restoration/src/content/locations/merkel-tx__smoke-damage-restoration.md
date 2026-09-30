@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Merkel, TX | Air Care Restoration"
-h1: "Smoke Damage Restoration in Merkel"
-meta_description: "24/7 smoke damage restoration in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Smoke Damage Restoration in Merkel, TX | Air Care Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in Merkel"
+meta_description: "24/7 emergency smoke damage restoration in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "smoke damage restoration merkel"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "smoke-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Merkel? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 When a grass fire along the I-20 corridor jumps a fence line or a kitchen fire fills a farmhouse with soot, the smoke doesn't stay where the flames were. In Merkel, where many homes sit on larger rural lots with older HVAC systems and wood-frame construction, smoke residue travels through return air ducts and settles into insulation, fabric, and wood grain long before anyone calls for help. Getting ahead of that spread, before odor and acidic soot bond permanently to surfaces, is the difference between a cleanable loss and a full material replacement.
 
 ## Why Merkel Properties See Smoke Damage Issues

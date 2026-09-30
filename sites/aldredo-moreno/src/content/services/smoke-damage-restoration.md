@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Smoke Damage Restoration in Midland | ACS Enterprise "
-h1: "Smoke Damage Restoration in Midland"
-meta_description: "Smoke damage restoration in Midland and surrounding areas. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Smoke Damage Restoration in Midland | ACS Enterprise "
+h1: "Emergency Smoke Damage Restoration in Midland"
+meta_description: "Emergency smoke damage restoration in Midland and surrounding areas. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "smoke damage restoration midland"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

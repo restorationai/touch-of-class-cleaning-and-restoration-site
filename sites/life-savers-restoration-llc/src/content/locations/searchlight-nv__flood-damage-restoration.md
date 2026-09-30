@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Searchlight, NV | Life Savers Restoration LLC"
-h1: "Flood Damage Restoration in Searchlight"
-meta_description: "24/7 flood damage restoration in Searchlight, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
+title: "24/7 Emergency Flood Damage Restoration in Searchlight, NV | Life Savers Restoration LLC"
+h1: "24/7 Emergency Flood Damage Restoration in Searchlight"
+meta_description: "24/7 emergency flood damage restoration in Searchlight, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
 primary_keyword: "flood damage restoration searchlight"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

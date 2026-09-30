@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Hartford, SD | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Hartford"
-meta_description: "Biohazard cleanup in Hartford, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Hartford, SD | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Hartford"
+meta_description: "Emergency biohazard cleanup in Hartford, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup hartford"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Hartford? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Hartford is a growing community, and with that growth comes the full range of difficult situations that can unfold inside a home or property, situations that require more than a mop and a strong stomach. When a biohazard event occurs in a residence along Highway 42 or in one of the established neighborhoods closer to Downtown Hartford, the priority is the same: safe, discreet, thorough cleanup handled by people who know what they're doing. Crew Restoration & Construction responds to those calls throughout the 57033 ZIP code, treating every situation with the privacy and professionalism the moment demands.
 
 ## Why Hartford Properties Present Unique Biohazard Considerations

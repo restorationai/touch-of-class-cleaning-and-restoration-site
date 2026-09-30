@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Crooks, SD | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Crooks"
-meta_description: "Board-up and tarping in Crooks, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Crooks, SD | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Crooks"
+meta_description: "Emergency board-up and tarping in Crooks, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping crooks"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Crooks? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a severe Plains storm tears through the 57020 zip code and leaves a gaping hole in your roof, or when a fire breaks out near Renner Corner and blows out windows overnight, every hour your home sits exposed multiplies the damage inside. South Dakota's weather doesn't pause for business hours, wind-driven rain, hail, and sub-zero cold can push through an unprotected opening and ruin structural framing, insulation, and personal belongings within a single night. Crew Restoration & Construction responds to those calls, boards up openings, and installs heavy-duty tarps so your property stops deteriorating while the full recovery plan comes together.
 
 ## Why Crooks Properties Face Elevated Board-Up and Tarping Risks

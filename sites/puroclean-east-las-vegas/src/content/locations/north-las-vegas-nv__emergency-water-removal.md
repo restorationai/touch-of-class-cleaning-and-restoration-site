@@ -20,6 +20,9 @@ state: "NV"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in North Las Vegas? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 North Las Vegas sits in one of the driest climates in the country, yet water damage here can be surprisingly severe, and surprisingly fast. The Mojave's sun-baked caliche soil repels water rather than absorbing it, so a burst supply line, a failed water heater, or a monsoon-season flash flood has nowhere to drain. Water spreads laterally under slab foundations and into wall cavities before a homeowner even realizes the floor feels soft. When that happens in a home near Nellis Air Force Base, in a newer build out in Aliante, or in an established neighborhood like Eldorado, the response window that separates a water extraction job from a mold remediation job is measured in hours, not days.
 
 ## Why North Las Vegas Properties See Water Damage Differently

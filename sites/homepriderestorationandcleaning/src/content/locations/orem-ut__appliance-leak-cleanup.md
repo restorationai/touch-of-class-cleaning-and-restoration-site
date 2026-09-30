@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Orem, UT | Home Pride Restoration and Cleaning"
-h1: "Appliance Leak Cleanup in Orem"
-meta_description: "24/7 appliance leak cleanup in Orem, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Appliance Leak Cleanup in Orem, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Appliance Leak Cleanup in Orem"
+meta_description: "24/7 emergency appliance leak cleanup in Orem, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "appliance leak cleanup orem"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Orem? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Orem sits in a high-desert valley where the air is dry enough that a slow appliance leak can go unnoticed for weeks, no musty smell, no visible condensation on walls, until the subfloor buckles or drywall crumbles at the baseboard. Whether it's a dishwasher supply line weeping behind a cabinet, a washing machine that overflowed into the laundry room, or a refrigerator ice maker line that quietly soaked the kitchen floor overnight, the damage compounds fast. Home Pride Restoration and Cleaning has been responding to these calls across Utah County since 1997, and appliance leaks in Orem have their own particular patterns worth knowing.
 
 ## Why Orem Homes See More Appliance Leak Damage Than You'd Expect

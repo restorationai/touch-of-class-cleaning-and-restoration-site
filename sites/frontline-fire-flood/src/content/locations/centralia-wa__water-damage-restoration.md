@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Centralia, WA | Frontline Fire & Flood"
-h1: "Water Damage Restoration in Centralia"
-meta_description: "24/7 water damage restoration in Centralia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Water Damage Restoration in Centralia, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Water Damage Restoration in Centralia"
+meta_description: "24/7 emergency water damage restoration in Centralia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration centralia"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

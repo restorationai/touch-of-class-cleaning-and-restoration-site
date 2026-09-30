@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Passaic, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Passaic"
-meta_description: "24/7 smoke damage restoration in Passaic, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Passaic, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Passaic"
+meta_description: "24/7 emergency smoke damage restoration in Passaic, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration passaic"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Passaic? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 Smoke from a house fire doesn't stop at the room where the flames were. In Passaic's dense stock of early 20th-century brick multi-families and two- and three-family frame houses, many still carrying original plaster walls, horsehair insulation, and decades of accumulated wood trim, smoke travels fast, penetrates deep, and lingers long after the fire department leaves. The acrid, oily residue from a kitchen fire on the second floor of a Third Ward walkup can coat every surface from the basement to the attic within hours, and without the right equipment and chemistry, that smell comes back every time humidity rises off the Passaic River.
 
 ## Why Passaic Properties Are Especially Vulnerable to Smoke Damage

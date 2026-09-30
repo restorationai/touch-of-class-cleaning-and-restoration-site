@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Bayonne, NJ | The Restoration Group"
-h1: "Storm Damage Restoration in Bayonne"
-meta_description: "24/7 storm damage restoration in Bayonne, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Storm Damage Restoration in Bayonne, NJ | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Bayonne"
+meta_description: "24/7 emergency storm damage restoration in Bayonne, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "storm damage restoration bayonne"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Bayonne? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 Bayonne sits on a narrow peninsula where Newark Bay presses against one side and the Kill Van Kull against the other, and when a nor'easter or a remnant tropical system tracks up the coast, there is nowhere for storm surge to go except inland. The flooding that swallowed low-lying blocks near Constable Hook and the Newark Bay waterfront during Sandy in 2012 was not a fluke, it was a preview of what concentrated coastal exposure does to a densely built city of early 20th-century frame homes and brick rowhomes. When a storm hits Bayonne hard, the damage compounds fast, and the window to prevent secondary mold and structural rot is measured in hours, not days.
 
 ## Why Bayonne Properties Face Compounding Storm Damage

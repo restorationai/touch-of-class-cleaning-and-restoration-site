@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Comanche, TX | Air Care Restoration"
-h1: "Fire Damage Restoration in Comanche"
-meta_description: "24/7 fire damage restoration in Comanche, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Fire Damage Restoration in Comanche, TX | Air Care Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Comanche"
+meta_description: "24/7 emergency fire damage restoration in Comanche, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "fire damage restoration comanche"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Comanche? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Comanche sits in the heart of the Cross Timbers region, where dry summers, gusty southwesterly winds, and a landscape of cedar, live oak, and native brush create conditions that can push a grass or brush fire toward a home faster than most homeowners expect. When that happens, or when a kitchen fire climbs into the wall cavity of an older Comanche County farmhouse, the damage compounds quickly: smoke penetrates porous limestone and sandstone masonry common in homes built before the 1970s, and soot settles into HVAC ductwork within hours. Air Care Restoration's IICRC FSRT-certified team responds 24/7 and can reach Comanche to begin stabilization the same day you call.
 
 ## Why Comanche Properties Face Distinct Fire Damage Challenges

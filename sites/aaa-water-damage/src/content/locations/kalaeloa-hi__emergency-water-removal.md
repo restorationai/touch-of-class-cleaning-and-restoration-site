@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Emergency Water Removal & Cleanup in Kalaeloa"
+title: "24/7 Emergency Water Removal & Cleanup in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Removal & Cleanup in Kalaeloa"
 meta_description: "24/7 emergency water removal and cleanup in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "emergency water removal kalaeloa"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Kalaeloa? We answer 24/7.** Call now and our crew heads out to extract the water and start drying.
+
 Kalaeloa sits on the western edge of Oahu, where the old Naval Air Station footprint meets the coast and the trade winds push salt-laden humidity inland year-round. When water gets into a structure here, whether from a supply line failure, a roof breach during a Koa Ridge storm cell, or flooding off the coral-clay soils that drain poorly after heavy rain, it moves fast and it does not dry on its own. The combination of high ambient humidity and dense construction in this former military housing corridor means standing water can begin promoting microbial growth within 24 to 48 hours. If you are dealing with water damage right now, call AAA Water Damage Restoration & Carpet Care at (808) 349-3407.
 
 ## Why Kalaeloa Properties See Persistent Water Damage Issues

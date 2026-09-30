@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in Davie | RestorationXpress "
-h1: "Water Damage Restoration in Davie"
-meta_description: "Water damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 932-5420."
+title: "Emergency Water Damage Restoration in Davie | RestorationXpress "
+h1: "Emergency Water Damage Restoration in Davie"
+meta_description: "Emergency water damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "water damage restoration davie"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Davie? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 ## What happens in the first 48 hours matters more than anything else
 
 You notice the carpet squishing underfoot, or spot a brown stain spreading across the ceiling drywall, or walk into the laundry room and hear the faint sound of water moving somewhere it shouldn't be. Within 24 to 48 hours of a water intrusion, mold spores already present in any home can begin colonizing wet building materials. The clock on a water damage event starts the moment moisture contacts your structure, not when a crew arrives. What RestorationXpress does in those first hours determines whether you're dealing with a drying job or a gut-and-rebuild.

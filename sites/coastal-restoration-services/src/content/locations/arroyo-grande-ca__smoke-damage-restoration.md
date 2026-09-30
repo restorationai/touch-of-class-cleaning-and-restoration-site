@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Arroyo Grande, CA | Coastal Restoration Services Inc"
-h1: "Smoke Damage Restoration in Arroyo Grande"
-meta_description: "Smoke damage restoration in Arroyo Grande, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Smoke Damage Restoration in Arroyo Grande, CA | Coastal Restoration Services Inc"
+h1: "Emergency Smoke Damage Restoration in Arroyo Grande"
+meta_description: "Emergency smoke damage restoration in Arroyo Grande, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "smoke damage restoration arroyo grande"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

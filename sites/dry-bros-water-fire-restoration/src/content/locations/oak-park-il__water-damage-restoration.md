@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Oak Park, IL | Dry Bros Water & Fire Restoration"
-h1: "Water Damage Restoration in Oak Park"
-meta_description: "Water damage restoration in Oak Park, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Water Damage Restoration in Oak Park, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Oak Park"
+meta_description: "24/7 emergency water damage restoration in Oak Park, IL. Insurance billing accepted. Call us now."
 primary_keyword: "water damage restoration oak park"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Oak Park? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Oak Park sits on flat glacial lake plain where the ground holds water like a sponge, and when a pipe bursts behind century-old plaster or a sump pump fails during a spring downpour, that water has nowhere to go fast. The village's dense grid of pre-war bungalows, Prairie-style homes, and two-flat rentals means water damage here rarely behaves the way it does in newer construction. Dry Bros Water & Fire Restoration responds to water losses across Oak Park, bringing industrial extraction and structural drying to homes that were built long before modern moisture barriers were standard.
 
 ## Why Oak Park Properties Are Especially Vulnerable to Water Damage

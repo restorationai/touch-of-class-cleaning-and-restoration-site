@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Biohazard Cleanup in American Fork | FIX Restoration"
-h1: "Biohazard Cleanup in American Fork"
-meta_description: "Biohazard cleanup in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Biohazard Cleanup in American Fork | FIX Restoration"
+h1: "Emergency Biohazard Cleanup in American Fork"
+meta_description: "Emergency biohazard cleanup in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "biohazard cleanup american fork"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -17,6 +17,9 @@ service_slug: "biohazard-cleanup"
 service_display: "Biohazard Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in American Fork? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 When something happens in a home or property that leaves behind blood, bodily fluids, or other infectious material, the instinct is often to clean it up immediately, and that instinct, however understandable, can make the situation worse. Biohazard contamination is not a cleaning problem; it is a public health problem. Pathogens can saturate porous surfaces, migrate into subfloor materials, and remain infectious long after the visible material is gone. What looks clean to the eye may not be safe. That gap between appearance and reality is exactly what professional biohazard remediation is designed to close.
 
 ## What biohazard cleanup actually involves

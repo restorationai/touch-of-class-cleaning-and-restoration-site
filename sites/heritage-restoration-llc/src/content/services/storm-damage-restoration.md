@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Storm Damage Restoration in Little Falls | Heritage Restoration LLC"
-h1: "Storm Damage Restoration in Little Falls"
-meta_description: "Storm damage restoration in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Storm Damage Restoration in Little Falls | Heritage Restoration LLC"
+h1: "Emergency Storm Damage Restoration in Little Falls"
+meta_description: "Emergency storm damage restoration in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "storm damage restoration little falls"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Little Falls? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 After a severe storm rolls through central Minnesota, the damage you can see, a tree through the roof, siding stripped to the sheathing, gutters hanging off the fascia, is only part of the problem. Wind-driven rain that entered through a compromised soffit two nights ago is already working its way into wall cavities and insulation bays. Mold can begin colonizing wet cellulose insulation within 24 to 48 hours. Storm damage restoration is the work of stopping that secondary damage before it compounds the primary loss.
 
 ## What Storm Damage Restoration actually involves

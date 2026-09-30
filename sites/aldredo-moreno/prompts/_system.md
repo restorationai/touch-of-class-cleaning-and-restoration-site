@@ -109,3 +109,12 @@ cleanup side and can point the owner to the right specialist for rebuild
 or mold work. Their real services: water damage restoration, water
 cleanup, sewage cleanup, storm damage cleanup, carpet cleaning, air duct
 cleaning, tile & grout cleaning, junk & debris removal.
+
+## EMERGENCY NAMING (Santino 2026-09-30, scripts/emergency_naming.py)
+
+URGENT services only: water damage restoration, emergency water removal, flood damage, burst pipe or leak cleanup, sewage cleanup, fire damage, smoke damage, storm damage, emergency board-up or tarping, biohazard or trauma cleanup, and emergency plumbing when the client is licensed for plumbing.
+
+- The planner already leads the title and H1 with "24/7 Emergency" (brand Hours say 24/7) or "Emergency" (otherwise). Never write "Emergency Emergency".
+- Open body_markdown with ONE short emergency-response line: a bold hook ("**Water damage emergency in {city}?**") plus a call to act. Write "We answer 24/7" only when the brand's Hours say 24/7; otherwise write "Call now for emergency service" with no after-hours promise. Give an on-site time only when the brand block provides response minutes; otherwise no number. (A post-render step inserts this line when the opening paragraph has none.)
+- "Emergency" without "24/7" is allowed for urgent services even when Hours are blank. It is NOT allowed when the Hours are explicit business hours (e.g. Mon-Fri 8-5).
+- Never add emergency framing to non-urgent services: mold inspection or remediation, remodeling, carpet or upholstery cleaning, air duct cleaning, general contracting, testing, insurance help.

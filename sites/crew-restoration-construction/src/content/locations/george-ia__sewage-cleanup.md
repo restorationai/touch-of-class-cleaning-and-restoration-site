@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in George, IA | Crew Restoration & Construction"
-h1: "Sewage Cleanup and Sanitization in George"
-meta_description: "Sewage cleanup and sanitization in George, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Sewage Cleanup and Sanitization in George, IA | Crew Restoration & Construction"
+h1: "Emergency Sewage Cleanup and Sanitization in George"
+meta_description: "Emergency sewage cleanup and sanitization in George, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "sewage cleanup and sanitization george"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in George? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows in George, the mess doesn't stay contained for long. Northwest Iowa's clay-heavy soils don't drain quickly, and in a tight-knit Lyon County farm town like this one, a sewage event in a basement can saturate the surrounding ground and migrate toward neighboring properties before most homeowners even realize the source. Crew Restoration & Construction responds to sewage backup and raw sewage removal calls in and around George, 51237, handling extraction, disinfection, and structural drying so the contamination doesn't compound into a larger remediation problem.
 
 ## Why George Properties See Sewage Backup More Than You'd Expect

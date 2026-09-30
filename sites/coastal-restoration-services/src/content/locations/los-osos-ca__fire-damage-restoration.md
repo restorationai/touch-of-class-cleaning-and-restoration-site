@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Los Osos, CA | Coastal Restoration Services Inc"
-h1: "Fire Damage Restoration in Los Osos"
-meta_description: "Fire damage restoration in Los Osos, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Fire Damage Restoration in Los Osos, CA | Coastal Restoration Services Inc"
+h1: "Emergency Fire Damage Restoration in Los Osos"
+meta_description: "Emergency fire damage restoration in Los Osos, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "fire damage restoration los osos"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Los Osos? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Los Osos sits at the edge of Morro Bay's estuary, where marine air rolls in off the Pacific nearly every afternoon and fog lingers well into summer mornings. That coastal humidity doesn't stop a house fire, but it does complicate what happens after one. Smoke residue absorbs moisture from the salt air and becomes stickier and more corrosive than it would in a drier inland climate, and structural materials that were already cycling through wet-dry seasons can behave unpredictably once heat damage enters the picture. When fire touches a home here, the clock on secondary damage starts running fast.
 
 ## Why Los Osos Properties Face Particular Challenges After a Fire

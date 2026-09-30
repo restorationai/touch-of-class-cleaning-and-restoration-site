@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Heater Flood Cleanup in Bluffdale, UT | FIX Restoration"
-h1: "Water Heater Flood Cleanup in Bluffdale"
-meta_description: "Water heater flood cleanup in Bluffdale, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Heater Flood Cleanup in Bluffdale, UT | FIX Restoration"
+h1: "Emergency Water Heater Flood Cleanup in Bluffdale"
+meta_description: "Emergency water heater flood cleanup in Bluffdale, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water heater flood cleanup bluffdale"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"

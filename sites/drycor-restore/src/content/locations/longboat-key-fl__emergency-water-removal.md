@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Longboat Key, FL | DRYCOR RESTORE"
-h1: "Emergency Water Removal & Cleanup in Longboat Key"
+title: "24/7 Emergency Water Removal & Cleanup in Longboat Key, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Water Removal & Cleanup in Longboat Key"
 meta_description: "24/7 emergency water removal and cleanup in Longboat Key, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "emergency water removal longboat key"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

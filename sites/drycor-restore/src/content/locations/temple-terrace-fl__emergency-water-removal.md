@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Temple Terrace, FL | DRYCOR RESTORE"
-h1: "Emergency Water Removal & Cleanup in Temple Terrace"
+title: "24/7 Emergency Water Removal & Cleanup in Temple Terrace, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Water Removal & Cleanup in Temple Terrace"
 meta_description: "24/7 emergency water removal and cleanup in Temple Terrace, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "emergency water removal temple terrace"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Temple Terrace? We answer 24/7.** Call now and our crew heads out to extract the water and start drying.
+
 Temple Terrace sits in one of the wettest corridors in the continental United States, and the city's combination of sandy loam soils, a high water table, and a housing stock that spans mid-century concrete block to newer wood-frame construction creates conditions where water damage can escalate faster than almost anywhere else in Hillsborough County. When a pipe fails, a roof seam gives way during a summer thunderstorm, or an appliance line lets go overnight, the moisture doesn't just pool, it wicks into block walls, saturates slab edges, and begins working on your flooring within the first hour. DRYCOR RESTORE responds 24/7 with emergency water removal and can be reached at (813) 829-1091.
 
 ## Why Temple Terrace Properties See Water Damage Issues

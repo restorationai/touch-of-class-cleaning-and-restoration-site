@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in State Line, MS | HomeLyft Restoration MS"
-h1: "Biohazard Cleanup in State Line"
-meta_description: "Biohazard cleanup in State Line, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Biohazard Cleanup in State Line, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Biohazard Cleanup in State Line"
+meta_description: "24/7 emergency biohazard cleanup in State Line, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "biohazard cleanup state line"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

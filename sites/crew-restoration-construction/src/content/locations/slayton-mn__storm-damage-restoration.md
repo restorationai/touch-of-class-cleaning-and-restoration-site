@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Slayton, MN | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Slayton"
-meta_description: "Storm damage restoration in Slayton, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Slayton, MN | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Slayton"
+meta_description: "Emergency storm damage restoration in Slayton, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration slayton"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Slayton? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 When a severe storm rolls across the open prairie of Murray County, Slayton absorbs the full force of it, there's no tree line or hill to slow a line of thunderstorms moving northeast off the South Dakota border. Hail the size of quarters, straight-line winds topping 70 mph, and the occasional tornado touchdown are not rare events here; they're a seasonal reality that leaves roofs torn open, siding stripped, and basements filling with water faster than a sump pump can keep up. Crew Restoration & Construction responds to storm damage throughout the 56172 area, from properties near the Lake Sarah shoreline to older homes a block off the Murray County Courthouse square.
 
 ## Why Slayton Properties See Repeated Storm Damage

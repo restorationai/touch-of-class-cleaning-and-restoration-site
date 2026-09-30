@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Rawls Springs, MS | HomeLyft Restoration MS"
-h1: "Fire Damage Restoration in Rawls Springs"
-meta_description: "Fire damage restoration in Rawls Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Fire Damage Restoration in Rawls Springs, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Fire Damage Restoration in Rawls Springs"
+meta_description: "24/7 emergency fire damage restoration in Rawls Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "fire damage restoration rawls springs"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Rawls Springs? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Fire moves fast, and in Rawls Springs, where older wood-frame homes sit close together on wooded lots and summer heat can turn a kitchen fire into a whole-structure event before the first truck arrives, the hours immediately after the flames are out are just as critical as the fire itself. Smoke infiltrates wall cavities, soot settles into HVAC systems, and the humidity that defines a Mississippi summer begins reactivating odor compounds within a day. Getting a structured, certified restoration process started quickly is what separates a home that recovers fully from one that carries the smell and the staining for years.
 
 ## Why Rawls Springs Properties Face Particular Fire Damage Challenges

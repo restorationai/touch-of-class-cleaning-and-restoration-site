@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Ridgewood, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Ridgewood"
-meta_description: "24/7 smoke damage restoration in Ridgewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Ridgewood, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Ridgewood"
+meta_description: "24/7 emergency smoke damage restoration in Ridgewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration ridgewood"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Ridgewood? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 A kitchen fire that's out in twenty minutes can leave smoke residue working its way into plaster for weeks. In Ridgewood's older Victorians and Tudors, the kind that line the streets off Van Neste Square and deep into the Old Country Club neighborhood, that's not a hypothetical. Horsehair plaster, original woodwork, and decades of layered paint create a porous matrix that traps smoke particles and odor compounds far more aggressively than modern drywall. When the fire department clears your property, the visible char is the easy part. The invisible chemistry is what requires professional intervention.
 
 ## Why Ridgewood Homes Are Especially Vulnerable to Smoke Damage

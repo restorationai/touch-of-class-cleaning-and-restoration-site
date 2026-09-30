@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Fort Lee, NJ | The Restoration Group"
-h1: "Fire Damage Restoration in Fort Lee"
-meta_description: "24/7 fire damage restoration in Fort Lee, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Fire Damage Restoration in Fort Lee, NJ | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in Fort Lee"
+meta_description: "24/7 emergency fire damage restoration in Fort Lee, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "fire damage restoration fort lee"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Fort Lee? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and start the recovery.
+
 Fort Lee's skyline is defined by high-rise towers stacked along the Palisades edge, and when fire breaks out in one of those buildings, or in one of the older wood-frame homes tucked into Coytesville or The Hill, the damage rarely stays contained to a single unit. Smoke travels through shared HVAC shafts, soot settles on surfaces two floors away from the origin, and the water used to knock down the flames soaks into concrete cores and plaster walls that were built to last a century. If you're dealing with that right now in Fort Lee (07024), the steps you take in the first 24 to 48 hours determine how much of your property can be saved.
 
 ## Why Fort Lee Properties See Distinct Fire Damage Challenges

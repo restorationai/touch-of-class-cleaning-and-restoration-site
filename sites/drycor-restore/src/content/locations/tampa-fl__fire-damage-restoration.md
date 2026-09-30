@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Tampa, FL | DRYCOR RESTORE"
-h1: "Fire Damage Restoration in Tampa"
-meta_description: "24/7 fire damage restoration in Tampa, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "24/7 Emergency Fire Damage Restoration in Tampa, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Fire Damage Restoration in Tampa"
+meta_description: "24/7 emergency fire damage restoration in Tampa, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "fire damage restoration tampa"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Tampa? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Tampa's heat and humidity don't stop when a fire does. Once the flames are out and the smoke settles, the subtropical climate immediately begins working against the structure, moisture from firefighting water, ambient humidity pushing into charred cavities, and Florida's near-daily summer storms threatening to compound the damage before restoration even begins. If you're dealing with fire damage in Tampa, the window to stabilize the structure and begin proper remediation is shorter here than in most of the country.
 
 ## Why Tampa Properties Face Compounding Challenges After a Fire

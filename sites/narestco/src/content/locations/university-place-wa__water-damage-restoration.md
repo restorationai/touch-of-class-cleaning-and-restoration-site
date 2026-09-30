@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in University Place, WA | National Restoration Construction"
-h1: "Water Damage Restoration in University Place"
-meta_description: "24/7 water damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "Emergency Water Damage Restoration in University Place, WA | National Restoration Construction"
+h1: "24/7 Emergency Water Damage Restoration in University Place"
+meta_description: "24/7 emergency water damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "water damage restoration university place"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in University Place? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 The crawl space under a 1960s rambler in Beckonridge doesn't announce a slow supply-line leak, it just quietly saturates the subfloor insulation over weeks until a homeowner notices a soft spot in the kitchen floor or a musty smell drifting up through the vents. That pattern, a gradual loss hidden inside aging original plumbing, is the most common water damage call National Restoration Construction handles in University Place. When you do call, whether it's that slow leak finally surfacing or a washing machine supply hose that let go at 2 a.m., our IICRC-certified crews are dispatched from Federal Way and can typically reach 98466 and 98467 addresses within 60 to 90 minutes.
 
 ## Why University Place Properties See Water Damage Differently

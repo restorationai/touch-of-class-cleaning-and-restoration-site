@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Leakesville, MS | HomeLyft Restoration MS"
-h1: "Storm Damage Restoration in Leakesville"
-meta_description: "Storm damage restoration in Leakesville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Storm Damage Restoration in Leakesville, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Storm Damage Restoration in Leakesville"
+meta_description: "24/7 emergency storm damage restoration in Leakesville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "storm damage restoration leakesville"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Leakesville? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Greene County sits in the heart of Mississippi's Piney Woods region, and Leakesville, the county seat, takes a direct hit from the same Gulf-fed storm systems that churn up from the south each spring and fall. When a squall line drops a pine tree across a roof on a Tuesday night or a tornado-warned cell tears through the area, the damage compounds fast: saturated insulation, buckled sheathing, and water tracking into wall cavities before the rain even stops. HomeLyft Restoration MS responds to storm damage calls across Leakesville and the surrounding Greene County communities, bringing certified crews and industrial equipment to properties that can't afford to wait.
 
 ## Why Leakesville Properties See Serious Storm Damage

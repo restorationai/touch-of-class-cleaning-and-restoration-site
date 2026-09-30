@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Riverside, CA | Dry County Restoration"
-h1: "Basement Flooding Cleanup in Riverside"
-meta_description: "24/7 basement flooding cleanup in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "24/7 Emergency Basement Flooding Cleanup in Riverside, CA | Dry County Restoration"
+h1: "24/7 Emergency Basement Flooding Cleanup in Riverside"
+meta_description: "24/7 emergency basement flooding cleanup in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "basement flooding cleanup riverside"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"

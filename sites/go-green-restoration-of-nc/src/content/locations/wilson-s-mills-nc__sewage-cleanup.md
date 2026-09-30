@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Wilson's Mills, NC | Go Green Restoration of NC"
-h1: "Sewage Cleanup and Sanitization in Wilson's Mills"
-meta_description: "24/7 sewage cleanup and sanitization in Wilson's Mills, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "Emergency Sewage Cleanup and Sanitization in Wilson's Mills | Go Green Restoration of NC"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Wilson's Mills"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Wilson's Mills, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "sewage cleanup and sanitization wilson's mills"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

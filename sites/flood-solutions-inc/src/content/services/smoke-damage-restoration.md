@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Smoke Damage Restoration in Macomb | Flood Solutions inc"
-h1: "Smoke Damage Restoration in Macomb"
-meta_description: "Smoke damage restoration in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Smoke Damage Restoration in Macomb | Flood Solutions inc"
+h1: "Emergency Smoke Damage Restoration in Macomb"
+meta_description: "Emergency smoke damage restoration in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "smoke damage restoration macomb"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "smoke-damage-restoration"
 service_display: "smoke-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Macomb? Call now for emergency service.** Our crew responds fast to stop smoke and soot damage from spreading.
+
 ## The smell that won't leave, and the damage you can't always see
 
 Smoke from a house fire doesn't stop moving when the flames go out. Within hours, acidic soot particles migrate through HVAC ducts, settle into wall cavities, and bond chemically to painted surfaces, fabrics, and wood grain. The visible char is only part of the problem. The oily film coating your kitchen cabinets, the sharp odor embedded in closet clothing three rooms from the fire, the discoloration creeping across ceiling drywall, those are the signatures of smoke damage, and they get harder to reverse the longer they sit.

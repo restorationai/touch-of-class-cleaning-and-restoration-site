@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Lehi, UT | Home Pride Restoration and Cleaning"
-h1: "Storm Damage Restoration in Lehi"
-meta_description: "24/7 storm damage restoration in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Storm Damage Restoration in Lehi, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Storm Damage Restoration in Lehi"
+meta_description: "24/7 emergency storm damage restoration in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "storm damage restoration lehi"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Lehi? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Lehi sits in a corridor where the Wasatch Front's elevation changes meet Utah Lake's moisture, and that combination turns routine spring and summer storms into something more destructive than most residents expect. Hail the size of marbles can strip composite shingles down to felt paper in under ten minutes, and the microbursts that funnel through the Point of the Mountain gap routinely push gusts past 70 mph, enough to drive rain sideways under ridge caps and send mature cottonwoods into rooflines. When that happens, the clock starts immediately.
 
 ## Why Lehi Properties See Serious Storm Damage

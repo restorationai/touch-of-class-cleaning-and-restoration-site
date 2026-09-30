@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Appliance Leak Cleanup in Bakersfield | ProRestoration Services"
-h1: "Appliance Leak Cleanup in Bakersfield"
-meta_description: "24/7 appliance leak cleanup in Bakersfield and surrounding areas. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Appliance Leak Cleanup in Bakersfield | ProRestoration Services"
+h1: "24/7 Emergency Appliance Leak Cleanup in Bakersfield"
+meta_description: "24/7 emergency appliance leak cleanup in Bakersfield and surrounding areas. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "appliance leak cleanup bakersfield"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "appliance-leak-cleanup"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Bakersfield? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A slow drip behind the refrigerator. A washing machine supply line that let go overnight. A water heater that quietly pooled for days before anyone noticed the soft spot in the drywall. Appliance leaks are deceptive, the source is often small, the visible damage looks manageable, and the real destruction is already happening inside the wall cavity or under the subfloor. Bakersfield's older housing stock, much of it built on slab foundations with tight utility alcoves, gives water almost nowhere to go except sideways into adjacent framing and flooring.
 
 ## What Appliance Leak Cleanup actually involves

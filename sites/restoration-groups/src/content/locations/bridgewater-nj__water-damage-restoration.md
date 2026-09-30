@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Bridgewater, NJ | The Restoration Group"
-h1: "Water Damage Restoration in Bridgewater"
-meta_description: "24/7 water damage restoration in Bridgewater, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Water Damage Restoration in Bridgewater, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Damage Restoration in Bridgewater"
+meta_description: "24/7 emergency water damage restoration in Bridgewater, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "water damage restoration bridgewater"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Bridgewater? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start drying your property.
+
 The Raritan River and its tributaries don't forgive slowly. When Ida dropped seven inches of rain on Somerset County in September 2021, the Finderne flats and the low-lying streets near Bound Brook were underwater within hours, and many of the split-levels and postwar ranches that define Bridgewater's older tracts were left with standing water in finished basements, saturated framing, and the clock already ticking on mold colonization. If you're dealing with water damage in Bridgewater right now, the window to prevent secondary damage is measured in hours, not days.
 
 ## Why Bridgewater Properties Are Especially Vulnerable to Water Damage

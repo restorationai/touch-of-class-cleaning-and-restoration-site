@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Herriman, UT | Home Pride Restoration and Cleaning"
-h1: "Emergency Board-Up and Tarping in Herriman"
+title: "24/7 Emergency Board-Up and Tarping in Herriman, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Board-Up and Tarping in Herriman"
 meta_description: "24/7 emergency board-up and tarping in Herriman, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "emergency board-up and tarping herriman"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

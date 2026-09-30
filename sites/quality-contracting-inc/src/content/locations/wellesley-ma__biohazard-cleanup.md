@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Wellesley, MA | Quality Contracting, Inc."
-h1: "Biohazard Cleanup in Wellesley"
-meta_description: "Biohazard cleanup in Wellesley, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Biohazard Cleanup in Wellesley, MA | Quality Contracting, Inc."
+h1: "Emergency Biohazard Cleanup in Wellesley"
+meta_description: "Emergency biohazard cleanup in Wellesley, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "biohazard cleanup wellesley"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Wellesley? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Wellesley is a town that values privacy, and when a biohazard situation arises, whether in one of its gracious older colonials, a multi-family rental near the commuter rail, or a commercial property along Route 9, the last thing a family or property manager needs is an impersonal, slow response. Quality Contracting, Inc. handles biohazard cleanup in Wellesley with the discretion and thoroughness the situation demands: unmarked vehicles, contained work areas, and proper disposal through licensed channels, so the property can be safely returned to use.
 
 ## Why Wellesley Properties Present Unique Biohazard Considerations

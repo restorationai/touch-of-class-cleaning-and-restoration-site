@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Zelienople, PA | FireDEX Butler"
-h1: "Sewage Cleanup and Sanitization in Zelienople"
-meta_description: "24/7 sewage cleanup and sanitization in Zelienople, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "Emergency Sewage Cleanup and Sanitization in Zelienople, PA | FireDEX Butler"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Zelienople"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Zelienople, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "sewage cleanup and sanitization zelienople"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

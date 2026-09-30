@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Dunedin, FL | DRYCOR RESTORE"
-h1: "Emergency Board-Up and Tarping in Dunedin"
+title: "24/7 Emergency Board-Up and Tarping in Dunedin, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Board-Up and Tarping in Dunedin"
 meta_description: "24/7 emergency board-up and tarping in Dunedin, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "emergency board-up and tarping dunedin"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Tehachapi, CA | ProRestoration Services"
-h1: "Storm Damage Restoration in Tehachapi"
-meta_description: "24/7 storm damage restoration in Tehachapi, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Storm Damage Restoration in Tehachapi, CA | ProRestoration Services"
+h1: "24/7 Emergency Storm Damage Restoration in Tehachapi"
+meta_description: "24/7 emergency storm damage restoration in Tehachapi, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "storm damage restoration tehachapi"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Tehachapi? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Tehachapi sits at roughly 4,000 feet in the Tehachapi Mountains, and the storms that roll through here are nothing like what hits the valley floor in Bakersfield. A single winter system can drop wet, heavy snow on rooftops, drive 60-mph gusts through the Tehachapi Pass corridor, and leave behind standing water in crawl spaces before temperatures drop again overnight and freeze whatever moisture remains. When that happens to your home or rental property, the damage compounds fast, and the window to stop it from getting worse is measured in hours, not days.
 
 ## Why Tehachapi Properties Face Distinct Storm Damage Risks

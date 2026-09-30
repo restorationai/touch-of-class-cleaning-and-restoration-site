@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Avon, MN | Heritage Restoration LLC"
-h1: "Water Damage Restoration in Avon"
-meta_description: "Water damage restoration in Avon, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in Avon, MN | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in Avon"
+meta_description: "Emergency water damage restoration in Avon, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration avon"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Avon? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Avon sits in Stearns County where the continental climate swings hard: deep freezes that push frost well below the slab, spring snowmelt that saturates the ground before storm drains can keep up, and summer thunderstorms that overwhelm sump pits in a matter of minutes. When water finds its way into a home here, whether through a burst supply line, a failed sump pump, or a slow roof leak that finally soaks through the ceiling, the cold-season moisture already trapped in building materials makes drying measurably harder than it would be in a warmer climate. Heritage Restoration LLC responds to water damage calls in Avon with IICRC-certified technicians trained specifically in structural drying, water extraction, and water mitigation for exactly these conditions.
 
 ## Why Avon Properties See Water Damage Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Waianae, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in Waianae"
-meta_description: "24/7 flood damage restoration in Waianae, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "24/7 Emergency Flood Damage Restoration in Waianae, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in Waianae"
+meta_description: "24/7 emergency flood damage restoration in Waianae, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "flood damage restoration waianae"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Waianae? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Waianae sits on the driest side of Oahu, but that reputation is misleading when a flash flood rolls down the Waianae Range. The steep, largely impermeable slopes above the coast funnel rain into the valley floor with little warning, and homes built close to the stream corridors can take on water faster than any sump pump can manage. When floodwater enters a home here, it carries red laterite soil, debris from the upper slopes, and whatever the drainage channels couldn't hold. That combination creates a cleanup problem that is meaningfully different from a simple pipe burst.
 
 ## Why Waianae Properties Are Vulnerable to Flood Damage

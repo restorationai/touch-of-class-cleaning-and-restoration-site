@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Bellevue, WA | National Restoration Construction"
-h1: "Water Damage Restoration in Bellevue"
-meta_description: "24/7 water damage restoration in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Water Damage Restoration in Bellevue, WA | National Restoration Construction"
+h1: "24/7 Emergency Water Damage Restoration in Bellevue"
+meta_description: "24/7 emergency water damage restoration in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "water damage restoration bellevue"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Bellevue? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Standing water doesn't wait. Whether a supply line burst behind your kitchen cabinets, a storm pushed water through your basement windows, or a neighbor's unit flooded yours in a Bellevue high-rise, the clock starts the moment it happens. National Restoration Construction dispatches from Federal Way, typically 60 to 90 minutes from most Bellevue addresses, with truck-mounted extraction equipment ready to work before a second wave of damage sets in. If you can hear water moving under your floors or smell that first hint of dampness in the walls, that's your signal to act now.
 
 ## Why Bellevue Properties Are Vulnerable to Water Damage

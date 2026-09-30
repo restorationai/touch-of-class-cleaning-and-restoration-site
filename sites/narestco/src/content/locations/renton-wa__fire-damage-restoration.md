@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Renton, WA | National Restoration Construction"
-h1: "Fire Damage Restoration in Renton"
-meta_description: "24/7 fire damage restoration in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Fire Damage Restoration in Renton, WA | National Restoration Construction"
+h1: "24/7 Emergency Fire Damage Restoration in Renton"
+meta_description: "24/7 emergency fire damage restoration in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "fire damage restoration renton"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Renton? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 A house fire leaves behind more than charred walls. Within hours of the flames being out, smoke residue is already bonding to surfaces, soot is settling into HVAC ducts, and the water used to fight the fire is working its way under subfloors. If your home or building in Renton just went through a fire, the clock matters more than most people realize. National Restoration Construction has been responding to structural fire damage in the greater Seattle area since 2004, and our Federal Way headquarters puts us roughly 15 minutes from most Renton addresses, close enough to be on-site before secondary damage compounds the primary loss.
 
 ## Our Fire Damage Restoration Process in Renton

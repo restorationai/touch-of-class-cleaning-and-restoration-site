@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in St. Martin, MS | HomeLyft Restoration MS"
-h1: "Water Damage Restoration in St. Martin"
-meta_description: "Water damage restoration in St. Martin, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Water Damage Restoration in St. Martin, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Water Damage Restoration in St. Martin"
+meta_description: "24/7 emergency water damage restoration in St. Martin, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "water damage restoration st. martin"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in St. Martin? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 St. Martin sits in a low-lying pocket of Jackson County where Gulf Coast humidity never really lets up and the ground stays saturated for weeks after a heavy rain event. When a supply line bursts, a roof seam fails during a storm, or a washing machine hose lets go, that moisture doesn't just sit on the surface, it wicks into subfloor sheathing, travels behind baseboards, and starts feeding mold colonies within 24 to 48 hours. HomeLyft Restoration MS responds to water damage calls throughout St. Martin and the surrounding Jackson County communities, bringing IICRC-certified water removal and structural drying crews from our Gulfport base to your door as quickly as scheduling allows.
 
 ## Why St. Martin Properties Face Persistent Water Damage Risks

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in Middlesex | Go Green Restoration of NC"
-h1: "Water Damage Restoration in Middlesex"
-meta_description: "Water damage restoration in Middlesex and surrounding areas. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Water Damage Restoration in Middlesex | Go Green Restoration of NC"
+h1: "24/7 Emergency Water Damage Restoration in Middlesex"
+meta_description: "24/7 emergency water damage restoration in Middlesex and surrounding areas. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "water damage restoration middlesex"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Middlesex? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 You notice it first as a soft give underfoot, the subfloor has absorbed water you didn't know was there. Or maybe it's the low hum of water trickling behind drywall after a supply line let go at 2 a.m. Water damage rarely announces itself cleanly. By the time it's visible, moisture has often been migrating through wall cavities, insulation, and framing for hours. The window to stop secondary damage, swelling, delamination, and mold colonization, which can begin within 24 to 48 hours of saturation, is narrow.
 
 ## What Water Damage Restoration actually involves

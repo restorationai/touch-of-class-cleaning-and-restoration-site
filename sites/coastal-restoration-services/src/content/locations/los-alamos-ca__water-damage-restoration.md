@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Los Alamos, CA | Coastal Restoration Services Inc"
-h1: "Water Damage Restoration in Los Alamos"
-meta_description: "Water damage restoration in Los Alamos, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Water Damage Restoration in Los Alamos, CA | Coastal Restoration Services Inc"
+h1: "Emergency Water Damage Restoration in Los Alamos"
+meta_description: "Emergency water damage restoration in Los Alamos, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "water damage restoration los alamos"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Los Alamos? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Los Alamos sits in the Santa Ynez Valley where marine air funnels inland through the Transverse Ranges, keeping humidity higher than most of Santa Barbara County expects. That persistent moisture, combined with the town's older agricultural-era building stock, means a burst pipe or a slow roof leak doesn't just wet a floor. It saturates wall cavities and subfloor assemblies that were never designed with modern vapor barriers, and mold can begin colonizing within 24 to 48 hours of the initial event. When water gets into a Los Alamos home, the clock starts immediately. Coastal Restoration Services Inc, based in Vandenberg Village, responds to water damage calls throughout the area and works to stop the damage before it compounds.
 
 ## Why Los Alamos Properties See Water Damage Issues

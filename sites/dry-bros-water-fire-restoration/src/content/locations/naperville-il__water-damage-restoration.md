@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Naperville, IL | Dry Bros Water & Fire Restoration"
-h1: "Water Damage Restoration in Naperville"
-meta_description: "Water damage restoration in Naperville, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Water Damage Restoration in Naperville, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Naperville"
+meta_description: "24/7 emergency water damage restoration in Naperville, IL. Insurance billing accepted. Call us now."
 primary_keyword: "water damage restoration naperville"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Naperville? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Naperville sits in the DuPage County lowlands where clay-heavy soils slow drainage and back-to-back spring storms can overwhelm even well-maintained sump systems. When water finds its way into a finished basement or behind the drywall of a newer subdivision home, the clock starts immediately, mold colonization can begin in as little as 24 to 48 hours, and saturated engineered flooring can buckle within a day. Dry Bros Water & Fire Restoration responds to water damage calls across Naperville, moving quickly from inspection through structural drying so the damage stops where it started.
 
 ## Why Naperville Properties See Water Damage Issues

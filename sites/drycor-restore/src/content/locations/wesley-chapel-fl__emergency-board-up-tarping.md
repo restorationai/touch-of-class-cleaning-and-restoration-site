@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Wesley Chapel, FL | DRYCOR RESTORE"
-h1: "Emergency Board-Up and Tarping in Wesley Chapel"
+title: "24/7 Emergency Board-Up and Tarping in Wesley Chapel, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Board-Up and Tarping in Wesley Chapel"
 meta_description: "24/7 emergency board-up and tarping in Wesley Chapel, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "emergency board-up and tarping wesley chapel"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Wesley Chapel? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Wesley Chapel's rapid growth has brought thousands of new homes and townhomes online in a short span of years, but Florida's hurricane season doesn't care how recently a roof was installed. When a fast-moving storm tears off shingles, a fire punches through a wall, or a vehicle strikes a garage door at midnight, the window between the damage event and the next rain band closing in can be measured in hours. That's when a secured opening and a properly installed tarp become the difference between a manageable repair and a gutted interior.
 
 ## Why Wesley Chapel Properties Face Elevated Board-Up and Tarping Risk

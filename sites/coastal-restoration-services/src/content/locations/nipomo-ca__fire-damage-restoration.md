@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Nipomo, CA | Coastal Restoration Services Inc"
-h1: "Fire Damage Restoration in Nipomo"
-meta_description: "Fire damage restoration in Nipomo, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Fire Damage Restoration in Nipomo, CA | Coastal Restoration Services Inc"
+h1: "Emergency Fire Damage Restoration in Nipomo"
+meta_description: "Emergency fire damage restoration in Nipomo, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "fire damage restoration nipomo"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Nipomo? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Nipomo sits in a transitional zone between the coast and the inland valleys of San Luis Obispo County, where dry Santa Ana-adjacent wind events can push a small fire through a wood-frame home faster than most homeowners expect. When that happens, a kitchen fire that climbs into the attic, a garage fire that chars the wall framing behind the drywall, the damage you can see is rarely the full picture. Smoke infiltrates HVAC systems, soot settles into insulation, and the acrid odor of burned cellulose and synthetic materials can persist for months if the cleanup isn't done right the first time.
 
 ## Why Nipomo Properties Face Particular Fire Risks

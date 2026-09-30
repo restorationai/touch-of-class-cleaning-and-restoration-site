@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Flood Damage Restoration in Davie | RestorationXpress "
-h1: "Flood Damage Restoration in Davie"
-meta_description: "Flood damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 932-5420."
+title: "Emergency Flood Damage Restoration in Davie | RestorationXpress "
+h1: "Emergency Flood Damage Restoration in Davie"
+meta_description: "Emergency flood damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "flood damage restoration davie"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "flood-damage-restoration"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Davie? Call now for emergency service.** Our crew responds fast to pump out the water and stop the damage from spreading.
+
 Standing water doesn't wait. Within the first hour after a flood, it migrates under baseboards, wicks into drywall, and begins saturating subfloor assemblies in ways that aren't visible from the surface. Within 24 to 48 hours, that hidden moisture becomes the foundation for mold colonization. Flood damage restoration is a race against that clock, and the margin between a contained loss and a gut-renovation is almost always determined by what happens in the first few hours on-site.
 
 ## What flood damage restoration actually involves

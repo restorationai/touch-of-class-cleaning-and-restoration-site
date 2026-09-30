@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Big Point, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Big Point"
-meta_description: "Sewage cleanup and sanitization in Big Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "Emergency Sewage Cleanup and Sanitization in Big Point, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Big Point"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Big Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization big point"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Big Point? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Big Point sits in Jackson County where the soil is a mix of sandy loam and clay-heavy subsoil, a combination that drains poorly after heavy Gulf Coast rainfall and puts real pressure on aging septic systems and sewer laterals. When a line backs up here, raw sewage doesn't just pool in a bathroom; it wicks into subfloor wood, saturates crawl space insulation, and begins producing harmful pathogens within hours. HomeLyft Restoration MS responds to sewage backup and septic overflow calls throughout the Big Point area, bringing industrial extraction, EPA-registered disinfectants, and IICRC-certified drying protocols to properties that need more than a mop and a prayer.
 
 ## Why Big Point Properties See Sewage Backup Issues

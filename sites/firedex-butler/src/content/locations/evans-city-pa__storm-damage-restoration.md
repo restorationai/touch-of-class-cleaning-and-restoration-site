@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Evans City, PA | FireDEX Butler"
-h1: "Storm Damage Restoration in Evans City"
-meta_description: "24/7 storm damage restoration in Evans City, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Storm Damage Restoration in Evans City, PA | FireDEX Butler"
+h1: "24/7 Emergency Storm Damage Restoration in Evans City"
+meta_description: "24/7 emergency storm damage restoration in Evans City, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "storm damage restoration evans city"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Evans City? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 When a line of severe thunderstorms rolls through the Breakneck Creek valley, Evans City takes the hit differently than the surrounding townships. The creek-valley topography funnels runoff fast, cloudburst summers can push water into the low blocks near Breakneck Creek within minutes, while the same storm leaves higher ground mostly dry. Add the borough's largely pre-1950 frame homes with stone and block foundations, undersized sumps, and original drain lines, and a single hard storm can mean simultaneous roof damage, basement flooding, and structural stress all at once. FireDEX Butler has been responding to exactly that combination since 1981, and our team is available around the clock at (724) 452-7400.
 
 ## Why Evans City Properties See Concentrated Storm Damage

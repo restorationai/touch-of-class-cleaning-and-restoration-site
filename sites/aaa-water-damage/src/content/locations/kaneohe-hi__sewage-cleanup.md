@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Kaneohe, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Sewage Cleanup and Sanitization in Kaneohe"
-meta_description: "24/7 sewage cleanup and sanitization in Kaneohe, HI. Call (808) 349-3407."
+title: "Emergency Sewage Cleanup and Sanitization in Kaneohe, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Kaneohe"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Kaneohe, HI. Call (808) 349-3407."
 primary_keyword: "sewage cleanup and sanitization kaneohe"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Kaneohe? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows in Kaneohe, the problem compounds fast. The windward side of the Koʻolau Range delivers some of the highest rainfall on Oʻahu directly into Kaneohe's valleys, and saturated soil has nowhere to go, it pushes against aging lateral lines, overwhelms septic drain fields, and forces raw sewage back through floor drains and toilets before most homeowners realize what's happening. If you're dealing with that smell right now, the unmistakable, sulfuric odor of black water soaking into subfloor or carpet, call (808) 349-3407. We respond around the clock.
 
 ## Why Kaneohe Properties See Sewage Backup More Often Than You'd Expect

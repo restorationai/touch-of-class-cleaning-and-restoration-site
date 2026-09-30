@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Eagle Mountain, UT | Home Pride Restoration and Cleaning"
-h1: "Storm Damage Restoration in Eagle Mountain"
-meta_description: "24/7 storm damage restoration in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "Emergency Storm Damage Restoration in Eagle Mountain, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Storm Damage Restoration in Eagle Mountain"
+meta_description: "24/7 emergency storm damage restoration in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "storm damage restoration eagle mountain"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Eagle Mountain? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Eagle Mountain sits at roughly 4,900 feet on the western bench of Utah County, where fast-moving storm cells rolling off the Oquirrh Mountains can drop golf ball–sized hail, snap mature trees, and leave standing water in finished basements within the same hour. When that happens, the clock starts immediately, wet insulation begins to compress and lose R-value within hours, and saturated OSB sheathing in the newer construction that dominates Eagle Mountain's subdivisions can begin to delaminate before the rain even stops. Home Pride Restoration and Cleaning has been responding to those calls since 1997, and our Saratoga Springs headquarters puts us minutes from the communities most likely to take a hit.
 
 ## Why Eagle Mountain Properties Are Especially Vulnerable to Storm Damage

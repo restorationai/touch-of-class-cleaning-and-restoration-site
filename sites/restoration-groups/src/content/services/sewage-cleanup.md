@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Sewage Cleanup and Sanitization in Kenilworth | The Restoration Group"
-h1: "Sewage Cleanup and Sanitization in Kenilworth"
-meta_description: "24/7 sewage cleanup and sanitization in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Kenilworth | The Restoration Group"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Kenilworth"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "sewage cleanup and sanitization kenilworth"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Kenilworth? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows, what comes up with the water is classified as Category 3, the most contaminated water class in restoration. It carries bacteria, viruses, and parasites that can colonize porous building materials within hours. The smell hits first, usually a sharp sulfur-and-ammonia combination that seeps into drywall and subfloor long after the visible waste is gone. Standard wet-vac extraction and a bottle of bleach won't reach what's already migrating into the structure. That's the job this service exists to do.
 
 ## What sewage cleanup and sanitization actually involves

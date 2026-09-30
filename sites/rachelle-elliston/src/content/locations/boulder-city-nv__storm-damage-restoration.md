@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Boulder City, NV | Desert Valley Contracting Inc "
-h1: "Storm Damage Restoration in Boulder City"
-meta_description: "24/7 storm damage restoration in Boulder City, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+title: "24/7 Emergency Storm Damage Restoration in Boulder City, NV | Desert Valley Contracting Inc "
+h1: "24/7 Emergency Storm Damage Restoration in Boulder City"
+meta_description: "24/7 emergency storm damage restoration in Boulder City, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "storm damage restoration boulder city"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

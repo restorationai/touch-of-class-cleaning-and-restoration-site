@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Cedar Hills, UT | Home Pride Restoration and Cleaning"
-h1: "Water Damage Restoration in Cedar Hills"
-meta_description: "24/7 water damage restoration in Cedar Hills, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Water Damage Restoration in Cedar Hills, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Water Damage Restoration in Cedar Hills"
+meta_description: "24/7 emergency water damage restoration in Cedar Hills, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "water damage restoration cedar hills"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Bluffdale, UT | FIX Restoration"
-h1: "Biohazard Cleanup in Bluffdale"
-meta_description: "Biohazard cleanup in Bluffdale, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Biohazard Cleanup in Bluffdale, UT | FIX Restoration"
+h1: "Emergency Biohazard Cleanup in Bluffdale"
+meta_description: "Emergency biohazard cleanup in Bluffdale, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "biohazard cleanup bluffdale"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

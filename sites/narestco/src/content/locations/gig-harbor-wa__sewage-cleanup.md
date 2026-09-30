@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Gig Harbor, WA | National Restoration Construction"
-h1: "Sewage Cleanup and Sanitization in Gig Harbor"
-meta_description: "24/7 sewage cleanup and sanitization in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "Emergency Sewage Cleanup and Sanitization in Gig Harbor, WA | National Restoration Construction"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Gig Harbor"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "sewage cleanup and sanitization gig harbor"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Gig Harbor? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 The smell hits before the water is even visible, that sulfurous, unmistakable odor of raw sewage backing up through a floor drain or toilet. In Gig Harbor, where many of the older cottages and fishing-era bungalows in Harborview and Millville were built on vented crawl spaces that already trap ground moisture from the marine climate, a sewer line backup doesn't stay contained for long. Contaminated water wicks into subflooring, saturates crawl-space insulation, and begins breaking down organic material within hours. When that happens, the window to protect your home, and your family, is short.
 
 ## Why Gig Harbor Properties See Sewage Backup More Often Than You'd Expect

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Unattended Death Cleanup in Gig Harbor, WA | National Restoration Construction"
-h1: "Unattended Death Cleanup in Gig Harbor"
-meta_description: "24/7 unattended death cleanup in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Unattended Death Cleanup in Gig Harbor, WA | National Restoration Construction"
+h1: "24/7 Emergency Unattended Death Cleanup in Gig Harbor"
+meta_description: "24/7 emergency unattended death cleanup in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "unattended death cleanup gig harbor"
 secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased estate cleanup", "odor removal after death", "discreet death cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Unattended Death Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Gig Harbor? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Gig Harbor's maritime climate doesn't forgive delay. When an unattended death occurs in one of the older cottages along Harborview Drive or in a fishing-era bungalow in Millville, the combination of persistent marine moisture and limited ventilation accelerates biological decomposition faster than it would in a drier inland climate. Families and property managers in these situations need a crew that understands both the sensitivity of the moment and the specific conditions of Peninsula homes, not a generic cleaning service dispatched from a call center.
 
 ## Why Gig Harbor's Housing Stock Complicates After-Death Cleanup

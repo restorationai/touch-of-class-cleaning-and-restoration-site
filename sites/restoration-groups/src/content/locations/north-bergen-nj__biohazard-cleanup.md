@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in North Bergen, NJ | The Restoration Group"
-h1: "Biohazard Cleanup in North Bergen"
-meta_description: "24/7 biohazard cleanup in North Bergen, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Biohazard Cleanup in North Bergen, NJ | The Restoration Group"
+h1: "24/7 Emergency Biohazard Cleanup in North Bergen"
+meta_description: "24/7 emergency biohazard cleanup in North Bergen, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "biohazard cleanup north bergen"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in North Bergen? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to handle the cleanup with discretion and care.
+
 North Bergen's density tells you something before you ever open a door. In a town where three-family walkups line hillside lots from the Bergenline corridor to the Woodcliff section, and where aging rental stock turns over constantly, the circumstances that require professional biohazard cleanup can arise with little warning, and in spaces where discretion matters as much as technical skill. When that call comes, the priority is getting the right team there quickly, working quietly, and leaving the property safe for whoever comes next.
 
 ## Why North Bergen Properties See Biohazard Situations More Often Than People Expect

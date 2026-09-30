@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Lucedale, MS | HomeLyft Restoration MS"
-h1: "Fire Damage Restoration in Lucedale"
-meta_description: "Fire damage restoration in Lucedale, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Fire Damage Restoration in Lucedale, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Fire Damage Restoration in Lucedale"
+meta_description: "24/7 emergency fire damage restoration in Lucedale, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "fire damage restoration lucedale"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Lucedale? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 A house fire in Lucedale hits differently than in a larger city, when the smoke clears, you're often dealing with older wood-frame construction, a limited local contractor pool, and the particular way that south Mississippi's humidity accelerates soot and smoke odor penetration into porous materials. The longer that acidic smoke residue sits against pine framing, drywall, and upholstery in George County's humid climate, the deeper it bonds, and the harder it becomes to reverse without professional fire and smoke restoration equipment.
 
 ## Why Lucedale Properties Are Vulnerable to Severe Fire Damage

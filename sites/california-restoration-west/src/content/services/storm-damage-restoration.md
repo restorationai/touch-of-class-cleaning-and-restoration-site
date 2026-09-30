@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Storm Damage Restoration in Ventura | California Restoration West "
-h1: "Storm Damage Restoration in Ventura"
-meta_description: "24/7 storm damage restoration in Ventura and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "24/7 Emergency Storm Damage Restoration in Ventura | California Restoration West "
+h1: "24/7 Emergency Storm Damage Restoration in Ventura"
+meta_description: "24/7 emergency storm damage restoration in Ventura and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "storm damage restoration ventura"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Ventura? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 After a Pacific storm rolls through Ventura County, the damage you can see, a cracked fence, scattered roof tiles, a downed tree limb, is rarely the whole story. Water finds its way behind stucco, under roofing felt, and into wall cavities before the clouds have cleared. Within 24 to 48 hours, saturated framing and insulation create exactly the conditions mold needs to take hold. Storm damage restoration is the work of stopping that chain reaction: securing the structure, extracting standing water, drying what's hidden, and repairing what's broken, in the right order, before secondary damage compounds the loss.
 
 ## What Storm Damage Restoration actually involves

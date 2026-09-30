@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Needham, MA | Quality Contracting, Inc."
-h1: "Water Damage Restoration in Needham"
-meta_description: "Water damage restoration in Needham, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Water Damage Restoration in Needham, MA | Quality Contracting, Inc."
+h1: "Emergency Water Damage Restoration in Needham"
+meta_description: "Emergency water damage restoration in Needham, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "water damage restoration needham"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Needham? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Needham sits in a part of eastern Massachusetts where the soil holds water stubbornly, glacial till and clay-heavy subsoil mean that when a pipe fails or a basement takes on water, the ground around your foundation stays saturated long after the visible water is gone. That slow drainage pattern, combined with Needham's large share of mid-century and older Colonial and Cape Cod homes, creates conditions where water damage can quietly advance behind plaster walls and under hardwood floors before a homeowner realizes the full extent of the problem. When you call Quality Contracting, Inc. at (508) 756-8800, you reach a crew that understands what water does in this specific kind of house, in this specific kind of ground.
 
 ## Why Needham Properties See Water Damage Issues

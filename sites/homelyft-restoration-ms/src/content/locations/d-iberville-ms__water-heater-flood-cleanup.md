@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Heater Flood Cleanup in D'Iberville, MS | HomeLyft Restoration MS"
-h1: "Water Heater Flood Cleanup in D'Iberville"
-meta_description: "24/7 water heater flood cleanup in D'Iberville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Water Heater Flood Cleanup in D'Iberville, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Water Heater Flood Cleanup in D'Iberville"
+meta_description: "24/7 emergency water heater flood cleanup in D'Iberville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "water heater flood cleanup d'iberville"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"

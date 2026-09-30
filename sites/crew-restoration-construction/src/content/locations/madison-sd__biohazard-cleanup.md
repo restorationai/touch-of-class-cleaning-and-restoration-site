@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Madison, SD | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Madison"
-meta_description: "Biohazard cleanup in Madison, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Madison, SD | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Madison"
+meta_description: "Emergency biohazard cleanup in Madison, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup madison"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Madison? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 When something unexpected and deeply difficult happens inside a home or property near Lake Herman or along the quiet streets of Downtown Madison, the last thing a family should have to manage is figuring out what comes next. Biohazard situations, whether involving blood, bodily fluids, sharps, or other infectious materials, require trained professionals who can respond with discretion, remove contaminated materials safely, and restore the space so it feels like a home again. Crew Restoration & Construction handles that process so you don't have to.
 
 ## Why Madison Properties Present Unique Biohazard Challenges

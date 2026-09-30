@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Canfield, OH | DISS Restoration"
-h1: "Emergency Water Removal & Cleanup in Canfield"
+title: "24/7 Emergency Water Removal & Cleanup in Canfield, OH | DISS Restoration"
+h1: "24/7 Emergency Water Removal & Cleanup in Canfield"
 meta_description: "24/7 emergency water removal and cleanup in Canfield, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "emergency water removal canfield"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

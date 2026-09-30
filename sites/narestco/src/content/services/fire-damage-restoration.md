@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Federal Way | National Restoration Construction"
-h1: "Fire Damage Restoration in Federal Way"
-meta_description: "24/7 fire damage restoration in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Fire Damage Restoration in Federal Way | National Restoration Construction"
+h1: "24/7 Emergency Fire Damage Restoration in Federal Way"
+meta_description: "24/7 emergency fire damage restoration in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "fire damage restoration federal way"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -18,6 +18,9 @@ service_display: "Fire Damage Restoration"
 rendered: true
 hero: '/images/services/fire-damage-restoration.webp'
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Federal Way? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 A house fire leaves more than charred walls. Within hours, soot begins etching surfaces, smoke odor penetrates insulation and framing, and acidic residue starts corroding metal fixtures, appliances, and HVAC components. The damage compounds every day you wait. Our IICRC-certified technicians respond fast, stop the secondary damage, and carry the work all the way through to finished reconstruction, so you're dealing with one company, not a patchwork of contractors.
 
 ## How we handle fire damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Corona | Dry County Restoration"
-h1: "Fire Damage Restoration in Corona"
-meta_description: "24/7 fire damage restoration in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "24/7 Emergency Fire Damage Restoration in Corona | Dry County Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Corona"
+meta_description: "24/7 emergency fire damage restoration in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "fire damage restoration corona"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Corona? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Smoke doesn't stop at the burn line. After a house fire, soot particles travel through HVAC ducts, settle into closets two rooms away, and embed in porous surfaces, drywall, wood framing, upholstered furniture, within hours of the flames being extinguished. The visible char is only part of what needs to be addressed. The invisible residue, the acidic soot chemistry eating at metal fixtures, and the odor compounds baked into structural cavities are what make fire damage restoration a fundamentally different discipline from general cleanup.
 
 ## What fire damage restoration actually involves

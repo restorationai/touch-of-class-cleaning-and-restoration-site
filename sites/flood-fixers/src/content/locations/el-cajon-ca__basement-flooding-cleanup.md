@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in El Cajon, CA | Flood Fixers"
-h1: "Basement Flooding Cleanup in El Cajon"
-meta_description: "24/7 basement flooding cleanup in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "24/7 Emergency Basement Flooding Cleanup in El Cajon, CA | Flood Fixers"
+h1: "24/7 Emergency Basement Flooding Cleanup in El Cajon"
+meta_description: "24/7 emergency basement flooding cleanup in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "basement flooding cleanup el cajon"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in El Cajon? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 El Cajon sits in a bowl, literally. The city's valley geography, ringed by the Crest ridgeline to the north and the Jamul hills to the south, means that when a winter atmospheric river rolls through San Diego County, runoff has nowhere to go except downhill and into the lowest point of whatever structure is in its path. For homeowners in older neighborhoods near East Main Street or the Rancho San Diego corridor, that lowest point is often a basement or subgrade utility room. When water gets in, it moves fast, and the clock on secondary damage, warped framing, saturated insulation, mold colonization, starts within 24 to 48 hours.
 
 ## Why El Cajon Properties See Basement Flooding Issues

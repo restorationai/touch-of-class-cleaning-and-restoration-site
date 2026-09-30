@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Pleasant Grove, UT | Home Pride Restoration and Cleaning"
-h1: "Smoke Damage Restoration in Pleasant Grove"
-meta_description: "24/7 smoke damage restoration in Pleasant Grove, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "Emergency Smoke Damage Restoration in Pleasant Grove, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Smoke Damage Restoration in Pleasant Grove"
+meta_description: "24/7 emergency smoke damage restoration in Pleasant Grove, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "smoke damage restoration pleasant grove"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Pleasant Grove? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 When smoke from a house fire, or a wind-driven wildfire pushing down from the Wasatch Front, settles into a Pleasant Grove home, the damage goes far deeper than the visible char. Smoke particles and acidic residues work into porous surfaces within hours, and Utah County's dry, high-desert air actually accelerates the bonding of soot to drywall, insulation, and HVAC ductwork. Home Pride Restoration and Cleaning has been responding to smoke damage calls across Utah County since 1997, and we know what that combination of altitude, low humidity, and tight mountain-valley air circulation does to a fire-damaged home.
 
 ## Why Pleasant Grove Homes Are Particularly Vulnerable to Smoke Damage

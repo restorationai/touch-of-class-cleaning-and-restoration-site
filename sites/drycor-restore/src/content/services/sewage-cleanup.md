@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Sewage Cleanup and Sanitization in Thonotosassa | DRYCOR RESTORE"
-h1: "Sewage Cleanup and Sanitization in Thonotosassa"
-meta_description: "24/7 sewage cleanup and sanitization in Thonotosassa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "Emergency Sewage Cleanup and Sanitization in Thonotosassa | DRYCOR RESTORE"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Thonotosassa"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Thonotosassa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "sewage cleanup and sanitization thonotosasa"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Thonotosassa? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows, the material that surfaces isn't just water, it's Category 3 "black water" carrying fecal coliform, hepatitis A, norovirus, and a range of bacterial pathogens that can colonize porous surfaces within hours. The clock starts the moment sewage contacts your flooring, drywall, or cabinetry. Every hour of delay expands the contamination zone and increases the likelihood that structural materials will need to be removed rather than cleaned.
 
 ## What sewage cleanup and sanitization actually involves

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Vista, CA | Flood Fixers"
-h1: "Basement Flooding Cleanup in Vista"
-meta_description: "24/7 basement flooding cleanup in Vista, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "24/7 Emergency Basement Flooding Cleanup in Vista, CA | Flood Fixers"
+h1: "24/7 Emergency Basement Flooding Cleanup in Vista"
+meta_description: "24/7 emergency basement flooding cleanup in Vista, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "basement flooding cleanup vista"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Vista? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Vista sits in a coastal-inland transition zone where winter storm systems off the Pacific can drop two inches of rain in a single afternoon, and when that water finds the low point of a slab-on-grade or partially below-grade basement, it doesn't wait for business hours. Clay-heavy soils common throughout northern San Diego County saturate quickly and drain slowly, turning a manageable seep into several inches of standing water before most homeowners realize what's happening. If you're dealing with a flooded basement right now, call Flood Fixers at (855) 204-1124, technicians are dispatched from San Diego and can reach most of Vista within the hour.
 
 ## Why Vista Properties See Basement Flooding Issues

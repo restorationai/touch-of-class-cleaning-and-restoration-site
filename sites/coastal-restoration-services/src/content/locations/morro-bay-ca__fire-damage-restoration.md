@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Morro Bay, CA | Coastal Restoration Services Inc"
-h1: "Fire Damage Restoration in Morro Bay"
-meta_description: "Fire damage restoration in Morro Bay, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Fire Damage Restoration in Morro Bay, CA | Coastal Restoration Services Inc"
+h1: "Emergency Fire Damage Restoration in Morro Bay"
+meta_description: "Emergency fire damage restoration in Morro Bay, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "fire damage restoration morro bay"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Morro Bay? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 The salt air rolling in off Morro Bay doesn't stop when a fire does. Within hours of extinguishment, smoke residue and moisture from firefighting water begin a quiet second assault on your home, soot particles embed into porous surfaces, and the coastal humidity that defines life along this stretch of San Luis Obispo County accelerates corrosion on metal fixtures, electronics, and structural fasteners. Fire damage in Morro Bay moves faster than it does inland, and the window for effective restoration is shorter than most homeowners expect.
 
 ## Why Morro Bay Properties Face Distinct Fire Damage Challenges

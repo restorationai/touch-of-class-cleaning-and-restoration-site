@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in George, IA | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in George"
-meta_description: "Fire damage restoration in George, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in George, IA | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in George"
+meta_description: "Emergency fire damage restoration in George, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration george"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in George? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When a fire tears through a home in George, the damage doesn't stop when the flames do. Smoke and soot keep working, seeping into the plaster walls common in this Lyon County farm town's older housing stock, settling into attic insulation, and embedding in the porous masonry of homes built decades before modern fire codes. The dry northwest Iowa winters mean structures here are often sealed tight for months, which traps odors and accelerates the chemical bonding of smoke residue to surfaces. If you're dealing with fire damage in the 51237 area, the window to prevent secondary damage is short.
 
 ## Why George Properties Face Particular Challenges After a Fire

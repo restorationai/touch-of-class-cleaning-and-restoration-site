@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Jersey City, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in Jersey City"
-meta_description: "24/7 appliance leak cleanup in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Appliance Leak Cleanup in Jersey City, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Jersey City"
+meta_description: "24/7 emergency appliance leak cleanup in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "appliance leak cleanup jersey city"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Jersey City? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 A refrigerator ice-maker line that drips overnight or a washing machine hose that lets go mid-cycle doesn't just soak a floor, in Jersey City's stacked multifamily buildings, that water moves fast and far. At Newport or along the Exchange Place waterfront, a single supply-line failure on the 12th floor can show up as ceiling stains on the 10th before anyone notices the source. In the Heights or Bergen-Lafayette, the same leak hits century-old subfloor and travels toward a basement that may already be damp from a combined-sewer system that backs up every hard rain. The Restoration Group responds 24/7, documents damage unit by unit, and dries structures to IICRC S500 standards, the kind of paperwork building managers and condo boards actually need.
 
 ## Why Jersey City Properties See Appliance Leak Problems

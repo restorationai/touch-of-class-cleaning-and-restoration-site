@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Edna, CA | Coastal Restoration Services Inc"
-h1: "Biohazard Cleanup in Edna"
-meta_description: "Biohazard cleanup in Edna, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Biohazard Cleanup in Edna, CA | Coastal Restoration Services Inc"
+h1: "Emergency Biohazard Cleanup in Edna"
+meta_description: "Emergency biohazard cleanup in Edna, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "biohazard cleanup edna"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Edna? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Edna is a small, tight-knit community in San Luis Obispo County where neighbors know each other and privacy matters deeply. When a biohazard situation arises, whether it involves a traumatic loss, an unattended death, or the discovery of hazardous biological material in a home or outbuilding, the last thing a family needs is a crew that treats the job like routine construction work. Coastal Restoration Services Inc responds to these calls with the discretion and care that Edna's close community deserves, handling every detail so residents and property owners can focus on what matters most.
 
 ## Why Edna Properties Present Unique Biohazard Considerations

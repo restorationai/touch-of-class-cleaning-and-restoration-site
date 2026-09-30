@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Urban Honolulu, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Water Damage Restoration in Urban Honolulu"
-meta_description: "24/7 water damage restoration in Urban Honolulu, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "Emergency Water Damage Restoration in Urban Honolulu, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Damage Restoration in Urban Honolulu"
+meta_description: "24/7 emergency water damage restoration in Urban Honolulu, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "water damage restoration urban honolulu"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Urban Honolulu? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Honolulu's trade winds and year-round humidity create a moisture environment unlike almost anywhere else in the United States. When a supply line bursts under a kitchen sink or a roof flashing fails during a Kona storm, that ambient humidity slows evaporation and gives water a head start on saturating wall cavities, subfloor assemblies, and the concrete slab foundations common throughout urban Honolulu. The result is that water damage here can progress faster than mainland homeowners expect, and the window for effective structural drying is shorter than the calendar might suggest.
 
 ## Why Urban Honolulu Properties Are Especially Vulnerable to Water Damage

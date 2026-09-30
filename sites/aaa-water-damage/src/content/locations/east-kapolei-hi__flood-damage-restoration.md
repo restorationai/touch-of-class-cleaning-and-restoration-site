@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in East Kapolei"
-meta_description: "24/7 flood damage restoration in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "24/7 Emergency Flood Damage Restoration in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in East Kapolei"
+meta_description: "24/7 emergency flood damage restoration in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "flood damage restoration east kapolei"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in East Kapolei? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 East Kapolei sits at the western edge of Oahu where the Ko Olina coastline meets the broad, low-lying Ewa Plain, and that geography shapes how flood damage behaves here in ways that catch homeowners off guard. When heavy Kona storm systems stall over the Waianae Range, runoff funnels across relatively flat terrain with limited natural drainage, and water finds its way into garages, ground-floor living spaces, and slab foundations faster than it does in the more elevated neighborhoods closer to Honolulu. If your home is holding standing water right now, call (808) 349-3407 and we will get a crew moving toward you.
 
 ## Why East Kapolei Properties See Flood Damage Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Chino Hills, CA | Dry County Restoration"
-h1: "Sewage Cleanup and Sanitization in Chino Hills"
-meta_description: "24/7 sewage cleanup and sanitization in Chino Hills, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "Emergency Sewage Cleanup and Sanitization in Chino Hills, CA | Dry County Restoration"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Chino Hills"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Chino Hills, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "sewage cleanup and sanitization chino hills"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

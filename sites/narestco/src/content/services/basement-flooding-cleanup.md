@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Basement Flooding Cleanup in Federal Way | National Restoration Construction"
-h1: "Basement Flooding Cleanup in Federal Way"
-meta_description: "24/7 basement flooding cleanup in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Basement Flooding Cleanup in Federal Way | National Restoration Construction"
+h1: "24/7 Emergency Basement Flooding Cleanup in Federal Way"
+meta_description: "24/7 emergency basement flooding cleanup in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "basement flooding cleanup federal way"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "basement-flooding-cleanup"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Federal Way? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Standing water in a basement moves fast, soaking into framing, wicking up drywall, and giving mold a foothold within 24 to 48 hours of a leak. Whether a sump pump failed during a Puget Sound rainstorm, a water heater let go overnight, or a backed-up drain turned your storage space into a wading pool, the goal is the same: get the water out, dry the structure completely, and document everything so your insurance claim holds up. That's exactly what we do.
 
 ## How We Handle Basement Flooding

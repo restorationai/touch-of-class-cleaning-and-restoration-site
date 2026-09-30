@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Troy, MI | Flood Solutions inc"
-h1: "Storm Damage Restoration in Troy"
-meta_description: "Storm damage restoration in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Storm Damage Restoration in Troy, MI | Flood Solutions inc"
+h1: "Emergency Storm Damage Restoration in Troy"
+meta_description: "Emergency storm damage restoration in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "storm damage restoration troy"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "storm-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Troy? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Troy sits in the middle of Oakland County's storm corridor, where late-spring squall lines and fast-moving Great Lakes weather systems can drop several inches of rain in under an hour, snap mature oaks along residential streets, and leave roofs open to the sky before a homeowner can get to the basement. When that kind of storm rolls through, the damage compounds quickly: water through a compromised roof reaches insulation, then drywall, then subfloor in a matter of hours, and wind-driven debris turns a minor roof breach into a major interior loss. Flood Solutions inc has been working storm damage restoration in Troy and the surrounding Oakland County communities since 1996, and the team understands how local construction patterns and Michigan's weather rhythms shape every job.
 
 ## Why Troy Properties Are Particularly Vulnerable After Severe Weather

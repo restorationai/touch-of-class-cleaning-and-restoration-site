@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Lake Royale, NC | Go Green Restoration of NC"
-h1: "Burst Pipe Cleanup and Repair in Lake Royale"
-meta_description: "24/7 burst pipe cleanup and repair in Lake Royale, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "Emergency Burst Pipe Cleanup and Repair in Lake Royale, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Lake Royale"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Lake Royale, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "burst pipe cleanup and repair lake royale"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

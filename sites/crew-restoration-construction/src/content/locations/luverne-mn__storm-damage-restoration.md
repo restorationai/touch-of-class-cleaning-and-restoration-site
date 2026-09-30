@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Luverne, MN | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Luverne"
-meta_description: "Storm damage restoration in Luverne, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Luverne, MN | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Luverne"
+meta_description: "Emergency storm damage restoration in Luverne, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration luverne"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Luverne? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Southwest Minnesota sits in open prairie country where there's little to slow a storm down before it reaches Rock County. Luverne, positioned near the edge of Blue Mounds State Park, takes the full force of supercell thunderstorms that roll in from the Dakotas, hail the size of golf balls, straight-line winds that snap mature cottonwoods at the trunk, and rain that dumps two inches in forty minutes on ground that's already saturated. When that happens, the damage to homes and businesses in the 56156 ZIP code can go from bad to catastrophic in the time it takes to find your phone. Crew Restoration & Construction responds to storm damage across Luverne and the surrounding Rock County area, handling everything from emergency tarping and board-up to full structural reconstruction.
 
 ## Why Luverne Properties See Serious Storm Damage

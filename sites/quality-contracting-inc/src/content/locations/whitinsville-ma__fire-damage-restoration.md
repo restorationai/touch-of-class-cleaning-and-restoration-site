@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Whitinsville, MA | Quality Contracting, Inc."
-h1: "Fire Damage Restoration in Whitinsville"
-meta_description: "Fire damage restoration in Whitinsville, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Fire Damage Restoration in Whitinsville, MA | Quality Contracting, Inc."
+h1: "Emergency Fire Damage Restoration in Whitinsville"
+meta_description: "Emergency fire damage restoration in Whitinsville, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "fire damage restoration whitinsville"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Whitinsville? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Whitinsville sits in the Blackstone Valley, where a dense concentration of mill-era housing stock means that when fire touches one structure, the consequences can ripple through attached or closely spaced neighbors in ways that newer suburban construction rarely sees. The village's older wood-frame and brick-mill-converted buildings absorb smoke and heat differently than modern builds, and that distinction shapes every decision made during fire damage restoration, from the first hour on-site through the final air quality check.
 
 ## Why Whitinsville's Building Stock Shapes Fire Damage Recovery

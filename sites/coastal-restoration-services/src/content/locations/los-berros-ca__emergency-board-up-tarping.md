@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Los Berros, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Los Berros"
-meta_description: "Board-up and tarping in Los Berros, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Los Berros, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Los Berros"
+meta_description: "Emergency board-up and tarping in Los Berros, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping los berros"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Los Berros? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Los Berros sits in a narrow coastal valley in San Luis Obispo County where Pacific marine layer, seasonal wind events, and fire-prone chaparral hillsides can leave a property exposed to the elements faster than most homeowners anticipate. When a wildfire ember shower punches through a skylight, a wind-driven branch shatters a sliding door, or a kitchen fire burns through the eave line, the window between the damage event and secondary water or pest intrusion is measured in hours, not days. Coastal Restoration Services Inc responds to those calls from our Vandenberg Village base, securing Los Berros properties before the next fog bank rolls in or a late-afternoon onshore gust turns an open structure into a funnel.
 
 ## Why Los Berros Properties Face Elevated Board-Up and Tarping Needs

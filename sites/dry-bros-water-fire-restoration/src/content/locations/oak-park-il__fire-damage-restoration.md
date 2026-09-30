@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Oak Park, IL | Dry Bros Water & Fire Restoration"
-h1: "Fire Damage Restoration in Oak Park"
-meta_description: "Fire damage restoration in Oak Park, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Fire Damage Restoration in Oak Park, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Oak Park"
+meta_description: "24/7 emergency fire damage restoration in Oak Park, IL. Insurance billing accepted. Call us now."
 primary_keyword: "fire damage restoration oak park"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Oak Park? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Oak Park's architectural identity is inseparable from its building stock, block after block of late-Victorian and Prairie-style homes, many with original balloon-frame construction, wood-lath interiors, and decorative millwork that took craftsmen weeks to install. When fire moves through a structure like that, it doesn't just char surfaces. Smoke infiltrates every cavity between the studs, soot settles into plaster cornices, and the odor embeds itself in materials that modern drywall simply doesn't have. Fire damage restoration here demands a different level of care than a tract-built suburb, and that's exactly the kind of work Dry Bros Water & Fire Restoration is equipped to handle.
 
 ## Why Oak Park's Housing Stock Shapes Fire Damage Recovery

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in St. Joseph, MN | Heritage Restoration LLC"
-h1: "Water Damage Restoration in St. Joseph"
-meta_description: "Water damage restoration in St. Joseph, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in St. Joseph, MN | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in St. Joseph"
+meta_description: "Emergency water damage restoration in St. Joseph, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration st. joseph"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in St. Joseph? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 St. Joseph sits in Stearns County where the freeze-thaw cycle hits hard every spring, and that combination of snowmelt pressure and aging residential plumbing means water intrusion calls tend to cluster in late March and early April when the ground is still partially frozen and has nowhere to send runoff. When water finds its way into a basement, crawl space, or wall cavity here, the clock starts immediately. Heritage Restoration LLC responds to water damage calls in St. Joseph with IICRC-certified technicians trained in water damage restoration, structural drying, and applied structural drying methods.
 
 ## Why St. Joseph Properties See Water Damage Issues

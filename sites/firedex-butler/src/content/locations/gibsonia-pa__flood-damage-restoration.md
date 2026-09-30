@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Gibsonia, PA | FireDEX Butler"
-h1: "Flood Damage Restoration in Gibsonia"
-meta_description: "24/7 flood damage restoration in Gibsonia, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Flood Damage Restoration in Gibsonia, PA | FireDEX Butler"
+h1: "24/7 Emergency Flood Damage Restoration in Gibsonia"
+meta_description: "24/7 emergency flood damage restoration in Gibsonia, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "flood damage restoration gibsonia"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Gibsonia? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Spring snowmelt off the wooded hillsides along Route 8 can overwhelm a sump pump in under an hour, and by the time a Richland Township homeowner notices water creeping across a finished basement floor, the clock on secondary damage has already started. Flood damage in Gibsonia rarely looks like a river overflowing its banks, it looks like a failed ejector pump at 2 a.m., a supply line that froze and split during a January cold snap, or a water heater that quietly failed in a utility closet while the family was at work. FireDEX Butler has been responding to exactly these losses since 1981, and we answer calls around the clock.
 
 ## Why Gibsonia Properties See Flood Damage Differently

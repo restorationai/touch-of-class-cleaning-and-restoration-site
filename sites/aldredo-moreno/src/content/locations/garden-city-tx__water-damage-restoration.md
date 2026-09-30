@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Garden City, TX | ACS Enterprise "
-h1: "Water Damage Restoration in Garden City"
-meta_description: "Water damage restoration in Garden City, TX. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Water Damage Restoration in Garden City, TX | ACS Enterprise "
+h1: "Emergency Water Damage Restoration in Garden City"
+meta_description: "Emergency water damage restoration in Garden City, TX. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "water damage restoration garden city"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Garden City? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Garden City sits in the heart of Glasscock County, where the Permian Basin's caliche-heavy soil and wide temperature swings create conditions that can turn a slow pipe leak into a serious structural problem faster than most homeowners expect. When water gets into a slab-on-grade home out here, it has nowhere to drain quickly, and the clay-rich subsoil holds moisture against foundation edges long after the visible puddles are gone. ACS Enterprise responds to water damage calls throughout Garden City and the surrounding Glasscock County area, bringing professional extraction and drying equipment to a part of West Texas where the nearest big-city restoration crew can be an hour away.
 
 ## Why Garden City Properties See Water Damage Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Basement Flooding Cleanup in Sioux Falls | Crew Restoration & Construction"
-h1: "Basement Flooding Cleanup in Sioux Falls"
-meta_description: "Basement flooding cleanup in Sioux Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Basement Flooding Cleanup in Sioux Falls | Crew Restoration & Construction"
+h1: "Emergency Basement Flooding Cleanup in Sioux Falls"
+meta_description: "Emergency basement flooding cleanup in Sioux Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "basement flooding cleanup sioux falls"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "basement-flooding-cleanup"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Sioux Falls? Call now for emergency service.** Our crew responds fast to pump out the water and start drying.
+
 When a basement floods, the water rarely stays where it lands. It travels along the slab, wicks up into drywall and baseboards, and pools under carpet pad where it's invisible until you step on it and feel the squish. Whether the cause is a failed sump pump, a sewer backup, or groundwater pushing through a foundation crack after heavy rain, the clock starts immediately: untreated moisture in an enclosed basement space can support mold growth within 24 to 48 hours. Getting water out fast, and getting the space back to a measurable dry standard, is the whole job.
 
 ## What Basement Flooding Cleanup actually involves

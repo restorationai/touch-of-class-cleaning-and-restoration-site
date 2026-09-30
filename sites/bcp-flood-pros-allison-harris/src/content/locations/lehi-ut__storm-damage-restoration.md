@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Lehi, UT | FIX Restoration"
-h1: "Storm Damage Restoration in Lehi"
-meta_description: "Storm damage restoration in Lehi, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Storm Damage Restoration in Lehi, UT | FIX Restoration"
+h1: "Emergency Storm Damage Restoration in Lehi"
+meta_description: "Emergency storm damage restoration in Lehi, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "storm damage restoration lehi"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Lehi? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Lehi sits at the foot of the Wasatch Front where late-spring thunderstorms roll in fast off Utah Lake, drop hail the size of marbles, and move on before most homeowners have finished pulling cars into the garage. That combination, abrupt, intense, and gone, leaves behind roof punctures, flooded window wells, snapped trees pressed against siding, and a deceptive calm that makes it easy to underestimate how much water got in. FIX Restoration, based in American Fork just minutes south on I-15, has been working storm losses in this corridor since 2012.
 
 ## Why Lehi Properties See Significant Storm Damage

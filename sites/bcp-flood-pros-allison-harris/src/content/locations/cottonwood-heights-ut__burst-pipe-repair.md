@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Cottonwood Heights, UT | FIX Restoration"
-h1: "Burst Pipe Cleanup and Repair in Cottonwood Heights"
-meta_description: "Burst pipe cleanup and repair in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Burst Pipe Cleanup and Repair in Cottonwood Heights | FIX Restoration"
+h1: "Emergency Burst Pipe Cleanup and Repair in Cottonwood Heights"
+meta_description: "Emergency burst pipe cleanup and repair in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "burst pipe cleanup and repair cottonwood heights"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"

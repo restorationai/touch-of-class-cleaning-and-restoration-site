@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Sewage Cleanup and Sanitization in Midland | ACS Enterprise "
-h1: "Sewage Cleanup and Sanitization in Midland"
-meta_description: "Sewage cleanup and sanitization in Midland and surrounding areas. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Sewage Cleanup and Sanitization in Midland | ACS Enterprise "
+h1: "Emergency Sewage Cleanup and Sanitization in Midland"
+meta_description: "Emergency sewage cleanup and sanitization in Midland and surrounding areas. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "sewage cleanup and sanitization midland"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Midland? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 When sewage backs up into a bathroom, laundry room, or basement, the clock starts immediately. Raw sewage carries bacteria, viruses, and parasites that begin contaminating porous surfaces within hours. Drywall wicks it upward. Subfloor panels absorb it from below. Grout lines trap it where a mop cannot reach. This is not a cleanup job that waits until morning or gets handled with bleach and a bucket. Sewage backup cleanup requires containment, proper extraction, antimicrobial treatment, and verification that the contamination is actually gone.
 
 ## What sewage cleanup and sanitization actually involves

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Newton, MA | Quality Contracting, Inc."
-h1: "Fire Damage Restoration in Newton"
-meta_description: "Fire damage restoration in Newton, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Fire Damage Restoration in Newton, MA | Quality Contracting, Inc."
+h1: "Emergency Fire Damage Restoration in Newton"
+meta_description: "Emergency fire damage restoration in Newton, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "fire damage restoration newton"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Newton? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Newton's housing stock tells a story in wood and plaster, Victorian-era Victorians in Newtonville, brick colonials near Newton Centre, and dense triple-deckers that date back a century or more. When fire moves through a home like that, it doesn't just char surfaces. It drives smoke into horsehair plaster, soaks soot into old-growth pine framing, and leaves odor compounds embedded in layers of paint that have been there since before your grandparents were born. Fire damage restoration in Newton requires a working knowledge of how these older structures absorb and hold smoke, not just a truck and a shop vac.
 
 ## Why Newton's Building Stock Complicates Fire Damage

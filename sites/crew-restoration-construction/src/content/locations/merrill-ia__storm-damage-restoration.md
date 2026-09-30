@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Merrill, IA | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Merrill"
-meta_description: "Storm damage restoration in Merrill, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Merrill, IA | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Merrill"
+meta_description: "Emergency storm damage restoration in Merrill, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration merrill"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

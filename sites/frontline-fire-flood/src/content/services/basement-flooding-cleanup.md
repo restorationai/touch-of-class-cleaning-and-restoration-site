@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Basement Flooding Cleanup in Lakewood | Frontline Fire & Flood"
-h1: "Basement Flooding Cleanup in Lakewood"
-meta_description: "24/7 basement flooding cleanup in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Basement Flooding Cleanup in Lakewood | Frontline Fire & Flood"
+h1: "24/7 Emergency Basement Flooding Cleanup in Lakewood"
+meta_description: "24/7 emergency basement flooding cleanup in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "basement flooding cleanup lakewood"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"

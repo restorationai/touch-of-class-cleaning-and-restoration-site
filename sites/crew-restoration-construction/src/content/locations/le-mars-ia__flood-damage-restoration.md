@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Le Mars, IA | Crew Restoration & Construction"
-h1: "Flood Damage Restoration in Le Mars"
-meta_description: "Flood damage restoration in Le Mars, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Flood Damage Restoration in Le Mars, IA | Crew Restoration & Construction"
+h1: "Emergency Flood Damage Restoration in Le Mars"
+meta_description: "Emergency flood damage restoration in Le Mars, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "flood damage restoration le mars"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

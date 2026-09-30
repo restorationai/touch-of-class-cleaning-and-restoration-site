@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Shelby Township, MI | Flood Solutions inc"
-h1: "Ceiling Water Damage Repair in Shelby Township"
-meta_description: "Ceiling water damage repair in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Ceiling Water Damage Repair in Shelby Township, MI | Flood Solutions inc"
+h1: "Emergency Ceiling Water Damage Repair in Shelby Township"
+meta_description: "Emergency ceiling water damage repair in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "ceiling water damage repair shelby township"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "ceiling-water-damage-repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water coming through the ceiling in Shelby Township? Call now for emergency service.** Our crew responds fast to stop the leak damage and start drying.
+
 Shelby Township sits in Macomb County where freeze-thaw cycles hit hard every winter, and that seasonal stress on roofing, flashing, and plumbing is exactly what drives ceiling water damage calls in this area. Whether it is a supply line that burst inside a wall cavity during a January cold snap or a roof leak that quietly soaked through insulation before showing up as a brown stain on your drywall, the ceiling is usually the last place water announces itself and the first place you notice something is seriously wrong. Flood Solutions Inc has been working in communities across this part of Michigan since 1996, and ceiling water damage is one of the most time-sensitive situations we handle.
 
 ## Why Shelby Township Homes See Ceiling Damage So Often

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Linden, NJ | The Restoration Group"
-h1: "Biohazard Cleanup in Linden"
-meta_description: "24/7 biohazard cleanup in Linden, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Biohazard Cleanup in Linden, NJ | The Restoration Group"
+h1: "24/7 Emergency Biohazard Cleanup in Linden"
+meta_description: "24/7 emergency biohazard cleanup in Linden, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "biohazard cleanup linden"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Linden? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to handle the cleanup with discretion and care.
+
 Linden's dense postwar neighborhoods, the capes and split-levels packed into Sunnyside, the older colonials near the Bower, the finished basements throughout the 07036 ZIP, create conditions where a biohazard situation inside a home feels especially confined and urgent. When something happens in a tight, finished lower level or a multi-unit building off Wood Avenue, the priority is the same: safe, discreet, fully documented remediation handled by a certified team that understands what the work actually involves.
 
 ## Why Linden Properties Present Unique Biohazard Considerations

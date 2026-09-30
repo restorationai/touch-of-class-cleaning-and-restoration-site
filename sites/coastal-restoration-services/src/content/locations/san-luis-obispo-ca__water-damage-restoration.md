@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in San Luis Obispo, CA | Coastal Restoration Services Inc"
-h1: "Water Damage Restoration in San Luis Obispo"
-meta_description: "Water damage restoration in San Luis Obispo, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Water Damage Restoration in San Luis Obispo, CA | Coastal Restoration Services Inc"
+h1: "Emergency Water Damage Restoration in San Luis Obispo"
+meta_description: "Emergency water damage restoration in San Luis Obispo, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "water damage restoration san luis obispo"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in San Luis Obispo? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 San Luis Obispo sits in a narrow coastal valley where marine moisture rolls in through the Cuesta Grade most mornings and the hills funnel stormwater directly toward older neighborhoods closer to downtown. When a supply line fails behind a bathroom wall or a winter storm overwhelms a crawlspace drain, that ambient humidity is already working against you, wet materials here don't dry on their own schedule, they dry on the Central Coast's schedule. Coastal Restoration Services Inc responds to water damage calls throughout SLO, bringing industrial extraction and structural drying equipment to homes and commercial properties that need more than a shop vac and a few box fans.
 
 ## Why San Luis Obispo Properties See Water Damage Issues

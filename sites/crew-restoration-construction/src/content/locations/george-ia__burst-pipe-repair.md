@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in George, IA | Crew Restoration & Construction"
-h1: "Burst Pipe Cleanup and Repair in George"
-meta_description: "Burst pipe cleanup and repair in George, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Burst Pipe Cleanup and Repair in George, IA | Crew Restoration & Construction"
+h1: "Emergency Burst Pipe Cleanup and Repair in George"
+meta_description: "Emergency burst pipe cleanup and repair in George, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "burst pipe cleanup and repair george"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"

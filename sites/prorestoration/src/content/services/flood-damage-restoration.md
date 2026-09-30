@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Flood Damage Restoration in Bakersfield | ProRestoration Services"
-h1: "Flood Damage Restoration in Bakersfield"
-meta_description: "24/7 flood damage restoration in Bakersfield and surrounding areas. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Flood Damage Restoration in Bakersfield | ProRestoration Services"
+h1: "24/7 Emergency Flood Damage Restoration in Bakersfield"
+meta_description: "24/7 emergency flood damage restoration in Bakersfield and surrounding areas. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "flood damage restoration bakersfield"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "flood-damage-restoration"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Bakersfield? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Flood water doesn't stop at the threshold. Whether a Kern River overflow, a ruptured municipal main, or a backed-up storm drain pushed water into your home, the clock starts the moment it enters, and mold can begin colonizing porous materials in as little as 24 to 48 hours. The difference between a contained repair and a gut-and-rebuild often comes down to how fast contaminated water is extracted and how thoroughly the structure is dried behind the walls and under the subfloor, not just on the surface.
 
 ## What flood damage restoration actually involves

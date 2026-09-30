@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Avon, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Avon"
-meta_description: "Fire damage restoration in Avon, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Avon, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Avon"
+meta_description: "Emergency fire damage restoration in Avon, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration avon"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Avon? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Avon sits in Stearns County where long, cold winters push residents to run supplemental heating sources hard, and where older rural-adjacent construction often means wood-frame homes with minimal fire blocking between wall cavities. When a fire moves through that kind of structure, smoke and soot travel further and faster than most homeowners expect, embedding in insulation, subflooring, and HVAC ductwork well beyond the visible char. Heritage Restoration LLC responds to fire damage calls in Avon with an IICRC FSRT-certified crew trained specifically in fire and smoke restoration, working to stop secondary damage before the smell and residue have a chance to become permanent.
 
 ## Why Avon Properties Are Particularly Vulnerable After a Fire

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Ceiling Water Damage Repair in Henderson | Life Savers Restoration LLC"
-h1: "Ceiling Water Damage Repair in Henderson"
-meta_description: "24/7 ceiling water damage repair in Henderson and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
+title: "24/7 Emergency Ceiling Water Damage Repair in Henderson | Life Savers Restoration LLC"
+h1: "24/7 Emergency Ceiling Water Damage Repair in Henderson"
+meta_description: "24/7 emergency ceiling water damage repair in Henderson and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
 primary_keyword: "ceiling water damage repair henderson"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

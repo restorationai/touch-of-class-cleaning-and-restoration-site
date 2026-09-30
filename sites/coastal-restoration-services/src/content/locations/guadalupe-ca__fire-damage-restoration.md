@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Guadalupe, CA | Coastal Restoration Services Inc"
-h1: "Fire Damage Restoration in Guadalupe"
-meta_description: "Fire damage restoration in Guadalupe, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Fire Damage Restoration in Guadalupe, CA | Coastal Restoration Services Inc"
+h1: "Emergency Fire Damage Restoration in Guadalupe"
+meta_description: "Emergency fire damage restoration in Guadalupe, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "fire damage restoration guadalupe"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Guadalupe? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Guadalupe sits in the heart of California's Santa Barbara County, where dry Santa Ana-adjacent winds funnel through the Santa Maria Valley and can push a small kitchen fire into a whole-room event faster than most homeowners expect. When smoke has already settled into the walls and the smell of char is still sharp in the air, the decisions made in the first few hours determine how much of a home can be saved, and how long the recovery takes. Coastal Restoration Services Inc responds to fire and smoke damage calls throughout Guadalupe and the surrounding communities, bringing structured drying, odor neutralization, and structural assessment to properties that need more than a mop and a coat of paint.
 
 ## Why Guadalupe Properties Face Distinct Fire Damage Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Pearlington, MS | HomeLyft Restoration MS"
-h1: "Fire Damage Restoration in Pearlington"
-meta_description: "Fire damage restoration in Pearlington, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Fire Damage Restoration in Pearlington, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Fire Damage Restoration in Pearlington"
+meta_description: "24/7 emergency fire damage restoration in Pearlington, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "fire damage restoration pearlington"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Pearlington? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Pearlington sits at the southwestern edge of Hancock County, pressed up against the Pearl River and the Louisiana state line, a location that shapes everything from the humidity that lingers in wall cavities after a fire to the age and construction style of the homes that line its rural roads. When a fire burns through a house here, the damage rarely stops at the char line. Smoke and soot travel fast through older wood-framed structures, and the coastal Gulf air that rolls in through Hancock County keeps moisture levels high enough that secondary water damage from firefighting efforts can compound within hours. HomeLyft Restoration MS responds to fire losses throughout the Pearlington area, bringing IICRC FSRT-certified fire and smoke restoration technicians and EPA Lead-Safe certified crews to properties where lead paint and older building materials are a real concern.
 
 ## Why Pearlington Properties Face Particular Fire Damage Challenges

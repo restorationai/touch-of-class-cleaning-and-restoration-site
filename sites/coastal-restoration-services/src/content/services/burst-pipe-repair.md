@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Burst Pipe Cleanup and Repair in Santa Maria | Coastal Restoration Services Inc"
-h1: "Burst Pipe Cleanup and Repair in Santa Maria"
-meta_description: "Burst pipe cleanup and repair in Santa Maria and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Burst Pipe Cleanup and Repair in Santa Maria | Coastal Restoration Services Inc"
+h1: "Emergency Burst Pipe Cleanup and Repair in Santa Maria"
+meta_description: "Emergency burst pipe cleanup and repair in Santa Maria and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "burst pipe cleanup and repair santa maria"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"

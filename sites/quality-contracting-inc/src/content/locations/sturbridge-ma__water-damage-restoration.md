@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Sturbridge, MA | Quality Contracting, Inc."
-h1: "Water Damage Restoration in Sturbridge"
-meta_description: "Water damage restoration in Sturbridge, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Water Damage Restoration in Sturbridge, MA | Quality Contracting, Inc."
+h1: "Emergency Water Damage Restoration in Sturbridge"
+meta_description: "Emergency water damage restoration in Sturbridge, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "water damage restoration sturbridge"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Sturbridge? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Sturbridge sits in a part of central Massachusetts where the ground stays saturated well into spring, snowmelt from the hills around the Quinebaug River corridor drains slowly through clay-heavy soils, and older homes built decades before modern moisture barriers were standard are everywhere. When a pipe bursts or a basement floods here, water doesn't just pool on the floor, it moves laterally through foundation walls, wicks into wood framing, and hides behind plaster long after the surface feels dry to the touch. Quality Contracting, Inc. handles water damage restoration in Sturbridge with that local reality in mind.
 
 ## Why Sturbridge Properties See Water Damage Issues

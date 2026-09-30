@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Paramus, NJ | The Restoration Group"
-h1: "Biohazard Cleanup in Paramus"
-meta_description: "24/7 biohazard cleanup in Paramus, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Biohazard Cleanup in Paramus, NJ | The Restoration Group"
+h1: "24/7 Emergency Biohazard Cleanup in Paramus"
+meta_description: "24/7 emergency biohazard cleanup in Paramus, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "biohazard cleanup paramus"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

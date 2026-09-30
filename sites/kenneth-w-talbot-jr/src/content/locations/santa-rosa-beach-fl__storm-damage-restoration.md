@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Santa Rosa Beach, FL | Veterans Remediation & Restoration "
-h1: "Storm Damage Restoration in Santa Rosa Beach"
-meta_description: "24/7 storm damage restoration in Santa Rosa Beach, FL. Insurance billing accepted. Call (337) 344-1248."
+title: "Emergency Storm Damage Restoration in Santa Rosa Beach, FL | Veterans Remediation & Restoration "
+h1: "24/7 Emergency Storm Damage Restoration in Santa Rosa Beach"
+meta_description: "24/7 emergency storm damage restoration in Santa Rosa Beach, FL. Insurance billing accepted. Call (337) 344-1248."
 primary_keyword: "storm damage restoration santa rosa beach"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

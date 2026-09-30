@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Garland, TX | Reign Restoration"
-h1: "Fire Damage Restoration in Garland"
-meta_description: "Fire damage restoration in Garland, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Fire Damage Restoration in Garland, TX | Reign Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Garland"
+meta_description: "24/7 emergency fire damage restoration in Garland, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "fire damage restoration garland"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Garland? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Garland summers are relentless, triple-digit heat, low humidity, and homes packed tightly on lots platted decades ago. When a kitchen fire or electrical fault ignites in that environment, smoke travels fast through attic spaces, HVAC returns pull soot into every room within minutes, and the dry air bakes odor compounds into porous surfaces before most homeowners have even called for help. Reign Restoration responds to fire and smoke damage across Garland with an IICRC FSRT-certified team and the documentation process your insurance adjuster will expect from the first site visit.
 
 ## Why Garland Properties Are Particularly Vulnerable to Fire Damage

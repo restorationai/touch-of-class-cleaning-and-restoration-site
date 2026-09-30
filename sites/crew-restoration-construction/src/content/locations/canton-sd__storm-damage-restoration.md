@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Canton, SD | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Canton"
-meta_description: "Storm damage restoration in Canton, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Canton, SD | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Canton"
+meta_description: "Emergency storm damage restoration in Canton, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration canton"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Canton? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 When a severe storm rolls across Lincoln County, Canton's position along the Big Sioux River corridor means it catches weather from multiple directions, squall lines dropping down from the northwest, and storm cells that stall against the river bluffs and dump hail or straight-line winds before residents have time to react. The older housing stock throughout Downtown Canton and the neighborhoods near the riverfront, much of it built before modern roof sheathing standards, takes a harder hit than newer construction, and the damage compounds fast once water finds its way through a compromised soffit or a tree limb punches through aging cedar shakes.
 
 ## Why Canton Properties See More Storm Damage Than You Might Expect

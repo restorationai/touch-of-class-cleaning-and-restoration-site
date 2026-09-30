@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Wiggins, MS | HomeLyft Restoration MS"
-h1: "Water Damage Restoration in Wiggins"
-meta_description: "Water damage restoration in Wiggins, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Water Damage Restoration in Wiggins, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Water Damage Restoration in Wiggins"
+meta_description: "24/7 emergency water damage restoration in Wiggins, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "water damage restoration wiggins"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Wiggins? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Stone County sits in one of Mississippi's wetter corridors, and Wiggins bears the full weight of that, heavy Gulf-fed rain systems, humid summers that keep building materials from drying naturally, and a landscape where clay-heavy soils shed water toward foundations rather than absorbing it. When a pipe bursts, a roof seam fails during a storm, or a water heater lets go inside a slab-built ranch home, the moisture moves fast and the window to stop secondary damage is short. HomeLyft Restoration MS responds to water damage calls across Wiggins and the surrounding Stone County area, bringing IICRC-certified water damage and structural drying technicians to properties that need more than a shop vac and a box fan.
 
 ## Why Wiggins Properties See Water Damage Issues

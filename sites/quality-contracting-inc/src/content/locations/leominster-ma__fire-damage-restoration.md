@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Leominster, MA | Quality Contracting, Inc."
-h1: "Fire Damage Restoration in Leominster"
-meta_description: "Fire damage restoration in Leominster, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Fire Damage Restoration in Leominster, MA | Quality Contracting, Inc."
+h1: "Emergency Fire Damage Restoration in Leominster"
+meta_description: "Emergency fire damage restoration in Leominster, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "fire damage restoration leominster"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Pearlington, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Pearlington"
-meta_description: "Board-up and tarping in Pearlington, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Pearlington, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Pearlington"
+meta_description: "24/7 emergency board-up and tarping in Pearlington, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping pearlington"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Pearlington? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Pearlington sits at the southwestern tip of Hancock County, where the Pearl River empties into the Bay of St. Louis, a geography that puts homes directly in the path of Gulf storm systems with almost no inland buffer. When a hurricane, severe squall, or tornado-warned cell tears through, the window between structural exposure and secondary water intrusion can be measured in hours, not days. Getting plywood over broken openings and heavy-duty tarps anchored across damaged rooflines before the next rain band arrives is the difference between a manageable repair and a gut-renovation.
 
 ## Why Pearlington Properties Face Elevated Board-Up and Tarping Demands

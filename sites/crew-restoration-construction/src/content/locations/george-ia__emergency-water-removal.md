@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in George? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 When standing water appears in a George basement or crawl space, the clock starts immediately. Northwest Iowa's freeze-thaw cycles and the flat, clay-heavy soils common across Lyon County slow drainage and push water toward foundations long after a storm passes. Whether the source is a burst pipe during a January cold snap, a backed-up sump in the 51237 ZIP code, or spring snowmelt seeping through an older foundation wall, the damage compounds fast. Crew Restoration & Construction dispatches IICRC-certified technicians to George with professional extraction and drying equipment to stop that progression before it becomes a structural or mold problem.
 
 ## Why George Properties Face Elevated Water Damage Risk

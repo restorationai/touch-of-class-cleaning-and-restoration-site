@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard and Trauma Cleanup in Bremerton, WA | National Restoration Construction"
-h1: "Biohazard and Trauma Cleanup in Bremerton"
-meta_description: "24/7 biohazard and trauma cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Biohazard and Trauma Cleanup in Bremerton, WA | National Restoration Construction"
+h1: "24/7 Emergency Biohazard and Trauma Cleanup in Bremerton"
+meta_description: "24/7 emergency biohazard and trauma cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "biohazard and trauma cleanup bremerton"
 secondary_keywords: ["trauma scene cleanup", "unattended death cleanup", "blood cleanup", "bodily fluid cleanup", "biohazard remediation"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard and Trauma Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Bremerton? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something traumatic happens inside a Bremerton home, whether in a rental near the Puget Sound Naval Shipyard or a century-old craftsman in Manette, the hours immediately after are disorienting. Families and property managers are left managing logistics they've never faced before: who to call, what to touch, how to protect everyone else in the building. National Restoration Construction responds to those calls across Kitsap County with IICRC-certified technicians trained specifically in biohazard and trauma scene cleanup, arriving discreetly and working with the care the situation demands.
 
 ## Why Bremerton's Housing Stock Shapes Biohazard Response

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Foley, MN | Heritage Restoration LLC"
-h1: "Water Damage Restoration in Foley"
-meta_description: "Water damage restoration in Foley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in Foley, MN | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in Foley"
+meta_description: "Emergency water damage restoration in Foley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration foley"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Foley? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Foley sits in the heart of Benton County, where freeze-thaw cycles hit hard and the region's clay-heavy soils slow drainage after heavy rain or snowmelt. When water finds its way into a Foley home, through a burst pipe during a January cold snap, a sump pump that couldn't keep up with spring runoff, or a washing machine supply line that let go overnight, it moves fast and hides in places that look dry at the surface. Heritage Restoration LLC responds to water damage calls in Foley and the surrounding Benton County area, handling everything from initial water extraction through structural drying and documentation for your insurance claim.
 
 ## Why Foley Properties See Water Damage Issues

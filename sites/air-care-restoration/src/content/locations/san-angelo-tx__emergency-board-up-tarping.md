@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in San Angelo, TX | Air Care Restoration"
-h1: "Emergency Board-Up and Tarping in San Angelo"
+title: "24/7 Emergency Board-Up and Tarping in San Angelo, TX | Air Care Restoration"
+h1: "24/7 Emergency Board-Up and Tarping in San Angelo"
 meta_description: "24/7 emergency board-up and tarping in San Angelo, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "emergency board-up and tarping san angelo"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

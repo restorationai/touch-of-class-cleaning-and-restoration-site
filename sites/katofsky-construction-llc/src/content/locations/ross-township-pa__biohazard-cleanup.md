@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Ross Township, PA | Katofsky Construction LLC"
-h1: "Biohazard Cleanup in Ross Township"
-meta_description: "24/7 biohazard cleanup in Ross Township, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "24/7 Emergency Biohazard Cleanup in Ross Township, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Biohazard Cleanup in Ross Township"
+meta_description: "24/7 emergency biohazard cleanup in Ross Township, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "biohazard cleanup ross township"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Ross Township? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Ross Township sits in a dense residential corridor just north of Pittsburgh, where older housing stock, tight lot lines, and the kind of close-knit neighborhoods that define Allegheny County mean that a biohazard situation rarely stays private for long. When something happens in a home here, whether it involves a traumatic event, an unattended death, or hazardous material left behind, the priority is swift, discreet action by people who understand both the cleanup process and the weight of the moment.
 
 ## Why Ross Township Properties Present Specific Biohazard Challenges

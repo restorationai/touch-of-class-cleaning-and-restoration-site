@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Cranford, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in Cranford"
-meta_description: "24/7 appliance leak cleanup in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Appliance Leak Cleanup in Cranford, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Cranford"
+meta_description: "24/7 emergency appliance leak cleanup in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "appliance leak cleanup cranford"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Cranford? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 Cranford's reputation as the 'Venice of New Jersey' is well-earned, the Rahway River winds through town, and the borough has absorbed three major flood events in living memory. But the water that quietly ruins a kitchen or laundry room most often doesn't come from the river at all. It comes from inside: a dishwasher door seal that finally gives out, a refrigerator ice maker line that weeps behind the cabinet for weeks, a washing machine hose that blows on a Sunday morning when no one is home. In Cranford's older housing stock, most of it 1920s–1940s colonials and capes sitting on full basements, that kind of slow or sudden appliance leak can saturate subfloor, travel down rim joists, and reach a finished basement before you notice anything wrong.
 
 ## Why Cranford Homes Are Particularly Vulnerable to Appliance Leaks

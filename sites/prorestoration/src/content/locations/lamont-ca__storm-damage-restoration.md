@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Lamont, CA | ProRestoration Services"
-h1: "Storm Damage Restoration in Lamont"
-meta_description: "24/7 storm damage restoration in Lamont, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Storm Damage Restoration in Lamont, CA | ProRestoration Services"
+h1: "24/7 Emergency Storm Damage Restoration in Lamont"
+meta_description: "24/7 emergency storm damage restoration in Lamont, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "storm damage restoration lamont"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

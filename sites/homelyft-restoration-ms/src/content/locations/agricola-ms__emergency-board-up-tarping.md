@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Agricola, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Agricola"
-meta_description: "Board-up and tarping in Agricola, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Agricola, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Agricola"
+meta_description: "24/7 emergency board-up and tarping in Agricola, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping agricola"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Agricola? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Agricola sits in the southern Mississippi coastal plain where Gulf-driven storms can shift from watch to warning in under an hour, leaving homes with blown-in windows, peeled roofing, and wide-open walls before a homeowner can even get off the phone with their insurance agent. When that happens, the gap between the storm passing and a crew arriving with plywood and heavy-duty tarps is the gap between a manageable repair and a gut renovation, and in this part of George County, that window closes fast once humidity starts working on exposed framing.
 
 ## Why Agricola Properties Face Elevated Board-Up and Tarping Risks

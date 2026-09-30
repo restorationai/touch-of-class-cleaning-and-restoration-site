@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Park City, UT | Home Pride Restoration and Cleaning"
-h1: "Water Damage Restoration in Park City"
-meta_description: "24/7 water damage restoration in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Water Damage Restoration in Park City, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Water Damage Restoration in Park City"
+meta_description: "24/7 emergency water damage restoration in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "water damage restoration park city"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Park City? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 At 7,000 feet above sea level, Park City's winters are brutal on plumbing. When temperatures swing from single digits overnight to the mid-30s by afternoon, a pattern that repeats dozens of times between November and March, the freeze-thaw cycle hammers supply lines, expansion joints, and any pipe running through an exterior wall or uninsulated crawl space. A burst pipe in a ski-in/ski-out condo near Deer Valley or a vacation home sitting empty on Marsac Avenue can dump hundreds of gallons before anyone notices. Home Pride Restoration and Cleaning has been responding to exactly these situations since 1997, and our IICRC-certified technicians understand the specific pressures that Park City's elevation and seasonal occupancy patterns put on residential and commercial properties.
 
 ## Why Park City Properties See More Water Damage Than You'd Expect

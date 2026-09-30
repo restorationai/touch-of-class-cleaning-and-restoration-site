@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Oildale, CA | ProRestoration Services"
-h1: "Fire Damage Restoration in Oildale"
-meta_description: "24/7 fire damage restoration in Oildale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Fire Damage Restoration in Oildale, CA | ProRestoration Services"
+h1: "24/7 Emergency Fire Damage Restoration in Oildale"
+meta_description: "24/7 emergency fire damage restoration in Oildale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "fire damage restoration oildale"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Oildale? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Oildale's older housing stock carries a fire risk that newer subdivisions simply don't. Decades-old knob-and-tube or aluminum branch wiring, still found inside 1940s and 1950s cottages along the Riverview and Highland neighborhoods, overloads quietly until it doesn't. When a house fire does break out in 93308, the damage compounds fast: original wood-lath walls act like a chimney chase, smoke infiltrates every cavity, and the petroleum-tinged dust that settles across this part of the San Joaquin Valley bonds with soot in ways that require more than a standard wipe-down. ProRestoration Services responds 24/7 and can be reached at (661) 393-9306 the moment you need help.
 
 ## Why Oildale Properties See Above-Average Fire Damage

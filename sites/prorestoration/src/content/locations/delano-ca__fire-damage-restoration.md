@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Delano, CA | ProRestoration Services"
-h1: "Fire Damage Restoration in Delano"
-meta_description: "24/7 fire damage restoration in Delano, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Fire Damage Restoration in Delano, CA | ProRestoration Services"
+h1: "24/7 Emergency Fire Damage Restoration in Delano"
+meta_description: "24/7 emergency fire damage restoration in Delano, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "fire damage restoration delano"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Delano? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 When a kitchen fire tears through a pre-1960 bungalow in Downtown Delano, the damage rarely stops at the charred cabinets. Older balloon-frame construction, common along the Randolph Street corridor and Cecil Avenue corridor, lets smoke travel vertically through wall cavities with almost no resistance, coating attic insulation and interior framing long before the fire department clears the scene. If your home or business in Delano has been through a fire, the clock on secondary smoke and soot damage is already running.
 
 ## Why Delano Properties Are Particularly Vulnerable to Fire Damage

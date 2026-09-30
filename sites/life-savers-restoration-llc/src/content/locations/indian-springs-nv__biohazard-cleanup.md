@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Indian Springs, NV | Life Savers Restoration LLC"
-h1: "Biohazard Cleanup in Indian Springs"
-meta_description: "24/7 biohazard cleanup in Indian Springs, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
+title: "24/7 Emergency Biohazard Cleanup in Indian Springs, NV | Life Savers Restoration LLC"
+h1: "24/7 Emergency Biohazard Cleanup in Indian Springs"
+meta_description: "24/7 emergency biohazard cleanup in Indian Springs, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
 primary_keyword: "biohazard cleanup indian springs"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

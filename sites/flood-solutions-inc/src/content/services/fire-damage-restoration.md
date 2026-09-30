@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Macomb | Flood & Fire Solutions"
-h1: "Fire Damage Restoration in Macomb"
-meta_description: "Fire damage restoration in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Fire Damage Restoration in Macomb | Flood & Fire Solutions"
+h1: "Emergency Fire Damage Restoration in Macomb"
+meta_description: "Emergency fire damage restoration in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "fire damage restoration macomb"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Macomb? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Smoke does not stop at the room where the fire started. Within hours of a house fire, soot particles travel through ductwork, settle into closet fabrics, and coat the inside of cabinets two rooms away from any visible char. The smell that seems to fade after a few days is not gone, it has absorbed into drywall, insulation, and wood framing. Fire damage restoration is the process of reversing all of that: not just removing debris, but neutralizing odor compounds at the molecular level and documenting every affected surface before a single insurance photo is taken.
 
 ## What fire damage restoration actually involves

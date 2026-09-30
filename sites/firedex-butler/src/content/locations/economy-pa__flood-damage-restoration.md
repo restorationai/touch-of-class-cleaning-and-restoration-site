@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Economy, PA | FireDEX Butler"
-h1: "Flood Damage Restoration in Economy"
-meta_description: "24/7 flood damage restoration in Economy, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Flood Damage Restoration in Economy, PA | FireDEX Butler"
+h1: "24/7 Emergency Flood Damage Restoration in Economy"
+meta_description: "24/7 emergency flood damage restoration in Economy, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "flood damage restoration economy"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

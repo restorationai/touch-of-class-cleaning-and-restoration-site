@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Heater Flood Cleanup in Kenilworth | The Restoration Group"
-h1: "Water Heater Flood Cleanup in Kenilworth"
-meta_description: "24/7 water heater flood cleanup in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Water Heater Flood Cleanup in Kenilworth | The Restoration Group"
+h1: "24/7 Emergency Water Heater Flood Cleanup in Kenilworth"
+meta_description: "24/7 emergency water heater flood cleanup in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "water heater flood cleanup kenilworth"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"

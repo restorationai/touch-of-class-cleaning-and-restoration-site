@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Eagle Mountain, UT | Home Pride Restoration and Cleaning"
-h1: "Basement Flooding Cleanup in Eagle Mountain"
-meta_description: "24/7 basement flooding cleanup in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "Emergency Basement Flooding Cleanup in Eagle Mountain, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Basement Flooding Cleanup in Eagle Mountain"
+meta_description: "24/7 emergency basement flooding cleanup in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "basement flooding cleanup eagle mountain"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Eagle Mountain? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Eagle Mountain sits on the western bench of Utah Lake Valley, where the clay-heavy soils common across Lehi and the surrounding Wasatch Front don't drain the way homeowners expect, especially during the rapid spring snowmelt that rolls off the Oquirrh Mountains. When that saturated ground has nowhere to go, it finds the path of least resistance: your basement. A flooded basement in Eagle Mountain can go from a damp floor to several inches of standing water in a matter of hours, and the window to prevent secondary mold growth is shorter than most people realize, typically 24 to 48 hours after the initial intrusion.
 
 ## Why Eagle Mountain Basements Flood More Than You'd Expect

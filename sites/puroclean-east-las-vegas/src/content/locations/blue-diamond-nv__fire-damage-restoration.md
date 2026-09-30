@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Blue Diamond, NV | PuroClean of East Las Vegas"
-h1: "Fire Damage Restoration in Blue Diamond"
-meta_description: "Fire damage restoration in Blue Diamond, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Fire Damage Restoration in Blue Diamond, NV | PuroClean of East Las Vegas"
+h1: "Emergency Fire Damage Restoration in Blue Diamond"
+meta_description: "Emergency fire damage restoration in Blue Diamond, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "fire damage restoration blue diamond"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

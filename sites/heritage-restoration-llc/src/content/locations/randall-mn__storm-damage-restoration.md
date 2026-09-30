@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Randall, MN | Heritage Restoration LLC"
-h1: "Storm Damage Restoration in Randall"
-meta_description: "Storm damage restoration in Randall, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Storm Damage Restoration in Randall, MN | Heritage Restoration LLC"
+h1: "Emergency Storm Damage Restoration in Randall"
+meta_description: "Emergency storm damage restoration in Randall, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "storm damage restoration randall"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Randall? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Randall sits in Morrison County where the Minnesota River corridor funnels cold fronts south and lake-effect moisture rolls in from the surrounding chain of lakes, turning ordinary thunderstorms into events that strip shingles, drop limbs through roofs, and leave standing water inside homes before the radar even clears. Heritage Restoration LLC responds to storm damage in Randall and the surrounding Morrison County area, working from our Little Falls base to assess, document, and dry out properties before secondary damage compounds the original loss.
 
 ## Why Randall Properties See Significant Storm Damage

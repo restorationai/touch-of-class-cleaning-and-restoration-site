@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Ocean Springs, MS | HomeLyft Restoration MS"
-h1: "Smoke Damage Restoration in Ocean Springs"
-meta_description: "24/7 smoke damage restoration in Ocean Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Smoke Damage Restoration in Ocean Springs, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Smoke Damage Restoration in Ocean Springs"
+meta_description: "24/7 emergency smoke damage restoration in Ocean Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "smoke damage restoration ocean springs"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

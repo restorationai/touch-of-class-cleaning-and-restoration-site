@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Nipomo, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Nipomo"
-meta_description: "Board-up and tarping in Nipomo, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Nipomo, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Nipomo"
+meta_description: "Emergency board-up and tarping in Nipomo, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping nipomo"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"

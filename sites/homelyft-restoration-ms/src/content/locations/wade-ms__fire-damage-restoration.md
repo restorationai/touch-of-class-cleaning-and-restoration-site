@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Wade, MS | HomeLyft Restoration MS"
-h1: "Fire Damage Restoration in Wade"
-meta_description: "Fire damage restoration in Wade, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Fire Damage Restoration in Wade, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Fire Damage Restoration in Wade"
+meta_description: "24/7 emergency fire damage restoration in Wade, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "fire damage restoration wade"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Wade? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 A house fire in Wade leaves behind more than charred walls, the smoke odor seeps into every surface, soot coats HVAC ductwork, and the humid Mississippi air accelerates corrosion on metal fixtures within hours of the flames being extinguished. In a small, tight-knit community like Wade in Hancock County, getting the right restoration crew on-site quickly can mean the difference between saving structural framing and tearing it out entirely. HomeLyft Restoration MS responds from Gulfport and brings IICRC FSRT-certified fire and smoke technicians directly to Wade properties when you call +12282845200.
 
 ## Why Wade Properties Face Particular Challenges After a Fire

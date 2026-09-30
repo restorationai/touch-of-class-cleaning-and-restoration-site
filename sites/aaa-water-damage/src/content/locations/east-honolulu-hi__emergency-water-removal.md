@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in East Honolulu, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Emergency Water Removal & Cleanup in East Honolulu"
+title: "24/7 Emergency Water Removal & Cleanup in East Honolulu, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Removal & Cleanup in East Honolulu"
 meta_description: "24/7 emergency water removal and cleanup in East Honolulu, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "emergency water removal east honolulu"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in East Honolulu? We answer 24/7.** Call now and our crew heads out to extract the water and start drying.
+
 East Honolulu sits where the Ko'olau Range meets the Pacific, and that geography shapes how water damage behaves here in ways that catch property owners off guard. The trade winds push moisture inland, afternoon rain can dump inches in minutes on the windward-facing slopes, and homes built on the hillsides above Maunalua Bay often have concrete slab foundations that channel water toward interior walls before anyone notices a problem. When standing water appears in a living room or a crawl space fills after a pipe bursts, the warm, humid air that makes this part of O'ahu so livable also gives mold a head start. Calling (808) 349-3407 connects you with a crew available around the clock to stop that clock.
 
 ## Why East Honolulu Properties See Water Damage Differently

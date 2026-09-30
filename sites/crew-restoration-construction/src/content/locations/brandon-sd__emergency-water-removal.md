@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Brandon? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Brandon's rapid growth east of Sioux Falls means subdivisions like Aspen Heights and the Split Rock area are full of homes built in the last decade or two, and that newer construction brings its own water damage surprises. Slab-on-grade foundations common in these developments leave little margin when a supply line fails or a sump pit backs up during a heavy spring melt. Standing water can wick into engineered hardwood and spray-foam-insulated wall cavities before a homeowner even realizes the source. When that happens, the window for limiting structural damage is measured in hours, not days. Call Crew Restoration & Construction at (605) 965-2727.
 
 ## Why Brandon Properties See Water Damage Issues

@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Lincolnwood, IL | Dry Bros Water & Fire Restoration"
-h1: "Emergency Water Removal & Cleanup in Lincolnwood"
+title: "24/7 Emergency Water Removal & Cleanup in Lincolnwood, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Water Removal & Cleanup in Lincolnwood"
 meta_description: "24/7 emergency water removal and cleanup in Lincolnwood, IL. Insurance billing accepted. Call (877) 379-2767."
 primary_keyword: "emergency water removal lincolnwood"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

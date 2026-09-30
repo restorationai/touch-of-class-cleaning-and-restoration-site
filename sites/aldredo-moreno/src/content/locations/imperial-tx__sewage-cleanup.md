@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Imperial, TX | ACS Enterprise "
-h1: "Sewage Cleanup and Sanitization in Imperial"
-meta_description: "Sewage cleanup and sanitization in Imperial, TX. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Sewage Cleanup and Sanitization in Imperial, TX | ACS Enterprise "
+h1: "Emergency Sewage Cleanup and Sanitization in Imperial"
+meta_description: "Emergency sewage cleanup and sanitization in Imperial, TX. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "sewage cleanup and sanitization imperial"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Imperial? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Imperial sits in the heart of the Permian Basin, where the same caliche-heavy soil that makes drilling country so productive also creates real headaches for residential plumbing. Caliche layers shift and compact unevenly, and when a sewer line cracks or a septic system backs up under that kind of ground pressure, raw sewage does not stay put. It migrates toward foundations, seeps into crawl spaces, and surfaces in places you would not expect. ACS Enterprise responds to sewage backup calls throughout Imperial and the surrounding Midland County area, handling the removal, disinfection, and structural drying that a sewage event demands.
 
 ## Why Imperial Properties See Sewage Backup Issues

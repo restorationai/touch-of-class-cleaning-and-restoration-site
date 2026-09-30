@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Enterprise, NV | PuroClean of East Las Vegas"
-h1: "Biohazard Cleanup in Enterprise"
-meta_description: "Biohazard cleanup in Enterprise, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Biohazard Cleanup in Enterprise, NV | PuroClean of East Las Vegas"
+h1: "Emergency Biohazard Cleanup in Enterprise"
+meta_description: "Emergency biohazard cleanup in Enterprise, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "biohazard cleanup enterprise"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

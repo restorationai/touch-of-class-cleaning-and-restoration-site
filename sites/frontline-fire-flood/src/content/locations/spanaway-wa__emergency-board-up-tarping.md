@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Spanaway, WA | Frontline Fire & Flood"
-h1: "Emergency Board-Up and Tarping in Spanaway"
+title: "24/7 Emergency Board-Up and Tarping in Spanaway, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Board-Up and Tarping in Spanaway"
 meta_description: "24/7 emergency board-up and tarping in Spanaway, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency board-up and tarping spanaway"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Spanaway? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Spanaway sits in a corridor of Pierce County where Pacific weather systems stall against the foothills, dropping sustained rain that can turn a broken window or missing roof section into a cascading interior loss within hours. When a fire vents through a soffit, a windstorm peels back flashing, or a vehicle strike punches through an exterior wall, the opening that follows is not just a structural problem, it is a clock. Every hour of exposure invites rain-driven moisture, opportunistic entry, and the kind of secondary damage that multiplies an insurance claim. Frontline Fire & Flood responds 24/7 from Lakewood to get Spanaway properties secured before that clock runs out.
 
 ## Why Spanaway Properties Face Elevated Board-Up and Tarping Risk

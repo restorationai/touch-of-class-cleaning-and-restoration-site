@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in North Sioux City, SD | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in North Sioux City"
-meta_description: "Board-up and tarping in North Sioux City, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in North Sioux City, SD | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in North Sioux City"
+meta_description: "Emergency board-up and tarping in North Sioux City, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping north sioux city"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"

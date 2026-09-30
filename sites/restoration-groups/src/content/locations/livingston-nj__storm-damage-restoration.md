@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Livingston, NJ | The Restoration Group"
-h1: "Storm Damage Restoration in Livingston"
-meta_description: "24/7 storm damage restoration in Livingston, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Storm Damage Restoration in Livingston, NJ | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Livingston"
+meta_description: "24/7 emergency storm damage restoration in Livingston, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "storm damage restoration livingston"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Livingston? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 When a fast-moving nor'easter or a remnant tropical system stalls over Essex County, Livingston takes a particular kind of beating. The Canoe Brook watershed threads through the western side of town, and when rainfall tips past two inches an hour, as it did during Ida in 2021, low-lying streets near the West Essex Trail can turn into drainage channels before a sump pump has time to cycle. Add the town's dense canopy of mature oaks and silver maples, and a single severe storm can mean downed limbs through rooflines, flooded finished basements, and saturated wall cavities all on the same block.
 
 ## Why Livingston Properties Are Especially Vulnerable After Storms

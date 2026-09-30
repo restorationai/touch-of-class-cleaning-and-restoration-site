@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Trauma Scene Cleanup in Kirkland, WA | National Restoration Construction"
-h1: "Trauma Scene Cleanup in Kirkland"
-meta_description: "24/7 trauma scene cleanup in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Trauma Scene Cleanup in Kirkland, WA | National Restoration Construction"
+h1: "24/7 Emergency Trauma Scene Cleanup in Kirkland"
+meta_description: "24/7 emergency trauma scene cleanup in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "trauma scene cleanup kirkland"
 secondary_keywords: ["trauma cleanup services", "trauma scene cleaning", "accident scene cleanup", "crime and trauma decontamination", "emergency trauma cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Trauma Scene Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Kirkland? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Kirkland's tight-knit neighborhoods, from the lakefront homes along the east shore of Lake Washington to the newer townhome clusters in Totem Lake, mean that when something traumatic happens inside a residence, word travels fast and discretion matters enormously. Families dealing with an unthinkable situation don't need added stress from neighbors, HOA property managers, or passersby. National Restoration Construction has handled trauma scene cleanup in this community since 2004, arriving in unmarked vehicles, working quietly, and leaving a property safe, clean, and odor-free, without drawing attention to what happened inside.
 
 ## Why Kirkland's Housing Stock Shapes Trauma Cleanup Work

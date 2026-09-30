@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Utica, MI | Flood Solutions inc"
-h1: "Basement Flooding Cleanup in Utica"
-meta_description: "Basement flooding cleanup in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Basement Flooding Cleanup in Utica, MI | Flood Solutions inc"
+h1: "Emergency Basement Flooding Cleanup in Utica"
+meta_description: "Emergency basement flooding cleanup in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "basement flooding cleanup utica"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "basement-flooding-cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Utica? Call now for emergency service.** Our crew responds fast to pump out the water and start drying.
+
 Utica sits in a stretch of Macomb County where the clay-heavy soil that defines so much of southeastern Michigan does its worst work in basements. When rain saturates that ground or a water line gives out in winter, clay holds moisture against your foundation instead of letting it drain away, and what starts as a damp corner can become several inches of standing water faster than most homeowners expect. Flood Solutions inc has been responding to exactly this kind of loss since 1996, and the team knows what basement flooding in this part of the county actually looks like once the water has had a few hours to move.
 
 ## Why Utica Basements Flood the Way They Do

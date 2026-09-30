@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Merkel, TX | Air Care Restoration"
-h1: "Flood Damage Restoration in Merkel"
-meta_description: "24/7 flood damage restoration in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Flood Damage Restoration in Merkel, TX | Air Care Restoration"
+h1: "24/7 Emergency Flood Damage Restoration in Merkel"
+meta_description: "24/7 emergency flood damage restoration in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "flood damage restoration merkel"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "flood-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Merkel? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Flash flooding in Merkel doesn't look like a hurricane surge. It looks like two inches of rain falling in forty minutes off a West Texas thunderstorm, water sheeting across yards that can't absorb it fast enough, and a slab or pier-and-beam foundation taking on water before anyone's had time to move a rug. Flood damage restoration here has to account for that speed, and for soil that holds water against a house long after the sky clears.
 
 ## Why Merkel Properties See Flood Damage

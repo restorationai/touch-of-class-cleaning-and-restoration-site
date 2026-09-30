@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Sandy, UT | FIX Restoration"
-h1: "Storm Damage Restoration in Sandy"
-meta_description: "Storm damage restoration in Sandy, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Storm Damage Restoration in Sandy, UT | FIX Restoration"
+h1: "Emergency Storm Damage Restoration in Sandy"
+meta_description: "Emergency storm damage restoration in Sandy, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "storm damage restoration sandy"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Sandy? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Sandy sits at the base of the Wasatch Front where elevation changes are sharp, storm cells can stall against the mountain ridgeline, and a single afternoon thunderstorm can drop hail the size of marbles on one block while leaving the next one dry. That combination of high-desert heat, sudden moisture, and canyon-driven wind gusts creates a storm damage pattern that is genuinely different from what contractors see in the Salt Lake valley floor. FIX Restoration has been working Utah's residential and commercial properties since 2012, and the team understands what that geography does to rooflines, siding, and drainage systems when the weather turns.
 
 ## Why Sandy Properties See Distinctive Storm Damage

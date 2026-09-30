@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Perth Amboy, NJ | The Restoration Group"
-h1: "Sewage Cleanup and Sanitization in Perth Amboy"
-meta_description: "24/7 sewage cleanup and sanitization in Perth Amboy, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "Emergency Sewage Cleanup and Sanitization in Perth Amboy, NJ | The Restoration Group"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Perth Amboy"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Perth Amboy, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "sewage cleanup and sanitization perth amboy"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Perth Amboy? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to contain the contamination and start the cleanup.
+
 When a sewer line backs up into a basement on a street like Chase Avenue or Dunham Heights, the problem isn't just the smell, it's the category-three contaminated water soaking into century-old floor joists, wicking up brick foundation walls, and pooling under cast-iron radiator pipes that haven't moved since the Eisenhower administration. Perth Amboy's dense stock of late-1800s and early-1900s two- and three-family frame homes was built long before modern sanitary sewer design standards, and those aging clay and cast-iron drain lines fail quietly until they don't. The Restoration Group responds 24/7 to sewage backups across Perth Amboy (08861 and 08862), extraction, full sanitization, and documentation ready for your insurance carrier.
 
 ## Why Perth Amboy Properties See Sewage Backup Issues

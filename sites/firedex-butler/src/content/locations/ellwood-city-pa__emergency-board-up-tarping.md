@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Ellwood City, PA | FireDEX Butler"
-h1: "Emergency Board-Up and Tarping in Ellwood City"
+title: "24/7 Emergency Board-Up and Tarping in Ellwood City, PA | FireDEX Butler"
+h1: "24/7 Emergency Board-Up and Tarping in Ellwood City"
 meta_description: "24/7 emergency board-up and tarping in Ellwood City, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "emergency board-up and tarping ellwood city"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

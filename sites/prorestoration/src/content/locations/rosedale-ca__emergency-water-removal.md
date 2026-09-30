@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Rosedale, CA | ProRestoration Services"
-h1: "Emergency Water Removal & Cleanup in Rosedale"
+title: "24/7 Emergency Water Removal & Cleanup in Rosedale, CA | ProRestoration Services"
+h1: "24/7 Emergency Water Removal & Cleanup in Rosedale"
 meta_description: "24/7 emergency water removal & cleanup in Rosedale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "emergency water removal & cleanup rosedale"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]

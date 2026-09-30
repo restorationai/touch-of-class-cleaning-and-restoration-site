@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Avon, MN | Heritage Restoration LLC"
-h1: "Storm Damage Restoration in Avon"
-meta_description: "Storm damage restoration in Avon, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Storm Damage Restoration in Avon, MN | Heritage Restoration LLC"
+h1: "Emergency Storm Damage Restoration in Avon"
+meta_description: "Emergency storm damage restoration in Avon, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "storm damage restoration avon"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Avon? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Avon sits in Stearns County at the edge of Minnesota's central lakes region, where summer storm systems rolling in off open farmland can shift from scattered showers to damaging straight-line winds in under an hour. That combination of flat agricultural exposure and a shoreline community atmosphere means roofs, siding, and mature trees around lakefront properties take a disproportionate beating when severe weather moves through. Heritage Restoration LLC responds to storm damage across Avon and the surrounding area, handling everything from wind-lifted shingles and broken windows to full structural repairs after a tree comes down on a home.
 
 ## Why Avon Properties See Storm Damage Differently Than Most of Minnesota

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Eagle Mountain, UT | FIX Restoration"
-h1: "Ceiling Water Damage Repair in Eagle Mountain"
-meta_description: "Ceiling water damage repair in Eagle Mountain, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Ceiling Water Damage Repair in Eagle Mountain, UT | FIX Restoration"
+h1: "Emergency Ceiling Water Damage Repair in Eagle Mountain"
+meta_description: "Emergency ceiling water damage repair in Eagle Mountain, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "ceiling water damage repair eagle mountain"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

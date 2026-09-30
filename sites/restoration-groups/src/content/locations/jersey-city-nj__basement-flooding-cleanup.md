@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Jersey City, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in Jersey City"
-meta_description: "24/7 basement flooding cleanup in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Basement Flooding Cleanup in Jersey City, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Jersey City"
+meta_description: "24/7 emergency basement flooding cleanup in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "basement flooding cleanup jersey city"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Jersey City? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 When Tropical Storm Ida swept through in 2021, basements from Bergen-Lafayette to The Heights filled with water faster than sump pumps could cycle, and many of those cellars still carry the ghost of that event in the form of residual moisture, compromised block walls, and floor assemblies that were never properly dried. Jersey City's combination of aging combined-sewer infrastructure, low-lying waterfront blocks, and a dense housing stock that spans everything from 1890s brownstone rowhouses to glass-tower condos at Newport makes basement flooding one of the most common and most complicated water damage calls in Hudson County.
 
 ## Why Jersey City Properties See Basement Flooding So Often

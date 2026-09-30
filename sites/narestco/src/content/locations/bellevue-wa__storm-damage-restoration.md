@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Bellevue, WA | National Restoration Construction"
-h1: "Storm Damage Restoration in Bellevue"
-meta_description: "24/7 storm damage restoration in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Storm Damage Restoration in Bellevue, WA | National Restoration Construction"
+h1: "24/7 Emergency Storm Damage Restoration in Bellevue"
+meta_description: "24/7 emergency storm damage restoration in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "storm damage restoration bellevue"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Bellevue? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 A storm just hit your Bellevue property. Maybe a Douglas fir came through the roof, or the wind drove rain under your siding and into the wall cavity. Maybe the power is still out and you're standing in your living room with a flashlight, not sure whether the ceiling is about to let go. Whatever got you here, the next few hours matter, water and structural exposure don't wait. National Restoration Construction dispatches from Federal Way, putting a crew at most Bellevue addresses within 60 to 90 minutes of your call.
 
 ## Why Bellevue Properties See Storm Damage So Often

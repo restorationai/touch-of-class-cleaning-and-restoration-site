@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Storm Damage Restoration in Lakewood | Frontline Fire & Flood"
-h1: "Storm Damage Restoration in Lakewood"
-meta_description: "24/7 storm damage restoration in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Storm Damage Restoration in Lakewood | Frontline Fire & Flood"
+h1: "24/7 Emergency Storm Damage Restoration in Lakewood"
+meta_description: "24/7 emergency storm damage restoration in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration lakewood"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Lakewood? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 A storm doesn't finish its damage when the wind stops. The branch that punched through your roof at 2 a.m. left an opening that soaked your attic insulation, your ceiling drywall, and the wall cavity below it, all before morning. By the time you're standing in your living room watching the ceiling bubble, secondary water damage is already underway. Storm damage restoration is the work of stopping that chain reaction: sealing the structure, extracting what's wet, drying what can be saved, and rebuilding what can't.
 
 ## What storm damage restoration actually involves

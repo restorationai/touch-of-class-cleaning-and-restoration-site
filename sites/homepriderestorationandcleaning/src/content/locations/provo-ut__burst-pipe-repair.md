@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Provo, UT | Home Pride Restoration and Cleaning"
-h1: "Burst Pipe Cleanup and Repair in Provo"
-meta_description: "24/7 burst pipe cleanup and repair in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Provo, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Provo"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "burst pipe cleanup and repair provo"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

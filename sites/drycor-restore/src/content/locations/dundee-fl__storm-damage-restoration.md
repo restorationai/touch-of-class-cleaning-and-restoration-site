@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Dundee, FL | DRYCOR RESTORE"
-h1: "Storm Damage Restoration in Dundee"
-meta_description: "24/7 storm damage restoration in Dundee, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "24/7 Emergency Storm Damage Restoration in Dundee, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Storm Damage Restoration in Dundee"
+meta_description: "24/7 emergency storm damage restoration in Dundee, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "storm damage restoration dundee"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Dundee? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Dundee sits in the heart of Polk County, where the ridge lakes geography funnels summer thunderstorms and late-season hurricanes into a corridor that can drop several inches of rain in under an hour. When a fast-moving storm tears through, the damage rarely stops at a missing shingle: wind-driven rain finds every gap in aging soffits, water pools against foundations on the flat lots common throughout town, and the humidity that follows keeps everything wet long after the sky clears. If a storm has just hit your Dundee home, the window for limiting secondary damage is short.
 
 ## Why Dundee Properties See Elevated Storm Damage Risk

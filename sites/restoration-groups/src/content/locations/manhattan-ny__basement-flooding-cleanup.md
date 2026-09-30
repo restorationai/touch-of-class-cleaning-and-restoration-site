@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Manhattan, NY | The Restoration Group"
-h1: "Basement Flooding Cleanup in Manhattan"
-meta_description: "24/7 basement flooding cleanup in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Basement Flooding Cleanup in Manhattan, NY | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Manhattan"
+meta_description: "24/7 emergency basement flooding cleanup in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "basement flooding cleanup manhattan"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NY"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Manhattan? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 Manhattan basements flood differently than anywhere else. When a corroded riser lets go inside a pre-war co-op on the Upper West Side, the water doesn't just pool in one unit, it migrates through original 1920s concrete, saturates the sub-slab fill, and wicks into the brick foundation walls before anyone on the ground floor smells it. Tropical systems like Ida proved that even the city's upgraded storm drains can't keep pace with three inches of rain in an hour, leaving basement-level retail and mechanical rooms from Harlem to Chelsea under standing water by midnight. The Restoration Group responds 24/7, call **(908) 970-8533** the moment water appears.
 
 ## Why Manhattan Properties See Basement Flooding

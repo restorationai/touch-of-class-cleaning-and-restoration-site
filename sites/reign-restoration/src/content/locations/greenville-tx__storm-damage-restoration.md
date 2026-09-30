@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Greenville, TX | Reign Restoration"
-h1: "Storm Damage Restoration in Greenville"
-meta_description: "Storm damage restoration in Greenville, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Storm Damage Restoration in Greenville, TX | Reign Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Greenville"
+meta_description: "24/7 emergency storm damage restoration in Greenville, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "storm damage restoration greenville"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Greenville? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Greenville sits squarely in the corridor where North Texas supercell thunderstorms track northeast out of the Dallas–Fort Worth Metroplex, funneling hail, straight-line winds, and the occasional tornado through Hunt County with little warning. When a storm tears through, stripping shingles, dropping trees onto rooflines, or driving rain through a compromised soffit, the damage compounds fast. Reign Restoration responds to storm damage calls across Greenville and the surrounding Hunt County area, working to stop secondary water intrusion and structural deterioration before the repair scope doubles.
 
 ## Why Greenville Properties Face Elevated Storm Damage Risk

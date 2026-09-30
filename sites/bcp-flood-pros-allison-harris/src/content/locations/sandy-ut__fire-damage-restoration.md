@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Sandy, UT | FIX Restoration"
-h1: "Fire Damage Restoration in Sandy"
-meta_description: "Fire damage restoration in Sandy, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in Sandy, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in Sandy"
+meta_description: "Emergency fire damage restoration in Sandy, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration sandy"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Sandy? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When a fire tears through a Sandy home, the damage rarely stops at the char line. Smoke travels through HVAC systems, seeps into wall cavities, and leaves behind an acidic residue that keeps corroding metal fixtures and finishes long after the flames are out. Sandy's high-desert climate adds another layer of complexity: the dry air that makes Utah summers so comfortable also accelerates oxidation on exposed structural steel and speeds the set of smoke residue into porous surfaces like brick, stucco, and the unfinished concrete block foundations common in neighborhoods built during the area's rapid 1970s and 1980s growth. Acting quickly is not a cliché here. It is a structural reality.
 
 ## Why Sandy Properties See Particular Fire Damage Challenges

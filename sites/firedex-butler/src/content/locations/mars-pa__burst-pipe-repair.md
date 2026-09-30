@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Mars, PA | FireDEX Butler"
-h1: "Burst Pipe Cleanup and Repair in Mars"
-meta_description: "24/7 burst pipe cleanup and repair in Mars, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Mars, PA | FireDEX Butler"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Mars"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Mars, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "burst pipe cleanup and repair mars"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Mars? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 When a pipe lets go in the middle of a January night along the Route 228 corridor, the water doesn't wait for morning. Mars Borough and the surrounding Adams Township neighborhoods sit in a pocket of Butler County where hard freezes arrive fast and older housing stock wasn't always built to handle them, and by the time a homeowner notices the ceiling bubbling or hears water running behind a wall, the damage is already spreading. FireDEX Butler has been responding to exactly these situations since 1981, and our Cranberry Township location puts us just minutes away when every minute counts.
 
 ## Why Mars Properties See Burst Pipe Issues

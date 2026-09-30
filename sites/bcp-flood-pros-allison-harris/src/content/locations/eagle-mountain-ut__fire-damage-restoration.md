@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Eagle Mountain, UT | FIX Restoration"
-h1: "Fire Damage Restoration in Eagle Mountain"
-meta_description: "Fire damage restoration in Eagle Mountain, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in Eagle Mountain, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in Eagle Mountain"
+meta_description: "Emergency fire damage restoration in Eagle Mountain, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration eagle mountain"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Eagle Mountain? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Eagle Mountain sits at the edge of Utah Valley where dry desert winds sweep off the West Desert and push wildfire smoke across newer subdivisions faster than most residents expect. A structure fire here does not just char wood and melt fixtures, the low-humidity air accelerates smoke penetration into drywall, insulation, and HVAC systems within hours of the flames being extinguished. FIX Restoration has been working fire and smoke restoration jobs across Utah County since 2012, and the conditions specific to Eagle Mountain shape how we approach every phase of the work.
 
 ## Why Eagle Mountain Properties See Fire Damage Differently

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Riverside, CA | Dry County Restoration"
-h1: "Fire Damage Restoration in Riverside"
-meta_description: "24/7 fire damage restoration in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "24/7 Emergency Fire Damage Restoration in Riverside, CA | Dry County Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Riverside"
+meta_description: "24/7 emergency fire damage restoration in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "fire damage restoration riverside"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Riverside? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Riverside sits in one of Southern California's most fire-prone corridors, the Santa Ana winds that funnel through the Inland Empire each fall can push a structure fire from ignition to full-room involvement in minutes, and the region's dry, hot summers leave building materials primed to absorb heat and smoke deep into framing, insulation, and finish surfaces. When fire moves through a Riverside home, the visible char is rarely the whole story. Smoke residue travels ahead of flames, settling into HVAC ducts, wall cavities, and attic spaces long before the fire department leaves the scene. Dry County Restoration responds 24/7 from Corona, a short drive east on the 91, to begin stabilizing properties before secondary damage compounds the loss.
 
 ## Why Riverside Properties Face Particular Fire Damage Challenges

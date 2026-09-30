@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in North Bergen, NJ | The Restoration Group"
-h1: "Fire Damage Restoration in North Bergen"
-meta_description: "24/7 fire damage restoration in North Bergen, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Fire Damage Restoration in North Bergen, NJ | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in North Bergen"
+meta_description: "24/7 emergency fire damage restoration in North Bergen, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "fire damage restoration north bergen"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in North Bergen? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and start the recovery.
+
 Fire moves fast in North Bergen's dense blocks of early 20th-century two- and three-family homes, the kind of wood-framed walkups stacked along the hillside streets above Bergenline Avenue where a kitchen fire on the second floor can push smoke through shared balloon-frame cavities into units above and below before the engine company arrives. When the smoke clears and the crews leave, what remains isn't just char and soot, it's a layered restoration problem that demands a methodical response before secondary damage compounds the loss.
 
 ## Why North Bergen's Housing Stock Complicates Fire Damage

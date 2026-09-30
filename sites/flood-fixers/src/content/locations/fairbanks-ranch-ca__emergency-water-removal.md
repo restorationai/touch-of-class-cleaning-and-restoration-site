@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
 title: "Emergency Water Removal & Cleanup in Fairbanks Ranch, CA | Flood Fixers"
-h1: "Emergency Water Removal & Cleanup in Fairbanks Ranch"
+h1: "24/7 Emergency Water Removal & Cleanup in Fairbanks Ranch"
 meta_description: "24/7 emergency water removal and cleanup in Fairbanks Ranch, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "emergency water removal fairbanks ranch"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

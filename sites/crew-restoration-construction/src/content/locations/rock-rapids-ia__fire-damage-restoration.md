@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Rock Rapids, IA | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Rock Rapids"
-meta_description: "Fire damage restoration in Rock Rapids, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Rock Rapids, IA | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Rock Rapids"
+meta_description: "Emergency fire damage restoration in Rock Rapids, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration rock rapids"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Rock Rapids? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When fire tears through a Rock Rapids home, the damage rarely stops at the burn line. Lyon County's older housing stock, much of it built in the mid-20th century or earlier, tends to have wood-framed walls, plaster ceilings, and original millwork that absorb smoke and soot far deeper than modern construction. By the time the Rock Rapids Fire Department clears a scene, odor compounds have already migrated into wall cavities, ductwork, and subflooring. Crew Restoration & Construction responds to fire losses across northwest Iowa, including properties in the 51246 ZIP code, and we move quickly because the chemistry of smoke damage gets worse with every hour it sits.
 
 ## Why Rock Rapids Properties Face Distinct Fire Damage Challenges

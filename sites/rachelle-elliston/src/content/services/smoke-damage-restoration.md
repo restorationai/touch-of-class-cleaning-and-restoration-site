@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Smoke Damage Restoration in North Las Vegas | Desert Valley Contracting Inc "
-h1: "Smoke Damage Restoration in North Las Vegas"
-meta_description: "24/7 smoke damage restoration in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+title: "24/7 Emergency Smoke Damage Restoration in North Las Vegas | Desert Valley Contracting Inc "
+h1: "24/7 Emergency Smoke Damage Restoration in North Las Vegas"
+meta_description: "24/7 emergency smoke damage restoration in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "smoke damage restoration north las vegas"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

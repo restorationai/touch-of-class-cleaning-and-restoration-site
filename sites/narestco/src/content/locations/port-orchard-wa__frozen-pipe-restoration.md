@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Port Orchard, WA | National Restoration Construction"
-h1: "Frozen Pipe Restoration in Port Orchard"
-meta_description: "24/7 frozen pipe restoration in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Frozen Pipe Restoration in Port Orchard, WA | National Restoration Construction"
+h1: "24/7 Emergency Frozen Pipe Restoration in Port Orchard"
+meta_description: "24/7 emergency frozen pipe restoration in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "frozen pipe restoration port orchard"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Port Orchard? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 When temperatures drop into the low 20s on the Kitsap Peninsula, which happens more often than Port Orchard's mild marine reputation suggests, the older pier-and-post homes along the Bay Street waterfront and the mid-century ranchers near Annapolis are the first to show it. Supply lines running through uninsulated crawl spaces freeze quietly overnight, and by the time a homeowner notices the faucet isn't running, the pipe has already split and begun pushing water into floor framing, subfloor sheathing, and insulation batts. National Restoration Construction has responded to these calls across South Kitsap since 2004, and we know the difference between a quick thaw-and-dry and a job that needs full structural drying and reconstruction.
 
 ## Why Port Orchard Properties Are Particularly Vulnerable to Frozen Pipes

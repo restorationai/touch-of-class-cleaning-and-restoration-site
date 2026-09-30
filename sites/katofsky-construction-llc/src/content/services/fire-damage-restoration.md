@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Pittsburgh | Katofsky Construction LLC"
-h1: "Fire Damage Restoration in Pittsburgh"
-meta_description: "24/7 fire damage restoration in Pittsburgh and surrounding areas. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "24/7 Emergency Fire Damage Restoration in Pittsburgh | Katofsky Construction LLC"
+h1: "24/7 Emergency Fire Damage Restoration in Pittsburgh"
+meta_description: "24/7 emergency fire damage restoration in Pittsburgh and surrounding areas. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "fire damage restoration pittsburgh"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Pittsburgh? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Smoke moves faster than fire. By the time flames are out, soot has already traveled through your HVAC system, settled into wall cavities, and begun etching glass, metal, and finished surfaces. The visible char is only part of the problem. The acidic residue left by combustion keeps damaging materials for days after the fire department leaves, which is why the clock on fire damage restoration starts the moment the fire is out, not when you feel ready to call.
 
 ## What Fire Damage Restoration actually involves

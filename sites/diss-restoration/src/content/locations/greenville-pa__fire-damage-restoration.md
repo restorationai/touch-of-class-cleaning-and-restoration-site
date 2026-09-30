@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Greenville, PA | DISS Restoration"
-h1: "Fire Damage Restoration in Greenville"
-meta_description: "24/7 fire damage restoration in Greenville, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Fire Damage Restoration in Greenville, PA | DISS Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Greenville"
+meta_description: "24/7 emergency fire damage restoration in Greenville, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "fire damage restoration greenville"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Greenville? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Greenville, Pennsylvania sits in Mercer County's rolling terrain, and the older housing stock throughout the borough reflects generations of working-class construction: balloon-frame walls, original plaster and lath, and attic spaces that were never designed with fire containment in mind. When a fire moves through one of these homes, smoke and heat travel paths that newer platform-frame construction simply doesn't allow. That's the reality DISS Restoration works with every time we respond to a fire damage call in Greenville, and it shapes every decision from the first walk-through to the final air quality check.
 
 ## Why Greenville's Building Stock Complicates Fire Damage Recovery

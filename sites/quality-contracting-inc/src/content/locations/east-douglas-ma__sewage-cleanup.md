@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in East Douglas, MA | Quality Contracting, Inc."
-h1: "Sewage Cleanup and Sanitization in East Douglas"
-meta_description: "Sewage cleanup and sanitization in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Sewage Cleanup and Sanitization in East Douglas | Quality Contracting, Inc."
+h1: "Emergency Sewage Cleanup and Sanitization in East Douglas"
+meta_description: "Emergency sewage cleanup and sanitization in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "sewage cleanup and sanitization east douglas"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in Youngstown | DISS Restoration"
-h1: "Water Damage Restoration in Youngstown"
-meta_description: "24/7 water damage restoration in Youngstown and surrounding areas. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Water Damage Restoration in Youngstown | DISS Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Youngstown"
+meta_description: "24/7 emergency water damage restoration in Youngstown and surrounding areas. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "water damage restoration youngstown"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Youngstown? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Standing water moves fast. Within the first hour, it wicks into drywall, saturates insulation, and begins softening the wood framing behind your baseboards, none of which is visible from the surface. By 24 to 48 hours, the conditions for mold colonization are already forming in cavities you can't see and may not smell yet. Water damage restoration is a race against a timeline that most homeowners don't know is already running.
 
 ## What Water Damage Restoration actually involves

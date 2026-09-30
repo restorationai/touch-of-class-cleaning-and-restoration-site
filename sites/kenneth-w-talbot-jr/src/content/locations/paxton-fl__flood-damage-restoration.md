@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Paxton, FL | Veterans Remediation & Restoration "
-h1: "Flood Damage Restoration in Paxton"
-meta_description: "24/7 flood damage restoration in Paxton, FL. Insurance billing accepted. Call (337) 344-1248."
+title: "24/7 Emergency Flood Damage Restoration in Paxton, FL | Veterans Remediation & Restoration "
+h1: "24/7 Emergency Flood Damage Restoration in Paxton"
+meta_description: "24/7 emergency flood damage restoration in Paxton, FL. Insurance billing accepted. Call (337) 344-1248."
 primary_keyword: "flood damage restoration paxton"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

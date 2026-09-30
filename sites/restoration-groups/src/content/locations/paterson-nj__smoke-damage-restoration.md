@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Paterson, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Paterson"
-meta_description: "24/7 smoke damage restoration in Paterson, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Paterson, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Paterson"
+meta_description: "24/7 emergency smoke damage restoration in Paterson, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration paterson"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Paterson? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 Smoke doesn't stay where the fire was. In Paterson's dense stock of 19th-century mill-worker rowhomes and aging brick multi-families, the kind packed tightly along streets in Sandy Hill and the Eastside, smoke travels through shared wall cavities, climbs stairwells, and settles into plaster that has been absorbing odors for over a hundred years. By the time the fire department clears the scene, soot particles have already migrated two or three units away from the origin room, and the clock on permanent staining and odor bonding has been running for hours.
 
 ## Why Paterson Properties See Smoke Damage Differently

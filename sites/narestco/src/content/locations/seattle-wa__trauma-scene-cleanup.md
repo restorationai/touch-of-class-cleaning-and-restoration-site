@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Trauma Scene Cleanup in Seattle, WA | National Restoration Construction"
-h1: "Trauma Scene Cleanup in Seattle"
-meta_description: "24/7 trauma scene cleanup in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Trauma Scene Cleanup in Seattle, WA | National Restoration Construction"
+h1: "24/7 Emergency Trauma Scene Cleanup in Seattle"
+meta_description: "24/7 emergency trauma scene cleanup in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "trauma scene cleanup seattle"
 secondary_keywords: ["trauma cleanup services", "trauma scene cleaning", "accident scene cleanup", "crime and trauma decontamination", "emergency trauma cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Trauma Scene Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Seattle? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Seattle's older neighborhoods carry a particular weight when something goes wrong inside a home. In craftsman bungalows across Ballard and the Tudor revivals that line the hillsides of Queen Anne, porous plaster walls, original hardwood subfloors, and decades of accumulated materials mean that biological contamination from a trauma event can penetrate surfaces that modern construction would shed. When a family or property manager calls National Restoration Construction after an unattended death, accident, or violent incident, the first concern is rarely the paperwork, it's getting a trained crew there quickly, working discreetly, and making the space safe again.
 
 ## Why Seattle's Housing Stock Complicates Trauma Cleanup

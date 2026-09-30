@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Lucedale, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Lucedale"
-meta_description: "Sewage cleanup and sanitization in Lucedale, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "Emergency Sewage Cleanup and Sanitization in Lucedale, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Lucedale"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Lucedale, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization lucedale"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Lucedale? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Sewage backups in Lucedale hit differently than in drier parts of Mississippi. George County's high clay-content soil doesn't drain freely, and after a heavy rain event, the kind that rolls in off the Gulf and stalls over the pine belt, that saturated ground puts enormous pressure on aging lateral sewer lines and residential septic systems alike. When a backup forces raw sewage into a bathroom, laundry room, or crawl space, the clock starts immediately: bacterial contamination spreads, porous materials absorb Category 3 water, and the odor works its way into subfloor sheathing within hours. HomeLyft Restoration MS responds to those calls from our Gulfport base, bringing certified technicians and the equipment to make the property safe again.
 
 ## Why Lucedale Properties See Sewage Backup Issues

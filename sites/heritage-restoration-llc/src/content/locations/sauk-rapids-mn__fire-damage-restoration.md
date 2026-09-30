@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Sauk Rapids, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Sauk Rapids"
-meta_description: "Fire damage restoration in Sauk Rapids, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Sauk Rapids, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Sauk Rapids"
+meta_description: "Emergency fire damage restoration in Sauk Rapids, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration sauk rapids"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Sauk Rapids? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Sauk Rapids sits along the Mississippi River in Benton County, where cold Minnesota winters push residents to run heating systems hard and where older wood-frame homes on the west side of town carry decades of dry timber in their walls and attics. When a fire moves through that kind of structure, the damage rarely stops at the charred surfaces you can see. Smoke travels through wall cavities, soot settles into insulation, and the odor of combustion binds to every porous material in the house. Heritage Restoration LLC responds to fire losses in Sauk Rapids with an IICRC FSRT-certified team trained specifically in fire and smoke restoration.
 
 ## Why Sauk Rapids Properties Face Distinct Fire Damage Challenges

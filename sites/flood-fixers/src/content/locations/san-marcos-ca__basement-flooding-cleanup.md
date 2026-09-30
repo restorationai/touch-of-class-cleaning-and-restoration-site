@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in San Marcos, CA | Flood Fixers"
-h1: "Basement Flooding Cleanup in San Marcos"
-meta_description: "24/7 basement flooding cleanup in San Marcos, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "24/7 Emergency Basement Flooding Cleanup in San Marcos, CA | Flood Fixers"
+h1: "24/7 Emergency Basement Flooding Cleanup in San Marcos"
+meta_description: "24/7 emergency basement flooding cleanup in San Marcos, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "basement flooding cleanup san marcos"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in San Marcos? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 San Marcos sits in a coastal-influenced inland valley where the ground swings between bone-dry and saturated faster than most homeowners expect. When a winter atmospheric river rolls through North County or a supply line fails inside a hillside-graded home, water finds the lowest point, and in San Marcos, that's often a finished basement or a below-grade utility room. If you're standing in an inch of water right now, call Flood Fixers at (855) 204-1124. Technicians dispatch from San Diego and can reach most of San Marcos within 60–90 minutes.
 
 ## Why San Marcos Properties See Basement Flooding

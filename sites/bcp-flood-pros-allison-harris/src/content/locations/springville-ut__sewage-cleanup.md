@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Springville, UT | FIX Restoration"
-h1: "Sewage Cleanup and Sanitization in Springville"
-meta_description: "Sewage cleanup and sanitization in Springville, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Sewage Cleanup and Sanitization in Springville, UT | FIX Restoration"
+h1: "Emergency Sewage Cleanup and Sanitization in Springville"
+meta_description: "Emergency sewage cleanup and sanitization in Springville, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "sewage cleanup and sanitization springville"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Springville? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Springville sits at the foot of the Wasatch Range where the soil shifts between clay-heavy benches and sandy alluvial fill, a combination that puts real stress on aging sewer laterals, especially when spring snowmelt saturates the ground and raises hydrostatic pressure against older clay-tile pipe joints. When a sewer line backs up or a septic system overflows into a finished basement, the contamination isn't just unpleasant, Category 3 "black water" carries pathogens that colonize porous materials within hours. FIX Restoration responds to sewage backup calls throughout Springville and coordinates the full process from raw sewage removal through sanitization and structural drying.
 
 ## Why Springville Properties See Sewage Backup Issues

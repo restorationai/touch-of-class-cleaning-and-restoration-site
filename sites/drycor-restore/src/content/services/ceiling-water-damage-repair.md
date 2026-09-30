@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Ceiling Water Damage Repair in Thonotosassa | DRYCOR RESTORE"
-h1: "Ceiling Water Damage Repair in Thonotosassa"
-meta_description: "24/7 ceiling water damage repair in Thonotosassa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "24/7 Emergency Ceiling Water Damage Repair in Thonotosassa | DRYCOR RESTORE"
+h1: "24/7 Emergency Ceiling Water Damage Repair in Thonotosassa"
+meta_description: "24/7 emergency ceiling water damage repair in Thonotosassa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "ceiling water damage repair thonotosassa"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

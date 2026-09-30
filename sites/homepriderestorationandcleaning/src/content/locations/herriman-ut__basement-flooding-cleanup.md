@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Herriman, UT | Home Pride Restoration and Cleaning"
-h1: "Basement Flooding Cleanup in Herriman"
-meta_description: "24/7 basement flooding cleanup in Herriman, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Basement Flooding Cleanup in Herriman, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Basement Flooding Cleanup in Herriman"
+meta_description: "24/7 emergency basement flooding cleanup in Herriman, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "basement flooding cleanup herriman"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Herriman? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Herriman sits at the base of the Oquirrh Mountains, and that geography does something most homeowners don't think about until water is pouring into their basement: the valley's clay-heavy soils drain poorly, and when spring snowmelt combines with a hard rain, hydrostatic pressure builds against foundation walls faster than almost anywhere else in the Salt Lake Valley. If your basement is taking on water right now, call Home Pride Restoration and Cleaning at (801) 995-2437, we run crews out of Saratoga Springs and can typically have a technician at your door within 60–90 minutes.
 
 ## Why Herriman Basements Flood More Than You'd Expect

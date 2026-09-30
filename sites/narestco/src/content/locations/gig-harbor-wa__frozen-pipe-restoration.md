@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Gig Harbor, WA | National Restoration Construction"
-h1: "Frozen Pipe Restoration in Gig Harbor"
-meta_description: "24/7 frozen pipe restoration in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Frozen Pipe Restoration in Gig Harbor, WA | National Restoration Construction"
+h1: "24/7 Emergency Frozen Pipe Restoration in Gig Harbor"
+meta_description: "24/7 emergency frozen pipe restoration in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "frozen pipe restoration gig harbor"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"

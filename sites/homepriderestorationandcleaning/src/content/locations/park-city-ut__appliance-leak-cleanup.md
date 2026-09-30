@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Park City, UT | Home Pride Restoration and Cleaning"
-h1: "Appliance Leak Cleanup in Park City"
-meta_description: "24/7 appliance leak cleanup in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Appliance Leak Cleanup in Park City, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Appliance Leak Cleanup in Park City"
+meta_description: "24/7 emergency appliance leak cleanup in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "appliance leak cleanup park city"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Park City? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Park City's elevation sits above 6,900 feet, and that altitude does something most homeowners don't think about until water is spreading across their kitchen floor: appliances work harder here, seals degrade faster in the dry, high-desert air, and when a dishwasher supply line or refrigerator ice maker connection finally gives way, the water moves quickly across the dense hardwood and stone floors common in mountain resort construction. If you're dealing with an appliance leak right now, call Home Pride Restoration and Cleaning at (801) 995-2437, response is faster than you'd expect from a team based in the Wasatch Front.
 
 ## Why Park City Properties See Appliance Leak Issues

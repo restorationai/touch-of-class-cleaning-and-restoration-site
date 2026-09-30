@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Le Mars, IA | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Le Mars"
-meta_description: "Storm damage restoration in Le Mars, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Le Mars, IA | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Le Mars"
+meta_description: "Emergency storm damage restoration in Le Mars, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration le mars"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Le Mars? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Le Mars sits squarely in the path of the severe weather systems that roll across Plymouth County each spring and summer, hail the size of golf balls, straight-line winds that routinely top 70 mph, and the occasional tornado that drops without much warning from a fast-moving supercell. When a storm tears through the 51031 ZIP code, it doesn't just damage roofs and siding; it can drive water into wall cavities within hours, split century-old trees onto historic homes near Downtown Le Mars, and leave property owners scrambling for answers before the next round of rain arrives.
 
 ## Why Le Mars Properties See Repeated Storm Damage

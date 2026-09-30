@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in St. Martin, MS | HomeLyft Restoration MS"
-h1: "Biohazard Cleanup in St. Martin"
-meta_description: "Biohazard cleanup in St. Martin, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Biohazard Cleanup in St. Martin, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Biohazard Cleanup in St. Martin"
+meta_description: "24/7 emergency biohazard cleanup in St. Martin, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "biohazard cleanup st. martin"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in St. Martin? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 St. Martin sits in a stretch of Jackson County where the Gulf Coast humidity rarely lets up, and where older slab-on-grade homes and manufactured housing communities sit close together along routes like Highway 90 and Lamey Bridge Road. When a biohazard situation occurs in a home or property here, whether it involves blood, bodily fluids, infectious material, or discarded sharps, the subtropical climate means biological material degrades and spreads faster than it would in a drier region. That urgency, combined with the need for absolute discretion in a close-knit community, shapes how HomeLyft Restoration MS approaches every call from St. Martin.
 
 ## Why St. Martin Properties Present Unique Biohazard Challenges

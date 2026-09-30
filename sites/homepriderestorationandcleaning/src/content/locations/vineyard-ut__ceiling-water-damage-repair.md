@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Vineyard, UT | Home Pride Restoration and Cleaning"
-h1: "Ceiling Water Damage Repair in Vineyard"
-meta_description: "24/7 ceiling water damage repair in Vineyard, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Ceiling Water Damage Repair in Vineyard, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Ceiling Water Damage Repair in Vineyard"
+meta_description: "24/7 emergency ceiling water damage repair in Vineyard, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "ceiling water damage repair vineyard"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

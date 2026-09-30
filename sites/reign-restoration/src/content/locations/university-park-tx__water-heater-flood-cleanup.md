@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Heater Flood Cleanup in University Park, TX | Reign Restoration"
-h1: "Water Heater Flood Cleanup in University Park"
-meta_description: "24/7 water heater flood cleanup in University Park, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "Emergency Water Heater Flood Cleanup in University Park, TX | Reign Restoration"
+h1: "24/7 Emergency Water Heater Flood Cleanup in University Park"
+meta_description: "24/7 emergency water heater flood cleanup in University Park, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "water heater flood cleanup university park"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"

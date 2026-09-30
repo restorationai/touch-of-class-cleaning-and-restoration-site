@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Storm Damage Restoration in Thonotosassa | DRYCOR RESTORE"
-h1: "Storm Damage Restoration in Thonotosassa"
-meta_description: "24/7 storm damage restoration in Thonotosassa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "24/7 Emergency Storm Damage Restoration in Thonotosassa | DRYCOR RESTORE"
+h1: "24/7 Emergency Storm Damage Restoration in Thonotosassa"
+meta_description: "24/7 emergency storm damage restoration in Thonotosassa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "storm damage restoration thonotosasa"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Thonotosassa? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 A storm doesn't announce when it's done damaging your home. The wind stops, the rain moves on, and then the real problems begin. Shingles torn off at 2 a.m. let water into the attic before you've had a chance to call anyone. A tree limb through the roof opens the structure to hours of rainfall. The damage you can see from the driveway is rarely the full picture, and the damage you can't see, saturated insulation, compromised roof decking, water tracking down interior wall cavities, is what turns a manageable repair into a months-long ordeal.
 
 ## What storm damage restoration actually involves

@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Ovett, MS | HomeLyft Restoration MS"
-h1: "Emergency Water Removal & Cleanup in Ovett"
+title: "24/7 Emergency Water Removal & Cleanup in Ovett, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Water Removal & Cleanup in Ovett"
 meta_description: "24/7 emergency water removal & cleanup in Ovett, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency water removal & cleanup ovett"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]

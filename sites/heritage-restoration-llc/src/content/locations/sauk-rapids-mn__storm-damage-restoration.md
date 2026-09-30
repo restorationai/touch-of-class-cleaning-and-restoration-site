@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Sauk Rapids, MN | Heritage Restoration LLC"
-h1: "Storm Damage Restoration in Sauk Rapids"
-meta_description: "Storm damage restoration in Sauk Rapids, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Storm Damage Restoration in Sauk Rapids, MN | Heritage Restoration LLC"
+h1: "Emergency Storm Damage Restoration in Sauk Rapids"
+meta_description: "Emergency storm damage restoration in Sauk Rapids, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "storm damage restoration sauk rapids"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Sauk Rapids? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Sauk Rapids sits in the heart of central Minnesota, where the Mississippi River corridor funnels severe weather systems straight through Benton County with little natural windbreak. Summer thunderstorms here regularly produce straight-line winds, large hail, and the occasional tornado that leaves roofs stripped, siding shredded, and water pushing into wall cavities before a homeowner can even reach for a phone. When that happens, the clock starts immediately, not because of a sales pitch, but because wet insulation and exposed framing in a Minnesota summer can begin supporting mold growth within days.
 
 ## Why Sauk Rapids Properties See Severe Storm Damage

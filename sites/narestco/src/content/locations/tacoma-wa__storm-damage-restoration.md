@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Tacoma, WA | National Restoration Construction"
-h1: "Storm Damage Restoration in Tacoma"
-meta_description: "24/7 storm damage restoration in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Storm Damage Restoration in Tacoma, WA | National Restoration Construction"
+h1: "24/7 Emergency Storm Damage Restoration in Tacoma"
+meta_description: "24/7 emergency storm damage restoration in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "storm damage restoration tacoma"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Tacoma? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 A tree through your roof. Water pouring through a ceiling seam. Siding peeled back by wind gusts that hit harder than the forecast suggested. If you're dealing with storm damage right now in Tacoma, the next few hours matter more than the next few days, and that's exactly the window where we work.
 
 National Restoration Construction has been responding to storm emergencies across the South Puget Sound since 2004. Our Federal Way headquarters puts us roughly 15 miles from central Tacoma, which means a crew with the right equipment, not a callback and a scheduling window, is typically on your property within 60 to 90 minutes of your first contact.

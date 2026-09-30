@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Sunrise, FL | RestorationXpress "
-h1: "Fire Damage Restoration in Sunrise"
-meta_description: "Fire damage restoration in Sunrise, FL. Insurance billing accepted. Call (954) 932-5420."
+title: "Emergency Fire Damage Restoration in Sunrise, FL | RestorationXpress "
+h1: "Emergency Fire Damage Restoration in Sunrise"
+meta_description: "Emergency fire damage restoration in Sunrise, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "fire damage restoration sunrise"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Sunrise? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When a kitchen fire tears through a home in Sunrise's Welleby neighborhood or smoke from an electrical fault saturates the walls of a townhouse near Sawgrass Mills, the damage compounds fast, and South Florida's humidity doesn't help. Soot and smoke residue are acidic; within 72 hours they begin etching metal fixtures, yellowing painted surfaces, and bonding permanently to porous materials. In a climate where indoor humidity rarely drops below 60%, that chemical process accelerates. RestorationXpress responds from Davie to fire-damaged properties across Sunrise, working to stop that clock before secondary damage turns a recoverable loss into a full gut renovation.
 
 ## Why Sunrise Properties Face Distinct Fire Damage Challenges

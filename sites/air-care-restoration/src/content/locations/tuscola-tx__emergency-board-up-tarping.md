@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Tuscola, TX | Air Care Restoration"
-h1: "Emergency Board-Up and Tarping in Tuscola"
+title: "24/7 Emergency Board-Up and Tarping in Tuscola, TX | Air Care Restoration"
+h1: "24/7 Emergency Board-Up and Tarping in Tuscola"
 meta_description: "24/7 emergency board-up and tarping in Tuscola, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "emergency board-up and tarping tuscola"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

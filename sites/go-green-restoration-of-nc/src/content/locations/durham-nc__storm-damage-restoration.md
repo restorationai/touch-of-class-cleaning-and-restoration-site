@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Durham, NC | Go Green Restoration of NC"
-h1: "Storm Damage Restoration in Durham"
-meta_description: "24/7 storm damage restoration in Durham, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Storm Damage Restoration in Durham, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Storm Damage Restoration in Durham"
+meta_description: "24/7 emergency storm damage restoration in Durham, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "storm damage restoration durham"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

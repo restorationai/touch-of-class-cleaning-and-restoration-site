@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Bremerton, WA | National Restoration Construction"
-h1: "Frozen Pipe Restoration in Bremerton"
-meta_description: "24/7 frozen pipe restoration in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Frozen Pipe Restoration in Bremerton, WA | National Restoration Construction"
+h1: "24/7 Emergency Frozen Pipe Restoration in Bremerton"
+meta_description: "24/7 emergency frozen pipe restoration in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "frozen pipe restoration bremerton"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Bremerton? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Bremerton winters don't get the dramatic cold snaps of Eastern Washington, but the Kitsap Peninsula's damp, near-freezing temperatures, hovering in the low 30s for days at a stretch, are exactly the conditions that catch older homes off guard. When a pipe freezes and then thaws inside a Charleston bungalow or a Manette wartime worker cottage, the water doesn't just pool on the floor; it wicks into original fir subfloor, soaks through plaster lath, and reaches unconditioned crawl spaces before most homeowners realize anything has burst. National Restoration Construction responds to frozen pipe emergencies across Bremerton and the surrounding Kitsap County area, with crews dispatched from Federal Way and on-site within roughly 90 minutes of your call to (206) 883-0333.
 
 ## Why Bremerton's Housing Stock Makes Frozen Pipe Damage Worse

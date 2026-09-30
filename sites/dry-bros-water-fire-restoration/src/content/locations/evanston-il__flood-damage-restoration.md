@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Evanston, IL | Dry Bros Water & Fire Restoration"
-h1: "Flood Damage Restoration in Evanston"
-meta_description: "Flood damage restoration in Evanston, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Flood Damage Restoration in Evanston, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Flood Damage Restoration in Evanston"
+meta_description: "24/7 emergency flood damage restoration in Evanston, IL. Insurance billing accepted. Call us now."
 primary_keyword: "flood damage restoration evanston"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Evanston? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Evanston sits at the edge of Lake Michigan, and that geography is never more consequential than after a heavy rain. The city's combined sewer system, which carries both stormwater and sanitary flow in a single pipe, can back up into basements during intense precipitation events, sending contaminated water across finished floors, into wall cavities, and under slab foundations before a homeowner realizes what's happening. Flood damage in Evanston isn't just a wet-carpet problem; it's a structural, sanitary, and timeline challenge that compounds fast.
 
 ## Why Evanston Properties See Flood Damage Issues

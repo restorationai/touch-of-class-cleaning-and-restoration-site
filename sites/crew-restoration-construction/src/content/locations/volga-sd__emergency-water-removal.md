@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Volga? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 When snowmelt or a hard spring rain pushes water into a home near Oakwood Lakes State Park, the clock starts immediately. Volga sits in a stretch of eastern South Dakota where the ground stays frozen well into spring, and when it finally thaws, saturated soil has nowhere to drain. A sump pump failure or a burst supply line in that window can leave several inches of standing water across a basement floor before a homeowner realizes what happened. Crew Restoration & Construction responds to those calls with IICRC-certified technicians and commercial extraction equipment built for exactly that scenario.
 
 ## Why Volga Properties Need Emergency Water Removal

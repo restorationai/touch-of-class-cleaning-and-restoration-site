@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Garfield, NJ | The Restoration Group"
-h1: "Fire Damage Restoration in Garfield"
-meta_description: "24/7 fire damage restoration in Garfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Fire Damage Restoration in Garfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in Garfield"
+meta_description: "24/7 emergency fire damage restoration in Garfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "fire damage restoration garfield"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Garfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and start the recovery.
+
 The smell of smoke doesn't leave a house the way water does, it penetrates plaster, travels through wall cavities, and settles into the porous woodwork common in Garfield's century-old two- and three-family frames. When a fire breaks out in one of the tight-lot homes along the Belmont Avenue corridor or in a postwar cape near Dahnert's Lake, the damage rarely stays contained to one unit. Shared walls, balloon-frame construction, and finished basements mean smoke and soot migrate fast, and the window for limiting secondary damage is short.
 
 ## Why Garfield's Housing Stock Complicates Fire Damage

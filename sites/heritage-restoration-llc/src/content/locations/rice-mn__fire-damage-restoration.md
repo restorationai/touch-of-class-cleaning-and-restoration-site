@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Rice, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Rice"
-meta_description: "Fire damage restoration in Rice, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Rice, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Rice"
+meta_description: "Emergency fire damage restoration in Rice, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration rice"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Rice? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Rice, Minnesota sits in Morrison County where long winters and freeze-thaw cycles are a fact of life, and when a house fire happens here, the aftermath doesn't wait for warmer weather. Smoke odor penetrates wood framing faster in cold, dry air, and soot from a winter fire can travel further through a home's forced-air heating system before anyone realizes the damage has spread beyond the burn room. Heritage Restoration LLC responds to fire and smoke losses in Rice with IICRC FSRT-certified technicians who understand what post-fire restoration looks like in this part of central Minnesota.
 
 ## Why Rice Properties Face Particular Challenges After a Fire

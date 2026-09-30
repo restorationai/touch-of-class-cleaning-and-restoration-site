@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Cedar Fort, UT | FIX Restoration"
-h1: "Water Damage Restoration in Cedar Fort"
-meta_description: "Water damage restoration in Cedar Fort, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Damage Restoration in Cedar Fort, UT | FIX Restoration"
+h1: "Emergency Water Damage Restoration in Cedar Fort"
+meta_description: "Emergency water damage restoration in Cedar Fort, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water damage restoration cedar fort"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Cedar Fort? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Cedar Fort sits at the foot of the Oquirrh Mountains in Utah County, where spring snowmelt and the occasional intense summer thunderstorm can send water into crawl spaces and basements faster than most homeowners expect. The soil here transitions quickly from sandy loam to clay-heavy layers that don't drain well, meaning a slow pipe leak under a slab or a failed sump pump can saturate the ground around a foundation before the damage is visible inside. FIX Restoration has been responding to water losses across Utah County since 2012, and the conditions in Cedar Fort require a specific approach from the first hour on-site.
 
 ## Why Cedar Fort Properties See Water Damage Issues

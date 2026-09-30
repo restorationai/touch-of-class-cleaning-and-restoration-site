@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Lyman, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Lyman"
-meta_description: "Sewage cleanup and sanitization in Lyman, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Lyman, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Lyman"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Lyman, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization lyman"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Lyman? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Lyman sits in Harrison County where the Gulf Coast's humidity and high water table create conditions that turn a slow-draining toilet or a gurgling floor drain into a full sewage backup faster than most homeowners expect. When raw sewage surfaces inside a home, soaking into subfloor wood, wicking up drywall, pooling under cabinetry, every hour without professional extraction increases both the health risk and the remediation cost. HomeLyft Restoration MS responds to sewage backup calls across Lyman, bringing IICRC-certified technicians and commercial-grade sanitization equipment to get contaminated water out and the structure properly dried and disinfected.
 
 ## Why Lyman Properties Experience Sewage Backups

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Herriman, UT | FIX Restoration"
-h1: "Storm Damage Restoration in Herriman"
-meta_description: "Storm damage restoration in Herriman, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Storm Damage Restoration in Herriman, UT | FIX Restoration"
+h1: "Emergency Storm Damage Restoration in Herriman"
+meta_description: "Emergency storm damage restoration in Herriman, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "storm damage restoration herriman"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Herriman? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Herriman sits at the base of the Oquirrh Mountains, and that geography shapes how storms behave here. Cold fronts sweeping down from the peaks accelerate as they hit the valley floor, turning moderate rain events into wind-driven deluges that peel roofing, snap mature trees, and push water through exterior walls faster than most homeowners expect. When that happens, FIX Restoration is the team Herriman residents call to stop the damage from compounding and get the property back to a livable state.
 
 ## Why Herriman Properties Are Particularly Vulnerable to Storm Damage

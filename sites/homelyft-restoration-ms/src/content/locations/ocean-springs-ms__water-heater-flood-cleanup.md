@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Heater Flood Cleanup in Ocean Springs, MS | HomeLyft Restoration MS"
-h1: "Water Heater Flood Cleanup in Ocean Springs"
-meta_description: "24/7 water heater flood cleanup in Ocean Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "Emergency Water Heater Flood Cleanup in Ocean Springs, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Water Heater Flood Cleanup in Ocean Springs"
+meta_description: "24/7 emergency water heater flood cleanup in Ocean Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "water heater flood cleanup ocean springs"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"

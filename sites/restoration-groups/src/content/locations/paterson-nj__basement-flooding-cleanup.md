@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Paterson, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in Paterson"
-meta_description: "24/7 basement flooding cleanup in Paterson, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Basement Flooding Cleanup in Paterson, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Paterson"
+meta_description: "24/7 emergency basement flooding cleanup in Paterson, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "basement flooding cleanup paterson"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Paterson? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 The blocks closest to the Passaic River have flooded twice in living memory, Hurricane Irene in 2011 and Ida in 2021 left basements in Paterson's downtown and Riverside sections under feet of water, not inches. If you're dealing with a flooded basement right now, the clock matters more than you might realize: mold can begin colonizing wet framing and insulation within 24 to 48 hours, and in Paterson's aging housing stock, that timeline is compressed by the damp, unventilated basements that are standard in the city's 19th-century rowhomes and brick multi-family walkups.
 
 ## Why Paterson Properties See Basement Flooding So Often

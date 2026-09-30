@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Storm Damage Restoration in Chicago | Dry Bros Water & Fire Restoration"
-h1: "Storm Damage Restoration in Chicago"
-meta_description: "Storm damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Storm Damage Restoration in Chicago | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Chicago"
+meta_description: "24/7 emergency storm damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "storm damage restoration chicago"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Chicago? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 A storm doesn't finish its damage when the wind stops. Water pours through a roof breach for hours before anyone calls. A fallen tree compresses framing in ways that aren't visible from the driveway. Wet insulation holds moisture against sheathing for days, and by the time a homeowner peels back the drywall, mold has already started colonizing the cavity. Storm damage restoration is the work of stopping that cascade, fast triage on the structure, controlled drying of what can be saved, and honest documentation of what can't.
 
 ## What Storm Damage Restoration actually involves

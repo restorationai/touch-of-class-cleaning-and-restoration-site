@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Lehi, UT | FIX Restoration"
-h1: "Fire Damage Restoration in Lehi"
-meta_description: "Fire damage restoration in Lehi, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in Lehi, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in Lehi"
+meta_description: "Emergency fire damage restoration in Lehi, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration lehi"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Lehi? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Lehi has grown faster than almost any city in Utah County over the past decade, and that rapid expansion means the area's housing stock spans everything from 1970s ranch homes near the older core of the city to tightly packed new-construction subdivisions rising along the I-15 corridor. When fire breaks out in that mix, whether from a kitchen grease fire in an older home with original wiring, or a garage fire in a newer build with OSB sheathing and spray-foam insulation, the damage pattern is different each time, and the restoration work has to match it. FIX Restoration has been handling fire and smoke restoration across Utah County since 2012, and the team knows how quickly a structure can deteriorate once the flames are out and the smoke settles in.
 
 ## Why Lehi Properties Face Distinct Fire Damage Challenges

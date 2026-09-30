@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Allen, TX | Reign Restoration"
-h1: "Burst Pipe Cleanup and Repair in Allen"
-meta_description: "24/7 burst pipe cleanup and repair in Allen, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Allen, TX | Reign Restoration"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Allen"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Allen, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "burst pipe cleanup and repair allen"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

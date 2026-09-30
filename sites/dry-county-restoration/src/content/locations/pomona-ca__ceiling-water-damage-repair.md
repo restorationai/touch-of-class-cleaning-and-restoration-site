@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Pomona, CA | Dry County Restoration"
-h1: "Ceiling Water Damage Repair in Pomona"
-meta_description: "24/7 ceiling water damage repair in Pomona, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "24/7 Emergency Ceiling Water Damage Repair in Pomona, CA | Dry County Restoration"
+h1: "24/7 Emergency Ceiling Water Damage Repair in Pomona"
+meta_description: "24/7 emergency ceiling water damage repair in Pomona, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "ceiling water damage repair pomona"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

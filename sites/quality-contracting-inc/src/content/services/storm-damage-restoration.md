@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Storm Damage Restoration in Auburn | Quality Contracting, Inc."
-h1: "Storm Damage Restoration in Auburn"
-meta_description: "Storm damage restoration in Auburn and surrounding areas. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Storm Damage Restoration in Auburn | Quality Contracting, Inc."
+h1: "Emergency Storm Damage Restoration in Auburn"
+meta_description: "Emergency storm damage restoration in Auburn and surrounding areas. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "storm damage restoration auburn"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Auburn? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 A storm doesn't give you a warning before it drops a 60-foot oak through your roof. One hour you have a house; the next you have a tarp situation, a soaked attic, and a clock ticking toward mold colonization. Storm damage is uniquely complicated because it rarely comes as a single problem, it arrives as wind damage, water intrusion, structural compromise, and debris impact all at once, each one compounding the others if the response is slow or incomplete.
 
 ## What Storm Damage Restoration actually involves

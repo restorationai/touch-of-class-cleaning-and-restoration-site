@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Springville, UT | FIX Restoration"
-h1: "Water Damage Restoration in Springville"
-meta_description: "Water damage restoration in Springville, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Damage Restoration in Springville, UT | FIX Restoration"
+h1: "Emergency Water Damage Restoration in Springville"
+meta_description: "Emergency water damage restoration in Springville, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water damage restoration springville"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Springville? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Springville sits at the foot of the Wasatch Range where spring snowmelt and late-season storms can push a surprising amount of water toward foundations and crawl spaces in a short window. When a pipe bursts or a washing machine supply line lets go inside a home along that benchland, the water doesn't just pool, it migrates fast through subfloor assemblies and into wall cavities before a homeowner even realizes the scope of what's happened. FIX Restoration responds to water damage calls throughout Springville and surrounding Utah County communities, bringing the drying equipment and documentation process that a loss like this requires.
 
 ## Why Springville Properties See Water Damage Issues

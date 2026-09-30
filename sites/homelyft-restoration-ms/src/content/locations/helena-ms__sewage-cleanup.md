@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Helena, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Helena"
-meta_description: "Sewage cleanup and sanitization in Helena, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Helena, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Helena"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Helena, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization helena"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Helena? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Helena sits along the Mississippi River in Phillips County, and that geography shapes nearly every plumbing problem homeowners here face. The river's influence on the local water table means soil saturation can stay elevated for weeks after heavy rain, and when that pressure finds a weak joint in an aging sewer lateral, raw sewage doesn't trickle, it surges. HomeLyft Restoration MS responds to sewage backup cleanup calls across Helena, bringing the extraction equipment, EPA-registered disinfectants, and IICRC-certified process needed to make a contaminated space safe again.
 
 ## Why Helena Properties See Sewage Backup Issues

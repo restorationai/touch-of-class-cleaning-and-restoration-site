@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Crime Scene Cleanup in Renton, WA | National Restoration Construction"
-h1: "Crime Scene Cleanup in Renton"
-meta_description: "24/7 crime scene cleanup in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Crime Scene Cleanup in Renton, WA | National Restoration Construction"
+h1: "24/7 Emergency Crime Scene Cleanup in Renton"
+meta_description: "24/7 emergency crime scene cleanup in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "crime scene cleanup renton"
 secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cleanup", "homicide cleanup", "suicide scene cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Crime Scene Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Renton? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something unthinkable happens inside a Renton home, whether in a Kennydale rambler or a Renton Highlands apartment, the last thing a family should have to manage is the cleanup. National Restoration Construction has handled forensic cleanup calls across the south Lake Washington corridor since 2004, working quietly and quickly so that property owners and loved ones can focus on what matters. We respond from our Federal Way location, and we understand the specific building stock, local regulations, and community character that shape how this work gets done here.
 
 ## Why Renton's Housing Stock Shapes Post-Crime Cleanup

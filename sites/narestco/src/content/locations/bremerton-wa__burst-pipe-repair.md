@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Bremerton, WA | National Restoration Construction"
-h1: "Burst Pipe Cleanup and Repair in Bremerton"
-meta_description: "24/7 burst pipe cleanup and repair in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "Emergency Burst Pipe Cleanup and Repair in Bremerton, WA | National Restoration Construction"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Bremerton"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "burst pipe cleanup and repair bremerton"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Bremerton? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Bremerton winters are wet by any Pacific Northwest measure, but it's the hard freezes that follow, cold air funneling off the Olympic Peninsula and settling into low-lying neighborhoods near the Port Washington Narrows, that split pipes inside the crawl spaces and uninsulated basements of the city's oldest homes. When a galvanized supply line finally gives way at 2 a.m. in a 1940s wartime bungalow in Charleston or Manette, the water doesn't stay put: it travels along floor joists, soaks into old-growth fir subfloor, and pools in basements that were never designed to drain. National Restoration Construction responds to those calls around the clock, with crews dispatched from Federal Way and on-site in Bremerton typically within 90 minutes.
 
 ## Why Bremerton's Housing Stock Makes Burst Pipes a Bigger Deal

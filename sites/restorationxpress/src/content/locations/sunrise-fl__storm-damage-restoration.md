@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Sunrise, FL | RestorationXpress "
-h1: "Storm Damage Restoration in Sunrise"
-meta_description: "Storm damage restoration in Sunrise, FL. Insurance billing accepted. Call (954) 932-5420."
+title: "Emergency Storm Damage Restoration in Sunrise, FL | RestorationXpress "
+h1: "Emergency Storm Damage Restoration in Sunrise"
+meta_description: "Emergency storm damage restoration in Sunrise, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "storm damage restoration sunrise"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Sunrise? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Sunrise sits at an awkward intersection of South Florida geography: the Atlantic storm corridor to the east, the Everglades drainage basin pressing against its western edge, and a housing stock that ranges from 1970s concrete-block ranch homes to newer HOA communities near Sawgrass Mills. When a named storm or a fast-moving squall line rolls through Broward County, properties here face a specific combination of wind-driven rain, roof uplift, and ground saturation that can turn a two-hour event into weeks of structural drying, debris removal, and insurance documentation. RestorationXpress responds to storm damage calls across Sunrise, reach us at (954) 932-5420.
 
 ## Why Sunrise Properties See Distinctive Storm Damage

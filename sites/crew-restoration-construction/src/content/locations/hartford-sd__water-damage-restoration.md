@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Hartford, SD | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Hartford"
-meta_description: "Water damage restoration in Hartford, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Hartford, SD | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Hartford"
+meta_description: "Emergency water damage restoration in Hartford, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration hartford"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Hartford? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Hartford sits just west of Sioux Falls along Highway 42, and the same prairie weather system that drops 25 inches of annual precipitation on the region doesn't slow down when it crosses into the 57033 ZIP code. When a spring storm backs up a sump pump or a hard freeze splits a supply line in a newer subdivision off downtown, standing water can soak into subfloor OSB and wall cavities within hours, long before most homeowners realize the damage has already begun spreading. Crew Restoration & Construction responds to water damage calls throughout Hartford, bringing the drying equipment and documentation process that a loss like this demands.
 
 ## Why Hartford Properties See Water Damage Issues

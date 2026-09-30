@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Sunrise Manor, NV | PuroClean of East Las Vegas"
-h1: "Water Damage Restoration in Sunrise Manor"
-meta_description: "Water damage restoration in Sunrise Manor, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Water Damage Restoration in Sunrise Manor, NV | PuroClean of East Las Vegas"
+h1: "Emergency Water Damage Restoration in Sunrise Manor"
+meta_description: "Emergency water damage restoration in Sunrise Manor, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "water damage restoration sunrise manor"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NV"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Sunrise Manor? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 The desert doesn't forgive slow decisions. When a supply line bursts behind a wall in Nellis Meadows or a water heater fails overnight near the East Charleston corridor, standing water starts wicking into drywall, subfloor, and insulation within the first hour. PuroClean of East Las Vegas runs water damage restoration calls throughout Sunrise Manor, ZIP codes 89110 and 89115 fall squarely in our primary service area, and the team knows these streets well enough that getting to a job fast is rarely the obstacle. What matters is arriving with the right equipment and a clear plan before secondary damage turns a manageable loss into a gut-renovation.
 
 ## Why Sunrise Manor Properties See Water Damage Differently

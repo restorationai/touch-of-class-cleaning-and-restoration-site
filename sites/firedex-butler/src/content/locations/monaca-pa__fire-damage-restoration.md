@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Monaca, PA | FireDEX Butler"
-h1: "Fire Damage Restoration in Monaca"
-meta_description: "24/7 fire damage restoration in Monaca, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Fire Damage Restoration in Monaca, PA | FireDEX Butler"
+h1: "24/7 Emergency Fire Damage Restoration in Monaca"
+meta_description: "24/7 emergency fire damage restoration in Monaca, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "fire damage restoration monaca"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

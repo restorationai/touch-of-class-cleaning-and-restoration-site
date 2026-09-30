@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Callender? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Callender sits in a part of California where the soil can shift dramatically between wet and dry seasons, and when a pipe bursts or a water heater lets go inside a home here, that moisture has nowhere good to go. Slab foundations common to the region trap water beneath flooring, and the dry ambient air that makes Central California feel mild can actually mask how far saturation has traveled inside wall cavities before the damage becomes visible. If you are dealing with standing water or soaked materials right now, calling (805) 345-7440 connects you to an IICRC Certified Firm with WRT and ASD credentials ready to respond.
 
 ## Why Callender Properties See Water Damage Differently

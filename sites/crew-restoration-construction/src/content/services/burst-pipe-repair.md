@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Burst Pipe Cleanup and Repair in Sioux Falls | Crew Restoration & Construction"
-h1: "Burst Pipe Cleanup and Repair in Sioux Falls"
-meta_description: "Burst pipe cleanup and repair in Sioux Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Burst Pipe Cleanup and Repair in Sioux Falls | Crew Restoration & Construction"
+h1: "Emergency Burst Pipe Cleanup and Repair in Sioux Falls"
+meta_description: "Emergency burst pipe cleanup and repair in Sioux Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "burst pipe cleanup and repair sioux falls"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "burst-pipe-repair"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Sioux Falls? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 When a pipe lets go inside a wall, under a slab, or in a crawlspace, the damage rarely announces itself the way a visible leak does. Homeowners in Sioux Falls often notice it first as a hissing or dripping sound behind drywall, a spike on their water bill, or a soft spot in the flooring days after a hard freeze. By the time water is visible, it has usually already traveled along joists, wicked up baseboards, or pooled under subfloor where it can sit unnoticed for hours.
 
 ## What Burst Pipe Cleanup and Repair actually involves

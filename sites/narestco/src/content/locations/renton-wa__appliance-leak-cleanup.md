@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Renton, WA | National Restoration Construction"
-h1: "Appliance Leak Cleanup in Renton"
-meta_description: "24/7 appliance leak cleanup in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Appliance Leak Cleanup in Renton, WA | National Restoration Construction"
+h1: "24/7 Emergency Appliance Leak Cleanup in Renton"
+meta_description: "24/7 emergency appliance leak cleanup in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "appliance leak cleanup renton"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Renton? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A dishwasher that ran overnight. A washing machine hose that finally gave out. A refrigerator ice maker line that's been weeping behind the fridge for weeks without anyone noticing. Whatever appliance just failed in your Renton home, the water is already moving, soaking into subfloor, wicking up drywall, pooling under cabinets. The next few hours matter more than most people realize. National Restoration Construction dispatches from Federal Way, putting us roughly 15–20 minutes from most Renton addresses, and our crews are equipped to extract, dry, and document from the moment they walk through your door.
 
 ## Our Appliance Leak Cleanup Process in Renton

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Kenly, NC | Go Green Restoration of NC"
-h1: "Water Damage Restoration in Kenly"
-meta_description: "24/7 water damage restoration in Kenly, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Water Damage Restoration in Kenly, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Water Damage Restoration in Kenly"
+meta_description: "24/7 emergency water damage restoration in Kenly, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "water damage restoration kenly"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

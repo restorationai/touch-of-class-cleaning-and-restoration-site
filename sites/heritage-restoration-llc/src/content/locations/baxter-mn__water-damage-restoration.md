@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Baxter, MN | Heritage Restoration LLC"
-h1: "Water Damage Restoration in Baxter"
-meta_description: "Water damage restoration in Baxter, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in Baxter, MN | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in Baxter"
+meta_description: "Emergency water damage restoration in Baxter, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration baxter"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Baxter? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Baxter sits at the edge of the Brainerd Lakes region, where freeze-thaw cycles arrive early and linger late, and where a single night of hard frost following a warm spell can split supply lines, crack sump pump discharge pipes, and send water moving through wall cavities before a homeowner notices anything wrong. When that happens, the clock starts immediately: mold can begin colonizing wet building materials within 24 to 48 hours, and saturated insulation or subfloor sheathing holds moisture long after the surface feels dry to the touch. Heritage Restoration LLC responds to water damage calls in Baxter, working from our base in Little Falls to reach Crow Wing County properties with the equipment and IICRC-certified technicians the job demands.
 
 ## Why Baxter Properties See Water Damage Issues

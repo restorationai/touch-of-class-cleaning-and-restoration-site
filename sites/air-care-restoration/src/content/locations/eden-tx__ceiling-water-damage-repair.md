@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Eden, TX | Air Care Restoration"
-h1: "Ceiling Water Damage Repair in Eden"
-meta_description: "24/7 ceiling water damage repair in Eden, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Ceiling Water Damage Repair in Eden, TX | Air Care Restoration"
+h1: "24/7 Emergency Ceiling Water Damage Repair in Eden"
+meta_description: "24/7 emergency ceiling water damage repair in Eden, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "ceiling water damage repair eden"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Burst Pipe Cleanup and Repair in Honolulu | AAA Water Damage Restoration & Carpet Care"
-h1: "Burst Pipe Cleanup and Repair in Honolulu"
-meta_description: "24/7 burst pipe cleanup and repair in Honolulu and surrounding areas. Call (808) 349-3407."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Honolulu | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Honolulu"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Honolulu and surrounding areas. Call (808) 349-3407."
 primary_keyword: "burst pipe cleanup and repair honolulu"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "burst-pipe-repair"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Honolulu? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A pipe doesn't burst gently. One moment your home is dry; the next, water is sheeting down a wall, pooling under flooring, or soaking into ceiling drywall before you've even located the shutoff valve. The clock starts the second water makes contact with building materials, within hours, particleboard swells and delaminates, drywall paper begins to wick moisture upward, and any organic material in the path becomes a candidate for mold colonization within 24 to 48 hours. Getting the water stopped is only the beginning. What happens in the next few hours determines whether you're looking at a targeted repair or a gut renovation.
 
 ## What burst pipe cleanup and repair actually involves

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Dell Rapids, SD | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Dell Rapids"
-meta_description: "Board-up and tarping in Dell Rapids, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Dell Rapids, SD | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Dell Rapids"
+meta_description: "Emergency board-up and tarping in Dell Rapids, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping dell rapids"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Dell Rapids? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a storm tears through the quartzite bluffs above the Big Sioux River and leaves a gaping hole in your roof, or when a fire guts a storefront in the Downtown Dell Rapids Historic District and the windows are blown out, every hour the structure sits open multiplies the damage. Rain, wind-driven debris, and opportunistic entry can turn a contained loss into a gut-renovation. Crew Restoration & Construction dispatches board-up and tarping crews from Sioux Falls to Dell Rapids (57022) to secure your property fast, before the next weather system rolls across the Minnehaha County plains.
 
 ## Why Dell Rapids Properties Are Especially Vulnerable After a Loss

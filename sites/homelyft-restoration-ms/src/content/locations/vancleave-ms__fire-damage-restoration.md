@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Vancleave, MS | HomeLyft Restoration MS"
-h1: "Fire Damage Restoration in Vancleave"
-meta_description: "Fire damage restoration in Vancleave, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Fire Damage Restoration in Vancleave, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Fire Damage Restoration in Vancleave"
+meta_description: "24/7 emergency fire damage restoration in Vancleave, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "fire damage restoration vancleave"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Vancleave? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Vancleave sits in a part of Jackson County where pine-heavy lots, older wood-frame construction, and the kind of dry summer heat that turns pine straw into tinder create real fire risk for homeowners. When a fire moves through a house here, whether it started in a kitchen, a carport, or an outbuilding, the damage rarely stops at the charred walls. Smoke and soot travel through every gap in an older wood-frame structure, and the humid Gulf Coast air that rolls in after a fire is extinguished begins working against recovery almost immediately.
 
 ## Why Vancleave Properties Face Particular Fire Damage Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Irvington, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Irvington"
-meta_description: "24/7 smoke damage restoration in Irvington, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Irvington, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Irvington"
+meta_description: "24/7 emergency smoke damage restoration in Irvington, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration irvington"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Irvington? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 When a fire moves through one of Irvington's tightly packed early-1900s rowhouses or two-family frames, smoke doesn't just drift out when you open a window. It penetrates plaster walls, soaks into the old-growth wood framing, and settles into every gap in the balloon-frame construction that was standard when most of this housing stock was built. By the time the fire department clears the scene, smoke residue has already begun bonding to surfaces, and in a dense neighborhood like Grove Park or along the Springfield Avenue corridor, that means the damage clock is running on multiple units at once.
 
 ## Why Irvington's Housing Stock Makes Smoke Damage Harder to Clear

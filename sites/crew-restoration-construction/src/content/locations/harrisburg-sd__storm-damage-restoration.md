@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Harrisburg, SD | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Harrisburg"
-meta_description: "Storm damage restoration in Harrisburg, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Harrisburg, SD | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Harrisburg"
+meta_description: "Emergency storm damage restoration in Harrisburg, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration harrisburg"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Harrisburg? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 South Dakota's open plains give storms a long runway, and Harrisburg sits squarely in their path. Positioned just south of Sioux Falls along the I-29 corridor, this one of the fastest-growing communities in the state has seen wave after wave of new construction in subdivisions like Journey and Willow Run, homes that are still settling, still landscaping, and sometimes still waiting on mature trees that can buffer wind. When a severe line of thunderstorms, a straight-line wind event, or a late-season tornado touches down in the 57032 ZIP code, the damage can range from a handful of missing shingles to a tree through a living room wall. Crew Restoration & Construction responds to that full spectrum.
 
 ## Why Harrisburg Properties See Disproportionate Storm Damage

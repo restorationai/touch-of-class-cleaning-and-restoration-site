@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Latimer, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Latimer"
-meta_description: "Board-up and tarping in Latimer, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Latimer, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Latimer"
+meta_description: "24/7 emergency board-up and tarping in Latimer, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping latimer"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Latimer? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 When a storm tears through the Latimer area and leaves a roof open to the sky, or a fire burns out a window frame overnight, the clock starts immediately, Mississippi's humidity means exposed structural cavities can begin absorbing moisture within hours. HomeLyft Restoration MS responds to those calls from our Gulfport base, deploying board-up and tarping crews to Latimer properties with the materials and training to stop secondary damage before it compounds the original loss. Our team holds IICRC FSRT certification for fire and smoke restoration, which means we understand what's happening inside a structure when we're sealing the outside of it.
 
 ## Why Latimer Properties Face Elevated Board-Up and Tarping Risks

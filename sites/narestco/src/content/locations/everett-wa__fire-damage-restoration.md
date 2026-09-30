@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Everett, WA | National Restoration Construction"
-h1: "Fire Damage Restoration in Everett"
-meta_description: "24/7 fire damage restoration in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Fire Damage Restoration in Everett, WA | National Restoration Construction"
+h1: "24/7 Emergency Fire Damage Restoration in Everett"
+meta_description: "24/7 emergency fire damage restoration in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "fire damage restoration everett"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Everett? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 The smell hits first, acrid, chemical, nothing like a campfire. Then the visible damage: char on the framing, soot coating every surface two rooms away from the flames, water from the suppression effort pooling under the subfloor. If you're reading this from Everett right now, you don't need a sales pitch. You need someone on-site fast, with the right equipment and the experience to stop secondary damage before it compounds what the fire already did. That's exactly what National Restoration Construction does.
 
 ## Our Fire Damage Restoration Process in Everett

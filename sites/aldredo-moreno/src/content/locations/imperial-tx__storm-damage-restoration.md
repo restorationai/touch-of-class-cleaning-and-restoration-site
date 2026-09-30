@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Imperial, TX | ACS Enterprise "
-h1: "Storm Damage Restoration in Imperial"
-meta_description: "Storm damage restoration in Imperial, TX. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Storm Damage Restoration in Imperial, TX | ACS Enterprise "
+h1: "Emergency Storm Damage Restoration in Imperial"
+meta_description: "Emergency storm damage restoration in Imperial, TX. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "storm damage restoration imperial"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Imperial? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Imperial sits in the heart of the Permian Basin, where West Texas storm seasons arrive fast and hit hard. A line of severe thunderstorms can drop golf-ball hail, push 70-mph wind gusts, and dump two inches of rain in under an hour on a region where the caliche soil beneath most properties sheds water rather than absorbing it. When that happens, standing water finds its way into garages, under doors, and through compromised rooflines before most homeowners even realize the storm has passed. ACS Enterprise responds to storm damage calls across Imperial and the surrounding Midland County area, handling the water extraction, structural drying, debris removal, and cleanup that follow severe weather events.
 
 ## Why Imperial Properties See Significant Storm Damage

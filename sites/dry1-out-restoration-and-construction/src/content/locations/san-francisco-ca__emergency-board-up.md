@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board Up in San Francisco, CA | Dry1 Out Restoration and Construction"
-h1: "Emergency Board Up in San Francisco"
+title: "24/7 Emergency Board Up in San Francisco, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Board Up in San Francisco"
 meta_description: "24/7 emergency board up in San Francisco, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "emergency board up san francisco"
 secondary_keywords: []

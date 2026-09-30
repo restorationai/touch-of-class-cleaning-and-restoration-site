@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Needham, MA | Quality Contracting, Inc."
-h1: "Storm Damage Restoration in Needham"
-meta_description: "Storm damage restoration in Needham, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Storm Damage Restoration in Needham, MA | Quality Contracting, Inc."
+h1: "Emergency Storm Damage Restoration in Needham"
+meta_description: "Emergency storm damage restoration in Needham, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "storm damage restoration needham"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Needham? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Needham's mix of mature tree canopy, older Colonial and Cape Cod housing stock, and New England's increasingly volatile nor'easters creates a specific kind of storm damage pattern, one where a single fast-moving system can drop a 60-foot oak onto a 1940s roof, drive wind-blown rain into uninsulated attic cavities, and leave standing water in a basement before the storm has even cleared the South Shore. When that happens, the clock on secondary damage starts immediately.
 
 ## Why Needham Properties See Storm Damage Differently

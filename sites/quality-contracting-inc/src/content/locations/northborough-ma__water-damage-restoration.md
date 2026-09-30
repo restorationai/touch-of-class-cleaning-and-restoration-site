@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Northborough, MA | Quality Contracting, Inc."
-h1: "Water Damage Restoration in Northborough"
-meta_description: "Water damage restoration in Northborough, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Water Damage Restoration in Northborough, MA | Quality Contracting, Inc."
+h1: "Emergency Water Damage Restoration in Northborough"
+meta_description: "Emergency water damage restoration in Northborough, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "water damage restoration northborough"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Northborough? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Northborough sits in a part of central Massachusetts where the ground stays saturated well into spring, snowmelt from the higher terrain to the west drains slowly through clay-heavy soils, and a single hard freeze-thaw cycle can split a supply line before you notice anything is wrong. When water finds its way into a finished basement or behind a plaster wall in one of the town's older colonials, the clock starts immediately. Quality Contracting, Inc. serves Northborough from our Auburn location, and we move quickly so that a manageable water loss does not become a structural or mold problem.
 
 ## Why Northborough Properties See Water Damage Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Grover Beach, CA | Coastal Restoration Services Inc"
-h1: "Biohazard Cleanup in Grover Beach"
-meta_description: "Biohazard cleanup in Grover Beach, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Biohazard Cleanup in Grover Beach, CA | Coastal Restoration Services Inc"
+h1: "Emergency Biohazard Cleanup in Grover Beach"
+meta_description: "Emergency biohazard cleanup in Grover Beach, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "biohazard cleanup grover beach"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

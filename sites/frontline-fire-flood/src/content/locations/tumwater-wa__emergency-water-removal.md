@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Tumwater, WA | Frontline Fire & Flood"
-h1: "Emergency Water Removal & Cleanup in Tumwater"
+title: "24/7 Emergency Water Removal & Cleanup in Tumwater, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Water Removal & Cleanup in Tumwater"
 meta_description: "24/7 emergency water removal and cleanup in Tumwater, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency water removal tumwater"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Pleasant Grove, UT | FIX Restoration"
-h1: "Fire Damage Restoration in Pleasant Grove"
-meta_description: "Fire damage restoration in Pleasant Grove, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in Pleasant Grove, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in Pleasant Grove"
+meta_description: "Emergency fire damage restoration in Pleasant Grove, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration pleasant grove"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Pleasant Grove? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Pleasant Grove sits at the foot of Mount Timpanogos, where dry canyon winds off the Wasatch Front can push a kitchen fire through an older wood-frame home faster than most homeowners expect. The city's mix of mid-century ranch houses and newer subdivisions means fire damage here rarely follows a single pattern, smoke migrates differently through a 1960s home with plaster ceilings and minimal insulation than it does through a 2010s build with open floor plans and spray foam. When fire touches your Pleasant Grove property, the decisions you make in the first few hours shape how much of the structure and contents can actually be saved.
 
 ## Why Pleasant Grove Homes Are Particularly Vulnerable to Fire Spread

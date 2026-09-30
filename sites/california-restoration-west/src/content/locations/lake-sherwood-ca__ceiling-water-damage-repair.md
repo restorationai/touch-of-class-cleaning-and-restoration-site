@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Lake Sherwood, CA | California Restoration West "
-h1: "Ceiling Water Damage Repair in Lake Sherwood"
-meta_description: "24/7 ceiling water damage repair in Lake Sherwood, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "Emergency Ceiling Water Damage Repair in Lake Sherwood, CA | California Restoration West "
+h1: "24/7 Emergency Ceiling Water Damage Repair in Lake Sherwood"
+meta_description: "24/7 emergency ceiling water damage repair in Lake Sherwood, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "ceiling water damage repair lake sherwood"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

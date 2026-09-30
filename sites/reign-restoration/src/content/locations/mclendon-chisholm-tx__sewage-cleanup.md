@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in McLendon-Chisholm, TX | Reign Restoration"
-h1: "Sewage Cleanup and Sanitization in McLendon-Chisholm"
-meta_description: "24/7 sewage cleanup and sanitization in McLendon-Chisholm, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "Emergency Sewage Cleanup and Sanitization in McLendon-Chisholm | Reign Restoration"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in McLendon-Chisholm"
+meta_description: "24/7 emergency sewage cleanup and sanitization in McLendon-Chisholm, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "sewage cleanup and sanitization mclendon-chisholm"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

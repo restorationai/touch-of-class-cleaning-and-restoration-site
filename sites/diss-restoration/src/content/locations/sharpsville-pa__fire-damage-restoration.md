@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Sharpsville, PA | DISS Restoration"
-h1: "Fire Damage Restoration in Sharpsville"
-meta_description: "24/7 fire damage restoration in Sharpsville, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Fire Damage Restoration in Sharpsville, PA | DISS Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Sharpsville"
+meta_description: "24/7 emergency fire damage restoration in Sharpsville, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "fire damage restoration sharpsville"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Sharpsville? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Sharpsville sits in Mercer County's industrial corridor, where decades of steel-era construction left behind a housing stock that burns and smokes differently than newer builds. Older balloon-frame homes, common throughout this part of western Pennsylvania, allow fire to travel vertically inside wall cavities with alarming speed, and the smoke that follows doesn't stop at the room where the fire started. When fire damage hits a Sharpsville property, the clock on secondary damage from soot, char, and smoke odor starts immediately. DISS Restoration's IICRC FSRT-certified team is available around the clock to respond.
 
 ## Why Sharpsville Properties Face Particular Fire Damage Challenges

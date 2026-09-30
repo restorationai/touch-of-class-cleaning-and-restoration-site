@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Redmond, WA | National Restoration Construction"
-h1: "Appliance Leak Cleanup in Redmond"
-meta_description: "24/7 appliance leak cleanup in Redmond, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Appliance Leak Cleanup in Redmond, WA | National Restoration Construction"
+h1: "24/7 Emergency Appliance Leak Cleanup in Redmond"
+meta_description: "24/7 emergency appliance leak cleanup in Redmond, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "appliance leak cleanup redmond"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Redmond? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A dishwasher that ran overnight. A washing machine hose that let go behind the dryer. A refrigerator ice maker line that dripped silently for weeks until the subfloor gave it away. Whatever appliance caused the water in your Redmond home right now, the clock matters more than you probably realize, mold can begin colonizing wet building materials in as little as 24 to 48 hours, and hardwood floors start cupping within the first day. National Restoration Construction dispatches from Federal Way and can have an IICRC-certified technician at most Redmond addresses within 60 to 90 minutes of your call at **(206) 883-0333**.
 
 ## Why Redmond Properties Are Particularly Vulnerable to Appliance Leak Damage

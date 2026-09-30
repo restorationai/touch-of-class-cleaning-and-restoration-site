@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Pleasant Grove, UT | Home Pride Restoration and Cleaning"
-h1: "Basement Flooding Cleanup in Pleasant Grove"
-meta_description: "24/7 basement flooding cleanup in Pleasant Grove, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "Emergency Basement Flooding Cleanup in Pleasant Grove, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Basement Flooding Cleanup in Pleasant Grove"
+meta_description: "24/7 emergency basement flooding cleanup in Pleasant Grove, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "basement flooding cleanup pleasant grove"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Pleasant Grove? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Pleasant Grove sits at the base of the Wasatch Front where spring snowmelt off Mount Timpanogos combines with heavy clay soils to push hydrostatic pressure against basement walls every March and April. When that pressure wins, or when a water heater line lets go at 2 a.m., you can be standing in four inches of water before sunrise. Home Pride Restoration and Cleaning has been responding to exactly these situations across Utah County since 1997, and our IICRC-certified crews know what a flooded basement in this city actually looks like.
 
 ## Why Pleasant Grove Basements Flood More Than You'd Expect

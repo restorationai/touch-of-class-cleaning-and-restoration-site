@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in Cranberry Township | FireDEX Butler"
-h1: "Water Damage Restoration in Cranberry Township"
-meta_description: "24/7 water damage restoration in Cranberry Township and surrounding areas. Insurance billing accepted. Call (724) 452-7400."
+title: "Emergency Water Damage Restoration in Cranberry Township | FireDEX Butler"
+h1: "24/7 Emergency Water Damage Restoration in Cranberry Township"
+meta_description: "24/7 emergency water damage restoration in Cranberry Township and surrounding areas. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "water damage restoration cranberry township"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Cranberry Township? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 ## What happens in the first 48 hours matters more than most homeowners realize
 
 You notice a wet carpet at 7 a.m. By noon, gypsum board has begun to soften. By the following morning, if conditions are right, microbial growth can take hold in wall cavities you can't see. Water damage isn't a static event, it's a countdown. The difference between a straightforward extraction-and-dry job and a full gut-and-rebuild often comes down to how quickly moisture is measured, contained, and removed from the structure.

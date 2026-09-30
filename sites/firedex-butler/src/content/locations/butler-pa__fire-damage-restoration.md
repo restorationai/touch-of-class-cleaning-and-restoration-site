@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Butler, PA | FireDEX Butler"
-h1: "Fire Damage Restoration in Butler"
-meta_description: "24/7 fire damage restoration in Butler, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Fire Damage Restoration in Butler, PA | FireDEX Butler"
+h1: "24/7 Emergency Fire Damage Restoration in Butler"
+meta_description: "24/7 emergency fire damage restoration in Butler, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "fire damage restoration butler"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Butler? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 The frame homes and brick foursquares that line Institute Hill and Lyndora were built when fuse boxes were standard and cast-iron flue liners were considered modern, and when one of those aging systems fails, a house fire moves fast through balloon-framed walls with no fire blocking. FireDEX Butler has been responding to residential and commercial fire losses in Butler County since 1981, and our crews know the difference between a contained kitchen fire in a 1940s bungalow and a structure fire that has tracked through an open wall cavity to the attic. If you're standing in front of smoke damage right now, call us at (724) 452-7400, we answer around the clock.
 
 ## Why Butler Homes See Above-Average Fire Risk

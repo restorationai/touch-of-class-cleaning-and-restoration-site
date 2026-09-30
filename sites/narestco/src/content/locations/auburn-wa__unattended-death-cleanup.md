@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Unattended Death Cleanup in Auburn, WA | National Restoration Construction"
-h1: "Unattended Death Cleanup in Auburn"
-meta_description: "24/7 unattended death cleanup in Auburn, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Unattended Death Cleanup in Auburn, WA | National Restoration Construction"
+h1: "24/7 Emergency Unattended Death Cleanup in Auburn"
+meta_description: "24/7 emergency unattended death cleanup in Auburn, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "unattended death cleanup auburn"
 secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased estate cleanup", "odor removal after death", "discreet death cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Unattended Death Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Auburn? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Auburn sits where the Green River valley floor meets the older residential hillsides of Lea Hill and West Hill, and that geography shapes how an unattended death situation unfolds here in ways that aren't obvious until you're standing inside the property. Valley-floor homes, many built in the 1970s and 1980s on slab foundations with limited subfloor ventilation, trap odor and biological material differently than the 1990s-era wood-frame construction up on Lea Hill. When a death goes undiscovered for days or weeks, especially during a Western Washington summer when temperatures climb into the 80s, the remediation timeline and the scope of affected materials can expand significantly. National Restoration Construction has been responding to these situations across South King County since 2004, and we understand what Auburn properties specifically require.
 
 ## Why Auburn's Housing Stock and Climate Affect This Work

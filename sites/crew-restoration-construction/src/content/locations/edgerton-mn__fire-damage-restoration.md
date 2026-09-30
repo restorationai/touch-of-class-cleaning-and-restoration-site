@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Edgerton, MN | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Edgerton"
-meta_description: "Fire damage restoration in Edgerton, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Edgerton, MN | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Edgerton"
+meta_description: "Emergency fire damage restoration in Edgerton, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration edgerton"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Edgerton? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When fire tears through a home in Edgerton, the damage rarely stops at the char line. Smoke travels fast through the tight, well-insulated houses that define this small Pipestone County community, and in a town where many structures date back to the mid-1900s, older wood framing and plaster walls hold odor and residue in ways that newer construction simply doesn't. Crew Restoration & Construction works with property owners across the 56128 ZIP code to stabilize, clean, and rebuild after fire, moving quickly so that secondary damage from soot acids and water used in suppression doesn't compound the original loss.
 
 ## Why Edgerton Properties Face Distinct Fire Damage Challenges

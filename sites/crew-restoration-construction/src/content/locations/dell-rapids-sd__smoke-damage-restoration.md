@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Dell Rapids, SD | Crew Restoration & Construction"
-h1: "Smoke Damage Restoration in Dell Rapids"
-meta_description: "Smoke damage restoration in Dell Rapids, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Smoke Damage Restoration in Dell Rapids, SD | Crew Restoration & Construction"
+h1: "Emergency Smoke Damage Restoration in Dell Rapids"
+meta_description: "Emergency smoke damage restoration in Dell Rapids, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "smoke damage restoration dell rapids"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

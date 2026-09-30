@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Sandersville, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Sandersville"
-meta_description: "Sewage cleanup and sanitization in Sandersville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "Emergency Sewage Cleanup and Sanitization in Sandersville | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Sandersville"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Sandersville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization sandersville"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Sandersville? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Sandersville sits in the heart of Mississippi's clay-heavy interior, where saturated soils and aging lateral lines can turn a slow drain into a full sewage backup without much warning. When raw sewage surfaces in a bathroom, crawl space, or yard, whether from a failed septic system, a collapsed sewer line, or a municipal backup, the clock starts immediately. Category 3 "black water" carries pathogens that begin colonizing porous surfaces within hours, and the humid Mississippi climate accelerates that process faster than most homeowners expect.
 
 ## Why Sandersville Properties Experience Sewage Backup

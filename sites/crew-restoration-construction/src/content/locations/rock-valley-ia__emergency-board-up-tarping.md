@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Rock Valley, IA | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Rock Valley"
-meta_description: "Board-up and tarping in Rock Valley, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Rock Valley, IA | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Rock Valley"
+meta_description: "Emergency board-up and tarping in Rock Valley, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping rock valley"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Rock Valley? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a spring storm rolls off the South Dakota plains and crosses into Sioux County, Rock Valley properties can take a beating before anyone has a chance to react. Hail punches through roof decking, straight-line winds shatter windows, and the same weather systems that push the Rock River toward its banks can leave homes in the 51247 ZIP code exposed to the elements for hours. Getting damaged openings sealed fast, with structural plywood, heavy-gauge tarps, and the right fasteners, is the difference between a manageable repair and a gut renovation.
 
 ## Why Rock Valley Properties Are Vulnerable to Storm and Fire Damage

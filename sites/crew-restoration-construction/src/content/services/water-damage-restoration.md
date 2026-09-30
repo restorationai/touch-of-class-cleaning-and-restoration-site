@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in Sioux Falls | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Sioux Falls"
-meta_description: "Water damage restoration in Sioux Falls and surrounding areas. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Sioux Falls | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Sioux Falls"
+meta_description: "Emergency water damage restoration in Sioux Falls and surrounding areas. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration sioux falls"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Sioux Falls? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Standing water doesn't wait. Within the first hour after a pipe bursts or a washing machine hose lets go, water is already wicking into drywall, soaking into subfloor panels, and beginning to swell door frames. Within 24 to 48 hours, the conditions for mold colonization are in place. Water damage restoration is a race against that clock, and the margin between a clean, fully dried structure and a home that needs gut-and-rebuild is often measured in how quickly the right equipment gets on-site.
 
 ## What Water Damage Restoration actually involves

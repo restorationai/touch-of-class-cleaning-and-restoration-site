@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Renton, WA | National Restoration Construction"
-h1: "Smoke Damage Restoration in Renton"
-meta_description: "24/7 smoke damage restoration in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Smoke Damage Restoration in Renton, WA | National Restoration Construction"
+h1: "24/7 Emergency Smoke Damage Restoration in Renton"
+meta_description: "24/7 emergency smoke damage restoration in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "smoke damage restoration renton"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Renton? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Smoke doesn't stop spreading when the fire does. The moment flames are out, fine soot particles and acidic residue are already settling into drywall, insulation, HVAC ducts, and the fabric of every room, and within 72 hours, that residue begins permanently etching surfaces and corroding metal fixtures. If you're in Renton and you're smelling that acrid, oily char right now, the clock is already running. National Restoration Construction dispatches from Federal Way, putting a crew at most Renton addresses in 60 to 90 minutes.
 
 ## Our Smoke Damage Restoration Process in Renton

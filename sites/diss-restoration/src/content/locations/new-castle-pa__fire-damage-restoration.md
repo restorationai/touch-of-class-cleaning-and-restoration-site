@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in New Castle, PA | DISS Restoration"
-h1: "Fire Damage Restoration in New Castle"
-meta_description: "24/7 fire damage restoration in New Castle, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Fire Damage Restoration in New Castle, PA | DISS Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in New Castle"
+meta_description: "24/7 emergency fire damage restoration in New Castle, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "fire damage restoration new castle"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in New Castle? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 New Castle sits in Lawrence County's river valley, a city built largely in the early twentieth century when steel and tin plate were its lifeblood. That era left behind a dense housing stock of wood-frame and brick construction, balloon-framed walls, and plaster-over-lath interiors that behave very differently in a fire than modern stick-built homes. When smoke and heat move through a balloon-frame wall cavity, they travel vertically with almost nothing to stop them, pushing soot and odor into attic spaces and floor systems well beyond the room where the fire started. DISS Restoration responds to fire damage calls in New Castle around the clock, bringing IICRC FSRT-certified technicians and the equipment to address what you can see and what you cannot.
 
 ## Why New Castle's Older Housing Stock Complicates Fire Damage

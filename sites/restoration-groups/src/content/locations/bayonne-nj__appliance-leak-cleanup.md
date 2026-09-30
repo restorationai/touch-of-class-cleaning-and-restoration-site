@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Bayonne, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in Bayonne"
-meta_description: "24/7 appliance leak cleanup in Bayonne, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Appliance Leak Cleanup in Bayonne, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Bayonne"
+meta_description: "24/7 emergency appliance leak cleanup in Bayonne, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "appliance leak cleanup bayonne"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Bayonne? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 Bayonne's dense blocks of early 20th-century two- and three-family frame homes were built long before dishwashers, side-by-side refrigerators with ice makers, or high-efficiency washing machines were standard fixtures, and the supply lines, drain connections, and subfloor assemblies underneath them weren't designed for modern appliance loads. When a refrigerator ice maker line splits or a washing machine hose fails in a second-floor unit near Uptown or Bergen Point, water moves fast through old-growth fir subfloors and into the unit below before anyone notices the puddle. The Restoration Group responds 24/7 to appliance leak cleanup calls across Bayonne (07002), stopping the damage clock before a contained appliance failure turns into a structural or mold problem.
 
 ## Why Bayonne Homes See So Many Appliance Leaks

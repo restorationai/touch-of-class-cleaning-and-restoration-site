@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Lacey, WA | Frontline Fire & Flood"
-h1: "Fire Damage Restoration in Lacey"
-meta_description: "24/7 fire damage restoration in Lacey, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Fire Damage Restoration in Lacey, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Fire Damage Restoration in Lacey"
+meta_description: "24/7 emergency fire damage restoration in Lacey, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration lacey"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Lacey? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Lacey's wet winters do more than soak the soil, they shape how fire damage behaves long after the flames are out. When a house fire occurs during the Pacific Northwest's prolonged rainy season, crews arrive to find smoke-saturated walls that have already begun absorbing ambient moisture, accelerating the breakdown of drywall, insulation, and wood framing. That combination of char, soot, and dampness is a specific challenge in this corner of Thurston County, and it requires a restoration approach calibrated to local conditions rather than a generic checklist.
 
 ## Why Lacey Properties Face Particular Fire Damage Challenges

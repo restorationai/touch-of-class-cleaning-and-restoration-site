@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Smoke Damage Restoration in Kenilworth | The Restoration Group"
-h1: "Smoke Damage Restoration in Kenilworth"
-meta_description: "24/7 smoke damage restoration in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Smoke Damage Restoration in Kenilworth | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Kenilworth"
+meta_description: "24/7 emergency smoke damage restoration in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "smoke damage restoration kenilworth"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "smoke-damage-restoration"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Kenilworth? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 The fire is out, but the damage isn't done. Smoke travels through wall cavities, settles into HVAC ductwork, and bonds to cool surfaces, often in rooms that never saw a flame. Within 72 hours, acidic soot begins etching chrome fixtures and yellowing painted walls. Within a week, the odor compounds become nearly impossible to remove without professional equipment. What looks like a surface-level cleanup problem is usually a whole-structure contamination problem.
 
 ## What smoke damage restoration actually involves

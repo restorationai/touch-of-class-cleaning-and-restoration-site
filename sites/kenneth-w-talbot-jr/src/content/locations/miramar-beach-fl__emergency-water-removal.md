@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Miramar Beach, FL | Veterans Remediation & Restoration "
-h1: "Emergency Water Removal & Cleanup in Miramar Beach"
+title: "24/7 Emergency Water Removal & Cleanup in Miramar Beach, FL | Veterans Remediation & Restoration "
+h1: "24/7 Emergency Water Removal & Cleanup in Miramar Beach"
 meta_description: "24/7 emergency water removal and cleanup in Miramar Beach, FL. Insurance billing accepted. Call (337) 344-1248."
 primary_keyword: "emergency water removal miramar beach"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

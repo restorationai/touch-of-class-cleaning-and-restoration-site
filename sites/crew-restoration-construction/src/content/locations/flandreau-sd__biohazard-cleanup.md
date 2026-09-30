@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Flandreau, SD | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Flandreau"
-meta_description: "Biohazard cleanup in Flandreau, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Flandreau, SD | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Flandreau"
+meta_description: "Emergency biohazard cleanup in Flandreau, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup flandreau"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

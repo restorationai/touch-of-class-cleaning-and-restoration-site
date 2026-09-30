@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Evans City, PA | FireDEX Butler"
-h1: "Sewage Cleanup and Sanitization in Evans City"
-meta_description: "24/7 sewage cleanup and sanitization in Evans City, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "Emergency Sewage Cleanup and Sanitization in Evans City, PA | FireDEX Butler"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Evans City"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Evans City, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "sewage cleanup and sanitization evans city"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

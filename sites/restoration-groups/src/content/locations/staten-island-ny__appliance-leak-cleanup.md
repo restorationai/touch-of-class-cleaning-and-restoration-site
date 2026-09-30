@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Staten Island, NY | The Restoration Group"
-h1: "Appliance Leak Cleanup in Staten Island"
-meta_description: "24/7 appliance leak cleanup in Staten Island, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Appliance Leak Cleanup in Staten Island, NY | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Staten Island"
+meta_description: "24/7 emergency appliance leak cleanup in Staten Island, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "appliance leak cleanup staten island"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NY"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Staten Island? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 A refrigerator ice maker line that drips for weeks behind a postwar Cape Cod in Great Kills can saturate a plywood subfloor long before the homeowner notices a soft spot underfoot. Staten Island's dense housing stock, packed with mid-century split-levels, early-1900s frame homes, and newer townhome clusters, means appliance leaks rarely stay contained to one surface. Water follows the path of least resistance through aging floor assemblies, into crawlspaces, and along cast-iron drain lines that have been flexing and corroding since the Eisenhower administration. When your dishwasher, washing machine, water heater, or refrigerator line gives out, the window between a manageable cleanup and a mold problem is measured in hours, not days.
 
 ## Why Staten Island Homes Are Especially Vulnerable to Appliance Leaks

@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Dundee, FL | DRYCOR RESTORE"
-h1: "Emergency Board-Up and Tarping in Dundee"
+title: "24/7 Emergency Board-Up and Tarping in Dundee, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Board-Up and Tarping in Dundee"
 meta_description: "24/7 emergency board-up and tarping in Dundee, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "emergency board-up and tarping dundee"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

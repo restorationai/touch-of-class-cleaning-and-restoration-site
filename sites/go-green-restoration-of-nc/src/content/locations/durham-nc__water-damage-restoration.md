@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Durham, NC | Go Green Restoration of NC"
-h1: "Water Damage Restoration in Durham"
-meta_description: "Water damage restoration in Durham, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Water Damage Restoration in Durham, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Water Damage Restoration in Durham"
+meta_description: "24/7 emergency water damage restoration in Durham, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "water damage restoration durham"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NC"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Durham? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Durham's mix of aging Craftsman bungalows in Walltown, mid-century ranches near Forest Hills, and newer infill construction along the East End corridor means water damage rarely looks the same twice, and rarely waits for a convenient moment. When a supply line fails behind a vanity or a crawl space floods after a heavy Piedmont rain, the clock starts immediately: mold can begin colonizing wet framing within 24 to 48 hours, and the red clay soil common throughout Durham County holds moisture against foundation walls long after the visible water is gone. Go Agree Restoration of NC responds to water losses across Durham and coordinates the full process from initial extraction through structural drying and documentation.
 
 ## Why Durham Properties See Water Damage Differently

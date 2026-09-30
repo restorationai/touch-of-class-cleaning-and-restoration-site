@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Hurley, MS | HomeLyft Restoration MS"
-h1: "Water Damage Restoration in Hurley"
-meta_description: "Water damage restoration in Hurley, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Water Damage Restoration in Hurley, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Water Damage Restoration in Hurley"
+meta_description: "24/7 emergency water damage restoration in Hurley, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "water damage restoration hurley"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Hurley? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Hurley sits in the piney woods of Jackson County where the soil shifts between sandy loam and dense clay, and when a water line bursts or a storm pushes water under a crawl space door, that clay holds moisture against your foundation like a sponge. Homes here see standing water linger longer than coastal properties do, and the humid Gulf air that rolls inland through the county keeps relative humidity elevated even on dry days, slowing evaporation and giving mold a shorter window to take hold than most homeowners expect. HomeLyft Restoration MS responds to water damage calls across Hurley and the surrounding Jackson County communities, bringing IICRC-certified water damage and structural drying technicians to your door.
 
 ## Why Hurley Properties Are Vulnerable to Water Damage

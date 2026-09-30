@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Lake Wales, FL | DRYCOR RESTORE"
-h1: "Storm Damage Restoration in Lake Wales"
-meta_description: "24/7 storm damage restoration in Lake Wales, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "24/7 Emergency Storm Damage Restoration in Lake Wales, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Storm Damage Restoration in Lake Wales"
+meta_description: "24/7 emergency storm damage restoration in Lake Wales, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "storm damage restoration lake wales"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Crime Scene Cleanup in Bellevue, WA | National Restoration Construction"
-h1: "Crime Scene Cleanup in Bellevue"
-meta_description: "24/7 crime scene cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Crime Scene Cleanup in Bellevue, WA | National Restoration Construction"
+h1: "24/7 Emergency Crime Scene Cleanup in Bellevue"
+meta_description: "24/7 emergency crime scene cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "crime scene cleanup bellevue"
 secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cleanup", "homicide cleanup", "suicide scene cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Crime Scene Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Bellevue? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something unthinkable happens inside a home or unit in Bellevue, whether in a high-rise near Downtown Bellevue or a townhome in the Crossroads corridor, the hours immediately after are consumed by shock, logistics, and the weight of decisions no one expects to make. Crime scene cleanup is not a task for families or property managers to handle alone, and in a city where HOA boards and property management companies move quickly on remediation timelines, having a certified team ready to respond matters as much as any other part of the process. National Restoration Construction has been handling these situations with discretion and technical precision since 2004, and our crews can reach most of the Eastside from our Federal Way headquarters within 60 to 90 minutes.
 
 ## What Crime Scene Cleanup Actually Involves in Bellevue

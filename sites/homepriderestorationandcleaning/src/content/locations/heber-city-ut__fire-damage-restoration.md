@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Heber City, UT | Home Pride Restoration and Cleaning"
-h1: "Fire Damage Restoration in Heber City"
-meta_description: "24/7 fire damage restoration in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Fire Damage Restoration in Heber City, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Fire Damage Restoration in Heber City"
+meta_description: "24/7 emergency fire damage restoration in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "fire damage restoration heber city"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Heber City? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 When a fire tears through a home in Heber City, the damage rarely stops at the charred walls. At 5,600 feet elevation in the Heber Valley, the dry mountain air accelerates smoke penetration into porous materials, while the wide temperature swings between day and night cause structural components to expand and contract, pulling soot deeper into framing, insulation, and subflooring faster than it would in a lower-elevation Front Range city. If your home has been affected, the window for limiting secondary damage is measured in hours, not days.
 
 ## Why Heber City Properties Are Particularly Vulnerable After a Fire

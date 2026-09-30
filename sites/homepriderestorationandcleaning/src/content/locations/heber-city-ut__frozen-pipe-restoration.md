@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Heber City, UT | Home Pride Restoration and Cleaning"
-h1: "Frozen Pipe Restoration in Heber City"
-meta_description: "24/7 frozen pipe restoration in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Frozen Pipe Restoration in Heber City, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Frozen Pipe Restoration in Heber City"
+meta_description: "24/7 emergency frozen pipe restoration in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "frozen pipe restoration heber city"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Heber City? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Heber City sits in a high-elevation valley where January lows routinely drop into the single digits and overnight temperatures can plunge well below zero for days at a stretch. That kind of sustained cold doesn't just nip exposed garden hoses, it works its way into supply lines tucked inside exterior walls, crawl spaces under older ranch homes near the Provo River corridor, and garage utility rooms that weren't insulated to handle a Wasatch Back winter. When a pipe finally lets go, the water that pours out isn't a slow drip; it's often a full-bore release that can soak framing, subfloor, and insulation before anyone realizes what's happening.
 
 ## Why Heber City Homes Are Especially Vulnerable to Frozen Pipe Damage

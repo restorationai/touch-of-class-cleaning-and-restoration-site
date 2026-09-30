@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Los Berros, CA | Coastal Restoration Services Inc"
-h1: "Sewage Cleanup and Sanitization in Los Berros"
-meta_description: "Sewage cleanup and sanitization in Los Berros, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Sewage Cleanup and Sanitization in Los Berros, CA | Coastal Restoration Services Inc"
+h1: "Emergency Sewage Cleanup and Sanitization in Los Berros"
+meta_description: "Emergency sewage cleanup and sanitization in Los Berros, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "sewage cleanup and sanitization los berros"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Los Berros? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Los Berros sits in a quiet rural pocket of San Luis Obispo County where many properties rely on private septic systems rather than municipal sewer connections, and when those systems back up, the contamination spreads fast through crawl spaces, soil, and interior flooring before most homeowners realize the full extent of the problem. Coastal Restoration Services Inc responds to sewage backup cleanup calls throughout the Los Berros area, bringing industrial extraction equipment and EPA-registered disinfectants to properties where raw sewage removal needs to happen quickly and thoroughly.
 
 ## Why Los Berros Properties Face Elevated Sewage Backup Risk

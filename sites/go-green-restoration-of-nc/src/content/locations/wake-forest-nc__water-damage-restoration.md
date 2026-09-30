@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Wake Forest, NC | Go Green Restoration of NC"
-h1: "Water Damage Restoration in Wake Forest"
-meta_description: "Water damage restoration in Wake Forest, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Water Damage Restoration in Wake Forest, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Water Damage Restoration in Wake Forest"
+meta_description: "24/7 emergency water damage restoration in Wake Forest, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "water damage restoration wake forest"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NC"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Wake Forest? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Wake Forest sits at the northern edge of the Research Triangle, where warm, humid summers and periodic nor'easters push moisture into homes year-round, and when a supply line bursts or a storm backs up a crawl space drain, the damage moves fast. Clay-heavy soils common throughout northern Wake County don't absorb standing water the way sandier ground might, so water that pools around a foundation in Heritage or Traditions at Wake Forest has nowhere to go except inward. Getting water out of the structure quickly, within the first 24 to 48 hours, is the difference between a straightforward drying job and a mold problem that follows your family for months.
 
 ## Why Wake Forest Properties See Water Damage Issues

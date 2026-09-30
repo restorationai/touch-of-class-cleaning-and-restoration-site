@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Hull, IA | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Hull"
-meta_description: "Biohazard cleanup in Hull, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Hull, IA | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Hull"
+meta_description: "Emergency biohazard cleanup in Hull, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup hull"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Hull? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Hull is a tight-knit Sioux County community where neighbors know each other by name and word travels fast, which makes an unexpected biohazard situation on your property feel all the more urgent to resolve quietly and completely. Whether the incident occurred in a farmstead outbuilding on the edge of town, a residence near Hull City Park, or a rental property in West Hull, Crew Restoration & Construction handles the cleanup with the discretion and thoroughness the situation demands. We understand that what you need right now is a clear next step, not more uncertainty.
 
 ## Why Hull Properties Present Unique Biohazard Considerations

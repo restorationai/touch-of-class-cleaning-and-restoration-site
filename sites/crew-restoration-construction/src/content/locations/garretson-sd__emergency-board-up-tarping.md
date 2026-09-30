@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Garretson, SD | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Garretson"
-meta_description: "Board-up and tarping in Garretson, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Garretson, SD | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Garretson"
+meta_description: "Emergency board-up and tarping in Garretson, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping garretson"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Garretson? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a storm tears through the Split Rock Creek corridor or a fire breaks out in one of Garretson's older frame homes, the window between damage and catastrophic loss is measured in hours, sometimes less. Wind-driven rain can push through a broken window or a compromised roof deck fast enough to ruin interior finishes, buckle hardwood floors, and create the moisture conditions mold needs to take hold. Crew Restoration & Construction responds to those calls with the materials and crew to close off the structure before the next weather event compounds the problem.
 
 ## Why Garretson Properties Face Elevated Board-Up and Tarping Risks

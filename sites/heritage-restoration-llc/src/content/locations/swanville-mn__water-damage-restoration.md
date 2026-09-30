@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Swanville, MN | Heritage Restoration LLC"
-h1: "Water Damage Restoration in Swanville"
-meta_description: "Water damage restoration in Swanville, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in Swanville, MN | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in Swanville"
+meta_description: "Emergency water damage restoration in Swanville, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration swanville"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Swanville? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Swanville sits in Morrison County, where the transition between central Minnesota's lake country and its agricultural flatlands means water has plenty of places to go, and sometimes that place is inside your home. Spring snowmelt in this part of the state can be abrupt, and when frozen ground can't absorb runoff fast enough, water finds its way through foundation walls, window wells, and basement floor drains before most homeowners realize what's happening. Heritage Restoration LLC responds to water damage calls across Swanville and the surrounding Morrison County area, handling everything from burst pipes to storm-driven flooding with IICRC-certified water damage restoration.
 
 ## Why Swanville Properties See Water Damage Issues

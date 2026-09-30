@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Las Vegas, NV | Desert Valley Contracting Inc "
-h1: "Ceiling Water Damage Repair in Las Vegas"
-meta_description: "24/7 ceiling water damage repair in Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+title: "24/7 Emergency Ceiling Water Damage Repair in Las Vegas, NV | Desert Valley Contracting Inc "
+h1: "24/7 Emergency Ceiling Water Damage Repair in Las Vegas"
+meta_description: "24/7 emergency ceiling water damage repair in Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "ceiling water damage repair las vegas"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

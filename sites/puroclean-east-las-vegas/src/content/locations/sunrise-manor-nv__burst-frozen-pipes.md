@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst & Frozen Pipes in Sunrise Manor, NV | PuroClean of East Las Vegas"
-h1: "Burst & Frozen Pipes in Sunrise Manor"
-meta_description: "Burst & frozen pipes in Sunrise Manor, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Burst & Frozen Pipes in Sunrise Manor, NV | PuroClean of East Las Vegas"
+h1: "Emergency Burst & Frozen Pipes in Sunrise Manor"
+meta_description: "Emergency burst & frozen pipes in Sunrise Manor, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "burst & frozen pipes sunrise manor"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -20,6 +20,9 @@ state: "NV"
 service_display: "Burst & Frozen Pipes"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Sunrise Manor? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 Sunrise Manor sits in a climate that most people assume is too warm for frozen pipes, and that assumption is exactly what makes burst pipe losses here so damaging. When temperatures dip below freezing during a desert cold snap, homes along the East Charleston corridor and throughout the Nellis Meadows area are often caught unprepared: no insulated sleeves on exposed supply lines, no drip running on exterior hose bibs, and attic runs that were never designed to handle sustained cold. When those pipes let go, water moves fast through slab-on-grade construction, and the clock starts immediately.
 
 ## Why Sunrise Manor Properties See Burst and Frozen Pipe Issues

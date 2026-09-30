@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Alpine, UT | FIX Restoration"
-h1: "Water Damage Restoration in Alpine"
-meta_description: "Water damage restoration in Alpine, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Damage Restoration in Alpine, UT | FIX Restoration"
+h1: "Emergency Water Damage Restoration in Alpine"
+meta_description: "Emergency water damage restoration in Alpine, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water damage restoration alpine"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Alpine? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Alpine sits at the base of the Wasatch Front where snowmelt, canyon runoff, and freeze-thaw cycles put steady pressure on homes year-round. When a pipe bursts in January or a slow roof leak finally saturates your subfloor in spring, the damage moves faster than most homeowners expect. FIX Restoration has been responding to water losses across Utah County since 2012, and the team knows how quickly a manageable situation in Alpine can turn structural if the drying window is missed.
 
 ## Why Alpine Properties See Water Damage Issues

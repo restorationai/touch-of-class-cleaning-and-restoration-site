@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Bethel Park, PA | Katofsky Construction LLC"
-h1: "Fire Damage Restoration in Bethel Park"
-meta_description: "24/7 fire damage restoration in Bethel Park, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "24/7 Emergency Fire Damage Restoration in Bethel Park, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Fire Damage Restoration in Bethel Park"
+meta_description: "24/7 emergency fire damage restoration in Bethel Park, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "fire damage restoration bethel park"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Bethel Park? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Bethel Park's older residential neighborhoods carry a housing stock that dates back decades, and when fire moves through a mid-century split-level or a brick ranch, it behaves differently than it does in newer construction. Smoke travels through original plaster ceilings, settles into uninsulated wall cavities, and leaves soot on surfaces that were never designed to be stripped and rebuilt quickly. If you're dealing with fire or smoke damage in Bethel Park right now, the clock is already running on secondary damage that compounds every hour the structure sits untreated.
 
 ## Why Bethel Park Properties See Fire Damage Differently

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Montclair, NJ | The Restoration Group"
-h1: "Biohazard Cleanup in Montclair"
-meta_description: "24/7 biohazard cleanup in Montclair, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Biohazard Cleanup in Montclair, NJ | The Restoration Group"
+h1: "24/7 Emergency Biohazard Cleanup in Montclair"
+meta_description: "24/7 emergency biohazard cleanup in Montclair, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "biohazard cleanup montclair"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Montclair? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to handle the cleanup with discretion and care.
+
 Montclair's older housing stock, the grand Victorians off Upper Montclair's tree-lined streets, the center-hall colonials near Watchung Plaza, the finished basements throughout the South End, creates conditions where biohazard situations can be especially complex to address. Plaster walls, original hardwood subfloors, and decades of layered finishes absorb and retain biological material in ways that modern construction does not. When a situation calls for professional biohazard cleanup in Montclair, the response needs to be discreet, thorough, and calibrated to what's actually behind those walls.
 
 ## Why Montclair Properties Present Unique Biohazard Challenges

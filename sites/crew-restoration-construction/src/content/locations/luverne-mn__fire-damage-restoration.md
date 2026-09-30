@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Luverne, MN | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Luverne"
-meta_description: "Fire damage restoration in Luverne, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Luverne, MN | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Luverne"
+meta_description: "Emergency fire damage restoration in Luverne, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration luverne"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Luverne? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When a fire tears through a home near the Rock County Courthouse or a farmstead on the edge of Luverne's prairie corridor, the damage rarely stops at charred walls. Southwest Minnesota's wide-open wind patterns push smoke deep into wall cavities, and the temperature swings between a January cold snap and a July thunderstorm mean that soot-saturated materials absorb and release odor compounds long after the flames are out. Crew Restoration & Construction responds to fire losses across the 56156 ZIP code, handling everything from initial board-up to full structural rebuild so you're not managing a half-dozen separate contractors during the worst week of your life.
 
 ## Why Luverne Properties Are Vulnerable to Severe Fire Damage

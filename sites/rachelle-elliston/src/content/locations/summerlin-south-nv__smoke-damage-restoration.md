@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Summerlin South, NV | Desert Valley Contracting Inc "
-h1: "Smoke Damage Restoration in Summerlin South"
-meta_description: "24/7 smoke damage restoration in Summerlin South, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+title: "Emergency Smoke Damage Restoration in Summerlin South, NV | Desert Valley Contracting Inc "
+h1: "24/7 Emergency Smoke Damage Restoration in Summerlin South"
+meta_description: "24/7 emergency smoke damage restoration in Summerlin South, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "smoke damage restoration summerlin south"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

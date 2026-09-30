@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Sewage Cleanup and Sanitization in Vandenberg Village | Coastal Restoration Services Inc"
-h1: "Sewage Cleanup and Sanitization in Vandenberg Village"
-meta_description: "Sewage cleanup and sanitization in Vandenberg Village and surrounding areas. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Sewage Cleanup and Sanitization in Vandenberg Village | Coastal Restoration Services Inc"
+h1: "Emergency Sewage Cleanup and Sanitization in Vandenberg Village"
+meta_description: "Emergency sewage cleanup and sanitization in Vandenberg Village and surrounding areas. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "sewage cleanup and sanitization vandenberg village"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Vandenberg Village? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows, the problem announces itself immediately, the smell alone is enough to clear a room. But the real damage is happening where you can't see it: raw sewage wicks into drywall, saturates subfloor materials, and begins seeding bacterial colonies within hours. This is Category 3 water, the most hazardous classification in water damage restoration, and it requires a response that goes well beyond mopping and airing out the space.
 
 ## What sewage cleanup and sanitization actually involves

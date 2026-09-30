@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Tye, TX | Air Care Restoration"
-h1: "Smoke Damage Restoration in Tye"
-meta_description: "24/7 smoke damage restoration in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Smoke Damage Restoration in Tye, TX | Air Care Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in Tye"
+meta_description: "24/7 emergency smoke damage restoration in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "smoke damage restoration tye"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "smoke-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Tye? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 When a grass fire moves across the dry pastureland around Tye, or a house fire breaks out in one of the small city's mix of manufactured and site-built homes, the smoke rarely stays confined to where the flames were. West Texas wind pushes it through attic vents, HVAC returns, and wall cavities long after the fire is out, leaving a film and an odor that surface cleaning won't touch. Smoke damage restoration in Tye has to account for that migration pattern from the first walkthrough, not just the charred room everyone sees first.
 
 ## Why Tye Properties See Smoke Damage Issues

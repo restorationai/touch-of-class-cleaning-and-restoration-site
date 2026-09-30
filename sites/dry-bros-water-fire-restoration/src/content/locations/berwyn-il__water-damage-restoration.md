@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Berwyn, IL | Dry Bros Water & Fire Restoration"
-h1: "Water Damage Restoration in Berwyn"
-meta_description: "Water damage restoration in Berwyn, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Water Damage Restoration in Berwyn, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Berwyn"
+meta_description: "24/7 emergency water damage restoration in Berwyn, IL. Insurance billing accepted. Call us now."
 primary_keyword: "water damage restoration berwyn"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Berwyn? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Berwyn's housing stock tells the story before the water does. Most of the bungalows and two-flats lining the streets west of Harlem Avenue were built between the 1910s and 1940s, long before modern moisture barriers, sump systems, or PVC supply lines were standard. When a pipe fails or a basement floods in one of these homes, water doesn't just pool on the floor; it wicks into old-growth wood framing, plaster-and-lath walls, and century-old masonry foundations in ways that a moisture meter at the surface won't fully reveal. Dry Bros Water & Fire Restoration responds to water damage calls throughout Berwyn, bringing drying equipment and documentation calibrated to what these homes actually hold.
 
 ## Why Berwyn Properties See Water Damage Differently

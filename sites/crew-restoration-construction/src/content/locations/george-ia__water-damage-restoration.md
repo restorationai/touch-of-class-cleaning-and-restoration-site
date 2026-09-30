@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in George, IA | Crew Restoration & Construction"
-h1: "Water Damage Restoration in George"
-meta_description: "Water damage restoration in George, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in George, IA | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in George"
+meta_description: "Emergency water damage restoration in George, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration george"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in George? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 When snowmelt and spring rains push across Lyon County's flat terrain, George's older housing stock takes the hit first. The town sits in Iowa's northwest corner where the ground freezes deep in winter and thaws fast in March and April, a cycle that stresses foundations, shifts drain tiles, and sends water into basements that were never designed to handle that kind of hydrostatic pressure. If you're dealing with standing water, soaked drywall, or a crawl space that smells like a river bottom, Crew Restoration & Construction handles water damage restoration in George and the surrounding 51237 area.
 
 ## Why George Properties See Water Damage Issues

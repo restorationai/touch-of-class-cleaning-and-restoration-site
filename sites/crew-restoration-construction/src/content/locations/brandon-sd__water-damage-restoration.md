@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Brandon, SD | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Brandon"
-meta_description: "Water damage restoration in Brandon, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Brandon, SD | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Brandon"
+meta_description: "Emergency water damage restoration in Brandon, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration brandon"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Brandon? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Brandon's rapid growth east of Sioux Falls has brought thousands of new homes to subdivisions like Aspen Heights and the Split Rock area, and with new construction comes a plumbing and drainage reality that catches a lot of homeowners off guard. Freshly graded lots, recently poured basement floors, and supply lines installed under deadline pressure can all fail faster than you'd expect. When a pipe bursts or an appliance line gives way in a 57005 home, standing water can reach the subfloor in under an hour. Crew Restoration & Construction responds to water damage calls across Brandon with the equipment and process to stop that clock.
 
 ## Why Brandon Properties See Water Damage Issues

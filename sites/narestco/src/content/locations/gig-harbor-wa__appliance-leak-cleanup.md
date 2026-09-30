@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Gig Harbor, WA | National Restoration Construction"
-h1: "Appliance Leak Cleanup in Gig Harbor"
-meta_description: "24/7 appliance leak cleanup in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Appliance Leak Cleanup in Gig Harbor, WA | National Restoration Construction"
+h1: "24/7 Emergency Appliance Leak Cleanup in Gig Harbor"
+meta_description: "24/7 emergency appliance leak cleanup in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "appliance leak cleanup gig harbor"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Gig Harbor? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 The same marine air that makes Gig Harbor's waterfront so distinctive, that persistent salt-tinged dampness rolling in off the Narrows, also means that when an appliance leak goes undetected for even a day or two, the moisture doesn't evaporate the way it might in drier climates. It lingers. It migrates into subfloor sheathing, finds its way into vented crawl spaces, and sets up the conditions for fungal growth faster than most homeowners expect. If you're dealing with a leaking dishwasher, a washing machine flood, a refrigerator ice maker line, or a failed water heater, getting a trained crew on-site quickly isn't just convenient, in Gig Harbor's climate, it's the difference between a contained cleanup and a months-long remediation.
 
 ## Why Gig Harbor Homes Are Especially Vulnerable to Appliance Leaks

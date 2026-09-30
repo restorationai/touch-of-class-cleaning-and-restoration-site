@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Renton, WA | National Restoration Construction"
-h1: "Emergency Water Removal & Cleanup in Renton"
+title: "24/7 Emergency Water Removal & Cleanup in Renton, WA | National Restoration Construction"
+h1: "24/7 Emergency Water Removal & Cleanup in Renton"
 meta_description: "24/7 emergency water removal & cleanup in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "emergency water removal & cleanup renton"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]

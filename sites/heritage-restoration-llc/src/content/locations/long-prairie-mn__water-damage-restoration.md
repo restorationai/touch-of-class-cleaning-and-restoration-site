@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Long Prairie, MN | Heritage Restoration LLC"
-h1: "Water Damage Restoration in Long Prairie"
-meta_description: "Water damage restoration in Long Prairie, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in Long Prairie, MN | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in Long Prairie"
+meta_description: "Emergency water damage restoration in Long Prairie, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration long prairie"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Long Prairie? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Long Prairie sits in Todd County where hard Minnesota winters and spring snowmelt cycles put real pressure on homes and commercial buildings every year. When temperatures swing from below zero to above freezing in a matter of days, pipes that have been under stress all season can give way without warning, and water that finds its way into a basement or crawl space in March has nowhere to go while the ground is still frozen solid beneath it. Heritage Restoration LLC responds to water damage calls across Long Prairie and the surrounding Todd County area, bringing IICRC-certified water removal and structural drying to properties that need more than a shop vac and a few fans.
 
 ## Why Long Prairie Properties See Water Damage Issues

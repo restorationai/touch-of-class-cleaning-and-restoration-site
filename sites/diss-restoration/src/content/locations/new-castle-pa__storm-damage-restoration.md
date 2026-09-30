@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in New Castle, PA | DISS Restoration"
-h1: "Storm Damage Restoration in New Castle"
-meta_description: "24/7 storm damage restoration in New Castle, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Storm Damage Restoration in New Castle, PA | DISS Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in New Castle"
+meta_description: "24/7 emergency storm damage restoration in New Castle, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "storm damage restoration new castle"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Clayton, NC | Go Green Restoration of NC"
-h1: "Emergency Water Removal & Cleanup in Clayton"
+title: "24/7 Emergency Water Removal & Cleanup in Clayton, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Water Removal & Cleanup in Clayton"
 meta_description: "24/7 emergency water removal & cleanup in Clayton, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "emergency water removal & cleanup clayton"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]

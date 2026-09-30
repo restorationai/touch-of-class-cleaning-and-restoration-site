@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Wade, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Wade"
-meta_description: "Sewage cleanup and sanitization in Wade, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Wade, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Wade"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Wade, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization wade"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Wade? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Wade sits in a part of Forrest County where the soil shifts between sandy loam and heavier clay depending on how close you are to the creek drainages that feed into the Leaf River watershed. That soil profile matters when a sewer line backs up or a septic system overflows, because slow-draining ground means contaminated water lingers longer at the surface and wicks deeper into slab edges and crawl space fill before most homeowners even realize the scope of what they're dealing with. When raw sewage reaches your floors, walls, or yard, the clock on bacterial colonization starts immediately, and the cleanup process has to match that urgency.
 
 ## Why Wade Properties See Sewage Backup Issues

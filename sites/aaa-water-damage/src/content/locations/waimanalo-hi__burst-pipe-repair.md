@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Waimanalo, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Burst Pipe Cleanup and Repair in Waimanalo"
-meta_description: "24/7 burst pipe cleanup and repair in Waimanalo, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "Emergency Burst Pipe Cleanup and Repair in Waimanalo, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Waimanalo"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Waimanalo, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "burst pipe cleanup and repair waimanalo"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Waimanalo? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Waimanalo sits on the windward side of Oahu, where trade winds push consistent moisture inland and the soil stays saturated far longer than on the leeward coast. When a pipe bursts here, that ambient humidity means water spreads faster, evaporates slower, and begins working into wood framing and flooring within hours rather than days. A burst pipe in this climate is not a slow-developing problem you can address Monday morning. It needs to be stopped, extracted, and dried the same day it happens.
 
 ## Why Waimanalo Properties See Burst Pipe Issues

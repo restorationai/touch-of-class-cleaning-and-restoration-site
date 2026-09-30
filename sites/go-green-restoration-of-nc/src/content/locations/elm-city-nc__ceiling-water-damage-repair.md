@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Elm City, NC | Go Green Restoration of NC"
-h1: "Ceiling Water Damage Repair in Elm City"
-meta_description: "24/7 ceiling water damage repair in Elm City, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Ceiling Water Damage Repair in Elm City, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Ceiling Water Damage Repair in Elm City"
+meta_description: "24/7 emergency ceiling water damage repair in Elm City, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "ceiling water damage repair elm city"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

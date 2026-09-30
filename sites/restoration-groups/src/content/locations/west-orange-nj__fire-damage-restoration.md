@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in West Orange, NJ | The Restoration Group"
-h1: "Fire Damage Restoration in West Orange"
-meta_description: "24/7 fire damage restoration in West Orange, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Fire Damage Restoration in West Orange, NJ | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in West Orange"
+meta_description: "24/7 emergency fire damage restoration in West Orange, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "fire damage restoration west orange"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in West Orange? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and start the recovery.
+
 West Orange sits on the Watchung ridge where older housing stock, steep terrain, and a mix of architectural eras create fire damage scenarios that rarely look the same twice. A kitchen fire in a 1920s Tudor near Llewellyn Park behaves differently than a garage fire in a postwar split-level in Pleasantdale, the Tudor's plaster-and-lathe walls and original wood framing absorb smoke and char at depth, while the split-level's finished basement traps soot in HVAC ductwork that serves multiple levels simultaneously. When fire strikes a home in 07052, the clock starts immediately: smoke odor bonds to surfaces within hours, and secondary damage from firefighting water compounds the loss fast.
 
 ## Why West Orange Homes Present Unique Fire Damage Challenges

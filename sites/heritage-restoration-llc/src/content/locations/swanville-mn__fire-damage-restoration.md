@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Swanville, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Swanville"
-meta_description: "Fire damage restoration in Swanville, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Swanville, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Swanville"
+meta_description: "Emergency fire damage restoration in Swanville, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration swanville"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Swanville? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Swanville sits in Morrison County's lake-dotted landscape, where long winters, older rural housing stock, and the kind of tight-knit small-town construction that hasn't changed much in decades all shape how a house fire behaves and what it takes to recover from one. When smoke works its way into the gaps of a 1960s-era farmhouse or a wood-framed home built before modern vapor barriers were standard, the damage runs deeper than the char you can see. Heritage Restoration LLC holds IICRC FSRT (Fire and Smoke Restoration) certification and responds to fire damage calls in Swanville and the surrounding Morrison County area from our base in Little Falls.
 
 ## Why Swanville Properties See Distinct Fire Damage Challenges

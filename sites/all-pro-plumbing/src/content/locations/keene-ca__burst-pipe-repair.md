@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst and Leaking Pipe Repair in Keene, CA | All Pro Plumbing Heating and Air"
-h1: "Burst and Leaking Pipe Repair in Keene"
-meta_description: "Trusted burst and leaking pipe repair in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242."
+title: "24/7 Emergency Burst and Leaking Pipe Repair in Keene, CA | All Pro Plumbing Heating and Air"
+h1: "24/7 Emergency Burst and Leaking Pipe Repair in Keene"
+meta_description: "Trusted 24/7 emergency burst and leaking pipe repair in Keene, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242."
 primary_keyword: "burst and leaking pipe repair keene"
 secondary_keywords: ["burst pipe repair", "pipe burst in wall", "water line repair", "leaking pipe repair", "frozen pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Burst and Leaking Pipe Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Keene? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Keene sits in a narrow canyon corridor along the Tehachapi Mountains, where nighttime temperatures in winter can drop sharply even when the San Joaquin Valley floor stays mild. That temperature swing is hard on plumbing. Pipes running through exterior walls or uninsulated crawl spaces in the older ranch-style homes common to this part of Kern County can freeze, crack, and release water fast, often while residents are asleep. If you are dealing with a burst or leaking pipe in Keene right now, call (661) 863-9242 and we will get a crew moving.
 
 ## Why Keene Properties See Burst and Leaking Pipe Problems

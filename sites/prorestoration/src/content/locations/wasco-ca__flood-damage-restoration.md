@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Wasco, CA | ProRestoration Services"
-h1: "Flood Damage Restoration in Wasco"
-meta_description: "24/7 flood damage restoration in Wasco, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Flood Damage Restoration in Wasco, CA | ProRestoration Services"
+h1: "24/7 Emergency Flood Damage Restoration in Wasco"
+meta_description: "24/7 emergency flood damage restoration in Wasco, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "flood damage restoration wasco"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

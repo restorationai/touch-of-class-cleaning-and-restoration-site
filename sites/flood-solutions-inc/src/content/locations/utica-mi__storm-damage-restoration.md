@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Utica, MI | Flood Solutions inc"
-h1: "Storm Damage Restoration in Utica"
-meta_description: "Storm damage restoration in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Storm Damage Restoration in Utica, MI | Flood Solutions inc"
+h1: "Emergency Storm Damage Restoration in Utica"
+meta_description: "Emergency storm damage restoration in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "storm damage restoration utica"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "storm-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Utica? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Utica sits in the heart of Macomb County, where the flat glacial terrain and heavy clay soils mean that when a severe storm rolls through, water has nowhere fast to go. Thunderstorms that drop two or three inches of rain in an hour overwhelm storm drains, push water against foundation walls, and send debris-laden runoff across yards and into garages before most homeowners realize what's happening. If a storm has just hit your property, the clock matters more than most people expect.
 
 ## Why Utica Properties See Significant Storm Damage

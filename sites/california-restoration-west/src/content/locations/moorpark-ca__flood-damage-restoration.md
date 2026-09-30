@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Moorpark, CA | California Restoration West "
-h1: "Flood Damage Restoration in Moorpark"
-meta_description: "24/7 flood damage restoration in Moorpark, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "24/7 Emergency Flood Damage Restoration in Moorpark, CA | California Restoration West "
+h1: "24/7 Emergency Flood Damage Restoration in Moorpark"
+meta_description: "24/7 emergency flood damage restoration in Moorpark, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "flood damage restoration moorpark"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

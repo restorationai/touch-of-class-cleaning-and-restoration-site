@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Zelienople, PA | FireDEX Butler"
-h1: "Frozen Pipe Restoration in Zelienople"
-meta_description: "24/7 frozen pipe restoration in Zelienople, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Frozen Pipe Restoration in Zelienople, PA | FireDEX Butler"
+h1: "24/7 Emergency Frozen Pipe Restoration in Zelienople"
+meta_description: "24/7 emergency frozen pipe restoration in Zelienople, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "frozen pipe restoration zelienople"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Zelienople? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 When temperatures in Zelienople drop hard, and they do, especially during the stretches of single-digit cold that roll in off the Connoquenessing Creek valley in January and February, the galvanized supply lines inside the borough's older Main Street homes and storefronts don't always survive. A pipe that freezes overnight can split before you hear a drip, and by the time you notice the ceiling stain or the wet floor, you're already dealing with a water damage event, not just a plumbing repair. FireDEX Butler has been handling exactly this kind of loss since 1981, and we're available around the clock when it happens to you.
 
 ## Why Zelienople Properties Are Particularly Vulnerable to Frozen Pipe Damage

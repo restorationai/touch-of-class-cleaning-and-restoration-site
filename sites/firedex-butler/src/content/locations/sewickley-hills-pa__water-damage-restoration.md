@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Sewickley Hills, PA | FireDEX Butler"
-h1: "Water Damage Restoration in Sewickley Hills"
-meta_description: "24/7 water damage restoration in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "Emergency Water Damage Restoration in Sewickley Hills, PA | FireDEX Butler"
+h1: "24/7 Emergency Water Damage Restoration in Sewickley Hills"
+meta_description: "24/7 emergency water damage restoration in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "water damage restoration sewickley hills"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

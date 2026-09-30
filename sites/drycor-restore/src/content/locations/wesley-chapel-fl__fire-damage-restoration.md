@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Wesley Chapel, FL | DRYCOR RESTORE"
-h1: "Fire Damage Restoration in Wesley Chapel"
-meta_description: "24/7 fire damage restoration in Wesley Chapel, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "24/7 Emergency Fire Damage Restoration in Wesley Chapel, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Fire Damage Restoration in Wesley Chapel"
+meta_description: "24/7 emergency fire damage restoration in Wesley Chapel, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "fire damage restoration wesley chapel"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Wesley Chapel? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Wesley Chapel's rapid growth has brought thousands of new homes, townhomes, and mixed-use developments to Pasco County in a short span, and where construction density increases, so does fire risk. Electrical faults in recently built homes, grill fires that spread to attached garages, and kitchen fires in open-concept floor plans that allow smoke to travel fast through an entire living space are all patterns this area sees. When fire moves through your home, the clock starts immediately: smoke residue begins bonding to surfaces within hours, and the humid Florida air accelerates corrosion on metal fixtures and electronics. DRYCOR RESTORE responds 24/7 from Thonotosassa to help Wesley Chapel homeowners stop that damage from compounding.
 
 ## Why Wesley Chapel Properties Face Distinct Fire Damage Challenges

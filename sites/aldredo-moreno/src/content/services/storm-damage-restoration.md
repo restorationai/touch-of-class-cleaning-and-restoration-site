@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Storm Damage Restoration in Midland | ACS Enterprise "
-h1: "Storm Damage Restoration in Midland"
-meta_description: "Storm damage restoration in Midland and surrounding areas. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Storm Damage Restoration in Midland | ACS Enterprise "
+h1: "Emergency Storm Damage Restoration in Midland"
+meta_description: "Emergency storm damage restoration in Midland and surrounding areas. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "storm damage restoration midland"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Midland? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 A storm doesn't announce how much damage it leaves behind. The tree limb that punched through your roof at 2 a.m. is obvious. What isn't obvious is the water that followed it for the next six hours, soaking into ceiling joists, running down interior wall cavities, and pooling under flooring before you even knew the shingle layer was gone. Storm damage restoration is the work of finding all of that, stopping it from getting worse, and returning the structure to a dry, stable condition before secondary damage sets in.
 
 ## What storm damage restoration actually involves

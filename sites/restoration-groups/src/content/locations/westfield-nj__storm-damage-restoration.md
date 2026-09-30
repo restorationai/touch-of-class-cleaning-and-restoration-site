@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Westfield, NJ | The Restoration Group"
-h1: "Storm Damage Restoration in Westfield"
-meta_description: "24/7 storm damage restoration in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Storm Damage Restoration in Westfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Westfield"
+meta_description: "24/7 emergency storm damage restoration in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "storm damage restoration westfield"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Westfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 Westfield's old-growth tree canopy is one of the town's defining features, and one of its biggest storm liabilities. When a nor'easter or fast-moving summer squall tears through 07090, the mature oaks and maples lining streets near Mindowaskin Park and Tamaques Park don't just lose branches: they fall whole, punching through the slate and cedar-shake roofs that define the Victorian and Tudor homes built here between the 1890s and 1930s. Water follows within minutes, and in a town where finished basements are nearly universal, home theaters, home offices, gyms, a single storm event can escalate from a roof breach to a five-figure interior loss before the rain stops.
 
 ## Why Westfield Properties See Repeated Storm Damage

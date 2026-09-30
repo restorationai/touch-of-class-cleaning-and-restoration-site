@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Eagle Mountain, UT | Home Pride Restoration and Cleaning"
-h1: "Emergency Board-Up and Tarping in Eagle Mountain"
+title: "24/7 Emergency Board-Up and Tarping in Eagle Mountain, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Board-Up and Tarping in Eagle Mountain"
 meta_description: "24/7 emergency board-up and tarping in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "emergency board-up and tarping eagle mountain"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

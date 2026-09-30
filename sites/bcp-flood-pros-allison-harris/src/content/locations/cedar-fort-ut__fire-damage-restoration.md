@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Cedar Fort, UT | FIX Restoration"
-h1: "Fire Damage Restoration in Cedar Fort"
-meta_description: "Fire damage restoration in Cedar Fort, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in Cedar Fort, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in Cedar Fort"
+meta_description: "Emergency fire damage restoration in Cedar Fort, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration cedar fort"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Cedar Fort? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Cedar Fort sits at the edge of Utah Lake's western bench, where dry summers and the occasional fierce canyon wind can turn a small fire into a fast-moving structural event. When smoke and flame damage a home here, the aftermath is rarely straightforward: the same arid conditions that fed the fire also pull char odors deep into framing and insulation, making surface-level cleanup miss the problem entirely. FIX Restoration, based in American Fork and serving Cedar Fort since 2012, handles the full scope of fire cleanup and structural fire damage repair so homeowners can focus on what comes next.
 
 ## Why Cedar Fort Properties Face Distinct Fire Damage Challenges

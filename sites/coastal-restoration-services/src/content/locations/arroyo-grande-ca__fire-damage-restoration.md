@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Arroyo Grande, CA | Coastal Restoration Services Inc"
-h1: "Fire Damage Restoration in Arroyo Grande"
-meta_description: "Fire damage restoration in Arroyo Grande, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Fire Damage Restoration in Arroyo Grande, CA | Coastal Restoration Services Inc"
+h1: "Emergency Fire Damage Restoration in Arroyo Grande"
+meta_description: "Emergency fire damage restoration in Arroyo Grande, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "fire damage restoration arroyo grande"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Arroyo Grande? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Arroyo Grande sits in a coastal valley where dry Santa Ana wind events can push fire through a neighborhood faster than most homeowners expect. When a kitchen fire, electrical fault, or wildland ember ignites a structure here, whether it's a craftsman bungalow on the west side of town or a newer build closer to the 101 corridor, the damage rarely stops at the visible char. Smoke travels through every gap in a wall cavity, soot settles into HVAC ductwork, and the acrid odor of burned material can linger for months if the restoration process doesn't address the chemistry behind it.
 
 ## Why Arroyo Grande Properties Experience Distinct Fire Damage Patterns

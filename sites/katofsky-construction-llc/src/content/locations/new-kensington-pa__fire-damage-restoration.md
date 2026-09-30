@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in New Kensington, PA | Katofsky Construction LLC"
-h1: "Fire Damage Restoration in New Kensington"
-meta_description: "24/7 fire damage restoration in New Kensington, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "24/7 Emergency Fire Damage Restoration in New Kensington, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Fire Damage Restoration in New Kensington"
+meta_description: "24/7 emergency fire damage restoration in New Kensington, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "fire damage restoration new kensington"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in New Kensington? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 New Kensington sits in the Allegheny River valley northeast of Pittsburgh, and the older residential neighborhoods that line its hillsides carry decades of history in their walls. Many of those homes were built during the city's industrial peak, when balloon-frame construction and plaster-over-lath interiors were standard. When fire moves through a structure like that, smoke doesn't just coat surfaces, it travels vertically through open wall cavities, depositing soot and odor-causing compounds far beyond the visible burn zone. Katofsky Construction LLC responds to fire damage calls in New Kensington around the clock and brings a restoration process calibrated to what these older homes actually contain.
 
 ## Why New Kensington Properties See Distinct Fire Damage Patterns

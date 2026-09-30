@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Staten Island, NY | The Restoration Group"
-h1: "Storm Damage Restoration in Staten Island"
-meta_description: "24/7 storm damage restoration in Staten Island, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Storm Damage Restoration in Staten Island, NY | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Staten Island"
+meta_description: "24/7 emergency storm damage restoration in Staten Island, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "storm damage restoration staten island"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NY"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Staten Island? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 When a nor'easter or a late-season tropical system pushes up the Atlantic coast, Staten Island takes the hit differently than any other New York City borough. The East Shore, South Beach, Midland Beach, Oakwood Beach, still carries the memory of Hurricane Sandy's 14-foot surge in 2012, and Ida's 2021 flash flooding proved the South Shore's low-lying streets haven't outgrown their vulnerability. The Restoration Group operates out of a local crew base on the island, so when the next storm rolls through, you're not waiting for a truck to fight its way through the Goethals Bridge backup.
 
 ## Why Staten Island Properties See Repeated Storm Damage

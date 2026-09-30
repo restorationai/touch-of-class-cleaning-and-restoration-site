@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Wasco, CA | ProRestoration Services"
-h1: "Appliance Leak Cleanup in Wasco"
-meta_description: "24/7 appliance leak cleanup in Wasco, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Appliance Leak Cleanup in Wasco, CA | ProRestoration Services"
+h1: "24/7 Emergency Appliance Leak Cleanup in Wasco"
+meta_description: "24/7 emergency appliance leak cleanup in Wasco, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "appliance leak cleanup wasco"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Wasco? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A dishwasher that quietly seeps under the kickplate or a refrigerator ice maker line that gives way overnight can do surprising damage in Wasco's older housing stock, and in a town where most restoration crews are based twenty-five miles away in Bakersfield, every hour that water sits under original mid-century subfloor matters. Whether the loss is in a ranch home off the Palm Avenue corridor or a rental near Wasco High School, the window between a contained appliance leak and a full mold remediation job is shorter than most homeowners expect.
 
 ## Why Wasco Homes Are Especially Vulnerable to Appliance Leaks

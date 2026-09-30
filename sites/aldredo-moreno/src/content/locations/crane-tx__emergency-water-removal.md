@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Crane? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Crane sits in the heart of Permian Basin oil country, where the same caliche-heavy soil that makes drilling profitable also drains poorly after a hard West Texas rain. When a water line fails inside a home or a sudden storm pushes water under a door, that moisture has nowhere to go quickly, and it starts working against your walls, flooring, and framing within hours. If you are dealing with standing water or soaked materials in Crane right now, reaching ACS Enterprise at (432) 847-4704 is the fastest way to stop the damage from compounding.
 
 ## Why Crane Properties See Water Damage the Way They Do

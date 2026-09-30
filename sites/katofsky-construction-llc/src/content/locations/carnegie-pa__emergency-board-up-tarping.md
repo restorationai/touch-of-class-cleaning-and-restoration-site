@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Carnegie, PA | Katofsky Construction LLC"
-h1: "Emergency Board-Up and Tarping in Carnegie"
+title: "24/7 Emergency Board-Up and Tarping in Carnegie, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Board-Up and Tarping in Carnegie"
 meta_description: "24/7 emergency board-up and tarping in Carnegie, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "emergency board-up and tarping carnegie"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Carnegie? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Carnegie sits in a narrow valley where Chartiers Creek bends through Allegheny County, and the borough's tight grid of century-old frame houses and brick storefronts means that when a storm tears off a section of roof or a fire blows out a window at 2 a.m., the exposure to weather is immediate and the damage compounds fast. Getting a tarp over that opening or plywood across that window before the next rain band moves through is not a scheduling convenience, it is the difference between a contained loss and a gutted interior.
 
 ## Why Carnegie Properties Face Acute Board-Up and Tarping Risks

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Utica, MI | Flood & Fire Solutions"
-h1: "Sewage Cleanup and Sanitization in Utica"
-meta_description: "Sewage cleanup and sanitization in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Sewage Cleanup and Sanitization in Utica, MI | Flood & Fire Solutions"
+h1: "Emergency Sewage Cleanup and Sanitization in Utica"
+meta_description: "Emergency sewage cleanup and sanitization in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "sewage cleanup and sanitization utica"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Utica? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Utica sits in the heart of Macomb County, where aging municipal sewer infrastructure and the region's heavy clay soils create conditions that push sewage backups from a rare inconvenience into a recurring seasonal problem. When a sewer line reverses into a basement or a septic system overflows after a hard spring rain, the contamination is immediate and the clock starts ticking the moment raw sewage touches your floor. Flood Solutions Inc has been handling these calls across Macomb County since 1996, and the work in Utica carries its own specific demands.
 
 ## Why Utica Properties See Sewage Backup Issues

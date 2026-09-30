@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Helena, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Helena"
-meta_description: "Board-up and tarping in Helena, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Helena, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Helena"
+meta_description: "24/7 emergency board-up and tarping in Helena, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping helena"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Helena? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Helena sits in the Mississippi Delta lowlands where summer storms roll in fast off the river corridor, and when a tornado-spawned debris strike or a wind-driven hailstorm tears through a roof or shatters a window, the gap between the damage and the repair crew matters enormously. Exposed framing and broken glass invite secondary water intrusion within hours, and in Helena's humid subtropical climate, that moisture can begin feeding mold colonies in as little as 24 to 48 hours. Getting structural openings sealed quickly is not a precaution; it is the difference between a manageable repair and a gut renovation.
 
 ## Why Helena Properties Are Particularly Vulnerable to Storm Openings

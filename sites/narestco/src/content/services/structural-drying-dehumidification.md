@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Structural Drying and Dehumidification in Federal Way | National Restoration Construction"
-h1: "Structural Drying and Dehumidification in Federal Way"
-meta_description: "Structural drying and dehumidification in Federal Way. IICRC-certified, moisture mapping, drying to standard, licensed and insured. Call (206) 883-0333."
+title: "Emergency Structural Drying and Dehumidification in Federal Way | National Restoration Construction"
+h1: "24/7 Emergency Structural Drying and Dehumidification in Federal Way"
+meta_description: "24/7 emergency structural drying and dehumidification in Federal Way. IICRC-certified, moisture mapping, drying to standard, licensed and insured. Call (206) 883-0333."
 primary_keyword: "structural drying and dehumidification federal way"
 secondary_keywords: ["structural drying", "commercial dehumidification", "moisture mapping", "psychrometrics drying", "desiccant dehumidifier rental"]
 search_intent: "local_commercial"
@@ -16,6 +16,9 @@ service_slug: "structural-drying-dehumidification"
 service_display: "Structural Drying and Dehumidification"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Federal Way? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 The water is gone, the carpet is out, and the floor looks dry. That is the moment most moisture problems are actually born. Water that has already wicked into subfloor panels, framing, and the bottom few inches of drywall does not leave because the visible water was extracted. It sits inside the structure, feeding mold and warping materials from the inside, until a documented drying process pulls it back out. Structural drying and dehumidification is that process, and in the wet marine climate around Federal Way it is the difference between a repair that holds and one that comes back.
 
 ## What structural drying and dehumidification actually involves

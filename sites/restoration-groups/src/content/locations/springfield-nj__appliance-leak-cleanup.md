@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Springfield, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in Springfield"
-meta_description: "24/7 appliance leak cleanup in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Appliance Leak Cleanup in Springfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Springfield"
+meta_description: "24/7 emergency appliance leak cleanup in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "appliance leak cleanup springfield"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"

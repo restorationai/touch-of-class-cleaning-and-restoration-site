@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in American Fork, UT | Home Pride Restoration and Cleaning"
-h1: "Water Damage Restoration in American Fork"
-meta_description: "24/7 water damage restoration in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Water Damage Restoration in American Fork, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Water Damage Restoration in American Fork"
+meta_description: "24/7 emergency water damage restoration in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "water damage restoration american fork"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in American Fork? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 American Fork sits in a narrow corridor between Utah Lake's fluctuating shoreline and the steep drainage channels that funnel snowmelt off Mount Timpanogos every spring. That geography means a burst pipe, a failed sump pump, or a backed-up floor drain can escalate faster here than in drier parts of Utah County, saturated soil has nowhere to push excess water, and it often finds its way into crawl spaces and lower-level living areas before a homeowner notices anything is wrong. Home Pride Restoration and Cleaning has been responding to exactly these situations since 1997, and our IICRC-certified crews understand what water does to this specific landscape.
 
 ## Why American Fork Properties See Water Damage Issues

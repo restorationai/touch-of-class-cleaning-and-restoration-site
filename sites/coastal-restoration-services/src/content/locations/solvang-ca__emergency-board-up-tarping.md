@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Solvang, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Solvang"
-meta_description: "Board-up and tarping in Solvang, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Solvang, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Solvang"
+meta_description: "Emergency board-up and tarping in Solvang, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping solvang"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Solvang? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Solvang's Danish-village architecture, stucco facades, steep half-timbered gables, and clay tile rooflines, looks charming until a windstorm peels back a section of roofing or a kitchen fire punches out a window. When that happens, the clock starts immediately: Santa Ynez Valley winds can push rain through an unprotected opening in minutes, and an unsecured structure invites secondary damage that often costs more to fix than the original event. Coastal Restoration Services Inc responds to board-up and tarping calls across Solvang, working quickly to seal the building envelope before the next weather system rolls in off the Pacific.
 
 ## Why Solvang Properties Are Particularly Vulnerable to Open-Structure Damage

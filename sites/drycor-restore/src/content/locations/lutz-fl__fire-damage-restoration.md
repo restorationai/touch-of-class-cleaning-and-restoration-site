@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Lutz, FL | DRYCOR RESTORE"
-h1: "Fire Damage Restoration in Lutz"
-meta_description: "24/7 fire damage restoration in Lutz, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "24/7 Emergency Fire Damage Restoration in Lutz, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Fire Damage Restoration in Lutz"
+meta_description: "24/7 emergency fire damage restoration in Lutz, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "fire damage restoration lutz"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Lutz? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Lutz sits in a stretch of Hillsborough County where older ranch-style homes on generous lots mix with newer planned communities, and where the long, dry spring months can leave landscaping and exterior wood trim parched enough to ignite quickly when a grill flares up or an electrical fault sparks in an attic. When a fire moves through that kind of structure, whether it's a 1970s block-and-stucco home or a newer frame build, the damage rarely stops at the char line. Smoke travels into every cavity, soot settles on surfaces two rooms away from the flames, and the water left behind by suppression soaks into flooring and insulation before the fire trucks have cleared the street. DRYCOR RESTORE responds 24/7 from Thonotosassa, and the call to (813) 829-1091 starts the process immediately.
 
 ## Why Lutz Properties Face Particular Fire Damage Challenges

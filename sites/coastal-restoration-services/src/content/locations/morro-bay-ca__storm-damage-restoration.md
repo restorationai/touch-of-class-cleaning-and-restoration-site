@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Morro Bay, CA | Coastal Restoration Services Inc"
-h1: "Storm Damage Restoration in Morro Bay"
-meta_description: "Storm damage restoration in Morro Bay, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Storm Damage Restoration in Morro Bay, CA | Coastal Restoration Services Inc"
+h1: "Emergency Storm Damage Restoration in Morro Bay"
+meta_description: "Emergency storm damage restoration in Morro Bay, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "storm damage restoration morro bay"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Morro Bay? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Morro Bay sits at the edge of the Pacific where marine weather systems don't just pass through, they stall, intensify, and unload. When a winter atmospheric river or a late-season Pacific storm makes landfall along this stretch of San Luis Obispo County coastline, the combination of saturated soils, salt-laden wind, and aging coastal building stock can turn a rough night into a serious structural event. Coastal Restoration Services Inc responds to storm damage calls throughout Morro Bay, bringing the equipment and experience needed to stabilize properties before secondary damage compounds the loss.
 
 ## Why Morro Bay Properties Are Vulnerable to Storm Damage

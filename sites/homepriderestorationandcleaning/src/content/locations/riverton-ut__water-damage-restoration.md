@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Riverton, UT | Home Pride Restoration and Cleaning"
-h1: "Water Damage Restoration in Riverton"
-meta_description: "24/7 water damage restoration in Riverton, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Water Damage Restoration in Riverton, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Water Damage Restoration in Riverton"
+meta_description: "24/7 emergency water damage restoration in Riverton, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "water damage restoration riverton"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Riverton? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Riverton sits in the southwestern corner of the Salt Lake Valley, where the Jordan River corridor and the area's high water table create conditions that can turn a slow leak or a burst pipe into a serious structural problem faster than most homeowners expect. When snowmelt from the Oquirrh Mountains runs heavy in late winter and early spring, the ground along the valley floor saturates quickly, and that pressure finds its way into crawl spaces, basement slabs, and foundation walls in neighborhoods throughout the 84065 ZIP code. Home Pride Restoration and Cleaning has been responding to exactly these situations since 1997, and our crews can reach most of Riverton from our Saratoga Springs headquarters in under 30 minutes.
 
 ## Why Riverton Properties Are Vulnerable to Water Damage

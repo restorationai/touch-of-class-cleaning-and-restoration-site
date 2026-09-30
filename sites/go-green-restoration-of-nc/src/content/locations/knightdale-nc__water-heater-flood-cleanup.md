@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Heater Flood Cleanup in Knightdale, NC | Go Green Restoration of NC"
-h1: "Water Heater Flood Cleanup in Knightdale"
-meta_description: "24/7 water heater flood cleanup in Knightdale, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Water Heater Flood Cleanup in Knightdale, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Water Heater Flood Cleanup in Knightdale"
+meta_description: "24/7 emergency water heater flood cleanup in Knightdale, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "water heater flood cleanup knightdale"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"

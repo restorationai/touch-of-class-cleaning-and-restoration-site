@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Unattended Death Cleanup in Redmond, WA | National Restoration Construction"
-h1: "Unattended Death Cleanup in Redmond"
-meta_description: "24/7 unattended death cleanup in Redmond, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Unattended Death Cleanup in Redmond, WA | National Restoration Construction"
+h1: "24/7 Emergency Unattended Death Cleanup in Redmond"
+meta_description: "24/7 emergency unattended death cleanup in Redmond, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "unattended death cleanup redmond"
 secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased estate cleanup", "odor removal after death", "discreet death cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Unattended Death Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Redmond? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Redmond's tight-knit neighborhoods and high-occupancy housing stock, from the dense condominiums near Overlake to the single-family homes tucked along the Bear Creek corridor, mean that an unattended death can go undiscovered longer than anyone expects, particularly in units where residents live independently and quietly. When a family member, property manager, or neighbor finally makes the call, the priority shifts immediately to discretion, safety, and a clean handoff. National Restoration Construction has handled these situations across the Eastside since 2004, and we understand that how this work gets done matters as much as that it gets done.
 
 ## Why Redmond's Housing Stock and Climate Shape This Work

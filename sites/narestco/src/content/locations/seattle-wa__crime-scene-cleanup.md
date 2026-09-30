@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Crime Scene Cleanup in Seattle, WA | National Restoration Construction"
-h1: "Crime Scene Cleanup in Seattle"
-meta_description: "24/7 crime scene cleanup in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Crime Scene Cleanup in Seattle, WA | National Restoration Construction"
+h1: "24/7 Emergency Crime Scene Cleanup in Seattle"
+meta_description: "24/7 emergency crime scene cleanup in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "crime scene cleanup seattle"
 secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cleanup", "homicide cleanup", "suicide scene cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Crime Scene Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Seattle? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something unthinkable happens inside a Seattle home or building, the last thing a family or property manager should have to navigate alone is what comes next. Seattle's older housing stock, the craftsman bungalows in Ballard, the Tudor revivals on Queen Anne Hill, the pre-war apartment buildings along Capitol Hill's 15th Avenue, presents specific challenges that generic cleanup crews aren't prepared for. Porous plaster walls, original hardwood subfloors, and decades of settled dust mean that biological contamination can migrate into materials far beyond the visible surface. National Restoration Construction's technicians have worked in these buildings since 2004 and understand exactly what that means for a thorough, discreet remediation.
 
 ## Why Seattle's Building Stock Complicates Crime Scene Remediation

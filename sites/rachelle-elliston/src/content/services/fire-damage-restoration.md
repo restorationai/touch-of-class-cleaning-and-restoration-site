@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in North Las Vegas | Desert Valley Contracting Inc "
-h1: "Fire Damage Restoration in North Las Vegas"
-meta_description: "24/7 fire damage restoration in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+title: "24/7 Emergency Fire Damage Restoration in North Las Vegas | Desert Valley Contracting Inc "
+h1: "24/7 Emergency Fire Damage Restoration in North Las Vegas"
+meta_description: "24/7 emergency fire damage restoration in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "fire damage restoration north las vegas"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in North Las Vegas? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Smoke does not stop at the room where the fire burned. Within hours of a structure fire, soot particles travel through HVAC ducts, settle into wall cavities, and bond to cool surfaces throughout the home. The smell that greets you three days later is not a leftover odor, it is active off-gassing from char residue and synthetic materials that burned. Fire damage restoration is the work of reversing that chemistry before it becomes permanent, and the window to do it well is shorter than most homeowners expect.
 
 ## What Fire Damage Restoration actually involves

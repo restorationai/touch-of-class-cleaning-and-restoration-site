@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board Up in San Jose, CA | Dry1 Out Restoration and Construction"
-h1: "Emergency Board Up in San Jose"
+title: "24/7 Emergency Board Up in San Jose, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Board Up in San Jose"
 meta_description: "24/7 emergency board up in San Jose, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "emergency board up san jose"
 secondary_keywords: []

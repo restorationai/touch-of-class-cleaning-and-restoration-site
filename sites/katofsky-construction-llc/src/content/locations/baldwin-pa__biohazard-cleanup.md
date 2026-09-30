@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Baldwin, PA | Katofsky Construction LLC"
-h1: "Biohazard Cleanup in Baldwin"
-meta_description: "24/7 biohazard cleanup in Baldwin, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "24/7 Emergency Biohazard Cleanup in Baldwin, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Biohazard Cleanup in Baldwin"
+meta_description: "24/7 emergency biohazard cleanup in Baldwin, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "biohazard cleanup baldwin"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

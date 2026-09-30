@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Skokie, IL | Dry Bros Water & Fire Restoration"
-h1: "Smoke Damage Restoration in Skokie"
-meta_description: "Smoke damage restoration in Skokie, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Smoke Damage Restoration in Skokie, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in Skokie"
+meta_description: "24/7 emergency smoke damage restoration in Skokie, IL. Insurance billing accepted. Call us now."
 primary_keyword: "smoke damage restoration skokie"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Skokie? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Skokie's dense residential blocks, many of them brick two-flats and ranch homes built between the 1940s and 1960s, hold onto smoke in ways that catch homeowners off guard. A kitchen fire that looks contained to one room can push soot through the forced-air ductwork and deposit a thin, oily film on every surface in the house within hours. If that's where you are right now, the clock matters: smoke residue becomes chemically harder to remove the longer it bonds to paint, plaster, and porous brick. Call Dry Bros Water & Fire Restoration now and let's get a crew moving.
 
 ## Why Skokie's Housing Stock Makes Smoke Damage Harder to Clear

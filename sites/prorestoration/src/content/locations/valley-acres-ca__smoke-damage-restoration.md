@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Valley Acres, CA | ProRestoration Services"
-h1: "Smoke Damage Restoration in Valley Acres"
-meta_description: "24/7 smoke damage restoration in Valley Acres, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Smoke Damage Restoration in Valley Acres, CA | ProRestoration Services"
+h1: "24/7 Emergency Smoke Damage Restoration in Valley Acres"
+meta_description: "24/7 emergency smoke damage restoration in Valley Acres, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "smoke damage restoration valley acres"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

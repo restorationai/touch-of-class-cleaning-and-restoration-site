@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Oceano, CA | Coastal Restoration Services Inc"
-h1: "Smoke Damage Restoration in Oceano"
-meta_description: "Smoke damage restoration in Oceano, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Smoke Damage Restoration in Oceano, CA | Coastal Restoration Services Inc"
+h1: "Emergency Smoke Damage Restoration in Oceano"
+meta_description: "Emergency smoke damage restoration in Oceano, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "smoke damage restoration oceano"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

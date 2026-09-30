@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Basement Flood Cleanup in Las Vegas | PuroClean of East Las Vegas"
-h1: "Basement Flood Cleanup in Las Vegas"
-meta_description: "Basement flood cleanup in Las Vegas and surrounding areas. Insurance billing accepted. Call +17025513040."
+title: "Emergency Basement Flood Cleanup in Las Vegas | PuroClean of East Las Vegas"
+h1: "Emergency Basement Flood Cleanup in Las Vegas"
+meta_description: "Emergency basement flood cleanup in Las Vegas and surrounding areas. Insurance billing accepted. Call +17025513040."
 primary_keyword: "basement flood cleanup las vegas"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -17,6 +17,9 @@ service_slug: "basement-flood-cleanup"
 service_display: "Basement Flood Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Las Vegas? Call now for emergency service.** Our crew responds fast to pump out the water and start drying.
+
 Standing water in a basement does not behave the way a leak in a finished living room does. It pools against foundation walls, seeps under slab edges, and saturates concrete block cores that never fully dry on their own. Within 24 to 48 hours, drywall wicking begins, wood framing swells, and the conditions that allow mold to colonize are already in place, often before the floor even looks wet to the naked eye. Basement flood cleanup is a distinct discipline from general water damage restoration, and the difference between a complete recovery and a recurring mold problem usually comes down to what happens in the first few hours.
 
 ## What basement flood cleanup actually involves

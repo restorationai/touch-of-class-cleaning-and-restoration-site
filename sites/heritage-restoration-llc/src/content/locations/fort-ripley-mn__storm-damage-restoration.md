@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Fort Ripley, MN | Heritage Restoration LLC"
-h1: "Storm Damage Restoration in Fort Ripley"
-meta_description: "Storm damage restoration in Fort Ripley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Storm Damage Restoration in Fort Ripley, MN | Heritage Restoration LLC"
+h1: "Emergency Storm Damage Restoration in Fort Ripley"
+meta_description: "Emergency storm damage restoration in Fort Ripley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "storm damage restoration fort ripley"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Fort Ripley? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Fort Ripley sits in Morrison County where the Mississippi River corridor funnels cold-season storm systems straight through central Minnesota, and the surrounding mix of river-bottom lowlands and forested upland means a single severe weather event can leave behind downed trees, compromised rooflines, and water intrusion all at once. Heritage Restoration LLC responds to storm damage calls throughout the Fort Ripley area from its base in Little Falls, bringing IICRC-certified crews and the equipment needed to stabilize a property before secondary damage compounds the original loss.
 
 ## Why Fort Ripley Properties Are Vulnerable to Severe Weather Damage

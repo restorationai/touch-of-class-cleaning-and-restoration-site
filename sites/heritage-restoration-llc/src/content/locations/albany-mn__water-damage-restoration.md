@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Albany, MN | Heritage Restoration LLC"
-h1: "Water Damage Restoration in Albany"
-meta_description: "Water damage restoration in Albany, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in Albany, MN | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in Albany"
+meta_description: "Emergency water damage restoration in Albany, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration albany"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Albany? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Albany sits in Stearns County where the flat glacial lake plain and heavy clay soils give snowmelt and spring rain nowhere fast to go. When a pipe bursts in February or a sump pump fails during an April thaw, water finds its way into basements, wall cavities, and subfloor assemblies quickly, and the clay beneath the slab slows drainage long after the visible pooling is gone. Heritage Restoration LLC responds to water damage calls in Albany with IICRC-certified technicians trained in water removal, structural drying, and the specific moisture behavior that central Minnesota's freeze-thaw cycles create.
 
 ## Why Albany Properties See Water Damage Issues

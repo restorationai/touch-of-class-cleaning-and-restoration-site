@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Albany, TX | Air Care Restoration"
-h1: "Fire Damage Restoration in Albany"
-meta_description: "24/7 fire damage restoration in Albany, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Fire Damage Restoration in Albany, TX | Air Care Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Albany"
+meta_description: "24/7 emergency fire damage restoration in Albany, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "fire damage restoration albany"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Albany? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Albany sits in the rolling mesquite country of Shackelford County, where dry West Texas winds can push a grass fire to a structure in minutes and where the same arid climate that desiccates vegetation also pulls smoke deep into wood framing, insulation, and caliche-block foundations before the last ember cools. When a fire touches a home or commercial building here, whether it started in a field, a kitchen, or an electrical panel, the damage compounds fast, and the window for effective restoration narrows with every hour smoke residue continues to bond to surfaces. Air Care Restoration responds 24/7 from Abilene and holds IICRC FSRT (Fire & Smoke Restoration) and OCT (Odor Control) certifications, meaning the crew arriving on your property is trained specifically in post-fire chemistry, not just general cleanup.
 
 ## Why Albany Properties Face Particular Fire Risks

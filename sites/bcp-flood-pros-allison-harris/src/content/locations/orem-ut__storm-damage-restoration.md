@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Orem, UT | FIX Restoration"
-h1: "Storm Damage Restoration in Orem"
-meta_description: "Storm damage restoration in Orem, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Storm Damage Restoration in Orem, UT | FIX Restoration"
+h1: "Emergency Storm Damage Restoration in Orem"
+meta_description: "Emergency storm damage restoration in Orem, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "storm damage restoration orem"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Orem? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Orem sits at the foot of the Wasatch Range, and that geography shapes how storms arrive and what they leave behind. Spring systems that funnel down Utah Valley can drop hail the size of marbles on rooftops along State Street one afternoon and dump two inches of rain on the benchlands east of I-15 the next morning, sometimes within the same storm cell. When that happens, the damage is rarely just cosmetic. Torn shingles, wind-driven debris, and overwhelmed gutters can push water into wall cavities and attic assemblies before a homeowner realizes the storm has passed. FIX Restoration, based in American Fork, responds to storm losses across Orem and the broader Utah County area.
 
 ## Why Orem Properties Are Vulnerable to Storm Damage

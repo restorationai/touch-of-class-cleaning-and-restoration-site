@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Highland Park, NJ | The Restoration Group"
-h1: "Water Damage Restoration in Highland Park"
-meta_description: "24/7 water damage restoration in Highland Park, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Water Damage Restoration in Highland Park, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Damage Restoration in Highland Park"
+meta_description: "24/7 emergency water damage restoration in Highland Park, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "water damage restoration highland park"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Highland Park? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start drying your property.
+
 When the Raritan River climbed over its banks during Hurricane Ida in 2021, low-lying streets near Donaldson Park and River Road filled faster than sump pumps could respond, and many of Highland Park's finished basements, tucked beneath 1920s and 1930s colonials, took on water before residents even knew a flood warning had been issued. Water damage in Highland Park carries a specific character: old housing stock, a river that has proven it can overwhelm the borough's southern edge, and a dense mix of owner-occupied homes and student rentals that each demand a different response. The Restoration Group is available 24/7 and dispatches from Kenilworth, putting crews on-site in Highland Park quickly when a pipe fails or a storm pushes water where it doesn't belong.
 
 ## Why Highland Park Properties Are Vulnerable to Water Damage

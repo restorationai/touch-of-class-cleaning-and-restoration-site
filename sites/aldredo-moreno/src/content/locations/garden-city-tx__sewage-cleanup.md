@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Garden City, TX | ACS Enterprise "
-h1: "Sewage Cleanup and Sanitization in Garden City"
-meta_description: "Sewage cleanup and sanitization in Garden City, TX. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Sewage Cleanup and Sanitization in Garden City, TX | ACS Enterprise "
+h1: "Emergency Sewage Cleanup and Sanitization in Garden City"
+meta_description: "Emergency sewage cleanup and sanitization in Garden City, TX. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "sewage cleanup and sanitization garden city"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Garden City? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Garden City sits in Glasscock County, deep in the Permian Basin, where the same caliche-heavy soil that makes drilling country famous also creates drainage conditions that can turn a simple septic overflow into a serious property problem fast. When a sewer line backs up or a septic system fails here, raw sewage doesn't always sheet away from the structure the way it might in looser soil. It pools, it seeps into slab edges, and it saturates whatever is directly in its path. ACS Enterprise responds to sewage backup calls in Garden City from its Midland base, bringing commercial-grade extraction, disinfection, and drying equipment to properties across this part of West Texas.
 
 ## Why Garden City Properties See Sewage Backup Issues

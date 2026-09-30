@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Garfield, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in Garfield"
-meta_description: "24/7 appliance leak cleanup in Garfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Appliance Leak Cleanup in Garfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Garfield"
+meta_description: "24/7 emergency appliance leak cleanup in Garfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "appliance leak cleanup garfield"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Garfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 In Garfield's dense grid of early-1900s two- and three-family frame homes, a slow appliance leak rarely stays slow for long. A refrigerator ice maker line weeping behind a cabinet, a washing machine hose that finally gives out on the second floor, a water heater quietly pooling on a finished basement slab, in houses built when plumbing tolerances were generous and subfloor materials were old-growth fir, water finds paths that surprise even experienced owners. If you're dealing with an appliance leak right now in Garfield, NJ (07026), call The Restoration Group at (855) 650-7422. Crews are available 24/7.
 
 ## Why Garfield Homes See Appliance Leaks Differently

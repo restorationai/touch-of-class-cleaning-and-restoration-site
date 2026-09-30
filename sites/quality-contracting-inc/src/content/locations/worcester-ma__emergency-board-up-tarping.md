@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Worcester, MA | Quality Contracting, Inc."
-h1: "Board-Up and Tarping in Worcester"
-meta_description: "Board-up and tarping in Worcester, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Board-Up and Tarping in Worcester, MA | Quality Contracting, Inc."
+h1: "Emergency Board-Up and Tarping in Worcester"
+meta_description: "Emergency board-up and tarping in Worcester, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "emergency board-up and tarping worcester"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Worcester? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a nor'easter strips shingles off a triple-decker on Grafton Hill or a kitchen fire blows out windows in a Canal District mill conversion, the window between damage and disaster is measured in hours, not days. Worcester's climate swings from hard January freezes to summer thunderstorms that can push water through an unprotected opening faster than most homeowners expect. Quality Contracting, Inc. boards up and tarps damaged properties across the city so that what started as one bad event doesn't become a gutted building.
 
 ## Why Worcester Properties See Elevated Board-Up and Tarping Needs

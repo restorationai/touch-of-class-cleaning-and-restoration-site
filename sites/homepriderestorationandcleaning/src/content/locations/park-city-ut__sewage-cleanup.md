@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Park City, UT | Home Pride Restoration and Cleaning"
-h1: "Sewage Cleanup and Sanitization in Park City"
-meta_description: "24/7 sewage cleanup and sanitization in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "Emergency Sewage Cleanup and Sanitization in Park City, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Park City"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "sewage cleanup and sanitization park city"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Park City? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Park City sits at roughly 7,000 feet, and that elevation does something most homeowners don't think about until it's too late: the freeze-thaw cycle here is more aggressive than almost anywhere else along the Wasatch Front. When a sewer line cracks under a frost-heaved yard or a septic system backs up after a heavy spring snowmelt, the raw sewage doesn't just pool, it wicks into subfloor assemblies fast, and at altitude, the low humidity that usually helps with drying can actually mask how deeply contaminated material has migrated. Home Pride Restoration and Cleaning has been handling exactly this kind of emergency since 1997, and we know how quickly a manageable backup becomes a Category 3 biohazard situation in Park City's mountain climate.
 
 ## Why Park City Properties Are Prone to Sewage Backups

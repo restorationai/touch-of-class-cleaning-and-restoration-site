@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Roselle, NJ | The Restoration Group"
-h1: "Burst Pipe Cleanup and Repair in Roselle"
-meta_description: "24/7 burst pipe cleanup and repair in Roselle, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Roselle, NJ | The Restoration Group"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Roselle"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Roselle, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "burst pipe cleanup and repair roselle"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Roselle? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 Roselle's housing stock is a ticking clock for burst pipes. The town's dense grid of Victorians, postwar capes, and colonials, many built between 1910 and 1955, still runs on original galvanized steel supply lines that corrode from the inside out, narrowing to a fraction of their original diameter before they finally split. When one of those lines lets go in January, or when a finished basement ceiling in East Roselle suddenly starts raining, the clock starts immediately: standing water soaks subfloor framing, saturates insulation, and begins feeding mold within 24 to 48 hours. The Restoration Group responds around the clock from Kenilworth, reaching Roselle addresses in 07203 to stop the damage before it compounds.
 
 ## Why Roselle Properties See Burst Pipe Problems

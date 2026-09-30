@@ -1,7 +1,7 @@
 ---
 archetype: "service-landing"
-title: "Emergency Board-Up and Tarping in Pittsburgh | Katofsky Construction LLC"
-h1: "Emergency Board-Up and Tarping in Pittsburgh"
+title: "24/7 Emergency Board-Up and Tarping in Pittsburgh | Katofsky Construction LLC"
+h1: "24/7 Emergency Board-Up and Tarping in Pittsburgh"
 meta_description: "24/7 emergency board-up and tarping in Pittsburgh and surrounding areas. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "emergency board-up and tarping pittsburgh"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

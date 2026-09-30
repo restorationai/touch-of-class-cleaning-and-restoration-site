@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Sartell, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Sartell"
-meta_description: "Fire damage restoration in Sartell, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Sartell, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Sartell"
+meta_description: "Emergency fire damage restoration in Sartell, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration sartell"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Sartell? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Sartell's winters are long and cold, and heating systems work hard from October through April. When a furnace malfunction, chimney fire, or kitchen blaze breaks out in a Sartell home, the damage rarely stops at the burn zone. Smoke travels fast through forced-air ductwork, soot settles into every corner, and subzero temperatures outside can complicate the ventilation and drying work that follows. Heritage Restoration LLC holds IICRC FSRT certification for fire and smoke restoration, and our team works through the full scope of post-fire recovery, from initial stabilization to final repairs.
 
 ## Why Sartell Properties See Distinct Fire Damage Patterns

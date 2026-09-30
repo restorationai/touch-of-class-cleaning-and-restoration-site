@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Le Mars, IA | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Le Mars"
-meta_description: "Board-up and tarping in Le Mars, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Le Mars, IA | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Le Mars"
+meta_description: "Emergency board-up and tarping in Le Mars, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping le mars"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Le Mars? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 A late-spring hailstorm rolling in off the Missouri River basin can shatter windows and strip shingles across Le Mars in under an hour, and when that happens, the gap between the storm passing and a crew arriving with plywood and poly tarps is the gap between a manageable repair and a gutted interior. Crew Restoration & Construction responds to those calls for properties throughout Plymouth County, boarding up breached openings and securing roofs before rain, wind, or opportunistic entry turns a bad day into a catastrophic loss.
 
 ## Why Le Mars Properties Face Elevated Board-Up and Tarping Risks

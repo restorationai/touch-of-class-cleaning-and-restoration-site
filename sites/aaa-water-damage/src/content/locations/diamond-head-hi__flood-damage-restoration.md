@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Diamond Head, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in Diamond Head"
-meta_description: "24/7 flood damage restoration in Diamond Head, HI. Call (808) 349-3407."
+title: "24/7 Emergency Flood Damage Restoration in Diamond Head, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in Diamond Head"
+meta_description: "24/7 emergency flood damage restoration in Diamond Head, HI. Call (808) 349-3407."
 primary_keyword: "flood damage restoration diamond head"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Diamond Head? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 When a storm surge rolls in off the Pacific or a corroded riser lets go inside one of the Gold Coast's vintage mid-century high-rises, the damage clock starts immediately. Flood water in Diamond Head doesn't behave the way it does in a newer suburb, salt-laden air has been attacking cast-iron drain stacks and copper supply lines in these oceanfront buildings for decades, and what looks like a single soaked unit on the seventh floor is often the visible end of a failure that started two stories above. If you're dealing with standing water right now, call (808) 349-3407 and we'll get the process moving.
 
 ## Why Diamond Head Properties See Flood Damage Differently

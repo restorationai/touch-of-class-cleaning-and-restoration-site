@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Plumbing in Arvin, CA | ProRestoration Services"
-h1: "Emergency Plumbing in Arvin"
+title: "24/7 Emergency Plumbing in Arvin, CA | ProRestoration Services"
+h1: "24/7 Emergency Plumbing in Arvin"
 meta_description: "24/7 emergency plumbing in Arvin, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "emergency plumbing arvin"
 secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber", "emergency plumbing repair", "24/7 plumbing"]

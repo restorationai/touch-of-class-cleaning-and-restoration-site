@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Clayton, NC | Go Green Restoration of NC"
-h1: "Fire Damage Restoration in Clayton"
-meta_description: "24/7 fire damage restoration in Clayton, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Fire Damage Restoration in Clayton, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Fire Damage Restoration in Clayton"
+meta_description: "24/7 emergency fire damage restoration in Clayton, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "fire damage restoration clayton"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Evanston, IL | Dry Bros Water & Fire Restoration"
-h1: "Board-Up and Tarping in Evanston"
-meta_description: "Board-up and tarping in Evanston, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Board-Up and Tarping in Evanston, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Board-Up and Tarping in Evanston"
+meta_description: "24/7 emergency board-up and tarping in Evanston, IL. Insurance billing accepted. Call us now."
 primary_keyword: "emergency board-up and tarping evanston"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"

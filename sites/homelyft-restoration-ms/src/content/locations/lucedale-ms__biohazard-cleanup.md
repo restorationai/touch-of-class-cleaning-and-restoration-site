@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Lucedale, MS | HomeLyft Restoration MS"
-h1: "Biohazard Cleanup in Lucedale"
-meta_description: "Biohazard cleanup in Lucedale, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Biohazard Cleanup in Lucedale, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Biohazard Cleanup in Lucedale"
+meta_description: "24/7 emergency biohazard cleanup in Lucedale, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "biohazard cleanup lucedale"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Lucedale? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something traumatic happens at a home or property in Lucedale, the last thing a family should have to manage is the cleanup. George County's rural character means properties here are often spread across wooded acreage, down long driveways, and far from the nearest neighbor, which can delay discovery and compound the urgency of professional remediation. HomeLyft Restoration MS responds to biohazard situations throughout the Lucedale area with discretion, proper containment, and full regulatory compliance, so affected families can focus on what matters most.
 
 ## Why Lucedale Properties Present Unique Biohazard Challenges

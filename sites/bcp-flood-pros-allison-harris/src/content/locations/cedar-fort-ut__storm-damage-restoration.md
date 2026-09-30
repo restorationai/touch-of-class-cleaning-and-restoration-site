@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Cedar Fort, UT | FIX Restoration"
-h1: "Storm Damage Restoration in Cedar Fort"
-meta_description: "Storm damage restoration in Cedar Fort, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Storm Damage Restoration in Cedar Fort, UT | FIX Restoration"
+h1: "Emergency Storm Damage Restoration in Cedar Fort"
+meta_description: "Emergency storm damage restoration in Cedar Fort, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "storm damage restoration cedar fort"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Cedar Fort? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Cedar Fort sits at the base of the Oquirrh Mountains in Utah County, where late-spring thunderstorms roll in fast off the peaks and winter inversions give way to punishing wind events that can strip roofing, topple mature trees, and push water into places it was never meant to go. When a storm cell moves through this part of the valley, the damage it leaves behind is not always obvious from the street, water works its way under lifted shingles, behind fascia boards, and into wall cavities before a homeowner realizes the interior is already wet. FIX Restoration has been handling storm damage in this corner of Utah since 2012, and the team knows what to look for when the weather clears.
 
 ## Why Cedar Fort Properties See Distinct Storm Damage Patterns

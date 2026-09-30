@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in Bear Valley Springs, CA | ProRestoration Services"
-h1: "Emergency Board-Up and Tarping in Bear Valley Springs"
+h1: "24/7 Emergency Board-Up and Tarping in Bear Valley Springs"
 meta_description: "24/7 emergency board-up and tarping in Bear Valley Springs, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "emergency board-up and tarping bear valley springs"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

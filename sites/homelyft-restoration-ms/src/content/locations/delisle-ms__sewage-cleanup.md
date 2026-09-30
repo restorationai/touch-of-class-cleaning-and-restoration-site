@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in DeLisle, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in DeLisle"
-meta_description: "Sewage cleanup and sanitization in DeLisle, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "Emergency Sewage Cleanup and Sanitization in DeLisle, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in DeLisle"
+meta_description: "24/7 emergency sewage cleanup and sanitization in DeLisle, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization delisle"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in DeLisle? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 DeLisle sits in Harrison County where the Gulf Coast's humidity rarely lets up, and the area's sandy, low-lying soils mean drainage can fail fast when a sewer line backs up or a septic system overflows. When raw sewage surfaces inside a home, soaking subfloor, wicking into wall cavities, or pooling beneath a crawl space, the window to prevent secondary contamination is short. HomeLyft Restoration MS responds to sewage backup calls across DeLisle and the surrounding Pass Christian corridor, bringing certified equipment and a documented sanitization protocol to every job.
 
 ## Why DeLisle Properties Experience Sewage Backup Problems

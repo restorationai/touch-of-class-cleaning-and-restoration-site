@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Rochester Hills, MI | Flood Solutions inc"
-h1: "Basement Flooding Cleanup in Rochester Hills"
-meta_description: "Basement flooding cleanup in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Basement Flooding Cleanup in Rochester Hills, MI | Flood Solutions inc"
+h1: "Emergency Basement Flooding Cleanup in Rochester Hills"
+meta_description: "Emergency basement flooding cleanup in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "basement flooding cleanup rochester hills"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "basement-flooding-cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Rochester Hills? Call now for emergency service.** Our crew responds fast to pump out the water and start drying.
+
 Rochester Hills sits on a glacially deposited clay-heavy soil that drains poorly when spring snowmelt and heavy rain arrive at the same time. That combination drives water toward foundations faster than most sump pumps are sized to handle, and when a basement floods, the clock starts immediately. Flood Solutions Inc has been responding to basement flooding cleanup calls across Oakland County since 1996, and the conditions here in Rochester Hills require a different approach than a simple wet-vac and a few fans.
 
 ## Why Rochester Hills Properties See Basement Flooding

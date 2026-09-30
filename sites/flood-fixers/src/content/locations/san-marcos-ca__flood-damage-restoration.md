@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in San Marcos, CA | Flood Fixers"
-h1: "Flood Damage Restoration in San Marcos"
-meta_description: "24/7 flood damage restoration in San Marcos, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "24/7 Emergency Flood Damage Restoration in San Marcos, CA | Flood Fixers"
+h1: "24/7 Emergency Flood Damage Restoration in San Marcos"
+meta_description: "24/7 emergency flood damage restoration in San Marcos, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "flood damage restoration san marcos"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in San Marcos? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 San Marcos sits in a coastal inland valley where the Santa Ana winds dry everything out for months, and then a single atmospheric river event can drop three inches of rain in an afternoon on clay-heavy soil that has nowhere to send it. When that happens, water finds the lowest point fast: garage slabs, finished basements in newer Twin Oaks Valley Road developments, and the crawl spaces tucked under older homes near Richmar and Palomar College. If you're dealing with standing water or soaked flooring right now, call Flood Fixers at (855) 204-1124, the longer water sits, the deeper the damage goes.
 
 ## Why San Marcos Properties Are Vulnerable to Flood Damage

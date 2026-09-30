@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Kirkland, WA | National Restoration Construction"
-h1: "Basement Flooding Cleanup in Kirkland"
-meta_description: "24/7 basement flooding cleanup in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Basement Flooding Cleanup in Kirkland, WA | National Restoration Construction"
+h1: "24/7 Emergency Basement Flooding Cleanup in Kirkland"
+meta_description: "24/7 emergency basement flooding cleanup in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "basement flooding cleanup kirkland"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Kirkland? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Standing water in a basement moves fast, soaking into drywall, wicking up framing, and starting the clock on mold growth within 24 to 48 hours. If you're dealing with a flooded basement in Kirkland right now, the most important thing you can do is get extraction equipment on-site today. National Restoration Construction has been responding to basement water damage across the Eastside since 2004, and our crews are familiar with what Kirkland homes throw at them, from finished rec rooms in Juanita to unfinished crawl-space hybrids near Totem Lake.
 
 ## Why Kirkland Properties See Basement Flooding Emergencies

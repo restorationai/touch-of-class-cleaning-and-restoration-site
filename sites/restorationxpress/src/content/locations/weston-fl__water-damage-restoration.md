@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Weston, FL | RestorationXpress "
-h1: "Water Damage Restoration in Weston"
-meta_description: "Water damage restoration in Weston, FL. Insurance billing accepted. Call (954) 932-5420."
+title: "Emergency Water Damage Restoration in Weston, FL | RestorationXpress "
+h1: "Emergency Water Damage Restoration in Weston"
+meta_description: "Emergency water damage restoration in Weston, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "water damage restoration weston"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Weston? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Weston's afternoon thunderstorms can drop three inches of rain in under an hour, and when that water finds a gap in a tile roof, a cracked stem wall, or an aging AC condensate line, it moves fast through the open floor plans and volume ceilings that define the master-planned communities here. By the time you notice the discoloration on your drywall or the soft spot under your laminate flooring, water has likely been migrating through wall cavities and subfloor material for hours. RestorationXpress responds to water damage calls across Weston, from Weston Hills to Bonaventure, and understands what it takes to dry a home properly in South Florida's humidity before secondary damage sets in.
 
 ## Why Weston Properties Are Particularly Vulnerable to Water Damage

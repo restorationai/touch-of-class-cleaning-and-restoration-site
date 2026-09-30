@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Cicero, IL | Dry Bros Water & Fire Restoration"
-h1: "Sewage Cleanup and Sanitization in Cicero"
-meta_description: "Sewage cleanup and sanitization in Cicero, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Cicero, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Cicero"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Cicero, IL. Insurance billing accepted. Call us now."
 primary_keyword: "sewage cleanup and sanitization cicero"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Cicero? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Cicero's aging municipal sewer infrastructure, much of it laid during the mid-20th century building boom that shaped the town's dense grid of brick two-flats and bungalows, creates conditions where a single heavy rain event can push raw sewage back through floor drains and basement toilets without warning. When that happens, the clock starts immediately: sewage carries bacteria, viruses, and pathogens that begin colonizing porous surfaces within hours. Dry Bros Water & Fire Restoration responds to sewage backup calls in Cicero with the equipment and protocols to contain the contamination, remove the waste, and sanitize the space down to the structural level.
 
 ## Why Cicero Properties Are Prone to Sewage Backups

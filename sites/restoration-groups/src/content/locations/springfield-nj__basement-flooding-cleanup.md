@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Springfield, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in Springfield"
-meta_description: "24/7 basement flooding cleanup in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Basement Flooding Cleanup in Springfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Springfield"
+meta_description: "24/7 emergency basement flooding cleanup in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "basement flooding cleanup springfield"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Springfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 When the Rahway River's west branch swells off the Watchung ridges during a nor'easter or a slow-moving storm system like Ida, Springfield's low-lying streets can go from damp to dangerous in under an hour. Homes along the Mountain Avenue corridor and the older colonials tucked behind Jonathan Dayton High School have finished basements that turn into wading pools, and every hour that standing water sits against a concrete block foundation or under a glued-down subfloor is an hour closer to structural damage and mold colonization. The Restoration Group dispatches from Kenilworth around the clock to handle exactly this kind of loss, and we know Springfield's particular flooding patterns well.
 
 ## Why Springfield Properties Flood the Way They Do

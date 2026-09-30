@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Edgerton, MN | Crew Restoration & Construction"
-h1: "Sewage Cleanup and Sanitization in Edgerton"
-meta_description: "Sewage cleanup and sanitization in Edgerton, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Sewage Cleanup and Sanitization in Edgerton, MN | Crew Restoration & Construction"
+h1: "Emergency Sewage Cleanup and Sanitization in Edgerton"
+meta_description: "Emergency sewage cleanup and sanitization in Edgerton, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "sewage cleanup and sanitization edgerton"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Edgerton? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows in Edgerton, the mess arrives fast, and in a community where many homes sit on older infrastructure tied to Chanarambie Creek's drainage basin, the contamination risk doesn't wait for a convenient hour. Raw sewage carries Category 3 "black water" pathogens that begin soaking into subfloor framing, wall cavities, and concrete within minutes. Crew Restoration & Construction responds to sewage backup calls across Pipestone County, bringing the extraction equipment and sanitization chemistry needed to stop the spread before it becomes a structural and health crisis.
 
 ## Why Edgerton Properties Face Elevated Sewage Backup Risk

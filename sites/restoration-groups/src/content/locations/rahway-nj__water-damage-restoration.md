@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Rahway, NJ | The Restoration Group"
-h1: "Water Damage Restoration in Rahway"
-meta_description: "24/7 water damage restoration in Rahway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Water Damage Restoration in Rahway, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Damage Restoration in Rahway"
+meta_description: "24/7 emergency water damage restoration in Rahway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "water damage restoration rahway"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Rahway? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start drying your property.
+
 The Rahway River has a long memory. Residents near Rahway River Park and the low-lying streets of Downtown Rahway still talk about the flooding that came with Ida in 2021, water pushing through basement windows, saturating finished floors, and wicking up into wall cavities before anyone had a chance to react. Whether you're dealing with a river-driven flood event, a burst supply line in a century-old Victorian off Main Street, or a failed sump pump in a postwar cape in Leesville, standing water inside a home starts causing structural damage within the first hour. The Restoration Group operates 24/7 out of Kenilworth, a short drive from Rahway, and we're on the ground fast when it matters.
 
 ## Why Rahway Properties See Water Damage So Often

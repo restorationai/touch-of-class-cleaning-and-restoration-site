@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Mililani Town, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in Mililani Town"
-meta_description: "24/7 flood damage restoration in Mililani Town, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "24/7 Emergency Flood Damage Restoration in Mililani Town, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in Mililani Town"
+meta_description: "24/7 emergency flood damage restoration in Mililani Town, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "flood damage restoration mililani town"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Mililani Town? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Mililani Town sits in the middle of Oahu's central plateau, where the Ko'olau and Waianae ranges funnel rainfall toward the island's interior. When a heavy kona storm or a broken irrigation line sends water through a slab-on-grade home, it does not drain the way it would on a sloped lot closer to the coast. It spreads laterally under flooring, wicks into drywall from the bottom up, and can sit undetected behind baseboards for days before the smell gives it away. If you are dealing with flood damage in Mililani Town right now, call AAA Water Damage Restoration & Carpet Care at (808) 349-3407. Crews are available around the clock.
 
 ## Why Mililani Town Properties See Flood Damage Differently

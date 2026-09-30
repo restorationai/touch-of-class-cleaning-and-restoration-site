@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Auburn, WA | Frontline Fire & Flood"
-h1: "Smoke Damage Restoration in Auburn"
-meta_description: "24/7 smoke damage restoration in Auburn, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Smoke Damage Restoration in Auburn, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Smoke Damage Restoration in Auburn"
+meta_description: "24/7 emergency smoke damage restoration in Auburn, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "smoke damage restoration auburn"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

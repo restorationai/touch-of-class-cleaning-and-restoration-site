@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Cedar Hills, UT | FIX Restoration"
-h1: "Fire Damage Restoration in Cedar Hills"
-meta_description: "Fire damage restoration in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in Cedar Hills, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in Cedar Hills"
+meta_description: "Emergency fire damage restoration in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration cedar hills"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Cedar Hills? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Cedar Hills sits at the base of the Wasatch Front, where dry summers and wildfire-prone terrain to the east mean fire risk is a year-round reality, not just a winter concern. When a house fire moves through a Cedar Hills home, the damage rarely stops at char marks. Smoke travels through HVAC systems, soot settles into porous surfaces, and the chemical residue from burning synthetic materials keeps working long after flames are out. FIX Restoration has been responding to fire losses across Utah County since 2012, and the team operates out of American Fork, putting Cedar Hills well within reach.
 
 ## Why Cedar Hills Properties Face Distinct Fire Damage Challenges

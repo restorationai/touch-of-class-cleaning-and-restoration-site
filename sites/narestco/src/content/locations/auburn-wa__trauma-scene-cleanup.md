@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Trauma Scene Cleanup in Auburn, WA | National Restoration Construction"
-h1: "Trauma Scene Cleanup in Auburn"
-meta_description: "24/7 trauma scene cleanup in Auburn, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Trauma Scene Cleanup in Auburn, WA | National Restoration Construction"
+h1: "24/7 Emergency Trauma Scene Cleanup in Auburn"
+meta_description: "24/7 emergency trauma scene cleanup in Auburn, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "trauma scene cleanup auburn"
 secondary_keywords: ["trauma cleanup services", "trauma scene cleaning", "accident scene cleanup", "crime and trauma decontamination", "emergency trauma cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Trauma Scene Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Auburn? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Auburn sits at an unusual crossroads, the valley floor along the White River corridor, older working-class neighborhoods in the flats, and the 1990s subdivisions that climbed Lea Hill and West Hill when South King County started filling in fast. When something traumatic happens inside a home or commercial property here, the call that follows is one of the hardest a family or property manager will ever make. National Restoration Construction handles that call with discretion, IICRC-certified technicians, and a process built around protecting both the people involved and the structure itself, so you don't have to figure out the next step alone.
 
 ## Why Auburn's Housing Stock Shapes Trauma Cleanup Work

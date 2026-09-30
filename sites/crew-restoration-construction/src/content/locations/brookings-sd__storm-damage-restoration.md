@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Brookings, SD | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Brookings"
-meta_description: "Storm damage restoration in Brookings, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Brookings, SD | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Brookings"
+meta_description: "Emergency storm damage restoration in Brookings, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration brookings"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Brookings? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 When a severe thunderstorm or late-season blizzard rolls across Brookings County, the damage it leaves behind can feel overwhelming before the wind even stops. South Dakota's position in the heart of the Great Plains means Brookings sits squarely in a corridor where spring supercells, straight-line winds, and early-October snowstorms all compete for the title of most destructive. Whether a storm has peeled shingles off a rental near South Dakota State University or dropped a cottonwood across a fence line in the Pheasant Ridge neighborhood, the window for preventing secondary damage, rot, mold, structural shifting, is measured in hours, not days.
 
 ## Why Brookings Properties Take a Hard Hit from Severe Weather

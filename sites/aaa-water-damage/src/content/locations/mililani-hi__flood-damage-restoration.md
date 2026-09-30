@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Mililani, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in Mililani"
-meta_description: "24/7 flood damage restoration in Mililani, HI. Call (808) 349-3407."
+title: "24/7 Emergency Flood Damage Restoration in Mililani, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in Mililani"
+meta_description: "24/7 emergency flood damage restoration in Mililani, HI. Call (808) 349-3407."
 primary_keyword: "flood damage restoration mililani"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Mililani? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 When a supply line finally gives out inside a 1970s Mililani Town home, the water doesn't just pool on the floor, it wicks into the original slab, saturates decades-old subfloor, and starts climbing the drywall before most homeowners even realize something is wrong. Central Oahu's cooler, wetter upland climate means interior humidity in the 96789 ZIP code is already elevated, which compresses the window between a flood event and the conditions that allow secondary damage to take hold. If you're dealing with standing water or soaked materials right now, call (808) 349-3407, we respond around the clock.
 
 ## Why Mililani Properties See Flood Damage Differently

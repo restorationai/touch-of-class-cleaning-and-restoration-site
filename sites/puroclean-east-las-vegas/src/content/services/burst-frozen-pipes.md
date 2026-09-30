@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Burst & Frozen Pipes in Las Vegas | PuroClean of East Las Vegas"
-h1: "Burst & Frozen Pipes in Las Vegas"
-meta_description: "Burst & frozen pipes in Las Vegas and surrounding areas. Insurance billing accepted. Call +17025513040."
+title: "Emergency Burst & Frozen Pipes in Las Vegas | PuroClean of East Las Vegas"
+h1: "Emergency Burst & Frozen Pipes in Las Vegas"
+meta_description: "Emergency burst & frozen pipes in Las Vegas and surrounding areas. Insurance billing accepted. Call +17025513040."
 primary_keyword: "burst & frozen pipes las vegas"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -17,6 +17,9 @@ service_slug: "burst-frozen-pipes"
 service_display: "Burst & Frozen Pipes"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Las Vegas? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 A pipe that bursts at 2 a.m. can push dozens of gallons into your walls and subfloor before the water even reaches the hallway. In Las Vegas, that scenario plays out more often than most residents expect, a single hard overnight freeze sends water expanding through copper or CPVC fittings that have never been properly insulated, and by morning the damage is already hidden inside the wall cavity. The clock matters here: the longer saturated framing and drywall sit wet, the closer you get to a secondary mold problem on top of the original loss.
 
 ## What burst and frozen pipes actually involve

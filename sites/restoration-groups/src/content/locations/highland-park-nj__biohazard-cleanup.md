@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Highland Park, NJ | The Restoration Group"
-h1: "Biohazard Cleanup in Highland Park"
-meta_description: "24/7 biohazard cleanup in Highland Park, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Biohazard Cleanup in Highland Park, NJ | The Restoration Group"
+h1: "24/7 Emergency Biohazard Cleanup in Highland Park"
+meta_description: "24/7 emergency biohazard cleanup in Highland Park, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "biohazard cleanup highland park"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Highland Park? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to handle the cleanup with discretion and care.
+
 Highland Park's dense mix of pre-war colonials, bungalows, and two-family rentals, many of them converted or subdivided over the decades, means that when something goes wrong inside a home, the situation can be complicated before anyone makes a call. Biohazard incidents in these older buildings often involve finished basements, shared entryways, or multi-unit layouts where discretion and careful containment matter as much as the cleanup itself. The Restoration Group handles biohazard remediation in Highland Park with a clinical approach: no unnecessary exposure, no unnecessary attention, and a clear process from first call to final clearance.
 
 ## Why Highland Park's Housing Stock Shapes Biohazard Response

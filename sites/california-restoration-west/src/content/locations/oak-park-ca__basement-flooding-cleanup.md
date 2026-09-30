@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Oak Park, CA | California Restoration West "
-h1: "Basement Flooding Cleanup in Oak Park"
-meta_description: "24/7 basement flooding cleanup in Oak Park, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "24/7 Emergency Basement Flooding Cleanup in Oak Park, CA | California Restoration West "
+h1: "24/7 Emergency Basement Flooding Cleanup in Oak Park"
+meta_description: "24/7 emergency basement flooding cleanup in Oak Park, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "basement flooding cleanup oak park"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"

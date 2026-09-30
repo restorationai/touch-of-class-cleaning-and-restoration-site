@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in McKinney, TX | Reign Restoration"
-h1: "Water Damage Restoration in McKinney"
-meta_description: "24/7 water damage restoration in McKinney, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Water Damage Restoration in McKinney, TX | Reign Restoration"
+h1: "24/7 Emergency Water Damage Restoration in McKinney"
+meta_description: "24/7 emergency water damage restoration in McKinney, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "water damage restoration mckinney"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in McKinney? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 McKinney's split personality, century-old pier-and-beam bungalows clustered around the Old Collin County Courthouse square on one side of US 75, and sprawling master-planned slab communities like Stonebridge Ranch and Trinity Falls on the other, means water damage here rarely looks the same twice. Whether it's a cast-iron drain line finally giving out under a 1910 Folk Victorian off Louisiana Street or a slab leak migrating silently beneath engineered hardwood in Craig Ranch, standing water inside a McKinney home can escalate from a nuisance to a structural problem in less than 48 hours. Reign Restoration responds around the clock and carries IICRC WRT certification, so the crew arriving at your door knows exactly what they're dealing with before a single piece of equipment comes off the truck.
 
 ## Why McKinney Properties See Water Damage Differently

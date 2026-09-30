@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Ocean Springs, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Ocean Springs"
-meta_description: "Sewage cleanup and sanitization in Ocean Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "Emergency Sewage Cleanup and Sanitization in Ocean Springs | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Ocean Springs"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Ocean Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization ocean springs"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Ocean Springs? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Ocean Springs sits in a coastal stretch of Jackson County where the water table runs shallow, the soil stays saturated for days after a Gulf storm, and older sewer laterals were laid decades before modern materials standards. When a sewer line backs up or a septic system overflows here, the contamination doesn't stay put, it wicks into crawl spaces, soaks into pier-and-beam subfloors, and migrates toward adjacent rooms faster than most homeowners expect. HomeLyft Restoration MS responds to sewage backup and raw sewage removal calls across Ocean Springs, bringing IICRC-certified technicians and EPA Lead-Safe practices to a problem that demands more than a mop and bleach.
 
 ## Why Ocean Springs Properties See Sewage Backup Issues

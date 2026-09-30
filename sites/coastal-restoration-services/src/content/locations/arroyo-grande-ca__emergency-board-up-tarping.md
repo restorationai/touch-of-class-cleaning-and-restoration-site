@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Arroyo Grande, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Arroyo Grande"
-meta_description: "Board-up and tarping in Arroyo Grande, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Arroyo Grande, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Arroyo Grande"
+meta_description: "Emergency board-up and tarping in Arroyo Grande, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping arroyo grande"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Arroyo Grande? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Arroyo Grande sits in a coastal valley where marine layer mornings, dry Santa Ana wind events, and the occasional winter storm can leave a home exposed in ways that demand immediate action. When a fire scorches a wall, a windstorm peels back roofing, or a break-in shatters a ground-floor window, every hour the structure stays open accelerates the damage, moisture seeps into framing, ash embeds deeper into surfaces, and opportunistic entry becomes a real liability. Coastal Restoration Services Inc responds to those situations throughout Arroyo Grande and the surrounding South County communities, securing properties quickly so the recovery process can actually begin.
 
 ## Why Arroyo Grande Properties Face Distinct Board-Up and Tarping Needs

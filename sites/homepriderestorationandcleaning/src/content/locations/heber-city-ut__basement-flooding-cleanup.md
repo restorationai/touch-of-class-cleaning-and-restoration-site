@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Heber City, UT | Home Pride Restoration and Cleaning"
-h1: "Basement Flooding Cleanup in Heber City"
-meta_description: "24/7 basement flooding cleanup in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Basement Flooding Cleanup in Heber City, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Basement Flooding Cleanup in Heber City"
+meta_description: "24/7 emergency basement flooding cleanup in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "basement flooding cleanup heber city"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Heber City? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Heber Valley sits at roughly 5,600 feet elevation, and that altitude comes with a freeze-thaw cycle that quietly punishes foundation walls every spring. When snowmelt from the Wasatch Back runs faster than the ground can absorb it, and it often does in late March and April, water finds the path of least resistance straight into lower-level living spaces. If your basement is holding water right now, the clock matters: mold can begin colonizing wet framing within 24 to 48 hours, and standing water under a subfloor amplifies that timeline considerably.
 
 ## Why Heber City Basements Flood More Than Homeowners Expect

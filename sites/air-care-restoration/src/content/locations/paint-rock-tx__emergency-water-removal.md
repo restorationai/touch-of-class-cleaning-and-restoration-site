@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Paint Rock, TX | Air Care Restoration"
-h1: "Emergency Water Removal & Cleanup in Paint Rock"
+title: "24/7 Emergency Water Removal & Cleanup in Paint Rock, TX | Air Care Restoration"
+h1: "24/7 Emergency Water Removal & Cleanup in Paint Rock"
 meta_description: "24/7 emergency water removal and cleanup in Paint Rock, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "emergency water removal paint rock"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Paint Rock? We answer 24/7.** Call now and our crew heads out to extract the water and start drying.
+
 Paint Rock sits in the heart of Concho County, where the Concho River's proximity and the region's clay-heavy soils create conditions that can turn a slow leak or a sudden pipe failure into a serious structural problem faster than most homeowners expect. When water gets into a home here, whether from a plumbing failure, a storm surge off the river, or a roof breach during one of West Texas's intense thunderstorm seasons, the dense caliche and clay beneath the foundation slows drainage and keeps moisture trapped against slabs and footings long after the surface looks dry.
 
 ## Why Paint Rock Properties See Water Damage Differently

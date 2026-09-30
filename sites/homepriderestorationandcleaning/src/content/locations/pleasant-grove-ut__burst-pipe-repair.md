@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Pleasant Grove, UT | Home Pride Restoration and Cleaning"
-h1: "Burst Pipe Cleanup and Repair in Pleasant Grove"
-meta_description: "24/7 burst pipe cleanup and repair in Pleasant Grove, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "Emergency Burst Pipe Cleanup and Repair in Pleasant Grove | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Pleasant Grove"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Pleasant Grove, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "burst pipe cleanup and repair pleasant grove"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Pleasant Grove? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Pleasant Grove sits at roughly 4,800 feet elevation along the Wasatch Front, where January nights routinely drop into the single digits and temperature swings of 40°F in a single day are common in late fall and early spring. That freeze-thaw cycle is hard on supply lines, especially in the crawl spaces and uninsulated garage walls common in the area's older ranch-style homes near Grove Creek and along 100 North. When a pipe lets go at 2 a.m. in that kind of cold, water moves fast: it can saturate subfloor sheathing, wick into wall cavities, and reach drywall paper, the food source mold needs, within 24 to 48 hours. Call (801) 995-2437 the moment you find it.
 
 ## Why Pleasant Grove Homes See More Burst Pipes Than You'd Expect

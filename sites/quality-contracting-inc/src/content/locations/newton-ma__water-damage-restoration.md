@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Newton, MA | Quality Contracting, Inc."
-h1: "Water Damage Restoration in Newton"
-meta_description: "Water damage restoration in Newton, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Water Damage Restoration in Newton, MA | Quality Contracting, Inc."
+h1: "Emergency Water Damage Restoration in Newton"
+meta_description: "Emergency water damage restoration in Newton, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "water damage restoration newton"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Newton? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Newton's housing stock tells the story the moment you walk a basement: fieldstone foundations from the 1890s, balloon-frame walls that run floor to rafters without fire stops, cast-iron drain stacks that have been patched more than once. When a pipe lets go or a nor'easter pushes water through a compromised sill, that history matters. Water doesn't behave the same way in a 1910 Victorian as it does in new construction, and the drying plan has to account for it.
 
 ## Why Newton Properties See Water Damage Differently

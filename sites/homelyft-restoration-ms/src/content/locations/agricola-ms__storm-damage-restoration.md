@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Agricola, MS | HomeLyft Restoration MS"
-h1: "Storm Damage Restoration in Agricola"
-meta_description: "Storm damage restoration in Agricola, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Storm Damage Restoration in Agricola, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Storm Damage Restoration in Agricola"
+meta_description: "24/7 emergency storm damage restoration in Agricola, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "storm damage restoration agricola"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Agricola? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Storm season in southern Mississippi hits differently than it does farther inland. Agricola sits in George County, where the combination of Gulf-fed moisture, dense pine canopy, and red-clay soils creates a specific kind of storm aftermath: downed timber that doesn't just damage roofs but drives roots under slabs, saturated ground that stays wet for days after the rain stops, and wind-driven rain that finds every gap in older wood-frame construction. When a squall line or a remnant tropical system rolls through, the damage compounds fast, and the window to prevent secondary mold growth is measured in hours, not days.
 
 ## Why Agricola Properties See Elevated Storm Damage

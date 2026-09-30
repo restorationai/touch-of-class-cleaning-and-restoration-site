@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Plumbing in Santa Ana, CA | RT Olson Plumbing, Heating and Air Conditioning"
-h1: "Emergency Plumbing in Santa Ana"
+title: "24/7 Emergency Plumbing in Santa Ana, CA | RT Olson Plumbing, Heating and Air Conditioning"
+h1: "24/7 Emergency Plumbing in Santa Ana"
 meta_description: "Trusted emergency plumbing in Santa Ana, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596."
 primary_keyword: "emergency plumbing santa ana"
 secondary_keywords: ["emergency plumber", "24 hour plumber", "after hours plumber", "plumber near me now", "same day plumbing repair"]
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Plumbing"
 rendered: true
 ---
+<!-- emergency-open -->
+**Plumbing emergency in Santa Ana? We answer 24/7.** Call now and our crew heads out to stop the leak and fix the problem.
+
 Santa Ana sits in the heart of Orange County, where aging residential blocks mix with dense commercial corridors and the region's Mediterranean climate swings between long dry spells and sudden winter rain events that can overwhelm older drainage systems overnight. When a pipe lets go at midnight or a water heater floods a utility closet before dawn, the damage compounds fast, and in a city where many homes were built decades before modern plumbing codes, the underlying infrastructure often has more surprises waiting behind the walls. RT Olson Plumbing, Heating and Air Conditioning dispatches around the clock, every day of the year, to handle exactly those moments.
 
 ## Why Santa Ana Properties See Emergency Plumbing Issues

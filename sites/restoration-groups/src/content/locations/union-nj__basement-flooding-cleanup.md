@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Union, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in Union"
-meta_description: "24/7 basement flooding cleanup in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Basement Flooding Cleanup in Union, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Union"
+meta_description: "24/7 emergency basement flooding cleanup in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "basement flooding cleanup union"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Union? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 When the Elizabeth River tributaries overflow during a hard summer storm, basements in low-lying pockets off Morris Avenue and through Vauxhall can take on water faster than a sump pump can cycle. Union Township's dense postwar housing stock, capes, split-levels, and colonials built between the 1940s and 1960s, means original cast-iron drains and galvanized supply lines are aging on schedule, and nearly every one of those homes has a finished or semi-finished basement that turns a plumbing failure into a real loss. The Restoration Group, based in neighboring Kenilworth, responds around the clock to basement flooding cleanup calls across Union (07083, 07088) and starts water removal the same hour crews arrive.
 
 ## Why Union Properties See Basement Flooding More Than You'd Expect

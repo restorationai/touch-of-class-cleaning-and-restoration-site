@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Roselle, NJ | The Restoration Group"
-h1: "Emergency Water Removal & Cleanup in Roselle"
+title: "24/7 Emergency Water Removal & Cleanup in Roselle, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Removal & Cleanup in Roselle"
 meta_description: "24/7 emergency water removal and cleanup in Roselle, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "emergency water removal roselle"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Roselle? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to extract the water and start drying.
+
 The stretch of Roselle between Warinanco Park and the Chestnut Street corridor sits on some of Union County's oldest residential blocks, tight lots, finished basements, and supply lines that were already middle-aged when the Elizabeth River pushed sewer backups into homes during Ida in 2021. When standing water appears in a 07203 basement at midnight, the clock starts immediately: mold colonization can begin within 24 to 48 hours, and in a house with original galvanized pipes and plaster-over-lath walls, moisture hides in places a surface reading won't catch. The Restoration Group responds 24/7 to emergency water removal and cleanup calls across Roselle, working to stop the spread before it becomes a structural or air-quality problem.
 
 ## Why Roselle Properties See Water Damage Differently

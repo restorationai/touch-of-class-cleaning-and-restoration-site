@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Kingsley, IA | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Kingsley"
-meta_description: "Biohazard cleanup in Kingsley, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Kingsley, IA | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Kingsley"
+meta_description: "Emergency biohazard cleanup in Kingsley, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup kingsley"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Kingsley? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Kingsley is a tight-knit Plymouth County farm community tucked into the Loess Hills of western Iowa, where neighbors know each other by name and word travels fast. When a biohazard situation occurs, whether in a family home near Kingsley City Park, a rental property on the south side of town, or an older farmstead on the rural edges of the 51028 ZIP code, the last thing a family needs is a cleanup crew that treats the job like a routine service call. Crew Restoration & Construction approaches every biohazard cleanup with strict discretion, clinical professionalism, and genuine respect for the people involved.
 
 ## Why Kingsley Properties Present Unique Biohazard Considerations

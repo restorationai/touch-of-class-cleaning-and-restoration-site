@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Royalton, MN | Heritage Restoration LLC"
-h1: "Water Damage Restoration in Royalton"
-meta_description: "Water damage restoration in Royalton, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in Royalton, MN | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in Royalton"
+meta_description: "Emergency water damage restoration in Royalton, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration royalton"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Royalton? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Royalton sits in Morrison County where the Mississippi River corridor and central Minnesota's freeze-thaw cycles create conditions that push water into homes in ways that don't always announce themselves loudly. A slow seep behind a basement wall after a hard spring thaw, a supply line that cracks during a January cold snap, a sump pump that loses power during a summer storm, by the time the damage is visible, it's already been working on your structure for hours. Heritage Restoration LLC responds to water losses throughout Royalton and the surrounding area, bringing IICRC-certified water damage restoration and structural drying to properties that need more than a shop-vac and a fan.
 
 ## Why Royalton Properties See Water Damage Issues

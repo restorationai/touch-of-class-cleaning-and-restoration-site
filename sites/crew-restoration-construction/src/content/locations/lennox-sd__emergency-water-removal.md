@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Lennox? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Lennox sits on the flat Lincoln County prairie where the ground freezes hard every winter and thaws fast in spring, and that freeze-thaw cycle puts real stress on the older supply lines and basement walls that run through homes near Downtown Lennox and out toward the Lennox City Park area. When a pipe lets go or a sump pump fails during a wet South Dakota spring, water moves quickly across slab floors and into wall cavities before most homeowners realize the scope of what they're dealing with. Crew Restoration & Construction responds to those calls from our Sioux Falls base, bringing IICRC-certified technicians and industrial drying equipment directly to 57039.
 
 ## Why Lennox Properties See Water Damage

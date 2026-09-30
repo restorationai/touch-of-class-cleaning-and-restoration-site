@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Gig Harbor, WA | National Restoration Construction"
-h1: "Smoke Damage Restoration in Gig Harbor"
-meta_description: "24/7 smoke damage restoration in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Smoke Damage Restoration in Gig Harbor, WA | National Restoration Construction"
+h1: "24/7 Emergency Smoke Damage Restoration in Gig Harbor"
+meta_description: "24/7 emergency smoke damage restoration in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "smoke damage restoration gig harbor"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Gig Harbor? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Smoke from a house fire doesn't stop when the flames do. In Gig Harbor, where salt-laden marine air rolls off the harbor and settles into every surface, smoke residue bonds with moisture and penetrates deeper into walls, ceilings, and the vented crawl spaces common under the older fishing-era cottages in Harborview and Millville. That combination, acidic soot plus persistent maritime humidity, accelerates corrosion on metal fixtures, stains porous surfaces faster than in drier inland climates, and makes odor removal significantly harder without the right equipment and timeline. National Restoration Construction has handled post-fire smoke cleanup across the South Sound since 2004, and we know this peninsula's building stock.
 
 ## Why Gig Harbor Homes Are Especially Vulnerable to Smoke Damage

@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Fort Lee, NJ | The Restoration Group"
-h1: "Emergency Board-Up and Tarping in Fort Lee"
+title: "24/7 Emergency Board-Up and Tarping in Fort Lee, NJ | The Restoration Group"
+h1: "24/7 Emergency Board-Up and Tarping in Fort Lee"
 meta_description: "24/7 emergency board-up and tarping in Fort Lee, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "emergency board-up and tarping fort lee"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Avila Beach, CA | Coastal Restoration Services Inc"
-h1: "Storm Damage Restoration in Avila Beach"
-meta_description: "Storm damage restoration in Avila Beach, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Storm Damage Restoration in Avila Beach, CA | Coastal Restoration Services Inc"
+h1: "Emergency Storm Damage Restoration in Avila Beach"
+meta_description: "Emergency storm damage restoration in Avila Beach, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "storm damage restoration avila beach"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Avila Beach? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Avila Beach sits at the edge of the Pacific where storm systems rolling in off San Luis Obispo Bay don't just bring rain, they bring wind-driven salt spray, saturated bluffs, and the kind of sustained moisture that works its way under roofing, behind siding, and into crawl spaces before the clouds even clear. When a severe weather event hits this stretch of the Central Coast, the damage pattern looks different from what you'd see inland, and the restoration work has to account for that.
 
 ## Why Avila Beach Properties See Distinctive Storm Damage

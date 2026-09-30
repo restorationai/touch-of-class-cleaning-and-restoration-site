@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Maywood, IL | Dry Bros Water & Fire Restoration"
-h1: "Burst Pipe Cleanup and Repair in Maywood"
-meta_description: "24/7 burst pipe cleanup and repair in Maywood, IL. Insurance billing accepted. Call (877) 379-2767."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Maywood, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Maywood"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Maywood, IL. Insurance billing accepted. Call (877) 379-2767."
 primary_keyword: "burst pipe cleanup and repair maywood"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

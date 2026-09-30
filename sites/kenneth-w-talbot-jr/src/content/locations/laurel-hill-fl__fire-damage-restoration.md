@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Laurel Hill, FL | Veterans Remediation & Restoration "
-h1: "Fire Damage Restoration in Laurel Hill"
-meta_description: "24/7 fire damage restoration in Laurel Hill, FL. Insurance billing accepted. Call (337) 344-1248."
+title: "24/7 Emergency Fire Damage Restoration in Laurel Hill, FL | Veterans Remediation & Restoration "
+h1: "24/7 Emergency Fire Damage Restoration in Laurel Hill"
+meta_description: "24/7 emergency fire damage restoration in Laurel Hill, FL. Insurance billing accepted. Call (337) 344-1248."
 primary_keyword: "fire damage restoration laurel hill"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

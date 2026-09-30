@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Terrell, TX | Reign Restoration"
-h1: "Fire Damage Restoration in Terrell"
-meta_description: "Fire damage restoration in Terrell, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Fire Damage Restoration in Terrell, TX | Reign Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Terrell"
+meta_description: "24/7 emergency fire damage restoration in Terrell, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "fire damage restoration terrell"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Terrell? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 When fire tears through a Terrell home, the damage rarely stops at the charred walls. East Texas's humid summers mean that smoke residue, already acidic and corrosive, begins bonding to surfaces within hours, while the moisture introduced by firefighting hoses can trigger secondary problems in the same week. Reign Restoration responds to fire losses across Terrell and the surrounding Kaufman County area, holding an IICRC FSRT (Fire & Smoke Restoration Technician) certification that directly governs how we approach every stage of cleanup and structural recovery.
 
 ## Why Terrell Properties Face Distinct Fire Damage Challenges

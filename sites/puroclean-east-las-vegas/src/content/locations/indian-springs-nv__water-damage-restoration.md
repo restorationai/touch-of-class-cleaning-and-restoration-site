@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Indian Springs, NV | PuroClean of East Las Vegas"
-h1: "Water Damage Restoration in Indian Springs"
-meta_description: "Water damage restoration in Indian Springs, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Water Damage Restoration in Indian Springs, NV | PuroClean of East Las Vegas"
+h1: "Emergency Water Damage Restoration in Indian Springs"
+meta_description: "Emergency water damage restoration in Indian Springs, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "water damage restoration indian springs"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

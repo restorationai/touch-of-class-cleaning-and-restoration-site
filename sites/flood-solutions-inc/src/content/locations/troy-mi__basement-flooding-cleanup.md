@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Troy, MI | Flood Solutions inc"
-h1: "Basement Flooding Cleanup in Troy"
-meta_description: "Basement flooding cleanup in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Basement Flooding Cleanup in Troy, MI | Flood Solutions inc"
+h1: "Emergency Basement Flooding Cleanup in Troy"
+meta_description: "Emergency basement flooding cleanup in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "basement flooding cleanup troy"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "basement-flooding-cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Troy? Call now for emergency service.** Our crew responds fast to pump out the water and start drying.
+
 Troy sits on the southeastern edge of Oakland County, where clay-heavy glacial soils and a water table that rises fast after heavy rain turn a slow basement seep into standing water almost overnight. When a sump pump fails during a spring storm or a supply line lets go behind a finished wall, the clock starts immediately: carpet padding holds moisture like a sponge, and the framing behind drywall can begin supporting mold growth within 24 to 48 hours. Flood Solutions Inc has been responding to basement flooding cleanup calls across the metro area since 1996, and Troy's specific soil and drainage conditions shape how every job gets done here.
 
 ## Why Troy Properties See Basement Flooding Issues

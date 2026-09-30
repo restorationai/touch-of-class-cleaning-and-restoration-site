@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Buellton, CA | Coastal Restoration Services Inc"
-h1: "Burst Pipe Cleanup and Repair in Buellton"
-meta_description: "Burst pipe cleanup and repair in Buellton, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Burst Pipe Cleanup and Repair in Buellton, CA | Coastal Restoration Services Inc"
+h1: "Emergency Burst Pipe Cleanup and Repair in Buellton"
+meta_description: "Emergency burst pipe cleanup and repair in Buellton, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "burst pipe cleanup and repair buellton"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"

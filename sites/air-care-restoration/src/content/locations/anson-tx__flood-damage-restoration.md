@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Anson, TX | Air Care Restoration"
-h1: "Flood Damage Restoration in Anson"
-meta_description: "24/7 flood damage restoration in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Flood Damage Restoration in Anson, TX | Air Care Restoration"
+h1: "24/7 Emergency Flood Damage Restoration in Anson"
+meta_description: "24/7 emergency flood damage restoration in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "flood damage restoration anson"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "flood-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Anson? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Flood damage in Anson rarely looks like the dramatic, waist-deep water people picture. More often it's a slab foundation that's taken on water through the perimeter after a hard West Texas thunderstorm, or a crawlspace under an older Jones County farmhouse that's stayed damp for days because nobody knew to check it. Flood damage restoration here has to account for flat terrain, clay-heavy soil, and a housing stock where a lot of homes were built before modern moisture barriers were standard.
 
 ## Why Anson Properties See Flood Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Passaic, NJ | The Restoration Group"
-h1: "Water Damage Restoration in Passaic"
-meta_description: "24/7 water damage restoration in Passaic, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Water Damage Restoration in Passaic, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Damage Restoration in Passaic"
+meta_description: "24/7 emergency water damage restoration in Passaic, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "water damage restoration passaic"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Passaic? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start drying your property.
+
 The Passaic River has flooded this city twice in living memory, Irene in 2011 swamped riverfront blocks, and Ida in 2021 pushed water into basements and first floors across the city's low-lying neighborhoods before residents had time to move anything off the floor. But most water damage calls in Passaic 07055 have nothing to do with storms. They come from a cast-iron drain that finally gives out in a century-old three-family on the Third Ward side of town, a sprinkler head that discharges overnight in a Main Avenue storefront, or a slow roof leak that has been soaking the top-floor ceiling joists of a brick walkup for months before anyone notices the stain. When water gets into these buildings, it moves fast and hides deep.
 
 ## Why Passaic Properties See Water Damage Differently

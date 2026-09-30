@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Flensburg, MN | Heritage Restoration LLC"
-h1: "Storm Damage Restoration in Flensburg"
-meta_description: "Storm damage restoration in Flensburg, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Storm Damage Restoration in Flensburg, MN | Heritage Restoration LLC"
+h1: "Emergency Storm Damage Restoration in Flensburg"
+meta_description: "Emergency storm damage restoration in Flensburg, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "storm damage restoration flensburg"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Flensburg? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Central Minnesota's storm season hits Stearns County hard, and Flensburg sits squarely in the path of the same fast-moving supercell systems that funnel northeast across the prairie toward Little Falls. When a line of severe thunderstorms drops hail the size of marbles or a rotating wall cloud spins up a brief tornado, the damage to roofs, siding, and outbuildings can go from cosmetic to structural within minutes. Heritage Restoration LLC responds to storm damage calls in Flensburg and the surrounding rural township, working to stabilize properties before secondary damage from rain intrusion or wind-driven debris compounds the original loss.
 
 ## Why Flensburg Properties See Storm Damage Differently

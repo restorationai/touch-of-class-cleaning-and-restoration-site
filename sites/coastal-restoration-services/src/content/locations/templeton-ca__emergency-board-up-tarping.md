@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Templeton, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Templeton"
-meta_description: "Board-up and tarping in Templeton, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Templeton, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Templeton"
+meta_description: "Emergency board-up and tarping in Templeton, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping templeton"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Templeton? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Templeton sits in a narrow corridor of San Luis Obispo County where dry, grassy hillsides meet oak-studded ranchland, and the same Santa Ana-adjacent wind events that push embers across Paso Robles can strip shingles off an older farmhouse or drive a branch through a window before a homeowner has time to react. When that happens, the gap between the damage and the repair is the most dangerous window of all, rain, wildlife, and opportunistic theft can turn a manageable loss into a gut-renovation. Coastal Restoration Services Inc responds to those calls, securing Templeton properties with structural board-up and heavy-duty roof tarping until permanent repairs can begin.
 
 ## Why Templeton Properties Are Especially Vulnerable After a Loss

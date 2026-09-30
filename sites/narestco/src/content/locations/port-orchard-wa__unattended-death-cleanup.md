@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Unattended Death Cleanup in Port Orchard, WA | National Restoration Construction"
-h1: "Unattended Death Cleanup in Port Orchard"
-meta_description: "24/7 unattended death cleanup in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Unattended Death Cleanup in Port Orchard, WA | National Restoration Construction"
+h1: "24/7 Emergency Unattended Death Cleanup in Port Orchard"
+meta_description: "24/7 emergency unattended death cleanup in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "unattended death cleanup port orchard"
 secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased estate cleanup", "odor removal after death", "discreet death cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Unattended Death Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Port Orchard? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Port Orchard sits on a quiet stretch of Sinclair Inlet, but the isolation that makes South Kitsap appealing can also mean days pass before anyone realizes a neighbor or family member has died alone. When that call finally comes, from a landlord, an adult child, or a Kitsap County Sheriff's deputy, the property needs professional attention quickly, and it needs to be handled without drawing attention to the address. National Restoration Construction has responded to these situations across the South Sound since 2004, and we understand what families and property owners in this community are actually facing.
 
 ## Why Port Orchard Properties Present Unique Challenges After an Unattended Death

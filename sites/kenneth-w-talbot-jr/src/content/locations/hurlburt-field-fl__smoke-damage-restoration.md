@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Hurlburt Field, FL | Veterans Remediation & Restoration "
-h1: "Smoke Damage Restoration in Hurlburt Field"
-meta_description: "24/7 smoke damage restoration in Hurlburt Field, FL. Insurance billing accepted. Call (337) 344-1248."
+title: "Emergency Smoke Damage Restoration in Hurlburt Field, FL | Veterans Remediation & Restoration "
+h1: "24/7 Emergency Smoke Damage Restoration in Hurlburt Field"
+meta_description: "24/7 emergency smoke damage restoration in Hurlburt Field, FL. Insurance billing accepted. Call (337) 344-1248."
 primary_keyword: "smoke damage restoration hurlburt field"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

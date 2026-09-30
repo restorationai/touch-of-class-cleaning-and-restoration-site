@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Centralia, WA | Frontline Fire & Flood"
-h1: "Emergency Board-Up and Tarping in Centralia"
+title: "24/7 Emergency Board-Up and Tarping in Centralia, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Board-Up and Tarping in Centralia"
 meta_description: "24/7 emergency board-up and tarping in Centralia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency board-up and tarping centralia"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Centralia? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Centralia sits in a stretch of Lewis County where Pacific weather systems stall against the Cascade foothills, producing prolonged rain events that can turn a broken window or a fire-damaged roof into a cascading structural problem within hours. When a storm peels back shingles, a house fire blows out glazing, or a vehicle strike leaves an exterior wall exposed, the gap between the damage event and a proper board-up or tarp installation is the gap where the real cost accumulates, soaked insulation, warped framing, mold colonization beginning inside 24 to 48 hours. Frontline Fire & Flood responds around the clock to secure properties across Centralia and the surrounding Lewis County area before that window closes.
 
 ## Why Centralia Properties Face Elevated Board-Up and Tarping Risk

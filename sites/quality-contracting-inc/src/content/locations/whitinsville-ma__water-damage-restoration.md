@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Whitinsville, MA | Quality Contracting, Inc."
-h1: "Water Damage Restoration in Whitinsville"
-meta_description: "Water damage restoration in Whitinsville, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Water Damage Restoration in Whitinsville, MA | Quality Contracting, Inc."
+h1: "Emergency Water Damage Restoration in Whitinsville"
+meta_description: "Emergency water damage restoration in Whitinsville, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "water damage restoration whitinsville"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Whitinsville? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Whitinsville sits in the Blackstone River Valley, where the region's clay-heavy soils and the town's legacy of mill-era construction create conditions that make water damage move faster and hide deeper than homeowners expect. When a pipe bursts or a sump pump fails in a home built during the textile industry's peak, water doesn't just pool on the floor, it wicks into century-old timber framing, plaster lath, and fieldstone foundations before the damage is visible at the surface. Quality Contracting, Inc. handles water removal, structural drying, and full water mitigation for Whitinsville properties, responding from our Auburn location and working until the moisture readings confirm the structure is genuinely dry.
 
 ## Why Whitinsville Properties See Water Damage Issues

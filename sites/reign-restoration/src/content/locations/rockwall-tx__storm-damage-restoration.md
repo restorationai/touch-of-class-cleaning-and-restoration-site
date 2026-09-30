@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Rockwall, TX | Reign Restoration"
-h1: "Storm Damage Restoration in Rockwall"
-meta_description: "Storm damage restoration in Rockwall, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Storm Damage Restoration in Rockwall, TX | Reign Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Rockwall"
+meta_description: "24/7 emergency storm damage restoration in Rockwall, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "storm damage restoration rockwall"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Rockwall? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Rockwall sits squarely in North Texas's severe weather corridor, where spring and early summer storms can drop baseball-sized hail, spin up tornadoes, and push straight-line winds past 70 mph, sometimes all in the same afternoon. When a storm tears through Rockwall County, the damage isn't always obvious from the street: hail bruises roof decking, wind-driven rain infiltrates attic insulation, and downed trees crack foundation slabs in ways that don't show up until weeks later. Reign Restoration responds to storm damage calls across Rockwall from our Royse City base, bringing IICRC-certified crews and industrial equipment to properties that need more than a tarp and a prayer.
 
 ## Why Rockwall Properties Take a Hard Hit in Severe Weather

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Plano, TX | Reign Restoration"
-h1: "Storm Damage Restoration in Plano"
-meta_description: "24/7 storm damage restoration in Plano, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Storm Damage Restoration in Plano, TX | Reign Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Plano"
+meta_description: "24/7 emergency storm damage restoration in Plano, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "storm damage restoration plano"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Elm City, NC | Go Green Restoration of NC"
-h1: "Emergency Water Removal & Cleanup in Elm City"
+title: "24/7 Emergency Water Removal & Cleanup in Elm City, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Water Removal & Cleanup in Elm City"
 meta_description: "24/7 emergency water removal & cleanup in Elm City, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "emergency water removal & cleanup elm city"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]

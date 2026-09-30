@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in Corona | Dry County Restoration"
-h1: "Water Damage Restoration in Corona"
-meta_description: "24/7 water damage restoration in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "24/7 Emergency Water Damage Restoration in Corona | Dry County Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Corona"
+meta_description: "24/7 emergency water damage restoration in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "water damage restoration corona"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

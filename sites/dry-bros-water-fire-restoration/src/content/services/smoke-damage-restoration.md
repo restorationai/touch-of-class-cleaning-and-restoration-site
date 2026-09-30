@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Smoke Damage Restoration in Chicago | Dry Bros Water & Fire Restoration"
-h1: "Smoke Damage Restoration in Chicago"
-meta_description: "Smoke damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Smoke Damage Restoration in Chicago | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in Chicago"
+meta_description: "24/7 emergency smoke damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "smoke damage restoration chicago"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "smoke-damage-restoration"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Chicago? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Smoke doesn't stop moving when the fire goes out. Within hours of extinguishment, smoke residue penetrates wall cavities, settles into HVAC ductwork, and bonds to surfaces throughout rooms that never saw a single flame. The odor you notice on day one is a fraction of what's embedded in the structure. Without the right chemistry, equipment, and sequencing, that smell comes back, sometimes weeks later, and the discoloration you thought was cleaned reappears on ceilings and woodwork. Smoke damage restoration is not cleaning. It's a structured decontamination process.
 
 ## What smoke damage restoration actually involves

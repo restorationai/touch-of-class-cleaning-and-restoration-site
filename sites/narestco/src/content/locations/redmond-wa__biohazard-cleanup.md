@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard and Trauma Cleanup in Redmond, WA | National Restoration Construction"
-h1: "Biohazard and Trauma Cleanup in Redmond"
-meta_description: "24/7 biohazard and trauma cleanup in Redmond, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Biohazard and Trauma Cleanup in Redmond, WA | National Restoration Construction"
+h1: "24/7 Emergency Biohazard and Trauma Cleanup in Redmond"
+meta_description: "24/7 emergency biohazard and trauma cleanup in Redmond, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "biohazard and trauma cleanup redmond"
 secondary_keywords: ["trauma scene cleanup", "unattended death cleanup", "blood cleanup", "bodily fluid cleanup", "biohazard remediation"]
 search_intent: "local_sensitive"

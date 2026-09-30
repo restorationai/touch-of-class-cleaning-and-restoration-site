@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Plumbing in Bear Valley Springs, CA | ProRestoration Services"
-h1: "Emergency Plumbing in Bear Valley Springs"
+title: "24/7 Emergency Plumbing in Bear Valley Springs, CA | ProRestoration Services"
+h1: "24/7 Emergency Plumbing in Bear Valley Springs"
 meta_description: "24/7 emergency plumbing in Bear Valley Springs, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "emergency plumbing bear valley springs"
 secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber", "emergency plumbing repair", "24/7 plumbing"]

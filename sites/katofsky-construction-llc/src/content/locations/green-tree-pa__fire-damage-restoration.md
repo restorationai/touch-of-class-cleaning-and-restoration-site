@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Green Tree, PA | Katofsky Construction LLC"
-h1: "Fire Damage Restoration in Green Tree"
-meta_description: "24/7 fire damage restoration in Green Tree, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "24/7 Emergency Fire Damage Restoration in Green Tree, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Fire Damage Restoration in Green Tree"
+meta_description: "24/7 emergency fire damage restoration in Green Tree, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "fire damage restoration green tree"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Green Tree? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Green Tree is a small borough tucked into the western edge of Allegheny County, where older residential streets sit close to commercial corridors and the housing stock leans heavily on mid-century construction. When fire moves through a home here, it rarely stays contained to one room. Smoke travels fast through the connected floor plans common in 1950s and 1960s ranch-style and split-level builds, and the combination of original wood framing, plaster walls, and older insulation means heat damage can penetrate deeper than it looks from the doorway. Katofsky Construction LLC responds to fire losses in Green Tree around the clock, helping property owners move from crisis to recovery.
 
 ## Why Green Tree Properties Face Distinct Fire Damage Challenges

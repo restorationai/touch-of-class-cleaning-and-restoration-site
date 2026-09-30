@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Piscataway, NJ | The Restoration Group"
-h1: "Emergency Water Removal & Cleanup in Piscataway"
+title: "24/7 Emergency Water Removal & Cleanup in Piscataway, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Removal & Cleanup in Piscataway"
 meta_description: "24/7 emergency water removal and cleanup in Piscataway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "emergency water removal piscataway"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Piscataway? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to extract the water and start drying.
+
 The Raritan River doesn't forgive slowly. When Ida pushed through in 2021, the River Road corridor and the Johnson Park flatlands took on water faster than sump pumps could cycle, and many Piscataway homeowners were left pulling soaked carpet out of finished basements days after the storm passed. Whether the source is riverine flooding, a burst galvanized supply line in a postwar split-level, or a sprinkler discharge in a Stelton corridor warehouse, the clock starts the moment water contacts your structure, and every hour it sits, the damage compounds.
 
 ## Why Piscataway Properties See Repeated Water Damage

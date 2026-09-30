@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in New Providence, NJ | The Restoration Group"
-h1: "Burst Pipe Cleanup and Repair in New Providence"
-meta_description: "24/7 burst pipe cleanup and repair in New Providence, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "Emergency Burst Pipe Cleanup and Repair in New Providence | The Restoration Group"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in New Providence"
+meta_description: "24/7 emergency burst pipe cleanup and repair in New Providence, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "burst pipe cleanup and repair new providence"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

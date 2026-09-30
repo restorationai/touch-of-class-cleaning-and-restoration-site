@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Norco, CA | Dry County Restoration"
-h1: "Water Damage Restoration in Norco"
-meta_description: "24/7 water damage restoration in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "24/7 Emergency Water Damage Restoration in Norco, CA | Dry County Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Norco"
+meta_description: "24/7 emergency water damage restoration in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "water damage restoration norco"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Norco? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Norco sits in the inland Riverside County heat, where summer temperatures routinely push past 100°F and the Santa Ana winds pull humidity down to single digits for weeks at a time, conditions that make water intrusion feel almost impossible until a pipe fitting fails behind a wall or a washing machine supply line lets go at 2 a.m. When that happens, the dry air that normally defines life here becomes a false friend: surfaces can feel dry to the touch while moisture continues migrating through slab foundations and into wall cavities, quietly setting the stage for mold within 24 to 48 hours. Dry County Restoration responds 24/7 and can reach Norco from our Corona headquarters in a matter of minutes.
 
 ## Why Norco Properties See Water Damage Differently Than Surrounding Cities

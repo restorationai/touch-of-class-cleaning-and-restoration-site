@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Hawarden, IA | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Hawarden"
-meta_description: "Water damage restoration in Hawarden, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Hawarden, IA | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Hawarden"
+meta_description: "Emergency water damage restoration in Hawarden, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration hawarden"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Hawarden? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 The Big Sioux River has shaped Hawarden since the days of the Calliope settlement, and it still shapes the water damage risks homeowners here face today. Spring snowmelt pushes the river higher than most people expect, and when a wet season follows a hard freeze, the ground in Sioux County saturates quickly, sending water toward foundations, crawl spaces, and basement walls before a single pipe has had a chance to fail. When that happens inside a home in the 51023 ZIP code, the clock starts immediately: mold can begin colonizing wet framing within 24 to 48 hours, and the longer standing water sits under flooring, the more structural material it quietly destroys.
 
 ## Why Hawarden Properties See Water Damage Issues

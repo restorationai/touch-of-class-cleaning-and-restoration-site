@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Ceiling Water Damage Repair in American Fork | FIX Restoration"
-h1: "Ceiling Water Damage Repair in American Fork"
-meta_description: "Ceiling water damage repair in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Ceiling Water Damage Repair in American Fork | FIX Restoration"
+h1: "Emergency Ceiling Water Damage Repair in American Fork"
+meta_description: "Emergency ceiling water damage repair in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "ceiling water damage repair american fork"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

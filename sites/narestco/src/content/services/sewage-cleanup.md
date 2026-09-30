@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Sewage Cleanup and Sanitization in Federal Way | National Restoration Construction"
-h1: "Sewage Cleanup and Sanitization in Federal Way"
-meta_description: "24/7 sewage cleanup and sanitization in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "Emergency Sewage Cleanup and Sanitization in Federal Way | National Restoration Construction"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Federal Way"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "sewage cleanup and sanitization federal way"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -18,6 +18,9 @@ service_display: "Sewage Cleanup and Sanitization"
 isSensitive: true
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Federal Way? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Sewage in your home isn't just a plumbing problem, it's a health hazard that gets worse by the hour. Whether a sewer line backup has pushed raw waste into your basement, a septic overflow has soaked into your crawlspace, or a blocked drain has flooded a bathroom, the contaminated water carries bacteria, viruses, and pathogens that no mop-and-bleach approach can safely address. National Restoration Construction responds fast, extracts everything, and restores the space to a condition that's genuinely safe, not just visually clean.
 
 ## How We Handle Sewage Cleanup

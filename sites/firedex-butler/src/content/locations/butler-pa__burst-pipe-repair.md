@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Butler, PA | FireDEX Butler"
-h1: "Burst Pipe Cleanup and Repair in Butler"
-meta_description: "24/7 burst pipe cleanup and repair in Butler, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Butler, PA | FireDEX Butler"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Butler"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Butler, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "burst pipe cleanup and repair butler"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Butler? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 When a pipe lets go in one of Butler's older brick foursquares on Institute Hill or a century-old frame house in Lyndora, the damage moves fast, galvanized supply lines that have been narrowing with mineral buildup for decades can flood a basement in minutes once they finally give. FireDEX Butler has been responding to exactly this kind of loss since 1981, and our crews know the steep hillside streets, aging housing stock, and Western PA freeze-thaw cycles that make burst pipe events here different from a newer suburb down the road.
 
 ## Why Butler Properties See Burst Pipe Issues

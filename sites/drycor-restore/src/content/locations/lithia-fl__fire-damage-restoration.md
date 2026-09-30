@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Lithia, FL | DRYCOR RESTORE"
-h1: "Fire Damage Restoration in Lithia"
-meta_description: "24/7 fire damage restoration in Lithia, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "24/7 Emergency Fire Damage Restoration in Lithia, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Fire Damage Restoration in Lithia"
+meta_description: "24/7 emergency fire damage restoration in Lithia, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "fire damage restoration lithia"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Lithia? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Lithia sits in one of Hillsborough County's fastest-growing corridors, and the newer construction that defines much of the area brings its own fire risk profile: open floor plans that allow flames to travel quickly, engineered lumber that can lose structural integrity faster than dimensional lumber under heat, and tightly insulated building envelopes that trap smoke and combustion byproducts long after the fire is out. When a fire tears through a home here, the visible char is often the least complicated part of what needs to be addressed.
 
 ## Why Lithia Properties Face Distinct Post-Fire Challenges

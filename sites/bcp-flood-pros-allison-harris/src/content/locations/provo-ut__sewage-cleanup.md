@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Provo, UT | FIX Restoration"
-h1: "Sewage Cleanup and Sanitization in Provo"
-meta_description: "Sewage cleanup and sanitization in Provo, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Sewage Cleanup and Sanitization in Provo, UT | FIX Restoration"
+h1: "Emergency Sewage Cleanup and Sanitization in Provo"
+meta_description: "Emergency sewage cleanup and sanitization in Provo, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "sewage cleanup and sanitization provo"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Provo? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Provo sits in a valley where aging sewer infrastructure meets rapid population growth, a combination that puts both older bungalows near Center Street and newer developments climbing the east bench at real risk of sewage backups. When a sewer line reverses into a basement or a septic system overflows, the contamination isn't just unpleasant; raw sewage carries pathogens that begin affecting porous materials within hours. FIX Restoration responds to sewage backup cleanup calls across Provo and the surrounding Utah County area, handling extraction, disinfection, and structural drying from start to finish.
 
 ## Why Provo Properties Experience Sewage Backups

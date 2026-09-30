@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Thonotosassa | DRYCOR RESTORE"
-h1: "Fire Damage Restoration in Thonotosassa"
-meta_description: "24/7 fire damage restoration in Thonotosassa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "24/7 Emergency Fire Damage Restoration in Thonotosassa | DRYCOR RESTORE"
+h1: "24/7 Emergency Fire Damage Restoration in Thonotosassa"
+meta_description: "24/7 emergency fire damage restoration in Thonotosassa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "fire damage restoration thonotosasa"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Thonotosassa? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 The smell hits before you even open the front door, that sharp, acrid mix of charred wood, melted plastic, and something you can't quite name. Even after the flames are out and the fire trucks are gone, smoke residue keeps working. Soot acids etch into metal within hours. Protein films from kitchen fires bond invisibly to every surface in the house. Synthetic soot from burned upholstery and wiring penetrates porous materials faster than most homeowners realize. Fire damage restoration is a race against secondary damage that starts the moment combustion ends.
 
 ## What fire damage restoration actually involves

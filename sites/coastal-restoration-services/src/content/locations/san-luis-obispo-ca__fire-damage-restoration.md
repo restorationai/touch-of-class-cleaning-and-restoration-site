@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in San Luis Obispo, CA | Coastal Restoration Services Inc"
-h1: "Fire Damage Restoration in San Luis Obispo"
-meta_description: "Fire damage restoration in San Luis Obispo, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Fire Damage Restoration in San Luis Obispo, CA | Coastal Restoration Services Inc"
+h1: "Emergency Fire Damage Restoration in San Luis Obispo"
+meta_description: "Emergency fire damage restoration in San Luis Obispo, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "fire damage restoration san luis obispo"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in San Luis Obispo? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 San Luis Obispo sits in a narrow coastal valley where dry offshore winds can push a kitchen fire through an older Craftsman bungalow faster than most homeowners expect. The same warm, low-humidity air that makes the Central Coast so livable also accelerates smoke penetration into porous materials, meaning the window for effective fire and smoke restoration is shorter here than in wetter climates. If your home or commercial property in San Luis Obispo has sustained fire damage, the decisions made in the first 24 to 48 hours will determine how much of the structure and its contents can actually be saved.
 
 ## Why San Luis Obispo Properties Face Distinct Fire Damage Challenges

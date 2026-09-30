@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Lehi, UT | Home Pride Restoration and Cleaning"
-h1: "Fire Damage Restoration in Lehi"
-meta_description: "24/7 fire damage restoration in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Fire Damage Restoration in Lehi, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Fire Damage Restoration in Lehi"
+meta_description: "24/7 emergency fire damage restoration in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "fire damage restoration lehi"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Lehi? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 When a fire tears through a Lehi home, whether it starts in a garage workshop off Traverse Ridge Road or in a kitchen in one of the newer subdivisions along 2100 North, the damage doesn't stop when the flames do. Smoke migrates through HVAC systems within hours, soot embeds itself in drywall and insulation, and the water left behind by fire suppression begins its own cycle of destruction. Home Pride Restoration and Cleaning has been working through exactly these scenarios since 1997, and our crews reach most Lehi addresses within 60–90 minutes of your call.
 
 ## Why Lehi Properties Face Distinct Fire Damage Challenges

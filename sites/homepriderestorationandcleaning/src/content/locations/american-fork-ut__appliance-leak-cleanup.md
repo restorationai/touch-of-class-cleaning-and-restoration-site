@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in American Fork, UT | Home Pride Restoration and Cleaning"
-h1: "Appliance Leak Cleanup in American Fork"
-meta_description: "24/7 appliance leak cleanup in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Appliance Leak Cleanup in American Fork, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Appliance Leak Cleanup in American Fork"
+meta_description: "24/7 emergency appliance leak cleanup in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "appliance leak cleanup american fork"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in American Fork? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A refrigerator ice maker line that drips for weeks behind the fridge, a dishwasher door seal that finally gives out mid-cycle, a washing machine hose that blows loose on a Sunday morning, appliance leaks in American Fork homes tend to announce themselves at the worst possible moment. What makes them especially damaging here is Utah County's hard, mineral-heavy water supply. The calcium and magnesium buildup that clogs supply lines and corrodes hose fittings accelerates wear faster than homeowners expect, and by the time water is visible on the floor, it has often already wicked into the subfloor or cabinet toe-kicks for days.
 
 ## Why American Fork Properties See Appliance Leak Issues

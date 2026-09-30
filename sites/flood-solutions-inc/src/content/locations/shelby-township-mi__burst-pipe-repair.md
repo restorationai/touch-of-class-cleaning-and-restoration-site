@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Shelby Township, MI | Flood Solutions inc"
-h1: "Burst Pipe Cleanup and Repair in Shelby Township"
-meta_description: "Burst pipe cleanup and repair in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Burst Pipe Cleanup and Repair in Shelby Township | Flood Solutions inc"
+h1: "Emergency Burst Pipe Cleanup and Repair in Shelby Township"
+meta_description: "Emergency burst pipe cleanup and repair in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "burst pipe cleanup and repair shelby township"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "burst-pipe-repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Shelby Township? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 Michigan winters do not ease up on Shelby Township plumbing. When temperatures swing hard below freezing, as they reliably do across Macomb County from December through February, water sitting in exterior walls, unheated crawl spaces, or supply lines running through garage ceilings can freeze solid and split the pipe before a homeowner notices anything is wrong. By the time water is audible or visible, it has often been migrating behind drywall or soaking subfloor for hours. Flood Solutions inc has been responding to exactly this kind of loss since 1996, and the call from Shelby Township comes in every winter without fail.
 
 ## Why Shelby Township Properties See Burst Pipe Damage

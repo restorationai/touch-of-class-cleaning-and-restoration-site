@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Lakeland South, WA | National Restoration Construction"
-h1: "Appliance Leak Cleanup in Lakeland South"
-meta_description: "24/7 appliance leak cleanup in Lakeland South, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Appliance Leak Cleanup in Lakeland South, WA | National Restoration Construction"
+h1: "24/7 Emergency Appliance Leak Cleanup in Lakeland South"
+meta_description: "24/7 emergency appliance leak cleanup in Lakeland South, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "appliance leak cleanup lakeland south"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"

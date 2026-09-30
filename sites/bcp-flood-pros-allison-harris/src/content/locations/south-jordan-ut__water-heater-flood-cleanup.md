@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Heater Flood Cleanup in South Jordan, UT | FIX Restoration"
-h1: "Water Heater Flood Cleanup in South Jordan"
-meta_description: "Water heater flood cleanup in South Jordan, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Heater Flood Cleanup in South Jordan, UT | FIX Restoration"
+h1: "Emergency Water Heater Flood Cleanup in South Jordan"
+meta_description: "Emergency water heater flood cleanup in South Jordan, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water heater flood cleanup south jordan"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"

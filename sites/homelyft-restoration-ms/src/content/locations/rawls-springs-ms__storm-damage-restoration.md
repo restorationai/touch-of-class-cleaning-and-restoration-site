@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Rawls Springs, MS | HomeLyft Restoration MS"
-h1: "Storm Damage Restoration in Rawls Springs"
-meta_description: "Storm damage restoration in Rawls Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Storm Damage Restoration in Rawls Springs, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Storm Damage Restoration in Rawls Springs"
+meta_description: "24/7 emergency storm damage restoration in Rawls Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "storm damage restoration rawls springs"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Rawls Springs? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Rawls Springs sits in Forrest County where the Gulf Coast's humid subtropical climate collides with the inland hill country, producing a storm season that runs longer and hits harder than many Mississippi communities expect. Supercell thunderstorms roll up from the south, tornadoes track through the Hattiesburg metro corridor, and late-season tropical systems push rain bands deep inland, leaving roofs, siding, and crawl spaces saturated long after the skies clear. When a storm tears through your property, the clock starts immediately: standing water under a home's pier-and-beam foundation or inside a compromised attic can begin supporting mold growth within 24 to 48 hours.
 
 ## Why Rawls Springs Properties See Elevated Storm Damage Risk

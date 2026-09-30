@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in South Jordan? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 South Jordan sits on the western bench of the Wasatch Front, where the valley's clay-heavy soils drain slowly and irrigation-fed landscaping keeps ground moisture elevated through the long summer months. When a supply line lets go or a finished basement takes on water after a heavy spring runoff event, that combination of saturated soil and tight construction means water moves fast and hides deep. Getting water out quickly is not a preference, it is the difference between a manageable cleanup and a mold problem that colonizes wall cavities within days.
 
 ## Why South Jordan Properties Are Vulnerable to Water Damage

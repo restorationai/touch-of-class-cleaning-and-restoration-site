@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Framingham, MA | Quality Contracting, Inc."
-h1: "Sewage Cleanup and Sanitization in Framingham"
-meta_description: "Sewage cleanup and sanitization in Framingham, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Sewage Cleanup and Sanitization in Framingham, MA | Quality Contracting, Inc."
+h1: "Emergency Sewage Cleanup and Sanitization in Framingham"
+meta_description: "Emergency sewage cleanup and sanitization in Framingham, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "sewage cleanup and sanitization framingham"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Framingham? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Framingham sits on a mix of glacial till and clay-heavy soils that drain poorly after heavy rain, and when a sewer line backs up or a septic system overflows into a finished basement, that standing sewage doesn't just smell. It carries bacteria, viruses, and pathogens classified as Category 3 water, the most hazardous type a property can experience. Quality Contracting, Inc. handles sewage cleanup and sanitization for Framingham homeowners and property managers, responding promptly and working through every step until the space is safe, dry, and documented.
 
 ## Why Framingham Properties See Sewage Backup Problems

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Kapolei, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in Kapolei"
-meta_description: "24/7 flood damage restoration in Kapolei, HI. Call (808) 349-3407."
+title: "24/7 Emergency Flood Damage Restoration in Kapolei, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in Kapolei"
+meta_description: "24/7 emergency flood damage restoration in Kapolei, HI. Call (808) 349-3407."
 primary_keyword: "flood damage restoration kapolei"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Kapolei? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 When a Kona low stalls over the Waianae Range, Makakilo's hillside grades can funnel runoff into garages and ground-floor entries faster than most homeowners expect, and in Kapolei's newer slab-on-grade subdivisions, that water has nowhere to go but under flooring and into wall cavities. If you're dealing with standing water in a home in Kapolei Villages, Mehana, or anywhere else in the 96707 ZIP code, the clock starts the moment the flooding stops. Mold colonization can begin within 24 to 48 hours on wet drywall, and Oahu's leeward humidity keeps materials damp long after the visible water is gone.
 
 ## Why Kapolei Properties See Flood Damage Differently

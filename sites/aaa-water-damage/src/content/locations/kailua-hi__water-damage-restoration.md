@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Kailua, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Water Damage Restoration in Kailua"
-meta_description: "24/7 water damage restoration in Kailua, HI. Call (808) 349-3407."
+title: "24/7 Emergency Water Damage Restoration in Kailua, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Damage Restoration in Kailua"
+meta_description: "24/7 emergency water damage restoration in Kailua, HI. Call (808) 349-3407."
 primary_keyword: "water damage restoration kailua"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Kailua? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 When a Kona storm stalls over the Koʻolau and rain hammers Kailua for 36 straight hours, the canal-front streets near Kawainui Marsh can go from damp to flooded before a homeowner finishes a phone call. That kind of saturation hits fast and moves faster, soaking through the single-wall construction common in Kailua's older beach cottages, wicking into framing and insulation within hours, and setting the clock on mold colonization before the skies even clear. If you're dealing with standing water, soaked walls, or the sour smell of wet wood anywhere in the 96734, the window to act is short.
 
 ## Why Kailua Properties Face Elevated Water Damage Risk

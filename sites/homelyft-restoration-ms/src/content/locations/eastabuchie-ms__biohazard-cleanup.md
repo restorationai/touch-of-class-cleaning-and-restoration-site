@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Eastabuchie, MS | HomeLyft Restoration MS"
-h1: "Biohazard Cleanup in Eastabuchie"
-meta_description: "Biohazard cleanup in Eastabuchie, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Biohazard Cleanup in Eastabuchie, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Biohazard Cleanup in Eastabuchie"
+meta_description: "24/7 emergency biohazard cleanup in Eastabuchie, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "biohazard cleanup eastabuchie"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Eastabuchie? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Eastabuchie sits in the piney woods of Jones County, where tight-knit rural communities and older housing stock mean that when something goes wrong inside a home, something difficult and private, neighbors notice. Biohazard situations here carry a weight that goes beyond the physical cleanup: the need for discretion in a small community is real, and the logistics of reaching a rural Jones County address quickly require a team that knows the region. HomeLyft Restoration MS handles these calls with both the technical rigor and the quiet professionalism that situations like these demand.
 
 ## Why Eastabuchie Properties Present Unique Biohazard Challenges

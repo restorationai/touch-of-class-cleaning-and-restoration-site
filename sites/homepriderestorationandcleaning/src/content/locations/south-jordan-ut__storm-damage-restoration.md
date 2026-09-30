@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in South Jordan, UT | Home Pride Restoration and Cleaning"
-h1: "Storm Damage Restoration in South Jordan"
-meta_description: "24/7 storm damage restoration in South Jordan, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Storm Damage Restoration in South Jordan, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Storm Damage Restoration in South Jordan"
+meta_description: "24/7 emergency storm damage restoration in South Jordan, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "storm damage restoration south jordan"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in South Jordan? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 South Jordan sits in a meteorological pressure cooker. Afternoon thunderstorms roll in fast off the Oquirrh Mountains, and by the time a cell phone alert buzzes, hail is already punching through roof shingles and wind-driven rain is forcing itself under door thresholds. The newer master-planned communities along Bangerter Highway, neighborhoods built quickly in the 2000s and 2010s to absorb Utah County's growth, often feature rooflines and window flashing details that weren't engineered with the Wasatch Front's microburst intensity in mind. When a storm tears through, the damage compounds quickly.
 
 ## Why South Jordan Properties See Storm Damage Differently

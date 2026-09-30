@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Taft, CA | ProRestoration Services"
-h1: "Smoke Damage Restoration in Taft"
-meta_description: "24/7 smoke damage restoration in Taft, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Smoke Damage Restoration in Taft, CA | ProRestoration Services"
+h1: "24/7 Emergency Smoke Damage Restoration in Taft"
+meta_description: "24/7 emergency smoke damage restoration in Taft, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "smoke damage restoration taft"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Taft? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 When a fire tears through one of Ford City's 1940s-era workers' cottages, the visible char is only part of the problem. Smoke and soot travel fast through old wall cavities, settle into wood-lathe ceilings, and get pulled deep into the ductwork of the wall furnaces common in homes built for Taft's oil-boom workforce. By the time the fire department clears the scene, odor molecules and acidic residue are already etching metal fixtures and staining plaster, a clock starts ticking the moment combustion stops.
 
 ## Why Taft Properties See Smoke Damage Differently

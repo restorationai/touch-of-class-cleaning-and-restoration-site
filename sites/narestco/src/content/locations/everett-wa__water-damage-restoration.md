@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Everett, WA | National Restoration Construction"
-h1: "Water Damage Restoration in Everett"
-meta_description: "24/7 water damage restoration in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Water Damage Restoration in Everett, WA | National Restoration Construction"
+h1: "24/7 Emergency Water Damage Restoration in Everett"
+meta_description: "24/7 emergency water damage restoration in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "water damage restoration everett"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Everett? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Standing water doesn't wait, and neither should you. Whether a supply line let go under your kitchen sink at 2 a.m., the Snohomish River's overflow crept into your basement, or a roof leak finally gave way during one of Everett's relentless November rain stretches, the window to prevent secondary damage, swollen framing, buckled hardwood, mold colonizing within 24 to 48 hours, is short. National Restoration Construction dispatches crews from Federal Way and reaches most Everett addresses within 60 to 90 minutes of your call, any hour of the day.
 
 ## Why Everett Properties See Water Damage So Often

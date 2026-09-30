@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Trauma Scene Cleanup in Gig Harbor, WA | National Restoration Construction"
-h1: "Trauma Scene Cleanup in Gig Harbor"
-meta_description: "24/7 trauma scene cleanup in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Trauma Scene Cleanup in Gig Harbor, WA | National Restoration Construction"
+h1: "24/7 Emergency Trauma Scene Cleanup in Gig Harbor"
+meta_description: "24/7 emergency trauma scene cleanup in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "trauma scene cleanup gig harbor"
 secondary_keywords: ["trauma cleanup services", "trauma scene cleaning", "accident scene cleanup", "crime and trauma decontamination", "emergency trauma cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Trauma Scene Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Gig Harbor? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Gig Harbor is a close-knit maritime community, and when something traumatic happens inside a home, whether on the quiet residential streets of Artondale or in one of the older fishing-era cottages tucked along the Millville waterfront, the last thing a family should have to manage is the cleanup. National Restoration Construction responds to trauma scene situations with the discretion, technical training, and proper certifications this work demands. Our team has been handling sensitive decontamination work across Western Washington since 2004, and we understand that how a crew shows up matters as much as what they do once they're there.
 
 ## Why Gig Harbor's Housing Stock Shapes Trauma Cleanup Work

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in St. Joseph, MN | Heritage Restoration LLC"
-h1: "Storm Damage Restoration in St. Joseph"
-meta_description: "Storm damage restoration in St. Joseph, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Storm Damage Restoration in St. Joseph, MN | Heritage Restoration LLC"
+h1: "Emergency Storm Damage Restoration in St. Joseph"
+meta_description: "Emergency storm damage restoration in St. Joseph, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "storm damage restoration st. joseph"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in St. Joseph? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 St. Joseph sits in a part of central Minnesota where spring and summer storm systems can shift fast, dropping hail, spinning up straight-line winds, and leaving behind downed trees before a homeowner has had time to move the patio furniture inside. The region's mix of mature hardwoods and older residential construction means that when a storm moves through, the damage tends to be layered: a fallen oak punches through a roof deck, rain follows within minutes, and by morning there is standing water in a bedroom that was perfectly dry the night before. Heritage Restoration LLC responds to those calls from its base in Little Falls, MN, serving St. Joseph and the surrounding Stearns County area.
 
 ## Why St. Joseph Properties See Storm Damage Differently

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Fremont, CA | Dry1 Out Restoration and Construction"
-h1: "Water Damage Restoration in Fremont"
-meta_description: "24/7 water damage restoration in Fremont, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+title: "24/7 Emergency Water Damage Restoration in Fremont, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Water Damage Restoration in Fremont"
+meta_description: "24/7 emergency water damage restoration in Fremont, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "water damage restoration fremont"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

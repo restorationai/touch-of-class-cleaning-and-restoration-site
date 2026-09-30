@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Kapolei, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Water Damage Restoration in Kapolei"
-meta_description: "24/7 water damage restoration in Kapolei, HI. Call (808) 349-3407."
+title: "24/7 Emergency Water Damage Restoration in Kapolei, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Damage Restoration in Kapolei"
+meta_description: "24/7 emergency water damage restoration in Kapolei, HI. Call (808) 349-3407."
 primary_keyword: "water damage restoration kapolei"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Kapolei? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 When a supply line lets go on the second floor of a Kapolei Villages townhome, water doesn't just pool, it moves fast through the floor assembly, soaks the ceiling drywall below, and starts wicking into the slab edge before most homeowners realize what's happened. Kapolei's newer construction looks solid, but the two-story slab-on-grade plans that dominate 96707 were designed for Hawaii's climate, not for stopping a burst pipe from traveling. Getting water out quickly, and drying the structure completely, is the only way to keep a manageable cleanup from becoming a gut-and-rebuild.
 
 ## Why Kapolei Properties See Water Damage Differently

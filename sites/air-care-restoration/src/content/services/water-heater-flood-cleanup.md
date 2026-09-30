@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Heater Flood Cleanup in Abilene | Air Care Restoration"
-h1: "Water Heater Flood Cleanup in Abilene"
-meta_description: "24/7 water heater flood cleanup in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Water Heater Flood Cleanup in Abilene | Air Care Restoration"
+h1: "24/7 Emergency Water Heater Flood Cleanup in Abilene"
+meta_description: "24/7 emergency water heater flood cleanup in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "water heater flood cleanup abilene"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-heater-flood-cleanup"
 service_display: "water-heater-flood-cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Abilene? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 ## What water heater flood cleanup actually involves
 
 A water heater failure rarely announces itself. A tank that's been quietly rusting from the inside can split a seam overnight and empty 40 to 80 gallons onto a closet or garage floor before anyone notices. A supply line fitting on top of the tank can corrode and spray a fine mist for days, soaking the drywall behind it long before a stain shows on the surface. By the time most Abilene homeowners find the leak, water has already traveled under baseboards, into subflooring, and sometimes down into a crawlspace or slab seam.

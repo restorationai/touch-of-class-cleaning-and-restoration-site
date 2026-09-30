@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Lumberton, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Lumberton"
-meta_description: "Sewage cleanup and sanitization in Lumberton, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "Emergency Sewage Cleanup and Sanitization in Lumberton, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Lumberton"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Lumberton, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization lumberton"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Lumberton? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Sewage backup in Lumberton hits differently than a typical plumbing leak. Lamar County's heavy clay soils drain poorly after the region's frequent heavy rainfall events, and that combination, saturated ground pressing against aging lateral lines, is one of the most common reasons homeowners here find raw sewage backing up through floor drains or toilets with little warning. When that happens, the clock matters: Category 3 "black water" begins soaking into subfloor materials and wall cavities within hours, and the bacterial load it carries doesn't wait for business hours. HomeLyft Restoration MS responds to sewage emergencies across Lumberton and the surrounding Lamar County area, bringing IICRC-certified technicians and commercial-grade extraction equipment to contain the damage before it compounds.
 
 ## Why Lumberton Properties See Sewage Backup Issues

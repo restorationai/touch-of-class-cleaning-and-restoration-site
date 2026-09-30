@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Cranford, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in Cranford"
-meta_description: "24/7 basement flooding cleanup in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Basement Flooding Cleanup in Cranford, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Cranford"
+meta_description: "24/7 emergency basement flooding cleanup in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "basement flooding cleanup cranford"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Cranford? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 Cranford's nickname, the Venice of New Jersey, tells you everything you need to know about basement flooding here. The Rahway River doesn't just pass through town; it bends and loops through neighborhoods like Riverside Drive and Sunny Acres, and when it rises, it rises fast. Storms like Irene in 2011 and Ida in 2021 put entire blocks underwater within hours, and the town's aging storm sewer network means even a heavy overnight rain can back water into basements that never touched the river at all. If you're standing in a wet basement in 07016 right now, the clock on mold colonization started the moment the water arrived.
 
 ## Why Cranford Properties Flood Differently Than Most Towns

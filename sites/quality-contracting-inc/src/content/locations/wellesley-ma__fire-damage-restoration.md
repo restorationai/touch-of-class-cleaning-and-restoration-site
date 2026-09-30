@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Wellesley, MA | Quality Contracting, Inc."
-h1: "Fire Damage Restoration in Wellesley"
-meta_description: "Fire damage restoration in Wellesley, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Fire Damage Restoration in Wellesley, MA | Quality Contracting, Inc."
+h1: "Emergency Fire Damage Restoration in Wellesley"
+meta_description: "Emergency fire damage restoration in Wellesley, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "fire damage restoration wellesley"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Wellesley? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Wellesley's housing stock tells a story in wood and plaster, Colonial Revivals, Tudors, and Craftsman bungalows built across several decades, many with balloon-frame construction that lets fire travel vertically through wall cavities faster than a modern platform frame ever would. When a kitchen fire or electrical fault ignites in one of these homes, the damage rarely stays where it started. Quality Contracting, Inc. responds to fire and smoke restoration calls throughout Wellesley, bringing the equipment and process knowledge that older New England construction actually demands.
 
 ## Why Wellesley's Older Homes Complicate Fire Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Rahway, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in Rahway"
-meta_description: "24/7 appliance leak cleanup in Rahway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Appliance Leak Cleanup in Rahway, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Rahway"
+meta_description: "24/7 emergency appliance leak cleanup in Rahway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "appliance leak cleanup rahway"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Rahway? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 A refrigerator ice maker line that drips for weeks behind a cabinet, a washing machine hose that lets go on a Saturday morning, a water heater that quietly pools across a utility room floor, appliance leaks are the kind of water damage Rahway homeowners often discover too late. In a city where many homes near Downtown Rahway and the Leesville neighborhood were built in the 1920s through the postwar era, original supply lines and aging cast-iron drain systems mean a slow leak can saturate subfloor, wall cavities, and finished basement framing well before the smell or a water stain gives it away. The Restoration Group is based in Kenilworth, minutes from Rahway, and responds around the clock to stop the damage before it compounds.
 
 ## Why Rahway Properties Are Prone to Appliance Leak Damage

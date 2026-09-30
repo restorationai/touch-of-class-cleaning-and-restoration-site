@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Camp Pendleton South, CA | Flood Fixers"
-h1: "Basement Flooding Cleanup in Camp Pendleton South"
-meta_description: "24/7 basement flooding cleanup in Camp Pendleton South, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "Emergency Basement Flooding Cleanup in Camp Pendleton South | Flood Fixers"
+h1: "24/7 Emergency Basement Flooding Cleanup in Camp Pendleton South"
+meta_description: "24/7 emergency basement flooding cleanup in Camp Pendleton South, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "basement flooding cleanup camp pendleton south"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"

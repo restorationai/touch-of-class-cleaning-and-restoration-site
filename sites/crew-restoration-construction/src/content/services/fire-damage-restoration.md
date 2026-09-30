@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Sioux Falls | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Sioux Falls"
-meta_description: "Fire damage restoration in Sioux Falls and surrounding areas. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Sioux Falls | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Sioux Falls"
+meta_description: "Emergency fire damage restoration in Sioux Falls and surrounding areas. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration sioux falls"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Sioux Falls? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Even after the flames are out and the fire trucks leave, the damage keeps moving. Smoke infiltrates wall cavities, soot etches surfaces within hours, and the acidic residue from burning synthetics starts corroding metal fixtures, appliances, and even window glass before most homeowners have made their first insurance call. Fire damage restoration is a race against secondary damage, and the window to prevent permanent loss is measured in days, not weeks.
 
 ## What fire damage restoration actually involves

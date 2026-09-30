@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Santa Ynez, CA | Coastal Restoration Services Inc"
-h1: "Fire Damage Restoration in Santa Ynez"
-meta_description: "Fire damage restoration in Santa Ynez, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Fire Damage Restoration in Santa Ynez, CA | Coastal Restoration Services Inc"
+h1: "Emergency Fire Damage Restoration in Santa Ynez"
+meta_description: "Emergency fire damage restoration in Santa Ynez, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "fire damage restoration santa ynez"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Santa Ynez? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Santa Ynez sits in a narrow inland valley where dry summer winds funnel through the San Rafael Mountains and the Santa Ynez range, creating fire conditions that move fast and leave behind a particular kind of damage, heavy char on wood-frame structures, deep smoke penetration into the porous adobe and stucco finishes common to the area's ranch-style and Spanish Colonial homes, and soot that travels far beyond the burn zone before settling into HVAC systems and wall cavities. If a fire has touched your home or property in Santa Ynez, the clock on secondary damage starts the moment the flames are out.
 
 ## Why Santa Ynez Properties Face Distinct Fire Damage Challenges

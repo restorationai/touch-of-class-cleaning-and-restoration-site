@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Biohazard Cleanup in Vandenberg Village | Coastal Restoration Services Inc"
-h1: "Biohazard Cleanup in Vandenberg Village"
-meta_description: "Biohazard cleanup in Vandenberg Village and surrounding areas. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Biohazard Cleanup in Vandenberg Village | Coastal Restoration Services Inc"
+h1: "Emergency Biohazard Cleanup in Vandenberg Village"
+meta_description: "Emergency biohazard cleanup in Vandenberg Village and surrounding areas. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "biohazard cleanup vandenberg village"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -17,6 +17,9 @@ service_slug: "biohazard-cleanup"
 service_display: "Biohazard Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Vandenberg Village? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Some situations don't wait for a convenient time, and some scenes can't be left for a general cleaning crew. When a home or property has been exposed to blood, bodily fluids, infectious material, or sharps, the risk doesn't end when the visible mess is gone, pathogens can survive on porous surfaces for days, and improper handling creates liability for everyone who enters afterward. Biohazard remediation is a regulated discipline, and the difference between doing it right and doing it fast is measured in health outcomes, not just appearances.
 
 ## What biohazard cleanup actually involves

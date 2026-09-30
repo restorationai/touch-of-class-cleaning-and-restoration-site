@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Crooks, SD | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Crooks"
-meta_description: "Biohazard cleanup in Crooks, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Crooks, SD | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Crooks"
+meta_description: "Emergency biohazard cleanup in Crooks, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup crooks"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Crooks? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 When something unexpected and deeply difficult happens at a home or property near Crooks City Park or along the quiet residential streets of West Crooks, the last thing a family should have to manage is the cleanup. Biohazard situations, whether involving blood, bodily fluids, sharps, or other infectious materials, require trained technicians, proper containment, and disposal through licensed channels. Crew Restoration & Construction handles that entire process with discretion, so the people affected can focus on what actually matters.
 
 ## Why Crooks Properties Present Specific Biohazard Challenges

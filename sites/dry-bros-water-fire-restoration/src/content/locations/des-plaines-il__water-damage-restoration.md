@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration"
-h1: "Water Damage Restoration in Des Plaines"
-meta_description: "Water damage restoration in Des Plaines, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Water Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Des Plaines"
+meta_description: "24/7 emergency water damage restoration in Des Plaines, IL. Insurance billing accepted. Call us now."
 primary_keyword: "water damage restoration des plaines"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Des Plaines? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Des Plaines sits in a low-lying stretch of northeastern Illinois where the Des Plaines River corridor, heavy clay soils, and aging combined sewer infrastructure create conditions that turn a routine pipe failure or heavy rain event into a serious water intrusion problem fast. When water gets into a home here, whether through a flooded basement, a burst supply line, or storm-driven seepage, the clock starts immediately. Dry Bros Water & Fire Restoration responds to water damage calls across Des Plaines, handling everything from standing water removal to full structural drying so the damage stops where it started.
 
 ## Why Des Plaines Properties See Water Damage Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Scotch Plains, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in Scotch Plains"
-meta_description: "24/7 appliance leak cleanup in Scotch Plains, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Appliance Leak Cleanup in Scotch Plains, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Scotch Plains"
+meta_description: "24/7 emergency appliance leak cleanup in Scotch Plains, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "appliance leak cleanup scotch plains"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Scotch Plains? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 The split-levels and colonials tucked into Scotch Plains' Shackamaxon and Willow Grove neighborhoods were built in an era when a washing machine lasted 30 years and nobody worried much about the braided steel supply line behind it. That era is over. Those original lines, along with aging dishwasher hoses, refrigerator ice-maker connections, and water heater supply tubes, are now well past their expected service life, and when one lets go inside a finished basement or a first-floor kitchen, water moves fast through the subfloor and into the framing before most homeowners even notice the puddle. The Restoration Group responds 24/7 from our Kenilworth headquarters, typically reaching the 07076 ZIP code within a short drive, ready to stop the loss and dry the structure before secondary damage sets in.
 
 ## Why Scotch Plains Homes See More Appliance Leak Damage Than You'd Expect

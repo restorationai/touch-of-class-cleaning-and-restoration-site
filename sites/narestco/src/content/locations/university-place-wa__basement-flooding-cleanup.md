@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in University Place, WA | National Restoration Construction"
-h1: "Basement Flooding Cleanup in University Place"
-meta_description: "24/7 basement flooding cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "Emergency Basement Flooding Cleanup in University Place, WA | National Restoration Construction"
+h1: "24/7 Emergency Basement Flooding Cleanup in University Place"
+meta_description: "24/7 emergency basement flooding cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "basement flooding cleanup university place"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in University Place? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Winter rain doesn't just fall on University Place, it moves. Slope drainage off the bluffs above Chambers Creek pushes groundwater laterally into daylight basements, and the 1960s and '70s split-levels that dominate neighborhoods like Beckonridge and Narrows View were built before modern waterproofing standards existed. When that water finds its way inside, you're not dealing with a simple mop-up job. You're dealing with aging cast-iron drains that may already be running slow, original supply lines that corrode quietly for years before failing catastrophically, and concrete block walls that wick moisture long after the visible puddle is gone. National Restoration Construction responds to flooded basements across University Place, call (206) 883-0333 any hour.
 
 ## Why University Place Basements Flood the Way They Do

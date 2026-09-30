@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Auburn | Quality Contracting, Inc."
-h1: "Fire Damage Restoration in Auburn"
-meta_description: "Fire damage restoration in Auburn and surrounding areas. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Fire Damage Restoration in Auburn | Quality Contracting, Inc."
+h1: "Emergency Fire Damage Restoration in Auburn"
+meta_description: "Emergency fire damage restoration in Auburn and surrounding areas. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "fire damage restoration auburn"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Auburn? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 The fire is out, but the damage keeps moving. Within hours of extinguishment, acidic soot begins etching metal fixtures and grout lines. Within days, smoke odor penetrates wall cavities, insulation, and HVAC ductwork, surfaces that look untouched can absorb enough residue to make a home uninhabitable for months if the cleanup is handled incorrectly. Fire and smoke restoration is one of the most technically demanding services in the industry, and the window for limiting permanent damage is short.
 
 ## What fire damage restoration actually involves

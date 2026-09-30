@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in Royse City | Reign Restoration"
-h1: "Water Damage Restoration in Royse City"
-meta_description: "Water damage restoration in Royse City and surrounding areas. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Water Damage Restoration in Royse City | Reign Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Royse City"
+meta_description: "24/7 emergency water damage restoration in Royse City and surrounding areas. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "water damage restoration royse city"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Royse City? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 You notice it first as a soft give underfoot, the subfloor has absorbed water you didn't know was there. Or you come home to the sound of a running appliance that stopped running hours ago, and now there's a half-inch of standing water spreading across your kitchen tile into the hallway carpet. Water moves fast, hides in wall cavities, and begins breaking down drywall, wood framing, and adhesives within hours. The window to stop secondary damage, and the mold that follows 24 to 72 hours after saturation, is narrow. That's exactly what water damage restoration is designed to close.
 
 ## What water damage restoration actually involves

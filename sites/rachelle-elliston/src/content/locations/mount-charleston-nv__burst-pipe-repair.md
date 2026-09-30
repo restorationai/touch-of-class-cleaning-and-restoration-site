@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Mount Charleston, NV | Desert Valley Contracting Inc "
-h1: "Burst Pipe Cleanup and Repair in Mount Charleston"
-meta_description: "24/7 burst pipe cleanup and repair in Mount Charleston, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+title: "Emergency Burst Pipe Cleanup and Repair in Mount Charleston | Desert Valley Contracting Inc "
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Mount Charleston"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Mount Charleston, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "burst pipe cleanup and repair mount charleston"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

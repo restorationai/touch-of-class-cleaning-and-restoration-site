@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Madison, SD | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Madison"
-meta_description: "Storm damage restoration in Madison, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Madison, SD | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Madison"
+meta_description: "Emergency storm damage restoration in Madison, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration madison"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Madison? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 When a severe storm rolls across Lake County, the damage it leaves behind in Madison can be swift and unforgiving. Hail the size of quarters, straight-line winds that snap mature cottonwoods, and late-spring blizzards that load roofs past their design limits, these are not hypothetical risks for 57042 residents. They are recurring events that send water through compromised rooflines, push debris into siding, and leave homeowners standing in wet living rooms wondering what to do next. Crew Restoration & Construction responds to those calls, driving out from Sioux Falls to assess and stabilize storm-damaged properties across Madison before secondary damage compounds the original loss.
 
 ## Why Madison Properties Take Storm Damage Hard

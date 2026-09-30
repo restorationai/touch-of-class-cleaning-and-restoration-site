@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Merrill, IA | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Merrill"
-meta_description: "Biohazard cleanup in Merrill, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Merrill, IA | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Merrill"
+meta_description: "Emergency biohazard cleanup in Merrill, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup merrill"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Merrill? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Merrill is a close-knit Plymouth County community where neighbors know each other by name, which makes an unexpected biohazard situation on your property feel all the more isolating. Whether the incident occurred in a rental near Downtown Merrill, a family home a few blocks from Merrill City Park, or a commercial building along the Floyd River corridor, the priority is the same: discreet, thorough cleanup handled by people who understand what you're going through and what the work actually requires.
 
 ## Why Merrill Properties Present Unique Biohazard Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Fort Lee, NJ | The Restoration Group"
-h1: "Ceiling Water Damage Repair in Fort Lee"
-meta_description: "24/7 ceiling water damage repair in Fort Lee, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Ceiling Water Damage Repair in Fort Lee, NJ | The Restoration Group"
+h1: "24/7 Emergency Ceiling Water Damage Repair in Fort Lee"
+meta_description: "24/7 emergency ceiling water damage repair in Fort Lee, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "ceiling water damage repair fort lee"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

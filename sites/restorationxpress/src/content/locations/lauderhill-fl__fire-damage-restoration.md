@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Lauderhill, FL | RestorationXpress "
-h1: "Fire Damage Restoration in Lauderhill"
-meta_description: "Fire damage restoration in Lauderhill, FL. Insurance billing accepted. Call (954) 964-6471."
+title: "Emergency Fire Damage Restoration in Lauderhill, FL | RestorationXpress "
+h1: "Emergency Fire Damage Restoration in Lauderhill"
+meta_description: "Emergency fire damage restoration in Lauderhill, FL. Insurance billing accepted. Call (954) 964-6471."
 primary_keyword: "fire damage restoration lauderhill"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

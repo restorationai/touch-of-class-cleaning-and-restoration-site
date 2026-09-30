@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Riverton, UT | Home Pride Restoration and Cleaning"
-h1: "Frozen Pipe Restoration in Riverton"
-meta_description: "24/7 frozen pipe restoration in Riverton, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Frozen Pipe Restoration in Riverton, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Frozen Pipe Restoration in Riverton"
+meta_description: "24/7 emergency frozen pipe restoration in Riverton, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "frozen pipe restoration riverton"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Riverton? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Riverton sits at roughly 4,400 feet elevation along the Wasatch Front, where January overnight lows regularly drop into the single digits and cold snaps can arrive fast off the Oquirrh Mountains with little warning. When temperatures fall that hard, the pipes in crawl spaces, garage walls, and exterior-facing utility chases freeze, and when they thaw, the water doesn't wait. A burst copper line can push 8 gallons per minute into a finished basement before the homeowner even realizes the heat went out. Home Pride Restoration and Cleaning has been responding to exactly these situations across the Salt Lake Valley since 1997.
 
 ## Why Riverton Properties Are Especially Vulnerable to Frozen Pipe Damage

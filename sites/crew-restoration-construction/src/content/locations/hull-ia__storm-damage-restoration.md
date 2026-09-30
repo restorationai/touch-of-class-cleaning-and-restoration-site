@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Hull, IA | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Hull"
-meta_description: "Storm damage restoration in Hull, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Hull, IA | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Hull"
+meta_description: "Emergency storm damage restoration in Hull, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration hull"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Hull? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Northwest Iowa's storm season hits Sioux County hard, and Hull's position on the open prairie leaves little natural windbreak between incoming weather systems and the homes and farms that make up this tight-knit Dutch-American community. A severe thunderstorm that rolls through the 51239 corridor can drop baseball-sized hail, strip shingles down to bare decking, and push water into basements within the same hour, leaving property owners scrambling before the ground even dries. Crew Restoration & Construction works storm damage cases across the region, and we understand the specific way that damage unfolds in a community like Hull.
 
 ## Why Hull Properties See Storm Damage Differently

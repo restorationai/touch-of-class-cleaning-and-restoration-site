@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Orcutt, CA | Coastal Restoration Services Inc"
-h1: "Fire Damage Restoration in Orcutt"
-meta_description: "Fire damage restoration in Orcutt, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Fire Damage Restoration in Orcutt, CA | Coastal Restoration Services Inc"
+h1: "Emergency Fire Damage Restoration in Orcutt"
+meta_description: "Emergency fire damage restoration in Orcutt, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "fire damage restoration orcutt"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Orcutt? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 The Santa Maria Valley's dry summers and seasonal offshore winds create fire conditions that can turn a kitchen accident or electrical fault into a whole-house event faster than most homeowners expect. In Orcutt, where ranch-style tract homes built in the 1960s and 70s sit alongside newer construction, a structural fire leaves behind more than charred walls. It leaves smoke-saturated insulation, soot embedded in textured ceilings, and an odor that seeps into every cabinet and closet. Coastal Restoration Services Inc, based in nearby Vandenberg Village, handles the full scope of that damage from initial board-up through final rebuild.
 
 ## Why Orcutt Properties See Distinct Fire Damage Patterns

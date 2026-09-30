@@ -20,6 +20,9 @@ state: "MI"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Utica? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Utica sits in the heart of Macomb County, where clay-heavy soils slow drainage and spring snowmelt has nowhere to go fast. When a sump pump fails during an April thaw or a supply line lets go behind a finished basement wall, water spreads across concrete and under flooring before most homeowners realize the scope of the problem. Flood & Fire Solutions has been responding to exactly these situations since 1996, and the call to get started is (586) 580-0197.
 
 ## Why Utica Properties See Water Damage the Way They Do

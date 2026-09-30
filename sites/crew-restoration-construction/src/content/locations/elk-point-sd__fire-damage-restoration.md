@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Elk Point, SD | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Elk Point"
-meta_description: "Fire damage restoration in Elk Point, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Elk Point, SD | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Elk Point"
+meta_description: "Emergency fire damage restoration in Elk Point, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration elk point"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Elk Point? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When a fire tears through a home near Downtown Elk Point, the damage rarely stops at the charred walls. Elk Point's older housing stock, much of it built in the mid-20th century or earlier, reflecting the town's status as one of South Dakota's oldest settlements along the Missouri River, tends to hold smoke and soot in ways that newer construction simply doesn't. Balloon-frame walls, original plaster ceilings, and older HVAC systems can pull smoke residue deep into cavities where it lingers for months if not properly extracted. If you're dealing with fire damage at a 57025 address, the clock matters, and so does working with a crew that understands what's behind those walls.
 
 ## Why Elk Point's Older Homes Complicate Fire and Smoke Restoration

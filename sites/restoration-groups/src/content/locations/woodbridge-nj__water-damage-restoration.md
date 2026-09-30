@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Woodbridge, NJ | The Restoration Group"
-h1: "Water Damage Restoration in Woodbridge"
-meta_description: "24/7 water damage restoration in Woodbridge, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Water Damage Restoration in Woodbridge, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Damage Restoration in Woodbridge"
+meta_description: "24/7 emergency water damage restoration in Woodbridge, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "water damage restoration woodbridge"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Woodbridge? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start drying your property.
+
 The Rahway River doesn't forgive slowly. When Tropical Storm Ida tore through Woodbridge Township in September 2021, low-lying streets near Sewaren and Port Reading disappeared under water within hours, and hundreds of finished basements in the area's postwar split-levels and colonials absorbed that surge directly into framing, insulation, and drywall. Water damage here isn't a hypothetical; it's a recurring reality shaped by tidal creeks, aging infrastructure, and decades-old housing stock that was never designed for the flooding patterns the region now sees regularly. The Restoration Group responds 24/7 from Kenilworth, reaching Woodbridge addresses quickly when every hour counts.
 
 ## Why Woodbridge Properties See Repeated Water Damage

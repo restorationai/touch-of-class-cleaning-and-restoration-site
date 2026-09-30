@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Mission Hills, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Mission Hills"
-meta_description: "Board-up and tarping in Mission Hills, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Mission Hills, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Mission Hills"
+meta_description: "Emergency board-up and tarping in Mission Hills, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping mission hills"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Mission Hills? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Mission Hills sits in the northern San Fernando Valley where the Santa Ana winds can push fire embers across rooftops in minutes and where older stucco homes along the hillside streets are particularly exposed when windows shatter or roof tiles lift. When a fire, break-in, or storm tears through a property here, the window between the initial damage and the secondary damage, water intrusion, theft, vandalism, can close faster than most homeowners expect. Coastal Restoration Services Inc responds to board-up and tarping calls throughout Mission Hills, securing structures so that what started as one problem doesn't compound into several.
 
 ## Why Mission Hills Properties Face Elevated Board-Up and Tarping Needs

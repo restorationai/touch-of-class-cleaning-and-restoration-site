@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Rock Rapids, IA | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Rock Rapids"
-meta_description: "Biohazard cleanup in Rock Rapids, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Rock Rapids, IA | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Rock Rapids"
+meta_description: "Emergency biohazard cleanup in Rock Rapids, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup rock rapids"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Rock Rapids? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 When something unexpected and deeply difficult happens inside a Rock Rapids home or property, the last thing a family should have to manage is figuring out how to safely clean up afterward. Biohazard situations, whether they involve blood, bodily fluids, sharps, or other infectious material, require trained technicians, proper containment, and disposal that meets Iowa Department of Natural Resources standards. In a small, close-knit community like Rock Rapids, discretion matters as much as speed, and that shapes how Crew Restoration & Construction approaches every call in Lyon County.
 
 ## Why Rock Rapids Properties Present Unique Biohazard Considerations

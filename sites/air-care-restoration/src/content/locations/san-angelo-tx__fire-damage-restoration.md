@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in San Angelo, TX | Air Care Restoration"
-h1: "Fire Damage Restoration in San Angelo"
-meta_description: "24/7 fire damage restoration in San Angelo, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Fire Damage Restoration in San Angelo, TX | Air Care Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in San Angelo"
+meta_description: "24/7 emergency fire damage restoration in San Angelo, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "fire damage restoration san angelo"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in San Angelo? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 San Angelo's dry West Texas climate and wide-open grasslands make for fast-moving wildfires and brush fires that can push embers onto rooftops well before a homeowner smells smoke indoors. When a fire touches a San Angelo property, whether it's a ranch-style home on the city's west side or a commercial building near the Concho River corridor, the damage rarely stops at the char line. Smoke travels through HVAC ducts, soot settles into every horizontal surface, and the water used to suppress the fire soaks into framing and subfloors. Air Care Restoration holds IICRC FSRT (Fire & Smoke) and OCT (Odor Control) certifications and responds 24/7, so the stabilization work begins before secondary damage compounds the loss.
 
 ## Why San Angelo Properties Face Distinct Fire Damage Challenges

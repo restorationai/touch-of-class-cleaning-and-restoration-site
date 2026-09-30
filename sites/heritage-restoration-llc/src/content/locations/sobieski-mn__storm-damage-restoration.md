@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Sobieski, MN | Heritage Restoration LLC"
-h1: "Storm Damage Restoration in Sobieski"
-meta_description: "Storm damage restoration in Sobieski, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Storm Damage Restoration in Sobieski, MN | Heritage Restoration LLC"
+h1: "Emergency Storm Damage Restoration in Sobieski"
+meta_description: "Emergency storm damage restoration in Sobieski, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "storm damage restoration sobieski"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Sobieski? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Central Minnesota's storm season hits Morrison County hard, and Sobieski sits squarely in the path of the same fast-moving systems that funnel down from the Dakotas and collide with humid air pushing north from the Minnesota River valley. When a line of severe thunderstorms drops hail the size of marbles, snaps mature oaks onto rooflines, or drives wind-driven rain through siding gaps, the damage rarely stops at the surface. Heritage Restoration LLC responds to storm losses throughout the Sobieski area, working from our Little Falls base to document, stabilize, and restore properties before secondary damage compounds the original loss.
 
 ## Why Sobieski Properties Are Particularly Vulnerable to Storm Damage

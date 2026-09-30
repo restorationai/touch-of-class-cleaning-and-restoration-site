@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Terrell, TX | Reign Restoration"
-h1: "Storm Damage Restoration in Terrell"
-meta_description: "Storm damage restoration in Terrell, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Storm Damage Restoration in Terrell, TX | Reign Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Terrell"
+meta_description: "24/7 emergency storm damage restoration in Terrell, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "storm damage restoration terrell"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Terrell? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Terrell sits squarely in the corridor where North Texas supercell thunderstorms intensify as they track northeast across Kaufman County. That geography means the city absorbs some of the most punishing hail, straight-line wind, and tornado-warned cells that form along the I-20 corridor, and when a storm tears through, it rarely leaves just one type of damage behind. A single event can strip shingles, push a tree through a fence line, saturate attic insulation, and leave standing water working its way into wall cavities before the rain even stops.
 
 ## Why Terrell Properties See Serious Storm Damage

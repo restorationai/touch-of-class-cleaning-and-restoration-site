@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in South Jordan, UT | Home Pride Restoration and Cleaning"
-h1: "Sewage Cleanup and Sanitization in South Jordan"
-meta_description: "24/7 sewage cleanup and sanitization in South Jordan, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "Emergency Sewage Cleanup and Sanitization in South Jordan | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in South Jordan"
+meta_description: "24/7 emergency sewage cleanup and sanitization in South Jordan, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "sewage cleanup and sanitization south jordan"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in South Jordan? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 When a sewer line backs up into a South Jordan home, the clock starts immediately, not just on the cleanup, but on the spread of Category 3 contaminated water through flooring, wall cavities, and HVAC returns. South Jordan's rapid residential growth over the past two decades has produced a patchwork of aging clay-tile lateral lines beneath newer subdivisions, and when those lines fail under the pressure of Utah's freeze-thaw cycles or root intrusion from the mature trees lining streets in established communities, the result is raw sewage in finished basements and crawl spaces that demands a response measured in minutes, not hours.
 
 ## Why South Jordan Properties See Sewage Backup Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in East Honolulu, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Water Damage Restoration in East Honolulu"
-meta_description: "24/7 water damage restoration in East Honolulu, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "24/7 Emergency Water Damage Restoration in East Honolulu, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Damage Restoration in East Honolulu"
+meta_description: "24/7 emergency water damage restoration in East Honolulu, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "water damage restoration east honolulu"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in East Honolulu? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 East Honolulu sits where the Ko'olau Range meets the Pacific, and that geography shapes everything about how water behaves here. Trade winds push moisture-laden air up the windward slopes, afternoon rain is a near-daily event in the higher elevations, and the ocean humidity never really lets building materials dry out the way they would on the mainland. When a supply line bursts or a roof flashing fails during a downpour, the moisture doesn't just sit in one place, it wicks into concrete block walls, travels under tile floors, and finds every gap in a structure that was designed for tropical ventilation rather than moisture containment. If you're dealing with water damage right now, call AAA Water Damage Restoration & Carpet Care at (808) 349-3407. We respond around the clock.
 
 ## Why East Honolulu Properties See Water Damage Differently

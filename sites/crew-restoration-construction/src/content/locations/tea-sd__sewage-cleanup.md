@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Tea, SD | Crew Restoration & Construction"
-h1: "Sewage Cleanup and Sanitization in Tea"
-meta_description: "Sewage cleanup and sanitization in Tea, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Sewage Cleanup and Sanitization in Tea, SD | Crew Restoration & Construction"
+h1: "Emergency Sewage Cleanup and Sanitization in Tea"
+meta_description: "Emergency sewage cleanup and sanitization in Tea, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "sewage cleanup and sanitization tea"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Tea? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Tea has grown faster than almost any small city in South Dakota over the past decade, and that rapid expansion southwest of Sioux Falls has brought a particular headache into newer subdivisions like Sunrise Ridge and Prairie Meadows: sewage backups that catch homeowners completely off guard. Whether a sewer line has collapsed under a frost-heaved yard, a septic system has overflowed after a heavy spring thaw, or a municipal lateral has backed raw sewage into a finished basement, the contamination clock starts the moment the water stops moving. Crew Restoration & Construction responds to sewage emergencies throughout the 57064 ZIP code and coordinates the full cleanup and sanitization process so you are not left managing a biohazard on your own.
 
 ## Why Tea Properties See Sewage Backup Issues

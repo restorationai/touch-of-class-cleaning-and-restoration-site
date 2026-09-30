@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard and Trauma Cleanup in Wexford, PA | FireDEX Butler"
-h1: "Biohazard and Trauma Cleanup in Wexford"
-meta_description: "24/7 biohazard and trauma cleanup in Wexford, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Biohazard and Trauma Cleanup in Wexford, PA | FireDEX Butler"
+h1: "24/7 Emergency Biohazard and Trauma Cleanup in Wexford"
+meta_description: "24/7 emergency biohazard and trauma cleanup in Wexford, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "biohazard and trauma cleanup wexford"
 secondary_keywords: ["trauma scene cleanup", "unattended death cleanup", "blood cleanup", "bodily fluid cleanup", "biohazard remediation"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard and Trauma Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Wexford? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something traumatic happens inside a Wexford home, whether in a finished walk-out basement off Pine Township's wooded cul-de-sacs or in one of the larger estate properties near the Treesdale fringe, the last thing a family should have to manage is the cleanup. Biohazard and trauma scenes carry biological risks that require controlled, methodical remediation, and the emotional weight of those moments makes professional, discreet handling not just helpful but necessary. FireDEX Butler has responded to these calls across the North Hills since 1981, and we understand what Wexford families expect: fast arrival, quiet professionalism, and thorough documentation.
 
 ## Why Wexford's Housing Stock Creates Specific Biohazard Considerations

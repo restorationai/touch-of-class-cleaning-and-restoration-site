@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Heater Flood Cleanup in McLendon-Chisholm, TX | Reign Restoration"
-h1: "Water Heater Flood Cleanup in McLendon-Chisholm"
-meta_description: "24/7 water heater flood cleanup in McLendon-Chisholm, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "Emergency Water Heater Flood Cleanup in McLendon-Chisholm | Reign Restoration"
+h1: "24/7 Emergency Water Heater Flood Cleanup in McLendon-Chisholm"
+meta_description: "24/7 emergency water heater flood cleanup in McLendon-Chisholm, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "water heater flood cleanup mclendon-chisholm"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"

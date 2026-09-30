@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Tea, SD | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Tea"
-meta_description: "Storm damage restoration in Tea, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Tea, SD | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Tea"
+meta_description: "Emergency storm damage restoration in Tea, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration tea"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Tea? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Tea sits in the direct path of the severe weather systems that funnel northeast across the plains from Nebraska, and the town's rapid growth means new subdivisions in Sunrise Ridge and Prairie Meadows are full of homes that haven't yet weathered a full South Dakota hail season. When a storm drops golf-ball hail, peels back roof decking, or drops a cottonwood across a garage, the damage clock starts immediately, saturated insulation, cracked fascia open to the next rain event, and compromised structural sheathing don't wait for a convenient appointment. Crew Restoration & Construction responds to storm-damaged properties across the 57064 ZIP code, working to stop secondary damage before it compounds the original loss.
 
 ## Why Tea Properties See Elevated Storm Damage Risk

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Le Mars, IA | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Le Mars"
-meta_description: "Fire damage restoration in Le Mars, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Le Mars, IA | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Le Mars"
+meta_description: "Emergency fire damage restoration in Le Mars, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration le mars"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Le Mars? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 A kitchen fire that starts small can spread through a Le Mars home faster than most homeowners expect, especially in the older wood-frame houses that line the streets near Downtown Le Mars and the Foster Park area, where balloon-frame construction and original plaster walls give flames a hidden vertical pathway that modern homes don't have. When the smoke clears, what's left behind isn't just char and ash: it's acidic soot embedding into surfaces, smoke odor penetrating insulation and ductwork, and structural questions that need answers before a family can safely return home. Crew Restoration & Construction works fire damage jobs in Le Mars (51031) and the surrounding Plymouth County area, handling the full scope from initial board-up through final reconstruction.
 
 ## Why Le Mars Homes Are Particularly Vulnerable to Fire Damage

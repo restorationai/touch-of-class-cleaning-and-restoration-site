@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Brooklyn, NY | The Restoration Group"
-h1: "Biohazard Cleanup in Brooklyn"
-meta_description: "24/7 biohazard cleanup in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Biohazard Cleanup in Brooklyn, NY | The Restoration Group"
+h1: "24/7 Emergency Biohazard Cleanup in Brooklyn"
+meta_description: "24/7 emergency biohazard cleanup in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "biohazard cleanup brooklyn"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Brooklyn? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to handle the cleanup with discretion and care.
+
 Brooklyn's density means that when something goes wrong inside a building, a death discovered after days, a needle scatter in a shared stairwell, a trauma in a garden-level apartment, the situation touches neighbors, building staff, and management almost immediately. In brownstone corridors from Park Slope to Flatbush, there is rarely the luxury of a discreet side entrance or an isolated wing. Biohazard cleanup here demands speed, discretion, and a crew that understands how to work inside occupied multi-family buildings without drawing attention or compounding the distress of people who live nearby.
 
 ## Why Brooklyn's Building Stock Shapes Biohazard Response

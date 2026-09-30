@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Atascadero, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Atascadero"
-meta_description: "Board-up and tarping in Atascadero, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Atascadero, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Atascadero"
+meta_description: "Emergency board-up and tarping in Atascadero, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping atascadero"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Atascadero? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Atascadero sits in a dry inland valley where summer temperatures regularly push past 100°F, yet the region also sees heavy winter rains that can saturate hillside soil and push moisture into structures already weakened by wildfire or wind events. When a broken window, a fire-damaged wall, or a storm-torn roof leaves your property exposed, every hour of delay compounds the damage, and in this climate, that exposure can mean sun-bleached interiors in July or water intrusion in January. Coastal Restoration Services Inc responds to board-up and tarping calls throughout Atascadero and the surrounding San Luis Obispo County corridor, getting a protective barrier in place before secondary damage takes hold.
 
 ## Why Atascadero Properties Face Distinct Board-Up and Tarping Challenges

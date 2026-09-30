@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Warren, OH | DISS Restoration"
-h1: "Flood Damage Restoration in Warren"
-meta_description: "24/7 flood damage restoration in Warren, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Flood Damage Restoration in Warren, OH | DISS Restoration"
+h1: "24/7 Emergency Flood Damage Restoration in Warren"
+meta_description: "24/7 emergency flood damage restoration in Warren, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "flood damage restoration warren"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

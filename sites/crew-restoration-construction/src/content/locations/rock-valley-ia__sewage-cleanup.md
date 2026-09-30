@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Rock Valley, IA | Crew Restoration & Construction"
-h1: "Sewage Cleanup and Sanitization in Rock Valley"
-meta_description: "Sewage cleanup and sanitization in Rock Valley, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Sewage Cleanup and Sanitization in Rock Valley, IA | Crew Restoration & Construction"
+h1: "Emergency Sewage Cleanup and Sanitization in Rock Valley"
+meta_description: "Emergency sewage cleanup and sanitization in Rock Valley, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "sewage cleanup and sanitization rock valley"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Rock Valley? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 When the Rock River runs high after a heavy spring thaw or a sustained stretch of northwest Iowa rain, low-lying properties near the river's edge in Rock Valley can find themselves dealing with more than wet floors, backed-up sewer lines and septic overflow push raw sewage into basements and crawl spaces with little warning. That combination of floodplain pressure and aging municipal infrastructure makes sewage backup a genuine recurring risk for 51247 homeowners, not a once-in-a-lifetime event. Crew Restoration & Construction responds to those calls with full containment, extraction, and sanitization so the damage stops where it started.
 
 ## Why Rock Valley Properties See Sewage Backup More Than You'd Expect

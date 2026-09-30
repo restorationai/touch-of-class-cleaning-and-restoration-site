@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Crime Scene Cleanup in Auburn, WA | National Restoration Construction"
-h1: "Crime Scene Cleanup in Auburn"
-meta_description: "24/7 crime scene cleanup in Auburn, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Crime Scene Cleanup in Auburn, WA | National Restoration Construction"
+h1: "24/7 Emergency Crime Scene Cleanup in Auburn"
+meta_description: "24/7 emergency crime scene cleanup in Auburn, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "crime scene cleanup auburn"
 secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cleanup", "homicide cleanup", "suicide scene cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Crime Scene Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Auburn? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Auburn sits at a crossroads that shapes everything about how we work here, older valley-floor homes built when the White River corridor was still agricultural land, 1990s subdivisions spreading across Lea Hill, and a community where Muckleshoot Casino employment means commercial and residential calls can come in at any hour. When a traumatic event happens at a property in this city, the people left behind are dealing with grief, shock, and a set of practical decisions that can't wait. National Restoration Construction has handled forensic cleanup in South King County since 2004, and we understand that discretion, speed, and certified remediation matter more here than anywhere else.
 
 ## Why Auburn's Housing Stock Affects Post-Crime Remediation

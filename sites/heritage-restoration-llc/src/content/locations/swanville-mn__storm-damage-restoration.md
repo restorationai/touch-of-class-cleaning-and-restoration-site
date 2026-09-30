@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Swanville, MN | Heritage Restoration LLC"
-h1: "Storm Damage Restoration in Swanville"
-meta_description: "Storm damage restoration in Swanville, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Storm Damage Restoration in Swanville, MN | Heritage Restoration LLC"
+h1: "Emergency Storm Damage Restoration in Swanville"
+meta_description: "Emergency storm damage restoration in Swanville, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "storm damage restoration swanville"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Swanville? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Swanville sits in Morrison County where the flat, open terrain of central Minnesota gives thunderstorms almost nothing to slow them down. When a severe line of weather rolls through, the combination of high straight-line winds, hail, and saturated soils can leave roofs stripped, siding buckled, and water pushing through every compromised seam before the storm has even passed. Heritage Restoration LLC responds to that kind of damage with IICRC-certified crews trained in structural drying, smoke and fire assessment, and mold prevention so that one bad storm does not turn into a months-long repair project.
 
 ## Why Swanville Properties See Significant Storm Damage

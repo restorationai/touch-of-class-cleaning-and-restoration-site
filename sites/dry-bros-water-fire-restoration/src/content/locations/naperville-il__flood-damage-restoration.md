@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Naperville, IL | Dry Bros Water & Fire Restoration"
-h1: "Flood Damage Restoration in Naperville"
-meta_description: "Flood damage restoration in Naperville, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Flood Damage Restoration in Naperville, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Flood Damage Restoration in Naperville"
+meta_description: "24/7 emergency flood damage restoration in Naperville, IL. Insurance billing accepted. Call us now."
 primary_keyword: "flood damage restoration naperville"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Naperville? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Naperville sits at the confluence of the DuPage River and its tributaries, and when heavy rain pushes those waterways over their banks, the flooding that follows moves fast and hits hard. The city's mix of older ranch-style homes in established subdivisions and newer construction near the river corridor means flood damage here rarely looks the same twice, and the window to prevent secondary damage like mold colonization closes within 24 to 48 hours of initial saturation. If your home has taken on water, the decisions you make in the first few hours matter more than almost anything else.
 
 ## Why Naperville Properties See Flood Damage Issues

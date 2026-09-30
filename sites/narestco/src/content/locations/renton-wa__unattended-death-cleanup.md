@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Unattended Death Cleanup in Renton, WA | National Restoration Construction"
-h1: "Unattended Death Cleanup in Renton"
-meta_description: "24/7 unattended death cleanup in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Unattended Death Cleanup in Renton, WA | National Restoration Construction"
+h1: "24/7 Emergency Unattended Death Cleanup in Renton"
+meta_description: "24/7 emergency unattended death cleanup in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "unattended death cleanup renton"
 secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased estate cleanup", "odor removal after death", "discreet death cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Unattended Death Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Renton? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When a death goes undiscovered for days or weeks in a Renton home, the region's damp marine climate accelerates biological breakdown faster than in drier inland cities. Summer humidity off South Lake Washington, combined with the poor cross-ventilation common in the area's older split-level and craftsman-style construction, means odor and contamination can penetrate subflooring, wall cavities, and HVAC systems well before anyone realizes help is needed. National Restoration Construction responds to these situations with discretion, proper containment, and the certifications required by Washington State to handle biohazardous material safely.
 
 ## Why Renton's Housing Stock Complicates Unattended Death Cleanup

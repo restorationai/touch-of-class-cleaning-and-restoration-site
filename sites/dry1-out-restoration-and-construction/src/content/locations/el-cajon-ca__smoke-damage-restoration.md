@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in El Cajon, CA | Dry1 Out Restoration and Construction"
-h1: "Smoke Damage Restoration in El Cajon"
-meta_description: "24/7 smoke damage restoration in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+title: "24/7 Emergency Smoke Damage Restoration in El Cajon, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Smoke Damage Restoration in El Cajon"
+meta_description: "24/7 emergency smoke damage restoration in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "smoke damage restoration el cajon"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

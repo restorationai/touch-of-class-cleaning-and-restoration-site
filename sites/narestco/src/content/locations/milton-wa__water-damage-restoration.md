@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Milton, WA | National Restoration Construction"
-h1: "Water Damage Restoration in Milton"
-meta_description: "24/7 water damage restoration in Milton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Water Damage Restoration in Milton, WA | National Restoration Construction"
+h1: "24/7 Emergency Water Damage Restoration in Milton"
+meta_description: "24/7 emergency water damage restoration in Milton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "water damage restoration milton"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Milton? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Milton sits in a narrow corridor between Tacoma and Federal Way, where the Puget Sound's persistent marine moisture and the region's clay-heavy soils create conditions that push water into homes year-round, not just during the dramatic storms. When a supply line fails under a kitchen cabinet or a crawl space floods after a long stretch of Pacific Northwest rain, the water moves fast and the window to prevent secondary damage is short. National Restoration Construction responds to water damage calls across Milton and the surrounding Pierce County edge, bringing IICRC-certified drying and extraction to homes that often need more than a shop vac and a fan.
 
 ## Why Milton Properties See Water Damage Issues

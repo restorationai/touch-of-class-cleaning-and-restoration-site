@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Provo? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Provo sits in a high-desert valley, but that doesn't mean water damage is rare, it means it arrives fast and in ways that catch homeowners off guard. Spring snowmelt from the Wasatch Range pushes groundwater levels up just as afternoon thunderstorms roll through Utah County, and a single afternoon storm can send water through a foundation crack, a window well, or an overtaxed sump before you've had time to move anything off the floor. When standing water appears in your home, the clock starts immediately, not just for your belongings, but for the structure itself.
 
 ## Why Provo Properties See Water Damage Issues

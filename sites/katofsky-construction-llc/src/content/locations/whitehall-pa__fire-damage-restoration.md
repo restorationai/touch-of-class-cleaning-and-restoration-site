@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Whitehall, PA | Katofsky Construction LLC"
-h1: "Fire Damage Restoration in Whitehall"
-meta_description: "24/7 fire damage restoration in Whitehall, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "24/7 Emergency Fire Damage Restoration in Whitehall, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Fire Damage Restoration in Whitehall"
+meta_description: "24/7 emergency fire damage restoration in Whitehall, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "fire damage restoration whitehall"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Oak Park, IL | Dry Bros Water & Fire Restoration"
-h1: "Sewage Cleanup and Sanitization in Oak Park"
-meta_description: "Sewage cleanup and sanitization in Oak Park, IL. Insurance billing accepted. Call us now."
+title: "Emergency Sewage Cleanup and Sanitization in Oak Park, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Oak Park"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Oak Park, IL. Insurance billing accepted. Call us now."
 primary_keyword: "sewage cleanup and sanitization oak park"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Oak Park? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Oak Park's sewer system is a study in contrasts: century-old combined sewer mains running beneath streets lined with Craftsman bungalows and Prairie-style homes, all of it under pressure every time a heavy Lake Michigan storm system rolls through the western suburbs. When that system backs up into a basement, and in Oak Park, it does, the result is not just water. It is raw sewage, and the clock starts immediately. Bacterial contamination can penetrate porous concrete block foundations and older floor drains within hours, turning a manageable cleanup into a full remediation project if the response is slow.
 
 ## Why Oak Park Properties See Sewage Backup Problems

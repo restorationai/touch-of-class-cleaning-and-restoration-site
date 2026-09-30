@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Jersey City, NJ | The Restoration Group"
-h1: "Emergency Water Removal & Cleanup in Jersey City"
+title: "24/7 Emergency Water Removal & Cleanup in Jersey City, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Removal & Cleanup in Jersey City"
 meta_description: "24/7 emergency water removal and cleanup in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "emergency water removal jersey city"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Jersey City? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to extract the water and start drying.
+
 Jersey City sits at the intersection of two water damage realities that rarely share a zip code anywhere else in New Jersey. Along the Exchange Place waterfront and through Newport's high-rise towers, a single supply-line failure can push water through stacked units before a building super even gets the call. A few miles inland, the 1890s brownstones and frame rowhouses of the Heights and Bergen-Lafayette carry the chronic risk of cellar flooding and combined-sewer backups that worsen every time a nor'easter stalls over Hudson County. When water is moving through your building, The Restoration Group responds 24/7, call (855) 650-7422.
 
 ## Why Jersey City Properties Face Distinct Water Damage Risks

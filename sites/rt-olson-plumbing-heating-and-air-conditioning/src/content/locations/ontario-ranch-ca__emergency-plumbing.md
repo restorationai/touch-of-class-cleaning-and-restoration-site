@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Plumbing in Ontario Ranch, CA | RT Olson Plumbing, Heating and Air Conditioning"
-h1: "Emergency Plumbing in Ontario Ranch"
+title: "24/7 Emergency Plumbing in Ontario Ranch, CA | RT Olson Plumbing, Heating and Air Conditioning"
+h1: "24/7 Emergency Plumbing in Ontario Ranch"
 meta_description: "Trusted emergency plumbing in Ontario Ranch, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596."
 primary_keyword: "emergency plumbing ontario ranch"
 secondary_keywords: ["emergency plumber", "24 hour plumber", "after hours plumber", "plumber near me now", "same day plumbing repair"]
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Plumbing"
 rendered: true
 ---
+<!-- emergency-open -->
+**Plumbing emergency in Ontario Ranch? We answer 24/7.** Call now and our crew heads out to stop the leak and fix the problem.
+
 Ontario Ranch is one of the Inland Empire's fastest-growing master-planned communities, and that rapid buildout comes with a plumbing reality most new homeowners don't anticipate: high-pressure municipal supply lines feeding tract homes where the finish work is still settling, irrigation systems running beneath slabs and landscaped common areas, and HOA-governed streets where a single burst pipe can affect shared infrastructure before anyone realizes the water is moving. When something goes wrong at midnight, a supply line letting go under a kitchen sink, a water heater valve failing, a drain backing up into a first-floor bathroom, RT Olson Plumbing, Heating and Air Conditioning is available around the clock to respond from our Corona base.
 
 ## Why Ontario Ranch Properties See Emergency Plumbing Issues

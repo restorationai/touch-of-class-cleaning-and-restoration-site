@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Lumberton, MS | HomeLyft Restoration MS"
-h1: "Emergency Water Removal & Cleanup in Lumberton"
+title: "24/7 Emergency Water Removal & Cleanup in Lumberton, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Water Removal & Cleanup in Lumberton"
 meta_description: "24/7 emergency water removal & cleanup in Lumberton, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency water removal & cleanup lumberton"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]

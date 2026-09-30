@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Elmdale, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Elmdale"
-meta_description: "Fire damage restoration in Elmdale, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Elmdale, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Elmdale"
+meta_description: "Emergency fire damage restoration in Elmdale, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration elmdale"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Elmdale? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Elmdale sits in Morrison County, where cold Minnesota winters and the region's older rural housing stock create conditions that make fire damage especially complicated to address. When a fire moves through a home here, it rarely stops at the visible char. Smoke infiltrates wall cavities, attic insulation, and the gaps common in wood-framed construction built decades ago, while sub-zero temperatures in the aftermath can freeze water left by suppression efforts before crews even finish boarding up. Heritage Restoration LLC, based in Little Falls, holds IICRC FSRT (Fire and Smoke Restoration) certification and responds to fire damage calls across Elmdale and the surrounding Morrison County area.
 
 ## Why Elmdale Properties Are Particularly Vulnerable After a Fire

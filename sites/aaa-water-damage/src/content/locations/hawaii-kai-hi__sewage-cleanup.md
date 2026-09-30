@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Hawaii Kai, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Sewage Cleanup and Sanitization in Hawaii Kai"
-meta_description: "24/7 sewage cleanup and sanitization in Hawaii Kai, HI. Call (808) 349-3407."
+title: "Emergency Sewage Cleanup and Sanitization in Hawaii Kai, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Hawaii Kai"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Hawaii Kai, HI. Call (808) 349-3407."
 primary_keyword: "sewage cleanup and sanitization hawaii kai"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Hawaii Kai? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 When a sewer line backs up into a Hawaii Kai home, the problem isn't just the visible mess, it's the combination of Category 3 black water, Oahu's relentless humidity, and a housing stock that was never designed for what's coming out of those pipes. The Kaiser-era homes and marina-front townhomes scattered across Koko Marina and West Marina were built decades ago with galvanized drain lines that corrode from the inside out, narrowing over time until a single grease clog or root intrusion turns a slow drain into a sewage overflow across your bathroom tile, subfloor, and wall cavities. Salt air off Maunalua Bay accelerates that corrosion faster than most homeowners expect.
 
 ## Why Hawaii Kai Properties See Sewage Backup More Often

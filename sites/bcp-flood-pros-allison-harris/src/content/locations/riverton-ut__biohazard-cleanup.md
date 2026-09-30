@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Riverton, UT | FIX Restoration"
-h1: "Biohazard Cleanup in Riverton"
-meta_description: "Biohazard cleanup in Riverton, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Biohazard Cleanup in Riverton, UT | FIX Restoration"
+h1: "Emergency Biohazard Cleanup in Riverton"
+meta_description: "Emergency biohazard cleanup in Riverton, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "biohazard cleanup riverton"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Riverton? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Riverton sits at the base of the Wasatch Front where rapid suburban growth has layered new construction over older agricultural land, bringing a mix of housing vintages and property types that each carry their own complications when a biohazard situation arises. Whether the call comes from a single-family home off Redwood Road, a rental property near the Mountain View Corridor, or a commercial space along 12600 South, the priority is the same: get the right people on-site quickly, handle the situation with discretion, and restore the space so it is genuinely safe to occupy again. FIX Restoration has been doing exactly that across the Salt Lake Valley since 2012.
 
 ## Why Riverton Properties Present Unique Biohazard Considerations

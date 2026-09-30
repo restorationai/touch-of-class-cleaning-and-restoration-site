@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Chicago | Dry Bros Water & Fire Restoration"
-h1: "Fire Damage Restoration in Chicago"
-meta_description: "Fire damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Fire Damage Restoration in Chicago | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Chicago"
+meta_description: "24/7 emergency fire damage restoration in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "fire damage restoration chicago"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Chicago? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Smoke doesn't stop moving when the flames go out. Within hours of a house fire, soot migrates through HVAC ducts, settles into closets two rooms away from the burn, and begins etching porous surfaces, tile grout, drywall paper, wood grain, in ways that become permanent if they aren't addressed in the right sequence. The clock on secondary damage starts the moment firefighters leave, which is exactly when most homeowners are still in shock on the front lawn.
 
 ## What fire damage restoration actually involves

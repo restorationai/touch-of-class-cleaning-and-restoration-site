@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Butler, PA | FireDEX Butler"
-h1: "Flood Damage Restoration in Butler"
-meta_description: "24/7 flood damage restoration in Butler, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Flood Damage Restoration in Butler, PA | FireDEX Butler"
+h1: "24/7 Emergency Flood Damage Restoration in Butler"
+meta_description: "24/7 emergency flood damage restoration in Butler, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "flood damage restoration butler"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Butler? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 When Connoquenessing Creek backs up during a heavy rain event, the low-lying streets near Downtown Butler can go from damp to ankle-deep in under an hour. That kind of flooding, fast, murky, and loaded with sediment, hits Butler's older housing stock especially hard. Brick foursquares and frame homes built before 1950 absorb standing water through foundation walls, subfloor joists, and original plaster in ways that newer construction simply doesn't. FireDEX Butler has been responding to exactly these situations since 1981, and our crew knows the difference between a manageable cleanup and a loss that compounds by the hour.
 
 ## Why Butler Properties See Flood Damage Differently

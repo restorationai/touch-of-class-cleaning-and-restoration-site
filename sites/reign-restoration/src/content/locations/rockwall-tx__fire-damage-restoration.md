@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Rockwall, TX | Reign Restoration"
-h1: "Fire Damage Restoration in Rockwall"
-meta_description: "Fire damage restoration in Rockwall, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Fire Damage Restoration in Rockwall, TX | Reign Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Rockwall"
+meta_description: "24/7 emergency fire damage restoration in Rockwall, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "fire damage restoration rockwall"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Rockwall? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Rockwall's rapid growth along the Lake Ray Hubbard shoreline has brought thousands of new homes and businesses to the area in the past decade, but that building boom also means a wide mix of construction vintages sitting side by side, from 1980s brick ranch homes to brand-new wood-frame subdivisions. When fire moves through a structure here, the damage pattern depends heavily on what the house is made of, and getting the restoration right means understanding that mix. Reign Restoration, based in nearby Royse City, holds IICRC FSRT (Fire & Smoke Restoration Technician) certification and responds to fire damage calls across Rockwall with a process built around what's actually in the walls, not a one-size script.
 
 ## Why Rockwall Properties Face Distinct Fire Damage Challenges

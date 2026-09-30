@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Wellesley, MA | Quality Contracting, Inc."
-h1: "Board-Up and Tarping in Wellesley"
-meta_description: "Board-up and tarping in Wellesley, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Board-Up and Tarping in Wellesley, MA | Quality Contracting, Inc."
+h1: "Emergency Board-Up and Tarping in Wellesley"
+meta_description: "Emergency board-up and tarping in Wellesley, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "emergency board-up and tarping wellesley"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Wellesley? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Wellesley's housing stock, a dense mix of late-Victorian Colonials, early-twentieth-century Tudors, and postwar Capes, sits under mature tree canopy that looks beautiful until a nor'easter or summer microburst sends a limb through a roof or a bay window. When that happens, the gap between the moment of impact and the arrival of a board-up crew is the window during which rain, wind, and opportunistic intruders do their worst. Quality Contracting, Inc. dispatches from Auburn and can reach Wellesley to get openings sealed and vulnerable roof sections tarped before secondary damage compounds the original loss.
 
 ## Why Wellesley Properties See Board-Up and Tarping Needs

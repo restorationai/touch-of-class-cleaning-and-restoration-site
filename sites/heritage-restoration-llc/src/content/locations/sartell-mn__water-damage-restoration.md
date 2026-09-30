@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Sartell, MN | Heritage Restoration LLC"
-h1: "Water Damage Restoration in Sartell"
-meta_description: "Water damage restoration in Sartell, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in Sartell, MN | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in Sartell"
+meta_description: "Emergency water damage restoration in Sartell, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration sartell"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Sartell? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Sartell sits at the confluence of the Mississippi and Sauk rivers, and that geography does more than make for scenic riverfront views, it means the water table in many parts of town sits close enough to the surface that a slow pipe leak or a heavy melt can push moisture into crawl spaces and slab edges before a homeowner notices anything is wrong. When water gets into a Sartell home, the clock starts immediately: mold can begin colonizing saturated framing within 24 to 48 hours, and Minnesota's freeze-thaw cycles mean a damp subfloor in October can become a buckled, contaminated mess by spring.
 
 ## Why Sartell Properties See Water Damage Issues

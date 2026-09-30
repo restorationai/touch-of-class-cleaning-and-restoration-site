@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Sandy Valley, NV | Life Savers Restoration LLC"
-h1: "Ceiling Water Damage Repair in Sandy Valley"
-meta_description: "24/7 ceiling water damage repair in Sandy Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
+title: "Emergency Ceiling Water Damage Repair in Sandy Valley, NV | Life Savers Restoration LLC"
+h1: "24/7 Emergency Ceiling Water Damage Repair in Sandy Valley"
+meta_description: "24/7 emergency ceiling water damage repair in Sandy Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
 primary_keyword: "ceiling water damage repair sandy valley"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Canton, SD | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Canton"
-meta_description: "Fire damage restoration in Canton, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Canton, SD | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Canton"
+meta_description: "Emergency fire damage restoration in Canton, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration canton"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Canton? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When a house fire tears through a home near the Big Sioux River, the damage rarely stops at the charred walls. Smoke travels fast through older construction, seeping into plaster, settling into wood framing, and embedding in the kind of century-old millwork that defines so much of Canton's residential character. Crew Restoration & Construction responds to fire damage in Canton (57013) with a full-scope approach: structural assessment, smoke and soot removal, odor neutralization, and reconstruction, so you're not managing five different contractors while your home sits open to the elements.
 
 ## Why Canton Properties Face Particular Challenges After a Fire

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Berwyn, IL | Dry Bros Water & Fire Restoration"
-h1: "Sewage Cleanup and Sanitization in Berwyn"
-meta_description: "Sewage cleanup and sanitization in Berwyn, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Berwyn, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Berwyn"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Berwyn, IL. Insurance billing accepted. Call us now."
 primary_keyword: "sewage cleanup and sanitization berwyn"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Berwyn? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Berwyn's aging sewer infrastructure and its dense stock of brick bungalows and two-flats, most built between the 1910s and 1950s, create conditions where a single heavy rain or a root-infiltrated lateral line can push raw sewage back through a basement floor drain before a homeowner realizes what's happening. When that happens, the clock matters: Category 3 "black water" begins contaminating porous materials within hours, and the odor that saturates concrete block walls is not something a mop and bleach will resolve. Dry Bros Water & Fire Restoration responds to sewage backup situations throughout Berwyn and the surrounding Cook County corridor, handling everything from raw sewage removal to full sanitization and structural drying.
 
 ## Why Berwyn Homes Are Particularly Vulnerable to Sewer Backups

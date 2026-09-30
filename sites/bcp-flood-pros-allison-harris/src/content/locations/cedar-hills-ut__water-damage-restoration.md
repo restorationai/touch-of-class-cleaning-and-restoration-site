@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Cedar Hills, UT | FIX Restoration"
-h1: "Water Damage Restoration in Cedar Hills"
-meta_description: "Water damage restoration in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Damage Restoration in Cedar Hills, UT | FIX Restoration"
+h1: "Emergency Water Damage Restoration in Cedar Hills"
+meta_description: "Emergency water damage restoration in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water damage restoration cedar hills"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Cedar Hills? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Cedar Hills sits at the foot of the Wasatch Range where snowmelt and spring runoff push hard against foundations every year, and when a supply line bursts or a sump pump fails during a thaw, water moves fast through finished basements and crawl spaces before most homeowners realize what is happening. FIX Restoration has been responding to water losses across northern Utah County since 2012, and the conditions here, the clay-heavy soils, the freeze-thaw cycles, and the newer construction that still carries its share of plumbing surprises, shape how we approach every job in this city.
 
 ## Why Cedar Hills Properties See Water Damage

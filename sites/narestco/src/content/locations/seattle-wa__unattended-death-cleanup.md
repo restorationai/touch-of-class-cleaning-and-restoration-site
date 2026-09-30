@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Unattended Death Cleanup in Seattle, WA | National Restoration Construction"
-h1: "Unattended Death Cleanup in Seattle"
-meta_description: "24/7 unattended death cleanup in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Unattended Death Cleanup in Seattle, WA | National Restoration Construction"
+h1: "24/7 Emergency Unattended Death Cleanup in Seattle"
+meta_description: "24/7 emergency unattended death cleanup in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "unattended death cleanup seattle"
 secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased estate cleanup", "odor removal after death", "discreet death cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Unattended Death Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Seattle? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Seattle's older housing stock creates a particular challenge when a death goes undiscovered for days or weeks. In craftsman bungalows across Ballard and the wood-framed Tudors common in Queen Anne, porous subfloor materials, plaster walls, and unventilated crawlspaces allow biological contamination to migrate far beyond the visible surface, sometimes into wall cavities or the structural framing beneath. National Restoration Construction has handled unattended death cleanup across the Seattle metro since 2004, responding with the discretion and technical depth these situations require.
 
 ## Why Seattle's Building Stock Complicates Decomposition Cleanup

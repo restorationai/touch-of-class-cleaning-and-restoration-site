@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Imperial, TX | ACS Enterprise "
-h1: "Water Damage Restoration in Imperial"
-meta_description: "Water damage restoration in Imperial, TX. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Water Damage Restoration in Imperial, TX | ACS Enterprise "
+h1: "Emergency Water Damage Restoration in Imperial"
+meta_description: "Emergency water damage restoration in Imperial, TX. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "water damage restoration imperial"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Imperial? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Imperial sits in the heart of the Permian Basin, where the same arid climate that keeps rainfall totals low can make a sudden pipe failure or flash flood all the more damaging. When water does appear inside a West Texas home, whether from a supply line that cracked under the temperature swings between a cold January night and a warm afternoon, or from a washing machine connection that finally gave out, it moves fast through slab-on-grade construction and finds every low point before you have a chance to react. ACS Enterprise responds to water damage calls in Imperial and the surrounding Midland County area, handling extraction, structural drying, and cleanup so the loss stays contained.
 
 ## Why Imperial Properties See Water Damage Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Shelby Township, MI | Flood Solutions inc"
-h1: "Flood Damage Restoration in Shelby Township"
-meta_description: "Flood damage restoration in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Flood Damage Restoration in Shelby Township, MI | Flood Solutions inc"
+h1: "Emergency Flood Damage Restoration in Shelby Township"
+meta_description: "Emergency flood damage restoration in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "flood damage restoration shelby township"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "flood-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Shelby Township? Call now for emergency service.** Our crew responds fast to pump out the water and stop the damage from spreading.
+
 Shelby Township sits on a broad clay-heavy plain in Macomb County where spring snowmelt and summer thunderstorms have nowhere fast to go. When a storm backs up a floor drain or a sump pump fails during a hard rain, the water that pools in a basement or crawl space is not just an inconvenience, it starts working against your home's structure within hours. Flood Solutions Inc. has been responding to residential flood damage across Macomb County since 1996, and the soil and drainage patterns here shape every step of how we approach a cleanup.
 
 ## Why Shelby Township Properties See Flood Damage Issues

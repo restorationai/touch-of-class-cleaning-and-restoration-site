@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Burst Pipe Cleanup and Repair in American Fork | FIX Restoration"
-h1: "Burst Pipe Cleanup and Repair in American Fork"
-meta_description: "Burst pipe cleanup and repair in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Burst Pipe Cleanup and Repair in American Fork | FIX Restoration"
+h1: "Emergency Burst Pipe Cleanup and Repair in American Fork"
+meta_description: "Emergency burst pipe cleanup and repair in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "burst pipe cleanup and repair american fork"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"

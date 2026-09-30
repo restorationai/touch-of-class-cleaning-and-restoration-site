@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Biloxi, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Biloxi"
-meta_description: "Sewage cleanup and sanitization in Biloxi, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Biloxi, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Biloxi"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Biloxi, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization biloxi"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Biloxi? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Biloxi sits at sea level on a narrow peninsula between the Back Bay and the Gulf of Mexico, and that geography shapes everything about how sewage problems behave here. When a sewer line backs up or a septic system overflows in this environment, the contaminated water has nowhere to drain, it pools under slabs, saturates the sandy coastal soil, and wicks into wall cavities faster than in inland Mississippi cities. HomeLyft Restoration MS responds to sewage backup cleanup calls throughout Biloxi, bringing the extraction equipment, EPA-registered disinfectants, and IICRC-certified process needed to make a Category 3 loss safe again.
 
 ## Why Biloxi Properties Experience Sewage Backups More Than You'd Expect

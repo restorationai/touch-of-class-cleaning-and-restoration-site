@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Tacoma, WA | National Restoration Construction"
-h1: "Water Damage Restoration in Tacoma"
-meta_description: "24/7 water damage restoration in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Water Damage Restoration in Tacoma, WA | National Restoration Construction"
+h1: "24/7 Emergency Water Damage Restoration in Tacoma"
+meta_description: "24/7 emergency water damage restoration in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "water damage restoration tacoma"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Tacoma? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 A pipe burst behind your drywall. The dishwasher line let go overnight. A backed-up storm drain pushed water under your crawl space door. Whatever happened, you're standing in it right now, and every hour that passes, the damage gets worse. National Restoration Construction dispatches from Federal Way, which puts most of Tacoma within a 60–90 minute response window, often faster depending on where you are in the city. If you're in the Hilltop, South Tacoma, or Stadium District, we're frequently on-site in under an hour.
 
 ## Why Tacoma Properties Face Water Damage Emergencies

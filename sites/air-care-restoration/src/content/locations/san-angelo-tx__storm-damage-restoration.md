@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in San Angelo, TX | Air Care Restoration"
-h1: "Storm Damage Restoration in San Angelo"
-meta_description: "24/7 storm damage restoration in San Angelo, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Storm Damage Restoration in San Angelo, TX | Air Care Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in San Angelo"
+meta_description: "24/7 emergency storm damage restoration in San Angelo, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "storm damage restoration san angelo"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in San Angelo? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 West Texas storms don't announce themselves politely. San Angelo sits in a region where supercell thunderstorms can drop baseball-sized hail, spin up brief but violent tornadoes, and push straight-line winds that strip roofing in seconds, sometimes all in the same afternoon. When that kind of weather moves through Tom Green County, the damage it leaves behind ranges from shattered windows and torn fascia to structural compromise that isn't visible until water has already been working inside your walls for hours.
 
 ## Why San Angelo Properties See Significant Storm Damage

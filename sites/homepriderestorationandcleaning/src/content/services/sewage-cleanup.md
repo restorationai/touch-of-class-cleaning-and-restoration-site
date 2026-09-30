@@ -1,9 +1,9 @@
 ---
 hero: '/images/services/sewage-cleanup.webp'
 archetype: "service-landing"
-title: "Sewage Cleanup and Sanitization in Saratoga Springs | Home Pride Restoration and Cleaning"
-h1: "Sewage Cleanup and Sanitization in Saratoga Springs"
-meta_description: "24/7 sewage cleanup and sanitization in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "Emergency Sewage Cleanup and Sanitization in Saratoga Springs | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Saratoga Springs"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "sewage cleanup and sanitization saratoga springs"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -18,6 +18,9 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Saratoga Springs? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 A sewer line backs up and raw sewage surfaces in your basement drain at 11 p.m. By morning, Category 3 black water, carrying fecal coliform, hepatitis-risk pathogens, and aerosolized contaminants, has soaked into the concrete slab, wicked up drywall, and saturated any porous material within reach. Every hour that passes widens the affected zone and deepens the remediation scope. This is not a shop-vac-and-bleach situation. Sewage cleanup requires containment, extraction with the right equipment, hospital-grade disinfection, and documented clearance, in that order.
 
 ## What sewage cleanup and sanitization actually involves

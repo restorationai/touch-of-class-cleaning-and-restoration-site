@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Summit, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Summit"
-meta_description: "24/7 smoke damage restoration in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Smoke Damage Restoration in Summit, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Summit"
+meta_description: "24/7 emergency smoke damage restoration in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "smoke damage restoration summit"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Summit? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 Smoke doesn't stop at the room where the fire started. In Summit's older homes, many of them built between 1890 and the 1930s with plaster walls, deep pocket doors, and interconnected radiator systems, smoke travels through wall cavities, up pipe chases, and into finished basements before the fire department has even cleared the scene. By the time you're standing in your kitchen on Springfield Avenue or in a Northside Colonial trying to figure out what to do next, odor molecules and soot particles have already settled into millwork, hardwood floors, and the horsehair plaster that makes these homes worth what they are. Getting that out requires more than airing out windows, it requires a structured, chemical-specific process that accounts for what Summit's housing stock is actually made of.
 
 ## Why Summit's Older Homes Complicate Smoke Damage

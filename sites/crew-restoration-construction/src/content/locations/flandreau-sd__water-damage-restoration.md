@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Flandreau, SD | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Flandreau"
-meta_description: "Water damage restoration in Flandreau, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Flandreau, SD | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Flandreau"
+meta_description: "Emergency water damage restoration in Flandreau, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration flandreau"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

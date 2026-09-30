@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Struthers, OH | DISS Restoration"
-h1: "Burst Pipe Cleanup and Repair in Struthers"
-meta_description: "24/7 burst pipe cleanup and repair in Struthers, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "Emergency Burst Pipe Cleanup and Repair in Struthers, OH | DISS Restoration"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Struthers"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Struthers, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "burst pipe cleanup and repair struthers"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

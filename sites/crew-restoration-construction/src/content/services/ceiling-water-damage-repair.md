@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Ceiling Water Damage Repair in Sioux Falls | Crew Restoration & Construction"
-h1: "Ceiling Water Damage Repair in Sioux Falls"
-meta_description: "Ceiling water damage repair in Sioux Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Ceiling Water Damage Repair in Sioux Falls | Crew Restoration & Construction"
+h1: "Emergency Ceiling Water Damage Repair in Sioux Falls"
+meta_description: "Emergency ceiling water damage repair in Sioux Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "ceiling water damage repair sioux falls"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "ceiling-water-damage-repair"
 service_display: "Ceiling Water Damage Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water coming through the ceiling in Sioux Falls? Call now for emergency service.** Our crew responds fast to stop the leak damage and start drying.
+
 A brown ring spreading across drywall, a soft spot that gives slightly when you press it, or water actually dripping from a light fixture: these are the moments that send homeowners searching at 11pm. Ceiling water damage rarely stays where it starts. Gravity pulls moisture along joists and through insulation before it ever shows on the surface, which means the stain you're looking at is usually smaller than the wet area above it. Ignoring a sagging ceiling water damage patch for even a few days raises the risk of collapse, electrical hazard, and mold colonizing the wet gypsum and framing.
 
 ## What Ceiling Water Damage Repair actually involves

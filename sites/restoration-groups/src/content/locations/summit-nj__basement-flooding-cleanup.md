@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Summit, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in Summit"
-meta_description: "24/7 basement flooding cleanup in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Basement Flooding Cleanup in Summit, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Summit"
+meta_description: "24/7 emergency basement flooding cleanup in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "basement flooding cleanup summit"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Summit? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 Summit's steep hillside lots and century-old housing stock create a basement flooding pattern that's unlike anything you'd find in the flatter towns to the east. When a clay sewer lateral backs up beneath a 1910 Colonial near the Franklin School area, or a supply line bursts inside an uninsulated wall during a January freeze, the water doesn't just sit on a concrete slab, it soaks into original plaster, wicks up into heart-pine framing, and threatens the kind of built-in millwork and hardwood flooring that simply cannot be replaced with a box-store equivalent. The Restoration Group responds 24/7 to flooded basements throughout Summit, ZIP code 07901, with the equipment and care that high-value older homes demand.
 
 ## Why Summit Basements Flood Differently Than Neighboring Towns

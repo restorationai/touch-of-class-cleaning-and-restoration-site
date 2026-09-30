@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Brooklyn, NY | The Restoration Group"
-h1: "Storm Damage Restoration in Brooklyn"
-meta_description: "24/7 storm damage restoration in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Storm Damage Restoration in Brooklyn, NY | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Brooklyn"
+meta_description: "24/7 emergency storm damage restoration in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "storm damage restoration brooklyn"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NY"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Brooklyn? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 When a nor'easter stalls over the harbor or a late-season tropical system pushes a surge up Gravesend Bay, Brooklyn takes the hit differently than almost anywhere else in the metro area. The borough's mix of 1880s–1920s masonry rowhouses, garden-level apartments, and low-lying coastal blocks from Canarsie to Coney Island means storm damage here isn't just about broken windows, it's about water finding its way into century-old cellar apartments, wind-lifted slate roofing on brownstone cornices, and saturated party walls that belong, legally, to two neighbors at once. The Restoration Group responds 24/7 to storm damage calls across Brooklyn, with an IICRC Certified Firm (#210213) crew that understands what these buildings are and what they're worth.
 
 ## Why Brooklyn Properties Take Storm Damage Hard

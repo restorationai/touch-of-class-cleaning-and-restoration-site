@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Unattended Death Cleanup in Federal Way | National Restoration Construction"
-h1: "Unattended Death Cleanup in Federal Way"
-meta_description: "24/7 unattended death cleanup in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Unattended Death Cleanup in Federal Way | National Restoration Construction"
+h1: "24/7 Emergency Unattended Death Cleanup in Federal Way"
+meta_description: "24/7 emergency unattended death cleanup in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "unattended death cleanup federal way"
 secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased estate cleanup", "odor removal after death", "discreet death cleanup"]
 search_intent: "local_sensitive"
@@ -17,6 +17,9 @@ service_slug: "unattended-death-cleanup"
 service_display: "Unattended Death Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Federal Way? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When a death goes undiscovered for days or weeks, the biological material left behind creates hazards that standard cleaning cannot address. Decomposition accelerates in warm or humid conditions, and in Western Washington's mild, damp climate, that process can begin within hours. By the time a family member, landlord, or property manager finds the scene, the affected area typically requires full biohazard remediation: not just surface cleaning, but the removal of contaminated materials, enzymatic treatment of porous substrates, and professional odor neutralization that reaches behind walls and under flooring.
 
 ## What unattended death cleanup actually involves

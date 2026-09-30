@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Lompoc, CA | Coastal Restoration Services Inc"
-h1: "Storm Damage Restoration in Lompoc"
-meta_description: "Storm damage restoration in Lompoc, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Storm Damage Restoration in Lompoc, CA | Coastal Restoration Services Inc"
+h1: "Emergency Storm Damage Restoration in Lompoc"
+meta_description: "Emergency storm damage restoration in Lompoc, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "storm damage restoration lompoc"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Lompoc? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Lompoc sits in a coastal valley where the Santa Ynez Mountains funnel offshore winds into the city with surprising force, the same topography that makes the flower fields beautiful in spring can drive debris-laden gusts through neighborhoods with little warning. When a storm tears off roof flashing, drops a eucalyptus limb through a garage, or drives rain sideways into window seals that were never designed for that angle of attack, the damage compounds fast. Coastal Restoration Services Inc is based in nearby Vandenberg Village and knows this stretch of Santa Barbara County's weather patterns well.
 
 ## Why Lompoc Properties See Elevated Storm Damage Risk

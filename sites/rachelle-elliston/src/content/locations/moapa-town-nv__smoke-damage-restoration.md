@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Moapa Town, NV | Desert Valley Contracting Inc "
-h1: "Smoke Damage Restoration in Moapa Town"
-meta_description: "24/7 smoke damage restoration in Moapa Town, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+title: "24/7 Emergency Smoke Damage Restoration in Moapa Town, NV | Desert Valley Contracting Inc "
+h1: "24/7 Emergency Smoke Damage Restoration in Moapa Town"
+meta_description: "24/7 emergency smoke damage restoration in Moapa Town, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "smoke damage restoration moapa town"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

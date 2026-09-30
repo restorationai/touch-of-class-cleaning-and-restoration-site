@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Nelson, NV | Desert Valley Contracting Inc "
-h1: "Fire Damage Restoration in Nelson"
-meta_description: "24/7 fire damage restoration in Nelson, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+title: "24/7 Emergency Fire Damage Restoration in Nelson, NV | Desert Valley Contracting Inc "
+h1: "24/7 Emergency Fire Damage Restoration in Nelson"
+meta_description: "24/7 emergency fire damage restoration in Nelson, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "fire damage restoration nelson"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

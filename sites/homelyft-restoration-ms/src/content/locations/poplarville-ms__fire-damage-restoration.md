@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Poplarville, MS | HomeLyft Restoration MS"
-h1: "Fire Damage Restoration in Poplarville"
-meta_description: "Fire damage restoration in Poplarville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Fire Damage Restoration in Poplarville, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Fire Damage Restoration in Poplarville"
+meta_description: "24/7 emergency fire damage restoration in Poplarville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "fire damage restoration poplarville"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Poplarville? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 When fire moves through a home in Poplarville, it rarely travels alone. The humid Gulf Coast air that hangs over Pearl River County year-round means smoke residue clings harder, odors penetrate deeper into wood framing and insulation, and secondary moisture damage from firefighting water can begin within hours, sometimes before the fire marshal has cleared the property. HomeLyft Restoration MS holds IICRC FSRT (Fire & Smoke Restoration) certification and responds to fire damage calls across Poplarville and the surrounding Pearl River County area, bringing the equipment and documentation needed to move a family from crisis to recovery.
 
 ## Why Poplarville Properties Face Distinct Fire Damage Challenges

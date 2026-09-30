@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Pacific, WA | National Restoration Construction"
-h1: "Emergency Board-Up and Tarping in Pacific"
+title: "24/7 Emergency Board-Up and Tarping in Pacific, WA | National Restoration Construction"
+h1: "24/7 Emergency Board-Up and Tarping in Pacific"
 meta_description: "24/7 emergency board-up and tarping in Pacific, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "emergency board-up and tarping pacific"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

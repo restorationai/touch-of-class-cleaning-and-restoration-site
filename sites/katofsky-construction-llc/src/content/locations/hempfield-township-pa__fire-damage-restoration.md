@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Hempfield Township, PA | Katofsky Construction LLC"
-h1: "Fire Damage Restoration in Hempfield Township"
-meta_description: "24/7 fire damage restoration in Hempfield Township, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "Emergency Fire Damage Restoration in Hempfield Township, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Fire Damage Restoration in Hempfield Township"
+meta_description: "24/7 emergency fire damage restoration in Hempfield Township, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "fire damage restoration hempfield township"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Hempfield Township? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Hempfield Township sits in Westmoreland County where older residential neighborhoods blend with newer suburban development, and when fire moves through a home here, the damage rarely stops at the charred walls. Smoke travels fast through the connected floor plans common in the township's mid-century ranch and split-level stock, and the cold Pennsylvania winters mean a structure left open after a fire loses heat quickly, compounding the timeline pressure on everything from structural drying to odor control. Katofsky Construction LLC responds to fire damage calls in Hempfield Township around the clock, handling cleanup, smoke remediation, and structural stabilization from our Pittsburgh base.
 
 ## Why Hempfield Township Homes Present Specific Fire Damage Challenges

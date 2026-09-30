@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Woodbridge, NJ | The Restoration Group"
-h1: "Biohazard Cleanup in Woodbridge"
-meta_description: "24/7 biohazard cleanup in Woodbridge, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Biohazard Cleanup in Woodbridge, NJ | The Restoration Group"
+h1: "24/7 Emergency Biohazard Cleanup in Woodbridge"
+meta_description: "24/7 emergency biohazard cleanup in Woodbridge, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "biohazard cleanup woodbridge"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Woodbridge? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to handle the cleanup with discretion and care.
+
 Woodbridge Township carries a quiet weight that most people outside of it never see, the postwar split-levels in Colonia, the aging colonials near Fords, the finished basements that generations of families have called home. When something traumatic happens inside one of those homes, the last thing anyone should have to manage is the cleanup. Biohazard remediation in Woodbridge requires more than gloves and a mop; it requires proper containment, regulated disposal, and a team that understands both the sensitivity of the situation and the specific character of the properties where it happens.
 
 ## Why Woodbridge Properties Present Unique Biohazard Considerations

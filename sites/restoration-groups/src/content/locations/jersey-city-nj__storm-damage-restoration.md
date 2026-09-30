@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Jersey City, NJ | The Restoration Group"
-h1: "Storm Damage Restoration in Jersey City"
-meta_description: "24/7 storm damage restoration in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Storm Damage Restoration in Jersey City, NJ | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Jersey City"
+meta_description: "24/7 emergency storm damage restoration in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "storm damage restoration jersey city"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Jersey City? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 When a nor'easter or a fast-moving summer storm rolls through Hudson County, Jersey City takes the hit differently than most of New Jersey. The waterfront blocks around Exchange Place and Newport sit at near-sea-level elevation, and the older rowhouse neighborhoods climbing toward The Heights carry decades of deferred drainage infrastructure. That combination, low-lying exposure plus aging building stock, means storm damage here often arrives in layers: wind-driven rain through failing window flashing, then water tracking down interior walls, then basement flooding from a combined sewer that simply can't move the volume fast enough. The Restoration Group responds 24/7 and can be on-site to begin assessment the same day you call.
 
 ## Why Jersey City Properties Are Especially Vulnerable to Storm Damage

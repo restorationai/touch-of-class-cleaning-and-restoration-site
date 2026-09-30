@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Bellevue, WA | National Restoration Construction"
-h1: "Frozen Pipe Restoration in Bellevue"
-meta_description: "24/7 frozen pipe restoration in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Frozen Pipe Restoration in Bellevue, WA | National Restoration Construction"
+h1: "24/7 Emergency Frozen Pipe Restoration in Bellevue"
+meta_description: "24/7 emergency frozen pipe restoration in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "frozen pipe restoration bellevue"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Bellevue? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 When temperatures drop below freezing and a pipe lets go inside your Bellevue home, the clock starts immediately. Water from a burst or thawed pipe can saturate drywall, soak subfloor sheathing, and begin working toward mold colonization in as little as 24–48 hours. If you're standing in a wet room right now, or you just found a ceiling stain after last night's cold snap, this page is for you.
 
 National Restoration Construction has been responding to water emergencies across the greater Seattle metro since 2004. Our Federal Way headquarters puts us roughly 20–30 minutes from most of Bellevue, and we keep crews staged for rapid dispatch so that most callers in the area see a technician on-site within 60–90 minutes of their first contact.

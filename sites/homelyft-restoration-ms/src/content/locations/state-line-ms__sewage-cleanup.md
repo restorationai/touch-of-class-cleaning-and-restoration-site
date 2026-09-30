@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in State Line, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in State Line"
-meta_description: "Sewage cleanup and sanitization in State Line, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "Emergency Sewage Cleanup and Sanitization in State Line, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in State Line"
+meta_description: "24/7 emergency sewage cleanup and sanitization in State Line, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization state line"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in State Line? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 State Line sits on the Mississippi-Alabama border where the soil shifts between dense clay and sandy loam depending on which side of the county line you're on, and that soil profile matters when a sewer line backs up or a septic system overflows. Clay-heavy ground doesn't absorb overflow the way sandy soil does; it pools, it migrates under slabs, and it pushes contaminated water into crawl spaces and subfloors faster than most homeowners expect. When raw sewage surfaces inside a home in State Line, the clock starts immediately, bacterial colonization in standing sewage begins within hours, not days.
 
 ## Why State Line Properties See Sewage Backup Problems

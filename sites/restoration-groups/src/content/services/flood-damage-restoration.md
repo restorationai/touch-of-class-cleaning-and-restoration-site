@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Flood Damage Restoration in Kenilworth | The Restoration Group"
-h1: "Flood Damage Restoration in Kenilworth"
-meta_description: "24/7 flood damage restoration in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Flood Damage Restoration in Kenilworth | The Restoration Group"
+h1: "24/7 Emergency Flood Damage Restoration in Kenilworth"
+meta_description: "24/7 emergency flood damage restoration in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "flood damage restoration kenilworth"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

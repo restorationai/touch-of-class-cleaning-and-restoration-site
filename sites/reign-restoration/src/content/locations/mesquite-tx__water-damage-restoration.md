@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Mesquite, TX | Reign Restoration"
-h1: "Water Damage Restoration in Mesquite"
-meta_description: "Water damage restoration in Mesquite, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Water Damage Restoration in Mesquite, TX | Reign Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Mesquite"
+meta_description: "24/7 emergency water damage restoration in Mesquite, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "water damage restoration mesquite"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Mesquite? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Mesquite sits on the eastern edge of the Dallas–Fort Worth Metroplex, where the expansive clay soils that dominate Dallas County can shift dramatically with moisture, and when a water line fails or a storm backs up a floor drain, that same soil behavior means standing water doesn't just threaten your flooring, it can accelerate foundation movement within days. Reign Restoration responds to water damage calls across Mesquite, bringing IICRC-certified water damage technicians and commercial-grade drying equipment to homes and businesses that can't afford to wait.
 
 ## Why Mesquite Properties See Water Damage Issues

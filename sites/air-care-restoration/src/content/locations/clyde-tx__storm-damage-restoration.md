@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Clyde, TX | Air Care Restoration"
-h1: "Storm Damage Restoration in Clyde"
-meta_description: "24/7 storm damage restoration in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Storm Damage Restoration in Clyde, TX | Air Care Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Clyde"
+meta_description: "24/7 emergency storm damage restoration in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "storm damage restoration clyde"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Clyde? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 West Texas storms don't announce themselves politely. In Clyde, the same open-range geography that makes Callahan County's skies so wide also means there's nothing to slow a supercell down before it arrives over your roof. Hail the size of golf balls, straight-line winds that peel back soffit venting, and the occasional tornado touchdown are seasonal realities here, and when a storm passes through, the damage it leaves behind starts compounding within hours, not days.
 
 ## Why Clyde Properties Are Particularly Vulnerable to Storm Damage

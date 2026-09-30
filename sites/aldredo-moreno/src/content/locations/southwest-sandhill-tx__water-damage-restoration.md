@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Southwest Sandhill, TX | ACS Enterprise "
-h1: "Water Damage Restoration in Southwest Sandhill"
-meta_description: "Water damage restoration in Southwest Sandhill, TX. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Water Damage Restoration in Southwest Sandhill, TX | ACS Enterprise "
+h1: "Emergency Water Damage Restoration in Southwest Sandhill"
+meta_description: "Emergency water damage restoration in Southwest Sandhill, TX. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "water damage restoration southwest sandhill"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Southwest Sandhill? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Southwest Sandhill sits in the Permian Basin, where the ground is predominantly caliche and clay-heavy soil that drains poorly after a hard rain. When a pipe bursts or a storm pushes water under a door, that moisture has nowhere to go quickly, and it finds its way into slab foundations, subfloors, and wall cavities faster than most homeowners expect. ACS Enterprise responds to water damage calls in Southwest Sandhill and the surrounding Midland County area, handling everything from initial water extraction through structural drying so the damage stops where it started.
 
 ## Why Southwest Sandhill Properties See Water Damage Issues

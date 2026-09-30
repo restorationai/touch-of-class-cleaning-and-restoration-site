@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Appliance Leak Cleanup in Federal Way | National Restoration Construction"
-h1: "Appliance Leak Cleanup in Federal Way"
-meta_description: "24/7 appliance leak cleanup in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Appliance Leak Cleanup in Federal Way | National Restoration Construction"
+h1: "24/7 Emergency Appliance Leak Cleanup in Federal Way"
+meta_description: "24/7 emergency appliance leak cleanup in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "appliance leak cleanup federal way"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "appliance-leak-cleanup"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Federal Way? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A slow drip behind the refrigerator. A puddle spreading across the laundry room floor. The faint warping of hardwood near the dishwasher. Appliance leaks rarely announce themselves loudly, but the damage they leave behind is anything but quiet. National Restoration Construction responds to appliance leak calls across Federal Way and the surrounding region, extracting standing water, drying out structural materials, and stopping secondary damage before it compounds into a much larger problem.
 
 ## How we handle appliance leak cleanup

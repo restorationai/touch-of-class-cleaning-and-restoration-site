@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Salem, SD | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Salem"
-meta_description: "Storm damage restoration in Salem, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Salem, SD | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Salem"
+meta_description: "Emergency storm damage restoration in Salem, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration salem"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Salem? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 When a severe storm rolls through McCook County, Salem feels it differently than the bigger cities to the east. The open prairie along the I-90 corridor gives thunderstorms and straight-line winds almost nothing to slow them down before they hit rooftops, siding, and the older tree canopy shading Downtown Salem. Hail that might dent a car in Sioux Falls can strip shingles down to the decking here, and a single overnight storm can leave a home in the 57058 ZIP code with water pushing through compromised flashing before the sun comes up.
 
 ## Why Salem Properties See Serious Storm Damage

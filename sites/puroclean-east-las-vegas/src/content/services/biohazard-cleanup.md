@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Biohazard Cleanup in Las Vegas | PuroClean of East Las Vegas"
-h1: "Biohazard Cleanup in Las Vegas"
-meta_description: "Biohazard cleanup in Las Vegas and surrounding areas. Insurance billing accepted. Call +17025513040."
+title: "Emergency Biohazard Cleanup in Las Vegas | PuroClean of East Las Vegas"
+h1: "Emergency Biohazard Cleanup in Las Vegas"
+meta_description: "Emergency biohazard cleanup in Las Vegas and surrounding areas. Insurance billing accepted. Call +17025513040."
 primary_keyword: "biohazard cleanup las vegas"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -17,6 +17,9 @@ service_slug: "biohazard-cleanup"
 service_display: "Biohazard Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Las Vegas? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 When something traumatic happens inside a home or property, an unattended death, a crime scene, a serious injury, the visible aftermath is only part of the problem. Bloodborne pathogens, bodily fluids, and other infectious materials can penetrate porous surfaces like subfloor, drywall, and carpet padding well beyond what the eye can see. Standard cleaning products and household disinfectants are not rated for this work. What the situation requires is a structured, regulated remediation process carried out by trained technicians with the right personal protective equipment, EPA-registered disinfectants, and a licensed pathway for disposing of regulated biological waste.
 
 ## What biohazard cleanup actually involves

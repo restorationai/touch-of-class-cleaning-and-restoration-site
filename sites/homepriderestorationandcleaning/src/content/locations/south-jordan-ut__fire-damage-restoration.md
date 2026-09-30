@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in South Jordan, UT | Home Pride Restoration and Cleaning"
-h1: "Fire Damage Restoration in South Jordan"
-meta_description: "24/7 fire damage restoration in South Jordan, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Fire Damage Restoration in South Jordan, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Fire Damage Restoration in South Jordan"
+meta_description: "24/7 emergency fire damage restoration in South Jordan, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "fire damage restoration south jordan"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in South Jordan? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 When a kitchen fire tears through a South Jordan home on a dry July afternoon, the kind of day when Utah's low humidity means smoke travels fast and soot embeds deep into porous stucco and engineered wood, the window for limiting permanent damage is measured in hours, not days. Home Pride Restoration and Cleaning has been responding to structural fire damage across the Salt Lake Valley since 1997, and the conditions specific to South Jordan's newer master-planned communities shape how we approach every job from the moment we arrive.
 
 ## Why South Jordan Properties Face Unique Fire Damage Challenges

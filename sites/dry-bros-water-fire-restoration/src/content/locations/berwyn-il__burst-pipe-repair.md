@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Berwyn, IL | Dry Bros Water & Fire Restoration"
-h1: "Burst Pipe Cleanup and Repair in Berwyn"
-meta_description: "Burst pipe cleanup and repair in Berwyn, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Berwyn, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Berwyn"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Berwyn, IL. Insurance billing accepted. Call us now."
 primary_keyword: "burst pipe cleanup and repair berwyn"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"

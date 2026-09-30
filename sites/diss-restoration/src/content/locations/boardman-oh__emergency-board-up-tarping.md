@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Boardman, OH | DISS Restoration"
-h1: "Emergency Board-Up and Tarping in Boardman"
+title: "24/7 Emergency Board-Up and Tarping in Boardman, OH | DISS Restoration"
+h1: "24/7 Emergency Board-Up and Tarping in Boardman"
 meta_description: "24/7 emergency board-up and tarping in Boardman, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "emergency board-up and tarping boardman"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

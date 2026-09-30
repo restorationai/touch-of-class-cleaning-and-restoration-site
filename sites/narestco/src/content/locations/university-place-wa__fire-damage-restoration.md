@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in University Place, WA | National Restoration Construction"
-h1: "Fire Damage Restoration in University Place"
-meta_description: "24/7 fire damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "Emergency Fire Damage Restoration in University Place, WA | National Restoration Construction"
+h1: "24/7 Emergency Fire Damage Restoration in University Place"
+meta_description: "24/7 emergency fire damage restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "fire damage restoration university place"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in University Place? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 When fire moves through one of University Place's 1960s or '70s split-levels, it doesn't just char the framing, it pressurizes the crawl space with superheated gases, drives smoke into every gap in the original fiberglass batt insulation, and leaves behind an oily residue that clings to the cedar paneling and textured ceilings that were standard in that era. By the time the Pierce County Fire District crews clear the scene, the clock is already running on secondary damage: soot continues to etch metal fixtures, smoke odor migrates into HVAC ductwork, and any water used to suppress the fire sits in the subfloor. National Restoration Construction reaches most University Place addresses within 90 minutes of your call to (206) 883-0333.
 
 ## Why University Place Homes Present Specific Fire Damage Challenges

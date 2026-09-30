@@ -161,6 +161,15 @@ Then ask: **"Ready to scaffold + render the site now? (yes / let me review the p
 
 This auto-chain is the key to the "minimal user interference" workflow. Skill 1 onboards. Skill 2 plans. Skill 2 auto-suggests skill 3. Skill 3 walks the rest of the launch.
 
+## Emergency naming (Santino 2026-09-30)
+
+URGENT services only: water damage restoration, emergency water removal, flood damage, burst pipe / leak, sewage cleanup, fire damage, smoke damage, storm damage, emergency board-up / tarping, biohazard / trauma, and emergency plumbing where the client is licensed for plumbing (plumbing vertical, a plumbing license type, or a license shared with a plumbing client).
+
+- Title tag + H1 lead with "24/7 Emergency" when plan-input `brand.hours` says 24/7, else "Emergency" ("24/7 Emergency Water Damage Restoration in {City}"). Never doubled. The headline before " | Brand" stays under ~60 chars: drop "24/7" first, then ", ST".
+- Meta description carries the same lead. The body opens with one emergency-response line (bold hook + call to act); "We answer 24/7" only on 24/7 truth, an on-site time only when `brand.response_minutes` is set, otherwise no number.
+- Not for non-urgent services (mold inspection/remediation unless the GBP/site already frames it as emergency, remodeling, carpet/upholstery, air ducts, GC, testing, insurance). Clients with explicit business hours that are not 24/7 (Davis) get none.
+- Code: `scripts/emergency_naming.py` (plan_site.py applies it to planned titles/H1s/metas; build_site.py render pins the opening line; `python3 scripts/emergency_naming.py --all --apply` re-applies to existing pages).
+
 ## Error handling
 
 - Surface the full script error message verbatim. The script is the source of truth on what's wrong.

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Elizabeth, NJ | The Restoration Group"
-h1: "Sewage Cleanup and Sanitization in Elizabeth"
-meta_description: "24/7 sewage cleanup and sanitization in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "Emergency Sewage Cleanup and Sanitization in Elizabeth, NJ | The Restoration Group"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Elizabeth"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "sewage cleanup and sanitization elizabeth"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Elizabeth? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to contain the contamination and start the cleanup.
+
 Elizabeth's combined sewer system, the kind where stormwater and sanitary waste share the same underground pipes, was built for a city half its current density. When heavy rain hits Union County, or when a corroded lateral under one of Elizabethport's century-old two-families finally gives way, that system backs up fast. Raw sewage surfaces in basements, laundry rooms, and first-floor units, and in a neighborhood where a single building houses three separate households, one backup can displace multiple families before noon. If that's happening at your property right now, call (908) 970-8533, the crew dispatches around the clock.
 
 ## Why Elizabeth Properties See Sewage Backup So Often

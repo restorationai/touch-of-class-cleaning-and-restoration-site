@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Rawls Springs, MS | HomeLyft Restoration MS"
-h1: "Water Damage Restoration in Rawls Springs"
-meta_description: "Water damage restoration in Rawls Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Water Damage Restoration in Rawls Springs, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Water Damage Restoration in Rawls Springs"
+meta_description: "24/7 emergency water damage restoration in Rawls Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "water damage restoration rawls springs"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Rawls Springs? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Rawls Springs sits in the hill country of Forrest County where the soil shifts between red clay and sandy loam, a combination that drains poorly after heavy rain and puts real stress on foundations, crawl spaces, and the older cast-iron or galvanized supply lines still common in homes throughout this part of Hattiesburg's northern fringe. When a pipe lets go or a storm backs water into a crawl space, the moisture doesn't just sit on the surface. It wicks into subfloor sheathing, travels along floor joists, and starts feeding mold colonies within 24 to 48 hours. HomeLyft Restoration MS responds to water damage calls across Rawls Springs with IICRC-certified technicians trained in water removal, structural drying, and full mitigation, stopping the clock on secondary damage before it compounds.
 
 ## Why Rawls Springs Properties Face Distinct Water Damage Risks

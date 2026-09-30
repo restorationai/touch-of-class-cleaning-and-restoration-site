@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in East Brunswick, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in East Brunswick"
-meta_description: "24/7 appliance leak cleanup in East Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Appliance Leak Cleanup in East Brunswick, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in East Brunswick"
+meta_description: "24/7 emergency appliance leak cleanup in East Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "appliance leak cleanup east brunswick"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in East Brunswick? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 A refrigerator ice maker line that drips for weeks behind the toe kick, a washing machine hose that finally lets go on a Saturday morning, a water heater that quietly pools across a utility room floor, appliance leaks in East Brunswick have a way of finding finished basements before anyone notices them. That matters here because the majority of the postwar ranches, split-levels, and colonials in neighborhoods like Frost Woods and Tanglewood were built with finished lower levels, meaning a slow leak from the floor above can saturate drywall, carpet padding, and framing long before the smell of mildew gives it away. The Restoration Group responds 24/7 and can be reached at (855) 650-7422 the moment you find standing water.
 
 ## Why East Brunswick Homes See Appliance Leaks More Than You'd Expect

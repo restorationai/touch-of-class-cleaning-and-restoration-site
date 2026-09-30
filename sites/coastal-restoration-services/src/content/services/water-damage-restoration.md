@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in Vandenberg Village | Coastal Restoration Services Inc"
-h1: "Water Damage Restoration in Vandenberg Village"
-meta_description: "Water damage restoration in Vandenberg Village and surrounding areas. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Water Damage Restoration in Vandenberg Village | Coastal Restoration Services Inc"
+h1: "Emergency Water Damage Restoration in Vandenberg Village"
+meta_description: "Emergency water damage restoration in Vandenberg Village and surrounding areas. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "water damage restoration vandenberg village"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Vandenberg Village? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 You noticed the wet carpet at 11 p.m. By morning, the padding underneath is saturated, the subfloor has absorbed enough moisture to begin swelling, and, if the source was a washing machine supply line or a dishwasher drain, the water has already crept behind the toe kicks and into the wall cavity behind the cabinetry. Water damage moves faster than most homeowners expect, and the window to stop it from becoming a structural or microbial problem is measured in hours, not days.
 
 ## What Water Damage Restoration actually involves

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Orange City, IA | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Orange City"
-meta_description: "Board-up and tarping in Orange City, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Orange City, IA | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Orange City"
+meta_description: "Emergency board-up and tarping in Orange City, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping orange city"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Orange City? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Orange City sits in the heart of northwest Iowa, where winters arrive hard and fast, a January ice storm or a late-spring hailstorm can shatter windows, peel back roofing, and leave your home or business exposed within hours. When that happens on a street near Windmill Park or anywhere else in the 51041 ZIP code, the gap between a broken window and a boarded one is the gap between a manageable repair and a gut-renovation. Crew Restoration & Construction dispatches board-up and tarping crews from Sioux Falls to protect Orange City properties before secondary damage, water intrusion, vandalism, and wind-driven debris, turns a bad situation into a catastrophic one.
 
 ## Why Orange City Properties Face Distinct Board-Up and Tarping Risks

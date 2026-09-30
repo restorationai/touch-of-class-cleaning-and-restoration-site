@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Crane, TX | ACS Enterprise "
-h1: "Water Damage Restoration in Crane"
-meta_description: "Water damage restoration in Crane, TX. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Water Damage Restoration in Crane, TX | ACS Enterprise "
+h1: "Emergency Water Damage Restoration in Crane"
+meta_description: "Emergency water damage restoration in Crane, TX. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "water damage restoration crane"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Crane? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Crane sits in the heart of the Permian Basin, where the same caliche-heavy soil that makes oil country famous also creates drainage conditions that work against homeowners when water intrudes. When a supply line fails or a storm pushes water under a door, that compacted, low-permeability ground has nowhere to send it fast, so moisture lingers beneath slabs and inside wall cavities longer than most people expect. ACS Enterprise responds to water damage calls throughout Crane and the surrounding Crane County area, bringing industrial extraction and structural drying equipment from our Midland base to get ahead of damage before it compounds.
 
 ## Why Crane Properties See Water Damage Issues

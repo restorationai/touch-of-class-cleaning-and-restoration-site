@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Merrill, IA | Crew Restoration & Construction"
-h1: "Ceiling Water Damage Repair in Merrill"
-meta_description: "Ceiling water damage repair in Merrill, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Ceiling Water Damage Repair in Merrill, IA | Crew Restoration & Construction"
+h1: "Emergency Ceiling Water Damage Repair in Merrill"
+meta_description: "Emergency ceiling water damage repair in Merrill, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "ceiling water damage repair merrill"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

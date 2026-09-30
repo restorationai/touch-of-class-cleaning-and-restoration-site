@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Middlesex | Go Green Restoration of NC"
-h1: "Fire Damage Restoration in Middlesex"
-meta_description: "24/7 fire damage restoration in Middlesex and surrounding areas. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Fire Damage Restoration in Middlesex | Go Green Restoration of NC"
+h1: "24/7 Emergency Fire Damage Restoration in Middlesex"
+meta_description: "24/7 emergency fire damage restoration in Middlesex and surrounding areas. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "fire damage restoration middlesex"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Middlesex? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Smoke doesn't stop at the burn line. After a house fire, soot travels through HVAC ducts, settles into closets two rooms away, and embeds in porous surfaces within hours. The smell you notice a week later, that sharp, oily residue clinging to walls and fabric, is protein or synthetic soot continuing to off-gas and etch finishes. Fire damage restoration isn't just cleaning what burned; it's tracing everywhere combustion byproducts traveled and reversing the damage before it becomes permanent.
 
 ## What fire damage restoration actually involves

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Anson, TX | Air Care Restoration"
-h1: "Smoke Damage Restoration in Anson"
-meta_description: "24/7 smoke damage restoration in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Smoke Damage Restoration in Anson, TX | Air Care Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in Anson"
+meta_description: "24/7 emergency smoke damage restoration in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "smoke damage restoration anson"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "smoke-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Anson? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Smoke damage in Anson rarely comes from a kitchen fire alone. Between grass fires that move fast across dry Jones County pastureland and the wind that pushes soot into attic vents and window units, homeowners here often smell smoke long before they see visible char. Air Care Restoration handles both structure fires and the lingering residue left behind when a nearby wildfire sends smoke drifting into a home that never actually burned.
 
 ## Why Anson Properties See Smoke Damage Issues

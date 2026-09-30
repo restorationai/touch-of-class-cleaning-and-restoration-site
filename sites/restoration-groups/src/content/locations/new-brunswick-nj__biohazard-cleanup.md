@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in New Brunswick, NJ | The Restoration Group"
-h1: "Biohazard Cleanup in New Brunswick"
-meta_description: "24/7 biohazard cleanup in New Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Biohazard Cleanup in New Brunswick, NJ | The Restoration Group"
+h1: "24/7 Emergency Biohazard Cleanup in New Brunswick"
+meta_description: "24/7 emergency biohazard cleanup in New Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "biohazard cleanup new brunswick"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in New Brunswick? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to handle the cleanup with discretion and care.
+
 When something traumatic or hazardous happens inside a New Brunswick home or apartment, in a dense rowhouse near Rutgers Village, a downtown high-rise, or a postwar unit in Edgebrook, the last thing a family or property manager needs is uncertainty about what comes next. Biohazard cleanup is not ordinary cleaning, and in a city where multifamily buildings, student rentals, and institutional neighbors create constant occupancy pressure, getting the space properly remediated and documented matters for everyone in the building, not just the affected unit.
 
 ## Why New Brunswick Properties Present Unique Biohazard Considerations

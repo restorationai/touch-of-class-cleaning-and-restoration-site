@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Storm Damage Restoration in Youngstown | DISS Restoration"
-h1: "Storm Damage Restoration in Youngstown"
-meta_description: "24/7 storm damage restoration in Youngstown and surrounding areas. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Storm Damage Restoration in Youngstown | DISS Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Youngstown"
+meta_description: "24/7 emergency storm damage restoration in Youngstown and surrounding areas. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "storm damage restoration youngstown"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Youngstown? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 A storm doesn't announce when it's finished damaging your home. The obvious destruction, a tree through the roof, a shattered window, siding peeled back to bare sheathing, is only the beginning. Within hours, wind-driven rain soaks into wall cavities, attic insulation, and subfloor decking. Within days, that hidden moisture becomes a mold problem. The clock starts the moment the storm passes, and the window for limiting secondary damage is narrow.
 
 ## What Storm Damage Restoration actually involves

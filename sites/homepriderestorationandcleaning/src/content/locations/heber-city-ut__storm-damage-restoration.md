@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Heber City, UT | Home Pride Restoration and Cleaning"
-h1: "Storm Damage Restoration in Heber City"
-meta_description: "24/7 storm damage restoration in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Storm Damage Restoration in Heber City, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Storm Damage Restoration in Heber City"
+meta_description: "24/7 emergency storm damage restoration in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "storm damage restoration heber city"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Heber City? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Heber Valley sits at roughly 5,600 feet elevation in a mountain basin where weather systems funnel through Provo Canyon and off the Wasatch Back with surprising speed. A storm that looks manageable from Salt Lake can arrive in Heber City as 60-mph wind gusts, golf-ball hail, and several inches of rain in under an hour, leaving roofs stripped, trees down across driveways, and water pushing under doors before homeowners can move furniture. When that happens, call (801) 995-2437 and a crew from Home Pride Restoration and Cleaning can be on the road toward you immediately.
 
 ## Why Heber City Properties See Severe Storm Damage

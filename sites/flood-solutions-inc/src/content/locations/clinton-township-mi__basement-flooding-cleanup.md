@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Clinton Township, MI | Flood Solutions inc"
-h1: "Basement Flooding Cleanup in Clinton Township"
-meta_description: "Basement flooding cleanup in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Basement Flooding Cleanup in Clinton Township, MI | Flood Solutions inc"
+h1: "Emergency Basement Flooding Cleanup in Clinton Township"
+meta_description: "Emergency basement flooding cleanup in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "basement flooding cleanup clinton township"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "basement-flooding-cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Clinton Township? Call now for emergency service.** Our crew responds fast to pump out the water and start drying.
+
 Clinton Township sits on clay-heavy glacial soils that drain poorly even in a moderate rain, and when a storm stalls over Macomb County or a pipe lets go in a finished basement, that water has nowhere to go fast. Basement flooding here tends to arrive quietly, seeping through a floor crack or backing up through a floor drain, and by the time a homeowner notices, the carpet pad, the drywall base, and the subfloor are already holding moisture that a shop vac cannot touch. Flood Solutions inc has been working through these situations since 1996, and the call to (586) 580-0197 starts the process.
 
 ## Why Clinton Township Basements Flood the Way They Do

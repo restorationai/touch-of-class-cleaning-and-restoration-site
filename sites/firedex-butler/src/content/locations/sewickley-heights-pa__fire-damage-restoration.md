@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Sewickley Heights, PA | FireDEX Butler"
-h1: "Fire Damage Restoration in Sewickley Heights"
-meta_description: "24/7 fire damage restoration in Sewickley Heights, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "Emergency Fire Damage Restoration in Sewickley Heights, PA | FireDEX Butler"
+h1: "24/7 Emergency Fire Damage Restoration in Sewickley Heights"
+meta_description: "24/7 emergency fire damage restoration in Sewickley Heights, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "fire damage restoration sewickley heights"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

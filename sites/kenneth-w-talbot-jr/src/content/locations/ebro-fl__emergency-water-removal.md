@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Ebro, FL | Veterans Remediation & Restoration "
-h1: "Emergency Water Removal & Cleanup in Ebro"
+title: "24/7 Emergency Water Removal & Cleanup in Ebro, FL | Veterans Remediation & Restoration "
+h1: "24/7 Emergency Water Removal & Cleanup in Ebro"
 meta_description: "24/7 emergency water removal and cleanup in Ebro, FL. Insurance billing accepted. Call (337) 344-1248."
 primary_keyword: "emergency water removal ebro"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

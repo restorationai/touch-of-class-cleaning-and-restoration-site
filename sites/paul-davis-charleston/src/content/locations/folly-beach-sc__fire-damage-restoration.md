@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Folly Beach, SC | Paul Davis Restoration of Charleston"
-h1: "Fire Damage Restoration in Folly Beach"
-meta_description: "Fire damage restoration in Folly Beach, SC. Insurance billing accepted. Call."
+title: "Emergency Fire Damage Restoration in Folly Beach, SC | Paul Davis Restoration of Charleston"
+h1: "Emergency Fire Damage Restoration in Folly Beach"
+meta_description: "Emergency fire damage restoration in Folly Beach, SC. Insurance billing accepted. Call."
 primary_keyword: "fire damage restoration folly beach"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

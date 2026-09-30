@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Worthington, MN | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Worthington"
-meta_description: "Water damage restoration in Worthington, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Worthington, MN | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Worthington"
+meta_description: "Emergency water damage restoration in Worthington, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration worthington"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Worthington? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Worthington sits on the edge of Lake Okabena in the southwest Minnesota prairie, and that geography shapes how water damage unfolds here in ways that catch homeowners off guard. Spring snowmelt pushes groundwater up through foundation walls before outdoor temperatures even feel warm. Summer thunderstorms, the kind that roll across Nobles County in under an hour, can overwhelm sump pumps and send water sheeting across basement floors. When that happens, the clock starts immediately: mold can begin colonizing wet framing and insulation within 24 to 48 hours, and in a home that's been closed up for winter, the conditions are already favorable. Crew Restoration & Construction responds to water damage calls in Worthington (56187) and works through the full process, extraction, structural drying, and documentation, so the damage stops where it started.
 
 ## Why Worthington Properties See Water Damage Issues

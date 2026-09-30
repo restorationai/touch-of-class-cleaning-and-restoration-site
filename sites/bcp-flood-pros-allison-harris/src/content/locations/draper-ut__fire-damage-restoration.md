@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Draper, UT | FIX Restoration"
-h1: "Fire Damage Restoration in Draper"
-meta_description: "Fire damage restoration in Draper, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in Draper, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in Draper"
+meta_description: "Emergency fire damage restoration in Draper, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration draper"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Draper? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Draper sits at the base of the Wasatch Front where dry canyon winds funnel down from the mountains and seasonal low humidity can drop indoor moisture levels dramatically. That same arid climate that keeps summer comfortable also means a house fire burns hotter and spreads faster than in more temperate regions, and the smoke residue it leaves behind penetrates porous materials with unusual depth. If you've had a fire at your Draper property, the visible char is only part of the problem. Soot is already migrating into ductwork, cabinetry, and wall cavities while you're reading this.
 
 ## Why Draper Properties Face Distinct Fire Damage Challenges

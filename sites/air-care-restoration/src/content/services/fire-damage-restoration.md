@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Abilene | Air Care Restoration"
-h1: "Fire Damage Restoration in Abilene"
-meta_description: "24/7 fire damage restoration in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Fire Damage Restoration in Abilene | Air Care Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Abilene"
+meta_description: "24/7 emergency fire damage restoration in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "fire damage restoration abilene"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Abilene? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Smoke doesn't stop moving when the flames go out. Within hours of a fire, soot migrates through HVAC ducts, settles into wall cavities, and bonds to cool surfaces, sometimes in rooms that never saw a flame. The smell that seems to fade by morning is actually off-gassing from char and residue baking into porous materials. Fire damage restoration is a race against that chemistry, and the window to prevent permanent staining and odor lock-in is measured in days, not weeks.
 
 ## What fire damage restoration actually involves

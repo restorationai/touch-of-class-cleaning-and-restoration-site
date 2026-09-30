@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Leakesville, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Leakesville"
-meta_description: "Sewage cleanup and sanitization in Leakesville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "Emergency Sewage Cleanup and Sanitization in Leakesville, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Leakesville"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Leakesville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization leakesville"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Leakesville? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Sewage backup in Leakesville hits differently than a simple plumbing leak. Greene County's high clay-content soils drain poorly after heavy Gulf-driven rainfall, and when that saturated ground pushes back against aging sewer laterals or overwhelmed septic systems, raw sewage doesn't just pool, it wicks into subfloor framing, crawl spaces, and wall cavities before most homeowners realize the scope of what they're dealing with. HomeLyft Restoration MS responds to those calls with trained technicians, industrial extraction equipment, and EPA-registered disinfectants rated for Category 3 water, the classification that covers raw sewage.
 
 ## Why Leakesville Properties See Sewage Backup Issues

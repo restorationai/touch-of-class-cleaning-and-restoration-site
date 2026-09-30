@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Los Olivos, CA | Coastal Restoration Services Inc"
-h1: "Storm Damage Restoration in Los Olivos"
-meta_description: "Storm damage restoration in Los Olivos, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Storm Damage Restoration in Los Olivos, CA | Coastal Restoration Services Inc"
+h1: "Emergency Storm Damage Restoration in Los Olivos"
+meta_description: "Emergency storm damage restoration in Los Olivos, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "storm damage restoration los olivos"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

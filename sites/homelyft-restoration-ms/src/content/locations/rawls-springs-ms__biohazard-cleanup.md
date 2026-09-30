@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Rawls Springs, MS | HomeLyft Restoration MS"
-h1: "Biohazard Cleanup in Rawls Springs"
-meta_description: "Biohazard cleanup in Rawls Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Biohazard Cleanup in Rawls Springs, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Biohazard Cleanup in Rawls Springs"
+meta_description: "24/7 emergency biohazard cleanup in Rawls Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "biohazard cleanup rawls springs"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Rawls Springs? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Rawls Springs sits in Forrest County where the humid Gulf Coast climate pushes indoor humidity well above 60% for much of the year, a condition that accelerates biological material breakdown and makes prompt, thorough biohazard cleanup more urgent than in drier parts of the country. When a traumatic event, unattended death, or hazardous material situation occurs in a home or property here, the warm, moisture-laden air means contamination can spread to porous surfaces within hours. HomeLyft Restoration MS responds to those calls with the training, protective equipment, and discretion the situation demands.
 
 ## Why Rawls Springs Properties Present Unique Biohazard Challenges

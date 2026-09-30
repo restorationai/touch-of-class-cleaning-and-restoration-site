@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Poplarville, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Poplarville"
-meta_description: "Board-up and tarping in Poplarville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Poplarville, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Poplarville"
+meta_description: "24/7 emergency board-up and tarping in Poplarville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping poplarville"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Poplarville? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Poplarville sits in Pearl River County where Gulf Coast storm tracks, dense pine canopy, and a humid subtropical climate combine to make structural exposure after a damaging event genuinely urgent. When a fast-moving thunderstorm peels back a section of roof, or a house fire leaves windows and walls open to the elements, every hour of delay invites moisture, insects, and opportunistic theft into an already compromised structure. HomeLyft Restoration MS responds to those calls with plywood, heavy-duty polyethylene tarps, and the trained hands to secure a property before the next rain band rolls through.
 
 ## Why Poplarville Properties Face Elevated Board-Up and Tarping Needs

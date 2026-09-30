@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Weston, MA | Quality Contracting, Inc."
-h1: "Biohazard Cleanup in Weston"
-meta_description: "Biohazard cleanup in Weston, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Biohazard Cleanup in Weston, MA | Quality Contracting, Inc."
+h1: "Emergency Biohazard Cleanup in Weston"
+meta_description: "Emergency biohazard cleanup in Weston, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "biohazard cleanup weston"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Weston? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Weston is a town where privacy matters, large lots, long driveways, and a housing stock that skews toward substantial older homes set well back from the road. When a biohazard situation arises in that kind of setting, the concern is rarely just the cleanup itself; it's also who sees the vehicles out front, whether the property's older construction complicates containment, and how quickly the situation can be resolved with minimal disruption. Quality Contracting, Inc. handles biohazard cleanup in Weston with the discretion and methodical care that sensitive circumstances require.
 
 ## Why Weston's Housing Stock Shapes Biohazard Remediation

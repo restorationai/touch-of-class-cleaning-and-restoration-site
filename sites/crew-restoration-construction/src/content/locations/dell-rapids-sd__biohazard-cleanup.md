@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Dell Rapids, SD | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Dell Rapids"
-meta_description: "Biohazard cleanup in Dell Rapids, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Dell Rapids, SD | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Dell Rapids"
+meta_description: "Emergency biohazard cleanup in Dell Rapids, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup dell rapids"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Dell Rapids? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 When something unexpected and deeply difficult happens inside a home or property near the Big Sioux River corridor, the last thing a family should have to manage is the cleanup. Dell Rapids is a tight-knit community, word travels fast, neighbors notice, and privacy matters. Biohazard situations, whether involving blood, bodily fluids, sharps, or other infectious material, require a response that is both technically thorough and genuinely discreet. Crew Restoration & Construction handles these calls with the same care you'd expect from someone who understands what it means to live in a small South Dakota city where everyone knows your street.
 
 ## Why Dell Rapids Properties Present Unique Biohazard Considerations

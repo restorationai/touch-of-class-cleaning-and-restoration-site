@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Lehi, UT | Home Pride Restoration and Cleaning"
-h1: "Basement Flooding Cleanup in Lehi"
-meta_description: "24/7 basement flooding cleanup in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Basement Flooding Cleanup in Lehi, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Basement Flooding Cleanup in Lehi"
+meta_description: "24/7 emergency basement flooding cleanup in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "basement flooding cleanup lehi"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Lehi? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Lehi's rapid growth along the I-15 corridor has pushed new subdivisions onto the bentonite-heavy clay soils that stretch from the foothills down toward Utah Lake, and that clay doesn't drain. When a water heater fails, a window well fills during a spring thunderstorm, or a sewer line backs up in a finished basement, that standing water has nowhere to go fast. Home Pride Restoration and Cleaning has been responding to basement flooding calls across Utah County since 1997, and we know exactly what that wet carpet smell at the bottom of a Lehi staircase means for your timeline.
 
 ## Why Lehi Basements Are Particularly Vulnerable

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Oceanside, CA | Flood Fixers"
-h1: "Water Damage Restoration in Oceanside"
-meta_description: "24/7 water damage restoration in Oceanside, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "24/7 Emergency Water Damage Restoration in Oceanside, CA | Flood Fixers"
+h1: "24/7 Emergency Water Damage Restoration in Oceanside"
+meta_description: "24/7 emergency water damage restoration in Oceanside, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "water damage restoration oceanside"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

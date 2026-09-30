@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Country Club, FL | RestorationXpress "
-h1: "Smoke Damage Restoration in Country Club"
-meta_description: "Smoke damage restoration in Country Club, FL. Insurance billing accepted. Call (954) 964-6471."
+title: "Emergency Smoke Damage Restoration in Country Club, FL | RestorationXpress "
+h1: "Emergency Smoke Damage Restoration in Country Club"
+meta_description: "Emergency smoke damage restoration in Country Club, FL. Insurance billing accepted. Call (954) 964-6471."
 primary_keyword: "smoke damage restoration country club"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

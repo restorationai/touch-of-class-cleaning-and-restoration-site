@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Fife, WA | National Restoration Construction"
-h1: "Emergency Water Removal & Cleanup in Fife"
+title: "24/7 Emergency Water Removal & Cleanup in Fife, WA | National Restoration Construction"
+h1: "24/7 Emergency Water Removal & Cleanup in Fife"
 meta_description: "24/7 emergency water removal & cleanup in Fife, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "emergency water removal & cleanup fife"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]

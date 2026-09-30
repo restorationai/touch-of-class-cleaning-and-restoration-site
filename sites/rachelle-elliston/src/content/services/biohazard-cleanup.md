@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Biohazard Cleanup in North Las Vegas | Desert Valley Contracting Inc "
-h1: "Biohazard Cleanup in North Las Vegas"
-meta_description: "24/7 biohazard cleanup in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+title: "24/7 Emergency Biohazard Cleanup in North Las Vegas | Desert Valley Contracting Inc "
+h1: "24/7 Emergency Biohazard Cleanup in North Las Vegas"
+meta_description: "24/7 emergency biohazard cleanup in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "biohazard cleanup north las vegas"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -17,6 +17,9 @@ service_slug: "biohazard-cleanup"
 service_display: "Biohazard Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in North Las Vegas? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When a traumatic event, unattended death, or contamination incident happens inside a property, the cleanup is not a job for a mop and a bottle of bleach. Bloodborne pathogens and other infectious materials can penetrate porous surfaces, migrate beneath flooring, and remain biologically active long after the visible evidence is gone. The window for proper remediation is narrow, and the consequences of incomplete work extend well beyond what any surface inspection can confirm.
 
 ## What biohazard cleanup actually involves

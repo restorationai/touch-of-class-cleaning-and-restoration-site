@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Burst Pipe Cleanup and Repair in Lakewood | Frontline Fire & Flood"
-h1: "Burst Pipe Cleanup and Repair in Lakewood"
-meta_description: "24/7 burst pipe cleanup and repair in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Lakewood | Frontline Fire & Flood"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Lakewood"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "burst pipe cleanup and repair lakewood"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

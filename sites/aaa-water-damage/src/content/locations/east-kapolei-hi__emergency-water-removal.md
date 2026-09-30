@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Emergency Water Removal & Cleanup in East Kapolei"
+title: "24/7 Emergency Water Removal & Cleanup in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Removal & Cleanup in East Kapolei"
 meta_description: "24/7 emergency water removal and cleanup in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "emergency water removal east kapolei"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in East Kapolei? We answer 24/7.** Call now and our crew heads out to extract the water and start drying.
+
 East Kapolei sits on the leeward side of Oahu where the trade winds offer little relief from heat and where new residential construction has expanded rapidly across former agricultural land with drainage infrastructure still catching up to the density. When a supply line fails behind a wall or a washing machine hose lets go overnight, water spreads fast across the concrete slab foundations common throughout this part of the island, wicking under luxury vinyl plank and soaking into the framing before the surface even looks wet. AAA Water Damage Restoration & Carpet Care responds around the clock, so the call you make at 2 a.m. reaches a real person who can dispatch a crew for emergency water removal and cleanup.
 
 ## Why East Kapolei Properties See Water Damage Differently

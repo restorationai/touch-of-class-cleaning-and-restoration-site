@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flood Cleanup in Sunrise Manor, NV | PuroClean of East Las Vegas"
-h1: "Basement Flood Cleanup in Sunrise Manor"
-meta_description: "Basement flood cleanup in Sunrise Manor, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Basement Flood Cleanup in Sunrise Manor, NV | PuroClean of East Las Vegas"
+h1: "Emergency Basement Flood Cleanup in Sunrise Manor"
+meta_description: "Emergency basement flood cleanup in Sunrise Manor, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "basement flood cleanup sunrise manor"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -20,6 +20,9 @@ state: "NV"
 service_display: "Basement Flood Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Sunrise Manor? Call now for emergency service.** Our crew responds fast to pump out the water and start drying.
+
 Sunrise Manor sits in a basin where the Mojave's hardpan soil doesn't drain the way homeowners expect, and when a water heater fails, a sewer line backs up, or a rare monsoon overwhelms a window well, that water has nowhere to go but across the basement slab. For properties near the Nellis Meadows and Sunrise Vista areas, the combination of older construction, caliche-dense soil, and minimal natural grade means a flooded basement can go from a few inches of standing water to a saturated subfloor and compromised drywall within hours. PuroClean of East Las Vegas responds to those calls with extraction equipment, drying systems, and documentation built for exactly that kind of loss.
 
 ## Why Sunrise Manor Properties See Basement Flooding Issues

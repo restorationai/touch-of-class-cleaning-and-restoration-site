@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Rochester Hills, MI | Flood & Fire Solutions"
-h1: "Fire Damage Restoration in Rochester Hills"
-meta_description: "Fire damage restoration in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Fire Damage Restoration in Rochester Hills, MI | Flood & Fire Solutions"
+h1: "Emergency Fire Damage Restoration in Rochester Hills"
+meta_description: "Emergency fire damage restoration in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "fire damage restoration rochester hills"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Rochester Hills? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Rochester Hills sits in the heart of Oakland County, where older subdivisions built through the 1960s and 1970s mix with newer construction along corridors like Adams Road and Tienken Road. When fire moves through a home here, it rarely stops at the room where it started. Smoke travels through attic insulation, settles into the HVAC ductwork, and leaves a sharp, oily residue on surfaces that look untouched. Flood Solutions Inc. has been responding to fire and smoke damage across southeast Michigan since 1996, and the call to (586) 580-0197 starts the process of getting your home back.
 
 ## Why Rochester Hills Properties See Fire Damage Differently

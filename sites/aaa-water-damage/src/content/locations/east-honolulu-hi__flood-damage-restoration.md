@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in East Honolulu, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in East Honolulu"
-meta_description: "24/7 flood damage restoration in East Honolulu, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "24/7 Emergency Flood Damage Restoration in East Honolulu, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in East Honolulu"
+meta_description: "24/7 emergency flood damage restoration in East Honolulu, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "flood damage restoration east honolulu"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in East Honolulu? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 East Honolulu sits at the edge of the Ko'olau Range, where heavy rainfall can funnel down steep valley slopes and overwhelm drainage in a matter of hours. When that water finds its way into a home, through a garage, a lanai door, or a crawl space that was never designed for standing water, the damage moves fast. Flood water carries soil, debris, and contaminants that plain water does not, and the warm, humid air that makes East Honolulu beautiful year-round also accelerates the timeline for secondary damage once a structure is wet.
 
 ## Why East Honolulu Properties See Flood Damage Issues

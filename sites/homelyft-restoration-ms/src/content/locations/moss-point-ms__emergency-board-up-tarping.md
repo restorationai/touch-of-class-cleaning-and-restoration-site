@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Moss Point, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Moss Point"
-meta_description: "Board-up and tarping in Moss Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Moss Point, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Moss Point"
+meta_description: "24/7 emergency board-up and tarping in Moss Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping moss point"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Moss Point? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Moss Point sits at the convergence of the Escatawpa and Pascagoula rivers, which means Gulf Coast storm systems don't just pass through, they linger, pile on rain, and leave properties exposed for days after the initial hit. When a hurricane-force gust peels back a roof section or a fire tears through a wall overnight, every additional hour of open exposure compounds the damage. Board-up and tarping isn't a cosmetic step here; it's the difference between a manageable repair and a full structural loss.
 
 ## Why Moss Point Properties Face Elevated Board-Up and Tarping Risks

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Wexford, PA | FireDEX Butler"
-h1: "Smoke Damage Restoration in Wexford"
-meta_description: "24/7 smoke damage restoration in Wexford, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Smoke Damage Restoration in Wexford, PA | FireDEX Butler"
+h1: "24/7 Emergency Smoke Damage Restoration in Wexford"
+meta_description: "24/7 emergency smoke damage restoration in Wexford, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "smoke damage restoration wexford"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Wexford? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 The large two-story and estate homes that line the wooded streets of Pine Township and English Farms weren't built with fire in mind, but when a kitchen fire or electrical fault fills a 4,000-square-foot floor plan with smoke, the damage spreads fast and quietly. Smoke residue doesn't stop at the room where the flames were. It rides HVAC airflow into finished basements, home theaters, and bonus rooms over garages, depositing a thin, acidic film on every surface it touches. In Wexford's 15090 zip code, that can mean tens of thousands of dollars in contents and finish damage that isn't visible until days later, and by then, the odor has already bonded to drywall, carpet, and cabinetry.
 
 ## Why Wexford Homes Are Particularly Vulnerable to Smoke Spread

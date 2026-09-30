@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Oceano, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Oceano"
-meta_description: "Board-up and tarping in Oceano, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Oceano, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Oceano"
+meta_description: "Emergency board-up and tarping in Oceano, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping oceano"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Oceano? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Oceano sits at the edge of the Pacific on California's Central Coast, where salt-laden marine air, coastal fog, and the occasional fierce winter storm can turn a broken window or compromised roof into a cascading problem within hours. When storm surge pushes through a damaged fascia, when a fire leaves exterior walls exposed to the damp night air rolling in off the dunes, or when a vehicle strike shatters a storefront window on a Sunday afternoon, the clock starts immediately. Coastal Restoration Services Inc responds to those calls from Oceano and the surrounding South San Luis Obispo County communities, securing properties before secondary damage compounds the original loss.
 
 ## Why Oceano Properties Face Elevated Board-Up and Tarping Risks

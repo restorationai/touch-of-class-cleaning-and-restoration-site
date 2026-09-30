@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in St. Joseph, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in St. Joseph"
-meta_description: "Fire damage restoration in St. Joseph, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in St. Joseph, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in St. Joseph"
+meta_description: "Emergency fire damage restoration in St. Joseph, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration st. joseph"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in St. Joseph? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 St. Joseph sits in Stearns County, where cold Minnesota winters and older residential construction create a specific set of challenges after a house fire. When temperatures drop and a structure loses heat through fire-damaged walls or a compromised roof, secondary damage moves fast. Smoke residue settles into every cavity, charred framing absorbs moisture from firefighting efforts, and the window for preventing long-term structural deterioration is narrow. Heritage Restoration LLC responds to fire losses throughout St. Joseph with an IICRC FSRT-certified team trained specifically in fire and smoke restoration.
 
 ## Why St. Joseph Homes Face Particular Fire Damage Challenges

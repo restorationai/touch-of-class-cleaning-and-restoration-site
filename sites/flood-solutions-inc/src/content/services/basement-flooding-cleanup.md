@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Basement Flooding Cleanup in Macomb | Flood Solutions inc"
-h1: "Basement Flooding Cleanup in Macomb"
-meta_description: "Basement flooding cleanup in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Basement Flooding Cleanup in Macomb | Flood Solutions inc"
+h1: "Emergency Basement Flooding Cleanup in Macomb"
+meta_description: "Emergency basement flooding cleanup in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "basement flooding cleanup macomb"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "basement-flooding-cleanup"
 service_display: "basement-flooding-cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Macomb? Call now for emergency service.** Our crew responds fast to pump out the water and start drying.
+
 Standing water in a basement does not wait. Within the first hour, it seeps behind drywall, soaks into wall framing, and begins saturating the concrete slab beneath any flooring you have down. Within 24 to 48 hours, conditions are right for mold colonization. Basement flooding cleanup in Macomb is time-sensitive in a way that a slow drip from a supply line simply is not, and the response has to match that urgency from the moment the water is found.
 
 ## What basement flooding cleanup actually involves

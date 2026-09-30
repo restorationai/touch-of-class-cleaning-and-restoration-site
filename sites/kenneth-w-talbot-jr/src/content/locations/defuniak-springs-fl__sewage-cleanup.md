@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in DeFuniak Springs, FL | Veterans Remediation & Restoration "
-h1: "Sewage Cleanup and Sanitization in DeFuniak Springs"
-meta_description: "24/7 sewage cleanup and sanitization in DeFuniak Springs, FL. Insurance billing accepted. Call (337) 344-1248."
+title: "Emergency Sewage Cleanup and Sanitization in DeFuniak Springs | Veterans Remediation & Restoration "
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in DeFuniak Springs"
+meta_description: "24/7 emergency sewage cleanup and sanitization in DeFuniak Springs, FL. Insurance billing accepted. Call (337) 344-1248."
 primary_keyword: "sewage cleanup and sanitization defuniak springs"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

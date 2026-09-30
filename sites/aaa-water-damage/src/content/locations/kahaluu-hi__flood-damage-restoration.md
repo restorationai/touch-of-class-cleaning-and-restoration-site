@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Kahaluu, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in Kahaluu"
-meta_description: "24/7 flood damage restoration in Kahaluu, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "24/7 Emergency Flood Damage Restoration in Kahaluu, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in Kahaluu"
+meta_description: "24/7 emergency flood damage restoration in Kahaluu, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "flood damage restoration kahaluu"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Kahaluu? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Kahaluu sits in a valley on Oahu's windward coast where trade winds push moisture-laden air up against the Ko'olau Range almost daily. When those rains intensify, the low-lying terrain channels runoff quickly, and homes that seemed fine during a light shower can find standing water across their floors within minutes. Flood damage restoration here isn't the same as drying out a house in a drier climate: the baseline humidity never fully cooperates, and the window between a flood event and the start of secondary damage is shorter than most homeowners expect.
 
 ## Why Kahaluu Properties See Flood Damage Issues

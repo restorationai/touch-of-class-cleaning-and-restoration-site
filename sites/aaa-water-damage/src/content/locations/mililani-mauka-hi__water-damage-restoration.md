@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Mililani Mauka, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Water Damage Restoration in Mililani Mauka"
-meta_description: "24/7 water damage restoration in Mililani Mauka, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "Emergency Water Damage Restoration in Mililani Mauka, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Damage Restoration in Mililani Mauka"
+meta_description: "24/7 emergency water damage restoration in Mililani Mauka, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "water damage restoration mililani mauka"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Mililani Mauka? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Mililani Mauka sits at a higher elevation than the older Mililani Town neighborhoods below it, but elevation does not protect against water damage when trade-wind-driven rain saturates the Ko'olau-facing slopes for days at a time. Homes here are predominantly built-to-code construction from the 1990s and early 2000s, which means PVC supply lines, slab foundations, and stucco exteriors that can trap moisture against wall assemblies long after the visible water is gone. When a pipe bursts or a roof penetration fails during a sustained rain event, the window for preventing secondary damage is short. AAA Water Damage Restoration & Carpet Care responds around the clock, every day of the year, to water emergencies throughout Mililani Mauka.
 
 ## Why Mililani Mauka Properties See Water Damage Differently

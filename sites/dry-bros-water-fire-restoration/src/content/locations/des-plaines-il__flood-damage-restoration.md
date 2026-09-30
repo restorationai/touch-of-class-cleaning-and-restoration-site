@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration"
-h1: "Flood Damage Restoration in Des Plaines"
-meta_description: "Flood damage restoration in Des Plaines, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Flood Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Flood Damage Restoration in Des Plaines"
+meta_description: "24/7 emergency flood damage restoration in Des Plaines, IL. Insurance billing accepted. Call us now."
 primary_keyword: "flood damage restoration des plaines"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Des Plaines? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Des Plaines sits at the confluence of the Des Plaines River and several tributary drainage corridors, which means flood events here aren't always tied to a burst pipe or a backed-up appliance, sometimes the water simply arrives from outside, pushing through foundation walls, window wells, and floor drains faster than a sump pump can keep up. When that happens, the clock matters. Saturated subfloors, soaked insulation, and wet drywall don't wait for business hours to start breaking down, and the gap between a manageable cleanup and a full structural remediation is often measured in hours, not days.
 
 ## Why Des Plaines Properties See Flood Damage Issues

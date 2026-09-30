@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Bonney Lake, WA | Frontline Fire & Flood"
-h1: "Sewage Cleanup and Sanitization in Bonney Lake"
-meta_description: "24/7 sewage cleanup and sanitization in Bonney Lake, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "Emergency Sewage Cleanup and Sanitization in Bonney Lake, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Bonney Lake"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Bonney Lake, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "sewage cleanup and sanitization bonney lake"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Unattended Death Cleanup in Bremerton, WA | National Restoration Construction"
-h1: "Unattended Death Cleanup in Bremerton"
-meta_description: "24/7 unattended death cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Unattended Death Cleanup in Bremerton, WA | National Restoration Construction"
+h1: "24/7 Emergency Unattended Death Cleanup in Bremerton"
+meta_description: "24/7 emergency unattended death cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "unattended death cleanup bremerton"
 secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased estate cleanup", "odor removal after death", "discreet death cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Unattended Death Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Bremerton? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When a death goes undiscovered for days or weeks inside one of Bremerton's older Manette or Charleston homes, buildings where original plaster walls, unconditioned crawl spaces, and limited cross-ventilation are the norm rather than the exception, the remediation challenge is compounded in ways that don't apply to newer construction. Biological material migrates into subfloor cavities and wall voids faster in these tight, moisture-prone spaces, and the persistent dampness that comes with Kitsap County winters can accelerate decomposition and odor penetration significantly. National Restoration Construction responds to these situations with the discretion, speed, and technical depth the circumstances require.
 
 ## Why Bremerton's Older Housing Stock Complicates Unattended Death Cleanup

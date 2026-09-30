@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Garfield, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Garfield"
-meta_description: "24/7 smoke damage restoration in Garfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Garfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Garfield"
+meta_description: "24/7 emergency smoke damage restoration in Garfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration garfield"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Garfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 A house fire leaves more than charred wood behind. In Garfield's dense blocks of early-1900s two- and three-family frame homes, the kind stacked tightly along the Belmont Avenue corridor and throughout the Plauderville neighborhood, smoke travels fast through shared wall cavities, climbs into finished attics, and settles into every porous surface before the fire department clears the scene. The odor you smell three days later is not just unpleasant; it is soot particulate and volatile organic compounds embedded in plaster, subfloor, and HVAC ductwork. Getting it out requires more than airing out a room.
 
 ## Why Garfield's Housing Stock Complicates Smoke Damage

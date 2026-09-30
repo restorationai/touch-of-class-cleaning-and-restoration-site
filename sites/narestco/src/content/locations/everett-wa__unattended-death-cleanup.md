@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Unattended Death Cleanup in Everett, WA | National Restoration Construction"
-h1: "Unattended Death Cleanup in Everett"
-meta_description: "24/7 unattended death cleanup in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Unattended Death Cleanup in Everett, WA | National Restoration Construction"
+h1: "24/7 Emergency Unattended Death Cleanup in Everett"
+meta_description: "24/7 emergency unattended death cleanup in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "unattended death cleanup everett"
 secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased estate cleanup", "odor removal after death", "discreet death cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Unattended Death Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Everett? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Everett's older housing stock, particularly the pre-1960s craftsman and bungalow-style homes concentrated in Bayside and along the Riverside corridor, creates a specific challenge when an unattended death goes undiscovered for days or weeks. Tight crawl spaces, original hardwood subfloors, and plaster-over-lath wall construction absorb biological material in ways that modern homes simply don't. By the time a neighbor notices something is wrong, or a property manager in the 98201 zip code receives a welfare call, the remediation scope is often deeper than it first appears. National Restoration Construction handles these situations with the discretion, credentials, and technical capability the circumstances demand.
 
 ## Why Everett's Building Stock Shapes This Work

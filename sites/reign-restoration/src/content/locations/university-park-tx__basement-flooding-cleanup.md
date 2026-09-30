@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in University Park, TX | Reign Restoration"
-h1: "Basement Flooding Cleanup in University Park"
-meta_description: "24/7 basement flooding cleanup in University Park, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "Emergency Basement Flooding Cleanup in University Park, TX | Reign Restoration"
+h1: "24/7 Emergency Basement Flooding Cleanup in University Park"
+meta_description: "24/7 emergency basement flooding cleanup in University Park, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "basement flooding cleanup university park"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"

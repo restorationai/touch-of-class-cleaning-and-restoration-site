@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Terrell, TX | Reign Restoration"
-h1: "Water Damage Restoration in Terrell"
-meta_description: "Water damage restoration in Terrell, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Water Damage Restoration in Terrell, TX | Reign Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Terrell"
+meta_description: "24/7 emergency water damage restoration in Terrell, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "water damage restoration terrell"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Terrell? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Terrell sits in a stretch of East Texas where the heavy black clay soil, the same expansive Blackland Prairie geology that runs through Kaufman County, shifts dramatically with rainfall cycles. That movement stresses pipe joints and foundation penetrations year after year, and when a supply line finally gives or a heavy spring storm backs up a drain, water finds its way into living spaces fast. Reign Restoration responds to water damage calls across Terrell, working from our Royse City location to get equipment on-site and mitigation underway before secondary damage compounds the loss.
 
 ## Why Terrell Properties Experience Water Damage

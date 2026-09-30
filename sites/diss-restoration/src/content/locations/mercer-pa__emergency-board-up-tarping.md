@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Mercer, PA | DISS Restoration"
-h1: "Emergency Board-Up and Tarping in Mercer"
+title: "24/7 Emergency Board-Up and Tarping in Mercer, PA | DISS Restoration"
+h1: "24/7 Emergency Board-Up and Tarping in Mercer"
 meta_description: "24/7 emergency board-up and tarping in Mercer, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "emergency board-up and tarping mercer"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

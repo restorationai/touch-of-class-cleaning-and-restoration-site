@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Everett, WA | National Restoration Construction"
-h1: "Appliance Leak Cleanup in Everett"
-meta_description: "24/7 appliance leak cleanup in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Appliance Leak Cleanup in Everett, WA | National Restoration Construction"
+h1: "24/7 Emergency Appliance Leak Cleanup in Everett"
+meta_description: "24/7 emergency appliance leak cleanup in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "appliance leak cleanup everett"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Everett? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Your dishwasher just flooded the kitchen floor, or the washing machine hose let go behind the wall, or you walked into the laundry room and heard the unmistakable sound of water moving somewhere it shouldn't be. Whatever appliance gave out, you're dealing with it right now, and in Everett's older housing stock, where a lot of homes were built before modern water-resistant subfloor materials were standard, that water is already working its way into places you can't see. National Restoration Construction dispatches from Federal Way and reaches most Everett addresses in 60 to 90 minutes. The faster the water comes out, the less you're dealing with later.
 
 ## Why Everett Homes Are Especially Vulnerable to Appliance Leak Damage

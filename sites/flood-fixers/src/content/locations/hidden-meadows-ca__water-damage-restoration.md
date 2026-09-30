@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Hidden Meadows, CA | Flood Fixers"
-h1: "Water Damage Restoration in Hidden Meadows"
-meta_description: "24/7 water damage restoration in Hidden Meadows, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "Emergency Water Damage Restoration in Hidden Meadows, CA | Flood Fixers"
+h1: "24/7 Emergency Water Damage Restoration in Hidden Meadows"
+meta_description: "24/7 emergency water damage restoration in Hidden Meadows, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "water damage restoration hidden meadows"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

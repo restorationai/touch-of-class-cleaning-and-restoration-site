@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Garretson, SD | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Garretson"
-meta_description: "Water damage restoration in Garretson, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Garretson, SD | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Garretson"
+meta_description: "Emergency water damage restoration in Garretson, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration garretson"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Garretson? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Split Rock Creek runs quiet most of the year, but when spring snowmelt hits the Sioux quartzite bluffs around Palisades State Park and the ground is still frozen solid, water has nowhere to go except toward the lowest point, which is often a basement in Garretson. Whether it's a backed-up floor drain, a burst supply line during a January cold snap, or a sump pump that couldn't keep up with a May deluge, water damage in a small town like Garretson (57030) moves fast and the margin for error is slim. Crew Restoration & Construction handles water removal, structural drying, and full water mitigation for homes and properties throughout the area.
 
 ## Why Garretson Properties See Water Damage Issues

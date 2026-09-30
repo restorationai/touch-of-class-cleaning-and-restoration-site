@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Biohazard and Trauma Cleanup in Federal Way | National Restoration Construction"
-h1: "Biohazard and Trauma Cleanup in Federal Way"
-meta_description: "24/7 biohazard and trauma cleanup in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Biohazard and Trauma Cleanup in Federal Way | National Restoration Construction"
+h1: "24/7 Emergency Biohazard and Trauma Cleanup in Federal Way"
+meta_description: "24/7 emergency biohazard and trauma cleanup in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "biohazard and trauma cleanup federal way"
 secondary_keywords: ["trauma scene cleanup", "unattended death cleanup", "blood cleanup", "bodily fluid cleanup", "biohazard remediation"]
 search_intent: "local_sensitive"
@@ -19,6 +19,9 @@ isSensitive: true
 rendered: true
 hero: '/images/services/biohazard-cleanup.webp'
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Federal Way? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Discovering a scene that requires biohazard or trauma cleanup is one of the most disorienting moments a homeowner or property manager can face. The logistics that follow, who to call, what to touch, how quickly it needs to happen, shouldn't fall on you to figure out alone. National Restoration Construction responds to these situations throughout Federal Way and the surrounding region with trained technicians, proper containment equipment, and a process designed to protect everyone on the property while you focus on what matters most.
 
 ## How we handle biohazard and trauma cleanup

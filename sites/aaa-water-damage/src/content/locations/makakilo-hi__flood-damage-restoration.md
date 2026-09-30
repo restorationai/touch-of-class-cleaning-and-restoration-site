@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Makakilo, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in Makakilo"
-meta_description: "24/7 flood damage restoration in Makakilo, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "24/7 Emergency Flood Damage Restoration in Makakilo, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in Makakilo"
+meta_description: "24/7 emergency flood damage restoration in Makakilo, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "flood damage restoration makakilo"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Makakilo? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Makakilo sits at elevation on the western slopes of the Waianae Range, but that height offers less flood protection than residents might expect. When Kona storms stall over Oahu and trade winds collapse, the gulches that cut through this hillside community funnel runoff fast, and homes at the base of those drainage corridors can see standing water inside within minutes of a heavy rain event. If your property has taken on floodwater, the clock starts immediately: mold colonization in Hawaii's humidity can begin within 24 to 48 hours of saturation.
 
 ## Why Makakilo Properties See Flood Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Leominster, MA | Quality Contracting, Inc."
-h1: "Water Damage Restoration in Leominster"
-meta_description: "Water damage restoration in Leominster, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Water Damage Restoration in Leominster, MA | Quality Contracting, Inc."
+h1: "Emergency Water Damage Restoration in Leominster"
+meta_description: "Emergency water damage restoration in Leominster, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "water damage restoration leominster"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

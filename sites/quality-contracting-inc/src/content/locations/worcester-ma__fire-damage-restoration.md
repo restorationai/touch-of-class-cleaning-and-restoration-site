@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Worcester, MA | Quality Contracting, Inc."
-h1: "Fire Damage Restoration in Worcester"
-meta_description: "Fire damage restoration in Worcester, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Fire Damage Restoration in Worcester, MA | Quality Contracting, Inc."
+h1: "Emergency Fire Damage Restoration in Worcester"
+meta_description: "Emergency fire damage restoration in Worcester, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "fire damage restoration worcester"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Worcester? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Worcester's dense stock of triple-decker homes, most built between the 1890s and 1920s with balloon-frame construction, shared wall cavities, and flat roofs, turns a contained kitchen fire into a whole-building event faster than almost any other housing type in New England. Smoke travels vertically through open stud bays, soot settles into plaster lath that has been absorbing household odors for a century, and char damage to a single unit can compromise the structural integrity of the floor system above and below. When fire touches one of these buildings, the restoration scope is rarely simple.
 
 ## Why Worcester's Housing Stock Complicates Fire Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Elk Point, SD | Crew Restoration & Construction"
-h1: "Sewage Cleanup and Sanitization in Elk Point"
-meta_description: "Sewage cleanup and sanitization in Elk Point, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Sewage Cleanup and Sanitization in Elk Point, SD | Crew Restoration & Construction"
+h1: "Emergency Sewage Cleanup and Sanitization in Elk Point"
+meta_description: "Emergency sewage cleanup and sanitization in Elk Point, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "sewage cleanup and sanitization elk point"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Elk Point? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Elk Point sits at the edge of the Missouri River floodplain in Union County, one of the oldest corners of South Dakota, and that geography shapes what happens when a sewer line backs up or a septic system overflows. Saturated clay soils common to the river bottom don't drain quickly, which means raw sewage that reaches a crawl space or basement floor doesn't simply evaporate. It pools, soaks into framing, and starts breaking down organic material within hours. If you're dealing with that right now in the 57025 area, call Crew Restoration & Construction at (605) 965-2727 and let's talk through next steps.
 
 ## Why Elk Point Properties Experience Sewage Problems

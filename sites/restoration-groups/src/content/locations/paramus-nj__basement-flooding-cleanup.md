@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Paramus, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in Paramus"
-meta_description: "24/7 basement flooding cleanup in Paramus, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Basement Flooding Cleanup in Paramus, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Paramus"
+meta_description: "24/7 emergency basement flooding cleanup in Paramus, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "basement flooding cleanup paramus"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Paramus? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 When Tropical Storm Ida swept through Bergen County in September 2021, basements across Paramus filled faster than sump pumps could cycle, and many of those homes were the same 1950s and '60s ranches, split-levels, and colonials that line the streets of West Paramus and Arcola today. If you're standing in a wet basement right now, the clock matters: mold can begin colonizing saturated drywall and wood framing within 24 to 48 hours, and the cast-iron drain lines common in postwar Bergen County homes can back up again before the first load of wet material is even out the door. The Restoration Group responds 24/7, call (855) 650-7422.
 
 ## Why Paramus Properties See Basement Flooding So Often

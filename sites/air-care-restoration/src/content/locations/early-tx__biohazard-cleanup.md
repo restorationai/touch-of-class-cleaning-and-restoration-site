@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Early, TX | Air Care Restoration"
-h1: "Biohazard Cleanup in Early"
-meta_description: "24/7 biohazard cleanup in Early, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Biohazard Cleanup in Early, TX | Air Care Restoration"
+h1: "24/7 Emergency Biohazard Cleanup in Early"
+meta_description: "24/7 emergency biohazard cleanup in Early, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "biohazard cleanup early"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

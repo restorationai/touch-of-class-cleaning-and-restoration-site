@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Kiln, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Kiln"
-meta_description: "Board-up and tarping in Kiln, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Kiln, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Kiln"
+meta_description: "24/7 emergency board-up and tarping in Kiln, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping kiln"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Kiln? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Kiln sits in Hancock County's pine belt, where Gulf Coast storm tracks push hard through the Pearl River lowlands and leave properties exposed to the kind of wind and rain damage that doesn't wait for business hours. When a storm peels back a section of roof, shatters a window, or leaves a wall open to the elements, the window between damage and catastrophic water intrusion is measured in hours, not days. HomeLyft Restoration MS dispatches board-up and tarping crews from Gulfport to protect Kiln properties before the next rain band rolls through.
 
 ## Why Kiln Properties Are Especially Vulnerable to Storm Exposure

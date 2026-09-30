@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Durham, NC | Go Green Restoration of NC"
-h1: "Sewage Cleanup and Sanitization in Durham"
-meta_description: "24/7 sewage cleanup and sanitization in Durham, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Durham, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Durham"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Durham, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "sewage cleanup and sanitization durham"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

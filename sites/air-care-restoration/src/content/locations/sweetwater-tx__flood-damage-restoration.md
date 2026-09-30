@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Sweetwater, TX | Air Care Restoration"
-h1: "Flood Damage Restoration in Sweetwater"
-meta_description: "24/7 flood damage restoration in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Flood Damage Restoration in Sweetwater, TX | Air Care Restoration"
+h1: "24/7 Emergency Flood Damage Restoration in Sweetwater"
+meta_description: "24/7 emergency flood damage restoration in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "flood damage restoration sweetwater"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "flood-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Sweetwater? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Flash flooding in Sweetwater doesn't need a hurricane to cause real damage. A fast-moving thunderstorm rolling off the Caprock can dump an inch of rain in under an hour, and with Nolan County's heavy clay soil slow to absorb water, runoff backs up against foundations faster than most homeowners expect. If you're standing in a few inches of water in your living room or watching it rise along Sweetwater Creek's low-lying crossings, the clock on flood damage restoration starts the moment the water stops moving.
 
 ## Why Sweetwater Properties See Flood Damage

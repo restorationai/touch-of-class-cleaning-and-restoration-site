@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Utica, MI | Flood & Fire Solutions"
-h1: "Fire Damage Restoration in Utica"
-meta_description: "Fire damage restoration in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Fire Damage Restoration in Utica, MI | Flood & Fire Solutions"
+h1: "Emergency Fire Damage Restoration in Utica"
+meta_description: "Emergency fire damage restoration in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "fire damage restoration utica"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Utica? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When a fire tears through a home in Utica, the damage rarely stops at the char line. Macomb County's older residential neighborhoods, many built during the postwar boom of the 1950s and 1960s, were constructed with wood-framed interiors, plaster-and-lath walls, and original ductwork that pulls smoke deep into cavities long before the flames are out. Flood Solutions Inc. has been working through exactly these kinds of losses across the region since 1996, and the team understands what fire cleanup in this community actually involves.
 
 ## Why Utica Properties See Distinctive Fire Damage Patterns

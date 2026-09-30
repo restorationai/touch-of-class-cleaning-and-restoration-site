@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in South Jordan, UT | Home Pride Restoration and Cleaning"
-h1: "Appliance Leak Cleanup in South Jordan"
-meta_description: "24/7 appliance leak cleanup in South Jordan, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Appliance Leak Cleanup in South Jordan, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Appliance Leak Cleanup in South Jordan"
+meta_description: "24/7 emergency appliance leak cleanup in South Jordan, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "appliance leak cleanup south jordan"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in South Jordan? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 South Jordan's rapid growth over the past decade has filled neighborhoods like Daybreak and the newer subdivisions along Bangerter Highway with large, appliance-heavy homes, and when a washing machine supply line blows or a refrigerator ice maker connection fails, the open floor plans and engineered hardwood that make those homes beautiful become a liability. Water spreads fast across wide-open square footage, wicks under LVP flooring within minutes, and can reach adjacent rooms before the homeowner realizes the source. Home Pride Restoration and Cleaning has been responding to exactly these calls since 1997, and our IICRC-certified technicians can be on-site in South Jordan fast enough to matter.
 
 ## Why South Jordan Homes Are Particularly Vulnerable to Appliance Leaks

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Brainerd, MN | Heritage Restoration LLC"
-h1: "Water Damage Restoration in Brainerd"
-meta_description: "Water damage restoration in Brainerd, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in Brainerd, MN | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in Brainerd"
+meta_description: "Emergency water damage restoration in Brainerd, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration brainerd"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Brainerd? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Brainerd's position in the heart of Minnesota lake country means water is never far away, and when a pipe bursts mid-January or spring snowmelt backs up against a foundation, the cold itself becomes part of the problem. Saturated insulation in an unheated crawl space can stay wet for weeks when outdoor temperatures won't allow airflow, and that window is exactly when mold colonization begins. Heritage Restoration LLC responds to water damage calls across Brainerd and the surrounding Crow Wing County area, bringing IICRC-certified structural drying and water extraction to homes and commercial properties that need more than a shop vac and a few box fans.
 
 ## Why Brainerd Properties See Water Damage Differently Than Most Minnesota Cities

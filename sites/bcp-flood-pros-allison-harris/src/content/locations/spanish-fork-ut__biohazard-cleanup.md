@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Spanish Fork, UT | FIX Restoration"
-h1: "Biohazard Cleanup in Spanish Fork"
-meta_description: "Biohazard cleanup in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Biohazard Cleanup in Spanish Fork, UT | FIX Restoration"
+h1: "Emergency Biohazard Cleanup in Spanish Fork"
+meta_description: "Emergency biohazard cleanup in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "biohazard cleanup spanish fork"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Spanish Fork? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Spanish Fork sits at the foot of the Wasatch Range in a part of Utah County where tight-knit neighborhoods, active agricultural land, and rapid residential growth exist side by side. That mix, older ranch homes, newer subdivisions, working properties, means the circumstances that lead families or property owners to need biohazard cleanup can vary widely, and so can what the cleanup itself requires. If you're dealing with a situation involving blood, bodily fluids, sharps, or other infectious material, the most useful thing you can do right now is step away from the area and make one call. FIX Restoration handles the rest with full discretion.
 
 ## Why Spanish Fork Properties Present Unique Biohazard Considerations

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Storm Damage Restoration in Royse City | Reign Restoration"
-h1: "Storm Damage Restoration in Royse City"
-meta_description: "Storm damage restoration in Royse City and surrounding areas. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Storm Damage Restoration in Royse City | Reign Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Royse City"
+meta_description: "24/7 emergency storm damage restoration in Royse City and surrounding areas. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "storm damage restoration royse city"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Royse City? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 A storm doesn't give you a warning before the roof decking splits or a sixty-foot oak lands across your garage. What it leaves behind, torn shingles, buckled siding, water pouring through a ceiling breach, debris driven into window frames, starts causing secondary damage within hours. Mold colonization can begin in as little as 24–48 hours once water enters the structure, and saturated insulation loses its R-value permanently. Storm damage restoration is the process of stopping that clock: securing the building envelope, removing what can't be saved, drying what can, and rebuilding to pre-loss condition.
 
 ## What Storm Damage Restoration actually involves

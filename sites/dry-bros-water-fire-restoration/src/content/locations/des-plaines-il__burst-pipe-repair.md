@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Des Plaines, IL | Dry Bros Water & Fire Restoration"
-h1: "Burst Pipe Cleanup and Repair in Des Plaines"
-meta_description: "Burst pipe cleanup and repair in Des Plaines, IL. Insurance billing accepted. Call us now."
+title: "Emergency Burst Pipe Cleanup and Repair in Des Plaines, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Des Plaines"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Des Plaines, IL. Insurance billing accepted. Call us now."
 primary_keyword: "burst pipe cleanup and repair des plaines"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Des Plaines? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Des Plaines sits in a climate zone where winter temperatures can swing from the low teens to above freezing within 48 hours, the kind of rapid thaw that catches supply lines off guard, especially in homes where pipes run through exterior walls or uninsulated crawl spaces. When a pipe lets go, water moves fast: it follows framing cavities, soaks subfloor sheathing, and pools behind cabinets before most homeowners realize the damage is spreading. Dry Bros Water & Fire Restoration responds to burst pipe calls throughout Des Plaines, handling both the water extraction and the underlying pipe repair so you're not coordinating two separate contractors while your floors are still wet.
 
 ## Why Des Plaines Properties See Burst Pipe Issues

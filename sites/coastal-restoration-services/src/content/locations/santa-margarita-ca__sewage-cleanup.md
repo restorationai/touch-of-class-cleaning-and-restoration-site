@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Santa Margarita, CA | Coastal Restoration Services Inc"
-h1: "Sewage Cleanup and Sanitization in Santa Margarita"
-meta_description: "Sewage cleanup and sanitization in Santa Margarita, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Sewage Cleanup and Sanitization in Santa Margarita | Coastal Restoration Services Inc"
+h1: "Emergency Sewage Cleanup and Sanitization in Santa Margarita"
+meta_description: "Emergency sewage cleanup and sanitization in Santa Margarita, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "sewage cleanup and sanitization santa margarita"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Santa Margarita? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Santa Margarita sits in a narrow valley in the Santa Lucia foothills, where aging rural infrastructure and the area's clay-heavy soils create conditions that can turn a slow-draining toilet or a gurgling floor drain into a full sewage backup faster than most homeowners expect. When raw sewage surfaces in a bathroom, laundry room, or crawl space, the clock starts immediately, Category 3 contaminated water begins saturating porous building materials within minutes, and the bacteria and pathogens it carries don't wait for a convenient appointment. Coastal Restoration Services Inc responds to sewage backup calls throughout Santa Margarita and the surrounding San Luis Obispo County foothills, bringing the equipment and process discipline the job demands.
 
 ## Why Santa Margarita Properties Experience Sewage Backups

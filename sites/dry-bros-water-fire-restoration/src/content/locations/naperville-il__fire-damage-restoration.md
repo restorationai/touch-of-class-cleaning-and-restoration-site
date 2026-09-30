@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Naperville, IL | Dry Bros Water & Fire Restoration"
-h1: "Fire Damage Restoration in Naperville"
-meta_description: "Fire damage restoration in Naperville, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Fire Damage Restoration in Naperville, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Naperville"
+meta_description: "24/7 emergency fire damage restoration in Naperville, IL. Insurance billing accepted. Call us now."
 primary_keyword: "fire damage restoration naperville"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Naperville? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 When a fire moves through a Naperville home, whether it starts in a kitchen, a garage, or a utility room, the damage rarely stops where the flames do. Smoke travels through HVAC ductwork, soot settles into every horizontal surface, and the water left behind by suppression efforts begins working against the structure within hours. Naperville's older residential corridors, many built during the city's rapid expansion through the 1970s and 1980s, often feature open floor plans and forced-air systems that carry smoke residue far from the point of origin, making the cleanup scope larger than it first appears.
 
 ## Why Naperville Properties Face Distinctive Fire Damage Challenges

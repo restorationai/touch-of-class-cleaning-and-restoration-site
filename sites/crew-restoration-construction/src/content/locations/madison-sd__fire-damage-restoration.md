@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Madison, SD | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Madison"
-meta_description: "Fire damage restoration in Madison, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Madison, SD | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Madison"
+meta_description: "Emergency fire damage restoration in Madison, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration madison"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Madison? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When a fire tears through a home near Lake Herman or along the older blocks of Downtown Madison, the damage compounds fast, smoke infiltrates wall cavities, soot bonds to surfaces within hours, and the South Dakota winter air accelerates structural drying in ways that can crack already-stressed framing. Crew Restoration & Construction responds to fire damage calls in Madison (57042) and the surrounding Lake County area, moving quickly to stabilize the property before secondary damage, water from suppression efforts, freeze-thaw stress, and lingering smoke odor, turns a recoverable loss into a full rebuild.
 
 ## Why Madison Properties See Distinct Fire Damage Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Crooks, SD | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Crooks"
-meta_description: "Fire damage restoration in Crooks, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Crooks, SD | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Crooks"
+meta_description: "Emergency fire damage restoration in Crooks, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration crooks"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Crooks? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 The acrid smell of smoke settles into drywall, insulation, and wood framing faster than most people realize, and in Crooks, where a significant share of the housing stock along the west side of town was built in the 1970s and 1980s with open-truss construction, that penetration happens quickly and deeply. A kitchen fire that looks contained to one room can leave soot proteins embedded in ceiling cavities, HVAC ducts, and the wooden framing behind drywall throughout the entire structure. Crew Restoration & Construction responds to fire damage calls in the 57020 ZIP code and works through the full scope, from emergency board-up and debris removal to odor neutralization, structural repair, and final reconstruction.
 
 ## Why Crooks Properties Face Distinct Fire Damage Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Lakewood | Frontline Fire & Flood"
-h1: "Fire Damage Restoration in Lakewood"
-meta_description: "24/7 fire damage restoration in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Fire Damage Restoration in Lakewood | Frontline Fire & Flood"
+h1: "24/7 Emergency Fire Damage Restoration in Lakewood"
+meta_description: "24/7 emergency fire damage restoration in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration lakewood"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Lakewood? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Smoke doesn't stop moving when the flames go out. Within hours of a house fire, soot particles migrate through HVAC ducts, settle into closet corners, and bond chemically to painted walls, turning a contained kitchen fire into a whole-house odor problem. The window to limit secondary damage is short, and the materials involved (synthetic fabrics, engineered wood, modern insulation) produce residues that behave very differently from the wood-ash soot of older construction. Getting fire cleanup right means understanding what burned, not just what burned down.
 
 ## What fire damage restoration actually involves

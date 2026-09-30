@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Brownwood, TX | Air Care Restoration"
-h1: "Basement Flooding Cleanup in Brownwood"
-meta_description: "24/7 basement flooding cleanup in Brownwood, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Basement Flooding Cleanup in Brownwood, TX | Air Care Restoration"
+h1: "24/7 Emergency Basement Flooding Cleanup in Brownwood"
+meta_description: "24/7 emergency basement flooding cleanup in Brownwood, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "basement flooding cleanup brownwood"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"

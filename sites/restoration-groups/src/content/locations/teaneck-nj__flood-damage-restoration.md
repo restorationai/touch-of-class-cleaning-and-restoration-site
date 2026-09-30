@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Teaneck, NJ | The Restoration Group"
-h1: "Flood Damage Restoration in Teaneck"
-meta_description: "24/7 flood damage restoration in Teaneck, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Flood Damage Restoration in Teaneck, NJ | The Restoration Group"
+h1: "24/7 Emergency Flood Damage Restoration in Teaneck"
+meta_description: "24/7 emergency flood damage restoration in Teaneck, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "flood damage restoration teaneck"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Teaneck? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and stop the damage from spreading.
+
 When Tropical Storm Ida pushed the Hackensack River over its banks in September 2021, basements across Teaneck filled faster than sump pumps could respond. Homes in the West Englewood and Whittier sections, many of them 1930s and 1940s brick colonials and Tudors built long before modern waterproofing standards existed, took on several feet of water within hours. That kind of event is not a one-off anomaly here; it is a preview of what Teaneck's geography and aging infrastructure can produce any time a major storm stalls over Bergen County. When it happens again, the window to act is measured in hours, not days.
 
 ## Why Teaneck Properties Are Especially Vulnerable to Flood Damage

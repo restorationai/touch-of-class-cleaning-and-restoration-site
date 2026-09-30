@@ -1,7 +1,7 @@
 ---
 archetype: "service-landing"
-title: "Emergency Water Removal & Cleanup in Cranberry Township | FireDEX Butler"
-h1: "Emergency Water Removal & Cleanup in Cranberry Township"
+title: "24/7 Emergency Water Removal & Cleanup in Cranberry Township | FireDEX Butler"
+h1: "24/7 Emergency Water Removal & Cleanup in Cranberry Township"
 meta_description: "24/7 emergency water removal and cleanup in Cranberry Township and surrounding areas. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "emergency water removal cranberry township"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

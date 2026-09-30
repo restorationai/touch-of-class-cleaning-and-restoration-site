@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Edna, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Edna"
-meta_description: "Board-up and tarping in Edna, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Edna, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Edna"
+meta_description: "Emergency board-up and tarping in Edna, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping edna"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Edna? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a fire, storm, or break-in leaves a structure in Edna exposed, the window for preventing secondary damage is measured in hours, not days. Santa Barbara County's coastal-influenced weather patterns mean that even a modest marine layer can push moisture into an unprotected opening overnight, turning a manageable loss into a much larger remediation project. Coastal Restoration Services Inc responds to board-up and tarping calls throughout the Edna area, securing structures quickly so the damage stops where it started.
 
 ## Why Edna Properties Face Elevated Exposure Risk

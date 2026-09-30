@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Adrian, MN | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Adrian"
-meta_description: "Biohazard cleanup in Adrian, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Adrian, MN | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Adrian"
+meta_description: "Emergency biohazard cleanup in Adrian, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup adrian"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Adrian? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 When something unexpected and deeply difficult happens at a home or property in Adrian, the last thing a family should have to manage is figuring out who to call and whether that crew will handle the situation with discretion. Biohazard cleanup in a small Nobles County community like Adrian, where neighbors know neighbors and word travels fast, demands a level of professionalism and quiet efficiency that goes beyond what a general cleaning service can offer. Crew Restoration & Construction responds to these situations with a clinical process and genuine care for the people involved.
 
 ## Why Adrian Properties Present Unique Biohazard Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Davenport, FL | DRYCOR RESTORE"
-h1: "Fire Damage Restoration in Davenport"
-meta_description: "24/7 fire damage restoration in Davenport, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "24/7 Emergency Fire Damage Restoration in Davenport, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Fire Damage Restoration in Davenport"
+meta_description: "24/7 emergency fire damage restoration in Davenport, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "fire damage restoration davenport"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Davenport? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Davenport sits in one of Florida's most active lightning corridors, and the same afternoon thunderstorms that roll across Polk County from late spring through early fall are a leading cause of house fires here. A lightning strike to a roof, a power surge that ignites wiring inside the wall cavity, a kitchen fire that spreads faster than expected through an open-plan vacation home, any of these can leave a property with charred framing, soot-coated surfaces, and smoke odor that penetrates every room. When that happens, the clock on secondary damage starts immediately. DRYCOR RESTORE responds 24/7 from its Thonotosassa base to help Davenport homeowners and property managers stabilize, document, and restore.
 
 ## Why Davenport Properties Face Particular Fire Damage Challenges

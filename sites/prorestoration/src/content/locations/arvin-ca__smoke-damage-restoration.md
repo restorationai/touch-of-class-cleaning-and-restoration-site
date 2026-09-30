@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Arvin, CA | ProRestoration Services"
-h1: "Smoke Damage Restoration in Arvin"
-meta_description: "24/7 smoke damage restoration in Arvin, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Smoke Damage Restoration in Arvin, CA | ProRestoration Services"
+h1: "24/7 Emergency Smoke Damage Restoration in Arvin"
+meta_description: "24/7 emergency smoke damage restoration in Arvin, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "smoke damage restoration arvin"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Arvin? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 When a kitchen fire or a wildfire smoke event pushes soot and odor into a home along the Bear Mountain Boulevard corridor, the damage doesn't stop when the flames do. Smoke residue keeps working, etching painted surfaces, soaking into insulation, and embedding itself in the porous adobe-style stucco common on older Arvin homes, long after the fire department leaves. In a community where many households speak Spanish as a primary language, getting clear answers fast matters as much as getting a crew on-site, and ProRestoration Services handles both.
 
 ## Why Arvin Properties See Elevated Smoke Damage Risk

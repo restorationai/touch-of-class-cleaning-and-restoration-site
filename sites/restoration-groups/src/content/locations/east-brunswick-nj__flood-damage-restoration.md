@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in East Brunswick, NJ | The Restoration Group"
-h1: "Flood Damage Restoration in East Brunswick"
-meta_description: "24/7 flood damage restoration in East Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "Emergency Flood Damage Restoration in East Brunswick, NJ | The Restoration Group"
+h1: "24/7 Emergency Flood Damage Restoration in East Brunswick"
+meta_description: "24/7 emergency flood damage restoration in East Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "flood damage restoration east brunswick"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in East Brunswick? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and stop the damage from spreading.
+
 When the remnants of Hurricane Ida pushed Lawrence Brook over its banks in 2021, dozens of finished basements in East Brunswick's older ranch and split-level tracts filled with a foot or more of murky water before homeowners could move a single box. That kind of flooding, fast, dirty, and arriving without warning, is the reality for low-lying sections of 08816, and it demands a response calibrated to what these homes actually are: postwar construction with original cast-iron drains, paneled basement walls, and decades of accumulated storage sitting directly on a concrete slab.
 
 ## Why East Brunswick Properties See Flood Damage Issues

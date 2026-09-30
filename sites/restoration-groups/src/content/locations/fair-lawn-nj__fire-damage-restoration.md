@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Fair Lawn, NJ | The Restoration Group"
-h1: "Fire Damage Restoration in Fair Lawn"
-meta_description: "24/7 fire damage restoration in Fair Lawn, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Fire Damage Restoration in Fair Lawn, NJ | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in Fair Lawn"
+meta_description: "24/7 emergency fire damage restoration in Fair Lawn, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "fire damage restoration fair lawn"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Fair Lawn? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and start the recovery.
+
 A house fire in Fair Lawn hits differently than in many other Bergen County towns. The borough's housing stock runs heavily toward 1920s–1940s construction, from the landmark Radburn planned-community homes near the Radburn Historic District to the postwar capes and colonials spread across Warren Point and Columbia Heights, and those older frames carry decades of settled dust, original wood lath, and oil-based paint that absorb smoke and char in ways newer construction simply doesn't. When fire moves through that kind of structure, the damage isn't just visible. It's embedded in wall cavities, subflooring, and HVAC returns long before the smoke clears.
 
 ## Why Fair Lawn Homes Face Distinct Fire Damage Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Seven Fields, PA | FireDEX Butler"
-h1: "Basement Flooding Cleanup in Seven Fields"
-meta_description: "24/7 basement flooding cleanup in Seven Fields, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Basement Flooding Cleanup in Seven Fields, PA | FireDEX Butler"
+h1: "24/7 Emergency Basement Flooding Cleanup in Seven Fields"
+meta_description: "24/7 emergency basement flooding cleanup in Seven Fields, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "basement flooding cleanup seven fields"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Seven Fields? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Seven Fields Borough sits just minutes from FireDEX Butler's Cranberry Township shop, which means when a washing-machine hose blows out in a finished Castlebrook basement at 2 a.m. or a water heater lets go beneath a Wakefield Estates townhome, a crew is already close. That proximity matters because basement flooding in Seven Fields almost never looks like a simple puddle, the borough's master-planned homes from the late 1980s and 1990s were built with finished lower levels as a selling point, and once water hits carpet, drywall, and engineered flooring, the clock on secondary damage starts immediately.
 
 ## Why Seven Fields Properties See Basement Flooding Issues

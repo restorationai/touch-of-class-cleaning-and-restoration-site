@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Sterling Heights, MI | Flood Solutions inc"
-h1: "Basement Flooding Cleanup in Sterling Heights"
-meta_description: "Basement flooding cleanup in Sterling Heights, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Basement Flooding Cleanup in Sterling Heights, MI | Flood Solutions inc"
+h1: "Emergency Basement Flooding Cleanup in Sterling Heights"
+meta_description: "Emergency basement flooding cleanup in Sterling Heights, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "basement flooding cleanup sterling heights"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "basement-flooding-cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Sterling Heights? Call now for emergency service.** Our crew responds fast to pump out the water and start drying.
+
 Sterling Heights sits on the clay-heavy soils of Macomb County, and when a hard rain stalls over southeastern Michigan or a water main lets go under one of the city's older residential streets, that clay does what clay always does: it sheds water straight toward the nearest foundation. Basements in this city fill faster than homeowners expect, and the standing water that looks manageable at six inches can be pressing against drywall, soaking floor framing, and wicking into insulation within hours. Flood Solutions inc has been working in this part of Metro Detroit since 1996, and the calls from Sterling Heights follow a pattern the crew recognizes immediately.
 
 ## Why Sterling Heights Basements Flood the Way They Do

@@ -20,6 +20,9 @@ state: "MI"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Rochester Hills? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Rochester Hills sits in one of Oakland County's wetter drainage corridors, where clay-heavy soils slow groundwater absorption and spring snowmelt can back up against foundations faster than most homeowners expect. When a burst pipe, sump failure, or storm surge leaves standing water on your floors, the clock starts immediately, not just on structural damage, but on the window before microbial growth takes hold in wall cavities and under subfloor materials. Flood Solutions Inc has been responding to water losses across Macomb and Oakland counties since 1996, and the conditions here demand a different approach than a dry-climate response.
 
 ## Why Rochester Hills Properties See Water Damage Differently

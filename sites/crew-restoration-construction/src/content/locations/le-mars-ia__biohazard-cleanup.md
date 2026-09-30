@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Le Mars, IA | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Le Mars"
-meta_description: "Biohazard cleanup in Le Mars, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Le Mars, IA | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Le Mars"
+meta_description: "Emergency biohazard cleanup in Le Mars, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup le mars"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Le Mars? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Le Mars sits in the northwest corner of Iowa where hard winters, aging housing stock, and the kind of tight-knit community life that makes the Ice Cream Capital famous also means that when something goes seriously wrong inside a home or property, word travels fast and privacy matters enormously. Biohazard situations, whether involving blood, bodily fluids, sharps, or other infectious material, require immediate, discreet attention from people who know what they are doing. Crew Restoration & Construction responds to those calls throughout Plymouth County, handling the logistics so families and property owners can step back from an already difficult moment.
 
 ## Why Le Mars Properties Present Unique Biohazard Considerations

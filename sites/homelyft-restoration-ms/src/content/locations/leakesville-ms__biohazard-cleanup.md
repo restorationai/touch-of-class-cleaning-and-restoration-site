@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Leakesville, MS | HomeLyft Restoration MS"
-h1: "Biohazard Cleanup in Leakesville"
-meta_description: "Biohazard cleanup in Leakesville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Biohazard Cleanup in Leakesville, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Biohazard Cleanup in Leakesville"
+meta_description: "24/7 emergency biohazard cleanup in Leakesville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "biohazard cleanup leakesville"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Leakesville? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something goes wrong inside a home or property in Leakesville, a traumatic event, an unattended situation, or the discovery of infectious materials, the cleanup that follows is not a task for a mop and a bottle of bleach. Greene County's humid subtropical climate means that biological materials left even briefly in warm, poorly ventilated spaces begin breaking down rapidly, creating compounding health and structural concerns. HomeLyft Restoration MS responds to those calls with trained technicians, clinical-grade disinfection protocols, and the discretion that difficult moments demand.
 
 ## Why Leakesville Properties Present Unique Biohazard Challenges

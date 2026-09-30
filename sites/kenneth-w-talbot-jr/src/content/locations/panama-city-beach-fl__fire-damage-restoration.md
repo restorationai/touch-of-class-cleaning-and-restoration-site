@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Panama City Beach, FL | Veterans Remediation & Restoration "
-h1: "Fire Damage Restoration in Panama City Beach"
-meta_description: "24/7 fire damage restoration in Panama City Beach, FL. Insurance billing accepted. Call (337) 344-1248."
+title: "Emergency Fire Damage Restoration in Panama City Beach, FL | Veterans Remediation & Restoration "
+h1: "24/7 Emergency Fire Damage Restoration in Panama City Beach"
+meta_description: "24/7 emergency fire damage restoration in Panama City Beach, FL. Insurance billing accepted. Call (337) 344-1248."
 primary_keyword: "fire damage restoration panama city beach"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

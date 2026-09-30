@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Skokie, IL | Dry Bros Water & Fire Restoration"
-h1: "Flood Damage Restoration in Skokie"
-meta_description: "Flood damage restoration in Skokie, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Flood Damage Restoration in Skokie, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Flood Damage Restoration in Skokie"
+meta_description: "24/7 emergency flood damage restoration in Skokie, IL. Insurance billing accepted. Call us now."
 primary_keyword: "flood damage restoration skokie"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Skokie? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Skokie sits on the flat, clay-heavy glacial lakebed that underlies much of northeastern Cook County, and that soil doesn't drain. When a heavy rain event overwhelms the combined sewer system, or when snowmelt saturates the ground faster than it can percolate, water finds the path of least resistance: basement floor drains, window wells, and the cracks in the concrete block foundations common to the village's postwar housing stock. If you're dealing with standing water in your home right now, the clock matters more than you might realize, mold can begin colonizing wet framing within 24 to 48 hours of a flood event.
 
 ## Why Skokie Properties Are Prone to Flood Damage

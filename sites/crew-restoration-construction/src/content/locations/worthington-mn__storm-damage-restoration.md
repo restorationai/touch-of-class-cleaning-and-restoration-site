@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Worthington, MN | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Worthington"
-meta_description: "Storm damage restoration in Worthington, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Worthington, MN | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Worthington"
+meta_description: "Emergency storm damage restoration in Worthington, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration worthington"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Worthington? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Southwest Minnesota's open prairie geography turns every severe thunderstorm into a full-scale assault. Worthington sits in a corridor where fast-moving storm cells drop from the northwest with little terrain to slow them, and the Lake Okabena shoreline amplifies wind-driven rain in ways that catch property owners off guard even after years of living here. When a storm tears through 56187, the damage timeline starts immediately, shingles lift, soffits crack, and water finds every gap within minutes. Crew Restoration & Construction responds to that reality with a crew trained specifically in the sequence of decisions that separate a clean recovery from a months-long repair headache.
 
 ## Why Worthington Properties Take Storm Hits Hard

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Wiggins, MS | HomeLyft Restoration MS"
-h1: "Fire Damage Restoration in Wiggins"
-meta_description: "Fire damage restoration in Wiggins, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Fire Damage Restoration in Wiggins, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Fire Damage Restoration in Wiggins"
+meta_description: "24/7 emergency fire damage restoration in Wiggins, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "fire damage restoration wiggins"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Wiggins? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 When fire moves through a home in Wiggins, it rarely travels alone. The humidity that defines Stone County's climate year-round means that smoke residue absorbs moisture almost immediately, bonding to walls, insulation, and wood framing in ways that make cleanup significantly more involved than in drier regions. That combination, fire damage compounded by the Gulf South's persistent dampness, is what HomeLyft Restoration MS deals with on every post-fire job in this area, and it shapes every decision we make from the first hour on-site.
 
 ## Why Wiggins Properties Face Particular Challenges After a Fire

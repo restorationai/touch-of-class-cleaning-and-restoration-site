@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Plainfield, NJ | The Restoration Group"
-h1: "Burst Pipe Cleanup and Repair in Plainfield"
-meta_description: "24/7 burst pipe cleanup and repair in Plainfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "Emergency Burst Pipe Cleanup and Repair in Plainfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Plainfield"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Plainfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "burst pipe cleanup and repair plainfield"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Plainfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 Cast-iron supply lines and galvanized drain stacks don't announce their failures, they just let go, usually on the coldest night of a New Jersey winter or in the middle of a finished basement that took years to build out. In Plainfield, where a significant share of the housing stock predates World War II and the Green Brook drainage corridor puts low-lying neighborhoods like Sleepy Hollow and the Crescent Area at compounding flood risk, a burst pipe isn't just a plumbing problem. It's a race against saturation, mold colonization, and structural damage that can begin within 24 to 48 hours of the initial break.
 
 ## Why Plainfield Properties See More Burst Pipe Events

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Trauma Scene Cleanup in Burien, WA | National Restoration Construction"
-h1: "Trauma Scene Cleanup in Burien"
-meta_description: "24/7 trauma scene cleanup in Burien, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Trauma Scene Cleanup in Burien, WA | National Restoration Construction"
+h1: "24/7 Emergency Trauma Scene Cleanup in Burien"
+meta_description: "24/7 emergency trauma scene cleanup in Burien, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "trauma scene cleanup burien"
 secondary_keywords: ["trauma cleanup services", "trauma scene cleaning", "accident scene cleanup", "crime and trauma decontamination", "emergency trauma cleanup"]
 search_intent: "local_sensitive"

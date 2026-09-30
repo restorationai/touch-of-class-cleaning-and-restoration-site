@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Salem, SD | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Salem"
-meta_description: "Fire damage restoration in Salem, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Salem, SD | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Salem"
+meta_description: "Emergency fire damage restoration in Salem, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration salem"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Salem? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 A house fire in Salem hits differently than in a larger city. When smoke rolls through a home near the McCook County Courthouse on a cold February morning and the temperature outside is hovering in the single digits, the combination of fire-suppression water and South Dakota winter air creates a secondary damage problem that can be just as destructive as the flames themselves, frozen moisture locked inside wall cavities, ice forming under subflooring, and soot driven deep into porous surfaces before anyone arrives to begin cleanup. Crew Restoration & Construction responds to fire losses across the 57058 area, bringing the equipment and experience to address both the burn damage and the conditions that follow it.
 
 ## Why Salem Properties Face Compounding Fire Damage Challenges

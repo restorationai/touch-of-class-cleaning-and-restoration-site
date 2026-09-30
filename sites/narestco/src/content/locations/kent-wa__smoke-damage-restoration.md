@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Kent, WA | National Restoration Construction"
-h1: "Smoke Damage Restoration in Kent"
-meta_description: "24/7 smoke damage restoration in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Smoke Damage Restoration in Kent, WA | National Restoration Construction"
+h1: "24/7 Emergency Smoke Damage Restoration in Kent"
+meta_description: "24/7 emergency smoke damage restoration in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "smoke damage restoration kent"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Kent? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 If smoke is still hanging in the air of your Kent home or building, every hour matters. Smoke residue doesn't sit still, it migrates into HVAC ducts, soaks into drywall, and chemically bonds to surfaces within 72 hours of a fire. National Restoration Construction has handled post-fire smoke cleanup across the South Sound since 2004, and our Federal Way headquarters puts us roughly 15 minutes from most of Kent. When you reach us at **(206) 883-0333**, a live person picks up, not a voicemail.
 
 ## What Smoke Actually Does to a Kent Property

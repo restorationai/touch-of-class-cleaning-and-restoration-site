@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Hillside, NJ | The Restoration Group"
-h1: "Storm Damage Restoration in Hillside"
-meta_description: "24/7 storm damage restoration in Hillside, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Storm Damage Restoration in Hillside, NJ | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Hillside"
+meta_description: "24/7 emergency storm damage restoration in Hillside, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "storm damage restoration hillside"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Hillside? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 When a fast-moving nor'easter or a remnant tropical system stalls over Union County, Hillside absorbs it differently than the suburbs a few miles west. The township's dense grid of 1920s–1950s colonials and two-families sits on low-lying ground near the Elizabeth River's eastern corridor, and the combination of aging infrastructure and limited storm drainage means a single hard rain can send water through foundation walls, up through floor drains, and across finished basement floors before a sump pump has time to cycle. If your home or commercial property in the 07205 ZIP code has taken storm damage, call The Restoration Group at (855) 650-7422, we respond around the clock.
 
 ## Why Hillside Properties See Disproportionate Storm Damage

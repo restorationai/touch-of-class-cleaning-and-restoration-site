@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Manhattan, NY | The Restoration Group"
-h1: "Smoke Damage Restoration in Manhattan"
-meta_description: "24/7 smoke damage restoration in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Smoke Damage Restoration in Manhattan, NY | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Manhattan"
+meta_description: "24/7 emergency smoke damage restoration in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "smoke damage restoration manhattan"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

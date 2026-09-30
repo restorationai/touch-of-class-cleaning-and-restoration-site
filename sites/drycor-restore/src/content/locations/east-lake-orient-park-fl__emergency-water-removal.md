@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in East Lake-Orient Park, FL | DRYCOR RESTORE"
-h1: "Emergency Water Removal & Cleanup in East Lake-Orient Park"
+title: "Emergency Water Removal & Cleanup in East Lake-Orient Park | DRYCOR RESTORE"
+h1: "24/7 Emergency Water Removal & Cleanup in East Lake-Orient Park"
 meta_description: "24/7 emergency water removal & cleanup in East Lake-Orient Park, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "emergency water removal & cleanup east lake-orient park"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]

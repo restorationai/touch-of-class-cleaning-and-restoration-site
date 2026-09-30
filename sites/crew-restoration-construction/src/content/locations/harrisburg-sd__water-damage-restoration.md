@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Harrisburg, SD | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Harrisburg"
-meta_description: "Water damage restoration in Harrisburg, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Harrisburg, SD | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Harrisburg"
+meta_description: "Emergency water damage restoration in Harrisburg, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration harrisburg"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Harrisburg? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Harrisburg sits in one of the fastest-growing corridors south of Sioux Falls, and that growth comes with a particular water damage reality: hundreds of newly built homes in subdivisions like Journey and Willow Run are still settling into South Dakota's expansive clay soils, and that settling creates gaps around foundation penetrations, sump pits, and utility sleeves that didn't exist at closing. Add a hard spring thaw or a summer storm that drops two inches in forty minutes, not unusual in Lincoln County, and you have standing water in finished basements before a homeowner has even unpacked the last box. Crew Restoration & Construction responds to those calls out of Sioux Falls, reaching the 57032 ZIP code to begin extraction and structural drying before secondary damage compounds the loss.
 
 ## Why Harrisburg Properties Are Vulnerable to Water Damage

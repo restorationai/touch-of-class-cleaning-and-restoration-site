@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard and Trauma Cleanup in Butler, PA | FireDEX Butler"
-h1: "Biohazard and Trauma Cleanup in Butler"
-meta_description: "24/7 biohazard and trauma cleanup in Butler, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Biohazard and Trauma Cleanup in Butler, PA | FireDEX Butler"
+h1: "24/7 Emergency Biohazard and Trauma Cleanup in Butler"
+meta_description: "24/7 emergency biohazard and trauma cleanup in Butler, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "biohazard and trauma cleanup butler"
 secondary_keywords: ["trauma scene cleanup", "unattended death cleanup", "blood cleanup", "bodily fluid cleanup", "biohazard remediation"]
 search_intent: "local_sensitive"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Perth Amboy, NJ | The Restoration Group"
-h1: "Water Damage Restoration in Perth Amboy"
-meta_description: "24/7 water damage restoration in Perth Amboy, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Water Damage Restoration in Perth Amboy, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Damage Restoration in Perth Amboy"
+meta_description: "24/7 emergency water damage restoration in Perth Amboy, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "water damage restoration perth amboy"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Perth Amboy? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start drying your property.
+
 Perth Amboy sits at the confluence of the Raritan River and Raritan Bay, and that geography isn't just scenic, it's a recurring source of water damage for homeowners and landlords across the city. The tidal surge that swamped Waterfront-area blocks during Sandy in 2012 was a dramatic example of what coastal-storm flooding can do here, but the quieter threats are just as damaging: a failed galvanized supply line in a century-old three-family on Chase Avenue, a cast-iron drain backing up into a finished basement during a nor'easter, or a roof-leak soaking the upper unit of a converted rowhouse while the tenant below doesn't notice for days. When water gets into these buildings, it moves fast and hides deep. The Restoration Group responds 24/7 and can reach Perth Amboy addresses from our Kenilworth base, call (855) 650-7422 the moment you find standing water.
 
 ## Why Perth Amboy Properties Face Elevated Water Damage Risk

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Burst Pipe Cleanup and Repair in Bakersfield | ProRestoration Services"
-h1: "Burst Pipe Cleanup and Repair in Bakersfield"
-meta_description: "24/7 burst pipe cleanup and repair in Bakersfield and surrounding areas. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Bakersfield | ProRestoration Services"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Bakersfield"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Bakersfield and surrounding areas. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "burst pipe cleanup and repair bakersfield"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "burst-pipe-repair"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Bakersfield? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A pipe doesn't announce itself before it bursts. One morning you walk into a kitchen with two inches of standing water, or you hear a hiss behind the drywall and find a wet ceiling fan dripping below a second-floor bathroom. Within the first hour, water is already wicking into subfloor OSB, saturating wall cavity insulation, and beginning the clock on microbial growth, which can colonize porous materials in as little as 24 to 48 hours under the right conditions. Stopping the water is only the first step. What happens in the next several hours determines whether you're dealing with a contained repair or a months-long reconstruction.
 
 ## What burst pipe cleanup and repair actually involves

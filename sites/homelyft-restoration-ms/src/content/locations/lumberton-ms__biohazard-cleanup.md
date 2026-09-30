@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Lumberton, MS | HomeLyft Restoration MS"
-h1: "Biohazard Cleanup in Lumberton"
-meta_description: "Biohazard cleanup in Lumberton, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Biohazard Cleanup in Lumberton, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Biohazard Cleanup in Lumberton"
+meta_description: "24/7 emergency biohazard cleanup in Lumberton, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "biohazard cleanup lumberton"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Lumberton? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something difficult happens inside a Lumberton home or property, the last thing a family should have to manage is the cleanup. Lamar County's humid subtropical climate, long, wet summers and mild winters that rarely dry out fully, means that biologically contaminated materials can begin to deteriorate and spread odor within hours, not days. Whether the situation involves a trauma, an unattended death, or the discovery of sharps and infectious material in a rental unit, prompt professional remediation protects both the structure and the people who still need to live or work there.
 
 ## Why Lumberton Properties Present Unique Biohazard Challenges

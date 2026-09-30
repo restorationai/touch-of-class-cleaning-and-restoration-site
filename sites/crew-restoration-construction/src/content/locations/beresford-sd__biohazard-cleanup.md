@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Beresford, SD | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Beresford"
-meta_description: "Biohazard cleanup in Beresford, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Beresford, SD | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Beresford"
+meta_description: "Emergency biohazard cleanup in Beresford, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup beresford"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Beresford? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Beresford is a small, close-knit community straddling the Union-Lincoln county line along I-29, and when something goes wrong inside a home or property here, an unattended death, a sewage release, or a situation involving infectious material, the people affected rarely know who to call or what to do next. Crew Restoration & Construction handles biohazard cleanup in the 57004 area with the discretion and thoroughness that a situation like this demands. We understand that in a town this size, privacy matters as much as speed.
 
 ## Why Beresford Properties Present Unique Biohazard Considerations

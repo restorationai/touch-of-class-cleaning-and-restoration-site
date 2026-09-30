@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Cedar Hills, UT | FIX Restoration"
-h1: "Board-Up and Tarping in Cedar Hills"
-meta_description: "Board-up and tarping in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Board-Up and Tarping in Cedar Hills, UT | FIX Restoration"
+h1: "Emergency Board-Up and Tarping in Cedar Hills"
+meta_description: "Emergency board-up and tarping in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "emergency board-up and tarping cedar hills"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Cedar Hills? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Cedar Hills sits at the base of the Wasatch Front where winter storms roll in fast and summer thunderstorms can drop hail without much warning. When a storm tears shingles loose, a fire blows out windows, or a break-in leaves a door frame splintered, the gap between the damage and a weathertight cover can mean the difference between a manageable repair and a gut renovation. FIX Restoration responds to board-up and tarping calls across Cedar Hills and the surrounding Utah County communities, working to get a secure barrier in place before the next weather event compounds what's already a stressful situation.
 
 ## Why Cedar Hills Properties Face Particular Board-Up and Tarping Risks

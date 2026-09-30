@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Water Damage Restoration in Kalaeloa"
-meta_description: "24/7 water damage restoration in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "24/7 Emergency Water Damage Restoration in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Damage Restoration in Kalaeloa"
+meta_description: "24/7 emergency water damage restoration in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "water damage restoration kalaeloa"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Kalaeloa? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Kalaeloa sits on the western edge of Oahu in a stretch of land that was once a naval air station, and the combination of salt-laden trade winds, a high water table in the surrounding coastal plain, and construction that spans several distinct eras creates water damage conditions unlike anywhere else on the island. When a supply line fails or a roof seam gives way during a Kona storm, the moisture doesn't just soak into drywall, it moves fast through concrete slab foundations, gets trapped under flooring adhesives, and feeds corrosion in the metal framing common to mid-century military-era construction. AAA Water Damage Restoration & Carpet Care responds 24/7 from Honolulu to stop that process before it compounds.
 
 ## Why Kalaeloa Properties Face Distinct Water Damage Risks

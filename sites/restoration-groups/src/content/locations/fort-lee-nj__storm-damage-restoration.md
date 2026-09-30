@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Fort Lee, NJ | The Restoration Group"
-h1: "Storm Damage Restoration in Fort Lee"
-meta_description: "24/7 storm damage restoration in Fort Lee, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Storm Damage Restoration in Fort Lee, NJ | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Fort Lee"
+meta_description: "24/7 emergency storm damage restoration in Fort Lee, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "storm damage restoration fort lee"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Fort Lee? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 When a nor'easter or a remnant tropical system rolls through Bergen County, Fort Lee takes the hit differently than most of New Jersey. The borough sits atop the Palisades cliffs, and that elevation means storm runoff doesn't spread, it accelerates straight down toward lower streets, pooling against foundations and pushing into crawl spaces and basement-level parking garages faster than standard drainage can handle. After Ida soaked the region in 2021, calls from Fort Lee flooded in from Coytesville's older two- and three-family homes, high-rise towers along the cliff edge, and commercial spaces in the Hudson Lights complex, all in the same 24-hour window. The Restoration Group responds around the clock, and understanding how this specific geography behaves is the difference between a fast recovery and a months-long repair.
 
 ## Why Fort Lee Properties See Disproportionate Storm Damage

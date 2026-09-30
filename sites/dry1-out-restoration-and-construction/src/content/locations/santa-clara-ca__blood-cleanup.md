@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Blood Cleanup in Santa Clara, CA | Dry1 Out Restoration and Construction"
-h1: "Blood Cleanup in Santa Clara"
-meta_description: "24/7 blood cleanup in Santa Clara, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+title: "24/7 Emergency Blood Cleanup in Santa Clara, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Blood Cleanup in Santa Clara"
+meta_description: "24/7 emergency blood cleanup in Santa Clara, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "blood cleanup santa clara"
 secondary_keywords: []
 search_intent: "local_specialty"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Ontario, CA | Dry County Restoration"
-h1: "Storm Damage Restoration in Ontario"
-meta_description: "24/7 storm damage restoration in Ontario, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "24/7 Emergency Storm Damage Restoration in Ontario, CA | Dry County Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Ontario"
+meta_description: "24/7 emergency storm damage restoration in Ontario, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "storm damage restoration ontario"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Ontario? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Ontario sits at the foot of the San Gabriel and San Bernardino mountains, which means the Inland Empire's storm season hits the city from two directions at once: cold fronts that funnel moisture down through Cajon Pass and Santa Ana wind events that arrive from the east with little warning. When those systems collide with Ontario's mix of mid-century tract homes, newer master-planned subdivisions, and large logistics and warehouse campuses along the I-15 and I-10 corridors, the damage can range from stripped roofing and downed trees to flooded garages and wind-driven water behind stucco walls. Dry County Restoration responds 24/7 from its Corona headquarters and is an IICRC Certified Firm with technicians trained in water damage, structural drying, and mold remediation.
 
 ## Why Ontario Properties See Significant Storm Damage

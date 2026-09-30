@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Lehi, UT | FIX Restoration"
-h1: "Biohazard Cleanup in Lehi"
-meta_description: "Biohazard cleanup in Lehi, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Biohazard Cleanup in Lehi, UT | FIX Restoration"
+h1: "Emergency Biohazard Cleanup in Lehi"
+meta_description: "Emergency biohazard cleanup in Lehi, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "biohazard cleanup lehi"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Lehi? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Lehi has grown faster than almost any city in Utah County over the past decade, and that growth brings a reality that few people talk about openly: biohazard situations don't pause for new construction schedules or HOA move-in checklists. Whether the need arises in an established home near the older west-side streets or in one of the newer developments pushing toward the Point of the Mountain, the response has to be discreet, thorough, and handled by people who understand what proper remediation actually requires, not just a surface clean.
 
 ## Why Lehi's Growth Pattern Shapes Biohazard Response

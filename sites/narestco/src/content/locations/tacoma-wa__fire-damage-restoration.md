@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Tacoma, WA | National Restoration Construction"
-h1: "Fire Damage Restoration in Tacoma"
-meta_description: "24/7 fire damage restoration in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Fire Damage Restoration in Tacoma, WA | National Restoration Construction"
+h1: "24/7 Emergency Fire Damage Restoration in Tacoma"
+meta_description: "24/7 emergency fire damage restoration in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "fire damage restoration tacoma"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Tacoma? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 A house fire leaves behind more than char and ash. Within hours of the flames going out, smoke residue is already bonding to walls, ceilings, and HVAC surfaces, and the water used to extinguish the fire is soaking into framing and subfloor. If you're in Tacoma and you're reading this right now, the clock is already running. National Restoration Construction has been responding to structural fire damage across the South Puget Sound since 2004, and our crews can be on-site in Tacoma in 60–90 minutes from our Federal Way headquarters, often faster for properties near I-5 or SR-16.
 
 ## What Our Fire Damage Restoration Process Looks Like in Tacoma

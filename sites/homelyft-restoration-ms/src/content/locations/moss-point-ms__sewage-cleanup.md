@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Moss Point, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Moss Point"
-meta_description: "Sewage cleanup and sanitization in Moss Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "Emergency Sewage Cleanup and Sanitization in Moss Point, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Moss Point"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Moss Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization moss point"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Moss Point? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Moss Point sits at the confluence of the Escatawba and Pascagoula Rivers, and that geography does more than shape the scenery, it keeps the water table stubbornly high year-round. When a sewer line backs up or a septic system overflows here, raw sewage doesn't just pool on the floor; it wicks into subfloor framing and wall cavities within hours, driven by humidity levels that rarely drop below 70% even in winter. HomeLyft Restoration MS responds to sewage backup calls across Moss Point, bringing IICRC-certified technicians and commercial-grade extraction and sanitization equipment to properties that can't afford to wait.
 
 ## Why Moss Point Properties See Sewage Backup More Often

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst & Frozen Pipes in Henderson, NV | PuroClean of East Las Vegas"
-h1: "Burst & Frozen Pipes in Henderson"
-meta_description: "Burst & frozen pipes in Henderson, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Burst & Frozen Pipes in Henderson, NV | PuroClean of East Las Vegas"
+h1: "Emergency Burst & Frozen Pipes in Henderson"
+meta_description: "Emergency burst & frozen pipes in Henderson, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "burst & frozen pipes henderson"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -20,6 +20,9 @@ state: "NV"
 service_display: "Burst & Frozen Pipes"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Henderson? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 Henderson sits in one of the hottest, driest metro areas in the country, which is exactly why a burst pipe here catches so many homeowners off guard. The Mojave climate means residential plumbing rarely gets the cold-weather conditioning that pipes in northern states receive every winter, so when a hard freeze does push through the valley, uninsulated supply lines in attics, garages, and exterior walls can split without warning. In master-planned communities like Anthem and Green Valley Ranch, where construction boomed through the 2000s and 2010s, that means newer homes with modern finishes and open floor plans suddenly facing thousands of gallons of standing water inside walls and under slabs.
 
 ## Why Henderson Properties See Burst and Frozen Pipe Issues

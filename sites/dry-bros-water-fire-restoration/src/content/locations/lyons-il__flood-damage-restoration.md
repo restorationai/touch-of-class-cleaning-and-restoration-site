@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Lyons, IL | Dry Bros Water & Fire Restoration"
-h1: "Flood Damage Restoration in Lyons"
-meta_description: "24/7 flood damage restoration in Lyons, IL. Insurance billing accepted. Call (877) 379-2767."
+title: "24/7 Emergency Flood Damage Restoration in Lyons, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Flood Damage Restoration in Lyons"
+meta_description: "24/7 emergency flood damage restoration in Lyons, IL. Insurance billing accepted. Call (877) 379-2767."
 primary_keyword: "flood damage restoration lyons"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

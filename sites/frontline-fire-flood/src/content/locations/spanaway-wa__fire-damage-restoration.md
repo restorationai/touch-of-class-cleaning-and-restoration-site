@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Spanaway, WA | Frontline Fire & Flood"
-h1: "Fire Damage Restoration in Spanaway"
-meta_description: "24/7 fire damage restoration in Spanaway, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Fire Damage Restoration in Spanaway, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Fire Damage Restoration in Spanaway"
+meta_description: "24/7 emergency fire damage restoration in Spanaway, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration spanaway"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Spanaway? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Spanaway sits in a part of Pierce County where older ranch-style homes and mid-century construction share streets with newer subdivisions, and when fire moves through a house built in the 1960s or 1970s, it behaves differently than it does in a modern stick-frame. Combustion byproducts sink into original wood paneling, travel through open-joist cavities, and coat insulation that was never designed to be cleaned. If you're dealing with fire or smoke damage in Spanaway right now, the window for limiting secondary damage is already closing. Call Frontline Fire & Flood at (253) 200-0503, we respond 24/7 from our Lakewood base.
 
 ## Why Spanaway Homes Present Specific Fire Damage Challenges

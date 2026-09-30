@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Oxford, MA | Quality Contracting, Inc."
-h1: "Fire Damage Restoration in Oxford"
-meta_description: "Fire damage restoration in Oxford, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Fire Damage Restoration in Oxford, MA | Quality Contracting, Inc."
+h1: "Emergency Fire Damage Restoration in Oxford"
+meta_description: "Emergency fire damage restoration in Oxford, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "fire damage restoration oxford"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Oxford? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Oxford, MA sits in a part of Worcester County where older housing stock, wood-frame construction, and oil-heat systems create a particular set of challenges after a house fire. When smoke and char work their way into balloon-framed walls or century-old plaster ceilings, the damage spreads farther and faster than it does in newer builds. Quality Contracting, Inc. responds to fire and smoke restoration calls throughout Oxford, bringing the kind of structured, methodical process that older New England homes genuinely require.
 
 ## Why Oxford Properties Face Distinct Fire Damage Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board Up in Utica, MI | Flood Solutions inc"
-h1: "Board Up in Utica"
-meta_description: "Board up in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Board Up in Utica, MI | Flood Solutions inc"
+h1: "Emergency Board Up in Utica"
+meta_description: "Emergency board up in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "emergency board up utica"
 secondary_keywords: []
 search_intent: "local_specialty"

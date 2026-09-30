@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Highland Park, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in Highland Park"
-meta_description: "24/7 basement flooding cleanup in Highland Park, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "Emergency Basement Flooding Cleanup in Highland Park, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Highland Park"
+meta_description: "24/7 emergency basement flooding cleanup in Highland Park, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "basement flooding cleanup highland park"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Highland Park? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 When the Raritan River crests, as it did violently during Hurricane Ida in 2021, swamping Donaldson Park and pushing water across River Road, basements throughout Highland Park fill faster than sump pumps can cycle. But river flooding is only one piece of the picture. The borough's dense grid of 1910s–1940s colonials, bungalows, and two-families carries original cast-iron drain lines and aging galvanized supply plumbing that fail quietly behind finished walls, turning a slow drip into inches of standing water overnight. When that happens, fast extraction and structured drying are the difference between a salvageable basement and a gut renovation.
 
 ## Why Highland Park Properties See Basement Flooding Issues

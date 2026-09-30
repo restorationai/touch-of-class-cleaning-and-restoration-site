@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in George, IA | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in George"
-meta_description: "Board-up and tarping in George, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in George, IA | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in George"
+meta_description: "Emergency board-up and tarping in George, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping george"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in George? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a spring storm tears through Lyon County and leaves a gaping hole in your roof, or a fire guts a window frame on a quiet block near George City Park, the hours between the damage and a proper seal determine how much of your home survives intact. Northwest Iowa's wind corridor doesn't pause while you wait, rain, debris, and overnight temperature swings can push a manageable loss into a gut-renovation situation within 24 to 48 hours. Crew Restoration & Construction dispatches board-up and tarping crews to George (51237) and the surrounding area to close those openings before the elements finish what the initial event started.
 
 ## Why George Properties Are Especially Vulnerable After Structural Damage

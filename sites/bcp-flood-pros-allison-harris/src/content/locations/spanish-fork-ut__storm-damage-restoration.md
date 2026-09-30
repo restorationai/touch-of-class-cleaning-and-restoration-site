@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Spanish Fork, UT | FIX Restoration"
-h1: "Storm Damage Restoration in Spanish Fork"
-meta_description: "Storm damage restoration in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Storm Damage Restoration in Spanish Fork, UT | FIX Restoration"
+h1: "Emergency Storm Damage Restoration in Spanish Fork"
+meta_description: "Emergency storm damage restoration in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "storm damage restoration spanish fork"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Spanish Fork? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Spanish Fork sits in a geographic pocket where Utah Valley's warm-season thunderstorms funnel down from the Wasatch Range and collide with cold air draining off the Spanish Fork Canyon corridor, a combination that produces hail, microbursts, and sudden wind gusts that can strip roofing, down mature trees, and drive water through window seals before a homeowner has time to move anything off the floor. When a storm moves through Utah County, the damage it leaves behind rarely waits for a convenient appointment.
 
 ## Why Spanish Fork Properties See Repeated Storm Damage

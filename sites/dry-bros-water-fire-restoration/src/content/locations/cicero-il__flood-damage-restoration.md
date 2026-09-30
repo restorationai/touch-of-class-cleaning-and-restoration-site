@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Cicero, IL | Dry Bros Water & Fire Restoration"
-h1: "Flood Damage Restoration in Cicero"
-meta_description: "Flood damage restoration in Cicero, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Flood Damage Restoration in Cicero, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Flood Damage Restoration in Cicero"
+meta_description: "24/7 emergency flood damage restoration in Cicero, IL. Insurance billing accepted. Call us now."
 primary_keyword: "flood damage restoration cicero"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Cicero? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Cicero sits on some of the flattest, most drainage-challenged terrain in Cook County, and when a heavy rain event overwhelms the combined sewer system that serves much of the town, basements fill fast. The brick two-flats and bungalows that line block after block of this community were built in an era before sump pits were code, and their below-grade spaces were never designed to shed water quickly. When flood water reaches your floor joists, the clock starts immediately, not just on structural damage, but on mold colonization in the wood framing behind those plaster walls.
 
 ## Why Cicero Properties See Flood Damage Differently

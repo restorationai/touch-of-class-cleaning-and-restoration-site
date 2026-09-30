@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Biohazard Cleanup in Middlesex | Go Green Restoration of NC"
-h1: "Biohazard Cleanup in Middlesex"
-meta_description: "24/7 biohazard cleanup in Middlesex and surrounding areas. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Biohazard Cleanup in Middlesex | Go Green Restoration of NC"
+h1: "24/7 Emergency Biohazard Cleanup in Middlesex"
+meta_description: "24/7 emergency biohazard cleanup in Middlesex and surrounding areas. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "biohazard cleanup middlesex"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

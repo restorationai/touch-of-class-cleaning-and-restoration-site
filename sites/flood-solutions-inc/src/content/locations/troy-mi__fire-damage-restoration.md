@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Troy, MI | Flood & Fire Solutions"
-h1: "Fire Damage Restoration in Troy"
-meta_description: "Fire damage restoration in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Fire Damage Restoration in Troy, MI | Flood & Fire Solutions"
+h1: "Emergency Fire Damage Restoration in Troy"
+meta_description: "Emergency fire damage restoration in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "fire damage restoration troy"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Troy? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When a fire tears through a Troy home, the damage rarely stops at the charred walls. Smoke travels fast through forced-air systems, and in Michigan winters, the water left behind by fire suppression can freeze inside wall cavities before a crew even arrives. Troy sits in Oakland County, where a significant portion of the residential housing stock was built between the late 1950s and the mid-1980s, a construction era that relied heavily on fiberglass batt insulation and wood-framed interior walls that absorb smoke odor at a cellular level. Getting restoration right here means understanding both the building and the season.
 
 ## Why Troy Properties Face Distinct Fire Damage Challenges

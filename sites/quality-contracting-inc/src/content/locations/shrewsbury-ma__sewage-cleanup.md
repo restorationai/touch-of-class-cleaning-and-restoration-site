@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Shrewsbury, MA | Quality Contracting, Inc."
-h1: "Sewage Cleanup and Sanitization in Shrewsbury"
-meta_description: "Sewage cleanup and sanitization in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Sewage Cleanup and Sanitization in Shrewsbury, MA | Quality Contracting, Inc."
+h1: "Emergency Sewage Cleanup and Sanitization in Shrewsbury"
+meta_description: "Emergency sewage cleanup and sanitization in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "sewage cleanup and sanitization shrewsbury"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Shrewsbury? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows in Shrewsbury, the problem rarely stays contained. Lakefront properties along Lake Quinsigamond sit close to a water table that rises quickly after heavy rain, and the postwar capes and ranches that fill neighborhoods like Edgemere were built with basement floor drains that can reverse-flow without warning. Raw sewage in a finished basement is a health hazard within hours, not days, and the clock on bacterial and pathogen exposure starts the moment the water stops moving. Call Quality Contracting at (508) 756-8800 to get the process started.
 
 ## Why Shrewsbury Properties See Sewage Backup Issues

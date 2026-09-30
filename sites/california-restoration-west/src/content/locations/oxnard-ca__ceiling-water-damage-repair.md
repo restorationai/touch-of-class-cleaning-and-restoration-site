@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Oxnard, CA | California Restoration West "
-h1: "Ceiling Water Damage Repair in Oxnard"
-meta_description: "24/7 ceiling water damage repair in Oxnard, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "24/7 Emergency Ceiling Water Damage Repair in Oxnard, CA | California Restoration West "
+h1: "24/7 Emergency Ceiling Water Damage Repair in Oxnard"
+meta_description: "24/7 emergency ceiling water damage repair in Oxnard, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "ceiling water damage repair oxnard"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

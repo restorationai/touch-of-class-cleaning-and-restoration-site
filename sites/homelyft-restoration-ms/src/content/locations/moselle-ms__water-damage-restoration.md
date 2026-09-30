@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Moselle, MS | HomeLyft Restoration MS"
-h1: "Water Damage Restoration in Moselle"
-meta_description: "Water damage restoration in Moselle, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Water Damage Restoration in Moselle, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Water Damage Restoration in Moselle"
+meta_description: "24/7 emergency water damage restoration in Moselle, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "water damage restoration moselle"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Moselle? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Moselle sits in the piney woods of Jones County where summer humidity rarely dips below oppressive, afternoon thunderstorms can dump two inches of rain in under an hour, and the sandy-loam soils shift just enough over time to stress older pier-and-beam foundations. When a supply line fails or a storm drives water under a door, that moisture doesn't just sit on the surface, it wicks into subfloor sheathing, crawl-space insulation, and wall cavities before most homeowners realize the extent of what they're dealing with. HomeLyft Restoration MS responds to water damage calls across Moselle and the surrounding Jones County corridor, bringing IICRC-certified water removal and structural drying crews directly from our Gulfport base.
 
 ## Why Moselle Properties See Water Damage Issues

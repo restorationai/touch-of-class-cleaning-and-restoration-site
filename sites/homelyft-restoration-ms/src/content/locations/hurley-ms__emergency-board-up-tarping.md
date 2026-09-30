@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Hurley, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Hurley"
-meta_description: "Board-up and tarping in Hurley, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Hurley, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Hurley"
+meta_description: "24/7 emergency board-up and tarping in Hurley, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping hurley"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Hurley? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Hurley sits in the piney woods of Jackson County, where Gulf Coast humidity meets the kind of afternoon thunderstorms that can strip shingles, shatter windows, and leave a home wide open to the elements within minutes. When that happens, every hour a structure stays exposed accelerates the damage, rain soaks into wall cavities, insects find entry points, and what started as storm damage quietly becomes a mold and structural problem. HomeLyft Restoration MS responds to those calls from Gulfport, deploying board-up and tarping crews to Hurley properties before a bad situation compounds into something far more costly.
 
 ## Why Hurley Properties Are Vulnerable After Storms

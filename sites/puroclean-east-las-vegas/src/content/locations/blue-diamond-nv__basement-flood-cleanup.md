@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flood Cleanup in Blue Diamond, NV | PuroClean of East Las Vegas"
-h1: "Basement Flood Cleanup in Blue Diamond"
-meta_description: "Basement flood cleanup in Blue Diamond, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Basement Flood Cleanup in Blue Diamond, NV | PuroClean of East Las Vegas"
+h1: "Emergency Basement Flood Cleanup in Blue Diamond"
+meta_description: "Emergency basement flood cleanup in Blue Diamond, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "basement flood cleanup blue diamond"
 secondary_keywords: []
 search_intent: "local_specialty"

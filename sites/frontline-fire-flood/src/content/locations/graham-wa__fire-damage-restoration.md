@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Graham, WA | Frontline Fire & Flood"
-h1: "Fire Damage Restoration in Graham"
-meta_description: "24/7 fire damage restoration in Graham, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Fire Damage Restoration in Graham, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Fire Damage Restoration in Graham"
+meta_description: "24/7 emergency fire damage restoration in Graham, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration graham"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Graham? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Graham sits in a rural-suburban stretch of Pierce County where wood-frame construction, propane heating systems, and older electrical panels are common, a combination that shapes how fire damage unfolds and how restoration has to be approached. When a kitchen fire scorches through a home near Graham's SR-161 corridor, or a heating-equipment failure chars a garage on a large-lot property off 224th Street E, the damage rarely stops at the burn marks. Smoke infiltrates wall cavities, soot settles into HVAC ductwork, and the odor embeds in insulation long before a crew arrives. Getting the restoration sequence right from the first hour matters.
 
 ## Why Graham Properties See Distinctive Fire Damage Patterns

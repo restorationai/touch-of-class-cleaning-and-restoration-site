@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Leominster, MA | Quality Contracting, Inc."
-h1: "Board-Up and Tarping in Leominster"
-meta_description: "Board-up and tarping in Leominster, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Board-Up and Tarping in Leominster, MA | Quality Contracting, Inc."
+h1: "Emergency Board-Up and Tarping in Leominster"
+meta_description: "Emergency board-up and tarping in Leominster, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "emergency board-up and tarping leominster"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"

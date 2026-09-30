@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Isle of Palms, SC | Paul Davis Restoration of Charleston"
-h1: "Fire Damage Restoration in Isle of Palms"
-meta_description: "Fire damage restoration in Isle of Palms, SC. Insurance billing accepted. Call."
+title: "Emergency Fire Damage Restoration in Isle of Palms, SC | Paul Davis Restoration of Charleston"
+h1: "Emergency Fire Damage Restoration in Isle of Palms"
+meta_description: "Emergency fire damage restoration in Isle of Palms, SC. Insurance billing accepted. Call."
 primary_keyword: "fire damage restoration isle of palms"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

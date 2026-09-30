@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Highland Park, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Highland Park"
-meta_description: "24/7 smoke damage restoration in Highland Park, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Highland Park, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Highland Park"
+meta_description: "24/7 emergency smoke damage restoration in Highland Park, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration highland park"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Highland Park? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 The acrid smell of smoke doesn't leave a Highland Park home the way it entered, fast and obvious. It seeps into the plaster walls of the 1920s colonials along Livingston Manor, settles into the original hardwood floors of Triangle-area bungalows, and clings to the cast-iron radiator pipes that run through the bones of the borough's dense pre-war housing stock. When a kitchen fire or electrical fault leaves your home in 08904 smelling like a campfire three weeks later, that's not a cleaning problem, it's a chemistry problem, and it requires a structured restoration process to resolve.
 
 ## Why Highland Park's Housing Stock Complicates Smoke Damage

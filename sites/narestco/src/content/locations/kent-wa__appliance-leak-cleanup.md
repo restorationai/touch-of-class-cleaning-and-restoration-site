@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Kent, WA | National Restoration Construction"
-h1: "Appliance Leak Cleanup in Kent"
-meta_description: "24/7 appliance leak cleanup in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Appliance Leak Cleanup in Kent, WA | National Restoration Construction"
+h1: "24/7 Emergency Appliance Leak Cleanup in Kent"
+meta_description: "24/7 emergency appliance leak cleanup in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "appliance leak cleanup kent"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Kent? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Your dishwasher door seal failed. Your washing machine hose let go. Your refrigerator's ice maker line dripped silently for weeks behind the fridge until the laminate buckled and the subfloor turned soft. Whatever just happened in your Kent home, the clock started the moment water hit the floor, and the longer it sits, the deeper it goes.
 
 National Restoration Construction has been responding to appliance leak emergencies across the South King County area since 2004. When you reach us at **(206) 883-0333**, you're getting a crew dispatched from Federal Way, typically on your doorstep within 60 to 90 minutes, not a call center routing your job to whoever's available.

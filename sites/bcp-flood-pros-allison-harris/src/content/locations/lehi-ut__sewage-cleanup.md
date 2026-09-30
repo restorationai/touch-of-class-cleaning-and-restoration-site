@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Lehi, UT | FIX Restoration"
-h1: "Sewage Cleanup and Sanitization in Lehi"
-meta_description: "Sewage cleanup and sanitization in Lehi, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Sewage Cleanup and Sanitization in Lehi, UT | FIX Restoration"
+h1: "Emergency Sewage Cleanup and Sanitization in Lehi"
+meta_description: "Emergency sewage cleanup and sanitization in Lehi, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "sewage cleanup and sanitization lehi"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Lehi? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Lehi's rapid growth along the I-15 corridor has brought tens of thousands of new residents and businesses into a city where aging lateral sewer lines and fast-expanding subdivision infrastructure don't always keep pace with demand. When a sewer line backs up into a finished basement or a septic system overflows near a newer development on the city's western edge, the contamination isn't just an inconvenience, raw sewage carries pathogens that begin affecting porous materials within hours. FIX Restoration, based in neighboring American Fork, responds to sewage backup and sanitization calls throughout Lehi with the kind of familiarity that only comes from working this area consistently since 2012.
 
 ## Why Lehi Properties See Sewage Backup Issues

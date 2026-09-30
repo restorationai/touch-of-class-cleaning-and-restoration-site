@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Lindon, UT | FIX Restoration"
-h1: "Board-Up and Tarping in Lindon"
-meta_description: "Board-up and tarping in Lindon, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Board-Up and Tarping in Lindon, UT | FIX Restoration"
+h1: "Emergency Board-Up and Tarping in Lindon"
+meta_description: "Emergency board-up and tarping in Lindon, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "emergency board-up and tarping lindon"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Lindon? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Lindon sits in a stretch of Utah County where late-summer thunderstorms roll off the Wasatch Front fast and leave little warning, and where hard winters can drop heavy snow loads on rooftops that were never designed to carry them. When a storm peels back shingles, a fire blows out a window, or a tree limb punches through a soffit, the structure is exposed to whatever comes next. FIX Restoration responds from American Fork to get plywood, OSB, and heavy-duty tarps in place before a manageable loss becomes a gutted interior.
 
 ## Why Lindon Properties Face Particular Board-Up and Tarping Risks

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Foley, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Foley"
-meta_description: "Fire damage restoration in Foley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Foley, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Foley"
+meta_description: "Emergency fire damage restoration in Foley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration foley"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Foley? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Foley sits in Benton County where winters are long and cold, and the older wood-frame homes that make up much of the town's residential core carry a fire risk profile that newer construction simply doesn't. When a heating system pushes too hard on a January night, or a kitchen fire moves into wall cavities lined with decades-old insulation, the damage spreads faster and deeper than it looks from the doorway. Heritage Restoration LLC responds to fire and smoke losses across Foley and the surrounding Benton County area, holding IICRC FSRT (Fire and Smoke Restoration) certification and EPA Lead-Safe certification for the older housing stock common here.
 
 ## Why Foley Homes Are Particularly Vulnerable to Fire Damage

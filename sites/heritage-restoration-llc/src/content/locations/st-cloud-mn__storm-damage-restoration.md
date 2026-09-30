@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in St. Cloud, MN | Heritage Restoration LLC"
-h1: "Storm Damage Restoration in St. Cloud"
-meta_description: "Storm damage restoration in St. Cloud, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Storm Damage Restoration in St. Cloud, MN | Heritage Restoration LLC"
+h1: "Emergency Storm Damage Restoration in St. Cloud"
+meta_description: "Emergency storm damage restoration in St. Cloud, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "storm damage restoration st. cloud"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in St. Cloud? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 St. Cloud sits squarely in central Minnesota's severe weather corridor, where spring derechos, late-season blizzards, and summer hailstorms can arrive within the same calendar month. When a fast-moving storm drops a white oak across a roof on the north side of town or drives wind-driven rain through a soffit gap, the damage compounds quickly, especially in the older housing stock common throughout the city, where attic insulation and roof decking were never designed with today's storm intensities in mind. Heritage Restoration LLC responds to storm damage calls across St. Cloud and the surrounding Stearns County area, working to stop secondary damage before it takes hold.
 
 ## Why St. Cloud Properties See Repeated Storm Damage

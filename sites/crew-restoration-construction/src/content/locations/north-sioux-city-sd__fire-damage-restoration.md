@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in North Sioux City, SD | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in North Sioux City"
-meta_description: "Fire damage restoration in North Sioux City, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in North Sioux City, SD | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in North Sioux City"
+meta_description: "Emergency fire damage restoration in North Sioux City, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration north sioux city"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in North Sioux City? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When a fire tears through a home near McCook Lake or along the older residential streets of Downtown North Sioux City, the damage rarely stops at char marks and broken windows. Smoke infiltrates wall cavities, soot settles into HVAC ductwork, and the acrid smell of burned materials can linger for months if the cleanup isn't handled correctly from the first hour. Crew Restoration & Construction responds to fire losses throughout the 57049 ZIP code, bringing the equipment and trained technicians needed to stabilize your property and start the recovery process before secondary damage compounds the loss.
 
 ## Why North Sioux City Properties Face Particular Challenges After a Fire

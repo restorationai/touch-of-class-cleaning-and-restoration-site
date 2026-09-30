@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Lakeland South, WA | National Restoration Construction"
-h1: "Fire Damage Restoration in Lakeland South"
-meta_description: "24/7 fire damage restoration in Lakeland South, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Fire Damage Restoration in Lakeland South, WA | National Restoration Construction"
+h1: "24/7 Emergency Fire Damage Restoration in Lakeland South"
+meta_description: "24/7 emergency fire damage restoration in Lakeland South, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "fire damage restoration lakeland south"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Lakeland South? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Lakeland South sits in a part of King County where residential development pushed outward quickly during the 1980s and 1990s, leaving a housing stock that blends wood-frame construction, composite siding, and attic spaces that can carry smoke deep into a structure before a fire is even fully extinguished. When a kitchen fire or electrical fault ignites in one of these homes, the damage rarely stays where it started. Smoke travels through HVAC returns, settles into insulation, and leaves an odor that no amount of airing out will fix on its own. National Restoration Construction responds to fire losses throughout Lakeland South and the surrounding Federal Way corridor, bringing the full scope of structural and content restoration under one contractor.
 
 ## Why Lakeland South Homes Are Particularly Vulnerable After a Fire

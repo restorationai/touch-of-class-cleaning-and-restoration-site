@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Cranberry Township | FireDEX Butler"
-h1: "Fire Damage Restoration in Cranberry Township"
-meta_description: "24/7 fire damage restoration in Cranberry Township and surrounding areas. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Fire Damage Restoration in Cranberry Township | FireDEX Butler"
+h1: "24/7 Emergency Fire Damage Restoration in Cranberry Township"
+meta_description: "24/7 emergency fire damage restoration in Cranberry Township and surrounding areas. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "fire damage restoration cranberry township"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Cranberry Township? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 The fire is out, but the damage isn't done. In the hours after a structural fire, soot particles continue to etch into surfaces, acidic smoke residue corrodes metal fixtures, and the smell of combustion works deeper into drywall, insulation, and HVAC ductwork. Every hour without professional intervention narrows the window for saving finishes, contents, and structural materials that would otherwise require full replacement.
 
 ## What fire damage restoration actually involves

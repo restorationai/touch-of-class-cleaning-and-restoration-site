@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Provo, UT | Home Pride Restoration and Cleaning"
-h1: "Appliance Leak Cleanup in Provo"
-meta_description: "24/7 appliance leak cleanup in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Appliance Leak Cleanup in Provo, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Appliance Leak Cleanup in Provo"
+meta_description: "24/7 emergency appliance leak cleanup in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "appliance leak cleanup provo"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Provo? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A refrigerator ice maker line that fails quietly overnight or a washing machine that decides to drain onto your laundry room floor during a Utah County winter can leave standing water under subflooring before you notice anything is wrong. In Provo, where a significant share of the housing stock near the older university neighborhoods was built in the 1950s through 1970s, those subfloors are often tongue-and-groove fir or particleboard, materials that swell, delaminate, and begin supporting mold growth within 24 to 48 hours of saturation. Call Home Pride Restoration and Cleaning at (801) 995-2437 the moment you find water; the first few hours determine whether this is a cleanup or a full subfloor replacement.
 
 ## Why Provo Properties See More Appliance Leak Damage

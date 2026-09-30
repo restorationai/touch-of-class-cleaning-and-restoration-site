@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Big Spring? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Big Spring sits in the heart of the Permian Basin, where the same caliche-heavy soil that makes West Texas iconic also creates drainage headaches when water has nowhere to go. A burst supply line, a failed water heater, or a sudden West Texas downpour can leave standing water pooling against slab foundations faster than most homeowners expect, and in this climate, where indoor humidity swings wildly between bone-dry winters and humid summer storm cells, wet building materials don't behave the same way they do in wetter parts of the state. When water gets into your home or business in Big Spring, the clock starts immediately.
 
 ## Why Big Spring Properties See Water Damage Differently

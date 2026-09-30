@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Poplarville, MS | HomeLyft Restoration MS"
-h1: "Storm Damage Restoration in Poplarville"
-meta_description: "Storm damage restoration in Poplarville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Storm Damage Restoration in Poplarville, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Storm Damage Restoration in Poplarville"
+meta_description: "24/7 emergency storm damage restoration in Poplarville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "storm damage restoration poplarville"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Poplarville? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Poplarville sits in Pearl River County at the edge of Mississippi's pine belt, where Gulf-fed storm systems funnel inland with surprising force. When a fast-moving squall or a weakened hurricane remnant tears through, the combination of tall loblolly pines, older wood-frame housing stock, and saturated clay soils means downed trees, compromised rooflines, and flooded crawl spaces can appear within the same hour. HomeLyft Restoration MS responds to that kind of layered damage, not just the visible debris, but the moisture that follows it into wall cavities and subfloors.
 
 ## Why Poplarville Properties Take a Harder Hit from Severe Weather

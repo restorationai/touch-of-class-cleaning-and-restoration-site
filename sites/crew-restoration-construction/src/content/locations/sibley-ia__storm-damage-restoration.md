@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Sibley, IA | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Sibley"
-meta_description: "Storm damage restoration in Sibley, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Sibley, IA | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Sibley"
+meta_description: "Emergency storm damage restoration in Sibley, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration sibley"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Sibley? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 When a severe storm rolls across Osceola County, Sibley absorbs the full force of northwest Iowa's open-sky weather, hail the size of quarters, straight-line winds that can top 80 mph, and tornado touchdowns that have historically tracked along the flat terrain surrounding the county seat. Homes near Downtown Sibley and out toward the Osceola County Fairgrounds area sit exposed with little natural windbreak, and when a storm tears off shingles, drops a tree onto a roof, or drives water through a compromised wall, the damage compounds fast. Crew Restoration & Construction responds to storm-damaged properties throughout the 51249 ZIP code, helping homeowners and property managers stop the bleeding and get their buildings back to pre-loss condition.
 
 ## Why Sibley Properties See Disproportionate Storm Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Aventura, FL | RestorationXpress "
-h1: "Fire Damage Restoration in Aventura"
-meta_description: "Fire damage restoration in Aventura, FL. Insurance billing accepted. Call (954) 964-6471."
+title: "Emergency Fire Damage Restoration in Aventura, FL | RestorationXpress "
+h1: "Emergency Fire Damage Restoration in Aventura"
+meta_description: "Emergency fire damage restoration in Aventura, FL. Insurance billing accepted. Call (954) 964-6471."
 primary_keyword: "fire damage restoration aventura"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

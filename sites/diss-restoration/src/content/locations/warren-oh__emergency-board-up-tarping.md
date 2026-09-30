@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Warren, OH | DISS Restoration"
-h1: "Emergency Board-Up and Tarping in Warren"
+title: "24/7 Emergency Board-Up and Tarping in Warren, OH | DISS Restoration"
+h1: "24/7 Emergency Board-Up and Tarping in Warren"
 meta_description: "24/7 emergency board-up and tarping in Warren, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "emergency board-up and tarping warren"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

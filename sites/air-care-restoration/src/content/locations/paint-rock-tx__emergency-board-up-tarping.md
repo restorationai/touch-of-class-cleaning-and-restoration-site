@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Paint Rock, TX | Air Care Restoration"
-h1: "Emergency Board-Up and Tarping in Paint Rock"
+title: "24/7 Emergency Board-Up and Tarping in Paint Rock, TX | Air Care Restoration"
+h1: "24/7 Emergency Board-Up and Tarping in Paint Rock"
 meta_description: "24/7 emergency board-up and tarping in Paint Rock, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "emergency board-up and tarping paint rock"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

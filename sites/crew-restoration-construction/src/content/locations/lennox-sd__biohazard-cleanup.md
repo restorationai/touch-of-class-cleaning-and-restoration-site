@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Lennox, SD | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Lennox"
-meta_description: "Biohazard cleanup in Lennox, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Lennox, SD | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Lennox"
+meta_description: "Emergency biohazard cleanup in Lennox, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup lennox"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Lennox? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Lennox is a small Lincoln County community that has grown steadily over the past decade, adding new residential streets on the edges of town while its older blocks near Downtown Lennox retain homes built in earlier eras. When an unattended death, a traumatic accident, or the discovery of infectious material brings a biohazard situation into one of those homes, the people left to deal with it are almost always neighbors, family members, or landlords, not professionals. Crew Restoration & Construction handles these situations with discretion and clinical care so that the people closest to the loss do not have to.
 
 ## Why Lennox Properties Present Specific Biohazard Considerations

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Springfield, NJ | The Restoration Group"
-h1: "Burst Pipe Cleanup and Repair in Springfield"
-meta_description: "24/7 burst pipe cleanup and repair in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "Emergency Burst Pipe Cleanup and Repair in Springfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Springfield"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "burst pipe cleanup and repair springfield"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Springfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 When a pipe lets go in a Springfield home, whether it's a 1940s colonial off Mountain Avenue or a finished-basement townhome near the Millburn line, the water doesn't wait for business hours. The west branch of the Rahway River already proved that point during Ida, when Route 22 turned into a channel and flooded properties across the township's low-lying corridors. A burst supply line inside a house works the same physics on a smaller scale: within minutes, water is moving through subfloor cavities, soaking insulation, and wicking up drywall. The Restoration Group is IICRC Certified Firm #210213, based in Kenilworth, and reachable around the clock at (908) 970-8533.
 
 ## Why Springfield Properties See Burst Pipe Damage Differently

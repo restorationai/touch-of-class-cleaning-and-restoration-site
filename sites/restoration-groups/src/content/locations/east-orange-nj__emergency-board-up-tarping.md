@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in East Orange, NJ | The Restoration Group"
-h1: "Emergency Board-Up and Tarping in East Orange"
+title: "24/7 Emergency Board-Up and Tarping in East Orange, NJ | The Restoration Group"
+h1: "24/7 Emergency Board-Up and Tarping in East Orange"
 meta_description: "24/7 emergency board-up and tarping in East Orange, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "emergency board-up and tarping east orange"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in East Orange? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure broken windows, doors and roofs.
+
 When a fire tears through a three-story walk-up near Brick Church station or a burst galvanized riser floods the top floor of a 1920s apartment building off Central Avenue, the structure doesn't stop being vulnerable once the flames are out or the water is shut off. East Orange's dense stock of pre-war brick multifamily buildings, many with flat roofs, aging parapet walls, and shared mechanical chases, means an unsecured opening can expose multiple units to weather, theft, and additional water intrusion within hours. That's the window The Restoration Group works inside, arriving to board up breached windows and doors and tarp compromised roofs before the next problem starts.
 
 ## Why East Orange Buildings Face Repeated Board-Up and Tarping Needs

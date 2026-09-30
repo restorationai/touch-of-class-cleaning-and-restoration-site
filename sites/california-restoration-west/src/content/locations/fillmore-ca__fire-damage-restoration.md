@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Fillmore, CA | California Restoration West "
-h1: "Fire Damage Restoration in Fillmore"
-meta_description: "24/7 fire damage restoration in Fillmore, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "24/7 Emergency Fire Damage Restoration in Fillmore, CA | California Restoration West "
+h1: "24/7 Emergency Fire Damage Restoration in Fillmore"
+meta_description: "24/7 emergency fire damage restoration in Fillmore, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "fire damage restoration fillmore"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

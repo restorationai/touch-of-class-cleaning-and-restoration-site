@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Adrian, MN | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Adrian"
-meta_description: "Board-up and tarping in Adrian, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Adrian, MN | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Adrian"
+meta_description: "Emergency board-up and tarping in Adrian, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping adrian"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Adrian? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a late-spring hailstorm tears shingles off a farmhouse on the east side of town, or a chimney fire leaves a gaping hole in a century-old home near St. Adrian Catholic Church, the window between the initial damage and the next wave of rain or wind is brutally short. Adrian sits right along I-90 in the southwest corner of Minnesota, where prairie weather systems move fast and show little mercy, a structure left open overnight can absorb enough moisture to turn a manageable repair into a full gut job. Getting plywood on broken windows and poly tarps over exposed roof decking quickly is not a precaution; it's the difference between a repair and a rebuild.
 
 ## Why Adrian Properties Are Particularly Vulnerable to Storm and Fire Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Yelm, WA | Frontline Fire & Flood"
-h1: "Sewage Cleanup and Sanitization in Yelm"
-meta_description: "24/7 sewage cleanup and sanitization in Yelm, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Yelm, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Yelm"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Yelm, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "sewage cleanup and sanitization yelm"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Yelm? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Yelm sits on a mix of glacial outwash soils and clay-heavy ground that drains poorly when saturated, and when a septic system backs up or a sewer line fails here, that combination means contaminated water moves fast and lingers longer than homeowners expect. Whether the source is a failed septic tank on a rural lot off Yelm Highway or a sewer line backup in a newer subdivision closer to downtown, raw sewage inside a home is a Category 3 biohazard that requires more than a shop vac and bleach to resolve safely.
 
 ## Why Yelm Properties See Sewage Backup Issues

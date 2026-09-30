@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in West Middlesex, PA | DISS Restoration"
-h1: "Ceiling Water Damage Repair in West Middlesex"
-meta_description: "24/7 ceiling water damage repair in West Middlesex, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "Emergency Ceiling Water Damage Repair in West Middlesex, PA | DISS Restoration"
+h1: "24/7 Emergency Ceiling Water Damage Repair in West Middlesex"
+meta_description: "24/7 emergency ceiling water damage repair in West Middlesex, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "ceiling water damage repair west middlesex"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

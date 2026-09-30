@@ -20,6 +20,9 @@ state: "MI"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Shelby Township? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Shelby Township sits on the western edge of Macomb County, where clay-heavy glacial soils slow drainage and back-to-back Great Lakes storm systems can dump several inches of rain in a matter of hours. When that water finds its way into a basement, crawl space, or finished lower level, through a sump pump that couldn't keep pace, a window well that overflowed, or a supply line that let go, it moves fast and hides in places that look dry on the surface. Flood & Fire Solutions has been responding to water losses across Macomb County since 1996, and our crews know exactly what standing water does to the kinds of homes and foundations common throughout this part of Michigan.
 
 ## Why Shelby Township Properties See Water Intrusion Issues

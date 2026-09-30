@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Kahaluu, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Water Damage Restoration in Kahaluu"
-meta_description: "24/7 water damage restoration in Kahaluu, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "24/7 Emergency Water Damage Restoration in Kahaluu, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Damage Restoration in Kahaluu"
+meta_description: "24/7 emergency water damage restoration in Kahaluu, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "water damage restoration kahaluu"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Kahaluu? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Kahaluu sits in a valley on Oahu's windward coast where trade winds push moisture-laden air inland and rainfall totals can exceed 75 inches a year in the surrounding Ko'olau foothills. That combination of persistent humidity, heavy rain events, and older residential construction means water finds its way into homes here in ways that catch owners off guard, whether it's a slow roof leak that saturates ceiling joists for weeks before anyone notices or a sudden flash flood that pushes water under doors and through foundation vents. When that happens, fast water removal and thorough structural drying are the difference between a contained repair and a months-long rebuild.
 
 ## Why Kahaluu Properties See Water Damage More Often Than Homeowners Expect

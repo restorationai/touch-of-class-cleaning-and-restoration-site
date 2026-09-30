@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Concord, CA | Dry1 Out Restoration and Construction"
-h1: "Water Damage Restoration in Concord"
-meta_description: "24/7 water damage restoration in Concord, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+title: "24/7 Emergency Water Damage Restoration in Concord, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Water Damage Restoration in Concord"
+meta_description: "24/7 emergency water damage restoration in Concord, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "water damage restoration concord"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

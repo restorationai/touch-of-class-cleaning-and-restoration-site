@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration"
-h1: "Smoke Damage Restoration in Des Plaines"
-meta_description: "Smoke damage restoration in Des Plaines, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Smoke Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in Des Plaines"
+meta_description: "24/7 emergency smoke damage restoration in Des Plaines, IL. Insurance billing accepted. Call us now."
 primary_keyword: "smoke damage restoration des plaines"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Des Plaines? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Des Plaines sits in a dense corridor of Cook County where bungalows, split-levels, and postwar ranch homes share blocks with commercial strips along Mannheim Road and Golf Road. When a kitchen fire or electrical fault fills one of these older homes with smoke, the damage rarely stays in the room where the fire started. Smoke travels through HVAC ducts, seeps into wall cavities, and settles into porous surfaces, and in a house built in the 1950s or 1960s, there is a lot of porous surface to find. Dry Bros Water & Fire Restoration responds to smoke damage calls throughout Des Plaines, working to stop the spread of residue before it permanently stains, corrodes, or odorizes materials that could otherwise be saved.
 
 ## Why Des Plaines Homes Are Particularly Vulnerable to Smoke Damage

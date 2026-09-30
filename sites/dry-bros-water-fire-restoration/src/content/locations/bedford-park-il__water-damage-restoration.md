@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Bedford Park, IL | Dry Bros Water & Fire Restoration"
-h1: "Water Damage Restoration in Bedford Park"
-meta_description: "24/7 water damage restoration in Bedford Park, IL. Insurance billing accepted. Call (877) 379-2767."
+title: "24/7 Emergency Water Damage Restoration in Bedford Park, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Bedford Park"
+meta_description: "24/7 emergency water damage restoration in Bedford Park, IL. Insurance billing accepted. Call (877) 379-2767."
 primary_keyword: "water damage restoration bedford park"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in St. Cloud, MN | Heritage Restoration LLC"
-h1: "Water Damage Restoration in St. Cloud"
-meta_description: "Water damage restoration in St. Cloud, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in St. Cloud, MN | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in St. Cloud"
+meta_description: "Emergency water damage restoration in St. Cloud, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration st. cloud"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in St. Cloud? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 St. Cloud winters are unforgiving, and so is what happens inside a wall when a pipe freezes and bursts at 2 a.m. in January. The Mississippi River corridor that runs through the heart of the city also means spring snowmelt can push groundwater into basements faster than a sump pump can keep up, particularly in lower-lying areas near the river. Heritage Restoration LLC responds to water damage calls throughout St. Cloud, bringing IICRC-certified water damage restoration and structural drying to homes and commercial properties that can't afford to wait.
 
 ## Why St. Cloud Properties See Water Damage Issues

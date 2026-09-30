@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Campbell, OH | DISS Restoration"
-h1: "Emergency Board-Up and Tarping in Campbell"
+title: "24/7 Emergency Board-Up and Tarping in Campbell, OH | DISS Restoration"
+h1: "24/7 Emergency Board-Up and Tarping in Campbell"
 meta_description: "24/7 emergency board-up and tarping in Campbell, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "emergency board-up and tarping campbell"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

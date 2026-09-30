@@ -1,7 +1,7 @@
 ---
 archetype: "service-landing"
-title: "Emergency Board-Up and Tarping in Lakewood | Frontline Fire & Flood"
-h1: "Emergency Board-Up and Tarping in Lakewood"
+title: "24/7 Emergency Board-Up and Tarping in Lakewood | Frontline Fire & Flood"
+h1: "24/7 Emergency Board-Up and Tarping in Lakewood"
 meta_description: "24/7 emergency board-up and tarping in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency board-up and tarping lakewood"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

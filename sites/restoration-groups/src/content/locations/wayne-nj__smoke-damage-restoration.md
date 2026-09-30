@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Wayne, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Wayne"
-meta_description: "24/7 smoke damage restoration in Wayne, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Wayne, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Wayne"
+meta_description: "24/7 emergency smoke damage restoration in Wayne, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration wayne"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Wayne? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 Wayne's older housing stock carries a specific risk that most homeowners don't think about until a fire happens: the same tight construction that makes a 1960s Packanack Lake split-level feel solid also traps smoke and combustion byproducts deep inside wall cavities, HVAC ductwork, and the porous concrete block foundations common throughout 07470. When a kitchen fire or electrical event sends smoke through a home, the odor and residue don't stay in the room where the flames were, they migrate, and in Wayne's midcentury homes, they migrate fast and far.
 
 ## Why Wayne Properties See Smoke Damage Differently

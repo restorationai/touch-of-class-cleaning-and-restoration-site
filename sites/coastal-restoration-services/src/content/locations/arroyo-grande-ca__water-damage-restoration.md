@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Arroyo Grande, CA | Coastal Restoration Services Inc"
-h1: "Water Damage Restoration in Arroyo Grande"
-meta_description: "Water damage restoration in Arroyo Grande, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Water Damage Restoration in Arroyo Grande, CA | Coastal Restoration Services Inc"
+h1: "Emergency Water Damage Restoration in Arroyo Grande"
+meta_description: "Emergency water damage restoration in Arroyo Grande, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "water damage restoration arroyo grande"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Arroyo Grande? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Arroyo Grande sits in a coastal valley where marine layer moisture, seasonal creek flooding along Arroyo Grande Creek, and aging residential plumbing all converge, and when water gets into a home here, it moves fast. The combination of cool, damp air from the Pacific and older housing stock means wet materials stay wet longer than they would in drier inland communities. Coastal Restoration Services Inc responds to water damage calls throughout Arroyo Grande, bringing professional extraction, structural drying, and full mitigation to homes and businesses before secondary damage sets in.
 
 ## Why Arroyo Grande Properties See Water Damage Issues

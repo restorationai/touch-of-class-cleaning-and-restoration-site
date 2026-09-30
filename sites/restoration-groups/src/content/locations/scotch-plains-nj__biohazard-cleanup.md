@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Scotch Plains, NJ | The Restoration Group"
-h1: "Biohazard Cleanup in Scotch Plains"
-meta_description: "24/7 biohazard cleanup in Scotch Plains, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Biohazard Cleanup in Scotch Plains, NJ | The Restoration Group"
+h1: "24/7 Emergency Biohazard Cleanup in Scotch Plains"
+meta_description: "24/7 emergency biohazard cleanup in Scotch Plains, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "biohazard cleanup scotch plains"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Scotch Plains? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to handle the cleanup with discretion and care.
+
 When something unexpected and deeply difficult happens inside a Scotch Plains home, in a finished basement off Willow Grove, a mid-century split-level near the Fanwood border, or an apartment above the Park Avenue business district, the last thing a family should have to manage is figuring out what comes next. Biohazard situations carry emotional weight that most cleanup decisions don't, and they also carry real health and regulatory obligations that require trained, certified professionals working quickly and discreetly.
 
 ## Why Scotch Plains Properties Present Unique Biohazard Challenges

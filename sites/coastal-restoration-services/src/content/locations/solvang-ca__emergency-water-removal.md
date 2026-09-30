@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Solvang? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Solvang's Danish-village character comes with a building stock that doesn't always behave the way modern restoration equipment expects. Many properties in town were built decades ago with stucco exteriors, wood-framed interiors, and crawl space foundations that sit close to the Santa Ynez Valley floor, a combination that turns a burst pipe or appliance overflow into a fast-moving problem. When water gets into those assemblies, it wicks into framing and subfloor material quietly, often before a homeowner notices anything beyond a damp smell. Calling Coastal Restoration Services Inc at (805) 345-7440 early is the single most effective thing you can do to limit the damage.
 
 ## Why Solvang Properties See Water Damage Differently

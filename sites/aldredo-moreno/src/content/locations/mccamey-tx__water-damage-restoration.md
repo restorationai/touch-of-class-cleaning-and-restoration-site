@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in McCamey, TX | ACS Enterprise "
-h1: "Water Damage Restoration in McCamey"
-meta_description: "Water damage restoration in McCamey, TX. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Water Damage Restoration in McCamey, TX | ACS Enterprise "
+h1: "Emergency Water Damage Restoration in McCamey"
+meta_description: "Emergency water damage restoration in McCamey, TX. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "water damage restoration mccamey"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in McCamey? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 McCamey sits in the heart of West Texas oil country, where the same caliche soil that makes the Permian Basin so productive also creates drainage headaches for homeowners. When a water line fails or a flash flood pushes runoff toward a slab foundation, that dense, low-permeability soil has nowhere to send the water except under your floors and into your walls. ACS Enterprise, based in Midland, responds to water damage calls across Upton County, bringing extraction equipment and structural drying to McCamey properties before secondary damage has a chance to set in.
 
 ## Why McCamey Properties See Water Damage Issues

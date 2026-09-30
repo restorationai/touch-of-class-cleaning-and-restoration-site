@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Parsippany, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Parsippany"
-meta_description: "24/7 smoke damage restoration in Parsippany, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Parsippany, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Parsippany"
+meta_description: "24/7 emergency smoke damage restoration in Parsippany, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration parsippany"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Parsippany? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 The acrid smell of smoke residue has a way of settling into every corner of a home, into the plaster walls of a Mount Tabor Victorian cottage, into the drop ceilings of a Lake Hiawatha split-level, into the HVAC ductwork that circulates air through every room. When a fire breaks out in Parsippany, the visible char is often the smaller problem. It's the invisible soot particles, the acidic smoke film on surfaces, and the odor molecules embedded in porous materials that keep coming back if the cleanup isn't done right from the start.
 
 ## Why Parsippany Properties Present Unique Smoke Damage Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Park City, UT | Home Pride Restoration and Cleaning"
-h1: "Biohazard Cleanup in Park City"
-meta_description: "24/7 biohazard cleanup in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Biohazard Cleanup in Park City, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Biohazard Cleanup in Park City"
+meta_description: "24/7 emergency biohazard cleanup in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "biohazard cleanup park city"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

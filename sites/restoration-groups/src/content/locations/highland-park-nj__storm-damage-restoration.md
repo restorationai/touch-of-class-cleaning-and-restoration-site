@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Highland Park, NJ | The Restoration Group"
-h1: "Storm Damage Restoration in Highland Park"
-meta_description: "24/7 storm damage restoration in Highland Park, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Storm Damage Restoration in Highland Park, NJ | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Highland Park"
+meta_description: "24/7 emergency storm damage restoration in Highland Park, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "storm damage restoration highland park"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Highland Park? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 When Tropical Storm Ida swept through Middlesex County in September 2021, the Raritan River crested well above flood stage and swallowed the low-lying stretches of River Road and Donaldson Park, leaving dozens of Highland Park homeowners staring at waterlogged basements, downed trees, and roofs stripped of shingles before the sun came back out. Storm damage in this borough doesn't follow a tidy script, and cleaning it up requires knowing the specific ways Highland Park's landscape, housing stock, and river geography combine to make a bad storm worse.
 
 ## Why Highland Park Properties Are Especially Vulnerable to Storm Damage

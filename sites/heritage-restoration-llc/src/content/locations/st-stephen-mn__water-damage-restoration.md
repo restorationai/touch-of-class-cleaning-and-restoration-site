@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in St. Stephen, MN | Heritage Restoration LLC"
-h1: "Water Damage Restoration in St. Stephen"
-meta_description: "Water damage restoration in St. Stephen, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in St. Stephen, MN | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in St. Stephen"
+meta_description: "Emergency water damage restoration in St. Stephen, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration st. stephen"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in St. Stephen? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 St. Stephen sits in Stearns County where the freeze-thaw cycle hits hard and fast, and when a pipe lets go in January or a sump pump fails during spring snowmelt, water moves through a home quickly. The clay-heavy soils common across this part of central Minnesota drain slowly, which means water that enters a crawl space or basement doesn't just sit there waiting for a shop vac. It wicks into framing, insulation, and concrete block before most homeowners realize the extent of what they're dealing with. Heritage Restoration LLC responds to water damage calls throughout St. Stephen and the surrounding Stearns County area, bringing IICRC-certified water removal and structural drying to properties that need more than a fan and a prayer.
 
 ## Why St. Stephen Properties Are Vulnerable to Water Damage

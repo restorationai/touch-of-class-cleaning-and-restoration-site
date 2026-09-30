@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Sunrise Manor, NV | PuroClean of East Las Vegas"
-h1: "Fire Damage Restoration in Sunrise Manor"
-meta_description: "Fire damage restoration in Sunrise Manor, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Fire Damage Restoration in Sunrise Manor, NV | PuroClean of East Las Vegas"
+h1: "Emergency Fire Damage Restoration in Sunrise Manor"
+meta_description: "Emergency fire damage restoration in Sunrise Manor, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "fire damage restoration sunrise manor"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NV"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Sunrise Manor? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 The smell hits before you even open the front door, that acrid mix of charred drywall, melted plastic, and smoke that has soaked into every surface. For homeowners near Sunrise Mountain or along the East Charleston corridor, a house fire doesn't just damage what burned; it contaminates what didn't. Smoke travels through HVAC ducts, settles into closets two rooms away, and begins chemically bonding to walls within hours. PuroClean of East Las Vegas responds to fire damage throughout Sunrise Manor, and our East Las Vegas base means we're reaching neighborhoods like Nellis Meadows and Sunrise Vista faster than crews coming from the Strip side of the valley.
 
 ## Why Sunrise Manor Properties Face Distinct Fire Damage Challenges

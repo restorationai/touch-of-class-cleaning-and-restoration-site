@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Randall, MN | Heritage Restoration LLC"
-h1: "Water Damage Restoration in Randall"
-meta_description: "Water damage restoration in Randall, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in Randall, MN | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in Randall"
+meta_description: "Emergency water damage restoration in Randall, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration randall"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Randall? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Randall sits in Morrison County where the landscape shifts between river lowlands and glacially flattened terrain, and that geography shapes how water behaves when something goes wrong inside a home. Spring snowmelt can saturate the ground faster than it drains, and a sump pump that hesitates for even a few hours during a heavy melt event can leave several inches of standing water across a basement floor. Heritage Restoration LLC responds to water damage calls throughout the Randall area, bringing IICRC-certified technicians and professional drying equipment to a region where moisture problems move quickly once they start.
 
 ## Why Randall Properties See Water Damage Issues

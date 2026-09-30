@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in West Orange, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in West Orange"
-meta_description: "24/7 smoke damage restoration in West Orange, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in West Orange, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in West Orange"
+meta_description: "24/7 emergency smoke damage restoration in West Orange, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration west orange"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in West Orange? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 A kitchen fire in a Llewellyn Park Victorian or a furnace malfunction in a Pleasantdale split-level doesn't just leave char, it leaves an invisible chemical residue that works its way into plaster, woodwork, HVAC ducts, and soft furnishings within hours. West Orange's older housing stock, much of it built before 1960 with original horsehair plaster walls and narrow balloon-frame cavities, gives smoke somewhere to travel and hide that newer construction simply doesn't. The sooner cleanup starts, the less of the home you lose to secondary damage.
 
 ## Why West Orange Properties See Smoke Damage Differently

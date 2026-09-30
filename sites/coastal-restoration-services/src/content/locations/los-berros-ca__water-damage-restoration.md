@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Los Berros, CA | Coastal Restoration Services Inc"
-h1: "Water Damage Restoration in Los Berros"
-meta_description: "Water damage restoration in Los Berros, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Water Damage Restoration in Los Berros, CA | Coastal Restoration Services Inc"
+h1: "Emergency Water Damage Restoration in Los Berros"
+meta_description: "Emergency water damage restoration in Los Berros, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "water damage restoration los berros"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Los Berros? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Los Berros sits in a quiet pocket of San Luis Obispo County where the coastal marine layer pushes inland with surprising persistence, keeping humidity elevated well past the morning hours and leaving building materials slow to dry on their own. When a supply line fails, a roof flashing lets in a winter storm, or a slow slab leak finally surfaces, that ambient moisture means water doesn't just sit, it migrates into wall cavities, subfloor assemblies, and insulation faster than most homeowners expect. Coastal Restoration Services Inc responds to water damage calls throughout Los Berros and the surrounding county, bringing industrial extraction and drying equipment to properties where the local climate works against a quick recovery.
 
 ## Why Los Berros Properties Are Vulnerable to Water Damage

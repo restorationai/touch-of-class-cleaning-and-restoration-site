@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in University Park, TX | Reign Restoration"
-h1: "Water Damage Restoration in University Park"
-meta_description: "24/7 water damage restoration in University Park, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "Emergency Water Damage Restoration in University Park, TX | Reign Restoration"
+h1: "24/7 Emergency Water Damage Restoration in University Park"
+meta_description: "24/7 emergency water damage restoration in University Park, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "water damage restoration university park"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

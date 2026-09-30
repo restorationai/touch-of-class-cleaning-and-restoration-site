@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Templeton, CA | Coastal Restoration Services Inc"
-h1: "Storm Damage Restoration in Templeton"
-meta_description: "Storm damage restoration in Templeton, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Storm Damage Restoration in Templeton, CA | Coastal Restoration Services Inc"
+h1: "Emergency Storm Damage Restoration in Templeton"
+meta_description: "Emergency storm damage restoration in Templeton, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "storm damage restoration templeton"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Templeton? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Templeton sits in a narrow corridor of San Luis Obispo County where Pacific storm systems funnel through the Salinas River valley with surprising intensity. What looks like a routine winter storm on the coast can arrive in Templeton as sustained wind gusts, saturated soil, and downed oak limbs, leaving roofs open to the sky and crawl spaces filling with muddy runoff before most homeowners realize the extent of what happened. Coastal Restoration Services Inc responds to those situations across Templeton and the surrounding Paso Robles wine country, helping property owners move from crisis to dry, structurally sound, and documented for insurance.
 
 ## Why Templeton Properties See Storm Damage Differently

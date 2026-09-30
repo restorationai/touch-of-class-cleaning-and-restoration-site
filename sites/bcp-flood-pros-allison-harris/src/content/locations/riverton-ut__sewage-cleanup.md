@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Riverton, UT | FIX Restoration"
-h1: "Sewage Cleanup and Sanitization in Riverton"
-meta_description: "Sewage cleanup and sanitization in Riverton, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Sewage Cleanup and Sanitization in Riverton, UT | FIX Restoration"
+h1: "Emergency Sewage Cleanup and Sanitization in Riverton"
+meta_description: "Emergency sewage cleanup and sanitization in Riverton, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "sewage cleanup and sanitization riverton"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Riverton? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Riverton sits on the western bench of the Wasatch Front, where rapid suburban growth over the past two decades has layered new construction over aging municipal sewer infrastructure that was never designed for today's density. When a sewer line backs up into a finished basement or a septic system overflows after a heavy spring snowmelt, the contamination spreads fast, and the clock on secondary damage starts immediately. FIX Restoration handles sewage cleanup and sanitization for Riverton homeowners and property managers, responding from our American Fork location and working through the full scope of removal, disinfection, and structural drying.
 
 ## Why Riverton Properties See Sewage Backup Issues

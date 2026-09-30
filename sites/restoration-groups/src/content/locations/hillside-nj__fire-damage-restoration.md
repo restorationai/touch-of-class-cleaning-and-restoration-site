@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Hillside, NJ | The Restoration Group"
-h1: "Fire Damage Restoration in Hillside"
-meta_description: "24/7 fire damage restoration in Hillside, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Fire Damage Restoration in Hillside, NJ | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in Hillside"
+meta_description: "24/7 emergency fire damage restoration in Hillside, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "fire damage restoration hillside"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Hillside? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and start the recovery.
+
 A house fire in Hillside hits differently than in newer suburbs. The township's dense grid of 1920s–1950s colonials, two-families, and postwar capes, many with original wood-lath walls, knob-and-tube remnants, and decades of layered paint, absorbs smoke and soot in ways that can make a kitchen fire smell like a total loss two rooms away. If you're standing in a home in the 07205 ZIP code watching the smoke clear, the clock on secondary damage has already started. Call (855) 650-7422 and we'll get a crew moving from Kenilworth immediately.
 
 ## Why Hillside's Housing Stock Complicates Fire Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Harrisburg, SD | Crew Restoration & Construction"
-h1: "Sewage Cleanup and Sanitization in Harrisburg"
-meta_description: "Sewage cleanup and sanitization in Harrisburg, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Sewage Cleanup and Sanitization in Harrisburg, SD | Crew Restoration & Construction"
+h1: "Emergency Sewage Cleanup and Sanitization in Harrisburg"
+meta_description: "Emergency sewage cleanup and sanitization in Harrisburg, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "sewage cleanup and sanitization harrisburg"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Harrisburg? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Harrisburg's rapid expansion south of Sioux Falls has brought thousands of new homes online in subdivisions like Journey and Willow Run, and with that growth comes a plumbing infrastructure that's still catching up. When a sewer line backs up or a septic system overflows in a newly built home, raw sewage doesn't just pool on a floor; it wicks into subfloor OSB, saturates carpet padding, and begins producing harmful bacteria colonies within hours. Crew Restoration & Construction handles sewage cleanup and sanitization for Harrisburg properties, working to contain the contamination, remove affected materials, and restore the space to a safe, livable condition.
 
 ## Why Harrisburg Properties See Sewage Backup Issues

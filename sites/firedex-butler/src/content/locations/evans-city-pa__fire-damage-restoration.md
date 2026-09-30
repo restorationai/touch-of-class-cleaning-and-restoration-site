@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Evans City, PA | FireDEX Butler"
-h1: "Fire Damage Restoration in Evans City"
-meta_description: "24/7 fire damage restoration in Evans City, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Fire Damage Restoration in Evans City, PA | FireDEX Butler"
+h1: "24/7 Emergency Fire Damage Restoration in Evans City"
+meta_description: "24/7 emergency fire damage restoration in Evans City, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "fire damage restoration evans city"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Evans City? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 The older frame homes lining Evans City's Main Street and the side streets dropping toward Breakneck Creek carry a particular fire risk that newer construction doesn't: balloon-frame walls built before the 1950s have no fire blocking between floors, meaning a kitchen fire can travel inside the wall cavity from the basement to the attic in minutes before smoke is even visible in the living room. FireDEX Butler has been responding to residential and commercial fire losses across Butler County since 1981, and the housing stock here in the 16033 ZIP code demands a restoration approach that accounts for how these buildings actually burn, and how they hold smoke long after the flames are out.
 
 ## Why Evans City Properties See Elevated Fire Damage Risk

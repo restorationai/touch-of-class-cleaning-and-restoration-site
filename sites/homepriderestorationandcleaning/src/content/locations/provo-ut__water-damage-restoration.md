@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Provo, UT | Home Pride Restoration and Cleaning"
-h1: "Water Damage Restoration in Provo"
-meta_description: "24/7 water damage restoration in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Water Damage Restoration in Provo, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Water Damage Restoration in Provo"
+meta_description: "24/7 emergency water damage restoration in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "water damage restoration provo"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Provo? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Provo sits at roughly 4,500 feet in a high-desert valley where winter temperatures swing hard enough to freeze supply lines in uninsulated crawl spaces, and spring snowmelt off the Wasatch front can push groundwater up through basement slabs faster than a sump pump can keep pace. When that water finds its way into your home, whether it's a burst pipe in a 1960s ranch near BYU campus or a seeping foundation wall in a newer build south of Center Street, the clock starts immediately. Mold colonies can begin establishing within 24 to 48 hours on wet framing and drywall, which is why fast, professional water extraction and structural drying matter more than most homeowners realize until they're standing in an inch of standing water at midnight.
 
 ## Why Provo Properties See Water Damage Issues

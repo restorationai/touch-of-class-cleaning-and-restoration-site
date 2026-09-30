@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Union, NJ | The Restoration Group"
-h1: "Flood Damage Restoration in Union"
-meta_description: "24/7 flood damage restoration in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Flood Damage Restoration in Union, NJ | The Restoration Group"
+h1: "24/7 Emergency Flood Damage Restoration in Union"
+meta_description: "24/7 emergency flood damage restoration in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "flood damage restoration union"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Union? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and stop the damage from spreading.
+
 When the Elizabeth River tributaries push into low-lying streets off Morris Avenue, or a summer cloudburst turns Vauxhall backyards into retention ponds, the water doesn't wait for a convenient hour. Union Township's mix of postwar capes, split-levels, and colonials, most of them built between 1940 and 1965 with finished or semi-finished basements, means a flood event rarely stays on the surface. It soaks into subfloor framing, wicks up drywall, and pools behind the original cast-iron drains that were never designed to handle a 3-inch-per-hour downpour. The Restoration Group operates out of Kenilworth, one town over, and responds 24/7 to flood damage calls across Union's 07083 and 07088 ZIP codes.
 
 ## Why Union Properties See Flood Damage So Often

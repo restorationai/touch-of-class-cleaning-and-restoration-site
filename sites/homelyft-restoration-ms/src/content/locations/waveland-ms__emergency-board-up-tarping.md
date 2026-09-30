@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Waveland, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Waveland"
-meta_description: "Board-up and tarping in Waveland, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Waveland, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Waveland"
+meta_description: "24/7 emergency board-up and tarping in Waveland, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping waveland"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Waveland? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Waveland sits on the front edge of the Mississippi Gulf Coast, where Gulf-driven storms can shatter windows, peel back roofing, and leave interiors exposed to salt-laden air within minutes of a weather event. When that happens, whether it's a fast-moving squall off the Sound or a named storm making landfall near Bay St. Louis, the window between structural exposure and compounding damage is measured in hours, not days. HomeLyft Restoration MS responds from Gulfport to board up openings, secure loose or missing roofing with heavy-duty tarps, and stabilize the structure before secondary damage turns a manageable repair into a gut renovation.
 
 ## Why Waveland Properties Face Elevated Board-Up and Tarping Risks

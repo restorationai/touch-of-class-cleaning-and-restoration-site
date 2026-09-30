@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Kirkland, WA | National Restoration Construction"
-h1: "Sewage Cleanup and Sanitization in Kirkland"
-meta_description: "24/7 sewage cleanup and sanitization in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "Emergency Sewage Cleanup and Sanitization in Kirkland, WA | National Restoration Construction"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Kirkland"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "sewage cleanup and sanitization kirkland"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Kirkland? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Sewage backing up into your Kirkland home is one of the worst things to walk into, the smell hits you first, then the realization that everything it touched needs to be treated as a biohazard. Whether it's a sewer line backup flooding your basement, a septic overflow soaking into the subfloor, or raw sewage pushing up through a floor drain, the clock starts the moment it happens. National Restoration Construction has been responding to exactly these situations across the Puget Sound region since 2004, and our crews reach most Kirkland addresses within 60–90 minutes of your call.
 
 ## Why Kirkland Properties Are Vulnerable to Sewage Emergencies

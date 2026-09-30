@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Jeannette, PA | Katofsky Construction LLC"
-h1: "Fire Damage Restoration in Jeannette"
-meta_description: "24/7 fire damage restoration in Jeannette, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "24/7 Emergency Fire Damage Restoration in Jeannette, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Fire Damage Restoration in Jeannette"
+meta_description: "24/7 emergency fire damage restoration in Jeannette, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "fire damage restoration jeannette"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Jeannette? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Jeannette's compact grid of early-twentieth-century row houses and brick two-stories means a kitchen fire rarely stays a kitchen problem. Smoke travels fast through shared attic spaces, and the plaster-and-lath construction common throughout Westmoreland County holds odor compounds deep in the substrate long after the visible char is gone. If you're standing in a Jeannette home after a fire, the clock on secondary smoke and soot damage is already running.
 
 ## Why Jeannette Properties See Fire Damage Spread Differently

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Draper, UT | FIX Restoration"
-h1: "Water Damage Restoration in Draper"
-meta_description: "Water damage restoration in Draper, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Damage Restoration in Draper, UT | FIX Restoration"
+h1: "Emergency Water Damage Restoration in Draper"
+meta_description: "Emergency water damage restoration in Draper, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water damage restoration draper"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Draper? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Draper sits at the foot of the Wasatch Range, where snowmelt in spring and sudden summer thunderstorms push water toward foundations faster than most Utah cities farther from the mountains. When a supply line fails behind a bathroom wall or a storm drain backs up into a finished basement, the clock starts immediately. FIX Restoration responds to water damage calls across Draper, working to stop active moisture migration, extract standing water, and begin structural drying before secondary damage compounds the loss.
 
 ## Why Draper Properties See Water Damage Issues

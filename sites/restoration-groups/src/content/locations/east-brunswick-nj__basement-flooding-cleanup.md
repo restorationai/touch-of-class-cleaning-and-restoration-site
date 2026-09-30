@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in East Brunswick, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in East Brunswick"
-meta_description: "24/7 basement flooding cleanup in East Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "Emergency Basement Flooding Cleanup in East Brunswick, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in East Brunswick"
+meta_description: "24/7 emergency basement flooding cleanup in East Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "basement flooding cleanup east brunswick"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in East Brunswick? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 When Lawrence Brook backs up after a heavy nor'easter or a tropical remnant like Ida pushes water tables to the surface, basements in East Brunswick's older ranch and split-level tracts can take on inches of standing water within hours, sometimes before the rain has even stopped. The finished basements that are nearly universal in the postwar neighborhoods off Farrington Road and through Frost Woods make that water far more destructive than a bare concrete slab would be: carpet, drywall, framing, and stored belongings absorb moisture fast, and mold can begin colonizing porous materials in as little as 24 to 48 hours. The Restoration Group responds 24/7 to flooded basement calls across East Brunswick, dispatching from Kenilworth with equipment staged for the specific conditions found in this part of Middlesex County.
 
 ## Why East Brunswick Basements Flood, and Why It Gets Complicated

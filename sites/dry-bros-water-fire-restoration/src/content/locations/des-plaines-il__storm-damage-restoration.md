@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration"
-h1: "Storm Damage Restoration in Des Plaines"
-meta_description: "Storm damage restoration in Des Plaines, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Storm Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Des Plaines"
+meta_description: "24/7 emergency storm damage restoration in Des Plaines, IL. Insurance billing accepted. Call us now."
 primary_keyword: "storm damage restoration des plaines"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Des Plaines? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Des Plaines sits in a meteorological corridor where Lake Michigan's moisture collides with fast-moving fronts pushing in from the southwest, a combination that produces some of the most unpredictable severe weather in Cook County. Hail that strips shingles, straight-line winds that drop mature oaks across rooflines, and flash flooding that backs up through window wells and basement drains are not rare events here; they're a recurring feature of life along the Des Plaines River valley. When a storm tears through, Dry Bros Water & Fire Restoration is ready to assess the damage, stop secondary losses, and get your property back to pre-storm condition.
 
 ## Why Des Plaines Properties Are Particularly Vulnerable to Storm Damage

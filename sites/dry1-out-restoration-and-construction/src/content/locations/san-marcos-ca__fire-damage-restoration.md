@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in San Marcos, CA | Dry1 Out Restoration and Construction"
-h1: "Fire Damage Restoration in San Marcos"
-meta_description: "24/7 fire damage restoration in San Marcos, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+title: "24/7 Emergency Fire Damage Restoration in San Marcos, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Fire Damage Restoration in San Marcos"
+meta_description: "24/7 emergency fire damage restoration in San Marcos, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "fire damage restoration san marcos"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Renton, WA | National Restoration Construction"
-h1: "Flood Damage Restoration in Renton"
-meta_description: "24/7 flood damage restoration in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Flood Damage Restoration in Renton, WA | National Restoration Construction"
+h1: "24/7 Emergency Flood Damage Restoration in Renton"
+meta_description: "24/7 emergency flood damage restoration in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "flood damage restoration renton"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Renton? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Standing water doesn't wait, and neither should you. Whether a burst pipe flooded your basement in the Highlands, a backed-up storm drain pushed water into your crawl space near the Cedar River corridor, or a washing machine line failed overnight, the first few hours after a flood determine how much of your home you'll save, and how much you'll spend rebuilding it. National Restoration Construction has been handling residential and commercial flood cleanup in the greater Seattle area since 2004, and our Federal Way headquarters puts us minutes from Renton when every minute counts.
 
 ## Why Renton Properties Are Especially Vulnerable to Flood Damage

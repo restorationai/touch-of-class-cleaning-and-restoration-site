@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Union, NJ | The Restoration Group"
-h1: "Sewage Cleanup and Sanitization in Union"
-meta_description: "24/7 sewage cleanup and sanitization in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Union, NJ | The Restoration Group"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Union"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "sewage cleanup and sanitization union"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

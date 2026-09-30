@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Weston, MA | Quality Contracting, Inc."
-h1: "Water Damage Restoration in Weston"
-meta_description: "Water damage restoration in Weston, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Water Damage Restoration in Weston, MA | Quality Contracting, Inc."
+h1: "Emergency Water Damage Restoration in Weston"
+meta_description: "Emergency water damage restoration in Weston, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "water damage restoration weston"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Weston? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Weston sits on some of the most water-retentive glacial till in Middlesex County, a soil profile that slows drainage, keeps groundwater levels high through late spring, and turns a slow pipe leak or a single heavy nor'easter into a structural drying problem faster than homeowners expect. When water gets into a Weston home, it doesn't just pool on the floor; it wicks into plaster, migrates behind wainscoting, and saturates the dense wood framing common in the town's older Colonial and Federal-style properties before a surface reading ever shows a problem. Quality Contracting, Inc. handles water removal, extraction, and structural drying in Weston with equipment and methods calibrated to exactly that kind of hidden saturation.
 
 ## Why Weston Properties See Water Damage Issues

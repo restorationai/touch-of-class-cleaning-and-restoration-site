@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Spanish Fork, UT | FIX Restoration"
-h1: "Board-Up and Tarping in Spanish Fork"
-meta_description: "Board-up and tarping in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Board-Up and Tarping in Spanish Fork, UT | FIX Restoration"
+h1: "Emergency Board-Up and Tarping in Spanish Fork"
+meta_description: "Emergency board-up and tarping in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "emergency board-up and tarping spanish fork"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Spanish Fork? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Spanish Fork sits in a part of Utah County where winter temperature swings can drop from mild afternoons to hard freezes overnight, and where the canyon winds funneling out of Spanish Fork Canyon can peel shingles loose or drive rain sideways into a compromised roof. When a storm, fire, or impact event leaves your home or business exposed, every hour the structure sits open accelerates the damage, water soaks framing, soot migrates deeper into porous materials, and opportunistic theft becomes a real concern. FIX Restoration responds to board-up and tarping calls throughout Spanish Fork and surrounding Utah County communities, working to get a weather-tight barrier in place before conditions worsen.
 
 ## Why Spanish Fork Properties Face Particular Exposure Risks

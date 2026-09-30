@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Haskell, TX | Air Care Restoration"
-h1: "Biohazard Cleanup in Haskell"
-meta_description: "24/7 biohazard cleanup in Haskell, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Biohazard Cleanup in Haskell, TX | Air Care Restoration"
+h1: "24/7 Emergency Biohazard Cleanup in Haskell"
+meta_description: "24/7 emergency biohazard cleanup in Haskell, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "biohazard cleanup haskell"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

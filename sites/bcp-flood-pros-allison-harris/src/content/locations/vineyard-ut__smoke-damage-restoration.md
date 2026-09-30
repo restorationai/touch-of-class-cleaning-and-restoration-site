@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Vineyard, UT | FIX Restoration"
-h1: "Smoke Damage Restoration in Vineyard"
-meta_description: "Smoke damage restoration in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Smoke Damage Restoration in Vineyard, UT | FIX Restoration"
+h1: "Emergency Smoke Damage Restoration in Vineyard"
+meta_description: "Emergency smoke damage restoration in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "smoke damage restoration vineyard"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

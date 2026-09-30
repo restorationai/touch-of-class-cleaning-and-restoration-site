@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Mango, FL | DRYCOR RESTORE"
-h1: "Basement Flooding Cleanup in Mango"
-meta_description: "24/7 basement flooding cleanup in Mango, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "24/7 Emergency Basement Flooding Cleanup in Mango, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Basement Flooding Cleanup in Mango"
+meta_description: "24/7 emergency basement flooding cleanup in Mango, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "basement flooding cleanup mango"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"

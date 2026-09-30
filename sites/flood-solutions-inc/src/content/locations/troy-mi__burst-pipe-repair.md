@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Troy, MI | Flood Solutions inc"
-h1: "Burst Pipe Cleanup and Repair in Troy"
-meta_description: "Burst pipe cleanup and repair in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Burst Pipe Cleanup and Repair in Troy, MI | Flood Solutions inc"
+h1: "Emergency Burst Pipe Cleanup and Repair in Troy"
+meta_description: "Emergency burst pipe cleanup and repair in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "burst pipe cleanup and repair troy"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "burst-pipe-repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Troy? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 Troy sits in one of Michigan's coldest suburban corridors, where January wind chills routinely drive pipe-wall temperatures below freezing in uninsulated exterior walls and garage-adjacent supply lines. When a pipe lets go, water moves fast through the open floor plans and finished basements that define so much of Troy's housing stock, and the damage clock starts the moment the break happens. Flood Solutions inc has been responding to pipe break water damage across Macomb County and the surrounding communities since 1996, and the pattern we see in Troy has its own distinct character.
 
 ## Why Troy Properties See Burst Pipe Issues

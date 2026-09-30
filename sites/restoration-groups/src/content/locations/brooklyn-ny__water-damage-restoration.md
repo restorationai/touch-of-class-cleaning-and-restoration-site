@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Brooklyn, NY | The Restoration Group"
-h1: "Water Damage Restoration in Brooklyn"
-meta_description: "24/7 water damage restoration in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Water Damage Restoration in Brooklyn, NY | The Restoration Group"
+h1: "24/7 Emergency Water Damage Restoration in Brooklyn"
+meta_description: "24/7 emergency water damage restoration in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "water damage restoration brooklyn"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

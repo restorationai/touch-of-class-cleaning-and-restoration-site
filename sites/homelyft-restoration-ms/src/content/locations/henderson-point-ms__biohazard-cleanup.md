@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Henderson Point, MS | HomeLyft Restoration MS"
-h1: "Biohazard Cleanup in Henderson Point"
-meta_description: "Biohazard cleanup in Henderson Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Biohazard Cleanup in Henderson Point, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Biohazard Cleanup in Henderson Point"
+meta_description: "24/7 emergency biohazard cleanup in Henderson Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "biohazard cleanup henderson point"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Henderson Point? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Henderson Point sits on a narrow peninsula between the Bay of St. Louis and the open Gulf, which means homes here face a particular combination of salt air, high humidity, and a housing stock that includes older seasonal cottages alongside year-round residences, conditions that can complicate any sensitive cleanup situation before the work even begins. When a biohazard event occurs in this community, the priority is swift, discreet action by a team trained to handle infectious material, blood, bodily fluids, or sharps safely and in full compliance with Mississippi Department of Environmental Quality disposal requirements.
 
 ## Why Henderson Point Properties Present Unique Biohazard Challenges

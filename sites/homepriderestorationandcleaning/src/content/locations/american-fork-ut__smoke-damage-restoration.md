@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in American Fork, UT | Home Pride Restoration and Cleaning"
-h1: "Smoke Damage Restoration in American Fork"
-meta_description: "24/7 smoke damage restoration in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Smoke Damage Restoration in American Fork, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Smoke Damage Restoration in American Fork"
+meta_description: "24/7 emergency smoke damage restoration in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "smoke damage restoration american fork"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in American Fork? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Smoke doesn't stop at the room where the fire started. Within hours of a house fire, or even a contained kitchen incident, smoke particles and soot infiltrate HVAC ducts, settle into carpet fibers, and chemically bond to wall surfaces throughout the home. In American Fork, where many neighborhoods sit at the foot of the Wasatch Range and wildfire smoke from summer canyon fires regularly blankets Utah Valley, that contamination problem can compound fast. Whether the source was a structure fire or days of heavy wildfire smoke seeping through an older home's envelope, the clock starts the moment the air clears.
 
 ## Why American Fork Homes Are Particularly Vulnerable to Smoke Damage

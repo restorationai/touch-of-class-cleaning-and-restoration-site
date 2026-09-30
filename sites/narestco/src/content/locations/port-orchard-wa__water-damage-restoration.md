@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Port Orchard, WA | National Restoration Construction"
-h1: "Water Damage Restoration in Port Orchard"
-meta_description: "24/7 water damage restoration in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Water Damage Restoration in Port Orchard, WA | National Restoration Construction"
+h1: "24/7 Emergency Water Damage Restoration in Port Orchard"
+meta_description: "24/7 emergency water damage restoration in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "water damage restoration port orchard"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Port Orchard? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Sinclair Inlet doesn't let Port Orchard forget it's a waterfront town. King tides push water up the Bay Street corridor every winter, and the same low-pressure systems that flood the commercial strip also drive moisture into crawl spaces, rim joists, and wall cavities across South Kitsap. When a pipe bursts at 2 a.m. or a pressure-tank failure sends well water across a finished basement floor in McCormick Woods, the clock starts immediately, mold colonization can begin within 24 to 48 hours on wet framing, and Kitsap County's damp winters give it every advantage. National Restoration Construction dispatches from Federal Way and reaches most Port Orchard addresses within 90 minutes, often less.
 
 ## Why Port Orchard Properties See Water Damage Differently

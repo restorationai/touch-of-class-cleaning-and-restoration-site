@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Randall, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Randall"
-meta_description: "Fire damage restoration in Randall, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Randall, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Randall"
+meta_description: "Emergency fire damage restoration in Randall, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration randall"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Randall? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Randall sits in Morrison County where Minnesota winters are long and heating systems work hard from October through April. When a furnace malfunction, chimney fire, or electrical fault ignites a home here, the cold air outside complicates recovery in ways that don't apply in milder climates: smoke odor drives deeper into porous materials when interior temperatures drop quickly after a fire, and the freeze-thaw cycle can stress already-weakened structural framing before restoration crews finish their work. Heritage Restoration LLC holds IICRC FSRT (Fire and Smoke Restoration) certification and responds to fire damage calls in Randall from our base in Little Falls, a short drive east on US-10.
 
 ## Why Randall Properties Face Distinct Fire Damage Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Fremont, CA | Dry1 Out Restoration and Construction"
-h1: "Burst Pipe Cleanup and Repair in Fremont"
-meta_description: "24/7 burst pipe cleanup and repair in Fremont, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Fremont, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Fremont"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Fremont, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "burst pipe cleanup and repair fremont"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

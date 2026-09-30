@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in University Place, WA | National Restoration Construction"
-h1: "Frozen Pipe Restoration in University Place"
-meta_description: "24/7 frozen pipe restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "Emergency Frozen Pipe Restoration in University Place, WA | National Restoration Construction"
+h1: "24/7 Emergency Frozen Pipe Restoration in University Place"
+meta_description: "24/7 emergency frozen pipe restoration in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "frozen pipe restoration university place"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in University Place? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 University Place sits in a climate pocket that surprises a lot of homeowners: mild enough most winters that pipes go uninsulated for decades, then cold enough during a hard Puget Sound freeze to split those same lines overnight. The 1960s and '70s ramblers and split-levels that make up most of the housing stock between Chambers Creek and the Narrows View bluff were built when crawl-space vapor barriers were an afterthought and copper supply lines ran through exterior wall cavities with almost no insulation. When temperatures drop into the low 20s, which happens more often than the Pacific Northwest reputation suggests, those conditions turn a quiet neighborhood into a busy morning for a restoration crew.
 
 ## Why University Place Properties Are Especially Vulnerable to Frozen Pipe Damage

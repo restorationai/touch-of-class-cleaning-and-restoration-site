@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Springville, UT | FIX Restoration"
-h1: "Fire Damage Restoration in Springville"
-meta_description: "Fire damage restoration in Springville, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in Springville, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in Springville"
+meta_description: "Emergency fire damage restoration in Springville, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration springville"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Springville? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Springville sits in a narrow corridor between Utah Lake and the Wasatch foothills, where dry canyon winds off the mountains can push a structure fire faster than most homeowners expect. When smoke and heat move that quickly through a home, the damage isn't just what burned, it's the soot that settles into every ceiling cavity, the acrid odor that soaks into drywall and subflooring, and the hidden structural compromise that isn't visible until someone pulls back the drywall. FIX Restoration has been working fire and smoke restoration jobs across Utah County since 2012, and the team understands what a post-fire property in this part of the state actually looks like.
 
 ## Why Springville Properties Face Distinct Fire Damage Challenges

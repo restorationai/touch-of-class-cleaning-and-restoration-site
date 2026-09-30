@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Storm Damage Restoration in Davie | RestorationXpress "
-h1: "Storm Damage Restoration in Davie"
-meta_description: "Storm damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 932-5420."
+title: "Emergency Storm Damage Restoration in Davie | RestorationXpress "
+h1: "Emergency Storm Damage Restoration in Davie"
+meta_description: "Emergency storm damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "storm damage restoration davie"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Davie? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 A storm doesn't have to be a named hurricane to leave your home structurally compromised. A single fast-moving squall can drive three inches of rain under a lifted roof shingle, drop a 40-foot oak through your garage, and leave standing water in your attic before the thunder stops. The damage is rarely contained to the obvious breach, water migrates through wall cavities, wind-forced debris punctures vapor barriers, and within 24 to 48 hours, secondary mold colonization can begin in any material that stays wet. Storm damage restoration is the work of stopping that cascade before it compounds.
 
 ## What Storm Damage Restoration actually involves

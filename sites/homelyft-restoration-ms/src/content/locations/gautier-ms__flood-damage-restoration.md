@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Gautier, MS | HomeLyft Restoration MS"
-h1: "Flood Damage Restoration in Gautier"
-meta_description: "24/7 flood damage restoration in Gautier, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Flood Damage Restoration in Gautier, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Flood Damage Restoration in Gautier"
+meta_description: "24/7 emergency flood damage restoration in Gautier, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "flood damage restoration gautier"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

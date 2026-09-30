@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Provo, UT | FIX Restoration"
-h1: "Board-Up and Tarping in Provo"
-meta_description: "Board-up and tarping in Provo, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Board-Up and Tarping in Provo, UT | FIX Restoration"
+h1: "Emergency Board-Up and Tarping in Provo"
+meta_description: "Emergency board-up and tarping in Provo, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "emergency board-up and tarping provo"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Provo? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Provo's position along the Wasatch Front means it absorbs both extremes, heavy late-season snowpack that can collapse or saturate a roof overnight, and the kind of dry, gusty canyon winds that push wildfire embers or send debris through windows with little warning. When a storm, fire, or break-in leaves your home or business exposed, every hour the structure sits open accelerates the damage. FIX Restoration responds from American Fork to secure Provo properties with structural board-up and heavy-duty roof tarping before secondary losses, water intrusion, theft, vandalism, compound an already difficult situation.
 
 ## Why Provo Properties Face Particular Exposure Risks

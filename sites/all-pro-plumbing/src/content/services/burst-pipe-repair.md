@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Burst and Leaking Pipe Repair in Bakersfield | All Pro Plumbing Heating and Air"
-h1: "Burst and Leaking Pipe Repair in Bakersfield"
-meta_description: "Trusted burst and leaking pipe repair in Bakersfield and surrounding areas. Plumbing and HVAC pros, upfront pricing, free estimates. Call (661) 863-9242."
+title: "24/7 Emergency Burst and Leaking Pipe Repair in Bakersfield | All Pro Plumbing Heating and Air"
+h1: "24/7 Emergency Burst and Leaking Pipe Repair in Bakersfield"
+meta_description: "Trusted 24/7 emergency burst and leaking pipe repair in Bakersfield and surrounding areas. Plumbing and HVAC pros, upfront pricing, free estimates. Call (661) 863-9242."
 primary_keyword: "burst and leaking pipe repair bakersfield"
 secondary_keywords: ["burst pipe repair", "pipe burst in wall", "water line repair", "leaking pipe repair", "frozen pipe repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "burst-pipe-repair"
 service_display: "Burst and Leaking Pipe Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Bakersfield? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 ## What a burst pipe actually looks like at 2 a.m.
 
 One minute your house is quiet. The next, water is sheeting down a wall, soaking into drywall, and pooling under baseboards faster than towels can keep up. Bakersfield's aging housing stock, much of it built on slab foundations with galvanized or copper supply lines that have been expanding and contracting through decades of triple-digit summers, is especially prone to sudden failures. Whether the break is visible at a shutoff valve or hidden inside a wall cavity, the clock starts the moment the pipe lets go.

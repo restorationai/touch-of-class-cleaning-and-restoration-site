@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Sweetwater, TX | Air Care Restoration"
-h1: "Biohazard Cleanup in Sweetwater"
-meta_description: "24/7 biohazard cleanup in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Biohazard Cleanup in Sweetwater, TX | Air Care Restoration"
+h1: "24/7 Emergency Biohazard Cleanup in Sweetwater"
+meta_description: "24/7 emergency biohazard cleanup in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "biohazard cleanup sweetwater"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

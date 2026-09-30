@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Orem, UT | FIX Restoration"
-h1: "Water Damage Restoration in Orem"
-meta_description: "Water damage restoration in Orem, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Damage Restoration in Orem, UT | FIX Restoration"
+h1: "Emergency Water Damage Restoration in Orem"
+meta_description: "Emergency water damage restoration in Orem, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water damage restoration orem"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Orem? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Orem sits at the base of the Wasatch Range, where spring snowmelt and rapid elevation changes push water through the soil faster than most Utah Valley communities expect. When a supply line fails or a basement window well floods during a late-March thaw, the water doesn't stay put, it travels under slab edges, wicks into framing, and saturates insulation before the surface even looks wet. FIX Restoration responds to water damage calls across Orem, bringing the drying equipment and documentation process that a loss this fast-moving requires.
 
 ## Why Orem Properties See Water Damage Issues

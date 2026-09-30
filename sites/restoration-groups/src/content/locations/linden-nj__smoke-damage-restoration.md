@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Linden, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Linden"
-meta_description: "24/7 smoke damage restoration in Linden, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Linden, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Linden"
+meta_description: "24/7 emergency smoke damage restoration in Linden, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration linden"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Linden? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 Smoke doesn't stop moving when the flames go out. In Linden's postwar capes and split-levels, the kind of homes that line the streets between Sunnyside and the West End, smoke particles work their way into plaster walls, ductwork, and the finished basements that nearly every house on the block has. The smell you notice three days later in a closet or behind a baseboard is not lingering odor; it's acidic soot still bonding to surfaces. Getting ahead of that chemistry is what separates a clean restoration from a house that smells like a fire for years.
 
 ## Why Linden Homes Are Particularly Vulnerable to Smoke Damage

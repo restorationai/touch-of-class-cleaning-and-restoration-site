@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Lamont, CA | ProRestoration Services"
-h1: "Smoke Damage Restoration in Lamont"
-meta_description: "24/7 smoke damage restoration in Lamont, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Smoke Damage Restoration in Lamont, CA | ProRestoration Services"
+h1: "24/7 Emergency Smoke Damage Restoration in Lamont"
+meta_description: "24/7 emergency smoke damage restoration in Lamont, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "smoke damage restoration lamont"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Lamont? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Smoke doesn't stop at the fire line. In Lamont's compact mid-century homes, many of them rental properties clustered along the Highway 184 corridor and around Lamont Park, smoke and soot travel fast through shared wall cavities, aging HVAC ducts, and single-pane windows that don't seal tightly. By the time a fire is out, residue has already settled into drywall, insulation, and the porous stucco finishes common to homes built in the 1950s and 60s. That's the damage most people don't see until the smell comes back weeks later.
 
 ## Why Lamont Properties Are Especially Vulnerable to Smoke Damage

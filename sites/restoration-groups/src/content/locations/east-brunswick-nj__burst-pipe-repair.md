@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in East Brunswick, NJ | The Restoration Group"
-h1: "Burst Pipe Cleanup and Repair in East Brunswick"
-meta_description: "24/7 burst pipe cleanup and repair in East Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "Emergency Burst Pipe Cleanup and Repair in East Brunswick | The Restoration Group"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in East Brunswick"
+meta_description: "24/7 emergency burst pipe cleanup and repair in East Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "burst pipe cleanup and repair east brunswick"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in East Brunswick? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 When a supply line lets go inside one of East Brunswick's thousands of finished-basement ranches or split-levels, the water doesn't just pool on a concrete floor, it soaks into drop ceilings, saturates wall framing, and wicks into carpet padding before most homeowners even realize the pipe has failed. The original copper and galvanized supply lines installed in the 1950s through 1970s tracts off Old Bridge Turnpike and throughout the Farrington area are now well past their design life, and a hard freeze or a sudden pressure spike can turn a pinhole into a full rupture overnight. The Restoration Group responds 24/7 from Kenilworth, reaching most of East Brunswick within the hour to stop the spread and start the recovery.
 
 ## Why East Brunswick Properties See Burst Pipe Failures

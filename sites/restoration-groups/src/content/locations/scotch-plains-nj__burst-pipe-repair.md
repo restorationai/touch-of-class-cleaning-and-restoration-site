@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Scotch Plains, NJ | The Restoration Group"
-h1: "Burst Pipe Cleanup and Repair in Scotch Plains"
-meta_description: "24/7 burst pipe cleanup and repair in Scotch Plains, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "Emergency Burst Pipe Cleanup and Repair in Scotch Plains, NJ | The Restoration Group"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Scotch Plains"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Scotch Plains, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "burst pipe cleanup and repair scotch plains"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Scotch Plains? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 January and February cold snaps in Union County push indoor temperatures low enough that pipes in unheated crawl spaces and exterior walls freeze fast, and when they thaw, or when pressure spikes after a main-line repair, the break often happens without warning. In Scotch Plains, that scenario plays out most often in the mid-century split-levels and colonials that line the streets of Shackamaxon and Willow Grove, where original copper or galvanized supply lines have been in service for sixty-plus years and were never designed for today's water pressure. The Restoration Group operates around the clock, and from our Kenilworth headquarters we can reach 07076 addresses quickly when every minute of standing water matters.
 
 ## Why Scotch Plains Homes Are Prone to Pipe Breaks

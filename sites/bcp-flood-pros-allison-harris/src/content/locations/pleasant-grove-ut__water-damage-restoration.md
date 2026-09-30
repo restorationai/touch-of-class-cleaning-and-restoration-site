@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Pleasant Grove, UT | FIX Restoration"
-h1: "Water Damage Restoration in Pleasant Grove"
-meta_description: "Water damage restoration in Pleasant Grove, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Damage Restoration in Pleasant Grove, UT | FIX Restoration"
+h1: "Emergency Water Damage Restoration in Pleasant Grove"
+meta_description: "Emergency water damage restoration in Pleasant Grove, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water damage restoration pleasant grove"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Pleasant Grove? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Pleasant Grove sits at the base of the Wasatch Front where snowmelt from Mount Timpanogos feeds the groundwater table each spring, and where hard freezes in January and February can split supply lines inside walls before a homeowner notices anything is wrong. When water finds its way into a Pleasant Grove home, whether from a ruptured pipe, a failed water heater, or a backed-up drain, it moves fast through the building materials common to this area, and the clock on secondary damage starts immediately. FIX Restoration operates out of American Fork and responds to water losses throughout Pleasant Grove and the surrounding Utah County communities.
 
 ## Why Pleasant Grove Properties See Water Damage Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Kingsley, IA | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Kingsley"
-meta_description: "Storm damage restoration in Kingsley, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Kingsley, IA | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Kingsley"
+meta_description: "Emergency storm damage restoration in Kingsley, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration kingsley"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Kingsley? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 When a severe storm rolls across Plymouth County and stalls over the Loess Hills, Kingsley takes it differently than a flat-terrain town. The rolling topography that makes this corner of western Iowa so distinctive also channels wind in unpredictable ways, gusts that seem moderate on the highway can funnel between buildings near Downtown Kingsley with enough force to strip shingles, shatter windows, and drive rain horizontally into wall cavities. Crew Restoration & Construction responds to storm damage throughout the 51028 ZIP code, helping homeowners and property managers move from crisis to dry, secure, and repaired.
 
 ## Why Kingsley Properties See Serious Storm Damage

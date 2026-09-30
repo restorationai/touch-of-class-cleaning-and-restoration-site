@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Hubbard, OH | DISS Restoration"
-h1: "Sewage Cleanup and Sanitization in Hubbard"
-meta_description: "24/7 sewage cleanup and sanitization in Hubbard, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "Emergency Sewage Cleanup and Sanitization in Hubbard, OH | DISS Restoration"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Hubbard"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Hubbard, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "sewage cleanup and sanitization hubbard"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "OH"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Hubbard? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Sewage backing up into a Hubbard home hits differently than a burst supply line, the water is contaminated from the first drop, and every minute it sits, it's soaking into subfloor, baseboards, and wall cavities that can't simply be dried out. Hubbard sits in Trumbull County, where aging municipal sewer infrastructure and the area's clay-heavy soils create conditions that push sewage backups higher on the list of calls we take from this part of northeastern Ohio. When it happens, the cleanup isn't optional and it isn't slow.
 
 ## Why Hubbard Properties See Sewage Backup Issues

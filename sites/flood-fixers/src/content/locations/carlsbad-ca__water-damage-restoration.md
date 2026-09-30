@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Carlsbad, CA | Flood Fixers"
-h1: "Water Damage Restoration in Carlsbad"
-meta_description: "24/7 water damage restoration in Carlsbad, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "24/7 Emergency Water Damage Restoration in Carlsbad, CA | Flood Fixers"
+h1: "24/7 Emergency Water Damage Restoration in Carlsbad"
+meta_description: "24/7 emergency water damage restoration in Carlsbad, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "water damage restoration carlsbad"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Carlsbad? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Carlsbad's coastal climate is a double-edged sword. The marine layer that keeps La Costa and Bressi Ranch comfortable through summer also means elevated ambient humidity year-round, and when a supply line bursts, a water heater fails, or a roof intrusion soaks through ceiling drywall, that background moisture slows drying times and gives mold a shorter runway than it would have in a drier inland city. If water is standing in your home right now, call Flood Fixers at (855) 204-1124. Technicians dispatch from San Diego and can typically reach Carlsbad addresses within 60–90 minutes.
 
 ## Why Carlsbad Properties See More Water Damage Than You'd Expect

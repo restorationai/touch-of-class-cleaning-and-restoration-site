@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Royalton, MN | Heritage Restoration LLC"
-h1: "Smoke Damage Restoration in Royalton"
-meta_description: "Smoke damage restoration in Royalton, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Smoke Damage Restoration in Royalton, MN | Heritage Restoration LLC"
+h1: "Emergency Smoke Damage Restoration in Royalton"
+meta_description: "Emergency smoke damage restoration in Royalton, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "smoke damage restoration royalton"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

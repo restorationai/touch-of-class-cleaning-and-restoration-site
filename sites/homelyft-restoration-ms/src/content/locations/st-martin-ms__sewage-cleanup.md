@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in St. Martin, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in St. Martin"
-meta_description: "Sewage cleanup and sanitization in St. Martin, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "Emergency Sewage Cleanup and Sanitization in St. Martin, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in St. Martin"
+meta_description: "24/7 emergency sewage cleanup and sanitization in St. Martin, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization st. martin"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in St. Martin? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 St. Martin sits in a stretch of Jackson County where the Gulf Coast's heavy rainfall, low-lying terrain, and aging residential infrastructure create a perfect environment for sewage backups to turn into full-scale contamination events. When a sewer line reverses or a septic system overflows here, the standing water isn't just unpleasant, it carries Category 3 biohazardous material that can saturate crawl spaces, wick into wall cavities, and begin degrading air quality within hours. HomeLyft Restoration MS responds to those calls from our Gulfport base, bringing certified technicians and industrial-grade sanitization equipment directly to St. Martin properties.
 
 ## Why St. Martin Properties See Sewage Backup Issues

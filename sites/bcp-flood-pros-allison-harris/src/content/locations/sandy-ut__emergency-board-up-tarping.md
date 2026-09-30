@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Sandy, UT | FIX Restoration"
-h1: "Board-Up and Tarping in Sandy"
-meta_description: "Board-up and tarping in Sandy, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Board-Up and Tarping in Sandy, UT | FIX Restoration"
+h1: "Emergency Board-Up and Tarping in Sandy"
+meta_description: "Emergency board-up and tarping in Sandy, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "emergency board-up and tarping sandy"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Sandy? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Sandy sits at the foot of the Wasatch Range, where high-desert wind events, heavy spring snowpack, and the occasional hailstorm can compromise a roof or shatter a window with little warning. When that happens, the gap between the damage and a proper repair is exactly when a property is most vulnerable, to weather, to theft, and to secondary losses that insurers scrutinize closely. Getting structural openings sealed fast is not a courtesy; it is the first line of defense against a manageable claim becoming a much larger one.
 
 ## Why Sandy Properties Face Distinct Board-Up and Tarping Needs

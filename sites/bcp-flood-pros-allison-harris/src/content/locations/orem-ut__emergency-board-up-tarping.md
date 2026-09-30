@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Orem, UT | FIX Restoration"
-h1: "Board-Up and Tarping in Orem"
-meta_description: "Board-up and tarping in Orem, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Board-Up and Tarping in Orem, UT | FIX Restoration"
+h1: "Emergency Board-Up and Tarping in Orem"
+meta_description: "Emergency board-up and tarping in Orem, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "emergency board-up and tarping orem"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Orem? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Orem sits at the foot of the Wasatch Range, where late-spring hailstorms can shred a roof in minutes and winter inversions trap moisture that accelerates damage once a structure is breached. When a broken window, a fire-scorched wall, or a storm-peeled roof leaves your property exposed, the window between the initial event and secondary damage, water intrusion, vandalism, further structural compromise, is measured in hours, not days. FIX Restoration responds from American Fork to secure Orem properties with structural board-up and heavy-duty roof tarping before that window closes.
 
 ## Why Orem Properties Face Distinctive Board-Up and Tarping Challenges

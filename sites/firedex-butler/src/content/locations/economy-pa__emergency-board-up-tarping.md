@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Economy, PA | FireDEX Butler"
-h1: "Emergency Board-Up and Tarping in Economy"
+title: "24/7 Emergency Board-Up and Tarping in Economy, PA | FireDEX Butler"
+h1: "24/7 Emergency Board-Up and Tarping in Economy"
 meta_description: "24/7 emergency board-up and tarping in Economy, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "emergency board-up and tarping economy"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

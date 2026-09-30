@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Camarillo, CA | California Restoration West "
-h1: "Storm Damage Restoration in Camarillo"
-meta_description: "24/7 storm damage restoration in Camarillo, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "24/7 Emergency Storm Damage Restoration in Camarillo, CA | California Restoration West "
+h1: "24/7 Emergency Storm Damage Restoration in Camarillo"
+meta_description: "24/7 emergency storm damage restoration in Camarillo, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "storm damage restoration camarillo"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Camarillo? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Camarillo sits in a meteorological corridor where the Santa Ana winds funnel through the Conejo Grade and Pacific storm systems stack against the Santa Monica Mountains, producing a weather pattern that can swing from drought-cracked soil to flash-flood conditions within a single season. When a winter atmospheric river drops two inches of rain in an afternoon on ground that hasn't seen moisture in months, the runoff moves fast, the soil can't absorb it, and structures take the hit, broken roof tiles, wind-lifted fascia, saturated wall cavities, and debris-choked drainage. California Restoration West responds 24/7 from Ventura to assess and begin work the same day damage occurs.
 
 ## Why Camarillo Properties Are Vulnerable to Storm Damage

@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Vineyard? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Vineyard sits on the eastern shore of Utah Lake, and that geography matters the moment water starts moving through your home. The lake's proximity keeps the soil in this part of Utah County consistently moist at depth, and the city's rapid residential buildout over the past decade means many homes here are still settling into that ground. When a supply line fails, an appliance leaks, or a storm pushes water through a foundation, it can travel fast through concrete slabs and into finished living spaces. FIX Restoration responds to those calls from our American Fork location, just a short drive north on State Route 68.
 
 ## Why Vineyard Properties See Water Damage Differently

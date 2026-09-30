@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Trauma Scene Cleanup in Bellevue, WA | National Restoration Construction"
-h1: "Trauma Scene Cleanup in Bellevue"
-meta_description: "24/7 trauma scene cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Trauma Scene Cleanup in Bellevue, WA | National Restoration Construction"
+h1: "24/7 Emergency Trauma Scene Cleanup in Bellevue"
+meta_description: "24/7 emergency trauma scene cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "trauma scene cleanup bellevue"
 secondary_keywords: ["trauma cleanup services", "trauma scene cleaning", "accident scene cleanup", "crime and trauma decontamination", "emergency trauma cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Trauma Scene Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Bellevue? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something unthinkable happens inside a Bellevue home or commercial property, the hours that follow are consumed by grief, logistics, and decisions no one is prepared to make. Trauma scene cleanup is one of those decisions, and in a city where many residences sit inside HOA-governed townhome communities or newer condo developments from Crossroads to Factoria, the path from incident to restored property involves more coordination than most families expect. National Restoration Construction has handled that coordination across the Eastside since 2004, responding discreetly and arriving equipped to handle the work so families don't have to.
 
 ## What Trauma Cleanup in Bellevue Actually Involves

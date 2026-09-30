@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Urban Honolulu, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in Urban Honolulu"
-meta_description: "24/7 flood damage restoration in Urban Honolulu, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "Emergency Flood Damage Restoration in Urban Honolulu, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in Urban Honolulu"
+meta_description: "24/7 emergency flood damage restoration in Urban Honolulu, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "flood damage restoration urban honolulu"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Urban Honolulu? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Honolulu's geography makes flooding feel different from anywhere else on the mainland. The Ko'olau Range funnels rainfall down into the urban core with startling speed, and when a storm stalls over the island, low-lying streets can go from damp to knee-deep in under an hour. If your home or rental unit is dealing with standing water right now, the clock matters: tropical humidity means saturated materials begin to support mold growth faster here than in drier climates, and salt-laden air accelerates corrosion in anything the water touched.
 
 ## Why Urban Honolulu Properties See Flood Damage Issues

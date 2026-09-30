@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in North Bergen, NJ | The Restoration Group"
-h1: "Ceiling Water Damage Repair in North Bergen"
-meta_description: "24/7 ceiling water damage repair in North Bergen, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "Emergency Ceiling Water Damage Repair in North Bergen, NJ | The Restoration Group"
+h1: "24/7 Emergency Ceiling Water Damage Repair in North Bergen"
+meta_description: "24/7 emergency ceiling water damage repair in North Bergen, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "ceiling water damage repair north bergen"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

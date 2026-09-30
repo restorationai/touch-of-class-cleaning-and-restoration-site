@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Rahway, NJ | The Restoration Group"
-h1: "Flood Damage Restoration in Rahway"
-meta_description: "24/7 flood damage restoration in Rahway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Flood Damage Restoration in Rahway, NJ | The Restoration Group"
+h1: "24/7 Emergency Flood Damage Restoration in Rahway"
+meta_description: "24/7 emergency flood damage restoration in Rahway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "flood damage restoration rahway"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Rahway? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and stop the damage from spreading.
+
 The Rahway River doesn't announce itself before it floods. One heavy overnight storm, or a slow-moving system like Ida in 2021, and the low-lying streets near Rahway River Park can have standing water inside finished basements before sunrise. If your home or building in the 07065 area is dealing with flood damage right now, the clock matters: mold colonization can begin within 24 to 48 hours on wet framing, and saturated subfloors in older homes hold moisture far longer than they appear to from the surface. The Restoration Group is based in Kenilworth, a short drive from Rahway, and we respond 24/7.
 
 ## Why Rahway Properties Are Particularly Vulnerable to Flood Damage

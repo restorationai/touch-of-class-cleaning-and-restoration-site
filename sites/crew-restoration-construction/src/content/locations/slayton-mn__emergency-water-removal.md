@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Slayton? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 When snowmelt or a sudden spring storm pushes water into a home near Lake Sarah, the clock starts immediately. Slayton sits at the heart of Murray County, where flat prairie topography and clay-heavy soils slow drainage and give standing water every reason to linger in basements, crawl spaces, and around foundations. Crew Restoration & Construction responds to those calls with IICRC-certified technicians, industrial extraction equipment, and a process built around what water actually does to the homes in this part of southwestern Minnesota.
 
 ## Why Slayton Properties See Water Damage Issues

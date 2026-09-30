@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Kirkland, WA | National Restoration Construction"
-h1: "Appliance Leak Cleanup in Kirkland"
-meta_description: "24/7 appliance leak cleanup in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Appliance Leak Cleanup in Kirkland, WA | National Restoration Construction"
+h1: "24/7 Emergency Appliance Leak Cleanup in Kirkland"
+meta_description: "24/7 emergency appliance leak cleanup in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "appliance leak cleanup kirkland"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Kirkland? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A dishwasher that ran overnight. A washing machine supply line that finally gave out. A refrigerator ice maker line that's been dripping behind the fridge for weeks without anyone noticing. Whatever appliance failed in your Kirkland home, the water is moving right now, soaking into subfloor, wicking up drywall, and setting the clock on mold growth. National Restoration Construction has been responding to these exact situations across the greater Seattle area since 2004, and we can have a crew at your door, ready to extract and dry, within 60 to 90 minutes of your call.
 
 ## What Happens When We Arrive at Your Kirkland Home

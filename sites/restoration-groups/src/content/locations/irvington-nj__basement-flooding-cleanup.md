@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Irvington, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in Irvington"
-meta_description: "24/7 basement flooding cleanup in Irvington, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Basement Flooding Cleanup in Irvington, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Irvington"
+meta_description: "24/7 emergency basement flooding cleanup in Irvington, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "basement flooding cleanup irvington"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Irvington? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 When a hard rain hits Irvington, the basements of the town's dense rows of early-1900s two- and three-family homes fill faster than most homeowners expect. The Elizabeth River watershed drains directly through this part of Essex County, and low-lying streets near Irvington Center and the Grove Park neighborhood have nowhere to shed the water quickly. If you're standing in inches of water right now, the clock matters, mold can begin colonizing wet framing and insulation within 24 to 48 hours, and a finished or semi-finished basement compounds every hour of delay.
 
 ## Why Irvington Properties See Basement Flooding Issues

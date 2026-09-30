@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Storm Damage Restoration in Sioux Falls | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Sioux Falls"
-meta_description: "Storm damage restoration in Sioux Falls and surrounding areas. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Sioux Falls | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Sioux Falls"
+meta_description: "Emergency storm damage restoration in Sioux Falls and surrounding areas. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration sioux falls"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Sioux Falls? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 A storm rolls through Sioux Falls on a Tuesday night, and by Wednesday morning you're standing in your living room staring at a ceiling that's bowed from water, a wall punched through by a fallen oak limb, or shingles scattered across your lawn. The damage is visible, but the part that causes the most long-term harm, water that's already migrating into wall cavities, insulation that's soaking up moisture behind intact drywall, structural members exposed to the elements, is the part you can't see yet. Storm damage restoration is the work of stopping that hidden clock before it compounds into a mold problem, a structural problem, or a denied insurance claim.
 
 ## What Storm Damage Restoration actually involves

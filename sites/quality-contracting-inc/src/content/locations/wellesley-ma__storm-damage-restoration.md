@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Wellesley, MA | Quality Contracting, Inc."
-h1: "Storm Damage Restoration in Wellesley"
-meta_description: "Storm damage restoration in Wellesley, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Storm Damage Restoration in Wellesley, MA | Quality Contracting, Inc."
+h1: "Emergency Storm Damage Restoration in Wellesley"
+meta_description: "Emergency storm damage restoration in Wellesley, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "storm damage restoration wellesley"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Wellesley? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Wellesley's mature tree canopy is one of the town's most distinctive features, and after a nor'easter or a fast-moving summer thunderstorm, it becomes one of the most significant hazards to residential property. Heavy limbs from white oaks and Norway maples don't just puncture roofs; they shear gutters, compromise flashing, and drive water into wall cavities before a homeowner realizes the ceiling is stained. Quality Contracting, Inc. responds to storm damage calls across Wellesley and can be reached at (508) 756-8800.
 
 ## Why Wellesley Properties Are Particularly Vulnerable to Storm Damage

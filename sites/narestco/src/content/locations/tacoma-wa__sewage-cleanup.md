@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Tacoma, WA | National Restoration Construction"
-h1: "Sewage Cleanup and Sanitization in Tacoma"
-meta_description: "24/7 sewage cleanup and sanitization in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Tacoma, WA | National Restoration Construction"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Tacoma"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "sewage cleanup and sanitization tacoma"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Tacoma? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 If you're standing in a basement or bathroom right now with sewage backing up around your feet, the next few hours matter more than you might realize. Raw sewage carries bacteria, viruses, and pathogens that begin colonizing porous surfaces, drywall, subfloor, insulation, within hours of contact. National Restoration Construction dispatches from Federal Way, putting most Tacoma addresses within 60–90 minutes of a crew. The sooner extraction starts, the less you're tearing out later.
 
 ## Why Tacoma Properties See Sewage Emergencies More Than You'd Expect

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Paterson, NJ | The Restoration Group"
-h1: "Storm Damage Restoration in Paterson"
-meta_description: "24/7 storm damage restoration in Paterson, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Storm Damage Restoration in Paterson, NJ | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Paterson"
+meta_description: "24/7 emergency storm damage restoration in Paterson, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "storm damage restoration paterson"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Paterson? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 When a nor'easter or a fast-moving line of severe thunderstorms rolls through Passaic County, Paterson absorbs the hit harder than most cities its size. The Passaic River runs right through the heart of the city, and the low-lying blocks near the Great Falls and downtown have flooded catastrophically, during Hurricane Irene in 2011 and again during Ida in 2021, water crested into first floors and basements across the Riverside and Sandy Hill sections, leaving behind soaked framing, ruined mechanicals, and mold that colonized within 48 hours. When storm damage threatens your home or building, The Restoration Group responds around the clock, call (855) 650-7422.
 
 ## Why Paterson Properties Take Storm Damage Harder

@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Vineyard, UT | Home Pride Restoration and Cleaning"
-h1: "Emergency Water Removal & Cleanup in Vineyard"
+title: "24/7 Emergency Water Removal & Cleanup in Vineyard, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Water Removal & Cleanup in Vineyard"
 meta_description: "24/7 emergency water removal & cleanup in Vineyard, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "emergency water removal & cleanup vineyard"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]

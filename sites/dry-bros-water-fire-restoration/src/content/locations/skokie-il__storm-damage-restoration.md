@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Skokie, IL | Dry Bros Water & Fire Restoration"
-h1: "Storm Damage Restoration in Skokie"
-meta_description: "Storm damage restoration in Skokie, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Storm Damage Restoration in Skokie, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Skokie"
+meta_description: "24/7 emergency storm damage restoration in Skokie, IL. Insurance billing accepted. Call us now."
 primary_keyword: "storm damage restoration skokie"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Skokie? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Skokie sits in a flat, densely built stretch of Cook County where severe weather has nowhere to go. When a fast-moving line of thunderstorms rolls off Lake Michigan, the kind that drops two inches of rain in forty minutes and snaps mature oak limbs like kindling, the damage lands hard on rooftops, siding, and basements all at once. Dry Bros Water & Fire Restoration responds to storm damage across Skokie, helping homeowners and property managers move from crisis to dry, stabilized structure as quickly as the work allows.
 
 ## Why Skokie Properties See Outsized Storm Damage

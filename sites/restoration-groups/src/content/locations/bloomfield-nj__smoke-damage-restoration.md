@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Bloomfield, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Bloomfield"
-meta_description: "24/7 smoke damage restoration in Bloomfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Bloomfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Bloomfield"
+meta_description: "24/7 emergency smoke damage restoration in Bloomfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration bloomfield"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Bloomfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 The acrid smell of smoke doesn't leave a Bloomfield home on its own. In the borough's dense stock of 1920s and 1930s colonials and Tudors, the kind that line the streets around Watsessing Park and stretch north toward Brookdale, original plaster walls, horsehair insulation, and old-growth wood framing absorb smoke particles deeply and hold them for months. A kitchen fire that looks contained to one room can leave oily soot on every surface two floors up, and the odor will return every time the heat kicks on. Fast, methodical smoke damage restoration is the only way to actually clear it.
 
 ## Why Bloomfield's Older Housing Stock Complicates Smoke Damage

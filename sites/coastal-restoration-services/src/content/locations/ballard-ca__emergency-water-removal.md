@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Ballard? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Ballard, CA sits in a stretch of Santa Barbara County where seasonal rains arrive fast and drainage infrastructure along rural roads can struggle to keep pace. When a pipe lets go or a storm pushes water under a door, the damage clock starts immediately, soaked subfloors, saturated insulation, and the early conditions for mold growth can all develop within the first 24 to 48 hours. Coastal Restoration Services Inc responds to those calls with IICRC-certified technicians trained in Water Damage Restoration (WRT) and Applied Structural Drying (ASD), bringing the right equipment to move standing water out fast and handle the emergency water removal and cleanup your property needs right away.
 
 ## Why Ballard Properties See Water Damage Differently

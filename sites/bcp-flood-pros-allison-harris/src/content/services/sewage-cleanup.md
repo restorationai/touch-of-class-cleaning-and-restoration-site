@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Sewage Cleanup and Sanitization in American Fork | FIX Restoration"
-h1: "Sewage Cleanup and Sanitization in American Fork"
-meta_description: "Sewage cleanup and sanitization in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Sewage Cleanup and Sanitization in American Fork | FIX Restoration"
+h1: "Emergency Sewage Cleanup and Sanitization in American Fork"
+meta_description: "Emergency sewage cleanup and sanitization in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "sewage cleanup and sanitization american fork"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in American Fork? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 The smell hits first, a thick, sulfurous odor that doesn't belong anywhere near a living space. Then you see it: dark water backing up through a floor drain, a toilet that won't flush, or a wet patch spreading across the laundry room floor. Sewage backups carry bacteria, viruses, and parasites that can colonize porous surfaces within hours. Every minute the water sits, the contamination spreads deeper into subfloor, drywall, and insulation, materials that look intact but can harbor pathogens long after the visible mess is gone.
 
 ## What sewage cleanup and sanitization actually involves

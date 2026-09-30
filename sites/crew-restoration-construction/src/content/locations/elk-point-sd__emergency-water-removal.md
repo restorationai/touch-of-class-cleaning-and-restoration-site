@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Elk Point? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Elk Point sits where the Big Sioux River meets the Missouri River corridor, and that geography is not just scenic, it means the water table in and around the 57025 ZIP code runs high, especially after spring snowmelt or a fast-moving Plains thunderstorm. When a pipe bursts in a century-old craftsman near Downtown Elk Point or a sump pump fails during a heavy rain event, water moves fast through older subflooring and plaster walls. Crew Restoration & Construction responds to those calls with IICRC-certified technicians and professional extraction equipment, because the first hours after a water loss determine how much of your home you keep.
 
 ## Why Elk Point Properties Face Distinct Water Damage Risks

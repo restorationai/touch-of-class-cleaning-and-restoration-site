@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Beresford, SD | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Beresford"
-meta_description: "Fire damage restoration in Beresford, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Beresford, SD | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Beresford"
+meta_description: "Emergency fire damage restoration in Beresford, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration beresford"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Beresford? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When fire tears through a home near Downtown Beresford or out along the county line roads off Interstate 29 Exit 47, the damage rarely stops at the charred walls. Smoke infiltrates every closet, HVAC duct, and drawer gap within minutes, and the water left behind by suppression efforts begins soaking into subfloors before the fire trucks have even pulled away. Crew Restoration & Construction responds to fire losses across the 57004 ZIP code, helping families in Beresford move from crisis to livable home with a clear, documented process.
 
 ## Why Beresford Properties Are Vulnerable to Severe Fire Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Solvang, CA | Coastal Restoration Services Inc"
-h1: "Storm Damage Restoration in Solvang"
-meta_description: "Storm damage restoration in Solvang, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Storm Damage Restoration in Solvang, CA | Coastal Restoration Services Inc"
+h1: "Emergency Storm Damage Restoration in Solvang"
+meta_description: "Emergency storm damage restoration in Solvang, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "storm damage restoration solvang"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Solvang? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Solvang sits in the Santa Ynez Valley where the coastal marine layer collides with inland heat, and that combination produces storms that behave differently than what most Central Coast homeowners expect. Winter atmospheric rivers can dump several inches of rain in hours, saturating the adobe-style clay soils that underlie much of the valley floor and sending water sheeting toward foundations before drainage systems can keep pace. When a storm tears through your property, whether it's a downed oak limb through a roof, wind-driven rain behind a window frame, or standing water in a crawl space, Coastal Restoration Services Inc responds from our Vandenberg Village base to assess the damage and start mitigation the same day you call.
 
 ## Why Solvang Properties Are Especially Vulnerable to Storm Damage

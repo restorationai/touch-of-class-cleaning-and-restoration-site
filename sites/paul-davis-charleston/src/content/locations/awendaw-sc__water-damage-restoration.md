@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Awendaw, SC | Paul Davis Restoration of Charleston"
-h1: "Water Damage Restoration in Awendaw"
-meta_description: "Water damage restoration in Awendaw, SC. Insurance billing accepted. Call."
+title: "Emergency Water Damage Restoration in Awendaw, SC | Paul Davis Restoration of Charleston"
+h1: "Emergency Water Damage Restoration in Awendaw"
+meta_description: "Emergency water damage restoration in Awendaw, SC. Insurance billing accepted. Call."
 primary_keyword: "water damage restoration awendaw"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

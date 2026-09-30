@@ -1,9 +1,9 @@
 ---
 hero: '/images/services/water-damage-restoration.webp'
 archetype: "service-landing"
-title: "Water Damage Restoration in Saratoga Springs | Home Pride Restoration and Cleaning"
-h1: "Water Damage Restoration in Saratoga Springs"
-meta_description: "24/7 water damage restoration in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Water Damage Restoration in Saratoga Springs | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Water Damage Restoration in Saratoga Springs"
+meta_description: "24/7 emergency water damage restoration in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "water damage restoration saratoga springs"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -18,6 +18,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Saratoga Springs? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 A burst pipe behind your laundry room wall. A water heater that failed overnight. A slow roof leak that soaked your attic insulation for weeks before anyone noticed. Water damage rarely announces itself cleanly, it hides in wall cavities, wicks up baseboards, and saturates subfloor sheathing long before you see a stain on the ceiling. The clock starts the moment moisture contacts a building material, and mold can begin colonizing within 24 to 48 hours in Utah's dry-but-warm interior climate. Fast, thorough water removal and structural drying are the difference between a contained repair and a gut renovation.
 
 ## What water damage restoration actually involves

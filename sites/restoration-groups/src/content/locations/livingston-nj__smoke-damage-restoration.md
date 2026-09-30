@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Livingston, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Livingston"
-meta_description: "24/7 smoke damage restoration in Livingston, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Livingston, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Livingston"
+meta_description: "24/7 emergency smoke damage restoration in Livingston, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration livingston"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Livingston? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 A kitchen fire that gets knocked down fast can still leave a Livingston home smelling like a chimney for months. Smoke is deceptive, the visible char gets cleaned up, but fine soot particles migrate through forced-air systems, settle into the plaster and drywall of the town's many 1960s split-levels, and oxidize into a yellowish residue on ceilings within days. If the house sits in Northland or Collins where post-war construction is dense and homes share close lot lines, a neighbor's fire can push smoke through soffit vents into your attic insulation before the fire department has even cleared the scene.
 
 ## Why Livingston Homes Are Particularly Vulnerable to Smoke Damage

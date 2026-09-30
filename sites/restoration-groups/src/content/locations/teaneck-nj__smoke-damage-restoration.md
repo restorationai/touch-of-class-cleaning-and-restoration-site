@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Teaneck, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Teaneck"
-meta_description: "24/7 smoke damage restoration in Teaneck, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Teaneck, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Teaneck"
+meta_description: "24/7 emergency smoke damage restoration in Teaneck, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration teaneck"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Teaneck? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 A kitchen fire that gets knocked down fast can still leave a house unlivable for weeks. Smoke travels through ductwork, seeps behind the plaster walls common in Teaneck's 1930s and 1940s brick Tudors and colonials, and settles into finished basement ceilings, the same lower-level spaces that took on water during Ida in 2021. By the time the fire department clears the scene, soot has already begun bonding to surfaces, and the acrid, oily smell that follows a structure fire is a chemical process, not just an odor. Acting within the first 24 to 48 hours is the difference between cleaning and replacing.
 
 ## Why Teaneck's Housing Stock Complicates Smoke Damage

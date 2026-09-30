@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Makakilo, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Emergency Water Removal & Cleanup in Makakilo"
+title: "24/7 Emergency Water Removal & Cleanup in Makakilo, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Removal & Cleanup in Makakilo"
 meta_description: "24/7 emergency water removal and cleanup in Makakilo, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "emergency water removal makakilo"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

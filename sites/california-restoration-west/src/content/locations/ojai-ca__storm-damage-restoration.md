@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Ojai, CA | California Restoration West "
-h1: "Storm Damage Restoration in Ojai"
-meta_description: "24/7 storm damage restoration in Ojai, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "24/7 Emergency Storm Damage Restoration in Ojai, CA | California Restoration West "
+h1: "24/7 Emergency Storm Damage Restoration in Ojai"
+meta_description: "24/7 emergency storm damage restoration in Ojai, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "storm damage restoration ojai"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Ojai? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Ojai sits in a narrow east-west valley carved by the Ventura River watershed, and that geography shapes how storms hit here differently than almost anywhere else in Southern California. When a Pacific system stalls against the Topa Topa Mountains, rainfall totals in the upper valley can dwarf what registers at the coast, and the same ridgelines that make Ojai beautiful funnel wind gusts through the valley floor with surprising force. Downed eucalyptus and oak trees, compromised rooflines, and flash flooding through canyon-adjacent properties are common outcomes. California Restoration West responds 24/7 from Ventura to help Ojai homeowners and property managers stabilize, document, and fully restore after storm events.
 
 ## Why Ojai Properties Are Particularly Vulnerable to Storm Damage

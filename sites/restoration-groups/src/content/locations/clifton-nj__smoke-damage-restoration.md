@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Clifton, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Clifton"
-meta_description: "24/7 smoke damage restoration in Clifton, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Clifton, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Clifton"
+meta_description: "24/7 emergency smoke damage restoration in Clifton, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration clifton"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Clifton? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 A kitchen fire that gets knocked down fast can still leave a Clifton home smelling like a campfire for months. Smoke doesn't stop moving when the flames do, it migrates through wall cavities, settles into the plaster and horsehair insulation common in Botany Village's older brick multifamilies, and embeds itself in HVAC ductwork before most homeowners have even called their insurance adjuster. If you're dealing with that acrid, oily residue right now, the clock matters more than most people realize.
 
 ## Why Clifton Properties See Smoke Damage Issues

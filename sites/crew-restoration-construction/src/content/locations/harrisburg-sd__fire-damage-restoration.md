@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Harrisburg, SD | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Harrisburg"
-meta_description: "Fire damage restoration in Harrisburg, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Harrisburg, SD | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Harrisburg"
+meta_description: "Emergency fire damage restoration in Harrisburg, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration harrisburg"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Harrisburg? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When a fire tears through a home in Harrisburg's Journey subdivision or along the newer streets near Freedom Elementary, the damage rarely stops at the charred walls. Smoke migrates into HVAC systems, soot settles into the tight seams of engineered lumber framing common in the area's newer builds, and the odor embeds itself in insulation before the fire trucks have even left the driveway. Crew Restoration & Construction responds to fire losses in the 57032 area, working to stabilize the structure, remove hazardous residue, and get families back into their homes as quickly as the damage allows.
 
 ## Why Harrisburg's Rapid Growth Creates Specific Fire Damage Challenges

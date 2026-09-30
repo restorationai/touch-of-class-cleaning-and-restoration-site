@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Trauma Scene Cleanup in University Place, WA | National Restoration Construction"
-h1: "Trauma Scene Cleanup in University Place"
-meta_description: "24/7 trauma scene cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Trauma Scene Cleanup in University Place, WA | National Restoration Construction"
+h1: "24/7 Emergency Trauma Scene Cleanup in University Place"
+meta_description: "24/7 emergency trauma scene cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "trauma scene cleanup university place"
 secondary_keywords: ["trauma cleanup services", "trauma scene cleaning", "accident scene cleanup", "crime and trauma decontamination", "emergency trauma cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Trauma Scene Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in University Place? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 University Place sits in a quiet corner of West Pierce County where 1960s ramblers line streets that back up to the bluffs above Chambers Creek, and where neighbors tend to know each other's cars. When something traumatic happens inside one of those homes, a sudden death, a serious accident, an act of violence, the last thing a family should have to manage is the cleanup. National Restoration Construction responds to trauma scenes in University Place with the discretion, speed, and certified process that a close-knit community like this requires.
 
 ## What Trauma Scene Cleanup Actually Involves

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Storm Damage Restoration in Henderson | Life Savers Restoration LLC"
-h1: "Storm Damage Restoration in Henderson"
-meta_description: "24/7 storm damage restoration in Henderson and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
+title: "24/7 Emergency Storm Damage Restoration in Henderson | Life Savers Restoration LLC"
+h1: "24/7 Emergency Storm Damage Restoration in Henderson"
+meta_description: "24/7 emergency storm damage restoration in Henderson and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
 primary_keyword: "storm damage restoration henderson"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Henderson? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 A storm doesn't announce how much damage it left behind. The roof takes the obvious hit, shingles stripped, a branch through the fascia, but the water that followed has already moved into the attic insulation, down the wall cavities, and under the subfloor before the rain stops. That hidden moisture is what turns a $4,000 repair into a $40,000 restoration if it's missed in the first 48 to 72 hours. Storm damage restoration is the work of finding all of it, stopping the secondary damage, and rebuilding what can't be saved.
 
 ## What Storm Damage Restoration actually involves

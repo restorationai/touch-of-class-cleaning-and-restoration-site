@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Kailua, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Sewage Cleanup and Sanitization in Kailua"
-meta_description: "24/7 sewage cleanup and sanitization in Kailua, HI. Call (808) 349-3407."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Kailua, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Kailua"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Kailua, HI. Call (808) 349-3407."
 primary_keyword: "sewage cleanup and sanitization kailua"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Kailua? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 When a sewer line backs up in Kailua, the clock starts moving faster than most homeowners expect. Windward Oahu's persistently high water table, especially in low-lying neighborhoods near Kawainui Marsh and Enchanted Lake, means raw sewage doesn't just sit on a surface; it finds paths into soil, subflooring, and wall cavities within hours. Add the single-wall construction common in Kailua's older beach cottages, where there's no vapor barrier between exterior sheathing and interior drywall, and contaminated water wicks through a home's bones before the smell even registers. AAA Water Damage Restoration & Carpet Care responds around the clock to sewage emergencies across Kailua, call (808) 349-3407 the moment you discover the problem.
 
 ## Why Kailua Properties See Sewage Backup Problems

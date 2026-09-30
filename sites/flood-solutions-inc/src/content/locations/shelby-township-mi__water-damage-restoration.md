@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Shelby Township, MI | Flood & Fire Solutions"
-h1: "Water Damage Restoration in Shelby Township"
-meta_description: "Water damage restoration in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Water Damage Restoration in Shelby Township, MI | Flood & Fire Solutions"
+h1: "Emergency Water Damage Restoration in Shelby Township"
+meta_description: "Emergency water damage restoration in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "water damage restoration shelby township"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Shelby Township? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Shelby Township sits in the heart of Macomb County, where clay-heavy glacial soils and a water table that rises sharply after spring snowmelt create conditions that push water into basements, crawl spaces, and slab foundations faster than most homeowners expect. When a sump pump fails at 2 a.m. during an April thaw, or a supply line lets go behind a finished wall, the clock starts immediately, standing water begins wicking into framing, insulation, and flooring within the first hour, and the window to prevent secondary damage closes quickly. Flood & Fire Solutions has been responding to losses like these across Macomb County since 1996, and the crew knows exactly what Shelby Township's soil and housing stock demand from a water mitigation response.
 
 ## Why Shelby Township Properties See Water Damage Issues

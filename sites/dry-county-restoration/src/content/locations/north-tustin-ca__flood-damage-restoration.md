@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in North Tustin, CA | Dry County Restoration"
-h1: "Flood Damage Restoration in North Tustin"
-meta_description: "24/7 flood damage restoration in North Tustin, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "24/7 Emergency Flood Damage Restoration in North Tustin, CA | Dry County Restoration"
+h1: "24/7 Emergency Flood Damage Restoration in North Tustin"
+meta_description: "24/7 emergency flood damage restoration in North Tustin, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "flood damage restoration north tustin"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

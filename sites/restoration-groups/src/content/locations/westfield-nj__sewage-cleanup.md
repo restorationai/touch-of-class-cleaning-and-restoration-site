@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Westfield, NJ | The Restoration Group"
-h1: "Sewage Cleanup and Sanitization in Westfield"
-meta_description: "24/7 sewage cleanup and sanitization in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "Emergency Sewage Cleanup and Sanitization in Westfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Westfield"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "sewage cleanup and sanitization westfield"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Westfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to contain the contamination and start the cleanup.
+
 The clay sewer laterals running beneath Westfield's Victorian and Tudor streetscapes were never designed to last a century, and when they fail, they don't fail quietly. A backed-up sewer line in a home near Mindowaskin Park or deep in the Wychwood neighborhood can push raw sewage through floor drains, toilet bases, and utility sinks before a homeowner realizes what's happening. Because finished basements here are essentially second living floors, home theaters, gyms, built-in offices, a single lateral collapse or municipal sewer surcharge can turn into a five-figure loss within hours. The Restoration Group responds 24/7 from Kenilworth, NJ, and our IICRC Certified Firm (#210213) crews carry the containment, extraction, and hospital-grade sanitization equipment that Category 3 water events demand.
 
 ## Why Westfield Homes Are Particularly Vulnerable to Sewage Backups

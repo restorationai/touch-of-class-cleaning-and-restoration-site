@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Shrewsbury, MA | Quality Contracting, Inc."
-h1: "Water Damage Restoration in Shrewsbury"
-meta_description: "Water damage restoration in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Water Damage Restoration in Shrewsbury, MA | Quality Contracting, Inc."
+h1: "Emergency Water Damage Restoration in Shrewsbury"
+meta_description: "Emergency water damage restoration in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "water damage restoration shrewsbury"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Shrewsbury? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Shrewsbury's lakefront geography creates a water damage risk profile that's easy to underestimate until you're standing in a flooded basement. Homes along the Lake Quinsigamond shoreline sit close to the water table, and when a pipe bursts or a sump pump fails during a nor'easter, the groundwater doesn't need much invitation to follow. Quality Contracting, Inc. responds to water damage calls across Shrewsbury's 01545 and 01546 ZIP codes, from the postwar capes near Edgemere to the newer subdivisions off the Route 9 corridor, with the equipment and process to stop the damage before it compounds.
 
 ## Why Shrewsbury Properties See More Water Damage Than You'd Expect

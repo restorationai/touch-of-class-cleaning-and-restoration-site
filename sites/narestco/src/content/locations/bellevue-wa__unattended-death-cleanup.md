@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Unattended Death Cleanup in Bellevue, WA | National Restoration Construction"
-h1: "Unattended Death Cleanup in Bellevue"
-meta_description: "24/7 unattended death cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Unattended Death Cleanup in Bellevue, WA | National Restoration Construction"
+h1: "24/7 Emergency Unattended Death Cleanup in Bellevue"
+meta_description: "24/7 emergency unattended death cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "unattended death cleanup bellevue"
 secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased estate cleanup", "odor removal after death", "discreet death cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Unattended Death Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Bellevue? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When a death goes undiscovered for days or weeks in a Bellevue home, whether a condominium near Bellevue Square or a single-family residence in the Somerset neighborhood, the combination of the Pacific Northwest's mild, humid summers and tightly insulated modern construction accelerates biological breakdown faster than most families expect. That timeline matters, because every hour affects both the structural materials and the complexity of the work ahead. National Restoration Construction has handled these situations across the Eastside since 2004, and we understand that what families and property managers need right now is a clear, discreet path forward, not more uncertainty.
 
 ## What Bellevue's Building Stock Means for This Type of Cleanup

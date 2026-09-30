@@ -1,7 +1,7 @@
 ---
 archetype: "service-landing"
-title: "Emergency Plumbing in Bakersfield | All Pro Plumbing Heating and Air"
-h1: "Emergency Plumbing in Bakersfield"
+title: "24/7 Emergency Plumbing in Bakersfield | All Pro Plumbing Heating and Air"
+h1: "24/7 Emergency Plumbing in Bakersfield"
 meta_description: "Trusted emergency plumbing in Bakersfield and surrounding areas. Plumbing and HVAC pros, upfront pricing, free estimates. Call (661) 863-9242."
 primary_keyword: "emergency plumbing bakersfield"
 secondary_keywords: ["emergency plumber", "24 hour plumber", "after hours plumber", "plumber near me now", "same day plumbing repair"]
@@ -17,6 +17,9 @@ service_slug: "emergency-plumbing"
 service_display: "Emergency Plumbing"
 rendered: true
 ---
+<!-- emergency-open -->
+**Plumbing emergency in Bakersfield? We answer 24/7.** Call now and our crew heads out to stop the leak and fix the problem.
+
 ## When the pipe doesn't wait for morning
 
 It's 11 p.m. and water is sheeting across your kitchen floor from a supply line that let go under the sink. Or it's a Sunday and your main sewer line has backed up into the shower, again. These aren't situations where you schedule something for next week. All Pro Plumbing Heating and Air runs 24/7 emergency dispatch in Bakersfield and the surrounding valley because plumbing failures don't follow business hours, and the longer water runs unchecked, the more damage compounds behind walls, under slabs, and inside cabinets.

@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Waimanalo, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Emergency Water Removal & Cleanup in Waimanalo"
+title: "24/7 Emergency Water Removal & Cleanup in Waimanalo, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Removal & Cleanup in Waimanalo"
 meta_description: "24/7 emergency water removal and cleanup in Waimanalo, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "emergency water removal waimanalo"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Sewage Cleanup and Sanitization in Sioux Falls | Crew Restoration & Construction"
-h1: "Sewage Cleanup and Sanitization in Sioux Falls"
-meta_description: "Sewage cleanup and sanitization in Sioux Falls and surrounding areas. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Sewage Cleanup and Sanitization in Sioux Falls | Crew Restoration & Construction"
+h1: "Emergency Sewage Cleanup and Sanitization in Sioux Falls"
+meta_description: "Emergency sewage cleanup and sanitization in Sioux Falls and surrounding areas. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "sewage cleanup and sanitization sioux falls"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Sioux Falls? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 When a sewer line backs up into your basement or a septic system overflows into a crawl space, the clock starts immediately, not just on cleanup, but on your health exposure. Raw sewage carries bacteria like E. coli and Salmonella, hepatitis A virus, and parasites that can survive on porous surfaces for days. The odor hits first, then the discoloration on drywall, then the realization that everything the water touched is now contaminated. This is Category 3 water, the most hazardous classification in the restoration industry, and it requires a response that goes well beyond a shop vac and bleach.
 
 ## What sewage cleanup and sanitization actually involves

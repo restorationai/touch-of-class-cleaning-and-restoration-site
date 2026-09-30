@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Redmond, WA | National Restoration Construction"
-h1: "Basement Flooding Cleanup in Redmond"
-meta_description: "24/7 basement flooding cleanup in Redmond, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Basement Flooding Cleanup in Redmond, WA | National Restoration Construction"
+h1: "24/7 Emergency Basement Flooding Cleanup in Redmond"
+meta_description: "24/7 emergency basement flooding cleanup in Redmond, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "basement flooding cleanup redmond"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Redmond? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Standing water in a Redmond basement moves fast, soaking into framing, wicking up drywall, and reaching the conditions mold needs to colonize in as little as 24 to 48 hours. If you're reading this with wet socks on or a sump pump alarm still ringing in your ears, the most useful thing on this page is the number at the top. National Restoration Construction dispatches from Federal Way and typically has a crew on-site in Redmond within 60 to 90 minutes of your call, any time of day, any day of the year.
 
 ## Why Redmond Basements Flood

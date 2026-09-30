@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard and Trauma Cleanup in Kirkland, WA | National Restoration Construction"
-h1: "Biohazard and Trauma Cleanup in Kirkland"
-meta_description: "24/7 biohazard and trauma cleanup in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Biohazard and Trauma Cleanup in Kirkland, WA | National Restoration Construction"
+h1: "24/7 Emergency Biohazard and Trauma Cleanup in Kirkland"
+meta_description: "24/7 emergency biohazard and trauma cleanup in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "biohazard and trauma cleanup kirkland"
 secondary_keywords: ["trauma scene cleanup", "unattended death cleanup", "blood cleanup", "bodily fluid cleanup", "biohazard remediation"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard and Trauma Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Kirkland? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something traumatic happens at a Kirkland property, the last thing you should have to manage is the cleanup. Whether you're a homeowner near Juanita Bay, a property manager in Totem Lake, or a family member handling an unattended death in a Kirkland rental, you need a licensed, discreet team on-site quickly, not a callback tomorrow. National Restoration Construction has handled biohazard remediation across the greater Seattle area since 2004, and we respond to Kirkland addresses typically within 60 to 90 minutes of your call.
 
 ## What to Expect From Our Biohazard and Trauma Cleanup Process

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in South Jordan, UT | FIX Restoration"
-h1: "Sewage Cleanup and Sanitization in South Jordan"
-meta_description: "Sewage cleanup and sanitization in South Jordan, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Sewage Cleanup and Sanitization in South Jordan | FIX Restoration"
+h1: "Emergency Sewage Cleanup and Sanitization in South Jordan"
+meta_description: "Emergency sewage cleanup and sanitization in South Jordan, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "sewage cleanup and sanitization south jordan"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in South Jordan? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 South Jordan sits on the western bench of Salt Lake County, where rapid residential growth over the past two decades has pushed new subdivisions into areas that were agricultural land not long ago. That transition matters for sewage cleanup because the underground infrastructure serving many of these neighborhoods is still relatively young but already handling high demand, and the clay-heavy soils common across this part of the valley can shift enough seasonally to stress lateral sewer lines. When a sewer backup or septic overflow happens here, the contamination spreads fast, and the cleanup has to be thorough enough to meet both health standards and the expectations of HOAs that govern a large share of South Jordan's planned communities.
 
 ## Why South Jordan Properties See Sewage Backup Issues

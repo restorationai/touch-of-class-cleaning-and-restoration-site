@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Yankton, SD | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Yankton"
-meta_description: "Storm damage restoration in Yankton, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Yankton, SD | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Yankton"
+meta_description: "Emergency storm damage restoration in Yankton, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration yankton"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Yankton? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 When a severe storm rolls across the Missouri River valley and stalls over Yankton, it doesn't behave the way storms do on the open plains farther west. The bluffs and river corridor funnel wind, concentrate hail, and leave properties from Riverside to the Westside dealing with damage that can look manageable from the street but runs deep, torn roof decking, water-saturated insulation, and structural stress that doesn't show up until the next freeze-thaw cycle. Crew Restoration & Construction responds to storm damage throughout the 57078 area, bringing the equipment and experience to assess what's visible and what isn't.
 
 ## Why Yankton Properties See Repeated Storm Damage

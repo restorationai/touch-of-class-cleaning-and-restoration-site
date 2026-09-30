@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Bell Acres, PA | FireDEX Butler"
-h1: "Fire Damage Restoration in Bell Acres"
-meta_description: "24/7 fire damage restoration in Bell Acres, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Fire Damage Restoration in Bell Acres, PA | FireDEX Butler"
+h1: "24/7 Emergency Fire Damage Restoration in Bell Acres"
+meta_description: "24/7 emergency fire damage restoration in Bell Acres, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "fire damage restoration bell acres"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

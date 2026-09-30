@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Clark, NJ | The Restoration Group"
-h1: "Storm Damage Restoration in Clark"
-meta_description: "24/7 storm damage restoration in Clark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Storm Damage Restoration in Clark, NJ | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Clark"
+meta_description: "24/7 emergency storm damage restoration in Clark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "storm damage restoration clark"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Clark? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 When a fast-moving nor'easter or a remnant tropical system stalls over Union County, Clark's low-lying streets near the Rahway River and Robinson's Branch tributary can go from damp to flooded in under an hour. The postwar ranches and split-levels that line Valley Road and the Lake Avenue corridor were built for a quieter era of storms, their finished basements, aging cast-iron drains, and original sump crocks were never engineered for the kind of rainfall Ida dropped in September 2021, when both waterways jumped their banks and backed sewage into basements across the township. When that happens to your home, the clock starts immediately.
 
 ## Why Clark Properties Are Especially Vulnerable to Storm Damage

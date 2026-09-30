@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Millburn, NJ | The Restoration Group"
-h1: "Fire Damage Restoration in Millburn"
-meta_description: "24/7 fire damage restoration in Millburn, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Fire Damage Restoration in Millburn, NJ | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in Millburn"
+meta_description: "24/7 emergency fire damage restoration in Millburn, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "fire damage restoration millburn"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Millburn? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and start the recovery.
+
 A house fire in Millburn hits differently than in most of New Jersey. The borough's signature housing stock, sprawling early-1900s Tudors and colonials throughout Short Hills and Old Short Hills, many with original plaster walls, old-growth timber framing, and finished lower levels, means smoke doesn't just coat surfaces. It migrates deep into porous materials, settles into wine cellars and built-in cabinetry, and lingers in the kind of intricate millwork that can't simply be replaced from a big-box store. When fire touches one of these homes, the clock starts immediately, and the response has to be calibrated to what's actually there.
 
 ## Why Millburn's Older Homes Complicate Fire and Smoke Restoration

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Riverton, UT | Home Pride Restoration and Cleaning"
-h1: "Appliance Leak Cleanup in Riverton"
-meta_description: "24/7 appliance leak cleanup in Riverton, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Appliance Leak Cleanup in Riverton, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Appliance Leak Cleanup in Riverton"
+meta_description: "24/7 emergency appliance leak cleanup in Riverton, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "appliance leak cleanup riverton"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Riverton? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Riverton sits at roughly 4,400 feet elevation on the western bench of the Wasatch Front, where hard mineral-laden water from the Jordan Valley aquifer runs through every home's supply lines. That hardness accelerates scale buildup inside washing machine inlet valves, refrigerator ice maker lines, and water heater connections, and when one of those fittings finally lets go, you can be looking at an inch of standing water under your appliances before you even notice the smell of wet subfloor. Home Pride Restoration and Cleaning has handled appliance leak cleanups across Riverton since the late 1990s, and we know exactly what that water does to the materials under your feet.
 
 ## Why Riverton Homes Are Prone to Appliance Leak Damage

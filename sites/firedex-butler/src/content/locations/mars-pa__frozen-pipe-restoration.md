@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Mars, PA | FireDEX Butler"
-h1: "Frozen Pipe Restoration in Mars"
-meta_description: "24/7 frozen pipe restoration in Mars, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Frozen Pipe Restoration in Mars, PA | FireDEX Butler"
+h1: "24/7 Emergency Frozen Pipe Restoration in Mars"
+meta_description: "24/7 emergency frozen pipe restoration in Mars, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "frozen pipe restoration mars"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Mars? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 When temperatures drop hard along the Route 228 corridor and a pipe lets go overnight, the damage clock starts immediately, not when you call a plumber, but the moment water meets your subfloor, insulation, or finished basement ceiling. Mars sits in a pocket of Butler County where cold snaps can arrive fast off the ridgelines, and the borough's mix of century-old homes and newer Adams Township tract builds means frozen pipe failures look very different from one block to the next. FireDEX Butler has been handling that full range since 1981, and our Cranberry Township base keeps us close when you need help now.
 
 ## Why Mars Properties See Frozen Pipe Damage Differently

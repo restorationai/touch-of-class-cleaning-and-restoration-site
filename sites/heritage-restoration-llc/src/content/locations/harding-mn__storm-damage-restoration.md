@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Harding, MN | Heritage Restoration LLC"
-h1: "Storm Damage Restoration in Harding"
-meta_description: "Storm damage restoration in Harding, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Storm Damage Restoration in Harding, MN | Heritage Restoration LLC"
+h1: "Emergency Storm Damage Restoration in Harding"
+meta_description: "Emergency storm damage restoration in Harding, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "storm damage restoration harding"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Harding? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Minnesota's storm season hits Morrison County hard, and Harding is no exception. The combination of open agricultural land surrounding the community and the region's exposure to fast-moving squall lines off the prairie means wind-driven rain, hail, and downed trees can arrive with very little warning. When a storm tears through and leaves a roof open to the sky or pushes a tree through a garage wall, the window for preventing secondary damage is short, and the work that follows requires more than a tarp and a shop vac.
 
 ## Why Harding Properties See Storm Damage Issues

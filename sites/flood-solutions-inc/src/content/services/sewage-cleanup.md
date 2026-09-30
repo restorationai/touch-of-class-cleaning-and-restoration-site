@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Sewage Cleanup and Sanitization in Macomb | Flood & Fire Solutions"
-h1: "Sewage Cleanup and Sanitization in Macomb"
-meta_description: "Sewage cleanup and sanitization in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Sewage Cleanup and Sanitization in Macomb | Flood & Fire Solutions"
+h1: "Emergency Sewage Cleanup and Sanitization in Macomb"
+meta_description: "Emergency sewage cleanup and sanitization in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "sewage cleanup and sanitization macomb"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Macomb? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 The smell hits first. That sulfuric, unmistakable odor that tells you before you even see it that what backed up into your basement drain or utility room is not clean water. Raw sewage carries bacteria, viruses, and parasites that can colonize porous materials within hours of contact. The longer it sits, the deeper it penetrates, and the more of your home becomes unsalvageable. Sewage cleanup is not a mop-and-bleach job. It requires containment, proper extraction, EPA-registered disinfectants, and verification that pathogens have actually been eliminated.
 
 ## What sewage cleanup and sanitization actually involves

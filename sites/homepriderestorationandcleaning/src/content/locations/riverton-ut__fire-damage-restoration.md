@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Riverton, UT | Home Pride Restoration and Cleaning"
-h1: "Fire Damage Restoration in Riverton"
-meta_description: "24/7 fire damage restoration in Riverton, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Fire Damage Restoration in Riverton, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Fire Damage Restoration in Riverton"
+meta_description: "24/7 emergency fire damage restoration in Riverton, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "fire damage restoration riverton"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Riverton? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 When a fire tears through a Riverton home, whether it starts in a kitchen off Redwood Road or spreads from an attached garage in one of the newer subdivisions along the Mountain View Corridor, the damage doesn't stop when the flames do. Smoke travels fast through open floor plans, soot settles into HVAC systems within hours, and Utah's dry high-desert air accelerates the bonding of char residue to porous surfaces like brick, drywall, and wood framing. The window for preventing permanent staining and odor lock-in is narrow, and every hour of delay costs real money in materials and labor.
 
 ## Why Riverton Properties Are Particularly Vulnerable After a Fire

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Lehi, UT | Home Pride Restoration and Cleaning"
-h1: "Sewage Cleanup and Sanitization in Lehi"
-meta_description: "24/7 sewage cleanup and sanitization in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Lehi, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Lehi"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "sewage cleanup and sanitization lehi"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Lehi? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Lehi's rapid growth has pushed new subdivisions into areas where aging municipal sewer infrastructure wasn't built to handle the load, and when a line backs up, raw sewage doesn't wait for business hours. Whether you're dealing with a backed-up floor drain in a newer home near Traverse Mountain or a septic overflow on a property along the older sections of State Street, the clock starts the moment contaminated water touches your flooring, drywall, or HVAC returns. Home Pride Restoration and Cleaning has been responding to exactly these situations since 1997, and our IICRC-certified crews are dispatched from Saratoga Springs, typically reaching Lehi addresses within 45 to 60 minutes.
 
 ## Why Lehi Properties See More Sewage Backup Problems

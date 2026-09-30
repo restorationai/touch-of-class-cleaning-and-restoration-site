@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Woody, CA | ProRestoration Services"
-h1: "Emergency Board-Up and Tarping in Woody"
+title: "24/7 Emergency Board-Up and Tarping in Woody, CA | ProRestoration Services"
+h1: "24/7 Emergency Board-Up and Tarping in Woody"
 meta_description: "24/7 emergency board-up and tarping in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "emergency board-up and tarping woody"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

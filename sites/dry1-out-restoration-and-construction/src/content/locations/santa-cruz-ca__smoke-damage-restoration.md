@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Santa Cruz, CA | Dry1 Out Restoration and Construction"
-h1: "Smoke Damage Restoration in Santa Cruz"
-meta_description: "24/7 smoke damage restoration in Santa Cruz, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+title: "24/7 Emergency Smoke Damage Restoration in Santa Cruz, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Smoke Damage Restoration in Santa Cruz"
+meta_description: "24/7 emergency smoke damage restoration in Santa Cruz, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "smoke damage restoration santa cruz"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

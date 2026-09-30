@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Fort Lee, NJ | The Restoration Group"
-h1: "Sewage Cleanup and Sanitization in Fort Lee"
-meta_description: "24/7 sewage cleanup and sanitization in Fort Lee, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "Emergency Sewage Cleanup and Sanitization in Fort Lee, NJ | The Restoration Group"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Fort Lee"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Fort Lee, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "sewage cleanup and sanitization fort lee"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Fort Lee? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to contain the contamination and start the cleanup.
+
 When a sewer line backs up inside a Fort Lee high-rise, the contamination rarely stays contained to one unit. Wastewater travels fast through shared drain stacks, and by the time a resident on the fourth floor notices the smell, the unit below may already have standing Category 3 water soaking into subfloor concrete. Whether the source is a clogged lateral line in one of the older prewar buildings in Coytesville, a failed ejector pump in a basement apartment on The Hill, or a main-line blockage in one of the Palisades-edge towers, the response has to be immediate, and the sanitization has to be thorough.
 
 ## Why Fort Lee Properties See Sewage Backup Issues

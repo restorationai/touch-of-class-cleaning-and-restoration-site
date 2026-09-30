@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Sauk Rapids, MN | Heritage Restoration LLC"
-h1: "Water Damage Restoration in Sauk Rapids"
-meta_description: "Water damage restoration in Sauk Rapids, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in Sauk Rapids, MN | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in Sauk Rapids"
+meta_description: "Emergency water damage restoration in Sauk Rapids, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration sauk rapids"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Sauk Rapids? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 The Mississippi River defines Sauk Rapids in more ways than one. Its proximity keeps the water table high through much of Benton County, and when a pipe bursts, a sump pump fails, or a spring storm pushes water through a foundation wall, that saturated soil means moisture spreads faster and dries slower than it would in drier inland communities. Heritage Restoration LLC responds to water damage calls across Sauk Rapids, bringing IICRC-certified water removal and structural drying to homes and businesses that can't afford to wait.
 
 ## Why Sauk Rapids Properties Face Elevated Water Damage Risk

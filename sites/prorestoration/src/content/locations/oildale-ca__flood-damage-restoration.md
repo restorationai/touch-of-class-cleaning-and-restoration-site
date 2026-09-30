@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Oildale, CA | ProRestoration Services"
-h1: "Flood Damage Restoration in Oildale"
-meta_description: "24/7 flood damage restoration in Oildale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Flood Damage Restoration in Oildale, CA | ProRestoration Services"
+h1: "24/7 Emergency Flood Damage Restoration in Oildale"
+meta_description: "24/7 emergency flood damage restoration in Oildale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "flood damage restoration oildale"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Oildale? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 When the Kern River runs high after a Sierra Nevada snowmelt or a rare winter storm pushes water across the bluffs into Riverview and the neighborhoods north of the river, the damage inside Oildale's older homes compounds fast. The unincorporated community's 1940s–1960s cottages and mobile home parks were built with galvanized supply lines and Orangeburg sewer laterals that are decades past their service life, meaning a flood event rarely stops at surface water. You're often dealing with sewage backups, saturated subfloor assemblies, and soaked wall cavities all at once. ProRestoration Services responds 24/7 and is IICRC Certified, EPA Lead-Safe Certified, and licensed through the Contractors State License Board (CSLB License #960566).
 
 ## Why Oildale Properties See Flood Damage Differently

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Charleston | Paul Davis Restoration of Charleston"
-h1: "Fire Damage Restoration in Charleston"
-meta_description: "Fire damage restoration in Charleston and surrounding areas. Insurance billing accepted. Call."
+title: "Emergency Fire Damage Restoration in Charleston | Paul Davis Restoration of Charleston"
+h1: "Emergency Fire Damage Restoration in Charleston"
+meta_description: "Emergency fire damage restoration in Charleston and surrounding areas. Insurance billing accepted. Call."
 primary_keyword: "fire damage restoration charleston"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Highland Park, NJ | The Restoration Group"
-h1: "Flood Damage Restoration in Highland Park"
-meta_description: "24/7 flood damage restoration in Highland Park, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Flood Damage Restoration in Highland Park, NJ | The Restoration Group"
+h1: "24/7 Emergency Flood Damage Restoration in Highland Park"
+meta_description: "24/7 emergency flood damage restoration in Highland Park, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "flood damage restoration highland park"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Highland Park? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and stop the damage from spreading.
+
 When the Raritan River crests its banks, as it did violently during Hurricane Ida in 2021, Highland Park's lowest-lying streets flood with little warning. River Road properties, the fields around Donaldson Park, and the dense blocks of pre-war colonials and two-families just inland all sit in the path of that surge. If your home or business in the 08904 ZIP code is dealing with standing water right now, the clock matters: mold colonization can begin on wet framing and drywall within 24 to 48 hours of initial saturation.
 
 ## Why Highland Park Properties Are Especially Vulnerable to Flood Damage

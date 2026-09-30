@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Raleigh, NC | Go Green Restoration of NC"
-h1: "Fire Damage Restoration in Raleigh"
-meta_description: "24/7 fire damage restoration in Raleigh, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Fire Damage Restoration in Raleigh, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Fire Damage Restoration in Raleigh"
+meta_description: "24/7 emergency fire damage restoration in Raleigh, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "fire damage restoration raleigh"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NC"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Raleigh? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 When a kitchen fire spreads into the walls of a 1940s bungalow in Five Points, or a garage fire chars the framing of a newer build near Brier Creek, the hours immediately after the flames are out often determine how much of the structure can be saved. Smoke and soot don't stop moving when the fire department leaves, they migrate into HVAC systems, settle into porous materials, and begin permanently bonding to surfaces within the first 24 to 72 hours. Calling for professional restoration before that window closes is the single most consequential decision a Raleigh property owner can make.
 
 ## Why Raleigh Properties Face Distinct Fire Damage Challenges

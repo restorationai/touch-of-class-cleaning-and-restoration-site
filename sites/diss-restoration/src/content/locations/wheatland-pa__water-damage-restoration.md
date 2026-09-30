@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Wheatland, PA | DISS Restoration"
-h1: "Water Damage Restoration in Wheatland"
-meta_description: "24/7 water damage restoration in Wheatland, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Water Damage Restoration in Wheatland, PA | DISS Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Wheatland"
+meta_description: "24/7 emergency water damage restoration in Wheatland, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "water damage restoration wheatland"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Wheatland? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Wheatland sits in Mercer County along the Shenango River, and that geography shapes how water damage unfolds here in ways that catch homeowners off guard. The river valley funnels cold air and moisture through the borough during winter thaws, and the older housing stock along the borough's residential streets, much of it built in the mid-twentieth century when Wheatland's steel-era economy was at its peak, means basements, crawl spaces, and cast-iron supply lines that were never designed for the freeze-thaw cycles that have intensified in recent decades. When a pipe lets go or a sump pump fails at 2 a.m., DISS Restoration answers.
 
 ## Why Wheatland Properties See Water Damage Issues

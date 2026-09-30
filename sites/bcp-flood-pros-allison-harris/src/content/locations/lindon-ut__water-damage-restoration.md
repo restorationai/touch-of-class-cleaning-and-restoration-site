@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Lindon, UT | FIX Restoration"
-h1: "Water Damage Restoration in Lindon"
-meta_description: "Water damage restoration in Lindon, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Damage Restoration in Lindon, UT | FIX Restoration"
+h1: "Emergency Water Damage Restoration in Lindon"
+meta_description: "Emergency water damage restoration in Lindon, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water damage restoration lindon"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Lindon? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Lindon sits at the base of the Wasatch Front where snowmelt from the mountains above rushes down through drainage channels each spring, and the clay-heavy soils common to this stretch of Utah County don't absorb that water quickly. When a supply line fails behind a wall or a sump pump can't keep up during a heavy snowmelt event, that standing water has nowhere to go but into your subfloor, your framing, and eventually your living space. FIX Restoration responds to water damage calls throughout Lindon and the surrounding area, handling everything from initial water extraction to full structural drying so the damage stops where it started.
 
 ## Why Lindon Properties See Water Damage Issues

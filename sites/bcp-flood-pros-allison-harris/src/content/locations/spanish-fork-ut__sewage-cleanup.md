@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Spanish Fork, UT | FIX Restoration"
-h1: "Sewage Cleanup and Sanitization in Spanish Fork"
-meta_description: "Sewage cleanup and sanitization in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Sewage Cleanup and Sanitization in Spanish Fork | FIX Restoration"
+h1: "Emergency Sewage Cleanup and Sanitization in Spanish Fork"
+meta_description: "Emergency sewage cleanup and sanitization in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "sewage cleanup and sanitization spanish fork"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Spanish Fork? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Spanish Fork sits in a basin where the Spanish Fork River drainage, clay-heavy soils, and a housing stock that spans everything from mid-century ranch homes to newer subdivisions all conspire to make sewage backups more than a simple plumbing inconvenience. When a sewer line reverses or a septic system overflows here, the contaminated water doesn't just sit on a hard surface, it wicks into concrete slabs, soaks through drywall at the base of walls, and settles into subfloor cavities where it can begin causing secondary damage within hours. FIX Restoration responds to sewage cleanup calls throughout Spanish Fork, bringing the extraction equipment, EPA-registered disinfectants, and containment protocols the situation actually demands.
 
 ## Why Spanish Fork Properties See Sewage Backup Issues

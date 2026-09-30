@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Naperville, IL | Dry Bros Water & Fire Restoration"
-h1: "Sewage Cleanup and Sanitization in Naperville"
-meta_description: "Sewage cleanup and sanitization in Naperville, IL. Insurance billing accepted. Call us now."
+title: "Emergency Sewage Cleanup and Sanitization in Naperville, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Naperville"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Naperville, IL. Insurance billing accepted. Call us now."
 primary_keyword: "sewage cleanup and sanitization naperville"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Naperville? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Naperville sits on the DuPage County clay belt, a soil type that drains slowly and puts lateral sewer lines under chronic hydrostatic stress, especially after the freeze-thaw cycles that hit the western suburbs hard each spring. When that pressure finally wins and a sewer line backs up into a finished basement or first-floor bathroom, the contamination spreads faster than most homeowners expect: raw sewage carries Category 3 water classification, meaning porous materials, carpet padding, drywall, wood subfloor, are typically unsalvageable once soaked. Dry Bros Water & Fire Restoration responds to sewage backup calls across Naperville and coordinates the full scope of removal, disinfection, and structural drying so the space is genuinely safe to reoccupy, not just visually clean.
 
 ## Why Naperville Properties Experience Sewer Backups

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst and Leaking Pipe Repair in McFarland, CA | All Pro Plumbing Heating and Air"
-h1: "Burst and Leaking Pipe Repair in McFarland"
-meta_description: "Trusted burst and leaking pipe repair in McFarland, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242."
+title: "Emergency Burst and Leaking Pipe Repair in McFarland, CA | All Pro Plumbing Heating and Air"
+h1: "24/7 Emergency Burst and Leaking Pipe Repair in McFarland"
+meta_description: "Trusted 24/7 emergency burst and leaking pipe repair in McFarland, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242."
 primary_keyword: "burst and leaking pipe repair mcfarland"
 secondary_keywords: ["burst pipe repair", "pipe burst in wall", "water line repair", "leaking pipe repair", "frozen pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Burst and Leaking Pipe Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in McFarland? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 McFarland sits in the southern San Joaquin Valley where summer temperatures routinely push past 100°F and winter nights can drop into the mid-20s, a swing that stresses residential and commercial plumbing in ways that catch property owners off guard. That thermal cycling, combined with the region's heavy clay soils that shift seasonally as moisture levels change, puts underground water lines and in-wall supply pipes under constant pressure. When a pipe finally lets go, the damage moves fast: a half-inch supply line can push hundreds of gallons into a wall cavity or crawl space before anyone notices the drop in pressure. All Pro Plumbing Heating and Air responds to burst and leaking pipe calls in McFarland around the clock, any day of the year.
 
 ## Why McFarland Properties See Burst Pipe Problems

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Des Moines, WA | National Restoration Construction"
-h1: "Sewage Cleanup and Sanitization in Des Moines"
-meta_description: "24/7 sewage cleanup and sanitization in Des Moines, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "Emergency Sewage Cleanup and Sanitization in Des Moines, WA | National Restoration Construction"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Des Moines"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Des Moines, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "sewage cleanup and sanitization des moines"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

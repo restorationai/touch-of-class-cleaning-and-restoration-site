@@ -1,9 +1,9 @@
 ---
 hero: '/images/services/basement-flooding-cleanup.webp'
 archetype: "service-landing"
-title: "Basement Flooding Cleanup in Saratoga Springs | Home Pride Restoration and Cleaning"
-h1: "Basement Flooding Cleanup in Saratoga Springs"
-meta_description: "24/7 basement flooding cleanup in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Basement Flooding Cleanup in Saratoga Springs | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Basement Flooding Cleanup in Saratoga Springs"
+meta_description: "24/7 emergency basement flooding cleanup in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "basement flooding cleanup saratoga springs"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -18,6 +18,9 @@ service_slug: "basement-flooding-cleanup"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Saratoga Springs? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 ## What's actually happening under your feet right now
 
 You noticed the water an hour ago, maybe two. It's sitting on the concrete, creeping toward the base of your water heater, soaking into the drywall at the bottom of the stud bays. What most homeowners don't realize is that within 24 to 48 hours, the moisture already absorbed into framing, insulation, and subfloor creates the exact conditions mold needs to colonize. The visible water is only part of the problem. The hidden saturation is what turns a flooded basement cleanup into a months-long remediation project if it isn't addressed fast and completely.

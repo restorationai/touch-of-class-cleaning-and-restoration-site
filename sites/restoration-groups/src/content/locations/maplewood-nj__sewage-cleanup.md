@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Maplewood, NJ | The Restoration Group"
-h1: "Sewage Cleanup and Sanitization in Maplewood"
-meta_description: "24/7 sewage cleanup and sanitization in Maplewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "Emergency Sewage Cleanup and Sanitization in Maplewood, NJ | The Restoration Group"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Maplewood"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Maplewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "sewage cleanup and sanitization maplewood"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Maplewood? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to contain the contamination and start the cleanup.
+
 When the East Branch of the Rahway River overtops its banks during a major storm, the way it did through Maplewood Village and the low-lying streets near Memorial Park during Hurricane Ida in 2021, the flooding doesn't just bring water. It pushes raw sewage backward through floor drains, toilets, and laundry standpipes in the finished basements that are standard in Maplewood's 1910s–1930s Tudors and colonials. That contamination is a Category 3 biohazard. It requires more than a wet-vac and a fan, it requires a structured extraction, disinfection, and drying protocol handled by people who know what they're doing. Call The Restoration Group at (855) 650-7422 any time, day or night.
 
 ## Why Maplewood Homes Are Particularly Vulnerable to Sewage Backups

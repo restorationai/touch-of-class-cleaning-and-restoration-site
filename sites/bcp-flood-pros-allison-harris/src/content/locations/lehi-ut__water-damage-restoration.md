@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Lehi, UT | FIX Restoration"
-h1: "Water Damage Restoration in Lehi"
-meta_description: "Water damage restoration in Lehi, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Damage Restoration in Lehi, UT | FIX Restoration"
+h1: "Emergency Water Damage Restoration in Lehi"
+meta_description: "Emergency water damage restoration in Lehi, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water damage restoration lehi"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Lehi? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Lehi's rapid growth has brought thousands of new homes and subdivisions onto land that was agricultural for generations, and that soil history matters when a pipe bursts or an appliance line fails. Expansive clay soils common across Utah County can shift with moisture, and when water finds its way into a slab or crawl space, it doesn't just sit there: it wicks into framing, insulation, and subfloor material faster than most homeowners expect. FIX Restoration, based in nearby American Fork, has been responding to water losses across Lehi since 2012, helping property owners move from soaked floors to dry, stable structures before secondary damage compounds the problem.
 
 ## Why Lehi Properties Are Vulnerable to Water Damage

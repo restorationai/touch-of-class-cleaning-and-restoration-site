@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Clyde, TX | Air Care Restoration"
-h1: "Flood Damage Restoration in Clyde"
-meta_description: "24/7 flood damage restoration in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Flood Damage Restoration in Clyde, TX | Air Care Restoration"
+h1: "24/7 Emergency Flood Damage Restoration in Clyde"
+meta_description: "24/7 emergency flood damage restoration in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "flood damage restoration clyde"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "flood-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Clyde? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 When heavy rain moves through the Big Country and Cedar Creek backs up faster than the culverts along Clyde can carry it off, water doesn't stay outside for long. It finds its way under slab homes, into pier-and-beam crawlspaces, and through window wells that were never built for standing water. Flood damage restoration in Clyde means working fast against West Texas clay soil that holds moisture long after the storm has passed and the sky looks clear again.
 
 ## Why Clyde Properties See Flood Damage

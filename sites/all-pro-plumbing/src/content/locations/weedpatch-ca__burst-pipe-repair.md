@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst and Leaking Pipe Repair in Weedpatch, CA | All Pro Plumbing Heating and Air"
-h1: "Burst and Leaking Pipe Repair in Weedpatch"
-meta_description: "Trusted burst and leaking pipe repair in Weedpatch, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242."
+title: "Emergency Burst and Leaking Pipe Repair in Weedpatch, CA | All Pro Plumbing Heating and Air"
+h1: "24/7 Emergency Burst and Leaking Pipe Repair in Weedpatch"
+meta_description: "Trusted 24/7 emergency burst and leaking pipe repair in Weedpatch, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (661) 863-9242."
 primary_keyword: "burst and leaking pipe repair weedpatch"
 secondary_keywords: ["burst pipe repair", "pipe burst in wall", "water line repair", "leaking pipe repair", "frozen pipe repair"]
 search_intent: "local_emergency"

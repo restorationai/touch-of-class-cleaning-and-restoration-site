@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Millburn, NJ | The Restoration Group"
-h1: "Storm Damage Restoration in Millburn"
-meta_description: "24/7 storm damage restoration in Millburn, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Storm Damage Restoration in Millburn, NJ | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Millburn"
+meta_description: "24/7 emergency storm damage restoration in Millburn, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "storm damage restoration millburn"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Millburn? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 When the West Branch of the Rahway River crests through Taylor Park and downtown Millburn, the damage happens faster than most homeowners expect. Tropical Storm Ida proved that in 2021, when floodwaters overwhelmed the Millburn Avenue business district within hours, pushing debris, silt, and contaminated water into basements, retail spaces, and ground-floor apartments across the 07041 ZIP code. Storm damage in Millburn isn't just wind and broken windows, it's a combination of river flooding, fallen canopy trees, and century-old building materials that turn a single severe weather event into a multi-system restoration project. The Restoration Group responds 24/7 from our Kenilworth base, and we know exactly what a storm looks like when it hits this town.
 
 ## Why Millburn Properties Are Especially Vulnerable to Storm Damage

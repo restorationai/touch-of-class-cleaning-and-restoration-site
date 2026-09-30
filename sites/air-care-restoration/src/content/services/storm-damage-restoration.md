@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Storm Damage Restoration in Abilene | Air Care Restoration"
-h1: "Storm Damage Restoration in Abilene"
-meta_description: "24/7 storm damage restoration in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Storm Damage Restoration in Abilene | Air Care Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Abilene"
+meta_description: "24/7 emergency storm damage restoration in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "storm damage restoration abilene"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Abilene? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 A storm doesn't give you a warning before the roof decking gets wet. One hour of hail, a single downed oak limb, or a fast-moving West Texas thunderstorm can open your home to rain intrusion, structural loading, and the kind of hidden moisture that turns into a mold problem within 48 to 72 hours. Storm damage restoration is the work of stopping that clock, securing the envelope, extracting standing water, and methodically drying the structure before secondary damage compounds what the weather started.
 
 ## What storm damage restoration actually involves

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Encinitas, CA | Flood Fixers"
-h1: "Flood Damage Restoration in Encinitas"
-meta_description: "24/7 flood damage restoration in Encinitas, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "24/7 Emergency Flood Damage Restoration in Encinitas, CA | Flood Fixers"
+h1: "24/7 Emergency Flood Damage Restoration in Encinitas"
+meta_description: "24/7 emergency flood damage restoration in Encinitas, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "flood damage restoration encinitas"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Encinitas? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Encinitas sits in a deceptively tricky spot for flood damage: the coastal bluffs and canyon-edge neighborhoods funnel winter storm runoff in ways that catch homeowners off guard, and when a Pacific storm stalls over San Diego County, streets in the lower-lying stretches near Leucadia and Olivenhain can go from damp to standing water in under an hour. If you're dealing with that right now, soaked flooring, waterlogged drywall, a garage that smells like the ocean came inside, call Flood Fixers at (855) 204-1124. Every hour of delay lets water migrate farther into wall cavities and subfloor assemblies.
 
 ## Why Encinitas Properties Are Especially Vulnerable to Flood Damage

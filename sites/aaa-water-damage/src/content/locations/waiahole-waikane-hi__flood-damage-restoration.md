@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Waiahole-Waikane, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in Waiahole-Waikane"
-meta_description: "24/7 flood damage restoration in Waiahole-Waikane, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "Emergency Flood Damage Restoration in Waiahole-Waikane, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in Waiahole-Waikane"
+meta_description: "24/7 emergency flood damage restoration in Waiahole-Waikane, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "flood damage restoration waiahole-waikane"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

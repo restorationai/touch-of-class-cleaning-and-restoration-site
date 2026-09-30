@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Carlsbad, CA | Flood Fixers"
-h1: "Basement Flooding Cleanup in Carlsbad"
-meta_description: "24/7 basement flooding cleanup in Carlsbad, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "24/7 Emergency Basement Flooding Cleanup in Carlsbad, CA | Flood Fixers"
+h1: "24/7 Emergency Basement Flooding Cleanup in Carlsbad"
+meta_description: "24/7 emergency basement flooding cleanup in Carlsbad, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "basement flooding cleanup carlsbad"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Carlsbad? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Carlsbad sits on a coastal bench where marine layer moisture, clay-heavy soils, and the occasional atmospheric river combine to push water into places it was never meant to go, and basements are first in line. When a slow-draining sump pit finally gives up during a January storm, or a corroded supply line lets go behind a finished wall in a newer Bressi Ranch townhome, the clock starts immediately. Standing water below grade can saturate concrete slab edges, wick into framing, and create conditions ripe for mold colonization in as little as 24 to 48 hours. Calling (855) 204-1124 early is the single most effective thing you can do.
 
 ## Why Carlsbad Properties See Basement Flooding Issues

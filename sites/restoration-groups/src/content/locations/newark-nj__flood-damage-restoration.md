@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Newark, NJ | The Restoration Group"
-h1: "Flood Damage Restoration in Newark"
-meta_description: "24/7 flood damage restoration in Newark, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Flood Damage Restoration in Newark, NJ | The Restoration Group"
+h1: "24/7 Emergency Flood Damage Restoration in Newark"
+meta_description: "24/7 emergency flood damage restoration in Newark, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "flood damage restoration newark"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Newark? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and stop the damage from spreading.
+
 When Ida stalled over New Jersey in September 2021, the Ironbound took some of the worst of it, streets along the Passaic turned into rivers, and basements that had stayed dry for decades filled in hours. That kind of flooding isn't a fluke in Newark; it's a recurring reality shaped by low-lying topography, aging combined sewer infrastructure, and a housing stock that was never designed with modern storm volumes in mind. When water gets in, it moves fast through dense brick multifamilies and pre-war frame two-families alike, and the window for preventing secondary damage is measured in hours, not days.
 
 ## Why Newark Properties See Flood Damage Differently

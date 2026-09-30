@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Union, NJ | The Restoration Group"
-h1: "Fire Damage Restoration in Union"
-meta_description: "24/7 fire damage restoration in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Fire Damage Restoration in Union, NJ | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in Union"
+meta_description: "24/7 emergency fire damage restoration in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "fire damage restoration union"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Union? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and start the recovery.
+
 The smell of smoke doesn't leave a house the way water does. It binds to drywall, soaks into ceiling joists, and settles into the plaster walls common in Union Township's postwar capes and split-levels, the kind built in the 1940s through 1960s that make up much of the housing stock from Battle Hill down through Vauxhall. A kitchen fire in one of those homes isn't just a surface problem. Smoke travels through wall cavities, soot coats HVAC ducts, and the residue left behind after the fire trucks leave can keep damaging finishes and air quality for weeks if the response is slow or incomplete.
 
 ## Why Union's Housing Stock Complicates Fire Damage

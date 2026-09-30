@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Elk Point, SD | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Elk Point"
-meta_description: "Water damage restoration in Elk Point, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Elk Point, SD | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Elk Point"
+meta_description: "Emergency water damage restoration in Elk Point, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration elk point"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Elk Point? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Elk Point sits just a few miles from the Missouri River in Union County, one of the oldest towns in South Dakota, and that geography shapes how water damage plays out here. Spring snowmelt pushes groundwater levels up fast, and when a pipe bursts or an appliance line fails inside an older home near Downtown Elk Point, water doesn't just pool on the surface. It wicks into century-old subfloor lumber, plaster lath, and fieldstone foundation walls before most homeowners realize the full extent of the loss. Crew Restoration & Construction responds to water damage calls throughout the 57025 area, bringing industrial extraction and structural drying equipment to a town where the housing stock demands more than a shop-vac and a few box fans.
 
 ## Why Elk Point Properties Are Vulnerable to Water Damage

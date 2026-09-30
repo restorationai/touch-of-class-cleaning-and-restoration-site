@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Andrews, TX | ACS Enterprise "
-h1: "Water Damage Restoration in Andrews"
-meta_description: "Water damage restoration in Andrews, TX. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Water Damage Restoration in Andrews, TX | ACS Enterprise "
+h1: "Emergency Water Damage Restoration in Andrews"
+meta_description: "Emergency water damage restoration in Andrews, TX. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "water damage restoration andrews"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Andrews? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Andrews sits in the heart of the Permian Basin, where the same arid climate that defines West Texas can make water damage feel like a surprise ambush. When a supply line fails, a water heater lets go, or a sudden desert downpour overwhelms a flat rooftop, the dry air outside does nothing to protect the saturated drywall and subfloor inside, moisture hides, migrates, and sets the stage for mold within 24 to 48 hours. ACS Enterprise responds to water damage calls in Andrews from our Midland base, bringing professional extraction and structural drying equipment to properties across Andrews County.
 
 ## Why Andrews Properties See Water Damage Issues

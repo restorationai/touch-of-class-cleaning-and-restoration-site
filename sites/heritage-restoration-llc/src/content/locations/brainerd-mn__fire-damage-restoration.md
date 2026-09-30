@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Brainerd, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Brainerd"
-meta_description: "Fire damage restoration in Brainerd, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Brainerd, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Brainerd"
+meta_description: "Emergency fire damage restoration in Brainerd, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration brainerd"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Brainerd? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Brainerd winters are long and dry, and heating systems run hard from October through April. That combination of wood-framed homes, older electrical infrastructure, and months of low humidity creates conditions where house fires start fast and smoke travels far. When a fire moves through a Brainerd property, the visible char is only part of the problem. Soot and smoke residue migrate into wall cavities, ductwork, and attic insulation within hours, and the sub-zero temperatures that follow a winter fire can complicate drying and structural assessment in ways that simply don't apply in milder climates.
 
 ## Why Brainerd Properties Are Particularly Vulnerable to Fire Damage

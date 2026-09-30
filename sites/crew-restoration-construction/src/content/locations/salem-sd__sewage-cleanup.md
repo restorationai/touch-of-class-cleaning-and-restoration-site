@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Salem, SD | Crew Restoration & Construction"
-h1: "Sewage Cleanup and Sanitization in Salem"
-meta_description: "Sewage cleanup and sanitization in Salem, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Sewage Cleanup and Sanitization in Salem, SD | Crew Restoration & Construction"
+h1: "Emergency Sewage Cleanup and Sanitization in Salem"
+meta_description: "Emergency sewage cleanup and sanitization in Salem, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "sewage cleanup and sanitization salem"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Salem? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows in Salem, the mess arrives fast, and in a town of roughly 1,300 people sitting along the I-90 corridor in McCook County, the nearest large-city restoration crews can feel a long way off. Raw sewage carries bacteria, viruses, and parasites that begin colonizing porous surfaces within hours, so the gap between "this just happened" and "a trained crew is on-site" matters more than most homeowners realize. Crew Restoration & Construction dispatches from Sioux Falls to the 57058 ZIP code regularly, and we know what Salem's housing stock and soil conditions mean for a job like this.
 
 ## Why Salem Properties See Sewage Backup Issues

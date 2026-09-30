@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Bremerton, WA | National Restoration Construction"
-h1: "Basement Flooding Cleanup in Bremerton"
-meta_description: "24/7 basement flooding cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Basement Flooding Cleanup in Bremerton, WA | National Restoration Construction"
+h1: "24/7 Emergency Basement Flooding Cleanup in Bremerton"
+meta_description: "24/7 emergency basement flooding cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "basement flooding cleanup bremerton"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Bremerton? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Bremerton's winters are relentless, weeks of rain soaking into the hilly terrain above the Port Washington Narrows, then sheeting down toward the older foundations in Charleston and Manette. When that water finds a crack in a 1930s poured-concrete wall or backs up through a floor drain in a wartime-era worker home, a basement can go from damp to ankle-deep in hours. National Restoration Construction responds to flooded basement calls across Bremerton and the broader 98310 and 98312 ZIP codes, typically placing a crew on-site the same day, often within two to three hours of your call.
 
 ## Why Bremerton Basements Flood More Than You'd Expect

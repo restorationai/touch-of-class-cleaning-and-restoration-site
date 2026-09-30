@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Lumberton, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Lumberton"
-meta_description: "Board-up and tarping in Lumberton, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Lumberton, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Lumberton"
+meta_description: "24/7 emergency board-up and tarping in Lumberton, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping lumberton"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Lumberton? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Lumberton sits in the heart of Lamar County, where Gulf Coast storm tracks push inland with surprising force, a single severe thunderstorm can leave a home with a blown-off ridge cap, a shattered front window, and standing water on the subfloor before the rain even stops. When that happens, the window between the storm passing and secondary damage beginning, mold colonization can start within 24 to 48 hours, and smoke or water infiltration compounds fast, is narrow. HomeLyft Restoration MS deploys board-up and tarping crews to Lumberton properties to close that window before the next weather system rolls through.
 
 ## Why Lumberton Properties Are Particularly Vulnerable After Storms

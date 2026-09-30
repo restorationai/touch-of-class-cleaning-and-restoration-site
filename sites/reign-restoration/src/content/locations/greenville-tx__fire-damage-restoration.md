@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Greenville, TX | Reign Restoration"
-h1: "Fire Damage Restoration in Greenville"
-meta_description: "Fire damage restoration in Greenville, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Fire Damage Restoration in Greenville, TX | Reign Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Greenville"
+meta_description: "24/7 emergency fire damage restoration in Greenville, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "fire damage restoration greenville"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Greenville? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 When a fire tears through a Greenville home, the damage rarely stops at the charred walls. East Texas humidity, the kind that settles heavy over Hunt County in spring and summer, moves fast into fire-weakened structures, letting smoke residue bond deeper into porous materials and giving mold a running start within 48 to 72 hours of the event. Reign Restoration responds to fire losses across Greenville, bringing IICRC FSRT-certified fire and smoke restoration technicians and the equipment to stop secondary damage before it compounds the original loss.
 
 ## Why Greenville Properties Face Distinct Fire Damage Challenges

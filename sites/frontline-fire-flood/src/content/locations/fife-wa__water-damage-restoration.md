@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Fife, WA | Frontline Fire & Flood"
-h1: "Water Damage Restoration in Fife"
-meta_description: "24/7 water damage restoration in Fife, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Water Damage Restoration in Fife, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Water Damage Restoration in Fife"
+meta_description: "24/7 emergency water damage restoration in Fife, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration fife"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

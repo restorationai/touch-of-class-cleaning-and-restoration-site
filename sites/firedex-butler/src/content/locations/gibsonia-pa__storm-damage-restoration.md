@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Gibsonia, PA | FireDEX Butler"
-h1: "Storm Damage Restoration in Gibsonia"
-meta_description: "24/7 storm damage restoration in Gibsonia, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Storm Damage Restoration in Gibsonia, PA | FireDEX Butler"
+h1: "24/7 Emergency Storm Damage Restoration in Gibsonia"
+meta_description: "24/7 emergency storm damage restoration in Gibsonia, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "storm damage restoration gibsonia"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Gibsonia? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 When a fast-moving line of thunderstorms tears through the wooded lots along Route 8 or drops a white oak across a driveway in Treesdale, the damage rarely stops at the roof. Water follows the breach, into attic insulation, down interior walls, and onto the finished basement floors that define so many of the upscale homes built in Richland Township over the last three decades. FireDEX Butler has been responding to exactly this kind of loss since 1981, and our crews know what a storm in the 15044 ZIP code actually looks like once the weather clears.
 
 ## Why Gibsonia Properties See Distinctive Storm Damage

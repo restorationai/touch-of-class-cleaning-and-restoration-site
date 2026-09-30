@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Brookfield, IL | Dry Bros Water & Fire Restoration"
-h1: "Burst Pipe Cleanup and Repair in Brookfield"
-meta_description: "24/7 burst pipe cleanup and repair in Brookfield, IL. Insurance billing accepted. Call (877) 379-2767."
+title: "Emergency Burst Pipe Cleanup and Repair in Brookfield, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Brookfield"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Brookfield, IL. Insurance billing accepted. Call (877) 379-2767."
 primary_keyword: "burst pipe cleanup and repair brookfield"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

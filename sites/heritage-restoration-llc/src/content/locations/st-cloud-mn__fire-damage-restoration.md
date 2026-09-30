@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in St. Cloud, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in St. Cloud"
-meta_description: "Fire damage restoration in St. Cloud, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in St. Cloud, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in St. Cloud"
+meta_description: "Emergency fire damage restoration in St. Cloud, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration st. cloud"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in St. Cloud? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 St. Cloud winters are long and cold, and the combination of wood-framed homes, older electrical systems, and the dry indoor air that comes with months of forced-air heating creates conditions where house fires spread fast and leave behind damage that goes well beyond what's visible. Smoke travels into wall cavities, soot coats HVAC ductwork, and the acrid odor of combustion settles into insulation and subflooring long after the flames are out. Heritage Restoration LLC responds to fire and smoke losses across St. Cloud with an IICRC FSRT-certified team trained specifically in post-fire structural assessment and odor neutralization.
 
 ## Why St. Cloud Properties Are Particularly Vulnerable After a Fire

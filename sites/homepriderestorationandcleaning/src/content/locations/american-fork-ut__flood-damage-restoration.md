@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in American Fork, UT | Home Pride Restoration and Cleaning"
-h1: "Flood Damage Restoration in American Fork"
-meta_description: "24/7 flood damage restoration in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Flood Damage Restoration in American Fork, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Flood Damage Restoration in American Fork"
+meta_description: "24/7 emergency flood damage restoration in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "flood damage restoration american fork"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

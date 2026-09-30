@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Baldwin, PA | Katofsky Construction LLC"
-h1: "Fire Damage Restoration in Baldwin"
-meta_description: "24/7 fire damage restoration in Baldwin, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "24/7 Emergency Fire Damage Restoration in Baldwin, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Fire Damage Restoration in Baldwin"
+meta_description: "24/7 emergency fire damage restoration in Baldwin, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "fire damage restoration baldwin"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Baldwin? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Baldwin Borough sits just south of Pittsburgh along the Monongahela corridor, and the older residential stock throughout the community tells a story in its framing. Many homes here were built during the mid-century boom, when balloon-frame construction was standard. In a fire, that framing style allows flames and superheated gases to travel vertically inside wall cavities faster than in platform-frame homes, which means structural fire damage can extend well beyond the rooms where smoke and char are visible. When you call Katofsky Construction after a fire in Baldwin, that's the first thing the crew is looking for.
 
 ## Why Baldwin Properties Face Distinct Fire Damage Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Burst Pipe Cleanup and Repair in Chicago | Dry Bros Water & Fire Restoration"
-h1: "Burst Pipe Cleanup and Repair in Chicago"
-meta_description: "Burst pipe cleanup and repair in Chicago and surrounding areas. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Chicago | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Chicago"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Chicago and surrounding areas. Insurance billing accepted. Call us now."
 primary_keyword: "burst pipe cleanup and repair chicago"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "burst-pipe-repair"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Chicago? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A pipe can hold for decades and then fail in minutes, and the water doesn't wait. Whether it's a supply line that split overnight in a cold utility room or a pressurized main that let go behind a finished wall, the first hour after a burst pipe determines how much of your home you'll need to rebuild. Water from a broken supply line moves fast: it saturates drywall in under an hour, reaches floor joists and subfloor within a few hours, and can begin supporting mold growth within 24 to 48 hours of the initial event.
 
 ## What burst pipe cleanup and repair actually involves

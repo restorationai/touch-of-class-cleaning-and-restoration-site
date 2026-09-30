@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Santa Margarita, CA | Coastal Restoration Services Inc"
-h1: "Water Damage Restoration in Santa Margarita"
-meta_description: "Water damage restoration in Santa Margarita, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Water Damage Restoration in Santa Margarita, CA | Coastal Restoration Services Inc"
+h1: "Emergency Water Damage Restoration in Santa Margarita"
+meta_description: "Emergency water damage restoration in Santa Margarita, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "water damage restoration santa margarita"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Santa Margarita? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Santa Margarita sits in a narrow valley in the Santa Lucia foothills where the Salinas River headwaters collect runoff from surrounding hillsides, and when a pipe bursts or a roof seam fails during a winter storm, that water has nowhere to go but into your walls, subfloor, and crawl space. The combination of older ranch-style homes, clay-heavy soils that drain poorly, and seasonal precipitation swings makes water damage here a faster-moving problem than many homeowners expect. Coastal Restoration Services Inc responds to water damage calls throughout Santa Margarita and the surrounding communities of San Luis Obispo County.
 
 ## Why Santa Margarita Properties See Water Damage Issues

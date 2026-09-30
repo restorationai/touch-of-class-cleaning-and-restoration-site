@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Evanston, IL | Dry Bros Water & Fire Restoration"
-h1: "Emergency Water Removal & Cleanup in Evanston"
-meta_description: "emergency water removal and cleanup in Evanston, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Water Removal & Cleanup in Evanston, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Water Removal & Cleanup in Evanston"
+meta_description: "24/7 emergency water removal and cleanup in Evanston, IL. Insurance billing accepted. Call us now."
 primary_keyword: "emergency water removal evanston"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Evanston? We answer 24/7.** Call now and our crew heads out to extract the water and start drying.
+
 Evanston sits on a narrow strip of land between Lake Michigan and the North Shore rail corridor, and that geography shapes how water damage unfolds here in ways that don't apply to most Chicago suburbs. The city's older housing stock, much of it built before World War II, hides cast-iron drain lines that corrode quietly for decades, clay tile sewer laterals that crack under tree root pressure, and basement walls that were never waterproofed to modern standards. When a pipe lets go or a storm overwhelms the combined sewer system, standing water can appear faster than most homeowners expect. Dry Bros Water & Fire Restoration responds to those calls, providing emergency water removal and cleanup, pulling water out fast so the damage stops where it starts and structural drying can begin on solid footing.
 
 ## Why Evanston Properties See Water Damage Differently

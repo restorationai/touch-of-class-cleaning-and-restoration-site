@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Ceiling Water Damage Repair in Little Falls | Heritage Restoration LLC"
-h1: "Ceiling Water Damage Repair in Little Falls"
-meta_description: "Ceiling water damage repair in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Ceiling Water Damage Repair in Little Falls | Heritage Restoration LLC"
+h1: "Emergency Ceiling Water Damage Repair in Little Falls"
+meta_description: "Emergency ceiling water damage repair in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "ceiling water damage repair little falls"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

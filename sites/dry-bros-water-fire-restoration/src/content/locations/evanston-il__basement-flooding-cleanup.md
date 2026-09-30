@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Evanston, IL | Dry Bros Water & Fire Restoration"
-h1: "Basement Flooding Cleanup in Evanston"
-meta_description: "Basement flooding cleanup in Evanston, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Basement Flooding Cleanup in Evanston, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Basement Flooding Cleanup in Evanston"
+meta_description: "24/7 emergency basement flooding cleanup in Evanston, IL. Insurance billing accepted. Call us now."
 primary_keyword: "basement flooding cleanup evanston"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"

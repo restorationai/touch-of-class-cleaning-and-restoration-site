@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in New Providence, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in New Providence"
-meta_description: "24/7 appliance leak cleanup in New Providence, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Appliance Leak Cleanup in New Providence, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in New Providence"
+meta_description: "24/7 emergency appliance leak cleanup in New Providence, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "appliance leak cleanup new providence"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"

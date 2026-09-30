@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Lehi, UT | Home Pride Restoration and Cleaning"
-h1: "Smoke Damage Restoration in Lehi"
-meta_description: "24/7 smoke damage restoration in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Smoke Damage Restoration in Lehi, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Smoke Damage Restoration in Lehi"
+meta_description: "24/7 emergency smoke damage restoration in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "smoke damage restoration lehi"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Lehi? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Lehi's rapid growth along the Silicon Slopes corridor has brought tens of thousands of new residents into neighborhoods where kitchen fires, garage fires, and, increasingly, smoke intrusion from Utah County wildfires are a real and recurring threat. When smoke moves through a home, it doesn't stop at the room where the fire started: it migrates into HVAC ductwork, settles into insulation, and bonds with drywall in ways that leave an acrid odor for months if the cleanup isn't done right. Home Pride Restoration and Cleaning has been handling smoke damage restoration in this part of Utah since 1997, and the team knows exactly what Lehi's housing stock and climate demand.
 
 ## Why Lehi Properties Face Distinct Smoke Damage Challenges

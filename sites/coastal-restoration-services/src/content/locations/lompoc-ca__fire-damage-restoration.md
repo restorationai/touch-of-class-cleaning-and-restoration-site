@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Lompoc, CA | Coastal Restoration Services Inc"
-h1: "Fire Damage Restoration in Lompoc"
-meta_description: "Fire damage restoration in Lompoc, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Fire Damage Restoration in Lompoc, CA | Coastal Restoration Services Inc"
+h1: "Emergency Fire Damage Restoration in Lompoc"
+meta_description: "Emergency fire damage restoration in Lompoc, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "fire damage restoration lompoc"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Lompoc? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Lompoc sits in a coastal valley where the marine layer keeps humidity relatively high for much of the year, but when the offshore winds pick up and the air turns dry, fire conditions can shift fast. A kitchen fire that might seem contained can push smoke and soot into every room through the HVAC system within minutes, and in a city where a significant portion of the housing stock dates to the mid-20th century, older construction materials like cellulose insulation and original wood framing absorb that smoke deeply. Coastal Restoration Services Inc, based in nearby Vandenberg Village, responds to fire damage calls throughout Lompoc and the surrounding Santa Barbara County area.
 
 ## Why Lompoc Properties See Fire Damage Differently

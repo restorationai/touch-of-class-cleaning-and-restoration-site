@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Aiea, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Sewage Cleanup and Sanitization in Aiea"
-meta_description: "24/7 sewage cleanup and sanitization in Aiea, HI. Call (808) 349-3407."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Aiea, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Aiea"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Aiea, HI. Call (808) 349-3407."
 primary_keyword: "sewage cleanup and sanitization aiea"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Aiea? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 When a sewer line backs up in Aiea, the mess doesn't wait for a convenient moment, and in this compact hillside community, the consequences spread fast. Older cast-iron and clay drain lines in the plantation-era homes climbing toward Aiea Heights are decades past their design life, and when they fail during a heavy Kona rain event, raw sewage doesn't just pool in a bathroom. It follows the grade, seeping under slab foundations, saturating carport floors, and wicking into the concrete block walls that were standard construction in the 1950s and 60s. AAA Water Damage Restoration & Carpet Care answers calls around the clock and dispatches to the 96701 area with the containment and sanitization equipment this kind of loss demands.
 
 ## Why Aiea Properties See Sewage Backup Problems

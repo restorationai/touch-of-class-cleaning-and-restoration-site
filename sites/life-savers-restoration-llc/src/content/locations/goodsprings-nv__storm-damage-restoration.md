@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Goodsprings, NV | Life Savers Restoration LLC"
-h1: "Storm Damage Restoration in Goodsprings"
-meta_description: "24/7 storm damage restoration in Goodsprings, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
+title: "24/7 Emergency Storm Damage Restoration in Goodsprings, NV | Life Savers Restoration LLC"
+h1: "24/7 Emergency Storm Damage Restoration in Goodsprings"
+meta_description: "24/7 emergency storm damage restoration in Goodsprings, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
 primary_keyword: "storm damage restoration goodsprings"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

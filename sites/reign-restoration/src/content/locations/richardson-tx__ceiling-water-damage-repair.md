@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Richardson, TX | Reign Restoration"
-h1: "Ceiling Water Damage Repair in Richardson"
-meta_description: "24/7 ceiling water damage repair in Richardson, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Ceiling Water Damage Repair in Richardson, TX | Reign Restoration"
+h1: "24/7 Emergency Ceiling Water Damage Repair in Richardson"
+meta_description: "24/7 emergency ceiling water damage repair in Richardson, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "ceiling water damage repair richardson"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

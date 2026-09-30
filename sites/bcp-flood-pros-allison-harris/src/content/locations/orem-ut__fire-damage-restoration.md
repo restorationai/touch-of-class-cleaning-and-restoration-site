@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Orem, UT | FIX Restoration"
-h1: "Fire Damage Restoration in Orem"
-meta_description: "Fire damage restoration in Orem, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in Orem, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in Orem"
+meta_description: "Emergency fire damage restoration in Orem, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration orem"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Orem? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When fire moves through a home in Orem, the damage rarely stops where the flames did. Utah County's dry climate and the wide temperature swings between summer highs and winter lows mean that smoke odor penetrates porous materials faster than it does in more humid regions, and once soot bonds to drywall, insulation, or the wood framing common in Orem's mid-century ranch homes, surface cleaning alone won't get the smell out. FIX Restoration has been handling fire and smoke restoration across Utah County since 2012, and the team is based in American Fork, just a short drive north on I-15.
 
 ## Why Orem Properties Are Particularly Vulnerable After a Fire

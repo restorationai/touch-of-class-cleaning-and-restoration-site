@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Cedar Hills, UT | FIX Restoration"
-h1: "Biohazard Cleanup in Cedar Hills"
-meta_description: "Biohazard cleanup in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Biohazard Cleanup in Cedar Hills, UT | FIX Restoration"
+h1: "Emergency Biohazard Cleanup in Cedar Hills"
+meta_description: "Emergency biohazard cleanup in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "biohazard cleanup cedar hills"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Cedar Hills? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Cedar Hills sits at the foot of the Wasatch Range in Utah County, where tight-knit neighborhoods and newer residential construction create a community that values privacy as much as it values proximity to the outdoors. When a situation requiring biohazard cleanup arises in this kind of setting, the pressure is immediate and the need for discretion is real. FIX Restoration responds to those calls with a clinical, methodical approach designed to protect both the property and the people connected to it.
 
 ## Why Cedar Hills Properties Present Unique Biohazard Considerations

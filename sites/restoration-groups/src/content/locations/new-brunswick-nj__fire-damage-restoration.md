@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in New Brunswick, NJ | The Restoration Group"
-h1: "Fire Damage Restoration in New Brunswick"
-meta_description: "24/7 fire damage restoration in New Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Fire Damage Restoration in New Brunswick, NJ | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in New Brunswick"
+meta_description: "24/7 emergency fire damage restoration in New Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "fire damage restoration new brunswick"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in New Brunswick? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and start the recovery.
+
 The smell hits before the smoke clears, char, melted plastic, and the acrid bite of burned insulation embedded in plaster walls that have been holding heat since the Eisenhower administration. Fire losses in New Brunswick play out differently than in newer suburban construction. The city's dense stock of early-1900s rowhouses near Rutgers Village and the Fifth Ward, many with balloon-frame construction and horsehair-plaster walls, allow fire to travel vertically inside wall cavities at a speed that surprises even experienced contractors. When the call comes in, the building's age shapes every decision that follows.
 
 ## Why New Brunswick Properties Face Distinct Fire Damage Risks

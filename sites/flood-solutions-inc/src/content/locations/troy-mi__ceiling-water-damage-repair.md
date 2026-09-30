@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Troy, MI | Flood Solutions inc"
-h1: "Ceiling Water Damage Repair in Troy"
-meta_description: "Ceiling water damage repair in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Ceiling Water Damage Repair in Troy, MI | Flood Solutions inc"
+h1: "Emergency Ceiling Water Damage Repair in Troy"
+meta_description: "Emergency ceiling water damage repair in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "ceiling water damage repair troy"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "ceiling-water-damage-repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water coming through the ceiling in Troy? Call now for emergency service.** Our crew responds fast to stop the leak damage and start drying.
+
 Troy winters are hard on roofs, and the freeze-thaw cycles that roll through Oakland County every January and February have a way of finding every small vulnerability in flashing, valleys, and gutters. When ice dams form along rooflines and meltwater backs up under shingles, the first sign inside the house is often a ceiling that looks fine at 8 a.m. and is actively dripping by noon. Ceiling water damage in Troy moves fast, and the gap between a small stain and a sagging, structurally compromised section can be measured in hours, not days.
 
 ## Why Troy Ceilings Are Particularly Vulnerable

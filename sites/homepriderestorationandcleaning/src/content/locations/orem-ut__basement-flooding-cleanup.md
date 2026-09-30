@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Orem, UT | Home Pride Restoration and Cleaning"
-h1: "Basement Flooding Cleanup in Orem"
-meta_description: "24/7 basement flooding cleanup in Orem, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Basement Flooding Cleanup in Orem, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Basement Flooding Cleanup in Orem"
+meta_description: "24/7 emergency basement flooding cleanup in Orem, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "basement flooding cleanup orem"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Orem? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Orem sits in a bowl. The Wasatch Front rises sharply to the east, and when spring snowmelt accelerates faster than the clay-heavy soils along the bench can absorb it, that water finds the path of least resistance, straight down foundation walls and into finished basements. If you're standing in an inch of water right now, or you just discovered soaked carpet and a smell you can't place, call Home Pride Restoration and Cleaning at (801) 995-2437. Crews dispatch from Saratoga Springs and can typically be on-site in Orem within 60–90 minutes.
 
 ## Why Orem Basements Flood the Way They Do

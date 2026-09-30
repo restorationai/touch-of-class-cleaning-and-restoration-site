@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Unattended Death Cleanup in Kent, WA | National Restoration Construction"
-h1: "Unattended Death Cleanup in Kent"
-meta_description: "24/7 unattended death cleanup in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Unattended Death Cleanup in Kent, WA | National Restoration Construction"
+h1: "24/7 Emergency Unattended Death Cleanup in Kent"
+meta_description: "24/7 emergency unattended death cleanup in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "unattended death cleanup kent"
 secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased estate cleanup", "odor removal after death", "discreet death cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Unattended Death Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Kent? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When a death goes undiscovered for days or weeks in a Kent home, whether a quiet East Hill rambler, a Lake Meridian condo, or a rental unit near Kent Station, the cleanup that follows is unlike any other restoration work. The Pacific Northwest's mild but persistently damp climate accelerates biological breakdown faster than many families expect, and the window between discovery and serious structural involvement can be short. National Restoration Construction responds to these calls with the discretion, certifications, and technical capacity the situation demands, so the people who matter most can focus on what matters most.
 
 ## Why Kent's Housing Stock and Climate Shape This Work

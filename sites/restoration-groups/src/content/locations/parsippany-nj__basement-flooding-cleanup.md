@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Parsippany, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in Parsippany"
-meta_description: "24/7 basement flooding cleanup in Parsippany, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Basement Flooding Cleanup in Parsippany, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Parsippany"
+meta_description: "24/7 emergency basement flooding cleanup in Parsippany, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "basement flooding cleanup parsippany"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Parsippany? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 When Troy Brook backs up or a nor'easter stalls over Morris County for two days straight, basements in the lake communities of Parsippany fill faster than sump pumps can keep up. The low-lying tracts around Lake Hiawatha are especially vulnerable, many of the postwar capes and split-levels there sit on shallow foundations with aging cast-iron drains that can't handle the surge volume. If you're standing in two inches of water right now, the clock matters: mold colonization begins within 24 to 48 hours on wet framing and drywall, and finished basement materials absorb water silently long after the visible puddles are gone.
 
 ## Why Parsippany Properties See Basement Flooding Issues

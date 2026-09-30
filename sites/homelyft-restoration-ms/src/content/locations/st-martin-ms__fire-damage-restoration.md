@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in St. Martin, MS | HomeLyft Restoration MS"
-h1: "Fire Damage Restoration in St. Martin"
-meta_description: "Fire damage restoration in St. Martin, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Fire Damage Restoration in St. Martin, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Fire Damage Restoration in St. Martin"
+meta_description: "24/7 emergency fire damage restoration in St. Martin, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "fire damage restoration st. martin"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in St. Martin? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 St. Martin sits in a stretch of Jackson County where Gulf Coast humidity never fully lets go, and when a house fire moves through a wood-frame home here, that moisture-laden air doesn't just carry smoke, it locks soot and odor compounds into every porous surface before the embers cool. HomeLyft Restoration MS responds to fire damage calls across St. Martin and the surrounding Jackson County communities, bringing IICRC FSRT-certified fire and smoke restoration technicians to properties that need more than a surface cleaning.
 
 ## Why St. Martin Properties Face Particular Fire Damage Challenges

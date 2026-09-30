@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Little Falls | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Little Falls"
-meta_description: "Fire damage restoration in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Little Falls | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Little Falls"
+meta_description: "Emergency fire damage restoration in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration little falls"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Little Falls? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Smoke moves faster than fire. By the time flames are out, soot has already traveled through your HVAC system, settled into closets two rooms away, and begun etching glass, chrome, and painted surfaces. The first 24 to 48 hours after a fire determine how much of your home is restorable versus how much has to be replaced. Fire and smoke restoration is not a cleaning job. It is a timed, sequenced technical process, and the clock starts the moment the fire department leaves.
 
 ## What Fire Damage Restoration actually involves

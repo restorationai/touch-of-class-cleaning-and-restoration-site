@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
 title: "Emergency Board-Up and Tarping in East Lake-Orient Park, FL | DRYCOR RESTORE"
-h1: "Emergency Board-Up and Tarping in East Lake-Orient Park"
+h1: "24/7 Emergency Board-Up and Tarping in East Lake-Orient Park"
 meta_description: "24/7 emergency board-up and tarping in East Lake-Orient Park, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "emergency board-up and tarping east lake-orient park"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

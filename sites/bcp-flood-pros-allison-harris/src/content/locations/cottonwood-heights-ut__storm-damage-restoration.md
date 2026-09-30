@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Cottonwood Heights, UT | FIX Restoration"
-h1: "Storm Damage Restoration in Cottonwood Heights"
-meta_description: "Storm damage restoration in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Storm Damage Restoration in Cottonwood Heights, UT | FIX Restoration"
+h1: "Emergency Storm Damage Restoration in Cottonwood Heights"
+meta_description: "Emergency storm damage restoration in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "storm damage restoration cottonwood heights"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Cottonwood Heights? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Cottonwood Heights sits at the base of the Wasatch Front where the mountains compress and redirect storm systems in ways that can surprise even longtime Utah residents. Afternoon thunderstorms that look mild from the Salt Lake Valley floor can arrive here with hail, wind gusts, and enough debris to strip shingles, punch through soffits, and leave standing water in crawl spaces before the thunder stops echoing off the ridgeline. When that happens, FIX Restoration is ready to assess the damage, stop it from spreading, and get your property back to where it was.
 
 ## Why Cottonwood Heights Properties See Concentrated Storm Damage

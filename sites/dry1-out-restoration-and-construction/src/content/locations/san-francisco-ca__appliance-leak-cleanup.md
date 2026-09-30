@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in San Francisco, CA | Dry1 Out Restoration and Construction"
-h1: "Appliance Leak Cleanup in San Francisco"
-meta_description: "24/7 appliance leak cleanup in San Francisco, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+title: "24/7 Emergency Appliance Leak Cleanup in San Francisco, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Appliance Leak Cleanup in San Francisco"
+meta_description: "24/7 emergency appliance leak cleanup in San Francisco, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "appliance leak cleanup san francisco"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Troy, MI | Flood & Fire Solutions"
-h1: "Water Damage Restoration in Troy"
-meta_description: "Water damage restoration in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Water Damage Restoration in Troy, MI | Flood & Fire Solutions"
+h1: "Emergency Water Damage Restoration in Troy"
+meta_description: "Emergency water damage restoration in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "water damage restoration troy"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Troy? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Troy sits in one of Oakland County's most active freeze-thaw corridors, and every hard Michigan winter leaves its mark on the plumbing, foundations, and crawl spaces of homes throughout the city. When a pipe lets go at 2 a.m. in January, or a summer storm backs up a floor drain, the water moves fast, and the window to prevent secondary damage is shorter than most homeowners expect. Flood Solutions Inc has been handling water damage restoration across southeastern Michigan since 1996, and the conditions specific to Troy shape how every job gets done here.
 
 ## Why Troy Properties See Water Damage Issues

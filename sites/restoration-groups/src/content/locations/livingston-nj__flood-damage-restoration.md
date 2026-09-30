@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Livingston, NJ | The Restoration Group"
-h1: "Flood Damage Restoration in Livingston"
-meta_description: "24/7 flood damage restoration in Livingston, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Flood Damage Restoration in Livingston, NJ | The Restoration Group"
+h1: "24/7 Emergency Flood Damage Restoration in Livingston"
+meta_description: "24/7 emergency flood damage restoration in Livingston, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "flood damage restoration livingston"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Livingston? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and stop the damage from spreading.
+
 When Tropical Storm Ida tore through Essex County in September 2021, basements across Livingston filled faster than sump pumps could cycle, and the homes hardest hit weren't the oldest ones. Many of the finished, fully furnished lower levels in the newer teardown colonials near the Canoe Brook watershed took on two to three feet of standing water within hours. That combination of high-value finished space and low-lying topography is exactly what makes flood damage in Livingston a different problem than it is in most of northern New Jersey.
 
 ## Why Livingston Properties Are Especially Vulnerable to Flood Damage

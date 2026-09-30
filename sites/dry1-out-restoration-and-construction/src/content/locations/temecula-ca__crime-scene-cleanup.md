@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Crime Scene Cleanup in Temecula, CA | Dry1 Out Restoration and Construction"
-h1: "Crime Scene Cleanup in Temecula"
-meta_description: "24/7 crime scene cleanup in Temecula, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+title: "24/7 Emergency Crime Scene Cleanup in Temecula, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Crime Scene Cleanup in Temecula"
+meta_description: "24/7 emergency crime scene cleanup in Temecula, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "crime scene cleanup temecula"
 secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cleanup", "homicide cleanup", "suicide scene cleanup"]
 search_intent: "local_sensitive"

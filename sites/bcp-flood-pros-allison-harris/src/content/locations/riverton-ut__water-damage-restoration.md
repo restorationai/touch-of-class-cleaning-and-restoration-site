@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Riverton, UT | FIX Restoration"
-h1: "Water Damage Restoration in Riverton"
-meta_description: "Water damage restoration in Riverton, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Damage Restoration in Riverton, UT | FIX Restoration"
+h1: "Emergency Water Damage Restoration in Riverton"
+meta_description: "Emergency water damage restoration in Riverton, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water damage restoration riverton"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Riverton? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Riverton sits in the southwestern corner of Salt Lake Valley where the Wasatch Front's snowpack-fed water table runs closer to the surface than most homeowners expect. When a supply line fails behind a finished basement wall or a washing machine hose lets go overnight, that proximity to groundwater means moisture moves fast, wicks into concrete slabs, and finds its way under luxury vinyl plank before a mop ever touches the floor. FIX Restoration has been handling exactly these situations across the valley since 2012, and the conditions specific to Riverton shape how we approach every job from the first call to the final moisture reading.
 
 ## Why Riverton Properties See Water Damage Issues

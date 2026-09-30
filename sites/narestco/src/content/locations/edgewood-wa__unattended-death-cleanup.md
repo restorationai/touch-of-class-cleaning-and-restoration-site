@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Unattended Death Cleanup in Edgewood, WA | National Restoration Construction"
-h1: "Unattended Death Cleanup in Edgewood"
-meta_description: "24/7 unattended death cleanup in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Unattended Death Cleanup in Edgewood, WA | National Restoration Construction"
+h1: "24/7 Emergency Unattended Death Cleanup in Edgewood"
+meta_description: "24/7 emergency unattended death cleanup in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "unattended death cleanup edgewood"
 secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased estate cleanup", "odor removal after death", "discreet death cleanup"]
 search_intent: "local_sensitive"

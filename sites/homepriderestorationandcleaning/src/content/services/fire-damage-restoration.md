@@ -1,9 +1,9 @@
 ---
 hero: '/images/services/fire-damage-restoration.webp'
 archetype: "service-landing"
-title: "Fire Damage Restoration in Saratoga Springs | Home Pride Restoration and Cleaning"
-h1: "Fire Damage Restoration in Saratoga Springs"
-meta_description: "24/7 fire damage restoration in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Fire Damage Restoration in Saratoga Springs | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Fire Damage Restoration in Saratoga Springs"
+meta_description: "24/7 emergency fire damage restoration in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "fire damage restoration saratoga springs"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -18,6 +18,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Saratoga Springs? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 ## The clock starts the moment flames are out
 
 Smoke doesn't stop moving when the fire does. Within hours of extinguishment, acidic soot begins etching chrome fixtures, yellowing painted walls, and embedding itself into porous materials, drywall, wood framing, upholstery, clothing. Within 72 hours, what was cleanable becomes permanently stained. The fire is over; the damage is still happening. That's the problem fire and smoke restoration exists to solve, and it's why the speed and sequence of the response matters as much as the equipment brought to the job.

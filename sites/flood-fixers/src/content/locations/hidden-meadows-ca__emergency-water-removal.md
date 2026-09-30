@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Hidden Meadows, CA | Flood Fixers"
-h1: "Emergency Water Removal & Cleanup in Hidden Meadows"
+title: "24/7 Emergency Water Removal & Cleanup in Hidden Meadows, CA | Flood Fixers"
+h1: "24/7 Emergency Water Removal & Cleanup in Hidden Meadows"
 meta_description: "24/7 emergency water removal and cleanup in Hidden Meadows, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "emergency water removal hidden meadows"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

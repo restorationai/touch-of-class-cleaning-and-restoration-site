@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Templeton? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Templeton sits in a narrow valley corridor where the Salinas River drainage and the surrounding hills create conditions that can turn a slow leak into a serious structural problem faster than most homeowners expect. The clay-heavy soils common throughout this part of San Luis Obispo County absorb moisture slowly, which means water that escapes from a broken supply line, a failed water heater, or a storm-driven roof intrusion tends to pool and migrate rather than drain away. When that happens inside a home or commercial building, the clock matters. Coastal Restoration Services Inc responds to emergency water removal and cleanup calls throughout Templeton, bringing IICRC-certified technicians and professional extraction and drying equipment directly to the source.
 
 ## Why Templeton Properties See Water Damage Issues

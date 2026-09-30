@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Flandreau, SD | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Flandreau"
-meta_description: "Fire damage restoration in Flandreau, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Flandreau, SD | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Flandreau"
+meta_description: "Emergency fire damage restoration in Flandreau, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration flandreau"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Flandreau? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When fire tears through a home near the Big Sioux River corridor, the damage rarely stops at the charred walls you can see. Smoke migrates through every gap in a structure, soot settles into insulation and ductwork, and the water left behind by suppression hoses begins its own clock, one that mold will answer in as little as 48 hours. In Flandreau, where winters push heating systems hard and many homes predate modern fire-rated construction standards, the aftermath of a house fire is a layered problem that demands a methodical response, not a quick cleanup.
 
 ## Why Flandreau Properties Face Particular Challenges After a Fire

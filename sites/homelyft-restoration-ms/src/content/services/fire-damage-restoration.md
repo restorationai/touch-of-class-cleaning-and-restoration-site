@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Gulfport | HomeLyft Restoration MS"
-h1: "Fire Damage Restoration in Gulfport"
-meta_description: "Fire damage restoration in Gulfport and surrounding areas. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Fire Damage Restoration in Gulfport | HomeLyft Restoration MS"
+h1: "24/7 Emergency Fire Damage Restoration in Gulfport"
+meta_description: "24/7 emergency fire damage restoration in Gulfport and surrounding areas. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "fire damage restoration gulfport"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Gulfport? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 The fire is out, but the damage isn't done. In the hours after a house fire, soot particles are still migrating through your ductwork, acidic smoke residue is etching metal fixtures and appliance finishes, and the protein film from a kitchen fire is bonding to every painted surface in the room. What you do, and what you don't do, in the first 24 to 72 hours determines how much of your home can be saved and how much has to be replaced. Fire damage restoration is a race against secondary damage, and it requires a different skill set than any other cleanup job.
 
 ## What fire damage restoration actually involves

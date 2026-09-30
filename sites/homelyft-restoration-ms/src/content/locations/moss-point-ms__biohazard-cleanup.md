@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Moss Point, MS | HomeLyft Restoration MS"
-h1: "Biohazard Cleanup in Moss Point"
-meta_description: "Biohazard cleanup in Moss Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Biohazard Cleanup in Moss Point, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Biohazard Cleanup in Moss Point"
+meta_description: "24/7 emergency biohazard cleanup in Moss Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "biohazard cleanup moss point"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

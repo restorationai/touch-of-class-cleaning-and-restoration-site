@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Herriman, UT | Home Pride Restoration and Cleaning"
-h1: "Burst Pipe Cleanup and Repair in Herriman"
-meta_description: "24/7 burst pipe cleanup and repair in Herriman, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Herriman, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Herriman"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Herriman, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "burst pipe cleanup and repair herriman"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Herriman? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Herriman's high desert elevation and dramatic temperature swings, from single-digit January nights to summer heat that bakes the ground hard as concrete, create a punishing cycle for residential plumbing. When a pipe bursts in a home here, especially during a hard freeze that drops overnight temps well below 20°F, the water doesn't just pool: it moves fast through open floor plans, soaks into the engineered hardwood and LVP flooring common in Herriman's newer subdivisions, and can reach wall cavities before a homeowner even realizes the damage has started. Home Pride Restoration and Cleaning has been responding to exactly these emergencies since 1997, and our IICRC Certified crews know what a Herriman pipe burst looks like, and what it takes to stop it.
 
 ## Why Herriman Homes Are Especially Vulnerable to Burst Pipes

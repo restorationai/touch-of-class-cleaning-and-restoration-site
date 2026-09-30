@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Youngsville, NC | Go Green Restoration of NC"
-h1: "Smoke Damage Restoration in Youngsville"
-meta_description: "24/7 smoke damage restoration in Youngsville, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Smoke Damage Restoration in Youngsville, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Smoke Damage Restoration in Youngsville"
+meta_description: "24/7 emergency smoke damage restoration in Youngsville, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "smoke damage restoration youngsville"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

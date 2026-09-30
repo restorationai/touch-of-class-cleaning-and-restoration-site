@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in West Middlesex, PA | DISS Restoration"
-h1: "Burst Pipe Cleanup and Repair in West Middlesex"
-meta_description: "24/7 burst pipe cleanup and repair in West Middlesex, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "Emergency Burst Pipe Cleanup and Repair in West Middlesex | DISS Restoration"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in West Middlesex"
+meta_description: "24/7 emergency burst pipe cleanup and repair in West Middlesex, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "burst pipe cleanup and repair west middlesex"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

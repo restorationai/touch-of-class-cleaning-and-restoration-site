@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Maplewood, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in Maplewood"
-meta_description: "24/7 appliance leak cleanup in Maplewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Appliance Leak Cleanup in Maplewood, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Maplewood"
+meta_description: "24/7 emergency appliance leak cleanup in Maplewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "appliance leak cleanup maplewood"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Maplewood? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 A dishwasher supply line that fails quietly overnight or a washing machine hose that blows out mid-cycle can push dozens of gallons across a kitchen or laundry room floor before anyone notices, and in Maplewood's stock of 1910s–1930s Tudors and colonials, that water has somewhere to go: down through original plaster subfloors, into finished basements, and sometimes straight to the stone foundations that characterize so many homes in the Hilton and Jefferson neighborhoods. When an appliance leak happens here, the damage path is rarely limited to the room where the appliance sits.
 
 ## Why Maplewood Homes See More Appliance Leak Damage

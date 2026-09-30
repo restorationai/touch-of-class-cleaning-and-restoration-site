@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Aina Haina, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in Aina Haina"
-meta_description: "24/7 flood damage restoration in Aina Haina, HI. Call (808) 349-3407."
+title: "24/7 Emergency Flood Damage Restoration in Aina Haina, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in Aina Haina"
+meta_description: "24/7 emergency flood damage restoration in Aina Haina, HI. Call (808) 349-3407."
 primary_keyword: "flood damage restoration aina haina"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Aina Haina? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 When a Kona storm stalls over the Ko'olau Range and the runoff starts sheeting down the ridgelines above Aina Haina Valley, it doesn't take long before driveways become rivers and garages fill with a foot of muddy water. The valley's natural bowl shape, steep ridge walls feeding straight into residential streets along Kalanianaole Highway, means flood water arrives fast and carries debris, red dirt, and contaminants directly into the single-wall redwood homes that have defined this neighborhood since the 1950s and '60s. If your home in the 96821 ZIP code took on water, every hour you wait increases the damage.
 
 ## Why Aina Haina Properties See Flood Damage Differently

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Marlborough, MA | Quality Contracting, Inc."
-h1: "Fire Damage Restoration in Marlborough"
-meta_description: "Fire damage restoration in Marlborough, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Fire Damage Restoration in Marlborough, MA | Quality Contracting, Inc."
+h1: "Emergency Fire Damage Restoration in Marlborough"
+meta_description: "Emergency fire damage restoration in Marlborough, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "fire damage restoration marlborough"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Marlborough? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When a fire moves through a Marlborough home, the damage rarely stops at the charred walls. Smoke travels through ductwork, settles into plaster, and leaves an acrid residue that persists for months if the cleanup is rushed or incomplete. Marlborough's mix of mid-century colonials and older mill-era construction means fire damage here often involves materials that absorb smoke differently than newer builds, and that changes how restoration needs to be sequenced from day one. Quality Contracting, Inc. works in Marlborough regularly and understands what that building stock demands.
 
 ## Why Marlborough Properties See Distinct Fire Damage Challenges

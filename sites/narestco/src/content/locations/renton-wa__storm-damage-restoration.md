@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Renton, WA | National Restoration Construction"
-h1: "Storm Damage Restoration in Renton"
-meta_description: "24/7 storm damage restoration in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Storm Damage Restoration in Renton, WA | National Restoration Construction"
+h1: "24/7 Emergency Storm Damage Restoration in Renton"
+meta_description: "24/7 emergency storm damage restoration in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "storm damage restoration renton"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Renton? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 A tree just came through your roof. Your garage is flooded. Shingles are scattered across the yard and rain is still coming in. If you're searching from Renton right now, you don't need a sales pitch, you need someone on the way. National Restoration Construction has handled storm damage across the South King County corridor since 2004, and our Federal Way headquarters puts us roughly 10–15 minutes from most Renton neighborhoods under normal conditions. Reach us at **(206) 883-0333** and we'll get a crew moving.
 
 ## Why Renton Properties Take a Hard Hit in Severe Weather

@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Eagle Mountain, UT | Home Pride Restoration and Cleaning"
-h1: "Emergency Water Removal & Cleanup in Eagle Mountain"
+title: "24/7 Emergency Water Removal & Cleanup in Eagle Mountain, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Water Removal & Cleanup in Eagle Mountain"
 meta_description: "24/7 emergency water removal & cleanup in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "emergency water removal & cleanup eagle mountain"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]

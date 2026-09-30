@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Hermitage, PA | DISS Restoration"
-h1: "Smoke Damage Restoration in Hermitage"
-meta_description: "24/7 smoke damage restoration in Hermitage, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Smoke Damage Restoration in Hermitage, PA | DISS Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in Hermitage"
+meta_description: "24/7 emergency smoke damage restoration in Hermitage, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "smoke damage restoration hermitage"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

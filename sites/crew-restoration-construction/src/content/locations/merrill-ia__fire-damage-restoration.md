@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Merrill, IA | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Merrill"
-meta_description: "Fire damage restoration in Merrill, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Merrill, IA | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Merrill"
+meta_description: "Emergency fire damage restoration in Merrill, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration merrill"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Merrill? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When fire tears through a home near the Floyd River corridor, the damage rarely stops at the charred walls. Smoke travels fast through the older wood-frame construction common in Merrill, IA 51038, embedding odor into insulation, subflooring, and the tight attic spaces typical of homes built before the 1970s. What looks like surface soot on a Tuesday morning can mean compromised structural framing and saturated drywall by Wednesday if the cleanup stalls. Crew Restoration & Construction responds to fire and smoke restoration calls in Merrill with the equipment and process to stop that progression before it compounds.
 
 ## Why Merrill Properties Face Distinctive Fire Damage Challenges

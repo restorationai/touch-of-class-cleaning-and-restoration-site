@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Los Olivos, CA | Coastal Restoration Services Inc"
-h1: "Fire Damage Restoration in Los Olivos"
-meta_description: "Fire damage restoration in Los Olivos, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Fire Damage Restoration in Los Olivos, CA | Coastal Restoration Services Inc"
+h1: "Emergency Fire Damage Restoration in Los Olivos"
+meta_description: "Emergency fire damage restoration in Los Olivos, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "fire damage restoration los olivos"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Los Olivos? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Los Olivos sits in the heart of the Santa Ynez Valley, where dry Santa Ana winds push through the passes each fall and summer heat regularly tips past 100°F, conditions that turn a small kitchen fire or an ember landing on a wood-shake roof into a far more serious structural event than the same incident would be in a coastal town. When smoke has worked its way into the walls of a wine-country cottage or a ranch-style home along Grand Avenue, the clock starts immediately: soot is acidic, and within 72 hours it begins etching painted surfaces, corroding metal fixtures, and permanently staining porous stone and brick. Coastal Restoration Services Inc responds to fire and smoke damage throughout Los Olivos and the broader Santa Ynez Valley, bringing the equipment and process discipline the job demands.
 
 ## Why Los Olivos Properties Face Distinct Fire Damage Challenges

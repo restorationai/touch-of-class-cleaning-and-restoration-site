@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Hickam Housing, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in Hickam Housing"
-meta_description: "24/7 flood damage restoration in Hickam Housing, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "Emergency Flood Damage Restoration in Hickam Housing, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in Hickam Housing"
+meta_description: "24/7 emergency flood damage restoration in Hickam Housing, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "flood damage restoration hickam housing"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Hickam Housing? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Hickam Housing sits on the southwestern edge of Oahu, where trade winds carry moisture inland from Pearl Harbor and the open Pacific, and where heavy Kona storm systems can drop several inches of rain in a matter of hours. When that water finds its way into a home, through a compromised slab, a overwhelmed storm drain, or wind-driven rain through a damaged lanai door, it moves fast and hides in places that look dry at the surface. Flood damage restoration here is not the same job it is on the mainland, and the conditions that make it different start the moment the water stops rising.
 
 ## Why Hickam Housing Properties Face Distinct Flood Risks

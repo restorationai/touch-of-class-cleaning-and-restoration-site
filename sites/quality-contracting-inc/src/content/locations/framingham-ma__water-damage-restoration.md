@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Framingham, MA | Quality Contracting, Inc."
-h1: "Water Damage Restoration in Framingham"
-meta_description: "Water damage restoration in Framingham, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Water Damage Restoration in Framingham, MA | Quality Contracting, Inc."
+h1: "Emergency Water Damage Restoration in Framingham"
+meta_description: "Emergency water damage restoration in Framingham, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "water damage restoration framingham"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Framingham? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Framingham sits at the intersection of two realities that make water damage uniquely punishing here: a housing stock that skews heavily toward mid-century and older construction, and a climate that delivers freeze-thaw cycles hard enough to split cast-iron supply lines and push groundwater through foundation walls that were never designed to hold it back. When a pipe lets go or a basement floods in this city, the water doesn't just sit on a concrete slab, it moves into plaster, into old-growth framing, into the kind of materials that hold moisture long after the surface feels dry to the touch. Quick, thorough water removal and structural drying aren't optional steps here; they're what separates a manageable repair from a months-long reconstruction.
 
 ## Why Framingham Properties See Water Damage Differently

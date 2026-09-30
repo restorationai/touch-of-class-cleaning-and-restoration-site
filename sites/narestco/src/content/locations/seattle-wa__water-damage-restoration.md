@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Seattle, WA | National Restoration Construction"
-h1: "Water Damage Restoration in Seattle"
-meta_description: "24/7 water damage restoration in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Water Damage Restoration in Seattle, WA | National Restoration Construction"
+h1: "24/7 Emergency Water Damage Restoration in Seattle"
+meta_description: "24/7 emergency water damage restoration in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "water damage restoration seattle"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

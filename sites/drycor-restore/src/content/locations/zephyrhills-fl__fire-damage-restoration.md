@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Zephyrhills, FL | DRYCOR RESTORE"
-h1: "Fire Damage Restoration in Zephyrhills"
-meta_description: "24/7 fire damage restoration in Zephyrhills, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "24/7 Emergency Fire Damage Restoration in Zephyrhills, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Fire Damage Restoration in Zephyrhills"
+meta_description: "24/7 emergency fire damage restoration in Zephyrhills, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "fire damage restoration zephyrhills"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Zephyrhills? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 The dry season in Zephyrhills arrives fast and stays long, and when a fire breaks out in one of the city's older ranch-style homes or manufactured housing communities, the combination of low humidity, porous concrete block construction, and resin-heavy Florida pine framing means smoke and soot travel farther and penetrate deeper than most homeowners expect. If you're dealing with fire damage right now, the window for limiting secondary destruction, odor absorption into wall cavities, acid soot etching tile and fixtures, smoke residue migrating through HVAC ductwork, closes within the first 24 to 72 hours.
 
 ## Why Zephyrhills Properties See Fire Damage Differently

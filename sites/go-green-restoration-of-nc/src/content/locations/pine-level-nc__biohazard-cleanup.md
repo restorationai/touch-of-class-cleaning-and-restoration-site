@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Pine Level, NC | Go Green Restoration of NC"
-h1: "Biohazard Cleanup in Pine Level"
-meta_description: "24/7 biohazard cleanup in Pine Level, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Biohazard Cleanup in Pine Level, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Biohazard Cleanup in Pine Level"
+meta_description: "24/7 emergency biohazard cleanup in Pine Level, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "biohazard cleanup pine level"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

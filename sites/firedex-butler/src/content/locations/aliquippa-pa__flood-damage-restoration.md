@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Aliquippa, PA | FireDEX Butler"
-h1: "Flood Damage Restoration in Aliquippa"
-meta_description: "24/7 flood damage restoration in Aliquippa, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Flood Damage Restoration in Aliquippa, PA | FireDEX Butler"
+h1: "24/7 Emergency Flood Damage Restoration in Aliquippa"
+meta_description: "24/7 emergency flood damage restoration in Aliquippa, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "flood damage restoration aliquippa"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

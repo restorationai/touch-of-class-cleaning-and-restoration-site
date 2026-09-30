@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Trauma Scene Cleanup in Federal Way | National Restoration Construction"
-h1: "Trauma Scene Cleanup in Federal Way"
-meta_description: "24/7 trauma scene cleanup in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Trauma Scene Cleanup in Federal Way | National Restoration Construction"
+h1: "24/7 Emergency Trauma Scene Cleanup in Federal Way"
+meta_description: "24/7 emergency trauma scene cleanup in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "trauma scene cleanup federal way"
 secondary_keywords: ["trauma cleanup services", "trauma scene cleaning", "accident scene cleanup", "crime and trauma decontamination", "emergency trauma cleanup"]
 search_intent: "local_sensitive"
@@ -17,6 +17,9 @@ service_slug: "trauma-scene-cleanup"
 service_display: "Trauma Scene Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Federal Way? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something traumatic happens inside a home or property, the hours that follow are consumed by shock, logistics, and phone calls, not by figuring out who cleans up or how. Biological contamination left behind after an unattended death, accident, or violent incident doesn't wait. Within 24 to 48 hours, bloodborne pathogens can penetrate porous surfaces, subflooring, and wall cavities in ways that aren't visible to the eye. National Restoration Construction handles that reality so families and property managers don't have to.
 
 ## What trauma scene cleanup actually involves

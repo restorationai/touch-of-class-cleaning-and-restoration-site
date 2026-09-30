@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Cedar Fort, UT | FIX Restoration"
-h1: "Board-Up and Tarping in Cedar Fort"
-meta_description: "Board-up and tarping in Cedar Fort, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Board-Up and Tarping in Cedar Fort, UT | FIX Restoration"
+h1: "Emergency Board-Up and Tarping in Cedar Fort"
+meta_description: "Emergency board-up and tarping in Cedar Fort, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "emergency board-up and tarping cedar fort"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Cedar Fort? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Cedar Fort sits in a quiet pocket of Utah County where high-desert wind patterns, hard freezes, and the occasional severe thunderstorm can leave a home exposed overnight with no warning. When a storm peels back a section of roofing, a fire vents a wall, or a collision shatters a garage door, the structure needs to be sealed before the next weather event compounds the damage. FIX Restoration responds to those calls from our American Fork location, covering Cedar Fort and the surrounding area with board-up and tarping services designed to stop secondary loss before it starts.
 
 ## Why Cedar Fort Properties Face Particular Exposure Risks

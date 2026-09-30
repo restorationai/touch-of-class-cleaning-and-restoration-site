@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Kailua, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in Kailua"
-meta_description: "24/7 flood damage restoration in Kailua, HI. Call (808) 349-3407."
+title: "24/7 Emergency Flood Damage Restoration in Kailua, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in Kailua"
+meta_description: "24/7 emergency flood damage restoration in Kailua, HI. Call (808) 349-3407."
 primary_keyword: "flood damage restoration kailua"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Kailua? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 When a Kona storm stalls over the Ko'olau Range and dumps inches of rain on Windward Oahu in a matter of hours, low-lying streets near Kawainui Marsh can go from damp to knee-deep before most homeowners have time to move furniture. Kailua's combination of high water tables, canal-front lots, and single-wall construction means flood water doesn't just pool on the floor, it travels fast, wicking into wall cavities and subfloor framing within the first few hours. If you're dealing with standing water in your home right now, call AAA Water Damage Restoration & Carpet Care at (808) 349-3407. We respond around the clock.
 
 ## Why Kailua Properties Are Especially Vulnerable to Flood Damage

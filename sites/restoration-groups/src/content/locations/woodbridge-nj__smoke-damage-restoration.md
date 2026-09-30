@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Woodbridge, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Woodbridge"
-meta_description: "24/7 smoke damage restoration in Woodbridge, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Woodbridge, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Woodbridge"
+meta_description: "24/7 emergency smoke damage restoration in Woodbridge, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration woodbridge"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Woodbridge? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 Smoke from a house fire doesn't stop at the burn line. In Woodbridge's stock of postwar capes, split-levels, and colonials, the kind of homes packed into neighborhoods like Colonia and Fords, smoke travels through wall cavities, settles into HVAC ductwork, and soaks into plaster and older drywall long before firefighters pack up. By the time the trucks leave, odor molecules and acidic soot particles are already at work etching metal fixtures, yellowing ceilings, and embedding themselves in upholstery. The clock starts immediately, and so should the cleanup.
 
 ## Why Woodbridge Properties Are Especially Vulnerable to Smoke Damage

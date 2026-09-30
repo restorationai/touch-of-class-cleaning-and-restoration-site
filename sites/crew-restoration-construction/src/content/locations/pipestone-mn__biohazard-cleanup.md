@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Pipestone, MN | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Pipestone"
-meta_description: "Biohazard cleanup in Pipestone, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Pipestone, MN | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Pipestone"
+meta_description: "Emergency biohazard cleanup in Pipestone, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup pipestone"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Pipestone? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Pipestone is a small city that carries a lot of history, quartzite storefronts along the Downtown Pipestone Historic District, a working national monument at the edge of town, and housing stock that in many cases predates World War II. When a biohazard situation arises in a home or property here, the response has to account for that context: older construction, tight-knit neighbors, and a community where discretion matters as much as speed. Crew Restoration & Construction handles biohazard cleanup in Pipestone, MN (56164) with a clinical process and a quiet presence on-site.
 
 ## Why Pipestone Properties Present Unique Biohazard Challenges

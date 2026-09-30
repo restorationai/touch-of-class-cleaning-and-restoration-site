@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Pierz, MN | Heritage Restoration LLC"
-h1: "Storm Damage Restoration in Pierz"
-meta_description: "Storm damage restoration in Pierz, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Storm Damage Restoration in Pierz, MN | Heritage Restoration LLC"
+h1: "Emergency Storm Damage Restoration in Pierz"
+meta_description: "Emergency storm damage restoration in Pierz, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "storm damage restoration pierz"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Pierz? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Central Minnesota's storm season hits Morrison County hard, and Pierz sits squarely in the path of the fast-moving squall lines that funnel down from the north and northwest between late spring and early fall. When a storm drops baseball-sized hail, snaps mature oaks onto rooflines, or drives wind-driven rain through siding seams, the damage compounds quickly, especially in a community where a significant share of homes were built decades before modern weather-resistant sheathing became standard. Heritage Restoration LLC responds to storm damage calls in Pierz from our Little Falls base, keeping the drive short and the crew on-site fast.
 
 ## Why Pierz Properties See Storm Damage Differently

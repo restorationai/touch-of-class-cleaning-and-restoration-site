@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in West Middlesex, PA | DISS Restoration"
-h1: "Emergency Board-Up and Tarping in West Middlesex"
+title: "24/7 Emergency Board-Up and Tarping in West Middlesex, PA | DISS Restoration"
+h1: "24/7 Emergency Board-Up and Tarping in West Middlesex"
 meta_description: "24/7 emergency board-up and tarping in West Middlesex, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "emergency board-up and tarping west middlesex"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

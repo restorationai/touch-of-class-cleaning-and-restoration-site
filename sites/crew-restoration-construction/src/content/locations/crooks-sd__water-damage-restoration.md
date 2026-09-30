@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Crooks, SD | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Crooks"
-meta_description: "Water damage restoration in Crooks, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Crooks, SD | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Crooks"
+meta_description: "Emergency water damage restoration in Crooks, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration crooks"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Crooks? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Spring snowmelt in the Sioux Falls metro hits the small communities along Highway 138 hard, and Crooks is no exception. When saturated clay soil around 57020 can't absorb another drop, water finds the path of least resistance: foundation cracks, window wells, and aging sump pits in homes that were built when the town was still a quiet rural crossroads. Crew Restoration & Construction responds to water damage calls throughout Crooks, moving fast from our Sioux Falls base to limit how far moisture travels into your walls, subfloor, and framing before it becomes a much larger problem.
 
 ## Why Crooks Properties See Water Damage Issues

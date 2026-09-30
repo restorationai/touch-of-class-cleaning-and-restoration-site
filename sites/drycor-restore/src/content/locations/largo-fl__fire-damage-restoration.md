@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Largo, FL | DRYCOR RESTORE"
-h1: "Fire Damage Restoration in Largo"
-meta_description: "24/7 fire damage restoration in Largo, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "24/7 Emergency Fire Damage Restoration in Largo, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Fire Damage Restoration in Largo"
+meta_description: "24/7 emergency fire damage restoration in Largo, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "fire damage restoration largo"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Largo? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Largo sits in one of the most densely developed corridors of Pinellas County, where concrete block construction from the 1950s through the 1980s dominates neighborhood after neighborhood. When fire moves through that kind of housing stock, it behaves differently than it does in newer wood-frame builds, masonry absorbs smoke deeply into its pores, and the tight lot spacing that defines so much of Largo means embers and radiant heat can threaten adjacent structures before the fire department even arrives. If you're dealing with fire or smoke damage in Largo right now, call DRYCOR RESTORE at (813) 829-1091. We respond 24/7.
 
 ## Why Largo's Housing Stock Shapes Fire Damage Differently

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Alpine, UT | FIX Restoration"
-h1: "Sewage Cleanup and Sanitization in Alpine"
-meta_description: "Sewage cleanup and sanitization in Alpine, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Sewage Cleanup and Sanitization in Alpine, UT | FIX Restoration"
+h1: "Emergency Sewage Cleanup and Sanitization in Alpine"
+meta_description: "Emergency sewage cleanup and sanitization in Alpine, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "sewage cleanup and sanitization alpine"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Alpine? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Alpine sits at the foot of the Wasatch Range in Utah County, where the combination of steep terrain, clay-heavy soils, and a housing stock that expanded rapidly through the 1990s and 2000s creates conditions that can push residential sewer and septic systems past their limits. When a sewage backup saturates a finished basement or a septic overflow reaches a crawl space, the contamination clock starts immediately. FIX Restoration responds to sewage cleanup calls in Alpine and coordinates the full process from extraction through sanitization so the property is safe to occupy again.
 
 ## Why Alpine Properties See Sewage Backup Issues

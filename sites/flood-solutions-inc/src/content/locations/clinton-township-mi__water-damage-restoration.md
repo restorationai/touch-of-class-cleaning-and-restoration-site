@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Clinton Township, MI | Flood & Fire Solutions"
-h1: "Water Damage Restoration in Clinton Township"
-meta_description: "Water damage restoration in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Water Damage Restoration in Clinton Township, MI | Flood & Fire Solutions"
+h1: "Emergency Water Damage Restoration in Clinton Township"
+meta_description: "Emergency water damage restoration in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "water damage restoration clinton township"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Clinton Township? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Clinton Township sits in the heart of Macomb County, where the clay-heavy soils that define much of southeastern Michigan do water damage no favors. When rain saturates the ground or a supply line fails, that dense subsoil has nowhere to push the water except back, into crawl spaces, through foundation walls, and across finished basement floors. If you're dealing with standing water, soaked drywall, or a wet carpet that squishes underfoot, the clock is already running. Flood Solutions Inc. has been responding to water losses across the Macomb area since 1996, and the team knows how quickly a manageable situation turns structural.
 
 ## Why Clinton Township Properties See Water Damage Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Lacey, WA | Frontline Fire & Flood"
-h1: "Water Damage Restoration in Lacey"
-meta_description: "24/7 water damage restoration in Lacey, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Water Damage Restoration in Lacey, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Water Damage Restoration in Lacey"
+meta_description: "24/7 emergency water damage restoration in Lacey, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration lacey"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Lacey? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Lacey sits in the southern Puget Sound lowlands where the marine climate delivers persistent rainfall from October through April, and the region's high water table means saturated soil has nowhere to drain when a pipe bursts or an appliance line fails. That combination, wet winters, clay-heavy glacial soils, and crawl spaces that sit close to grade, makes water damage a faster-moving problem here than in drier inland markets. When standing water appears under your flooring or moisture starts wicking up your walls, the window to act before secondary damage sets in is measured in hours, not days.
 
 ## Why Lacey Properties See Water Damage Issues

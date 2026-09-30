@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Fort Lee, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Fort Lee"
-meta_description: "24/7 smoke damage restoration in Fort Lee, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Fort Lee, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Fort Lee"
+meta_description: "24/7 emergency smoke damage restoration in Fort Lee, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration fort lee"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

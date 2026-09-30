@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Lindon, UT | FIX Restoration"
-h1: "Biohazard Cleanup in Lindon"
-meta_description: "Biohazard cleanup in Lindon, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Biohazard Cleanup in Lindon, UT | FIX Restoration"
+h1: "Emergency Biohazard Cleanup in Lindon"
+meta_description: "Emergency biohazard cleanup in Lindon, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "biohazard cleanup lindon"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Lindon? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Lindon sits in a stretch of Utah County where newer subdivisions back up against older agricultural parcels, and the mix of housing stock creates situations that don't always fit a standard response playbook. When a biohazard situation arises in a home here, whether in a recently built community near the foothills or in an older property closer to the Geneva Road corridor, the priority is the same: contain the risk, protect the people who live there, and handle everything with discretion. FIX Restoration has been responding to these calls across Utah County since 2012, and we understand that the call itself is one of the hardest a property owner will ever make.
 
 ## Why Lindon Properties Present Unique Biohazard Considerations

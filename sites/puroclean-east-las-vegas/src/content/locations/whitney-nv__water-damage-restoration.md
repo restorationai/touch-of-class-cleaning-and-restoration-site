@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Whitney, NV | PuroClean of East Las Vegas"
-h1: "Water Damage Restoration in Whitney"
-meta_description: "Water damage restoration in Whitney, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Water Damage Restoration in Whitney, NV | PuroClean of East Las Vegas"
+h1: "Emergency Water Damage Restoration in Whitney"
+meta_description: "Emergency water damage restoration in Whitney, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "water damage restoration whitney"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NV"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Whitney? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Whitney sits in one of the driest metro areas on earth, yet water damage is a year-round threat here, and when it hits, it moves fast. The desert soil beneath Whitney Ranch and Winterwood subdivisions is dense caliche that sheds water rather than absorbing it, so a burst supply line or a slow slab leak has nowhere to go but into your flooring, walls, and subfloor. PuroClean of East Las Vegas is based just north of Whitney, which means a crew with extraction equipment can be at your door without crossing the valley.
 
 ## Why Whitney Properties See Water Damage Issues

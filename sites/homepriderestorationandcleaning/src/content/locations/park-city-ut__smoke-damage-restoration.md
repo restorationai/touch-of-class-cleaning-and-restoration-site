@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Park City, UT | Home Pride Restoration and Cleaning"
-h1: "Smoke Damage Restoration in Park City"
-meta_description: "24/7 smoke damage restoration in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Smoke Damage Restoration in Park City, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Smoke Damage Restoration in Park City"
+meta_description: "24/7 emergency smoke damage restoration in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "smoke damage restoration park city"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Park City? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 At 7,000 feet, Park City's thin, dry air does something most homeowners don't expect after a fire: smoke odor penetrates deeper and faster than it would at lower elevations. Lower atmospheric pressure means porous materials, ski lodge–style tongue-and-groove pine ceilings, exposed timber beams, the rough-sawn wood paneling common in older Deer Valley–area cabins, absorb smoke particles before the air even has a chance to clear. If you're dealing with smoke damage in a Park City home right now, the clock is already running.
 
 ## Why Park City Properties Are Especially Vulnerable to Smoke Damage

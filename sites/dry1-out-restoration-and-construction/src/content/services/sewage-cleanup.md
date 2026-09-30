@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Sewage Cleanup and Sanitization in Vista | Dry1 Out Restoration and Construction"
-h1: "Sewage Cleanup and Sanitization in Vista"
-meta_description: "24/7 sewage cleanup and sanitization in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Vista | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Vista"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "sewage cleanup and sanitization vista"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

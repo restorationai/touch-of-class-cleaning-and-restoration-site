@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Heber City, UT | Home Pride Restoration and Cleaning"
-h1: "Smoke Damage Restoration in Heber City"
-meta_description: "24/7 smoke damage restoration in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Smoke Damage Restoration in Heber City, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Smoke Damage Restoration in Heber City"
+meta_description: "24/7 emergency smoke damage restoration in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "smoke damage restoration heber city"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Heber City? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 When a fire moves through a Heber Valley home, whether it started in a kitchen, a wood-burning stove, or crept down from the Wasatch ridgeline during a dry August, the smoke doesn't stop at the burn line. At 5,600 feet elevation, Heber City's thinner air and dramatic temperature swings cause smoke particles to penetrate deeper into porous surfaces and linger longer than they would at lower elevations along the Wasatch Front. That means the acrid smell embedded in your drywall, insulation, and HVAC ducts is a structural problem, not just an odor issue, and it needs professional attention fast.
 
 ## Why Heber City Homes Are Especially Vulnerable to Smoke Damage

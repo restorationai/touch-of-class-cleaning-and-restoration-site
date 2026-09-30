@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Kirkland, WA | National Restoration Construction"
-h1: "Smoke Damage Restoration in Kirkland"
-meta_description: "24/7 smoke damage restoration in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Smoke Damage Restoration in Kirkland, WA | National Restoration Construction"
+h1: "24/7 Emergency Smoke Damage Restoration in Kirkland"
+meta_description: "24/7 emergency smoke damage restoration in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "smoke damage restoration kirkland"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Kirkland? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Smoke leaves fast and stays longer than anyone expects. If you're standing in a Kirkland home right now smelling that acrid, oily residue, on the walls, in the HVAC vents, soaked into the drywall, the window to prevent permanent staining and odor absorption is closing by the hour. National Restoration Construction dispatches from Federal Way and reaches most Kirkland addresses within 60–90 minutes of your call, ready to start the process that actually stops smoke damage from compounding.
 
 ## Our Smoke Damage Restoration Process in Kirkland

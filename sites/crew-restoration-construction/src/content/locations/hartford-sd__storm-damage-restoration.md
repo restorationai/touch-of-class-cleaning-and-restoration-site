@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Hartford, SD | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Hartford"
-meta_description: "Storm damage restoration in Hartford, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Hartford, SD | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Hartford"
+meta_description: "Emergency storm damage restoration in Hartford, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration hartford"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Hartford? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Hartford sits in the open prairie corridor along Highway 42, about fifteen miles west of Sioux Falls, and that geography matters when a severe storm rolls through. There are no hills or tree lines to slow a derecho or straight-line wind event before it reaches your roof, fence, or siding. When hail the size of quarters strips shingles off a house near West Central High School or a fast-moving thunderstorm drops a cottonwood across a back deck in the Buffalo Ridge area, the window for preventing secondary damage, soaked insulation, warped framing, mold colonization, is measured in hours, not days. Crew Restoration & Construction handles the full scope of that recovery, from emergency tarping and debris removal through structural repairs and final inspection.
 
 ## Why Hartford Properties See Elevated Storm Damage Risk

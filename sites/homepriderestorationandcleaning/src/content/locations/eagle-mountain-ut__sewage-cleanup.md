@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Eagle Mountain, UT | Home Pride Restoration and Cleaning"
-h1: "Sewage Cleanup and Sanitization in Eagle Mountain"
-meta_description: "24/7 sewage cleanup and sanitization in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "Emergency Sewage Cleanup and Sanitization in Eagle Mountain | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Eagle Mountain"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "sewage cleanup and sanitization eagle mountain"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Eagle Mountain? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Eagle Mountain's rapid growth has pushed new subdivisions onto the west side of Utah Lake's valley floor faster than some municipal sewer infrastructure can keep pace. When a sewer line backs up into a home in one of the city's newer developments, or when an aging septic system overflows on a larger lot near the Ranches area, raw sewage can spread across finished flooring, soak into wall cavities, and reach HVAC returns within hours. Home Pride Restoration and Cleaning has handled sewage cleanup and sanitization across Utah County since 1997, and we know what a backup in Eagle Mountain looks like from the first call to the final clearance test.
 
 ## Why Eagle Mountain Properties See Sewage Backup Issues

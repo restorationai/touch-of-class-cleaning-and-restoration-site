@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Basement Flooding Cleanup in Vista | Dry1 Out Restoration and Construction"
-h1: "Basement Flooding Cleanup in Vista"
-meta_description: "24/7 basement flooding cleanup in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+title: "24/7 Emergency Basement Flooding Cleanup in Vista | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Basement Flooding Cleanup in Vista"
+meta_description: "24/7 emergency basement flooding cleanup in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "basement flooding cleanup vista"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"

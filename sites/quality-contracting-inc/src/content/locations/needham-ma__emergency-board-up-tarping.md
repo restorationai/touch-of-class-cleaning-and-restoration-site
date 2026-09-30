@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Needham, MA | Quality Contracting, Inc."
-h1: "Board-Up and Tarping in Needham"
-meta_description: "Board-up and tarping in Needham, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Board-Up and Tarping in Needham, MA | Quality Contracting, Inc."
+h1: "Emergency Board-Up and Tarping in Needham"
+meta_description: "Emergency board-up and tarping in Needham, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "emergency board-up and tarping needham"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Needham? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Needham's mix of mid-century colonials, Victorian-era two-families, and newer construction along its wooded lots means that when a storm tears off a section of roof or a fire vents through an attic, the exposure isn't uniform, and neither is the fix. A temporary tarp that holds on a flat-roofed commercial strip won't behave the same way on a steeply pitched 1940s hip roof in a residential neighborhood. Quality Contracting, Inc. responds to board-up and tarping calls across Needham, securing damaged structures quickly so that rain, wind, and opportunistic entry don't compound what's already a stressful situation.
 
 ## Why Needham Properties See Board-Up and Tarping Needs

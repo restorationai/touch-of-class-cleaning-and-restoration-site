@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Burst Pipe Cleanup and Repair in Abilene | Air Care Restoration"
-h1: "Burst Pipe Cleanup and Repair in Abilene"
-meta_description: "24/7 burst pipe cleanup and repair in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Abilene | Air Care Restoration"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Abilene"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "burst pipe cleanup and repair abilene"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

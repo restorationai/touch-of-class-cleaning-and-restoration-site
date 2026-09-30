@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Ewa Beach, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Sewage Cleanup and Sanitization in Ewa Beach"
-meta_description: "24/7 sewage cleanup and sanitization in Ewa Beach, HI. Call (808) 349-3407."
+title: "Emergency Sewage Cleanup and Sanitization in Ewa Beach, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Ewa Beach"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Ewa Beach, HI. Call (808) 349-3407."
 primary_keyword: "sewage cleanup and sanitization ewa beach"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Ewa Beach? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows in Ewa Beach, the damage compounds fast, and the flat Ewa plain doesn't help. Unlike hillside neighborhoods where water runs off naturally, the low-lying terrain across Ocean Pointe and Ewa Gentry gives contaminated water nowhere to go. It pools against slabs, seeps under baseboards, and soaks into the concrete substrate before most homeowners realize the scope of what they're dealing with. Raw sewage isn't just a cleanup problem; it's a Category 3 biohazard that requires containment, extraction, and hospital-grade sanitization, not a mop and bleach.
 
 ## Why Ewa Beach Homes Are Particularly Vulnerable to Sewage Backups

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Beaver Falls, PA | FireDEX Butler"
-h1: "Smoke Damage Restoration in Beaver Falls"
-meta_description: "24/7 smoke damage restoration in Beaver Falls, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Smoke Damage Restoration in Beaver Falls, PA | FireDEX Butler"
+h1: "24/7 Emergency Smoke Damage Restoration in Beaver Falls"
+meta_description: "24/7 emergency smoke damage restoration in Beaver Falls, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "smoke damage restoration beaver falls"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

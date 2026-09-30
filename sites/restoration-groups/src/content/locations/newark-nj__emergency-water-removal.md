@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Newark, NJ | The Restoration Group"
-h1: "Emergency Water Removal & Cleanup in Newark"
+title: "24/7 Emergency Water Removal & Cleanup in Newark, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Removal & Cleanup in Newark"
 meta_description: "24/7 emergency water removal and cleanup in Newark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "emergency water removal newark"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

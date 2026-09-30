@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Provo, UT | Home Pride Restoration and Cleaning"
-h1: "Basement Flooding Cleanup in Provo"
-meta_description: "24/7 basement flooding cleanup in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Basement Flooding Cleanup in Provo, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Basement Flooding Cleanup in Provo"
+meta_description: "24/7 emergency basement flooding cleanup in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "basement flooding cleanup provo"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Provo? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Provo sits in a valley where the Wasatch Front snowpack melts fast and the water table along the bench and lower neighborhoods can rise quickly in late winter and early spring, and when that moisture finds a crack in a foundation wall or an overwhelmed window well, a basement can go from dry to ankle-deep in hours. Whether the source is a ruptured supply line, a sump pump that gave out overnight, or groundwater pushing through a block foundation, the clock starts the moment water touches your floor. Home Pride Restoration and Cleaning has been responding to flooded basements across Utah County since 1997, and we know how Provo's specific geography and housing stock shape every job.
 
 ## Why Provo Basements Flood, and Why It Matters for Cleanup

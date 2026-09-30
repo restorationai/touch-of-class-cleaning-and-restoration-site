@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Lindon, UT | FIX Restoration"
-h1: "Sewage Cleanup and Sanitization in Lindon"
-meta_description: "Sewage cleanup and sanitization in Lindon, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Sewage Cleanup and Sanitization in Lindon, UT | FIX Restoration"
+h1: "Emergency Sewage Cleanup and Sanitization in Lindon"
+meta_description: "Emergency sewage cleanup and sanitization in Lindon, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "sewage cleanup and sanitization lindon"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Lindon? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Lindon sits in a narrow band between the Wasatch foothills and Utah Lake's drainage basin, and that geography does quiet, persistent work on residential sewer lines. Freeze-thaw cycles in the colder months shift the clay-heavy soils common along the bench, nudging older lateral lines out of alignment. When a sewer line backs up here, it rarely stops at a slow drain. Raw sewage can surface in a basement utility room or a first-floor bathroom in minutes, carrying bacteria, viruses, and pathogens that linger in porous materials long after the visible mess is gone. FIX Restoration responds to those calls from our American Fork location, just a short drive up US-89.
 
 ## Why Lindon Properties Experience Sewer Backups

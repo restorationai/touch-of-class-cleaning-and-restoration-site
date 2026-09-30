@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst & Frozen Pipes in Pahrump, NV | PuroClean of East Las Vegas"
-h1: "Burst & Frozen Pipes in Pahrump"
-meta_description: "Burst & frozen pipes in Pahrump, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Burst & Frozen Pipes in Pahrump, NV | PuroClean of East Las Vegas"
+h1: "Emergency Burst & Frozen Pipes in Pahrump"
+meta_description: "Emergency burst & frozen pipes in Pahrump, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "burst & frozen pipes pahrump"
 secondary_keywords: []
 search_intent: "local_specialty"

@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Early, TX | Air Care Restoration"
-h1: "Emergency Board-Up and Tarping in Early"
+title: "24/7 Emergency Board-Up and Tarping in Early, TX | Air Care Restoration"
+h1: "24/7 Emergency Board-Up and Tarping in Early"
 meta_description: "24/7 emergency board-up and tarping in Early, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "emergency board-up and tarping early"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

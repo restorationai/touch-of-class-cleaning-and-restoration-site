@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in American Fork, UT | Home Pride Restoration and Cleaning"
-h1: "Basement Flooding Cleanup in American Fork"
-meta_description: "24/7 basement flooding cleanup in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "Emergency Basement Flooding Cleanup in American Fork, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Basement Flooding Cleanup in American Fork"
+meta_description: "24/7 emergency basement flooding cleanup in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "basement flooding cleanup american fork"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in American Fork? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 American Fork sits at the base of the Wasatch Front where spring snowmelt off Mount Timpanogos combines with Utah Lake's high water table to create one of the most flood-prone basement environments along the entire I-15 corridor. When water starts rising in your basement, whether from a sump pump failure during an April thaw, a cracked foundation wall, or a backed-up storm drain, the clock starts immediately. Mold can begin colonizing wet framing and insulation within 24 to 48 hours, and standing water under a concrete slab warps subfloor materials fast. Home Pride Restoration and Cleaning has been responding to exactly these situations since 1997.
 
 ## Why American Fork Basements Flood More Than You'd Expect

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Flood Damage Restoration in Macomb | Flood Solutions inc"
-h1: "Flood Damage Restoration in Macomb"
-meta_description: "Flood damage restoration in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Flood Damage Restoration in Macomb | Flood Solutions inc"
+h1: "Emergency Flood Damage Restoration in Macomb"
+meta_description: "Emergency flood damage restoration in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "flood damage restoration macomb"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "flood-damage-restoration"
 service_display: "flood-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Macomb? Call now for emergency service.** Our crew responds fast to pump out the water and stop the damage from spreading.
+
 Standing water is only the beginning. Once a flood recedes, the real damage is already spreading: saturated subfloors wicking moisture upward into wall cavities, drywall acting as a sponge behind intact paint, and the 24-to-48-hour window before microbial growth takes hold ticking down fast. Flood damage restoration is not the same as mopping up and running fans. It requires systematic extraction, calibrated drying, and documentation that holds up when your insurance adjuster reviews the claim.
 
 ## What flood damage restoration actually involves

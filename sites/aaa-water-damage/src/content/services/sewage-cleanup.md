@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Sewage Cleanup and Sanitization in Honolulu | AAA Water Damage Restoration & Carpet Care"
-h1: "Sewage Cleanup and Sanitization in Honolulu"
-meta_description: "24/7 sewage cleanup and sanitization in Honolulu and surrounding areas. Call (808) 349-3407."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Honolulu | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Honolulu"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Honolulu and surrounding areas. Call (808) 349-3407."
 primary_keyword: "sewage cleanup and sanitization honolulu"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Honolulu? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows, the water flooding your bathroom or utility room isn't just dirty, it's classified as Category 3 "black water" under industry standards, meaning it carries raw sewage, bacteria, and pathogens that can colonize porous materials within hours. The clock starts the moment sewage touches your floors, walls, or subfloor. Waiting even a day to call can turn a contained cleanup into a full gut-and-rebuild situation.
 
 ## What sewage cleanup and sanitization actually involves

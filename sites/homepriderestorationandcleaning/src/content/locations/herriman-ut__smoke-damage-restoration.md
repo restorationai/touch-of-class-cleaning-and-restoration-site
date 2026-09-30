@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Herriman, UT | Home Pride Restoration and Cleaning"
-h1: "Smoke Damage Restoration in Herriman"
-meta_description: "24/7 smoke damage restoration in Herriman, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Smoke Damage Restoration in Herriman, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Smoke Damage Restoration in Herriman"
+meta_description: "24/7 emergency smoke damage restoration in Herriman, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "smoke damage restoration herriman"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Herriman? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Herriman sits at roughly 4,800 feet on the southwestern bench of the Salt Lake Valley, where the air is dry, the winds off the Oquirrh Mountains can shift fast, and a house fire leaves smoke residue that behaves differently than it does in wetter climates. That aridity means soot particles penetrate porous surfaces, drywall, ceiling texture, HVAC filter media, more deeply and more quickly than in humid regions, and the odor compounds that bond to those surfaces become harder to neutralize the longer they sit. If you're dealing with fire or smoke damage in Herriman's 84096 ZIP code, the clock matters more than most people realize.
 
 ## Why Herriman Homes Are Especially Vulnerable to Smoke Damage

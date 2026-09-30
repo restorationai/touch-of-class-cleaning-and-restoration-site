@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in Federal Way | National Restoration Construction"
-h1: "Water Damage Restoration in Federal Way"
-meta_description: "24/7 water damage restoration in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Water Damage Restoration in Federal Way | National Restoration Construction"
+h1: "24/7 Emergency Water Damage Restoration in Federal Way"
+meta_description: "24/7 emergency water damage restoration in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "water damage restoration federal way"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -18,6 +18,9 @@ service_display: "Water Damage Restoration"
 rendered: true
 hero: '/images/services/water-damage-restoration.webp'
 ---
+<!-- emergency-open -->
+**Water damage emergency in Federal Way? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Standing water doesn't wait. Within hours of a burst pipe, an overflowing appliance, or a roof breach, moisture is already wicking into drywall, saturating subfloor panels, and creating the warm, damp conditions mold needs to take hold. National Restoration Construction responds fast, typically on-site within 60–90 minutes, to stop the spread, extract the water, and dry your structure down to safe moisture levels before secondary damage compounds the cost.
 
 ## How we handle water damage

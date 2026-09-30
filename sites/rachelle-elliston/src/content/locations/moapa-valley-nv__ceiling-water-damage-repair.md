@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Moapa Valley, NV | Desert Valley Contracting Inc "
-h1: "Ceiling Water Damage Repair in Moapa Valley"
-meta_description: "24/7 ceiling water damage repair in Moapa Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+title: "Emergency Ceiling Water Damage Repair in Moapa Valley, NV | Desert Valley Contracting Inc "
+h1: "24/7 Emergency Ceiling Water Damage Repair in Moapa Valley"
+meta_description: "24/7 emergency ceiling water damage repair in Moapa Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "ceiling water damage repair moapa valley"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

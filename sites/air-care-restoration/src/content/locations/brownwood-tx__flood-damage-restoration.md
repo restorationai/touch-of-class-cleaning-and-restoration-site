@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Brownwood, TX | Air Care Restoration"
-h1: "Flood Damage Restoration in Brownwood"
-meta_description: "24/7 flood damage restoration in Brownwood, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Flood Damage Restoration in Brownwood, TX | Air Care Restoration"
+h1: "24/7 Emergency Flood Damage Restoration in Brownwood"
+meta_description: "24/7 emergency flood damage restoration in Brownwood, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "flood damage restoration brownwood"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "flood-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Brownwood? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 When Pecan Bayou rises after a hard rain, Brownwood homeowners often get less warning than they'd like, and the water that backs into crawlspaces and slab foundations doesn't wait for insurance calls to be made. Flood damage restoration here isn't the same job as it is in cities with basements and storm sewers built for volume. Brown County's clay-heavy soil and slab-on-grade construction mean water finds its way in and out differently, and that changes how fast a house needs to be dried before real damage sets in.
 
 ## Why Brownwood Properties See Flood Damage Issues

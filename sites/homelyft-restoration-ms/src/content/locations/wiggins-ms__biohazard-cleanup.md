@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Wiggins, MS | HomeLyft Restoration MS"
-h1: "Biohazard Cleanup in Wiggins"
-meta_description: "Biohazard cleanup in Wiggins, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Biohazard Cleanup in Wiggins, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Biohazard Cleanup in Wiggins"
+meta_description: "24/7 emergency biohazard cleanup in Wiggins, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "biohazard cleanup wiggins"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Wiggins? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something traumatic or hazardous happens inside a Wiggins home or property, the aftermath is rarely straightforward. Stone County's warm, humid climate means that biological material left unaddressed, even briefly, can accelerate microbial growth faster than most property owners expect, turning an already difficult situation into a compounding health and structural concern. HomeLyft Restoration MS responds to these calls with discretion, proper containment, and the certifications to handle infectious material safely and in compliance with Mississippi disposal regulations.
 
 ## Why Wiggins Properties Present Unique Biohazard Challenges

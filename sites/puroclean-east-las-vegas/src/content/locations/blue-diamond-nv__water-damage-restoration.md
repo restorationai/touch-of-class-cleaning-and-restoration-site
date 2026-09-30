@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Blue Diamond, NV | PuroClean of East Las Vegas"
-h1: "Water Damage Restoration in Blue Diamond"
-meta_description: "Water damage restoration in Blue Diamond, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Water Damage Restoration in Blue Diamond, NV | PuroClean of East Las Vegas"
+h1: "Emergency Water Damage Restoration in Blue Diamond"
+meta_description: "Emergency water damage restoration in Blue Diamond, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "water damage restoration blue diamond"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

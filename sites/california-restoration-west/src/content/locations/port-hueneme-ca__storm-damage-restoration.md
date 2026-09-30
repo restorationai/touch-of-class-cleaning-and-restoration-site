@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Port Hueneme, CA | California Restoration West "
-h1: "Storm Damage Restoration in Port Hueneme"
-meta_description: "24/7 storm damage restoration in Port Hueneme, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "24/7 Emergency Storm Damage Restoration in Port Hueneme, CA | California Restoration West "
+h1: "24/7 Emergency Storm Damage Restoration in Port Hueneme"
+meta_description: "24/7 emergency storm damage restoration in Port Hueneme, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "storm damage restoration port hueneme"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

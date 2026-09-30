@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Vandenberg AFB, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Vandenberg AFB"
-meta_description: "Board-up and tarping in Vandenberg AFB, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Vandenberg AFB, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Vandenberg AFB"
+meta_description: "Emergency board-up and tarping in Vandenberg AFB, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping vandenberg afb"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Vandenberg AFB? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Vandenberg AFB sits along a stretch of the Santa Barbara County coast where Pacific fog, salt air, and the occasional fierce onshore wind can turn a cracked window or a compromised roof into a much larger problem within hours. When a storm peels back shingles, a fire blows out glazing, or a break-in leaves a structure open to the elements, every hour the building stays unprotected accelerates damage, mold can begin colonizing wet framing in as little as 24 to 48 hours, and marine air speeds that process along. Coastal Restoration Services Inc, based in nearby Vandenberg Village, provides emergency board-up and tarping to secure properties on and around the base before secondary damage compounds the loss.
 
 ## Why Vandenberg AFB Properties Face Distinct Board-Up and Tarping Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Kent, WA | National Restoration Construction"
-h1: "Water Damage Restoration in Kent"
-meta_description: "24/7 water damage restoration in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Water Damage Restoration in Kent, WA | National Restoration Construction"
+h1: "24/7 Emergency Water Damage Restoration in Kent"
+meta_description: "24/7 emergency water damage restoration in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "water damage restoration kent"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Kent? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 A burst pipe under the kitchen sink, a water heater that gave out overnight, a roof leak that soaked through two floors during a King County rainstorm, whatever sent you here, the clock is already running. Water moves fast: it wicks into drywall within minutes, reaches floor joists within hours, and creates conditions for mold colonization in as little as 24–48 hours. National Restoration Construction dispatches from Federal Way, putting most Kent addresses within 60–90 minutes of a fully equipped crew, often faster if you're in the Panther Lake, East Hill, or downtown Kent corridor.
 
 ## Why Kent Properties See Water Damage So Often

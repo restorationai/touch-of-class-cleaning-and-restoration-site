@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Santa Margarita, CA | Coastal Restoration Services Inc"
-h1: "Storm Damage Restoration in Santa Margarita"
-meta_description: "Storm damage restoration in Santa Margarita, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Storm Damage Restoration in Santa Margarita, CA | Coastal Restoration Services Inc"
+h1: "Emergency Storm Damage Restoration in Santa Margarita"
+meta_description: "Emergency storm damage restoration in Santa Margarita, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "storm damage restoration santa margarita"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Santa Margarita? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Santa Margarita sits in a narrow valley corridor in the Santa Lucia foothills where storm systems funneling through the Salinas River drainage can arrive with surprising force, wind-driven rain, sudden debris flows off steep hillsides, and oak and pine limbs heavy enough to punch through rooflines. When that kind of weather hits, the damage isn't just cosmetic. Water finds every gap a falling branch opens, and in a town where many homes were built decades before current moisture-barrier standards, it can travel far inside a wall before anyone notices.
 
 ## Why Santa Margarita Properties See Elevated Storm Damage Risk

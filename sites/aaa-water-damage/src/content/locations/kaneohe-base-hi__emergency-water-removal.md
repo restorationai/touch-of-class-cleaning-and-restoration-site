@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Kaneohe Base, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Emergency Water Removal & Cleanup in Kaneohe Base"
+title: "24/7 Emergency Water Removal & Cleanup in Kaneohe Base, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Removal & Cleanup in Kaneohe Base"
 meta_description: "24/7 emergency water removal and cleanup in Kaneohe Base, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "emergency water removal kaneohe base"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Kaneohe Base? We answer 24/7.** Call now and our crew heads out to extract the water and start drying.
+
 Kaneohe Base sits on the windward side of Oahu, where trade winds push moisture-laden air against the Ko'olau Range and rainfall totals regularly exceed what most of the island sees. That persistent humidity means water that enters a structure here does not simply evaporate on its own. Whether it's a supply line failure in base housing, storm surge pushing under a slab, or a roof breach during a heavy Kona weather event, standing water in Kaneohe Base needs to come out fast, and it needs to come out completely.
 
 ## Why Kaneohe Base Properties Face Elevated Water Damage Risk

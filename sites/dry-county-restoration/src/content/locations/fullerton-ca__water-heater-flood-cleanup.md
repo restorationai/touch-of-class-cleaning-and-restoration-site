@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Heater Flood Cleanup in Fullerton, CA | Dry County Restoration"
-h1: "Water Heater Flood Cleanup in Fullerton"
-meta_description: "24/7 water heater flood cleanup in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "24/7 Emergency Water Heater Flood Cleanup in Fullerton, CA | Dry County Restoration"
+h1: "24/7 Emergency Water Heater Flood Cleanup in Fullerton"
+meta_description: "24/7 emergency water heater flood cleanup in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "water heater flood cleanup fullerton"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"

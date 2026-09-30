@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Evanston, IL | Dry Bros Water & Fire Restoration"
-h1: "Sewage Cleanup and Sanitization in Evanston"
-meta_description: "Sewage cleanup and sanitization in Evanston, IL. Insurance billing accepted. Call us now."
+title: "Emergency Sewage Cleanup and Sanitization in Evanston, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Evanston"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Evanston, IL. Insurance billing accepted. Call us now."
 primary_keyword: "sewage cleanup and sanitization evanston"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Evanston? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Evanston's combined sewer system, where storm runoff and sanitary waste share the same underground pipes, means that a heavy Lake Michigan storm can push raw sewage back through floor drains and basement fixtures with very little warning. When that happens, the contamination isn't just unpleasant; Category 3 "black water" carries bacteria, viruses, and parasites that colonize porous surfaces within hours. Dry Bros Water & Fire Restoration responds to sewage backup calls throughout Evanston, handling extraction, disinfection, and structural drying so the property is safe to occupy again.
 
 ## Why Evanston Properties See Sewage Backup Problems

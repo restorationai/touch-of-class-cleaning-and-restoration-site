@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Eagle Mountain, UT | Home Pride Restoration and Cleaning"
-h1: "Appliance Leak Cleanup in Eagle Mountain"
-meta_description: "24/7 appliance leak cleanup in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Appliance Leak Cleanup in Eagle Mountain, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Appliance Leak Cleanup in Eagle Mountain"
+meta_description: "24/7 emergency appliance leak cleanup in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "appliance leak cleanup eagle mountain"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Eagle Mountain? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Eagle Mountain has grown faster than almost any city in Utah County over the past decade, and that rapid build-out means thousands of homes in developments like Ranches and Pony Express are now hitting the age where appliances start to fail. A dishwasher supply line that weeps overnight, a washing machine hose that blows on laundry day, a refrigerator ice maker connection that drips behind the fridge for weeks, in Eagle Mountain's tightly built subdivisions, that water doesn't stay put. It travels under luxury vinyl plank, soaks into OSB subfloor, and wicks into adjacent walls before most homeowners realize anything is wrong. Call Home Pride Restoration and Cleaning at (801) 995-2437 the moment you find standing water, the first 24 hours determine whether this is a one-day dry-out or a multi-week rebuild.
 
 ## Why Eagle Mountain Homes See More Appliance Leak Damage Than You'd Expect

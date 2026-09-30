@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Burst Pipe Cleanup and Repair in Little Falls | Heritage Restoration LLC"
-h1: "Burst Pipe Cleanup and Repair in Little Falls"
-meta_description: "Burst pipe cleanup and repair in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Burst Pipe Cleanup and Repair in Little Falls | Heritage Restoration LLC"
+h1: "Emergency Burst Pipe Cleanup and Repair in Little Falls"
+meta_description: "Emergency burst pipe cleanup and repair in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "burst pipe cleanup and repair little falls"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"

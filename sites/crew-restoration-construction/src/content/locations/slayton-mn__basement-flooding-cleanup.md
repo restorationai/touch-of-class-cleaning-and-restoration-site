@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Slayton, MN | Crew Restoration & Construction"
-h1: "Basement Flooding Cleanup in Slayton"
-meta_description: "Basement flooding cleanup in Slayton, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Basement Flooding Cleanup in Slayton, MN | Crew Restoration & Construction"
+h1: "Emergency Basement Flooding Cleanup in Slayton"
+meta_description: "Emergency basement flooding cleanup in Slayton, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "basement flooding cleanup slayton"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"

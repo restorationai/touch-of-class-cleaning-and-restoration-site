@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Waveland, MS | HomeLyft Restoration MS"
-h1: "Fire Damage Restoration in Waveland"
-meta_description: "Fire damage restoration in Waveland, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Fire Damage Restoration in Waveland, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Fire Damage Restoration in Waveland"
+meta_description: "24/7 emergency fire damage restoration in Waveland, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "fire damage restoration waveland"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Waveland? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Waveland sits on the Mississippi Gulf Coast in a way that makes fire damage uniquely punishing, the same salt-laden humidity that rolls in off the Sound after a storm can trap smoke odor deep into wall cavities and insulation for weeks after the flames are out. If a fire has touched your home or business here, the window for effective restoration is shorter than most people realize, and the coastal climate makes every hour count. HomeLyft Restoration MS responds to fire calls throughout Waveland and the surrounding Hancock County area, bringing IICRC FSRT-certified fire and smoke restoration technicians to properties that need more than a cleanup crew.
 
 ## Why Waveland Properties Face Particular Challenges After a Fire

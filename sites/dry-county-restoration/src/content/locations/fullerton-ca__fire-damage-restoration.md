@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Fullerton, CA | Dry County Restoration"
-h1: "Fire Damage Restoration in Fullerton"
-meta_description: "24/7 fire damage restoration in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "24/7 Emergency Fire Damage Restoration in Fullerton, CA | Dry County Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Fullerton"
+meta_description: "24/7 emergency fire damage restoration in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "fire damage restoration fullerton"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Fullerton? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Fullerton sits in one of Southern California's older suburban corridors, where mid-century ranch homes and Craftsman bungalows built decades before modern fire codes still make up a significant share of the housing stock. When fire moves through one of these structures, whether it starts in a kitchen, a garage, or an aging electrical panel, the damage rarely stays where the flames did. Smoke travels through attic spaces, soot settles into original hardwood floors and plaster walls, and the water from suppression efforts soaks into materials that were never designed to shed it quickly. Dry County Restoration responds 24/7 from Corona to help Fullerton property owners stabilize, document, and restore after a fire.
 
 ## Why Fullerton's Housing Stock Complicates Fire Damage

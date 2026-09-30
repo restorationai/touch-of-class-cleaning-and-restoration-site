@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in Kenilworth | The Restoration Group"
-h1: "Water Damage Restoration in Kenilworth"
-meta_description: "24/7 water damage restoration in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Water Damage Restoration in Kenilworth | The Restoration Group"
+h1: "24/7 Emergency Water Damage Restoration in Kenilworth"
+meta_description: "24/7 emergency water damage restoration in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "water damage restoration kenilworth"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Kenilworth? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start drying your property.
+
 ## The clock starts the moment water touches your structure
 
 Standing water in a basement is obvious. What's harder to see is what happens in the hours after: water wicking up drywall, saturating insulation behind walls, and soaking into subfloor assemblies that will never fully dry on their own. Within 24 to 48 hours, secondary damage, swelling framing, delaminating hardwood, and the early stages of microbial growth, can turn a contained incident into a far larger claim. Water damage restoration is the disciplined, equipment-driven process of stopping that clock.

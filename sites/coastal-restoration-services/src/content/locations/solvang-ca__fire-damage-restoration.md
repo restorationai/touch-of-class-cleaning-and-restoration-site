@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Solvang, CA | Coastal Restoration Services Inc"
-h1: "Fire Damage Restoration in Solvang"
-meta_description: "Fire damage restoration in Solvang, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Fire Damage Restoration in Solvang, CA | Coastal Restoration Services Inc"
+h1: "Emergency Fire Damage Restoration in Solvang"
+meta_description: "Emergency fire damage restoration in Solvang, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "fire damage restoration solvang"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Solvang? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Solvang's storybook Danish architecture, the half-timbered facades, steep pitched roofs, and wood-heavy interiors that make the town visually distinct in Santa Barbara County, also makes fire damage here particularly destructive. Decorative wood cladding, exposed timber framing, and older plaster-and-lathe construction absorb smoke and char in ways that modern stick-frame homes simply don't. When a fire moves through a Solvang property, the damage is rarely just surface-level, and the restoration work has to account for materials and building methods that haven't been standard practice for decades. Coastal Restoration Services Inc responds to fire damage calls throughout Solvang and the surrounding Santa Ynez Valley.
 
 ## Why Solvang Properties Are Especially Vulnerable to Fire Damage

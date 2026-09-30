@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Hawaii Kai, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in Hawaii Kai"
-meta_description: "24/7 flood damage restoration in Hawaii Kai, HI. Call (808) 349-3407."
+title: "24/7 Emergency Flood Damage Restoration in Hawaii Kai, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in Hawaii Kai"
+meta_description: "24/7 emergency flood damage restoration in Hawaii Kai, HI. Call (808) 349-3407."
 primary_keyword: "flood damage restoration hawaii kai"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Hawaii Kai? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 When a Kona Low stalls south of the island chain, Hawaii Kai's low-lying marina lots and storm-drain networks can go from damp to flooded in a matter of hours. The salt-tinged runoff that pours off the slopes above Kalama Valley carries sediment, debris, and contaminants straight into garages, ground-floor living spaces, and crawl spaces, and in the humid trade-wind climate that defines life near Maunalua Bay, the window between a soaked subfloor and active mold colonization can be as short as 24 to 48 hours. When water is rising in your home, call AAA Water Damage Restoration & Carpet Care at (808) 349-3407.
 
 ## Why Hawaii Kai Properties Face Distinct Flood Risks

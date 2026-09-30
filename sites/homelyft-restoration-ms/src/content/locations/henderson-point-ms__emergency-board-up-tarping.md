@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Henderson Point, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Henderson Point"
-meta_description: "Board-up and tarping in Henderson Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Henderson Point, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Henderson Point"
+meta_description: "24/7 emergency board-up and tarping in Henderson Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping henderson point"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Henderson Point? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Henderson Point sits at the tip of a narrow peninsula between the Bay of St. Louis and the open Gulf, which means storm damage here doesn't arrive from one direction, it arrives from every direction at once. When a fast-moving Gulf system tears shingles loose, shatters a window, or leaves a wall exposed to salt-laden air, the window between the storm passing and secondary damage beginning is measured in hours, not days. HomeLyft Restoration MS responds from Gulfport to board up openings, tarp compromised roofs, and stop the clock on that secondary damage before the humidity and the next rain band finish what the storm started.
 
 ## Why Henderson Point Properties Face Elevated Board-Up and Tarping Risk

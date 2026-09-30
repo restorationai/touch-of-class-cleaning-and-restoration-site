@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in East Lake-Orient Park, FL | DRYCOR RESTORE"
-h1: "Smoke Damage Restoration in East Lake-Orient Park"
-meta_description: "24/7 smoke damage restoration in East Lake-Orient Park, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "Emergency Smoke Damage Restoration in East Lake-Orient Park | DRYCOR RESTORE"
+h1: "24/7 Emergency Smoke Damage Restoration in East Lake-Orient Park"
+meta_description: "24/7 emergency smoke damage restoration in East Lake-Orient Park, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "smoke damage restoration east lake-orient park"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

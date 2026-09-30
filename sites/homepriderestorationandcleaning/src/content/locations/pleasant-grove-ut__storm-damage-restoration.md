@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Pleasant Grove, UT | Home Pride Restoration and Cleaning"
-h1: "Storm Damage Restoration in Pleasant Grove"
-meta_description: "24/7 storm damage restoration in Pleasant Grove, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "Emergency Storm Damage Restoration in Pleasant Grove, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Storm Damage Restoration in Pleasant Grove"
+meta_description: "24/7 emergency storm damage restoration in Pleasant Grove, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "storm damage restoration pleasant grove"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Pleasant Grove? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 When a fast-moving storm rolls down the Wasatch Front and stalls over Utah Valley, Pleasant Grove tends to catch the worst of it. The city sits at the base of Mount Timpanogos, where cold canyon air funnels south along the foothills and collides with warmer valley air, a pattern that produces sudden microbursts, hail events, and wind gusts that routinely snap mature trees and strip roofing in a matter of minutes. If your home took a hit last night, the clock is already running on secondary damage.
 
 ## Why Pleasant Grove Properties See Elevated Storm Damage Risk

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Mililani Mauka, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Burst Pipe Cleanup and Repair in Mililani Mauka"
-meta_description: "24/7 burst pipe cleanup and repair in Mililani Mauka, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "Emergency Burst Pipe Cleanup and Repair in Mililani Mauka | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Mililani Mauka"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Mililani Mauka, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "burst pipe cleanup and repair mililani mauka"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Mililani Mauka? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Mililani Mauka sits at a higher elevation than most of Oahu, and that position comes with a plumbing reality that catches homeowners off guard: the community's pressurized water supply lines, combined with the temperature swings that roll through the central Oahu plateau on winter nights, can stress pipe joints and fittings in ways that flat coastal neighborhoods rarely experience. When a pipe lets go inside a home here, water moves fast through slab foundations and into the engineered wood flooring that dominates newer construction in the area. AAA Water Damage Restoration & Carpet Care responds around the clock, so the call you make at 2 a.m. gets the same crew and equipment as a call at noon.
 
 ## Why Mililani Mauka Properties See Burst Pipe Issues

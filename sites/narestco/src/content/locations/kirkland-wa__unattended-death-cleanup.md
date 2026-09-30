@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Unattended Death Cleanup in Kirkland, WA | National Restoration Construction"
-h1: "Unattended Death Cleanup in Kirkland"
-meta_description: "24/7 unattended death cleanup in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Unattended Death Cleanup in Kirkland, WA | National Restoration Construction"
+h1: "24/7 Emergency Unattended Death Cleanup in Kirkland"
+meta_description: "24/7 emergency unattended death cleanup in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "unattended death cleanup kirkland"
 secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased estate cleanup", "odor removal after death", "discreet death cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Unattended Death Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Kirkland? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Kirkland's mild but persistently damp climate, the kind that settles in off Lake Washington and lingers through the long gray stretch from October to April, means that when a home goes unattended for days or weeks, biological decomposition accelerates faster than in drier inland climates. That's a hard reality families and property managers face here, and it shapes everything about how this work needs to be done. National Restoration Construction has handled unattended death cleanup across the Eastside since 2004, and we approach each call with the discretion and technical precision the situation demands.
 
 ## Why Kirkland Homes Present Unique Challenges After an Unattended Death

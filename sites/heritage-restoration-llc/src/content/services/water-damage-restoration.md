@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in Little Falls | Heritage Restoration LLC"
-h1: "Water Damage Restoration in Little Falls"
-meta_description: "Water damage restoration in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in Little Falls | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in Little Falls"
+meta_description: "Emergency water damage restoration in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration little falls"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Little Falls? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Standing water doesn't wait. Within the first hour after a pipe bursts or a washing machine supply line fails, water is already wicking into drywall, migrating under hardwood, and saturating the subfloor beneath your feet, surfaces that can feel dry to the touch while holding enough moisture to feed mold growth within 24 to 48 hours. Water damage restoration is the race against that clock: getting the water out, drying the structure completely, and verifying with instruments, not guesswork, that the building is back to a safe moisture baseline.
 
 ## What Water Damage Restoration actually involves

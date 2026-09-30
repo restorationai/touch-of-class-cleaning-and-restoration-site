@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in East Brunswick, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in East Brunswick"
-meta_description: "24/7 smoke damage restoration in East Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "Emergency Smoke Damage Restoration in East Brunswick, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in East Brunswick"
+meta_description: "24/7 emergency smoke damage restoration in East Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration east brunswick"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in East Brunswick? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 When a kitchen fire tears through one of East Brunswick's 1960s split-levels off Old Bridge Turnpike, the smoke doesn't just blacken the ceiling above the stove, it travels. It rides the return-air ducts, seeps into the fiberglass insulation packed between floor joists, and settles into the finished basement that nearly every home in this zip code (08816) was built with. By the time the fire department clears the scene, odor molecules are already bonding to painted drywall, carpet padding, and the decades of accumulated particulate in ductwork that hasn't been replaced since the Carter administration. That's the starting point for smoke damage restoration in East Brunswick, not a surface wipe-down, but a systematic, room-by-room recovery.
 
 ## Why East Brunswick Homes Are Especially Vulnerable to Smoke Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Burst Pipe Cleanup and Repair in East Kapolei"
-meta_description: "24/7 burst pipe cleanup and repair in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "Emergency Burst Pipe Cleanup and Repair in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in East Kapolei"
+meta_description: "24/7 emergency burst pipe cleanup and repair in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "burst pipe cleanup and repair east kapolei"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in East Kapolei? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 East Kapolei sits in one of Oahu's fastest-growing residential corridors, and the same rapid development that brought thousands of new homes to the Ewa Plain also brought a patchwork of plumbing systems at different ages and pressure tolerances. When a pipe lets go here, whether behind a laundry room wall in a newer townhome or under a slab in a recently built single-family subdivision, the warm, humid air that defines Hawaii's climate accelerates everything: water spreads faster, materials stay wet longer, and secondary damage like mold colonization can begin within 24 to 48 hours of the initial break.
 
 ## Why East Kapolei Properties See Burst Pipe Issues

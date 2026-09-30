@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Draper? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Draper sits at the base of the Wasatch Front where the valley floor meets rapidly rising elevation, and that geography shapes how water damage unfolds here. Snowmelt from the peaks above Suncrest and Corner Canyon drains fast in spring, and when it finds a crack in a foundation or a saturated window well, it moves into a finished basement before most homeowners realize anything is wrong. FIX Restoration has been responding to exactly these situations across the Salt Lake Valley since 2012, and the team knows how quickly standing water turns from an inconvenience into a structural problem.
 
 ## Why Draper Properties Are Vulnerable to Water Intrusion

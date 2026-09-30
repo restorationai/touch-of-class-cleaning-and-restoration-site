@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Sunrise, FL | RestorationXpress "
-h1: "Flood Damage Restoration in Sunrise"
-meta_description: "Flood damage restoration in Sunrise, FL. Insurance billing accepted. Call (954) 932-5420."
+title: "Emergency Flood Damage Restoration in Sunrise, FL | RestorationXpress "
+h1: "Emergency Flood Damage Restoration in Sunrise"
+meta_description: "Emergency flood damage restoration in Sunrise, FL. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "flood damage restoration sunrise"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Sunrise? Call now for emergency service.** Our crew responds fast to pump out the water and stop the damage from spreading.
+
 Summer afternoons in Sunrise can drop several inches of rain in under an hour, and neighborhoods near the Everglades edge, including Welleby and Sawgrass Lakes, sit on flat, low-permeability soil that gives standing water nowhere to go. When that water pushes through a garage door seal, backs up through a floor drain, or overwhelms a sump system, it moves fast and quietly into wall cavities and under flooring before most homeowners realize the full extent of the damage. Getting water out quickly is only the first step; what happens in the 24–72 hours after a flood determines whether you're looking at a dryout or a gut-and-rebuild.
 
 ## Why Sunrise Properties See Flood Damage Issues

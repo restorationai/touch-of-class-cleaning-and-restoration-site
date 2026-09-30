@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Perth Amboy, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Perth Amboy"
-meta_description: "24/7 smoke damage restoration in Perth Amboy, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Perth Amboy, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Perth Amboy"
+meta_description: "24/7 emergency smoke damage restoration in Perth Amboy, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration perth amboy"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Perth Amboy? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 A kitchen fire in one of Perth Amboy's dense late-1800s frame three-families leaves more than char marks, the smoke works its way into horsehair plaster, original wood lath, and decades of paint layers in ways that modern drywall simply doesn't hold. The salt air off Raritan Bay doesn't help: that coastal humidity accelerates how deeply acidic smoke residue bonds to porous surfaces, and in a city where attached rowhomes share party walls from Downtown to Dunham Heights, soot and odor can migrate into neighboring units before the fire marshal has even cleared the scene. Getting the right crew on-site fast, and one that understands what these older buildings actually contain, is the difference between a livable home and one that smells like smoke six months later.
 
 ## Why Perth Amboy's Housing Stock Complicates Smoke Damage

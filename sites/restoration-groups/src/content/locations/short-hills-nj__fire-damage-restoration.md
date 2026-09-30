@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Short Hills, NJ | The Restoration Group"
-h1: "Fire Damage Restoration in Short Hills"
-meta_description: "24/7 fire damage restoration in Short Hills, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Fire Damage Restoration in Short Hills, NJ | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in Short Hills"
+meta_description: "24/7 emergency fire damage restoration in Short Hills, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "fire damage restoration short hills"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

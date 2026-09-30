@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Tacoma, WA | National Restoration Construction"
-h1: "Frozen Pipe Restoration in Tacoma"
-meta_description: "24/7 frozen pipe restoration in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Frozen Pipe Restoration in Tacoma, WA | National Restoration Construction"
+h1: "24/7 Emergency Frozen Pipe Restoration in Tacoma"
+meta_description: "24/7 emergency frozen pipe restoration in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "frozen pipe restoration tacoma"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Tacoma? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A pipe that freezes and thaws doesn't announce itself politely. One moment everything seems fine; the next, water is spreading across your subfloor, soaking insulation, or dripping through a ceiling. If that's where you are right now, or if a plumber just told you a burst pipe flooded your crawl space, National Restoration Construction is dispatched out of Federal Way and typically on-site in Tacoma within 60 to 90 minutes of your call.
 
 ## Why Tacoma Properties See Frozen Pipe Damage Every Winter

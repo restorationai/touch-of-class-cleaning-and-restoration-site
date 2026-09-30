@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Hurley, MS | HomeLyft Restoration MS"
-h1: "Storm Damage Restoration in Hurley"
-meta_description: "Storm damage restoration in Hurley, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Storm Damage Restoration in Hurley, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Storm Damage Restoration in Hurley"
+meta_description: "24/7 emergency storm damage restoration in Hurley, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "storm damage restoration hurley"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Hurley? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Hurley sits in the piney woods of Jackson County, close enough to the Gulf Coast that it catches the outer bands of Gulf storms yet far enough inland that homeowners sometimes underestimate how much damage a fast-moving squall line or a weakened hurricane can leave behind. When a storm tears through this part of Mississippi, snapping loblolly pines onto rooflines, driving rain through soffit vents, or dropping a wall of water that finds every gap in a crawl-space foundation, the clock starts immediately. Mold can begin colonizing wet framing within 24 to 48 hours, and saturated insulation under a house holds moisture for weeks if it isn't pulled and dried properly.
 
 ## Why Hurley Properties See Distinct Storm Damage Patterns

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Fulda, MN | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Fulda"
-meta_description: "Water damage restoration in Fulda, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Fulda, MN | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Fulda"
+meta_description: "Emergency water damage restoration in Fulda, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration fulda"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Fulda? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Fulda sits snugly between Fulda Lakes and Seven Mile Lake, and that proximity to open water is part of what makes this Murray County town such a pleasant place to live, and part of what makes water damage here move faster and hit harder than in drier inland communities. When a pipe bursts in late February or a sump pump fails during a spring thaw, the saturated ground around a lakeside property has nowhere to send the water, and it finds its way into basements, crawl spaces, and wall cavities within hours. Crew Restoration & Construction responds to water damage calls throughout the 56131 area, and we understand the specific conditions that make moisture intrusion in Fulda different from a generic water loss anywhere else.
 
 ## Why Fulda Properties See Water Damage Issues

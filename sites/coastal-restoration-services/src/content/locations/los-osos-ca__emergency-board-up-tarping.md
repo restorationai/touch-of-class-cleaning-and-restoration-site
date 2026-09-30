@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Los Osos, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Los Osos"
-meta_description: "Board-up and tarping in Los Osos, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Los Osos, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Los Osos"
+meta_description: "Emergency board-up and tarping in Los Osos, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping los osos"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Los Osos? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Los Osos sits in a coastal fog belt along the eastern shore of Morro Bay, where salt-laden marine air accelerates wood rot, corrodes fasteners, and keeps building materials perpetually damp. When a storm peels back roofing, a fire blows out windows, or a break-in leaves an exterior wall exposed, that moisture-rich environment turns a bad day into a structural crisis within hours, not days. Coastal Restoration Services Inc responds to those situations in Los Osos with board-up and tarping work calibrated for what the Central Coast actually throws at a building.
 
 ## Why Los Osos Properties See Board-Up and Tarping Emergencies

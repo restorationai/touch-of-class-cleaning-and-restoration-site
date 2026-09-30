@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Northborough, MA | Quality Contracting, Inc."
-h1: "Fire Damage Restoration in Northborough"
-meta_description: "Fire damage restoration in Northborough, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Fire Damage Restoration in Northborough, MA | Quality Contracting, Inc."
+h1: "Emergency Fire Damage Restoration in Northborough"
+meta_description: "Emergency fire damage restoration in Northborough, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "fire damage restoration northborough"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Northborough? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 A house fire in Northborough leaves more than char and ash behind. The smoke that rolls through a Colonial on a quiet street off Route 20 can travel through ductwork, settle into wall cavities, and coat surfaces two rooms away from where the flames never reached. Worcester County's cold winters compound the problem: homes sealed tight against the cold trap odor molecules and soot particulates that would otherwise dissipate, meaning the damage you smell weeks later is often as significant as what you see the morning after the fire department leaves.
 
 ## Why Northborough Homes Present Specific Challenges After a Fire

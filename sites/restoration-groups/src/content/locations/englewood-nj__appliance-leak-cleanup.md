@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Englewood, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in Englewood"
-meta_description: "24/7 appliance leak cleanup in Englewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Appliance Leak Cleanup in Englewood, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Englewood"
+meta_description: "24/7 emergency appliance leak cleanup in Englewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "appliance leak cleanup englewood"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Englewood? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 A refrigerator ice maker line that drips overnight, a washing machine hose that blows during a spin cycle, a dishwasher door seal that finally gives out, in Englewood's older housing stock, these small failures rarely stay small. The grand early-1900s homes on East Hill often have finished basements with hardwood subfloors and plaster walls that wick moisture in ways modern construction simply doesn't, and the dense postwar multifamily buildings in the Fourth Ward mean one appliance leak on the second floor can become a ceiling claim on the first. When water is moving through your home right now, call (855) 650-7422.
 
 ## Why Englewood Properties See More Appliance Leak Damage

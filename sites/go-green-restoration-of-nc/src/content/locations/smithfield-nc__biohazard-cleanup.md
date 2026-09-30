@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Smithfield, NC | Go Green Restoration of NC"
-h1: "Biohazard Cleanup in Smithfield"
-meta_description: "24/7 biohazard cleanup in Smithfield, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Biohazard Cleanup in Smithfield, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Biohazard Cleanup in Smithfield"
+meta_description: "24/7 emergency biohazard cleanup in Smithfield, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "biohazard cleanup smithfield"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

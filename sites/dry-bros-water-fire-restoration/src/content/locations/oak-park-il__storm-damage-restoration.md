@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Oak Park, IL | Dry Bros Water & Fire Restoration"
-h1: "Storm Damage Restoration in Oak Park"
-meta_description: "Storm damage restoration in Oak Park, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Storm Damage Restoration in Oak Park, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Oak Park"
+meta_description: "24/7 emergency storm damage restoration in Oak Park, IL. Insurance billing accepted. Call us now."
 primary_keyword: "storm damage restoration oak park"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Oak Park? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Oak Park sits in a narrow band where Lake Michigan's influence collides with open prairie air, producing some of the most volatile storm patterns in the Chicago metro. That combination, fast-moving squall lines, heavy wet snow loads in late spring, and the occasional derecho, hits a housing stock that is overwhelmingly pre-WWII. When a storm tears through, it isn't just shingles and gutters at stake; it's century-old slate roofs, balloon-frame construction, and basement drainage systems that were engineered long before today's rainfall intensities. If your home or commercial property has taken a hit, the window to prevent secondary damage is short.
 
 ## Why Oak Park Properties Face Distinct Storm Damage Risks

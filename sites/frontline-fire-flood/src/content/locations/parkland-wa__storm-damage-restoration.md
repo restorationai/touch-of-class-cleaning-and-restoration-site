@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Parkland, WA | Frontline Fire & Flood"
-h1: "Storm Damage Restoration in Parkland"
-meta_description: "24/7 storm damage restoration in Parkland, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Storm Damage Restoration in Parkland, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Storm Damage Restoration in Parkland"
+meta_description: "24/7 emergency storm damage restoration in Parkland, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "storm damage restoration parkland"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

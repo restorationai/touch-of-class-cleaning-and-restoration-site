@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Pismo Beach, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Pismo Beach"
-meta_description: "Board-up and tarping in Pismo Beach, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Pismo Beach, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Pismo Beach"
+meta_description: "Emergency board-up and tarping in Pismo Beach, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping pismo beach"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Pismo Beach? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Salt air off the Pacific doesn't just corrode patio furniture, it accelerates the deterioration of exposed wood, insulation, and structural framing within hours of a storm breach or fire. When a window shatters during a coastal wind event or a fire tears through a roof along the Pismo Beach shoreline, the window between the initial damage and secondary destruction is measured in tides, not days. Getting plywood over openings and poly tarps over compromised roofing before the next marine layer rolls in is the difference between a contained repair and a gut renovation.
 
 ## Why Pismo Beach Properties Are Especially Vulnerable After a Damage Event

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Hopkinton, MA | Quality Contracting, Inc."
-h1: "Fire Damage Restoration in Hopkinton"
-meta_description: "Fire damage restoration in Hopkinton, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Fire Damage Restoration in Hopkinton, MA | Quality Contracting, Inc."
+h1: "Emergency Fire Damage Restoration in Hopkinton"
+meta_description: "Emergency fire damage restoration in Hopkinton, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "fire damage restoration hopkinton"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Hopkinton? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Hopkinton carries a quiet, suburban calm, the kind of town where colonial-era capes and newer construction sit side by side along winding roads that predate the grid. When fire moves through a home here, that calm breaks fast. Smoke settles into plaster and timber framing within minutes, and the mix of older building materials common throughout Hopkinton means odor and residue can penetrate far deeper than they would in a newer build. Quality Contracting, Inc. responds to fire and smoke damage in Hopkinton and works to stop secondary damage before it compounds the loss.
 
 ## Why Hopkinton Homes Face Particular Challenges After a Fire

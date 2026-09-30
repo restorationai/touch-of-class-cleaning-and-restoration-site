@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Somis, CA | California Restoration West "
-h1: "Burst Pipe Cleanup and Repair in Somis"
-meta_description: "24/7 burst pipe cleanup and repair in Somis, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Somis, CA | California Restoration West "
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Somis"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Somis, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "burst pipe cleanup and repair somis"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

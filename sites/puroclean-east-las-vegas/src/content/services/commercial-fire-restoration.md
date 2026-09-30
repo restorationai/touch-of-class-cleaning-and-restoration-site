@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Commercial Fire Restoration in Las Vegas | PuroClean of East Las Vegas"
-h1: "Commercial Fire Restoration in Las Vegas"
-meta_description: "Commercial fire restoration in Las Vegas and surrounding areas. Insurance billing accepted. Call +17025513040."
+title: "Emergency Commercial Fire Restoration in Las Vegas | PuroClean of East Las Vegas"
+h1: "Emergency Commercial Fire Restoration in Las Vegas"
+meta_description: "Emergency commercial fire restoration in Las Vegas and surrounding areas. Insurance billing accepted. Call +17025513040."
 primary_keyword: "commercial fire restoration las vegas"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -17,6 +17,9 @@ service_slug: "commercial-fire-restoration"
 service_display: "Commercial Fire Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Las Vegas? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Smoke doesn't stop at the fire line. After a commercial fire, soot migrates through HVAC systems, settles into ceiling tiles three rooms away from the burn, and embeds in upholstery and inventory that never saw a flame. The visible char is the easy part, it's the invisible residue, the corrosive off-gases still reacting with metal surfaces, and the odor locked inside wall cavities that determine whether a business reopens in weeks or months. Commercial fire restoration is the disciplined process of stopping that secondary damage before it compounds.
 
 ## What commercial fire restoration actually involves

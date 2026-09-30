@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Sewickley Heights, PA | FireDEX Butler"
-h1: "Frozen Pipe Restoration in Sewickley Heights"
-meta_description: "24/7 frozen pipe restoration in Sewickley Heights, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "Emergency Frozen Pipe Restoration in Sewickley Heights, PA | FireDEX Butler"
+h1: "24/7 Emergency Frozen Pipe Restoration in Sewickley Heights"
+meta_description: "24/7 emergency frozen pipe restoration in Sewickley Heights, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "frozen pipe restoration sewickley heights"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"

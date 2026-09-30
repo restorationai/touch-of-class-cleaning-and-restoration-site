@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Wexford, PA | FireDEX Butler"
-h1: "Emergency Board-Up and Tarping in Wexford"
+title: "24/7 Emergency Board-Up and Tarping in Wexford, PA | FireDEX Butler"
+h1: "24/7 Emergency Board-Up and Tarping in Wexford"
 meta_description: "24/7 emergency board-up and tarping in Wexford, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "emergency board-up and tarping wexford"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

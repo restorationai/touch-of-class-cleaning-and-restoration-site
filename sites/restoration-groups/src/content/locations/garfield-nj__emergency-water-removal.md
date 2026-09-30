@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Garfield, NJ | The Restoration Group"
-h1: "Emergency Water Removal & Cleanup in Garfield"
+title: "24/7 Emergency Water Removal & Cleanup in Garfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Removal & Cleanup in Garfield"
 meta_description: "24/7 emergency water removal and cleanup in Garfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "emergency water removal garfield"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Garfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to extract the water and start drying.
+
 The Passaic River has flooded River Drive blocks more than once in recent memory, Ida in 2021 pushed water into basements across Garfield's western edge in ways that caught even long-time residents off guard. But riverfront flooding is only part of the picture. In a city built largely on early-1900s two- and three-family frame homes with cast-iron drain stacks, aging supply lines, and finished basements, water finds its way in through burst pipes, backed-up cleanouts, and storm-driven seepage just as often as it does through overbank events. When it happens, fast extraction and thorough drying are what separate a manageable repair from a months-long gut job.
 
 ## Why Garfield Properties See Water Damage So Often

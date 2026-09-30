@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Hattiesburg, MS | HomeLyft Restoration MS"
-h1: "Fire Damage Restoration in Hattiesburg"
-meta_description: "Fire damage restoration in Hattiesburg, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Fire Damage Restoration in Hattiesburg, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Fire Damage Restoration in Hattiesburg"
+meta_description: "24/7 emergency fire damage restoration in Hattiesburg, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "fire damage restoration hattiesburg"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Hattiesburg? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 A house fire in Hattiesburg hits differently than in drier climates. The Gulf South humidity that settles over Forrest County in the hours after a fire doesn't just linger, it drives smoke residue deeper into porous surfaces, accelerates secondary oxidation on metals, and gives mold a running start on char-dampened framing before restoration crews even arrive. HomeLyft Restoration MS holds IICRC FSRT (Fire & Smoke) certification and responds to fire damage calls across the Hattiesburg area, bringing the equipment and documented process that the scope of damage here actually demands.
 
 ## Why Hattiesburg Properties See Distinct Fire Damage Challenges

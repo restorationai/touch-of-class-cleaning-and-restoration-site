@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Safety Harbor, FL | DRYCOR RESTORE"
-h1: "Emergency Board-Up and Tarping in Safety Harbor"
+title: "24/7 Emergency Board-Up and Tarping in Safety Harbor, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Board-Up and Tarping in Safety Harbor"
 meta_description: "24/7 emergency board-up and tarping in Safety Harbor, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "emergency board-up and tarping safety harbor"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Safety Harbor? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Safety Harbor sits at the edge of Old Tampa Bay, where Gulf-driven storms can push wind and rain through a neighborhood in the time it takes to call your insurance company. When a hurricane-force gust peels back roofing, a fire leaves a wall open to the sky, or a break-in shatters a storefront window, the clock starts immediately. Humidity in Pinellas County rarely drops low enough to give an exposed structure a grace period, and secondary damage from moisture intrusion can compound a loss within hours. That is when a fast, properly secured board-up or tarp installation stops a manageable repair from becoming a full rebuild.
 
 ## Why Safety Harbor Properties Face Particular Exposure

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Edgerton, MN | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Edgerton"
-meta_description: "Biohazard cleanup in Edgerton, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Edgerton, MN | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Edgerton"
+meta_description: "Emergency biohazard cleanup in Edgerton, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup edgerton"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Edgerton? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Edgerton is a close-knit Pipestone County community where neighbors know each other by name and a difficult situation at one property can feel very public very quickly. When a home or business in the 56128 ZIP code needs biohazard cleanup, whether following an unattended death, a traumatic incident, or the discovery of infectious materials, the priority is moving quickly, quietly, and completely. Crew Restoration & Construction handles that work with the discretion this community deserves and the technical rigor the situation demands.
 
 ## Why Edgerton Properties Present Unique Biohazard Considerations

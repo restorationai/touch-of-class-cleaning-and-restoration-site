@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Sunnyvale, CA | Dry1 Out Restoration and Construction"
-h1: "Biohazard Cleanup in Sunnyvale"
-meta_description: "24/7 biohazard cleanup in Sunnyvale, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+title: "24/7 Emergency Biohazard Cleanup in Sunnyvale, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Biohazard Cleanup in Sunnyvale"
+meta_description: "24/7 emergency biohazard cleanup in Sunnyvale, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "biohazard cleanup sunnyvale"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Pipestone, MN | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Pipestone"
-meta_description: "Board-up and tarping in Pipestone, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Pipestone, MN | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Pipestone"
+meta_description: "Emergency board-up and tarping in Pipestone, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping pipestone"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Pipestone? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a late-season blizzard tears shingles off a century-old farmhouse on the edge of town, or a kitchen fire blows out the windows of a home near the Hiawatha Pageant grounds, every hour the structure sits open to southwest Minnesota's weather accelerates the damage. Pipestone's wide-open prairie exposure means wind-driven rain, snow, and sub-zero cold can push through a compromised roof or broken window far faster than in more sheltered regions, making prompt board-up and tarping the difference between a manageable repair and a gut renovation.
 
 ## Why Pipestone Properties Face Distinct Board-Up and Tarping Challenges

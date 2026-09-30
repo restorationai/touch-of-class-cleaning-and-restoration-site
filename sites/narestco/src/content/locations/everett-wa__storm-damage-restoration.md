@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Everett, WA | National Restoration Construction"
-h1: "Storm Damage Restoration in Everett"
-meta_description: "24/7 storm damage restoration in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Storm Damage Restoration in Everett, WA | National Restoration Construction"
+h1: "24/7 Emergency Storm Damage Restoration in Everett"
+meta_description: "24/7 emergency storm damage restoration in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "storm damage restoration everett"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Everett? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 A storm just tore through your property, and right now you're probably standing in a room with a wet ceiling, a tree on your roof, or a wall that looks wrong, and you're not sure what to call first: us or your insurance company. Call us first. We've been responding to storm damage across the Puget Sound region since 2004, and we can be on-site in Everett within 60–90 minutes of your call.
 
 ## Why Everett Properties See Storm Damage So Often

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Whitney, NV | PuroClean of East Las Vegas"
-h1: "Fire Damage Restoration in Whitney"
-meta_description: "Fire damage restoration in Whitney, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Fire Damage Restoration in Whitney, NV | PuroClean of East Las Vegas"
+h1: "Emergency Fire Damage Restoration in Whitney"
+meta_description: "Emergency fire damage restoration in Whitney, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "fire damage restoration whitney"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NV"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Whitney? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When a kitchen fire tears through a Whitney Ranch home or smoke from an electrical fault seeps into the walls of a Winterwood townhouse, the damage keeps spreading long after the flames are out. Soot particles are acidic, they etch metal fixtures, discolor grout, and permanently stain porous surfaces within 72 hours if left untreated. PuroClean of East Las Vegas works in Whitney regularly, and that proximity means a crew can be at your door along the Boulder Highway corridor or near the Whitney Recreation Center before the smell has a chance to settle into every room.
 
 ## Why Whitney Properties Face Distinct Fire Damage Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Kent, WA | National Restoration Construction"
-h1: "Frozen Pipe Restoration in Kent"
-meta_description: "24/7 frozen pipe restoration in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Frozen Pipe Restoration in Kent, WA | National Restoration Construction"
+h1: "24/7 Emergency Frozen Pipe Restoration in Kent"
+meta_description: "24/7 emergency frozen pipe restoration in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "frozen pipe restoration kent"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Kent? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 If a pipe froze and burst somewhere in your Kent home or building, water is moving right now, through walls, under flooring, into insulation. The window between a thawed pipe and a mold problem is shorter than most people expect: IICRC research puts the onset of mold colonization at 24–48 hours in wet building materials. National Restoration Construction dispatches from Federal Way, which puts our crews on Kent job sites typically within 60–90 minutes of your call. Here's what that response actually looks like.
 
 ## Why Kent Properties See Frozen Pipe Damage Every Winter

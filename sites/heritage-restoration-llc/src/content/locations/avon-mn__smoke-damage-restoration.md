@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Avon, MN | Heritage Restoration LLC"
-h1: "Smoke Damage Restoration in Avon"
-meta_description: "Smoke damage restoration in Avon, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Smoke Damage Restoration in Avon, MN | Heritage Restoration LLC"
+h1: "Emergency Smoke Damage Restoration in Avon"
+meta_description: "Emergency smoke damage restoration in Avon, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "smoke damage restoration avon"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

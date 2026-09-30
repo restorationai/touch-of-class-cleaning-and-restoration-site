@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in South Jordan, UT | FIX Restoration"
-h1: "Water Damage Restoration in South Jordan"
-meta_description: "Water damage restoration in South Jordan, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Damage Restoration in South Jordan, UT | FIX Restoration"
+h1: "Emergency Water Damage Restoration in South Jordan"
+meta_description: "Emergency water damage restoration in South Jordan, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water damage restoration south jordan"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in South Jordan? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 South Jordan sits at the base of the Wasatch Front where snowmelt, clay-heavy soils, and a rapidly expanding housing stock create water damage conditions that are genuinely different from what you find elsewhere along the Wasatch Front corridor. When a pipe bursts behind a finished basement wall or a water heater fails overnight, the moisture moves fast through the engineered lumber and spray-foam cavities common in the area's newer construction, and it does not wait for a convenient hour to cause serious structural damage. FIX Restoration has been handling these losses across Utah since 2012, and the team knows what South Jordan's specific building patterns demand.
 
 ## Why South Jordan Properties See Water Damage Issues

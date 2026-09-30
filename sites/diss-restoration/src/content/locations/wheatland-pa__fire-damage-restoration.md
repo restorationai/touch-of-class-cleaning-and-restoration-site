@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Wheatland, PA | DISS Restoration"
-h1: "Fire Damage Restoration in Wheatland"
-meta_description: "24/7 fire damage restoration in Wheatland, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Fire Damage Restoration in Wheatland, PA | DISS Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Wheatland"
+meta_description: "24/7 emergency fire damage restoration in Wheatland, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "fire damage restoration wheatland"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Wheatland? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Wheatland sits in Mercer County along the Shenango River valley, where a significant share of the housing stock dates to the steel-era building boom of the early-to-mid twentieth century. Those older wood-frame and brick structures burn differently than modern construction, and the smoke and soot they produce can penetrate deeper into wall cavities, subflooring, and ductwork than most homeowners expect. When fire damage strikes a Wheatland property, the window for limiting secondary damage is short, and the structural complexity of the older homes here makes professional assessment critical from the first hour.
 
 ## Why Wheatland Properties Face Distinct Fire Damage Challenges

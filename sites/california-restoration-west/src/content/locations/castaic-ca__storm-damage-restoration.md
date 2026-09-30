@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Castaic, CA | California Restoration West "
-h1: "Storm Damage Restoration in Castaic"
-meta_description: "24/7 storm damage restoration in Castaic, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "24/7 Emergency Storm Damage Restoration in Castaic, CA | California Restoration West "
+h1: "24/7 Emergency Storm Damage Restoration in Castaic"
+meta_description: "24/7 emergency storm damage restoration in Castaic, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "storm damage restoration castaic"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Castaic? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Castaic sits in a narrow mountain pass where the Santa Clara River corridor funnels wind and weather in ways that catch property owners off guard. When a fast-moving Pacific storm rolls through the Tehachapi range and drops into the Santa Clarita Valley, Castaic takes the brunt before conditions ease further south. High-velocity gusts strip roofing material, drive rain through window frames, and knock mature oaks and pines onto structures with little warning. When that happens, the damage clock starts immediately, and what looks like a surface problem at first light can be a saturated wall cavity or compromised structural sheathing by afternoon.
 
 ## Why Castaic Properties See Elevated Storm Damage Risk

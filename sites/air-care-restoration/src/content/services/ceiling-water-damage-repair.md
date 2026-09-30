@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Ceiling Water Damage Repair in Abilene | Air Care Restoration"
-h1: "Ceiling Water Damage Repair in Abilene"
-meta_description: "24/7 ceiling water damage repair in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Ceiling Water Damage Repair in Abilene | Air Care Restoration"
+h1: "24/7 Emergency Ceiling Water Damage Repair in Abilene"
+meta_description: "24/7 emergency ceiling water damage repair in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "ceiling water damage repair abilene"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "ceiling-water-damage-repair"
 service_display: "ceiling-water-damage-repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water coming through the ceiling in Abilene? We answer 24/7.** Call now and our crew heads out to stop the leak damage and start drying.
+
 A brown ring spreading across the drywall, a soft spot that gives when you press it, or an actual drip landing in a bucket all mean the same thing: water has been sitting inside your ceiling assembly long enough to saturate the drywall paper and start working on the framing above it. Ceiling leaks rarely announce themselves the moment they start. By the time a stain or sag is visible, the insulation and joists behind it have often been wet for days, and drywall can begin supporting mold growth within 24 to 48 hours of sustained moisture exposure. Waiting to see if it dries on its own usually costs more than calling it in.
 
 ## What ceiling water damage repair actually involves

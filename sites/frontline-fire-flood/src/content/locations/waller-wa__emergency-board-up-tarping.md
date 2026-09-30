@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Waller, WA | Frontline Fire & Flood"
-h1: "Emergency Board-Up and Tarping in Waller"
+title: "24/7 Emergency Board-Up and Tarping in Waller, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Board-Up and Tarping in Waller"
 meta_description: "24/7 emergency board-up and tarping in Waller, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "emergency board-up and tarping waller"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

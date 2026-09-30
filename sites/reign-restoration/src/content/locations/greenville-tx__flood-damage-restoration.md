@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Greenville, TX | Reign Restoration"
-h1: "Flood Damage Restoration in Greenville"
-meta_description: "24/7 flood damage restoration in Greenville, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Flood Damage Restoration in Greenville, TX | Reign Restoration"
+h1: "24/7 Emergency Flood Damage Restoration in Greenville"
+meta_description: "24/7 emergency flood damage restoration in Greenville, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "flood damage restoration greenville"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

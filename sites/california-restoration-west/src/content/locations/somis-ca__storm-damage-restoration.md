@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Somis, CA | California Restoration West "
-h1: "Storm Damage Restoration in Somis"
-meta_description: "24/7 storm damage restoration in Somis, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "24/7 Emergency Storm Damage Restoration in Somis, CA | California Restoration West "
+h1: "24/7 Emergency Storm Damage Restoration in Somis"
+meta_description: "24/7 emergency storm damage restoration in Somis, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "storm damage restoration somis"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Somis? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Somis sits in a narrow agricultural corridor between the Santa Monica Mountains and the Topatopa range, where storm systems that funnel through Conejo Grade and the Las Posas Valley can arrive with surprising force. Winter atmospheric rivers drop heavy rain on hillside avocado and citrus groves whose root systems loosen already-clay-heavy soils, sending runoff straight toward the low-lying ranch properties and residential parcels that define the area. When that happens, the damage isn't just cosmetic: saturated ground, wind-driven debris, and downed branches from mature trees create a layered problem that needs a structured response, not just a crew with tarps. California Restoration West is available around the clock and can be reached at (805) 290-7292.
 
 ## Why Somis Properties See Distinctive Storm Damage

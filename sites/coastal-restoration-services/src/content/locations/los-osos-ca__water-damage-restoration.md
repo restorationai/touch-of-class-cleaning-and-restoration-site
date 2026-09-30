@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Los Osos, CA | Coastal Restoration Services Inc"
-h1: "Water Damage Restoration in Los Osos"
-meta_description: "Water damage restoration in Los Osos, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Water Damage Restoration in Los Osos, CA | Coastal Restoration Services Inc"
+h1: "Emergency Water Damage Restoration in Los Osos"
+meta_description: "Emergency water damage restoration in Los Osos, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "water damage restoration los osos"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Los Osos? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Los Osos sits at the edge of Morro Bay estuary, where marine air rolls in off the Pacific nearly every afternoon and the water table under much of the community sits unusually high for a Central Coast town. That combination, persistent humidity, saturated soils, and a housing stock that includes a significant number of older wood-frame homes built before modern moisture barriers were standard, means a burst pipe, a slow slab leak, or a backed-up drain can escalate faster here than it would inland. Coastal Restoration Services Inc responds to water damage calls throughout Los Osos, working quickly to stop the spread before saturated subfloors and wall cavities become a longer, more expensive problem.
 
 ## Why Los Osos Properties See Water Damage Issues

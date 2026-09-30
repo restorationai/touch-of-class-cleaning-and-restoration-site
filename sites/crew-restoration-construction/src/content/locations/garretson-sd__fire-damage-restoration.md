@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Garretson, SD | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Garretson"
-meta_description: "Fire damage restoration in Garretson, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Garretson, SD | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Garretson"
+meta_description: "Emergency fire damage restoration in Garretson, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration garretson"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Garretson? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 A house fire along the bluffs near Palisades State Park or tucked into a quiet street in Downtown Garretson leaves behind more than charred walls, it leaves behind a particular kind of smoke that clings to Sioux quartzite foundations, seeps into century-old cellar joists, and travels through forced-air ductwork long after the flames are out. Crew Restoration & Construction responds to fire damage calls throughout the 57030 ZIP code, moving quickly from our Sioux Falls base to assess the full scope of loss before secondary damage compounds the original event.
 
 ## Why Garretson Homes Face Distinct Fire Damage Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Heater Flood Cleanup in Troy, MI | Flood Solutions inc"
-h1: "Water Heater Flood Cleanup in Troy"
-meta_description: "Water heater flood cleanup in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Water Heater Flood Cleanup in Troy, MI | Flood Solutions inc"
+h1: "Emergency Water Heater Flood Cleanup in Troy"
+meta_description: "Emergency water heater flood cleanup in Troy, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "water heater flood cleanup troy"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "water-heater-flood-cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Troy? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 A water heater that lets go overnight can push dozens of gallons across a finished basement floor before anyone notices the smell of standing water in the morning. In Troy, where many split-levels and ranch homes built through the 1970s and 1980s sit on slab-on-grade or shallow basement foundations, that water has nowhere to drain quickly, it pools, it wicks into drywall, and it finds the seams in vinyl flooring before the sun comes up. Flood Solutions Inc has been responding to exactly this kind of loss since 1996, and the work in Troy has its own character that generic restoration advice simply does not cover.
 
 ## Why Troy Properties See Water Heater Damage Differently

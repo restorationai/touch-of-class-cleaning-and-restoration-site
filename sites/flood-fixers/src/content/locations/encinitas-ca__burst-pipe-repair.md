@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Encinitas, CA | Flood Fixers"
-h1: "Burst Pipe Cleanup and Repair in Encinitas"
-meta_description: "24/7 burst pipe cleanup and repair in Encinitas, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "Emergency Burst Pipe Cleanup and Repair in Encinitas, CA | Flood Fixers"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Encinitas"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Encinitas, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "burst pipe cleanup and repair encinitas"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Encinitas? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 The Pacific Coast Highway corridor through Encinitas sees more burst pipe calls in January and February than any other stretch of coastal North County, not because of freezing temperatures, but because of the dramatic swing between dry Santa Ana conditions and the first heavy rains of the season. Pipes that sat under-pressured through a long dry spell can fail suddenly when demand spikes and soil shifts. When a line lets go inside a craftsman bungalow off Leucadia Boulevard or under the slab of a newer build near Moonlight Beach, the clock starts immediately. Flood Fixers dispatches from San Diego and can have a crew at your door in 60–90 minutes.
 
 ## Why Encinitas Properties Are Vulnerable to Burst Pipes

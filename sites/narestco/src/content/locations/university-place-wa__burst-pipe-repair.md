@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in University Place, WA | National Restoration Construction"
-h1: "Burst Pipe Cleanup and Repair in University Place"
-meta_description: "24/7 burst pipe cleanup and repair in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "Emergency Burst Pipe Cleanup and Repair in University Place | National Restoration Construction"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in University Place"
+meta_description: "24/7 emergency burst pipe cleanup and repair in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "burst pipe cleanup and repair university place"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in University Place? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 The ramblers and split-levels that fill University Place's neighborhoods from Beckonridge to the Narrows View bluff were built in the 1960s and '70s, and a lot of their original galvanized supply lines are still in the walls. When one of those lines finally lets go on a cold January night, water can be sheeting across a crawl space or soaking into a subfloor for hours before anyone notices the pressure drop. National Restoration Construction reaches University Place from Federal Way in roughly 30–45 minutes, and that window matters when standing water is already working its way into floor joists.
 
 ## Why University Place Homes Are Prone to Burst Pipe Events

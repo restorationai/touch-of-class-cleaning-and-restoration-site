@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Des Plaines, IL | Dry Bros Water & Fire Restoration"
-h1: "Basement Flooding Cleanup in Des Plaines"
-meta_description: "Basement flooding cleanup in Des Plaines, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Basement Flooding Cleanup in Des Plaines, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Basement Flooding Cleanup in Des Plaines"
+meta_description: "24/7 emergency basement flooding cleanup in Des Plaines, IL. Insurance billing accepted. Call us now."
 primary_keyword: "basement flooding cleanup des plaines"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Albany, MN | Heritage Restoration LLC"
-h1: "Flood Damage Restoration in Albany"
-meta_description: "Flood damage restoration in Albany, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Flood Damage Restoration in Albany, MN | Heritage Restoration LLC"
+h1: "Emergency Flood Damage Restoration in Albany"
+meta_description: "Emergency flood damage restoration in Albany, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "flood damage restoration albany"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

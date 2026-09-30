@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Los Berros, CA | Coastal Restoration Services Inc"
-h1: "Storm Damage Restoration in Los Berros"
-meta_description: "Storm damage restoration in Los Berros, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Storm Damage Restoration in Los Berros, CA | Coastal Restoration Services Inc"
+h1: "Emergency Storm Damage Restoration in Los Berros"
+meta_description: "Emergency storm damage restoration in Los Berros, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "storm damage restoration los berros"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Los Berros? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Los Berros sits in a narrow valley corridor in San Luis Obispo County where Pacific storm systems funnel inland off the coast, dropping concentrated rainfall on properties that often have little warning before creek levels rise and wind-driven debris starts moving. When a storm rolls through this stretch of the Central Coast, the damage can stack up fast, torn roofing, downed trees pressing against structures, saturated soil undermining foundations, and standing water inside living spaces before the rain has even stopped. Coastal Restoration Services Inc responds to storm damage calls throughout this area from our base in Vandenberg Village, bringing the equipment and crew to start stabilizing your property the same day you call at (805) 345-7440.
 
 ## Why Los Berros Properties See Concentrated Storm Damage

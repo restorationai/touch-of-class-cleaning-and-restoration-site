@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Harding, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Harding"
-meta_description: "Fire damage restoration in Harding, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Harding, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Harding"
+meta_description: "Emergency fire damage restoration in Harding, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration harding"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Harding? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Harding sits in Morrison County, where winters are long and heating systems work hard from October through April. When a furnace malfunction, chimney fire, or electrical fault ignites a home during those cold months, the damage compounds quickly: smoke travels through forced-air ductwork, soot settles into every corner, and the sub-zero temperatures outside make ventilating a fire-damaged structure a careful, deliberate process. Heritage Restoration LLC holds IICRC FSRT (Fire and Smoke Restoration) certification and responds to fire losses throughout Morrison County, including Harding, from our base in Little Falls.
 
 ## Why Harding Properties Face Particular Fire Damage Challenges

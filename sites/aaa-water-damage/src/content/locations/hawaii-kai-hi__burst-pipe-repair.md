@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Hawaii Kai, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Burst Pipe Cleanup and Repair in Hawaii Kai"
-meta_description: "24/7 burst pipe cleanup and repair in Hawaii Kai, HI. Call (808) 349-3407."
+title: "Emergency Burst Pipe Cleanup and Repair in Hawaii Kai, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Hawaii Kai"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Hawaii Kai, HI. Call (808) 349-3407."
 primary_keyword: "burst pipe cleanup and repair hawaii kai"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

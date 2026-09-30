@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Storm Damage Restoration in American Fork | FIX Restoration"
-h1: "Storm Damage Restoration in American Fork"
-meta_description: "Storm damage restoration in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Storm Damage Restoration in American Fork | FIX Restoration"
+h1: "Emergency Storm Damage Restoration in American Fork"
+meta_description: "Emergency storm damage restoration in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "storm damage restoration american fork"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "storm-damage-restoration"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in American Fork? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 A storm can leave a roof open to the sky, a tree pinning a wall, and standing water spreading across hardwood floors, all at the same time. What makes storm damage uniquely complicated isn't any single problem; it's the layered sequence of them. Wind lifts shingles, rain follows through the gap, and within 24 to 48 hours, the moisture that soaked into framing and insulation is already creating conditions for mold. Getting the sequence of repairs right, and documented correctly for your insurance carrier, is what storm damage restoration actually demands.
 
 ## What Storm Damage Restoration actually involves

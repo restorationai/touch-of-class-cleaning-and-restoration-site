@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Solana Beach, CA | Flood Fixers"
-h1: "Flood Damage Restoration in Solana Beach"
-meta_description: "24/7 flood damage restoration in Solana Beach, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "24/7 Emergency Flood Damage Restoration in Solana Beach, CA | Flood Fixers"
+h1: "24/7 Emergency Flood Damage Restoration in Solana Beach"
+meta_description: "24/7 emergency flood damage restoration in Solana Beach, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "flood damage restoration solana beach"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

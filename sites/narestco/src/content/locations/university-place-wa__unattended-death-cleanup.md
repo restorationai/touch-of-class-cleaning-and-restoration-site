@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Unattended Death Cleanup in University Place, WA | National Restoration Construction"
-h1: "Unattended Death Cleanup in University Place"
-meta_description: "24/7 unattended death cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "Emergency Unattended Death Cleanup in University Place, WA | National Restoration Construction"
+h1: "24/7 Emergency Unattended Death Cleanup in University Place"
+meta_description: "24/7 emergency unattended death cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "unattended death cleanup university place"
 secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased estate cleanup", "odor removal after death", "discreet death cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Unattended Death Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in University Place? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 University Place's quiet residential streets, many lined with the same 1960s and '70s ramblers that have housed the same families for decades, can make an unattended death especially difficult to discover. Homes in neighborhoods like Chambers Creek and Sunset Terrace are often occupied by older, single residents whose daily routines go unnoticed by neighbors for days or even weeks. When a death goes undiscovered, time is the critical variable. National Restoration Construction responds to calls in the 98466 and 98467 ZIP codes with the discretion and technical training this situation demands.
 
 ## Why University Place Homes Present Specific Challenges After an Unattended Death

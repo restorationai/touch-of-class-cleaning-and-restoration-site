@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Durham, NC | Go Green Restoration of NC"
-h1: "Emergency Water Removal & Cleanup in Durham"
+title: "24/7 Emergency Water Removal & Cleanup in Durham, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Water Removal & Cleanup in Durham"
 meta_description: "24/7 emergency water removal & cleanup in Durham, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "emergency water removal & cleanup durham"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]

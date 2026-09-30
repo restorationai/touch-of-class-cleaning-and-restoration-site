@@ -20,6 +20,9 @@ state: "MI"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Chesterfield? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Chesterfield Township sits at the edge of Macomb County where the clay-heavy soils and proximity to Lake St. Clair's drainage basin make standing water a recurring reality, not just a freak event. When a sump pump fails during a spring thaw or a basement drain backs up after a heavy rain, water spreads fast across finished floors and into wall cavities before most homeowners realize the full extent of the damage. Flood Solutions Inc. has been responding to exactly these situations across the Macomb County area since 1996, and the team is familiar with what Chesterfield's soil conditions and housing stock actually do to a structure when water gets in and needs to be removed fast.
 
 ## Why Chesterfield Properties See Water Damage Issues

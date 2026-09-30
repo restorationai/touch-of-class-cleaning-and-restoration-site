@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Sunrise Manor, NV | PuroClean of East Las Vegas"
-h1: "Biohazard Cleanup in Sunrise Manor"
-meta_description: "Biohazard cleanup in Sunrise Manor, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Biohazard Cleanup in Sunrise Manor, NV | PuroClean of East Las Vegas"
+h1: "Emergency Biohazard Cleanup in Sunrise Manor"
+meta_description: "Emergency biohazard cleanup in Sunrise Manor, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "biohazard cleanup sunrise manor"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Sunrise Manor? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 When something traumatic or hazardous happens inside a Sunrise Manor home, whether near the East Charleston corridor's older rental stock or in a quieter street off Nellis Meadows, the last thing a family should have to manage is the cleanup. Biohazard situations carry real health risks from bloodborne pathogens, infectious materials, and sharps, and they require trained technicians, proper containment, and regulated disposal. The PuroClean of East Las Vegas team handles that entire process with discretion, so the people involved can focus on what actually matters.
 
 ## Why Sunrise Manor Properties Present Unique Biohazard Challenges

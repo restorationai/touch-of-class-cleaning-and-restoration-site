@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Lumberton, MS | HomeLyft Restoration MS"
-h1: "Storm Damage Restoration in Lumberton"
-meta_description: "Storm damage restoration in Lumberton, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Storm Damage Restoration in Lumberton, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Storm Damage Restoration in Lumberton"
+meta_description: "24/7 emergency storm damage restoration in Lumberton, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "storm damage restoration lumberton"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Lumberton? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Lamar County sits squarely in the path of Gulf-driven storm systems that funnel north through the pine belt, and Lumberton takes some of the hardest hits, tornadoes, tropical remnants, and straight-line wind events that can drop mature longleaf pines across rooflines before the radar even updates on your phone. When that happens, the window between the storm passing and secondary water damage soaking into your framing, insulation, and flooring is measured in hours, not days. HomeLyft Restoration MS responds to storm damage calls across Lumberton and surrounding Lamar County, bringing the equipment and IICRC-certified expertise to stabilize your property fast.
 
 ## Why Lumberton Properties See Elevated Storm Damage Risk

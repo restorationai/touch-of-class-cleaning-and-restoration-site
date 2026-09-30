@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst & Frozen Pipes in Sandy Valley, NV | PuroClean of East Las Vegas"
-h1: "Burst & Frozen Pipes in Sandy Valley"
-meta_description: "Burst & frozen pipes in Sandy Valley, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Burst & Frozen Pipes in Sandy Valley, NV | PuroClean of East Las Vegas"
+h1: "Emergency Burst & Frozen Pipes in Sandy Valley"
+meta_description: "Emergency burst & frozen pipes in Sandy Valley, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "burst & frozen pipes sandy valley"
 secondary_keywords: []
 search_intent: "local_specialty"

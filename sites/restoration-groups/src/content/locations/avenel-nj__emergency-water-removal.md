@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Avenel, NJ | The Restoration Group"
-h1: "Emergency Water Removal & Cleanup in Avenel"
+title: "24/7 Emergency Water Removal & Cleanup in Avenel, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Removal & Cleanup in Avenel"
 meta_description: "24/7 emergency water removal & cleanup in Avenel, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "emergency water removal & cleanup avenel"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]

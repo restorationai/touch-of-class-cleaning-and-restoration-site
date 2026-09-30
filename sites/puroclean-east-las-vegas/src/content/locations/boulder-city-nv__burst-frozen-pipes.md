@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst & Frozen Pipes in Boulder City, NV | PuroClean of East Las Vegas"
-h1: "Burst & Frozen Pipes in Boulder City"
-meta_description: "Burst & frozen pipes in Boulder City, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Burst & Frozen Pipes in Boulder City, NV | PuroClean of East Las Vegas"
+h1: "Emergency Burst & Frozen Pipes in Boulder City"
+meta_description: "Emergency burst & frozen pipes in Boulder City, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "burst & frozen pipes boulder city"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -20,6 +20,9 @@ state: "NV"
 service_display: "Burst & Frozen Pipes"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Boulder City? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 Boulder City sits in one of Nevada's more climatically deceptive pockets: daytime temperatures in winter can feel mild, but overnight lows near Lake Mead National Recreation Area regularly dip into the mid-20s°F, cold enough to freeze supply lines in homes that were never insulated for hard freezes. When a pipe lets go, whether it's a copper line behind a plaster wall in the Historic District or a PVC branch under a slab in Del Prado, the water doesn't wait for business hours. PuroClean of East Las Vegas responds to burst and frozen pipe calls throughout Boulder City, handling everything from emergency water extraction to structural drying and repairs.
 
 ## Why Boulder City Properties See Burst and Frozen Pipe Issues

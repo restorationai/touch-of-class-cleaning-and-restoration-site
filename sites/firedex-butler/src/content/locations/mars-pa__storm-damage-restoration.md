@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Mars, PA | FireDEX Butler"
-h1: "Storm Damage Restoration in Mars"
-meta_description: "24/7 storm damage restoration in Mars, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Storm Damage Restoration in Mars, PA | FireDEX Butler"
+h1: "24/7 Emergency Storm Damage Restoration in Mars"
+meta_description: "24/7 emergency storm damage restoration in Mars, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "storm damage restoration mars"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Mars? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 When a fast-moving storm cell rolls through Butler County and stalls over the Route 228 corridor, Mars takes the hit differently than most of its neighbors. Breakneck Creek can jump its banks within hours of a heavy rain event, putting low-lying blocks of Mars Borough under water before residents have had time to move valuables off the floor. Add the region's mature tree canopy, the same trees that make Adams Township's neighborhoods feel established, and you have a recipe for roof punctures, crushed gutters, and downed limbs that drive water straight into attics and finished basements. FireDEX Butler has been working these storms since 1981, and we answer calls around the clock.
 
 ## Why Mars Properties See Distinct Storm Damage Patterns

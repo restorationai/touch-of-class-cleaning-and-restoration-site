@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Harrisburg, SD | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Harrisburg"
-meta_description: "Biohazard cleanup in Harrisburg, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Harrisburg, SD | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Harrisburg"
+meta_description: "Emergency biohazard cleanup in Harrisburg, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup harrisburg"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Harrisburg? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Harrisburg is one of the fastest-growing communities south of Sioux Falls, and that growth brings a reality most new subdivisions don't advertise: when something goes wrong inside a home, a death, an injury, or a situation involving infectious materials, the people left to handle it are neighbors, family members, and property managers who weren't trained for it. Biohazard cleanup in the 57032 ZIP code requires more than a mop and a strong stomach. It requires licensed waste disposal, EPA-compliant disinfection, and a crew that understands how to move through a home with discretion while the rest of the street goes about its day.
 
 ## Why Harrisburg's Housing Stock Shapes Biohazard Response

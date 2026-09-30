@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Ceiling Water Damage Repair in Freeport | Veterans Remediation & Restoration "
-h1: "Ceiling Water Damage Repair in Freeport"
-meta_description: "24/7 ceiling water damage repair in Freeport and surrounding areas. Insurance billing accepted. Call (337) 344-1248."
+title: "24/7 Emergency Ceiling Water Damage Repair in Freeport | Veterans Remediation & Restoration "
+h1: "24/7 Emergency Ceiling Water Damage Repair in Freeport"
+meta_description: "24/7 emergency ceiling water damage repair in Freeport and surrounding areas. Insurance billing accepted. Call (337) 344-1248."
 primary_keyword: "ceiling water damage repair freeport"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

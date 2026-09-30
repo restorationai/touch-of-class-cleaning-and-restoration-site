@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Wylie, TX | Reign Restoration"
-h1: "Storm Damage Restoration in Wylie"
-meta_description: "Storm damage restoration in Wylie, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Storm Damage Restoration in Wylie, TX | Reign Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Wylie"
+meta_description: "24/7 emergency storm damage restoration in Wylie, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "storm damage restoration wylie"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Wylie? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 North Texas storms don't ease into Wylie, they arrive fast, often in the form of supercell thunderstorms that funnel through Collin County with little warning, dropping hail the size of golf balls, spawning brief but violent tornadoes, and leaving behind downed trees, compromised rooflines, and flooded interiors before residents have finished checking weather alerts. Reign Restoration responds to that kind of damage from our base in nearby Royse City, reaching Wylie properties quickly along US-78 and FM 544 to begin stabilizing homes and businesses before secondary damage compounds the loss.
 
 ## Why Wylie Properties See Elevated Storm Damage Risk

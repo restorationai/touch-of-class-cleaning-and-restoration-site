@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Provo, UT | Home Pride Restoration and Cleaning"
-h1: "Frozen Pipe Restoration in Provo"
-meta_description: "24/7 frozen pipe restoration in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Frozen Pipe Restoration in Provo, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Frozen Pipe Restoration in Provo"
+meta_description: "24/7 emergency frozen pipe restoration in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "frozen pipe restoration provo"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Provo? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Provo winters are deceptively cold. The valley sits at roughly 4,500 feet, and when an Arctic inversion settles over Utah County and overnight lows drop into the single digits, the pipes inside uninsulated exterior walls, common in the older brick bungalows near the BYU campus and in the tightly packed neighborhoods east of University Avenue, can freeze solid in a matter of hours. When those pipes thaw, the water doesn't politely announce itself. It soaks into subfloor sheathing, wicks up drywall, and starts the clock on secondary damage before most homeowners realize anything is wrong. Home Pride Restoration and Cleaning has been responding to exactly this scenario since 1997, and our IICRC-certified crews know what Provo's climate does to residential plumbing.
 
 ## Why Provo Properties Are Especially Vulnerable to Frozen Pipe Damage

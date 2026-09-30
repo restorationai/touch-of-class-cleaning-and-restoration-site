@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Eastland, TX | Air Care Restoration"
-h1: "Burst Pipe Cleanup and Repair in Eastland"
-meta_description: "24/7 burst pipe cleanup and repair in Eastland, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Eastland, TX | Air Care Restoration"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Eastland"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Eastland, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "burst pipe cleanup and repair eastland"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

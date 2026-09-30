@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Wiggins, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Wiggins"
-meta_description: "Sewage cleanup and sanitization in Wiggins, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "Emergency Sewage Cleanup and Sanitization in Wiggins, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Wiggins"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Wiggins, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization wiggins"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Wiggins? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows in Wiggins, the mess doesn't wait for a convenient time, and in Stone County's humid, clay-heavy soil, standing sewage soaks into subfloor materials and crawl space framing faster than most homeowners expect. Raw sewage carries bacteria, viruses, and parasites that make a flooded bathroom or utility room genuinely hazardous, not just unpleasant. HomeLyft Restoration MS responds to sewage backup calls across Wiggins and the surrounding Stone County area, bringing IICRC-certified technicians and commercial-grade sanitization equipment to get your home or business back to a safe, livable condition.
 
 ## Why Wiggins Properties Are Vulnerable to Sewage Backup

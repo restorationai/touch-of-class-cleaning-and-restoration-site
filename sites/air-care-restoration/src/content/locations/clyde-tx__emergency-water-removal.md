@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Clyde, TX | Air Care Restoration"
-h1: "Emergency Water Removal & Cleanup in Clyde"
+title: "24/7 Emergency Water Removal & Cleanup in Clyde, TX | Air Care Restoration"
+h1: "24/7 Emergency Water Removal & Cleanup in Clyde"
 meta_description: "24/7 emergency water removal and cleanup in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "emergency water removal clyde"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Clyde? We answer 24/7.** Call now and our crew heads out to extract the water and start drying.
+
 Clyde sits in the heart of Callahan County where the rolling West Texas plains meet a climate that swings hard, scorching summers that crack and shrink clay soils, followed by fast-moving storm cells that can drop several inches of rain in under an hour. When that water finds its way inside a Clyde home, through a failed roof, a slab leak, or a backed-up drain, the dry heat that normally defines this region actually works against you: surface materials dry unevenly while moisture hides deep in wall cavities and under flooring, making incomplete removal a real risk. Air Care Restoration responds 24/7 and is IICRC certified in water damage restoration, so when standing water appears in your home, you have a trained team ready to move.
 
 ## Why Clyde Properties See Water Damage Differently Than Larger Cities

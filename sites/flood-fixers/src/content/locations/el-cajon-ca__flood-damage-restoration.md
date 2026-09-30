@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in El Cajon, CA | Flood Fixers"
-h1: "Flood Damage Restoration in El Cajon"
-meta_description: "24/7 flood damage restoration in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "24/7 Emergency Flood Damage Restoration in El Cajon, CA | Flood Fixers"
+h1: "24/7 Emergency Flood Damage Restoration in El Cajon"
+meta_description: "24/7 emergency flood damage restoration in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "flood damage restoration el cajon"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in El Cajon? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 El Cajon sits in a bowl, literally. The city's valley geography, hemmed in by the Cuyamaca foothills to the east and the mesa edges to the west, means that when a significant rain event hits San Diego County, runoff has nowhere to go except down into streets, yards, and the crawl spaces of homes that were never designed with serious flooding in mind. If you're dealing with standing water in your home or business right now, call Flood Fixers at (855) 204-1124. Technicians dispatch from San Diego and can reach most of El Cajon within 45–60 minutes.
 
 ## Why El Cajon Properties Are Especially Vulnerable to Flood Damage

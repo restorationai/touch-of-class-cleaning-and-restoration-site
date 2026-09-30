@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Laurel Hill, FL | Veterans Remediation & Restoration "
-h1: "Basement Flooding Cleanup in Laurel Hill"
-meta_description: "24/7 basement flooding cleanup in Laurel Hill, FL. Insurance billing accepted. Call (337) 344-1248."
+title: "24/7 Emergency Basement Flooding Cleanup in Laurel Hill, FL | Veterans Remediation & Restoration "
+h1: "24/7 Emergency Basement Flooding Cleanup in Laurel Hill"
+meta_description: "24/7 emergency basement flooding cleanup in Laurel Hill, FL. Insurance billing accepted. Call (337) 344-1248."
 primary_keyword: "basement flooding cleanup laurel hill"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"

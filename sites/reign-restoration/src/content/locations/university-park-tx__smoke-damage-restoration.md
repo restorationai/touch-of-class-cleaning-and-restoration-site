@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in University Park, TX | Reign Restoration"
-h1: "Smoke Damage Restoration in University Park"
-meta_description: "24/7 smoke damage restoration in University Park, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "Emergency Smoke Damage Restoration in University Park, TX | Reign Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in University Park"
+meta_description: "24/7 emergency smoke damage restoration in University Park, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "smoke damage restoration university park"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

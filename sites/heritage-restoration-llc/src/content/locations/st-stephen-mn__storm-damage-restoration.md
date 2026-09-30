@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in St. Stephen, MN | Heritage Restoration LLC"
-h1: "Storm Damage Restoration in St. Stephen"
-meta_description: "Storm damage restoration in St. Stephen, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Storm Damage Restoration in St. Stephen, MN | Heritage Restoration LLC"
+h1: "Emergency Storm Damage Restoration in St. Stephen"
+meta_description: "Emergency storm damage restoration in St. Stephen, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "storm damage restoration st. stephen"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in St. Stephen? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 St. Stephen sits in Stearns County where the open agricultural landscape offers little shelter from the severe thunderstorms, straight-line winds, and occasional tornadoes that push through central Minnesota each spring and summer. When a storm tears shingles off a farmhouse roof or drops a cottonwood across a garage, the damage compounds fast: water follows the breach, insulation saturates, and wood framing begins absorbing moisture within hours. Heritage Restoration LLC responds to storm damage calls across St. Stephen and the surrounding county, working to stop that progression before it becomes a structural or mold problem.
 
 ## Why St. Stephen Properties See Storm Damage Differently

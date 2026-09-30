@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Hartford, SD | Crew Restoration & Construction"
-h1: "Sewage Cleanup and Sanitization in Hartford"
-meta_description: "Sewage cleanup and sanitization in Hartford, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Sewage Cleanup and Sanitization in Hartford, SD | Crew Restoration & Construction"
+h1: "Emergency Sewage Cleanup and Sanitization in Hartford"
+meta_description: "Emergency sewage cleanup and sanitization in Hartford, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "sewage cleanup and sanitization hartford"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Hartford? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows in Hartford, the damage moves fast, raw sewage saturating subfloor framing, soaking into drywall cavities, and releasing pathogens that linger long after the visible mess is gone. Hartford's position along Highway 42 west of Sioux Falls means the community has grown quickly, and that growth has put newer construction right alongside older residential lots where aging lateral lines and shallow septic fields weren't designed for today's household loads. If you're dealing with sewage in your home or on your property in the 57033 ZIP code, the clock matters more than almost any other type of water loss.
 
 ## Why Hartford Properties See Sewage Backup Issues

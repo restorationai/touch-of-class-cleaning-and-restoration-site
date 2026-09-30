@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Biohazard Cleanup in Gulfport | HomeLyft Restoration MS"
-h1: "Biohazard Cleanup in Gulfport"
-meta_description: "Biohazard cleanup in Gulfport and surrounding areas. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Biohazard Cleanup in Gulfport | HomeLyft Restoration MS"
+h1: "24/7 Emergency Biohazard Cleanup in Gulfport"
+meta_description: "24/7 emergency biohazard cleanup in Gulfport and surrounding areas. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "biohazard cleanup gulfport"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -17,6 +17,9 @@ service_slug: "biohazard-cleanup"
 service_display: "Biohazard Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Gulfport? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something unexpected and traumatic happens inside a home or property, the physical aftermath doesn't wait. Bloodborne pathogens can remain infectious on porous surfaces for days. Bodily fluids seep into subfloor seams, carpet padding, and drywall cavities that look untouched from the surface. What appears to be a contained area often isn't, and the window for safe, effective biohazard remediation is shorter than most people realize. HomeLyft Restoration MS handles these situations with the clinical precision and quiet discretion the circumstances demand.
 
 ## What biohazard cleanup actually involves

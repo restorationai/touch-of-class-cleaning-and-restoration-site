@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in West Orange, NJ | The Restoration Group"
-h1: "Burst Pipe Cleanup and Repair in West Orange"
-meta_description: "24/7 burst pipe cleanup and repair in West Orange, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "Emergency Burst Pipe Cleanup and Repair in West Orange, NJ | The Restoration Group"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in West Orange"
+meta_description: "24/7 emergency burst pipe cleanup and repair in West Orange, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "burst pipe cleanup and repair west orange"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in West Orange? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 When a pipe lets go in January and your finished basement is already at the bottom of a slope that drains half of Pleasantdale, the water doesn't wait for business hours. West Orange's hillside topography means burst pipes here carry a compounding risk: gravity pulls released water fast and far, and in the older Tudors and colonials that line streets off Prospect Avenue, many with original galvanized or early copper supply lines, a single failure can soak floor joists, saturate wall cavities, and reach a finished lower level before the homeowner even hears the rush. The Restoration Group responds 24/7 and is on the road from Kenilworth the moment you call (855) 650-7422.
 
 ## Why West Orange Properties See More Burst Pipe Damage

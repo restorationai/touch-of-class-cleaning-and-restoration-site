@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Wiggins, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Wiggins"
-meta_description: "Board-up and tarping in Wiggins, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Wiggins, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Wiggins"
+meta_description: "24/7 emergency board-up and tarping in Wiggins, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping wiggins"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Wiggins? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Stone County summers don't ease up on structures. When a severe thunderstorm rolls through Wiggins and peels back a section of roof, or a house fire leaves exterior walls exposed to the humid Mississippi air, every hour without protection accelerates the damage. Moisture intrusion, wind-driven rain, and opportunistic insects move fast in this climate, and a compromised structure can go from a manageable loss to a gut-renovation in days. Getting plywood over openings and heavy-duty tarps secured over damaged roofing is the first line of defense, and it has to happen before the next storm band arrives.
 
 ## Why Wiggins Properties Face Elevated Board-Up and Tarping Risks

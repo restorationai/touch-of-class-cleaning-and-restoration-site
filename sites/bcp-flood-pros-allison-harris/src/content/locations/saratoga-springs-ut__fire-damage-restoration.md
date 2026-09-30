@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Saratoga Springs, UT | FIX Restoration"
-h1: "Fire Damage Restoration in Saratoga Springs"
-meta_description: "Fire damage restoration in Saratoga Springs, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in Saratoga Springs, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in Saratoga Springs"
+meta_description: "Emergency fire damage restoration in Saratoga Springs, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration saratoga springs"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Saratoga Springs? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Saratoga Springs sits at the edge of Utah Lake on the valley floor, where dry desert winds can push a house fire fast and the region's rapid growth has filled neighborhoods with tightly spaced new construction, conditions that make smoke and structural damage spread quickly before crews arrive. When a fire tears through a home here, the combination of low humidity, synthetic building materials common in post-2000 subdivisions, and the area's distance from major metro fire stations can mean more extensive char and deeper smoke penetration than homeowners expect. FIX Restoration, based in American Fork, has been handling fire and smoke restoration across Utah County since 2012.
 
 ## Why Saratoga Springs Properties See Fire Damage Differently

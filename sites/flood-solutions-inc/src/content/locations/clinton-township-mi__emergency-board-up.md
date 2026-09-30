@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board Up in Clinton Township, MI | Flood Solutions inc"
-h1: "Board Up in Clinton Township"
-meta_description: "Board up in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Board Up in Clinton Township, MI | Flood Solutions inc"
+h1: "Emergency Board Up in Clinton Township"
+meta_description: "Emergency board up in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "emergency board up clinton township"
 secondary_keywords: []
 search_intent: "local_specialty"

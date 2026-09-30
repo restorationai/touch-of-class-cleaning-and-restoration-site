@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Latimer, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Latimer"
-meta_description: "Sewage cleanup and sanitization in Latimer, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "Emergency Sewage Cleanup and Sanitization in Latimer, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Latimer"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Latimer, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization latimer"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Latimer? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Sewage backups don't announce themselves, they show up as a foul smell rising from a floor drain, a toilet that won't stop gurgling, or worse, raw effluent pooling across a bathroom floor. In Latimer, Mississippi, where the clay-heavy soils of Harrison County can shift seasonally and older lateral lines were often laid without the slope tolerances modern codes require, a single heavy rain event can push a sewer line past its limit fast. HomeLyft Restoration MS responds to those calls from our Gulfport base, bringing certified extraction and sanitization crews to Latimer properties before contamination spreads further into subfloor assemblies and wall cavities.
 
 ## Why Latimer Properties See Sewage Backup Issues

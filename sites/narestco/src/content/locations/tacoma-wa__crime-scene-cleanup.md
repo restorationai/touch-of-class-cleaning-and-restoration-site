@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Crime Scene Cleanup in Tacoma, WA | National Restoration Construction"
-h1: "Crime Scene Cleanup in Tacoma"
-meta_description: "24/7 crime scene cleanup in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Crime Scene Cleanup in Tacoma, WA | National Restoration Construction"
+h1: "24/7 Emergency Crime Scene Cleanup in Tacoma"
+meta_description: "24/7 emergency crime scene cleanup in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "crime scene cleanup tacoma"
 secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cleanup", "homicide cleanup", "suicide scene cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Crime Scene Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Tacoma? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something unthinkable happens inside a Tacoma home or commercial property, the physical aftermath doesn't wait for grief to pass. In older neighborhoods like Hilltop and the Stadium District, where early-1900s construction means porous plaster walls, unfinished subfloors, and aging hardwood that absorbs biological material quickly, the window for safe, thorough remediation is narrow. National Restoration Construction responds to those calls with trained technicians, proper containment, and the discretion that families and property managers need most in those first hours.
 
 ## Why Tacoma's Building Stock Shapes This Work

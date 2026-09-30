@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Parsippany, NJ | The Restoration Group"
-h1: "Fire Damage Restoration in Parsippany"
-meta_description: "24/7 fire damage restoration in Parsippany, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Fire Damage Restoration in Parsippany, NJ | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in Parsippany"
+meta_description: "24/7 emergency fire damage restoration in Parsippany, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "fire damage restoration parsippany"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Parsippany? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and start the recovery.
+
 The smell hits before the smoke clears, that acrid mix of charred wood, melted plastic, and soot that settles into every surface of a home. For homeowners in Parsippany's older lake communities, a house fire carries an extra layer of complexity: the postwar capes and split-levels around Lake Hiawatha and Lake Parsippany were built with materials, horsehair plaster, solid-wood framing, asphalt shingle over skip sheathing, that burn and absorb smoke differently than newer construction. Getting the restoration right means understanding what's inside those walls, not just what's on them. The Restoration Group is available around the clock at (855) 650-7422.
 
 ## Why Parsippany Properties See Distinct Fire Damage Patterns

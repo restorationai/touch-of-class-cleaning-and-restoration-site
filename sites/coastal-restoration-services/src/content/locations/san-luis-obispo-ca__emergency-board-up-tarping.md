@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in San Luis Obispo, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in San Luis Obispo"
-meta_description: "Board-up and tarping in San Luis Obispo, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in San Luis Obispo, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in San Luis Obispo"
+meta_description: "Emergency board-up and tarping in San Luis Obispo, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping san luis obispo"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in San Luis Obispo? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 San Luis Obispo sits at the intersection of coastal fog, dry-season Santa Ana wind events, and a housing stock that ranges from 1920s Craftsman bungalows to mid-century stucco, a combination that can turn a broken window, a fire, or a storm-lifted roof into a cascading problem within hours. When a structure is left open to the elements, secondary damage compounds fast: fog-driven moisture seeps into exposed framing overnight, and the region's warm afternoon temperatures accelerate mold colonization in as little as 24 to 48 hours. Getting plywood over openings and poly tarps secured to the roof deck is the single most effective way to stop that clock.
 
 ## Why San Luis Obispo Properties Are Vulnerable After Structural Damage

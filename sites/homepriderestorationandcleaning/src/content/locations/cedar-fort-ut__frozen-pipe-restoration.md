@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Cedar Fort, UT | Home Pride Restoration and Cleaning"
-h1: "Frozen Pipe Restoration in Cedar Fort"
-meta_description: "24/7 frozen pipe restoration in Cedar Fort, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Frozen Pipe Restoration in Cedar Fort, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Frozen Pipe Restoration in Cedar Fort"
+meta_description: "24/7 emergency frozen pipe restoration in Cedar Fort, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "frozen pipe restoration cedar fort"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Basement Flooding Cleanup in Corona | Dry County Restoration"
-h1: "Basement Flooding Cleanup in Corona"
-meta_description: "24/7 basement flooding cleanup in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "24/7 Emergency Basement Flooding Cleanup in Corona | Dry County Restoration"
+h1: "24/7 Emergency Basement Flooding Cleanup in Corona"
+meta_description: "24/7 emergency basement flooding cleanup in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "basement flooding cleanup corona"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"

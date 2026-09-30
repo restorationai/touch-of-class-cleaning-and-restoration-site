@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Cicero, IL | Dry Bros Water & Fire Restoration"
-h1: "Basement Flooding Cleanup in Cicero"
-meta_description: "Basement flooding cleanup in Cicero, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Basement Flooding Cleanup in Cicero, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Basement Flooding Cleanup in Cicero"
+meta_description: "24/7 emergency basement flooding cleanup in Cicero, IL. Insurance billing accepted. Call us now."
 primary_keyword: "basement flooding cleanup cicero"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Cicero? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Cicero sits on flat, clay-heavy Cook County soil that sheds water slowly, and when a heavy rain stacks on top of an aging sewer system already running near capacity, basements in this town fill up fast. The brick two-flats and bungalows that define so much of Cicero's housing stock were built before modern waterproofing standards existed, which means a flooded basement here isn't just an inconvenience. It's a race against the clock before water wicks into century-old mortar joints, wood framing, and concrete block walls that were never meant to stay wet.
 
 ## Why Cicero Properties See Basement Flooding So Often

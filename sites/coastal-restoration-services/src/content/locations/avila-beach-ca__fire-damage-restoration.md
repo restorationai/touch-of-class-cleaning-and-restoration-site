@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Avila Beach, CA | Coastal Restoration Services Inc"
-h1: "Fire Damage Restoration in Avila Beach"
-meta_description: "Fire damage restoration in Avila Beach, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Fire Damage Restoration in Avila Beach, CA | Coastal Restoration Services Inc"
+h1: "Emergency Fire Damage Restoration in Avila Beach"
+meta_description: "Emergency fire damage restoration in Avila Beach, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "fire damage restoration avila beach"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Avila Beach? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Avila Beach sits at the edge of the Pacific, where salt-laden marine air, coastal fog, and the occasional dry Santa Ana wind create a fire environment unlike most of San Luis Obispo County. When a kitchen fire or electrical fault ignites in a home here, the same humidity that rolls in off Avila Bay can trap smoke odor deep inside wall cavities and porous surfaces, and if the response is slow, that odor becomes nearly permanent. Coastal Restoration Services Inc responds to fire damage calls throughout Avila Beach and the surrounding SLO coast, bringing the equipment and process discipline the conditions actually demand.
 
 ## Why Avila Beach Properties Face Distinct Fire Damage Challenges

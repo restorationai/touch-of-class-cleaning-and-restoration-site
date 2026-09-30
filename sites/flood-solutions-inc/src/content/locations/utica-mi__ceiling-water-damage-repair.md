@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Utica, MI | Flood Solutions inc"
-h1: "Ceiling Water Damage Repair in Utica"
-meta_description: "Ceiling water damage repair in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Ceiling Water Damage Repair in Utica, MI | Flood Solutions inc"
+h1: "Emergency Ceiling Water Damage Repair in Utica"
+meta_description: "Emergency ceiling water damage repair in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "ceiling water damage repair utica"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "ceiling-water-damage-repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water coming through the ceiling in Utica? Call now for emergency service.** Our crew responds fast to stop the leak damage and start drying.
+
 When water starts pushing through your ceiling in Utica, the clock matters more than most homeowners realize. Macomb County's freeze-thaw cycles put real stress on rooflines and attic spaces every winter, and by the time a stain appears on your ceiling drywall, water has often been sitting inside the assembly for days. Flood Solutions Inc. has been handling ceiling water damage repair in Utica and the surrounding area since 1996, and the team knows how quickly a slow drip can become a sagging, compromised ceiling panel.
 
 ## Why Utica Properties See Ceiling Water Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Smoke Damage Restoration in American Fork | FIX Restoration"
-h1: "Smoke Damage Restoration in American Fork"
-meta_description: "Smoke damage restoration in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Smoke Damage Restoration in American Fork | FIX Restoration"
+h1: "Emergency Smoke Damage Restoration in American Fork"
+meta_description: "Emergency smoke damage restoration in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "smoke damage restoration american fork"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

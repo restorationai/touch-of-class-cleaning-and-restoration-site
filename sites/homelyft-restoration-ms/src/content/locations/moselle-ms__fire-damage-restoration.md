@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Moselle, MS | HomeLyft Restoration MS"
-h1: "Fire Damage Restoration in Moselle"
-meta_description: "Fire damage restoration in Moselle, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Fire Damage Restoration in Moselle, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Fire Damage Restoration in Moselle"
+meta_description: "24/7 emergency fire damage restoration in Moselle, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "fire damage restoration moselle"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Moselle? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 A house fire in Moselle leaves more than charred walls, it leaves a smell that works its way into every closet, every cabinet, and every piece of insulation in the attic. Jones County's humid summers mean that soot and smoke residue don't just sit on surfaces; they absorb moisture from the air and bond more stubbornly to porous materials like wood framing, drywall joint compound, and the older pine subflooring common in homes throughout this part of Mississippi. The window between a fire event and permanent odor and staining damage is short, and the decisions made in the first 48 hours shape how much of the structure can be saved.
 
 ## Why Moselle Properties Are Vulnerable After a Fire

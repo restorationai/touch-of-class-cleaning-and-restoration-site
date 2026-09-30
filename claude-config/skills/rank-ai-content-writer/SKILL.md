@@ -110,6 +110,14 @@ Surface stdout verbatim. The script prints a clear 5-step progress (`[1/5] Gener
 - `content_writer.py commit_and_sync` calls `sync-deploy --allow-dirty` — `build_site.py sync-deploy` updates `clients/{slug}.json` with a `last_pushed_main_at` timestamp on success, leaving the file dirty for the next invocation. `--allow-dirty` prevents this from blocking subsequent runs.
 - `git pull --rebase --autostash` — `commit_and_sync` uses `--autostash` so locally-dirty files (untracked or unstaged) are stashed before the rebase and restored after.
 
+## Emergency naming (Santino 2026-09-30)
+
+Service pages for URGENT services (water damage, emergency water removal, flood, burst pipe / leak, sewage, fire, smoke, storm, board-up / tarping, biohazard / trauma, emergency plumbing when plumbing-licensed) lead their title + H1 with "24/7 Emergency" (24/7 truth) or "Emergency", and open with one emergency-response line (scripts/emergency_naming.py). For blog posts:
+
+- A post about an urgent service may use "Emergency" in its title where it reads naturally; "24/7" only when plan-input `brand.hours` says 24/7. Never "Emergency Emergency".
+- Link the urgent service page with its emergency framing; no response-time number unless `brand.response_minutes` is set.
+- Never frame non-urgent topics (mold, remodeling, carpet/upholstery, air ducts, testing, insurance) as emergencies.
+
 ## Error handling
 
 - **Empty queue** → tell the user, suggest `rank-ai-keyword-researcher`

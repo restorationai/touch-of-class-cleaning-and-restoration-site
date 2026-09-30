@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Skokie, IL | Dry Bros Water & Fire Restoration"
-h1: "Board-Up and Tarping in Skokie"
-meta_description: "Board-up and tarping in Skokie, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Board-Up and Tarping in Skokie, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Board-Up and Tarping in Skokie"
+meta_description: "24/7 emergency board-up and tarping in Skokie, IL. Insurance billing accepted. Call us now."
 primary_keyword: "emergency board-up and tarping skokie"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Skokie? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Skokie's winters are unforgiving, a late-season ice storm can strip shingles overnight, and the freeze-thaw cycles that batter Cook County's older building stock mean a compromised roof or broken window can go from inconvenience to catastrophe in hours. When fire, storm, or impact leaves your property exposed, getting a proper board-up or roof tarp in place fast is the difference between a contained loss and a gutted interior. Dry Bros Water & Fire Restoration responds to those calls across Skokie, securing structures before the next weather event compounds the damage.
 
 ## Why Skokie Properties Are Especially Vulnerable After a Loss

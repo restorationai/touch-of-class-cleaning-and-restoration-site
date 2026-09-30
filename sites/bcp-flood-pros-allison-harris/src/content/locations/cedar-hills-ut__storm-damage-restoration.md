@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Cedar Hills, UT | FIX Restoration"
-h1: "Storm Damage Restoration in Cedar Hills"
-meta_description: "Storm damage restoration in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Storm Damage Restoration in Cedar Hills, UT | FIX Restoration"
+h1: "Emergency Storm Damage Restoration in Cedar Hills"
+meta_description: "Emergency storm damage restoration in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "storm damage restoration cedar hills"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Cedar Hills? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Cedar Hills sits at the base of the Wasatch Front where storms roll in fast and hit hard. When a late-spring microburst or a heavy winter system drops across Utah County, the combination of high-elevation wind exposure, saturated soils, and the mix of newer construction and older ranch-style homes in this community creates damage patterns that are genuinely different from what you see closer to the valley floor. FIX Restoration, based in nearby American Fork, has been responding to storm losses across this part of Utah County since 2012.
 
 ## Why Cedar Hills Properties See Storm Damage Differently

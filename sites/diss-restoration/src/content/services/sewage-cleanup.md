@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Sewage Cleanup and Sanitization in Youngstown | DISS Restoration"
-h1: "Sewage Cleanup and Sanitization in Youngstown"
-meta_description: "24/7 sewage cleanup and sanitization in Youngstown and surrounding areas. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Youngstown | DISS Restoration"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Youngstown"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Youngstown and surrounding areas. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "sewage cleanup and sanitization youngstown"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Youngstown? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows, what comes up with the water is not just water. Raw sewage carries bacteria, viruses, and parasites that can colonize porous materials, drywall, subflooring, insulation, wood framing, within hours. The smell is the first warning, but the contamination spreads far beyond what you can see or smell. Standard water damage extraction equipment and household disinfectants are not enough. Sewage cleanup is a Category 3 biohazard response, and the margin for error is narrow.
 
 ## What sewage cleanup and sanitization actually involves

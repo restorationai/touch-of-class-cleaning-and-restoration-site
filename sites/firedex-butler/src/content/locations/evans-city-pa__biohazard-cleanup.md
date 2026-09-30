@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard and Trauma Cleanup in Evans City, PA | FireDEX Butler"
-h1: "Biohazard and Trauma Cleanup in Evans City"
-meta_description: "24/7 biohazard and trauma cleanup in Evans City, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "Emergency Biohazard and Trauma Cleanup in Evans City, PA | FireDEX Butler"
+h1: "24/7 Emergency Biohazard and Trauma Cleanup in Evans City"
+meta_description: "24/7 emergency biohazard and trauma cleanup in Evans City, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "biohazard and trauma cleanup evans city"
 secondary_keywords: ["trauma scene cleanup", "unattended death cleanup", "blood cleanup", "bodily fluid cleanup", "biohazard remediation"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard and Trauma Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Evans City? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Evans City Borough sits in the Breakneck Creek valley inside a tight grid of frame homes built mostly between 1900 and 1950, houses with plaster walls, stone foundations, and histories that stretch back generations. When a traumatic event or unattended death occurs inside one of those homes, the family is already carrying an enormous weight. The last thing they need is to figure out on their own what comes next. FireDEX Butler handles biohazard and trauma cleanup in Evans City with discretion, proper containment, and direct insurance coordination, so the people who matter most can focus on what matters most.
 
 ## Why Evans City Homes Present Specific Biohazard Challenges

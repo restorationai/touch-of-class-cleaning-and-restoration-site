@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Lennox, SD | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Lennox"
-meta_description: "Board-up and tarping in Lennox, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Lennox, SD | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Lennox"
+meta_description: "Emergency board-up and tarping in Lennox, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping lennox"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Lennox? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a severe Plains storm tears through the 57039 zip code and leaves a gaping hole in your roof or blows out a window, the next few hours matter more than most homeowners realize. Wind-driven rain can soak through exposed framing in under an hour, and in Lennox, where a growing number of newer subdivisions sit alongside older farmstead-era homes on the edge of Lincoln County farmland, the combination of open exposure and varied building stock means storm damage can escalate quickly. Crew Restoration & Construction responds to those calls, securing your property with structural board-up and heavy-duty tarping so the damage stops where it started.
 
 ## Why Lennox Properties Face Elevated Board-Up and Tarping Risk

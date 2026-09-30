@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Avila Beach, CA | Coastal Restoration Services Inc"
-h1: "Sewage Cleanup and Sanitization in Avila Beach"
-meta_description: "Sewage cleanup and sanitization in Avila Beach, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Sewage Cleanup and Sanitization in Avila Beach, CA | Coastal Restoration Services Inc"
+h1: "Emergency Sewage Cleanup and Sanitization in Avila Beach"
+meta_description: "Emergency sewage cleanup and sanitization in Avila Beach, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "sewage cleanup and sanitization avila beach"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Avila Beach? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Avila Beach sits where the Pacific pushes hard against San Luis Obispo County's coastline, and that geography shapes everything underground. The combination of salt-laden soil, a high water table near the waterfront, and aging lateral lines serving older beach cottages creates conditions where a sewer line backup can go from a slow drain to raw sewage on the floor in a matter of hours. When that happens, Coastal Restoration Services Inc responds from Vandenberg Village to assess the contamination, remove the waste, and sanitize the affected space so the property is safe to occupy again.
 
 ## Why Avila Beach Properties See Sewage Backup Issues

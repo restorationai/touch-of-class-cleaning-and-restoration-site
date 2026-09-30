@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Plumbing in Lake Isabella, CA | ProRestoration Services"
-h1: "Emergency Plumbing in Lake Isabella"
+title: "24/7 Emergency Plumbing in Lake Isabella, CA | ProRestoration Services"
+h1: "24/7 Emergency Plumbing in Lake Isabella"
 meta_description: "24/7 emergency plumbing in Lake Isabella, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "emergency plumbing lake isabella"
 secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber", "emergency plumbing repair", "24/7 plumbing"]

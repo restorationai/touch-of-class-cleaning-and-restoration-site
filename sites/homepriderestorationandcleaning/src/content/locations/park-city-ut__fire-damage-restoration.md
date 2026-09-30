@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Park City, UT | Home Pride Restoration and Cleaning"
-h1: "Fire Damage Restoration in Park City"
-meta_description: "24/7 fire damage restoration in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Fire Damage Restoration in Park City, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Fire Damage Restoration in Park City"
+meta_description: "24/7 emergency fire damage restoration in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "fire damage restoration park city"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Park City? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 At 7,000 feet, Park City's dry mountain air and low humidity might seem like fire's worst enemy, and they are. The same conditions that make the Wasatch Back a world-class ski destination also mean fires spread faster, smoke penetrates deeper into porous materials, and the acrid residue left behind by burning pine and cedar (common in older Park City construction) bonds to surfaces more aggressively than in valley homes. When fire damage hits a property here, the clock starts running the moment the last flame is out.
 
 ## Why Park City Properties Face Distinct Fire Damage Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Kaimuki, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Water Damage Restoration in Kaimuki"
-meta_description: "24/7 water damage restoration in Kaimuki, HI. Call (808) 349-3407."
+title: "24/7 Emergency Water Damage Restoration in Kaimuki, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Damage Restoration in Kaimuki"
+meta_description: "24/7 emergency water damage restoration in Kaimuki, HI. Call (808) 349-3407."
 primary_keyword: "water damage restoration kaimuki"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Kaimuki? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Kaimuki's single-wall wood-frame homes, many of them built before World War II along the Waialae Avenue corridor and up into Wilhelmina Rise, were never designed to survive a burst galvanized supply pipe or a backed-up kitchen drain line. When water gets into century-old Douglas fir framing, it doesn't pool on the surface the way it does in a modern home with concrete board and vapor barriers; it wicks straight into the wood grain, and mold can begin colonizing within 24 to 48 hours. If you're dealing with standing water or a soaked wall in the 96816 ZIP code right now, call (808) 349-3407, we're available around the clock.
 
 ## Why Kaimuki Properties Are Especially Vulnerable to Water Damage

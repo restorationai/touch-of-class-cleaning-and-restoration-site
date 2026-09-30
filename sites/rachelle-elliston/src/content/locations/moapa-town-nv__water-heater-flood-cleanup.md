@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Heater Flood Cleanup in Moapa Town, NV | Desert Valley Contracting Inc "
-h1: "Water Heater Flood Cleanup in Moapa Town"
-meta_description: "24/7 water heater flood cleanup in Moapa Town, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+title: "24/7 Emergency Water Heater Flood Cleanup in Moapa Town, NV | Desert Valley Contracting Inc "
+h1: "24/7 Emergency Water Heater Flood Cleanup in Moapa Town"
+meta_description: "24/7 emergency water heater flood cleanup in Moapa Town, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "water heater flood cleanup moapa town"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Las Vegas, NV | Desert Valley Contracting Inc "
-h1: "Fire Damage Restoration in Las Vegas"
-meta_description: "24/7 fire damage restoration in Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+title: "24/7 Emergency Fire Damage Restoration in Las Vegas, NV | Desert Valley Contracting Inc "
+h1: "24/7 Emergency Fire Damage Restoration in Las Vegas"
+meta_description: "24/7 emergency fire damage restoration in Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
 primary_keyword: "fire damage restoration las vegas"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NV"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Las Vegas? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Las Vegas burns differently than most cities. The Mojave Desert's single-digit humidity means fires spread fast, smoke penetrates deep into porous stucco and concrete block construction, and the moment a structure cools, soot begins bonding to every surface it touched. If you're dealing with fire damage in Las Vegas, the clock starts the moment the trucks leave, and the decisions made in the first 24 to 48 hours determine how much of your home or building can actually be saved.
 
 ## Why Las Vegas Properties Face Distinct Fire Damage Challenges

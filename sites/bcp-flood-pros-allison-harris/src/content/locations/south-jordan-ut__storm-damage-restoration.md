@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in South Jordan, UT | FIX Restoration"
-h1: "Storm Damage Restoration in South Jordan"
-meta_description: "Storm damage restoration in South Jordan, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Storm Damage Restoration in South Jordan, UT | FIX Restoration"
+h1: "Emergency Storm Damage Restoration in South Jordan"
+meta_description: "Emergency storm damage restoration in South Jordan, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "storm damage restoration south jordan"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in South Jordan? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 South Jordan sits at the foot of the Wasatch Range where storm systems funnel through the Salt Lake Valley with surprising force. Spring microbursts can strip shingles and snap mature trees in minutes, while late-summer thunderstorms drop hail that dents gutters and drives water behind fascia boards before the rain even stops. When that kind of damage hits your property, the window for limiting secondary harm is short. FIX Restoration has been responding to Utah storm losses since 2012, and we know how quickly a compromised roof deck can become a mold problem once the valley's humidity climbs after a storm.
 
 ## Why South Jordan Properties See Repeated Storm Damage

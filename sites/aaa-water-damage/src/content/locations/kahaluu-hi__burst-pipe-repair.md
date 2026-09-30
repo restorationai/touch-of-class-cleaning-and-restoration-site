@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Kahaluu, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Burst Pipe Cleanup and Repair in Kahaluu"
-meta_description: "24/7 burst pipe cleanup and repair in Kahaluu, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Kahaluu, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Kahaluu"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Kahaluu, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "burst pipe cleanup and repair kahaluu"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

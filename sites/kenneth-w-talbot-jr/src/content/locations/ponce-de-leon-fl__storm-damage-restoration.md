@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Ponce de Leon, FL | Veterans Remediation & Restoration "
-h1: "Storm Damage Restoration in Ponce de Leon"
-meta_description: "24/7 storm damage restoration in Ponce de Leon, FL. Insurance billing accepted. Call (337) 344-1248."
+title: "24/7 Emergency Storm Damage Restoration in Ponce de Leon, FL | Veterans Remediation & Restoration "
+h1: "24/7 Emergency Storm Damage Restoration in Ponce de Leon"
+meta_description: "24/7 emergency storm damage restoration in Ponce de Leon, FL. Insurance billing accepted. Call (337) 344-1248."
 primary_keyword: "storm damage restoration ponce de leon"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

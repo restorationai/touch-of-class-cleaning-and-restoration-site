@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in McCandless, PA | Katofsky Construction LLC"
-h1: "Emergency Board-Up and Tarping in McCandless"
+title: "24/7 Emergency Board-Up and Tarping in McCandless, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Board-Up and Tarping in McCandless"
 meta_description: "24/7 emergency board-up and tarping in McCandless, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "emergency board-up and tarping mccandless"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

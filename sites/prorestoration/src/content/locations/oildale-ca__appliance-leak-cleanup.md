@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Oildale, CA | ProRestoration Services"
-h1: "Appliance Leak Cleanup in Oildale"
-meta_description: "24/7 appliance leak cleanup in Oildale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Appliance Leak Cleanup in Oildale, CA | ProRestoration Services"
+h1: "24/7 Emergency Appliance Leak Cleanup in Oildale"
+meta_description: "24/7 emergency appliance leak cleanup in Oildale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "appliance leak cleanup oildale"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Oildale? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 When a dishwasher supply line fails or a water heater lets go in one of Oildale's 1950s-era cottages, the water doesn't just pool on the floor, it disappears into original hardwood subfloors, migrates under vinyl laid over concrete slabs, and wicks into wall cavities that were never designed with moisture barriers in mind. The older housing stock throughout the Riverview and Highland neighborhoods means a slow refrigerator ice-maker drip can do more structural damage here than the same leak in a newer Bakersfield tract home, and it can do it silently over days before anyone notices.
 
 ## Why Oildale Properties See More Appliance Leak Damage

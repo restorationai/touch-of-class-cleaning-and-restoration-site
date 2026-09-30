@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Flood Damage Restoration in Little Falls | Heritage Restoration LLC"
-h1: "Flood Damage Restoration in Little Falls"
-meta_description: "Flood damage restoration in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Flood Damage Restoration in Little Falls | Heritage Restoration LLC"
+h1: "Emergency Flood Damage Restoration in Little Falls"
+meta_description: "Emergency flood damage restoration in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "flood damage restoration little falls"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

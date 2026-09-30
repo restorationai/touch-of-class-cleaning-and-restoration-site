@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Imperial? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Imperial sits in the heart of the Permian Basin, where the same arid climate that defines West Texas can turn against a property fast when a pipe bursts or a flash flood pushes water under a door. The ground here is predominantly caliche and clay, and clay soil does not drain. When water escapes a supply line or backs up from a storm drain, it has nowhere to go except into your slab, your walls, and your flooring. Getting that water out quickly is not a preference, it is a structural necessity.
 
 ## Why Imperial Properties See Water Damage Differently Than Other West Texas Towns

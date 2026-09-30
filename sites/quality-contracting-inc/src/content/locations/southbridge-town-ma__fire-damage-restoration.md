@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Southbridge Town, MA | Quality Contracting, Inc."
-h1: "Fire Damage Restoration in Southbridge Town"
-meta_description: "Fire damage restoration in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Fire Damage Restoration in Southbridge Town, MA | Quality Contracting, Inc."
+h1: "Emergency Fire Damage Restoration in Southbridge Town"
+meta_description: "Emergency fire damage restoration in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "fire damage restoration southbridge town"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Southbridge Town? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Southbridge Town sits in south-central Worcester County, and the mill-era building stock that defines so much of the town creates a particular challenge after a house fire. Balloon-frame construction, common in homes built before World War II, allows smoke and heat to travel vertically through wall cavities with almost no resistance, meaning fire damage in Southbridge Town can extend two or three floors above the room where the blaze started. Quality Contracting, Inc. handles the full scope of fire cleanup and structural fire damage repair, from the first hour after the fire marshal clears the scene through the final coat of paint.
 
 ## Why Southbridge Town's Building Stock Shapes Fire Damage Restoration

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Orem, UT | Home Pride Restoration and Cleaning"
-h1: "Water Damage Restoration in Orem"
-meta_description: "24/7 water damage restoration in Orem, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Water Damage Restoration in Orem, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Water Damage Restoration in Orem"
+meta_description: "24/7 emergency water damage restoration in Orem, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "water damage restoration orem"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Orem? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Orem sits in a stretch of Utah Valley where the Wasatch Front snowpack feeds irrigation canals, municipal lines run under streets that freeze hard every January, and afternoon thunderstorms in July can dump an inch of rain in under an hour. When a supply line lets go at 2 a.m. or a storm backs up a basement drain near the Timpanogos area, water moves fast, into subfloor OSB, behind baseboards, under tile adhesive, and the clock on secondary mold growth starts within 24 to 48 hours. Home Pride Restoration and Cleaning has been responding to those calls since 1997, and we know exactly what standing water in an Orem home looks and smells like by morning.
 
 ## Why Orem Properties See Water Damage

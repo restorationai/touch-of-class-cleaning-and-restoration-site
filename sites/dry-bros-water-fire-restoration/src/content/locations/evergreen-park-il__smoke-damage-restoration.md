@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Evergreen Park, IL | Dry Bros Water & Fire Restoration"
-h1: "Smoke Damage Restoration in Evergreen Park"
-meta_description: "24/7 smoke damage restoration in Evergreen Park, IL. Insurance billing accepted. Call (877) 379-2767."
+title: "Emergency Smoke Damage Restoration in Evergreen Park, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in Evergreen Park"
+meta_description: "24/7 emergency smoke damage restoration in Evergreen Park, IL. Insurance billing accepted. Call (877) 379-2767."
 primary_keyword: "smoke damage restoration evergreen park"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

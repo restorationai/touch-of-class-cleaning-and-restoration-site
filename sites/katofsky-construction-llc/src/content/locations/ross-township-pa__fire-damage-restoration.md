@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Ross Township, PA | Katofsky Construction LLC"
-h1: "Fire Damage Restoration in Ross Township"
-meta_description: "24/7 fire damage restoration in Ross Township, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "24/7 Emergency Fire Damage Restoration in Ross Township, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Fire Damage Restoration in Ross Township"
+meta_description: "24/7 emergency fire damage restoration in Ross Township, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "fire damage restoration ross township"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Ross Township? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Ross Township sits in a dense residential corridor just north of Pittsburgh, where older construction and tight lot spacing mean a kitchen fire rarely stays contained to one room for long. Smoke travels fast through the balloon-frame and plaster-wall construction common in this part of Allegheny County, and soot embeds into materials that newer drywall-and-stud homes simply don't have. When fire damage hits a home in Ross Township, the restoration work has to account for that older building fabric from the first hour on site.
 
 ## Why Ross Township Properties See Fire Damage Differently

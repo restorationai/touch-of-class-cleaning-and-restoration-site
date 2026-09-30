@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Appliance Leak Cleanup in Kenilworth | The Restoration Group"
-h1: "Appliance Leak Cleanup in Kenilworth"
-meta_description: "24/7 appliance leak cleanup in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Appliance Leak Cleanup in Kenilworth | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Kenilworth"
+meta_description: "24/7 emergency appliance leak cleanup in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "appliance leak cleanup kenilworth"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "appliance-leak-cleanup"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Kenilworth? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 You noticed a puddle under the dishwasher last night, mopped it up, and thought nothing of it. Three days later the laminate is bubbling, the cabinet toe-kick smells like a basement, and you're wondering how a slow drip turned into a flooring replacement. Appliance leaks are deceptive, the water source stops, the visible moisture disappears, and the damage keeps moving through subfloor and wall cavities long after the machine is repaired or replaced.
 
 ## What appliance leak cleanup actually involves

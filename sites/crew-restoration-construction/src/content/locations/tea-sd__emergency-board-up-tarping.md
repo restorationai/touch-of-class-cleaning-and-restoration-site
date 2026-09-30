@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Tea, SD | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Tea"
-meta_description: "Board-up and tarping in Tea, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Tea, SD | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Tea"
+meta_description: "Emergency board-up and tarping in Tea, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping tea"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Tea? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Tea has been one of the fastest-growing communities in South Dakota for good reason, new subdivisions like Sunrise Ridge and Prairie Meadows offer affordable lots just a short drive from Sioux Falls. But that rapid growth also means a lot of freshly built homes sitting on open prairie, fully exposed to the severe weather that sweeps across the plains with little warning. When a hailstorm punches through a roof, a tornado-driven branch shatters a window, or a house fire leaves an exterior wall open to the elements, every hour the structure sits unprotected compounds the damage. Crew Restoration & Construction provides emergency board-up and tarping to stop that clock.
 
 ## Why Tea Properties Are Particularly Vulnerable After a Loss

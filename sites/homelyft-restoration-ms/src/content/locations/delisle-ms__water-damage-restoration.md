@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in DeLisle, MS | HomeLyft Restoration MS"
-h1: "Water Damage Restoration in DeLisle"
-meta_description: "Water damage restoration in DeLisle, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Water Damage Restoration in DeLisle, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Water Damage Restoration in DeLisle"
+meta_description: "24/7 emergency water damage restoration in DeLisle, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "water damage restoration delisle"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in DeLisle? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 DeLisle sits in the low-lying coastal plain of Harrison County, where the soil stays saturated for much of the year and Gulf moisture turns a slow pipe leak into a full-scale structural problem faster than most homeowners expect. When water gets into a slab-on-grade home here, whether from a burst supply line, a failed sump, or storm-driven intrusion, it doesn't drain away; it spreads laterally under flooring and into wall cavities, often going undetected until the smell of mildew is already present. HomeLyft Restoration MS responds from Gulfport to address that damage before it compounds.
 
 ## Why DeLisle Properties See Water Damage Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Hattiesburg, MS | HomeLyft Restoration MS"
-h1: "Water Damage Restoration in Hattiesburg"
-meta_description: "Water damage restoration in Hattiesburg, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Water Damage Restoration in Hattiesburg, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Water Damage Restoration in Hattiesburg"
+meta_description: "24/7 emergency water damage restoration in Hattiesburg, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "water damage restoration hattiesburg"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Hattiesburg? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Hattiesburg sits in the heart of the Piney Woods, where summer humidity rarely drops below oppressive and afternoon thunderstorms can dump two inches of rain in under an hour. When that kind of moisture finds its way inside, through a failed sump, a burst supply line, or storm-driven water backing up through a floor drain, it doesn't just soak carpet. It starts working on the wood framing, the subfloor, and the wall cavities almost immediately, and in Hattiesburg's climate, mold colonization can begin within 24 to 48 hours of a water event.
 
 ## Why Hattiesburg Properties See Water Damage Issues

@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Odessa? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 Odessa's Permian Basin climate is unforgiving in both directions, long stretches of dry, cracking soil followed by sudden, heavy rainfall that the hardpan caliche underneath can't absorb fast enough. When that water has nowhere to go, it finds its way into slabs, garages, and crawl spaces instead. If you're dealing with standing water, soaked flooring, or a burst pipe right now, call ACS Enterprise at (432) 847-4704. We're based in Midland and serve Odessa properties directly, moving quickly to get the water out and stop the clock on damage that compounds by the hour.
 
 ## Why Odessa Properties Are Vulnerable to Water Damage

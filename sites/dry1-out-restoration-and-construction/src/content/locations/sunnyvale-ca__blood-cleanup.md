@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Blood Cleanup in Sunnyvale, CA | Dry1 Out Restoration and Construction"
-h1: "Blood Cleanup in Sunnyvale"
-meta_description: "24/7 blood cleanup in Sunnyvale, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+title: "24/7 Emergency Blood Cleanup in Sunnyvale, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Blood Cleanup in Sunnyvale"
+meta_description: "24/7 emergency blood cleanup in Sunnyvale, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "blood cleanup sunnyvale"
 secondary_keywords: []
 search_intent: "local_specialty"

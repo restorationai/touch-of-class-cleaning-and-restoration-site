@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Clyde, TX | Air Care Restoration"
-h1: "Smoke Damage Restoration in Clyde"
-meta_description: "24/7 smoke damage restoration in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Smoke Damage Restoration in Clyde, TX | Air Care Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in Clyde"
+meta_description: "24/7 emergency smoke damage restoration in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "smoke damage restoration clyde"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "smoke-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Clyde? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Smoke doesn't stay where the fire started. In a Clyde home, a kitchen fire or a grass fire that crept close to a property line can leave soot embedded in HVAC ductwork, drywall pores, and fabric fibers long after the flames are out. West Texas wind doesn't help either: it pushes fine particulate deep into wall cavities and attic insulation, so the smell lingers even after surfaces look clean. Restoring a Clyde property after a fire means treating what the eye can't see, not just wiping down what it can.
 
 ## Why Clyde Properties See Smoke Damage Issues

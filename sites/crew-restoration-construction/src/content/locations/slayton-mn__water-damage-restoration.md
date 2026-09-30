@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Slayton, MN | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Slayton"
-meta_description: "Water damage restoration in Slayton, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Slayton, MN | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Slayton"
+meta_description: "Emergency water damage restoration in Slayton, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration slayton"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Slayton? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 When spring snowmelt collides with a slow-draining Murray County soil profile, or when a pipe bursts during a January cold snap that drops temperatures well below zero, water finds its way into Slayton homes faster than most people expect. The damage that follows, soaked subfloors, saturated insulation, standing water migrating toward finished basements, can escalate within hours. Crew Restoration & Construction responds to water damage calls throughout the 56172 ZIP code, bringing industrial extraction and structural drying equipment directly to the source before secondary damage takes hold.
 
 ## Why Slayton Properties See Water Damage Issues

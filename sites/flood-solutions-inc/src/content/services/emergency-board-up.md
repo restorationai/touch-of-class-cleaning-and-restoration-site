@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Board Up in Macomb | Flood Solutions inc"
-h1: "Board Up in Macomb"
-meta_description: "Board up in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Board Up in Macomb | Flood Solutions inc"
+h1: "Emergency Board Up in Macomb"
+meta_description: "Emergency board up in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "emergency board up macomb"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -17,6 +17,9 @@ service_slug: "emergency-board-up"
 service_display: "Emergency Board Up"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Macomb? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 A broken picture window after a storm, a door frame split from a break-in, or a roof punched open by a fallen limb all share the same immediate problem: the structure is now exposed. Rain gets into insulation and drywall within hours, temperatures inside swing toward the outdoor air, and an open point of entry invites both wildlife and people who shouldn't be there. Boarding the opening is the step that stops the damage from compounding while repairs get scheduled.
 
 ## What Emergency Board Up actually involves

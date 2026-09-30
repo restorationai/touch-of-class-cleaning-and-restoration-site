@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Girard, OH | DISS Restoration"
-h1: "Fire Damage Restoration in Girard"
-meta_description: "24/7 fire damage restoration in Girard, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Fire Damage Restoration in Girard, OH | DISS Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Girard"
+meta_description: "24/7 emergency fire damage restoration in Girard, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "fire damage restoration girard"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "OH"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Girard? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Girard sits in Trumbull County's industrial belt, where a significant share of the housing stock dates to the steel-boom decades of the early and mid-twentieth century. Those older wood-frame and brick-veneer homes burn differently than newer construction, balloon framing allows fire and smoke to travel vertically through wall cavities with almost no resistance, and the dense plaster-and-lath interiors hold smoke odor long after the visible char is gone. When a fire moves through one of these properties, the damage is rarely limited to the room where it started, and the restoration work has to account for that hidden spread from the first hour on site.
 
 ## Why Girard's Older Housing Stock Complicates Fire Damage

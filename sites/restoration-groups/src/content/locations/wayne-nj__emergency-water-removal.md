@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Wayne, NJ | The Restoration Group"
-h1: "Emergency Water Removal & Cleanup in Wayne"
+title: "24/7 Emergency Water Removal & Cleanup in Wayne, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Removal & Cleanup in Wayne"
 meta_description: "24/7 emergency water removal and cleanup in Wayne, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "emergency water removal wayne"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Wayne? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to extract the water and start drying.
+
 The Passaic and Pompton Rivers don't give much warning. When they rise, as they did during Irene in 2011 and again with Ida in 2021, neighborhoods like Hoffman Grove and Mountain View can go from damp to several feet of standing water in hours. But river flooding is only part of Wayne's water damage picture. The lake communities at Packanack Lake and Pines Lake sit on midcentury ranches and split-levels with finished basements just feet from the waterline, and the region's aging sump-dependent colonials from the 1950s and '60s fail quietly, a cracked discharge line or a pump that trips during a nor'easter can soak a finished basement before anyone notices the smell.
 
 ## Why Wayne Properties See Recurring Water Damage

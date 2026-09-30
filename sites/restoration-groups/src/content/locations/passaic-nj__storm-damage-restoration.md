@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Passaic, NJ | The Restoration Group"
-h1: "Storm Damage Restoration in Passaic"
-meta_description: "24/7 storm damage restoration in Passaic, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Storm Damage Restoration in Passaic, NJ | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Passaic"
+meta_description: "24/7 emergency storm damage restoration in Passaic, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "storm damage restoration passaic"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Passaic? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 When Tropical Storm Ida pushed the Passaic River over its banks in September 2021, blocks near the waterfront disappeared under several feet of water overnight, and the damage wasn't just wet floors. In Passaic's dense patchwork of early 20th-century brick multi-families and wood-frame two- and three-families, storm water finds every crack in a 100-year-old foundation, saturates unreinforced masonry, and sits in unventilated basements long enough to start mold colonization within 24 to 48 hours. When severe weather hits 07055, the window to act is short.
 
 ## Why Passaic Properties Take Storm Damage Harder Than Most

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Lompoc, CA | Coastal Restoration Services Inc"
-h1: "Sewage Cleanup and Sanitization in Lompoc"
-meta_description: "Sewage cleanup and sanitization in Lompoc, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Sewage Cleanup and Sanitization in Lompoc, CA | Coastal Restoration Services Inc"
+h1: "Emergency Sewage Cleanup and Sanitization in Lompoc"
+meta_description: "Emergency sewage cleanup and sanitization in Lompoc, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "sewage cleanup and sanitization lompoc"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Lompoc? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Lompoc sits in a coastal valley where the Santa Ynez River basin and decades of agricultural irrigation have left the soil with a high clay content, and clay soil doesn't drain. When a sewer line backs up or a septic system overflows in this environment, the contaminated water has nowhere to go quickly. It saturates subfloor materials, wicks into wall cavities, and begins producing dangerous pathogens within hours. Coastal Restoration Services Inc responds to sewage backups throughout Lompoc, bringing the equipment and trained personnel needed to remove raw sewage, disinfect affected surfaces, and get your home or business back to a safe condition.
 
 ## Why Lompoc Properties Experience Sewage Backup Problems

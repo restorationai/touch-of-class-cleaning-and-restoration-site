@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Cicero, IL | Dry Bros Water & Fire Restoration"
-h1: "Storm Damage Restoration in Cicero"
-meta_description: "Storm damage restoration in Cicero, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Storm Damage Restoration in Cicero, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Cicero"
+meta_description: "24/7 emergency storm damage restoration in Cicero, IL. Insurance billing accepted. Call us now."
 primary_keyword: "storm damage restoration cicero"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Cicero? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Cicero sits in the middle of the Chicago metropolitan weather corridor, where fast-moving storm cells can drop golf-ball hail, spin up brief but violent straight-line winds, and dump two inches of rain in under an hour before the National Weather Service has finished updating its alerts. That combination, sudden intensity, older housing stock, and flat Cook County drainage, means storm damage here rarely looks like a single clean problem. A downed tree punches through a roof, rain follows immediately into the attic, and within hours you have a structural breach, soaked insulation, and the early conditions for mold growth all running at once.
 
 ## Why Cicero Properties Are Especially Vulnerable to Storm Damage

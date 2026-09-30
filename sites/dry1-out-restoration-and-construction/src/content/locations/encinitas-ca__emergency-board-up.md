@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board Up in Encinitas, CA | Dry1 Out Restoration and Construction"
-h1: "Emergency Board Up in Encinitas"
+title: "24/7 Emergency Board Up in Encinitas, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Board Up in Encinitas"
 meta_description: "24/7 emergency board up in Encinitas, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "emergency board up encinitas"
 secondary_keywords: []

@@ -1,9 +1,9 @@
 ---
 hero: '/images/services/smoke-damage-restoration.webp'
 archetype: "service-landing"
-title: "Smoke Damage Restoration in Saratoga Springs | Home Pride Restoration and Cleaning"
-h1: "Smoke Damage Restoration in Saratoga Springs"
-meta_description: "24/7 smoke damage restoration in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Smoke Damage Restoration in Saratoga Springs | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Smoke Damage Restoration in Saratoga Springs"
+meta_description: "24/7 emergency smoke damage restoration in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "smoke damage restoration saratoga springs"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -18,6 +18,9 @@ service_slug: "smoke-damage-restoration"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Saratoga Springs? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 ## The smell that won't leave
 
 Smoke doesn't behave like water, it doesn't pool in one place and wait to be extracted. Within hours of a fire, smoke particles migrate through wall cavities, settle into HVAC ductwork, and bond chemically to porous surfaces like drywall, wood framing, and upholstery. Three days later, the visible char may be gone but the odor is still radiating from inside your walls. That's the problem smoke damage restoration exists to solve: not just cleaning what you can see, but neutralizing what you can't.

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Goldsmith, TX | ACS Enterprise "
-h1: "Storm Damage Restoration in Goldsmith"
-meta_description: "Storm damage restoration in Goldsmith, TX. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Storm Damage Restoration in Goldsmith, TX | ACS Enterprise "
+h1: "Emergency Storm Damage Restoration in Goldsmith"
+meta_description: "Emergency storm damage restoration in Goldsmith, TX. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "storm damage restoration goldsmith"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Lennox, SD | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Lennox"
-meta_description: "Fire damage restoration in Lennox, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Lennox, SD | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Lennox"
+meta_description: "Emergency fire damage restoration in Lennox, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration lennox"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Lennox? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When a fire tears through a home near Downtown Lennox or along the quiet residential streets spreading out toward Lincoln County farmland, the damage rarely stops at the charred walls. Smoke travels fast through South Dakota's wide-open floor plans, soot settles into every cavity, and the dry prairie air that characterizes this part of Lincoln County can actually accelerate odor penetration into porous materials. Crew Restoration & Construction responds to fire losses in the 57039 area, handling everything from initial board-up to full structural rebuild so families don't have to coordinate a half-dozen separate contractors during the worst week of their lives.
 
 ## Why Lennox Properties Face Specific Fire Damage Challenges

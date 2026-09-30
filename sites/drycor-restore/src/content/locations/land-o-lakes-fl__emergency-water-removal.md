@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Land O' Lakes, FL | DRYCOR RESTORE"
-h1: "Emergency Water Removal & Cleanup in Land O' Lakes"
+title: "24/7 Emergency Water Removal & Cleanup in Land O' Lakes, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Water Removal & Cleanup in Land O' Lakes"
 meta_description: "24/7 emergency water removal and cleanup in Land O' Lakes, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "emergency water removal land o' lakes"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Land O' Lakes? We answer 24/7.** Call now and our crew heads out to extract the water and start drying.
+
 Land O' Lakes sits in one of Pasco County's fastest-draining, and fastest-flooding, corridors. The same flat, sandy soil that makes the area attractive for development also means water from a burst supply line, an overflowing washing machine, or a storm-driven roof leak has nowhere to go quickly. It pools under flooring, wicks into wall cavities, and reaches the subfloor before most homeowners realize the source has been stopped. When that happens, the clock on mold colonization starts, typically within 24 to 48 hours in Florida's humidity, and the damage compounds with every hour standing water sits.
 
 ## Why Land O' Lakes Properties See Water Damage Differently

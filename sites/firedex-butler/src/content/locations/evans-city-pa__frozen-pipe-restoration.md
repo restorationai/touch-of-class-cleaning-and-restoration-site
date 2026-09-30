@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Evans City, PA | FireDEX Butler"
-h1: "Frozen Pipe Restoration in Evans City"
-meta_description: "24/7 frozen pipe restoration in Evans City, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Frozen Pipe Restoration in Evans City, PA | FireDEX Butler"
+h1: "24/7 Emergency Frozen Pipe Restoration in Evans City"
+meta_description: "24/7 emergency frozen pipe restoration in Evans City, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "frozen pipe restoration evans city"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Evans City? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 When temperatures in the Breakneck Creek valley drop into the single digits, which Butler County sees several times each winter, the 1920s frame homes lining Evans City Borough's side streets face a risk that newer construction rarely encounters: supply lines running through uninsulated crawl spaces and stone foundation walls that were never designed to hold heat. A pipe that freezes overnight can thaw into a slow weep or a sudden burst by morning, and the difference between a contained repair and a gutted wall often comes down to how fast the water is found and stopped. FireDEX Butler has been responding to exactly this kind of loss since 1981, and Evans City is well within our reach around the clock.
 
 ## Why Evans City Properties See Frozen Pipe Damage

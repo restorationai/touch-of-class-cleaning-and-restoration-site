@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Dallas, TX | Reign Restoration"
-h1: "Storm Damage Restoration in Dallas"
-meta_description: "24/7 storm damage restoration in Dallas, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Storm Damage Restoration in Dallas, TX | Reign Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Dallas"
+meta_description: "24/7 emergency storm damage restoration in Dallas, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "storm damage restoration dallas"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Dallas? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Dallas storms don't ease in gradually, a spring supercell can drop baseball-sized hail on Preston Hollow, spin a tornado through Oak Cliff, and flood White Rock Lake's surrounding streets inside the same hour. When that happens, the damage to your roof, siding, windows, and interior isn't just cosmetic. Water follows every breach, and in a city where Blackland clay shifts with every wet-dry cycle, even a few inches of standing water in a crawl space or slab seam can set off a chain of structural and mold problems that outlast the storm by months.
 
 ## Why Dallas Properties See Severe Storm Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Riverton, UT | Home Pride Restoration and Cleaning"
-h1: "Storm Damage Restoration in Riverton"
-meta_description: "24/7 storm damage restoration in Riverton, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Storm Damage Restoration in Riverton, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Storm Damage Restoration in Riverton"
+meta_description: "24/7 emergency storm damage restoration in Riverton, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "storm damage restoration riverton"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Riverton? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Riverton sits at roughly 4,400 feet along the western bench of the Wasatch Front, where late-spring microbursts and early-fall canyon winds funnel down from the Oquirrh Mountains with surprising speed. A storm that looks like a passing thunderstorm on radar can drop softball-sized hail, snap mature cottonwoods, and push an inch of water under a garage door in under 20 minutes, and the 84065 ZIP code sees that pattern more often than most of Salt Lake County. When that happens, the clock starts immediately: wet insulation begins losing R-value within hours, and saturated OSB sheathing can start supporting mold colonization in as little as 48 to 72 hours depending on temperature.
 
 ## Why Riverton Properties Face Distinct Storm Damage Risks

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in American Fork, UT | Home Pride Restoration and Cleaning"
-h1: "Burst Pipe Cleanup and Repair in American Fork"
-meta_description: "24/7 burst pipe cleanup and repair in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "Emergency Burst Pipe Cleanup and Repair in American Fork, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in American Fork"
+meta_description: "24/7 emergency burst pipe cleanup and repair in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "burst pipe cleanup and repair american fork"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in American Fork? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 When temperatures in Utah County drop below freezing overnight, and in American Fork, that can happen as early as October and stretch into March, the pipes in older ranch-style homes along the foothills near Mount Timpanogos are among the first to feel it. A burst pipe doesn't announce itself politely: it's the sound of water hissing behind drywall at 2 a.m., or the sudden drop in pressure when you turn on a faucet and nothing comes out. Home Pride Restoration and Cleaning has been responding to exactly these calls since 1997, and our team knows what a water line break in American Fork looks like from the moment we pull up to the curb.
 
 ## Why American Fork Properties See More Pipe Burst Events

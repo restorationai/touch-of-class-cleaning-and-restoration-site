@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Garland, TX | Reign Restoration"
-h1: "Storm Damage Restoration in Garland"
-meta_description: "Storm damage restoration in Garland, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Storm Damage Restoration in Garland, TX | Reign Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Garland"
+meta_description: "24/7 emergency storm damage restoration in Garland, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "storm damage restoration garland"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Garland? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 North Texas storms don't ease into Garland, they arrive fast, often with little more than a 20-minute warning from the National Weather Service. The same geography that funnels spring supercells down the I-30 corridor also positions Garland directly in the path of the hail swaths and straight-line wind events that rip through Dallas County every year between March and June. When a storm tears shingles off a roof on a Tuesday afternoon, the water that follows doesn't wait for a convenient repair window, it moves into attic insulation, ceiling drywall, and wall cavities within hours.
 
 ## Why Garland Properties Take a Hard Hit from Severe Weather

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Provo, UT | FIX Restoration"
-h1: "Flood Damage Restoration in Provo"
-meta_description: "Flood damage restoration in Provo, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Flood Damage Restoration in Provo, UT | FIX Restoration"
+h1: "Emergency Flood Damage Restoration in Provo"
+meta_description: "Emergency flood damage restoration in Provo, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "flood damage restoration provo"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

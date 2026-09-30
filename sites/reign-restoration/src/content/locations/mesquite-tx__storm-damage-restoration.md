@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Mesquite, TX | Reign Restoration"
-h1: "Storm Damage Restoration in Mesquite"
-meta_description: "Storm damage restoration in Mesquite, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Storm Damage Restoration in Mesquite, TX | Reign Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Mesquite"
+meta_description: "24/7 emergency storm damage restoration in Mesquite, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "storm damage restoration mesquite"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Mesquite? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 North Texas doesn't ease into severe weather, it arrives fast, and Mesquite sits squarely in the corridor where supercells dropping hail the size of golf balls can roll through with almost no warning. When a storm tears shingles off a roof on a Tuesday afternoon, the structural exposure that follows, wet insulation, compromised decking, water tracking into wall cavities, starts doing damage within hours, not days. Reign Restoration responds to storm damage calls across Mesquite and the surrounding Dallas County communities, working to stop secondary damage before it compounds the original loss.
 
 ## Why Mesquite Properties Are Particularly Vulnerable to Storm Damage

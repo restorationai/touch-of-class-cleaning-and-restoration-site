@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Highland Park, NJ | The Restoration Group"
-h1: "Fire Damage Restoration in Highland Park"
-meta_description: "24/7 fire damage restoration in Highland Park, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Fire Damage Restoration in Highland Park, NJ | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in Highland Park"
+meta_description: "24/7 emergency fire damage restoration in Highland Park, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "fire damage restoration highland park"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Highland Park? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and start the recovery.
+
 The smell of smoke doesn't leave a house the way water does, it binds to plaster, soaks into wood framing, and settles into every closet and cabinet. In Highland Park's dense stock of 1910s–1940s colonials and two-family homes, that problem is compounded by construction materials that were never designed to be cleaned with modern chemistry: horsehair plaster, old-growth fir framing, and layers of oil-based paint that can trap char and odor deep beneath the surface. When a fire tears through a home in the 08904 ZIP code, the restoration challenge isn't just what burned, it's everything the smoke touched afterward.
 
 ## Why Highland Park's Older Housing Stock Complicates Fire Recovery

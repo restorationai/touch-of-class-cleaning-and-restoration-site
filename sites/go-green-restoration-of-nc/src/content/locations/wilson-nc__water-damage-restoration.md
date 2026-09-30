@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Wilson, NC | Go Green Restoration of NC"
-h1: "Water Damage Restoration in Wilson"
-meta_description: "Water damage restoration in Wilson, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Water Damage Restoration in Wilson, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Water Damage Restoration in Wilson"
+meta_description: "24/7 emergency water damage restoration in Wilson, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "water damage restoration wilson"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NC"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Wilson? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Wilson sits in the coastal plain of eastern North Carolina, where the ground stays saturated for days after a heavy rain and summer humidity rarely drops low enough to let a wet crawl space dry on its own. When a pipe bursts, a water heater fails, or a storm pushes water under a door, the combination of warm ambient air and already-damp soil means structural moisture can climb fast, and mold can begin colonizing porous materials in as little as 24 to 48 hours. Go Agree Restoration of NC responds to water damage calls throughout Wilson and surrounding Wilson County, working to stop the spread before the damage compounds.
 
 ## Why Wilson Properties See Water Damage Issues

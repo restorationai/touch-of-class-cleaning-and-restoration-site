@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Orem, UT | FIX Restoration"
-h1: "Sewage Cleanup and Sanitization in Orem"
-meta_description: "Sewage cleanup and sanitization in Orem, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Sewage Cleanup and Sanitization in Orem, UT | FIX Restoration"
+h1: "Emergency Sewage Cleanup and Sanitization in Orem"
+meta_description: "Emergency sewage cleanup and sanitization in Orem, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "sewage cleanup and sanitization orem"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Orem? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows in Orem, the damage moves fast, and so does the health risk. Utah County's clay-heavy soils and the freeze-thaw cycles that hit the Wasatch foothills each winter put real stress on aging lateral lines, and Orem's mix of mid-century ranch homes and newer infill construction means the plumbing underneath those properties ranges from decades-old cast iron to relatively recent PVC. Raw sewage in a crawl space or finished basement is not a mop-and-bleach situation. It requires containment, extraction, antimicrobial treatment, and verification, and it needs to start before contamination spreads to materials that can't be salvaged.
 
 ## Why Orem Properties See Sewage Backup Issues

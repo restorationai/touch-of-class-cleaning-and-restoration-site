@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Vandenberg Village, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Vandenberg Village"
-meta_description: "Board-up and tarping in Vandenberg Village, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Vandenberg Village, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Vandenberg Village"
+meta_description: "Emergency board-up and tarping in Vandenberg Village, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping vandenberg village"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Vandenberg Village? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Vandenberg Village sits in a coastal corridor where marine layer fog, dry Santa Ana wind cycles, and the occasional wildfire smoke event can all hit the same property in a single season. When a broken window, compromised roof, or fire-damaged wall is left open to those conditions overnight, what starts as a containable loss can absorb moisture, collect ash, or invite pests within hours. Coastal Restoration Services Inc is based right here in Vandenberg Village, which means a crew familiar with local building patterns and weather can be at your property quickly, not dispatched from a distant county office.
 
 ## Why Vandenberg Village Properties Face Distinct Board-Up and Tarping Risks

@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Englewood, NJ | The Restoration Group"
-h1: "Emergency Board-Up and Tarping in Englewood"
+title: "24/7 Emergency Board-Up and Tarping in Englewood, NJ | The Restoration Group"
+h1: "24/7 Emergency Board-Up and Tarping in Englewood"
 meta_description: "24/7 emergency board-up and tarping in Englewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "emergency board-up and tarping englewood"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Englewood? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure broken windows, doors and roofs.
+
 When a nor'easter tears shingles off a century-old East Hill estate or a kitchen fire blows out the windows of a Fourth Ward row house at 2 a.m., the gap between the moment of damage and the arrival of a board-up crew determines how much of the structure survives the night. Englewood's mix of grand pre-war homes, dense early-1900s multifamily buildings, and active commercial corridors means that an unsecured opening doesn't just invite rain, it invites the kind of secondary damage that doubles a restoration bill.
 
 ## Why Englewood Properties Face Distinct Board-Up and Tarping Needs

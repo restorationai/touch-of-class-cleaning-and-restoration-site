@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Passaic, NJ | The Restoration Group"
-h1: "Fire Damage Restoration in Passaic"
-meta_description: "24/7 fire damage restoration in Passaic, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Fire Damage Restoration in Passaic, NJ | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in Passaic"
+meta_description: "24/7 emergency fire damage restoration in Passaic, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "fire damage restoration passaic"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Passaic? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and start the recovery.
+
 The smell hits before you see the damage, charred wood, melted plastic, and the acrid bite of smoke that has worked its way into every wall cavity and closet. In Passaic's dense stock of early 20th-century two- and three-family frame houses, a kitchen fire on the first floor doesn't stay on the first floor. Smoke travels through uninsulated balloon-frame walls, through gaps around original cast-iron plumbing stacks, and into the units above within minutes. If your property is in the 07055 zip code and you're staring at blackened ceilings right now, call (855) 650-7422, The Restoration Group responds 24/7.
 
 ## Why Passaic Properties Are Especially Vulnerable to Fire Spread

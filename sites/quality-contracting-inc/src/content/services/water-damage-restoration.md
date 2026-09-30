@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in Auburn | Quality Contracting, Inc."
-h1: "Water Damage Restoration in Auburn"
-meta_description: "Water damage restoration in Auburn and surrounding areas. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Water Damage Restoration in Auburn | Quality Contracting, Inc."
+h1: "Emergency Water Damage Restoration in Auburn"
+meta_description: "Emergency water damage restoration in Auburn and surrounding areas. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "water damage restoration auburn"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Auburn? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 You noticed the ceiling stain this morning. By afternoon, the drywall was soft to the touch. By evening, you could hear water moving somewhere inside the wall. That gap, the hours between when water enters a structure and when drying equipment is running, is where most of the real damage happens. Wet framing, saturated insulation, and soaked subfloor don't announce themselves; they quietly set the conditions for mold colonization, which can begin in as little as 24 to 48 hours after a moisture event.
 
 ## What Water Damage Restoration actually involves

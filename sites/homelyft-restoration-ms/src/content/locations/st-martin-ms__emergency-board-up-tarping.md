@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in St. Martin, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in St. Martin"
-meta_description: "Board-up and tarping in St. Martin, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in St. Martin, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in St. Martin"
+meta_description: "24/7 emergency board-up and tarping in St. Martin, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping st. martin"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in St. Martin? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 St. Martin sits in the coastal lowlands of Jackson County, where Gulf storms, high humidity, and the occasional tornado can leave a home exposed to the elements within minutes. When a tree limb punches through a roof, a fire blows out windows, or a fast-moving storm peels back siding, every hour the structure stays open accelerates the damage, rain soaks into framing, insects move in, and opportunistic theft becomes a real concern. HomeLyft Restoration MS responds from Gulfport to secure St. Martin properties before secondary damage compounds the original loss.
 
 ## Why St. Martin Properties Face Elevated Board-Up and Tarping Risks

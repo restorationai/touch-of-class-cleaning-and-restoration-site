@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Board-Up and Tarping in Summit, NJ | The Restoration Group"
-h1: "Emergency Board-Up and Tarping in Summit"
+title: "24/7 Emergency Board-Up and Tarping in Summit, NJ | The Restoration Group"
+h1: "24/7 Emergency Board-Up and Tarping in Summit"
 meta_description: "24/7 emergency board-up and tarping in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "emergency board-up and tarping summit"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

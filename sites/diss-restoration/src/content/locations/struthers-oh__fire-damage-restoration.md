@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Struthers, OH | DISS Restoration"
-h1: "Fire Damage Restoration in Struthers"
-meta_description: "24/7 fire damage restoration in Struthers, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Fire Damage Restoration in Struthers, OH | DISS Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Struthers"
+meta_description: "24/7 emergency fire damage restoration in Struthers, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "fire damage restoration struthers"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "OH"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Struthers? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 When fire moves through a Struthers home, it rarely stops at the room where it started. The mill-era housing stock that defines much of this Mahoning County borough, two-story frames built for steelworkers in the early and mid-twentieth century, tends to have open balloon-frame construction, meaning flames and superheated gases can travel inside wall cavities from the basement to the attic before a smoke detector finishes its first alarm cycle. That kind of hidden fire path changes everything about how restoration has to begin, and it's the first thing DISS Restoration's IICRC FSRT-certified technicians look for when they arrive on-site.
 
 ## Why Struthers Properties See Distinct Fire Damage Patterns

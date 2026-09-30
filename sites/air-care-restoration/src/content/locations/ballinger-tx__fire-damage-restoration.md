@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Ballinger, TX | Air Care Restoration"
-h1: "Fire Damage Restoration in Ballinger"
-meta_description: "24/7 fire damage restoration in Ballinger, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Fire Damage Restoration in Ballinger, TX | Air Care Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Ballinger"
+meta_description: "24/7 emergency fire damage restoration in Ballinger, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "fire damage restoration ballinger"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

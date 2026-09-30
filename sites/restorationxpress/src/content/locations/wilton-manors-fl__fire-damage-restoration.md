@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Wilton Manors, FL | RestorationXpress "
-h1: "Fire Damage Restoration in Wilton Manors"
-meta_description: "Fire damage restoration in Wilton Manors, FL. Insurance billing accepted. Call (954) 964-6471."
+title: "Emergency Fire Damage Restoration in Wilton Manors, FL | RestorationXpress "
+h1: "Emergency Fire Damage Restoration in Wilton Manors"
+meta_description: "Emergency fire damage restoration in Wilton Manors, FL. Insurance billing accepted. Call (954) 964-6471."
 primary_keyword: "fire damage restoration wilton manors"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

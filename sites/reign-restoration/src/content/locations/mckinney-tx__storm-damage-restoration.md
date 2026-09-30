@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in McKinney, TX | Reign Restoration"
-h1: "Storm Damage Restoration in McKinney"
-meta_description: "24/7 storm damage restoration in McKinney, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Storm Damage Restoration in McKinney, TX | Reign Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in McKinney"
+meta_description: "24/7 emergency storm damage restoration in McKinney, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "storm damage restoration mckinney"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in McKinney? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 When a severe thunderstorm or tornado-warned supercell rolls across Collin County, McKinney takes the hit differently depending on which side of US 75 you're on. The 1890s–1920s Folk Victorians and Craftsman bungalows clustered around Historic Downtown McKinney sit on pier-and-beam foundations with open crawlspaces, storm-driven rain wicks up through those gaps fast, and the old-growth lumber framing holds moisture far longer than modern engineered wood. West of the highway, master-planned communities like Stonebridge Ranch and Trinity Falls face their own exposure: wide-open lots, younger tree canopies with shallow root systems, and miles of impact-rated roofing that still gets tested every hail season. Reign Restoration responds to storm damage calls across McKinney 24/7, (214) 304-0621.
 
 ## Why McKinney Properties Are Especially Vulnerable to Severe Weather

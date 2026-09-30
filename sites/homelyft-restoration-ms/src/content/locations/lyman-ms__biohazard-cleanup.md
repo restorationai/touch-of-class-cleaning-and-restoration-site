@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Lyman, MS | HomeLyft Restoration MS"
-h1: "Biohazard Cleanup in Lyman"
-meta_description: "Biohazard cleanup in Lyman, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Biohazard Cleanup in Lyman, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Biohazard Cleanup in Lyman"
+meta_description: "24/7 emergency biohazard cleanup in Lyman, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "biohazard cleanup lyman"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Lyman? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Lyman sits in Harrison County where Gulf Coast humidity rarely lets up, even in cooler months, the air stays heavy enough that biological materials left unaddressed can begin to create secondary hazards within hours. When a situation involving blood, bodily fluids, sharps, or other infectious material arises at a Lyman property, the priority is swift, discreet action by a team that understands both the clinical requirements and the practical realities of working in this part of Mississippi. HomeLyft Restoration MS handles biohazard cleanup in Lyman with the kind of quiet professionalism that difficult circumstances demand.
 
 ## Why Lyman Properties Present Specific Biohazard Challenges

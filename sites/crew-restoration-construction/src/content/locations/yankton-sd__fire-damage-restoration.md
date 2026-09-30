@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Yankton, SD | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Yankton"
-meta_description: "Fire damage restoration in Yankton, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Yankton, SD | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Yankton"
+meta_description: "Emergency fire damage restoration in Yankton, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration yankton"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Yankton? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When fire moves through a Yankton home, it rarely stops at the charred walls. The Missouri River valley's humidity, especially in late summer when dew points climb and the air off Lewis and Clark Lake stays thick, means smoke residue and soot absorb moisture fast, turning a manageable cleanup into a structural problem within days. Crew Restoration & Construction responds to fire-damaged properties across Yankton's 57078 ZIP code, working through the full scope of fire cleanup, odor neutralization, and structural fire damage repair so homeowners aren't left managing a patchwork of subcontractors.
 
 ## Why Yankton's Housing Stock Shapes Fire Damage Restoration

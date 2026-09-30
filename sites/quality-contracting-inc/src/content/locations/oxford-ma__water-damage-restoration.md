@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Oxford, MA | Quality Contracting, Inc."
-h1: "Water Damage Restoration in Oxford"
-meta_description: "Water damage restoration in Oxford, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Water Damage Restoration in Oxford, MA | Quality Contracting, Inc."
+h1: "Emergency Water Damage Restoration in Oxford"
+meta_description: "Emergency water damage restoration in Oxford, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "water damage restoration oxford"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Oxford? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Oxford, MA sits in a part of Worcester County where the ground stays saturated well into spring, and the town's mix of older mill-era housing and mid-century ranch homes means water intrusion rarely announces itself cleanly. A slow leak behind a plaster wall or a sump pump that fails during a March thaw can quietly compromise structural framing and subfloor materials before a homeowner notices anything more than a musty smell. When water damage hits a property in Oxford, the window for limiting the damage is measured in hours, not days, and Quality Contracting, Inc. is based in neighboring Auburn to respond without the long drive times that out-of-region companies face.
 
 ## Why Oxford Properties See Water Damage Issues

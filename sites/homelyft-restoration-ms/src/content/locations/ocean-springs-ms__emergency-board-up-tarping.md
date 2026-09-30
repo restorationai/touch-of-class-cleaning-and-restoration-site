@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Ocean Springs, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Ocean Springs"
-meta_description: "Board-up and tarping in Ocean Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Ocean Springs, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Ocean Springs"
+meta_description: "24/7 emergency board-up and tarping in Ocean Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping ocean springs"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Ocean Springs? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Ocean Springs sits squarely in the path of Gulf Coast weather that can shift from sunny to destructive in hours, a fast-moving thunderstorm, a tornado warning, or the outer bands of a named storm can leave a roof open to the sky or a storefront window shattered before a homeowner even knows what hit them. When that happens, the gap between the damage event and a proper board-up or tarp installation is the gap where water, wind, and opportunistic entry do their worst. HomeLyft Restoration MS responds out of Gulfport to secure properties across Ocean Springs before secondary damage compounds the original loss.
 
 ## Why Ocean Springs Properties Face Elevated Board-Up and Tarping Needs

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Wilson, NC | Go Green Restoration of NC"
-h1: "Fire Damage Restoration in Wilson"
-meta_description: "24/7 fire damage restoration in Wilson, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Fire Damage Restoration in Wilson, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Fire Damage Restoration in Wilson"
+meta_description: "24/7 emergency fire damage restoration in Wilson, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "fire damage restoration wilson"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NC"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Wilson? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 The smell hits before the smoke clears, that sharp mix of charred wood, melted plastic, and something harder to name that settles into every surface a fire touches. In Wilson, where Historic Downtown Wilson's older commercial blocks sit alongside mid-century bungalows and newer subdivisions spreading toward the 27893 zip code, fire damage carries an extra layer of complexity. Older construction absorbs smoke differently than modern materials, and the humid summers that define eastern North Carolina mean soot and moisture interact fast, sometimes within hours of the fire being extinguished.
 
 ## Why Wilson Properties See Fire Damage Differently

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in San Marcos, CA | Flood Fixers"
-h1: "Water Damage Restoration in San Marcos"
-meta_description: "24/7 water damage restoration in San Marcos, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "24/7 Emergency Water Damage Restoration in San Marcos, CA | Flood Fixers"
+h1: "24/7 Emergency Water Damage Restoration in San Marcos"
+meta_description: "24/7 emergency water damage restoration in San Marcos, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "water damage restoration san marcos"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in San Marcos? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 San Marcos sits in a Mediterranean microclimate where dry summers and concentrated winter rain events create a stop-start cycle that's hard on plumbing, foundations, and stucco exteriors alike. When a water heater fails in a home near Twin Oaks Valley Road or a supply line bursts inside one of the newer townhome developments off Discovery Street, the damage can spread faster than most homeowners expect, soaked drywall within minutes, saturated subfloor within hours. Flood Fixers dispatches from San Diego and can have a crew on the ground in San Marcos typically within 60 to 90 minutes of your call to (855) 204-1124.
 
 ## Why San Marcos Properties See Water Damage Differently

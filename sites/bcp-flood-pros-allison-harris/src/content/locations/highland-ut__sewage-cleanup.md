@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Highland, UT | FIX Restoration"
-h1: "Sewage Cleanup and Sanitization in Highland"
-meta_description: "Sewage cleanup and sanitization in Highland, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Sewage Cleanup and Sanitization in Highland, UT | FIX Restoration"
+h1: "Emergency Sewage Cleanup and Sanitization in Highland"
+meta_description: "Emergency sewage cleanup and sanitization in Highland, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "sewage cleanup and sanitization highland"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Highland? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Highland sits at the foot of the Wasatch Range in Utah County, where cold winters, clay-heavy soils, and a mix of established neighborhoods and newer subdivisions create conditions that put real stress on sewer lines and septic systems. When a sewage backup forces its way into a finished basement or utility room, the clock starts immediately, raw sewage carries bacteria, viruses, and pathogens that begin contaminating porous surfaces within hours. FIX Restoration responds to sewage cleanup and sanitization calls throughout Highland, working to stop the spread, remove the contamination, and return the space to a safe, livable condition.
 
 ## Why Highland Properties Experience Sewage Backups

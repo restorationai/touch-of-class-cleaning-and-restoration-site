@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Union, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Union"
-meta_description: "24/7 smoke damage restoration in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Smoke Damage Restoration in Union, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Union"
+meta_description: "24/7 emergency smoke damage restoration in Union, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "smoke damage restoration union"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Union? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 The acrid smell of smoke doesn't leave on its own. In Union Township's dense postwar neighborhoods, rows of 1940s and '50s capes, split-levels, and colonials from Battle Hill to Vauxhall, smoke residue works its way into plaster walls, original wood trim, and the kind of forced-air ductwork that hasn't been replaced since the Eisenhower administration. A kitchen fire, a chimney flashback, or even a neighbor's house fire close enough to push smoke through your attic vents can leave odor and soot that linger for months if the cleanup isn't done right the first time. The Restoration Group responds 24/7 from our Kenilworth base, minutes from Union's 07083 and 07088 ZIP codes, to stop that damage from becoming permanent.
 
 ## Why Union Homes Are Especially Vulnerable to Smoke Damage

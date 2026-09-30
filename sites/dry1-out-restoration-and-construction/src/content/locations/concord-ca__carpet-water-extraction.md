@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Carpet Water Extraction in Concord, CA | Dry1 Out Restoration and Construction"
-h1: "Carpet Water Extraction in Concord"
-meta_description: "24/7 carpet water extraction in Concord, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+title: "24/7 Emergency Carpet Water Extraction in Concord, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Carpet Water Extraction in Concord"
+meta_description: "24/7 emergency carpet water extraction in Concord, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "carpet water extraction concord"
 secondary_keywords: []
 search_intent: "local_specialty"

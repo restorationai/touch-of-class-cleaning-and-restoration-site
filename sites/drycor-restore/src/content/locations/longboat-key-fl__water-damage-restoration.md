@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Longboat Key, FL | DRYCOR RESTORE"
-h1: "Water Damage Restoration in Longboat Key"
-meta_description: "24/7 water damage restoration in Longboat Key, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "24/7 Emergency Water Damage Restoration in Longboat Key, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Water Damage Restoration in Longboat Key"
+meta_description: "24/7 emergency water damage restoration in Longboat Key, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "water damage restoration longboat key"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Longboat Key? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Longboat Key sits on a narrow barrier island between Sarasota Bay and the Gulf of Mexico, which means water is never far away, and when it gets inside a home, it behaves differently than it does on the mainland. Salt-laden humidity keeps building materials damp longer, storm surge can push water through seals that would hold in an inland neighborhood, and the island's high water table means there is almost nowhere for ground moisture to drain quickly. When a pipe bursts, an appliance fails, or a storm pushes water under your door, the clock starts immediately.
 
 ## Why Longboat Key Properties Face Elevated Water Damage Risk

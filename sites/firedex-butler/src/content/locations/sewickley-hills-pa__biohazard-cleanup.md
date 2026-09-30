@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Sewickley Hills, PA | FireDEX Butler"
-h1: "Biohazard Cleanup in Sewickley Hills"
-meta_description: "24/7 biohazard cleanup in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Biohazard Cleanup in Sewickley Hills, PA | FireDEX Butler"
+h1: "24/7 Emergency Biohazard Cleanup in Sewickley Hills"
+meta_description: "24/7 emergency biohazard cleanup in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "biohazard cleanup sewickley hills"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

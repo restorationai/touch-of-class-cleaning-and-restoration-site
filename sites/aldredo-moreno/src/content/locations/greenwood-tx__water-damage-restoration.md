@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Greenwood, TX | ACS Enterprise "
-h1: "Water Damage Restoration in Greenwood"
-meta_description: "Water damage restoration in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Water Damage Restoration in Greenwood, TX | ACS Enterprise "
+h1: "Emergency Water Damage Restoration in Greenwood"
+meta_description: "Emergency water damage restoration in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "water damage restoration greenwood"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Greenwood? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Greenwood sits in the Permian Basin, where the same caliche-heavy clay soil that makes West Texas famous for oil production also creates drainage headaches for homeowners. When a water line fails or a summer thunderstorm drops two inches in an hour, not unusual in Midland County, that compacted soil sheds water fast, pushing it toward foundations and through any gap it can find. ACS Enterprise responds to water damage calls across Greenwood and the surrounding area, working to stop the spread before saturated materials become a longer, costlier problem.
 
 ## Why Greenwood Properties See Water Damage Issues

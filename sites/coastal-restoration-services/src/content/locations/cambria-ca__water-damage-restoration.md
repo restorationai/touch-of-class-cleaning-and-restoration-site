@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Cambria, CA | Coastal Restoration Services Inc"
-h1: "Water Damage Restoration in Cambria"
-meta_description: "Water damage restoration in Cambria, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Water Damage Restoration in Cambria, CA | Coastal Restoration Services Inc"
+h1: "Emergency Water Damage Restoration in Cambria"
+meta_description: "Emergency water damage restoration in Cambria, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "water damage restoration cambria"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Cambria? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Cambria sits on a narrow coastal terrace where the Santa Lucia Range meets the Pacific, and that geography shapes water damage in ways that catch homeowners off guard. Marine fog rolls in nearly every morning, keeping humidity high year-round, while the area's sandy-loam soils drain unevenly, a slow leak under a slab or crawl space can saturate the ground beneath a foundation for weeks before a stain appears on the floor. When water intrusion does show itself in a Cambria home, the damage is often deeper than it looks. Coastal Restoration Services Inc responds to water damage calls throughout the area and understands the specific conditions that make drying here different from inland San Luis Obispo County.
 
 ## Why Cambria Properties See Water Damage Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Lompoc, CA | Coastal Restoration Services Inc"
-h1: "Water Damage Restoration in Lompoc"
-meta_description: "Water damage restoration in Lompoc, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Water Damage Restoration in Lompoc, CA | Coastal Restoration Services Inc"
+h1: "Emergency Water Damage Restoration in Lompoc"
+meta_description: "Emergency water damage restoration in Lompoc, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "water damage restoration lompoc"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Lompoc? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Lompoc sits in a coastal valley where marine air funnels in from the Pacific through the Santa Ynez Mountains, keeping humidity elevated year-round even during dry stretches. That persistent moisture, combined with the city's mix of mid-century ranch homes and older agricultural-era construction, means a burst pipe, failed water heater, or backed-up drain can escalate faster here than in drier inland communities. When water gets into wall cavities or under slab foundations in this climate, it doesn't dry on its own. Coastal Restoration Services Inc, based just down the road in Vandenberg Village, responds to water damage calls throughout Lompoc and the surrounding area.
 
 ## Why Lompoc Properties See Water Damage Issues

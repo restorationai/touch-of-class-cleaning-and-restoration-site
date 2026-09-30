@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Hoboken, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in Hoboken"
-meta_description: "24/7 basement flooding cleanup in Hoboken, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Basement Flooding Cleanup in Hoboken, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Hoboken"
+meta_description: "24/7 emergency basement flooding cleanup in Hoboken, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "basement flooding cleanup hoboken"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Hoboken? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 Hoboken sits on what was once tidal marsh, and after every significant storm, Sandy in 2012, Ida in 2021, that geography reasserts itself fast. The city's combined sewer system backs up under heavy rain, and below-grade units from Downtown Hoboken to Southwest Hoboken fill with a mix of groundwater, street runoff, and raw sewage before most residents have time to move a single box. If your basement is wet right now, the clock matters: standing water begins wicking into masonry and subfloor framing within hours, and in Hoboken's dense 19th-century brownstone stock, that moisture has nowhere to escape.
 
 ## Why Hoboken Properties See Basement Flooding So Often

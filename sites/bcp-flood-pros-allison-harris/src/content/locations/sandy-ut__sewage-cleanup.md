@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Sandy, UT | FIX Restoration"
-h1: "Sewage Cleanup and Sanitization in Sandy"
-meta_description: "Sewage cleanup and sanitization in Sandy, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Sewage Cleanup and Sanitization in Sandy, UT | FIX Restoration"
+h1: "Emergency Sewage Cleanup and Sanitization in Sandy"
+meta_description: "Emergency sewage cleanup and sanitization in Sandy, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "sewage cleanup and sanitization sandy"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

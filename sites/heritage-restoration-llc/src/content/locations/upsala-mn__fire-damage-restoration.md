@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Upsala, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Upsala"
-meta_description: "Fire damage restoration in Upsala, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Upsala, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Upsala"
+meta_description: "Emergency fire damage restoration in Upsala, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration upsala"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Upsala? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When fire tears through a home in Upsala, the cold winters that define central Morrison County create a compounding problem most people don't anticipate: smoke residue seeps deeper into porous materials when temperatures drop sharply after a fire, and the freeze-thaw cycle can accelerate structural deterioration in walls and ceilings that have already been weakened by heat and water from suppression efforts. Heritage Restoration LLC responds to fire losses across Upsala and the surrounding area, holding IICRC FSRT certification specifically for fire and smoke restoration work.
 
 ## Why Upsala Properties Are Vulnerable to Fire Damage

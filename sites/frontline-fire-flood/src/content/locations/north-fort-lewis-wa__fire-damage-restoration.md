@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in North Fort Lewis, WA | Frontline Fire & Flood"
-h1: "Fire Damage Restoration in North Fort Lewis"
-meta_description: "24/7 fire damage restoration in North Fort Lewis, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "Emergency Fire Damage Restoration in North Fort Lewis, WA | Frontline Fire & Flood"
+h1: "24/7 Emergency Fire Damage Restoration in North Fort Lewis"
+meta_description: "24/7 emergency fire damage restoration in North Fort Lewis, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "fire damage restoration north fort lewis"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

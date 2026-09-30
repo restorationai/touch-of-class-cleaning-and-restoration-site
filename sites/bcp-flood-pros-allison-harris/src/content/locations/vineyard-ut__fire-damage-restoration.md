@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Vineyard, UT | FIX Restoration"
-h1: "Fire Damage Restoration in Vineyard"
-meta_description: "Fire damage restoration in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in Vineyard, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in Vineyard"
+meta_description: "Emergency fire damage restoration in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration vineyard"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Vineyard? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Vineyard is one of Utah County's fastest-growing cities, and that growth comes with a particular fire risk profile: newly built subdivisions packed close together along the western shore of Utah Lake, where dry summer winds can carry embers and push smoke deep into a structure before the fire itself is contained. When fire damage hits a home here, the cleanup challenge is rarely just char and ash. It is the invisible layer of smoke residue that settles into HVAC systems, kitchen cabinetry, and the engineered wood framing common in homes built in the last decade.
 
 ## Why Vineyard Properties Face Distinct Fire Damage Challenges

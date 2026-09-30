@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Long Prairie, MN | Heritage Restoration LLC"
-h1: "Sewage Cleanup and Sanitization in Long Prairie"
-meta_description: "Sewage cleanup and sanitization in Long Prairie, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Sewage Cleanup and Sanitization in Long Prairie | Heritage Restoration LLC"
+h1: "Emergency Sewage Cleanup and Sanitization in Long Prairie"
+meta_description: "Emergency sewage cleanup and sanitization in Long Prairie, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "sewage cleanup and sanitization long prairie"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

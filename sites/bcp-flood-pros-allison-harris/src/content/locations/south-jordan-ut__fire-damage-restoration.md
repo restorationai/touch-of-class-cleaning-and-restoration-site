@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in South Jordan, UT | FIX Restoration"
-h1: "Fire Damage Restoration in South Jordan"
-meta_description: "Fire damage restoration in South Jordan, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in South Jordan, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in South Jordan"
+meta_description: "Emergency fire damage restoration in South Jordan, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration south jordan"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in South Jordan? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 South Jordan sits at the base of the Wasatch Front, where dry summers and the occasional winter inversion trap smoke and combustion byproducts close to the ground long after a fire is out. That combination of low humidity and still air means soot travels farther inside a home than most homeowners expect, coating surfaces in rooms that never saw a flame. When fire damage hits a South Jordan property, the visible char is rarely the whole story.
 
 ## Why South Jordan Properties Face Particular Fire Damage Challenges

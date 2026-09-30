@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Weston, MA | Quality Contracting, Inc."
-h1: "Storm Damage Restoration in Weston"
-meta_description: "Storm damage restoration in Weston, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Storm Damage Restoration in Weston, MA | Quality Contracting, Inc."
+h1: "Emergency Storm Damage Restoration in Weston"
+meta_description: "Emergency storm damage restoration in Weston, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "storm damage restoration weston"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Weston? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Weston sits in one of eastern Massachusetts' most heavily wooded suburbs, where mature oaks and white pines line nearly every street and the town's large lot sizes mean trees routinely stand within falling distance of a roof. When a nor'easter or a fast-moving summer thunderstorm rolls through Middlesex County, that canopy becomes the primary hazard, branches the diameter of a fence post can punch through ridge boards, tear gutters from fascia, and drive rainwater into wall cavities before the storm has even passed. Quality Contracting, Inc. responds to that specific combination of damage: structural breach plus immediate water intrusion, in homes that often have the kind of older construction that makes both problems harder to contain.
 
 ## Why Weston Properties See Significant Storm Damage

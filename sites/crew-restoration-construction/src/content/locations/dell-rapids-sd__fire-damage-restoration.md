@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Dell Rapids, SD | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Dell Rapids"
-meta_description: "Fire damage restoration in Dell Rapids, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Dell Rapids, SD | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Dell Rapids"
+meta_description: "Emergency fire damage restoration in Dell Rapids, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration dell rapids"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Dell Rapids? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 A house fire in Dell Rapids hits differently than in a larger city. The quartzite-stone homes and older wood-frame structures near the Downtown Dell Rapids Historic District tend to hold smoke deep in their porous materials, and the region's wide temperature swings, brutal prairie winters followed by humid summers, mean that soot and char residue can migrate into wall cavities faster than most homeowners expect. Crew Restoration & Construction responds to fire and smoke damage calls throughout the 57022 ZIP code, bringing the equipment and experience needed to stabilize a property before secondary damage compounds the loss.
 
 ## Why Dell Rapids Properties Are Vulnerable to Severe Fire Damage

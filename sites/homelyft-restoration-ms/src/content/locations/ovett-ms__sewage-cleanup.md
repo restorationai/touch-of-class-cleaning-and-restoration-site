@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Ovett, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Ovett"
-meta_description: "Sewage cleanup and sanitization in Ovett, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Ovett, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Ovett"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Ovett, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization ovett"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Ovett? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Sewage backing up into a home in rural Jones County hits differently than a city plumbing failure. Ovett sits in a part of Mississippi where many properties rely on aging septic systems and older cast-iron lateral lines that have been quietly corroding for decades, and when those systems fail, the contamination spreads fast across crawl spaces and subfloor framing before most homeowners even realize what's happened. HomeLyft Restoration MS responds to sewage backup and septic overflow calls across this area, bringing the equipment and IICRC-certified process needed to remove raw sewage, neutralize pathogens, and dry structural materials properly.
 
 ## Why Ovett Properties See Sewage Backup More Often Than You'd Expect

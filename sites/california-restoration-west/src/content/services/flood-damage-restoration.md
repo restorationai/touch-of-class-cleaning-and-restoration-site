@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Flood Damage Restoration in Ventura | California Restoration West "
-h1: "Flood Damage Restoration in Ventura"
-meta_description: "24/7 flood damage restoration in Ventura and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
+title: "24/7 Emergency Flood Damage Restoration in Ventura | California Restoration West "
+h1: "24/7 Emergency Flood Damage Restoration in Ventura"
+meta_description: "24/7 emergency flood damage restoration in Ventura and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 290-7292."
 primary_keyword: "flood damage restoration ventura"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

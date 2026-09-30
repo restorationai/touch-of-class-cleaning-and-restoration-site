@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Madison, SD | Crew Restoration & Construction"
-h1: "Flood Damage Restoration in Madison"
-meta_description: "Flood damage restoration in Madison, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Flood Damage Restoration in Madison, SD | Crew Restoration & Construction"
+h1: "Emergency Flood Damage Restoration in Madison"
+meta_description: "Emergency flood damage restoration in Madison, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "flood damage restoration madison"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

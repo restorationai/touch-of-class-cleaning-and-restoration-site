@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Lincolnwood, IL | Dry Bros Water & Fire Restoration"
-h1: "Smoke Damage Restoration in Lincolnwood"
-meta_description: "24/7 smoke damage restoration in Lincolnwood, IL. Insurance billing accepted. Call (877) 379-2767."
+title: "24/7 Emergency Smoke Damage Restoration in Lincolnwood, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in Lincolnwood"
+meta_description: "24/7 emergency smoke damage restoration in Lincolnwood, IL. Insurance billing accepted. Call (877) 379-2767."
 primary_keyword: "smoke damage restoration lincolnwood"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

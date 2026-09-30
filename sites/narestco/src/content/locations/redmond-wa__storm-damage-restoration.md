@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Redmond, WA | National Restoration Construction"
-h1: "Storm Damage Restoration in Redmond"
-meta_description: "24/7 storm damage restoration in Redmond, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Storm Damage Restoration in Redmond, WA | National Restoration Construction"
+h1: "24/7 Emergency Storm Damage Restoration in Redmond"
+meta_description: "24/7 emergency storm damage restoration in Redmond, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "storm damage restoration redmond"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Redmond? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 A storm just tore through your Redmond property, maybe a cedar came down on the roof, maybe the crawl space is filling with water, maybe you're staring at a wall of shingles on your lawn and a hole where your attic used to be. Whatever happened in the last few hours, the clock is already running. Moisture spreads, structural damage compounds, and the longer the opening in your envelope stays open, the worse the repair bill gets. National Restoration Construction has been responding to exactly these calls across the greater Seattle area since 2004, and we can have a crew to most Redmond addresses within 60–90 minutes of your call.
 
 ## Why Redmond Properties See Storm Damage So Often

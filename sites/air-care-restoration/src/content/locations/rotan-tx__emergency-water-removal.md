@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Rotan, TX | Air Care Restoration"
-h1: "Emergency Water Removal & Cleanup in Rotan"
+title: "24/7 Emergency Water Removal & Cleanup in Rotan, TX | Air Care Restoration"
+h1: "24/7 Emergency Water Removal & Cleanup in Rotan"
 meta_description: "24/7 emergency water removal and cleanup in Rotan, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "emergency water removal rotan"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Rotan? We answer 24/7.** Call now and our crew heads out to extract the water and start drying.
+
 Rotan sits in the heart of Fisher County on the rolling plains of West Texas, where the soil is a heavy clay-caliche mix that drains poorly after a hard rain, and when water finds its way inside a home here, it finds a building stock that often dates back to the mid-twentieth century, with pier-and-beam foundations, original plaster walls, and plumbing that has seen decades of hard, mineral-rich water. A slow pipe failure or a sudden storm intrusion can saturate materials faster than the surface shows, and in a town this size, the window to act before secondary damage sets in is short. Air Care Restoration provides emergency water removal and cleanup, responding 24/7 and can be on the road from Abilene the moment you call (325) 339-8723.
 
 ## Why Rotan Properties See Water Damage Differently

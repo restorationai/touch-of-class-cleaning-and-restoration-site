@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Ellisville, MS | HomeLyft Restoration MS"
-h1: "Fire Damage Restoration in Ellisville"
-meta_description: "Fire damage restoration in Ellisville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Fire Damage Restoration in Ellisville, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Fire Damage Restoration in Ellisville"
+meta_description: "24/7 emergency fire damage restoration in Ellisville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "fire damage restoration ellisville"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Ellisville? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 A house fire in Ellisville leaves more than charred walls, it leaves a smell that settles into every surface, a structural uncertainty that isn't always visible, and a clock ticking on secondary smoke and soot damage. Jones County's humid subtropical climate means that moisture from firefighting efforts can begin interacting with smoke residue within hours, accelerating corrosion on metal fixtures and deepening odor penetration into wood framing. If you're standing in front of a fire-damaged home in Ellisville right now, the next few decisions matter more than most people realize.
 
 ## Why Ellisville Properties Face Distinct Fire Damage Challenges

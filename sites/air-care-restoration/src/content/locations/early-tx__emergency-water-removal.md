@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Early, TX | Air Care Restoration"
-h1: "Emergency Water Removal & Cleanup in Early"
+title: "24/7 Emergency Water Removal & Cleanup in Early, TX | Air Care Restoration"
+h1: "24/7 Emergency Water Removal & Cleanup in Early"
 meta_description: "24/7 emergency water removal and cleanup in Early, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "emergency water removal early"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Early? We answer 24/7.** Call now and our crew heads out to extract the water and start drying.
+
 Early, TX sits in the heart of the Texas Hill Country's eastern edge, where the combination of expansive clay soils, periodic severe thunderstorms rolling off the Colorado River corridor, and aging residential plumbing creates the kind of water damage that doesn't always announce itself loudly. Sometimes it's a slow seep behind a water heater that soaks into the subfloor for weeks; sometimes it's a sudden pipe failure after a hard freeze that leaves standing water across two rooms by morning. Either way, the clock starts the moment moisture contacts your structure, and in Early's climate, that clock moves fast, which is why getting water out immediately matters as much as anything that follows.
 
 ## Why Early Properties See Water Damage Issues

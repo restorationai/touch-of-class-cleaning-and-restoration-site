@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Riverside, CA | Dry County Restoration"
-h1: "Storm Damage Restoration in Riverside"
-meta_description: "24/7 storm damage restoration in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "24/7 Emergency Storm Damage Restoration in Riverside, CA | Dry County Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Riverside"
+meta_description: "24/7 emergency storm damage restoration in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "storm damage restoration riverside"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Riverside? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Riverside sits in a bowl carved by the Santa Ana River, and that geography matters when a storm rolls through. The same mountain passes that funnel warm Santa Ana winds in autumn can channel cold fronts and atmospheric rivers in winter, dropping inches of rain on soil that has baked hard through a long dry season. Hardpan soil sheds water fast, meaning runoff overwhelms drainage within minutes, and wind gusts that accompany these systems routinely snap mature trees and tear roofing on homes built across several different eras of construction. When that happens, Dry County Restoration is reachable at (951) 667-9910 around the clock.
 
 ## Why Riverside Properties See Storm Damage Differently Than Most of Southern California

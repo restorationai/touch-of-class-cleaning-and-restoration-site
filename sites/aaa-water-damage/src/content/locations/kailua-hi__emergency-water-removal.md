@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Kailua, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Emergency Water Removal & Cleanup in Kailua"
+title: "24/7 Emergency Water Removal & Cleanup in Kailua, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Removal & Cleanup in Kailua"
 meta_description: "24/7 emergency water removal and cleanup in Kailua, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "emergency water removal kailua"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Kailua? We answer 24/7.** Call now and our crew heads out to extract the water and start drying.
+
 Standing water in a Kailua home moves fast. The single-wall construction common throughout Kailua Town and Kalama Tract means there is no insulation layer, no vapor barrier, and no meaningful buffer between a burst fitting and the interior framing. Water wicks straight into wall cavities, and on the windward side of Oahu, where humidity rarely drops and trade-wind showers can stack for days, that moisture has almost nowhere to go. If you are dealing with flooding right now, call (808) 349-3407 and we will get a crew moving.
 
 ## Why Kailua Properties See Water Damage Differently Than the Rest of Oahu

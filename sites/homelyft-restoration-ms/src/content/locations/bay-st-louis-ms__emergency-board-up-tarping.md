@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Bay St. Louis, MS | HomeLyft Restoration MS"
-h1: "Board-Up and Tarping in Bay St. Louis"
-meta_description: "Board-up and tarping in Bay St. Louis, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Board-Up and Tarping in Bay St. Louis, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Board-Up and Tarping in Bay St. Louis"
+meta_description: "24/7 emergency board-up and tarping in Bay St. Louis, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "emergency board-up and tarping bay st. louis"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Bay St. Louis? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Bay St. Louis sits on a narrow peninsula where Gulf humidity, hurricane-season wind shear, and salt-laden air conspire against exposed structures year-round. When a storm punches through a roof, a fire vents through a window, or a tree drops across a dormer, the window between the damage event and the next rain band is often measured in hours, not days. HomeLyft Restoration MS responds from Gulfport to secure Bay St. Louis properties with structural board-up and heavy-duty roof tarping before secondary water intrusion compounds what's already a difficult loss.
 
 ## Why Bay St. Louis Properties Face Elevated Board-Up and Tarping Needs

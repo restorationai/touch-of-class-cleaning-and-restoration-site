@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Elizabeth, NJ | The Restoration Group"
-h1: "Storm Damage Restoration in Elizabeth"
-meta_description: "24/7 storm damage restoration in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Storm Damage Restoration in Elizabeth, NJ | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Elizabeth"
+meta_description: "24/7 emergency storm damage restoration in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "storm damage restoration elizabeth"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

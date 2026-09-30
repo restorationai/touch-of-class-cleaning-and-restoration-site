@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Clark, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Clark"
-meta_description: "24/7 smoke damage restoration in Clark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Clark, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Clark"
+meta_description: "24/7 emergency smoke damage restoration in Clark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration clark"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Clark? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 After a house fire in Clark's compact postwar neighborhoods, the visible char is rarely the hardest part to fix. It's the smoke, the invisible, acidic residue that seeps into the plaster walls of a 1960s split-level off Valley Road, settles into the HVAC ducts of a Brant Lake cape, and keeps releasing odor for months if the cleanup stops at surface wiping. Clark's housing stock, built mostly between 1950 and 1970, presents specific challenges for smoke damage restoration that newer construction simply doesn't: original plaster and lathe absorb combustion byproducts differently than drywall, and older forced-air systems can redistribute soot through an entire home in a single heating cycle.
 
 ## Why Clark's Housing Stock Complicates Smoke Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Basement Flooding Cleanup in Abilene | Air Care Restoration"
-h1: "Basement Flooding Cleanup in Abilene"
-meta_description: "24/7 basement flooding cleanup in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Basement Flooding Cleanup in Abilene | Air Care Restoration"
+h1: "24/7 Emergency Basement Flooding Cleanup in Abilene"
+meta_description: "24/7 emergency basement flooding cleanup in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "basement flooding cleanup abilene"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "basement-flooding-cleanup"
 service_display: "basement-flooding-cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Abilene? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 A flooded basement rarely comes from rain alone. It's usually a sump pump that quit during the storm, a hairline crack in the foundation wall that finally gave way under hydrostatic pressure, or a sewer line backing up through a floor drain. Whatever the source, water sitting on a basement slab starts wicking into drywall, insulation, and framing within hours, and the musty smell that follows is often the first sign homeowners notice before they see the damage itself. Basement flooding cleanup in Abilene has to address both the standing water and what it's already done to the materials around it.
 
 ## What basement flooding cleanup actually involves

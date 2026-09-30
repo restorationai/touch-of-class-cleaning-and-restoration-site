@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Park City, UT | Home Pride Restoration and Cleaning"
-h1: "Frozen Pipe Restoration in Park City"
-meta_description: "24/7 frozen pipe restoration in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Frozen Pipe Restoration in Park City, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Frozen Pipe Restoration in Park City"
+meta_description: "24/7 emergency frozen pipe restoration in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "frozen pipe restoration park city"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Park City? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Park City sits at elevations pushing 7,000 feet, and when a January cold snap drops overnight lows into the single digits, which happens reliably along the Wasatch Back, the pipes inside vacation condos, ski chalets, and older Main Street-area homes can freeze solid before anyone notices. A frozen pipe doesn't announce itself until it thaws, and by then you may have hundreds of gallons moving through walls, subfloors, and the kind of high-end finishes that cost serious money to restore. Home Pride Restoration and Cleaning has been responding to exactly these calls since 1997, and we know how quickly a manageable situation turns into a structural one at altitude.
 
 ## Why Park City Properties Are Especially Vulnerable to Frozen Pipe Damage

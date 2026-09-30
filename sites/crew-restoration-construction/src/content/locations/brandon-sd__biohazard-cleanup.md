@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Brandon, SD | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Brandon"
-meta_description: "Biohazard cleanup in Brandon, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Brandon, SD | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Brandon"
+meta_description: "Emergency biohazard cleanup in Brandon, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup brandon"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Brandon? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Brandon is one of the fastest-growing communities in eastern South Dakota, and the newer subdivisions spreading out from Aspen Heights toward the Split Rock area have brought thousands of families into homes built within the last decade. When something traumatic or hazardous happens inside one of those homes, an unattended death, a blood-borne pathogen exposure, a discovered sharps cache, the last thing a family should have to manage is finding qualified help. Crew Restoration & Construction responds to biohazard situations in Brandon's 57005 ZIP code with discretion, proper containment, and a process built around protecting both the property and the people who live in it.
 
 ## Why Brandon Properties Present Unique Biohazard Considerations

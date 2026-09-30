@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Summit, NJ | The Restoration Group"
-h1: "Water Damage Restoration in Summit"
-meta_description: "24/7 water damage restoration in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Water Damage Restoration in Summit, NJ | The Restoration Group"
+h1: "24/7 Emergency Water Damage Restoration in Summit"
+meta_description: "24/7 emergency water damage restoration in Summit, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "water damage restoration summit"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Summit? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start drying your property.
+
 Summit's hilltop geography keeps it above the Passaic River flooding that batters neighboring towns, but that elevation creates its own water damage story. Steep lots funnel stormwater straight into lower levels, clay sewer laterals buckle under century-old street trees along the Northside and Franklin School area, and the original plumbing inside these 1890s–1930s homes was never designed for today's water pressure. When a supply line lets go behind a plaster wall or a backed-up lateral floods a finished basement, the damage spreads fast, and in a home with irreplaceable hardwood floors, hand-fitted millwork, and high-value furnishings, every hour matters. The Restoration Group responds 24/7 and can reach Summit from our Kenilworth location to begin water extraction and structural drying the same day you call.
 
 ## Why Summit Properties See Water Damage Differently

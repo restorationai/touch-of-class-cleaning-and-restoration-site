@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Kaneohe, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Burst Pipe Cleanup and Repair in Kaneohe"
-meta_description: "24/7 burst pipe cleanup and repair in Kaneohe, HI. Call (808) 349-3407."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Kaneohe, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Kaneohe"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Kaneohe, HI. Call (808) 349-3407."
 primary_keyword: "burst pipe cleanup and repair kaneohe"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Kaneohe? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Kaneohe sits on the windward side of the Koolau Range, where rainfall totals dwarf anything on the leeward coast, and that relentless moisture doesn't just fall from the sky. It works its way into crawl spaces, accelerates corrosion on aging supply lines, and raises the stakes when a pipe finally lets go. A burst pipe here isn't just a puddle problem; within hours, water is wicking into the kind of chronically damp subfloor cavities that mold colonizes fast. If a line has broken in your home or rental property in the 96744 area, the window to act is short.
 
 ## Why Kaneohe Properties See Burst Pipe Problems More Often

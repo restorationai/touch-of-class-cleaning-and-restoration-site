@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Highland, UT | FIX Restoration"
-h1: "Storm Damage Restoration in Highland"
-meta_description: "Storm damage restoration in Highland, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Storm Damage Restoration in Highland, UT | FIX Restoration"
+h1: "Emergency Storm Damage Restoration in Highland"
+meta_description: "Emergency storm damage restoration in Highland, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "storm damage restoration highland"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Highland? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Highland sits at the base of the Wasatch Front where afternoon thunderstorms can roll in fast off the mountains, dropping hail, driving rain, and wind gusts that strip shingles and push water into places it was never meant to go. The elevation and exposure that make Highland one of Utah County's more scenic communities also make it one of the more vulnerable to sudden, severe weather events, and the damage those storms leave behind rarely announces itself fully until days later, when a ceiling starts to sag or a wall cavity turns into a mold incubator.
 
 ## Why Highland Properties See Repeated Storm Damage

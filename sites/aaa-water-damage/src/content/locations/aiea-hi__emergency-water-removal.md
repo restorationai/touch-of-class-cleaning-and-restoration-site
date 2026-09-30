@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Aiea, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Emergency Water Removal & Cleanup in Aiea"
+title: "24/7 Emergency Water Removal & Cleanup in Aiea, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Removal & Cleanup in Aiea"
 meta_description: "24/7 emergency water removal and cleanup in Aiea, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "emergency water removal aiea"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

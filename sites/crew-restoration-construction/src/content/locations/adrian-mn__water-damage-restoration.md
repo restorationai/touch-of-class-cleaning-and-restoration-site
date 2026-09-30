@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Adrian, MN | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Adrian"
-meta_description: "Water damage restoration in Adrian, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Adrian, MN | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Adrian"
+meta_description: "Emergency water damage restoration in Adrian, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration adrian"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Adrian? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Southwest Minnesota's flat, open terrain along I-90 doesn't give water anywhere to go slowly, when a pipe bursts or a sump pump fails in Adrian, water spreads fast across basement slabs and into wall cavities before most homeowners realize the extent of the problem. The tight housing stock in this part of Nobles County, much of it built during the mid-20th century farm-boom era, means older plumbing, aging sump systems, and crawl spaces that were never designed with modern moisture loads in mind. Crew Restoration & Construction responds to water damage calls in Adrian (ZIP 56110) and works through the full process, extraction, structural drying, and documentation, so the damage stops where it started.
 
 ## Why Adrian Properties See Water Damage Issues

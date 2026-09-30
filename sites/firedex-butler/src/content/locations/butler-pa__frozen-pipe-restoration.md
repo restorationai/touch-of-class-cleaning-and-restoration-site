@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Butler, PA | FireDEX Butler"
-h1: "Frozen Pipe Restoration in Butler"
-meta_description: "24/7 frozen pipe restoration in Butler, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Frozen Pipe Restoration in Butler, PA | FireDEX Butler"
+h1: "24/7 Emergency Frozen Pipe Restoration in Butler"
+meta_description: "24/7 emergency frozen pipe restoration in Butler, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "frozen pipe restoration butler"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Butler? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Butler's winters have a way of finding the weak spots in old plumbing. When overnight temperatures drop into the single digits, as they routinely do across Butler County from December through February, the galvanized supply lines and cast-iron stacks common in the pre-1950 brick foursquares and frame homes on Institute Hill and in Lyndora don't just slow down; they freeze solid, and when they thaw, they fail. A burst pipe inside an exterior wall can dump hundreds of gallons before a homeowner even hears it. FireDEX Butler has been responding to exactly that scenario since 1981, and our crews are available around the clock when it happens.
 
 ## Why Butler Properties See Frozen Pipe Damage More Than Most

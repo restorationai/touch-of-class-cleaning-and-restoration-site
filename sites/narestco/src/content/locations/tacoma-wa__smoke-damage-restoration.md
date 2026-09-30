@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Tacoma, WA | National Restoration Construction"
-h1: "Smoke Damage Restoration in Tacoma"
-meta_description: "24/7 smoke damage restoration in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Smoke Damage Restoration in Tacoma, WA | National Restoration Construction"
+h1: "24/7 Emergency Smoke Damage Restoration in Tacoma"
+meta_description: "24/7 emergency smoke damage restoration in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "smoke damage restoration tacoma"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Tacoma? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 The smell hits you before you even open the door, that acrid, oily residue that smoke leaves on every surface it touches. If you're dealing with the aftermath of a fire in your Tacoma home or commercial property, the visible char is only part of the problem. Smoke particles travel through HVAC systems, settle into drywall, and bond to wood framing within hours. The longer that residue sits, the deeper it penetrates and the more it costs to reverse. National Restoration Construction has been responding to exactly this situation across the South Sound since 2004, and our Federal Way headquarters puts us roughly 15–20 minutes from most Tacoma neighborhoods under normal traffic conditions.
 
 ## Our Smoke Damage Restoration Process in Tacoma

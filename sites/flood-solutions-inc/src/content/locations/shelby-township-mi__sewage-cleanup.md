@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Shelby Township, MI | Flood & Fire Solutions"
-h1: "Sewage Cleanup and Sanitization in Shelby Township"
-meta_description: "Sewage cleanup and sanitization in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Sewage Cleanup and Sanitization in Shelby Township | Flood & Fire Solutions"
+h1: "Emergency Sewage Cleanup and Sanitization in Shelby Township"
+meta_description: "Emergency sewage cleanup and sanitization in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "sewage cleanup and sanitization shelby township"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Shelby Township? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Shelby Township sits on a broad clay-heavy plain in Macomb County where spring snowmelt and heavy summer storms have nowhere fast to go. When that drainage pressure backs up into a home through a floor drain, toilet, or laundry standpipe, the result is raw sewage contamination that soaks into subfloor assemblies, drywall, and stored belongings within minutes. Flood & Fire Solutions has been responding to exactly this kind of loss across Macomb County since 1996, and the conditions specific to Shelby Township shape how that work gets done.
 
 ## Why Shelby Township Properties See Sewage Backup Problems

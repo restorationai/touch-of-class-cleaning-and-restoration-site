@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Madison, SD | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Madison"
-meta_description: "Board-up and tarping in Madison, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Madison, SD | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Madison"
+meta_description: "Emergency board-up and tarping in Madison, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping madison"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Madison? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a late-spring hailstorm tears through Lake County or a fire breaks out in a Downtown Madison home overnight, the window between damage and disaster is measured in hours, not days. South Dakota's swing between brutal winters and severe summer storm seasons means that an unprotected roof opening or a broken window can let in rain, wind-driven debris, or freezing air before a permanent repair is even scheduled. Crew Restoration & Construction responds to those calls in Madison, SD (57042), securing structures fast so the damage stops where it started.
 
 ## Why Madison Properties Face Elevated Board-Up and Tarping Risks

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Callender, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Callender"
-meta_description: "Board-up and tarping in Callender, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Callender, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Callender"
+meta_description: "Emergency board-up and tarping in Callender, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping callender"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Callender? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Callender sits in the Sacramento Valley foothills where dry, fire-prone summers and occasional winter storm systems can leave a home exposed in a matter of hours, a broken window from wind-driven debris, a roof torn open by a falling oak limb, or a fire-damaged wall that needs to be sealed before the next weather system rolls through. When that happens, every hour the structure stays open invites deeper damage: smoke odor migrating into unaffected rooms, rain soaking into framing, or opportunistic entry into a vacant property. Coastal Restoration Services Inc responds to those calls from our base in Vandenberg Village and gets to work securing your property before the situation compounds.
 
 ## Why Callender Properties Face Distinct Board-Up and Tarping Risks

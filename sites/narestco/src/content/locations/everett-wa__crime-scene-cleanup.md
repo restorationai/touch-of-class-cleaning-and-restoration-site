@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Crime Scene Cleanup in Everett, WA | National Restoration Construction"
-h1: "Crime Scene Cleanup in Everett"
-meta_description: "24/7 crime scene cleanup in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Crime Scene Cleanup in Everett, WA | National Restoration Construction"
+h1: "24/7 Emergency Crime Scene Cleanup in Everett"
+meta_description: "24/7 emergency crime scene cleanup in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "crime scene cleanup everett"
 secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cleanup", "homicide cleanup", "suicide scene cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Crime Scene Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Everett? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something unthinkable happens inside a home or business in Everett, the hours that follow are consumed by grief, logistics, and questions most people have never had to ask before. One of those questions is who handles the cleanup, and why it can't wait. Everett's mix of older Bayside bungalows and mid-century Riverside rentals means properties often have porous subfloor materials, unfinished crawl spaces, and aging HVAC systems that can spread biological contamination faster than newer construction would. National Restoration Construction responds to those conditions with the training, discretion, and equipment the situation requires.
 
 ## What Crime Scene Cleanup Actually Involves in Everett

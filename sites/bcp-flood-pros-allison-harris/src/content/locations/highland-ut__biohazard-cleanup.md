@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Highland, UT | FIX Restoration"
-h1: "Biohazard Cleanup in Highland"
-meta_description: "Biohazard cleanup in Highland, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Biohazard Cleanup in Highland, UT | FIX Restoration"
+h1: "Emergency Biohazard Cleanup in Highland"
+meta_description: "Emergency biohazard cleanup in Highland, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "biohazard cleanup highland"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Highland? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Highland sits in a quiet corner of Utah County where newer subdivisions back up against the Wasatch foothills and neighbors tend to know each other by name, which makes an unexpected biohazard situation feel all the more isolating. Whether the need arises from an unattended death, a trauma event, sharps discovered on a property, or infectious material left behind by an occupant, the cleanup process requires more than a mop and bleach. It requires trained technicians, regulated disposal, and a level of discretion that matches the weight of the moment.
 
 ## Why Biohazard Situations in Highland Require Specialized Response

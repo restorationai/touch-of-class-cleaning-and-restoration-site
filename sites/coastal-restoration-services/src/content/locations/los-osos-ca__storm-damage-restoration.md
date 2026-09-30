@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Los Osos, CA | Coastal Restoration Services Inc"
-h1: "Storm Damage Restoration in Los Osos"
-meta_description: "Storm damage restoration in Los Osos, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Storm Damage Restoration in Los Osos, CA | Coastal Restoration Services Inc"
+h1: "Emergency Storm Damage Restoration in Los Osos"
+meta_description: "Emergency storm damage restoration in Los Osos, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "storm damage restoration los osos"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Los Osos? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Los Osos sits at the edge of Morro Bay estuary, where Pacific storm systems funnel moisture directly onshore and coastal winds can push debris, standing water, and salt-laden air into homes with very little warning. When a winter storm tears through San Luis Obispo County and leaves your roof compromised, your fence in splinters, or a neighbor's oak across your living room, the clock starts immediately, not just for structural repairs, but for preventing the secondary water damage that follows every breach. Coastal Restoration Services Inc responds to storm damage calls throughout Los Osos and can be reached directly at (805) 345-7440.
 
 ## Why Los Osos Properties Are Particularly Vulnerable to Storm Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Fullerton, CA | Dry County Restoration"
-h1: "Water Damage Restoration in Fullerton"
-meta_description: "24/7 water damage restoration in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "24/7 Emergency Water Damage Restoration in Fullerton, CA | Dry County Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Fullerton"
+meta_description: "24/7 emergency water damage restoration in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "water damage restoration fullerton"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Fullerton? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Fullerton sits in the inland edge of Orange County where aging clay soil, a legacy of mid-century residential construction, and the occasional atmospheric river combine to make water intrusion a recurring reality, not a rare event. When a supply line fails behind a bathroom wall in a 1960s tract home, or a winter storm pushes water under a garage slab, the clock starts immediately. Mold can begin colonizing wet framing within 24 to 48 hours, and in a city where a significant share of the housing stock predates modern moisture barriers, that window matters. Dry County Restoration responds around the clock, dispatching from Corona with IICRC-certified technicians trained specifically in water damage restoration and structural drying.
 
 ## Why Fullerton Properties Are Prone to Water Damage

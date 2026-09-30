@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Greenwood, TX | ACS Enterprise "
-h1: "Burst Pipe Cleanup and Repair in Greenwood"
-meta_description: "Burst pipe cleanup and repair in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Burst Pipe Cleanup and Repair in Greenwood, TX | ACS Enterprise "
+h1: "Emergency Burst Pipe Cleanup and Repair in Greenwood"
+meta_description: "Emergency burst pipe cleanup and repair in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "burst pipe cleanup and repair greenwood"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"

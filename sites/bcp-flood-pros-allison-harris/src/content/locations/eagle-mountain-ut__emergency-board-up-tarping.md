@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Eagle Mountain, UT | FIX Restoration"
-h1: "Board-Up and Tarping in Eagle Mountain"
-meta_description: "Board-up and tarping in Eagle Mountain, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Board-Up and Tarping in Eagle Mountain, UT | FIX Restoration"
+h1: "Emergency Board-Up and Tarping in Eagle Mountain"
+meta_description: "Emergency board-up and tarping in Eagle Mountain, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "emergency board-up and tarping eagle mountain"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Eagle Mountain? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Eagle Mountain sits at the edge of Utah Lake's western bench, where high-desert winds funnel through the Cedar Valley corridor and winter storms can drop heavy snow loads on rooftops faster than most homeowners expect. When a fire scorches a garage wall, a windstorm peels back a section of roofing, or a break-in shatters a ground-floor window, the gap between the damage and a proper temporary barrier is where secondary losses happen. FIX Restoration responds to those calls from its American Fork location, covering Eagle Mountain and the surrounding Saratoga Springs corridor with board-up and tarping work calibrated to the conditions here.
 
 ## Why Eagle Mountain Properties Face Distinct Board-Up and Tarping Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in McKeesport, PA | Katofsky Construction LLC"
-h1: "Sewage Cleanup and Sanitization in McKeesport"
-meta_description: "24/7 sewage cleanup and sanitization in McKeesport, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "Emergency Sewage Cleanup and Sanitization in McKeesport, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in McKeesport"
+meta_description: "24/7 emergency sewage cleanup and sanitization in McKeesport, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "sewage cleanup and sanitization mckeesport"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in McKeesport? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 McKeesport sits at the confluence of the Youghiogheny and Monongahela rivers, and that geography shapes more than the skyline. The city's aging combined sewer infrastructure, built largely in the early-to-mid twentieth century to serve a booming steel-era population, still carries both stormwater and sanitary waste in the same pipes. When those lines back up, raw sewage doesn't just flood a basement floor. It soaks into concrete block foundations, wicks into floor joists, and leaves behind bacteria and pathogens that a mop and bleach won't address. Katofsky Construction LLC responds around the clock to sewage backup calls throughout McKeesport, bringing IICRC-certified technicians and commercial-grade extraction and sanitization equipment directly to your door.
 
 ## Why McKeesport Properties Experience Sewage Backups

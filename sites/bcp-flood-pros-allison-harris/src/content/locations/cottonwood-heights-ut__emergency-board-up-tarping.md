@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Cottonwood Heights, UT | FIX Restoration"
-h1: "Board-Up and Tarping in Cottonwood Heights"
-meta_description: "Board-up and tarping in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Board-Up and Tarping in Cottonwood Heights, UT | FIX Restoration"
+h1: "Emergency Board-Up and Tarping in Cottonwood Heights"
+meta_description: "Emergency board-up and tarping in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "emergency board-up and tarping cottonwood heights"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Cottonwood Heights? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Cottonwood Heights sits at the base of the Wasatch Front, where late-season snowstorms can drop heavy, wet snow on roofs that were built for lighter alpine loads, and where summer hailstorms roll in fast off the Oquirrh range with little warning. When a storm tears off shingles, a fire blows out windows, or a vehicle strikes a garage door, the structure is exposed to whatever comes next. That second wave of damage, water soaking into framing, smoke residue spreading through an open building, is almost always preventable if the opening is secured within the first few hours.
 
 ## Why Cottonwood Heights Properties Face Elevated Board-Up and Tarping Risk

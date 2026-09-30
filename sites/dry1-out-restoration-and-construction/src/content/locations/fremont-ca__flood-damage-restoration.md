@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Fremont, CA | Dry1 Out Restoration and Construction"
-h1: "Flood Damage Restoration in Fremont"
-meta_description: "24/7 flood damage restoration in Fremont, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+title: "24/7 Emergency Flood Damage Restoration in Fremont, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Flood Damage Restoration in Fremont"
+meta_description: "24/7 emergency flood damage restoration in Fremont, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "flood damage restoration fremont"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

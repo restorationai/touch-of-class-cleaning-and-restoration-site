@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Sobieski, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Sobieski"
-meta_description: "Fire damage restoration in Sobieski, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Sobieski, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Sobieski"
+meta_description: "Emergency fire damage restoration in Sobieski, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration sobieski"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Sobieski? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Sobieski sits in Morrison County where long, cold winters and rapid spring thaw cycles put real stress on older rural homes, and when a fire breaks out in that kind of structure, the damage rarely stops at the char line. Smoke travels fast through balloon-framed walls, soot settles into every gap between boards, and the water left behind by suppression efforts begins working against you within hours. Heritage Restoration LLC, based in Little Falls, holds IICRC FSRT (Fire and Smoke Restoration) certification and responds to fire losses throughout the Sobieski area with a documented process built around what these homes actually need.
 
 ## Why Sobieski Properties See Distinct Fire Damage Challenges

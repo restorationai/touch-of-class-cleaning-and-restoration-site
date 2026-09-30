@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Riverton, UT | FIX Restoration"
-h1: "Fire Damage Restoration in Riverton"
-meta_description: "Fire damage restoration in Riverton, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in Riverton, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in Riverton"
+meta_description: "Emergency fire damage restoration in Riverton, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration riverton"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Riverton? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 When fire moves through a Riverton home, it rarely stops at the room where it started. The Wasatch Front's dry summers and the tight construction common in Riverton's newer subdivisions mean smoke travels fast through HVAC systems and into wall cavities, leaving odor and residue in spaces that look untouched. FIX Restoration has been working fire and smoke damage cases across the Salt Lake Valley since 2012, and the pattern here is consistent: what you can see is rarely the full picture.
 
 ## Why Riverton Properties See Fire Damage Differently

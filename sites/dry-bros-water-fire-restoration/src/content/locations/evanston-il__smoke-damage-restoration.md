@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Evanston, IL | Dry Bros Water & Fire Restoration"
-h1: "Smoke Damage Restoration in Evanston"
-meta_description: "Smoke damage restoration in Evanston, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Smoke Damage Restoration in Evanston, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in Evanston"
+meta_description: "24/7 emergency smoke damage restoration in Evanston, IL. Insurance billing accepted. Call us now."
 primary_keyword: "smoke damage restoration evanston"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Evanston? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Evanston's dense mix of century-old brick two-flats, Victorian-era single-families, and mid-rise condominiums means a kitchen fire or electrical fault doesn't just scorch the room where it starts, smoke migrates through balloon-frame wall cavities, settles into plaster, and works its way into shared HVAC chases before the fire department has packed up the hose. If you're dealing with smoke residue in an Evanston home right now, the clock on secondary damage is already running. Call Dry Bros Water & Fire Restoration now.
 
 ## Why Evanston Properties See Smoke Damage Differently

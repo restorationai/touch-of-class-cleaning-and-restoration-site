@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Clyde, TX | Air Care Restoration"
-h1: "Biohazard Cleanup in Clyde"
-meta_description: "24/7 biohazard cleanup in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Biohazard Cleanup in Clyde, TX | Air Care Restoration"
+h1: "24/7 Emergency Biohazard Cleanup in Clyde"
+meta_description: "24/7 emergency biohazard cleanup in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "biohazard cleanup clyde"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

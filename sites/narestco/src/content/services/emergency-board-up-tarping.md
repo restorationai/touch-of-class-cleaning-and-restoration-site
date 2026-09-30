@@ -1,7 +1,7 @@
 ---
 archetype: "service-landing"
-title: "Emergency Board-Up and Tarping in Federal Way | National Restoration Construction"
-h1: "Emergency Board-Up and Tarping in Federal Way"
+title: "24/7 Emergency Board-Up and Tarping in Federal Way | National Restoration Construction"
+h1: "24/7 Emergency Board-Up and Tarping in Federal Way"
 meta_description: "24/7 emergency board-up and tarping in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "emergency board-up and tarping federal way"
 secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping service", "fire damage board up", "broken window board up"]

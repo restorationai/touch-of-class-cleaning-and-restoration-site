@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Sandy, UT | FIX Restoration"
-h1: "Smoke Damage Restoration in Sandy"
-meta_description: "Smoke damage restoration in Sandy, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Smoke Damage Restoration in Sandy, UT | FIX Restoration"
+h1: "Emergency Smoke Damage Restoration in Sandy"
+meta_description: "Emergency smoke damage restoration in Sandy, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "smoke damage restoration sandy"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

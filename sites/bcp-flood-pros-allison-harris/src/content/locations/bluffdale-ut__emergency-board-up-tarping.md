@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Bluffdale, UT | FIX Restoration"
-h1: "Board-Up and Tarping in Bluffdale"
-meta_description: "Board-up and tarping in Bluffdale, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Board-Up and Tarping in Bluffdale, UT | FIX Restoration"
+h1: "Emergency Board-Up and Tarping in Bluffdale"
+meta_description: "Emergency board-up and tarping in Bluffdale, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "emergency board-up and tarping bluffdale"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Bluffdale? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Bluffdale sits at the edge of the Wasatch Front where late-spring windstorms can strip shingles in an afternoon and winter temperature swings push ice dams into gutters before most homeowners realize there's a problem. When a storm tears open a roof section or a fire forces a window out of its frame, the gap between the damage and a proper temporary seal is where secondary losses happen: rain soaks insulation, smoke-saturated air migrates into clean rooms, and opportunistic entry becomes a real concern. FIX Restoration responds to those calls from its American Fork location and gets protective materials on your structure before the next weather event compounds the original loss.
 
 ## Why Bluffdale Properties Are Particularly Vulnerable to Open-Structure Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in Royal Kunia"
-meta_description: "24/7 flood damage restoration in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "24/7 Emergency Flood Damage Restoration in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in Royal Kunia"
+meta_description: "24/7 emergency flood damage restoration in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "flood damage restoration royal kunia"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Royal Kunia? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Royal Kunia sits in the leeward foothills of Oahu's central plain, where trade wind patterns shift and rainfall can arrive in concentrated bursts that the island's more sheltered communities rarely see at the same intensity. When a storm pushes water through a garage door, up through a slab, or down from a compromised roof, the warm, humid air that follows accelerates every stage of secondary damage. Flood cleanup here is not the same calculation it would be in a drier climate, and the window for effective intervention is shorter than most homeowners expect.
 
 ## Why Royal Kunia Properties Are Vulnerable to Flood Damage

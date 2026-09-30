@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Yankton, SD | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Yankton"
-meta_description: "Water damage restoration in Yankton, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Yankton, SD | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Yankton"
+meta_description: "Emergency water damage restoration in Yankton, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration yankton"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Yankton? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 The Missouri River corridor that runs through Yankton doesn't just shape the landscape, it shapes the water damage risk profile of nearly every property in town. Spring snowmelt from the Dakota plains pushes Gavins Point Dam's release schedules into overdrive, and when that coincides with heavy rain, Riverside-area homes can go from dry basement to standing water in a matter of hours. Crew Restoration & Construction responds to water damage calls throughout the 57078 area, bringing industrial extraction and structural drying equipment directly to your door when saturated floors and soaked walls can't wait.
 
 ## Why Yankton Properties Face Recurring Water Damage

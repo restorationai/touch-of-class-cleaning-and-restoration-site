@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Somerville, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Somerville"
-meta_description: "24/7 smoke damage restoration in Somerville, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Smoke Damage Restoration in Somerville, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Somerville"
+meta_description: "24/7 emergency smoke damage restoration in Somerville, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "smoke damage restoration somerville"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Somerville? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 Smoke from a kitchen fire or an electrical fault doesn't stay in the room where it started, it travels through wall cavities, settles into plaster, and embeds itself in the wood framing that makes up most of Somerville's century-old Victorians and early colonial two-families. In a borough where homes along Gaston Avenue and the West End were built before World War II with horsehair plaster walls and uninsulated balloon framing, smoke migrates farther and faster than it would in a newer build, and the odor can persist for months if the cleanup stops at visible surfaces.
 
 ## Why Somerville Properties See Smoke Damage Issues

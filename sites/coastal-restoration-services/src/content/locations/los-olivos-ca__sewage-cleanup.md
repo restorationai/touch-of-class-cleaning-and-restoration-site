@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Los Olivos, CA | Coastal Restoration Services Inc"
-h1: "Sewage Cleanup and Sanitization in Los Olivos"
-meta_description: "Sewage cleanup and sanitization in Los Olivos, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Sewage Cleanup and Sanitization in Los Olivos, CA | Coastal Restoration Services Inc"
+h1: "Emergency Sewage Cleanup and Sanitization in Los Olivos"
+meta_description: "Emergency sewage cleanup and sanitization in Los Olivos, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "sewage cleanup and sanitization los olivos"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Los Olivos? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Los Olivos sits in the Santa Ynez Valley, where the combination of aging rural infrastructure, clay-heavy soils, and a wine-country building stock that includes everything from mid-century ranch homes to converted agricultural outbuildings creates conditions that can turn a sewage backup into a serious structural and health problem fast. When a sewer line backs up or a septic system overflows here, the effluent doesn't just pool on a surface, it wicks into concrete slabs, saturates adobe-style wall bases, and can reach subfloor framing before the smell even registers. Coastal Restoration Services Inc responds to sewage cleanup and sanitization calls throughout Los Olivos and the surrounding Santa Barbara County communities, and we understand what makes this valley different from a coastal suburb.
 
 ## Why Los Olivos Properties See Sewage Backup Issues

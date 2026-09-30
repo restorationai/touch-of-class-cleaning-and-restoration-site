@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Seattle, WA | National Restoration Construction"
-h1: "Burst Pipe Cleanup and Repair in Seattle"
-meta_description: "24/7 burst pipe cleanup and repair in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Seattle, WA | National Restoration Construction"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Seattle"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "burst pipe cleanup and repair seattle"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Seattle? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A pipe burst doesn't wait for business hours, and in Seattle it rarely happens at a convenient moment. Whether it's a copper supply line that froze during a cold snap in the Cascade foothills or an aging galvanized fitting that finally gave way in a 1940s Ballard bungalow, the result is the same: water moving fast through spaces it was never meant to reach. National Restoration Construction dispatches from Federal Way and can have a crew on-site across most of Seattle within 60–90 minutes of your call at (206) 883-0333. The faster water extraction begins, the smaller the repair bill, and the shorter the gap between your life now and your life back to normal.
 
 ## Why Seattle Properties Are Vulnerable to Burst Pipes

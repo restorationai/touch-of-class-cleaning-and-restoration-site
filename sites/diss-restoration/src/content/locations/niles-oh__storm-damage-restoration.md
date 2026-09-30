@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Niles, OH | DISS Restoration"
-h1: "Storm Damage Restoration in Niles"
-meta_description: "24/7 storm damage restoration in Niles, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Storm Damage Restoration in Niles, OH | DISS Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Niles"
+meta_description: "24/7 emergency storm damage restoration in Niles, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "storm damage restoration niles"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "OH"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Niles? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Niles sits squarely in the Mahoning Valley's storm corridor, where Lake Erie's moisture collides with cold fronts pushing down from the north and severe convective lines that can drop baseball-sized hail and spin up brief but destructive tornadoes with little warning. When a storm peels back roofing, drops a tree through a garage, or drives water under siding and into wall cavities, the damage compounds fast, especially in a city where a significant share of the housing stock predates the Korean War and was built before modern weather-resistant sheathing was standard. DISS Restoration responds 24/7 from Youngstown to stop that compounding.
 
 ## Why Niles Properties See Elevated Storm Damage

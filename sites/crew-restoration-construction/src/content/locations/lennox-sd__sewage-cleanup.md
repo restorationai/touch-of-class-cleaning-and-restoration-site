@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Lennox, SD | Crew Restoration & Construction"
-h1: "Sewage Cleanup and Sanitization in Lennox"
-meta_description: "Sewage cleanup and sanitization in Lennox, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Sewage Cleanup and Sanitization in Lennox, SD | Crew Restoration & Construction"
+h1: "Emergency Sewage Cleanup and Sanitization in Lennox"
+meta_description: "Emergency sewage cleanup and sanitization in Lennox, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "sewage cleanup and sanitization lennox"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Lennox? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows in Lennox, the mess rarely stays contained. Raw sewage carries bacteria, viruses, and parasites that soak into subfloor materials within hours, and in a small Lincoln County town where many homes sit on older infrastructure tied to aging municipal laterals, a single blockage can push contaminated water through floor drains, toilets, and utility sinks before a homeowner realizes what's happening. Crew Restoration & Construction responds to sewage backup calls in the 57039 area, handling extraction, disposal, and full sanitization so the space is safe to occupy again.
 
 ## Why Lennox Properties See Sewage Backup Issues

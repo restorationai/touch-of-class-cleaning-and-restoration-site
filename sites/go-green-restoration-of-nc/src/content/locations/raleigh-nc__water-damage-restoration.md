@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Raleigh, NC | Go Green Restoration of NC"
-h1: "Water Damage Restoration in Raleigh"
-meta_description: "Water damage restoration in Raleigh, NC. Insurance billing accepted. Call (919) 906-5473."
+title: "24/7 Emergency Water Damage Restoration in Raleigh, NC | Go Green Restoration of NC"
+h1: "24/7 Emergency Water Damage Restoration in Raleigh"
+meta_description: "24/7 emergency water damage restoration in Raleigh, NC. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "water damage restoration raleigh"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NC"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Raleigh? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Raleigh's clay-heavy Piedmont soil doesn't drain the way homeowners expect. When a supply line fails behind a bathroom wall in a North Hills ranch house or a sump pump gives out during one of the area's fast-moving summer thunderstorms, that water has nowhere to go, it pools under subfloor, wicks into wall cavities, and starts the clock on structural damage faster than most people realize. Go Agree Restoration of NC responds to water damage calls across Raleigh and handles the full scope: water removal, structural drying, and documentation for your insurance claim.
 
 ## Why Raleigh Properties See Water Damage Issues

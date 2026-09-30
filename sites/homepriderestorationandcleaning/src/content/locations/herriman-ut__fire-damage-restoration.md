@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Herriman, UT | Home Pride Restoration and Cleaning"
-h1: "Fire Damage Restoration in Herriman"
-meta_description: "24/7 fire damage restoration in Herriman, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Fire Damage Restoration in Herriman, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Fire Damage Restoration in Herriman"
+meta_description: "24/7 emergency fire damage restoration in Herriman, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "fire damage restoration herriman"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Herriman? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Herriman sits at roughly 5,000 feet in the southwestern corner of the Salt Lake Valley, where dry desert air and gusty canyon winds off the Oquirrh Mountains can turn a small kitchen fire into a whole-house smoke event faster than most homeowners expect. When fire tears through a home in this fast-growing community, whether it's a newer build near Mountain View Corridor or an established property closer to Herriman's older town core, the combination of low humidity and open floor plans means smoke particles travel far, soot settles deep, and the window for limiting permanent damage is measured in hours, not days. Home Pride Restoration and Cleaning has been responding to fire emergencies across the Salt Lake Valley since 1997, and our crews understand exactly what post-fire conditions look like in this corner of the valley.
 
 ## Why Herriman Properties Face Distinct Fire Damage Challenges

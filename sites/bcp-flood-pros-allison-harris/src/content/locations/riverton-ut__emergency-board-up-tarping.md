@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Riverton, UT | FIX Restoration"
-h1: "Board-Up and Tarping in Riverton"
-meta_description: "Board-up and tarping in Riverton, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Board-Up and Tarping in Riverton, UT | FIX Restoration"
+h1: "Emergency Board-Up and Tarping in Riverton"
+meta_description: "Emergency board-up and tarping in Riverton, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "emergency board-up and tarping riverton"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"

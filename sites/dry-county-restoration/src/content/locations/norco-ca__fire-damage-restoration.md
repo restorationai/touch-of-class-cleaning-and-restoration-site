@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Norco, CA | Dry County Restoration"
-h1: "Fire Damage Restoration in Norco"
-meta_description: "24/7 fire damage restoration in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "24/7 Emergency Fire Damage Restoration in Norco, CA | Dry County Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Norco"
+meta_description: "24/7 emergency fire damage restoration in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "fire damage restoration norco"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Norco? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Norco's identity is built around open land, equestrian lots, and a lifestyle that keeps horses, hay, and outbuildings close to the main residence, and that combination creates fire risk patterns you won't find in a typical Southern California suburb. When a fire moves through a property here, it rarely stops at the house. Detached barns, tack rooms, wooden fencing that runs lot-line to lot-line, and the dry Santa Ana wind conditions that sweep through the Inland Empire can turn a contained kitchen fire into a multi-structure event before the engine company clears the scene. Dry County Restoration responds 24/7 to fire damage calls across Norco, and the work here demands a different read of the property from the first walk-through.
 
 ## Why Norco Properties Face Distinct Fire Damage Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Berwyn, IL | Dry Bros Water & Fire Restoration"
-h1: "Flood Damage Restoration in Berwyn"
-meta_description: "Flood damage restoration in Berwyn, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Flood Damage Restoration in Berwyn, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Flood Damage Restoration in Berwyn"
+meta_description: "24/7 emergency flood damage restoration in Berwyn, IL. Insurance billing accepted. Call us now."
 primary_keyword: "flood damage restoration berwyn"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Berwyn? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Berwyn sits on the flat, clay-heavy terrain west of Chicago where stormwater has nowhere to go fast. When a heavy rain event overwhelms the combined sewer system, or a sump pump fails during one of the intense overnight storms that roll off Lake Michigan, water doesn't just pool in a basement; it moves through the floor slab, wicks up brick foundation walls, and soaks into the subfloor before most homeowners realize what's happening. Flood damage restoration in Berwyn demands an understanding of how this city's older housing stock and drainage infrastructure interact, not just a truck full of fans.
 
 ## Why Berwyn Properties Are Particularly Vulnerable to Flood Damage

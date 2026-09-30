@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Clark, NJ | The Restoration Group"
-h1: "Sewage Cleanup and Sanitization in Clark"
-meta_description: "24/7 sewage cleanup and sanitization in Clark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Clark, NJ | The Restoration Group"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Clark"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Clark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "sewage cleanup and sanitization clark"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Clark? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to contain the contamination and start the cleanup.
+
 When the Rahway River and Robinson's Branch rose during Ida in 2021, dozens of basements off Valley Road took on not just floodwater but raw sewage pushed back through floor drains and laundry tubs, the kind of loss that smells like sulfur and ammonia for weeks if the cleanup stops at extraction. Clark's compact grid of postwar ranches and split-levels, most built between 1950 and 1970, hides aging cast-iron drain stacks that corrode from the inside out, and the finished basements that make these homes so livable become the first casualty when a sewer line backs up. The Restoration Group responds 24/7 to sewage backup calls across Clark (07066), bringing the containment, extraction, and hospital-grade sanitization that Category 3 contamination demands.
 
 ## Why Clark Properties See Sewage Backup Issues

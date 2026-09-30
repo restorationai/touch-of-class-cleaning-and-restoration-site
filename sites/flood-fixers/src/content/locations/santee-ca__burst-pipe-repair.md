@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Santee, CA | Flood Fixers"
-h1: "Burst Pipe Cleanup and Repair in Santee"
-meta_description: "24/7 burst pipe cleanup and repair in Santee, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Santee, CA | Flood Fixers"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Santee"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Santee, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "burst pipe cleanup and repair santee"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

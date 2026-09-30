@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Rock Rapids, IA | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Rock Rapids"
-meta_description: "Storm damage restoration in Rock Rapids, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Rock Rapids, IA | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Rock Rapids"
+meta_description: "Emergency storm damage restoration in Rock Rapids, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration rock rapids"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Rock Rapids? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 When a severe storm rolls across Lyon County, Rock Rapids sits squarely in its path. The Rock River corridor that runs through town has flooded repeatedly over the years, and the open prairie landscape northwest of the Lyon County Courthouse offers little to slow down straight-line winds before they reach residential streets. A single storm event can leave a property dealing with a collapsed soffit, waterlogged insulation, and a basement that smells like river mud, all at once. Crew Restoration & Construction responds to storm damage calls throughout Rock Rapids (51246) and the surrounding area, helping homeowners and property managers get from crisis to restored as efficiently as the damage allows.
 
 ## Why Rock Rapids Properties See Repeated Storm Damage

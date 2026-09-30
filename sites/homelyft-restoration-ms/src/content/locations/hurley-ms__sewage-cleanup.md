@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Hurley, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Hurley"
-meta_description: "Sewage cleanup and sanitization in Hurley, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Hurley, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Hurley"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Hurley, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization hurley"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Hurley? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Sewage backing up into a home in Hurley hits differently than a simple water leak. Jackson County's humid Gulf Coast climate means that raw sewage contamination, whether from a failed septic system, a sewer line backup, or a flooded drain field, can begin producing dangerous bacterial growth within hours of exposure. The combination of warm temperatures, high ambient humidity, and the area's mix of older rural homes and newer construction on varying soil types creates conditions where Category 3 contaminated water spreads fast and lingers longer than most homeowners expect. HomeLyft Restoration MS responds to sewage emergencies across Hurley, bringing IICRC-certified technicians and commercial-grade sanitization equipment to contain and resolve the damage.
 
 ## Why Hurley Properties See Sewage Backup Problems

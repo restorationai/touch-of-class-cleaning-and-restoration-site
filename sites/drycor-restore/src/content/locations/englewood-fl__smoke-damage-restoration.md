@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Englewood, FL | DRYCOR RESTORE"
-h1: "Smoke Damage Restoration in Englewood"
-meta_description: "24/7 smoke damage restoration in Englewood, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "24/7 Emergency Smoke Damage Restoration in Englewood, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Smoke Damage Restoration in Englewood"
+meta_description: "24/7 emergency smoke damage restoration in Englewood, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "smoke damage restoration englewood"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

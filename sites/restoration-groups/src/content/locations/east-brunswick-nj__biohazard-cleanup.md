@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in East Brunswick, NJ | The Restoration Group"
-h1: "Biohazard Cleanup in East Brunswick"
-meta_description: "24/7 biohazard cleanup in East Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Biohazard Cleanup in East Brunswick, NJ | The Restoration Group"
+h1: "24/7 Emergency Biohazard Cleanup in East Brunswick"
+meta_description: "24/7 emergency biohazard cleanup in East Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "biohazard cleanup east brunswick"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in East Brunswick? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to handle the cleanup with discretion and care.
+
 When something traumatic or hazardous happens inside a home or property in East Brunswick, the practical questions arrive fast, who handles this, how quickly, and with complete discretion. East Brunswick's mix of 1960s split-levels and ranches in neighborhoods like Frost Woods and Farrington, alongside newer condo clusters and townhome developments, means the physical layout of a cleanup can vary widely: finished basements, shared entryways, HOA-governed common areas. Whatever the setting, the work requires trained technicians, proper containment, and careful coordination, not improvisation.
 
 ## Why East Brunswick Properties Present Unique Biohazard Considerations

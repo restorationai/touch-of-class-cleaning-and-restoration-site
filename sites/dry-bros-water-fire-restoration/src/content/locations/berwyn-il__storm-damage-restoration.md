@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Berwyn, IL | Dry Bros Water & Fire Restoration"
-h1: "Storm Damage Restoration in Berwyn"
-meta_description: "Storm damage restoration in Berwyn, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Storm Damage Restoration in Berwyn, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Storm Damage Restoration in Berwyn"
+meta_description: "24/7 emergency storm damage restoration in Berwyn, IL. Insurance billing accepted. Call us now."
 primary_keyword: "storm damage restoration berwyn"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Berwyn? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Berwyn sits in one of the most storm-volatile corridors in northeastern Illinois, where fast-moving lines of severe weather funnel southeast off Lake Michigan and collide with warm air rising off the Des Plaines River valley. When those systems hit, they don't just bring rain, they bring the kind of sustained wind gusts and hail that peel flashing off roofs, drive water under siding, and drop century-old elms onto structures that were already carrying the weight of their age. If a storm just hit your property, Dry Bros Water & Fire Restoration is ready to help you move from crisis to recovery.
 
 ## Why Berwyn Properties Are Especially Vulnerable to Storm Damage

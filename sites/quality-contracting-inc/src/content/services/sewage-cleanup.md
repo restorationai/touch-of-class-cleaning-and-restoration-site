@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Sewage Cleanup and Sanitization in Auburn | Quality Contracting, Inc."
-h1: "Sewage Cleanup and Sanitization in Auburn"
-meta_description: "Sewage cleanup and sanitization in Auburn and surrounding areas. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Sewage Cleanup and Sanitization in Auburn | Quality Contracting, Inc."
+h1: "Emergency Sewage Cleanup and Sanitization in Auburn"
+meta_description: "Emergency sewage cleanup and sanitization in Auburn and surrounding areas. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "sewage cleanup and sanitization auburn"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Auburn? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 A backed-up sewer line doesn't announce itself politely. One morning the toilet won't flush, and by afternoon there's an inch of gray-brown water spreading across the basement floor, carrying bacteria, viruses, and whatever the drain system has collected for years. Sewage is classified as Category 3 "black water" under industry standards, the most contaminated water type, and every hour it sits, it soaks deeper into concrete, drywall, and subfloor. The clock matters here in a way it simply doesn't with a burst supply line.
 
 ## What sewage cleanup and sanitization actually involves

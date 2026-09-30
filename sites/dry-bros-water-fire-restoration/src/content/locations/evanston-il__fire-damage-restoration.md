@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Evanston, IL | Dry Bros Water & Fire Restoration"
-h1: "Fire Damage Restoration in Evanston"
-meta_description: "Fire damage restoration in Evanston, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Fire Damage Restoration in Evanston, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Evanston"
+meta_description: "24/7 emergency fire damage restoration in Evanston, IL. Insurance billing accepted. Call us now."
 primary_keyword: "fire damage restoration evanston"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Evanston? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Evanston's dense mix of century-old brick two-flats, Victorian-era single-families, and mid-century apartment buildings creates a particular challenge after a house fire: smoke and soot don't just coat surfaces, they penetrate plaster lathe, settle into original hardwood subfloors, and travel through the kind of interconnected duct systems that were standard before modern HVAC zoning. If you've just had a fire in Evanston, the visible char is rarely the whole story. Dry Bros Water & Fire Restoration responds from Chicago to help property owners cut through the confusion and start the recovery process the right way.
 
 ## Why Evanston's Building Stock Shapes Fire Damage Recovery

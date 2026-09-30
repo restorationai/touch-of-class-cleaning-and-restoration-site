@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Crime Scene Cleanup in Gig Harbor, WA | National Restoration Construction"
-h1: "Crime Scene Cleanup in Gig Harbor"
-meta_description: "24/7 crime scene cleanup in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Crime Scene Cleanup in Gig Harbor, WA | National Restoration Construction"
+h1: "24/7 Emergency Crime Scene Cleanup in Gig Harbor"
+meta_description: "24/7 emergency crime scene cleanup in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "crime scene cleanup gig harbor"
 secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cleanup", "homicide cleanup", "suicide scene cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Crime Scene Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Gig Harbor? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something unthinkable happens inside a Gig Harbor home, whether a weathered fishing-era cottage in Millville or a waterfront view property along Harborview Drive, the hours that follow are consumed by grief, logistics, and questions no family should have to answer alone. National Restoration Construction responds to those calls with trained forensic cleanup technicians, full discretion, and the certifications required to handle biological materials safely. We understand that reaching Gig Harbor from our Federal Way headquarters means crossing the Tacoma Narrows Bridge, and we plan our routing accordingly so that a family's wait is measured in minutes, not half a day.
 
 ## Why Crime Scene Cleanup in Gig Harbor Requires Specialized Attention

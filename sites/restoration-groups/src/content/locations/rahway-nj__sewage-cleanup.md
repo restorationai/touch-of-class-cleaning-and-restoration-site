@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Rahway, NJ | The Restoration Group"
-h1: "Sewage Cleanup and Sanitization in Rahway"
-meta_description: "24/7 sewage cleanup and sanitization in Rahway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Rahway, NJ | The Restoration Group"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Rahway"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Rahway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "sewage cleanup and sanitization rahway"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Rahway? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to contain the contamination and start the cleanup.
+
 When the Rahway River runs high after a nor'easter or a slow-moving storm like Ida in 2021, the low-lying streets near Rahway River Park and the older blocks of Downtown Rahway don't just flood, they back up. Cast-iron drain lines in Victorian and 1920s-era homes weren't engineered to handle the surcharge pressure that comes when a municipal sewer main fills beyond capacity, and the result is raw sewage pushing up through floor drains, toilets, and laundry tubs in finished basements across 07065. That's not a mop-and-bucket situation. It's a Category 3 biohazard that requires extraction, structural drying, and hospital-grade sanitization before anyone sets foot in that space again.
 
 ## Why Rahway Properties See Sewage Backup More Than You'd Expect

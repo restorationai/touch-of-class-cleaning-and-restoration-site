@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Waianae, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Water Damage Restoration in Waianae"
-meta_description: "24/7 water damage restoration in Waianae, HI. Insurance billing accepted. Call (808) 349-3407."
+title: "24/7 Emergency Water Damage Restoration in Waianae, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Water Damage Restoration in Waianae"
+meta_description: "24/7 emergency water damage restoration in Waianae, HI. Insurance billing accepted. Call (808) 349-3407."
 primary_keyword: "water damage restoration waianae"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

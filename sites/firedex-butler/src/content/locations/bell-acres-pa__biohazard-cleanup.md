@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Bell Acres, PA | FireDEX Butler"
-h1: "Biohazard Cleanup in Bell Acres"
-meta_description: "24/7 biohazard cleanup in Bell Acres, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Biohazard Cleanup in Bell Acres, PA | FireDEX Butler"
+h1: "24/7 Emergency Biohazard Cleanup in Bell Acres"
+meta_description: "24/7 emergency biohazard cleanup in Bell Acres, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "biohazard cleanup bell acres"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

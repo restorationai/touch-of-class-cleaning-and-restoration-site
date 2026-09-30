@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Potosi, TX | Air Care Restoration"
-h1: "Water Damage Restoration in Potosi"
-meta_description: "24/7 water damage restoration in Potosi, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Water Damage Restoration in Potosi, TX | Air Care Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Potosi"
+meta_description: "24/7 emergency water damage restoration in Potosi, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "water damage restoration potosi"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

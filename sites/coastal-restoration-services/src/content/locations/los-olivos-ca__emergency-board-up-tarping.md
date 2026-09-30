@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Los Olivos, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Los Olivos"
-meta_description: "Board-up and tarping in Los Olivos, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Los Olivos, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Los Olivos"
+meta_description: "Emergency board-up and tarping in Los Olivos, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping los olivos"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Los Olivos? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Los Olivos sits in the Santa Ynez Valley wine country, where the same dry, hot summers that draw visitors also leave sun-baked wood siding, aging ranch-style rooflines, and mature eucalyptus canopies that can drop heavy limbs without warning. When a wildfire ember lands on a shake roof, a wind-driven branch punches through a window, or a vehicle collision takes out a garage wall, the gap between damage and a secured structure is measured in hours, not days. Coastal Restoration Services Inc responds to those calls for Los Olivos properties, boarding up openings and tarping compromised roofs before weather, wildlife, or trespassers compound the loss.
 
 ## Why Los Olivos Properties Face Distinct Board-Up and Tarping Risks

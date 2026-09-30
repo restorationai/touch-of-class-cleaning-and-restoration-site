@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in La Mesa, CA | Flood Fixers"
-h1: "Burst Pipe Cleanup and Repair in La Mesa"
-meta_description: "24/7 burst pipe cleanup and repair in La Mesa, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in La Mesa, CA | Flood Fixers"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in La Mesa"
+meta_description: "24/7 emergency burst pipe cleanup and repair in La Mesa, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "burst pipe cleanup and repair la mesa"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in La Mesa? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 La Mesa sits in a geographic sweet spot that most homeowners don't think about until a pipe lets go at 2 a.m., inland enough to swing from summer heat pushing 100°F down to near-freezing nights in January, a temperature range that stresses older copper and galvanized supply lines in ways coastal San Diego neighborhoods rarely experience. When a pipe bursts in a home off University Avenue or in one of the hillside neighborhoods near Lake Murray, water moves fast through slab foundations and into wall cavities before the first towel hits the floor. Flood Fixers responds from San Diego and can have a crew on-site in La Mesa typically within 60–90 minutes of your call.
 
 ## Why La Mesa Homes See More Burst Pipe Events Than You'd Expect

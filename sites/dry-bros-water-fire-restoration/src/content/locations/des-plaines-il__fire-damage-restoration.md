@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration"
-h1: "Fire Damage Restoration in Des Plaines"
-meta_description: "Fire damage restoration in Des Plaines, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Fire Damage Restoration in Des Plaines, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Des Plaines"
+meta_description: "24/7 emergency fire damage restoration in Des Plaines, IL. Insurance billing accepted. Call us now."
 primary_keyword: "fire damage restoration des plaines"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Des Plaines? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Des Plaines sits in a dense corridor of Cook County where older residential blocks, mid-century commercial strips, and apartment complexes share tight lots, and when fire moves through a structure here, it rarely stays contained to one room. The mix of balloon-frame construction common in homes built before the 1960s, combined with the region's cold, dry winters that push residents to run space heaters and fireplaces hard, creates conditions where fire spreads fast and smoke penetrates deep into wall cavities before the first engine arrives. Dry Bros Water & Fire Restoration responds to fire damage calls across Des Plaines, helping property owners move from crisis to a livable, documented, repaired structure.
 
 ## Why Des Plaines Properties Are Vulnerable After a Fire

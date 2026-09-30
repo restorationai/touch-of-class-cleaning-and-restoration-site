@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Lehi, UT | FIX Restoration"
-h1: "Burst Pipe Cleanup and Repair in Lehi"
-meta_description: "Burst pipe cleanup and repair in Lehi, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Burst Pipe Cleanup and Repair in Lehi, UT | FIX Restoration"
+h1: "Emergency Burst Pipe Cleanup and Repair in Lehi"
+meta_description: "Emergency burst pipe cleanup and repair in Lehi, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "burst pipe cleanup and repair lehi"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"

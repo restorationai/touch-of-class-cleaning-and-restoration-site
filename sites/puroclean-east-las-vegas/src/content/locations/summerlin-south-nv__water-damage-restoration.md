@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Summerlin South, NV | PuroClean of East Las Vegas"
-h1: "Water Damage Restoration in Summerlin South"
-meta_description: "Water damage restoration in Summerlin South, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Water Damage Restoration in Summerlin South, NV | PuroClean of East Las Vegas"
+h1: "Emergency Water Damage Restoration in Summerlin South"
+meta_description: "Emergency water damage restoration in Summerlin South, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "water damage restoration summerlin south"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

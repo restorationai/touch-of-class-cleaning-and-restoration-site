@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Trauma Scene Cleanup in Fife, WA | National Restoration Construction"
-h1: "Trauma Scene Cleanup in Fife"
-meta_description: "24/7 trauma scene cleanup in Fife, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Trauma Scene Cleanup in Fife, WA | National Restoration Construction"
+h1: "24/7 Emergency Trauma Scene Cleanup in Fife"
+meta_description: "24/7 emergency trauma scene cleanup in Fife, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "trauma scene cleanup fife"
 secondary_keywords: ["trauma cleanup services", "trauma scene cleaning", "accident scene cleanup", "crime and trauma decontamination", "emergency trauma cleanup"]
 search_intent: "local_sensitive"

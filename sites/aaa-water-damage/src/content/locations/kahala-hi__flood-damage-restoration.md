@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Kahala, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in Kahala"
-meta_description: "24/7 flood damage restoration in Kahala, HI. Call (808) 349-3407."
+title: "24/7 Emergency Flood Damage Restoration in Kahala, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in Kahala"
+meta_description: "24/7 emergency flood damage restoration in Kahala, HI. Call (808) 349-3407."
 primary_keyword: "flood damage restoration kahala"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

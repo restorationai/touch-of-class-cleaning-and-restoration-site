@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Newark, NJ | The Restoration Group"
-h1: "Sewage Cleanup and Sanitization in Newark"
-meta_description: "24/7 sewage cleanup and sanitization in Newark, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Newark, NJ | The Restoration Group"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Newark"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Newark, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "sewage cleanup and sanitization newark"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Newark? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to contain the contamination and start the cleanup.
+
 Newark's combined sewer system was never designed for the rainfall totals that storms like Ida drop in a matter of hours. When those sewers surcharge, raw sewage doesn't just pool in the street, it pushes back through floor drains and toilet bases into the basements of the Ironbound's brick row houses, the frame two-families in Vailsburg, and the ground-floor units of multifamily buildings across the city. That mix of fecal matter, grease, and street runoff is classified Category 3 water, the most hazardous contamination class in the IICRC S500 standard, and it requires a response that goes well beyond a wet vac and a mop.
 
 ## Why Newark Properties See Sewage Backup Issues

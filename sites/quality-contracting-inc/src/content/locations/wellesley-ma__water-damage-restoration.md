@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Wellesley, MA | Quality Contracting, Inc."
-h1: "Water Damage Restoration in Wellesley"
-meta_description: "Water damage restoration in Wellesley, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Water Damage Restoration in Wellesley, MA | Quality Contracting, Inc."
+h1: "Emergency Water Damage Restoration in Wellesley"
+meta_description: "Emergency water damage restoration in Wellesley, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "water damage restoration wellesley"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Wellesley? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Wellesley's combination of mature tree canopy, clay-heavy soils, and a housing stock that skews heavily toward pre-1960 construction creates conditions where water damage can escalate faster than homeowners expect. A burst supply line behind original plaster walls, a sump failure during a nor'easter, or a slow roof leak above an older balloon-frame addition can push moisture deep into materials that simply weren't built to shed it. When that happens, prompt water extraction and structural drying aren't optional, every additional hour of saturation widens the damage and shortens the window before secondary problems take hold.
 
 ## Why Wellesley Properties See Water Damage Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Flood Damage Restoration in Honolulu | AAA Water Damage Restoration & Carpet Care"
-h1: "Flood Damage Restoration in Honolulu"
-meta_description: "24/7 flood damage restoration in Honolulu and surrounding areas. Call (808) 349-3407."
+title: "24/7 Emergency Flood Damage Restoration in Honolulu | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Flood Damage Restoration in Honolulu"
+meta_description: "24/7 emergency flood damage restoration in Honolulu and surrounding areas. Call (808) 349-3407."
 primary_keyword: "flood damage restoration honolulu"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "flood-damage-restoration"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Honolulu? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Floodwater doesn't wait for business hours, and neither does the damage it leaves behind. Within the first hour, water migrates under baseboards, wicks up drywall, and begins saturating subfloor assemblies that you can't see from the surface. Within 24 to 48 hours, the conditions for mold colonization are already in place. Flood damage restoration is a race against a biological clock, and the decisions made in the first few hours determine how much of your home can be saved and how much has to be rebuilt.
 
 ## What flood damage restoration actually involves

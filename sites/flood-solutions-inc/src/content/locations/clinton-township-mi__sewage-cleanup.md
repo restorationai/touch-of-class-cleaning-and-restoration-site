@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Clinton Township, MI | Flood & Fire Solutions"
-h1: "Sewage Cleanup and Sanitization in Clinton Township"
-meta_description: "Sewage cleanup and sanitization in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Sewage Cleanup and Sanitization in Clinton Township | Flood & Fire Solutions"
+h1: "Emergency Sewage Cleanup and Sanitization in Clinton Township"
+meta_description: "Emergency sewage cleanup and sanitization in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "sewage cleanup and sanitization clinton township"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Clinton Township? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Clinton Township sits in the heart of Macomb County, where aging municipal sewer infrastructure and the region's freeze-thaw cycles create conditions that push sewage backups into homes and businesses more often than most residents expect. When a sewer line backup sends raw sewage into a basement or crawl space, the clock starts immediately: Category 3 water, the classification covering raw sewage, begins contaminating porous materials within hours and can make a space genuinely hazardous to occupy. Flood Solutions has been responding to these situations across Macomb County since 1996, and the team knows what a sewage cleanup in Clinton Township actually involves.
 
 ## Why Clinton Township Properties See Sewage Backup Problems

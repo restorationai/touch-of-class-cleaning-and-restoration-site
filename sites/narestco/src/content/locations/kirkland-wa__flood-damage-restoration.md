@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Kirkland, WA | National Restoration Construction"
-h1: "Flood Damage Restoration in Kirkland"
-meta_description: "24/7 flood damage restoration in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Flood Damage Restoration in Kirkland, WA | National Restoration Construction"
+h1: "24/7 Emergency Flood Damage Restoration in Kirkland"
+meta_description: "24/7 emergency flood damage restoration in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "flood damage restoration kirkland"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Kirkland? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Standing water doesn't wait, and neither should you. If a burst pipe, storm surge, or sewer backup has left your Kirkland home or commercial property soaked, the clock started the moment the water appeared, mold can begin colonizing saturated drywall and subfloor in as little as 24 to 48 hours. National Restoration Construction has handled residential flood damage across the greater Seattle area since 2004, and our crews reach most Kirkland addresses within 60 to 90 minutes of your call. Here's what to expect when you reach us at **(206) 883-0333**.
 
 ## Why Kirkland Properties Are Vulnerable to Flood Damage

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flood Cleanup in Indian Springs, NV | PuroClean of East Las Vegas"
-h1: "Basement Flood Cleanup in Indian Springs"
-meta_description: "Basement flood cleanup in Indian Springs, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Basement Flood Cleanup in Indian Springs, NV | PuroClean of East Las Vegas"
+h1: "Emergency Basement Flood Cleanup in Indian Springs"
+meta_description: "Emergency basement flood cleanup in Indian Springs, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "basement flood cleanup indian springs"
 secondary_keywords: []
 search_intent: "local_specialty"

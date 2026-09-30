@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard and Trauma Cleanup in Bellevue, WA | National Restoration Construction"
-h1: "Biohazard and Trauma Cleanup in Bellevue"
-meta_description: "24/7 biohazard and trauma cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Biohazard and Trauma Cleanup in Bellevue, WA | National Restoration Construction"
+h1: "24/7 Emergency Biohazard and Trauma Cleanup in Bellevue"
+meta_description: "24/7 emergency biohazard and trauma cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "biohazard and trauma cleanup bellevue"
 secondary_keywords: ["trauma scene cleanup", "unattended death cleanup", "blood cleanup", "bodily fluid cleanup", "biohazard remediation"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard and Trauma Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Bellevue? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something unexpected and deeply difficult happens at a Bellevue property, the last thing you should have to think about is who to call or whether they'll actually show up. National Restoration Construction has been handling biohazard and trauma cleanup across the greater Seattle area since 2004, and our team responds to Bellevue addresses with the same urgency we'd bring to our own neighborhood. You don't need to manage the scene, coordinate with multiple contractors, or figure out what your insurance covers right now, that's what we're here for.
 
 ## What Our Response in Bellevue Looks Like

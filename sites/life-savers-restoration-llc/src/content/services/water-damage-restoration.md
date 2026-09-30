@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in Henderson | Life Savers Restoration LLC"
-h1: "Water Damage Restoration in Henderson"
-meta_description: "24/7 water damage restoration in Henderson and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
+title: "24/7 Emergency Water Damage Restoration in Henderson | Life Savers Restoration LLC"
+h1: "24/7 Emergency Water Damage Restoration in Henderson"
+meta_description: "24/7 emergency water damage restoration in Henderson and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
 primary_keyword: "water damage restoration henderson"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Henderson? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Water you can see is only part of the problem. Within the first hour of a pipe burst, appliance failure, or roof intrusion, water is already moving, wicking into drywall, traveling under flooring, and pooling inside wall cavities where no fan will ever reach it. The visible puddle on your kitchen floor is the easy part. What's saturating the subfloor beneath it, and the bottom plate of the wall behind the dishwasher, is what turns a containable loss into a mold problem three weeks from now.
 
 ## What Water Damage Restoration actually involves

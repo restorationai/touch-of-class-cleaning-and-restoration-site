@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Fort Ripley, MN | Heritage Restoration LLC"
-h1: "Water Damage Restoration in Fort Ripley"
-meta_description: "Water damage restoration in Fort Ripley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Damage Restoration in Fort Ripley, MN | Heritage Restoration LLC"
+h1: "Emergency Water Damage Restoration in Fort Ripley"
+meta_description: "Emergency water damage restoration in Fort Ripley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water damage restoration fort ripley"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Fort Ripley? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Fort Ripley sits along the Mississippi River in Morrison County, where Minnesota winters push deep frost into the ground and spring thaw can overwhelm even well-maintained drainage systems. When snowmelt backs up against a foundation or a pipe bursts during a cold snap, water moves fast through a home's structure, and the clock on secondary damage starts immediately. Heritage Restoration LLC responds to water damage calls across Fort Ripley and the surrounding Morrison County area, bringing IICRC-certified water damage and structural drying expertise from our base in nearby Little Falls.
 
 ## Why Fort Ripley Properties Are Vulnerable to Water Damage

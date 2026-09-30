@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Greenwood, TX | ACS Enterprise "
-h1: "Storm Damage Restoration in Greenwood"
-meta_description: "Storm damage restoration in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Storm Damage Restoration in Greenwood, TX | ACS Enterprise "
+h1: "Emergency Storm Damage Restoration in Greenwood"
+meta_description: "Emergency storm damage restoration in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "storm damage restoration greenwood"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Greenwood? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 West Texas storms don't announce themselves politely. In Greenwood and the surrounding Midland County communities, severe weather can shift from a clear afternoon to a hail-hammering, wind-driven event in under an hour, leaving roofs stripped, windows blown in, and water working its way into wall cavities before the storm has even passed. ACS Enterprise operates out of Midland and responds to storm damage calls across Greenwood, moving quickly because every hour of exposure to the elements widens the damage footprint.
 
 ## Why Greenwood Properties Face Distinct Storm Damage Challenges

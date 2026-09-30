@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Burst Pipe Cleanup and Repair in Macomb | Flood Solutions inc"
-h1: "Burst Pipe Cleanup and Repair in Macomb"
-meta_description: "Burst pipe cleanup and repair in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Burst Pipe Cleanup and Repair in Macomb | Flood Solutions inc"
+h1: "Emergency Burst Pipe Cleanup and Repair in Macomb"
+meta_description: "Emergency burst pipe cleanup and repair in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "burst pipe cleanup and repair macomb"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "burst-pipe-repair"
 service_display: "burst-pipe-repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Macomb? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 A burst pipe does not announce itself slowly. One moment everything is normal; the next, water is sheeting down a wall, pooling across hardwood, or soaking through drywall before you have found the shutoff valve. The first hour after a pipe break determines how much of your home you save. Water from a supply line moves fast, wicks into framing and insulation within minutes, and begins softening subfloor adhesives and paper-faced drywall long before the surface feels wet to the touch.
 
 ## What burst pipe cleanup actually involves

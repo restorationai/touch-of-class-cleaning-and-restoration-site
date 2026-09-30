@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Scotch Plains, NJ | The Restoration Group"
-h1: "Storm Damage Restoration in Scotch Plains"
-meta_description: "24/7 storm damage restoration in Scotch Plains, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Storm Damage Restoration in Scotch Plains, NJ | The Restoration Group"
+h1: "24/7 Emergency Storm Damage Restoration in Scotch Plains"
+meta_description: "24/7 emergency storm damage restoration in Scotch Plains, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "storm damage restoration scotch plains"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Scotch Plains? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 When a fast-moving nor'easter or a remnant tropical system rolls through Union County, Scotch Plains tends to feel it harder than its neighbors. The Green Brook and Cedar Brook funnel runoff straight toward the township's southern edge, and residents near the Fanwood border and Plainfield line learned that lesson viscerally during Ida in 2021. Whether your split-level in Willow Grove just lost half its roof to a downed oak, or your finished basement off Park Avenue is sitting under four inches of stormwater, the clock starts the moment the rain stops, and The Restoration Group is available around the clock to help you stop the damage from compounding.
 
 ## Why Scotch Plains Properties Are Especially Vulnerable to Storm Damage

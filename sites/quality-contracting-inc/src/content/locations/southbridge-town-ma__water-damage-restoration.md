@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Southbridge Town, MA | Quality Contracting, Inc."
-h1: "Water Damage Restoration in Southbridge Town"
-meta_description: "Water damage restoration in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Water Damage Restoration in Southbridge Town, MA | Quality Contracting, Inc."
+h1: "Emergency Water Damage Restoration in Southbridge Town"
+meta_description: "Emergency water damage restoration in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "water damage restoration southbridge town"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Southbridge Town? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Southbridge Town sits in the Blackstone River Valley, where Worcester County's clay-heavy soils slow drainage and older mill-era construction means basements and crawl spaces collect water faster than the ground can absorb it. When a pipe fails or a storm backs up through a floor drain, the damage moves quickly through plaster, wood framing, and masonry that has been absorbing moisture for decades. Quality Contracting, Inc. handles water removal, structural drying, and full mitigation for Southbridge Town properties, coordinating the process from first call through final inspection.
 
 ## Why Southbridge Town Properties See Water Damage Issues

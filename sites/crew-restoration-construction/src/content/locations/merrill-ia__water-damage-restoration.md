@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Merrill, IA | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Merrill"
-meta_description: "Water damage restoration in Merrill, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Merrill, IA | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Merrill"
+meta_description: "Emergency water damage restoration in Merrill, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration merrill"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Merrill? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 The Floyd River has shaped Merrill's character for generations, and every spring, when snowmelt pushes that waterway toward its banks and saturates Plymouth County's clay-heavy soil, basements and crawlspaces along the river corridor pay the price. Whether a water heater let go overnight in a Downtown Merrill bungalow or a supply line failed inside a newer East Merrill home, the clock starts the moment water touches your subfloor. Crew Restoration & Construction responds to water losses throughout the 51038 ZIP code, bringing the equipment and process discipline needed to stop the damage before it compounds.
 
 ## Why Merrill Properties Are Vulnerable to Water Damage

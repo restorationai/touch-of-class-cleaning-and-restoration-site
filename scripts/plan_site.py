@@ -559,6 +559,33 @@ def enrich_page(page: Page, template: Template, inputs: dict) -> None:
     page.h1 = sanitize_claims_text(page.h1, truth)
     page.meta_description = sanitize_claims_text(page.meta_description, truth)
 
+    # EMERGENCY NAMING RULE (Santino 2026-09-30, scripts/emergency_naming.py):
+    # URGENT services only (water damage, emergency water removal, flood,
+    # burst pipe / leak, sewage, fire, smoke, storm, board-up / tarping,
+    # biohazard / trauma, emergency plumbing when plumbing-licensed): the
+    # title and H1 lead with "24/7 Emergency" (24/7 truth) or "Emergency",
+    # never doubled, headline under ~60 chars (24/7 dropped first); the meta
+    # carries the same lead. Runs AFTER the truth gate on purpose: the gate
+    # strips "emergency" for business-hours brands, and the rule itself
+    # skips a client whose hours are explicit and not 24/7 (Davis). Never
+    # mold, remodeling, carpet/upholstery, air ducts, GC, testing, insurance.
+    if page.archetype in ("service-landing", "service-area-service"):
+        try:
+            import emergency_naming as _en
+            _slug = inputs.get("_slug") or ""
+            _svc = (page.vars.get("service") or {}).get("slug") or ""
+            _tr = inputs.get("_emergency_truth")
+            if _tr is None:
+                _tr = _en.truth(_slug, inputs)
+                inputs["_emergency_truth"] = _tr
+            if _slug and _en.applies(_slug, _svc, _tr):
+                _name = (page.vars.get("service") or {}).get("display_name") or ""
+                page.title = _en.new_title(page.title, _tr)
+                page.h1 = _en.new_h1(page.h1, _tr)
+                page.meta_description = _en.new_meta(page.meta_description, _name, _tr)
+        except Exception as _e:  # noqa: BLE001 -- naming never breaks a plan
+            print(f"    WARN: emergency naming skipped ({str(_e)[:100]})")
+
     # Primary keyword
     pk_tpl = arc.get("primary_keyword_template", "")
     if pk_tpl:
@@ -1177,6 +1204,7 @@ def cmd_generate(args) -> int:
 
     # Normalize inputs
     inputs = expand_inputs(template, plan_input, client)
+    inputs["_slug"] = slug   # emergency naming (scripts/emergency_naming.py) needs the client
 
     print(f"==> Generating plan for {slug} ({client['domain']})")
     print(f"    Template:        {template.name} v{template.version}")
@@ -1313,6 +1341,7 @@ def cmd_report(args) -> int:
     plan_input = load_json(out_dir / "plan-input.json")
     client = load_json(client_record_path(slug))
     inputs = expand_inputs(template, plan_input, client)
+    inputs["_slug"] = slug   # emergency naming (scripts/emergency_naming.py) needs the client
 
     # Rebuild lightweight Page objects from the persisted plan
     pages: list[Page] = []

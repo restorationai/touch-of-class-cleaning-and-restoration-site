@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Latrobe, PA | Katofsky Construction LLC"
-h1: "Biohazard Cleanup in Latrobe"
-meta_description: "24/7 biohazard cleanup in Latrobe, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "24/7 Emergency Biohazard Cleanup in Latrobe, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Biohazard Cleanup in Latrobe"
+meta_description: "24/7 emergency biohazard cleanup in Latrobe, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "biohazard cleanup latrobe"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Latrobe? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Latrobe sits in the Laurel Highlands foothills of Westmoreland County, where a mix of century-old rowhouses, post-war bungalows, and converted mill-era properties lines streets that have seen generations of the same families. When something traumatic happens inside one of those homes, the last thing a family should have to think about is logistics. Katofsky Construction LLC handles biohazard cleanup in Latrobe with the discretion and technical rigor the situation demands, so the people who matter most can focus on what comes next.
 
 ## Why Latrobe's Housing Stock Shapes Biohazard Cleanup

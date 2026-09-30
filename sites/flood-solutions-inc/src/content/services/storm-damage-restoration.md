@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Storm Damage Restoration in Macomb | Flood Solutions inc"
-h1: "Storm Damage Restoration in Macomb"
-meta_description: "Storm damage restoration in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Storm Damage Restoration in Macomb | Flood Solutions inc"
+h1: "Emergency Storm Damage Restoration in Macomb"
+meta_description: "Emergency storm damage restoration in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "storm damage restoration macomb"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "storm-damage-restoration"
 service_display: "storm-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Macomb? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 ## What storm damage actually involves
 
 A severe storm doesn't just break windows and scatter shingles. It opens your home's envelope to water intrusion, structural stress, and secondary damage that compounds by the hour. A tree limb punching through a roof at 2 a.m. exposes attic insulation and ceiling drywall to rain before any crew can respond. Wind-driven water migrates behind siding, soaks wall cavities, and sits in places that look perfectly dry from the inside. The visible damage is rarely the whole story.

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Port Orchard, WA | National Restoration Construction"
-h1: "Basement Flooding Cleanup in Port Orchard"
-meta_description: "24/7 basement flooding cleanup in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Basement Flooding Cleanup in Port Orchard, WA | National Restoration Construction"
+h1: "24/7 Emergency Basement Flooding Cleanup in Port Orchard"
+meta_description: "24/7 emergency basement flooding cleanup in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "basement flooding cleanup port orchard"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Port Orchard? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Port Orchard sits low along Sinclair Inlet, and when the winter rain events that soak Kitsap County combine with the area's clay-heavy soils, basements fill fast, sometimes within minutes of a pipe failure or a backed-up drain. Whether you're in a mid-century ranch near Annapolis or a newer build in McCormick Woods, standing water in a basement isn't just an inconvenience: mold can begin colonizing wet framing and insulation within 24 to 48 hours, and the longer extraction waits, the deeper the damage goes. National Restoration Construction responds to basement flooding calls across Port Orchard and the broader South Kitsap area around the clock.
 
 ## Why Port Orchard Basements Flood, and Why It Gets Complicated

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Diamond Head, HI | AAA Water Damage Restoration & Carpet Care"
-h1: "Burst Pipe Cleanup and Repair in Diamond Head"
-meta_description: "24/7 burst pipe cleanup and repair in Diamond Head, HI. Call (808) 349-3407."
+title: "Emergency Burst Pipe Cleanup and Repair in Diamond Head, HI | AAA Water Damage Restoration & Carpet Care"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Diamond Head"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Diamond Head, HI. Call (808) 349-3407."
 primary_keyword: "burst pipe cleanup and repair diamond head"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

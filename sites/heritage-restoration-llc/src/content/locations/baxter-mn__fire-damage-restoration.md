@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Baxter, MN | Heritage Restoration LLC"
-h1: "Fire Damage Restoration in Baxter"
-meta_description: "Fire damage restoration in Baxter, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Fire Damage Restoration in Baxter, MN | Heritage Restoration LLC"
+h1: "Emergency Fire Damage Restoration in Baxter"
+meta_description: "Emergency fire damage restoration in Baxter, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "fire damage restoration baxter"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Baxter? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Baxter sits in the heart of Crow Wing County, where long, cold winters push heating systems hard and where the mix of newer lakeside builds and older residential stock along the Highway 371 corridor creates a varied fire risk picture. When a kitchen fire, chimney failure, or electrical fault leaves a home with charred framing, soot-coated walls, and the acrid smell that seeps into every cabinet and closet, the window for limiting secondary damage is short. Heritage Restoration LLC responds to fire losses across Baxter with an IICRC FSRT-certified crew and a documented process built around the specific conditions homes here face.
 
 ## Why Baxter Properties Face Distinct Fire Damage Challenges

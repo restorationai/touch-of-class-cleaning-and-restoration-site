@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Buffalo Gap, TX | Air Care Restoration"
-h1: "Smoke Damage Restoration in Buffalo Gap"
-meta_description: "24/7 smoke damage restoration in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Smoke Damage Restoration in Buffalo Gap, TX | Air Care Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in Buffalo Gap"
+meta_description: "24/7 emergency smoke damage restoration in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "smoke damage restoration buffalo gap"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "smoke-damage-restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Buffalo Gap? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 Grass fires move fast across the Taylor County plains, and when wind shifts a wildfire toward a property near Buffalo Gap, smoke can work its way into a home long before flames ever reach the fence line. Structure fires here carry their own signature too: propane heaters, wood stoves, and older wiring in ranch-style homes are common ignition points, and the smoke that follows settles into drywall, insulation, and fabric in ways that a quick wipe-down won't touch. Getting ahead of that residue matters before it bonds to surfaces.
 
 ## Why Buffalo Gap Properties See Smoke Damage Issues

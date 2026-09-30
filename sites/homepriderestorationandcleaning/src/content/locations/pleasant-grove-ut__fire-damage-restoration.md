@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Pleasant Grove, UT | Home Pride Restoration and Cleaning"
-h1: "Fire Damage Restoration in Pleasant Grove"
-meta_description: "24/7 fire damage restoration in Pleasant Grove, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Fire Damage Restoration in Pleasant Grove, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Fire Damage Restoration in Pleasant Grove"
+meta_description: "24/7 emergency fire damage restoration in Pleasant Grove, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "fire damage restoration pleasant grove"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Pleasant Grove? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 A house fire in Pleasant Grove hits differently than in most Utah County cities. The combination of older ranch-style homes built during the post-war growth along State Street, the area's dry Wasatch Front winters that pull moisture out of fire-damaged materials fast, and the tight residential blocks near Grove Creek Drive means smoke and soot penetrate deeper and spread faster than homeowners expect. Home Pride Restoration and Cleaning has been responding to structural fire damage across Utah County since 1997, and we know what fire cleanup looks like in this specific community.
 
 ## Why Pleasant Grove Homes Face Particular Fire Damage Challenges

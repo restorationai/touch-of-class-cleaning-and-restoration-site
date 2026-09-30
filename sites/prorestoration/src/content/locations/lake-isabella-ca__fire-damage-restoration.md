@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Lake Isabella, CA | ProRestoration Services"
-h1: "Fire Damage Restoration in Lake Isabella"
-meta_description: "24/7 fire damage restoration in Lake Isabella, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+title: "24/7 Emergency Fire Damage Restoration in Lake Isabella, CA | ProRestoration Services"
+h1: "24/7 Emergency Fire Damage Restoration in Lake Isabella"
+meta_description: "24/7 emergency fire damage restoration in Lake Isabella, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
 primary_keyword: "fire damage restoration lake isabella"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

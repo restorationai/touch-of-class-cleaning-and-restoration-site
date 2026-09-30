@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Provo, UT | Home Pride Restoration and Cleaning"
-h1: "Flood Damage Restoration in Provo"
-meta_description: "24/7 flood damage restoration in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Flood Damage Restoration in Provo, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Flood Damage Restoration in Provo"
+meta_description: "24/7 emergency flood damage restoration in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "flood damage restoration provo"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

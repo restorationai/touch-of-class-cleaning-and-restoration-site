@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Basement Flooding Cleanup in Westfield, NJ | The Restoration Group"
-h1: "Basement Flooding Cleanup in Westfield"
-meta_description: "24/7 basement flooding cleanup in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Basement Flooding Cleanup in Westfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Westfield"
+meta_description: "24/7 emergency basement flooding cleanup in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "basement flooding cleanup westfield"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Westfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 The finished basements of Westfield's Victorian and Tudor homes along streets like Wychwood and The Gardens represent some of the most expensive square footage in Union County, home theaters, home offices, and gyms that took years to build and can be destroyed in an afternoon when a sump pump fails during a nor'easter or Robinson's Branch backs up through an aging clay sewer lateral. When that water hits your floor, the clock starts immediately: carpet padding traps moisture within hours, engineered hardwood begins to cup within a day, and drywall wicking can push mold colonization to begin in as little as 48 to 72 hours. The Restoration Group responds 24/7 to basement flooding calls across Westfield's 07090 ZIP code, extraction equipment on-site, not a callback.
 
 ## Why Westfield Basements Flood Differently Than Most

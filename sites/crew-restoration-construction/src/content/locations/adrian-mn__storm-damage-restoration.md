@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Adrian, MN | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Adrian"
-meta_description: "Storm damage restoration in Adrian, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Adrian, MN | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Adrian"
+meta_description: "Emergency storm damage restoration in Adrian, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration adrian"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Adrian? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Southwest Minnesota's open prairie geography makes Adrian one of the more exposed communities in Nobles County when severe weather rolls through. Sitting right along I-90 near Exit 26, the town has little natural windbreak to slow a fast-moving storm system, and when a supercell tracks northeast across the Minnesota-Iowa border, properties in the 56110 ZIP code can take on wind, hail, and debris damage within minutes of the first warning sirens. Crew Restoration & Construction responds to that kind of loss, roof failures, blown-in windows, tree strikes, water intrusion, and works through the full repair process so homeowners aren't left managing a patchwork of separate contractors.
 
 ## Why Adrian Properties See Significant Storm Damage

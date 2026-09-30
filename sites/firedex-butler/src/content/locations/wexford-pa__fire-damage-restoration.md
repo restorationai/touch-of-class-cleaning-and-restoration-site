@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Wexford, PA | FireDEX Butler"
-h1: "Fire Damage Restoration in Wexford"
-meta_description: "24/7 fire damage restoration in Wexford, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Fire Damage Restoration in Wexford, PA | FireDEX Butler"
+h1: "24/7 Emergency Fire Damage Restoration in Wexford"
+meta_description: "24/7 emergency fire damage restoration in Wexford, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "fire damage restoration wexford"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Wexford? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 The large two-story and estate homes that line the wooded cul-de-sacs of Pine Township and English Farms were built to impress, vaulted great rooms, finished walk-out basements with home theaters, bonus rooms cantilevered over three-car garages. When fire moves through one of these properties, it doesn't just char drywall. It saturates custom millwork with smoke, embeds odor into the HVAC system that serves three floors, and leaves soot on the kind of finishes that can't be swapped out with a box-store equivalent. FireDEX Butler has been restoring fire-damaged homes across the North Hills since 1981, and we respond around the clock from our Cranberry Township location.
 
 ## Why Wexford Properties Face Distinct Fire Damage Challenges

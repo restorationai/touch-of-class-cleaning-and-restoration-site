@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Pleasant Grove, UT | Home Pride Restoration and Cleaning"
-h1: "Appliance Leak Cleanup in Pleasant Grove"
-meta_description: "24/7 appliance leak cleanup in Pleasant Grove, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Appliance Leak Cleanup in Pleasant Grove, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Appliance Leak Cleanup in Pleasant Grove"
+meta_description: "24/7 emergency appliance leak cleanup in Pleasant Grove, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "appliance leak cleanup pleasant grove"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Pleasant Grove? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Pleasant Grove sits at roughly 4,500 feet along the Wasatch Front, where hard Utah County water leaves mineral deposits inside every appliance that touches a supply line, and when those lines finally fail, they fail fast. A refrigerator ice maker hose that's been slowly calcifying for eight years, a washing machine supply valve weakened by the freeze-thaw cycles that hit this elevation every November through March, a dishwasher door seal dried out by the region's single-digit humidity, any of them can dump dozens of gallons onto your subfloor before you notice the smell of wet OSB rising from the crawlspace.
 
 ## Why Pleasant Grove Homes See More Appliance Leaks Than You'd Expect

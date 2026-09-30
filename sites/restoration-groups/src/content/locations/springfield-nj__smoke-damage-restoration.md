@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Springfield, NJ | The Restoration Group"
-h1: "Smoke Damage Restoration in Springfield"
-meta_description: "24/7 smoke damage restoration in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Smoke Damage Restoration in Springfield, NJ | The Restoration Group"
+h1: "24/7 Emergency Smoke Damage Restoration in Springfield"
+meta_description: "24/7 emergency smoke damage restoration in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "smoke damage restoration springfield"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Springfield? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop smoke and soot damage from spreading.
+
 A kitchen fire that gets knocked down fast can still leave a house smelling like a campfire for months, and in Springfield's older colonials and capes, where plaster walls and horsehair insulation have been absorbing decades of household odors, smoke residue finds places to hide that a coat of paint will never fix. Whether the source was a stove fire on Mountain Avenue, a garage blaze near Jonathan Dayton High School, or smoke infiltration from a neighboring unit in one of the townhome complexes toward the Millburn line, the clock starts the moment the fire department leaves. Soot is acidic. Within 24 to 72 hours it begins etching glass, pitting metal fixtures, and permanently yellowing porous surfaces.
 
 ## Why Springfield Homes Are Particularly Vulnerable to Smoke Damage

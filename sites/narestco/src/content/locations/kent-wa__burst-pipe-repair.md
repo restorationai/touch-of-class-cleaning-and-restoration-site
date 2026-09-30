@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Kent, WA | National Restoration Construction"
-h1: "Burst Pipe Cleanup and Repair in Kent"
-meta_description: "24/7 burst pipe cleanup and repair in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Kent, WA | National Restoration Construction"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Kent"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "burst pipe cleanup and repair kent"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Kent? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A pipe just let go somewhere in your walls, ceiling, or crawl space, and right now water is moving fast. Whether it's a frozen supply line that finally gave out on a January night or a corroded fitting that failed without warning, the next few hours matter more than any other part of this process. National Restoration Construction dispatches from Federal Way and can typically have a crew at your Kent address within 60–90 minutes of your call. The sooner extraction starts, the less flooring, drywall, and framing ends up in a dumpster.
 
 ## Why Kent Properties See Burst Pipe Emergencies

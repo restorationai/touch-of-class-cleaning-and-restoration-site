@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Cicero, IL | Dry Bros Water & Fire Restoration"
-h1: "Water Damage Restoration in Cicero"
-meta_description: "Water damage restoration in Cicero, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Water Damage Restoration in Cicero, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Cicero"
+meta_description: "24/7 emergency water damage restoration in Cicero, IL. Insurance billing accepted. Call us now."
 primary_keyword: "water damage restoration cicero"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Cicero? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Cicero sits on some of the flattest, most densely developed ground in Cook County, and when water gets into a building here, whether from a burst supply line, a sewer backup, or a storm that overwhelms the combined sewer system, it has almost nowhere to drain on its own. The clay-heavy soil beneath Cicero's street grid doesn't absorb standing water quickly, which means moisture lingers under slabs and inside wall cavities long after the visible puddle is gone. Dry Bros Water & Fire Restoration responds to water damage calls throughout Cicero, handling everything from initial water extraction to full structural drying so the damage stops spreading before it becomes a reconstruction project.
 
 ## Why Cicero Properties See Water Damage Differently Than Newer Suburbs

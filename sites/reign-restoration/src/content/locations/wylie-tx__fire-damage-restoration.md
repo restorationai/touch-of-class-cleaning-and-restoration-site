@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Wylie, TX | Reign Restoration"
-h1: "Fire Damage Restoration in Wylie"
-meta_description: "Fire damage restoration in Wylie, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
+title: "24/7 Emergency Fire Damage Restoration in Wylie, TX | Reign Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Wylie"
+meta_description: "24/7 emergency fire damage restoration in Wylie, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621."
 primary_keyword: "fire damage restoration wylie"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Wylie? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 A house fire in Wylie doesn't just burn, it leaves behind a layered mess that keeps damaging your home long after the flames are out. North Texas summers push attic temperatures past 140°F, and that heat drives smoke residue deeper into porous materials like brick veneer, OSB sheathing, and the spray foam insulation common in Wylie's newer construction. By the time the fire department clears the scene, oxidation and soot are already etching surfaces, and the clock on permanent staining has started. Reign Restoration holds IICRC FSRT (Fire & Smoke) certification and responds to fire damage calls across Wylie from our Royse City base, close enough to reach most neighborhoods without a haul across the metroplex.
 
 ## Why Wylie Properties Face Particular Fire Damage Challenges

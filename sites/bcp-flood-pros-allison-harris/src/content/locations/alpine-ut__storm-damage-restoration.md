@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Alpine, UT | FIX Restoration"
-h1: "Storm Damage Restoration in Alpine"
-meta_description: "Storm damage restoration in Alpine, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Storm Damage Restoration in Alpine, UT | FIX Restoration"
+h1: "Emergency Storm Damage Restoration in Alpine"
+meta_description: "Emergency storm damage restoration in Alpine, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "storm damage restoration alpine"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Alpine? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Alpine sits at the foot of the Wasatch Range in one of Utah County's most weather-exposed corridors. Storms that funnel down from the high terrain above can drop heavy snow loads, drive hail into siding and rooflines, and send runoff sheeting across yards faster than drainage systems can handle. When that kind of weather hits your property, the damage compounds quickly: saturated insulation loses its R-value, compromised rooflines invite water into wall cavities, and wind-thrown debris can puncture materials that look fine from the ground. FIX Restoration operates out of American Fork and responds to storm-damaged properties across Alpine when you need work to start, not a callback next week.
 
 ## Why Alpine Properties Face Particular Storm Risks

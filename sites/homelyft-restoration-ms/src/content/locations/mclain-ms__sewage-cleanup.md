@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in McLain, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in McLain"
-meta_description: "Sewage cleanup and sanitization in McLain, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in McLain, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in McLain"
+meta_description: "24/7 emergency sewage cleanup and sanitization in McLain, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization mclain"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in McLain? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 McLain sits in Greene County where the soil shifts between sandy loam and heavy clay depending on how close you are to the Chickasawhay River corridor, and that soil behavior is directly tied to how often septic systems and sewer laterals fail here. When a line backs up or a tank overflows, raw sewage doesn't just pool on the surface; it wicks into subfloor framing and crawl space soil before most homeowners realize what's happened. HomeLyft Restoration MS responds to those calls from our Gulfport base, bringing the equipment and IICRC-certified protocols needed to make a contaminated space genuinely safe again.
 
 ## Why McLain Properties See Sewage Backup Issues

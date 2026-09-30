@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Clinton Township, MI | Flood Solutions inc"
-h1: "Burst Pipe Cleanup and Repair in Clinton Township"
-meta_description: "Burst pipe cleanup and repair in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Burst Pipe Cleanup and Repair in Clinton Township | Flood Solutions inc"
+h1: "Emergency Burst Pipe Cleanup and Repair in Clinton Township"
+meta_description: "Emergency burst pipe cleanup and repair in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "burst pipe cleanup and repair clinton township"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "burst-pipe-repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Clinton Township? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 Clinton Township sits in one of Michigan's most punishing freeze-thaw corridors, where January temperatures can swing from single digits to the mid-30s within a week. That cycle is hard on supply lines, especially in the township's older ranch-style homes where copper pipes run through uninsulated exterior walls or crawl spaces that were never designed for the winters we've seen in recent decades. When a pipe lets go, the water doesn't wait, and neither should you. Flood Solutions Inc has been responding to pipe break water damage across Macomb County since 1996, and the call to (586) 580-0197 reaches a team that knows exactly what burst pipe cleanup looks like in this part of southeast Michigan.
 
 ## Why Clinton Township Homes Are Particularly Vulnerable to Pipe Failures

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst & Frozen Pipes in Winchester, NV | PuroClean of East Las Vegas"
-h1: "Burst & Frozen Pipes in Winchester"
-meta_description: "Burst & frozen pipes in Winchester, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Burst & Frozen Pipes in Winchester, NV | PuroClean of East Las Vegas"
+h1: "Emergency Burst & Frozen Pipes in Winchester"
+meta_description: "Emergency burst & frozen pipes in Winchester, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "burst & frozen pipes winchester"
 secondary_keywords: []
 search_intent: "local_specialty"

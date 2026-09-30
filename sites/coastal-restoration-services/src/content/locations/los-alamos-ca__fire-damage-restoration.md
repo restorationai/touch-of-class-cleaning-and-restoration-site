@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Los Alamos, CA | Coastal Restoration Services Inc"
-h1: "Fire Damage Restoration in Los Alamos"
-meta_description: "Fire damage restoration in Los Alamos, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Fire Damage Restoration in Los Alamos, CA | Coastal Restoration Services Inc"
+h1: "Emergency Fire Damage Restoration in Los Alamos"
+meta_description: "Emergency fire damage restoration in Los Alamos, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "fire damage restoration los alamos"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Los Alamos? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Los Alamos sits in the Santa Ynez Valley corridor where dry Santa Ana-pattern winds funnel through the hills each fall, turning a kitchen fire or an electrical fault in a vintage ranch home into a whole-house smoke event faster than most homeowners expect. When fire moves through a structure here, whether it starts in a detached garage on a rural parcel or inside one of the older wood-frame buildings along Bell Street, the combination of low humidity, porous stucco exteriors, and aged interior finishes means smoke and soot penetrate deeply before the flames are even out. Coastal Restoration Services Inc, based in Vandenberg Village, responds to fire damage calls across Los Alamos and the surrounding Santa Barbara County communities.
 
 ## Why Los Alamos Properties Are Vulnerable to Fire Damage

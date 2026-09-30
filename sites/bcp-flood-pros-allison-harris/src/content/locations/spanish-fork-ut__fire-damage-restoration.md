@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Spanish Fork, UT | FIX Restoration"
-h1: "Fire Damage Restoration in Spanish Fork"
-meta_description: "Fire damage restoration in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in Spanish Fork, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in Spanish Fork"
+meta_description: "Emergency fire damage restoration in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration spanish fork"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Spanish Fork? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Spanish Fork sits in a high-desert valley where dry summers, low humidity, and strong canyon winds off the Wasatch Front can turn a small kitchen fire into a whole-house smoke event faster than most homeowners expect. When fire moves through a home here, it doesn't just char wood, it drives soot into every cavity, leaves acidic smoke residue on metal fixtures within hours, and embeds odor into the concrete block and stucco construction common throughout Utah County. FIX Restoration has been responding to fire losses across the Wasatch Front since 2012, and our team understands what post-fire recovery looks like in Spanish Fork specifically.
 
 ## Why Spanish Fork Homes Face Distinct Fire Damage Challenges

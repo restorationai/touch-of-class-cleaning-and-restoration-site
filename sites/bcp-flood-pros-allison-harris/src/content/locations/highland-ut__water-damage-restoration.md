@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Highland, UT | FIX Restoration"
-h1: "Water Damage Restoration in Highland"
-meta_description: "Water damage restoration in Highland, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Damage Restoration in Highland, UT | FIX Restoration"
+h1: "Emergency Water Damage Restoration in Highland"
+meta_description: "Emergency water damage restoration in Highland, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water damage restoration highland"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Highland? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Highland sits at the base of the Wasatch Range in Utah County, where spring snowmelt and summer monsoon storms can push water into homes faster than most drainage systems can handle. The city's elevation and clay-heavy soils mean water doesn't percolate quickly, it pools against foundations, finds its way through window wells, and saturates crawl spaces before a homeowner realizes anything is wrong. When that happens, FIX Restoration responds from nearby American Fork to begin water removal and structural drying before secondary damage sets in.
 
 ## Why Highland Properties See Water Damage Issues

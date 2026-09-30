@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Basement Flooding Cleanup in Kenilworth | The Restoration Group"
-h1: "Basement Flooding Cleanup in Kenilworth"
-meta_description: "24/7 basement flooding cleanup in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
+title: "24/7 Emergency Basement Flooding Cleanup in Kenilworth | The Restoration Group"
+h1: "24/7 Emergency Basement Flooding Cleanup in Kenilworth"
+meta_description: "24/7 emergency basement flooding cleanup in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (908) 970-8533."
 primary_keyword: "basement flooding cleanup kenilworth"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "basement-flooding-cleanup"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Kenilworth? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and start drying.
+
 Standing water in a basement moves fast. Within the first hour, it wicks into drywall, soaks into insulation, and begins saturating the subfloor above, materials that look fine on the surface but are already holding moisture that will feed mold within 24 to 48 hours. Whether the source is a failed sump pump, a backed-up floor drain, a cracked foundation wall, or a storm that overwhelmed your lateral line, the clock on secondary damage starts the moment the water stops rising.
 
 ## What basement flooding cleanup actually involves

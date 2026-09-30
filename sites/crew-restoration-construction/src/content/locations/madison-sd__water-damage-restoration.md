@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Madison, SD | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Madison"
-meta_description: "Water damage restoration in Madison, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Madison, SD | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Madison"
+meta_description: "Emergency water damage restoration in Madison, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration madison"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Madison? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 When snowmelt rushes across Lake County's flat prairie in March or a pipe lets go during a January cold snap, water moves fast through Madison homes, and it doesn't wait for a convenient hour. Whether you're dealing with a soaked basement near Dakota State University or a flooded cabin floor out by Lake Herman State Park, the window to prevent secondary damage like warped subfloors and mold growth is measured in hours, not days. Crew Restoration & Construction responds to water damage calls in Madison and throughout the 57042 area, bringing industrial extraction and drying equipment directly to your property.
 
 ## Why Madison Properties See Water Damage Issues

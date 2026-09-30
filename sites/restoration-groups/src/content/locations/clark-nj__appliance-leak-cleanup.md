@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Appliance Leak Cleanup in Clark, NJ | The Restoration Group"
-h1: "Appliance Leak Cleanup in Clark"
-meta_description: "24/7 appliance leak cleanup in Clark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Appliance Leak Cleanup in Clark, NJ | The Restoration Group"
+h1: "24/7 Emergency Appliance Leak Cleanup in Clark"
+meta_description: "24/7 emergency appliance leak cleanup in Clark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "appliance leak cleanup clark"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Clark? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 Clark's compact postwar neighborhoods sit on finished basements that were never designed for the appliances now running inside them, and when a washing machine supply hose lets go or a refrigerator ice maker line splits behind the wall, water finds the path of least resistance straight down into that finished space. The 1950s and 1960s split-levels and ranches lining streets off Valley Road and the Lake Avenue corridor were built before modern water-supply braided hoses existed, and their original copper lines and cast-iron drains are well past the age at which failures become routine. The Restoration Group responds 24/7 to appliance leak emergencies throughout Clark, NJ 07066, and the team carries IICRC Certified Firm credentials (#210213) along with an NJ Licensed Home Improvement Contractor license.
 
 ## Why Clark Homes Are Especially Vulnerable to Appliance Leaks

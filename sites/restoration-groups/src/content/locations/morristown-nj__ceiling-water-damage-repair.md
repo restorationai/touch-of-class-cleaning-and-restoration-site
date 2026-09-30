@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Morristown, NJ | The Restoration Group"
-h1: "Ceiling Water Damage Repair in Morristown"
-meta_description: "24/7 ceiling water damage repair in Morristown, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Ceiling Water Damage Repair in Morristown, NJ | The Restoration Group"
+h1: "24/7 Emergency Ceiling Water Damage Repair in Morristown"
+meta_description: "24/7 emergency ceiling water damage repair in Morristown, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "ceiling water damage repair morristown"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

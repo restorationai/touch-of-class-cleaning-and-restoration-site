@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Highland, UT | FIX Restoration"
-h1: "Fire Damage Restoration in Highland"
-meta_description: "Fire damage restoration in Highland, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in Highland, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in Highland"
+meta_description: "Emergency fire damage restoration in Highland, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration highland"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Highland? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Highland sits at the foot of the Wasatch Range in northern Utah County, where dry summers, low humidity, and the occasional high-wind event create conditions that can turn a kitchen fire into a whole-house smoke problem faster than most homeowners expect. The same arid climate that keeps mold risk relatively low also means smoke particles travel farther through ductwork and settle deeply into porous surfaces, drywall, insulation, cabinetry, before the smell even registers in the back bedroom. When fire damage hits a Highland home, the visible char is rarely the whole story.
 
 ## Why Highland Properties Face Distinct Fire Damage Challenges

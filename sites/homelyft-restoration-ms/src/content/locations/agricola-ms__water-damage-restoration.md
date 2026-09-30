@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Agricola, MS | HomeLyft Restoration MS"
-h1: "Water Damage Restoration in Agricola"
-meta_description: "Water damage restoration in Agricola, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Water Damage Restoration in Agricola, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Water Damage Restoration in Agricola"
+meta_description: "24/7 emergency water damage restoration in Agricola, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "water damage restoration agricola"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Agricola? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Agricola sits in the humid lowlands of George County, where summer humidity rarely dips below 70% and Gulf-driven rain systems can drop several inches in a matter of hours. When water finds its way into a home here, through a failed supply line, a roof breach during a storm, or a slow slab leak that goes unnoticed for weeks, the warm, damp air that's already pressing against every wall makes drying dramatically harder than it would be in a drier climate. HomeLyft Restoration MS responds to water damage calls throughout the Agricola area, bringing IICRC-certified water damage and structural drying technicians from our Gulfport base to assess, extract, and dry properties before secondary damage sets in.
 
 ## Why Agricola Properties See Water Damage Issues

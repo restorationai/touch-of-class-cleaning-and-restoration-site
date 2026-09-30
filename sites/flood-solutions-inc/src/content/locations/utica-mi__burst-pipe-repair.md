@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Utica, MI | Flood Solutions inc"
-h1: "Burst Pipe Cleanup and Repair in Utica"
-meta_description: "Burst pipe cleanup and repair in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Burst Pipe Cleanup and Repair in Utica, MI | Flood Solutions inc"
+h1: "Emergency Burst Pipe Cleanup and Repair in Utica"
+meta_description: "Emergency burst pipe cleanup and repair in Utica, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "burst pipe cleanup and repair utica"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "burst-pipe-repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Utica? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 Utica sits in Macomb County where Michigan winters regularly push temperatures well below freezing, and the region's clay-heavy soil holds moisture against foundation walls and supply lines in ways that accelerate freeze-thaw stress on plumbing. When a pipe lets go inside a Utica home, the water moves fast: across subfloor framing, into wall cavities, and under finished flooring before most homeowners realize what they're hearing. Flood Solutions Inc has been responding to pipe break water damage across Macomb County since 1996, and the pattern here is consistent enough to know what to look for before the moisture meter even comes out of the bag.
 
 ## Why Utica Properties See Burst Pipe Damage

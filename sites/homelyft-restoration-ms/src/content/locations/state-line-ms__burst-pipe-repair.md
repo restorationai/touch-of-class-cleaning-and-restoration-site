@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in State Line, MS | HomeLyft Restoration MS"
-h1: "Burst Pipe Cleanup and Repair in State Line"
-meta_description: "24/7 burst pipe cleanup and repair in State Line, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "Emergency Burst Pipe Cleanup and Repair in State Line, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in State Line"
+meta_description: "24/7 emergency burst pipe cleanup and repair in State Line, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "burst pipe cleanup and repair state line"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

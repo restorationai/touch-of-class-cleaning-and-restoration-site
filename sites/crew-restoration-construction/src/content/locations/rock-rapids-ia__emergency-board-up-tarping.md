@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Rock Rapids, IA | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Rock Rapids"
-meta_description: "Board-up and tarping in Rock Rapids, IA. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Rock Rapids, IA | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Rock Rapids"
+meta_description: "Emergency board-up and tarping in Rock Rapids, IA. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping rock rapids"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Rock Rapids? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a spring storm rolls off the Rock River corridor and peels back a section of roofing on a home near Emma Sater Park, or when a fire tears through a structure on the edge of Downtown Rock Rapids, every hour the opening sits exposed multiplies the damage inside. Wind-driven rain, opportunistic theft, and temperature swings can turn a manageable loss into a gut renovation. Getting plywood over broken windows and poly tarps secured over a compromised roof fast is the difference between a repair bill and a rebuild, and that's exactly what Crew Restoration & Construction mobilizes to do.
 
 ## Why Rock Rapids Properties Face Recurring Board-Up and Tarping Risks

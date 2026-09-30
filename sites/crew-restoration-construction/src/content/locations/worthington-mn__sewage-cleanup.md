@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Worthington, MN | Crew Restoration & Construction"
-h1: "Sewage Cleanup and Sanitization in Worthington"
-meta_description: "Sewage cleanup and sanitization in Worthington, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Sewage Cleanup and Sanitization in Worthington, MN | Crew Restoration & Construction"
+h1: "Emergency Sewage Cleanup and Sanitization in Worthington"
+meta_description: "Emergency sewage cleanup and sanitization in Worthington, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "sewage cleanup and sanitization worthington"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Worthington? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 When a sewer line backs up or a septic system overflows in Worthington, the damage moves fast, and in a city where older residential blocks sit close to aging municipal infrastructure, the risk is real year-round. Raw sewage isn't just an odor problem; it carries bacteria, viruses, and pathogens that contaminate porous materials within hours. Crew Restoration & Construction responds to sewage backup calls across Worthington's 56187 ZIP code, arriving with the containment equipment and sanitization protocols the situation demands.
 
 ## Why Worthington Properties See Sewage Backup Issues

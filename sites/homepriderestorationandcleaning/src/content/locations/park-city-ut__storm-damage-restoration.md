@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Park City, UT | Home Pride Restoration and Cleaning"
-h1: "Storm Damage Restoration in Park City"
-meta_description: "24/7 storm damage restoration in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Storm Damage Restoration in Park City, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Storm Damage Restoration in Park City"
+meta_description: "24/7 emergency storm damage restoration in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "storm damage restoration park city"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Park City? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Park City sits at 7,000 feet, and that elevation changes everything about how storms behave here. A late-spring system can drop 18 inches of wet, heavy snow on Old Town's century-old Victorian rooflines one week and send golf-ball hail through Deer Valley's newer construction the next. When a storm tears through at altitude, the damage compounds fast, saturated insulation, cracked flashing, downed trees punching through decks, and the thin mountain air slows drying times in ways that catch property owners off guard. Home Pride Restoration and Cleaning has been responding to exactly these conditions since 1997, and our IICRC-certified crews understand what Summit County storms actually do to homes.
 
 ## Why Park City Properties See Unusual Storm Damage Patterns

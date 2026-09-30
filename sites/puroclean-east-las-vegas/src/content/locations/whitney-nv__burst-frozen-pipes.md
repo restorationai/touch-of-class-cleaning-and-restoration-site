@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst & Frozen Pipes in Whitney, NV | PuroClean of East Las Vegas"
-h1: "Burst & Frozen Pipes in Whitney"
-meta_description: "Burst & frozen pipes in Whitney, NV. Insurance billing accepted. Call +17025513040."
+title: "Emergency Burst & Frozen Pipes in Whitney, NV | PuroClean of East Las Vegas"
+h1: "Emergency Burst & Frozen Pipes in Whitney"
+meta_description: "Emergency burst & frozen pipes in Whitney, NV. Insurance billing accepted. Call +17025513040."
 primary_keyword: "burst & frozen pipes whitney"
 secondary_keywords: []
 search_intent: "local_specialty"
@@ -20,6 +20,9 @@ state: "NV"
 service_display: "Burst & Frozen Pipes"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Whitney? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 Whitney sits in a climate that most people outside the Las Vegas Valley assume is pipe-freeze-proof. It isn't. Desert nights in January and February regularly drop into the mid-20s, and the shallow, uninsulated supply lines common in tract homes built along the East Tropicana corridor and around Whitney Ranch weren't engineered with hard freezes in mind. When those pipes let go, sometimes quietly behind a cabinet, sometimes with a sound like a rifle crack, the water doesn't stop until someone shuts the main. PuroClean of East Las Vegas responds to burst and frozen pipe calls throughout the 89122 and 89142 ZIP codes, and our East Las Vegas base puts Whitney among the closest communities we serve.
 
 ## Why Whitney Properties See Burst and Frozen Pipe Problems

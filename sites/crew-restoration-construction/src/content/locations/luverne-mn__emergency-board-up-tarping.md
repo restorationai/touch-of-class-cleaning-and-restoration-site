@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Luverne, MN | Crew Restoration & Construction"
-h1: "Board-Up and Tarping in Luverne"
-meta_description: "Board-up and tarping in Luverne, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Board-Up and Tarping in Luverne, MN | Crew Restoration & Construction"
+h1: "Emergency Board-Up and Tarping in Luverne"
+meta_description: "Emergency board-up and tarping in Luverne, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "emergency board-up and tarping luverne"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Luverne? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Prairie storms along the Minnesota-South Dakota border don't give much warning. When a hailstorm tears shingles off a century-old farmhouse on the edge of Luverne, or a derecho punches out windows on a downtown commercial block, the gap between damage and a proper barrier is measured in hours, not days. Crew Restoration & Construction responds to those calls across Rock County, securing compromised structures before rain, wind, or opportunistic entry turns a manageable repair into a gut renovation.
 
 ## Why Luverne Properties Face Elevated Board-Up and Tarping Risks

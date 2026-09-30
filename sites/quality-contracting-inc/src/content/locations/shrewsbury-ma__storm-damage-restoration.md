@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Shrewsbury, MA | Quality Contracting, Inc."
-h1: "Storm Damage Restoration in Shrewsbury"
-meta_description: "Storm damage restoration in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Storm Damage Restoration in Shrewsbury, MA | Quality Contracting, Inc."
+h1: "Emergency Storm Damage Restoration in Shrewsbury"
+meta_description: "Emergency storm damage restoration in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "storm damage restoration shrewsbury"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Shrewsbury? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 When a nor'easter or summer thunderstorm rolls across Lake Quinsigamond and into Shrewsbury, the damage it leaves behind can look deceptively manageable, a few shingles, a downed branch, some water in the garage. But the postwar capes and ranches that make up much of the town's housing stock, combined with the area's clay-heavy soils and a water table that sits close to the surface near the lakefront, mean storm damage here tends to compound quickly once moisture finds a way in. Quality Contracting, Inc. responds to storm damage calls across Shrewsbury's 01545 and 01546 ZIP codes, working from our Auburn base just a few miles down Route 9.
 
 ## Why Shrewsbury Properties See Elevated Storm Damage Risk

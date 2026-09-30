@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Lake Magdalene, FL | DRYCOR RESTORE"
-h1: "Emergency Water Removal & Cleanup in Lake Magdalene"
+title: "24/7 Emergency Water Removal & Cleanup in Lake Magdalene, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Water Removal & Cleanup in Lake Magdalene"
 meta_description: "24/7 emergency water removal & cleanup in Lake Magdalene, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "emergency water removal & cleanup lake magdalene"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]

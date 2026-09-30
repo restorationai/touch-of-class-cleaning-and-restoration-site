@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Draper, UT | FIX Restoration"
-h1: "Board-Up and Tarping in Draper"
-meta_description: "Board-up and tarping in Draper, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Board-Up and Tarping in Draper, UT | FIX Restoration"
+h1: "Emergency Board-Up and Tarping in Draper"
+meta_description: "Emergency board-up and tarping in Draper, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "emergency board-up and tarping draper"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Draper? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Draper sits at the foot of the Wasatch Range, where winter storms can roll in fast and leave a roof torn open or a window shattered before a homeowner has time to react. When that happens, the gap between the damage and a proper board-up or tarp is the gap between a manageable repair and a gutted interior. FIX Restoration responds to those calls from Draper and the surrounding Salt Lake County corridor, securing structures so that wind, rain, and opportunistic entry do not compound what the storm or fire already started.
 
 ## Why Draper Properties Face Particular Board-Up and Tarping Risks

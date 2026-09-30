@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Allison Park, PA | FireDEX Butler"
-h1: "Frozen Pipe Restoration in Allison Park"
-meta_description: "24/7 frozen pipe restoration in Allison Park, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Frozen Pipe Restoration in Allison Park, PA | FireDEX Butler"
+h1: "24/7 Emergency Frozen Pipe Restoration in Allison Park"
+meta_description: "24/7 emergency frozen pipe restoration in Allison Park, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "frozen pipe restoration allison park"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"

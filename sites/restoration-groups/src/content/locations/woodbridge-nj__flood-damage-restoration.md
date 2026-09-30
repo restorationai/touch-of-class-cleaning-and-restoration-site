@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Woodbridge, NJ | The Restoration Group"
-h1: "Flood Damage Restoration in Woodbridge"
-meta_description: "24/7 flood damage restoration in Woodbridge, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Flood Damage Restoration in Woodbridge, NJ | The Restoration Group"
+h1: "24/7 Emergency Flood Damage Restoration in Woodbridge"
+meta_description: "24/7 emergency flood damage restoration in Woodbridge, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "flood damage restoration woodbridge"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Woodbridge? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and stop the damage from spreading.
+
 When Tropical Storm Ida tore through central New Jersey in September 2021, low-lying streets near the Rahway River flooded faster than storm drains could handle, and many Woodbridge homeowners discovered that their finished basements had become swimming pools overnight. That kind of event isn't a fluke here. Woodbridge Township's position along two flood-prone river systems, combined with decades of postwar housing built before modern drainage standards, means flood damage is a recurring threat, not a once-in-a-generation surprise. When water invades your home, the clock starts immediately, mold can begin colonizing wet materials in as little as 24 to 48 hours.
 
 ## Why Woodbridge Properties Are Especially Vulnerable to Flood Damage

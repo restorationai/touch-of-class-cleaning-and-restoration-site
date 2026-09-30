@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Water Damage Restoration in Lakewood | Frontline Fire & Flood"
-h1: "Water Damage Restoration in Lakewood"
-meta_description: "24/7 water damage restoration in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+title: "24/7 Emergency Water Damage Restoration in Lakewood | Frontline Fire & Flood"
+h1: "24/7 Emergency Water Damage Restoration in Lakewood"
+meta_description: "24/7 emergency water damage restoration in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
 primary_keyword: "water damage restoration lakewood"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Lakewood? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Water you can see is only part of the problem. Within the first hour after a pipe bursts, a supply line fails, or a washing machine hose lets go, water is already moving, wicking into drywall, traveling under flooring, pooling inside wall cavities where no one will think to look. By 24 to 48 hours, wet cellulose materials are primed for mold colonization. Water damage restoration is the work of stopping that clock: extracting standing water, pulling moisture out of structural materials before it causes secondary damage, and verifying, with instruments, not guesswork, that the building is actually dry.
 
 ## What Water Damage Restoration actually involves

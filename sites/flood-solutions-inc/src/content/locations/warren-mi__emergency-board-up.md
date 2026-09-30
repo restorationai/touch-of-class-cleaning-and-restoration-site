@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board Up in Warren, MI | Flood Solutions inc"
-h1: "Board Up in Warren"
-meta_description: "Board up in Warren, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Board Up in Warren, MI | Flood Solutions inc"
+h1: "Emergency Board Up in Warren"
+meta_description: "Emergency board up in Warren, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "emergency board up warren"
 secondary_keywords: []
 search_intent: "local_specialty"

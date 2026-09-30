@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Oak Park, IL | Dry Bros Water & Fire Restoration"
-h1: "Board-Up and Tarping in Oak Park"
-meta_description: "Board-up and tarping in Oak Park, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Board-Up and Tarping in Oak Park, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Board-Up and Tarping in Oak Park"
+meta_description: "24/7 emergency board-up and tarping in Oak Park, IL. Insurance billing accepted. Call us now."
 primary_keyword: "emergency board-up and tarping oak park"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Oak Park? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Oak Park's dense grid of century-old homes, many of them brick two-flats and Prairie-style frame houses built before modern building codes, creates a particular vulnerability after fire, storm, or break-in damage. A single broken window left open overnight in a Chicago winter can let enough moisture and cold air into an unheated attic to cause secondary damage that dwarfs the original loss. When something goes wrong with your property in Oak Park, getting a proper board-up or roof tarp in place fast is the difference between a contained repair and a cascading problem.
 
 ## Why Oak Park Properties See Board-Up and Tarping Issues

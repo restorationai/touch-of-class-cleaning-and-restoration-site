@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Volga, SD | Crew Restoration & Construction"
-h1: "Fire Damage Restoration in Volga"
-meta_description: "Fire damage restoration in Volga, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Fire Damage Restoration in Volga, SD | Crew Restoration & Construction"
+h1: "Emergency Fire Damage Restoration in Volga"
+meta_description: "Emergency fire damage restoration in Volga, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "fire damage restoration volga"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Biohazard Cleanup in Auburn | Quality Contracting, Inc."
-h1: "Biohazard Cleanup in Auburn"
-meta_description: "Biohazard cleanup in Auburn and surrounding areas. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Biohazard Cleanup in Auburn | Quality Contracting, Inc."
+h1: "Emergency Biohazard Cleanup in Auburn"
+meta_description: "Emergency biohazard cleanup in Auburn and surrounding areas. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "biohazard cleanup auburn"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -17,6 +17,9 @@ service_slug: "biohazard-cleanup"
 service_display: "Biohazard Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Auburn? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 When something unexpected and deeply difficult happens in a home or property, the immediate question isn't always who to call, it's whether anyone will handle it with discretion, do it correctly, and leave the space genuinely safe. Biohazard cleanup isn't a job for a mop and bleach. Blood, bodily fluids, sharps, and other infectious materials require regulated handling, EPA-registered disinfectants, and documented waste disposal, and the window to act before secondary contamination spreads is shorter than most people realize.
 
 ## What biohazard cleanup actually involves

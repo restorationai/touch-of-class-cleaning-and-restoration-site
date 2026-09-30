@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Rochester Hills, MI | Flood Solutions inc"
-h1: "Burst Pipe Cleanup and Repair in Rochester Hills"
-meta_description: "Burst pipe cleanup and repair in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197."
+title: "Emergency Burst Pipe Cleanup and Repair in Rochester Hills | Flood Solutions inc"
+h1: "Emergency Burst Pipe Cleanup and Repair in Rochester Hills"
+meta_description: "Emergency burst pipe cleanup and repair in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197."
 primary_keyword: "burst pipe cleanup and repair rochester hills"
 secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water line break"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MI"
 service_display: "burst-pipe-repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Rochester Hills? Call now for emergency service.** Our crew responds fast to stop the water and start the cleanup.
+
 Rochester Hills sits in one of Michigan's freeze-thaw corridors, where January temperatures can swing from single digits to the mid-30s within a week. That cycle puts enormous stress on supply lines, especially in homes built during the suburban expansion of the 1970s and 1980s when copper and galvanized steel were the standard. When a pipe lets go, water moves fast through finished basements and drywall cavities before a homeowner even realizes something is wrong. Flood Solutions Inc has been handling pipe break water damage across Oakland County since 1996, and the call to (586) 580-0197 starts the process.
 
 ## Why Rochester Hills Properties See Burst Pipe Issues

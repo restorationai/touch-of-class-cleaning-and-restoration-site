@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Auburn, WA | National Restoration Construction"
-h1: "Burst Pipe Cleanup and Repair in Auburn"
-meta_description: "24/7 burst pipe cleanup and repair in Auburn, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in Auburn, WA | National Restoration Construction"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Auburn"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Auburn, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
 primary_keyword: "burst pipe cleanup and repair auburn"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Auburn? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A pipe has burst somewhere in your Auburn home or building, and water is moving fast, into walls, under flooring, through ceilings. Every minute it sits, the damage compounds. National Restoration Construction dispatches from Federal Way, putting our crews in Auburn typically within 60–90 minutes of your call. We handle extraction, structural drying, and the repair work that follows, so you're not coordinating three different contractors while your subfloor buckles.
 
 ## Why Auburn Properties Are Vulnerable to Burst Pipes

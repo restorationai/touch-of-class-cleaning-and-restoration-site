@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Edgerton, MN | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Edgerton"
-meta_description: "Water damage restoration in Edgerton, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Edgerton, MN | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Edgerton"
+meta_description: "Emergency water damage restoration in Edgerton, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration edgerton"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Edgerton? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Pipestone County's flat prairie landscape drains slowly after heavy rain, and when a pipe bursts or a basement floods in Edgerton, that standing water has nowhere to go fast. Homes throughout the 56128 ZIP code, many of them built during the mid-twentieth century boom that shaped this tight-knit Dutch heritage community, sit on soils that stay saturated well into spring, meaning water that enters a crawl space or lower level can linger for days before anyone notices the damage creeping up the framing.
 
 ## Why Edgerton Properties See Water Damage Issues

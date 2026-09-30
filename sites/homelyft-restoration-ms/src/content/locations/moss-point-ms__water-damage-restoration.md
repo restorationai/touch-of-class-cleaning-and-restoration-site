@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Moss Point, MS | HomeLyft Restoration MS"
-h1: "Water Damage Restoration in Moss Point"
-meta_description: "Water damage restoration in Moss Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Water Damage Restoration in Moss Point, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Water Damage Restoration in Moss Point"
+meta_description: "24/7 emergency water damage restoration in Moss Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "water damage restoration moss point"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Moss Point? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Moss Point sits at the confluence of the Escatawba and Pascagoula Rivers, which means the water table here is rarely far below your foundation, and when a supply line bursts, a roof leak soaks through, or a storm pushes water under your doors, the moisture doesn't just sit on the surface. It migrates fast through slab seams, subflooring, and wall cavities in ways that catch homeowners off guard. HomeLyft Restoration MS responds to water damage calls across Moss Point, bringing IICRC-certified water damage and structural drying technicians to assess, extract, and dry your property before secondary damage compounds the loss.
 
 ## Why Moss Point Properties Face Elevated Water Damage Risk

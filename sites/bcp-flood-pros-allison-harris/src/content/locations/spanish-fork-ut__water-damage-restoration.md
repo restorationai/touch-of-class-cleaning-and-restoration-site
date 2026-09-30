@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Spanish Fork, UT | FIX Restoration"
-h1: "Water Damage Restoration in Spanish Fork"
-meta_description: "Water damage restoration in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Water Damage Restoration in Spanish Fork, UT | FIX Restoration"
+h1: "Emergency Water Damage Restoration in Spanish Fork"
+meta_description: "Emergency water damage restoration in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "water damage restoration spanish fork"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Spanish Fork? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Spanish Fork sits at the base of the Wasatch Range where snowmelt, irrigation canals, and the Spanish Fork River create seasonal water pressure that most Utah Valley communities don't face in quite the same combination. When a pipe bursts, an appliance line fails, or a basement window well fills during a spring thaw, the moisture doesn't just sit, it moves fast through slab foundations and into framing that was often built during the city's rapid growth periods of the 1990s and 2000s. FIX Restoration responds to water damage calls in Spanish Fork from its American Fork location, bringing industrial extraction and structural drying equipment to properties across the city.
 
 ## Why Spanish Fork Properties See Water Damage Issues

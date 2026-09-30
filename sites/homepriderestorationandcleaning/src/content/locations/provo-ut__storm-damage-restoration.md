@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Provo, UT | Home Pride Restoration and Cleaning"
-h1: "Storm Damage Restoration in Provo"
-meta_description: "24/7 storm damage restoration in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Storm Damage Restoration in Provo, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Storm Damage Restoration in Provo"
+meta_description: "24/7 emergency storm damage restoration in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "storm damage restoration provo"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Provo? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 Provo sits in a bowl. The Wasatch Range funnels cold air down into Utah Valley with surprising force, and when late-spring thunderstorms collide with that terrain, the results can be violent, golf-ball hail, microbursts that snap mature cottonwoods, and flash flooding that overwhelms storm drains along Center Street faster than most homeowners expect. If a storm just tore through your property, Home Pride Restoration and Cleaning has crews ready to move from our Saratoga Springs headquarters within the hour.
 
 ## Why Provo Properties Take Storm Hits Differently

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Lyman, MS | HomeLyft Restoration MS"
-h1: "Fire Damage Restoration in Lyman"
-meta_description: "Fire damage restoration in Lyman, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "24/7 Emergency Fire Damage Restoration in Lyman, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Fire Damage Restoration in Lyman"
+meta_description: "24/7 emergency fire damage restoration in Lyman, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "fire damage restoration lyman"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Lyman? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 A house fire in Lyman hits differently than in a larger city, the Gulf Coast humidity that rolls in off the Mississippi Sound doesn't wait for the smoke to clear before it starts working against you. Soot and char absorb moisture fast in this climate, and the combination of fire residue and ambient humidity can accelerate corrosion on metal fixtures, warp cabinetry, and deepen odor penetration into wall cavities within days of the initial event. HomeLyft Restoration MS responds to fire and smoke damage throughout Lyman and the surrounding Harrison County area, bringing IICRC FSRT-certified fire and smoke restoration technicians to properties that need more than a cleanup crew.
 
 ## Why Lyman Properties Are Vulnerable to Severe Fire Damage

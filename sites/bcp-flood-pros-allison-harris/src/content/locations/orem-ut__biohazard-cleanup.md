@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Orem, UT | FIX Restoration"
-h1: "Biohazard Cleanup in Orem"
-meta_description: "Biohazard cleanup in Orem, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Biohazard Cleanup in Orem, UT | FIX Restoration"
+h1: "Emergency Biohazard Cleanup in Orem"
+meta_description: "Emergency biohazard cleanup in Orem, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "biohazard cleanup orem"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Orem? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Orem sits at the base of the Wasatch Front, where tight-knit neighborhoods and a large student population near Utah Valley University create a housing mix that ranges from mid-century ranch homes to dense apartment complexes, and each setting brings its own complications when a biohazard situation arises. Whether the call comes from a single-family home, a rental unit, or a shared living space, the priority is the same: contain the situation quietly, document it thoroughly, and restore the space so it is safe to occupy again. FIX Restoration has been handling these calls across Utah County since 2012, and we understand that the hardest part is usually making the first phone call.
 
 ## What Biohazard Situations Look Like in Orem Properties

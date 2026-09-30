@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Des Plaines, IL | Dry Bros Water & Fire Restoration"
-h1: "Board-Up and Tarping in Des Plaines"
-meta_description: "Board-up and tarping in Des Plaines, IL. Insurance billing accepted. Call us now."
+title: "24/7 Emergency Board-Up and Tarping in Des Plaines, IL | Dry Bros Water & Fire Restoration"
+h1: "24/7 Emergency Board-Up and Tarping in Des Plaines"
+meta_description: "24/7 emergency board-up and tarping in Des Plaines, IL. Insurance billing accepted. Call us now."
 primary_keyword: "emergency board-up and tarping des plaines"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "IL"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Des Plaines? We answer 24/7.** Call now and our crew heads out to secure broken windows, doors and roofs.
+
 Des Plaines sits in the path of some of the Chicago metro's most punishing weather, hard-driving lake-effect systems in winter, severe thunderstorm lines in spring and summer that can strip shingles and push tree limbs through rooflines before a crew can mobilize. When a storm tears open your roof or a fire blows out your windows in the middle of the night, the hours between the damage and a proper board-up or tarp installation are the hours that turn a manageable loss into a gut-renovation. Dry Bros Water & Fire Restoration responds to those calls across Des Plaines and the surrounding Cook County communities, securing structures fast so the weather doesn't compound what the fire or wind already started.
 
 ## Why Des Plaines Properties Face Elevated Board-Up and Tarping Needs

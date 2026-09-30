@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Edna, CA | Coastal Restoration Services Inc"
-h1: "Water Damage Restoration in Edna"
-meta_description: "Water damage restoration in Edna, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Water Damage Restoration in Edna, CA | Coastal Restoration Services Inc"
+h1: "Emergency Water Damage Restoration in Edna"
+meta_description: "Emergency water damage restoration in Edna, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "water damage restoration edna"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Edna? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Edna sits in the Santa Barbara County interior where warm, dry stretches can lull property owners into a false sense of security, right up until a corroded supply line lets go behind a wall or a winter storm pushes water under a slab. When that happens, the clock starts immediately: within 24 to 48 hours, saturated framing and drywall become a hospitable environment for mold. Coastal Restoration Services Inc responds to water damage calls throughout Edna and the surrounding communities, bringing industrial extraction and structural drying equipment to bear before secondary damage compounds the original loss.
 
 ## Why Edna Properties See Water Damage Issues

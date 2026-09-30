@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Ceiling Water Damage Repair in Gardendale, TX | ACS Enterprise "
-h1: "Ceiling Water Damage Repair in Gardendale"
-meta_description: "Ceiling water damage repair in Gardendale, TX. Insurance billing accepted. Call (432) 847-4704."
+title: "Emergency Ceiling Water Damage Repair in Gardendale, TX | ACS Enterprise "
+h1: "Emergency Ceiling Water Damage Repair in Gardendale"
+meta_description: "Emergency ceiling water damage repair in Gardendale, TX. Insurance billing accepted. Call (432) 847-4704."
 primary_keyword: "ceiling water damage repair gardendale"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

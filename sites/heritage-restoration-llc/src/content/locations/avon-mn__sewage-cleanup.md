@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Avon, MN | Heritage Restoration LLC"
-h1: "Sewage Cleanup and Sanitization in Avon"
-meta_description: "Sewage cleanup and sanitization in Avon, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Sewage Cleanup and Sanitization in Avon, MN | Heritage Restoration LLC"
+h1: "Emergency Sewage Cleanup and Sanitization in Avon"
+meta_description: "Emergency sewage cleanup and sanitization in Avon, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "sewage cleanup and sanitization avon"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Lindon, UT | FIX Restoration"
-h1: "Fire Damage Restoration in Lindon"
-meta_description: "Fire damage restoration in Lindon, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Fire Damage Restoration in Lindon, UT | FIX Restoration"
+h1: "Emergency Fire Damage Restoration in Lindon"
+meta_description: "Emergency fire damage restoration in Lindon, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "fire damage restoration lindon"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Lindon? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Lindon sits in a narrow corridor between the Wasatch foothills and the heavy traffic of I-15, and the dry, high-desert air that makes Utah County summers so appealing also means house fires here spread faster and leave behind a denser layer of smoke residue than in more humid climates. When a fire moves through a Lindon home, the low relative humidity pulls moisture out of porous materials quickly, locking odor-carrying soot particles deeper into drywall, insulation, and wood framing before crews even arrive. FIX Restoration, based in American Fork, responds to fire losses throughout Lindon and the surrounding area, handling everything from initial board-up through final reconstruction.
 
 ## Why Lindon Homes Are Particularly Vulnerable After a Fire

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Plum, PA | Katofsky Construction LLC"
-h1: "Sewage Cleanup and Sanitization in Plum"
-meta_description: "24/7 sewage cleanup and sanitization in Plum, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Plum, PA | Katofsky Construction LLC"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Plum"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Plum, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284."
 primary_keyword: "sewage cleanup and sanitization plum"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Plum? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Sewage backing up into a Plum home hits differently than a clean water leak. The smell reaches you before you see the damage, and what you're looking at carries bacteria, viruses, and pathogens that make the affected area genuinely unsafe until it's properly extracted and sanitized. Plum's mix of older ranch homes and split-levels on the eastern edge of Allegheny County, many of them built when municipal sewer connections were being extended through the borough in the mid-20th century, means aging lateral lines and older cast-iron drain stacks are a real and recurring source of backups. Katofsky Construction LLC responds to sewage emergencies in Plum around the clock.
 
 ## Why Plum Properties See Sewage Backup Issues

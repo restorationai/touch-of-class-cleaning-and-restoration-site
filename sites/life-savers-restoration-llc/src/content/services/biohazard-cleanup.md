@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Biohazard Cleanup in Henderson | Life Savers Restoration LLC"
-h1: "Biohazard Cleanup in Henderson"
-meta_description: "24/7 biohazard cleanup in Henderson and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
+title: "24/7 Emergency Biohazard Cleanup in Henderson | Life Savers Restoration LLC"
+h1: "24/7 Emergency Biohazard Cleanup in Henderson"
+meta_description: "24/7 emergency biohazard cleanup in Henderson and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
 primary_keyword: "biohazard cleanup henderson"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -17,6 +17,9 @@ service_slug: "biohazard-cleanup"
 service_display: "Biohazard Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Henderson? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something traumatic happens inside a home or property, the physical aftermath doesn't wait. Bloodborne pathogens, bodily fluids, and other infectious materials begin breaking down surfaces within hours, migrating into porous materials like subflooring, drywall, and carpet padding in ways that aren't visible from the surface. Standard cleaning products don't neutralize these contaminants. The work requires specialized training, regulated disposal protocols, and equipment that most households and general cleaning services simply don't have.
 
 ## What biohazard cleanup actually involves

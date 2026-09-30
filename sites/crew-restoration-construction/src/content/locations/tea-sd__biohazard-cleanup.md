@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Tea, SD | Crew Restoration & Construction"
-h1: "Biohazard Cleanup in Tea"
-meta_description: "Biohazard cleanup in Tea, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Biohazard Cleanup in Tea, SD | Crew Restoration & Construction"
+h1: "Emergency Biohazard Cleanup in Tea"
+meta_description: "Emergency biohazard cleanup in Tea, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "biohazard cleanup tea"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Tea? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Tea is growing fast, new subdivisions like Sunrise Ridge and Prairie Meadows are adding hundreds of homes to the 57064 ZIP code every year, but growth doesn't insulate a community from the kinds of situations that require professional biohazard cleanup. When something happens inside a home or property that involves blood, bodily fluids, sharps, or other infectious material, the priority is getting the space properly remediated by people who know what they're doing, quickly and quietly. Crew Restoration & Construction handles these calls with discretion, trained protocols, and the equipment to do the job right.
 
 ## Why Biohazard Situations in Tea Require Specialized Response

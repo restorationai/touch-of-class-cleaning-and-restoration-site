@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Frozen Pipe Restoration in Eagle Mountain, UT | Home Pride Restoration and Cleaning"
-h1: "Frozen Pipe Restoration in Eagle Mountain"
-meta_description: "24/7 frozen pipe restoration in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Frozen Pipe Restoration in Eagle Mountain, UT | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Frozen Pipe Restoration in Eagle Mountain"
+meta_description: "24/7 emergency frozen pipe restoration in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "frozen pipe restoration eagle mountain"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Eagle Mountain? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 Eagle Mountain sits at roughly 4,900 feet elevation on the western bench of Utah County, where January lows regularly drop into the single digits and wind off the Oquirrh Mountains can push wind-chill temperatures well below zero. That combination is hard on the copper and PEX supply lines running through exterior walls and uninsulated garage spaces in the city's fast-built subdivisions, and when those pipes freeze and then thaw, the resulting water release can soak framing, insulation, and drywall in minutes. Home Pride Restoration and Cleaning has handled that exact sequence of events across Eagle Mountain since the city's growth surge began, and we know what the damage looks like before the walls are even opened.
 
 ## Why Eagle Mountain Homes See More Frozen Pipe Events Than Neighboring Cities

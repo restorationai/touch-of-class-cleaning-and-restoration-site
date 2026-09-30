@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Eastabuchie, MS | HomeLyft Restoration MS"
-h1: "Sewage Cleanup and Sanitization in Eastabuchie"
-meta_description: "Sewage cleanup and sanitization in Eastabuchie, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+title: "Emergency Sewage Cleanup and Sanitization in Eastabuchie, MS | HomeLyft Restoration MS"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Eastabuchie"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Eastabuchie, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
 primary_keyword: "sewage cleanup and sanitization eastabuchie"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MS"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Eastabuchie? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 Eastabuchie sits in Jones County where the clay-heavy soil and high water table that define much of south-central Mississippi create conditions that push sewage problems from inconvenient to genuinely hazardous fast. When a septic system backs up or a sewer line fails here, especially after a heavy rain event that saturates the ground and overwhelms drain fields, raw effluent doesn't stay put. It wicks into subfloor framing, soaks into crawl space insulation, and begins producing dangerous pathogens within hours. HomeLyft Restoration MS responds to those calls with a licensed crew (license #RO 2728) trained under IICRC standards to remove contaminated material, disinfect structural surfaces, and document everything your insurance adjuster will need.
 
 ## Why Eastabuchie Properties See Sewage Backup Issues

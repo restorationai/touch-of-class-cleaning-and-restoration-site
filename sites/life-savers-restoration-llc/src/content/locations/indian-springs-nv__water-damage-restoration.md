@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Indian Springs, NV | Life Savers Restoration LLC"
-h1: "Water Damage Restoration in Indian Springs"
-meta_description: "24/7 water damage restoration in Indian Springs, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
+title: "Emergency Water Damage Restoration in Indian Springs, NV | Life Savers Restoration LLC"
+h1: "24/7 Emergency Water Damage Restoration in Indian Springs"
+meta_description: "24/7 emergency water damage restoration in Indian Springs, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
 primary_keyword: "water damage restoration indian springs"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

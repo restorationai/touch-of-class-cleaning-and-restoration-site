@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Pipestone, MN | Crew Restoration & Construction"
-h1: "Storm Damage Restoration in Pipestone"
-meta_description: "Storm damage restoration in Pipestone, MN. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Storm Damage Restoration in Pipestone, MN | Crew Restoration & Construction"
+h1: "Emergency Storm Damage Restoration in Pipestone"
+meta_description: "Emergency storm damage restoration in Pipestone, MN. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "storm damage restoration pipestone"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Pipestone? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 When a severe storm rolls across southwestern Minnesota, Pipestone feels it differently than most towns. The open prairie landscape between the Coteau des Prairies and the Minnesota River Valley gives wind almost nothing to slow it down before it reaches your roof, your siding, or the century-old quartzite storefronts along Hiawatha Avenue. Hail that would dent a modern composite shingle can fracture the softer mortar joints on historic masonry. Straight-line winds that snap cottonwoods along the Hiawatha Pageant grounds can send limbs through rooflines before a warning siren finishes its cycle. Crew Restoration & Construction responds to that specific kind of damage, not a generic storm checklist, but work calibrated to what Pipestone's buildings and climate actually demand.
 
 ## Why Pipestone Properties See Elevated Storm Damage Risk

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Niles, OH | DISS Restoration"
-h1: "Fire Damage Restoration in Niles"
-meta_description: "24/7 fire damage restoration in Niles, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Fire Damage Restoration in Niles, OH | DISS Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Niles"
+meta_description: "24/7 emergency fire damage restoration in Niles, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "fire damage restoration niles"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "OH"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Niles? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 Niles sits in the Mahoning Valley where older residential neighborhoods, many built during the steel-boom decades of the early-to-mid twentieth century, carry construction details that change how a house burns and how it recovers. Wood-lath plaster walls, balloon-frame construction, and original knob-and-tube wiring are common in Niles's housing stock, and each of those features affects how smoke travels, how heat distributes through a structure, and what restoration crews need to do before the building is safe again. If you've just come through a fire at your home or rental property in Niles, call DISS Restoration at (724) 981-1441, we're available around the clock and can begin the assessment process immediately.
 
 ## Why Niles Properties See Distinct Fire Damage Patterns

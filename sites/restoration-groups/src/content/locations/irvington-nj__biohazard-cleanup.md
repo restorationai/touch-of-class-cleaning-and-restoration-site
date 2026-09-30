@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Irvington, NJ | The Restoration Group"
-h1: "Biohazard Cleanup in Irvington"
-meta_description: "24/7 biohazard cleanup in Irvington, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Biohazard Cleanup in Irvington, NJ | The Restoration Group"
+h1: "24/7 Emergency Biohazard Cleanup in Irvington"
+meta_description: "24/7 emergency biohazard cleanup in Irvington, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "biohazard cleanup irvington"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Irvington? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to handle the cleanup with discretion and care.
+
 When something traumatic or hazardous happens inside a home or building in Irvington, the physical cleanup is only one part of what needs to happen. The dense rowhouses and two- and three-family homes that line streets throughout Irvington Center and Grove Park were built in an era before modern building materials, which means porous wood subfloors, plaster walls, and unfinished basement framing can absorb biological material in ways that aren't visible to the eye. Getting that contamination fully out, not just surface-cleaned, requires trained technicians, regulated disposal, and a process that protects everyone who enters the space afterward.
 
 ## Why Irvington's Housing Stock Shapes Biohazard Work

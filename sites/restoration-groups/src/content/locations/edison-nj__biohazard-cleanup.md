@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Edison, NJ | The Restoration Group"
-h1: "Biohazard Cleanup in Edison"
-meta_description: "24/7 biohazard cleanup in Edison, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Biohazard Cleanup in Edison, NJ | The Restoration Group"
+h1: "24/7 Emergency Biohazard Cleanup in Edison"
+meta_description: "24/7 emergency biohazard cleanup in Edison, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "biohazard cleanup edison"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Edison? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to handle the cleanup with discretion and care.
+
 When something traumatic happens inside a home or rental unit in Edison, whether in a Clara Barton split-level, a North Edison garden apartment, or a commercial suite along the Route 1 corridor, the last thing a family or property manager should have to navigate alone is what comes next. Biohazard cleanup is not a job for general contractors or building maintenance staff. It requires controlled containment, regulated waste disposal, and the kind of discretion that lets affected residents and property owners focus on what actually matters.
 
 ## Why Edison Properties Present Unique Biohazard Considerations

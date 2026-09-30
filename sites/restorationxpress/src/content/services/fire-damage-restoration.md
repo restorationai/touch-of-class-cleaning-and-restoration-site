@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Fire Damage Restoration in Davie | RestorationXpress "
-h1: "Fire Damage Restoration in Davie"
-meta_description: "Fire damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 932-5420."
+title: "Emergency Fire Damage Restoration in Davie | RestorationXpress "
+h1: "Emergency Fire Damage Restoration in Davie"
+meta_description: "Emergency fire damage restoration in Davie and surrounding areas. Insurance billing accepted. Call (954) 932-5420."
 primary_keyword: "fire damage restoration davie"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "fire-damage-restoration"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Davie? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 ## What fire leaves behind that you can't see
 
 The flames are out, but the damage isn't done. In the hours after a house fire, soot particles, some finer than a human hair, migrate through HVAC systems, settle into wall cavities, and chemically bond to cool surfaces in rooms that never burned. Smoke odor embeds in drywall, insulation, and soft contents within 24 to 48 hours. What looks like surface discoloration on a ceiling is often a signal of deeper contamination that, if cleaned incorrectly, gets smeared rather than removed. Fire damage restoration is a different discipline than general cleaning, and the difference shows up months later when the smell comes back.

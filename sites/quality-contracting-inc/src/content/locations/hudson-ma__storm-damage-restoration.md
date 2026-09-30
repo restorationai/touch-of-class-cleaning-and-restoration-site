@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Hudson, MA | Quality Contracting, Inc."
-h1: "Storm Damage Restoration in Hudson"
-meta_description: "Storm damage restoration in Hudson, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Storm Damage Restoration in Hudson, MA | Quality Contracting, Inc."
+h1: "Emergency Storm Damage Restoration in Hudson"
+meta_description: "Emergency storm damage restoration in Hudson, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "storm damage restoration hudson"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

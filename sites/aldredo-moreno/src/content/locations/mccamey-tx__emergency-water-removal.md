@@ -20,6 +20,9 @@ state: "TX"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in McCamey? Call now for emergency service.** Our crew responds fast to extract the water and start drying.
+
 McCamey sits in the heart of Upton County, where the Permian Basin's caliche-heavy soil sheds water fast on the surface but gives it nowhere to go underneath. When a supply line fails or a summer storm pushes water into a slab-on-grade home, that standing water has no natural drainage path away from the foundation. The result is saturated flooring, soaked wall cavities, and a clock that starts ticking the moment the water touches your subfloor. ACS Enterprise responds to those calls from our Midland base, and we know what this part of West Texas does to a water-damaged structure.
 
 ## Why McCamey Properties See Emergency Water Removal & Cleanup Issues

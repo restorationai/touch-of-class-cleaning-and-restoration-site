@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Shrewsbury, MA | Quality Contracting, Inc."
-h1: "Board-Up and Tarping in Shrewsbury"
-meta_description: "Board-up and tarping in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Board-Up and Tarping in Shrewsbury, MA | Quality Contracting, Inc."
+h1: "Emergency Board-Up and Tarping in Shrewsbury"
+meta_description: "Emergency board-up and tarping in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "emergency board-up and tarping shrewsbury"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Shrewsbury? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 When a storm peels back a section of roof on a lakefront cape near Lake Quinsigamond, or a kitchen fire blows out windows on a postwar ranch along the Route 9 corridor, every hour the opening stays exposed multiplies the damage inside. Wind-driven rain, opportunistic theft, and Worcester County's unpredictable shoulder-season weather don't wait for business hours. Quality Contracting, Inc. boards up broken openings and installs heavy-duty roof tarps to stop the bleeding, so the structure you're protecting doesn't become a total loss before restoration even begins.
 
 ## Why Shrewsbury Properties Face Particular Board-Up and Tarping Challenges

@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Flood Damage Restoration in Sioux Falls | Crew Restoration & Construction"
-h1: "Flood Damage Restoration in Sioux Falls"
-meta_description: "Flood damage restoration in Sioux Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Flood Damage Restoration in Sioux Falls | Crew Restoration & Construction"
+h1: "Emergency Flood Damage Restoration in Sioux Falls"
+meta_description: "Emergency flood damage restoration in Sioux Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "flood damage restoration sioux falls"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "flood-damage-restoration"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Sioux Falls? Call now for emergency service.** Our crew responds fast to pump out the water and stop the damage from spreading.
+
 Flood water rarely arrives from a single, obvious source. In Sioux Falls it's often the Big Sioux River pushing past its banks after a fast spring thaw, or heavy rain overwhelming a window well and a sump pump that can't keep pace. Within hours, that water carries silt, lawn chemicals, and sometimes sewage into finished basements and crawlspaces, which changes everything about how it has to be cleaned up compared to a clean supply-line leak.
 
 ## What flood damage restoration actually involves

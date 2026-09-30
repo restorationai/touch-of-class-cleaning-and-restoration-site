@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Brookings, SD | Crew Restoration & Construction"
-h1: "Water Damage Restoration in Brookings"
-meta_description: "Water damage restoration in Brookings, SD. Insurance billing accepted. Call (605) 965-2727."
+title: "Emergency Water Damage Restoration in Brookings, SD | Crew Restoration & Construction"
+h1: "Emergency Water Damage Restoration in Brookings"
+meta_description: "Emergency water damage restoration in Brookings, SD. Insurance billing accepted. Call (605) 965-2727."
 primary_keyword: "water damage restoration brookings"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "SD"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Brookings? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 When a pipe bursts in January in Brookings, the frozen ground outside gives the water nowhere to go, it backs up into basements, soaks through subfloors, and starts working on structural framing before most homeowners realize the extent of the problem. Brookings sits in a climate band where hard freezes arrive early and linger, and the mix of older rental housing near South Dakota State University and newer subdivisions like Pheasant Ridge means the type of damage, and the urgency of the response, varies significantly from one address to the next. Crew Restoration & Construction handles water damage restoration across the 57006 ZIP code, from initial extraction through structural drying and final repairs.
 
 ## Why Brookings Properties See Water Damage Issues

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Gibsonia, PA | FireDEX Butler"
-h1: "Sewage Cleanup and Sanitization in Gibsonia"
-meta_description: "24/7 sewage cleanup and sanitization in Gibsonia, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "Emergency Sewage Cleanup and Sanitization in Gibsonia, PA | FireDEX Butler"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Gibsonia"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Gibsonia, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "sewage cleanup and sanitization gibsonia"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

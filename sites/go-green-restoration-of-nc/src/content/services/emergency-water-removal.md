@@ -1,7 +1,7 @@
 ---
 archetype: "service-landing"
-title: "Emergency Water Removal & Cleanup in Middlesex | Go Green Restoration of NC"
-h1: "Emergency Water Removal & Cleanup in Middlesex"
+title: "24/7 Emergency Water Removal & Cleanup in Middlesex | Go Green Restoration of NC"
+h1: "24/7 Emergency Water Removal & Cleanup in Middlesex"
 meta_description: "24/7 emergency water removal & cleanup in Middlesex and surrounding areas. Insurance billing accepted. Call (919) 906-5473."
 primary_keyword: "emergency water removal & cleanup middlesex"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]

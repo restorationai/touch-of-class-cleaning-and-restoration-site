@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Sewage Cleanup and Sanitization in Corona | Dry County Restoration"
-h1: "Sewage Cleanup and Sanitization in Corona"
-meta_description: "24/7 sewage cleanup and sanitization in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "24/7 Emergency Sewage Cleanup and Sanitization in Corona | Dry County Restoration"
+h1: "24/7 Emergency Sewage Cleanup and Sanitization in Corona"
+meta_description: "24/7 emergency sewage cleanup and sanitization in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "sewage cleanup and sanitization corona"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Corona? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 The smell hits before you see the water, that sharp, unmistakable odor of raw sewage backing up through a floor drain, a toilet, or a cleanout. Whether it's a municipal sewer line surcharge during a heavy rain event, a blocked lateral, or a failing septic system, sewage in a living space is a Category 3 ("black water") loss from the moment it appears. That classification matters because the contamination isn't just unpleasant, it includes bacteria, viruses, and parasites that can colonize porous building materials within hours. Every minute the water sits, the scope of what has to be removed, not just dried, grows.
 
 ## What sewage cleanup and sanitization actually involves

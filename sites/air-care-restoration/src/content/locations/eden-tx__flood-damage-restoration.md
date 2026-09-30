@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Eden, TX | Air Care Restoration"
-h1: "Flood Damage Restoration in Eden"
-meta_description: "24/7 flood damage restoration in Eden, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+title: "24/7 Emergency Flood Damage Restoration in Eden, TX | Air Care Restoration"
+h1: "24/7 Emergency Flood Damage Restoration in Eden"
+meta_description: "24/7 emergency flood damage restoration in Eden, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
 primary_keyword: "flood damage restoration eden"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

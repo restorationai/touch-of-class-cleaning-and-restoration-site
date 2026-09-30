@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Southborough, MA | Quality Contracting, Inc."
-h1: "Water Damage Restoration in Southborough"
-meta_description: "Water damage restoration in Southborough, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Water Damage Restoration in Southborough, MA | Quality Contracting, Inc."
+h1: "Emergency Water Damage Restoration in Southborough"
+meta_description: "Emergency water damage restoration in Southborough, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "water damage restoration southborough"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Southborough? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Southborough sits at the intersection of two weather patterns that make water damage a recurring reality for local homeowners: the town's position in central Worcester County means it catches both coastal storm systems pushing inland from the east and cold-air drainage events that freeze and burst supply lines during hard January nights. When water gets into a Southborough home, whether from a failed sump pump, a split pipe in an unheated basement, or a roof breach during a nor'easter, the clock starts immediately. Quality Contracting, Inc. handles water removal, structural drying, and full water mitigation for properties throughout Southborough, reachable by phone at (508) 756-8800.
 
 ## Why Southborough Properties See Water Damage Issues

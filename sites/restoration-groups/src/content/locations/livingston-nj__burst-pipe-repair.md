@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Burst Pipe Cleanup and Repair in Livingston, NJ | The Restoration Group"
-h1: "Burst Pipe Cleanup and Repair in Livingston"
-meta_description: "24/7 burst pipe cleanup and repair in Livingston, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "Emergency Burst Pipe Cleanup and Repair in Livingston, NJ | The Restoration Group"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in Livingston"
+meta_description: "24/7 emergency burst pipe cleanup and repair in Livingston, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "burst pipe cleanup and repair livingston"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Livingston? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to stop the water and start the cleanup.
+
 When a pipe lets go in January in Livingston, the damage clock starts fast. The town's stock of 1950s–70s split-levels and ranches, many of them in Northland and Collins, were built with copper supply lines that are now 50-plus years old, and those lines don't give much warning before they fail. A single burst can push dozens of gallons into a finished basement in under an hour, and with the teardown-era McMansions that have replaced older homes on large lots throughout town, those finished lower levels are often packed with flooring, cabinetry, and mechanicals that multiply the cost of every minute of standing water. The Restoration Group responds 24/7 from Kenilworth to stop the loss, extract the water, and get the repair process started the same day you call.
 
 ## Why Livingston Properties See Burst Pipe Problems

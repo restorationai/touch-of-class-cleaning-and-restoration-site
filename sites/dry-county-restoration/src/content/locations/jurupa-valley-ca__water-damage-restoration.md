@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Jurupa Valley, CA | Dry County Restoration"
-h1: "Water Damage Restoration in Jurupa Valley"
-meta_description: "24/7 water damage restoration in Jurupa Valley, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+title: "24/7 Emergency Water Damage Restoration in Jurupa Valley, CA | Dry County Restoration"
+h1: "24/7 Emergency Water Damage Restoration in Jurupa Valley"
+meta_description: "24/7 emergency water damage restoration in Jurupa Valley, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
 primary_keyword: "water damage restoration jurupa valley"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

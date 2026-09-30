@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Weston, MA | Quality Contracting, Inc."
-h1: "Fire Damage Restoration in Weston"
-meta_description: "Fire damage restoration in Weston, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Fire Damage Restoration in Weston, MA | Quality Contracting, Inc."
+h1: "Emergency Fire Damage Restoration in Weston"
+meta_description: "Emergency fire damage restoration in Weston, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "fire damage restoration weston"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Weston? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Weston's wooded lots and densely spaced colonial and cape-style homes mean that a kitchen fire or chimney fire can move fast, and the smoke it leaves behind moves even faster, seeping into plaster walls, crawl spaces, and the wide-plank hardwood floors that are common in this town's older housing stock. Quality Contracting, Inc. handles fire damage restoration throughout Weston, working methodically through the visible char and the less obvious residue that lingers long after the flames are out.
 
 ## Why Weston Properties Present Unique Fire Damage Challenges

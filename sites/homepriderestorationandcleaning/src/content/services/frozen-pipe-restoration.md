@@ -1,9 +1,9 @@
 ---
 hero: '/images/services/frozen-pipe-restoration.webp'
 archetype: "service-landing"
-title: "Frozen Pipe Restoration in Saratoga Springs | Home Pride Restoration and Cleaning"
-h1: "Frozen Pipe Restoration in Saratoga Springs"
-meta_description: "24/7 frozen pipe restoration in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Frozen Pipe Restoration in Saratoga Springs | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Frozen Pipe Restoration in Saratoga Springs"
+meta_description: "24/7 emergency frozen pipe restoration in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "frozen pipe restoration saratoga springs"
 secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed pipe water damage", "frozen pipe leak repair", "cold weather pipe damage"]
 search_intent: "local_emergency"
@@ -18,6 +18,9 @@ service_slug: "frozen-pipe-restoration"
 service_display: "Frozen Pipe Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Saratoga Springs? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 ## When a frozen pipe thaws, the real damage begins
 
 Most homeowners don't notice a frozen pipe until the temperature climbs back above freezing, and then water starts appearing somewhere it shouldn't. A pipe can freeze solid overnight, hold pressure silently for hours, and release gallons in minutes once it thaws. By the time you see a wet ceiling, a bubbling floor, or water running down an interior wall, the pipe has already done its work. Frozen pipe restoration isn't just about stopping the leak; it's about finding every place that water traveled before you did.

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Board-Up and Tarping in Avila Beach, CA | Coastal Restoration Services Inc"
-h1: "Board-Up and Tarping in Avila Beach"
-meta_description: "Board-up and tarping in Avila Beach, CA. Insurance billing accepted. Call (805) 345-7440."
+title: "Emergency Board-Up and Tarping in Avila Beach, CA | Coastal Restoration Services Inc"
+h1: "Emergency Board-Up and Tarping in Avila Beach"
+meta_description: "Emergency board-up and tarping in Avila Beach, CA. Insurance billing accepted. Call (805) 345-7440."
 primary_keyword: "emergency board-up and tarping avila beach"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in Avila Beach? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 Avila Beach sits where the Pacific pushes hard against the San Luis Obispo County coastline, salt air, marine fog, and seasonal storm surges are facts of life here, not occasional surprises. When a window shatters in a winter storm, a fire scorches a roofline, or a tree limb punches through a roof, every hour of exposure to that coastal air accelerates damage: salt-laden moisture corrodes fasteners, swells wood framing, and invites mold into gaps that would take days to dry in an inland climate. Coastal Restoration Services Inc responds to those situations in Avila Beach with board-up and tarping work designed specifically for properties that face the ocean's particular brand of punishment.
 
 ## Why Avila Beach Properties Are Especially Vulnerable After Structural Damage

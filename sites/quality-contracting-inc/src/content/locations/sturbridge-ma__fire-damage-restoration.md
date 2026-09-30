@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Sturbridge, MA | Quality Contracting, Inc."
-h1: "Fire Damage Restoration in Sturbridge"
-meta_description: "Fire damage restoration in Sturbridge, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Fire Damage Restoration in Sturbridge, MA | Quality Contracting, Inc."
+h1: "Emergency Fire Damage Restoration in Sturbridge"
+meta_description: "Emergency fire damage restoration in Sturbridge, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "fire damage restoration sturbridge"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Sturbridge? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 Sturbridge sits at the intersection of two Massachusetts realities that matter after a house fire: a housing stock that leans heavily on wood-frame construction from the mid-twentieth century and earlier, and a rural-to-suburban character that means the nearest mutual-aid fire resources can take longer to arrive than in a dense city. By the time flames are out, smoke has already moved through wall cavities, settled into insulation, and coated surfaces in rooms the fire never touched. Quality Contracting, Inc. handles fire damage restoration across Sturbridge, working methodically through the layers of damage that a fast-moving fire leaves behind.
 
 ## Why Sturbridge Properties Face Particular Fire Damage Challenges

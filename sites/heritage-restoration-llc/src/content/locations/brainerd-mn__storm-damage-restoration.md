@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Storm Damage Restoration in Brainerd, MN | Heritage Restoration LLC"
-h1: "Storm Damage Restoration in Brainerd"
-meta_description: "Storm damage restoration in Brainerd, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Storm Damage Restoration in Brainerd, MN | Heritage Restoration LLC"
+h1: "Emergency Storm Damage Restoration in Brainerd"
+meta_description: "Emergency storm damage restoration in Brainerd, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "storm damage restoration brainerd"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Brainerd? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Brainerd sits squarely in the heart of Minnesota lake country, where summer thunderstorms roll in fast off Gull Lake and the surrounding chain, and winter ice storms can drop enough weight on a roofline to buckle rafters before morning. When a storm tears through the area, whether it's a straight-line wind event that peels back shingles, a hail cell that punches through siding, or a mature pine that comes down across a garage, the damage compounds quickly in this climate. Heritage Restoration LLC responds to storm losses across Brainerd and the surrounding Crow Wing County area, working to stop the exposure before secondary damage sets in.
 
 ## Why Brainerd Properties See Serious Storm Damage

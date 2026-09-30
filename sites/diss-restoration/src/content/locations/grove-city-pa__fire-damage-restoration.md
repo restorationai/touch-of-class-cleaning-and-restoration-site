@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Grove City, PA | DISS Restoration"
-h1: "Fire Damage Restoration in Grove City"
-meta_description: "24/7 fire damage restoration in Grove City, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+title: "24/7 Emergency Fire Damage Restoration in Grove City, PA | DISS Restoration"
+h1: "24/7 Emergency Fire Damage Restoration in Grove City"
+meta_description: "24/7 emergency fire damage restoration in Grove City, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
 primary_keyword: "fire damage restoration grove city"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

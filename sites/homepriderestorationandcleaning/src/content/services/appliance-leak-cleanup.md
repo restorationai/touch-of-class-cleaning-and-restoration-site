@@ -1,9 +1,9 @@
 ---
 hero: '/images/services/appliance-leak-cleanup.webp'
 archetype: "service-landing"
-title: "Appliance Leak Cleanup in Saratoga Springs | Home Pride Restoration and Cleaning"
-h1: "Appliance Leak Cleanup in Saratoga Springs"
-meta_description: "24/7 appliance leak cleanup in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+title: "24/7 Emergency Appliance Leak Cleanup in Saratoga Springs | Home Pride Restoration and Cleaning"
+h1: "24/7 Emergency Appliance Leak Cleanup in Saratoga Springs"
+meta_description: "24/7 emergency appliance leak cleanup in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
 primary_keyword: "appliance leak cleanup saratoga springs"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"
@@ -18,6 +18,9 @@ service_slug: "appliance-leak-cleanup"
 service_display: "Appliance Leak Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in Saratoga Springs? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 ## The leak you almost missed
 
 Most appliance leaks don't announce themselves with a flood. They start as a slow drip from a refrigerator ice maker line pooling under the toe kick, a dishwasher door seal that's been weeping onto the subfloor for weeks, or a washing machine supply hose that finally gave out while you were at work. By the time you find the water, the damage is already layered, soaked cabinets, swollen subfloor, and in some cases, the early musty signal that mold has started colonizing the cavity beneath your flooring. Appliance leak cleanup is its own category of water damage work, and it requires a different approach than a burst pipe or storm flood.

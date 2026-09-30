@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Dunedin, FL | DRYCOR RESTORE"
-h1: "Water Damage Restoration in Dunedin"
-meta_description: "24/7 water damage restoration in Dunedin, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+title: "24/7 Emergency Water Damage Restoration in Dunedin, FL | DRYCOR RESTORE"
+h1: "24/7 Emergency Water Damage Restoration in Dunedin"
+meta_description: "24/7 emergency water damage restoration in Dunedin, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
 primary_keyword: "water damage restoration dunedin"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "FL"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Dunedin? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Dunedin sits on a narrow peninsula between St. Joseph Sound and the Pinellas County mainland, and that geography shapes everything about how water damage unfolds here. The combination of a high water table, sandy coastal soils that drain poorly under slabs, and a subtropical climate that delivers intense afternoon thunderstorms from June through October means a roof leak or a burst supply line rarely stays a surface problem for long. When water gets into a Dunedin home, it moves fast, and the clock on secondary damage starts ticking almost immediately.
 
 ## Why Dunedin Properties See Water Damage Issues

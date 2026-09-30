@@ -1,9 +1,9 @@
 ---
 hero: "/images/services/burst-pipe-repair.webp"
 archetype: "service-landing"
-title: "Burst Pipe Cleanup and Repair in San Diego | Flood Fixers"
-h1: "Burst Pipe Cleanup and Repair in San Diego"
-meta_description: "24/7 burst pipe cleanup and repair in San Diego and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
+title: "24/7 Emergency Burst Pipe Cleanup and Repair in San Diego | Flood Fixers"
+h1: "24/7 Emergency Burst Pipe Cleanup and Repair in San Diego"
+meta_description: "24/7 emergency burst pipe cleanup and repair in San Diego and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "burst pipe cleanup and repair san diego"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"
@@ -18,6 +18,9 @@ service_slug: "burst-pipe-repair"
 service_display: "Burst Pipe Cleanup and Repair"
 rendered: true
 ---
+<!-- emergency-open -->
+**Burst pipe or leak in San Diego? We answer 24/7.** Call now and our crew heads out to stop the water and start the cleanup.
+
 A pipe doesn't announce itself before it bursts. One minute you're asleep, the next you're standing in two inches of water in the hallway, listening to the hiss of a pressurized line still pumping water into your walls. In the first 60 minutes after a water line break, water migrates through drywall, soaks into subfloor assemblies, and begins wicking up wall cavities, often reaching rooms that look completely dry. The cleanup is never just mopping up what you can see.
 
 ## What burst pipe cleanup and repair actually involves

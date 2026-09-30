@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Smoke Damage Restoration in Cranberry Township | FireDEX Butler"
-h1: "Smoke Damage Restoration in Cranberry Township"
-meta_description: "24/7 smoke damage restoration in Cranberry Township and surrounding areas. Insurance billing accepted. Call (724) 452-7400."
+title: "Emergency Smoke Damage Restoration in Cranberry Township | FireDEX Butler"
+h1: "24/7 Emergency Smoke Damage Restoration in Cranberry Township"
+meta_description: "24/7 emergency smoke damage restoration in Cranberry Township and surrounding areas. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "smoke damage restoration cranberry township"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "smoke-damage-restoration"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Cranberry Township? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 ## What smoke damage restoration actually involves
 
 Three days after a kitchen fire is extinguished, a homeowner in Cranberry Township opens a closet two rooms away and finds their winter coats smell like charred wood. That's not a coincidence, smoke travels through HVAC ducts, migrates through wall cavities, and deposits acidic soot on surfaces that never saw a flame. The visible char is the easy part. The invisible residue, the odor locked into porous materials, and the ongoing chemical damage to metals and fabrics are what smoke damage restoration is actually about.

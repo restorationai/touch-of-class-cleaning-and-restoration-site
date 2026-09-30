@@ -1,7 +1,7 @@
 ---
 archetype: "service-area-service"
-title: "Emergency Water Removal & Cleanup in Solana Beach, CA | Flood Fixers"
-h1: "Emergency Water Removal & Cleanup in Solana Beach"
+title: "24/7 Emergency Water Removal & Cleanup in Solana Beach, CA | Flood Fixers"
+h1: "24/7 Emergency Water Removal & Cleanup in Solana Beach"
 meta_description: "24/7 emergency water removal and cleanup in Solana Beach, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124."
 primary_keyword: "emergency water removal solana beach"
 secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]

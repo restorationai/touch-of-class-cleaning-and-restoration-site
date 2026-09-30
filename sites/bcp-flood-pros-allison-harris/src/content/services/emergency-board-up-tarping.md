@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Board-Up and Tarping in American Fork | FIX Restoration"
-h1: "Board-Up and Tarping in American Fork"
-meta_description: "Board-up and tarping in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Board-Up and Tarping in American Fork | FIX Restoration"
+h1: "Emergency Board-Up and Tarping in American Fork"
+meta_description: "Emergency board-up and tarping in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "emergency board-up and tarping american fork"
 secondary_keywords: ["roof tarping", "fire damage board up", "broken window board up"]
 search_intent: "local_emergency"
@@ -17,6 +17,9 @@ service_slug: "emergency-board-up-tarping"
 service_display: "Emergency Board-Up and Tarping"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need an emergency board-up in American Fork? Call now for emergency service.** Our crew responds fast to secure broken windows, doors and roofs.
+
 A broken window, a caved-in roof section, or a fire-damaged wall doesn't just look bad, it's an open invitation for rain, wind, vandalism, and secondary damage that your insurance adjuster will scrutinize closely. The window of time between the initial loss and a proper board-up or tarp installation is often measured in hours, not days. Every hour that gap stays open, the scope of the claim can grow: water intrudes, soot migrates, and salvageable materials cross the line into replacement territory.
 
 ## What Emergency Board-Up and Tarping actually involves

@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Biohazard Cleanup in Draper, UT | FIX Restoration"
-h1: "Biohazard Cleanup in Draper"
-meta_description: "Biohazard cleanup in Draper, UT. Insurance billing accepted. Call (801) 930-9750."
+title: "Emergency Biohazard Cleanup in Draper, UT | FIX Restoration"
+h1: "Emergency Biohazard Cleanup in Draper"
+meta_description: "Emergency biohazard cleanup in Draper, UT. Insurance billing accepted. Call (801) 930-9750."
 primary_keyword: "biohazard cleanup draper"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Draper? Call now for emergency service.** Our crew responds fast to handle the cleanup with discretion and care.
+
 Draper sits at the base of the Wasatch Front, where rapid growth over the past two decades has layered newer master-planned subdivisions over older ranch-style neighborhoods closer to the valley floor. That mix of housing stock, combined with the city's position as one of Utah County's fastest-growing communities, means FIX Restoration handles biohazard cleanup calls across a wide range of property types here, from tight townhome complexes near the Point of the Mountain to sprawling single-family homes further up the bench. Whatever the circumstances brought you to this page, we understand the situation is difficult, and our focus is on handling everything that follows with discretion and care.
 
 ## Why Draper Properties Present Unique Biohazard Considerations

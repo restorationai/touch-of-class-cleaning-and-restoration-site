@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Fire Damage Restoration in Scotch Plains, NJ | The Restoration Group"
-h1: "Fire Damage Restoration in Scotch Plains"
-meta_description: "24/7 fire damage restoration in Scotch Plains, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Fire Damage Restoration in Scotch Plains, NJ | The Restoration Group"
+h1: "24/7 Emergency Fire Damage Restoration in Scotch Plains"
+meta_description: "24/7 emergency fire damage restoration in Scotch Plains, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "fire damage restoration scotch plains"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Scotch Plains? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and start the recovery.
+
 A house fire in Scotch Plains hits differently than it does in newer construction towns. The mid-century split-levels and colonials that line the streets from Willow Grove down toward the Fanwood border were built with real wood framing, plaster-over-lath walls, and open floor cavities that carry smoke deep into a structure before the last ember cools. By the time firefighters clear the scene, soot has already migrated into HVAC ducts, settled into subflooring gaps, and bonded to the painted brick of older fireplaces. That's the starting point, not the finish line, for real fire damage restoration.
 
 ## Why Scotch Plains Homes Present Specific Fire Damage Challenges

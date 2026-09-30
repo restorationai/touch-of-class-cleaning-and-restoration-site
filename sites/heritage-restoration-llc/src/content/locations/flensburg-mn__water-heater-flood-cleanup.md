@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Water Heater Flood Cleanup in Flensburg, MN | Heritage Restoration LLC"
-h1: "Water Heater Flood Cleanup in Flensburg"
-meta_description: "Water heater flood cleanup in Flensburg, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Water Heater Flood Cleanup in Flensburg, MN | Heritage Restoration LLC"
+h1: "Emergency Water Heater Flood Cleanup in Flensburg"
+meta_description: "Emergency water heater flood cleanup in Flensburg, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "water heater flood cleanup flensburg"
 secondary_keywords: ["water heater leaking", "water heater burst", "flooded water heater", "water heater leak damage"]
 search_intent: "local_emergency"

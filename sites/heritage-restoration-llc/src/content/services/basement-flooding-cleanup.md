@@ -1,8 +1,8 @@
 ---
 archetype: "service-landing"
-title: "Basement Flooding Cleanup in Little Falls | Heritage Restoration LLC"
-h1: "Basement Flooding Cleanup in Little Falls"
-meta_description: "Basement flooding cleanup in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+title: "Emergency Basement Flooding Cleanup in Little Falls | Heritage Restoration LLC"
+h1: "Emergency Basement Flooding Cleanup in Little Falls"
+meta_description: "Emergency basement flooding cleanup in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
 primary_keyword: "basement flooding cleanup little falls"
 secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
 search_intent: "local_emergency"

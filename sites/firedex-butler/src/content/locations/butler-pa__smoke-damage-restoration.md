@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Smoke Damage Restoration in Butler, PA | FireDEX Butler"
-h1: "Smoke Damage Restoration in Butler"
-meta_description: "24/7 smoke damage restoration in Butler, PA. Insurance billing accepted. Call (724) 452-7400."
+title: "24/7 Emergency Smoke Damage Restoration in Butler, PA | FireDEX Butler"
+h1: "24/7 Emergency Smoke Damage Restoration in Butler"
+meta_description: "24/7 emergency smoke damage restoration in Butler, PA. Insurance billing accepted. Call (724) 452-7400."
 primary_keyword: "smoke damage restoration butler"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "PA"
 service_display: "Smoke Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Smoke damage emergency in Butler? We answer 24/7.** Call now and our crew heads out to stop smoke and soot damage from spreading.
+
 The older frame homes and brick foursquares that line Institute Hill and Lyndora carry a specific fire risk that newer construction doesn't: original cast-iron flue stacks, knob-and-tube wiring, and decades of accumulated wood trim that ignite fast and smolder long after the flames are out. When a house fire happens in Butler, the smoke doesn't just drift through rooms, it pressurizes into wall cavities, saturates plaster lath, and settles into the kind of dense, oily residue that reactivates every time humidity rises off Connoquenessing Creek. FireDEX Butler has been working these streets since 1981, and we answer calls around the clock.
 
 ## Why Butler Properties See Elevated Smoke Damage

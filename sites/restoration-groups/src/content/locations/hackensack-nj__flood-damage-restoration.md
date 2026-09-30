@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Flood Damage Restoration in Hackensack, NJ | The Restoration Group"
-h1: "Flood Damage Restoration in Hackensack"
-meta_description: "24/7 flood damage restoration in Hackensack, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+title: "24/7 Emergency Flood Damage Restoration in Hackensack, NJ | The Restoration Group"
+h1: "24/7 Emergency Flood Damage Restoration in Hackensack"
+meta_description: "24/7 emergency flood damage restoration in Hackensack, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
 primary_keyword: "flood damage restoration hackensack"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Hackensack? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and stop the damage from spreading.
+
 When the Hackensack River crests after a heavy storm, low-lying streets near Johnson Park and the Southside neighborhood can take on water faster than a sump pump can keep up. Ida proved that in 2021, when widespread basement flooding hit Bergen County in a matter of hours, leaving homeowners standing in inches of water before dawn. Whether the source is tidal backflow, an overwhelmed storm drain, or a failed supply line in one of Fairmount's prewar two-families, the clock starts the moment water enters the structure, and every hour it sits raises the risk of secondary damage.
 
 ## Why Hackensack Properties See Flood Damage Differently

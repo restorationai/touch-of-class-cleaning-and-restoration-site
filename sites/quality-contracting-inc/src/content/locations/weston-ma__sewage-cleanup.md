@@ -1,8 +1,8 @@
 ---
 archetype: "service-area-service"
-title: "Sewage Cleanup and Sanitization in Weston, MA | Quality Contracting, Inc."
-h1: "Sewage Cleanup and Sanitization in Weston"
-meta_description: "Sewage cleanup and sanitization in Weston, MA. Insurance billing accepted. Call (508) 756-8800."
+title: "Emergency Sewage Cleanup and Sanitization in Weston, MA | Quality Contracting, Inc."
+h1: "Emergency Sewage Cleanup and Sanitization in Weston"
+meta_description: "Emergency sewage cleanup and sanitization in Weston, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "sewage cleanup and sanitization weston"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
@@ -20,6 +20,9 @@ state: "MA"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Weston? Call now for emergency service.** Our crew responds fast to contain the contamination and start the cleanup.
+
 Weston sits on some of the oldest residential land in Middlesex County, where colonial-era lots were subdivided long before modern sewer infrastructure existed. Many homes here still rely on private septic systems, and when those systems back up, the contamination is immediate, odorous, and genuinely hazardous. Raw sewage carries bacteria, viruses, and parasites that don't wait for a convenient time. If you're dealing with a backup in your basement or a septic overflow reaching your crawl space, the clock on safe remediation started the moment the water appeared.
 
 ## Why Weston Properties See Sewage Backup Issues
