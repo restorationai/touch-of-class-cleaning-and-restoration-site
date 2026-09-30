@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "3a2e7ed5bd4820d5"
-generated_at: "2026-09-29T22:44:28.158173+00:00"
+generated_at: "2026-09-30T18:41:17.438541+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/crooks-sd/", "/service-areas/crooks-sd/fire-damage-restoration/", "/service-areas/crooks-sd/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/akron-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Crooks", "url": "/service-areas/crooks-sd/"}, {"name": "Industrial Restoration"}]

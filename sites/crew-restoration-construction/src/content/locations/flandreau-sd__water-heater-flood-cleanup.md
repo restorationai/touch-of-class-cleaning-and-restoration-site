@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "64ce480b6dab072d"
-generated_at: "2026-09-29T22:44:28.145595+00:00"
+generated_at: "2026-09-30T18:41:17.416948+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/flandreau-sd/", "/service-areas/flandreau-sd/fire-damage-restoration/", "/service-areas/flandreau-sd/mold-remediation/", "/service-areas/adrian-mn/water-heater-flood-cleanup/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Flandreau", "url": "/service-areas/flandreau-sd/"}, {"name": "Water Heater Flood Cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "42f7b7ae03916a42"
-generated_at: "2026-09-29T22:44:28.139079+00:00"
+generated_at: "2026-09-30T18:41:17.403801+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/rock-rapids-ia/", "/service-areas/rock-rapids-ia/fire-damage-restoration/", "/service-areas/rock-rapids-ia/mold-remediation/", "/service-areas/adrian-mn/mold-inspection-testing/", "/service-areas/akron-ia/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rock Rapids", "url": "/service-areas/rock-rapids-ia/"}, {"name": "Mold Inspection and Testing"}]

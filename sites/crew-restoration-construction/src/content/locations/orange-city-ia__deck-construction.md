@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "c55b94f4d0914616"
-generated_at: "2026-09-29T22:44:28.101076+00:00"
+generated_at: "2026-09-30T18:41:17.347317+00:00"
 manual_override: false
 internal_links: ["/services/deck-construction/", "/service-areas/orange-city-ia/", "/service-areas/orange-city-ia/fire-damage-restoration/", "/service-areas/orange-city-ia/mold-remediation/", "/service-areas/adrian-mn/deck-construction/", "/service-areas/akron-ia/deck-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Orange City", "url": "/service-areas/orange-city-ia/"}, {"name": "Deck Construction"}]

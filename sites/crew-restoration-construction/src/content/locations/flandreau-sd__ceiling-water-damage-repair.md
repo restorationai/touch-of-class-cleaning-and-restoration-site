@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "71f5c8d0adddf775"
-generated_at: "2026-09-29T22:44:28.143503+00:00"
+generated_at: "2026-09-30T18:41:17.412477+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/flandreau-sd/", "/service-areas/flandreau-sd/fire-damage-restoration/", "/service-areas/flandreau-sd/mold-remediation/", "/service-areas/adrian-mn/ceiling-water-damage-repair/", "/service-areas/akron-ia/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Flandreau", "url": "/service-areas/flandreau-sd/"}, {"name": "Ceiling Water Damage Repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "2f28467c324a0dc8"
-generated_at: "2026-09-29T22:44:28.104656+00:00"
+generated_at: "2026-09-30T18:41:17.353495+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/luverne-mn/", "/service-areas/luverne-mn/fire-damage-restoration/", "/service-areas/luverne-mn/mold-remediation/", "/service-areas/adrian-mn/commercial-restoration/", "/service-areas/akron-ia/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Luverne", "url": "/service-areas/luverne-mn/"}, {"name": "Commercial Restoration"}]

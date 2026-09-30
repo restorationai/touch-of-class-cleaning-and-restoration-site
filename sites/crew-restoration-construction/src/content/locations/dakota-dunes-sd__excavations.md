@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "0874798c68d66a98"
-generated_at: "2026-09-29T22:44:28.182990+00:00"
+generated_at: "2026-09-30T18:41:17.473064+00:00"
 manual_override: false
 internal_links: ["/services/excavations/", "/service-areas/dakota-dunes-sd/", "/service-areas/dakota-dunes-sd/fire-damage-restoration/", "/service-areas/dakota-dunes-sd/mold-remediation/", "/service-areas/adrian-mn/excavations/", "/service-areas/akron-ia/excavations/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dakota Dunes", "url": "/service-areas/dakota-dunes-sd/"}, {"name": "Excavations"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "827b34dbbb552c1c"
-generated_at: "2026-09-29T22:44:28.177455+00:00"
+generated_at: "2026-09-30T18:41:17.462324+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/volga-sd/", "/service-areas/volga-sd/fire-damage-restoration/", "/service-areas/volga-sd/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/akron-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Volga", "url": "/service-areas/volga-sd/"}, {"name": "Industrial Restoration"}]

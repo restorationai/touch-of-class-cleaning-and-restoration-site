@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "c9ba8dd3df42a13e"
-generated_at: "2026-09-29T22:44:28.176527+00:00"
+generated_at: "2026-09-30T18:41:17.460667+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/volga-sd/", "/service-areas/volga-sd/fire-damage-restoration/", "/service-areas/volga-sd/mold-remediation/", "/service-areas/adrian-mn/emergency-plumbing/", "/service-areas/akron-ia/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Volga", "url": "/service-areas/volga-sd/"}, {"name": "Emergency Plumbing"}]

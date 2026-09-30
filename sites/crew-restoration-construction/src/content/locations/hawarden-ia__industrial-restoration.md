@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "3e39d52cda47cac2"
-generated_at: "2026-09-29T22:44:28.208750+00:00"
+generated_at: "2026-09-30T18:41:17.509906+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/hawarden-ia/", "/service-areas/hawarden-ia/fire-damage-restoration/", "/service-areas/hawarden-ia/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/akron-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hawarden", "url": "/service-areas/hawarden-ia/"}, {"name": "Industrial Restoration"}]

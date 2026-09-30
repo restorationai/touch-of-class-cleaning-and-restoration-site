@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "45d42b1ef237911b"
-generated_at: "2026-09-29T22:44:28.197353+00:00"
+generated_at: "2026-09-30T18:41:17.488839+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/edgerton-mn/", "/service-areas/edgerton-mn/fire-damage-restoration/", "/service-areas/edgerton-mn/mold-remediation/", "/service-areas/adrian-mn/basement-flooding-cleanup/", "/service-areas/akron-ia/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Edgerton", "url": "/service-areas/edgerton-mn/"}, {"name": "Basement Flooding Cleanup"}]

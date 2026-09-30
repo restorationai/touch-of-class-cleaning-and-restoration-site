@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "608e6dd43c1c0750"
-generated_at: "2026-09-29T22:44:28.141283+00:00"
+generated_at: "2026-09-30T18:41:17.408385+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/lennox-sd/", "/service-areas/lennox-sd/fire-damage-restoration/", "/service-areas/lennox-sd/mold-remediation/", "/service-areas/adrian-mn/flood-damage-restoration/", "/service-areas/akron-ia/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lennox", "url": "/service-areas/lennox-sd/"}, {"name": "Flood Damage Restoration"}]

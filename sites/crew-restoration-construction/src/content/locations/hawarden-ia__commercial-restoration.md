@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "c68559926dd15591"
-generated_at: "2026-09-29T22:44:28.207496+00:00"
+generated_at: "2026-09-30T18:41:17.507657+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/hawarden-ia/", "/service-areas/hawarden-ia/fire-damage-restoration/", "/service-areas/hawarden-ia/mold-remediation/", "/service-areas/adrian-mn/commercial-restoration/", "/service-areas/akron-ia/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hawarden", "url": "/service-areas/hawarden-ia/"}, {"name": "Commercial Restoration"}]

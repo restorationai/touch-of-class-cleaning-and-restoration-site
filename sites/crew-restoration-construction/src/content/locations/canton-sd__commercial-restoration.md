@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "df32f90e3f62ea70"
-generated_at: "2026-09-29T22:44:28.122161+00:00"
+generated_at: "2026-09-30T18:41:17.383229+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/canton-sd/", "/service-areas/canton-sd/fire-damage-restoration/", "/service-areas/canton-sd/mold-remediation/", "/service-areas/adrian-mn/commercial-restoration/", "/service-areas/akron-ia/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Canton", "url": "/service-areas/canton-sd/"}, {"name": "Commercial Restoration"}]

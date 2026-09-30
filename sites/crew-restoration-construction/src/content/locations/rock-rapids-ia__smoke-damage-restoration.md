@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "694ecdc6fd26e7a6"
-generated_at: "2026-09-29T22:44:28.139381+00:00"
+generated_at: "2026-09-30T18:41:17.404757+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/rock-rapids-ia/", "/service-areas/rock-rapids-ia/fire-damage-restoration/", "/service-areas/rock-rapids-ia/mold-remediation/", "/service-areas/adrian-mn/smoke-damage-restoration/", "/service-areas/akron-ia/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rock Rapids", "url": "/service-areas/rock-rapids-ia/"}, {"name": "Smoke Damage Restoration"}]

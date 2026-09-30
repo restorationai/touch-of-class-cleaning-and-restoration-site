@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "f2225b9acf35dee7"
-generated_at: "2026-09-29T22:44:28.082815+00:00"
+generated_at: "2026-09-30T18:41:17.314863+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/brandon-sd/", "/service-areas/brandon-sd/fire-damage-restoration/", "/service-areas/brandon-sd/mold-remediation/", "/service-areas/adrian-mn/smoke-damage-restoration/", "/service-areas/akron-ia/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brandon", "url": "/service-areas/brandon-sd/"}, {"name": "Smoke Damage Restoration"}]

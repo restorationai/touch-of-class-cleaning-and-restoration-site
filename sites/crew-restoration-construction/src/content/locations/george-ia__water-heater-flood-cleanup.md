@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "018e64ed8e53ab5a"
-generated_at: "2026-09-29T22:44:28.206380+00:00"
+generated_at: "2026-09-30T18:41:17.505955+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/george-ia/", "/service-areas/george-ia/fire-damage-restoration/", "/service-areas/george-ia/mold-remediation/", "/service-areas/adrian-mn/water-heater-flood-cleanup/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "George", "url": "/service-areas/george-ia/"}, {"name": "Water Heater Flood Cleanup"}]

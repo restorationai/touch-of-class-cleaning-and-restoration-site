@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "27fe504069f7745c"
-generated_at: "2026-09-29T22:44:28.153443+00:00"
+generated_at: "2026-09-30T18:41:17.430798+00:00"
 manual_override: false
 internal_links: ["/services/deck-construction/", "/service-areas/slayton-mn/", "/service-areas/slayton-mn/fire-damage-restoration/", "/service-areas/slayton-mn/mold-remediation/", "/service-areas/adrian-mn/deck-construction/", "/service-areas/akron-ia/deck-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Slayton", "url": "/service-areas/slayton-mn/"}, {"name": "Deck Construction"}]

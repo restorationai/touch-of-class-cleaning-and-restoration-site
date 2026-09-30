@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "ce524f2e4c06ac83"
-generated_at: "2026-09-29T22:44:28.200839+00:00"
+generated_at: "2026-09-30T18:41:17.495154+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/fulda-mn/", "/service-areas/fulda-mn/fire-damage-restoration/", "/service-areas/fulda-mn/mold-remediation/", "/service-areas/adrian-mn/burst-pipe-repair/", "/service-areas/akron-ia/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fulda", "url": "/service-areas/fulda-mn/"}, {"name": "Burst Pipe Cleanup and Repair"}]

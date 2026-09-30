@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "e08fd59615b72dd1"
-generated_at: "2026-09-29T22:44:28.085260+00:00"
+generated_at: "2026-09-30T18:41:17.319917+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/le-mars-ia/", "/service-areas/le-mars-ia/fire-damage-restoration/", "/service-areas/le-mars-ia/mold-remediation/", "/service-areas/adrian-mn/mold-inspection-testing/", "/service-areas/akron-ia/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Le Mars", "url": "/service-areas/le-mars-ia/"}, {"name": "Mold Inspection and Testing"}]

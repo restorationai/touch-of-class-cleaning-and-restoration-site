@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "9713bdbed0158469"
-generated_at: "2026-09-29T22:44:28.098458+00:00"
+generated_at: "2026-09-30T18:41:17.341683+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/tea-sd/", "/service-areas/tea-sd/fire-damage-restoration/", "/service-areas/tea-sd/mold-remediation/", "/service-areas/adrian-mn/emergency-plumbing/", "/service-areas/akron-ia/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tea", "url": "/service-areas/tea-sd/"}, {"name": "Emergency Plumbing"}]

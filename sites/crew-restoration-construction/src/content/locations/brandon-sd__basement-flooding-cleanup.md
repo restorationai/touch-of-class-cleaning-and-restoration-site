@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "0ff981219cef45e5"
-generated_at: "2026-09-29T22:44:28.080491+00:00"
+generated_at: "2026-09-30T18:41:17.309684+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/brandon-sd/", "/service-areas/brandon-sd/fire-damage-restoration/", "/service-areas/brandon-sd/mold-remediation/", "/service-areas/adrian-mn/basement-flooding-cleanup/", "/service-areas/akron-ia/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brandon", "url": "/service-areas/brandon-sd/"}, {"name": "Basement Flooding Cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "1f841ee8c31b2abe"
-generated_at: "2026-09-29T22:44:28.144009+00:00"
+generated_at: "2026-09-30T18:41:17.413530+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/flandreau-sd/", "/service-areas/flandreau-sd/fire-damage-restoration/", "/service-areas/flandreau-sd/mold-remediation/", "/service-areas/adrian-mn/emergency-plumbing/", "/service-areas/akron-ia/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Flandreau", "url": "/service-areas/flandreau-sd/"}, {"name": "Emergency Plumbing"}]

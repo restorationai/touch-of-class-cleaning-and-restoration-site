@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "1f51e92c963fc63c"
-generated_at: "2026-09-29T22:44:28.109936+00:00"
+generated_at: "2026-09-30T18:41:17.362609+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/pipestone-mn/", "/service-areas/pipestone-mn/fire-damage-restoration/", "/service-areas/pipestone-mn/mold-remediation/", "/service-areas/adrian-mn/reconstruction/", "/service-areas/akron-ia/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pipestone", "url": "/service-areas/pipestone-mn/"}, {"name": "Reconstruction Services"}]

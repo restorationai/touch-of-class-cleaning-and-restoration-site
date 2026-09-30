@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "609f92c9e789a9c6"
-generated_at: "2026-09-29T22:44:28.235159+00:00"
+generated_at: "2026-09-30T18:41:17.548545+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/kingsley-ia/", "/service-areas/kingsley-ia/fire-damage-restoration/", "/service-areas/kingsley-ia/mold-remediation/", "/service-areas/adrian-mn/burst-pipe-repair/", "/service-areas/akron-ia/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kingsley", "url": "/service-areas/kingsley-ia/"}, {"name": "Burst Pipe Cleanup and Repair"}]

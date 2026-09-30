@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "358cfa1d9221cc85"
-generated_at: "2026-09-29T22:44:28.153122+00:00"
+generated_at: "2026-09-30T18:41:17.430117+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/slayton-mn/", "/service-areas/slayton-mn/fire-damage-restoration/", "/service-areas/slayton-mn/mold-remediation/", "/service-areas/adrian-mn/ceiling-water-damage-repair/", "/service-areas/akron-ia/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Slayton", "url": "/service-areas/slayton-mn/"}, {"name": "Ceiling Water Damage Repair"}]

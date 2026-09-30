@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "1289801cc8bca379"
-generated_at: "2026-09-29T22:44:28.195448+00:00"
+generated_at: "2026-09-30T18:41:17.484979+00:00"
 manual_override: false
 internal_links: ["/services/excavations/", "/service-areas/adrian-mn/", "/service-areas/adrian-mn/fire-damage-restoration/", "/service-areas/adrian-mn/mold-remediation/", "/service-areas/akron-ia/excavations/", "/service-areas/alton-ia/excavations/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Adrian", "url": "/service-areas/adrian-mn/"}, {"name": "Excavations"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "4d8508c746597282"
-generated_at: "2026-09-29T22:44:28.153286+00:00"
+generated_at: "2026-09-30T18:41:17.430431+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/slayton-mn/", "/service-areas/slayton-mn/fire-damage-restoration/", "/service-areas/slayton-mn/mold-remediation/", "/service-areas/adrian-mn/commercial-restoration/", "/service-areas/akron-ia/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Slayton", "url": "/service-areas/slayton-mn/"}, {"name": "Commercial Restoration"}]

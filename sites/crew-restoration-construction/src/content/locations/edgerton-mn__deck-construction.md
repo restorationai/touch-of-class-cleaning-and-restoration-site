@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "ae0893f777804623"
-generated_at: "2026-09-29T22:44:28.198018+00:00"
+generated_at: "2026-09-30T18:41:17.490228+00:00"
 manual_override: false
 internal_links: ["/services/deck-construction/", "/service-areas/edgerton-mn/", "/service-areas/edgerton-mn/fire-damage-restoration/", "/service-areas/edgerton-mn/mold-remediation/", "/service-areas/adrian-mn/deck-construction/", "/service-areas/akron-ia/deck-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Edgerton", "url": "/service-areas/edgerton-mn/"}, {"name": "Deck Construction"}]

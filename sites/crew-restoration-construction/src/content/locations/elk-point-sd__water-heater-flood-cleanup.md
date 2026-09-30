@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "c243ffa67ccc9126"
-generated_at: "2026-09-29T22:44:28.193466+00:00"
+generated_at: "2026-09-30T18:41:17.482158+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/elk-point-sd/", "/service-areas/elk-point-sd/fire-damage-restoration/", "/service-areas/elk-point-sd/mold-remediation/", "/service-areas/adrian-mn/water-heater-flood-cleanup/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elk Point", "url": "/service-areas/elk-point-sd/"}, {"name": "Water Heater Flood Cleanup"}]

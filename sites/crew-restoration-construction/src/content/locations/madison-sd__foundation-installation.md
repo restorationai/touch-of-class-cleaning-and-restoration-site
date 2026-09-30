@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "a6cfc9c1721b2dd7"
-generated_at: "2026-09-29T22:44:28.095985+00:00"
+generated_at: "2026-09-30T18:41:17.336845+00:00"
 manual_override: false
 internal_links: ["/services/foundation-installation/", "/service-areas/madison-sd/", "/service-areas/madison-sd/fire-damage-restoration/", "/service-areas/madison-sd/mold-remediation/", "/service-areas/adrian-mn/foundation-installation/", "/service-areas/akron-ia/foundation-installation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Madison", "url": "/service-areas/madison-sd/"}, {"name": "Foundation Installation"}]

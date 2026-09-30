@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "d7662d92014e31be"
-generated_at: "2026-09-29T22:44:28.107357+00:00"
+generated_at: "2026-09-30T18:41:17.358749+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/pipestone-mn/", "/service-areas/pipestone-mn/fire-damage-restoration/", "/service-areas/pipestone-mn/mold-remediation/", "/service-areas/adrian-mn/burst-pipe-repair/", "/service-areas/akron-ia/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pipestone", "url": "/service-areas/pipestone-mn/"}, {"name": "Burst Pipe Cleanup and Repair"}]

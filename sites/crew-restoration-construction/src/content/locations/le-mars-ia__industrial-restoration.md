@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "25db712e4d7b8e6e"
-generated_at: "2026-09-29T22:44:28.084960+00:00"
+generated_at: "2026-09-30T18:41:17.319331+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/le-mars-ia/", "/service-areas/le-mars-ia/fire-damage-restoration/", "/service-areas/le-mars-ia/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/akron-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Le Mars", "url": "/service-areas/le-mars-ia/"}, {"name": "Industrial Restoration"}]

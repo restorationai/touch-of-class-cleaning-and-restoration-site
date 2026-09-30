@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "20d0a086cb430063"
-generated_at: "2026-09-29T22:44:28.227374+00:00"
+generated_at: "2026-09-30T18:41:17.538103+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/hinton-ia/", "/service-areas/hinton-ia/fire-damage-restoration/", "/service-areas/hinton-ia/mold-remediation/", "/service-areas/adrian-mn/emergency-plumbing/", "/service-areas/akron-ia/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hinton", "url": "/service-areas/hinton-ia/"}, {"name": "Emergency Plumbing"}]

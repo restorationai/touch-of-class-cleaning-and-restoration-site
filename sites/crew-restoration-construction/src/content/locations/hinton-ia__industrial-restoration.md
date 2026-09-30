@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "89db7d93e82bac28"
-generated_at: "2026-09-29T22:44:28.228984+00:00"
+generated_at: "2026-09-30T18:41:17.539532+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/hinton-ia/", "/service-areas/hinton-ia/fire-damage-restoration/", "/service-areas/hinton-ia/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/akron-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hinton", "url": "/service-areas/hinton-ia/"}, {"name": "Industrial Restoration"}]

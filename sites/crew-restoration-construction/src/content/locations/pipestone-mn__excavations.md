@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "779104108b7d6bee"
-generated_at: "2026-09-29T22:44:28.108290+00:00"
+generated_at: "2026-09-30T18:41:17.360508+00:00"
 manual_override: false
 internal_links: ["/services/excavations/", "/service-areas/pipestone-mn/", "/service-areas/pipestone-mn/fire-damage-restoration/", "/service-areas/pipestone-mn/mold-remediation/", "/service-areas/adrian-mn/excavations/", "/service-areas/akron-ia/excavations/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pipestone", "url": "/service-areas/pipestone-mn/"}, {"name": "Excavations"}]

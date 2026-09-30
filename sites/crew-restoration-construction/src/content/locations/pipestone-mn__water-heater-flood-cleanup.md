@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "122c4369a862c873"
-generated_at: "2026-09-29T22:44:28.110251+00:00"
+generated_at: "2026-09-30T18:41:17.363574+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/pipestone-mn/", "/service-areas/pipestone-mn/fire-damage-restoration/", "/service-areas/pipestone-mn/mold-remediation/", "/service-areas/adrian-mn/water-heater-flood-cleanup/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pipestone", "url": "/service-areas/pipestone-mn/"}, {"name": "Water Heater Flood Cleanup"}]

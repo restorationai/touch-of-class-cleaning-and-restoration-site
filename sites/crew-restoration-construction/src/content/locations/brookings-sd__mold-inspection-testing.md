@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "0aeb45ce06c82690"
-generated_at: "2026-09-29T22:44:28.072710+00:00"
+generated_at: "2026-09-30T18:41:17.294552+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/brookings-sd/", "/service-areas/brookings-sd/fire-damage-restoration/", "/service-areas/brookings-sd/mold-remediation/", "/service-areas/adrian-mn/mold-inspection-testing/", "/service-areas/akron-ia/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brookings", "url": "/service-areas/brookings-sd/"}, {"name": "Mold Inspection and Testing"}]

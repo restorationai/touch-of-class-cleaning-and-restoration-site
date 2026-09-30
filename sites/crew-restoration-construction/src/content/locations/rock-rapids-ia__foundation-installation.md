@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "b84cf8944d2fef32"
-generated_at: "2026-09-29T22:44:28.138628+00:00"
+generated_at: "2026-09-30T18:41:17.402828+00:00"
 manual_override: false
 internal_links: ["/services/foundation-installation/", "/service-areas/rock-rapids-ia/", "/service-areas/rock-rapids-ia/fire-damage-restoration/", "/service-areas/rock-rapids-ia/mold-remediation/", "/service-areas/adrian-mn/foundation-installation/", "/service-areas/akron-ia/foundation-installation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rock Rapids", "url": "/service-areas/rock-rapids-ia/"}, {"name": "Foundation Installation"}]

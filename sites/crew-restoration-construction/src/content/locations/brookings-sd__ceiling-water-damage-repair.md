@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "3b9f564136636763"
-generated_at: "2026-09-29T22:44:28.070872+00:00"
+generated_at: "2026-09-30T18:41:17.291330+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/brookings-sd/", "/service-areas/brookings-sd/fire-damage-restoration/", "/service-areas/brookings-sd/mold-remediation/", "/service-areas/adrian-mn/ceiling-water-damage-repair/", "/service-areas/akron-ia/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brookings", "url": "/service-areas/brookings-sd/"}, {"name": "Ceiling Water Damage Repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "5183d23611fef0a6"
-generated_at: "2026-09-29T22:44:28.081856+00:00"
+generated_at: "2026-09-30T18:41:17.312233+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/brandon-sd/", "/service-areas/brandon-sd/fire-damage-restoration/", "/service-areas/brandon-sd/mold-remediation/", "/service-areas/adrian-mn/flood-damage-restoration/", "/service-areas/akron-ia/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brandon", "url": "/service-areas/brandon-sd/"}, {"name": "Flood Damage Restoration"}]

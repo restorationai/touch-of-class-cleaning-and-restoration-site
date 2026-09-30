@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "f358ffddaec48e05"
-generated_at: "2026-09-29T22:44:28.212847+00:00"
+generated_at: "2026-09-30T18:41:17.518202+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/hull-ia/", "/service-areas/hull-ia/fire-damage-restoration/", "/service-areas/hull-ia/mold-remediation/", "/service-areas/adrian-mn/water-leak-detection/", "/service-areas/akron-ia/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hull", "url": "/service-areas/hull-ia/"}, {"name": "Water Leak Detection"}]

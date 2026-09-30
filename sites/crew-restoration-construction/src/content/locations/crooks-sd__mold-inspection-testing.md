@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "5c23997475471b65"
-generated_at: "2026-09-29T22:44:28.158547+00:00"
+generated_at: "2026-09-30T18:41:17.439164+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/crooks-sd/", "/service-areas/crooks-sd/fire-damage-restoration/", "/service-areas/crooks-sd/mold-remediation/", "/service-areas/adrian-mn/mold-inspection-testing/", "/service-areas/akron-ia/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Crooks", "url": "/service-areas/crooks-sd/"}, {"name": "Mold Inspection and Testing"}]

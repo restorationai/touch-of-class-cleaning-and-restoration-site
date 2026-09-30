@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "e5b029e5da7bb4e3"
-generated_at: "2026-09-29T22:44:28.151254+00:00"
+generated_at: "2026-09-30T18:41:17.426373+00:00"
 manual_override: false
 internal_links: ["/services/foundation-installation/", "/service-areas/salem-sd/", "/service-areas/salem-sd/fire-damage-restoration/", "/service-areas/salem-sd/mold-remediation/", "/service-areas/adrian-mn/foundation-installation/", "/service-areas/akron-ia/foundation-installation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Salem", "url": "/service-areas/salem-sd/"}, {"name": "Foundation Installation"}]

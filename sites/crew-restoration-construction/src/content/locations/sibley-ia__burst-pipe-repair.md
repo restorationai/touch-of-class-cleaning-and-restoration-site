@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "f071ea57abad591f"
-generated_at: "2026-09-29T22:44:28.132486+00:00"
+generated_at: "2026-09-30T18:41:17.394445+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/sibley-ia/", "/service-areas/sibley-ia/fire-damage-restoration/", "/service-areas/sibley-ia/mold-remediation/", "/service-areas/adrian-mn/burst-pipe-repair/", "/service-areas/akron-ia/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sibley", "url": "/service-areas/sibley-ia/"}, {"name": "Burst Pipe Cleanup and Repair"}]

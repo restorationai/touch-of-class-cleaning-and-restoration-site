@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "a2abeee63b3d953a"
-generated_at: "2026-09-29T22:44:28.202700+00:00"
+generated_at: "2026-09-30T18:41:17.497965+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/fulda-mn/", "/service-areas/fulda-mn/fire-damage-restoration/", "/service-areas/fulda-mn/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/akron-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fulda", "url": "/service-areas/fulda-mn/"}, {"name": "Industrial Restoration"}]

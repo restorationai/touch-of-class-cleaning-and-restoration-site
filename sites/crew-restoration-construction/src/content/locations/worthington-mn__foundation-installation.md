@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "ea08fb59e2e11b4f"
-generated_at: "2026-09-29T22:44:28.078429+00:00"
+generated_at: "2026-09-30T18:41:17.306551+00:00"
 manual_override: false
 internal_links: ["/services/foundation-installation/", "/service-areas/worthington-mn/", "/service-areas/worthington-mn/fire-damage-restoration/", "/service-areas/worthington-mn/mold-remediation/", "/service-areas/adrian-mn/foundation-installation/", "/service-areas/akron-ia/foundation-installation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Worthington", "url": "/service-areas/worthington-mn/"}, {"name": "Foundation Installation"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "8df368c0547d770a"
-generated_at: "2026-09-29T22:44:28.225216+00:00"
+generated_at: "2026-09-30T18:41:17.537703+00:00"
 manual_override: false
 internal_links: ["/services/deck-construction/", "/service-areas/hinton-ia/", "/service-areas/hinton-ia/fire-damage-restoration/", "/service-areas/hinton-ia/mold-remediation/", "/service-areas/adrian-mn/deck-construction/", "/service-areas/akron-ia/deck-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hinton", "url": "/service-areas/hinton-ia/"}, {"name": "Deck Construction"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "e2403e75db56bac8"
-generated_at: "2026-09-29T22:44:28.154164+00:00"
+generated_at: "2026-09-30T18:41:17.431926+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/slayton-mn/", "/service-areas/slayton-mn/fire-damage-restoration/", "/service-areas/slayton-mn/mold-remediation/", "/service-areas/adrian-mn/flood-damage-restoration/", "/service-areas/akron-ia/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Slayton", "url": "/service-areas/slayton-mn/"}, {"name": "Flood Damage Restoration"}]

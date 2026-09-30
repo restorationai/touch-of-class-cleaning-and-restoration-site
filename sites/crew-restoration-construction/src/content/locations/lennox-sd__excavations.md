@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "6bc12f1f1ee203e2"
-generated_at: "2026-09-29T22:44:28.141131+00:00"
+generated_at: "2026-09-30T18:41:17.407991+00:00"
 manual_override: false
 internal_links: ["/services/excavations/", "/service-areas/lennox-sd/", "/service-areas/lennox-sd/fire-damage-restoration/", "/service-areas/lennox-sd/mold-remediation/", "/service-areas/adrian-mn/excavations/", "/service-areas/akron-ia/excavations/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lennox", "url": "/service-areas/lennox-sd/"}, {"name": "Excavations"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "3382c202c4bb3e92"
-generated_at: "2026-09-29T22:44:28.106532+00:00"
+generated_at: "2026-09-30T18:41:17.357265+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/luverne-mn/", "/service-areas/luverne-mn/fire-damage-restoration/", "/service-areas/luverne-mn/mold-remediation/", "/service-areas/adrian-mn/smoke-damage-restoration/", "/service-areas/akron-ia/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Luverne", "url": "/service-areas/luverne-mn/"}, {"name": "Smoke Damage Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "6daa0070ed04ec09"
-generated_at: "2026-09-29T22:44:28.193630+00:00"
+generated_at: "2026-09-30T18:41:17.482465+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/elk-point-sd/", "/service-areas/elk-point-sd/fire-damage-restoration/", "/service-areas/elk-point-sd/mold-remediation/", "/service-areas/adrian-mn/water-leak-detection/", "/service-areas/akron-ia/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elk Point", "url": "/service-areas/elk-point-sd/"}, {"name": "Water Leak Detection"}]

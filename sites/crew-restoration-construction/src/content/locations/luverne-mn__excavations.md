@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "d216bbd94e1af462"
-generated_at: "2026-09-29T22:44:28.105392+00:00"
+generated_at: "2026-09-30T18:41:17.354630+00:00"
 manual_override: false
 internal_links: ["/services/excavations/", "/service-areas/luverne-mn/", "/service-areas/luverne-mn/fire-damage-restoration/", "/service-areas/luverne-mn/mold-remediation/", "/service-areas/adrian-mn/excavations/", "/service-areas/akron-ia/excavations/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Luverne", "url": "/service-areas/luverne-mn/"}, {"name": "Excavations"}]

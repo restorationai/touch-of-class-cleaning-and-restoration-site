@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "4bc91884cd2abf60"
-generated_at: "2026-09-29T22:44:28.083618+00:00"
+generated_at: "2026-09-30T18:41:17.316520+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/le-mars-ia/", "/service-areas/le-mars-ia/fire-damage-restoration/", "/service-areas/le-mars-ia/mold-remediation/", "/service-areas/adrian-mn/burst-pipe-repair/", "/service-areas/akron-ia/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Le Mars", "url": "/service-areas/le-mars-ia/"}, {"name": "Burst Pipe Cleanup and Repair"}]

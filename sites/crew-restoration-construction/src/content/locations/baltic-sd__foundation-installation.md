@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "d1124255d109b8f7"
-generated_at: "2026-09-29T22:44:28.161488+00:00"
+generated_at: "2026-09-30T18:41:17.444080+00:00"
 manual_override: false
 internal_links: ["/services/foundation-installation/", "/service-areas/baltic-sd/", "/service-areas/baltic-sd/fire-damage-restoration/", "/service-areas/baltic-sd/mold-remediation/", "/service-areas/adrian-mn/foundation-installation/", "/service-areas/akron-ia/foundation-installation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baltic", "url": "/service-areas/baltic-sd/"}, {"name": "Foundation Installation"}]

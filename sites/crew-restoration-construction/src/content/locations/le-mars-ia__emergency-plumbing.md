@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "dcd7b2f303582842"
-generated_at: "2026-09-29T22:44:28.084215+00:00"
+generated_at: "2026-09-30T18:41:17.317906+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/le-mars-ia/", "/service-areas/le-mars-ia/fire-damage-restoration/", "/service-areas/le-mars-ia/mold-remediation/", "/service-areas/adrian-mn/emergency-plumbing/", "/service-areas/akron-ia/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Le Mars", "url": "/service-areas/le-mars-ia/"}, {"name": "Emergency Plumbing"}]

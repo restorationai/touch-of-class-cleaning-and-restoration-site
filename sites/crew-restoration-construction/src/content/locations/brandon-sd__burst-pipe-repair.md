@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "186741a02974107e"
-generated_at: "2026-09-29T22:44:28.080698+00:00"
+generated_at: "2026-09-30T18:41:17.310090+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/brandon-sd/", "/service-areas/brandon-sd/fire-damage-restoration/", "/service-areas/brandon-sd/mold-remediation/", "/service-areas/adrian-mn/burst-pipe-repair/", "/service-areas/akron-ia/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brandon", "url": "/service-areas/brandon-sd/"}, {"name": "Burst Pipe Cleanup and Repair"}]

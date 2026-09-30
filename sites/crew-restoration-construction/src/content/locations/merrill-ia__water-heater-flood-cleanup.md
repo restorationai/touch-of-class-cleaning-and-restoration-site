@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "b2a74aff95adfb6e"
-generated_at: "2026-09-29T22:44:28.234515+00:00"
+generated_at: "2026-09-30T18:41:17.547481+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/merrill-ia/", "/service-areas/merrill-ia/fire-damage-restoration/", "/service-areas/merrill-ia/mold-remediation/", "/service-areas/adrian-mn/water-heater-flood-cleanup/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Merrill", "url": "/service-areas/merrill-ia/"}, {"name": "Water Heater Flood Cleanup"}]

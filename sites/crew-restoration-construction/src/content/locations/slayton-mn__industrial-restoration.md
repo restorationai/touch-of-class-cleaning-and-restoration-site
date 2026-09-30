@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "1f8ef9015dca40d5"
-generated_at: "2026-09-29T22:44:28.154489+00:00"
+generated_at: "2026-09-30T18:41:17.432596+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/slayton-mn/", "/service-areas/slayton-mn/fire-damage-restoration/", "/service-areas/slayton-mn/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/akron-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Slayton", "url": "/service-areas/slayton-mn/"}, {"name": "Industrial Restoration"}]

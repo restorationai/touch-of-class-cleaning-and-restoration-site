@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "19b29a95b6940a31"
-generated_at: "2026-09-29T22:44:28.082976+00:00"
+generated_at: "2026-09-30T18:41:17.315388+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/brandon-sd/", "/service-areas/brandon-sd/fire-damage-restoration/", "/service-areas/brandon-sd/mold-remediation/", "/service-areas/adrian-mn/water-heater-flood-cleanup/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brandon", "url": "/service-areas/brandon-sd/"}, {"name": "Water Heater Flood Cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "b47e9db68e3707f9"
-generated_at: "2026-09-29T22:44:28.121961+00:00"
+generated_at: "2026-09-30T18:41:17.382899+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/canton-sd/", "/service-areas/canton-sd/fire-damage-restoration/", "/service-areas/canton-sd/mold-remediation/", "/service-areas/adrian-mn/ceiling-water-damage-repair/", "/service-areas/akron-ia/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Canton", "url": "/service-areas/canton-sd/"}, {"name": "Ceiling Water Damage Repair"}]

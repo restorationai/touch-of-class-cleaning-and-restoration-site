@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "0e91446ae1c1745c"
-generated_at: "2026-09-29T22:44:28.151782+00:00"
+generated_at: "2026-09-30T18:41:17.427362+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/salem-sd/", "/service-areas/salem-sd/fire-damage-restoration/", "/service-areas/salem-sd/mold-remediation/", "/service-areas/adrian-mn/mold-inspection-testing/", "/service-areas/akron-ia/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Salem", "url": "/service-areas/salem-sd/"}, {"name": "Mold Inspection and Testing"}]

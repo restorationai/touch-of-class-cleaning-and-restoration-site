@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "fe435c4575a24fea"
-generated_at: "2026-09-29T22:44:28.077629+00:00"
+generated_at: "2026-09-30T18:41:17.305105+00:00"
 manual_override: false
 internal_links: ["/services/deck-construction/", "/service-areas/worthington-mn/", "/service-areas/worthington-mn/fire-damage-restoration/", "/service-areas/worthington-mn/mold-remediation/", "/service-areas/adrian-mn/deck-construction/", "/service-areas/akron-ia/deck-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Worthington", "url": "/service-areas/worthington-mn/"}, {"name": "Deck Construction"}]

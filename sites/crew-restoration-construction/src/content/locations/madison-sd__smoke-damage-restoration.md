@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "e5a4ea14e0e18434"
-generated_at: "2026-09-29T22:44:28.096817+00:00"
+generated_at: "2026-09-30T18:41:17.338812+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/madison-sd/", "/service-areas/madison-sd/fire-damage-restoration/", "/service-areas/madison-sd/mold-remediation/", "/service-areas/adrian-mn/smoke-damage-restoration/", "/service-areas/akron-ia/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Madison", "url": "/service-areas/madison-sd/"}, {"name": "Smoke Damage Restoration"}]

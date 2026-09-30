@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "7364b43556fe6f9a"
-generated_at: "2026-09-29T22:44:28.106704+00:00"
+generated_at: "2026-09-30T18:41:17.357697+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/luverne-mn/", "/service-areas/luverne-mn/fire-damage-restoration/", "/service-areas/luverne-mn/mold-remediation/", "/service-areas/adrian-mn/water-heater-flood-cleanup/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Luverne", "url": "/service-areas/luverne-mn/"}, {"name": "Water Heater Flood Cleanup"}]

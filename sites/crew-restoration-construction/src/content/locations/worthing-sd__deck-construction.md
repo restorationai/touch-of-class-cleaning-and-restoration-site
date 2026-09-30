@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "91c82f14d1ebe2b1"
-generated_at: "2026-09-29T22:44:28.168506+00:00"
+generated_at: "2026-09-30T18:41:17.454411+00:00"
 manual_override: false
 internal_links: ["/services/deck-construction/", "/service-areas/worthing-sd/", "/service-areas/worthing-sd/fire-damage-restoration/", "/service-areas/worthing-sd/mold-remediation/", "/service-areas/adrian-mn/deck-construction/", "/service-areas/akron-ia/deck-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Worthing", "url": "/service-areas/worthing-sd/"}, {"name": "Deck Construction"}]

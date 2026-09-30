@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "24aefab9bd3b6897"
-generated_at: "2026-09-29T22:44:28.137509+00:00"
+generated_at: "2026-09-30T18:41:17.400696+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/rock-rapids-ia/", "/service-areas/rock-rapids-ia/fire-damage-restoration/", "/service-areas/rock-rapids-ia/mold-remediation/", "/service-areas/adrian-mn/ceiling-water-damage-repair/", "/service-areas/akron-ia/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rock Rapids", "url": "/service-areas/rock-rapids-ia/"}, {"name": "Ceiling Water Damage Repair"}]

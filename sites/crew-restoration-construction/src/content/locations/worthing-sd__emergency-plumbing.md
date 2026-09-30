@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "3ef118b90b012224"
-generated_at: "2026-09-29T22:44:28.168674+00:00"
+generated_at: "2026-09-30T18:41:17.454780+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/worthing-sd/", "/service-areas/worthing-sd/fire-damage-restoration/", "/service-areas/worthing-sd/mold-remediation/", "/service-areas/adrian-mn/emergency-plumbing/", "/service-areas/akron-ia/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Worthing", "url": "/service-areas/worthing-sd/"}, {"name": "Emergency Plumbing"}]

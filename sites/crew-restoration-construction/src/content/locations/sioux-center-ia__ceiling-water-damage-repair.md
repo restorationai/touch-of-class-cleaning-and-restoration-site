@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "0c0b4f8baef9b986"
-generated_at: "2026-09-29T22:44:28.086828+00:00"
+generated_at: "2026-09-30T18:41:17.322761+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/sioux-center-ia/", "/service-areas/sioux-center-ia/fire-damage-restoration/", "/service-areas/sioux-center-ia/mold-remediation/", "/service-areas/adrian-mn/ceiling-water-damage-repair/", "/service-areas/akron-ia/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sioux Center", "url": "/service-areas/sioux-center-ia/"}, {"name": "Ceiling Water Damage Repair"}]

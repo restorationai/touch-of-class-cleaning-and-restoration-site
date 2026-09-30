@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "0b1c78403281356e"
-generated_at: "2026-09-29T22:44:28.115309+00:00"
+generated_at: "2026-09-30T18:41:17.371311+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/dell-rapids-sd/", "/service-areas/dell-rapids-sd/fire-damage-restoration/", "/service-areas/dell-rapids-sd/mold-remediation/", "/service-areas/adrian-mn/commercial-restoration/", "/service-areas/akron-ia/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dell Rapids", "url": "/service-areas/dell-rapids-sd/"}, {"name": "Commercial Restoration"}]

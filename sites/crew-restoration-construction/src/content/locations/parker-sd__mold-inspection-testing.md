@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "c1df13bb6d063c43"
-generated_at: "2026-09-29T22:44:28.147994+00:00"
+generated_at: "2026-09-30T18:41:17.421487+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/parker-sd/", "/service-areas/parker-sd/fire-damage-restoration/", "/service-areas/parker-sd/mold-remediation/", "/service-areas/adrian-mn/mold-inspection-testing/", "/service-areas/akron-ia/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Parker", "url": "/service-areas/parker-sd/"}, {"name": "Mold Inspection and Testing"}]

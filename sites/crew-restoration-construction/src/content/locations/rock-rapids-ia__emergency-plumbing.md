@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "d561cd50c7cb9cd7"
-generated_at: "2026-09-29T22:44:28.137970+00:00"
+generated_at: "2026-09-30T18:41:17.401763+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/rock-rapids-ia/", "/service-areas/rock-rapids-ia/fire-damage-restoration/", "/service-areas/rock-rapids-ia/mold-remediation/", "/service-areas/adrian-mn/emergency-plumbing/", "/service-areas/akron-ia/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rock Rapids", "url": "/service-areas/rock-rapids-ia/"}, {"name": "Emergency Plumbing"}]

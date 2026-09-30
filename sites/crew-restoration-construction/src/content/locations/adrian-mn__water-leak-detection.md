@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "c55072ccb8cb92e7"
-generated_at: "2026-09-29T22:44:28.196950+00:00"
+generated_at: "2026-09-30T18:41:17.488456+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/adrian-mn/", "/service-areas/adrian-mn/fire-damage-restoration/", "/service-areas/adrian-mn/mold-remediation/", "/service-areas/akron-ia/water-leak-detection/", "/service-areas/alton-ia/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Adrian", "url": "/service-areas/adrian-mn/"}, {"name": "Water Leak Detection"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "fd687c31ab668889"
-generated_at: "2026-09-29T22:44:28.196793+00:00"
+generated_at: "2026-09-30T18:41:17.488154+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/adrian-mn/", "/service-areas/adrian-mn/fire-damage-restoration/", "/service-areas/adrian-mn/mold-remediation/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/service-areas/alton-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Adrian", "url": "/service-areas/adrian-mn/"}, {"name": "Water Heater Flood Cleanup"}]

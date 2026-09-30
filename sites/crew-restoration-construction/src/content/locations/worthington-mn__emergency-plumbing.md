@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "aa286928d344ebc4"
-generated_at: "2026-09-29T22:44:28.077781+00:00"
+generated_at: "2026-09-30T18:41:17.305498+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/worthington-mn/", "/service-areas/worthington-mn/fire-damage-restoration/", "/service-areas/worthington-mn/mold-remediation/", "/service-areas/adrian-mn/emergency-plumbing/", "/service-areas/akron-ia/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Worthington", "url": "/service-areas/worthington-mn/"}, {"name": "Emergency Plumbing"}]

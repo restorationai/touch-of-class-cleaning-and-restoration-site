@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "49d16bcb97425a55"
-generated_at: "2026-09-29T22:44:28.179245+00:00"
+generated_at: "2026-09-30T18:41:17.465682+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/beresford-sd/", "/service-areas/beresford-sd/fire-damage-restoration/", "/service-areas/beresford-sd/mold-remediation/", "/service-areas/adrian-mn/ceiling-water-damage-repair/", "/service-areas/akron-ia/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Beresford", "url": "/service-areas/beresford-sd/"}, {"name": "Ceiling Water Damage Repair"}]

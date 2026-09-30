@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "03f2a2681dfb5225"
-generated_at: "2026-09-29T22:44:28.082674+00:00"
+generated_at: "2026-09-30T18:41:17.314111+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/brandon-sd/", "/service-areas/brandon-sd/fire-damage-restoration/", "/service-areas/brandon-sd/mold-remediation/", "/service-areas/adrian-mn/reconstruction/", "/service-areas/akron-ia/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brandon", "url": "/service-areas/brandon-sd/"}, {"name": "Reconstruction Services"}]

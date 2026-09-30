@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "6f59758dbebebcf7"
-generated_at: "2026-09-29T22:44:28.160526+00:00"
+generated_at: "2026-09-30T18:41:17.442255+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/baltic-sd/", "/service-areas/baltic-sd/fire-damage-restoration/", "/service-areas/baltic-sd/mold-remediation/", "/service-areas/adrian-mn/commercial-restoration/", "/service-areas/akron-ia/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baltic", "url": "/service-areas/baltic-sd/"}, {"name": "Commercial Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "dac15d04741afab8"
-generated_at: "2026-09-29T22:44:28.211866+00:00"
+generated_at: "2026-09-30T18:41:17.515869+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/hull-ia/", "/service-areas/hull-ia/fire-damage-restoration/", "/service-areas/hull-ia/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/akron-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hull", "url": "/service-areas/hull-ia/"}, {"name": "Industrial Restoration"}]

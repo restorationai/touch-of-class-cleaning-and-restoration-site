@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "3e49daa6f76ecc1c"
-generated_at: "2026-09-29T22:44:28.201911+00:00"
+generated_at: "2026-09-30T18:41:17.496523+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/fulda-mn/", "/service-areas/fulda-mn/fire-damage-restoration/", "/service-areas/fulda-mn/mold-remediation/", "/service-areas/adrian-mn/emergency-plumbing/", "/service-areas/akron-ia/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fulda", "url": "/service-areas/fulda-mn/"}, {"name": "Emergency Plumbing"}]

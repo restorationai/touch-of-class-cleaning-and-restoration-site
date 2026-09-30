@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "1c8339dbf841dc19"
-generated_at: "2026-09-29T22:44:28.207173+00:00"
+generated_at: "2026-09-30T18:41:17.507030+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/hawarden-ia/", "/service-areas/hawarden-ia/fire-damage-restoration/", "/service-areas/hawarden-ia/mold-remediation/", "/service-areas/adrian-mn/burst-pipe-repair/", "/service-areas/akron-ia/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hawarden", "url": "/service-areas/hawarden-ia/"}, {"name": "Burst Pipe Cleanup and Repair"}]

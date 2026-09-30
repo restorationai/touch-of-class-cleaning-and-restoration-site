@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "ae0794e078b6b732"
-generated_at: "2026-09-29T22:44:28.207335+00:00"
+generated_at: "2026-09-30T18:41:17.507357+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/hawarden-ia/", "/service-areas/hawarden-ia/fire-damage-restoration/", "/service-areas/hawarden-ia/mold-remediation/", "/service-areas/adrian-mn/ceiling-water-damage-repair/", "/service-areas/akron-ia/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hawarden", "url": "/service-areas/hawarden-ia/"}, {"name": "Ceiling Water Damage Repair"}]

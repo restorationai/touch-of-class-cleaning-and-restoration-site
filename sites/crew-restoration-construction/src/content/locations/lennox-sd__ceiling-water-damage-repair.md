@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "119d97269510139c"
-generated_at: "2026-09-29T22:44:28.140341+00:00"
+generated_at: "2026-09-30T18:41:17.406567+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/lennox-sd/", "/service-areas/lennox-sd/fire-damage-restoration/", "/service-areas/lennox-sd/mold-remediation/", "/service-areas/adrian-mn/ceiling-water-damage-repair/", "/service-areas/akron-ia/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lennox", "url": "/service-areas/lennox-sd/"}, {"name": "Ceiling Water Damage Repair"}]

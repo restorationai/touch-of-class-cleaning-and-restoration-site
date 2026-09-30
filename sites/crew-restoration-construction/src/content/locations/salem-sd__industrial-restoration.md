@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "d391c35eac302c34"
-generated_at: "2026-09-29T22:44:28.151435+00:00"
+generated_at: "2026-09-30T18:41:17.426739+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/salem-sd/", "/service-areas/salem-sd/fire-damage-restoration/", "/service-areas/salem-sd/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/akron-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Salem", "url": "/service-areas/salem-sd/"}, {"name": "Industrial Restoration"}]

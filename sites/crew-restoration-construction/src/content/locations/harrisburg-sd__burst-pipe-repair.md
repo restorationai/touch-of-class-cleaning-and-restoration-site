@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "11e026f564c408e3"
-generated_at: "2026-09-29T22:44:28.090808+00:00"
+generated_at: "2026-09-30T18:41:17.328451+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/harrisburg-sd/", "/service-areas/harrisburg-sd/fire-damage-restoration/", "/service-areas/harrisburg-sd/mold-remediation/", "/service-areas/adrian-mn/burst-pipe-repair/", "/service-areas/akron-ia/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harrisburg", "url": "/service-areas/harrisburg-sd/"}, {"name": "Burst Pipe Cleanup and Repair"}]

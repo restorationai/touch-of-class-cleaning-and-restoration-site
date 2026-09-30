@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "1b3c25cb5d117049"
-generated_at: "2026-09-29T22:44:28.109771+00:00"
+generated_at: "2026-09-30T18:41:17.362179+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/pipestone-mn/", "/service-areas/pipestone-mn/fire-damage-restoration/", "/service-areas/pipestone-mn/mold-remediation/", "/service-areas/adrian-mn/mold-inspection-testing/", "/service-areas/akron-ia/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pipestone", "url": "/service-areas/pipestone-mn/"}, {"name": "Mold Inspection and Testing"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "a7b734a1e4f040c2"
-generated_at: "2026-09-29T22:44:28.233050+00:00"
+generated_at: "2026-09-30T18:41:17.544392+00:00"
 manual_override: false
 internal_links: ["/services/excavations/", "/service-areas/merrill-ia/", "/service-areas/merrill-ia/fire-damage-restoration/", "/service-areas/merrill-ia/mold-remediation/", "/service-areas/adrian-mn/excavations/", "/service-areas/akron-ia/excavations/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Merrill", "url": "/service-areas/merrill-ia/"}, {"name": "Excavations"}]

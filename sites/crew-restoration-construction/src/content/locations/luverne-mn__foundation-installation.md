@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "2538dad431053161"
-generated_at: "2026-09-29T22:44:28.105719+00:00"
+generated_at: "2026-09-30T18:41:17.355305+00:00"
 manual_override: false
 internal_links: ["/services/foundation-installation/", "/service-areas/luverne-mn/", "/service-areas/luverne-mn/fire-damage-restoration/", "/service-areas/luverne-mn/mold-remediation/", "/service-areas/adrian-mn/foundation-installation/", "/service-areas/akron-ia/foundation-installation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Luverne", "url": "/service-areas/luverne-mn/"}, {"name": "Foundation Installation"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "fc04195dd0a8d066"
-generated_at: "2026-09-29T22:44:28.098754+00:00"
+generated_at: "2026-09-30T18:41:17.342101+00:00"
 manual_override: false
 internal_links: ["/services/excavations/", "/service-areas/tea-sd/", "/service-areas/tea-sd/fire-damage-restoration/", "/service-areas/tea-sd/mold-remediation/", "/service-areas/adrian-mn/excavations/", "/service-areas/akron-ia/excavations/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tea", "url": "/service-areas/tea-sd/"}, {"name": "Excavations"}]

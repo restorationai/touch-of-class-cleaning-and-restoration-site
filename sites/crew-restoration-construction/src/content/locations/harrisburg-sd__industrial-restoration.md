@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "1e703732e4a37031"
-generated_at: "2026-09-29T22:44:28.093201+00:00"
+generated_at: "2026-09-30T18:41:17.331314+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/harrisburg-sd/", "/service-areas/harrisburg-sd/fire-damage-restoration/", "/service-areas/harrisburg-sd/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/akron-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harrisburg", "url": "/service-areas/harrisburg-sd/"}, {"name": "Industrial Restoration"}]

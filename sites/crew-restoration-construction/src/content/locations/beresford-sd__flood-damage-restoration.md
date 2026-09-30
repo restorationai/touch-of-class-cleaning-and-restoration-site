@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "92b5634dfbf5f31d"
-generated_at: "2026-09-29T22:44:28.180276+00:00"
+generated_at: "2026-09-30T18:41:17.467517+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/beresford-sd/", "/service-areas/beresford-sd/fire-damage-restoration/", "/service-areas/beresford-sd/mold-remediation/", "/service-areas/adrian-mn/flood-damage-restoration/", "/service-areas/akron-ia/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Beresford", "url": "/service-areas/beresford-sd/"}, {"name": "Flood Damage Restoration"}]

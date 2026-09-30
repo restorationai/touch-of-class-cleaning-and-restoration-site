@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "5d2ee58f21e0e4b9"
-generated_at: "2026-09-29T22:44:28.210397+00:00"
+generated_at: "2026-09-30T18:41:17.513016+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/hull-ia/", "/service-areas/hull-ia/fire-damage-restoration/", "/service-areas/hull-ia/mold-remediation/", "/service-areas/adrian-mn/burst-pipe-repair/", "/service-areas/akron-ia/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hull", "url": "/service-areas/hull-ia/"}, {"name": "Burst Pipe Cleanup and Repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "0a730a72c0715605"
-generated_at: "2026-09-29T22:44:28.218595+00:00"
+generated_at: "2026-09-30T18:41:17.527816+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/akron-ia/", "/service-areas/akron-ia/fire-damage-restoration/", "/service-areas/akron-ia/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/alton-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Akron", "url": "/service-areas/akron-ia/"}, {"name": "Industrial Restoration"}]

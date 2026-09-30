@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "546b3e64a94dd9ee"
-generated_at: "2026-09-29T22:44:28.194517+00:00"
+generated_at: "2026-09-30T18:41:17.483544+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/adrian-mn/", "/service-areas/adrian-mn/fire-damage-restoration/", "/service-areas/adrian-mn/mold-remediation/", "/service-areas/akron-ia/ceiling-water-damage-repair/", "/service-areas/alton-ia/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Adrian", "url": "/service-areas/adrian-mn/"}, {"name": "Ceiling Water Damage Repair"}]

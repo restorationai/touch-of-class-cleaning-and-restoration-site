@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "eb2636646822bde9"
-generated_at: "2026-09-29T22:44:28.094887+00:00"
+generated_at: "2026-09-30T18:41:17.334712+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/madison-sd/", "/service-areas/madison-sd/fire-damage-restoration/", "/service-areas/madison-sd/mold-remediation/", "/service-areas/adrian-mn/ceiling-water-damage-repair/", "/service-areas/akron-ia/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Madison", "url": "/service-areas/madison-sd/"}, {"name": "Ceiling Water Damage Repair"}]

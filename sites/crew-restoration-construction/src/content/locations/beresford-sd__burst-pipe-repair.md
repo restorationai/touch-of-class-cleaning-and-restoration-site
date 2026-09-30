@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "b03b5dcc898ba8b0"
-generated_at: "2026-09-29T22:44:28.179082+00:00"
+generated_at: "2026-09-30T18:41:17.465384+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/beresford-sd/", "/service-areas/beresford-sd/fire-damage-restoration/", "/service-areas/beresford-sd/mold-remediation/", "/service-areas/adrian-mn/burst-pipe-repair/", "/service-areas/akron-ia/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Beresford", "url": "/service-areas/beresford-sd/"}, {"name": "Burst Pipe Cleanup and Repair"}]

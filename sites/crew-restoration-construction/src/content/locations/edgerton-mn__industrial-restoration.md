@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "ca32640a7d1824b5"
-generated_at: "2026-09-29T22:44:28.198936+00:00"
+generated_at: "2026-09-30T18:41:17.492005+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/edgerton-mn/", "/service-areas/edgerton-mn/fire-damage-restoration/", "/service-areas/edgerton-mn/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/akron-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Edgerton", "url": "/service-areas/edgerton-mn/"}, {"name": "Industrial Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "4146647bcd9d98a5"
-generated_at: "2026-09-29T22:44:28.176067+00:00"
+generated_at: "2026-09-30T18:41:17.459913+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/volga-sd/", "/service-areas/volga-sd/fire-damage-restoration/", "/service-areas/volga-sd/mold-remediation/", "/service-areas/adrian-mn/commercial-restoration/", "/service-areas/akron-ia/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Volga", "url": "/service-areas/volga-sd/"}, {"name": "Commercial Restoration"}]

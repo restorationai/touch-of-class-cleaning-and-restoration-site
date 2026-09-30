@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "6241722c45cc9ff7"
-generated_at: "2026-09-29T22:44:28.140040+00:00"
+generated_at: "2026-09-30T18:41:17.405881+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/lennox-sd/", "/service-areas/lennox-sd/fire-damage-restoration/", "/service-areas/lennox-sd/mold-remediation/", "/service-areas/adrian-mn/basement-flooding-cleanup/", "/service-areas/akron-ia/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lennox", "url": "/service-areas/lennox-sd/"}, {"name": "Basement Flooding Cleanup"}]

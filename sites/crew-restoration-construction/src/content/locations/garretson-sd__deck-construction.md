@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "eb484d3e02388f24"
-generated_at: "2026-09-29T22:44:28.164416+00:00"
+generated_at: "2026-09-30T18:41:17.448538+00:00"
 manual_override: false
 internal_links: ["/services/deck-construction/", "/service-areas/garretson-sd/", "/service-areas/garretson-sd/fire-damage-restoration/", "/service-areas/garretson-sd/mold-remediation/", "/service-areas/adrian-mn/deck-construction/", "/service-areas/akron-ia/deck-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Garretson", "url": "/service-areas/garretson-sd/"}, {"name": "Deck Construction"}]

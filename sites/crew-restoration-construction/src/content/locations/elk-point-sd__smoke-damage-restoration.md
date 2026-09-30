@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "798348b2d970cb7a"
-generated_at: "2026-09-29T22:44:28.193298+00:00"
+generated_at: "2026-09-30T18:41:17.481686+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/elk-point-sd/", "/service-areas/elk-point-sd/fire-damage-restoration/", "/service-areas/elk-point-sd/mold-remediation/", "/service-areas/adrian-mn/smoke-damage-restoration/", "/service-areas/akron-ia/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elk Point", "url": "/service-areas/elk-point-sd/"}, {"name": "Smoke Damage Restoration"}]

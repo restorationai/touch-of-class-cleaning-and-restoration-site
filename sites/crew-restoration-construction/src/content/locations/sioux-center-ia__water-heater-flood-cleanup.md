@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "42a508ac4bfc68f8"
-generated_at: "2026-09-29T22:44:28.089595+00:00"
+generated_at: "2026-09-30T18:41:17.327344+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/sioux-center-ia/", "/service-areas/sioux-center-ia/fire-damage-restoration/", "/service-areas/sioux-center-ia/mold-remediation/", "/service-areas/adrian-mn/water-heater-flood-cleanup/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sioux Center", "url": "/service-areas/sioux-center-ia/"}, {"name": "Water Heater Flood Cleanup"}]

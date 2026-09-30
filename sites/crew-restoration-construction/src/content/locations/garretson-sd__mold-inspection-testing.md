@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "aa728fc0428f0ec5"
-generated_at: "2026-09-29T22:44:28.166197+00:00"
+generated_at: "2026-09-30T18:41:17.450961+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/garretson-sd/", "/service-areas/garretson-sd/fire-damage-restoration/", "/service-areas/garretson-sd/mold-remediation/", "/service-areas/adrian-mn/mold-inspection-testing/", "/service-areas/akron-ia/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Garretson", "url": "/service-areas/garretson-sd/"}, {"name": "Mold Inspection and Testing"}]

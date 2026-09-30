@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "6e7bfa6031a60fde"
-generated_at: "2026-09-29T22:44:28.236559+00:00"
+generated_at: "2026-09-30T18:41:17.551380+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/kingsley-ia/", "/service-areas/kingsley-ia/fire-damage-restoration/", "/service-areas/kingsley-ia/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/akron-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kingsley", "url": "/service-areas/kingsley-ia/"}, {"name": "Industrial Restoration"}]
