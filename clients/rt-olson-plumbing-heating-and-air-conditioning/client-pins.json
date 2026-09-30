@@ -8,6 +8,13 @@
       "require": [
         "Dry County Restoration"
       ]
+    },
+    {
+      "id": "no-repair-water-damage-page",
+      "request": "Bobby 09-23: RT Olson sells no water damage; the old 09-07 repair-water-damage URL forwards to the Dry County referral page",
+      "url": "/services/repair-water-damage/",
+      "status": 301,
+      "location": "/services/water-damage-restoration/"
     }
   ]
 }

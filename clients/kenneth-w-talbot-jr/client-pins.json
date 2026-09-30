@@ -89,6 +89,15 @@
       "html_forbid": [
         "const tp = \"\\(337\\)"
       ]
+    },
+    {
+      "id": "cradle-to-grave",
+      "request": "Kenny 09-28 call: cradle-to-grave description, assessment through remediation and PRV",
+      "url": "/services/mold-remediation/",
+      "require": [
+        "Cradle to grave, from assessment to sign-off",
+        "post-remediation verification (PRV)"
+      ]
     }
   ]
 }

@@ -215,3 +215,10 @@
 /services/common-plumbing-emergencies/ /services/emergency-plumbing/ 301
 /service-areas/:city/common-plumbing-emergencies /service-areas/:city/emergency-plumbing/ 301
 /service-areas/:city/common-plumbing-emergencies/ /service-areas/:city/emergency-plumbing/ 301
+# 2026-09-30: /services/repair-water-damage/ + its city pages were live 09-07 23:00 -> 09-08 05:42 (a gbp-maintenance
+# build later force-pushed away). RT Olson sells no water damage (Bobby 09-23: refer it to sister company Dry County),
+# so they are NOT restored; they forward to the Dry County referral page.
+/services/repair-water-damage/ /services/water-damage-restoration/ 301
+/services/repair-water-damage /services/water-damage-restoration/ 301
+/service-areas/:city/repair-water-damage/ /services/water-damage-restoration/ 301
+/service-areas/:city/repair-water-damage /services/water-damage-restoration/ 301
