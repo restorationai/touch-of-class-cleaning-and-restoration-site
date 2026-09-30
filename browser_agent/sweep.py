@@ -73,15 +73,26 @@ def bing_sync(s: Session) -> dict:
             # coordinate (1174, 295) is whatever the layout happened to be on
             # 08-01 and missed entirely on 08-04 (30s timeout waiting for a
             # popup that was never opened). Coordinates stay as the fallback.
-            gsi = next((f for f in s.page.frames if "gsi/button" in f.url), None)
-            with s._ctx.expect_page(timeout=45000) as pi:
-                if gsi:
-                    gsi.locator("div[role=button], button").first.click(timeout=15000)
-                else:
-                    s.page.mouse.click(1174, 295)
-                    s.page.wait_for_timeout(1500)
-                    s.page.keyboard.press("Enter")
-            pop = pi.value
+            # The Mini found (09-30) the popup can need a SECOND click; the
+            # sweep now runs in the agent Chrome, where Google is already
+            # signed in, so the chooser needs no password or code.
+            pop = None
+            for _attempt in range(2):
+                gsi = next((f for f in s.page.frames if "gsi/button" in f.url), None)
+                try:
+                    with s._ctx.expect_page(timeout=20000) as pi:
+                        if gsi:
+                            gsi.locator("div[role=button], button").first.click(timeout=15000)
+                        else:
+                            s.page.mouse.click(1174, 295)
+                            s.page.wait_for_timeout(1500)
+                            s.page.keyboard.press("Enter")
+                    pop = pi.value
+                    break
+                except Exception:
+                    s.page.wait_for_timeout(2000)
+            if pop is None:
+                raise RuntimeError("Google sign-in popup never opened (2 clicks)")
             pop.wait_for_load_state("domcontentloaded")
             pop.wait_for_timeout(4000)
             try:
