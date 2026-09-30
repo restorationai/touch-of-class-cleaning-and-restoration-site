@@ -56,7 +56,8 @@ def _tw(method: str, path: str, params: dict | None = None) -> dict:
         "Authorization": "Basic " + base64.b64encode(
             f"{sid}:{token}".encode()).decode()})
     with urllib.request.urlopen(req, timeout=60) as r:
-        return json.loads(r.read())
+        body = r.read()
+        return json.loads(body) if body.strip() else {}
 
 
 def provision(slug: str, source: str) -> str:
@@ -182,6 +183,73 @@ def verify_forwarding(cid: str, source: str = "gbp") -> bool:
         return False
 
 
+def replace_area(slug: str, area: str, release_old: bool = True) -> list[str]:
+    """Swap every tracking number to a new area code (Kenny/Veterans
+    2026-09-30: 337 -> 850, "still routed to you"). Buys the new number with
+    the same webhooks, points call_tracking.{source} at it (forward_to and
+    other per-source settings carry over), republishes the DNI map, then
+    releases the old number. The real line is untouched."""
+    inv = {s: c for c, s in slug_map().items()}
+    cid = inv.get(slug)
+    if not cid:
+        return [f"{slug}: no company mapping"]
+    co = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}&select=integration_settings",
+              prefer="return=representation") or [{}])[0]
+    ints = co.get("integration_settings") or {}
+    ct = ints.get("call_tracking") or {}
+    out, to_release = [], []
+    for source, entry in sorted(ct.items()):
+        old = entry.get("number") or ""
+        if not old or re.sub(r"\D", "", old)[-10:-7] == area:
+            continue
+        found = _tw("GET", "AvailablePhoneNumbers/US/Local.json",
+                    {"AreaCode": area, "PageSize": 3}).get("available_phone_numbers", [])
+        if not found:
+            out.append(f"{slug}/{source}: no {area} numbers available, kept {old}")
+            continue
+        bought = _tw("POST", "IncomingPhoneNumbers.json", {
+            "PhoneNumber": found[0]["phone_number"],
+            "FriendlyName": f"rankai-{slug}-{source}",
+            "VoiceUrl": f"{API_BASE}/call-tracking/twiml/{cid}/{source}",
+            "VoiceMethod": "POST",
+            "SmsUrl": f"{API_BASE}/call-tracking/sms/{cid}/{source}",
+            "SmsMethod": "POST"})
+        entry.update(number=bought["phone_number"], sid=bought["sid"],
+                     provisioned_at=bought.get("date_created"),
+                     replaced={"number": old, "sid": entry.get("sid"),
+                               "reason": f"area code swap to {area}"})
+        entry.pop("gbp_swapped_at", None)
+        to_release.append((source, old, entry["replaced"]["sid"]))
+        out.append(f"{slug}/{source}: {old} -> {bought['phone_number']}")
+        # save after every buy so a crash never orphans a paid number
+        _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}", {"integration_settings": ints})
+    try:
+        import dni_sync
+        dni_sync.sync(slug)
+        out.append(f"{slug}: DNI map republished")
+    except Exception as e:  # noqa: BLE001
+        out.append(f"{slug}: DNI map publish failed ({str(e)[:80]}), old numbers KEPT")
+        release_old = False
+    if release_old:
+        for source, old, sid in to_release:
+            if not sid:
+                continue
+            try:
+                _tw("DELETE", f"IncomingPhoneNumbers/{sid}.json")
+                out.append(f"{slug}/{source}: released {old}")
+            except Exception as e:  # noqa: BLE001
+                out.append(f"{slug}/{source}: release of {old} failed ({str(e)[:60]})")
+    try:
+        from work_log import work_log
+        work_log(cid, "calls", "tracking-area-swap",
+                 f"Your tracking phone numbers now use the local {area} area code "
+                 "and still ring straight to you.",
+                 evidence={"changes": out}, actor="claude")
+    except Exception:  # noqa: BLE001
+        pass
+    return out
+
+
 def list_numbers(slug: str) -> str:
     inv = {s: c for c, s in slug_map().items()}
     cid = inv.get(slug)
@@ -203,6 +271,10 @@ def main() -> int:
                         % (ALL_SOURCES,))
     pa = sub.add_parser("provision-all")
     pa.add_argument("--slug", required=True)
+    ra = sub.add_parser("replace-area")
+    ra.add_argument("--slug", required=True)
+    ra.add_argument("--area", required=True)
+    ra.add_argument("--keep-old", action="store_true")
     l_ = sub.add_parser("list")
     l_.add_argument("--slug", required=True)
     a = ap.parse_args()
@@ -210,6 +282,9 @@ def main() -> int:
         print(provision(a.slug, a.source))
     elif a.cmd == "provision-all":
         for line in provision_all(a.slug):
+            print(line)
+    elif a.cmd == "replace-area":
+        for line in replace_area(a.slug, a.area, release_old=not a.keep_old):
             print(line)
     else:
         print(list_numbers(a.slug))
