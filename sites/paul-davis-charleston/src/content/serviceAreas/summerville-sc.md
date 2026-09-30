@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "2fe54d944e3a20eb"
 generated_at: "2026-09-20T14:13:25.008968+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/summerville-sc/fire-damage-restoration/", "/service-areas/summerville-sc/mold-remediation/", "/service-areas/summerville-sc/water-damage-restoration/", "/service-areas/summerville-sc/water-cleanup/", "/service-areas/awendaw-sc/", "/service-areas/goose-creek-sc/", "/service-areas/hanahan-sc/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/summerville-sc/fire-damage-restoration/", "/service-areas/summerville-sc/mold-remediation/", "/service-areas/summerville-sc/water-damage-restoration/", "/service-areas/summerville-sc/emergency-water-removal/", "/service-areas/awendaw-sc/", "/service-areas/goose-creek-sc/", "/service-areas/hanahan-sc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Summerville"}]
 faq: []
 area_slug: "summerville-sc"

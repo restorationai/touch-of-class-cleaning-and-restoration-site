@@ -13,8 +13,8 @@ P2 SERVICES  PARITY WITHOUT BLOAT (Santino 2026-09-30, the policy lives in
              scripts/site_structure.py): a GBP can carry 100-200 long-tail
              services; the site keeps one dedicated page per REAL service.
              (1) Each GBP service first maps onto an EXISTING site service
-             page when it is a synonym or long-tail of it ("Emergency Water
-             Removal" -> water-damage-restoration, "Board Up Services" ->
+             page when it is a synonym or long-tail of it ("Water
+             Extraction" -> emergency-water-removal, "Board Up Services" ->
              emergency board-up), stored per client in
              clients/{slug}/gbp-service-map.json (gbp_service_map.py: exact
              / alias / catalog / cluster / containment, then Claude). A

@@ -148,16 +148,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/water-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -600,16 +590,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/tacoma-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/tacoma-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -701,16 +681,6 @@
     "missing_stubs": []
   },
   "/service-areas/puyallup-wa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/puyallup-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -820,16 +790,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/university-place-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/university-place-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -921,16 +881,6 @@
     "missing_stubs": []
   },
   "/service-areas/lacey-wa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lacey-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1040,16 +990,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/olympia-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/olympia-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1141,16 +1081,6 @@
     "missing_stubs": []
   },
   "/service-areas/spanaway-wa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/spanaway-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1260,16 +1190,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/parkland-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/parkland-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1361,16 +1281,6 @@
     "missing_stubs": []
   },
   "/service-areas/dupont-wa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/dupont-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1480,16 +1390,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/seattle-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/seattle-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1581,16 +1481,6 @@
     "missing_stubs": []
   },
   "/service-areas/bellevue-wa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bellevue-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1700,16 +1590,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/kent-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/kent-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1801,16 +1681,6 @@
     "missing_stubs": []
   },
   "/service-areas/renton-wa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/renton-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1920,16 +1790,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/federal-way-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/federal-way-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2021,16 +1881,6 @@
     "missing_stubs": []
   },
   "/service-areas/auburn-wa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/auburn-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2140,16 +1990,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/burien-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/burien-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2241,16 +2081,6 @@
     "missing_stubs": []
   },
   "/service-areas/bonney-lake-wa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bonney-lake-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2360,16 +2190,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gig-harbor-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/gig-harbor-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2461,16 +2281,6 @@
     "missing_stubs": []
   },
   "/service-areas/south-hill-wa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/south-hill-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2580,16 +2390,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/graham-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/graham-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2681,16 +2481,6 @@
     "missing_stubs": []
   },
   "/service-areas/fife-wa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fife-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2800,16 +2590,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/tumwater-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/tumwater-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2901,16 +2681,6 @@
     "missing_stubs": []
   },
   "/service-areas/yelm-wa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/yelm-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3020,16 +2790,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bremerton-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bremerton-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3121,16 +2881,6 @@
     "missing_stubs": []
   },
   "/service-areas/port-orchard-wa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/port-orchard-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3240,16 +2990,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/centralia-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/centralia-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3341,16 +3081,6 @@
     "missing_stubs": []
   },
   "/service-areas/mcchord-afb-wa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mcchord-afb-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3460,16 +3190,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/steilacoom-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/steilacoom-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3561,16 +3281,6 @@
     "missing_stubs": []
   },
   "/service-areas/north-fort-lewis-wa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-fort-lewis-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3680,16 +3390,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/midland-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/midland-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3781,16 +3481,6 @@
     "missing_stubs": []
   },
   "/service-areas/fircrest-wa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fircrest-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3900,16 +3590,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fort-lewis-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fort-lewis-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4001,16 +3681,6 @@
     "missing_stubs": []
   },
   "/service-areas/anderson-island-wa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/anderson-island-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4120,16 +3790,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/waller-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/waller-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4221,16 +3881,6 @@
     "missing_stubs": []
   },
   "/service-areas/clover-creek-wa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/clover-creek-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4340,16 +3990,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wollochet-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wollochet-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4441,16 +4081,6 @@
     "missing_stubs": []
   },
   "/service-areas/summit-wa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/summit-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4560,16 +4190,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/summit-view-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/summit-view-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4661,16 +4281,6 @@
     "missing_stubs": []
   },
   "/service-areas/frederickson-wa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/frederickson-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

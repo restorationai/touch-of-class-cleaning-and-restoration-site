@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "e250b321bbd8c611"
 generated_at: "2026-09-23T14:11:44.812067+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/pine-level-nc/fire-damage-restoration/", "/service-areas/pine-level-nc/mold-remediation/", "/service-areas/pine-level-nc/water-damage-restoration/", "/service-areas/pine-level-nc/water-cleanup/", "/service-areas/pine-level-nc/biohazard-cleanup/", "/service-areas/pine-level-nc/odor-removal/", "/service-areas/pine-level-nc/air-duct-cleaning/", "/service-areas/pine-level-nc/crawl-space-encapsulation/", "/service-areas/pine-level-nc/insulation-removal-installation/", "/service-areas/pine-level-nc/carpet-cleaning/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/pine-level-nc/fire-damage-restoration/", "/service-areas/pine-level-nc/mold-remediation/", "/service-areas/pine-level-nc/water-damage-restoration/", "/service-areas/pine-level-nc/emergency-water-removal/", "/service-areas/pine-level-nc/biohazard-cleanup/", "/service-areas/pine-level-nc/odor-removal/", "/service-areas/pine-level-nc/air-duct-cleaning/", "/service-areas/pine-level-nc/crawl-space-encapsulation/", "/service-areas/pine-level-nc/insulation-removal-installation/", "/service-areas/pine-level-nc/carpet-cleaning/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pine Level"}]
 faq: []
 area_slug: "pine-level-nc"

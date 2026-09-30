@@ -39,7 +39,7 @@
     "sewage-cleanup",
     "storm-damage-restoration",
     "tile-grout-cleaning",
-    "water-cleanup",
+    "emergency-water-removal",
     "water-damage-restoration"
   ],
   "service_areas": [
@@ -139,6 +139,6 @@
   "merged_services": {
     "air-duct-hvac-cleaning": "air-duct-cleaning",
     "carpet-upholstery-cleaning": "carpet-cleaning",
-    "emergency-water-removal": "water-damage-restoration"
+    "water-cleanup": "emergency-water-removal"
   }
 }

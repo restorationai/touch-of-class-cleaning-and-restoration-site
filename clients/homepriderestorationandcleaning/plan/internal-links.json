@@ -14,7 +14,6 @@
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/basement-flooding-cleanup/",
     "/services/biohazard-cleanup/",
     "/services/burst-pipe-repair/",
@@ -72,7 +71,6 @@
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/basement-flooding-cleanup/",
     "/services/biohazard-cleanup/",
     "/services/burst-pipe-repair/",
@@ -524,7 +522,6 @@
     "/service-areas/heber-city-ut/water-damage-restoration/",
     "/service-areas/herriman-ut/water-damage-restoration/",
     "/service-areas/highland-ut/water-damage-restoration/",
-    "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
@@ -544,23 +541,6 @@
     "/service-areas/heber-city-ut/water-leak-detection/",
     "/service-areas/herriman-ut/water-leak-detection/",
     "/service-areas/highland-ut/water-leak-detection/"
-  ],
-  "/services/water-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
-    "/service-areas/benjamin-ut/water-cleanup/",
-    "/service-areas/bluffdale-ut/water-cleanup/",
-    "/service-areas/cedar-fort-ut/water-cleanup/",
-    "/service-areas/cedar-hills-ut/water-cleanup/",
-    "/service-areas/draper-ut/water-cleanup/",
-    "/service-areas/eagle-mountain-ut/water-cleanup/",
-    "/service-areas/fairfield-ut/water-cleanup/",
-    "/service-areas/heber-city-ut/water-cleanup/",
-    "/service-areas/herriman-ut/water-cleanup/",
-    "/service-areas/highland-ut/water-cleanup/",
-    "/services/water-damage-restoration/"
   ],
   "/services/flood-damage-restoration/": [
     "/services/",
@@ -703,7 +683,6 @@
     "/service-areas/lehi-ut/sewage-cleanup/",
     "/service-areas/lehi-ut/smoke-damage-restoration/",
     "/service-areas/lehi-ut/storm-damage-restoration/",
-    "/service-areas/lehi-ut/water-cleanup/",
     "/service-areas/lehi-ut/basement-flooding-cleanup/",
     "/service-areas/lehi-ut/biohazard-cleanup/",
     "/service-areas/lehi-ut/burst-pipe-repair/",
@@ -743,7 +722,6 @@
     "/service-areas/eagle-mountain-ut/sewage-cleanup/",
     "/service-areas/eagle-mountain-ut/smoke-damage-restoration/",
     "/service-areas/eagle-mountain-ut/storm-damage-restoration/",
-    "/service-areas/eagle-mountain-ut/water-cleanup/",
     "/service-areas/eagle-mountain-ut/basement-flooding-cleanup/",
     "/service-areas/eagle-mountain-ut/biohazard-cleanup/",
     "/service-areas/eagle-mountain-ut/burst-pipe-repair/",
@@ -783,7 +761,6 @@
     "/service-areas/american-fork-ut/sewage-cleanup/",
     "/service-areas/american-fork-ut/smoke-damage-restoration/",
     "/service-areas/american-fork-ut/storm-damage-restoration/",
-    "/service-areas/american-fork-ut/water-cleanup/",
     "/service-areas/american-fork-ut/basement-flooding-cleanup/",
     "/service-areas/american-fork-ut/biohazard-cleanup/",
     "/service-areas/american-fork-ut/burst-pipe-repair/",
@@ -823,7 +800,6 @@
     "/service-areas/pleasant-grove-ut/sewage-cleanup/",
     "/service-areas/pleasant-grove-ut/smoke-damage-restoration/",
     "/service-areas/pleasant-grove-ut/storm-damage-restoration/",
-    "/service-areas/pleasant-grove-ut/water-cleanup/",
     "/service-areas/pleasant-grove-ut/basement-flooding-cleanup/",
     "/service-areas/pleasant-grove-ut/biohazard-cleanup/",
     "/service-areas/pleasant-grove-ut/burst-pipe-repair/",
@@ -863,7 +839,6 @@
     "/service-areas/orem-ut/sewage-cleanup/",
     "/service-areas/orem-ut/smoke-damage-restoration/",
     "/service-areas/orem-ut/storm-damage-restoration/",
-    "/service-areas/orem-ut/water-cleanup/",
     "/service-areas/orem-ut/basement-flooding-cleanup/",
     "/service-areas/orem-ut/biohazard-cleanup/",
     "/service-areas/orem-ut/burst-pipe-repair/",
@@ -903,7 +878,6 @@
     "/service-areas/provo-ut/sewage-cleanup/",
     "/service-areas/provo-ut/smoke-damage-restoration/",
     "/service-areas/provo-ut/storm-damage-restoration/",
-    "/service-areas/provo-ut/water-cleanup/",
     "/service-areas/provo-ut/basement-flooding-cleanup/",
     "/service-areas/provo-ut/biohazard-cleanup/",
     "/service-areas/provo-ut/burst-pipe-repair/",
@@ -943,7 +917,6 @@
     "/service-areas/herriman-ut/sewage-cleanup/",
     "/service-areas/herriman-ut/smoke-damage-restoration/",
     "/service-areas/herriman-ut/storm-damage-restoration/",
-    "/service-areas/herriman-ut/water-cleanup/",
     "/service-areas/herriman-ut/basement-flooding-cleanup/",
     "/service-areas/herriman-ut/biohazard-cleanup/",
     "/service-areas/herriman-ut/burst-pipe-repair/",
@@ -983,7 +956,6 @@
     "/service-areas/south-jordan-ut/sewage-cleanup/",
     "/service-areas/south-jordan-ut/smoke-damage-restoration/",
     "/service-areas/south-jordan-ut/storm-damage-restoration/",
-    "/service-areas/south-jordan-ut/water-cleanup/",
     "/service-areas/south-jordan-ut/basement-flooding-cleanup/",
     "/service-areas/south-jordan-ut/biohazard-cleanup/",
     "/service-areas/south-jordan-ut/burst-pipe-repair/",
@@ -1023,7 +995,6 @@
     "/service-areas/riverton-ut/sewage-cleanup/",
     "/service-areas/riverton-ut/smoke-damage-restoration/",
     "/service-areas/riverton-ut/storm-damage-restoration/",
-    "/service-areas/riverton-ut/water-cleanup/",
     "/service-areas/riverton-ut/basement-flooding-cleanup/",
     "/service-areas/riverton-ut/biohazard-cleanup/",
     "/service-areas/riverton-ut/burst-pipe-repair/",
@@ -1063,7 +1034,6 @@
     "/service-areas/heber-city-ut/sewage-cleanup/",
     "/service-areas/heber-city-ut/smoke-damage-restoration/",
     "/service-areas/heber-city-ut/storm-damage-restoration/",
-    "/service-areas/heber-city-ut/water-cleanup/",
     "/service-areas/heber-city-ut/basement-flooding-cleanup/",
     "/service-areas/heber-city-ut/biohazard-cleanup/",
     "/service-areas/heber-city-ut/burst-pipe-repair/",
@@ -1103,7 +1073,6 @@
     "/service-areas/park-city-ut/sewage-cleanup/",
     "/service-areas/park-city-ut/smoke-damage-restoration/",
     "/service-areas/park-city-ut/storm-damage-restoration/",
-    "/service-areas/park-city-ut/water-cleanup/",
     "/service-areas/park-city-ut/basement-flooding-cleanup/",
     "/service-areas/park-city-ut/biohazard-cleanup/",
     "/service-areas/park-city-ut/burst-pipe-repair/",
@@ -1143,7 +1112,6 @@
     "/service-areas/vineyard-ut/sewage-cleanup/",
     "/service-areas/vineyard-ut/smoke-damage-restoration/",
     "/service-areas/vineyard-ut/storm-damage-restoration/",
-    "/service-areas/vineyard-ut/water-cleanup/",
     "/service-areas/vineyard-ut/basement-flooding-cleanup/",
     "/service-areas/vineyard-ut/biohazard-cleanup/",
     "/service-areas/vineyard-ut/burst-pipe-repair/",
@@ -1183,7 +1151,6 @@
     "/service-areas/highland-ut/sewage-cleanup/",
     "/service-areas/highland-ut/smoke-damage-restoration/",
     "/service-areas/highland-ut/storm-damage-restoration/",
-    "/service-areas/highland-ut/water-cleanup/",
     "/service-areas/highland-ut/basement-flooding-cleanup/",
     "/service-areas/highland-ut/biohazard-cleanup/",
     "/service-areas/highland-ut/burst-pipe-repair/",
@@ -1223,7 +1190,6 @@
     "/service-areas/lindon-ut/sewage-cleanup/",
     "/service-areas/lindon-ut/smoke-damage-restoration/",
     "/service-areas/lindon-ut/storm-damage-restoration/",
-    "/service-areas/lindon-ut/water-cleanup/",
     "/service-areas/lindon-ut/basement-flooding-cleanup/",
     "/service-areas/lindon-ut/biohazard-cleanup/",
     "/service-areas/lindon-ut/burst-pipe-repair/",
@@ -1263,7 +1229,6 @@
     "/service-areas/fairfield-ut/sewage-cleanup/",
     "/service-areas/fairfield-ut/smoke-damage-restoration/",
     "/service-areas/fairfield-ut/storm-damage-restoration/",
-    "/service-areas/fairfield-ut/water-cleanup/",
     "/service-areas/fairfield-ut/basement-flooding-cleanup/",
     "/service-areas/fairfield-ut/biohazard-cleanup/",
     "/service-areas/fairfield-ut/burst-pipe-repair/",
@@ -1303,7 +1268,6 @@
     "/service-areas/cedar-hills-ut/sewage-cleanup/",
     "/service-areas/cedar-hills-ut/smoke-damage-restoration/",
     "/service-areas/cedar-hills-ut/storm-damage-restoration/",
-    "/service-areas/cedar-hills-ut/water-cleanup/",
     "/service-areas/cedar-hills-ut/basement-flooding-cleanup/",
     "/service-areas/cedar-hills-ut/biohazard-cleanup/",
     "/service-areas/cedar-hills-ut/burst-pipe-repair/",
@@ -1343,7 +1307,6 @@
     "/service-areas/cedar-fort-ut/sewage-cleanup/",
     "/service-areas/cedar-fort-ut/smoke-damage-restoration/",
     "/service-areas/cedar-fort-ut/storm-damage-restoration/",
-    "/service-areas/cedar-fort-ut/water-cleanup/",
     "/service-areas/cedar-fort-ut/basement-flooding-cleanup/",
     "/service-areas/cedar-fort-ut/biohazard-cleanup/",
     "/service-areas/cedar-fort-ut/burst-pipe-repair/",
@@ -1383,7 +1346,6 @@
     "/service-areas/bluffdale-ut/sewage-cleanup/",
     "/service-areas/bluffdale-ut/smoke-damage-restoration/",
     "/service-areas/bluffdale-ut/storm-damage-restoration/",
-    "/service-areas/bluffdale-ut/water-cleanup/",
     "/service-areas/bluffdale-ut/basement-flooding-cleanup/",
     "/service-areas/bluffdale-ut/biohazard-cleanup/",
     "/service-areas/bluffdale-ut/burst-pipe-repair/",
@@ -1423,7 +1385,6 @@
     "/service-areas/alpine-ut/sewage-cleanup/",
     "/service-areas/alpine-ut/smoke-damage-restoration/",
     "/service-areas/alpine-ut/storm-damage-restoration/",
-    "/service-areas/alpine-ut/water-cleanup/",
     "/service-areas/alpine-ut/basement-flooding-cleanup/",
     "/service-areas/alpine-ut/biohazard-cleanup/",
     "/service-areas/alpine-ut/burst-pipe-repair/",
@@ -1463,7 +1424,6 @@
     "/service-areas/draper-ut/sewage-cleanup/",
     "/service-areas/draper-ut/smoke-damage-restoration/",
     "/service-areas/draper-ut/storm-damage-restoration/",
-    "/service-areas/draper-ut/water-cleanup/",
     "/service-areas/draper-ut/basement-flooding-cleanup/",
     "/service-areas/draper-ut/biohazard-cleanup/",
     "/service-areas/draper-ut/burst-pipe-repair/",
@@ -1503,7 +1463,6 @@
     "/service-areas/lake-shore-ut/sewage-cleanup/",
     "/service-areas/lake-shore-ut/smoke-damage-restoration/",
     "/service-areas/lake-shore-ut/storm-damage-restoration/",
-    "/service-areas/lake-shore-ut/water-cleanup/",
     "/service-areas/lake-shore-ut/basement-flooding-cleanup/",
     "/service-areas/lake-shore-ut/biohazard-cleanup/",
     "/service-areas/lake-shore-ut/burst-pipe-repair/",
@@ -1543,7 +1502,6 @@
     "/service-areas/benjamin-ut/sewage-cleanup/",
     "/service-areas/benjamin-ut/smoke-damage-restoration/",
     "/service-areas/benjamin-ut/storm-damage-restoration/",
-    "/service-areas/benjamin-ut/water-cleanup/",
     "/service-areas/benjamin-ut/basement-flooding-cleanup/",
     "/service-areas/benjamin-ut/biohazard-cleanup/",
     "/service-areas/benjamin-ut/burst-pipe-repair/",
@@ -1784,15 +1742,6 @@
     "/service-areas/lehi-ut/mold-remediation/",
     "/service-areas/alpine-ut/water-leak-detection/",
     "/service-areas/american-fork-ut/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/lehi-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/lehi-ut/",
-    "/service-areas/lehi-ut/fire-damage-restoration/",
-    "/service-areas/lehi-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/lehi-ut/flood-damage-restoration/": [
@@ -2083,15 +2032,6 @@
     "/service-areas/american-fork-ut/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/eagle-mountain-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/eagle-mountain-ut/",
-    "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
-    "/service-areas/eagle-mountain-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/eagle-mountain-ut/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/eagle-mountain-ut/",
@@ -2378,15 +2318,6 @@
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/water-leak-detection/",
     "/service-areas/benjamin-ut/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/american-fork-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/american-fork-ut/",
-    "/service-areas/american-fork-ut/fire-damage-restoration/",
-    "/service-areas/american-fork-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/benjamin-ut/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/flood-damage-restoration/": [
@@ -2677,15 +2608,6 @@
     "/service-areas/american-fork-ut/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/pleasant-grove-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/pleasant-grove-ut/",
-    "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
-    "/service-areas/pleasant-grove-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/pleasant-grove-ut/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/pleasant-grove-ut/",
@@ -2972,15 +2894,6 @@
     "/service-areas/orem-ut/mold-remediation/",
     "/service-areas/alpine-ut/water-leak-detection/",
     "/service-areas/american-fork-ut/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/orem-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/orem-ut/",
-    "/service-areas/orem-ut/fire-damage-restoration/",
-    "/service-areas/orem-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/orem-ut/flood-damage-restoration/": [
@@ -3271,15 +3184,6 @@
     "/service-areas/american-fork-ut/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/provo-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/provo-ut/",
-    "/service-areas/provo-ut/fire-damage-restoration/",
-    "/service-areas/provo-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/provo-ut/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/provo-ut/",
@@ -3566,15 +3470,6 @@
     "/service-areas/herriman-ut/mold-remediation/",
     "/service-areas/alpine-ut/water-leak-detection/",
     "/service-areas/american-fork-ut/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/herriman-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/herriman-ut/",
-    "/service-areas/herriman-ut/fire-damage-restoration/",
-    "/service-areas/herriman-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/herriman-ut/flood-damage-restoration/": [
@@ -3865,15 +3760,6 @@
     "/service-areas/american-fork-ut/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/south-jordan-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/south-jordan-ut/",
-    "/service-areas/south-jordan-ut/fire-damage-restoration/",
-    "/service-areas/south-jordan-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/south-jordan-ut/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/south-jordan-ut/",
@@ -4160,15 +4046,6 @@
     "/service-areas/riverton-ut/mold-remediation/",
     "/service-areas/alpine-ut/water-leak-detection/",
     "/service-areas/american-fork-ut/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/riverton-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/riverton-ut/",
-    "/service-areas/riverton-ut/fire-damage-restoration/",
-    "/service-areas/riverton-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/riverton-ut/flood-damage-restoration/": [
@@ -4459,15 +4336,6 @@
     "/service-areas/american-fork-ut/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/heber-city-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/heber-city-ut/",
-    "/service-areas/heber-city-ut/fire-damage-restoration/",
-    "/service-areas/heber-city-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/heber-city-ut/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/heber-city-ut/",
@@ -4754,15 +4622,6 @@
     "/service-areas/park-city-ut/mold-remediation/",
     "/service-areas/alpine-ut/water-leak-detection/",
     "/service-areas/american-fork-ut/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/park-city-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/park-city-ut/",
-    "/service-areas/park-city-ut/fire-damage-restoration/",
-    "/service-areas/park-city-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/park-city-ut/flood-damage-restoration/": [
@@ -5053,15 +4912,6 @@
     "/service-areas/american-fork-ut/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/vineyard-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/vineyard-ut/",
-    "/service-areas/vineyard-ut/fire-damage-restoration/",
-    "/service-areas/vineyard-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/vineyard-ut/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/vineyard-ut/",
@@ -5348,15 +5198,6 @@
     "/service-areas/highland-ut/mold-remediation/",
     "/service-areas/alpine-ut/water-leak-detection/",
     "/service-areas/american-fork-ut/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/highland-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/highland-ut/",
-    "/service-areas/highland-ut/fire-damage-restoration/",
-    "/service-areas/highland-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/highland-ut/flood-damage-restoration/": [
@@ -5647,15 +5488,6 @@
     "/service-areas/american-fork-ut/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/lindon-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/lindon-ut/",
-    "/service-areas/lindon-ut/fire-damage-restoration/",
-    "/service-areas/lindon-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/lindon-ut/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/lindon-ut/",
@@ -5942,15 +5774,6 @@
     "/service-areas/fairfield-ut/mold-remediation/",
     "/service-areas/alpine-ut/water-leak-detection/",
     "/service-areas/american-fork-ut/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/fairfield-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/fairfield-ut/",
-    "/service-areas/fairfield-ut/fire-damage-restoration/",
-    "/service-areas/fairfield-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/fairfield-ut/flood-damage-restoration/": [
@@ -6241,15 +6064,6 @@
     "/service-areas/american-fork-ut/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/cedar-hills-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/cedar-hills-ut/",
-    "/service-areas/cedar-hills-ut/fire-damage-restoration/",
-    "/service-areas/cedar-hills-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/cedar-hills-ut/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/cedar-hills-ut/",
@@ -6536,15 +6350,6 @@
     "/service-areas/cedar-fort-ut/mold-remediation/",
     "/service-areas/alpine-ut/water-leak-detection/",
     "/service-areas/american-fork-ut/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/cedar-fort-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/cedar-fort-ut/",
-    "/service-areas/cedar-fort-ut/fire-damage-restoration/",
-    "/service-areas/cedar-fort-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/cedar-fort-ut/flood-damage-restoration/": [
@@ -6835,15 +6640,6 @@
     "/service-areas/american-fork-ut/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/bluffdale-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/bluffdale-ut/",
-    "/service-areas/bluffdale-ut/fire-damage-restoration/",
-    "/service-areas/bluffdale-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/bluffdale-ut/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/bluffdale-ut/",
@@ -7130,15 +6926,6 @@
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/water-leak-detection/",
     "/service-areas/benjamin-ut/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/alpine-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/alpine-ut/",
-    "/service-areas/alpine-ut/fire-damage-restoration/",
-    "/service-areas/alpine-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/water-cleanup/",
-    "/service-areas/benjamin-ut/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/flood-damage-restoration/": [
@@ -7429,15 +7216,6 @@
     "/service-areas/american-fork-ut/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/draper-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/draper-ut/",
-    "/service-areas/draper-ut/fire-damage-restoration/",
-    "/service-areas/draper-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/draper-ut/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/draper-ut/",
@@ -7726,15 +7504,6 @@
     "/service-areas/american-fork-ut/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/lake-shore-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/lake-shore-ut/",
-    "/service-areas/lake-shore-ut/fire-damage-restoration/",
-    "/service-areas/lake-shore-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/lake-shore-ut/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/lake-shore-ut/",
@@ -8021,15 +7790,6 @@
     "/service-areas/benjamin-ut/mold-remediation/",
     "/service-areas/alpine-ut/water-leak-detection/",
     "/service-areas/american-fork-ut/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/benjamin-ut/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/benjamin-ut/",
-    "/service-areas/benjamin-ut/fire-damage-restoration/",
-    "/service-areas/benjamin-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-cleanup/",
-    "/service-areas/american-fork-ut/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/benjamin-ut/flood-damage-restoration/": [

@@ -1543,58 +1543,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Saratoga Springs | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Saratoga Springs",
-      "meta_description": "24/7 emergency water cleanup in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup saratoga springs",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
-        "/service-areas/benjamin-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
-        "/service-areas/cedar-fort-ut/water-cleanup/",
-        "/service-areas/cedar-hills-ut/water-cleanup/",
-        "/service-areas/draper-ut/water-cleanup/",
-        "/service-areas/eagle-mountain-ut/water-cleanup/",
-        "/service-areas/fairfield-ut/water-cleanup/",
-        "/service-areas/heber-city-ut/water-cleanup/",
-        "/service-areas/herriman-ut/water-cleanup/",
-        "/service-areas/highland-ut/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/services/flood-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -4651,51 +4599,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lehi-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lehi, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Lehi",
-      "meta_description": "24/7 emergency water cleanup in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup lehi",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lehi-ut/",
-        "/service-areas/lehi-ut/fire-damage-restoration/",
-        "/service-areas/lehi-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lehi-ut/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6094,51 +5997,6 @@
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/alpine-ut/water-leak-detection/",
         "/service-areas/american-fork-ut/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/eagle-mountain-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Eagle Mountain, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Eagle Mountain",
-      "meta_description": "24/7 emergency water cleanup in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup eagle mountain",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/eagle-mountain-ut/",
-        "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
-        "/service-areas/eagle-mountain-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -7545,51 +7403,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/american-fork-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in American Fork, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in American Fork",
-      "meta_description": "24/7 emergency water cleanup in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup american fork",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/american-fork-ut/",
-        "/service-areas/american-fork-ut/fire-damage-restoration/",
-        "/service-areas/american-fork-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/benjamin-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/american-fork-ut/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8988,51 +8801,6 @@
         "/service-areas/pleasant-grove-ut/mold-remediation/",
         "/service-areas/alpine-ut/water-leak-detection/",
         "/service-areas/american-fork-ut/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pleasant-grove-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Pleasant Grove, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Pleasant Grove",
-      "meta_description": "24/7 emergency water cleanup in Pleasant Grove, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup pleasant grove",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/pleasant-grove-ut/",
-        "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
-        "/service-areas/pleasant-grove-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -10439,51 +10207,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/orem-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Orem, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Orem",
-      "meta_description": "24/7 emergency water cleanup in Orem, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup orem",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/orem-ut/",
-        "/service-areas/orem-ut/fire-damage-restoration/",
-        "/service-areas/orem-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/orem-ut/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11882,51 +11605,6 @@
         "/service-areas/provo-ut/mold-remediation/",
         "/service-areas/alpine-ut/water-leak-detection/",
         "/service-areas/american-fork-ut/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/provo-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Provo, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Provo",
-      "meta_description": "24/7 emergency water cleanup in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup provo",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/provo-ut/",
-        "/service-areas/provo-ut/fire-damage-restoration/",
-        "/service-areas/provo-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -13333,51 +13011,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/herriman-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Herriman, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Herriman",
-      "meta_description": "24/7 emergency water cleanup in Herriman, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup herriman",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/herriman-ut/",
-        "/service-areas/herriman-ut/fire-damage-restoration/",
-        "/service-areas/herriman-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/herriman-ut/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14776,51 +14409,6 @@
         "/service-areas/south-jordan-ut/mold-remediation/",
         "/service-areas/alpine-ut/water-leak-detection/",
         "/service-areas/american-fork-ut/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/south-jordan-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in South Jordan, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in South Jordan",
-      "meta_description": "24/7 emergency water cleanup in South Jordan, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup south jordan",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/south-jordan-ut/",
-        "/service-areas/south-jordan-ut/fire-damage-restoration/",
-        "/service-areas/south-jordan-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -16227,51 +15815,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/riverton-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Riverton, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Riverton",
-      "meta_description": "24/7 emergency water cleanup in Riverton, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup riverton",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/riverton-ut/",
-        "/service-areas/riverton-ut/fire-damage-restoration/",
-        "/service-areas/riverton-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/riverton-ut/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17670,51 +17213,6 @@
         "/service-areas/heber-city-ut/mold-remediation/",
         "/service-areas/alpine-ut/water-leak-detection/",
         "/service-areas/american-fork-ut/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/heber-city-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Heber City, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Heber City",
-      "meta_description": "24/7 emergency water cleanup in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup heber city",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/heber-city-ut/",
-        "/service-areas/heber-city-ut/fire-damage-restoration/",
-        "/service-areas/heber-city-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -19121,51 +18619,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/park-city-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Park City, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Park City",
-      "meta_description": "24/7 emergency water cleanup in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup park city",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/park-city-ut/",
-        "/service-areas/park-city-ut/fire-damage-restoration/",
-        "/service-areas/park-city-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/park-city-ut/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20564,51 +20017,6 @@
         "/service-areas/vineyard-ut/mold-remediation/",
         "/service-areas/alpine-ut/water-leak-detection/",
         "/service-areas/american-fork-ut/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/vineyard-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Vineyard, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Vineyard",
-      "meta_description": "24/7 emergency water cleanup in Vineyard, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup vineyard",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/vineyard-ut/",
-        "/service-areas/vineyard-ut/fire-damage-restoration/",
-        "/service-areas/vineyard-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -22015,51 +21423,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/highland-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Highland, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Highland",
-      "meta_description": "24/7 emergency water cleanup in Highland, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup highland",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/highland-ut/",
-        "/service-areas/highland-ut/fire-damage-restoration/",
-        "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/highland-ut/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -23458,51 +22821,6 @@
         "/service-areas/lindon-ut/mold-remediation/",
         "/service-areas/alpine-ut/water-leak-detection/",
         "/service-areas/american-fork-ut/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lindon-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lindon, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Lindon",
-      "meta_description": "24/7 emergency water cleanup in Lindon, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup lindon",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lindon-ut/",
-        "/service-areas/lindon-ut/fire-damage-restoration/",
-        "/service-areas/lindon-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -24909,51 +24227,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fairfield-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Fairfield, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Fairfield",
-      "meta_description": "24/7 emergency water cleanup in Fairfield, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup fairfield",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/fairfield-ut/",
-        "/service-areas/fairfield-ut/fire-damage-restoration/",
-        "/service-areas/fairfield-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fairfield-ut/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -26352,51 +25625,6 @@
         "/service-areas/cedar-hills-ut/mold-remediation/",
         "/service-areas/alpine-ut/water-leak-detection/",
         "/service-areas/american-fork-ut/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/cedar-hills-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Cedar Hills, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Cedar Hills",
-      "meta_description": "24/7 emergency water cleanup in Cedar Hills, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup cedar hills",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/cedar-hills-ut/",
-        "/service-areas/cedar-hills-ut/fire-damage-restoration/",
-        "/service-areas/cedar-hills-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -27803,51 +27031,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/cedar-fort-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Cedar Fort, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Cedar Fort",
-      "meta_description": "24/7 emergency water cleanup in Cedar Fort, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup cedar fort",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/cedar-fort-ut/",
-        "/service-areas/cedar-fort-ut/fire-damage-restoration/",
-        "/service-areas/cedar-fort-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/cedar-fort-ut/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -29246,51 +28429,6 @@
         "/service-areas/bluffdale-ut/mold-remediation/",
         "/service-areas/alpine-ut/water-leak-detection/",
         "/service-areas/american-fork-ut/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/bluffdale-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Bluffdale, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Bluffdale",
-      "meta_description": "24/7 emergency water cleanup in Bluffdale, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup bluffdale",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/bluffdale-ut/",
-        "/service-areas/bluffdale-ut/fire-damage-restoration/",
-        "/service-areas/bluffdale-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -30697,51 +29835,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/alpine-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Alpine, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Alpine",
-      "meta_description": "24/7 emergency water cleanup in Alpine, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup alpine",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/alpine-ut/",
-        "/service-areas/alpine-ut/fire-damage-restoration/",
-        "/service-areas/alpine-ut/mold-remediation/",
-        "/service-areas/american-fork-ut/water-cleanup/",
-        "/service-areas/benjamin-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/alpine-ut/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -32140,51 +31233,6 @@
         "/service-areas/draper-ut/mold-remediation/",
         "/service-areas/alpine-ut/water-leak-detection/",
         "/service-areas/american-fork-ut/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/draper-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Draper, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Draper",
-      "meta_description": "24/7 emergency water cleanup in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup draper",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/draper-ut/",
-        "/service-areas/draper-ut/fire-damage-restoration/",
-        "/service-areas/draper-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -33591,51 +32639,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lake-shore-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lake Shore, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Lake Shore",
-      "meta_description": "24/7 emergency water cleanup in Lake Shore, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup lake shore",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lake-shore-ut/",
-        "/service-areas/lake-shore-ut/fire-damage-restoration/",
-        "/service-areas/lake-shore-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lake-shore-ut/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -35034,51 +34037,6 @@
         "/service-areas/benjamin-ut/mold-remediation/",
         "/service-areas/alpine-ut/water-leak-detection/",
         "/service-areas/american-fork-ut/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/benjamin-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Benjamin, UT | Home Pride Restoration and Cleaning",
-      "h1": "Emergency Water Cleanup in Benjamin",
-      "meta_description": "24/7 emergency water cleanup in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "emergency water cleanup benjamin",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/benjamin-ut/",
-        "/service-areas/benjamin-ut/fire-damage-restoration/",
-        "/service-areas/benjamin-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/american-fork-ut/water-cleanup/",
         "/contact/"
       ]
     },

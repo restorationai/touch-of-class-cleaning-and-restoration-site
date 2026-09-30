@@ -367,53 +367,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Water Cleanup in Macomb | Flood Solutions inc",
-      "h1": "Water Cleanup in Macomb",
-      "meta_description": "Water cleanup in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "emergency water cleanup macomb",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/chesterfield-mi/water-cleanup/",
-        "/service-areas/clinton-township-mi/water-cleanup/",
-        "/service-areas/rochester-hills-mi/water-cleanup/",
-        "/service-areas/shelby-township-mi/water-cleanup/",
-        "/service-areas/sterling-heights-mi/water-cleanup/",
-        "/service-areas/troy-mi/water-cleanup/",
-        "/service-areas/utica-mi/water-cleanup/",
-        "/service-areas/warren-mi/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/services/fire-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -1782,50 +1735,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sterling-heights-mi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Sterling Heights, MI | Flood Solutions inc",
-      "h1": "Water Cleanup in Sterling Heights",
-      "meta_description": "Water cleanup in Sterling Heights, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "emergency water cleanup sterling heights",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/sterling-heights-mi/",
-        "/service-areas/sterling-heights-mi/fire-damage-restoration/",
-        "/service-areas/sterling-heights-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/water-cleanup/",
-        "/service-areas/clinton-township-mi/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sterling-heights-mi/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2675,50 +2584,6 @@
         "/service-areas/warren-mi/mold-remediation/",
         "/service-areas/chesterfield-mi/sewage-cleanup/",
         "/service-areas/clinton-township-mi/sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/warren-mi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Warren, MI | Flood Solutions inc",
-      "h1": "Water Cleanup in Warren",
-      "meta_description": "Water cleanup in Warren, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "emergency water cleanup warren",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/warren-mi/",
-        "/service-areas/warren-mi/fire-damage-restoration/",
-        "/service-areas/warren-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/water-cleanup/",
-        "/service-areas/clinton-township-mi/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3576,50 +3441,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/clinton-township-mi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Clinton Township, MI | Flood Solutions inc",
-      "h1": "Water Cleanup in Clinton Township",
-      "meta_description": "Water cleanup in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "emergency water cleanup clinton township",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/clinton-township-mi/",
-        "/service-areas/clinton-township-mi/fire-damage-restoration/",
-        "/service-areas/clinton-township-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/water-cleanup/",
-        "/service-areas/rochester-hills-mi/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/clinton-township-mi/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4469,50 +4290,6 @@
         "/service-areas/troy-mi/mold-remediation/",
         "/service-areas/chesterfield-mi/sewage-cleanup/",
         "/service-areas/clinton-township-mi/sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/troy-mi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Troy, MI | Flood Solutions inc",
-      "h1": "Water Cleanup in Troy",
-      "meta_description": "Water cleanup in Troy, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "emergency water cleanup troy",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/troy-mi/",
-        "/service-areas/troy-mi/fire-damage-restoration/",
-        "/service-areas/troy-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/water-cleanup/",
-        "/service-areas/clinton-township-mi/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5370,50 +5147,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rochester-hills-mi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Rochester Hills, MI | Flood Solutions inc",
-      "h1": "Water Cleanup in Rochester Hills",
-      "meta_description": "Water cleanup in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "emergency water cleanup rochester hills",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/rochester-hills-mi/",
-        "/service-areas/rochester-hills-mi/fire-damage-restoration/",
-        "/service-areas/rochester-hills-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/water-cleanup/",
-        "/service-areas/clinton-township-mi/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rochester-hills-mi/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6263,50 +5996,6 @@
         "/service-areas/shelby-township-mi/mold-remediation/",
         "/service-areas/chesterfield-mi/sewage-cleanup/",
         "/service-areas/clinton-township-mi/sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/shelby-township-mi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Shelby Township, MI | Flood Solutions inc",
-      "h1": "Water Cleanup in Shelby Township",
-      "meta_description": "Water cleanup in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "emergency water cleanup shelby township",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/shelby-township-mi/",
-        "/service-areas/shelby-township-mi/fire-damage-restoration/",
-        "/service-areas/shelby-township-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/water-cleanup/",
-        "/service-areas/clinton-township-mi/water-cleanup/",
         "/contact/"
       ]
     },
@@ -7164,50 +6853,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/utica-mi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Utica, MI | Flood Solutions inc",
-      "h1": "Water Cleanup in Utica",
-      "meta_description": "Water cleanup in Utica, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "emergency water cleanup utica",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/utica-mi/",
-        "/service-areas/utica-mi/fire-damage-restoration/",
-        "/service-areas/utica-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/water-cleanup/",
-        "/service-areas/clinton-township-mi/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/utica-mi/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8057,50 +7702,6 @@
         "/service-areas/chesterfield-mi/mold-remediation/",
         "/service-areas/clinton-township-mi/sewage-cleanup/",
         "/service-areas/rochester-hills-mi/sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/chesterfield-mi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Chesterfield, MI | Flood Solutions inc",
-      "h1": "Water Cleanup in Chesterfield",
-      "meta_description": "Water cleanup in Chesterfield, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "emergency water cleanup chesterfield",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/chesterfield-mi/",
-        "/service-areas/chesterfield-mi/fire-damage-restoration/",
-        "/service-areas/chesterfield-mi/mold-remediation/",
-        "/service-areas/clinton-township-mi/water-cleanup/",
-        "/service-areas/rochester-hills-mi/water-cleanup/",
         "/contact/"
       ]
     },

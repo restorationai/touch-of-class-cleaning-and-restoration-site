@@ -44,7 +44,7 @@
     "mold-remediation",
     "sewage-cleanup",
     "storm-damage-restoration",
-    "water-cleanup",
+    "emergency-water-removal",
     "water-damage-restoration",
     "basement-flooding-cleanup",
     "burst-pipe-repair",
@@ -413,7 +413,7 @@
     "flood-damage-restoration"
   ],
   "merged_services": {
-    "emergency-water-removal": "water-damage-restoration",
-    "hurricane-damage-restoration": "storm-damage-restoration"
+    "hurricane-damage-restoration": "storm-damage-restoration",
+    "water-cleanup": "emergency-water-removal"
   }
 }

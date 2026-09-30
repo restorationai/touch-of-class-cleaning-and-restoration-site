@@ -78,16 +78,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/fire-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -360,16 +350,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sterling-heights-mi/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sterling-heights-mi/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -561,16 +541,6 @@
     "missing_stubs": []
   },
   "/service-areas/warren-mi/sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/warren-mi/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -780,16 +750,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/clinton-township-mi/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/clinton-township-mi/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -981,16 +941,6 @@
     "missing_stubs": []
   },
   "/service-areas/troy-mi/sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/troy-mi/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1200,16 +1150,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rochester-hills-mi/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/rochester-hills-mi/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1401,16 +1341,6 @@
     "missing_stubs": []
   },
   "/service-areas/shelby-township-mi/sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/shelby-township-mi/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1620,16 +1550,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/utica-mi/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/utica-mi/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1821,16 +1741,6 @@
     "missing_stubs": []
   },
   "/service-areas/chesterfield-mi/sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/chesterfield-mi/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

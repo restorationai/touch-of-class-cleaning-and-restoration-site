@@ -1178,58 +1178,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Gulfport | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Gulfport",
-      "meta_description": "24/7 emergency water cleanup in Gulfport and surrounding areas. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup gulfport",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/service-areas/benndale-ms/water-cleanup/",
-        "/service-areas/big-point-ms/water-cleanup/",
-        "/service-areas/biloxi-ms/water-cleanup/",
-        "/service-areas/d-iberville-ms/water-cleanup/",
-        "/service-areas/delisle-ms/water-cleanup/",
-        "/service-areas/diamondhead-ms/water-cleanup/",
-        "/service-areas/eastabuchie-ms/water-cleanup/",
-        "/service-areas/ellisville-ms/water-cleanup/",
-        "/service-areas/escatawpa-ms/water-cleanup/",
-        "/service-areas/gautier-ms/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/services/flood-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -5819,51 +5767,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/eastabuchie-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Eastabuchie, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Eastabuchie",
-      "meta_description": "24/7 emergency water cleanup in Eastabuchie, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup eastabuchie",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/eastabuchie-ms/",
-        "/service-areas/eastabuchie-ms/fire-damage-restoration/",
-        "/service-areas/eastabuchie-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/eastabuchie-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7085,51 +6988,6 @@
         "/service-areas/hattiesburg-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hattiesburg-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Hattiesburg, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Hattiesburg",
-      "meta_description": "24/7 emergency water cleanup in Hattiesburg, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup hattiesburg",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/hattiesburg-ms/",
-        "/service-areas/hattiesburg-ms/fire-damage-restoration/",
-        "/service-areas/hattiesburg-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -8359,51 +8217,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/petal-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Petal, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Petal",
-      "meta_description": "24/7 emergency water cleanup in Petal, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup petal",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/petal-ms/",
-        "/service-areas/petal-ms/fire-damage-restoration/",
-        "/service-areas/petal-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/petal-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9625,51 +9438,6 @@
         "/service-areas/rawls-springs-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rawls-springs-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Rawls Springs, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Rawls Springs",
-      "meta_description": "24/7 emergency water cleanup in Rawls Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup rawls springs",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/rawls-springs-ms/",
-        "/service-areas/rawls-springs-ms/fire-damage-restoration/",
-        "/service-areas/rawls-springs-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -10899,51 +10667,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/leakesville-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Leakesville, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Leakesville",
-      "meta_description": "24/7 emergency water cleanup in Leakesville, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup leakesville",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/leakesville-ms/",
-        "/service-areas/leakesville-ms/fire-damage-restoration/",
-        "/service-areas/leakesville-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/leakesville-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12165,51 +11888,6 @@
         "/service-areas/mclain-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mclain-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in McLain, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in McLain",
-      "meta_description": "24/7 emergency water cleanup in McLain, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup mclain",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/mclain-ms/",
-        "/service-areas/mclain-ms/fire-damage-restoration/",
-        "/service-areas/mclain-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -13439,51 +13117,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/state-line-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in State Line, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in State Line",
-      "meta_description": "24/7 emergency water cleanup in State Line, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup state line",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/state-line-ms/",
-        "/service-areas/state-line-ms/fire-damage-restoration/",
-        "/service-areas/state-line-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/state-line-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14705,51 +14338,6 @@
         "/service-areas/biloxi-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/biloxi-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Biloxi, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Biloxi",
-      "meta_description": "24/7 emergency water cleanup in Biloxi, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup biloxi",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/biloxi-ms/",
-        "/service-areas/biloxi-ms/fire-damage-restoration/",
-        "/service-areas/biloxi-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -15979,51 +15567,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/d-iberville-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in D'Iberville, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in D'Iberville",
-      "meta_description": "24/7 emergency water cleanup in D'Iberville, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup d'iberville",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/d-iberville-ms/",
-        "/service-areas/d-iberville-ms/fire-damage-restoration/",
-        "/service-areas/d-iberville-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/d-iberville-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17245,51 +16788,6 @@
         "/service-areas/delisle-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/delisle-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in DeLisle, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in DeLisle",
-      "meta_description": "24/7 emergency water cleanup in DeLisle, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup delisle",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/delisle-ms/",
-        "/service-areas/delisle-ms/fire-damage-restoration/",
-        "/service-areas/delisle-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -18519,51 +18017,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/diamondhead-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Diamondhead, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Diamondhead",
-      "meta_description": "24/7 emergency water cleanup in Diamondhead, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup diamondhead",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/diamondhead-ms/",
-        "/service-areas/diamondhead-ms/fire-damage-restoration/",
-        "/service-areas/diamondhead-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/diamondhead-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19785,51 +19238,6 @@
         "/service-areas/henderson-point-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/henderson-point-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Henderson Point, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Henderson Point",
-      "meta_description": "24/7 emergency water cleanup in Henderson Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup henderson point",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/henderson-point-ms/",
-        "/service-areas/henderson-point-ms/fire-damage-restoration/",
-        "/service-areas/henderson-point-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -21059,51 +20467,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/latimer-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Latimer, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Latimer",
-      "meta_description": "24/7 emergency water cleanup in Latimer, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup latimer",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/latimer-ms/",
-        "/service-areas/latimer-ms/fire-damage-restoration/",
-        "/service-areas/latimer-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/latimer-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22325,51 +21688,6 @@
         "/service-areas/long-beach-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/long-beach-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Long Beach, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Long Beach",
-      "meta_description": "24/7 emergency water cleanup in Long Beach, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup long beach",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/long-beach-ms/",
-        "/service-areas/long-beach-ms/fire-damage-restoration/",
-        "/service-areas/long-beach-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -23599,51 +22917,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lyman-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lyman, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Lyman",
-      "meta_description": "24/7 emergency water cleanup in Lyman, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup lyman",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lyman-ms/",
-        "/service-areas/lyman-ms/fire-damage-restoration/",
-        "/service-areas/lyman-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lyman-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -24865,51 +24138,6 @@
         "/service-areas/pass-christian-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pass-christian-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Pass Christian, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Pass Christian",
-      "meta_description": "24/7 emergency water cleanup in Pass Christian, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup pass christian",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/pass-christian-ms/",
-        "/service-areas/pass-christian-ms/fire-damage-restoration/",
-        "/service-areas/pass-christian-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -26139,51 +25367,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/saucier-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Saucier, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Saucier",
-      "meta_description": "24/7 emergency water cleanup in Saucier, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup saucier",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/saucier-ms/",
-        "/service-areas/saucier-ms/fire-damage-restoration/",
-        "/service-areas/saucier-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/saucier-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -27405,51 +26588,6 @@
         "/service-areas/st-martin-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/st-martin-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in St. Martin, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in St. Martin",
-      "meta_description": "24/7 emergency water cleanup in St. Martin, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup st. martin",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/st-martin-ms/",
-        "/service-areas/st-martin-ms/fire-damage-restoration/",
-        "/service-areas/st-martin-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -28679,51 +27817,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/bay-st-louis-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Bay St. Louis, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Bay St. Louis",
-      "meta_description": "24/7 emergency water cleanup in Bay St. Louis, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup bay st. louis",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/",
-        "/service-areas/bay-st-louis-ms/fire-damage-restoration/",
-        "/service-areas/bay-st-louis-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/benndale-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/bay-st-louis-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -29945,51 +29038,6 @@
         "/service-areas/kiln-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/kiln-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Kiln, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Kiln",
-      "meta_description": "24/7 emergency water cleanup in Kiln, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup kiln",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/kiln-ms/",
-        "/service-areas/kiln-ms/fire-damage-restoration/",
-        "/service-areas/kiln-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -31219,51 +30267,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/pearlington-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Pearlington, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Pearlington",
-      "meta_description": "24/7 emergency water cleanup in Pearlington, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup pearlington",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/pearlington-ms/",
-        "/service-areas/pearlington-ms/fire-damage-restoration/",
-        "/service-areas/pearlington-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/pearlington-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -32485,51 +31488,6 @@
         "/service-areas/picayune-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/picayune-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Picayune, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Picayune",
-      "meta_description": "24/7 emergency water cleanup in Picayune, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup picayune",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/picayune-ms/",
-        "/service-areas/picayune-ms/fire-damage-restoration/",
-        "/service-areas/picayune-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -33759,51 +32717,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/waveland-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Waveland, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Waveland",
-      "meta_description": "24/7 emergency water cleanup in Waveland, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup waveland",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/waveland-ms/",
-        "/service-areas/waveland-ms/fire-damage-restoration/",
-        "/service-areas/waveland-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/waveland-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -35025,51 +33938,6 @@
         "/service-areas/wiggins-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/wiggins-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Wiggins, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Wiggins",
-      "meta_description": "24/7 emergency water cleanup in Wiggins, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup wiggins",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/wiggins-ms/",
-        "/service-areas/wiggins-ms/fire-damage-restoration/",
-        "/service-areas/wiggins-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -36299,51 +35167,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/hide-a-way-lake-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Hide-A-Way Lake, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Hide-A-Way Lake",
-      "meta_description": "24/7 emergency water cleanup in Hide-A-Way Lake, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup hide-a-way lake",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/hide-a-way-lake-ms/",
-        "/service-areas/hide-a-way-lake-ms/fire-damage-restoration/",
-        "/service-areas/hide-a-way-lake-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hide-a-way-lake-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -37565,51 +36388,6 @@
         "/service-areas/lumberton-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lumberton-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lumberton, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Lumberton",
-      "meta_description": "24/7 emergency water cleanup in Lumberton, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup lumberton",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lumberton-ms/",
-        "/service-areas/lumberton-ms/fire-damage-restoration/",
-        "/service-areas/lumberton-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -38839,51 +37617,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/poplarville-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Poplarville, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Poplarville",
-      "meta_description": "24/7 emergency water cleanup in Poplarville, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup poplarville",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/poplarville-ms/",
-        "/service-areas/poplarville-ms/fire-damage-restoration/",
-        "/service-areas/poplarville-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/poplarville-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -40105,51 +38838,6 @@
         "/service-areas/big-point-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/big-point-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Big Point, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Big Point",
-      "meta_description": "24/7 emergency water cleanup in Big Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup big point",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/big-point-ms/",
-        "/service-areas/big-point-ms/fire-damage-restoration/",
-        "/service-areas/big-point-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -41379,51 +40067,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/escatawpa-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Escatawpa, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Escatawpa",
-      "meta_description": "24/7 emergency water cleanup in Escatawpa, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup escatawpa",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/escatawpa-ms/",
-        "/service-areas/escatawpa-ms/fire-damage-restoration/",
-        "/service-areas/escatawpa-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/escatawpa-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -42645,51 +41288,6 @@
         "/service-areas/gautier-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/gautier-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Gautier, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Gautier",
-      "meta_description": "24/7 emergency water cleanup in Gautier, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup gautier",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/gautier-ms/",
-        "/service-areas/gautier-ms/fire-damage-restoration/",
-        "/service-areas/gautier-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -43919,51 +42517,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/gulf-hills-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Gulf Hills, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Gulf Hills",
-      "meta_description": "24/7 emergency water cleanup in Gulf Hills, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup gulf hills",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/gulf-hills-ms/",
-        "/service-areas/gulf-hills-ms/fire-damage-restoration/",
-        "/service-areas/gulf-hills-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/gulf-hills-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -45185,51 +43738,6 @@
         "/service-areas/gulf-park-estates-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/gulf-park-estates-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Gulf Park Estates, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Gulf Park Estates",
-      "meta_description": "24/7 emergency water cleanup in Gulf Park Estates, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup gulf park estates",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/gulf-park-estates-ms/",
-        "/service-areas/gulf-park-estates-ms/fire-damage-restoration/",
-        "/service-areas/gulf-park-estates-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -46459,51 +44967,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/helena-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Helena, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Helena",
-      "meta_description": "24/7 emergency water cleanup in Helena, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup helena",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/helena-ms/",
-        "/service-areas/helena-ms/fire-damage-restoration/",
-        "/service-areas/helena-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/helena-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -47725,51 +46188,6 @@
         "/service-areas/hurley-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hurley-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Hurley, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Hurley",
-      "meta_description": "24/7 emergency water cleanup in Hurley, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup hurley",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/hurley-ms/",
-        "/service-areas/hurley-ms/fire-damage-restoration/",
-        "/service-areas/hurley-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -48999,51 +47417,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/moss-point-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Moss Point, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Moss Point",
-      "meta_description": "24/7 emergency water cleanup in Moss Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup moss point",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/moss-point-ms/",
-        "/service-areas/moss-point-ms/fire-damage-restoration/",
-        "/service-areas/moss-point-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/moss-point-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -50265,51 +48638,6 @@
         "/service-areas/ocean-springs-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/ocean-springs-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Ocean Springs, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Ocean Springs",
-      "meta_description": "24/7 emergency water cleanup in Ocean Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup ocean springs",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/ocean-springs-ms/",
-        "/service-areas/ocean-springs-ms/fire-damage-restoration/",
-        "/service-areas/ocean-springs-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -51539,51 +49867,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/pascagoula-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Pascagoula, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Pascagoula",
-      "meta_description": "24/7 emergency water cleanup in Pascagoula, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup pascagoula",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/pascagoula-ms/",
-        "/service-areas/pascagoula-ms/fire-damage-restoration/",
-        "/service-areas/pascagoula-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/pascagoula-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -52805,51 +51088,6 @@
         "/service-areas/vancleave-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/vancleave-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Vancleave, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Vancleave",
-      "meta_description": "24/7 emergency water cleanup in Vancleave, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup vancleave",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/vancleave-ms/",
-        "/service-areas/vancleave-ms/fire-damage-restoration/",
-        "/service-areas/vancleave-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -54079,51 +52317,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/wade-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Wade, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Wade",
-      "meta_description": "24/7 emergency water cleanup in Wade, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup wade",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/wade-ms/",
-        "/service-areas/wade-ms/fire-damage-restoration/",
-        "/service-areas/wade-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/wade-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -55345,51 +53538,6 @@
         "/service-areas/agricola-ms/mold-remediation/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
         "/service-areas/benndale-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/agricola-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Agricola, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Agricola",
-      "meta_description": "24/7 emergency water cleanup in Agricola, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup agricola",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/agricola-ms/",
-        "/service-areas/agricola-ms/fire-damage-restoration/",
-        "/service-areas/agricola-ms/mold-remediation/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/service-areas/benndale-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -56619,51 +54767,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/benndale-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Benndale, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Benndale",
-      "meta_description": "24/7 emergency water cleanup in Benndale, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup benndale",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/benndale-ms/",
-        "/service-areas/benndale-ms/fire-damage-restoration/",
-        "/service-areas/benndale-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/benndale-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -57885,51 +55988,6 @@
         "/service-areas/lucedale-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lucedale-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lucedale, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Lucedale",
-      "meta_description": "24/7 emergency water cleanup in Lucedale, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup lucedale",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lucedale-ms/",
-        "/service-areas/lucedale-ms/fire-damage-restoration/",
-        "/service-areas/lucedale-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -59159,51 +57217,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ellisville-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Ellisville, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Ellisville",
-      "meta_description": "24/7 emergency water cleanup in Ellisville, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup ellisville",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/ellisville-ms/",
-        "/service-areas/ellisville-ms/fire-damage-restoration/",
-        "/service-areas/ellisville-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ellisville-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -60425,51 +58438,6 @@
         "/service-areas/laurel-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/laurel-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Laurel, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Laurel",
-      "meta_description": "24/7 emergency water cleanup in Laurel, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup laurel",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/laurel-ms/",
-        "/service-areas/laurel-ms/fire-damage-restoration/",
-        "/service-areas/laurel-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },
@@ -61699,51 +59667,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/moselle-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Moselle, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Moselle",
-      "meta_description": "24/7 emergency water cleanup in Moselle, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup moselle",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/moselle-ms/",
-        "/service-areas/moselle-ms/fire-damage-restoration/",
-        "/service-areas/moselle-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/moselle-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -62969,51 +60892,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ovett-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Ovett, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Ovett",
-      "meta_description": "24/7 emergency water cleanup in Ovett, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup ovett",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/ovett-ms/",
-        "/service-areas/ovett-ms/fire-damage-restoration/",
-        "/service-areas/ovett-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ovett-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -64235,51 +62113,6 @@
         "/service-areas/sandersville-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sandersville-ms/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Sandersville, MS | HomeLyft Restoration MS",
-      "h1": "Emergency Water Cleanup in Sandersville",
-      "meta_description": "24/7 emergency water cleanup in Sandersville, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
-      "primary_keyword": "emergency water cleanup sandersville",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/sandersville-ms/",
-        "/service-areas/sandersville-ms/fire-damage-restoration/",
-        "/service-areas/sandersville-ms/mold-remediation/",
-        "/service-areas/agricola-ms/water-cleanup/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/contact/"
       ]
     },

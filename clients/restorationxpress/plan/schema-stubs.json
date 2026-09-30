@@ -118,16 +118,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fort-lauderdale-fl/": {
     "archetype": "service-area",
     "stubs": [
@@ -359,16 +349,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fort-lauderdale-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hollywood-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -420,16 +400,6 @@
     "missing_stubs": []
   },
   "/service-areas/hollywood-fl/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hollywood-fl/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -499,16 +469,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/plantation-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sunrise-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -560,16 +520,6 @@
     "missing_stubs": []
   },
   "/service-areas/sunrise-fl/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sunrise-fl/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -639,16 +589,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/cooper-city-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/weston-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -700,16 +640,6 @@
     "missing_stubs": []
   },
   "/service-areas/weston-fl/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/weston-fl/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -779,16 +709,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pembroke-pines-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/miramar-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -840,16 +760,6 @@
     "missing_stubs": []
   },
   "/service-areas/miramar-fl/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/miramar-fl/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -919,16 +829,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/dania-beach-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/west-park-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -980,16 +880,6 @@
     "missing_stubs": []
   },
   "/service-areas/west-park-fl/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/west-park-fl/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1059,16 +949,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/miami-gardens-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lauderhill-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1120,16 +1000,6 @@
     "missing_stubs": []
   },
   "/service-areas/lauderhill-fl/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lauderhill-fl/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1199,16 +1069,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hallandale-beach-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lauderdale-lakes-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1260,16 +1120,6 @@
     "missing_stubs": []
   },
   "/service-areas/lauderdale-lakes-fl/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lauderdale-lakes-fl/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1339,16 +1189,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/southwest-ranches-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/oakland-park-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1400,16 +1240,6 @@
     "missing_stubs": []
   },
   "/service-areas/oakland-park-fl/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oakland-park-fl/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1479,16 +1309,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/country-club-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/aventura-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1549,16 +1369,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/aventura-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wilton-manors-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1610,16 +1420,6 @@
     "missing_stubs": []
   },
   "/service-areas/wilton-manors-fl/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wilton-manors-fl/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

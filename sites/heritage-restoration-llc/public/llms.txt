@@ -56,7 +56,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Water Damage Restoration](https://heritagermn.com/services/water-damage-restoration/)
 - [Storm Damage Restoration](https://heritagermn.com/services/storm-damage-restoration/)
 - [Renovations, Remodels and General Contracting](https://heritagermn.com/services/general-contracting/)
-- [Emergency Water Cleanup](https://heritagermn.com/services/water-cleanup/)
+- [Emergency Water Cleanup](https://heritagermn.com/services/emergency-water-removal/)
 - [Fire Damage Restoration](https://heritagermn.com/services/fire-damage-restoration/)
 - [Roofing Installation and Replacement](https://heritagermn.com/services/roofing/)
 

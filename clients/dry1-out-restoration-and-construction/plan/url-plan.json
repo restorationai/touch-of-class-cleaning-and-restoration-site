@@ -837,58 +837,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Vista | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in Vista",
-      "meta_description": "24/7 emergency water cleanup in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup vista",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/berkeley-ca/water-cleanup/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
-        "/service-areas/chula-vista-ca/water-cleanup/",
-        "/service-areas/concord-ca/water-cleanup/",
-        "/service-areas/el-cajon-ca/water-cleanup/",
-        "/service-areas/encinitas-ca/water-cleanup/",
-        "/service-areas/escondido-ca/water-cleanup/",
-        "/service-areas/fremont-ca/water-cleanup/",
-        "/service-areas/hayward-ca/water-cleanup/",
-        "/service-areas/oakland-ca/water-cleanup/",
-        "/service-areas/oceanside-ca/water-cleanup/",
-        "/service-areas/san-diego-ca/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/services/water-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -3593,51 +3541,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/san-diego-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in San Diego, CA | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in San Diego",
-      "meta_description": "24/7 emergency water cleanup in San Diego, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup san diego",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/san-diego-ca/",
-        "/service-areas/san-diego-ca/fire-damage-restoration/",
-        "/service-areas/san-diego-ca/mold-remediation/",
-        "/service-areas/berkeley-ca/water-cleanup/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/san-diego-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4836,51 +4739,6 @@
         "/service-areas/san-jose-ca/mold-remediation/",
         "/service-areas/berkeley-ca/storm-damage-restoration/",
         "/service-areas/carlsbad-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/san-jose-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in San Jose, CA | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in San Jose",
-      "meta_description": "24/7 emergency water cleanup in San Jose, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup san jose",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/san-jose-ca/",
-        "/service-areas/san-jose-ca/fire-damage-restoration/",
-        "/service-areas/san-jose-ca/mold-remediation/",
-        "/service-areas/berkeley-ca/water-cleanup/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -6087,51 +5945,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/san-francisco-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in San Francisco, CA | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in San Francisco",
-      "meta_description": "24/7 emergency water cleanup in San Francisco, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup san francisco",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/san-francisco-ca/",
-        "/service-areas/san-francisco-ca/fire-damage-restoration/",
-        "/service-areas/san-francisco-ca/mold-remediation/",
-        "/service-areas/berkeley-ca/water-cleanup/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/san-francisco-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7330,51 +7143,6 @@
         "/service-areas/oakland-ca/mold-remediation/",
         "/service-areas/berkeley-ca/storm-damage-restoration/",
         "/service-areas/carlsbad-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/oakland-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Oakland, CA | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in Oakland",
-      "meta_description": "24/7 emergency water cleanup in Oakland, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup oakland",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/oakland-ca/",
-        "/service-areas/oakland-ca/fire-damage-restoration/",
-        "/service-areas/oakland-ca/mold-remediation/",
-        "/service-areas/berkeley-ca/water-cleanup/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -8581,51 +8349,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/chula-vista-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Chula Vista, CA | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in Chula Vista",
-      "meta_description": "24/7 emergency water cleanup in Chula Vista, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup chula vista",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/chula-vista-ca/",
-        "/service-areas/chula-vista-ca/fire-damage-restoration/",
-        "/service-areas/chula-vista-ca/mold-remediation/",
-        "/service-areas/berkeley-ca/water-cleanup/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/chula-vista-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9824,51 +9547,6 @@
         "/service-areas/fremont-ca/mold-remediation/",
         "/service-areas/berkeley-ca/storm-damage-restoration/",
         "/service-areas/carlsbad-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fremont-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Fremont, CA | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in Fremont",
-      "meta_description": "24/7 emergency water cleanup in Fremont, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup fremont",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/fremont-ca/",
-        "/service-areas/fremont-ca/fire-damage-restoration/",
-        "/service-areas/fremont-ca/mold-remediation/",
-        "/service-areas/berkeley-ca/water-cleanup/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -11075,51 +10753,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/oceanside-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Oceanside, CA | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in Oceanside",
-      "meta_description": "24/7 emergency water cleanup in Oceanside, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup oceanside",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/oceanside-ca/",
-        "/service-areas/oceanside-ca/fire-damage-restoration/",
-        "/service-areas/oceanside-ca/mold-remediation/",
-        "/service-areas/berkeley-ca/water-cleanup/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/oceanside-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12318,51 +11951,6 @@
         "/service-areas/escondido-ca/mold-remediation/",
         "/service-areas/berkeley-ca/storm-damage-restoration/",
         "/service-areas/carlsbad-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/escondido-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Escondido, CA | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in Escondido",
-      "meta_description": "24/7 emergency water cleanup in Escondido, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup escondido",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/escondido-ca/",
-        "/service-areas/escondido-ca/fire-damage-restoration/",
-        "/service-areas/escondido-ca/mold-remediation/",
-        "/service-areas/berkeley-ca/water-cleanup/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -13569,51 +13157,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/carlsbad-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Carlsbad, CA | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in Carlsbad",
-      "meta_description": "24/7 emergency water cleanup in Carlsbad, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup carlsbad",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/carlsbad-ca/",
-        "/service-areas/carlsbad-ca/fire-damage-restoration/",
-        "/service-areas/carlsbad-ca/mold-remediation/",
-        "/service-areas/berkeley-ca/water-cleanup/",
-        "/service-areas/chula-vista-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/carlsbad-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14812,51 +14355,6 @@
         "/service-areas/san-marcos-ca/mold-remediation/",
         "/service-areas/berkeley-ca/storm-damage-restoration/",
         "/service-areas/carlsbad-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/san-marcos-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in San Marcos, CA | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in San Marcos",
-      "meta_description": "24/7 emergency water cleanup in San Marcos, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup san marcos",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/san-marcos-ca/",
-        "/service-areas/san-marcos-ca/fire-damage-restoration/",
-        "/service-areas/san-marcos-ca/mold-remediation/",
-        "/service-areas/berkeley-ca/water-cleanup/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -16063,51 +15561,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/temecula-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Temecula, CA | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in Temecula",
-      "meta_description": "24/7 emergency water cleanup in Temecula, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup temecula",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/temecula-ca/",
-        "/service-areas/temecula-ca/fire-damage-restoration/",
-        "/service-areas/temecula-ca/mold-remediation/",
-        "/service-areas/berkeley-ca/water-cleanup/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/temecula-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17306,51 +16759,6 @@
         "/service-areas/hayward-ca/mold-remediation/",
         "/service-areas/berkeley-ca/storm-damage-restoration/",
         "/service-areas/carlsbad-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hayward-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Hayward, CA | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in Hayward",
-      "meta_description": "24/7 emergency water cleanup in Hayward, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup hayward",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/hayward-ca/",
-        "/service-areas/hayward-ca/fire-damage-restoration/",
-        "/service-areas/hayward-ca/mold-remediation/",
-        "/service-areas/berkeley-ca/water-cleanup/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -18557,51 +17965,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sunnyvale-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Sunnyvale, CA | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in Sunnyvale",
-      "meta_description": "24/7 emergency water cleanup in Sunnyvale, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup sunnyvale",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/sunnyvale-ca/",
-        "/service-areas/sunnyvale-ca/fire-damage-restoration/",
-        "/service-areas/sunnyvale-ca/mold-remediation/",
-        "/service-areas/berkeley-ca/water-cleanup/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sunnyvale-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19800,51 +19163,6 @@
         "/service-areas/santa-clara-ca/mold-remediation/",
         "/service-areas/berkeley-ca/storm-damage-restoration/",
         "/service-areas/carlsbad-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/santa-clara-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Santa Clara, CA | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in Santa Clara",
-      "meta_description": "24/7 emergency water cleanup in Santa Clara, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup santa clara",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/santa-clara-ca/",
-        "/service-areas/santa-clara-ca/fire-damage-restoration/",
-        "/service-areas/santa-clara-ca/mold-remediation/",
-        "/service-areas/berkeley-ca/water-cleanup/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -21051,51 +20369,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/el-cajon-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in El Cajon, CA | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in El Cajon",
-      "meta_description": "24/7 emergency water cleanup in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup el cajon",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/el-cajon-ca/",
-        "/service-areas/el-cajon-ca/fire-damage-restoration/",
-        "/service-areas/el-cajon-ca/mold-remediation/",
-        "/service-areas/berkeley-ca/water-cleanup/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/el-cajon-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22294,51 +21567,6 @@
         "/service-areas/concord-ca/mold-remediation/",
         "/service-areas/berkeley-ca/storm-damage-restoration/",
         "/service-areas/carlsbad-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/concord-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Concord, CA | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in Concord",
-      "meta_description": "24/7 emergency water cleanup in Concord, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup concord",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/concord-ca/",
-        "/service-areas/concord-ca/fire-damage-restoration/",
-        "/service-areas/concord-ca/mold-remediation/",
-        "/service-areas/berkeley-ca/water-cleanup/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -23545,51 +22773,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/berkeley-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Berkeley, CA | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in Berkeley",
-      "meta_description": "24/7 emergency water cleanup in Berkeley, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup berkeley",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/berkeley-ca/",
-        "/service-areas/berkeley-ca/fire-damage-restoration/",
-        "/service-areas/berkeley-ca/mold-remediation/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
-        "/service-areas/chula-vista-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/berkeley-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -24792,51 +23975,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/encinitas-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Encinitas, CA | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in Encinitas",
-      "meta_description": "24/7 emergency water cleanup in Encinitas, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup encinitas",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/encinitas-ca/",
-        "/service-areas/encinitas-ca/fire-damage-restoration/",
-        "/service-areas/encinitas-ca/mold-remediation/",
-        "/service-areas/berkeley-ca/water-cleanup/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/encinitas-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -26035,51 +25173,6 @@
         "/service-areas/santa-cruz-ca/mold-remediation/",
         "/service-areas/berkeley-ca/storm-damage-restoration/",
         "/service-areas/carlsbad-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/santa-cruz-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Santa Cruz, CA | Dry1 Out Restoration and Construction",
-      "h1": "Emergency Water Cleanup in Santa Cruz",
-      "meta_description": "24/7 emergency water cleanup in Santa Cruz, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987.",
-      "primary_keyword": "emergency water cleanup santa cruz",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/santa-cruz-ca/",
-        "/service-areas/santa-cruz-ca/fire-damage-restoration/",
-        "/service-areas/santa-cruz-ca/mold-remediation/",
-        "/service-areas/berkeley-ca/water-cleanup/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
         "/contact/"
       ]
     },

@@ -98,16 +98,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/destin-fl/": {
     "archetype": "service-area",
     "stubs": [
@@ -328,16 +318,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/destin-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/miramar-beach-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -369,16 +349,6 @@
     "missing_stubs": []
   },
   "/service-areas/miramar-beach-fl/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/miramar-beach-fl/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -428,16 +398,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-rosa-beach-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/niceville-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -469,16 +429,6 @@
     "missing_stubs": []
   },
   "/service-areas/niceville-fl/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/niceville-fl/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -528,16 +478,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fort-walton-beach-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/panama-city-beach-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -569,16 +509,6 @@
     "missing_stubs": []
   },
   "/service-areas/panama-city-beach-fl/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/panama-city-beach-fl/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -628,16 +558,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/crestview-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/defuniak-springs-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -669,16 +589,6 @@
     "missing_stubs": []
   },
   "/service-areas/defuniak-springs-fl/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/defuniak-springs-fl/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -728,16 +638,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/valparaiso-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ebro-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -769,16 +669,6 @@
     "missing_stubs": []
   },
   "/service-areas/ebro-fl/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ebro-fl/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -828,16 +718,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ponce-de-leon-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/westville-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -869,16 +749,6 @@
     "missing_stubs": []
   },
   "/service-areas/westville-fl/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/westville-fl/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -928,16 +798,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/eglin-afb-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/vernon-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -969,16 +829,6 @@
     "missing_stubs": []
   },
   "/service-areas/vernon-fl/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/vernon-fl/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1028,16 +878,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wright-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hurlburt-field-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1069,16 +909,6 @@
     "missing_stubs": []
   },
   "/service-areas/hurlburt-field-fl/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hurlburt-field-fl/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1128,16 +958,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/paxton-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/laurel-hill-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1169,16 +989,6 @@
     "missing_stubs": []
   },
   "/service-areas/laurel-hill-fl/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/laurel-hill-fl/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1228,16 +1038,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/harold-fl/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/navarre-fl/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1269,16 +1069,6 @@
     "missing_stubs": []
   },
   "/service-areas/navarre-fl/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/navarre-fl/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

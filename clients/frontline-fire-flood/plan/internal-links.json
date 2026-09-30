@@ -10,7 +10,6 @@
     "/services/emergency-plumbing/",
     "/services/sewage-cleanup/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/emergency-board-up-tarping/",
     "/services/odor-removal/",
     "/services/asbestos-abatement/",
@@ -62,7 +61,6 @@
     "/services/emergency-plumbing/",
     "/services/sewage-cleanup/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/emergency-board-up-tarping/",
     "/services/odor-removal/",
     "/services/asbestos-abatement/",
@@ -279,23 +277,6 @@
     "/service-areas/fife-wa/storm-damage-restoration/",
     "/service-areas/fircrest-wa/storm-damage-restoration/"
   ],
-  "/services/water-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
-    "/service-areas/bellevue-wa/water-cleanup/",
-    "/service-areas/bonney-lake-wa/water-cleanup/",
-    "/service-areas/bremerton-wa/water-cleanup/",
-    "/service-areas/burien-wa/water-cleanup/",
-    "/service-areas/centralia-wa/water-cleanup/",
-    "/service-areas/clover-creek-wa/water-cleanup/",
-    "/service-areas/dupont-wa/water-cleanup/",
-    "/service-areas/federal-way-wa/water-cleanup/",
-    "/service-areas/fife-wa/water-cleanup/",
-    "/service-areas/fircrest-wa/water-cleanup/",
-    "/services/water-damage-restoration/"
-  ],
   "/services/water-damage-restoration/": [
     "/services/",
     "/contact/",
@@ -311,7 +292,6 @@
     "/service-areas/federal-way-wa/water-damage-restoration/",
     "/service-areas/fife-wa/water-damage-restoration/",
     "/service-areas/fircrest-wa/water-damage-restoration/",
-    "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
@@ -325,7 +305,6 @@
     "/service-areas/tacoma-wa/emergency-plumbing/",
     "/service-areas/tacoma-wa/sewage-cleanup/",
     "/service-areas/tacoma-wa/storm-damage-restoration/",
-    "/service-areas/tacoma-wa/water-cleanup/",
     "/service-areas/tacoma-wa/emergency-board-up-tarping/",
     "/service-areas/tacoma-wa/odor-removal/",
     "/service-areas/tacoma-wa/asbestos-abatement/",
@@ -343,7 +322,6 @@
     "/service-areas/puyallup-wa/emergency-plumbing/",
     "/service-areas/puyallup-wa/sewage-cleanup/",
     "/service-areas/puyallup-wa/storm-damage-restoration/",
-    "/service-areas/puyallup-wa/water-cleanup/",
     "/service-areas/puyallup-wa/emergency-board-up-tarping/",
     "/service-areas/puyallup-wa/odor-removal/",
     "/service-areas/puyallup-wa/asbestos-abatement/",
@@ -361,7 +339,6 @@
     "/service-areas/university-place-wa/emergency-plumbing/",
     "/service-areas/university-place-wa/sewage-cleanup/",
     "/service-areas/university-place-wa/storm-damage-restoration/",
-    "/service-areas/university-place-wa/water-cleanup/",
     "/service-areas/university-place-wa/emergency-board-up-tarping/",
     "/service-areas/university-place-wa/odor-removal/",
     "/service-areas/university-place-wa/asbestos-abatement/",
@@ -379,7 +356,6 @@
     "/service-areas/lacey-wa/emergency-plumbing/",
     "/service-areas/lacey-wa/sewage-cleanup/",
     "/service-areas/lacey-wa/storm-damage-restoration/",
-    "/service-areas/lacey-wa/water-cleanup/",
     "/service-areas/lacey-wa/emergency-board-up-tarping/",
     "/service-areas/lacey-wa/odor-removal/",
     "/service-areas/lacey-wa/asbestos-abatement/",
@@ -397,7 +373,6 @@
     "/service-areas/olympia-wa/emergency-plumbing/",
     "/service-areas/olympia-wa/sewage-cleanup/",
     "/service-areas/olympia-wa/storm-damage-restoration/",
-    "/service-areas/olympia-wa/water-cleanup/",
     "/service-areas/olympia-wa/emergency-board-up-tarping/",
     "/service-areas/olympia-wa/odor-removal/",
     "/service-areas/olympia-wa/asbestos-abatement/",
@@ -415,7 +390,6 @@
     "/service-areas/spanaway-wa/emergency-plumbing/",
     "/service-areas/spanaway-wa/sewage-cleanup/",
     "/service-areas/spanaway-wa/storm-damage-restoration/",
-    "/service-areas/spanaway-wa/water-cleanup/",
     "/service-areas/spanaway-wa/emergency-board-up-tarping/",
     "/service-areas/spanaway-wa/odor-removal/",
     "/service-areas/spanaway-wa/asbestos-abatement/",
@@ -433,7 +407,6 @@
     "/service-areas/parkland-wa/emergency-plumbing/",
     "/service-areas/parkland-wa/sewage-cleanup/",
     "/service-areas/parkland-wa/storm-damage-restoration/",
-    "/service-areas/parkland-wa/water-cleanup/",
     "/service-areas/parkland-wa/emergency-board-up-tarping/",
     "/service-areas/parkland-wa/odor-removal/",
     "/service-areas/parkland-wa/asbestos-abatement/",
@@ -451,7 +424,6 @@
     "/service-areas/dupont-wa/emergency-plumbing/",
     "/service-areas/dupont-wa/sewage-cleanup/",
     "/service-areas/dupont-wa/storm-damage-restoration/",
-    "/service-areas/dupont-wa/water-cleanup/",
     "/service-areas/dupont-wa/emergency-board-up-tarping/",
     "/service-areas/dupont-wa/odor-removal/",
     "/service-areas/dupont-wa/asbestos-abatement/",
@@ -469,7 +441,6 @@
     "/service-areas/seattle-wa/emergency-plumbing/",
     "/service-areas/seattle-wa/sewage-cleanup/",
     "/service-areas/seattle-wa/storm-damage-restoration/",
-    "/service-areas/seattle-wa/water-cleanup/",
     "/service-areas/seattle-wa/emergency-board-up-tarping/",
     "/service-areas/seattle-wa/odor-removal/",
     "/service-areas/seattle-wa/asbestos-abatement/",
@@ -487,7 +458,6 @@
     "/service-areas/bellevue-wa/emergency-plumbing/",
     "/service-areas/bellevue-wa/sewage-cleanup/",
     "/service-areas/bellevue-wa/storm-damage-restoration/",
-    "/service-areas/bellevue-wa/water-cleanup/",
     "/service-areas/bellevue-wa/emergency-board-up-tarping/",
     "/service-areas/bellevue-wa/odor-removal/",
     "/service-areas/bellevue-wa/asbestos-abatement/",
@@ -505,7 +475,6 @@
     "/service-areas/kent-wa/emergency-plumbing/",
     "/service-areas/kent-wa/sewage-cleanup/",
     "/service-areas/kent-wa/storm-damage-restoration/",
-    "/service-areas/kent-wa/water-cleanup/",
     "/service-areas/kent-wa/emergency-board-up-tarping/",
     "/service-areas/kent-wa/odor-removal/",
     "/service-areas/kent-wa/asbestos-abatement/",
@@ -523,7 +492,6 @@
     "/service-areas/renton-wa/emergency-plumbing/",
     "/service-areas/renton-wa/sewage-cleanup/",
     "/service-areas/renton-wa/storm-damage-restoration/",
-    "/service-areas/renton-wa/water-cleanup/",
     "/service-areas/renton-wa/emergency-board-up-tarping/",
     "/service-areas/renton-wa/odor-removal/",
     "/service-areas/renton-wa/asbestos-abatement/",
@@ -541,7 +509,6 @@
     "/service-areas/federal-way-wa/emergency-plumbing/",
     "/service-areas/federal-way-wa/sewage-cleanup/",
     "/service-areas/federal-way-wa/storm-damage-restoration/",
-    "/service-areas/federal-way-wa/water-cleanup/",
     "/service-areas/federal-way-wa/emergency-board-up-tarping/",
     "/service-areas/federal-way-wa/odor-removal/",
     "/service-areas/federal-way-wa/asbestos-abatement/",
@@ -559,7 +526,6 @@
     "/service-areas/auburn-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/sewage-cleanup/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/service-areas/auburn-wa/emergency-board-up-tarping/",
     "/service-areas/auburn-wa/odor-removal/",
     "/service-areas/auburn-wa/asbestos-abatement/",
@@ -577,7 +543,6 @@
     "/service-areas/burien-wa/emergency-plumbing/",
     "/service-areas/burien-wa/sewage-cleanup/",
     "/service-areas/burien-wa/storm-damage-restoration/",
-    "/service-areas/burien-wa/water-cleanup/",
     "/service-areas/burien-wa/emergency-board-up-tarping/",
     "/service-areas/burien-wa/odor-removal/",
     "/service-areas/burien-wa/asbestos-abatement/",
@@ -595,7 +560,6 @@
     "/service-areas/bonney-lake-wa/emergency-plumbing/",
     "/service-areas/bonney-lake-wa/sewage-cleanup/",
     "/service-areas/bonney-lake-wa/storm-damage-restoration/",
-    "/service-areas/bonney-lake-wa/water-cleanup/",
     "/service-areas/bonney-lake-wa/emergency-board-up-tarping/",
     "/service-areas/bonney-lake-wa/odor-removal/",
     "/service-areas/bonney-lake-wa/asbestos-abatement/",
@@ -613,7 +577,6 @@
     "/service-areas/gig-harbor-wa/emergency-plumbing/",
     "/service-areas/gig-harbor-wa/sewage-cleanup/",
     "/service-areas/gig-harbor-wa/storm-damage-restoration/",
-    "/service-areas/gig-harbor-wa/water-cleanup/",
     "/service-areas/gig-harbor-wa/emergency-board-up-tarping/",
     "/service-areas/gig-harbor-wa/odor-removal/",
     "/service-areas/gig-harbor-wa/asbestos-abatement/",
@@ -631,7 +594,6 @@
     "/service-areas/south-hill-wa/emergency-plumbing/",
     "/service-areas/south-hill-wa/sewage-cleanup/",
     "/service-areas/south-hill-wa/storm-damage-restoration/",
-    "/service-areas/south-hill-wa/water-cleanup/",
     "/service-areas/south-hill-wa/emergency-board-up-tarping/",
     "/service-areas/south-hill-wa/odor-removal/",
     "/service-areas/south-hill-wa/asbestos-abatement/",
@@ -649,7 +611,6 @@
     "/service-areas/graham-wa/emergency-plumbing/",
     "/service-areas/graham-wa/sewage-cleanup/",
     "/service-areas/graham-wa/storm-damage-restoration/",
-    "/service-areas/graham-wa/water-cleanup/",
     "/service-areas/graham-wa/emergency-board-up-tarping/",
     "/service-areas/graham-wa/odor-removal/",
     "/service-areas/graham-wa/asbestos-abatement/",
@@ -667,7 +628,6 @@
     "/service-areas/fife-wa/emergency-plumbing/",
     "/service-areas/fife-wa/sewage-cleanup/",
     "/service-areas/fife-wa/storm-damage-restoration/",
-    "/service-areas/fife-wa/water-cleanup/",
     "/service-areas/fife-wa/emergency-board-up-tarping/",
     "/service-areas/fife-wa/odor-removal/",
     "/service-areas/fife-wa/asbestos-abatement/",
@@ -685,7 +645,6 @@
     "/service-areas/tumwater-wa/emergency-plumbing/",
     "/service-areas/tumwater-wa/sewage-cleanup/",
     "/service-areas/tumwater-wa/storm-damage-restoration/",
-    "/service-areas/tumwater-wa/water-cleanup/",
     "/service-areas/tumwater-wa/emergency-board-up-tarping/",
     "/service-areas/tumwater-wa/odor-removal/",
     "/service-areas/tumwater-wa/asbestos-abatement/",
@@ -703,7 +662,6 @@
     "/service-areas/yelm-wa/emergency-plumbing/",
     "/service-areas/yelm-wa/sewage-cleanup/",
     "/service-areas/yelm-wa/storm-damage-restoration/",
-    "/service-areas/yelm-wa/water-cleanup/",
     "/service-areas/yelm-wa/emergency-board-up-tarping/",
     "/service-areas/yelm-wa/odor-removal/",
     "/service-areas/yelm-wa/asbestos-abatement/",
@@ -721,7 +679,6 @@
     "/service-areas/bremerton-wa/emergency-plumbing/",
     "/service-areas/bremerton-wa/sewage-cleanup/",
     "/service-areas/bremerton-wa/storm-damage-restoration/",
-    "/service-areas/bremerton-wa/water-cleanup/",
     "/service-areas/bremerton-wa/emergency-board-up-tarping/",
     "/service-areas/bremerton-wa/odor-removal/",
     "/service-areas/bremerton-wa/asbestos-abatement/",
@@ -739,7 +696,6 @@
     "/service-areas/port-orchard-wa/emergency-plumbing/",
     "/service-areas/port-orchard-wa/sewage-cleanup/",
     "/service-areas/port-orchard-wa/storm-damage-restoration/",
-    "/service-areas/port-orchard-wa/water-cleanup/",
     "/service-areas/port-orchard-wa/emergency-board-up-tarping/",
     "/service-areas/port-orchard-wa/odor-removal/",
     "/service-areas/port-orchard-wa/asbestos-abatement/",
@@ -757,7 +713,6 @@
     "/service-areas/centralia-wa/emergency-plumbing/",
     "/service-areas/centralia-wa/sewage-cleanup/",
     "/service-areas/centralia-wa/storm-damage-restoration/",
-    "/service-areas/centralia-wa/water-cleanup/",
     "/service-areas/centralia-wa/emergency-board-up-tarping/",
     "/service-areas/centralia-wa/odor-removal/",
     "/service-areas/centralia-wa/asbestos-abatement/",
@@ -775,7 +730,6 @@
     "/service-areas/mcchord-afb-wa/emergency-plumbing/",
     "/service-areas/mcchord-afb-wa/sewage-cleanup/",
     "/service-areas/mcchord-afb-wa/storm-damage-restoration/",
-    "/service-areas/mcchord-afb-wa/water-cleanup/",
     "/service-areas/mcchord-afb-wa/emergency-board-up-tarping/",
     "/service-areas/mcchord-afb-wa/odor-removal/",
     "/service-areas/mcchord-afb-wa/asbestos-abatement/",
@@ -793,7 +747,6 @@
     "/service-areas/steilacoom-wa/emergency-plumbing/",
     "/service-areas/steilacoom-wa/sewage-cleanup/",
     "/service-areas/steilacoom-wa/storm-damage-restoration/",
-    "/service-areas/steilacoom-wa/water-cleanup/",
     "/service-areas/steilacoom-wa/emergency-board-up-tarping/",
     "/service-areas/steilacoom-wa/odor-removal/",
     "/service-areas/steilacoom-wa/asbestos-abatement/",
@@ -811,7 +764,6 @@
     "/service-areas/north-fort-lewis-wa/emergency-plumbing/",
     "/service-areas/north-fort-lewis-wa/sewage-cleanup/",
     "/service-areas/north-fort-lewis-wa/storm-damage-restoration/",
-    "/service-areas/north-fort-lewis-wa/water-cleanup/",
     "/service-areas/north-fort-lewis-wa/emergency-board-up-tarping/",
     "/service-areas/north-fort-lewis-wa/odor-removal/",
     "/service-areas/north-fort-lewis-wa/asbestos-abatement/",
@@ -829,7 +781,6 @@
     "/service-areas/midland-wa/emergency-plumbing/",
     "/service-areas/midland-wa/sewage-cleanup/",
     "/service-areas/midland-wa/storm-damage-restoration/",
-    "/service-areas/midland-wa/water-cleanup/",
     "/service-areas/midland-wa/emergency-board-up-tarping/",
     "/service-areas/midland-wa/odor-removal/",
     "/service-areas/midland-wa/asbestos-abatement/",
@@ -847,7 +798,6 @@
     "/service-areas/fircrest-wa/emergency-plumbing/",
     "/service-areas/fircrest-wa/sewage-cleanup/",
     "/service-areas/fircrest-wa/storm-damage-restoration/",
-    "/service-areas/fircrest-wa/water-cleanup/",
     "/service-areas/fircrest-wa/emergency-board-up-tarping/",
     "/service-areas/fircrest-wa/odor-removal/",
     "/service-areas/fircrest-wa/asbestos-abatement/",
@@ -865,7 +815,6 @@
     "/service-areas/fort-lewis-wa/emergency-plumbing/",
     "/service-areas/fort-lewis-wa/sewage-cleanup/",
     "/service-areas/fort-lewis-wa/storm-damage-restoration/",
-    "/service-areas/fort-lewis-wa/water-cleanup/",
     "/service-areas/fort-lewis-wa/emergency-board-up-tarping/",
     "/service-areas/fort-lewis-wa/odor-removal/",
     "/service-areas/fort-lewis-wa/asbestos-abatement/",
@@ -883,7 +832,6 @@
     "/service-areas/anderson-island-wa/emergency-plumbing/",
     "/service-areas/anderson-island-wa/sewage-cleanup/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
     "/service-areas/anderson-island-wa/emergency-board-up-tarping/",
     "/service-areas/anderson-island-wa/odor-removal/",
     "/service-areas/anderson-island-wa/asbestos-abatement/",
@@ -901,7 +849,6 @@
     "/service-areas/waller-wa/emergency-plumbing/",
     "/service-areas/waller-wa/sewage-cleanup/",
     "/service-areas/waller-wa/storm-damage-restoration/",
-    "/service-areas/waller-wa/water-cleanup/",
     "/service-areas/waller-wa/emergency-board-up-tarping/",
     "/service-areas/waller-wa/odor-removal/",
     "/service-areas/waller-wa/asbestos-abatement/",
@@ -919,7 +866,6 @@
     "/service-areas/clover-creek-wa/emergency-plumbing/",
     "/service-areas/clover-creek-wa/sewage-cleanup/",
     "/service-areas/clover-creek-wa/storm-damage-restoration/",
-    "/service-areas/clover-creek-wa/water-cleanup/",
     "/service-areas/clover-creek-wa/emergency-board-up-tarping/",
     "/service-areas/clover-creek-wa/odor-removal/",
     "/service-areas/clover-creek-wa/asbestos-abatement/",
@@ -937,7 +883,6 @@
     "/service-areas/wollochet-wa/emergency-plumbing/",
     "/service-areas/wollochet-wa/sewage-cleanup/",
     "/service-areas/wollochet-wa/storm-damage-restoration/",
-    "/service-areas/wollochet-wa/water-cleanup/",
     "/service-areas/wollochet-wa/emergency-board-up-tarping/",
     "/service-areas/wollochet-wa/odor-removal/",
     "/service-areas/wollochet-wa/asbestos-abatement/",
@@ -955,7 +900,6 @@
     "/service-areas/summit-wa/emergency-plumbing/",
     "/service-areas/summit-wa/sewage-cleanup/",
     "/service-areas/summit-wa/storm-damage-restoration/",
-    "/service-areas/summit-wa/water-cleanup/",
     "/service-areas/summit-wa/emergency-board-up-tarping/",
     "/service-areas/summit-wa/odor-removal/",
     "/service-areas/summit-wa/asbestos-abatement/",
@@ -973,7 +917,6 @@
     "/service-areas/summit-view-wa/emergency-plumbing/",
     "/service-areas/summit-view-wa/sewage-cleanup/",
     "/service-areas/summit-view-wa/storm-damage-restoration/",
-    "/service-areas/summit-view-wa/water-cleanup/",
     "/service-areas/summit-view-wa/emergency-board-up-tarping/",
     "/service-areas/summit-view-wa/odor-removal/",
     "/service-areas/summit-view-wa/asbestos-abatement/",
@@ -991,7 +934,6 @@
     "/service-areas/frederickson-wa/emergency-plumbing/",
     "/service-areas/frederickson-wa/sewage-cleanup/",
     "/service-areas/frederickson-wa/storm-damage-restoration/",
-    "/service-areas/frederickson-wa/water-cleanup/",
     "/service-areas/frederickson-wa/emergency-board-up-tarping/",
     "/service-areas/frederickson-wa/odor-removal/",
     "/service-areas/frederickson-wa/asbestos-abatement/",
@@ -1079,15 +1021,6 @@
     "/service-areas/tacoma-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/tacoma-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/tacoma-wa/",
-    "/service-areas/tacoma-wa/fire-damage-restoration/",
-    "/service-areas/tacoma-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/tacoma-wa/water-damage-restoration/": [
@@ -1180,15 +1113,6 @@
     "/service-areas/auburn-wa/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/puyallup-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/puyallup-wa/",
-    "/service-areas/puyallup-wa/fire-damage-restoration/",
-    "/service-areas/puyallup-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/puyallup-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/puyallup-wa/",
@@ -1277,15 +1201,6 @@
     "/service-areas/university-place-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/university-place-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/university-place-wa/",
-    "/service-areas/university-place-wa/fire-damage-restoration/",
-    "/service-areas/university-place-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/university-place-wa/water-damage-restoration/": [
@@ -1378,15 +1293,6 @@
     "/service-areas/auburn-wa/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/lacey-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/lacey-wa/",
-    "/service-areas/lacey-wa/fire-damage-restoration/",
-    "/service-areas/lacey-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/lacey-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/lacey-wa/",
@@ -1475,15 +1381,6 @@
     "/service-areas/olympia-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/olympia-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/olympia-wa/",
-    "/service-areas/olympia-wa/fire-damage-restoration/",
-    "/service-areas/olympia-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/olympia-wa/water-damage-restoration/": [
@@ -1576,15 +1473,6 @@
     "/service-areas/auburn-wa/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/spanaway-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/spanaway-wa/",
-    "/service-areas/spanaway-wa/fire-damage-restoration/",
-    "/service-areas/spanaway-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/spanaway-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/spanaway-wa/",
@@ -1673,15 +1561,6 @@
     "/service-areas/parkland-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/parkland-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/parkland-wa/",
-    "/service-areas/parkland-wa/fire-damage-restoration/",
-    "/service-areas/parkland-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/parkland-wa/water-damage-restoration/": [
@@ -1774,15 +1653,6 @@
     "/service-areas/auburn-wa/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/dupont-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/dupont-wa/",
-    "/service-areas/dupont-wa/fire-damage-restoration/",
-    "/service-areas/dupont-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/dupont-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/dupont-wa/",
@@ -1871,15 +1741,6 @@
     "/service-areas/seattle-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/seattle-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/seattle-wa/",
-    "/service-areas/seattle-wa/fire-damage-restoration/",
-    "/service-areas/seattle-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/seattle-wa/water-damage-restoration/": [
@@ -1972,15 +1833,6 @@
     "/service-areas/auburn-wa/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/bellevue-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/bellevue-wa/",
-    "/service-areas/bellevue-wa/fire-damage-restoration/",
-    "/service-areas/bellevue-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/bellevue-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/bellevue-wa/",
@@ -2069,15 +1921,6 @@
     "/service-areas/kent-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/kent-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/kent-wa/",
-    "/service-areas/kent-wa/fire-damage-restoration/",
-    "/service-areas/kent-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/kent-wa/water-damage-restoration/": [
@@ -2170,15 +2013,6 @@
     "/service-areas/auburn-wa/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/renton-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/renton-wa/",
-    "/service-areas/renton-wa/fire-damage-restoration/",
-    "/service-areas/renton-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/renton-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/renton-wa/",
@@ -2267,15 +2101,6 @@
     "/service-areas/federal-way-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/federal-way-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/federal-way-wa/",
-    "/service-areas/federal-way-wa/fire-damage-restoration/",
-    "/service-areas/federal-way-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/federal-way-wa/water-damage-restoration/": [
@@ -2368,15 +2193,6 @@
     "/service-areas/bellevue-wa/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/auburn-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/auburn-wa/",
-    "/service-areas/auburn-wa/fire-damage-restoration/",
-    "/service-areas/auburn-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/bellevue-wa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/auburn-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/auburn-wa/",
@@ -2465,15 +2281,6 @@
     "/service-areas/burien-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/burien-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/burien-wa/",
-    "/service-areas/burien-wa/fire-damage-restoration/",
-    "/service-areas/burien-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/burien-wa/water-damage-restoration/": [
@@ -2566,15 +2373,6 @@
     "/service-areas/auburn-wa/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/bonney-lake-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/bonney-lake-wa/",
-    "/service-areas/bonney-lake-wa/fire-damage-restoration/",
-    "/service-areas/bonney-lake-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/bonney-lake-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/bonney-lake-wa/",
@@ -2663,15 +2461,6 @@
     "/service-areas/gig-harbor-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/gig-harbor-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/gig-harbor-wa/",
-    "/service-areas/gig-harbor-wa/fire-damage-restoration/",
-    "/service-areas/gig-harbor-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/gig-harbor-wa/water-damage-restoration/": [
@@ -2764,15 +2553,6 @@
     "/service-areas/auburn-wa/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/south-hill-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/south-hill-wa/",
-    "/service-areas/south-hill-wa/fire-damage-restoration/",
-    "/service-areas/south-hill-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/south-hill-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/south-hill-wa/",
@@ -2861,15 +2641,6 @@
     "/service-areas/graham-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/graham-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/graham-wa/",
-    "/service-areas/graham-wa/fire-damage-restoration/",
-    "/service-areas/graham-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/graham-wa/water-damage-restoration/": [
@@ -2962,15 +2733,6 @@
     "/service-areas/auburn-wa/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/fife-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/fife-wa/",
-    "/service-areas/fife-wa/fire-damage-restoration/",
-    "/service-areas/fife-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/fife-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/fife-wa/",
@@ -3059,15 +2821,6 @@
     "/service-areas/tumwater-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/tumwater-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/tumwater-wa/",
-    "/service-areas/tumwater-wa/fire-damage-restoration/",
-    "/service-areas/tumwater-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/tumwater-wa/water-damage-restoration/": [
@@ -3160,15 +2913,6 @@
     "/service-areas/auburn-wa/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/yelm-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/yelm-wa/",
-    "/service-areas/yelm-wa/fire-damage-restoration/",
-    "/service-areas/yelm-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/yelm-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/yelm-wa/",
@@ -3257,15 +3001,6 @@
     "/service-areas/bremerton-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/bremerton-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/bremerton-wa/",
-    "/service-areas/bremerton-wa/fire-damage-restoration/",
-    "/service-areas/bremerton-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/bremerton-wa/water-damage-restoration/": [
@@ -3358,15 +3093,6 @@
     "/service-areas/auburn-wa/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/port-orchard-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/port-orchard-wa/",
-    "/service-areas/port-orchard-wa/fire-damage-restoration/",
-    "/service-areas/port-orchard-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/port-orchard-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/port-orchard-wa/",
@@ -3455,15 +3181,6 @@
     "/service-areas/centralia-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/centralia-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/centralia-wa/",
-    "/service-areas/centralia-wa/fire-damage-restoration/",
-    "/service-areas/centralia-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/centralia-wa/water-damage-restoration/": [
@@ -3556,15 +3273,6 @@
     "/service-areas/auburn-wa/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/mcchord-afb-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/mcchord-afb-wa/",
-    "/service-areas/mcchord-afb-wa/fire-damage-restoration/",
-    "/service-areas/mcchord-afb-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/mcchord-afb-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/mcchord-afb-wa/",
@@ -3653,15 +3361,6 @@
     "/service-areas/steilacoom-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/steilacoom-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/steilacoom-wa/",
-    "/service-areas/steilacoom-wa/fire-damage-restoration/",
-    "/service-areas/steilacoom-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/steilacoom-wa/water-damage-restoration/": [
@@ -3754,15 +3453,6 @@
     "/service-areas/auburn-wa/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/north-fort-lewis-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/north-fort-lewis-wa/",
-    "/service-areas/north-fort-lewis-wa/fire-damage-restoration/",
-    "/service-areas/north-fort-lewis-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/north-fort-lewis-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/north-fort-lewis-wa/",
@@ -3851,15 +3541,6 @@
     "/service-areas/midland-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/midland-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/midland-wa/",
-    "/service-areas/midland-wa/fire-damage-restoration/",
-    "/service-areas/midland-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/midland-wa/water-damage-restoration/": [
@@ -3952,15 +3633,6 @@
     "/service-areas/auburn-wa/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/fircrest-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/fircrest-wa/",
-    "/service-areas/fircrest-wa/fire-damage-restoration/",
-    "/service-areas/fircrest-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/fircrest-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/fircrest-wa/",
@@ -4049,15 +3721,6 @@
     "/service-areas/fort-lewis-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/fort-lewis-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/fort-lewis-wa/",
-    "/service-areas/fort-lewis-wa/fire-damage-restoration/",
-    "/service-areas/fort-lewis-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/fort-lewis-wa/water-damage-restoration/": [
@@ -4150,15 +3813,6 @@
     "/service-areas/bellevue-wa/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/anderson-island-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/anderson-island-wa/",
-    "/service-areas/anderson-island-wa/fire-damage-restoration/",
-    "/service-areas/anderson-island-wa/mold-remediation/",
-    "/service-areas/auburn-wa/water-cleanup/",
-    "/service-areas/bellevue-wa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/anderson-island-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/anderson-island-wa/",
@@ -4247,15 +3901,6 @@
     "/service-areas/waller-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/waller-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/waller-wa/",
-    "/service-areas/waller-wa/fire-damage-restoration/",
-    "/service-areas/waller-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/waller-wa/water-damage-restoration/": [
@@ -4348,15 +3993,6 @@
     "/service-areas/auburn-wa/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/clover-creek-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/clover-creek-wa/",
-    "/service-areas/clover-creek-wa/fire-damage-restoration/",
-    "/service-areas/clover-creek-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/clover-creek-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/clover-creek-wa/",
@@ -4445,15 +4081,6 @@
     "/service-areas/wollochet-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/wollochet-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/wollochet-wa/",
-    "/service-areas/wollochet-wa/fire-damage-restoration/",
-    "/service-areas/wollochet-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/wollochet-wa/water-damage-restoration/": [
@@ -4546,15 +4173,6 @@
     "/service-areas/auburn-wa/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/summit-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/summit-wa/",
-    "/service-areas/summit-wa/fire-damage-restoration/",
-    "/service-areas/summit-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/summit-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/summit-wa/",
@@ -4645,15 +4263,6 @@
     "/service-areas/auburn-wa/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/summit-view-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/summit-view-wa/",
-    "/service-areas/summit-view-wa/fire-damage-restoration/",
-    "/service-areas/summit-view-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/summit-view-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/summit-view-wa/",
@@ -4742,15 +4351,6 @@
     "/service-areas/frederickson-wa/mold-remediation/",
     "/service-areas/anderson-island-wa/storm-damage-restoration/",
     "/service-areas/auburn-wa/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/frederickson-wa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/frederickson-wa/",
-    "/service-areas/frederickson-wa/fire-damage-restoration/",
-    "/service-areas/frederickson-wa/mold-remediation/",
-    "/service-areas/anderson-island-wa/water-cleanup/",
-    "/service-areas/auburn-wa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/frederickson-wa/water-damage-restoration/": [

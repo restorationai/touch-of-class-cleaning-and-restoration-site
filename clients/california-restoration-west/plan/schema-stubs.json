@@ -108,16 +108,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/water-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -358,16 +348,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/oxnard-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/oxnard-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -419,16 +399,6 @@
     "missing_stubs": []
   },
   "/service-areas/thousand-oaks-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/thousand-oaks-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -498,16 +468,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/simi-valley-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/simi-valley-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -559,16 +519,6 @@
     "missing_stubs": []
   },
   "/service-areas/camarillo-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/camarillo-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -638,16 +588,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-paula-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-paula-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -699,16 +639,6 @@
     "missing_stubs": []
   },
   "/service-areas/port-hueneme-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/port-hueneme-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -778,16 +708,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ojai-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ojai-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -839,16 +759,6 @@
     "missing_stubs": []
   },
   "/service-areas/fillmore-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fillmore-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -918,16 +828,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mira-monte-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mira-monte-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -979,16 +879,6 @@
     "missing_stubs": []
   },
   "/service-areas/oak-view-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oak-view-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1058,16 +948,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/somis-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/somis-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1119,16 +999,6 @@
     "missing_stubs": []
   },
   "/service-areas/san-buenaventura-ventura-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-buenaventura-ventura-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1198,16 +1068,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/moorpark-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/moorpark-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1259,16 +1119,6 @@
     "missing_stubs": []
   },
   "/service-areas/santa-rosa-valley-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/santa-rosa-valley-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1338,16 +1188,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/piru-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/piru-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1399,16 +1239,6 @@
     "missing_stubs": []
   },
   "/service-areas/hasley-canyon-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hasley-canyon-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1478,16 +1308,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lake-sherwood-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lake-sherwood-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1539,16 +1359,6 @@
     "missing_stubs": []
   },
   "/service-areas/carpinteria-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/carpinteria-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1618,16 +1428,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/castaic-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/castaic-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1679,16 +1479,6 @@
     "missing_stubs": []
   },
   "/service-areas/oak-park-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oak-park-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

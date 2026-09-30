@@ -54,7 +54,7 @@
     "smoke-damage-restoration",
     "water-heater-flood-cleanup",
     "water-leak-detection",
-    "water-cleanup"
+    "emergency-water-removal"
   ],
   "blog_seed_count": 12,
   "service_areas": [
@@ -872,6 +872,6 @@
   ],
   "merged_services": {
     "contents-restoration-storage": "contents-restoration",
-    "emergency-water-removal": "water-damage-restoration"
+    "water-cleanup": "emergency-water-removal"
   }
 }

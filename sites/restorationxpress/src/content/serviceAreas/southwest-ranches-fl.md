@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "d1f61b2e83ea935a"
 generated_at: "2026-09-20T17:30:05.708025+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/southwest-ranches-fl/fire-damage-restoration/", "/service-areas/southwest-ranches-fl/mold-remediation/", "/service-areas/southwest-ranches-fl/water-damage-restoration/", "/service-areas/southwest-ranches-fl/flood-damage-restoration/", "/service-areas/southwest-ranches-fl/smoke-damage-restoration/", "/service-areas/southwest-ranches-fl/storm-damage-restoration/", "/service-areas/southwest-ranches-fl/water-cleanup/", "/service-areas/cooper-city-fl/", "/service-areas/dania-beach-fl/", "/service-areas/fort-lauderdale-fl/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/southwest-ranches-fl/fire-damage-restoration/", "/service-areas/southwest-ranches-fl/mold-remediation/", "/service-areas/southwest-ranches-fl/water-damage-restoration/", "/service-areas/southwest-ranches-fl/flood-damage-restoration/", "/service-areas/southwest-ranches-fl/smoke-damage-restoration/", "/service-areas/southwest-ranches-fl/storm-damage-restoration/", "/service-areas/southwest-ranches-fl/emergency-water-removal/", "/service-areas/cooper-city-fl/", "/service-areas/dania-beach-fl/", "/service-areas/fort-lauderdale-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southwest Ranches"}]
 faq: []
 area_slug: "southwest-ranches-fl"

@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "827bf9bea39fcc91"
 generated_at: "2026-09-23T14:12:04.435703+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/poetry-tx/fire-damage-restoration/", "/service-areas/poetry-tx/mold-remediation/", "/service-areas/poetry-tx/roofing/", "/service-areas/poetry-tx/water-damage-restoration/", "/service-areas/poetry-tx/storm-damage-restoration/", "/service-areas/poetry-tx/water-cleanup/", "/service-areas/poetry-tx/general-contracting/", "/service-areas/poetry-tx/odor-removal/", "/service-areas/poetry-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/poetry-tx/fire-damage-restoration/", "/service-areas/poetry-tx/mold-remediation/", "/service-areas/poetry-tx/roofing/", "/service-areas/poetry-tx/water-damage-restoration/", "/service-areas/poetry-tx/storm-damage-restoration/", "/service-areas/poetry-tx/emergency-water-removal/", "/service-areas/poetry-tx/general-contracting/", "/service-areas/poetry-tx/odor-removal/", "/service-areas/poetry-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Poetry"}]
 faq: []
 area_slug: "poetry-tx"

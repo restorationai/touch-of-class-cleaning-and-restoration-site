@@ -159,6 +159,7 @@
     "biohazard-cleanup"
   ],
   "merged_services": {
-    "contents-restoration-storage": "contents-restoration"
+    "contents-restoration-storage": "contents-restoration",
+    "water-cleanup": "emergency-water-removal"
   }
 }

@@ -318,7 +318,7 @@
   "merged_services": {
     "carpet-upholstery-cleaning": "carpet-cleaning",
     "contents-restoration-storage": "contents-restoration",
-    "emergency-water-removal": "water-damage-restoration",
-    "vandalism-cleanup": "vandalism-graffiti-removal"
+    "vandalism-cleanup": "vandalism-graffiti-removal",
+    "water-cleanup": "emergency-water-removal"
   }
 }

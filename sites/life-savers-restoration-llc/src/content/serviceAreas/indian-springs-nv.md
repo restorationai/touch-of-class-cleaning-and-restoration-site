@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "cfd2e4c96fcc7dd2"
 generated_at: "2026-09-23T14:11:52.230887+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/indian-springs-nv/fire-damage-restoration/", "/service-areas/indian-springs-nv/mold-remediation/", "/service-areas/indian-springs-nv/water-damage-restoration/", "/service-areas/indian-springs-nv/sewage-cleanup/", "/service-areas/indian-springs-nv/storm-damage-restoration/", "/service-areas/indian-springs-nv/water-cleanup/", "/service-areas/indian-springs-nv/biohazard-cleanup/", "/service-areas/indian-springs-nv/odor-removal/", "/service-areas/indian-springs-nv/contents-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/indian-springs-nv/fire-damage-restoration/", "/service-areas/indian-springs-nv/mold-remediation/", "/service-areas/indian-springs-nv/water-damage-restoration/", "/service-areas/indian-springs-nv/sewage-cleanup/", "/service-areas/indian-springs-nv/storm-damage-restoration/", "/service-areas/indian-springs-nv/emergency-water-removal/", "/service-areas/indian-springs-nv/biohazard-cleanup/", "/service-areas/indian-springs-nv/odor-removal/", "/service-areas/indian-springs-nv/contents-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Indian Springs"}]
 faq: []
 area_slug: "indian-springs-nv"

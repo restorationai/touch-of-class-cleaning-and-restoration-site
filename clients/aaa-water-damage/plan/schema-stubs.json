@@ -158,16 +158,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hawaii-kai-hi/": {
     "archetype": "service-area",
     "stubs": [
@@ -511,16 +501,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hawaii-kai-hi/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/kahala-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -612,16 +592,6 @@
     "missing_stubs": []
   },
   "/service-areas/kahala-hi/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kahala-hi/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -731,16 +701,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/aina-haina-hi/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/kaimuki-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -832,16 +792,6 @@
     "missing_stubs": []
   },
   "/service-areas/kaimuki-hi/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kaimuki-hi/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -951,16 +901,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/diamond-head-hi/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/kailua-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1052,16 +992,6 @@
     "missing_stubs": []
   },
   "/service-areas/kailua-hi/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kailua-hi/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1171,16 +1101,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/kaneohe-hi/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pearl-city-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1272,16 +1192,6 @@
     "missing_stubs": []
   },
   "/service-areas/pearl-city-hi/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pearl-city-hi/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1391,16 +1301,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/aiea-hi/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ewa-beach-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1492,16 +1392,6 @@
     "missing_stubs": []
   },
   "/service-areas/ewa-beach-hi/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ewa-beach-hi/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1611,16 +1501,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/kapolei-hi/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mililani-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1712,16 +1592,6 @@
     "missing_stubs": []
   },
   "/service-areas/mililani-hi/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mililani-hi/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1831,16 +1701,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/urban-honolulu-hi/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hickam-housing-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1932,16 +1792,6 @@
     "missing_stubs": []
   },
   "/service-areas/hickam-housing-hi/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hickam-housing-hi/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2051,16 +1901,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/east-honolulu-hi/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/waimanalo-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2152,16 +1992,6 @@
     "missing_stubs": []
   },
   "/service-areas/waimanalo-hi/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/waimanalo-hi/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2271,16 +2101,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/heeia-hi/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/kahaluu-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2372,16 +2192,6 @@
     "missing_stubs": []
   },
   "/service-areas/kahaluu-hi/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kahaluu-hi/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2491,16 +2301,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/kaneohe-base-hi/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/east-kapolei-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2592,16 +2392,6 @@
     "missing_stubs": []
   },
   "/service-areas/east-kapolei-hi/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/east-kapolei-hi/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2711,16 +2501,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/waiahole-waikane-hi/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/kalaeloa-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2812,16 +2592,6 @@
     "missing_stubs": []
   },
   "/service-areas/kalaeloa-hi/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kalaeloa-hi/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2931,16 +2701,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mililani-town-hi/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/royal-kunia-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3032,16 +2792,6 @@
     "missing_stubs": []
   },
   "/service-areas/royal-kunia-hi/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/royal-kunia-hi/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3151,16 +2901,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mililani-mauka-hi/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/makakilo-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3261,16 +3001,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/makakilo-hi/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/waianae-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3362,16 +3092,6 @@
     "missing_stubs": []
   },
   "/service-areas/waianae-hi/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/waianae-hi/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

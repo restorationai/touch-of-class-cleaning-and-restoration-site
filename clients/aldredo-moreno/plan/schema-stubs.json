@@ -118,16 +118,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/water-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -493,16 +483,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/odessa-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/odessa-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -724,16 +704,6 @@
     "missing_stubs": []
   },
   "/service-areas/big-spring-tx/tile-grout-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/big-spring-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -973,16 +943,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/stanton-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/stanton-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1204,16 +1164,6 @@
     "missing_stubs": []
   },
   "/service-areas/andrews-tx/tile-grout-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/andrews-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1453,16 +1403,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gardendale-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/gardendale-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1684,16 +1624,6 @@
     "missing_stubs": []
   },
   "/service-areas/greenwood-tx/tile-grout-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/greenwood-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1933,16 +1863,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/goldsmith-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/goldsmith-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2164,16 +2084,6 @@
     "missing_stubs": []
   },
   "/service-areas/west-odessa-tx/tile-grout-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/west-odessa-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2413,16 +2323,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/garden-city-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/garden-city-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2644,16 +2544,6 @@
     "missing_stubs": []
   },
   "/service-areas/crane-tx/tile-grout-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/crane-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2893,16 +2783,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/monahans-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/monahans-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3124,16 +3004,6 @@
     "missing_stubs": []
   },
   "/service-areas/mccamey-tx/tile-grout-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mccamey-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3373,16 +3243,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/southwest-sandhill-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/southwest-sandhill-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3613,16 +3473,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/big-lake-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/big-lake-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3844,16 +3694,6 @@
     "missing_stubs": []
   },
   "/service-areas/imperial-tx/tile-grout-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/imperial-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

@@ -797,58 +797,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Thonotosassa | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Thonotosassa",
-      "meta_description": "24/7 emergency water cleanup in Thonotosassa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup thonotosassa",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/service-areas/auburndale-fl/water-cleanup/",
-        "/service-areas/bartow-fl/water-cleanup/",
-        "/service-areas/bradenton-fl/water-cleanup/",
-        "/service-areas/brandon-fl/water-cleanup/",
-        "/service-areas/clearwater-beach-fl/water-cleanup/",
-        "/service-areas/clearwater-fl/water-cleanup/",
-        "/service-areas/crystal-springs-fl/water-cleanup/",
-        "/service-areas/dade-city-fl/water-cleanup/",
-        "/service-areas/davenport-fl/water-cleanup/",
-        "/service-areas/dover-fl/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/services/water-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -5938,51 +5886,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/tampa-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Tampa, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Tampa",
-      "meta_description": "24/7 emergency water cleanup in Tampa, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup tampa",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/tampa-fl/",
-        "/service-areas/tampa-fl/fire-damage-restoration/",
-        "/service-areas/tampa-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/tampa-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6897,51 +6800,6 @@
         "/service-areas/brandon-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/brandon-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Brandon, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Brandon",
-      "meta_description": "24/7 emergency water cleanup in Brandon, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup brandon",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/brandon-fl/",
-        "/service-areas/brandon-fl/fire-damage-restoration/",
-        "/service-areas/brandon-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -7864,51 +7722,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/plant-city-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Plant City, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Plant City",
-      "meta_description": "24/7 emergency water cleanup in Plant City, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup plant city",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/plant-city-fl/",
-        "/service-areas/plant-city-fl/fire-damage-restoration/",
-        "/service-areas/plant-city-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/plant-city-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8823,51 +8636,6 @@
         "/service-areas/temple-terrace-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/temple-terrace-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Temple Terrace, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Temple Terrace",
-      "meta_description": "24/7 emergency water cleanup in Temple Terrace, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup temple terrace",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/temple-terrace-fl/",
-        "/service-areas/temple-terrace-fl/fire-damage-restoration/",
-        "/service-areas/temple-terrace-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -9790,51 +9558,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lakeland-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lakeland, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Lakeland",
-      "meta_description": "24/7 emergency water cleanup in Lakeland, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup lakeland",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lakeland-fl/",
-        "/service-areas/lakeland-fl/fire-damage-restoration/",
-        "/service-areas/lakeland-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lakeland-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10749,51 +10472,6 @@
         "/service-areas/seffner-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/seffner-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Seffner, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Seffner",
-      "meta_description": "24/7 emergency water cleanup in Seffner, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup seffner",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/seffner-fl/",
-        "/service-areas/seffner-fl/fire-damage-restoration/",
-        "/service-areas/seffner-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -11716,51 +11394,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/zephyrhills-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Zephyrhills, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Zephyrhills",
-      "meta_description": "24/7 emergency water cleanup in Zephyrhills, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup zephyrhills",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/zephyrhills-fl/",
-        "/service-areas/zephyrhills-fl/fire-damage-restoration/",
-        "/service-areas/zephyrhills-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/zephyrhills-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12675,51 +12308,6 @@
         "/service-areas/dover-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/dover-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Dover, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Dover",
-      "meta_description": "24/7 emergency water cleanup in Dover, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup dover",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/dover-fl/",
-        "/service-areas/dover-fl/fire-damage-restoration/",
-        "/service-areas/dover-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -13642,51 +13230,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/st-petersburg-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in St. Petersburg, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in St. Petersburg",
-      "meta_description": "24/7 emergency water cleanup in St. Petersburg, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup st. petersburg",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/st-petersburg-fl/",
-        "/service-areas/st-petersburg-fl/fire-damage-restoration/",
-        "/service-areas/st-petersburg-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/st-petersburg-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14601,51 +14144,6 @@
         "/service-areas/clearwater-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/clearwater-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Clearwater, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Clearwater",
-      "meta_description": "24/7 emergency water cleanup in Clearwater, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup clearwater",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/clearwater-fl/",
-        "/service-areas/clearwater-fl/fire-damage-restoration/",
-        "/service-areas/clearwater-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -15568,51 +15066,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/largo-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Largo, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Largo",
-      "meta_description": "24/7 emergency water cleanup in Largo, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup largo",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/largo-fl/",
-        "/service-areas/largo-fl/fire-damage-restoration/",
-        "/service-areas/largo-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/largo-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16527,51 +15980,6 @@
         "/service-areas/pinellas-park-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pinellas-park-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Pinellas Park, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Pinellas Park",
-      "meta_description": "24/7 emergency water cleanup in Pinellas Park, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup pinellas park",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/pinellas-park-fl/",
-        "/service-areas/pinellas-park-fl/fire-damage-restoration/",
-        "/service-areas/pinellas-park-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -17494,51 +16902,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/palm-harbor-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Palm Harbor, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Palm Harbor",
-      "meta_description": "24/7 emergency water cleanup in Palm Harbor, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup palm harbor",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/palm-harbor-fl/",
-        "/service-areas/palm-harbor-fl/fire-damage-restoration/",
-        "/service-areas/palm-harbor-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/palm-harbor-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18453,51 +17816,6 @@
         "/service-areas/dunedin-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/dunedin-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Dunedin, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Dunedin",
-      "meta_description": "24/7 emergency water cleanup in Dunedin, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup dunedin",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/dunedin-fl/",
-        "/service-areas/dunedin-fl/fire-damage-restoration/",
-        "/service-areas/dunedin-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -19420,51 +18738,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/riverview-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Riverview, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Riverview",
-      "meta_description": "24/7 emergency water cleanup in Riverview, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup riverview",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/riverview-fl/",
-        "/service-areas/riverview-fl/fire-damage-restoration/",
-        "/service-areas/riverview-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/riverview-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20379,51 +19652,6 @@
         "/service-areas/valrico-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/valrico-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Valrico, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Valrico",
-      "meta_description": "24/7 emergency water cleanup in Valrico, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup valrico",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/valrico-fl/",
-        "/service-areas/valrico-fl/fire-damage-restoration/",
-        "/service-areas/valrico-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -21346,51 +20574,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/apollo-beach-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Apollo Beach, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Apollo Beach",
-      "meta_description": "24/7 emergency water cleanup in Apollo Beach, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup apollo beach",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/apollo-beach-fl/",
-        "/service-areas/apollo-beach-fl/fire-damage-restoration/",
-        "/service-areas/apollo-beach-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/auburndale-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/apollo-beach-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22305,51 +21488,6 @@
         "/service-areas/ruskin-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/ruskin-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Ruskin, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Ruskin",
-      "meta_description": "24/7 emergency water cleanup in Ruskin, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup ruskin",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/ruskin-fl/",
-        "/service-areas/ruskin-fl/fire-damage-restoration/",
-        "/service-areas/ruskin-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -23272,51 +22410,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lutz-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lutz, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Lutz",
-      "meta_description": "24/7 emergency water cleanup in Lutz, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup lutz",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lutz-fl/",
-        "/service-areas/lutz-fl/fire-damage-restoration/",
-        "/service-areas/lutz-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lutz-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -24231,51 +23324,6 @@
         "/service-areas/wesley-chapel-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/wesley-chapel-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Wesley Chapel, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Wesley Chapel",
-      "meta_description": "24/7 emergency water cleanup in Wesley Chapel, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup wesley chapel",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/wesley-chapel-fl/",
-        "/service-areas/wesley-chapel-fl/fire-damage-restoration/",
-        "/service-areas/wesley-chapel-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -25198,51 +24246,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/land-o-lakes-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Land O' Lakes, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Land O' Lakes",
-      "meta_description": "24/7 emergency water cleanup in Land O' Lakes, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup land o' lakes",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/land-o-lakes-fl/",
-        "/service-areas/land-o-lakes-fl/fire-damage-restoration/",
-        "/service-areas/land-o-lakes-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/land-o-lakes-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -26157,51 +25160,6 @@
         "/service-areas/new-port-richey-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/new-port-richey-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in New Port Richey, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in New Port Richey",
-      "meta_description": "24/7 emergency water cleanup in New Port Richey, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup new port richey",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/new-port-richey-fl/",
-        "/service-areas/new-port-richey-fl/fire-damage-restoration/",
-        "/service-areas/new-port-richey-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -27124,51 +26082,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/bradenton-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Bradenton, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Bradenton",
-      "meta_description": "24/7 emergency water cleanup in Bradenton, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup bradenton",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/bradenton-fl/",
-        "/service-areas/bradenton-fl/fire-damage-restoration/",
-        "/service-areas/bradenton-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/bradenton-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -28083,51 +26996,6 @@
         "/service-areas/palmetto-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/palmetto-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Palmetto, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Palmetto",
-      "meta_description": "24/7 emergency water cleanup in Palmetto, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup palmetto",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/palmetto-fl/",
-        "/service-areas/palmetto-fl/fire-damage-restoration/",
-        "/service-areas/palmetto-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -29050,51 +27918,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/winter-haven-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Winter Haven, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Winter Haven",
-      "meta_description": "24/7 emergency water cleanup in Winter Haven, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup winter haven",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/winter-haven-fl/",
-        "/service-areas/winter-haven-fl/fire-damage-restoration/",
-        "/service-areas/winter-haven-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/winter-haven-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -30009,51 +28832,6 @@
         "/service-areas/auburndale-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/auburndale-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Auburndale, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Auburndale",
-      "meta_description": "24/7 emergency water cleanup in Auburndale, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup auburndale",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/auburndale-fl/",
-        "/service-areas/auburndale-fl/fire-damage-restoration/",
-        "/service-areas/auburndale-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -30976,51 +29754,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/anna-maria-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Anna Maria, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Anna Maria",
-      "meta_description": "24/7 emergency water cleanup in Anna Maria, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup anna maria",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/anna-maria-fl/",
-        "/service-areas/anna-maria-fl/fire-damage-restoration/",
-        "/service-areas/anna-maria-fl/mold-remediation/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/service-areas/auburndale-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/anna-maria-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -31935,51 +30668,6 @@
         "/service-areas/bartow-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/bartow-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Bartow, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Bartow",
-      "meta_description": "24/7 emergency water cleanup in Bartow, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup bartow",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/bartow-fl/",
-        "/service-areas/bartow-fl/fire-damage-restoration/",
-        "/service-areas/bartow-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -32902,51 +31590,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/clearwater-beach-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Clearwater Beach, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Clearwater Beach",
-      "meta_description": "24/7 emergency water cleanup in Clearwater Beach, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup clearwater beach",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/clearwater-beach-fl/",
-        "/service-areas/clearwater-beach-fl/fire-damage-restoration/",
-        "/service-areas/clearwater-beach-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/clearwater-beach-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -33861,51 +32504,6 @@
         "/service-areas/dade-city-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/dade-city-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Dade City, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Dade City",
-      "meta_description": "24/7 emergency water cleanup in Dade City, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup dade city",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/dade-city-fl/",
-        "/service-areas/dade-city-fl/fire-damage-restoration/",
-        "/service-areas/dade-city-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -34828,51 +33426,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/davenport-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Davenport, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Davenport",
-      "meta_description": "24/7 emergency water cleanup in Davenport, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup davenport",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/davenport-fl/",
-        "/service-areas/davenport-fl/fire-damage-restoration/",
-        "/service-areas/davenport-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/davenport-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -35787,51 +34340,6 @@
         "/service-areas/dundee-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/dundee-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Dundee, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Dundee",
-      "meta_description": "24/7 emergency water cleanup in Dundee, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup dundee",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/dundee-fl/",
-        "/service-areas/dundee-fl/fire-damage-restoration/",
-        "/service-areas/dundee-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -36754,51 +35262,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ellenton-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Ellenton, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Ellenton",
-      "meta_description": "24/7 emergency water cleanup in Ellenton, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup ellenton",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/ellenton-fl/",
-        "/service-areas/ellenton-fl/fire-damage-restoration/",
-        "/service-areas/ellenton-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ellenton-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -37713,51 +36176,6 @@
         "/service-areas/englewood-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/englewood-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Englewood, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Englewood",
-      "meta_description": "24/7 emergency water cleanup in Englewood, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup englewood",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/englewood-fl/",
-        "/service-areas/englewood-fl/fire-damage-restoration/",
-        "/service-areas/englewood-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -38680,51 +37098,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/gibsonton-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Gibsonton, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Gibsonton",
-      "meta_description": "24/7 emergency water cleanup in Gibsonton, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup gibsonton",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/gibsonton-fl/",
-        "/service-areas/gibsonton-fl/fire-damage-restoration/",
-        "/service-areas/gibsonton-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/gibsonton-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -39639,51 +38012,6 @@
         "/service-areas/haines-city-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/haines-city-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Haines City, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Haines City",
-      "meta_description": "24/7 emergency water cleanup in Haines City, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup haines city",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/haines-city-fl/",
-        "/service-areas/haines-city-fl/fire-damage-restoration/",
-        "/service-areas/haines-city-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -40606,51 +38934,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/holiday-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Holiday, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Holiday",
-      "meta_description": "24/7 emergency water cleanup in Holiday, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup holiday",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/holiday-fl/",
-        "/service-areas/holiday-fl/fire-damage-restoration/",
-        "/service-areas/holiday-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/holiday-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -41565,51 +39848,6 @@
         "/service-areas/holmes-beach-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/holmes-beach-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Holmes Beach, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Holmes Beach",
-      "meta_description": "24/7 emergency water cleanup in Holmes Beach, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup holmes beach",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/holmes-beach-fl/",
-        "/service-areas/holmes-beach-fl/fire-damage-restoration/",
-        "/service-areas/holmes-beach-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -42532,51 +40770,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lake-wales-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lake Wales, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Lake Wales",
-      "meta_description": "24/7 emergency water cleanup in Lake Wales, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup lake wales",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lake-wales-fl/",
-        "/service-areas/lake-wales-fl/fire-damage-restoration/",
-        "/service-areas/lake-wales-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lake-wales-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -43491,51 +41684,6 @@
         "/service-areas/lakewood-ranch-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lakewood-ranch-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lakewood Ranch, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Lakewood Ranch",
-      "meta_description": "24/7 emergency water cleanup in Lakewood Ranch, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup lakewood ranch",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lakewood-ranch-fl/",
-        "/service-areas/lakewood-ranch-fl/fire-damage-restoration/",
-        "/service-areas/lakewood-ranch-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -44458,51 +42606,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lithia-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lithia, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Lithia",
-      "meta_description": "24/7 emergency water cleanup in Lithia, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup lithia",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lithia-fl/",
-        "/service-areas/lithia-fl/fire-damage-restoration/",
-        "/service-areas/lithia-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lithia-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -45417,51 +43520,6 @@
         "/service-areas/longboat-key-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/longboat-key-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Longboat Key, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Longboat Key",
-      "meta_description": "24/7 emergency water cleanup in Longboat Key, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup longboat key",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/longboat-key-fl/",
-        "/service-areas/longboat-key-fl/fire-damage-restoration/",
-        "/service-areas/longboat-key-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -46384,51 +44442,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mulberry-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Mulberry, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Mulberry",
-      "meta_description": "24/7 emergency water cleanup in Mulberry, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup mulberry",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/mulberry-fl/",
-        "/service-areas/mulberry-fl/fire-damage-restoration/",
-        "/service-areas/mulberry-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mulberry-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -47343,51 +45356,6 @@
         "/service-areas/nokomis-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/nokomis-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Nokomis, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Nokomis",
-      "meta_description": "24/7 emergency water cleanup in Nokomis, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup nokomis",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/nokomis-fl/",
-        "/service-areas/nokomis-fl/fire-damage-restoration/",
-        "/service-areas/nokomis-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -48310,51 +46278,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/north-port-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in North Port, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in North Port",
-      "meta_description": "24/7 emergency water cleanup in North Port, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup north port",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/north-port-fl/",
-        "/service-areas/north-port-fl/fire-damage-restoration/",
-        "/service-areas/north-port-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/north-port-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -49269,51 +47192,6 @@
         "/service-areas/odessa-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/odessa-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Odessa, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Odessa",
-      "meta_description": "24/7 emergency water cleanup in Odessa, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup odessa",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/odessa-fl/",
-        "/service-areas/odessa-fl/fire-damage-restoration/",
-        "/service-areas/odessa-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -50236,51 +48114,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/oldsmar-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Oldsmar, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Oldsmar",
-      "meta_description": "24/7 emergency water cleanup in Oldsmar, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup oldsmar",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/oldsmar-fl/",
-        "/service-areas/oldsmar-fl/fire-damage-restoration/",
-        "/service-areas/oldsmar-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/oldsmar-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -51195,51 +49028,6 @@
         "/service-areas/osprey-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/osprey-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Osprey, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Osprey",
-      "meta_description": "24/7 emergency water cleanup in Osprey, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup osprey",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/osprey-fl/",
-        "/service-areas/osprey-fl/fire-damage-restoration/",
-        "/service-areas/osprey-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -52162,51 +49950,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/parrish-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Parrish, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Parrish",
-      "meta_description": "24/7 emergency water cleanup in Parrish, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup parrish",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/parrish-fl/",
-        "/service-areas/parrish-fl/fire-damage-restoration/",
-        "/service-areas/parrish-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/parrish-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -53121,51 +50864,6 @@
         "/service-areas/polk-city-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/polk-city-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Polk City, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Polk City",
-      "meta_description": "24/7 emergency water cleanup in Polk City, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup polk city",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/polk-city-fl/",
-        "/service-areas/polk-city-fl/fire-damage-restoration/",
-        "/service-areas/polk-city-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -54088,51 +51786,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/port-richey-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Port Richey, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Port Richey",
-      "meta_description": "24/7 emergency water cleanup in Port Richey, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup port richey",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/port-richey-fl/",
-        "/service-areas/port-richey-fl/fire-damage-restoration/",
-        "/service-areas/port-richey-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/port-richey-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -55047,51 +52700,6 @@
         "/service-areas/safety-harbor-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/safety-harbor-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Safety Harbor, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Safety Harbor",
-      "meta_description": "24/7 emergency water cleanup in Safety Harbor, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup safety harbor",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/safety-harbor-fl/",
-        "/service-areas/safety-harbor-fl/fire-damage-restoration/",
-        "/service-areas/safety-harbor-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -56014,51 +53622,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sarasota-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Sarasota, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Sarasota",
-      "meta_description": "24/7 emergency water cleanup in Sarasota, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup sarasota",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/sarasota-fl/",
-        "/service-areas/sarasota-fl/fire-damage-restoration/",
-        "/service-areas/sarasota-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sarasota-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -56973,51 +54536,6 @@
         "/service-areas/seminole-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/seminole-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Seminole, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Seminole",
-      "meta_description": "24/7 emergency water cleanup in Seminole, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup seminole",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/seminole-fl/",
-        "/service-areas/seminole-fl/fire-damage-restoration/",
-        "/service-areas/seminole-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -57940,51 +55458,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/siesta-key-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Siesta Key, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Siesta Key",
-      "meta_description": "24/7 emergency water cleanup in Siesta Key, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup siesta key",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/siesta-key-fl/",
-        "/service-areas/siesta-key-fl/fire-damage-restoration/",
-        "/service-areas/siesta-key-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/siesta-key-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -58899,51 +56372,6 @@
         "/service-areas/st-pete-beach-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/st-pete-beach-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in St. Pete Beach, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in St. Pete Beach",
-      "meta_description": "24/7 emergency water cleanup in St. Pete Beach, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup st. pete beach",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/st-pete-beach-fl/",
-        "/service-areas/st-pete-beach-fl/fire-damage-restoration/",
-        "/service-areas/st-pete-beach-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -59866,51 +57294,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sun-city-center-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Sun City Center, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Sun City Center",
-      "meta_description": "24/7 emergency water cleanup in Sun City Center, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup sun city center",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/sun-city-center-fl/",
-        "/service-areas/sun-city-center-fl/fire-damage-restoration/",
-        "/service-areas/sun-city-center-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sun-city-center-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -60825,51 +58208,6 @@
         "/service-areas/tarpon-springs-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/tarpon-springs-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Tarpon Springs, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Tarpon Springs",
-      "meta_description": "24/7 emergency water cleanup in Tarpon Springs, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup tarpon springs",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/tarpon-springs-fl/",
-        "/service-areas/tarpon-springs-fl/fire-damage-restoration/",
-        "/service-areas/tarpon-springs-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -61792,51 +59130,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/trinity-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Trinity, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Trinity",
-      "meta_description": "24/7 emergency water cleanup in Trinity, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup trinity",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/trinity-fl/",
-        "/service-areas/trinity-fl/fire-damage-restoration/",
-        "/service-areas/trinity-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/trinity-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -62751,51 +60044,6 @@
         "/service-areas/venice-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/venice-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Venice, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Venice",
-      "meta_description": "24/7 emergency water cleanup in Venice, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup venice",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/venice-fl/",
-        "/service-areas/venice-fl/fire-damage-restoration/",
-        "/service-areas/venice-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -63718,51 +60966,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mango-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Mango, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Mango",
-      "meta_description": "24/7 emergency water cleanup in Mango, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup mango",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/mango-fl/",
-        "/service-areas/mango-fl/fire-damage-restoration/",
-        "/service-areas/mango-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mango-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -64677,51 +61880,6 @@
         "/service-areas/east-lake-orient-park-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/east-lake-orient-park-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in East Lake-Orient Park, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in East Lake-Orient Park",
-      "meta_description": "24/7 emergency water cleanup in East Lake-Orient Park, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup east lake-orient park",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/east-lake-orient-park-fl/",
-        "/service-areas/east-lake-orient-park-fl/fire-damage-restoration/",
-        "/service-areas/east-lake-orient-park-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -65644,51 +62802,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/pebble-creek-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Pebble Creek, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Pebble Creek",
-      "meta_description": "24/7 emergency water cleanup in Pebble Creek, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup pebble creek",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/pebble-creek-fl/",
-        "/service-areas/pebble-creek-fl/fire-damage-restoration/",
-        "/service-areas/pebble-creek-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/pebble-creek-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -66603,51 +63716,6 @@
         "/service-areas/university-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/university-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in University, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in University",
-      "meta_description": "24/7 emergency water cleanup in University, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup university",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/university-fl/",
-        "/service-areas/university-fl/fire-damage-restoration/",
-        "/service-areas/university-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -67570,51 +64638,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/palm-river-clair-mel-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Palm River-Clair Mel, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Palm River-Clair Mel",
-      "meta_description": "24/7 emergency water cleanup in Palm River-Clair Mel, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup palm river-clair mel",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/palm-river-clair-mel-fl/",
-        "/service-areas/palm-river-clair-mel-fl/fire-damage-restoration/",
-        "/service-areas/palm-river-clair-mel-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/palm-river-clair-mel-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -68533,51 +65556,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lake-magdalene-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lake Magdalene, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Lake Magdalene",
-      "meta_description": "24/7 emergency water cleanup in Lake Magdalene, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup lake magdalene",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lake-magdalene-fl/",
-        "/service-areas/lake-magdalene-fl/fire-damage-restoration/",
-        "/service-areas/lake-magdalene-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lake-magdalene-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -69492,51 +66470,6 @@
         "/service-areas/crystal-springs-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/storm-damage-restoration/",
         "/service-areas/apollo-beach-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/crystal-springs-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Crystal Springs, FL | DRYCOR RESTORE",
-      "h1": "Emergency Water Cleanup in Crystal Springs",
-      "meta_description": "24/7 emergency water cleanup in Crystal Springs, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency water cleanup crystal springs",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/crystal-springs-fl/",
-        "/service-areas/crystal-springs-fl/fire-damage-restoration/",
-        "/service-areas/crystal-springs-fl/mold-remediation/",
-        "/service-areas/anna-maria-fl/water-cleanup/",
-        "/service-areas/apollo-beach-fl/water-cleanup/",
         "/contact/"
       ]
     },

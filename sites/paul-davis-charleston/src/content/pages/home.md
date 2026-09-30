@@ -10,7 +10,7 @@ priority: 5.0
 plan_hash: "6c8976ec03a36dc2"
 generated_at: "2026-09-20T14:13:25.006736+00:00"
 manual_override: false
-internal_links: ["/services/", "/service-areas/", "/contact/", "/about/", "/services/fire-damage-restoration/", "/services/mold-remediation/", "/services/water-damage-restoration/", "/services/water-cleanup/", "/service-areas/awendaw-sc/", "/service-areas/goose-creek-sc/", "/service-areas/hanahan-sc/", "/service-areas/isle-of-palms-sc/", "/service-areas/james-island-sc/", "/service-areas/ladson-sc/", "/service-areas/mount-pleasant-sc/", "/service-areas/north-charleston-sc/", "/service-areas/sullivan-s-island-sc/", "/service-areas/summerville-sc/"]
+internal_links: ["/services/", "/service-areas/", "/contact/", "/about/", "/services/fire-damage-restoration/", "/services/mold-remediation/", "/services/water-damage-restoration/", "/services/emergency-water-removal/", "/service-areas/awendaw-sc/", "/service-areas/goose-creek-sc/", "/service-areas/hanahan-sc/", "/service-areas/isle-of-palms-sc/", "/service-areas/james-island-sc/", "/service-areas/ladson-sc/", "/service-areas/mount-pleasant-sc/", "/service-areas/north-charleston-sc/", "/service-areas/sullivan-s-island-sc/", "/service-areas/summerville-sc/"]
 breadcrumb: [{"name": "Home", "url": "/"}]
 faq: []
 ---

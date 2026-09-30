@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "3dea08918604427e"
 generated_at: "2026-09-23T14:11:42.567267+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/steilacoom-wa/fire-damage-restoration/", "/service-areas/steilacoom-wa/mold-remediation/", "/service-areas/steilacoom-wa/water-damage-restoration/", "/service-areas/steilacoom-wa/emergency-plumbing/", "/service-areas/steilacoom-wa/sewage-cleanup/", "/service-areas/steilacoom-wa/storm-damage-restoration/", "/service-areas/steilacoom-wa/water-cleanup/", "/service-areas/steilacoom-wa/emergency-board-up-tarping/", "/service-areas/steilacoom-wa/odor-removal/", "/service-areas/steilacoom-wa/asbestos-abatement/", "/service-areas/steilacoom-wa/contents-restoration-storage/", "/service-areas/anderson-island-wa/", "/service-areas/auburn-wa/", "/service-areas/bellevue-wa/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/steilacoom-wa/fire-damage-restoration/", "/service-areas/steilacoom-wa/mold-remediation/", "/service-areas/steilacoom-wa/water-damage-restoration/", "/service-areas/steilacoom-wa/emergency-plumbing/", "/service-areas/steilacoom-wa/sewage-cleanup/", "/service-areas/steilacoom-wa/storm-damage-restoration/", "/service-areas/steilacoom-wa/emergency-water-removal/", "/service-areas/steilacoom-wa/emergency-board-up-tarping/", "/service-areas/steilacoom-wa/odor-removal/", "/service-areas/steilacoom-wa/asbestos-abatement/", "/service-areas/steilacoom-wa/contents-restoration-storage/", "/service-areas/anderson-island-wa/", "/service-areas/auburn-wa/", "/service-areas/bellevue-wa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Steilacoom"}]
 faq: []
 area_slug: "steilacoom-wa"

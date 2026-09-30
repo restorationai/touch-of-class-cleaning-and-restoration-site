@@ -378,16 +378,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/water-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -989,16 +979,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/seattle-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/seattle-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1330,16 +1310,6 @@
     "missing_stubs": []
   },
   "/service-areas/bellevue-wa/unattended-death-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bellevue-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1689,16 +1659,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/tacoma-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/tacoma-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2030,16 +1990,6 @@
     "missing_stubs": []
   },
   "/service-areas/everett-wa/unattended-death-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/everett-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2389,16 +2339,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/kent-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/kent-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2730,16 +2670,6 @@
     "missing_stubs": []
   },
   "/service-areas/renton-wa/unattended-death-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/renton-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3089,16 +3019,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/auburn-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/auburn-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3430,16 +3350,6 @@
     "missing_stubs": []
   },
   "/service-areas/kirkland-wa/unattended-death-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kirkland-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3789,16 +3699,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/redmond-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/redmond-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4130,16 +4030,6 @@
     "missing_stubs": []
   },
   "/service-areas/gig-harbor-wa/unattended-death-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gig-harbor-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4489,16 +4379,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bremerton-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bremerton-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4830,16 +4710,6 @@
     "missing_stubs": []
   },
   "/service-areas/port-orchard-wa/unattended-death-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/port-orchard-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5189,16 +5059,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/university-place-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/university-place-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5530,16 +5390,6 @@
     "missing_stubs": []
   },
   "/service-areas/lakeland-north-wa/unattended-death-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lakeland-north-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5889,16 +5739,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/des-moines-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/des-moines-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6230,16 +6070,6 @@
     "missing_stubs": []
   },
   "/service-areas/lakeland-south-wa/unattended-death-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lakeland-south-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6589,16 +6419,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/algona-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/algona-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6930,16 +6750,6 @@
     "missing_stubs": []
   },
   "/service-areas/milton-wa/unattended-death-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/milton-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7289,16 +7099,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pacific-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pacific-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7630,16 +7430,6 @@
     "missing_stubs": []
   },
   "/service-areas/seatac-wa/unattended-death-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/seatac-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7989,16 +7779,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/edgewood-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/edgewood-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8330,16 +8110,6 @@
     "missing_stubs": []
   },
   "/service-areas/fife-wa/unattended-death-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fife-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8689,16 +8459,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/normandy-park-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/normandy-park-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9030,16 +8790,6 @@
     "missing_stubs": []
   },
   "/service-areas/vashon-wa/unattended-death-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/vashon-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9389,16 +9139,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/burien-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/burien-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9730,16 +9470,6 @@
     "missing_stubs": []
   },
   "/service-areas/lake-holm-wa/unattended-death-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-holm-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10089,16 +9819,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/waller-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/waller-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10439,16 +10159,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sumner-wa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sumner-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10780,16 +10490,6 @@
     "missing_stubs": []
   },
   "/service-areas/north-puyallup-wa/unattended-death-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-puyallup-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

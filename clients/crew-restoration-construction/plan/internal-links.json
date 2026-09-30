@@ -15,7 +15,6 @@
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/basement-flooding-cleanup/",
     "/services/biohazard-cleanup/",
     "/services/burst-pipe-repair/",
@@ -92,7 +91,6 @@
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/basement-flooding-cleanup/",
     "/services/biohazard-cleanup/",
     "/services/burst-pipe-repair/",
@@ -398,7 +396,6 @@
     "/service-areas/dakota-dunes-sd/water-damage-restoration/",
     "/service-areas/dell-rapids-sd/water-damage-restoration/",
     "/service-areas/edgerton-mn/water-damage-restoration/",
-    "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
@@ -662,23 +659,6 @@
     "/service-areas/dell-rapids-sd/water-leak-detection/",
     "/service-areas/edgerton-mn/water-leak-detection/"
   ],
-  "/services/water-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/service-areas/alton-ia/water-cleanup/",
-    "/service-areas/baltic-sd/water-cleanup/",
-    "/service-areas/beresford-sd/water-cleanup/",
-    "/service-areas/brandon-sd/water-cleanup/",
-    "/service-areas/brookings-sd/water-cleanup/",
-    "/service-areas/canton-sd/water-cleanup/",
-    "/service-areas/crooks-sd/water-cleanup/",
-    "/service-areas/dakota-dunes-sd/water-cleanup/",
-    "/service-areas/dell-rapids-sd/water-cleanup/",
-    "/service-areas/edgerton-mn/water-cleanup/",
-    "/services/water-damage-restoration/"
-  ],
   "/service-areas/brookings-sd/": [
     "/service-areas/",
     "/contact/",
@@ -693,7 +673,6 @@
     "/service-areas/brookings-sd/sewage-cleanup/",
     "/service-areas/brookings-sd/smoke-damage-restoration/",
     "/service-areas/brookings-sd/storm-damage-restoration/",
-    "/service-areas/brookings-sd/water-cleanup/",
     "/service-areas/brookings-sd/basement-flooding-cleanup/",
     "/service-areas/brookings-sd/biohazard-cleanup/",
     "/service-areas/brookings-sd/burst-pipe-repair/",
@@ -730,7 +709,6 @@
     "/service-areas/yankton-sd/sewage-cleanup/",
     "/service-areas/yankton-sd/smoke-damage-restoration/",
     "/service-areas/yankton-sd/storm-damage-restoration/",
-    "/service-areas/yankton-sd/water-cleanup/",
     "/service-areas/yankton-sd/basement-flooding-cleanup/",
     "/service-areas/yankton-sd/biohazard-cleanup/",
     "/service-areas/yankton-sd/burst-pipe-repair/",
@@ -767,7 +745,6 @@
     "/service-areas/worthington-mn/sewage-cleanup/",
     "/service-areas/worthington-mn/smoke-damage-restoration/",
     "/service-areas/worthington-mn/storm-damage-restoration/",
-    "/service-areas/worthington-mn/water-cleanup/",
     "/service-areas/worthington-mn/basement-flooding-cleanup/",
     "/service-areas/worthington-mn/biohazard-cleanup/",
     "/service-areas/worthington-mn/burst-pipe-repair/",
@@ -804,7 +781,6 @@
     "/service-areas/brandon-sd/sewage-cleanup/",
     "/service-areas/brandon-sd/smoke-damage-restoration/",
     "/service-areas/brandon-sd/storm-damage-restoration/",
-    "/service-areas/brandon-sd/water-cleanup/",
     "/service-areas/brandon-sd/basement-flooding-cleanup/",
     "/service-areas/brandon-sd/biohazard-cleanup/",
     "/service-areas/brandon-sd/burst-pipe-repair/",
@@ -841,7 +817,6 @@
     "/service-areas/le-mars-ia/sewage-cleanup/",
     "/service-areas/le-mars-ia/smoke-damage-restoration/",
     "/service-areas/le-mars-ia/storm-damage-restoration/",
-    "/service-areas/le-mars-ia/water-cleanup/",
     "/service-areas/le-mars-ia/basement-flooding-cleanup/",
     "/service-areas/le-mars-ia/biohazard-cleanup/",
     "/service-areas/le-mars-ia/burst-pipe-repair/",
@@ -878,7 +853,6 @@
     "/service-areas/sioux-center-ia/sewage-cleanup/",
     "/service-areas/sioux-center-ia/smoke-damage-restoration/",
     "/service-areas/sioux-center-ia/storm-damage-restoration/",
-    "/service-areas/sioux-center-ia/water-cleanup/",
     "/service-areas/sioux-center-ia/basement-flooding-cleanup/",
     "/service-areas/sioux-center-ia/biohazard-cleanup/",
     "/service-areas/sioux-center-ia/burst-pipe-repair/",
@@ -915,7 +889,6 @@
     "/service-areas/harrisburg-sd/sewage-cleanup/",
     "/service-areas/harrisburg-sd/smoke-damage-restoration/",
     "/service-areas/harrisburg-sd/storm-damage-restoration/",
-    "/service-areas/harrisburg-sd/water-cleanup/",
     "/service-areas/harrisburg-sd/basement-flooding-cleanup/",
     "/service-areas/harrisburg-sd/biohazard-cleanup/",
     "/service-areas/harrisburg-sd/burst-pipe-repair/",
@@ -952,7 +925,6 @@
     "/service-areas/madison-sd/sewage-cleanup/",
     "/service-areas/madison-sd/smoke-damage-restoration/",
     "/service-areas/madison-sd/storm-damage-restoration/",
-    "/service-areas/madison-sd/water-cleanup/",
     "/service-areas/madison-sd/basement-flooding-cleanup/",
     "/service-areas/madison-sd/biohazard-cleanup/",
     "/service-areas/madison-sd/burst-pipe-repair/",
@@ -989,7 +961,6 @@
     "/service-areas/tea-sd/sewage-cleanup/",
     "/service-areas/tea-sd/smoke-damage-restoration/",
     "/service-areas/tea-sd/storm-damage-restoration/",
-    "/service-areas/tea-sd/water-cleanup/",
     "/service-areas/tea-sd/basement-flooding-cleanup/",
     "/service-areas/tea-sd/biohazard-cleanup/",
     "/service-areas/tea-sd/burst-pipe-repair/",
@@ -1026,7 +997,6 @@
     "/service-areas/orange-city-ia/sewage-cleanup/",
     "/service-areas/orange-city-ia/smoke-damage-restoration/",
     "/service-areas/orange-city-ia/storm-damage-restoration/",
-    "/service-areas/orange-city-ia/water-cleanup/",
     "/service-areas/orange-city-ia/basement-flooding-cleanup/",
     "/service-areas/orange-city-ia/biohazard-cleanup/",
     "/service-areas/orange-city-ia/burst-pipe-repair/",
@@ -1063,7 +1033,6 @@
     "/service-areas/luverne-mn/sewage-cleanup/",
     "/service-areas/luverne-mn/smoke-damage-restoration/",
     "/service-areas/luverne-mn/storm-damage-restoration/",
-    "/service-areas/luverne-mn/water-cleanup/",
     "/service-areas/luverne-mn/basement-flooding-cleanup/",
     "/service-areas/luverne-mn/biohazard-cleanup/",
     "/service-areas/luverne-mn/burst-pipe-repair/",
@@ -1100,7 +1069,6 @@
     "/service-areas/pipestone-mn/sewage-cleanup/",
     "/service-areas/pipestone-mn/smoke-damage-restoration/",
     "/service-areas/pipestone-mn/storm-damage-restoration/",
-    "/service-areas/pipestone-mn/water-cleanup/",
     "/service-areas/pipestone-mn/basement-flooding-cleanup/",
     "/service-areas/pipestone-mn/biohazard-cleanup/",
     "/service-areas/pipestone-mn/burst-pipe-repair/",
@@ -1137,7 +1105,6 @@
     "/service-areas/rock-valley-ia/sewage-cleanup/",
     "/service-areas/rock-valley-ia/smoke-damage-restoration/",
     "/service-areas/rock-valley-ia/storm-damage-restoration/",
-    "/service-areas/rock-valley-ia/water-cleanup/",
     "/service-areas/rock-valley-ia/basement-flooding-cleanup/",
     "/service-areas/rock-valley-ia/biohazard-cleanup/",
     "/service-areas/rock-valley-ia/burst-pipe-repair/",
@@ -1174,7 +1141,6 @@
     "/service-areas/dell-rapids-sd/sewage-cleanup/",
     "/service-areas/dell-rapids-sd/smoke-damage-restoration/",
     "/service-areas/dell-rapids-sd/storm-damage-restoration/",
-    "/service-areas/dell-rapids-sd/water-cleanup/",
     "/service-areas/dell-rapids-sd/basement-flooding-cleanup/",
     "/service-areas/dell-rapids-sd/biohazard-cleanup/",
     "/service-areas/dell-rapids-sd/burst-pipe-repair/",
@@ -1211,7 +1177,6 @@
     "/service-areas/hartford-sd/sewage-cleanup/",
     "/service-areas/hartford-sd/smoke-damage-restoration/",
     "/service-areas/hartford-sd/storm-damage-restoration/",
-    "/service-areas/hartford-sd/water-cleanup/",
     "/service-areas/hartford-sd/basement-flooding-cleanup/",
     "/service-areas/hartford-sd/biohazard-cleanup/",
     "/service-areas/hartford-sd/burst-pipe-repair/",
@@ -1248,7 +1213,6 @@
     "/service-areas/canton-sd/sewage-cleanup/",
     "/service-areas/canton-sd/smoke-damage-restoration/",
     "/service-areas/canton-sd/storm-damage-restoration/",
-    "/service-areas/canton-sd/water-cleanup/",
     "/service-areas/canton-sd/basement-flooding-cleanup/",
     "/service-areas/canton-sd/biohazard-cleanup/",
     "/service-areas/canton-sd/burst-pipe-repair/",
@@ -1285,7 +1249,6 @@
     "/service-areas/north-sioux-city-sd/sewage-cleanup/",
     "/service-areas/north-sioux-city-sd/smoke-damage-restoration/",
     "/service-areas/north-sioux-city-sd/storm-damage-restoration/",
-    "/service-areas/north-sioux-city-sd/water-cleanup/",
     "/service-areas/north-sioux-city-sd/basement-flooding-cleanup/",
     "/service-areas/north-sioux-city-sd/biohazard-cleanup/",
     "/service-areas/north-sioux-city-sd/burst-pipe-repair/",
@@ -1322,7 +1285,6 @@
     "/service-areas/sibley-ia/sewage-cleanup/",
     "/service-areas/sibley-ia/smoke-damage-restoration/",
     "/service-areas/sibley-ia/storm-damage-restoration/",
-    "/service-areas/sibley-ia/water-cleanup/",
     "/service-areas/sibley-ia/basement-flooding-cleanup/",
     "/service-areas/sibley-ia/biohazard-cleanup/",
     "/service-areas/sibley-ia/burst-pipe-repair/",
@@ -1359,7 +1321,6 @@
     "/service-areas/rock-rapids-ia/sewage-cleanup/",
     "/service-areas/rock-rapids-ia/smoke-damage-restoration/",
     "/service-areas/rock-rapids-ia/storm-damage-restoration/",
-    "/service-areas/rock-rapids-ia/water-cleanup/",
     "/service-areas/rock-rapids-ia/basement-flooding-cleanup/",
     "/service-areas/rock-rapids-ia/biohazard-cleanup/",
     "/service-areas/rock-rapids-ia/burst-pipe-repair/",
@@ -1396,7 +1357,6 @@
     "/service-areas/lennox-sd/sewage-cleanup/",
     "/service-areas/lennox-sd/smoke-damage-restoration/",
     "/service-areas/lennox-sd/storm-damage-restoration/",
-    "/service-areas/lennox-sd/water-cleanup/",
     "/service-areas/lennox-sd/basement-flooding-cleanup/",
     "/service-areas/lennox-sd/biohazard-cleanup/",
     "/service-areas/lennox-sd/burst-pipe-repair/",
@@ -1433,7 +1393,6 @@
     "/service-areas/flandreau-sd/sewage-cleanup/",
     "/service-areas/flandreau-sd/smoke-damage-restoration/",
     "/service-areas/flandreau-sd/storm-damage-restoration/",
-    "/service-areas/flandreau-sd/water-cleanup/",
     "/service-areas/flandreau-sd/basement-flooding-cleanup/",
     "/service-areas/flandreau-sd/biohazard-cleanup/",
     "/service-areas/flandreau-sd/burst-pipe-repair/",
@@ -1470,7 +1429,6 @@
     "/service-areas/parker-sd/sewage-cleanup/",
     "/service-areas/parker-sd/smoke-damage-restoration/",
     "/service-areas/parker-sd/storm-damage-restoration/",
-    "/service-areas/parker-sd/water-cleanup/",
     "/service-areas/parker-sd/basement-flooding-cleanup/",
     "/service-areas/parker-sd/biohazard-cleanup/",
     "/service-areas/parker-sd/burst-pipe-repair/",
@@ -1507,7 +1465,6 @@
     "/service-areas/salem-sd/sewage-cleanup/",
     "/service-areas/salem-sd/smoke-damage-restoration/",
     "/service-areas/salem-sd/storm-damage-restoration/",
-    "/service-areas/salem-sd/water-cleanup/",
     "/service-areas/salem-sd/basement-flooding-cleanup/",
     "/service-areas/salem-sd/biohazard-cleanup/",
     "/service-areas/salem-sd/burst-pipe-repair/",
@@ -1544,7 +1501,6 @@
     "/service-areas/slayton-mn/sewage-cleanup/",
     "/service-areas/slayton-mn/smoke-damage-restoration/",
     "/service-areas/slayton-mn/storm-damage-restoration/",
-    "/service-areas/slayton-mn/water-cleanup/",
     "/service-areas/slayton-mn/basement-flooding-cleanup/",
     "/service-areas/slayton-mn/biohazard-cleanup/",
     "/service-areas/slayton-mn/burst-pipe-repair/",
@@ -1581,7 +1537,6 @@
     "/service-areas/crooks-sd/sewage-cleanup/",
     "/service-areas/crooks-sd/smoke-damage-restoration/",
     "/service-areas/crooks-sd/storm-damage-restoration/",
-    "/service-areas/crooks-sd/water-cleanup/",
     "/service-areas/crooks-sd/basement-flooding-cleanup/",
     "/service-areas/crooks-sd/biohazard-cleanup/",
     "/service-areas/crooks-sd/burst-pipe-repair/",
@@ -1618,7 +1573,6 @@
     "/service-areas/baltic-sd/sewage-cleanup/",
     "/service-areas/baltic-sd/smoke-damage-restoration/",
     "/service-areas/baltic-sd/storm-damage-restoration/",
-    "/service-areas/baltic-sd/water-cleanup/",
     "/service-areas/baltic-sd/basement-flooding-cleanup/",
     "/service-areas/baltic-sd/biohazard-cleanup/",
     "/service-areas/baltic-sd/burst-pipe-repair/",
@@ -1655,7 +1609,6 @@
     "/service-areas/garretson-sd/sewage-cleanup/",
     "/service-areas/garretson-sd/smoke-damage-restoration/",
     "/service-areas/garretson-sd/storm-damage-restoration/",
-    "/service-areas/garretson-sd/water-cleanup/",
     "/service-areas/garretson-sd/basement-flooding-cleanup/",
     "/service-areas/garretson-sd/biohazard-cleanup/",
     "/service-areas/garretson-sd/burst-pipe-repair/",
@@ -1692,7 +1645,6 @@
     "/service-areas/worthing-sd/sewage-cleanup/",
     "/service-areas/worthing-sd/smoke-damage-restoration/",
     "/service-areas/worthing-sd/storm-damage-restoration/",
-    "/service-areas/worthing-sd/water-cleanup/",
     "/service-areas/worthing-sd/basement-flooding-cleanup/",
     "/service-areas/worthing-sd/biohazard-cleanup/",
     "/service-areas/worthing-sd/burst-pipe-repair/",
@@ -1729,7 +1681,6 @@
     "/service-areas/volga-sd/sewage-cleanup/",
     "/service-areas/volga-sd/smoke-damage-restoration/",
     "/service-areas/volga-sd/storm-damage-restoration/",
-    "/service-areas/volga-sd/water-cleanup/",
     "/service-areas/volga-sd/basement-flooding-cleanup/",
     "/service-areas/volga-sd/biohazard-cleanup/",
     "/service-areas/volga-sd/burst-pipe-repair/",
@@ -1766,7 +1717,6 @@
     "/service-areas/beresford-sd/sewage-cleanup/",
     "/service-areas/beresford-sd/smoke-damage-restoration/",
     "/service-areas/beresford-sd/storm-damage-restoration/",
-    "/service-areas/beresford-sd/water-cleanup/",
     "/service-areas/beresford-sd/basement-flooding-cleanup/",
     "/service-areas/beresford-sd/biohazard-cleanup/",
     "/service-areas/beresford-sd/burst-pipe-repair/",
@@ -1803,7 +1753,6 @@
     "/service-areas/dakota-dunes-sd/sewage-cleanup/",
     "/service-areas/dakota-dunes-sd/smoke-damage-restoration/",
     "/service-areas/dakota-dunes-sd/storm-damage-restoration/",
-    "/service-areas/dakota-dunes-sd/water-cleanup/",
     "/service-areas/dakota-dunes-sd/basement-flooding-cleanup/",
     "/service-areas/dakota-dunes-sd/biohazard-cleanup/",
     "/service-areas/dakota-dunes-sd/burst-pipe-repair/",
@@ -1840,7 +1789,6 @@
     "/service-areas/elk-point-sd/sewage-cleanup/",
     "/service-areas/elk-point-sd/smoke-damage-restoration/",
     "/service-areas/elk-point-sd/storm-damage-restoration/",
-    "/service-areas/elk-point-sd/water-cleanup/",
     "/service-areas/elk-point-sd/basement-flooding-cleanup/",
     "/service-areas/elk-point-sd/biohazard-cleanup/",
     "/service-areas/elk-point-sd/burst-pipe-repair/",
@@ -1877,7 +1825,6 @@
     "/service-areas/adrian-mn/sewage-cleanup/",
     "/service-areas/adrian-mn/smoke-damage-restoration/",
     "/service-areas/adrian-mn/storm-damage-restoration/",
-    "/service-areas/adrian-mn/water-cleanup/",
     "/service-areas/adrian-mn/basement-flooding-cleanup/",
     "/service-areas/adrian-mn/biohazard-cleanup/",
     "/service-areas/adrian-mn/burst-pipe-repair/",
@@ -1914,7 +1861,6 @@
     "/service-areas/edgerton-mn/sewage-cleanup/",
     "/service-areas/edgerton-mn/smoke-damage-restoration/",
     "/service-areas/edgerton-mn/storm-damage-restoration/",
-    "/service-areas/edgerton-mn/water-cleanup/",
     "/service-areas/edgerton-mn/basement-flooding-cleanup/",
     "/service-areas/edgerton-mn/biohazard-cleanup/",
     "/service-areas/edgerton-mn/burst-pipe-repair/",
@@ -1951,7 +1897,6 @@
     "/service-areas/fulda-mn/sewage-cleanup/",
     "/service-areas/fulda-mn/smoke-damage-restoration/",
     "/service-areas/fulda-mn/storm-damage-restoration/",
-    "/service-areas/fulda-mn/water-cleanup/",
     "/service-areas/fulda-mn/basement-flooding-cleanup/",
     "/service-areas/fulda-mn/biohazard-cleanup/",
     "/service-areas/fulda-mn/burst-pipe-repair/",
@@ -1988,7 +1933,6 @@
     "/service-areas/george-ia/sewage-cleanup/",
     "/service-areas/george-ia/smoke-damage-restoration/",
     "/service-areas/george-ia/storm-damage-restoration/",
-    "/service-areas/george-ia/water-cleanup/",
     "/service-areas/george-ia/basement-flooding-cleanup/",
     "/service-areas/george-ia/biohazard-cleanup/",
     "/service-areas/george-ia/burst-pipe-repair/",
@@ -2025,7 +1969,6 @@
     "/service-areas/hawarden-ia/sewage-cleanup/",
     "/service-areas/hawarden-ia/smoke-damage-restoration/",
     "/service-areas/hawarden-ia/storm-damage-restoration/",
-    "/service-areas/hawarden-ia/water-cleanup/",
     "/service-areas/hawarden-ia/basement-flooding-cleanup/",
     "/service-areas/hawarden-ia/biohazard-cleanup/",
     "/service-areas/hawarden-ia/burst-pipe-repair/",
@@ -2062,7 +2005,6 @@
     "/service-areas/hull-ia/sewage-cleanup/",
     "/service-areas/hull-ia/smoke-damage-restoration/",
     "/service-areas/hull-ia/storm-damage-restoration/",
-    "/service-areas/hull-ia/water-cleanup/",
     "/service-areas/hull-ia/basement-flooding-cleanup/",
     "/service-areas/hull-ia/biohazard-cleanup/",
     "/service-areas/hull-ia/burst-pipe-repair/",
@@ -2099,7 +2041,6 @@
     "/service-areas/alton-ia/sewage-cleanup/",
     "/service-areas/alton-ia/smoke-damage-restoration/",
     "/service-areas/alton-ia/storm-damage-restoration/",
-    "/service-areas/alton-ia/water-cleanup/",
     "/service-areas/alton-ia/basement-flooding-cleanup/",
     "/service-areas/alton-ia/biohazard-cleanup/",
     "/service-areas/alton-ia/burst-pipe-repair/",
@@ -2136,7 +2077,6 @@
     "/service-areas/akron-ia/sewage-cleanup/",
     "/service-areas/akron-ia/smoke-damage-restoration/",
     "/service-areas/akron-ia/storm-damage-restoration/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/service-areas/akron-ia/basement-flooding-cleanup/",
     "/service-areas/akron-ia/biohazard-cleanup/",
     "/service-areas/akron-ia/burst-pipe-repair/",
@@ -2173,7 +2113,6 @@
     "/service-areas/remsen-ia/sewage-cleanup/",
     "/service-areas/remsen-ia/smoke-damage-restoration/",
     "/service-areas/remsen-ia/storm-damage-restoration/",
-    "/service-areas/remsen-ia/water-cleanup/",
     "/service-areas/remsen-ia/basement-flooding-cleanup/",
     "/service-areas/remsen-ia/biohazard-cleanup/",
     "/service-areas/remsen-ia/burst-pipe-repair/",
@@ -2210,7 +2149,6 @@
     "/service-areas/hinton-ia/sewage-cleanup/",
     "/service-areas/hinton-ia/smoke-damage-restoration/",
     "/service-areas/hinton-ia/storm-damage-restoration/",
-    "/service-areas/hinton-ia/water-cleanup/",
     "/service-areas/hinton-ia/basement-flooding-cleanup/",
     "/service-areas/hinton-ia/biohazard-cleanup/",
     "/service-areas/hinton-ia/burst-pipe-repair/",
@@ -2247,7 +2185,6 @@
     "/service-areas/merrill-ia/sewage-cleanup/",
     "/service-areas/merrill-ia/smoke-damage-restoration/",
     "/service-areas/merrill-ia/storm-damage-restoration/",
-    "/service-areas/merrill-ia/water-cleanup/",
     "/service-areas/merrill-ia/basement-flooding-cleanup/",
     "/service-areas/merrill-ia/biohazard-cleanup/",
     "/service-areas/merrill-ia/burst-pipe-repair/",
@@ -2284,7 +2221,6 @@
     "/service-areas/kingsley-ia/sewage-cleanup/",
     "/service-areas/kingsley-ia/smoke-damage-restoration/",
     "/service-areas/kingsley-ia/storm-damage-restoration/",
-    "/service-areas/kingsley-ia/water-cleanup/",
     "/service-areas/kingsley-ia/basement-flooding-cleanup/",
     "/service-areas/kingsley-ia/biohazard-cleanup/",
     "/service-areas/kingsley-ia/burst-pipe-repair/",
@@ -2568,15 +2504,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/brookings-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/brookings-sd/",
-    "/service-areas/brookings-sd/fire-damage-restoration/",
-    "/service-areas/brookings-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/yankton-sd/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/yankton-sd/",
@@ -2836,15 +2763,6 @@
     "/service-areas/yankton-sd/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/yankton-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/yankton-sd/",
-    "/service-areas/yankton-sd/fire-damage-restoration/",
-    "/service-areas/yankton-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/worthington-mn/asbestos-abatement/": [
@@ -3108,15 +3026,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/worthington-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/worthington-mn/",
-    "/service-areas/worthington-mn/fire-damage-restoration/",
-    "/service-areas/worthington-mn/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/brandon-sd/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/brandon-sd/",
@@ -3376,15 +3285,6 @@
     "/service-areas/brandon-sd/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/brandon-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/brandon-sd/",
-    "/service-areas/brandon-sd/fire-damage-restoration/",
-    "/service-areas/brandon-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/le-mars-ia/asbestos-abatement/": [
@@ -3648,15 +3548,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/le-mars-ia/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/le-mars-ia/",
-    "/service-areas/le-mars-ia/fire-damage-restoration/",
-    "/service-areas/le-mars-ia/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/sioux-center-ia/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/sioux-center-ia/",
@@ -3916,15 +3807,6 @@
     "/service-areas/sioux-center-ia/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/sioux-center-ia/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/sioux-center-ia/",
-    "/service-areas/sioux-center-ia/fire-damage-restoration/",
-    "/service-areas/sioux-center-ia/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/harrisburg-sd/asbestos-abatement/": [
@@ -4188,15 +4070,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/harrisburg-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/harrisburg-sd/",
-    "/service-areas/harrisburg-sd/fire-damage-restoration/",
-    "/service-areas/harrisburg-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/madison-sd/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/madison-sd/",
@@ -4456,15 +4329,6 @@
     "/service-areas/madison-sd/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/madison-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/madison-sd/",
-    "/service-areas/madison-sd/fire-damage-restoration/",
-    "/service-areas/madison-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/tea-sd/asbestos-abatement/": [
@@ -4728,15 +4592,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/tea-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/tea-sd/",
-    "/service-areas/tea-sd/fire-damage-restoration/",
-    "/service-areas/tea-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/orange-city-ia/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/orange-city-ia/",
@@ -4996,15 +4851,6 @@
     "/service-areas/orange-city-ia/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/orange-city-ia/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/orange-city-ia/",
-    "/service-areas/orange-city-ia/fire-damage-restoration/",
-    "/service-areas/orange-city-ia/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/luverne-mn/asbestos-abatement/": [
@@ -5268,15 +5114,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/luverne-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/luverne-mn/",
-    "/service-areas/luverne-mn/fire-damage-restoration/",
-    "/service-areas/luverne-mn/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/pipestone-mn/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/pipestone-mn/",
@@ -5536,15 +5373,6 @@
     "/service-areas/pipestone-mn/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/pipestone-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/pipestone-mn/",
-    "/service-areas/pipestone-mn/fire-damage-restoration/",
-    "/service-areas/pipestone-mn/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/rock-valley-ia/asbestos-abatement/": [
@@ -5808,15 +5636,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/rock-valley-ia/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/rock-valley-ia/",
-    "/service-areas/rock-valley-ia/fire-damage-restoration/",
-    "/service-areas/rock-valley-ia/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/dell-rapids-sd/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/dell-rapids-sd/",
@@ -6076,15 +5895,6 @@
     "/service-areas/dell-rapids-sd/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/dell-rapids-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/dell-rapids-sd/",
-    "/service-areas/dell-rapids-sd/fire-damage-restoration/",
-    "/service-areas/dell-rapids-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/hartford-sd/asbestos-abatement/": [
@@ -6348,15 +6158,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/hartford-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/hartford-sd/",
-    "/service-areas/hartford-sd/fire-damage-restoration/",
-    "/service-areas/hartford-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/canton-sd/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/canton-sd/",
@@ -6616,15 +6417,6 @@
     "/service-areas/canton-sd/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/canton-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/canton-sd/",
-    "/service-areas/canton-sd/fire-damage-restoration/",
-    "/service-areas/canton-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/north-sioux-city-sd/asbestos-abatement/": [
@@ -6888,15 +6680,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/north-sioux-city-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/north-sioux-city-sd/",
-    "/service-areas/north-sioux-city-sd/fire-damage-restoration/",
-    "/service-areas/north-sioux-city-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/sibley-ia/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/sibley-ia/",
@@ -7156,15 +6939,6 @@
     "/service-areas/sibley-ia/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/sibley-ia/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/sibley-ia/",
-    "/service-areas/sibley-ia/fire-damage-restoration/",
-    "/service-areas/sibley-ia/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/rock-rapids-ia/asbestos-abatement/": [
@@ -7428,15 +7202,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/rock-rapids-ia/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/rock-rapids-ia/",
-    "/service-areas/rock-rapids-ia/fire-damage-restoration/",
-    "/service-areas/rock-rapids-ia/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/lennox-sd/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/lennox-sd/",
@@ -7696,15 +7461,6 @@
     "/service-areas/lennox-sd/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/lennox-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/lennox-sd/",
-    "/service-areas/lennox-sd/fire-damage-restoration/",
-    "/service-areas/lennox-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/flandreau-sd/asbestos-abatement/": [
@@ -7968,15 +7724,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/flandreau-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/flandreau-sd/",
-    "/service-areas/flandreau-sd/fire-damage-restoration/",
-    "/service-areas/flandreau-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/parker-sd/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/parker-sd/",
@@ -8236,15 +7983,6 @@
     "/service-areas/parker-sd/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/parker-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/parker-sd/",
-    "/service-areas/parker-sd/fire-damage-restoration/",
-    "/service-areas/parker-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/salem-sd/asbestos-abatement/": [
@@ -8508,15 +8246,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/salem-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/salem-sd/",
-    "/service-areas/salem-sd/fire-damage-restoration/",
-    "/service-areas/salem-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/slayton-mn/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/slayton-mn/",
@@ -8776,15 +8505,6 @@
     "/service-areas/slayton-mn/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/slayton-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/slayton-mn/",
-    "/service-areas/slayton-mn/fire-damage-restoration/",
-    "/service-areas/slayton-mn/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/crooks-sd/asbestos-abatement/": [
@@ -9048,15 +8768,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/crooks-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/crooks-sd/",
-    "/service-areas/crooks-sd/fire-damage-restoration/",
-    "/service-areas/crooks-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/baltic-sd/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/baltic-sd/",
@@ -9316,15 +9027,6 @@
     "/service-areas/baltic-sd/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/baltic-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/baltic-sd/",
-    "/service-areas/baltic-sd/fire-damage-restoration/",
-    "/service-areas/baltic-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/garretson-sd/asbestos-abatement/": [
@@ -9588,15 +9290,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/garretson-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/garretson-sd/",
-    "/service-areas/garretson-sd/fire-damage-restoration/",
-    "/service-areas/garretson-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/worthing-sd/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/worthing-sd/",
@@ -9856,15 +9549,6 @@
     "/service-areas/worthing-sd/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/worthing-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/worthing-sd/",
-    "/service-areas/worthing-sd/fire-damage-restoration/",
-    "/service-areas/worthing-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/volga-sd/asbestos-abatement/": [
@@ -10128,15 +9812,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/volga-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/volga-sd/",
-    "/service-areas/volga-sd/fire-damage-restoration/",
-    "/service-areas/volga-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/beresford-sd/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/beresford-sd/",
@@ -10396,15 +10071,6 @@
     "/service-areas/beresford-sd/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/beresford-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/beresford-sd/",
-    "/service-areas/beresford-sd/fire-damage-restoration/",
-    "/service-areas/beresford-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/dakota-dunes-sd/asbestos-abatement/": [
@@ -10668,15 +10334,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/dakota-dunes-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/dakota-dunes-sd/",
-    "/service-areas/dakota-dunes-sd/fire-damage-restoration/",
-    "/service-areas/dakota-dunes-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/elk-point-sd/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/elk-point-sd/",
@@ -10936,15 +10593,6 @@
     "/service-areas/elk-point-sd/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/elk-point-sd/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/elk-point-sd/",
-    "/service-areas/elk-point-sd/fire-damage-restoration/",
-    "/service-areas/elk-point-sd/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/adrian-mn/asbestos-abatement/": [
@@ -11208,15 +10856,6 @@
     "/service-areas/alton-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/adrian-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/adrian-mn/",
-    "/service-areas/adrian-mn/fire-damage-restoration/",
-    "/service-areas/adrian-mn/mold-remediation/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/service-areas/alton-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/edgerton-mn/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/edgerton-mn/",
@@ -11476,15 +11115,6 @@
     "/service-areas/edgerton-mn/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/edgerton-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/edgerton-mn/",
-    "/service-areas/edgerton-mn/fire-damage-restoration/",
-    "/service-areas/edgerton-mn/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/fulda-mn/asbestos-abatement/": [
@@ -11748,15 +11378,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/fulda-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/fulda-mn/",
-    "/service-areas/fulda-mn/fire-damage-restoration/",
-    "/service-areas/fulda-mn/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/george-ia/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/george-ia/",
@@ -12016,15 +11637,6 @@
     "/service-areas/george-ia/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/george-ia/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/george-ia/",
-    "/service-areas/george-ia/fire-damage-restoration/",
-    "/service-areas/george-ia/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/hawarden-ia/asbestos-abatement/": [
@@ -12288,15 +11900,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/hawarden-ia/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/hawarden-ia/",
-    "/service-areas/hawarden-ia/fire-damage-restoration/",
-    "/service-areas/hawarden-ia/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/hull-ia/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/hull-ia/",
@@ -12556,15 +12159,6 @@
     "/service-areas/hull-ia/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/hull-ia/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/hull-ia/",
-    "/service-areas/hull-ia/fire-damage-restoration/",
-    "/service-areas/hull-ia/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/alton-ia/asbestos-abatement/": [
@@ -12828,15 +12422,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/alton-ia/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/alton-ia/",
-    "/service-areas/alton-ia/fire-damage-restoration/",
-    "/service-areas/alton-ia/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/akron-ia/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/akron-ia/",
@@ -13096,15 +12681,6 @@
     "/service-areas/akron-ia/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/alton-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/akron-ia/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/akron-ia/",
-    "/service-areas/akron-ia/fire-damage-restoration/",
-    "/service-areas/akron-ia/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/alton-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/remsen-ia/asbestos-abatement/": [
@@ -13368,15 +12944,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/remsen-ia/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/remsen-ia/",
-    "/service-areas/remsen-ia/fire-damage-restoration/",
-    "/service-areas/remsen-ia/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/hinton-ia/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/hinton-ia/",
@@ -13636,15 +13203,6 @@
     "/service-areas/hinton-ia/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/hinton-ia/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/hinton-ia/",
-    "/service-areas/hinton-ia/fire-damage-restoration/",
-    "/service-areas/hinton-ia/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/merrill-ia/asbestos-abatement/": [
@@ -13908,15 +13466,6 @@
     "/service-areas/akron-ia/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/merrill-ia/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/merrill-ia/",
-    "/service-areas/merrill-ia/fire-damage-restoration/",
-    "/service-areas/merrill-ia/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/kingsley-ia/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/kingsley-ia/",
@@ -14176,15 +13725,6 @@
     "/service-areas/kingsley-ia/mold-remediation/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/akron-ia/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/kingsley-ia/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/kingsley-ia/",
-    "/service-areas/kingsley-ia/fire-damage-restoration/",
-    "/service-areas/kingsley-ia/mold-remediation/",
-    "/service-areas/adrian-mn/water-cleanup/",
-    "/service-areas/akron-ia/water-cleanup/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

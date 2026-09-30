@@ -7,7 +7,6 @@
     "/services/water-damage-restoration/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
-    "/services/water-cleanup/",
     "/services/basement-flooding-cleanup/",
     "/services/burst-pipe-repair/",
     "/services/general-contracting/",
@@ -43,7 +42,6 @@
     "/services/water-damage-restoration/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
-    "/services/water-cleanup/",
     "/services/basement-flooding-cleanup/",
     "/services/burst-pipe-repair/",
     "/services/general-contracting/"
@@ -114,7 +112,6 @@
     "/service-areas/fairbanks-ranch-ca/water-damage-restoration/",
     "/service-areas/fallbrook-ca/water-damage-restoration/",
     "/service-areas/harmony-grove-ca/water-damage-restoration/",
-    "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
@@ -199,30 +196,12 @@
     "/service-areas/fallbrook-ca/general-contracting/",
     "/service-areas/harmony-grove-ca/general-contracting/"
   ],
-  "/services/water-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-south-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
-    "/service-areas/chula-vista-ca/water-cleanup/",
-    "/service-areas/del-mar-ca/water-cleanup/",
-    "/service-areas/el-cajon-ca/water-cleanup/",
-    "/service-areas/encinitas-ca/water-cleanup/",
-    "/service-areas/escondido-ca/water-cleanup/",
-    "/service-areas/fairbanks-ranch-ca/water-cleanup/",
-    "/service-areas/fallbrook-ca/water-cleanup/",
-    "/service-areas/harmony-grove-ca/water-cleanup/",
-    "/services/water-damage-restoration/"
-  ],
   "/service-areas/chula-vista-ca/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/chula-vista-ca/water-damage-restoration/",
     "/service-areas/chula-vista-ca/flood-damage-restoration/",
     "/service-areas/chula-vista-ca/reconstruction/",
-    "/service-areas/chula-vista-ca/water-cleanup/",
     "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
     "/service-areas/chula-vista-ca/burst-pipe-repair/",
     "/service-areas/chula-vista-ca/general-contracting/",
@@ -236,7 +215,6 @@
     "/service-areas/oceanside-ca/water-damage-restoration/",
     "/service-areas/oceanside-ca/flood-damage-restoration/",
     "/service-areas/oceanside-ca/reconstruction/",
-    "/service-areas/oceanside-ca/water-cleanup/",
     "/service-areas/oceanside-ca/basement-flooding-cleanup/",
     "/service-areas/oceanside-ca/burst-pipe-repair/",
     "/service-areas/oceanside-ca/general-contracting/",
@@ -250,7 +228,6 @@
     "/service-areas/escondido-ca/water-damage-restoration/",
     "/service-areas/escondido-ca/flood-damage-restoration/",
     "/service-areas/escondido-ca/reconstruction/",
-    "/service-areas/escondido-ca/water-cleanup/",
     "/service-areas/escondido-ca/basement-flooding-cleanup/",
     "/service-areas/escondido-ca/burst-pipe-repair/",
     "/service-areas/escondido-ca/general-contracting/",
@@ -264,7 +241,6 @@
     "/service-areas/carlsbad-ca/water-damage-restoration/",
     "/service-areas/carlsbad-ca/flood-damage-restoration/",
     "/service-areas/carlsbad-ca/reconstruction/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
     "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
     "/service-areas/carlsbad-ca/burst-pipe-repair/",
     "/service-areas/carlsbad-ca/general-contracting/",
@@ -278,7 +254,6 @@
     "/service-areas/el-cajon-ca/water-damage-restoration/",
     "/service-areas/el-cajon-ca/flood-damage-restoration/",
     "/service-areas/el-cajon-ca/reconstruction/",
-    "/service-areas/el-cajon-ca/water-cleanup/",
     "/service-areas/el-cajon-ca/basement-flooding-cleanup/",
     "/service-areas/el-cajon-ca/burst-pipe-repair/",
     "/service-areas/el-cajon-ca/general-contracting/",
@@ -292,7 +267,6 @@
     "/service-areas/vista-ca/water-damage-restoration/",
     "/service-areas/vista-ca/flood-damage-restoration/",
     "/service-areas/vista-ca/reconstruction/",
-    "/service-areas/vista-ca/water-cleanup/",
     "/service-areas/vista-ca/basement-flooding-cleanup/",
     "/service-areas/vista-ca/burst-pipe-repair/",
     "/service-areas/vista-ca/general-contracting/",
@@ -306,7 +280,6 @@
     "/service-areas/san-marcos-ca/water-damage-restoration/",
     "/service-areas/san-marcos-ca/flood-damage-restoration/",
     "/service-areas/san-marcos-ca/reconstruction/",
-    "/service-areas/san-marcos-ca/water-cleanup/",
     "/service-areas/san-marcos-ca/basement-flooding-cleanup/",
     "/service-areas/san-marcos-ca/burst-pipe-repair/",
     "/service-areas/san-marcos-ca/general-contracting/",
@@ -320,7 +293,6 @@
     "/service-areas/encinitas-ca/water-damage-restoration/",
     "/service-areas/encinitas-ca/flood-damage-restoration/",
     "/service-areas/encinitas-ca/reconstruction/",
-    "/service-areas/encinitas-ca/water-cleanup/",
     "/service-areas/encinitas-ca/basement-flooding-cleanup/",
     "/service-areas/encinitas-ca/burst-pipe-repair/",
     "/service-areas/encinitas-ca/general-contracting/",
@@ -334,7 +306,6 @@
     "/service-areas/la-mesa-ca/water-damage-restoration/",
     "/service-areas/la-mesa-ca/flood-damage-restoration/",
     "/service-areas/la-mesa-ca/reconstruction/",
-    "/service-areas/la-mesa-ca/water-cleanup/",
     "/service-areas/la-mesa-ca/basement-flooding-cleanup/",
     "/service-areas/la-mesa-ca/burst-pipe-repair/",
     "/service-areas/la-mesa-ca/general-contracting/",
@@ -348,7 +319,6 @@
     "/service-areas/santee-ca/water-damage-restoration/",
     "/service-areas/santee-ca/flood-damage-restoration/",
     "/service-areas/santee-ca/reconstruction/",
-    "/service-areas/santee-ca/water-cleanup/",
     "/service-areas/santee-ca/basement-flooding-cleanup/",
     "/service-areas/santee-ca/burst-pipe-repair/",
     "/service-areas/santee-ca/general-contracting/",
@@ -362,7 +332,6 @@
     "/service-areas/poway-ca/water-damage-restoration/",
     "/service-areas/poway-ca/flood-damage-restoration/",
     "/service-areas/poway-ca/reconstruction/",
-    "/service-areas/poway-ca/water-cleanup/",
     "/service-areas/poway-ca/basement-flooding-cleanup/",
     "/service-areas/poway-ca/burst-pipe-repair/",
     "/service-areas/poway-ca/general-contracting/",
@@ -376,7 +345,6 @@
     "/service-areas/national-city-ca/water-damage-restoration/",
     "/service-areas/national-city-ca/flood-damage-restoration/",
     "/service-areas/national-city-ca/reconstruction/",
-    "/service-areas/national-city-ca/water-cleanup/",
     "/service-areas/national-city-ca/basement-flooding-cleanup/",
     "/service-areas/national-city-ca/burst-pipe-repair/",
     "/service-areas/national-city-ca/general-contracting/",
@@ -390,7 +358,6 @@
     "/service-areas/spring-valley-ca/water-damage-restoration/",
     "/service-areas/spring-valley-ca/flood-damage-restoration/",
     "/service-areas/spring-valley-ca/reconstruction/",
-    "/service-areas/spring-valley-ca/water-cleanup/",
     "/service-areas/spring-valley-ca/basement-flooding-cleanup/",
     "/service-areas/spring-valley-ca/burst-pipe-repair/",
     "/service-areas/spring-valley-ca/general-contracting/",
@@ -404,7 +371,6 @@
     "/service-areas/temecula-ca/water-damage-restoration/",
     "/service-areas/temecula-ca/flood-damage-restoration/",
     "/service-areas/temecula-ca/reconstruction/",
-    "/service-areas/temecula-ca/water-cleanup/",
     "/service-areas/temecula-ca/basement-flooding-cleanup/",
     "/service-areas/temecula-ca/burst-pipe-repair/",
     "/service-areas/temecula-ca/general-contracting/",
@@ -418,7 +384,6 @@
     "/service-areas/harmony-grove-ca/water-damage-restoration/",
     "/service-areas/harmony-grove-ca/flood-damage-restoration/",
     "/service-areas/harmony-grove-ca/reconstruction/",
-    "/service-areas/harmony-grove-ca/water-cleanup/",
     "/service-areas/harmony-grove-ca/basement-flooding-cleanup/",
     "/service-areas/harmony-grove-ca/burst-pipe-repair/",
     "/service-areas/harmony-grove-ca/general-contracting/",
@@ -432,7 +397,6 @@
     "/service-areas/hidden-meadows-ca/water-damage-restoration/",
     "/service-areas/hidden-meadows-ca/flood-damage-restoration/",
     "/service-areas/hidden-meadows-ca/reconstruction/",
-    "/service-areas/hidden-meadows-ca/water-cleanup/",
     "/service-areas/hidden-meadows-ca/basement-flooding-cleanup/",
     "/service-areas/hidden-meadows-ca/burst-pipe-repair/",
     "/service-areas/hidden-meadows-ca/general-contracting/",
@@ -446,7 +410,6 @@
     "/service-areas/bonsall-ca/water-damage-restoration/",
     "/service-areas/bonsall-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/reconstruction/",
-    "/service-areas/bonsall-ca/water-cleanup/",
     "/service-areas/bonsall-ca/basement-flooding-cleanup/",
     "/service-areas/bonsall-ca/burst-pipe-repair/",
     "/service-areas/bonsall-ca/general-contracting/",
@@ -460,7 +423,6 @@
     "/service-areas/rancho-santa-fe-ca/water-damage-restoration/",
     "/service-areas/rancho-santa-fe-ca/flood-damage-restoration/",
     "/service-areas/rancho-santa-fe-ca/reconstruction/",
-    "/service-areas/rancho-santa-fe-ca/water-cleanup/",
     "/service-areas/rancho-santa-fe-ca/basement-flooding-cleanup/",
     "/service-areas/rancho-santa-fe-ca/burst-pipe-repair/",
     "/service-areas/rancho-santa-fe-ca/general-contracting/",
@@ -474,7 +436,6 @@
     "/service-areas/valley-center-ca/water-damage-restoration/",
     "/service-areas/valley-center-ca/flood-damage-restoration/",
     "/service-areas/valley-center-ca/reconstruction/",
-    "/service-areas/valley-center-ca/water-cleanup/",
     "/service-areas/valley-center-ca/basement-flooding-cleanup/",
     "/service-areas/valley-center-ca/burst-pipe-repair/",
     "/service-areas/valley-center-ca/general-contracting/",
@@ -488,7 +449,6 @@
     "/service-areas/fairbanks-ranch-ca/water-damage-restoration/",
     "/service-areas/fairbanks-ranch-ca/flood-damage-restoration/",
     "/service-areas/fairbanks-ranch-ca/reconstruction/",
-    "/service-areas/fairbanks-ranch-ca/water-cleanup/",
     "/service-areas/fairbanks-ranch-ca/basement-flooding-cleanup/",
     "/service-areas/fairbanks-ranch-ca/burst-pipe-repair/",
     "/service-areas/fairbanks-ranch-ca/general-contracting/",
@@ -502,7 +462,6 @@
     "/service-areas/solana-beach-ca/water-damage-restoration/",
     "/service-areas/solana-beach-ca/flood-damage-restoration/",
     "/service-areas/solana-beach-ca/reconstruction/",
-    "/service-areas/solana-beach-ca/water-cleanup/",
     "/service-areas/solana-beach-ca/basement-flooding-cleanup/",
     "/service-areas/solana-beach-ca/burst-pipe-repair/",
     "/service-areas/solana-beach-ca/general-contracting/",
@@ -516,7 +475,6 @@
     "/service-areas/del-mar-ca/water-damage-restoration/",
     "/service-areas/del-mar-ca/flood-damage-restoration/",
     "/service-areas/del-mar-ca/reconstruction/",
-    "/service-areas/del-mar-ca/water-cleanup/",
     "/service-areas/del-mar-ca/basement-flooding-cleanup/",
     "/service-areas/del-mar-ca/burst-pipe-repair/",
     "/service-areas/del-mar-ca/general-contracting/",
@@ -530,7 +488,6 @@
     "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/",
     "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/",
     "/service-areas/camp-pendleton-mainside-ca/reconstruction/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
     "/service-areas/camp-pendleton-mainside-ca/basement-flooding-cleanup/",
     "/service-areas/camp-pendleton-mainside-ca/burst-pipe-repair/",
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
@@ -544,7 +501,6 @@
     "/service-areas/camp-pendleton-south-ca/water-damage-restoration/",
     "/service-areas/camp-pendleton-south-ca/flood-damage-restoration/",
     "/service-areas/camp-pendleton-south-ca/reconstruction/",
-    "/service-areas/camp-pendleton-south-ca/water-cleanup/",
     "/service-areas/camp-pendleton-south-ca/basement-flooding-cleanup/",
     "/service-areas/camp-pendleton-south-ca/burst-pipe-repair/",
     "/service-areas/camp-pendleton-south-ca/general-contracting/",
@@ -558,7 +514,6 @@
     "/service-areas/fallbrook-ca/water-damage-restoration/",
     "/service-areas/fallbrook-ca/flood-damage-restoration/",
     "/service-areas/fallbrook-ca/reconstruction/",
-    "/service-areas/fallbrook-ca/water-cleanup/",
     "/service-areas/fallbrook-ca/basement-flooding-cleanup/",
     "/service-areas/fallbrook-ca/burst-pipe-repair/",
     "/service-areas/fallbrook-ca/general-contracting/",
@@ -572,7 +527,6 @@
     "/service-areas/pala-ca/water-damage-restoration/",
     "/service-areas/pala-ca/flood-damage-restoration/",
     "/service-areas/pala-ca/reconstruction/",
-    "/service-areas/pala-ca/water-cleanup/",
     "/service-areas/pala-ca/basement-flooding-cleanup/",
     "/service-areas/pala-ca/burst-pipe-repair/",
     "/service-areas/pala-ca/general-contracting/",
@@ -634,15 +588,6 @@
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/chula-vista-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/chula-vista-ca/",
-    "/service-areas/chula-vista-ca/water-damage-restoration/",
-    "/service-areas/chula-vista-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/oceanside-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/oceanside-ca/",
@@ -695,15 +640,6 @@
     "/service-areas/oceanside-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/general-contracting/",
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/oceanside-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/oceanside-ca/",
-    "/service-areas/oceanside-ca/water-damage-restoration/",
-    "/service-areas/oceanside-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/escondido-ca/water-damage-restoration/": [
@@ -760,15 +696,6 @@
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/escondido-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/escondido-ca/",
-    "/service-areas/escondido-ca/water-damage-restoration/",
-    "/service-areas/escondido-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/carlsbad-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/carlsbad-ca/",
@@ -821,15 +748,6 @@
     "/service-areas/carlsbad-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/general-contracting/",
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/carlsbad-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/carlsbad-ca/",
-    "/service-areas/carlsbad-ca/water-damage-restoration/",
-    "/service-areas/carlsbad-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/el-cajon-ca/water-damage-restoration/": [
@@ -886,15 +804,6 @@
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/el-cajon-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/el-cajon-ca/",
-    "/service-areas/el-cajon-ca/water-damage-restoration/",
-    "/service-areas/el-cajon-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/vista-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/vista-ca/",
@@ -947,15 +856,6 @@
     "/service-areas/vista-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/general-contracting/",
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/vista-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/vista-ca/",
-    "/service-areas/vista-ca/water-damage-restoration/",
-    "/service-areas/vista-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/san-marcos-ca/water-damage-restoration/": [
@@ -1012,15 +912,6 @@
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/san-marcos-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/san-marcos-ca/",
-    "/service-areas/san-marcos-ca/water-damage-restoration/",
-    "/service-areas/san-marcos-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/encinitas-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/encinitas-ca/",
@@ -1073,15 +964,6 @@
     "/service-areas/encinitas-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/general-contracting/",
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/encinitas-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/encinitas-ca/",
-    "/service-areas/encinitas-ca/water-damage-restoration/",
-    "/service-areas/encinitas-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/la-mesa-ca/water-damage-restoration/": [
@@ -1138,15 +1020,6 @@
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/la-mesa-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/la-mesa-ca/",
-    "/service-areas/la-mesa-ca/water-damage-restoration/",
-    "/service-areas/la-mesa-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/santee-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/santee-ca/",
@@ -1199,15 +1072,6 @@
     "/service-areas/santee-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/general-contracting/",
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/santee-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/santee-ca/",
-    "/service-areas/santee-ca/water-damage-restoration/",
-    "/service-areas/santee-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/poway-ca/water-damage-restoration/": [
@@ -1264,15 +1128,6 @@
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/poway-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/poway-ca/",
-    "/service-areas/poway-ca/water-damage-restoration/",
-    "/service-areas/poway-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/national-city-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/national-city-ca/",
@@ -1325,15 +1180,6 @@
     "/service-areas/national-city-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/general-contracting/",
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/national-city-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/national-city-ca/",
-    "/service-areas/national-city-ca/water-damage-restoration/",
-    "/service-areas/national-city-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/spring-valley-ca/water-damage-restoration/": [
@@ -1390,15 +1236,6 @@
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/spring-valley-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/spring-valley-ca/",
-    "/service-areas/spring-valley-ca/water-damage-restoration/",
-    "/service-areas/spring-valley-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/temecula-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/temecula-ca/",
@@ -1451,15 +1288,6 @@
     "/service-areas/temecula-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/general-contracting/",
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/temecula-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/temecula-ca/",
-    "/service-areas/temecula-ca/water-damage-restoration/",
-    "/service-areas/temecula-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/harmony-grove-ca/water-damage-restoration/": [
@@ -1516,15 +1344,6 @@
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/harmony-grove-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/harmony-grove-ca/",
-    "/service-areas/harmony-grove-ca/water-damage-restoration/",
-    "/service-areas/harmony-grove-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/hidden-meadows-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/hidden-meadows-ca/",
@@ -1577,15 +1396,6 @@
     "/service-areas/hidden-meadows-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/general-contracting/",
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/hidden-meadows-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/hidden-meadows-ca/",
-    "/service-areas/hidden-meadows-ca/water-damage-restoration/",
-    "/service-areas/hidden-meadows-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/bonsall-ca/water-damage-restoration/": [
@@ -1642,15 +1452,6 @@
     "/service-areas/camp-pendleton-south-ca/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/bonsall-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/bonsall-ca/",
-    "/service-areas/bonsall-ca/water-damage-restoration/",
-    "/service-areas/bonsall-ca/flood-damage-restoration/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-south-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/rancho-santa-fe-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/rancho-santa-fe-ca/",
@@ -1703,15 +1504,6 @@
     "/service-areas/rancho-santa-fe-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/general-contracting/",
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/rancho-santa-fe-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/rancho-santa-fe-ca/",
-    "/service-areas/rancho-santa-fe-ca/water-damage-restoration/",
-    "/service-areas/rancho-santa-fe-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/valley-center-ca/water-damage-restoration/": [
@@ -1768,15 +1560,6 @@
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/valley-center-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/valley-center-ca/",
-    "/service-areas/valley-center-ca/water-damage-restoration/",
-    "/service-areas/valley-center-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/fairbanks-ranch-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/fairbanks-ranch-ca/",
@@ -1829,15 +1612,6 @@
     "/service-areas/fairbanks-ranch-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/general-contracting/",
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/fairbanks-ranch-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/fairbanks-ranch-ca/",
-    "/service-areas/fairbanks-ranch-ca/water-damage-restoration/",
-    "/service-areas/fairbanks-ranch-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/solana-beach-ca/water-damage-restoration/": [
@@ -1894,15 +1668,6 @@
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/solana-beach-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/solana-beach-ca/",
-    "/service-areas/solana-beach-ca/water-damage-restoration/",
-    "/service-areas/solana-beach-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/del-mar-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/del-mar-ca/",
@@ -1955,15 +1720,6 @@
     "/service-areas/del-mar-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/general-contracting/",
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/del-mar-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/del-mar-ca/",
-    "/service-areas/del-mar-ca/water-damage-restoration/",
-    "/service-areas/del-mar-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/": [
@@ -2020,15 +1776,6 @@
     "/service-areas/camp-pendleton-south-ca/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/camp-pendleton-mainside-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/",
-    "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/",
-    "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-south-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/camp-pendleton-south-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/camp-pendleton-south-ca/",
@@ -2081,15 +1828,6 @@
     "/service-areas/camp-pendleton-south-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/general-contracting/",
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/camp-pendleton-south-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/camp-pendleton-south-ca/",
-    "/service-areas/camp-pendleton-south-ca/water-damage-restoration/",
-    "/service-areas/camp-pendleton-south-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/fallbrook-ca/water-damage-restoration/": [
@@ -2146,15 +1884,6 @@
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/fallbrook-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/fallbrook-ca/",
-    "/service-areas/fallbrook-ca/water-damage-restoration/",
-    "/service-areas/fallbrook-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/pala-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/pala-ca/",
@@ -2207,15 +1936,6 @@
     "/service-areas/pala-ca/flood-damage-restoration/",
     "/service-areas/bonsall-ca/general-contracting/",
     "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/pala-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/pala-ca/",
-    "/service-areas/pala-ca/water-damage-restoration/",
-    "/service-areas/pala-ca/flood-damage-restoration/",
-    "/service-areas/bonsall-ca/water-cleanup/",
-    "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

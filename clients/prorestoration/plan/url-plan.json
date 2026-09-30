@@ -1482,58 +1482,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Bakersfield | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Bakersfield",
-      "meta_description": "24/7 emergency water cleanup in Bakersfield and surrounding areas. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup bakersfield",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
-        "/service-areas/buttonwillow-ca/water-cleanup/",
-        "/service-areas/delano-ca/water-cleanup/",
-        "/service-areas/dustin-acres-ca/water-cleanup/",
-        "/service-areas/east-niles-ca/water-cleanup/",
-        "/service-areas/keene-ca/water-cleanup/",
-        "/service-areas/lake-isabella-ca/water-cleanup/",
-        "/service-areas/lamont-ca/water-cleanup/",
-        "/service-areas/maricopa-ca/water-cleanup/",
-        "/service-areas/mcfarland-ca/water-cleanup/",
-        "/service-areas/oildale-ca/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/services/water-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -4400,51 +4348,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/oildale-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Oildale, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Oildale",
-      "meta_description": "24/7 emergency water cleanup in Oildale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup oildale",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/oildale-ca/",
-        "/service-areas/oildale-ca/fire-damage-restoration/",
-        "/service-areas/oildale-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/oildale-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5749,51 +5652,6 @@
         "/service-areas/rosedale-ca/home-remodeling/",
         "/service-areas/arvin-ca/storm-damage-restoration/",
         "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rosedale-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Rosedale, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Rosedale",
-      "meta_description": "24/7 emergency water cleanup in Rosedale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup rosedale",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/rosedale-ca/",
-        "/service-areas/rosedale-ca/fire-damage-restoration/",
-        "/service-areas/rosedale-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -7106,51 +6964,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/delano-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Delano, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Delano",
-      "meta_description": "24/7 emergency water cleanup in Delano, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup delano",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/delano-ca/",
-        "/service-areas/delano-ca/fire-damage-restoration/",
-        "/service-areas/delano-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/delano-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8455,51 +8268,6 @@
         "/service-areas/shafter-ca/home-remodeling/",
         "/service-areas/arvin-ca/storm-damage-restoration/",
         "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/shafter-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Shafter, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Shafter",
-      "meta_description": "24/7 emergency water cleanup in Shafter, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup shafter",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/shafter-ca/",
-        "/service-areas/shafter-ca/fire-damage-restoration/",
-        "/service-areas/shafter-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -9812,51 +9580,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/wasco-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Wasco, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Wasco",
-      "meta_description": "24/7 emergency water cleanup in Wasco, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup wasco",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/wasco-ca/",
-        "/service-areas/wasco-ca/fire-damage-restoration/",
-        "/service-areas/wasco-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/wasco-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11161,51 +10884,6 @@
         "/service-areas/taft-ca/home-remodeling/",
         "/service-areas/arvin-ca/storm-damage-restoration/",
         "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/taft-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Taft, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Taft",
-      "meta_description": "24/7 emergency water cleanup in Taft, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup taft",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/taft-ca/",
-        "/service-areas/taft-ca/fire-damage-restoration/",
-        "/service-areas/taft-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -12518,51 +12196,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/tehachapi-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Tehachapi, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Tehachapi",
-      "meta_description": "24/7 emergency water cleanup in Tehachapi, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup tehachapi",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/tehachapi-ca/",
-        "/service-areas/tehachapi-ca/fire-damage-restoration/",
-        "/service-areas/tehachapi-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/tehachapi-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13867,51 +13500,6 @@
         "/service-areas/arvin-ca/home-remodeling/",
         "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
         "/service-areas/buttonwillow-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/arvin-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Arvin, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Arvin",
-      "meta_description": "24/7 emergency water cleanup in Arvin, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup arvin",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/arvin-ca/",
-        "/service-areas/arvin-ca/fire-damage-restoration/",
-        "/service-areas/arvin-ca/home-remodeling/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
-        "/service-areas/buttonwillow-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -15224,51 +14812,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lamont-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lamont, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Lamont",
-      "meta_description": "24/7 emergency water cleanup in Lamont, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup lamont",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lamont-ca/",
-        "/service-areas/lamont-ca/fire-damage-restoration/",
-        "/service-areas/lamont-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lamont-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16573,51 +16116,6 @@
         "/service-areas/lake-isabella-ca/home-remodeling/",
         "/service-areas/arvin-ca/storm-damage-restoration/",
         "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lake-isabella-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lake Isabella, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Lake Isabella",
-      "meta_description": "24/7 emergency water cleanup in Lake Isabella, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup lake isabella",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lake-isabella-ca/",
-        "/service-areas/lake-isabella-ca/fire-damage-restoration/",
-        "/service-areas/lake-isabella-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -17930,51 +17428,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/east-niles-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in East Niles, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in East Niles",
-      "meta_description": "24/7 emergency water cleanup in East Niles, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup east niles",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/east-niles-ca/",
-        "/service-areas/east-niles-ca/fire-damage-restoration/",
-        "/service-areas/east-niles-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/east-niles-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19279,51 +18732,6 @@
         "/service-areas/tarina-ca/home-remodeling/",
         "/service-areas/arvin-ca/storm-damage-restoration/",
         "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/tarina-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Tarina, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Tarina",
-      "meta_description": "24/7 emergency water cleanup in Tarina, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup tarina",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/tarina-ca/",
-        "/service-areas/tarina-ca/fire-damage-restoration/",
-        "/service-areas/tarina-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -20636,51 +20044,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/weedpatch-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Weedpatch, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Weedpatch",
-      "meta_description": "24/7 emergency water cleanup in Weedpatch, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup weedpatch",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/weedpatch-ca/",
-        "/service-areas/weedpatch-ca/fire-damage-restoration/",
-        "/service-areas/weedpatch-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/weedpatch-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -21985,51 +21348,6 @@
         "/service-areas/buttonwillow-ca/home-remodeling/",
         "/service-areas/arvin-ca/storm-damage-restoration/",
         "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/buttonwillow-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Buttonwillow, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Buttonwillow",
-      "meta_description": "24/7 emergency water cleanup in Buttonwillow, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup buttonwillow",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/buttonwillow-ca/",
-        "/service-areas/buttonwillow-ca/fire-damage-restoration/",
-        "/service-areas/buttonwillow-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -23342,51 +22660,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/dustin-acres-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Dustin Acres, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Dustin Acres",
-      "meta_description": "24/7 emergency water cleanup in Dustin Acres, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup dustin acres",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/dustin-acres-ca/",
-        "/service-areas/dustin-acres-ca/fire-damage-restoration/",
-        "/service-areas/dustin-acres-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/dustin-acres-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -24691,51 +23964,6 @@
         "/service-areas/mcfarland-ca/home-remodeling/",
         "/service-areas/arvin-ca/storm-damage-restoration/",
         "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mcfarland-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in McFarland, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in McFarland",
-      "meta_description": "24/7 emergency water cleanup in McFarland, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup mcfarland",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/mcfarland-ca/",
-        "/service-areas/mcfarland-ca/fire-damage-restoration/",
-        "/service-areas/mcfarland-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -26048,51 +25276,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/valley-acres-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Valley Acres, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Valley Acres",
-      "meta_description": "24/7 emergency water cleanup in Valley Acres, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup valley acres",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/valley-acres-ca/",
-        "/service-areas/valley-acres-ca/fire-damage-restoration/",
-        "/service-areas/valley-acres-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/valley-acres-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -27397,51 +26580,6 @@
         "/service-areas/woody-ca/home-remodeling/",
         "/service-areas/arvin-ca/storm-damage-restoration/",
         "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/woody-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Woody, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Woody",
-      "meta_description": "24/7 emergency water cleanup in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup woody",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/woody-ca/",
-        "/service-areas/woody-ca/fire-damage-restoration/",
-        "/service-areas/woody-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -28754,51 +27892,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/bear-valley-springs-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Bear Valley Springs, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Bear Valley Springs",
-      "meta_description": "24/7 emergency water cleanup in Bear Valley Springs, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup bear valley springs",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/bear-valley-springs-ca/fire-damage-restoration/",
-        "/service-areas/bear-valley-springs-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/buttonwillow-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/bear-valley-springs-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -30107,51 +29200,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/keene-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Keene, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Keene",
-      "meta_description": "24/7 emergency water cleanup in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup keene",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/keene-ca/",
-        "/service-areas/keene-ca/fire-damage-restoration/",
-        "/service-areas/keene-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/keene-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -31456,51 +30504,6 @@
         "/service-areas/maricopa-ca/home-remodeling/",
         "/service-areas/arvin-ca/storm-damage-restoration/",
         "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/maricopa-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Maricopa, CA | ProRestoration Services",
-      "h1": "Emergency Water Cleanup in Maricopa",
-      "meta_description": "24/7 emergency water cleanup in Maricopa, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "emergency water cleanup maricopa",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/maricopa-ca/",
-        "/service-areas/maricopa-ca/fire-damage-restoration/",
-        "/service-areas/maricopa-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-cleanup/",
         "/contact/"
       ]
     },

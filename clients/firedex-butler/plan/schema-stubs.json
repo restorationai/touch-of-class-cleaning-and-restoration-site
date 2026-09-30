@@ -238,16 +238,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wexford-pa/": {
     "archetype": "service-area",
     "stubs": [
@@ -626,16 +616,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wexford-pa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mars-pa/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -807,16 +787,6 @@
     "missing_stubs": []
   },
   "/service-areas/mars-pa/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mars-pa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1006,16 +976,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/zelienople-pa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/evans-city-pa/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1187,16 +1147,6 @@
     "missing_stubs": []
   },
   "/service-areas/evans-city-pa/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/evans-city-pa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1386,16 +1336,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/seven-fields-pa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/butler-pa/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1567,16 +1507,6 @@
     "missing_stubs": []
   },
   "/service-areas/butler-pa/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/butler-pa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1766,16 +1696,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gibsonia-pa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/beaver-falls-pa/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1947,16 +1867,6 @@
     "missing_stubs": []
   },
   "/service-areas/beaver-falls-pa/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/beaver-falls-pa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2146,16 +2056,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/economy-pa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/franklin-park-pa/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2327,16 +2227,6 @@
     "missing_stubs": []
   },
   "/service-areas/franklin-park-pa/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/franklin-park-pa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2526,16 +2416,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/baden-pa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bell-acres-pa/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2707,16 +2587,6 @@
     "missing_stubs": []
   },
   "/service-areas/bell-acres-pa/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bell-acres-pa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2906,16 +2776,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/monaca-pa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sewickley-heights-pa/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3087,16 +2947,6 @@
     "missing_stubs": []
   },
   "/service-areas/sewickley-heights-pa/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sewickley-heights-pa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3286,16 +3136,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/aliquippa-pa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sewickley-hills-pa/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3467,16 +3307,6 @@
     "missing_stubs": []
   },
   "/service-areas/sewickley-hills-pa/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sewickley-hills-pa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3666,16 +3496,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/allison-park-pa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/prospect-pa/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3847,16 +3667,6 @@
     "missing_stubs": []
   },
   "/service-areas/prospect-pa/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/prospect-pa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4046,16 +3856,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/oak-hills-pa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/glenshaw-pa/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4227,16 +4027,6 @@
     "missing_stubs": []
   },
   "/service-areas/glenshaw-pa/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/glenshaw-pa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4426,16 +4216,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ellwood-city-pa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/big-beaver-pa/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4607,16 +4387,6 @@
     "missing_stubs": []
   },
   "/service-areas/big-beaver-pa/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/big-beaver-pa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

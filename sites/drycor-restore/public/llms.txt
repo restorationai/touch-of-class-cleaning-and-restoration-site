@@ -59,7 +59,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Mold Remediation](https://drycor.com/services/mold-remediation/)
 - [Sewage Cleanup and Sanitization](https://drycor.com/services/sewage-cleanup/)
 - [Storm Damage Restoration](https://drycor.com/services/storm-damage-restoration/)
-- [Emergency Water Cleanup](https://drycor.com/services/water-cleanup/)
+- [Emergency Water Cleanup](https://drycor.com/services/emergency-water-removal/)
 - [Water Damage Restoration](https://drycor.com/services/water-damage-restoration/)
 
 ### Service area pages

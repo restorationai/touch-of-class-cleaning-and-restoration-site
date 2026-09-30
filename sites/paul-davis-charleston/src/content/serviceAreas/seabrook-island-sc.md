@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "586fff17d63c4bcf"
 generated_at: "2026-09-22T14:28:14.939156+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/seabrook-island-sc/fire-damage-restoration/", "/service-areas/seabrook-island-sc/mold-remediation/", "/service-areas/seabrook-island-sc/water-damage-restoration/", "/service-areas/seabrook-island-sc/water-cleanup/", "/service-areas/awendaw-sc/", "/service-areas/folly-beach-sc/", "/service-areas/goose-creek-sc/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/seabrook-island-sc/fire-damage-restoration/", "/service-areas/seabrook-island-sc/mold-remediation/", "/service-areas/seabrook-island-sc/water-damage-restoration/", "/service-areas/seabrook-island-sc/emergency-water-removal/", "/service-areas/awendaw-sc/", "/service-areas/folly-beach-sc/", "/service-areas/goose-creek-sc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Seabrook Island"}]
 faq: []
 area_slug: "seabrook-island-sc"

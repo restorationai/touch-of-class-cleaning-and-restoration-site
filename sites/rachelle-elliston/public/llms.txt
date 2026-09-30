@@ -65,7 +65,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Odor Removal and Deodorization](https://desertvalleycontracting.net/services/odor-removal/)
 - [Sewage Cleanup and Sanitization](https://desertvalleycontracting.net/services/sewage-cleanup/)
 - [Storm Damage Restoration](https://desertvalleycontracting.net/services/storm-damage-restoration/)
-- [Emergency Water Cleanup](https://desertvalleycontracting.net/services/water-cleanup/)
+- [Emergency Water Cleanup](https://desertvalleycontracting.net/services/emergency-water-removal/)
 - [Water Damage Restoration](https://desertvalleycontracting.net/services/water-damage-restoration/)
 
 ### Service area pages

@@ -118,5 +118,8 @@
     "fire-damage-restoration",
     "mold-remediation",
     "water-damage-restoration"
-  ]
+  ],
+  "merged_services": {
+    "water-cleanup": "emergency-water-removal"
+  }
 }

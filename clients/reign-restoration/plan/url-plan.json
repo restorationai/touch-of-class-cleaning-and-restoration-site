@@ -701,58 +701,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Royse City | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Royse City",
-      "meta_description": "24/7 emergency water cleanup in Royse City and surrounding areas. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup royse city",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
-        "/service-areas/dallas-tx/water-cleanup/",
-        "/service-areas/farmersville-tx/water-cleanup/",
-        "/service-areas/fate-tx/water-cleanup/",
-        "/service-areas/frisco-tx/water-cleanup/",
-        "/service-areas/garland-tx/water-cleanup/",
-        "/service-areas/greenville-tx/water-cleanup/",
-        "/service-areas/heath-tx/water-cleanup/",
-        "/service-areas/highland-park-tx/water-cleanup/",
-        "/service-areas/josephine-tx/water-cleanup/",
-        "/service-areas/lavon-tx/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rockwall-tx/",
       "archetype": "service-area",
       "vars_keys": [
@@ -2422,51 +2370,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rockwall-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Rockwall, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Rockwall",
-      "meta_description": "24/7 emergency water cleanup in Rockwall, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup rockwall",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/rockwall-tx/",
-        "/service-areas/rockwall-tx/fire-damage-restoration/",
-        "/service-areas/rockwall-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fate-tx/contents-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2816,51 +2719,6 @@
         "/service-areas/fate-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
         "/service-areas/caddo-mills-tx/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fate-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Fate, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Fate",
-      "meta_description": "24/7 emergency water cleanup in Fate, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup fate",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/fate-tx/",
-        "/service-areas/fate-tx/fire-damage-restoration/",
-        "/service-areas/fate-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3218,51 +3076,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rowlett-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Rowlett, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Rowlett",
-      "meta_description": "24/7 emergency water cleanup in Rowlett, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup rowlett",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/rowlett-tx/",
-        "/service-areas/rowlett-tx/fire-damage-restoration/",
-        "/service-areas/rowlett-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/wylie-tx/contents-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3612,51 +3425,6 @@
         "/service-areas/wylie-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
         "/service-areas/caddo-mills-tx/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/wylie-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Wylie, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Wylie",
-      "meta_description": "24/7 emergency water cleanup in Wylie, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup wylie",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/wylie-tx/",
-        "/service-areas/wylie-tx/fire-damage-restoration/",
-        "/service-areas/wylie-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4014,51 +3782,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/garland-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Garland, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Garland",
-      "meta_description": "24/7 emergency water cleanup in Garland, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup garland",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/garland-tx/",
-        "/service-areas/garland-tx/fire-damage-restoration/",
-        "/service-areas/garland-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mesquite-tx/contents-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4408,51 +4131,6 @@
         "/service-areas/mesquite-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
         "/service-areas/caddo-mills-tx/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mesquite-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Mesquite, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Mesquite",
-      "meta_description": "24/7 emergency water cleanup in Mesquite, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup mesquite",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/mesquite-tx/",
-        "/service-areas/mesquite-tx/fire-damage-restoration/",
-        "/service-areas/mesquite-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4810,51 +4488,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/dallas-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Dallas, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Dallas",
-      "meta_description": "24/7 emergency water cleanup in Dallas, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup dallas",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/dallas-tx/",
-        "/service-areas/dallas-tx/fire-damage-restoration/",
-        "/service-areas/dallas-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/richardson-tx/contents-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5204,51 +4837,6 @@
         "/service-areas/richardson-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
         "/service-areas/caddo-mills-tx/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/richardson-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Richardson, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Richardson",
-      "meta_description": "24/7 emergency water cleanup in Richardson, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup richardson",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/richardson-tx/",
-        "/service-areas/richardson-tx/fire-damage-restoration/",
-        "/service-areas/richardson-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5606,51 +5194,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/plano-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Plano, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Plano",
-      "meta_description": "24/7 emergency water cleanup in Plano, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup plano",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/plano-tx/",
-        "/service-areas/plano-tx/fire-damage-restoration/",
-        "/service-areas/plano-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/allen-tx/contents-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6000,51 +5543,6 @@
         "/service-areas/allen-tx/mold-remediation/",
         "/service-areas/caddo-mills-tx/water-damage-restoration/",
         "/service-areas/dallas-tx/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/allen-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Allen, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Allen",
-      "meta_description": "24/7 emergency water cleanup in Allen, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup allen",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/allen-tx/",
-        "/service-areas/allen-tx/fire-damage-restoration/",
-        "/service-areas/allen-tx/mold-remediation/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
-        "/service-areas/dallas-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -6402,51 +5900,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mckinney-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in McKinney, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in McKinney",
-      "meta_description": "24/7 emergency water cleanup in McKinney, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup mckinney",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/mckinney-tx/",
-        "/service-areas/mckinney-tx/fire-damage-restoration/",
-        "/service-areas/mckinney-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/frisco-tx/contents-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6796,51 +6249,6 @@
         "/service-areas/frisco-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
         "/service-areas/caddo-mills-tx/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/frisco-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Frisco, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Frisco",
-      "meta_description": "24/7 emergency water cleanup in Frisco, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup frisco",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/frisco-tx/",
-        "/service-areas/frisco-tx/fire-damage-restoration/",
-        "/service-areas/frisco-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -7198,51 +6606,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/highland-park-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Highland Park, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Highland Park",
-      "meta_description": "24/7 emergency water cleanup in Highland Park, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup highland park",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/highland-park-tx/",
-        "/service-areas/highland-park-tx/fire-damage-restoration/",
-        "/service-areas/highland-park-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/university-park-tx/contents-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7592,51 +6955,6 @@
         "/service-areas/university-park-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
         "/service-areas/caddo-mills-tx/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/university-park-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in University Park, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in University Park",
-      "meta_description": "24/7 emergency water cleanup in University Park, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup university park",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/university-park-tx/",
-        "/service-areas/university-park-tx/fire-damage-restoration/",
-        "/service-areas/university-park-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -7994,51 +7312,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/greenville-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Greenville, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Greenville",
-      "meta_description": "24/7 emergency water cleanup in Greenville, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup greenville",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/greenville-tx/",
-        "/service-areas/greenville-tx/fire-damage-restoration/",
-        "/service-areas/greenville-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/terrell-tx/contents-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8388,51 +7661,6 @@
         "/service-areas/terrell-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
         "/service-areas/caddo-mills-tx/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/terrell-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Terrell, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Terrell",
-      "meta_description": "24/7 emergency water cleanup in Terrell, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup terrell",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/terrell-tx/",
-        "/service-areas/terrell-tx/fire-damage-restoration/",
-        "/service-areas/terrell-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -8790,51 +8018,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/nevada-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Nevada, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Nevada",
-      "meta_description": "24/7 emergency water cleanup in Nevada, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup nevada",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/nevada-tx/",
-        "/service-areas/nevada-tx/fire-damage-restoration/",
-        "/service-areas/nevada-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/union-valley-tx/contents-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9184,51 +8367,6 @@
         "/service-areas/union-valley-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
         "/service-areas/caddo-mills-tx/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/union-valley-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Union Valley, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Union Valley",
-      "meta_description": "24/7 emergency water cleanup in Union Valley, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup union valley",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/union-valley-tx/",
-        "/service-areas/union-valley-tx/fire-damage-restoration/",
-        "/service-areas/union-valley-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -9586,51 +8724,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/josephine-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Josephine, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Josephine",
-      "meta_description": "24/7 emergency water cleanup in Josephine, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup josephine",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/josephine-tx/",
-        "/service-areas/josephine-tx/fire-damage-restoration/",
-        "/service-areas/josephine-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lavon-tx/contents-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9980,51 +9073,6 @@
         "/service-areas/lavon-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
         "/service-areas/caddo-mills-tx/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lavon-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lavon, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Lavon",
-      "meta_description": "24/7 emergency water cleanup in Lavon, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup lavon",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lavon-tx/",
-        "/service-areas/lavon-tx/fire-damage-restoration/",
-        "/service-areas/lavon-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -10382,51 +9430,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mclendon-chisholm-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in McLendon-Chisholm, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in McLendon-Chisholm",
-      "meta_description": "24/7 emergency water cleanup in McLendon-Chisholm, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup mclendon-chisholm",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/mclendon-chisholm-tx/",
-        "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/",
-        "/service-areas/mclendon-chisholm-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/caddo-mills-tx/contents-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10776,51 +9779,6 @@
         "/service-areas/caddo-mills-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
         "/service-areas/dallas-tx/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/caddo-mills-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Caddo Mills, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Caddo Mills",
-      "meta_description": "24/7 emergency water cleanup in Caddo Mills, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup caddo mills",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/caddo-mills-tx/",
-        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
-        "/service-areas/caddo-mills-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/dallas-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -11178,51 +10136,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/poetry-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Poetry, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Poetry",
-      "meta_description": "24/7 emergency water cleanup in Poetry, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup poetry",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/poetry-tx/",
-        "/service-areas/poetry-tx/fire-damage-restoration/",
-        "/service-areas/poetry-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/heath-tx/contents-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11572,51 +10485,6 @@
         "/service-areas/heath-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
         "/service-areas/caddo-mills-tx/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/heath-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Heath, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Heath",
-      "meta_description": "24/7 emergency water cleanup in Heath, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup heath",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/heath-tx/",
-        "/service-areas/heath-tx/fire-damage-restoration/",
-        "/service-areas/heath-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -11974,51 +10842,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/farmersville-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Farmersville, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Farmersville",
-      "meta_description": "24/7 emergency water cleanup in Farmersville, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup farmersville",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/farmersville-tx/",
-        "/service-areas/farmersville-tx/fire-damage-restoration/",
-        "/service-areas/farmersville-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sachse-tx/contents-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12368,51 +11191,6 @@
         "/service-areas/sachse-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
         "/service-areas/caddo-mills-tx/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sachse-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Sachse, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Sachse",
-      "meta_description": "24/7 emergency water cleanup in Sachse, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup sachse",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/sachse-tx/",
-        "/service-areas/sachse-tx/fire-damage-restoration/",
-        "/service-areas/sachse-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -12770,51 +11548,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lucas-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lucas, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Lucas",
-      "meta_description": "24/7 emergency water cleanup in Lucas, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup lucas",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lucas-tx/",
-        "/service-areas/lucas-tx/fire-damage-restoration/",
-        "/service-areas/lucas-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/murphy-tx/contents-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13164,51 +11897,6 @@
         "/service-areas/murphy-tx/mold-remediation/",
         "/service-areas/allen-tx/water-damage-restoration/",
         "/service-areas/caddo-mills-tx/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/murphy-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Murphy, TX | Reign Restoration",
-      "h1": "Emergency Water Cleanup in Murphy",
-      "meta_description": "24/7 emergency water cleanup in Murphy, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "emergency water cleanup murphy",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/murphy-tx/",
-        "/service-areas/murphy-tx/fire-damage-restoration/",
-        "/service-areas/murphy-tx/mold-remediation/",
-        "/service-areas/allen-tx/water-cleanup/",
-        "/service-areas/caddo-mills-tx/water-cleanup/",
         "/contact/"
       ]
     },

@@ -62,7 +62,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Roofing Installation and Replacement](https://fixofutah.com/services/roofing/)
 - [Sewage Cleanup and Sanitization](https://fixofutah.com/services/sewage-cleanup/)
 - [Storm Damage Restoration](https://fixofutah.com/services/storm-damage-restoration/)
-- [Emergency Water Cleanup](https://fixofutah.com/services/water-cleanup/)
+- [Emergency Water Cleanup](https://fixofutah.com/services/emergency-water-removal/)
 - [Water Damage Restoration](https://fixofutah.com/services/water-damage-restoration/)
 
 ### Service area pages

@@ -53,7 +53,7 @@ This file is intended for AI assistants and language models to efficiently inges
 ### Core service pages
 - [Water Damage Restoration](https://floodsolutionsinc.com/services/water-damage-restoration/)
 - [Sewage Cleanup and Sanitization](https://floodsolutionsinc.com/services/sewage-cleanup/)
-- [Emergency Water Cleanup](https://floodsolutionsinc.com/services/water-cleanup/)
+- [Emergency Water Cleanup](https://floodsolutionsinc.com/services/emergency-water-removal/)
 - [Fire Damage Restoration](https://floodsolutionsinc.com/services/fire-damage-restoration/)
 
 ### Service area pages

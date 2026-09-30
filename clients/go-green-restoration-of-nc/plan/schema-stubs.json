@@ -308,16 +308,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/raleigh-nc/": {
     "archetype": "service-area",
     "stubs": [
@@ -766,16 +756,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/raleigh-nc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/durham-nc/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1017,16 +997,6 @@
     "missing_stubs": []
   },
   "/service-areas/durham-nc/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/durham-nc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1286,16 +1256,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rocky-mount-nc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wilson-nc/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1537,16 +1497,6 @@
     "missing_stubs": []
   },
   "/service-areas/wilson-nc/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wilson-nc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1806,16 +1756,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/smithfield-nc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wake-forest-nc/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2057,16 +1997,6 @@
     "missing_stubs": []
   },
   "/service-areas/wake-forest-nc/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wake-forest-nc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2326,16 +2256,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/zebulon-nc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wendell-nc/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2577,16 +2497,6 @@
     "missing_stubs": []
   },
   "/service-areas/wendell-nc/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wendell-nc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2846,16 +2756,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/archer-lodge-nc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lake-royale-nc/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3097,16 +2997,6 @@
     "missing_stubs": []
   },
   "/service-areas/lake-royale-nc/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-royale-nc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3366,16 +3256,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/spring-hope-nc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/kenly-nc/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3617,16 +3497,6 @@
     "missing_stubs": []
   },
   "/service-areas/kenly-nc/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kenly-nc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3886,16 +3756,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/clayton-nc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/knightdale-nc/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4137,16 +3997,6 @@
     "missing_stubs": []
   },
   "/service-areas/knightdale-nc/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/knightdale-nc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4406,16 +4256,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wilson-s-mills-nc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/rolesville-nc/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4657,16 +4497,6 @@
     "missing_stubs": []
   },
   "/service-areas/rolesville-nc/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rolesville-nc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4926,16 +4756,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/selma-nc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/nashville-nc/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5177,16 +4997,6 @@
     "missing_stubs": []
   },
   "/service-areas/nashville-nc/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/nashville-nc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5446,16 +5256,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/elm-city-nc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pine-level-nc/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5697,16 +5497,6 @@
     "missing_stubs": []
   },
   "/service-areas/pine-level-nc/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pine-level-nc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5966,16 +5756,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/louisburg-nc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/youngsville-nc/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6217,16 +5997,6 @@
     "missing_stubs": []
   },
   "/service-areas/youngsville-nc/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/youngsville-nc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

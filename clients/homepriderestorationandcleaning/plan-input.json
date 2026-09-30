@@ -192,7 +192,7 @@
   ],
   "merged_services": {
     "carpet-upholstery-cleaning": "carpet-cleaning",
-    "emergency-water-removal": "water-damage-restoration",
+    "water-cleanup": "emergency-water-removal",
     "water-heater-flood-cleanup": "appliance-leak-cleanup"
   }
 }

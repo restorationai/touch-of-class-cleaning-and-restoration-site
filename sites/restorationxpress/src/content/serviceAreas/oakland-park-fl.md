@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "f9f8cae47cdc2ec7"
 generated_at: "2026-09-20T19:17:50.854095+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/oakland-park-fl/fire-damage-restoration/", "/service-areas/oakland-park-fl/mold-remediation/", "/service-areas/oakland-park-fl/water-damage-restoration/", "/service-areas/oakland-park-fl/flood-damage-restoration/", "/service-areas/oakland-park-fl/smoke-damage-restoration/", "/service-areas/oakland-park-fl/storm-damage-restoration/", "/service-areas/oakland-park-fl/water-cleanup/", "/service-areas/cooper-city-fl/", "/service-areas/dania-beach-fl/", "/service-areas/fort-lauderdale-fl/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/oakland-park-fl/fire-damage-restoration/", "/service-areas/oakland-park-fl/mold-remediation/", "/service-areas/oakland-park-fl/water-damage-restoration/", "/service-areas/oakland-park-fl/flood-damage-restoration/", "/service-areas/oakland-park-fl/smoke-damage-restoration/", "/service-areas/oakland-park-fl/storm-damage-restoration/", "/service-areas/oakland-park-fl/emergency-water-removal/", "/service-areas/cooper-city-fl/", "/service-areas/dania-beach-fl/", "/service-areas/fort-lauderdale-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oakland Park"}]
 faq: []
 area_slug: "oakland-park-fl"

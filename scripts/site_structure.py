@@ -30,12 +30,18 @@ the homepage of a restoration-first company). The rules:
   4. NO DUPLICATE PAGES. Pages in the same SERVICE_CLUSTERS group are one
      service in different words. A "variant" member (plural, 24/7, emergency,
      combined name) always merges (301) into the canonical page. A
-     non-variant member (a different query for the same work, e.g. "water
-     cleanup") stays only when its head term plus "near me" reaches
-     DUP_KEEP_NATIONAL_MIN searches/mo nationally; the kept pair and its
-     volumes are recorded in the client's gbp-service-map.json. Merges run
-     through scripts/service_merge.py (301s, link rewrite, plan-input
-     excluded_services so the nightly never rebuilds them).
+     non-variant member (a different query for the same work) stays only
+     when its head term plus "near me" reaches DUP_KEEP_NATIONAL_MIN
+     searches/mo nationally; the kept pair and its volumes are recorded in
+     the client's gbp-service-map.json. Merges run through
+     scripts/service_merge.py (static 301s, link rewrite, plan-input
+     merged_services so the nightly never rebuilds them). ON HOLD since
+     09-30 pending Santino's review of the first 75; run only on his call.
+  5. WATER REMOVAL (Santino 09-30): "get the water out now" (emergency
+     water removal, water extraction, water removal, water cleanup) is ONE
+     dedicated page, /services/emergency-water-removal/ ("Emergency Water
+     Removal & Cleanup in {City}"), separate from water damage restoration.
+     water-cleanup was renamed into it (scripts/water_removal_rollout.py).
 
 City-level DataForSEO volumes floor at 10/mo for almost every restoration
 term (Bakersfield: "water damage restoration" 30, everything else 10), so
@@ -72,11 +78,15 @@ METRO_FLOOR = 10                 # DataForSEO's smallest city bucket = no usable
 # here; related-but-different services (flood vs water damage, commercial vs
 # industrial) are NOT clusters.
 SERVICE_CLUSTERS: list[dict] = [
+    # Santino 09-30: "get the water out now" is its own page, separate from
+    # water damage restoration; water-cleanup was renamed into it.
     {"name": "water damage", "members": [
         ("water-damage-restoration", "water damage restoration", False),
-        ("water-cleanup", "water cleanup", False),
-        ("emergency-water-removal", "emergency water removal", True),
         ("24-7-emergency-water-damage-restoration", "24 hour water damage restoration", True),
+    ]},
+    {"name": "water removal", "members": [
+        ("emergency-water-removal", "emergency water removal", False),
+        ("water-cleanup", "water cleanup", True),
         ("24-7-emergency-water-cleanup", "emergency water cleanup", True),
     ]},
     {"name": "air duct cleaning", "members": [
@@ -200,8 +210,11 @@ PLACEHOLDER_MARK = "Page body not yet generated"
 # House mappings for common GBP phrasings (Santino's examples, 2026-09-30):
 # checked before any fuzzy/Claude step. First candidate page present wins.
 GBP_ALIASES: list[tuple[str, list[str]]] = [
-    (r"^(24 7 )?(emergency )?water (removal|extraction)$|^water mitigation$",
-     ["water-damage-restoration"]),
+    # 09-30: water cleanup / removal / extraction -> the emergency water
+    # removal page (falls back to water damage restoration where absent)
+    (r"^(24 7 )?(emergency )?water (removal|extraction|clean ?up)$|^standing water removal$",
+     ["emergency-water-removal", "water-damage-restoration"]),
+    (r"^water mitigation$", ["water-damage-restoration"]),
     (r"\bboard[- ]?ups?\b|\btarping\b",
      ["emergency-board-up-tarping", "emergency-board-up"]),
     # review fixes 09-30: wet carpet is water damage, not carpet cleaning;

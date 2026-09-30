@@ -587,58 +587,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in San Diego | Flood Fixers",
-      "h1": "Emergency Water Cleanup in San Diego",
-      "meta_description": "24/7 emergency water cleanup in San Diego and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup san diego",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-south-ca/water-cleanup/",
-        "/service-areas/carlsbad-ca/water-cleanup/",
-        "/service-areas/chula-vista-ca/water-cleanup/",
-        "/service-areas/del-mar-ca/water-cleanup/",
-        "/service-areas/el-cajon-ca/water-cleanup/",
-        "/service-areas/encinitas-ca/water-cleanup/",
-        "/service-areas/escondido-ca/water-cleanup/",
-        "/service-areas/fairbanks-ranch-ca/water-cleanup/",
-        "/service-areas/fallbrook-ca/water-cleanup/",
-        "/service-areas/harmony-grove-ca/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/service-areas/chula-vista-ca/",
       "archetype": "service-area",
       "vars_keys": [
@@ -2048,51 +1996,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/chula-vista-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Chula Vista, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Chula Vista",
-      "meta_description": "24/7 emergency water cleanup in Chula Vista, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup chula vista",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/chula-vista-ca/",
-        "/service-areas/chula-vista-ca/water-damage-restoration/",
-        "/service-areas/chula-vista-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/oceanside-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2354,51 +2257,6 @@
         "/service-areas/oceanside-ca/flood-damage-restoration/",
         "/service-areas/bonsall-ca/general-contracting/",
         "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/oceanside-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Oceanside, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Oceanside",
-      "meta_description": "24/7 emergency water cleanup in Oceanside, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup oceanside",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/oceanside-ca/",
-        "/service-areas/oceanside-ca/water-damage-restoration/",
-        "/service-areas/oceanside-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2668,51 +2526,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/escondido-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Escondido, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Escondido",
-      "meta_description": "24/7 emergency water cleanup in Escondido, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup escondido",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/escondido-ca/",
-        "/service-areas/escondido-ca/water-damage-restoration/",
-        "/service-areas/escondido-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/carlsbad-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2974,51 +2787,6 @@
         "/service-areas/carlsbad-ca/flood-damage-restoration/",
         "/service-areas/bonsall-ca/general-contracting/",
         "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/carlsbad-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Carlsbad, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Carlsbad",
-      "meta_description": "24/7 emergency water cleanup in Carlsbad, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup carlsbad",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/carlsbad-ca/",
-        "/service-areas/carlsbad-ca/water-damage-restoration/",
-        "/service-areas/carlsbad-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3288,51 +3056,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/el-cajon-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in El Cajon, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in El Cajon",
-      "meta_description": "24/7 emergency water cleanup in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup el cajon",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/el-cajon-ca/",
-        "/service-areas/el-cajon-ca/water-damage-restoration/",
-        "/service-areas/el-cajon-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/vista-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3594,51 +3317,6 @@
         "/service-areas/vista-ca/flood-damage-restoration/",
         "/service-areas/bonsall-ca/general-contracting/",
         "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/vista-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Vista, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Vista",
-      "meta_description": "24/7 emergency water cleanup in Vista, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup vista",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/vista-ca/",
-        "/service-areas/vista-ca/water-damage-restoration/",
-        "/service-areas/vista-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3908,51 +3586,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/san-marcos-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in San Marcos, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in San Marcos",
-      "meta_description": "24/7 emergency water cleanup in San Marcos, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup san marcos",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/san-marcos-ca/",
-        "/service-areas/san-marcos-ca/water-damage-restoration/",
-        "/service-areas/san-marcos-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/encinitas-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4214,51 +3847,6 @@
         "/service-areas/encinitas-ca/flood-damage-restoration/",
         "/service-areas/bonsall-ca/general-contracting/",
         "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/encinitas-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Encinitas, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Encinitas",
-      "meta_description": "24/7 emergency water cleanup in Encinitas, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup encinitas",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/encinitas-ca/",
-        "/service-areas/encinitas-ca/water-damage-restoration/",
-        "/service-areas/encinitas-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4528,51 +4116,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/la-mesa-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in La Mesa, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in La Mesa",
-      "meta_description": "24/7 emergency water cleanup in La Mesa, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup la mesa",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/la-mesa-ca/",
-        "/service-areas/la-mesa-ca/water-damage-restoration/",
-        "/service-areas/la-mesa-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/santee-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4834,51 +4377,6 @@
         "/service-areas/santee-ca/flood-damage-restoration/",
         "/service-areas/bonsall-ca/general-contracting/",
         "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/santee-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Santee, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Santee",
-      "meta_description": "24/7 emergency water cleanup in Santee, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup santee",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/santee-ca/",
-        "/service-areas/santee-ca/water-damage-restoration/",
-        "/service-areas/santee-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5148,51 +4646,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/poway-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Poway, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Poway",
-      "meta_description": "24/7 emergency water cleanup in Poway, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup poway",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/poway-ca/",
-        "/service-areas/poway-ca/water-damage-restoration/",
-        "/service-areas/poway-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/national-city-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5454,51 +4907,6 @@
         "/service-areas/national-city-ca/flood-damage-restoration/",
         "/service-areas/bonsall-ca/general-contracting/",
         "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/national-city-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in National City, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in National City",
-      "meta_description": "24/7 emergency water cleanup in National City, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup national city",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/national-city-ca/",
-        "/service-areas/national-city-ca/water-damage-restoration/",
-        "/service-areas/national-city-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5768,51 +5176,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/spring-valley-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Spring Valley, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Spring Valley",
-      "meta_description": "24/7 emergency water cleanup in Spring Valley, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup spring valley",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/spring-valley-ca/",
-        "/service-areas/spring-valley-ca/water-damage-restoration/",
-        "/service-areas/spring-valley-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/temecula-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6074,51 +5437,6 @@
         "/service-areas/temecula-ca/flood-damage-restoration/",
         "/service-areas/bonsall-ca/general-contracting/",
         "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/temecula-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Temecula, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Temecula",
-      "meta_description": "24/7 emergency water cleanup in Temecula, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup temecula",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/temecula-ca/",
-        "/service-areas/temecula-ca/water-damage-restoration/",
-        "/service-areas/temecula-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -6388,51 +5706,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/harmony-grove-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Harmony Grove, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Harmony Grove",
-      "meta_description": "24/7 emergency water cleanup in Harmony Grove, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup harmony grove",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/harmony-grove-ca/",
-        "/service-areas/harmony-grove-ca/water-damage-restoration/",
-        "/service-areas/harmony-grove-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hidden-meadows-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6694,51 +5967,6 @@
         "/service-areas/hidden-meadows-ca/flood-damage-restoration/",
         "/service-areas/bonsall-ca/general-contracting/",
         "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hidden-meadows-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Hidden Meadows, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Hidden Meadows",
-      "meta_description": "24/7 emergency water cleanup in Hidden Meadows, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup hidden meadows",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/hidden-meadows-ca/",
-        "/service-areas/hidden-meadows-ca/water-damage-restoration/",
-        "/service-areas/hidden-meadows-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -7008,51 +6236,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/bonsall-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Bonsall, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Bonsall",
-      "meta_description": "24/7 emergency water cleanup in Bonsall, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup bonsall",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/bonsall-ca/",
-        "/service-areas/bonsall-ca/water-damage-restoration/",
-        "/service-areas/bonsall-ca/flood-damage-restoration/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-south-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rancho-santa-fe-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7314,51 +6497,6 @@
         "/service-areas/rancho-santa-fe-ca/flood-damage-restoration/",
         "/service-areas/bonsall-ca/general-contracting/",
         "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rancho-santa-fe-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Rancho Santa Fe, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Rancho Santa Fe",
-      "meta_description": "24/7 emergency water cleanup in Rancho Santa Fe, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup rancho santa fe",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/rancho-santa-fe-ca/",
-        "/service-areas/rancho-santa-fe-ca/water-damage-restoration/",
-        "/service-areas/rancho-santa-fe-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -7628,51 +6766,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/valley-center-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Valley Center, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Valley Center",
-      "meta_description": "24/7 emergency water cleanup in Valley Center, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup valley center",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/valley-center-ca/",
-        "/service-areas/valley-center-ca/water-damage-restoration/",
-        "/service-areas/valley-center-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fairbanks-ranch-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7934,51 +7027,6 @@
         "/service-areas/fairbanks-ranch-ca/flood-damage-restoration/",
         "/service-areas/bonsall-ca/general-contracting/",
         "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fairbanks-ranch-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Fairbanks Ranch, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Fairbanks Ranch",
-      "meta_description": "24/7 emergency water cleanup in Fairbanks Ranch, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup fairbanks ranch",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/fairbanks-ranch-ca/",
-        "/service-areas/fairbanks-ranch-ca/water-damage-restoration/",
-        "/service-areas/fairbanks-ranch-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -8248,51 +7296,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/solana-beach-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Solana Beach, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Solana Beach",
-      "meta_description": "24/7 emergency water cleanup in Solana Beach, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup solana beach",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/solana-beach-ca/",
-        "/service-areas/solana-beach-ca/water-damage-restoration/",
-        "/service-areas/solana-beach-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/del-mar-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8554,51 +7557,6 @@
         "/service-areas/del-mar-ca/flood-damage-restoration/",
         "/service-areas/bonsall-ca/general-contracting/",
         "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/del-mar-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Del Mar, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Del Mar",
-      "meta_description": "24/7 emergency water cleanup in Del Mar, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup del mar",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/del-mar-ca/",
-        "/service-areas/del-mar-ca/water-damage-restoration/",
-        "/service-areas/del-mar-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -8868,51 +7826,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Camp Pendleton Mainside, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Camp Pendleton Mainside",
-      "meta_description": "24/7 emergency water cleanup in Camp Pendleton Mainside, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup camp pendleton mainside",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/",
-        "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/",
-        "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-south-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/camp-pendleton-south-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9174,51 +8087,6 @@
         "/service-areas/camp-pendleton-south-ca/flood-damage-restoration/",
         "/service-areas/bonsall-ca/general-contracting/",
         "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/camp-pendleton-south-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Camp Pendleton South, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Camp Pendleton South",
-      "meta_description": "24/7 emergency water cleanup in Camp Pendleton South, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup camp pendleton south",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/camp-pendleton-south-ca/",
-        "/service-areas/camp-pendleton-south-ca/water-damage-restoration/",
-        "/service-areas/camp-pendleton-south-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -9488,51 +8356,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fallbrook-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Fallbrook, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Fallbrook",
-      "meta_description": "24/7 emergency water cleanup in Fallbrook, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup fallbrook",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/fallbrook-ca/",
-        "/service-areas/fallbrook-ca/water-damage-restoration/",
-        "/service-areas/fallbrook-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/pala-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9794,51 +8617,6 @@
         "/service-areas/pala-ca/flood-damage-restoration/",
         "/service-areas/bonsall-ca/general-contracting/",
         "/service-areas/camp-pendleton-mainside-ca/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pala-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Pala, CA | Flood Fixers",
-      "h1": "Emergency Water Cleanup in Pala",
-      "meta_description": "24/7 emergency water cleanup in Pala, CA. IICRC-certified, insurance billing accepted. Call (855) 204-1124.",
-      "primary_keyword": "emergency water cleanup pala",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/pala-ca/",
-        "/service-areas/pala-ca/water-damage-restoration/",
-        "/service-areas/pala-ca/flood-damage-restoration/",
-        "/service-areas/bonsall-ca/water-cleanup/",
-        "/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
         "/contact/"
       ]
     },

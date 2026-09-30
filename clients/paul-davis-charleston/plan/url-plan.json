@@ -421,57 +421,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Water Cleanup in Charleston | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in Charleston",
-      "meta_description": "Water cleanup in Charleston and surrounding areas. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup charleston",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/awendaw-sc/water-cleanup/",
-        "/service-areas/bonneau-sc/water-cleanup/",
-        "/service-areas/folly-beach-sc/water-cleanup/",
-        "/service-areas/goose-creek-sc/water-cleanup/",
-        "/service-areas/hanahan-sc/water-cleanup/",
-        "/service-areas/hollywood-sc/water-cleanup/",
-        "/service-areas/isle-of-palms-sc/water-cleanup/",
-        "/service-areas/james-island-sc/water-cleanup/",
-        "/service-areas/kiawah-island-sc/water-cleanup/",
-        "/service-areas/ladson-sc/water-cleanup/",
-        "/service-areas/meggett-sc/water-cleanup/",
-        "/service-areas/moncks-corner-sc/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mount-pleasant-sc/",
       "archetype": "service-area",
       "vars_keys": [
@@ -1383,50 +1332,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mount-pleasant-sc/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Mount Pleasant, SC | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in Mount Pleasant",
-      "meta_description": "Water cleanup in Mount Pleasant, SC. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup mount pleasant",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/mount-pleasant-sc/",
-        "/service-areas/mount-pleasant-sc/fire-damage-restoration/",
-        "/service-areas/mount-pleasant-sc/mold-remediation/",
-        "/service-areas/awendaw-sc/water-cleanup/",
-        "/service-areas/bonneau-sc/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/north-charleston-sc/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1555,50 +1460,6 @@
         "/service-areas/north-charleston-sc/water-damage-restoration/",
         "/service-areas/awendaw-sc/mold-remediation/",
         "/service-areas/bonneau-sc/mold-remediation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/north-charleston-sc/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in North Charleston, SC | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in North Charleston",
-      "meta_description": "Water cleanup in North Charleston, SC. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup north charleston",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/north-charleston-sc/",
-        "/service-areas/north-charleston-sc/fire-damage-restoration/",
-        "/service-areas/north-charleston-sc/mold-remediation/",
-        "/service-areas/awendaw-sc/water-cleanup/",
-        "/service-areas/bonneau-sc/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1735,50 +1596,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/summerville-sc/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Summerville, SC | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in Summerville",
-      "meta_description": "Water cleanup in Summerville, SC. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup summerville",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/summerville-sc/",
-        "/service-areas/summerville-sc/fire-damage-restoration/",
-        "/service-areas/summerville-sc/mold-remediation/",
-        "/service-areas/awendaw-sc/water-cleanup/",
-        "/service-areas/bonneau-sc/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/james-island-sc/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1907,50 +1724,6 @@
         "/service-areas/james-island-sc/water-damage-restoration/",
         "/service-areas/awendaw-sc/mold-remediation/",
         "/service-areas/bonneau-sc/mold-remediation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/james-island-sc/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in James Island, SC | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in James Island",
-      "meta_description": "Water cleanup in James Island, SC. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup james island",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/james-island-sc/",
-        "/service-areas/james-island-sc/fire-damage-restoration/",
-        "/service-areas/james-island-sc/mold-remediation/",
-        "/service-areas/awendaw-sc/water-cleanup/",
-        "/service-areas/bonneau-sc/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2087,50 +1860,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/hanahan-sc/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Hanahan, SC | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in Hanahan",
-      "meta_description": "Water cleanup in Hanahan, SC. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup hanahan",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/hanahan-sc/",
-        "/service-areas/hanahan-sc/fire-damage-restoration/",
-        "/service-areas/hanahan-sc/mold-remediation/",
-        "/service-areas/awendaw-sc/water-cleanup/",
-        "/service-areas/bonneau-sc/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/goose-creek-sc/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2259,50 +1988,6 @@
         "/service-areas/goose-creek-sc/water-damage-restoration/",
         "/service-areas/awendaw-sc/mold-remediation/",
         "/service-areas/bonneau-sc/mold-remediation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/goose-creek-sc/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Goose Creek, SC | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in Goose Creek",
-      "meta_description": "Water cleanup in Goose Creek, SC. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup goose creek",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/goose-creek-sc/",
-        "/service-areas/goose-creek-sc/fire-damage-restoration/",
-        "/service-areas/goose-creek-sc/mold-remediation/",
-        "/service-areas/awendaw-sc/water-cleanup/",
-        "/service-areas/bonneau-sc/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2439,50 +2124,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sullivan-s-island-sc/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Sullivan's Island, SC | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in Sullivan's Island",
-      "meta_description": "Water cleanup in Sullivan's Island, SC. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup sullivan's island",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/sullivan-s-island-sc/",
-        "/service-areas/sullivan-s-island-sc/fire-damage-restoration/",
-        "/service-areas/sullivan-s-island-sc/mold-remediation/",
-        "/service-areas/awendaw-sc/water-cleanup/",
-        "/service-areas/bonneau-sc/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/isle-of-palms-sc/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2611,50 +2252,6 @@
         "/service-areas/isle-of-palms-sc/water-damage-restoration/",
         "/service-areas/awendaw-sc/mold-remediation/",
         "/service-areas/bonneau-sc/mold-remediation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/isle-of-palms-sc/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Isle of Palms, SC | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in Isle of Palms",
-      "meta_description": "Water cleanup in Isle of Palms, SC. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup isle of palms",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/isle-of-palms-sc/",
-        "/service-areas/isle-of-palms-sc/fire-damage-restoration/",
-        "/service-areas/isle-of-palms-sc/mold-remediation/",
-        "/service-areas/awendaw-sc/water-cleanup/",
-        "/service-areas/bonneau-sc/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2791,50 +2388,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ladson-sc/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Ladson, SC | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in Ladson",
-      "meta_description": "Water cleanup in Ladson, SC. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup ladson",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/ladson-sc/",
-        "/service-areas/ladson-sc/fire-damage-restoration/",
-        "/service-areas/ladson-sc/mold-remediation/",
-        "/service-areas/awendaw-sc/water-cleanup/",
-        "/service-areas/bonneau-sc/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/awendaw-sc/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2963,50 +2516,6 @@
         "/service-areas/awendaw-sc/water-damage-restoration/",
         "/service-areas/bonneau-sc/mold-remediation/",
         "/service-areas/folly-beach-sc/mold-remediation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/awendaw-sc/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Awendaw, SC | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in Awendaw",
-      "meta_description": "Water cleanup in Awendaw, SC. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup awendaw",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/awendaw-sc/",
-        "/service-areas/awendaw-sc/fire-damage-restoration/",
-        "/service-areas/awendaw-sc/mold-remediation/",
-        "/service-areas/bonneau-sc/water-cleanup/",
-        "/service-areas/folly-beach-sc/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3143,50 +2652,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/folly-beach-sc/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Folly Beach, SC | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in Folly Beach",
-      "meta_description": "Water cleanup in Folly Beach, SC. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup folly beach",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/folly-beach-sc/",
-        "/service-areas/folly-beach-sc/fire-damage-restoration/",
-        "/service-areas/folly-beach-sc/mold-remediation/",
-        "/service-areas/awendaw-sc/water-cleanup/",
-        "/service-areas/bonneau-sc/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hollywood-sc/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3315,50 +2780,6 @@
         "/service-areas/hollywood-sc/water-damage-restoration/",
         "/service-areas/awendaw-sc/mold-remediation/",
         "/service-areas/bonneau-sc/mold-remediation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hollywood-sc/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Hollywood, SC | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in Hollywood",
-      "meta_description": "Water cleanup in Hollywood, SC. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup hollywood",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/hollywood-sc/",
-        "/service-areas/hollywood-sc/fire-damage-restoration/",
-        "/service-areas/hollywood-sc/mold-remediation/",
-        "/service-areas/awendaw-sc/water-cleanup/",
-        "/service-areas/bonneau-sc/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3495,50 +2916,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ravenel-sc/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Ravenel, SC | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in Ravenel",
-      "meta_description": "Water cleanup in Ravenel, SC. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup ravenel",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/ravenel-sc/",
-        "/service-areas/ravenel-sc/fire-damage-restoration/",
-        "/service-areas/ravenel-sc/mold-remediation/",
-        "/service-areas/awendaw-sc/water-cleanup/",
-        "/service-areas/bonneau-sc/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/moncks-corner-sc/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3667,50 +3044,6 @@
         "/service-areas/moncks-corner-sc/water-damage-restoration/",
         "/service-areas/awendaw-sc/mold-remediation/",
         "/service-areas/bonneau-sc/mold-remediation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/moncks-corner-sc/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Moncks Corner, SC | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in Moncks Corner",
-      "meta_description": "Water cleanup in Moncks Corner, SC. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup moncks corner",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/moncks-corner-sc/",
-        "/service-areas/moncks-corner-sc/fire-damage-restoration/",
-        "/service-areas/moncks-corner-sc/mold-remediation/",
-        "/service-areas/awendaw-sc/water-cleanup/",
-        "/service-areas/bonneau-sc/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3847,50 +3180,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/kiawah-island-sc/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Kiawah Island, SC | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in Kiawah Island",
-      "meta_description": "Water cleanup in Kiawah Island, SC. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup kiawah island",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/kiawah-island-sc/",
-        "/service-areas/kiawah-island-sc/fire-damage-restoration/",
-        "/service-areas/kiawah-island-sc/mold-remediation/",
-        "/service-areas/awendaw-sc/water-cleanup/",
-        "/service-areas/bonneau-sc/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/meggett-sc/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4019,50 +3308,6 @@
         "/service-areas/meggett-sc/water-damage-restoration/",
         "/service-areas/awendaw-sc/mold-remediation/",
         "/service-areas/bonneau-sc/mold-remediation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/meggett-sc/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Meggett, SC | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in Meggett",
-      "meta_description": "Water cleanup in Meggett, SC. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup meggett",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/meggett-sc/",
-        "/service-areas/meggett-sc/fire-damage-restoration/",
-        "/service-areas/meggett-sc/mold-remediation/",
-        "/service-areas/awendaw-sc/water-cleanup/",
-        "/service-areas/bonneau-sc/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4199,50 +3444,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ridgeville-sc/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Ridgeville, SC | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in Ridgeville",
-      "meta_description": "Water cleanup in Ridgeville, SC. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup ridgeville",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/ridgeville-sc/",
-        "/service-areas/ridgeville-sc/fire-damage-restoration/",
-        "/service-areas/ridgeville-sc/mold-remediation/",
-        "/service-areas/awendaw-sc/water-cleanup/",
-        "/service-areas/bonneau-sc/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/seabrook-island-sc/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4375,50 +3576,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/seabrook-island-sc/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Seabrook Island, SC | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in Seabrook Island",
-      "meta_description": "Water cleanup in Seabrook Island, SC. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup seabrook island",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/seabrook-island-sc/",
-        "/service-areas/seabrook-island-sc/fire-damage-restoration/",
-        "/service-areas/seabrook-island-sc/mold-remediation/",
-        "/service-areas/awendaw-sc/water-cleanup/",
-        "/service-areas/bonneau-sc/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/bonneau-sc/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4547,50 +3704,6 @@
         "/service-areas/bonneau-sc/water-damage-restoration/",
         "/service-areas/awendaw-sc/mold-remediation/",
         "/service-areas/folly-beach-sc/mold-remediation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/bonneau-sc/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Bonneau, SC | Paul Davis Restoration of Charleston",
-      "h1": "Water Cleanup in Bonneau",
-      "meta_description": "Water cleanup in Bonneau, SC. Insurance billing accepted. Call.",
-      "primary_keyword": "emergency water cleanup bonneau",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/bonneau-sc/",
-        "/service-areas/bonneau-sc/fire-damage-restoration/",
-        "/service-areas/bonneau-sc/mold-remediation/",
-        "/service-areas/awendaw-sc/water-cleanup/",
-        "/service-areas/folly-beach-sc/water-cleanup/",
         "/contact/"
       ]
     },

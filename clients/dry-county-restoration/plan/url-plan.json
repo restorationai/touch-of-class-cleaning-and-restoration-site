@@ -1675,58 +1675,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Corona | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Corona",
-      "meta_description": "24/7 emergency water cleanup in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup corona",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
-        "/service-areas/chino-hills-ca/water-cleanup/",
-        "/service-areas/eastvale-ca/water-cleanup/",
-        "/service-areas/fontana-ca/water-cleanup/",
-        "/service-areas/fullerton-ca/water-cleanup/",
-        "/service-areas/jurupa-valley-ca/water-cleanup/",
-        "/service-areas/lake-mathews-ca/water-cleanup/",
-        "/service-areas/montclair-ca/water-cleanup/",
-        "/service-areas/norco-ca/water-cleanup/",
-        "/service-areas/north-tustin-ca/water-cleanup/",
-        "/service-areas/ontario-ca/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/service-areas/riverside-ca/",
       "archetype": "service-area",
       "vars_keys": [
@@ -4357,51 +4305,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/riverside-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Riverside, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Riverside",
-      "meta_description": "24/7 emergency water cleanup in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup riverside",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/riverside-ca/",
-        "/service-areas/riverside-ca/fire-damage-restoration/",
-        "/service-areas/riverside-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/anaheim-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5579,51 +5482,6 @@
         "/service-areas/anaheim-ca/mold-remediation/",
         "/service-areas/chino-ca/water-leak-detection/",
         "/service-areas/chino-hills-ca/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/anaheim-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Anaheim, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Anaheim",
-      "meta_description": "24/7 emergency water cleanup in Anaheim, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup anaheim",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/anaheim-ca/",
-        "/service-areas/anaheim-ca/fire-damage-restoration/",
-        "/service-areas/anaheim-ca/mold-remediation/",
-        "/service-areas/chino-ca/water-cleanup/",
-        "/service-areas/chino-hills-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -6809,51 +6667,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/santa-ana-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Santa Ana, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Santa Ana",
-      "meta_description": "24/7 emergency water cleanup in Santa Ana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup santa ana",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/santa-ana-ca/",
-        "/service-areas/santa-ana-ca/fire-damage-restoration/",
-        "/service-areas/santa-ana-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ontario-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8031,51 +7844,6 @@
         "/service-areas/ontario-ca/mold-remediation/",
         "/service-areas/anaheim-ca/water-leak-detection/",
         "/service-areas/chino-ca/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/ontario-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Ontario, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Ontario",
-      "meta_description": "24/7 emergency water cleanup in Ontario, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup ontario",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/ontario-ca/",
-        "/service-areas/ontario-ca/fire-damage-restoration/",
-        "/service-areas/ontario-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -9261,51 +9029,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fullerton-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Fullerton, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Fullerton",
-      "meta_description": "24/7 emergency water cleanup in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup fullerton",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/fullerton-ca/",
-        "/service-areas/fullerton-ca/fire-damage-restoration/",
-        "/service-areas/fullerton-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/norco-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10483,51 +10206,6 @@
         "/service-areas/norco-ca/mold-remediation/",
         "/service-areas/anaheim-ca/water-leak-detection/",
         "/service-areas/chino-ca/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/norco-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Norco, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Norco",
-      "meta_description": "24/7 emergency water cleanup in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup norco",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/norco-ca/",
-        "/service-areas/norco-ca/fire-damage-restoration/",
-        "/service-areas/norco-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -11713,51 +11391,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/chino-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Chino, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Chino",
-      "meta_description": "24/7 emergency water cleanup in Chino, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup chino",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/chino-ca/",
-        "/service-areas/chino-ca/fire-damage-restoration/",
-        "/service-areas/chino-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-hills-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/chino-hills-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12935,51 +12568,6 @@
         "/service-areas/chino-hills-ca/mold-remediation/",
         "/service-areas/anaheim-ca/water-leak-detection/",
         "/service-areas/chino-ca/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/chino-hills-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Chino Hills, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Chino Hills",
-      "meta_description": "24/7 emergency water cleanup in Chino Hills, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup chino hills",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/chino-hills-ca/",
-        "/service-areas/chino-hills-ca/fire-damage-restoration/",
-        "/service-areas/chino-hills-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -14165,51 +13753,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/eastvale-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Eastvale, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Eastvale",
-      "meta_description": "24/7 emergency water cleanup in Eastvale, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup eastvale",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/eastvale-ca/",
-        "/service-areas/eastvale-ca/fire-damage-restoration/",
-        "/service-areas/eastvale-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/silverado-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15387,51 +14930,6 @@
         "/service-areas/silverado-ca/mold-remediation/",
         "/service-areas/anaheim-ca/water-leak-detection/",
         "/service-areas/chino-ca/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/silverado-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Silverado, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Silverado",
-      "meta_description": "24/7 emergency water cleanup in Silverado, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup silverado",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/silverado-ca/",
-        "/service-areas/silverado-ca/fire-damage-restoration/",
-        "/service-areas/silverado-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -16617,51 +16115,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/jurupa-valley-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Jurupa Valley, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Jurupa Valley",
-      "meta_description": "24/7 emergency water cleanup in Jurupa Valley, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup jurupa valley",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/jurupa-valley-ca/",
-        "/service-areas/jurupa-valley-ca/fire-damage-restoration/",
-        "/service-areas/jurupa-valley-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/temescal-valley-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17839,51 +17292,6 @@
         "/service-areas/temescal-valley-ca/mold-remediation/",
         "/service-areas/anaheim-ca/water-leak-detection/",
         "/service-areas/chino-ca/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/temescal-valley-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Temescal Valley, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Temescal Valley",
-      "meta_description": "24/7 emergency water cleanup in Temescal Valley, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup temescal valley",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/temescal-valley-ca/",
-        "/service-areas/temescal-valley-ca/fire-damage-restoration/",
-        "/service-areas/temescal-valley-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -19069,51 +18477,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/yorba-linda-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Yorba Linda, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Yorba Linda",
-      "meta_description": "24/7 emergency water cleanup in Yorba Linda, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup yorba linda",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/yorba-linda-ca/",
-        "/service-areas/yorba-linda-ca/fire-damage-restoration/",
-        "/service-areas/yorba-linda-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lake-mathews-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20291,51 +19654,6 @@
         "/service-areas/lake-mathews-ca/mold-remediation/",
         "/service-areas/anaheim-ca/water-leak-detection/",
         "/service-areas/chino-ca/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lake-mathews-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lake Mathews, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Lake Mathews",
-      "meta_description": "24/7 emergency water cleanup in Lake Mathews, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup lake mathews",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lake-mathews-ca/",
-        "/service-areas/lake-mathews-ca/fire-damage-restoration/",
-        "/service-areas/lake-mathews-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -21521,51 +20839,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/woodcrest-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Woodcrest, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Woodcrest",
-      "meta_description": "24/7 emergency water cleanup in Woodcrest, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup woodcrest",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/woodcrest-ca/",
-        "/service-areas/woodcrest-ca/fire-damage-restoration/",
-        "/service-areas/woodcrest-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/trabuco-canyon-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22743,51 +22016,6 @@
         "/service-areas/trabuco-canyon-ca/mold-remediation/",
         "/service-areas/anaheim-ca/water-leak-detection/",
         "/service-areas/chino-ca/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/trabuco-canyon-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Trabuco Canyon, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Trabuco Canyon",
-      "meta_description": "24/7 emergency water cleanup in Trabuco Canyon, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup trabuco canyon",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/trabuco-canyon-ca/",
-        "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
-        "/service-areas/trabuco-canyon-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -23973,51 +23201,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/north-tustin-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in North Tustin, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in North Tustin",
-      "meta_description": "24/7 emergency water cleanup in North Tustin, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup north tustin",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/north-tustin-ca/",
-        "/service-areas/north-tustin-ca/fire-damage-restoration/",
-        "/service-areas/north-tustin-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/montclair-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -25195,51 +24378,6 @@
         "/service-areas/montclair-ca/mold-remediation/",
         "/service-areas/anaheim-ca/water-leak-detection/",
         "/service-areas/chino-ca/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/montclair-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Montclair, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Montclair",
-      "meta_description": "24/7 emergency water cleanup in Montclair, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup montclair",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/montclair-ca/",
-        "/service-areas/montclair-ca/fire-damage-restoration/",
-        "/service-areas/montclair-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -26425,51 +25563,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/villa-park-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Villa Park, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Villa Park",
-      "meta_description": "24/7 emergency water cleanup in Villa Park, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup villa park",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/villa-park-ca/",
-        "/service-areas/villa-park-ca/fire-damage-restoration/",
-        "/service-areas/villa-park-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fontana-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -27651,51 +26744,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fontana-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Fontana, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Fontana",
-      "meta_description": "24/7 emergency water cleanup in Fontana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup fontana",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/fontana-ca/",
-        "/service-areas/fontana-ca/fire-damage-restoration/",
-        "/service-areas/fontana-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/pomona-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -28873,51 +27921,6 @@
         "/service-areas/pomona-ca/mold-remediation/",
         "/service-areas/anaheim-ca/water-leak-detection/",
         "/service-areas/chino-ca/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pomona-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Pomona, CA | Dry County Restoration",
-      "h1": "Emergency Water Cleanup in Pomona",
-      "meta_description": "24/7 emergency water cleanup in Pomona, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "emergency water cleanup pomona",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/pomona-ca/",
-        "/service-areas/pomona-ca/fire-damage-restoration/",
-        "/service-areas/pomona-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/water-cleanup/",
-        "/service-areas/chino-ca/water-cleanup/",
         "/contact/"
       ]
     },

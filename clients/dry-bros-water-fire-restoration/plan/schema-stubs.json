@@ -88,16 +88,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/flood-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -407,16 +397,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/naperville-il/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/naperville-il/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -528,16 +508,6 @@
     "missing_stubs": []
   },
   "/service-areas/cicero-il/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/cicero-il/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -667,16 +637,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/evanston-il/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/evanston-il/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -788,16 +748,6 @@
     "missing_stubs": []
   },
   "/service-areas/oak-park-il/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oak-park-il/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -927,16 +877,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/skokie-il/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/skokie-il/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1048,16 +988,6 @@
     "missing_stubs": []
   },
   "/service-areas/berwyn-il/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/berwyn-il/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1187,16 +1117,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/des-plaines-il/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/des-plaines-il/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1308,16 +1228,6 @@
     "missing_stubs": []
   },
   "/service-areas/stickney-il/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/stickney-il/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1447,16 +1357,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bedford-park-il/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bedford-park-il/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1568,16 +1468,6 @@
     "missing_stubs": []
   },
   "/service-areas/lincolnwood-il/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lincolnwood-il/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1707,16 +1597,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/river-forest-il/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/river-forest-il/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1828,16 +1708,6 @@
     "missing_stubs": []
   },
   "/service-areas/forest-park-il/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/forest-park-il/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1967,16 +1837,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lyons-il/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lyons-il/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2088,16 +1948,6 @@
     "missing_stubs": []
   },
   "/service-areas/riverside-il/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/riverside-il/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2227,16 +2077,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/elmwood-park-il/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/elmwood-park-il/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2348,16 +2188,6 @@
     "missing_stubs": []
   },
   "/service-areas/north-riverside-il/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-riverside-il/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2487,16 +2317,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/melrose-park-il/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/melrose-park-il/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2608,16 +2428,6 @@
     "missing_stubs": []
   },
   "/service-areas/burbank-il/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/burbank-il/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2747,16 +2557,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/evergreen-park-il/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/evergreen-park-il/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2877,16 +2677,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/brookfield-il/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/brookfield-il/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2998,16 +2788,6 @@
     "missing_stubs": []
   },
   "/service-areas/maywood-il/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/maywood-il/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

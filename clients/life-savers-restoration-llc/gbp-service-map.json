@@ -4,9 +4,9 @@
   "gbp_services": {
     "24/7 Emergency Water Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "reason": "catalog slug match",
-      "source": "catalog",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
+      "source": "alias",
       "at": "2026-09-30"
     },
     "24/7 Emergency Water Damage Restoration": {
@@ -18,9 +18,9 @@
     },
     "24/7 Water Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "reason": "name containment",
-      "source": "containment",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
+      "source": "alias",
       "at": "2026-09-30"
     },
     "24/7 Water Damage Restoration": {
@@ -53,9 +53,9 @@
     },
     "Basement Flood Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "emergency water cleanup sub-case",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Basement Mold Removal": {
@@ -200,9 +200,9 @@
     },
     "Emergency Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "generic emergency water cleanup",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Emergency Fire Damage Restoration": {
@@ -242,9 +242,9 @@
     },
     "Emergency Water Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "reason": "same name",
-      "source": "exact",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
+      "source": "alias",
       "at": "2026-09-30"
     },
     "Emergency Water Damage Restoration": {
@@ -256,8 +256,8 @@
     },
     "Emergency Water Removal": {
       "verdict": "mapped",
-      "page": "water-damage-restoration",
-      "reason": "house alias",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "source": "alias",
       "at": "2026-09-30"
     },
@@ -305,9 +305,9 @@
     },
     "Flood Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "synonym for emergency water cleanup",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Flood Damage": {
@@ -585,8 +585,8 @@
     },
     "Standing Water Removal": {
       "verdict": "mapped",
-      "page": "water-damage-restoration",
-      "reason": "house alias",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "source": "alias",
       "at": "2026-09-30"
     },
@@ -627,9 +627,9 @@
     },
     "Water Clean Up": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "exact match",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Water Damage Cleanup Repair": {
@@ -714,9 +714,9 @@
     },
     "Water Heater Flood Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "water cleanup sub-case",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Water Heaters": {
@@ -742,8 +742,8 @@
     },
     "Water Removal": {
       "verdict": "mapped",
-      "page": "water-damage-restoration",
-      "reason": "house alias",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "source": "alias",
       "at": "2026-09-30"
     },
@@ -811,29 +811,19 @@
         }
       },
       "at": "2026-09-30"
+    },
+    "water-cleanup": {
+      "into": "emergency-water-removal",
+      "reason": "Santino 09-30: water cleanup renamed into the Emergency Water Removal & Cleanup page (one 'get the water out' cluster)",
+      "volumes": {
+        "emergency water removal": 16500,
+        "water extraction": 3600,
+        "water removal": 2400,
+        "water cleanup": 19700,
+        "emergency water cleanup": 480
+      },
+      "at": "2026-09-30"
     }
   },
-  "kept_pairs": [
-    {
-      "a": "water-damage-restoration",
-      "b": "water-cleanup",
-      "reason": "distinct query with 19,700/mo nationally (head + near me)",
-      "volumes": {
-        "water-cleanup": {
-          "head": 1600,
-          "near_me": 18100,
-          "total": 19700
-        },
-        "water-damage-restoration": {
-          "head": 135000,
-          "near_me": 135000,
-          "total": 270000
-        },
-        "terms": {
-          "water-cleanup": "water cleanup",
-          "water-damage-restoration": "water damage restoration"
-        }
-      }
-    }
-  ]
+  "kept_pairs": []
 }

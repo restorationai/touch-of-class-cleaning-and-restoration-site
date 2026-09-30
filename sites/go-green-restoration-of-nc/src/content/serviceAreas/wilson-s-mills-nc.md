@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "50628aa66d446293"
 generated_at: "2026-09-23T14:11:44.810336+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/wilson-s-mills-nc/fire-damage-restoration/", "/service-areas/wilson-s-mills-nc/mold-remediation/", "/service-areas/wilson-s-mills-nc/water-damage-restoration/", "/service-areas/wilson-s-mills-nc/water-cleanup/", "/service-areas/wilson-s-mills-nc/biohazard-cleanup/", "/service-areas/wilson-s-mills-nc/odor-removal/", "/service-areas/wilson-s-mills-nc/air-duct-cleaning/", "/service-areas/wilson-s-mills-nc/crawl-space-encapsulation/", "/service-areas/wilson-s-mills-nc/insulation-removal-installation/", "/service-areas/wilson-s-mills-nc/carpet-cleaning/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/wilson-s-mills-nc/fire-damage-restoration/", "/service-areas/wilson-s-mills-nc/mold-remediation/", "/service-areas/wilson-s-mills-nc/water-damage-restoration/", "/service-areas/wilson-s-mills-nc/emergency-water-removal/", "/service-areas/wilson-s-mills-nc/biohazard-cleanup/", "/service-areas/wilson-s-mills-nc/odor-removal/", "/service-areas/wilson-s-mills-nc/air-duct-cleaning/", "/service-areas/wilson-s-mills-nc/crawl-space-encapsulation/", "/service-areas/wilson-s-mills-nc/insulation-removal-installation/", "/service-areas/wilson-s-mills-nc/carpet-cleaning/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wilson's Mills"}]
 faq: []
 area_slug: "wilson-s-mills-nc"

@@ -7,8 +7,8 @@ GBP. Obviously we wouldn't want 100 to 200 different services on the
 website." Rule 1 + 2 of scripts/site_structure.py:
 
   * a GBP service that is a synonym / long-tail / modifier variant of an
-    existing site service page MAPS to that page ("Emergency Water Removal"
-    -> water-damage-restoration, "Board Up Services" -> emergency board-up).
+    existing site service page MAPS to that page ("Water Extraction"
+    -> emergency-water-removal, "Board Up Services" -> emergency board-up).
     A mapped service never creates a page.
   * only a genuinely DISTINCT service whose head term clears the volume bar
     (NEW_PAGE_METRO_MIN in the client's city, else NEW_PAGE_NATIONAL_MIN

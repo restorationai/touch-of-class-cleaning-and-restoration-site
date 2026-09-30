@@ -14,7 +14,6 @@
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/basement-flooding-cleanup/",
     "/services/biohazard-cleanup/",
     "/services/burst-pipe-repair/",
@@ -65,7 +64,6 @@
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/basement-flooding-cleanup/",
     "/services/biohazard-cleanup/",
     "/services/burst-pipe-repair/",
@@ -300,23 +298,6 @@
     "/service-areas/san-diego-ca/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/"
   ],
-  "/services/water-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/berkeley-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
-    "/service-areas/chula-vista-ca/water-cleanup/",
-    "/service-areas/concord-ca/water-cleanup/",
-    "/service-areas/el-cajon-ca/water-cleanup/",
-    "/service-areas/encinitas-ca/water-cleanup/",
-    "/service-areas/escondido-ca/water-cleanup/",
-    "/service-areas/fremont-ca/water-cleanup/",
-    "/service-areas/hayward-ca/water-cleanup/",
-    "/service-areas/oakland-ca/water-cleanup/",
-    "/service-areas/oceanside-ca/water-cleanup/",
-    "/service-areas/san-diego-ca/water-cleanup/",
-    "/services/water-damage-restoration/"
-  ],
   "/services/water-damage-restoration/": [
     "/services/",
     "/contact/",
@@ -332,7 +313,6 @@
     "/service-areas/oakland-ca/water-damage-restoration/",
     "/service-areas/oceanside-ca/water-damage-restoration/",
     "/service-areas/san-diego-ca/water-damage-restoration/",
-    "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
@@ -625,7 +605,6 @@
     "/service-areas/san-diego-ca/sewage-cleanup/",
     "/service-areas/san-diego-ca/smoke-damage-restoration/",
     "/service-areas/san-diego-ca/storm-damage-restoration/",
-    "/service-areas/san-diego-ca/water-cleanup/",
     "/service-areas/san-diego-ca/basement-flooding-cleanup/",
     "/service-areas/san-diego-ca/biohazard-cleanup/",
     "/service-areas/san-diego-ca/burst-pipe-repair/",
@@ -661,7 +640,6 @@
     "/service-areas/san-jose-ca/sewage-cleanup/",
     "/service-areas/san-jose-ca/smoke-damage-restoration/",
     "/service-areas/san-jose-ca/storm-damage-restoration/",
-    "/service-areas/san-jose-ca/water-cleanup/",
     "/service-areas/san-jose-ca/basement-flooding-cleanup/",
     "/service-areas/san-jose-ca/biohazard-cleanup/",
     "/service-areas/san-jose-ca/burst-pipe-repair/",
@@ -697,7 +675,6 @@
     "/service-areas/san-francisco-ca/sewage-cleanup/",
     "/service-areas/san-francisco-ca/smoke-damage-restoration/",
     "/service-areas/san-francisco-ca/storm-damage-restoration/",
-    "/service-areas/san-francisco-ca/water-cleanup/",
     "/service-areas/san-francisco-ca/basement-flooding-cleanup/",
     "/service-areas/san-francisco-ca/biohazard-cleanup/",
     "/service-areas/san-francisco-ca/burst-pipe-repair/",
@@ -733,7 +710,6 @@
     "/service-areas/oakland-ca/sewage-cleanup/",
     "/service-areas/oakland-ca/smoke-damage-restoration/",
     "/service-areas/oakland-ca/storm-damage-restoration/",
-    "/service-areas/oakland-ca/water-cleanup/",
     "/service-areas/oakland-ca/basement-flooding-cleanup/",
     "/service-areas/oakland-ca/biohazard-cleanup/",
     "/service-areas/oakland-ca/burst-pipe-repair/",
@@ -769,7 +745,6 @@
     "/service-areas/chula-vista-ca/sewage-cleanup/",
     "/service-areas/chula-vista-ca/smoke-damage-restoration/",
     "/service-areas/chula-vista-ca/storm-damage-restoration/",
-    "/service-areas/chula-vista-ca/water-cleanup/",
     "/service-areas/chula-vista-ca/basement-flooding-cleanup/",
     "/service-areas/chula-vista-ca/biohazard-cleanup/",
     "/service-areas/chula-vista-ca/burst-pipe-repair/",
@@ -805,7 +780,6 @@
     "/service-areas/fremont-ca/sewage-cleanup/",
     "/service-areas/fremont-ca/smoke-damage-restoration/",
     "/service-areas/fremont-ca/storm-damage-restoration/",
-    "/service-areas/fremont-ca/water-cleanup/",
     "/service-areas/fremont-ca/basement-flooding-cleanup/",
     "/service-areas/fremont-ca/biohazard-cleanup/",
     "/service-areas/fremont-ca/burst-pipe-repair/",
@@ -841,7 +815,6 @@
     "/service-areas/oceanside-ca/sewage-cleanup/",
     "/service-areas/oceanside-ca/smoke-damage-restoration/",
     "/service-areas/oceanside-ca/storm-damage-restoration/",
-    "/service-areas/oceanside-ca/water-cleanup/",
     "/service-areas/oceanside-ca/basement-flooding-cleanup/",
     "/service-areas/oceanside-ca/biohazard-cleanup/",
     "/service-areas/oceanside-ca/burst-pipe-repair/",
@@ -877,7 +850,6 @@
     "/service-areas/escondido-ca/sewage-cleanup/",
     "/service-areas/escondido-ca/smoke-damage-restoration/",
     "/service-areas/escondido-ca/storm-damage-restoration/",
-    "/service-areas/escondido-ca/water-cleanup/",
     "/service-areas/escondido-ca/basement-flooding-cleanup/",
     "/service-areas/escondido-ca/biohazard-cleanup/",
     "/service-areas/escondido-ca/burst-pipe-repair/",
@@ -913,7 +885,6 @@
     "/service-areas/carlsbad-ca/sewage-cleanup/",
     "/service-areas/carlsbad-ca/smoke-damage-restoration/",
     "/service-areas/carlsbad-ca/storm-damage-restoration/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
     "/service-areas/carlsbad-ca/basement-flooding-cleanup/",
     "/service-areas/carlsbad-ca/biohazard-cleanup/",
     "/service-areas/carlsbad-ca/burst-pipe-repair/",
@@ -949,7 +920,6 @@
     "/service-areas/san-marcos-ca/sewage-cleanup/",
     "/service-areas/san-marcos-ca/smoke-damage-restoration/",
     "/service-areas/san-marcos-ca/storm-damage-restoration/",
-    "/service-areas/san-marcos-ca/water-cleanup/",
     "/service-areas/san-marcos-ca/basement-flooding-cleanup/",
     "/service-areas/san-marcos-ca/biohazard-cleanup/",
     "/service-areas/san-marcos-ca/burst-pipe-repair/",
@@ -985,7 +955,6 @@
     "/service-areas/temecula-ca/sewage-cleanup/",
     "/service-areas/temecula-ca/smoke-damage-restoration/",
     "/service-areas/temecula-ca/storm-damage-restoration/",
-    "/service-areas/temecula-ca/water-cleanup/",
     "/service-areas/temecula-ca/basement-flooding-cleanup/",
     "/service-areas/temecula-ca/biohazard-cleanup/",
     "/service-areas/temecula-ca/burst-pipe-repair/",
@@ -1021,7 +990,6 @@
     "/service-areas/hayward-ca/sewage-cleanup/",
     "/service-areas/hayward-ca/smoke-damage-restoration/",
     "/service-areas/hayward-ca/storm-damage-restoration/",
-    "/service-areas/hayward-ca/water-cleanup/",
     "/service-areas/hayward-ca/basement-flooding-cleanup/",
     "/service-areas/hayward-ca/biohazard-cleanup/",
     "/service-areas/hayward-ca/burst-pipe-repair/",
@@ -1057,7 +1025,6 @@
     "/service-areas/sunnyvale-ca/sewage-cleanup/",
     "/service-areas/sunnyvale-ca/smoke-damage-restoration/",
     "/service-areas/sunnyvale-ca/storm-damage-restoration/",
-    "/service-areas/sunnyvale-ca/water-cleanup/",
     "/service-areas/sunnyvale-ca/basement-flooding-cleanup/",
     "/service-areas/sunnyvale-ca/biohazard-cleanup/",
     "/service-areas/sunnyvale-ca/burst-pipe-repair/",
@@ -1093,7 +1060,6 @@
     "/service-areas/santa-clara-ca/sewage-cleanup/",
     "/service-areas/santa-clara-ca/smoke-damage-restoration/",
     "/service-areas/santa-clara-ca/storm-damage-restoration/",
-    "/service-areas/santa-clara-ca/water-cleanup/",
     "/service-areas/santa-clara-ca/basement-flooding-cleanup/",
     "/service-areas/santa-clara-ca/biohazard-cleanup/",
     "/service-areas/santa-clara-ca/burst-pipe-repair/",
@@ -1129,7 +1095,6 @@
     "/service-areas/el-cajon-ca/sewage-cleanup/",
     "/service-areas/el-cajon-ca/smoke-damage-restoration/",
     "/service-areas/el-cajon-ca/storm-damage-restoration/",
-    "/service-areas/el-cajon-ca/water-cleanup/",
     "/service-areas/el-cajon-ca/basement-flooding-cleanup/",
     "/service-areas/el-cajon-ca/biohazard-cleanup/",
     "/service-areas/el-cajon-ca/burst-pipe-repair/",
@@ -1165,7 +1130,6 @@
     "/service-areas/concord-ca/sewage-cleanup/",
     "/service-areas/concord-ca/smoke-damage-restoration/",
     "/service-areas/concord-ca/storm-damage-restoration/",
-    "/service-areas/concord-ca/water-cleanup/",
     "/service-areas/concord-ca/basement-flooding-cleanup/",
     "/service-areas/concord-ca/biohazard-cleanup/",
     "/service-areas/concord-ca/burst-pipe-repair/",
@@ -1201,7 +1165,6 @@
     "/service-areas/berkeley-ca/sewage-cleanup/",
     "/service-areas/berkeley-ca/smoke-damage-restoration/",
     "/service-areas/berkeley-ca/storm-damage-restoration/",
-    "/service-areas/berkeley-ca/water-cleanup/",
     "/service-areas/berkeley-ca/basement-flooding-cleanup/",
     "/service-areas/berkeley-ca/biohazard-cleanup/",
     "/service-areas/berkeley-ca/burst-pipe-repair/",
@@ -1237,7 +1200,6 @@
     "/service-areas/encinitas-ca/sewage-cleanup/",
     "/service-areas/encinitas-ca/smoke-damage-restoration/",
     "/service-areas/encinitas-ca/storm-damage-restoration/",
-    "/service-areas/encinitas-ca/water-cleanup/",
     "/service-areas/encinitas-ca/basement-flooding-cleanup/",
     "/service-areas/encinitas-ca/biohazard-cleanup/",
     "/service-areas/encinitas-ca/burst-pipe-repair/",
@@ -1273,7 +1235,6 @@
     "/service-areas/santa-cruz-ca/sewage-cleanup/",
     "/service-areas/santa-cruz-ca/smoke-damage-restoration/",
     "/service-areas/santa-cruz-ca/storm-damage-restoration/",
-    "/service-areas/santa-cruz-ca/water-cleanup/",
     "/service-areas/santa-cruz-ca/basement-flooding-cleanup/",
     "/service-areas/santa-cruz-ca/biohazard-cleanup/",
     "/service-areas/santa-cruz-ca/burst-pipe-repair/",
@@ -1384,15 +1345,6 @@
     "/service-areas/san-diego-ca/mold-remediation/",
     "/service-areas/berkeley-ca/storm-damage-restoration/",
     "/service-areas/carlsbad-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/san-diego-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/san-diego-ca/",
-    "/service-areas/san-diego-ca/fire-damage-restoration/",
-    "/service-areas/san-diego-ca/mold-remediation/",
-    "/service-areas/berkeley-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/san-diego-ca/water-damage-restoration/": [
@@ -1647,15 +1599,6 @@
     "/service-areas/carlsbad-ca/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/san-jose-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/san-jose-ca/",
-    "/service-areas/san-jose-ca/fire-damage-restoration/",
-    "/service-areas/san-jose-ca/mold-remediation/",
-    "/service-areas/berkeley-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/san-jose-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/san-jose-ca/",
@@ -1906,15 +1849,6 @@
     "/service-areas/san-francisco-ca/mold-remediation/",
     "/service-areas/berkeley-ca/storm-damage-restoration/",
     "/service-areas/carlsbad-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/san-francisco-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/san-francisco-ca/",
-    "/service-areas/san-francisco-ca/fire-damage-restoration/",
-    "/service-areas/san-francisco-ca/mold-remediation/",
-    "/service-areas/berkeley-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/san-francisco-ca/water-damage-restoration/": [
@@ -2169,15 +2103,6 @@
     "/service-areas/carlsbad-ca/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/oakland-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/oakland-ca/",
-    "/service-areas/oakland-ca/fire-damage-restoration/",
-    "/service-areas/oakland-ca/mold-remediation/",
-    "/service-areas/berkeley-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/oakland-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/oakland-ca/",
@@ -2428,15 +2353,6 @@
     "/service-areas/chula-vista-ca/mold-remediation/",
     "/service-areas/berkeley-ca/storm-damage-restoration/",
     "/service-areas/carlsbad-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/chula-vista-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/chula-vista-ca/",
-    "/service-areas/chula-vista-ca/fire-damage-restoration/",
-    "/service-areas/chula-vista-ca/mold-remediation/",
-    "/service-areas/berkeley-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/chula-vista-ca/water-damage-restoration/": [
@@ -2691,15 +2607,6 @@
     "/service-areas/carlsbad-ca/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/fremont-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/fremont-ca/",
-    "/service-areas/fremont-ca/fire-damage-restoration/",
-    "/service-areas/fremont-ca/mold-remediation/",
-    "/service-areas/berkeley-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/fremont-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/fremont-ca/",
@@ -2950,15 +2857,6 @@
     "/service-areas/oceanside-ca/mold-remediation/",
     "/service-areas/berkeley-ca/storm-damage-restoration/",
     "/service-areas/carlsbad-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/oceanside-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/oceanside-ca/",
-    "/service-areas/oceanside-ca/fire-damage-restoration/",
-    "/service-areas/oceanside-ca/mold-remediation/",
-    "/service-areas/berkeley-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/oceanside-ca/water-damage-restoration/": [
@@ -3213,15 +3111,6 @@
     "/service-areas/carlsbad-ca/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/escondido-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/escondido-ca/",
-    "/service-areas/escondido-ca/fire-damage-restoration/",
-    "/service-areas/escondido-ca/mold-remediation/",
-    "/service-areas/berkeley-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/escondido-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/escondido-ca/",
@@ -3472,15 +3361,6 @@
     "/service-areas/carlsbad-ca/mold-remediation/",
     "/service-areas/berkeley-ca/storm-damage-restoration/",
     "/service-areas/chula-vista-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/carlsbad-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/carlsbad-ca/",
-    "/service-areas/carlsbad-ca/fire-damage-restoration/",
-    "/service-areas/carlsbad-ca/mold-remediation/",
-    "/service-areas/berkeley-ca/water-cleanup/",
-    "/service-areas/chula-vista-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/carlsbad-ca/water-damage-restoration/": [
@@ -3735,15 +3615,6 @@
     "/service-areas/carlsbad-ca/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/san-marcos-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/san-marcos-ca/",
-    "/service-areas/san-marcos-ca/fire-damage-restoration/",
-    "/service-areas/san-marcos-ca/mold-remediation/",
-    "/service-areas/berkeley-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/san-marcos-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/san-marcos-ca/",
@@ -3994,15 +3865,6 @@
     "/service-areas/temecula-ca/mold-remediation/",
     "/service-areas/berkeley-ca/storm-damage-restoration/",
     "/service-areas/carlsbad-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/temecula-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/temecula-ca/",
-    "/service-areas/temecula-ca/fire-damage-restoration/",
-    "/service-areas/temecula-ca/mold-remediation/",
-    "/service-areas/berkeley-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/temecula-ca/water-damage-restoration/": [
@@ -4257,15 +4119,6 @@
     "/service-areas/carlsbad-ca/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/hayward-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/hayward-ca/",
-    "/service-areas/hayward-ca/fire-damage-restoration/",
-    "/service-areas/hayward-ca/mold-remediation/",
-    "/service-areas/berkeley-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/hayward-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/hayward-ca/",
@@ -4516,15 +4369,6 @@
     "/service-areas/sunnyvale-ca/mold-remediation/",
     "/service-areas/berkeley-ca/storm-damage-restoration/",
     "/service-areas/carlsbad-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/sunnyvale-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/sunnyvale-ca/",
-    "/service-areas/sunnyvale-ca/fire-damage-restoration/",
-    "/service-areas/sunnyvale-ca/mold-remediation/",
-    "/service-areas/berkeley-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/sunnyvale-ca/water-damage-restoration/": [
@@ -4779,15 +4623,6 @@
     "/service-areas/carlsbad-ca/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/santa-clara-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/santa-clara-ca/",
-    "/service-areas/santa-clara-ca/fire-damage-restoration/",
-    "/service-areas/santa-clara-ca/mold-remediation/",
-    "/service-areas/berkeley-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/santa-clara-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/santa-clara-ca/",
@@ -5038,15 +4873,6 @@
     "/service-areas/el-cajon-ca/mold-remediation/",
     "/service-areas/berkeley-ca/storm-damage-restoration/",
     "/service-areas/carlsbad-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/el-cajon-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/el-cajon-ca/",
-    "/service-areas/el-cajon-ca/fire-damage-restoration/",
-    "/service-areas/el-cajon-ca/mold-remediation/",
-    "/service-areas/berkeley-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/el-cajon-ca/water-damage-restoration/": [
@@ -5301,15 +5127,6 @@
     "/service-areas/carlsbad-ca/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/concord-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/concord-ca/",
-    "/service-areas/concord-ca/fire-damage-restoration/",
-    "/service-areas/concord-ca/mold-remediation/",
-    "/service-areas/berkeley-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/concord-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/concord-ca/",
@@ -5560,15 +5377,6 @@
     "/service-areas/berkeley-ca/mold-remediation/",
     "/service-areas/carlsbad-ca/storm-damage-restoration/",
     "/service-areas/chula-vista-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/berkeley-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/berkeley-ca/",
-    "/service-areas/berkeley-ca/fire-damage-restoration/",
-    "/service-areas/berkeley-ca/mold-remediation/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
-    "/service-areas/chula-vista-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/berkeley-ca/water-damage-restoration/": [
@@ -5823,15 +5631,6 @@
     "/service-areas/carlsbad-ca/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/encinitas-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/encinitas-ca/",
-    "/service-areas/encinitas-ca/fire-damage-restoration/",
-    "/service-areas/encinitas-ca/mold-remediation/",
-    "/service-areas/berkeley-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/encinitas-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/encinitas-ca/",
@@ -6082,15 +5881,6 @@
     "/service-areas/santa-cruz-ca/mold-remediation/",
     "/service-areas/berkeley-ca/storm-damage-restoration/",
     "/service-areas/carlsbad-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/santa-cruz-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/santa-cruz-ca/",
-    "/service-areas/santa-cruz-ca/fire-damage-restoration/",
-    "/service-areas/santa-cruz-ca/mold-remediation/",
-    "/service-areas/berkeley-ca/water-cleanup/",
-    "/service-areas/carlsbad-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/santa-cruz-ca/water-damage-restoration/": [

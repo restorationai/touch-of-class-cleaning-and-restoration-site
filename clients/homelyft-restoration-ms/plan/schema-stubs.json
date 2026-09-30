@@ -218,16 +218,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/flood-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -931,16 +921,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/eastabuchie-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/eastabuchie-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1212,16 +1192,6 @@
     "missing_stubs": []
   },
   "/service-areas/hattiesburg-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hattiesburg-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1511,16 +1481,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/petal-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/petal-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1792,16 +1752,6 @@
     "missing_stubs": []
   },
   "/service-areas/rawls-springs-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rawls-springs-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2091,16 +2041,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/leakesville-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/leakesville-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2372,16 +2312,6 @@
     "missing_stubs": []
   },
   "/service-areas/mclain-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mclain-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2671,16 +2601,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/state-line-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/state-line-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2952,16 +2872,6 @@
     "missing_stubs": []
   },
   "/service-areas/biloxi-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/biloxi-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3251,16 +3161,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/d-iberville-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/d-iberville-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3532,16 +3432,6 @@
     "missing_stubs": []
   },
   "/service-areas/delisle-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/delisle-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3831,16 +3721,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/diamondhead-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/diamondhead-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4112,16 +3992,6 @@
     "missing_stubs": []
   },
   "/service-areas/henderson-point-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/henderson-point-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4411,16 +4281,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/latimer-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/latimer-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4692,16 +4552,6 @@
     "missing_stubs": []
   },
   "/service-areas/long-beach-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/long-beach-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4991,16 +4841,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lyman-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lyman-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5272,16 +5112,6 @@
     "missing_stubs": []
   },
   "/service-areas/pass-christian-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pass-christian-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5571,16 +5401,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/saucier-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/saucier-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5852,16 +5672,6 @@
     "missing_stubs": []
   },
   "/service-areas/st-martin-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/st-martin-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6151,16 +5961,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bay-st-louis-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bay-st-louis-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6432,16 +6232,6 @@
     "missing_stubs": []
   },
   "/service-areas/kiln-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kiln-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6731,16 +6521,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pearlington-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pearlington-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7012,16 +6792,6 @@
     "missing_stubs": []
   },
   "/service-areas/picayune-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/picayune-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7311,16 +7081,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/waveland-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/waveland-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7592,16 +7352,6 @@
     "missing_stubs": []
   },
   "/service-areas/wiggins-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wiggins-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7891,16 +7641,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hide-a-way-lake-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hide-a-way-lake-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8172,16 +7912,6 @@
     "missing_stubs": []
   },
   "/service-areas/lumberton-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lumberton-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8471,16 +8201,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/poplarville-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/poplarville-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8752,16 +8472,6 @@
     "missing_stubs": []
   },
   "/service-areas/big-point-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/big-point-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9051,16 +8761,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/escatawpa-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/escatawpa-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9332,16 +9032,6 @@
     "missing_stubs": []
   },
   "/service-areas/gautier-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gautier-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9631,16 +9321,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gulf-hills-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/gulf-hills-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9912,16 +9592,6 @@
     "missing_stubs": []
   },
   "/service-areas/gulf-park-estates-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gulf-park-estates-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10211,16 +9881,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/helena-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/helena-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10492,16 +10152,6 @@
     "missing_stubs": []
   },
   "/service-areas/hurley-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hurley-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10791,16 +10441,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/moss-point-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/moss-point-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11072,16 +10712,6 @@
     "missing_stubs": []
   },
   "/service-areas/ocean-springs-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ocean-springs-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11371,16 +11001,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pascagoula-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pascagoula-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11652,16 +11272,6 @@
     "missing_stubs": []
   },
   "/service-areas/vancleave-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/vancleave-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11951,16 +11561,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wade-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wade-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12232,16 +11832,6 @@
     "missing_stubs": []
   },
   "/service-areas/agricola-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/agricola-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12531,16 +12121,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/benndale-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/benndale-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12812,16 +12392,6 @@
     "missing_stubs": []
   },
   "/service-areas/lucedale-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lucedale-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13111,16 +12681,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ellisville-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ellisville-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -13392,16 +12952,6 @@
     "missing_stubs": []
   },
   "/service-areas/laurel-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/laurel-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13691,16 +13241,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/moselle-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/moselle-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -13981,16 +13521,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ovett-ms/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ovett-ms/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -14262,16 +13792,6 @@
     "missing_stubs": []
   },
   "/service-areas/sandersville-ms/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sandersville-ms/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

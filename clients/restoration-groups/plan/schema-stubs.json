@@ -218,16 +218,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/water-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -938,16 +928,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/union-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/union-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1109,16 +1089,6 @@
     "missing_stubs": []
   },
   "/service-areas/elizabeth-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elizabeth-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1298,16 +1268,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/westfield-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/westfield-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1469,16 +1429,6 @@
     "missing_stubs": []
   },
   "/service-areas/cranford-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/cranford-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1658,16 +1608,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/springfield-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/springfield-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1829,16 +1769,6 @@
     "missing_stubs": []
   },
   "/service-areas/summit-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/summit-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2018,16 +1948,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/newark-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/newark-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2189,16 +2109,6 @@
     "missing_stubs": []
   },
   "/service-areas/jersey-city-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/jersey-city-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2378,16 +2288,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/brooklyn-ny/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/brooklyn-ny/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2549,16 +2449,6 @@
     "missing_stubs": []
   },
   "/service-areas/manhattan-ny/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/manhattan-ny/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2738,16 +2628,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fair-lawn-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fair-lawn-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2909,16 +2789,6 @@
     "missing_stubs": []
   },
   "/service-areas/highland-park-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/highland-park-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3098,16 +2968,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/staten-island-ny/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/staten-island-ny/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3269,16 +3129,6 @@
     "missing_stubs": []
   },
   "/service-areas/linden-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/linden-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3458,16 +3308,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rahway-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/rahway-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3629,16 +3469,6 @@
     "missing_stubs": []
   },
   "/service-areas/plainfield-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/plainfield-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3818,16 +3648,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/scotch-plains-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/scotch-plains-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3989,16 +3809,6 @@
     "missing_stubs": []
   },
   "/service-areas/clark-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/clark-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4178,16 +3988,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/roselle-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/roselle-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4349,16 +4149,6 @@
     "missing_stubs": []
   },
   "/service-areas/hillside-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hillside-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4538,16 +4328,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/east-orange-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/east-orange-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4709,16 +4489,6 @@
     "missing_stubs": []
   },
   "/service-areas/west-orange-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/west-orange-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4898,16 +4668,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/montclair-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/montclair-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5069,16 +4829,6 @@
     "missing_stubs": []
   },
   "/service-areas/bloomfield-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bloomfield-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5258,16 +5008,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/livingston-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/livingston-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5429,16 +5169,6 @@
     "missing_stubs": []
   },
   "/service-areas/irvington-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/irvington-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5618,16 +5348,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/maplewood-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/maplewood-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5789,16 +5509,6 @@
     "missing_stubs": []
   },
   "/service-areas/millburn-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/millburn-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5978,16 +5688,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hackensack-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hackensack-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6149,16 +5849,6 @@
     "missing_stubs": []
   },
   "/service-areas/paramus-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/paramus-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6338,16 +6028,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fort-lee-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fort-lee-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6509,16 +6189,6 @@
     "missing_stubs": []
   },
   "/service-areas/teaneck-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/teaneck-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6698,16 +6368,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ridgewood-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ridgewood-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6869,16 +6529,6 @@
     "missing_stubs": []
   },
   "/service-areas/englewood-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/englewood-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7058,16 +6708,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/garfield-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/garfield-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7229,16 +6869,6 @@
     "missing_stubs": []
   },
   "/service-areas/new-brunswick-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-brunswick-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7418,16 +7048,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/edison-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/edison-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7589,16 +7209,6 @@
     "missing_stubs": []
   },
   "/service-areas/woodbridge-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/woodbridge-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7778,16 +7388,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/perth-amboy-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/perth-amboy-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7949,16 +7549,6 @@
     "missing_stubs": []
   },
   "/service-areas/east-brunswick-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/east-brunswick-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8138,16 +7728,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/piscataway-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/piscataway-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8309,16 +7889,6 @@
     "missing_stubs": []
   },
   "/service-areas/morristown-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/morristown-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8498,16 +8068,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/parsippany-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/parsippany-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8669,16 +8229,6 @@
     "missing_stubs": []
   },
   "/service-areas/somerville-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/somerville-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8858,16 +8408,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bridgewater-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bridgewater-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9029,16 +8569,6 @@
     "missing_stubs": []
   },
   "/service-areas/paterson-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/paterson-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9218,16 +8748,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/clifton-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/clifton-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9389,16 +8909,6 @@
     "missing_stubs": []
   },
   "/service-areas/wayne-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wayne-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9578,16 +9088,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/passaic-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/passaic-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9749,16 +9249,6 @@
     "missing_stubs": []
   },
   "/service-areas/hoboken-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hoboken-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9938,16 +9428,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bayonne-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bayonne-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10109,16 +9589,6 @@
     "missing_stubs": []
   },
   "/service-areas/north-bergen-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-bergen-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10298,16 +9768,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mountainside-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mountainside-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10469,16 +9929,6 @@
     "missing_stubs": []
   },
   "/service-areas/short-hills-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/short-hills-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10658,16 +10108,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/colonia-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/colonia-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10829,16 +10269,6 @@
     "missing_stubs": []
   },
   "/service-areas/new-providence-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-providence-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11018,16 +10448,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/avenel-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/avenel-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11189,16 +10609,6 @@
     "missing_stubs": []
   },
   "/service-areas/chatham-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/chatham-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11378,16 +10788,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/watchung-nj/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/watchung-nj/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11549,16 +10949,6 @@
     "missing_stubs": []
   },
   "/service-areas/carteret-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/carteret-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

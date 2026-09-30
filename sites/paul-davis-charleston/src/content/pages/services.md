@@ -10,7 +10,7 @@ priority: 4.0
 plan_hash: "40ffeb77c688844e"
 generated_at: "2026-09-20T14:13:25.006955+00:00"
 manual_override: false
-internal_links: ["/", "/services/fire-damage-restoration/", "/services/mold-remediation/", "/services/water-damage-restoration/", "/services/water-cleanup/"]
+internal_links: ["/", "/services/fire-damage-restoration/", "/services/mold-remediation/", "/services/water-damage-restoration/", "/services/emergency-water-removal/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services"}]
 faq: []
 ---

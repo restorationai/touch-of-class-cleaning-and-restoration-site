@@ -168,16 +168,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/water-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -487,16 +477,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/provo-ut/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/provo-ut/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -608,16 +588,6 @@
     "missing_stubs": []
   },
   "/service-areas/orem-ut/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/orem-ut/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -747,16 +717,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lehi-ut/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lehi-ut/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -868,16 +828,6 @@
     "missing_stubs": []
   },
   "/service-areas/pleasant-grove-ut/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pleasant-grove-ut/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1007,16 +957,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/spanish-fork-ut/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/spanish-fork-ut/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1128,16 +1068,6 @@
     "missing_stubs": []
   },
   "/service-areas/springville-ut/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/springville-ut/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1267,16 +1197,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/saratoga-springs-ut/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/saratoga-springs-ut/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1388,16 +1308,6 @@
     "missing_stubs": []
   },
   "/service-areas/highland-ut/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/highland-ut/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1527,16 +1437,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/cedar-hills-ut/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/cedar-hills-ut/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1648,16 +1548,6 @@
     "missing_stubs": []
   },
   "/service-areas/lindon-ut/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lindon-ut/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1787,16 +1677,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/alpine-ut/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/alpine-ut/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1908,16 +1788,6 @@
     "missing_stubs": []
   },
   "/service-areas/vineyard-ut/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/vineyard-ut/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2047,16 +1917,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/draper-ut/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/draper-ut/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2168,16 +2028,6 @@
     "missing_stubs": []
   },
   "/service-areas/bluffdale-ut/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bluffdale-ut/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2307,16 +2157,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/eagle-mountain-ut/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/eagle-mountain-ut/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2428,16 +2268,6 @@
     "missing_stubs": []
   },
   "/service-areas/sandy-ut/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sandy-ut/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2567,16 +2397,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/herriman-ut/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/herriman-ut/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2688,16 +2508,6 @@
     "missing_stubs": []
   },
   "/service-areas/riverton-ut/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/riverton-ut/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2827,16 +2637,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/south-jordan-ut/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/south-jordan-ut/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2957,16 +2757,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/cedar-fort-ut/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/cedar-fort-ut/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3078,16 +2868,6 @@
     "missing_stubs": []
   },
   "/service-areas/cottonwood-heights-ut/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/cottonwood-heights-ut/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

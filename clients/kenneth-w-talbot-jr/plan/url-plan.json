@@ -474,58 +474,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Freeport | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Freeport",
-      "meta_description": "24/7 emergency water cleanup in Freeport and surrounding areas. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup freeport",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
-        "/service-areas/destin-fl/water-cleanup/",
-        "/service-areas/ebro-fl/water-cleanup/",
-        "/service-areas/eglin-afb-fl/water-cleanup/",
-        "/service-areas/fort-walton-beach-fl/water-cleanup/",
-        "/service-areas/harold-fl/water-cleanup/",
-        "/service-areas/hurlburt-field-fl/water-cleanup/",
-        "/service-areas/laurel-hill-fl/water-cleanup/",
-        "/service-areas/miramar-beach-fl/water-cleanup/",
-        "/service-areas/navarre-fl/water-cleanup/",
-        "/service-areas/niceville-fl/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/service-areas/destin-fl/",
       "archetype": "service-area",
       "vars_keys": [
@@ -1542,51 +1490,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/destin-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Destin, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Destin",
-      "meta_description": "24/7 emergency water cleanup in Destin, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup destin",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/destin-fl/",
-        "/service-areas/destin-fl/fire-damage-restoration/",
-        "/service-areas/destin-fl/mold-remediation/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/miramar-beach-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1759,51 +1662,6 @@
         "/service-areas/miramar-beach-fl/mold-remediation/",
         "/service-areas/crestview-fl/storm-damage-restoration/",
         "/service-areas/defuniak-springs-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/miramar-beach-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Miramar Beach, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Miramar Beach",
-      "meta_description": "24/7 emergency water cleanup in Miramar Beach, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup miramar beach",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/miramar-beach-fl/",
-        "/service-areas/miramar-beach-fl/fire-damage-restoration/",
-        "/service-areas/miramar-beach-fl/mold-remediation/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -1984,51 +1842,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/santa-rosa-beach-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Santa Rosa Beach, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Santa Rosa Beach",
-      "meta_description": "24/7 emergency water cleanup in Santa Rosa Beach, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup santa rosa beach",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/santa-rosa-beach-fl/",
-        "/service-areas/santa-rosa-beach-fl/fire-damage-restoration/",
-        "/service-areas/santa-rosa-beach-fl/mold-remediation/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/niceville-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2201,51 +2014,6 @@
         "/service-areas/niceville-fl/mold-remediation/",
         "/service-areas/crestview-fl/storm-damage-restoration/",
         "/service-areas/defuniak-springs-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/niceville-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Niceville, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Niceville",
-      "meta_description": "24/7 emergency water cleanup in Niceville, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup niceville",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/niceville-fl/",
-        "/service-areas/niceville-fl/fire-damage-restoration/",
-        "/service-areas/niceville-fl/mold-remediation/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2426,51 +2194,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fort-walton-beach-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Fort Walton Beach, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Fort Walton Beach",
-      "meta_description": "24/7 emergency water cleanup in Fort Walton Beach, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup fort walton beach",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/fort-walton-beach-fl/",
-        "/service-areas/fort-walton-beach-fl/fire-damage-restoration/",
-        "/service-areas/fort-walton-beach-fl/mold-remediation/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/panama-city-beach-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2643,51 +2366,6 @@
         "/service-areas/panama-city-beach-fl/mold-remediation/",
         "/service-areas/crestview-fl/storm-damage-restoration/",
         "/service-areas/defuniak-springs-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/panama-city-beach-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Panama City Beach, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Panama City Beach",
-      "meta_description": "24/7 emergency water cleanup in Panama City Beach, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup panama city beach",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/panama-city-beach-fl/",
-        "/service-areas/panama-city-beach-fl/fire-damage-restoration/",
-        "/service-areas/panama-city-beach-fl/mold-remediation/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2868,51 +2546,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/crestview-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Crestview, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Crestview",
-      "meta_description": "24/7 emergency water cleanup in Crestview, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup crestview",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/crestview-fl/",
-        "/service-areas/crestview-fl/fire-damage-restoration/",
-        "/service-areas/crestview-fl/mold-remediation/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
-        "/service-areas/destin-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/defuniak-springs-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3085,51 +2718,6 @@
         "/service-areas/defuniak-springs-fl/mold-remediation/",
         "/service-areas/crestview-fl/storm-damage-restoration/",
         "/service-areas/destin-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/defuniak-springs-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in DeFuniak Springs, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in DeFuniak Springs",
-      "meta_description": "24/7 emergency water cleanup in DeFuniak Springs, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup defuniak springs",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/",
-        "/service-areas/defuniak-springs-fl/fire-damage-restoration/",
-        "/service-areas/defuniak-springs-fl/mold-remediation/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/destin-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3310,51 +2898,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/valparaiso-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Valparaiso, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Valparaiso",
-      "meta_description": "24/7 emergency water cleanup in Valparaiso, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup valparaiso",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/valparaiso-fl/",
-        "/service-areas/valparaiso-fl/fire-damage-restoration/",
-        "/service-areas/valparaiso-fl/mold-remediation/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ebro-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3527,51 +3070,6 @@
         "/service-areas/ebro-fl/mold-remediation/",
         "/service-areas/crestview-fl/storm-damage-restoration/",
         "/service-areas/defuniak-springs-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/ebro-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Ebro, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Ebro",
-      "meta_description": "24/7 emergency water cleanup in Ebro, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup ebro",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/ebro-fl/",
-        "/service-areas/ebro-fl/fire-damage-restoration/",
-        "/service-areas/ebro-fl/mold-remediation/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3752,51 +3250,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ponce-de-leon-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Ponce de Leon, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Ponce de Leon",
-      "meta_description": "24/7 emergency water cleanup in Ponce de Leon, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup ponce de leon",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/ponce-de-leon-fl/",
-        "/service-areas/ponce-de-leon-fl/fire-damage-restoration/",
-        "/service-areas/ponce-de-leon-fl/mold-remediation/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/westville-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3969,51 +3422,6 @@
         "/service-areas/westville-fl/mold-remediation/",
         "/service-areas/crestview-fl/storm-damage-restoration/",
         "/service-areas/defuniak-springs-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/westville-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Westville, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Westville",
-      "meta_description": "24/7 emergency water cleanup in Westville, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup westville",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/westville-fl/",
-        "/service-areas/westville-fl/fire-damage-restoration/",
-        "/service-areas/westville-fl/mold-remediation/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4194,51 +3602,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/eglin-afb-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Eglin AFB, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Eglin AFB",
-      "meta_description": "24/7 emergency water cleanup in Eglin AFB, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup eglin afb",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/eglin-afb-fl/",
-        "/service-areas/eglin-afb-fl/fire-damage-restoration/",
-        "/service-areas/eglin-afb-fl/mold-remediation/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/vernon-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4411,51 +3774,6 @@
         "/service-areas/vernon-fl/mold-remediation/",
         "/service-areas/crestview-fl/storm-damage-restoration/",
         "/service-areas/defuniak-springs-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/vernon-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Vernon, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Vernon",
-      "meta_description": "24/7 emergency water cleanup in Vernon, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup vernon",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/vernon-fl/",
-        "/service-areas/vernon-fl/fire-damage-restoration/",
-        "/service-areas/vernon-fl/mold-remediation/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4636,51 +3954,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/wright-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Wright, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Wright",
-      "meta_description": "24/7 emergency water cleanup in Wright, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup wright",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/wright-fl/",
-        "/service-areas/wright-fl/fire-damage-restoration/",
-        "/service-areas/wright-fl/mold-remediation/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hurlburt-field-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4853,51 +4126,6 @@
         "/service-areas/hurlburt-field-fl/mold-remediation/",
         "/service-areas/crestview-fl/storm-damage-restoration/",
         "/service-areas/defuniak-springs-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hurlburt-field-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Hurlburt Field, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Hurlburt Field",
-      "meta_description": "24/7 emergency water cleanup in Hurlburt Field, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup hurlburt field",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/hurlburt-field-fl/",
-        "/service-areas/hurlburt-field-fl/fire-damage-restoration/",
-        "/service-areas/hurlburt-field-fl/mold-remediation/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5078,51 +4306,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/paxton-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Paxton, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Paxton",
-      "meta_description": "24/7 emergency water cleanup in Paxton, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup paxton",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/paxton-fl/",
-        "/service-areas/paxton-fl/fire-damage-restoration/",
-        "/service-areas/paxton-fl/mold-remediation/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/laurel-hill-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5295,51 +4478,6 @@
         "/service-areas/laurel-hill-fl/mold-remediation/",
         "/service-areas/crestview-fl/storm-damage-restoration/",
         "/service-areas/defuniak-springs-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/laurel-hill-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Laurel Hill, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Laurel Hill",
-      "meta_description": "24/7 emergency water cleanup in Laurel Hill, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup laurel hill",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/laurel-hill-fl/",
-        "/service-areas/laurel-hill-fl/fire-damage-restoration/",
-        "/service-areas/laurel-hill-fl/mold-remediation/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5520,51 +4658,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/harold-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Harold, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Harold",
-      "meta_description": "24/7 emergency water cleanup in Harold, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup harold",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/harold-fl/",
-        "/service-areas/harold-fl/fire-damage-restoration/",
-        "/service-areas/harold-fl/mold-remediation/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/navarre-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5737,51 +4830,6 @@
         "/service-areas/navarre-fl/mold-remediation/",
         "/service-areas/crestview-fl/storm-damage-restoration/",
         "/service-areas/defuniak-springs-fl/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/navarre-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Navarre, FL | Veterans Remediation & Restoration ",
-      "h1": "Emergency Water Cleanup in Navarre",
-      "meta_description": "24/7 emergency water cleanup in Navarre, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "emergency water cleanup navarre",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/navarre-fl/",
-        "/service-areas/navarre-fl/fire-damage-restoration/",
-        "/service-areas/navarre-fl/mold-remediation/",
-        "/service-areas/crestview-fl/water-cleanup/",
-        "/service-areas/defuniak-springs-fl/water-cleanup/",
         "/contact/"
       ]
     },

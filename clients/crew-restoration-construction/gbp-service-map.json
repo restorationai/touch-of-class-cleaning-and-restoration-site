@@ -11,9 +11,9 @@
     },
     "24 Hour Water Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "reason": "name containment",
-      "source": "containment",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
+      "source": "alias",
       "at": "2026-09-30"
     },
     "24 hour water removal": {
@@ -32,16 +32,16 @@
     },
     "24/7 Emergency Water Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "reason": "catalog slug match",
-      "source": "catalog",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
+      "source": "alias",
       "at": "2026-09-30"
     },
     "24/7 Water Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "reason": "name containment",
-      "source": "containment",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
+      "source": "alias",
       "at": "2026-09-30"
     },
     "24/7 Water Damage Restoration": {
@@ -53,8 +53,8 @@
     },
     "24/7 Water Extraction": {
       "verdict": "mapped",
-      "page": "water-damage-restoration",
-      "reason": "house alias",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "source": "alias",
       "at": "2026-09-30"
     },
@@ -340,9 +340,9 @@
     },
     "Carpet Water Damage": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "Water cleanup sub-case",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Carpet Water Extraction": {
@@ -368,9 +368,9 @@
     },
     "Ceiling Water Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "reason": "name containment",
-      "source": "containment",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
+      "source": "alias",
       "at": "2026-09-30"
     },
     "Ceiling Water Damage Repair": {
@@ -410,9 +410,9 @@
     },
     "Clogged Drain Overflow Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "Water cleanup sub-case",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Collision Damage": {
@@ -560,16 +560,16 @@
     },
     "Dishwasher Overflow": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "Water cleanup sub-case",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Drain and Sink Overflow Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "Water cleanup sub-case",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Drain Cleaners": {
@@ -658,16 +658,16 @@
     },
     "Emergency Water Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "reason": "catalog slug match",
-      "source": "catalog",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
+      "source": "alias",
       "at": "2026-09-30"
     },
     "Emergency Water Cleanup Company": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "reason": "name containment",
-      "source": "containment",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
+      "source": "alias",
       "at": "2026-09-30"
     },
     "Emergency Water Damage Cleanup": {
@@ -686,8 +686,8 @@
     },
     "Emergency Water Extraction": {
       "verdict": "mapped",
-      "page": "water-damage-restoration",
-      "reason": "house alias",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "source": "alias",
       "at": "2026-09-30"
     },
@@ -700,23 +700,23 @@
     },
     "Emergency Water Removal": {
       "verdict": "mapped",
-      "page": "water-damage-restoration",
-      "reason": "house alias",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "source": "alias",
       "at": "2026-09-30"
     },
     "Emergency Water Removal Services": {
       "verdict": "mapped",
-      "page": "water-damage-restoration",
-      "reason": "house alias",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "source": "alias",
       "at": "2026-09-30"
     },
     "Emergency Water Restoration": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "reason": "catalog slug match",
-      "source": "catalog",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
+      "source": "alias",
       "at": "2026-09-30"
     },
     "Environmental Testing and Hazard Control": {
@@ -1113,9 +1113,9 @@
     },
     "Kitchen Sink Overflow Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "Water cleanup sub-case",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Laminate Floor Water Damage": {
@@ -1277,16 +1277,16 @@
     },
     "Plumbing Overflow": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "Water cleanup sub-case",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Plumbing Overflow Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "Water cleanup variant",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Post-Construction & Specialty Cleaning": {
@@ -1347,9 +1347,9 @@
     },
     "Refrigerator Leak Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "Water cleanup sub-case",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "remove insulation in attic": {
@@ -1361,9 +1361,9 @@
     },
     "Remove Water": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "Synonym for water cleanup",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Renovations, Remodels and General Contracting": {
@@ -1515,9 +1515,9 @@
     },
     "Shower and Tub Overflow Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "Water cleanup sub-case",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Siding and Exterior Services": {
@@ -1536,16 +1536,16 @@
     },
     "Sink Overflow Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "Water cleanup sub-case",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Sink Overflow Restoration": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "Water cleanup sub-case",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Slab Foundation Construction": {
@@ -1585,8 +1585,8 @@
     },
     "Standing Water Removal": {
       "verdict": "mapped",
-      "page": "water-damage-restoration",
-      "reason": "house alias",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "source": "alias",
       "at": "2026-09-30"
     },
@@ -1749,9 +1749,9 @@
     },
     "Washing Machine Leak Cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "Water cleanup sub-case",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Water And Moisture Control Services": {
@@ -1763,16 +1763,16 @@
     },
     "Water cleanup": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "reason": "same name",
-      "source": "exact",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
+      "source": "alias",
       "at": "2026-09-30"
     },
     "Water Cleanup Emergency": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "reason": "name containment",
-      "source": "containment",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
+      "source": "alias",
       "at": "2026-09-30"
     },
     "Water Damage": {
@@ -1896,15 +1896,15 @@
     },
     "Water Emergencies": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "Generic water cleanup variant",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Water extraction": {
       "verdict": "mapped",
-      "page": "water-damage-restoration",
-      "reason": "house alias",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "source": "alias",
       "at": "2026-09-30"
     },
@@ -1952,30 +1952,30 @@
     },
     "Water Removal": {
       "verdict": "mapped",
-      "page": "water-damage-restoration",
-      "reason": "house alias",
+      "page": "emergency-water-removal",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "source": "alias",
       "at": "2026-09-30"
     },
     "wet carpet": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "Water cleanup sub-case",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Wet Carpet Drying": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "Water cleanup sub-case",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Wet carpet dryout": {
       "verdict": "mapped",
-      "page": "water-cleanup",
-      "source": "claude",
-      "reason": "Drying sub-task",
+      "page": "emergency-water-removal",
+      "source": "alias",
+      "reason": "water removal/cleanup cluster -> emergency water removal page",
       "at": "2026-09-30"
     },
     "Wet Drywall Repair": {
@@ -2036,27 +2036,6 @@
     }
   },
   "merged": {
-    "emergency-water-removal": {
-      "into": "water-damage-restoration",
-      "reason": "phrasing variant of the same service",
-      "volumes": {
-        "emergency-water-removal": {
-          "head": 4400,
-          "near_me": 12100,
-          "total": 16500
-        },
-        "water-damage-restoration": {
-          "head": 135000,
-          "near_me": 135000,
-          "total": 270000
-        },
-        "terms": {
-          "emergency-water-removal": "emergency water removal",
-          "water-damage-restoration": "water damage restoration"
-        }
-      },
-      "at": "2026-09-30"
-    },
     "contents-restoration-storage": {
       "into": "contents-restoration",
       "reason": "phrasing variant of the same service",
@@ -2077,29 +2056,19 @@
         }
       },
       "at": "2026-09-30"
+    },
+    "water-cleanup": {
+      "into": "emergency-water-removal",
+      "reason": "Santino 09-30: water cleanup renamed into the Emergency Water Removal & Cleanup page (one 'get the water out' cluster)",
+      "volumes": {
+        "emergency water removal": 16500,
+        "water extraction": 3600,
+        "water removal": 2400,
+        "water cleanup": 19700,
+        "emergency water cleanup": 480
+      },
+      "at": "2026-09-30"
     }
   },
-  "kept_pairs": [
-    {
-      "a": "water-damage-restoration",
-      "b": "water-cleanup",
-      "reason": "distinct query with 19,700/mo nationally (head + near me)",
-      "volumes": {
-        "water-cleanup": {
-          "head": 1600,
-          "near_me": 18100,
-          "total": 19700
-        },
-        "water-damage-restoration": {
-          "head": 135000,
-          "near_me": 135000,
-          "total": 270000
-        },
-        "terms": {
-          "water-cleanup": "water cleanup",
-          "water-damage-restoration": "water damage restoration"
-        }
-      }
-    }
-  ]
+  "kept_pairs": []
 }

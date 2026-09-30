@@ -762,58 +762,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lakewood | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Lakewood",
-      "meta_description": "24/7 emergency water cleanup in Lakewood and surrounding areas. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup lakewood",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/service-areas/bellevue-wa/water-cleanup/",
-        "/service-areas/bonney-lake-wa/water-cleanup/",
-        "/service-areas/bremerton-wa/water-cleanup/",
-        "/service-areas/burien-wa/water-cleanup/",
-        "/service-areas/centralia-wa/water-cleanup/",
-        "/service-areas/clover-creek-wa/water-cleanup/",
-        "/service-areas/dupont-wa/water-cleanup/",
-        "/service-areas/federal-way-wa/water-cleanup/",
-        "/service-areas/fife-wa/water-cleanup/",
-        "/service-areas/fircrest-wa/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/services/water-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -3082,51 +3030,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/tacoma-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Tacoma, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Tacoma",
-      "meta_description": "24/7 emergency water cleanup in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup tacoma",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/tacoma-wa/",
-        "/service-areas/tacoma-wa/fire-damage-restoration/",
-        "/service-areas/tacoma-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/tacoma-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3557,51 +3460,6 @@
         "/service-areas/puyallup-wa/mold-remediation/",
         "/service-areas/anderson-island-wa/storm-damage-restoration/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/puyallup-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Puyallup, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Puyallup",
-      "meta_description": "24/7 emergency water cleanup in Puyallup, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup puyallup",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/puyallup-wa/",
-        "/service-areas/puyallup-wa/fire-damage-restoration/",
-        "/service-areas/puyallup-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4040,51 +3898,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/university-place-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in University Place, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in University Place",
-      "meta_description": "24/7 emergency water cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup university place",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/university-place-wa/",
-        "/service-areas/university-place-wa/fire-damage-restoration/",
-        "/service-areas/university-place-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/university-place-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4515,51 +4328,6 @@
         "/service-areas/lacey-wa/mold-remediation/",
         "/service-areas/anderson-island-wa/storm-damage-restoration/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lacey-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lacey, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Lacey",
-      "meta_description": "24/7 emergency water cleanup in Lacey, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup lacey",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lacey-wa/",
-        "/service-areas/lacey-wa/fire-damage-restoration/",
-        "/service-areas/lacey-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4998,51 +4766,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/olympia-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Olympia, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Olympia",
-      "meta_description": "24/7 emergency water cleanup in Olympia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup olympia",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/olympia-wa/",
-        "/service-areas/olympia-wa/fire-damage-restoration/",
-        "/service-areas/olympia-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/olympia-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5473,51 +5196,6 @@
         "/service-areas/spanaway-wa/mold-remediation/",
         "/service-areas/anderson-island-wa/storm-damage-restoration/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/spanaway-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Spanaway, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Spanaway",
-      "meta_description": "24/7 emergency water cleanup in Spanaway, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup spanaway",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/spanaway-wa/",
-        "/service-areas/spanaway-wa/fire-damage-restoration/",
-        "/service-areas/spanaway-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5956,51 +5634,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/parkland-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Parkland, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Parkland",
-      "meta_description": "24/7 emergency water cleanup in Parkland, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup parkland",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/parkland-wa/",
-        "/service-areas/parkland-wa/fire-damage-restoration/",
-        "/service-areas/parkland-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/parkland-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6431,51 +6064,6 @@
         "/service-areas/dupont-wa/mold-remediation/",
         "/service-areas/anderson-island-wa/storm-damage-restoration/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/dupont-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in DuPont, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in DuPont",
-      "meta_description": "24/7 emergency water cleanup in DuPont, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup dupont",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/dupont-wa/",
-        "/service-areas/dupont-wa/fire-damage-restoration/",
-        "/service-areas/dupont-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -6914,51 +6502,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/seattle-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Seattle, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Seattle",
-      "meta_description": "24/7 emergency water cleanup in Seattle, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup seattle",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/seattle-wa/",
-        "/service-areas/seattle-wa/fire-damage-restoration/",
-        "/service-areas/seattle-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/seattle-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7389,51 +6932,6 @@
         "/service-areas/bellevue-wa/mold-remediation/",
         "/service-areas/anderson-island-wa/storm-damage-restoration/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/bellevue-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Bellevue, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Bellevue",
-      "meta_description": "24/7 emergency water cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup bellevue",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/bellevue-wa/",
-        "/service-areas/bellevue-wa/fire-damage-restoration/",
-        "/service-areas/bellevue-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -7872,51 +7370,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/kent-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Kent, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Kent",
-      "meta_description": "24/7 emergency water cleanup in Kent, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup kent",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/kent-wa/",
-        "/service-areas/kent-wa/fire-damage-restoration/",
-        "/service-areas/kent-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/kent-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8347,51 +7800,6 @@
         "/service-areas/renton-wa/mold-remediation/",
         "/service-areas/anderson-island-wa/storm-damage-restoration/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/renton-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Renton, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Renton",
-      "meta_description": "24/7 emergency water cleanup in Renton, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup renton",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/renton-wa/",
-        "/service-areas/renton-wa/fire-damage-restoration/",
-        "/service-areas/renton-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -8830,51 +8238,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/federal-way-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Federal Way, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Federal Way",
-      "meta_description": "24/7 emergency water cleanup in Federal Way, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup federal way",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/federal-way-wa/",
-        "/service-areas/federal-way-wa/fire-damage-restoration/",
-        "/service-areas/federal-way-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/federal-way-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9305,51 +8668,6 @@
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/anderson-island-wa/storm-damage-restoration/",
         "/service-areas/bellevue-wa/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/auburn-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Auburn, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Auburn",
-      "meta_description": "24/7 emergency water cleanup in Auburn, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup auburn",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/auburn-wa/",
-        "/service-areas/auburn-wa/fire-damage-restoration/",
-        "/service-areas/auburn-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/bellevue-wa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -9788,51 +9106,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/burien-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Burien, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Burien",
-      "meta_description": "24/7 emergency water cleanup in Burien, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup burien",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/burien-wa/",
-        "/service-areas/burien-wa/fire-damage-restoration/",
-        "/service-areas/burien-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/burien-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10263,51 +9536,6 @@
         "/service-areas/bonney-lake-wa/mold-remediation/",
         "/service-areas/anderson-island-wa/storm-damage-restoration/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/bonney-lake-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Bonney Lake, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Bonney Lake",
-      "meta_description": "24/7 emergency water cleanup in Bonney Lake, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup bonney lake",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/bonney-lake-wa/",
-        "/service-areas/bonney-lake-wa/fire-damage-restoration/",
-        "/service-areas/bonney-lake-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -10746,51 +9974,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/gig-harbor-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Gig Harbor, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Gig Harbor",
-      "meta_description": "24/7 emergency water cleanup in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup gig harbor",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/gig-harbor-wa/",
-        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
-        "/service-areas/gig-harbor-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/gig-harbor-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11221,51 +10404,6 @@
         "/service-areas/south-hill-wa/mold-remediation/",
         "/service-areas/anderson-island-wa/storm-damage-restoration/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/south-hill-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in South Hill, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in South Hill",
-      "meta_description": "24/7 emergency water cleanup in South Hill, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup south hill",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/south-hill-wa/",
-        "/service-areas/south-hill-wa/fire-damage-restoration/",
-        "/service-areas/south-hill-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -11704,51 +10842,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/graham-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Graham, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Graham",
-      "meta_description": "24/7 emergency water cleanup in Graham, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup graham",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/graham-wa/",
-        "/service-areas/graham-wa/fire-damage-restoration/",
-        "/service-areas/graham-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/graham-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12179,51 +11272,6 @@
         "/service-areas/fife-wa/mold-remediation/",
         "/service-areas/anderson-island-wa/storm-damage-restoration/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fife-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Fife, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Fife",
-      "meta_description": "24/7 emergency water cleanup in Fife, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup fife",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/fife-wa/",
-        "/service-areas/fife-wa/fire-damage-restoration/",
-        "/service-areas/fife-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -12662,51 +11710,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/tumwater-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Tumwater, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Tumwater",
-      "meta_description": "24/7 emergency water cleanup in Tumwater, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup tumwater",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/tumwater-wa/",
-        "/service-areas/tumwater-wa/fire-damage-restoration/",
-        "/service-areas/tumwater-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/tumwater-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13137,51 +12140,6 @@
         "/service-areas/yelm-wa/mold-remediation/",
         "/service-areas/anderson-island-wa/storm-damage-restoration/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/yelm-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Yelm, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Yelm",
-      "meta_description": "24/7 emergency water cleanup in Yelm, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup yelm",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/yelm-wa/",
-        "/service-areas/yelm-wa/fire-damage-restoration/",
-        "/service-areas/yelm-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -13620,51 +12578,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/bremerton-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Bremerton, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Bremerton",
-      "meta_description": "24/7 emergency water cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup bremerton",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/bremerton-wa/",
-        "/service-areas/bremerton-wa/fire-damage-restoration/",
-        "/service-areas/bremerton-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/bremerton-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14095,51 +13008,6 @@
         "/service-areas/port-orchard-wa/mold-remediation/",
         "/service-areas/anderson-island-wa/storm-damage-restoration/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/port-orchard-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Port Orchard, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Port Orchard",
-      "meta_description": "24/7 emergency water cleanup in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup port orchard",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/port-orchard-wa/",
-        "/service-areas/port-orchard-wa/fire-damage-restoration/",
-        "/service-areas/port-orchard-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -14578,51 +13446,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/centralia-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Centralia, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Centralia",
-      "meta_description": "24/7 emergency water cleanup in Centralia, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup centralia",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/centralia-wa/",
-        "/service-areas/centralia-wa/fire-damage-restoration/",
-        "/service-areas/centralia-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/centralia-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15053,51 +13876,6 @@
         "/service-areas/mcchord-afb-wa/mold-remediation/",
         "/service-areas/anderson-island-wa/storm-damage-restoration/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mcchord-afb-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in McChord AFB, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in McChord AFB",
-      "meta_description": "24/7 emergency water cleanup in McChord AFB, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup mcchord afb",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/mcchord-afb-wa/",
-        "/service-areas/mcchord-afb-wa/fire-damage-restoration/",
-        "/service-areas/mcchord-afb-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -15536,51 +14314,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/steilacoom-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Steilacoom, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Steilacoom",
-      "meta_description": "24/7 emergency water cleanup in Steilacoom, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup steilacoom",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/steilacoom-wa/",
-        "/service-areas/steilacoom-wa/fire-damage-restoration/",
-        "/service-areas/steilacoom-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/steilacoom-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16011,51 +14744,6 @@
         "/service-areas/north-fort-lewis-wa/mold-remediation/",
         "/service-areas/anderson-island-wa/storm-damage-restoration/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/north-fort-lewis-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in North Fort Lewis, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in North Fort Lewis",
-      "meta_description": "24/7 emergency water cleanup in North Fort Lewis, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup north fort lewis",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/north-fort-lewis-wa/",
-        "/service-areas/north-fort-lewis-wa/fire-damage-restoration/",
-        "/service-areas/north-fort-lewis-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -16494,51 +15182,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/midland-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Midland, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Midland",
-      "meta_description": "24/7 emergency water cleanup in Midland, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup midland",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/midland-wa/",
-        "/service-areas/midland-wa/fire-damage-restoration/",
-        "/service-areas/midland-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/midland-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16969,51 +15612,6 @@
         "/service-areas/fircrest-wa/mold-remediation/",
         "/service-areas/anderson-island-wa/storm-damage-restoration/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fircrest-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Fircrest, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Fircrest",
-      "meta_description": "24/7 emergency water cleanup in Fircrest, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup fircrest",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/fircrest-wa/",
-        "/service-areas/fircrest-wa/fire-damage-restoration/",
-        "/service-areas/fircrest-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -17452,51 +16050,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fort-lewis-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Fort Lewis, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Fort Lewis",
-      "meta_description": "24/7 emergency water cleanup in Fort Lewis, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup fort lewis",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/fort-lewis-wa/",
-        "/service-areas/fort-lewis-wa/fire-damage-restoration/",
-        "/service-areas/fort-lewis-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fort-lewis-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17927,51 +16480,6 @@
         "/service-areas/anderson-island-wa/mold-remediation/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
         "/service-areas/bellevue-wa/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/anderson-island-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Anderson Island, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Anderson Island",
-      "meta_description": "24/7 emergency water cleanup in Anderson Island, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup anderson island",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/anderson-island-wa/",
-        "/service-areas/anderson-island-wa/fire-damage-restoration/",
-        "/service-areas/anderson-island-wa/mold-remediation/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/service-areas/bellevue-wa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -18410,51 +16918,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/waller-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Waller, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Waller",
-      "meta_description": "24/7 emergency water cleanup in Waller, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup waller",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/waller-wa/",
-        "/service-areas/waller-wa/fire-damage-restoration/",
-        "/service-areas/waller-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/waller-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18885,51 +17348,6 @@
         "/service-areas/clover-creek-wa/mold-remediation/",
         "/service-areas/anderson-island-wa/storm-damage-restoration/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/clover-creek-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Clover Creek, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Clover Creek",
-      "meta_description": "24/7 emergency water cleanup in Clover Creek, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup clover creek",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/clover-creek-wa/",
-        "/service-areas/clover-creek-wa/fire-damage-restoration/",
-        "/service-areas/clover-creek-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -19368,51 +17786,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/wollochet-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Wollochet, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Wollochet",
-      "meta_description": "24/7 emergency water cleanup in Wollochet, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup wollochet",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/wollochet-wa/",
-        "/service-areas/wollochet-wa/fire-damage-restoration/",
-        "/service-areas/wollochet-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/wollochet-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19843,51 +18216,6 @@
         "/service-areas/summit-wa/mold-remediation/",
         "/service-areas/anderson-island-wa/storm-damage-restoration/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/summit-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Summit, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Summit",
-      "meta_description": "24/7 emergency water cleanup in Summit, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup summit",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/summit-wa/",
-        "/service-areas/summit-wa/fire-damage-restoration/",
-        "/service-areas/summit-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -20326,51 +18654,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/summit-view-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Summit View, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Summit View",
-      "meta_description": "24/7 emergency water cleanup in Summit View, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup summit view",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/summit-view-wa/",
-        "/service-areas/summit-view-wa/fire-damage-restoration/",
-        "/service-areas/summit-view-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/summit-view-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20801,51 +19084,6 @@
         "/service-areas/frederickson-wa/mold-remediation/",
         "/service-areas/anderson-island-wa/storm-damage-restoration/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/frederickson-wa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Frederickson, WA | Frontline Fire & Flood",
-      "h1": "Emergency Water Cleanup in Frederickson",
-      "meta_description": "24/7 emergency water cleanup in Frederickson, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503.",
-      "primary_keyword": "emergency water cleanup frederickson",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/frederickson-wa/",
-        "/service-areas/frederickson-wa/fire-damage-restoration/",
-        "/service-areas/frederickson-wa/mold-remediation/",
-        "/service-areas/anderson-island-wa/water-cleanup/",
-        "/service-areas/auburn-wa/water-cleanup/",
         "/contact/"
       ]
     },

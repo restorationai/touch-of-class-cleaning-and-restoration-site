@@ -464,57 +464,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Water Cleanup in Little Falls | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Little Falls",
-      "meta_description": "Water cleanup in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup little falls",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
-        "/service-areas/baxter-mn/water-cleanup/",
-        "/service-areas/brainerd-mn/water-cleanup/",
-        "/service-areas/elmdale-mn/water-cleanup/",
-        "/service-areas/flensburg-mn/water-cleanup/",
-        "/service-areas/foley-mn/water-cleanup/",
-        "/service-areas/fort-ripley-mn/water-cleanup/",
-        "/service-areas/harding-mn/water-cleanup/",
-        "/service-areas/long-prairie-mn/water-cleanup/",
-        "/service-areas/pierz-mn/water-cleanup/",
-        "/service-areas/randall-mn/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/services/fire-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -3039,50 +2988,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/st-cloud-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in St. Cloud, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in St. Cloud",
-      "meta_description": "Water cleanup in St. Cloud, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup st. cloud",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/st-cloud-mn/",
-        "/service-areas/st-cloud-mn/fire-damage-restoration/",
-        "/service-areas/st-cloud-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/st-cloud-mn/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4068,50 +3973,6 @@
         "/service-areas/sartell-mn/mold-remediation/",
         "/service-areas/albany-mn/general-contracting/",
         "/service-areas/avon-mn/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sartell-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Sartell, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Sartell",
-      "meta_description": "Water cleanup in Sartell, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup sartell",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/sartell-mn/",
-        "/service-areas/sartell-mn/fire-damage-restoration/",
-        "/service-areas/sartell-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5105,50 +4966,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sauk-rapids-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Sauk Rapids, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Sauk Rapids",
-      "meta_description": "Water cleanup in Sauk Rapids, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup sauk rapids",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/sauk-rapids-mn/",
-        "/service-areas/sauk-rapids-mn/fire-damage-restoration/",
-        "/service-areas/sauk-rapids-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sauk-rapids-mn/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6134,50 +5951,6 @@
         "/service-areas/brainerd-mn/mold-remediation/",
         "/service-areas/albany-mn/general-contracting/",
         "/service-areas/avon-mn/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/brainerd-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Brainerd, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Brainerd",
-      "meta_description": "Water cleanup in Brainerd, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup brainerd",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/brainerd-mn/fire-damage-restoration/",
-        "/service-areas/brainerd-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -7171,50 +6944,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/baxter-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Baxter, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Baxter",
-      "meta_description": "Water cleanup in Baxter, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup baxter",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/baxter-mn/",
-        "/service-areas/baxter-mn/fire-damage-restoration/",
-        "/service-areas/baxter-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/baxter-mn/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8200,50 +7929,6 @@
         "/service-areas/foley-mn/mold-remediation/",
         "/service-areas/albany-mn/general-contracting/",
         "/service-areas/avon-mn/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/foley-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Foley, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Foley",
-      "meta_description": "Water cleanup in Foley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup foley",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/foley-mn/",
-        "/service-areas/foley-mn/fire-damage-restoration/",
-        "/service-areas/foley-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -9237,50 +8922,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/royalton-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Royalton, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Royalton",
-      "meta_description": "Water cleanup in Royalton, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup royalton",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/royalton-mn/",
-        "/service-areas/royalton-mn/fire-damage-restoration/",
-        "/service-areas/royalton-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/royalton-mn/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10266,50 +9907,6 @@
         "/service-areas/pierz-mn/mold-remediation/",
         "/service-areas/albany-mn/general-contracting/",
         "/service-areas/avon-mn/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pierz-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Pierz, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Pierz",
-      "meta_description": "Water cleanup in Pierz, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup pierz",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/pierz-mn/",
-        "/service-areas/pierz-mn/fire-damage-restoration/",
-        "/service-areas/pierz-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -11303,50 +10900,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sobieski-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Sobieski, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Sobieski",
-      "meta_description": "Water cleanup in Sobieski, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup sobieski",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/sobieski-mn/",
-        "/service-areas/sobieski-mn/fire-damage-restoration/",
-        "/service-areas/sobieski-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sobieski-mn/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12332,50 +11885,6 @@
         "/service-areas/flensburg-mn/mold-remediation/",
         "/service-areas/albany-mn/general-contracting/",
         "/service-areas/avon-mn/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/flensburg-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Flensburg, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Flensburg",
-      "meta_description": "Water cleanup in Flensburg, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup flensburg",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/flensburg-mn/",
-        "/service-areas/flensburg-mn/fire-damage-restoration/",
-        "/service-areas/flensburg-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -13369,50 +12878,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/randall-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Randall, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Randall",
-      "meta_description": "Water cleanup in Randall, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup randall",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/randall-mn/",
-        "/service-areas/randall-mn/fire-damage-restoration/",
-        "/service-areas/randall-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/randall-mn/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14398,50 +13863,6 @@
         "/service-areas/elmdale-mn/mold-remediation/",
         "/service-areas/albany-mn/general-contracting/",
         "/service-areas/avon-mn/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/elmdale-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Elmdale, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Elmdale",
-      "meta_description": "Water cleanup in Elmdale, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup elmdale",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/elmdale-mn/",
-        "/service-areas/elmdale-mn/fire-damage-restoration/",
-        "/service-areas/elmdale-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -15435,50 +14856,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fort-ripley-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Fort Ripley, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Fort Ripley",
-      "meta_description": "Water cleanup in Fort Ripley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup fort ripley",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/fort-ripley-mn/",
-        "/service-areas/fort-ripley-mn/fire-damage-restoration/",
-        "/service-areas/fort-ripley-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fort-ripley-mn/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16464,50 +15841,6 @@
         "/service-areas/swanville-mn/mold-remediation/",
         "/service-areas/albany-mn/general-contracting/",
         "/service-areas/avon-mn/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/swanville-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Swanville, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Swanville",
-      "meta_description": "Water cleanup in Swanville, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup swanville",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/swanville-mn/",
-        "/service-areas/swanville-mn/fire-damage-restoration/",
-        "/service-areas/swanville-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -17501,50 +16834,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/upsala-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Upsala, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Upsala",
-      "meta_description": "Water cleanup in Upsala, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup upsala",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/upsala-mn/",
-        "/service-areas/upsala-mn/fire-damage-restoration/",
-        "/service-areas/upsala-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/upsala-mn/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18530,50 +17819,6 @@
         "/service-areas/rice-mn/mold-remediation/",
         "/service-areas/albany-mn/general-contracting/",
         "/service-areas/avon-mn/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rice-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Rice, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Rice",
-      "meta_description": "Water cleanup in Rice, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup rice",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/rice-mn/",
-        "/service-areas/rice-mn/fire-damage-restoration/",
-        "/service-areas/rice-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -19567,50 +18812,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/harding-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Harding, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Harding",
-      "meta_description": "Water cleanup in Harding, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup harding",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/harding-mn/",
-        "/service-areas/harding-mn/fire-damage-restoration/",
-        "/service-areas/harding-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/harding-mn/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20596,50 +19797,6 @@
         "/service-areas/st-stephen-mn/mold-remediation/",
         "/service-areas/albany-mn/general-contracting/",
         "/service-areas/avon-mn/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/st-stephen-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in St. Stephen, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in St. Stephen",
-      "meta_description": "Water cleanup in St. Stephen, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup st. stephen",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/st-stephen-mn/",
-        "/service-areas/st-stephen-mn/fire-damage-restoration/",
-        "/service-areas/st-stephen-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -21633,50 +20790,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/long-prairie-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Long Prairie, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Long Prairie",
-      "meta_description": "Water cleanup in Long Prairie, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup long prairie",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/long-prairie-mn/",
-        "/service-areas/long-prairie-mn/fire-damage-restoration/",
-        "/service-areas/long-prairie-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/long-prairie-mn/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22662,50 +21775,6 @@
         "/service-areas/albany-mn/mold-remediation/",
         "/service-areas/avon-mn/general-contracting/",
         "/service-areas/baxter-mn/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/albany-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Albany, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Albany",
-      "meta_description": "Water cleanup in Albany, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup albany",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/albany-mn/",
-        "/service-areas/albany-mn/fire-damage-restoration/",
-        "/service-areas/albany-mn/mold-remediation/",
-        "/service-areas/avon-mn/water-cleanup/",
-        "/service-areas/baxter-mn/water-cleanup/",
         "/contact/"
       ]
     },
@@ -23699,50 +22768,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/avon-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Avon, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in Avon",
-      "meta_description": "Water cleanup in Avon, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup avon",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/avon-mn/",
-        "/service-areas/avon-mn/fire-damage-restoration/",
-        "/service-areas/avon-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/baxter-mn/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/avon-mn/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -24728,50 +23753,6 @@
         "/service-areas/st-joseph-mn/mold-remediation/",
         "/service-areas/albany-mn/general-contracting/",
         "/service-areas/avon-mn/general-contracting/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/st-joseph-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in St. Joseph, MN | Heritage Restoration LLC",
-      "h1": "Water Cleanup in St. Joseph",
-      "meta_description": "Water cleanup in St. Joseph, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "emergency water cleanup st. joseph",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/st-joseph-mn/",
-        "/service-areas/st-joseph-mn/fire-damage-restoration/",
-        "/service-areas/st-joseph-mn/mold-remediation/",
-        "/service-areas/albany-mn/water-cleanup/",
-        "/service-areas/avon-mn/water-cleanup/",
         "/contact/"
       ]
     },

@@ -138,16 +138,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/las-vegas-nv/": {
     "archetype": "service-area",
     "stubs": [
@@ -399,16 +389,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/las-vegas-nv/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/north-las-vegas-nv/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -480,16 +460,6 @@
     "missing_stubs": []
   },
   "/service-areas/north-las-vegas-nv/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-las-vegas-nv/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -579,16 +549,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/paradise-nv/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/spring-valley-nv/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -660,16 +620,6 @@
     "missing_stubs": []
   },
   "/service-areas/spring-valley-nv/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/spring-valley-nv/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -759,16 +709,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/enterprise-nv/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sunrise-manor-nv/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -840,16 +780,6 @@
     "missing_stubs": []
   },
   "/service-areas/sunrise-manor-nv/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sunrise-manor-nv/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -939,16 +869,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/boulder-city-nv/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/whitney-nv/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1020,16 +940,6 @@
     "missing_stubs": []
   },
   "/service-areas/whitney-nv/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/whitney-nv/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1119,16 +1029,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/winchester-nv/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/nellis-afb-nv/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1200,16 +1100,6 @@
     "missing_stubs": []
   },
   "/service-areas/nellis-afb-nv/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/nellis-afb-nv/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1299,16 +1189,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/summerlin-south-nv/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/blue-diamond-nv/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1380,16 +1260,6 @@
     "missing_stubs": []
   },
   "/service-areas/blue-diamond-nv/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/blue-diamond-nv/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1479,16 +1349,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/nelson-nv/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/goodsprings-nv/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1560,16 +1420,6 @@
     "missing_stubs": []
   },
   "/service-areas/goodsprings-nv/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/goodsprings-nv/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1659,16 +1509,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sandy-valley-nv/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/searchlight-nv/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1740,16 +1580,6 @@
     "missing_stubs": []
   },
   "/service-areas/searchlight-nv/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/searchlight-nv/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1839,16 +1669,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/cal-nev-ari-nv/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/indian-springs-nv/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1929,16 +1749,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/indian-springs-nv/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/laughlin-nv/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2010,16 +1820,6 @@
     "missing_stubs": []
   },
   "/service-areas/laughlin-nv/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/laughlin-nv/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

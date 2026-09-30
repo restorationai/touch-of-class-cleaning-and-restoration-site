@@ -178,16 +178,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/vandenberg-village-ca/": {
     "archetype": "service-area",
     "stubs": [
@@ -578,16 +568,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/vandenberg-village-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/orcutt-ca/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -699,16 +679,6 @@
     "missing_stubs": []
   },
   "/service-areas/orcutt-ca/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/orcutt-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -838,16 +808,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/los-alamos-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lompoc-ca/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -959,16 +919,6 @@
     "missing_stubs": []
   },
   "/service-areas/lompoc-ca/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lompoc-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1098,16 +1048,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/los-olivos-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mission-hills-ca/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1219,16 +1159,6 @@
     "missing_stubs": []
   },
   "/service-areas/mission-hills-ca/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mission-hills-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1358,16 +1288,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-ynez-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/solvang-ca/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1479,16 +1399,6 @@
     "missing_stubs": []
   },
   "/service-areas/solvang-ca/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/solvang-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1618,16 +1528,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/vandenberg-afb-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/guadalupe-ca/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1739,16 +1639,6 @@
     "missing_stubs": []
   },
   "/service-areas/guadalupe-ca/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/guadalupe-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1878,16 +1768,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/buellton-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ballard-ca/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1999,16 +1879,6 @@
     "missing_stubs": []
   },
   "/service-areas/ballard-ca/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ballard-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2138,16 +2008,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/arroyo-grande-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/avila-beach-ca/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2259,16 +2119,6 @@
     "missing_stubs": []
   },
   "/service-areas/avila-beach-ca/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/avila-beach-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2398,16 +2248,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/cambria-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/el-paso-de-robles-ca/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2519,16 +2359,6 @@
     "missing_stubs": []
   },
   "/service-areas/el-paso-de-robles-ca/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/el-paso-de-robles-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2658,16 +2488,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/grover-beach-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/los-berros-ca/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2779,16 +2599,6 @@
     "missing_stubs": []
   },
   "/service-areas/los-berros-ca/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/los-berros-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2918,16 +2728,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/nipomo-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/oceano-ca/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3039,16 +2839,6 @@
     "missing_stubs": []
   },
   "/service-areas/oceano-ca/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oceano-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3178,16 +2968,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-luis-obispo-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/templeton-ca/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3299,16 +3079,6 @@
     "missing_stubs": []
   },
   "/service-areas/templeton-ca/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/templeton-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3438,16 +3208,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-margarita-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pismo-beach-ca/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3559,16 +3319,6 @@
     "missing_stubs": []
   },
   "/service-areas/pismo-beach-ca/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pismo-beach-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3698,16 +3448,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/morro-bay-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/los-osos-ca/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3819,16 +3559,6 @@
     "missing_stubs": []
   },
   "/service-areas/los-osos-ca/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/los-osos-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3958,16 +3688,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/edna-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/callender-ca/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4079,16 +3799,6 @@
     "missing_stubs": []
   },
   "/service-areas/callender-ca/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/callender-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4218,16 +3928,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/blacklake-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/atascadero-ca/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4339,16 +4039,6 @@
     "missing_stubs": []
   },
   "/service-areas/atascadero-ca/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/atascadero-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

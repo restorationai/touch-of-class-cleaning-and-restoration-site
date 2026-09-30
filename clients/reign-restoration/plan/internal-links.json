@@ -9,7 +9,6 @@
     "/services/roofing/",
     "/services/water-damage-restoration/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/general-contracting/",
     "/services/odor-removal/",
     "/services/contents-restoration/",
@@ -49,7 +48,6 @@
     "/services/roofing/",
     "/services/water-damage-restoration/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/general-contracting/",
     "/services/odor-removal/",
     "/services/contents-restoration/"
@@ -238,27 +236,9 @@
     "/service-areas/highland-park-tx/water-damage-restoration/",
     "/service-areas/josephine-tx/water-damage-restoration/",
     "/service-areas/lavon-tx/water-damage-restoration/",
-    "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
-  ],
-  "/services/water-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
-    "/service-areas/dallas-tx/water-cleanup/",
-    "/service-areas/farmersville-tx/water-cleanup/",
-    "/service-areas/fate-tx/water-cleanup/",
-    "/service-areas/frisco-tx/water-cleanup/",
-    "/service-areas/garland-tx/water-cleanup/",
-    "/service-areas/greenville-tx/water-cleanup/",
-    "/service-areas/heath-tx/water-cleanup/",
-    "/service-areas/highland-park-tx/water-cleanup/",
-    "/service-areas/josephine-tx/water-cleanup/",
-    "/service-areas/lavon-tx/water-cleanup/",
-    "/services/water-damage-restoration/"
   ],
   "/service-areas/rockwall-tx/": [
     "/service-areas/",
@@ -268,7 +248,6 @@
     "/service-areas/rockwall-tx/roofing/",
     "/service-areas/rockwall-tx/water-damage-restoration/",
     "/service-areas/rockwall-tx/storm-damage-restoration/",
-    "/service-areas/rockwall-tx/water-cleanup/",
     "/service-areas/rockwall-tx/general-contracting/",
     "/service-areas/rockwall-tx/odor-removal/",
     "/service-areas/rockwall-tx/contents-restoration/",
@@ -284,7 +263,6 @@
     "/service-areas/fate-tx/roofing/",
     "/service-areas/fate-tx/water-damage-restoration/",
     "/service-areas/fate-tx/storm-damage-restoration/",
-    "/service-areas/fate-tx/water-cleanup/",
     "/service-areas/fate-tx/general-contracting/",
     "/service-areas/fate-tx/odor-removal/",
     "/service-areas/fate-tx/contents-restoration/",
@@ -300,7 +278,6 @@
     "/service-areas/rowlett-tx/roofing/",
     "/service-areas/rowlett-tx/water-damage-restoration/",
     "/service-areas/rowlett-tx/storm-damage-restoration/",
-    "/service-areas/rowlett-tx/water-cleanup/",
     "/service-areas/rowlett-tx/general-contracting/",
     "/service-areas/rowlett-tx/odor-removal/",
     "/service-areas/rowlett-tx/contents-restoration/",
@@ -316,7 +293,6 @@
     "/service-areas/wylie-tx/roofing/",
     "/service-areas/wylie-tx/water-damage-restoration/",
     "/service-areas/wylie-tx/storm-damage-restoration/",
-    "/service-areas/wylie-tx/water-cleanup/",
     "/service-areas/wylie-tx/general-contracting/",
     "/service-areas/wylie-tx/odor-removal/",
     "/service-areas/wylie-tx/contents-restoration/",
@@ -332,7 +308,6 @@
     "/service-areas/garland-tx/roofing/",
     "/service-areas/garland-tx/water-damage-restoration/",
     "/service-areas/garland-tx/storm-damage-restoration/",
-    "/service-areas/garland-tx/water-cleanup/",
     "/service-areas/garland-tx/general-contracting/",
     "/service-areas/garland-tx/odor-removal/",
     "/service-areas/garland-tx/contents-restoration/",
@@ -348,7 +323,6 @@
     "/service-areas/mesquite-tx/roofing/",
     "/service-areas/mesquite-tx/water-damage-restoration/",
     "/service-areas/mesquite-tx/storm-damage-restoration/",
-    "/service-areas/mesquite-tx/water-cleanup/",
     "/service-areas/mesquite-tx/general-contracting/",
     "/service-areas/mesquite-tx/odor-removal/",
     "/service-areas/mesquite-tx/contents-restoration/",
@@ -364,7 +338,6 @@
     "/service-areas/dallas-tx/roofing/",
     "/service-areas/dallas-tx/water-damage-restoration/",
     "/service-areas/dallas-tx/storm-damage-restoration/",
-    "/service-areas/dallas-tx/water-cleanup/",
     "/service-areas/dallas-tx/general-contracting/",
     "/service-areas/dallas-tx/odor-removal/",
     "/service-areas/dallas-tx/contents-restoration/",
@@ -380,7 +353,6 @@
     "/service-areas/richardson-tx/roofing/",
     "/service-areas/richardson-tx/water-damage-restoration/",
     "/service-areas/richardson-tx/storm-damage-restoration/",
-    "/service-areas/richardson-tx/water-cleanup/",
     "/service-areas/richardson-tx/general-contracting/",
     "/service-areas/richardson-tx/odor-removal/",
     "/service-areas/richardson-tx/contents-restoration/",
@@ -396,7 +368,6 @@
     "/service-areas/plano-tx/roofing/",
     "/service-areas/plano-tx/water-damage-restoration/",
     "/service-areas/plano-tx/storm-damage-restoration/",
-    "/service-areas/plano-tx/water-cleanup/",
     "/service-areas/plano-tx/general-contracting/",
     "/service-areas/plano-tx/odor-removal/",
     "/service-areas/plano-tx/contents-restoration/",
@@ -412,7 +383,6 @@
     "/service-areas/allen-tx/roofing/",
     "/service-areas/allen-tx/water-damage-restoration/",
     "/service-areas/allen-tx/storm-damage-restoration/",
-    "/service-areas/allen-tx/water-cleanup/",
     "/service-areas/allen-tx/general-contracting/",
     "/service-areas/allen-tx/odor-removal/",
     "/service-areas/allen-tx/contents-restoration/",
@@ -428,7 +398,6 @@
     "/service-areas/mckinney-tx/roofing/",
     "/service-areas/mckinney-tx/water-damage-restoration/",
     "/service-areas/mckinney-tx/storm-damage-restoration/",
-    "/service-areas/mckinney-tx/water-cleanup/",
     "/service-areas/mckinney-tx/general-contracting/",
     "/service-areas/mckinney-tx/odor-removal/",
     "/service-areas/mckinney-tx/contents-restoration/",
@@ -444,7 +413,6 @@
     "/service-areas/frisco-tx/roofing/",
     "/service-areas/frisco-tx/water-damage-restoration/",
     "/service-areas/frisco-tx/storm-damage-restoration/",
-    "/service-areas/frisco-tx/water-cleanup/",
     "/service-areas/frisco-tx/general-contracting/",
     "/service-areas/frisco-tx/odor-removal/",
     "/service-areas/frisco-tx/contents-restoration/",
@@ -460,7 +428,6 @@
     "/service-areas/highland-park-tx/roofing/",
     "/service-areas/highland-park-tx/water-damage-restoration/",
     "/service-areas/highland-park-tx/storm-damage-restoration/",
-    "/service-areas/highland-park-tx/water-cleanup/",
     "/service-areas/highland-park-tx/general-contracting/",
     "/service-areas/highland-park-tx/odor-removal/",
     "/service-areas/highland-park-tx/contents-restoration/",
@@ -476,7 +443,6 @@
     "/service-areas/university-park-tx/roofing/",
     "/service-areas/university-park-tx/water-damage-restoration/",
     "/service-areas/university-park-tx/storm-damage-restoration/",
-    "/service-areas/university-park-tx/water-cleanup/",
     "/service-areas/university-park-tx/general-contracting/",
     "/service-areas/university-park-tx/odor-removal/",
     "/service-areas/university-park-tx/contents-restoration/",
@@ -492,7 +458,6 @@
     "/service-areas/greenville-tx/roofing/",
     "/service-areas/greenville-tx/water-damage-restoration/",
     "/service-areas/greenville-tx/storm-damage-restoration/",
-    "/service-areas/greenville-tx/water-cleanup/",
     "/service-areas/greenville-tx/general-contracting/",
     "/service-areas/greenville-tx/odor-removal/",
     "/service-areas/greenville-tx/contents-restoration/",
@@ -508,7 +473,6 @@
     "/service-areas/terrell-tx/roofing/",
     "/service-areas/terrell-tx/water-damage-restoration/",
     "/service-areas/terrell-tx/storm-damage-restoration/",
-    "/service-areas/terrell-tx/water-cleanup/",
     "/service-areas/terrell-tx/general-contracting/",
     "/service-areas/terrell-tx/odor-removal/",
     "/service-areas/terrell-tx/contents-restoration/",
@@ -524,7 +488,6 @@
     "/service-areas/nevada-tx/roofing/",
     "/service-areas/nevada-tx/water-damage-restoration/",
     "/service-areas/nevada-tx/storm-damage-restoration/",
-    "/service-areas/nevada-tx/water-cleanup/",
     "/service-areas/nevada-tx/general-contracting/",
     "/service-areas/nevada-tx/odor-removal/",
     "/service-areas/nevada-tx/contents-restoration/",
@@ -540,7 +503,6 @@
     "/service-areas/union-valley-tx/roofing/",
     "/service-areas/union-valley-tx/water-damage-restoration/",
     "/service-areas/union-valley-tx/storm-damage-restoration/",
-    "/service-areas/union-valley-tx/water-cleanup/",
     "/service-areas/union-valley-tx/general-contracting/",
     "/service-areas/union-valley-tx/odor-removal/",
     "/service-areas/union-valley-tx/contents-restoration/",
@@ -556,7 +518,6 @@
     "/service-areas/josephine-tx/roofing/",
     "/service-areas/josephine-tx/water-damage-restoration/",
     "/service-areas/josephine-tx/storm-damage-restoration/",
-    "/service-areas/josephine-tx/water-cleanup/",
     "/service-areas/josephine-tx/general-contracting/",
     "/service-areas/josephine-tx/odor-removal/",
     "/service-areas/josephine-tx/contents-restoration/",
@@ -572,7 +533,6 @@
     "/service-areas/lavon-tx/roofing/",
     "/service-areas/lavon-tx/water-damage-restoration/",
     "/service-areas/lavon-tx/storm-damage-restoration/",
-    "/service-areas/lavon-tx/water-cleanup/",
     "/service-areas/lavon-tx/general-contracting/",
     "/service-areas/lavon-tx/odor-removal/",
     "/service-areas/lavon-tx/contents-restoration/",
@@ -588,7 +548,6 @@
     "/service-areas/mclendon-chisholm-tx/roofing/",
     "/service-areas/mclendon-chisholm-tx/water-damage-restoration/",
     "/service-areas/mclendon-chisholm-tx/storm-damage-restoration/",
-    "/service-areas/mclendon-chisholm-tx/water-cleanup/",
     "/service-areas/mclendon-chisholm-tx/general-contracting/",
     "/service-areas/mclendon-chisholm-tx/odor-removal/",
     "/service-areas/mclendon-chisholm-tx/contents-restoration/",
@@ -604,7 +563,6 @@
     "/service-areas/caddo-mills-tx/roofing/",
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
     "/service-areas/caddo-mills-tx/storm-damage-restoration/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
     "/service-areas/caddo-mills-tx/general-contracting/",
     "/service-areas/caddo-mills-tx/odor-removal/",
     "/service-areas/caddo-mills-tx/contents-restoration/",
@@ -620,7 +578,6 @@
     "/service-areas/poetry-tx/roofing/",
     "/service-areas/poetry-tx/water-damage-restoration/",
     "/service-areas/poetry-tx/storm-damage-restoration/",
-    "/service-areas/poetry-tx/water-cleanup/",
     "/service-areas/poetry-tx/general-contracting/",
     "/service-areas/poetry-tx/odor-removal/",
     "/service-areas/poetry-tx/contents-restoration/",
@@ -636,7 +593,6 @@
     "/service-areas/heath-tx/roofing/",
     "/service-areas/heath-tx/water-damage-restoration/",
     "/service-areas/heath-tx/storm-damage-restoration/",
-    "/service-areas/heath-tx/water-cleanup/",
     "/service-areas/heath-tx/general-contracting/",
     "/service-areas/heath-tx/odor-removal/",
     "/service-areas/heath-tx/contents-restoration/",
@@ -652,7 +608,6 @@
     "/service-areas/farmersville-tx/roofing/",
     "/service-areas/farmersville-tx/water-damage-restoration/",
     "/service-areas/farmersville-tx/storm-damage-restoration/",
-    "/service-areas/farmersville-tx/water-cleanup/",
     "/service-areas/farmersville-tx/general-contracting/",
     "/service-areas/farmersville-tx/odor-removal/",
     "/service-areas/farmersville-tx/contents-restoration/",
@@ -668,7 +623,6 @@
     "/service-areas/sachse-tx/roofing/",
     "/service-areas/sachse-tx/water-damage-restoration/",
     "/service-areas/sachse-tx/storm-damage-restoration/",
-    "/service-areas/sachse-tx/water-cleanup/",
     "/service-areas/sachse-tx/general-contracting/",
     "/service-areas/sachse-tx/odor-removal/",
     "/service-areas/sachse-tx/contents-restoration/",
@@ -684,7 +638,6 @@
     "/service-areas/lucas-tx/roofing/",
     "/service-areas/lucas-tx/water-damage-restoration/",
     "/service-areas/lucas-tx/storm-damage-restoration/",
-    "/service-areas/lucas-tx/water-cleanup/",
     "/service-areas/lucas-tx/general-contracting/",
     "/service-areas/lucas-tx/odor-removal/",
     "/service-areas/lucas-tx/contents-restoration/",
@@ -700,7 +653,6 @@
     "/service-areas/murphy-tx/roofing/",
     "/service-areas/murphy-tx/water-damage-restoration/",
     "/service-areas/murphy-tx/storm-damage-restoration/",
-    "/service-areas/murphy-tx/water-cleanup/",
     "/service-areas/murphy-tx/general-contracting/",
     "/service-areas/murphy-tx/odor-removal/",
     "/service-areas/murphy-tx/contents-restoration/",
@@ -780,15 +732,6 @@
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/rockwall-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/rockwall-tx/",
-    "/service-areas/rockwall-tx/fire-damage-restoration/",
-    "/service-areas/rockwall-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/fate-tx/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/fate-tx/",
@@ -859,15 +802,6 @@
     "/service-areas/fate-tx/mold-remediation/",
     "/service-areas/allen-tx/water-damage-restoration/",
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/fate-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/fate-tx/",
-    "/service-areas/fate-tx/fire-damage-restoration/",
-    "/service-areas/fate-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/rowlett-tx/contents-restoration/": [
@@ -942,15 +876,6 @@
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/rowlett-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/rowlett-tx/",
-    "/service-areas/rowlett-tx/fire-damage-restoration/",
-    "/service-areas/rowlett-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/wylie-tx/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/wylie-tx/",
@@ -1021,15 +946,6 @@
     "/service-areas/wylie-tx/mold-remediation/",
     "/service-areas/allen-tx/water-damage-restoration/",
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/wylie-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/wylie-tx/",
-    "/service-areas/wylie-tx/fire-damage-restoration/",
-    "/service-areas/wylie-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/garland-tx/contents-restoration/": [
@@ -1104,15 +1020,6 @@
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/garland-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/garland-tx/",
-    "/service-areas/garland-tx/fire-damage-restoration/",
-    "/service-areas/garland-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/mesquite-tx/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/mesquite-tx/",
@@ -1183,15 +1090,6 @@
     "/service-areas/mesquite-tx/mold-remediation/",
     "/service-areas/allen-tx/water-damage-restoration/",
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/mesquite-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/mesquite-tx/",
-    "/service-areas/mesquite-tx/fire-damage-restoration/",
-    "/service-areas/mesquite-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/dallas-tx/contents-restoration/": [
@@ -1266,15 +1164,6 @@
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/dallas-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/dallas-tx/",
-    "/service-areas/dallas-tx/fire-damage-restoration/",
-    "/service-areas/dallas-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/richardson-tx/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/richardson-tx/",
@@ -1345,15 +1234,6 @@
     "/service-areas/richardson-tx/mold-remediation/",
     "/service-areas/allen-tx/water-damage-restoration/",
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/richardson-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/richardson-tx/",
-    "/service-areas/richardson-tx/fire-damage-restoration/",
-    "/service-areas/richardson-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/plano-tx/contents-restoration/": [
@@ -1428,15 +1308,6 @@
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/plano-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/plano-tx/",
-    "/service-areas/plano-tx/fire-damage-restoration/",
-    "/service-areas/plano-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/allen-tx/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/allen-tx/",
@@ -1507,15 +1378,6 @@
     "/service-areas/allen-tx/mold-remediation/",
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
     "/service-areas/dallas-tx/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/allen-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/allen-tx/",
-    "/service-areas/allen-tx/fire-damage-restoration/",
-    "/service-areas/allen-tx/mold-remediation/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
-    "/service-areas/dallas-tx/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/mckinney-tx/contents-restoration/": [
@@ -1590,15 +1452,6 @@
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/mckinney-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/mckinney-tx/",
-    "/service-areas/mckinney-tx/fire-damage-restoration/",
-    "/service-areas/mckinney-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/frisco-tx/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/frisco-tx/",
@@ -1669,15 +1522,6 @@
     "/service-areas/frisco-tx/mold-remediation/",
     "/service-areas/allen-tx/water-damage-restoration/",
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/frisco-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/frisco-tx/",
-    "/service-areas/frisco-tx/fire-damage-restoration/",
-    "/service-areas/frisco-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/highland-park-tx/contents-restoration/": [
@@ -1752,15 +1596,6 @@
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/highland-park-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/highland-park-tx/",
-    "/service-areas/highland-park-tx/fire-damage-restoration/",
-    "/service-areas/highland-park-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/university-park-tx/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/university-park-tx/",
@@ -1831,15 +1666,6 @@
     "/service-areas/university-park-tx/mold-remediation/",
     "/service-areas/allen-tx/water-damage-restoration/",
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/university-park-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/university-park-tx/",
-    "/service-areas/university-park-tx/fire-damage-restoration/",
-    "/service-areas/university-park-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/greenville-tx/contents-restoration/": [
@@ -1914,15 +1740,6 @@
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/greenville-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/greenville-tx/",
-    "/service-areas/greenville-tx/fire-damage-restoration/",
-    "/service-areas/greenville-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/terrell-tx/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/terrell-tx/",
@@ -1993,15 +1810,6 @@
     "/service-areas/terrell-tx/mold-remediation/",
     "/service-areas/allen-tx/water-damage-restoration/",
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/terrell-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/terrell-tx/",
-    "/service-areas/terrell-tx/fire-damage-restoration/",
-    "/service-areas/terrell-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/nevada-tx/contents-restoration/": [
@@ -2076,15 +1884,6 @@
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/nevada-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/nevada-tx/",
-    "/service-areas/nevada-tx/fire-damage-restoration/",
-    "/service-areas/nevada-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/union-valley-tx/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/union-valley-tx/",
@@ -2155,15 +1954,6 @@
     "/service-areas/union-valley-tx/mold-remediation/",
     "/service-areas/allen-tx/water-damage-restoration/",
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/union-valley-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/union-valley-tx/",
-    "/service-areas/union-valley-tx/fire-damage-restoration/",
-    "/service-areas/union-valley-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/josephine-tx/contents-restoration/": [
@@ -2238,15 +2028,6 @@
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/josephine-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/josephine-tx/",
-    "/service-areas/josephine-tx/fire-damage-restoration/",
-    "/service-areas/josephine-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/lavon-tx/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/lavon-tx/",
@@ -2317,15 +2098,6 @@
     "/service-areas/lavon-tx/mold-remediation/",
     "/service-areas/allen-tx/water-damage-restoration/",
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/lavon-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/lavon-tx/",
-    "/service-areas/lavon-tx/fire-damage-restoration/",
-    "/service-areas/lavon-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/mclendon-chisholm-tx/contents-restoration/": [
@@ -2400,15 +2172,6 @@
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/mclendon-chisholm-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/mclendon-chisholm-tx/",
-    "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/",
-    "/service-areas/mclendon-chisholm-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/caddo-mills-tx/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/caddo-mills-tx/",
@@ -2479,15 +2242,6 @@
     "/service-areas/caddo-mills-tx/mold-remediation/",
     "/service-areas/allen-tx/water-damage-restoration/",
     "/service-areas/dallas-tx/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/caddo-mills-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/caddo-mills-tx/",
-    "/service-areas/caddo-mills-tx/fire-damage-restoration/",
-    "/service-areas/caddo-mills-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/dallas-tx/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/poetry-tx/contents-restoration/": [
@@ -2562,15 +2316,6 @@
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/poetry-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/poetry-tx/",
-    "/service-areas/poetry-tx/fire-damage-restoration/",
-    "/service-areas/poetry-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/heath-tx/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/heath-tx/",
@@ -2641,15 +2386,6 @@
     "/service-areas/heath-tx/mold-remediation/",
     "/service-areas/allen-tx/water-damage-restoration/",
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/heath-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/heath-tx/",
-    "/service-areas/heath-tx/fire-damage-restoration/",
-    "/service-areas/heath-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/farmersville-tx/contents-restoration/": [
@@ -2724,15 +2460,6 @@
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/farmersville-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/farmersville-tx/",
-    "/service-areas/farmersville-tx/fire-damage-restoration/",
-    "/service-areas/farmersville-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/sachse-tx/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/sachse-tx/",
@@ -2803,15 +2530,6 @@
     "/service-areas/sachse-tx/mold-remediation/",
     "/service-areas/allen-tx/water-damage-restoration/",
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/sachse-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/sachse-tx/",
-    "/service-areas/sachse-tx/fire-damage-restoration/",
-    "/service-areas/sachse-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/lucas-tx/contents-restoration/": [
@@ -2886,15 +2604,6 @@
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/lucas-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/lucas-tx/",
-    "/service-areas/lucas-tx/fire-damage-restoration/",
-    "/service-areas/lucas-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/murphy-tx/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/murphy-tx/",
@@ -2965,15 +2674,6 @@
     "/service-areas/murphy-tx/mold-remediation/",
     "/service-areas/allen-tx/water-damage-restoration/",
     "/service-areas/caddo-mills-tx/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/murphy-tx/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/murphy-tx/",
-    "/service-areas/murphy-tx/fire-damage-restoration/",
-    "/service-areas/murphy-tx/mold-remediation/",
-    "/service-areas/allen-tx/water-cleanup/",
-    "/service-areas/caddo-mills-tx/water-cleanup/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

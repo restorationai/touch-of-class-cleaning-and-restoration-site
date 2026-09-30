@@ -254,10 +254,16 @@ def expand_inputs(template: Template, plan_input: dict, client: dict) -> dict:
     # restoration gets the water-cleanup page automatically. Air Care's
     # build proved the gap — the fleet GBP rollout added the service to
     # listings but no plan carried the page.
+    # 2026-09-30 (Santino): the "get the water out now" cluster (emergency
+    # water removal 4,400 + near me 12,100, water extraction 3,600, water
+    # removal 2,400, water cleanup 1,600 + near me 18,100) is ONE dedicated
+    # page, /services/emergency-water-removal/ ("Emergency Water Removal &
+    # Cleanup in {City}"), distinct from water damage restoration. It
+    # replaced water-cleanup as the default (water-cleanup 301s to it).
     if ("water-damage-restoration" in selected_slugs
-            and "water-cleanup" not in selected_slugs
-            and "water-cleanup" in template.services_by_slug):
-        selected_slugs.append("water-cleanup")
+            and "emergency-water-removal" not in selected_slugs
+            and "emergency-water-removal" in template.services_by_slug):
+        selected_slugs.append("emergency-water-removal")
     # Repiping default-on (Santino 2026-09-13, queue #7): every plumbing-
     # catalog plan carries Whole-House Repiping unless explicitly selected
     # out — high-margin line every plumber does; the template already has

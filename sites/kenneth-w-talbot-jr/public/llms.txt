@@ -58,7 +58,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Fire Damage Restoration](https://veteransremediation.com/services/fire-damage-restoration/)
 - [Mold Remediation](https://veteransremediation.com/services/mold-remediation/)
 - [Storm Damage Restoration](https://veteransremediation.com/services/storm-damage-restoration/)
-- [Water Cleanup](https://veteransremediation.com/services/water-cleanup/)
+- [Water Cleanup](https://veteransremediation.com/services/emergency-water-removal/)
 
 ### Service area pages
 - [Freeport, FL](https://veteransremediation.com/service-areas/freeport-fl/)

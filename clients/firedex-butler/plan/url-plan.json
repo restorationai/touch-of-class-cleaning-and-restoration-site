@@ -1212,58 +1212,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Cranberry Township | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Cranberry Township",
-      "meta_description": "24/7 emergency water cleanup in Cranberry Township and surrounding areas. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup cranberry township",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
-        "/service-areas/baden-pa/water-cleanup/",
-        "/service-areas/beaver-falls-pa/water-cleanup/",
-        "/service-areas/bell-acres-pa/water-cleanup/",
-        "/service-areas/big-beaver-pa/water-cleanup/",
-        "/service-areas/butler-pa/water-cleanup/",
-        "/service-areas/economy-pa/water-cleanup/",
-        "/service-areas/ellwood-city-pa/water-cleanup/",
-        "/service-areas/evans-city-pa/water-cleanup/",
-        "/service-areas/franklin-park-pa/water-cleanup/",
-        "/service-areas/gibsonia-pa/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/service-areas/wexford-pa/",
       "archetype": "service-area",
       "vars_keys": [
@@ -3305,51 +3253,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/wexford-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Wexford, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Wexford",
-      "meta_description": "24/7 emergency water cleanup in Wexford, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup wexford",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/wexford-pa/",
-        "/service-areas/wexford-pa/fire-damage-restoration/",
-        "/service-areas/wexford-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mars-pa/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4133,51 +4036,6 @@
         "/service-areas/mars-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/water-damage-restoration/",
         "/service-areas/allison-park-pa/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mars-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Mars, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Mars",
-      "meta_description": "24/7 emergency water cleanup in Mars, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup mars",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/mars-pa/",
-        "/service-areas/mars-pa/fire-damage-restoration/",
-        "/service-areas/mars-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4969,51 +4827,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/zelienople-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Zelienople, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Zelienople",
-      "meta_description": "24/7 emergency water cleanup in Zelienople, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup zelienople",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/zelienople-pa/",
-        "/service-areas/zelienople-pa/fire-damage-restoration/",
-        "/service-areas/zelienople-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/evans-city-pa/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5797,51 +5610,6 @@
         "/service-areas/evans-city-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/water-damage-restoration/",
         "/service-areas/allison-park-pa/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/evans-city-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Evans City, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Evans City",
-      "meta_description": "24/7 emergency water cleanup in Evans City, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup evans city",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/evans-city-pa/",
-        "/service-areas/evans-city-pa/fire-damage-restoration/",
-        "/service-areas/evans-city-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -6633,51 +6401,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/seven-fields-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Seven Fields, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Seven Fields",
-      "meta_description": "24/7 emergency water cleanup in Seven Fields, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup seven fields",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/seven-fields-pa/",
-        "/service-areas/seven-fields-pa/fire-damage-restoration/",
-        "/service-areas/seven-fields-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/butler-pa/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7461,51 +7184,6 @@
         "/service-areas/butler-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/water-damage-restoration/",
         "/service-areas/allison-park-pa/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/butler-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Butler, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Butler",
-      "meta_description": "24/7 emergency water cleanup in Butler, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup butler",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/butler-pa/",
-        "/service-areas/butler-pa/fire-damage-restoration/",
-        "/service-areas/butler-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -8297,51 +7975,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/gibsonia-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Gibsonia, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Gibsonia",
-      "meta_description": "24/7 emergency water cleanup in Gibsonia, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup gibsonia",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/gibsonia-pa/",
-        "/service-areas/gibsonia-pa/fire-damage-restoration/",
-        "/service-areas/gibsonia-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/beaver-falls-pa/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9125,51 +8758,6 @@
         "/service-areas/beaver-falls-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/water-damage-restoration/",
         "/service-areas/allison-park-pa/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/beaver-falls-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Beaver Falls, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Beaver Falls",
-      "meta_description": "24/7 emergency water cleanup in Beaver Falls, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup beaver falls",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/beaver-falls-pa/",
-        "/service-areas/beaver-falls-pa/fire-damage-restoration/",
-        "/service-areas/beaver-falls-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -9961,51 +9549,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/economy-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Economy, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Economy",
-      "meta_description": "24/7 emergency water cleanup in Economy, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup economy",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/economy-pa/",
-        "/service-areas/economy-pa/fire-damage-restoration/",
-        "/service-areas/economy-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/franklin-park-pa/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10789,51 +10332,6 @@
         "/service-areas/franklin-park-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/water-damage-restoration/",
         "/service-areas/allison-park-pa/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/franklin-park-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Franklin Park, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Franklin Park",
-      "meta_description": "24/7 emergency water cleanup in Franklin Park, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup franklin park",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/franklin-park-pa/",
-        "/service-areas/franklin-park-pa/fire-damage-restoration/",
-        "/service-areas/franklin-park-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -11625,51 +11123,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/baden-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Baden, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Baden",
-      "meta_description": "24/7 emergency water cleanup in Baden, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup baden",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/baden-pa/",
-        "/service-areas/baden-pa/fire-damage-restoration/",
-        "/service-areas/baden-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/bell-acres-pa/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12453,51 +11906,6 @@
         "/service-areas/bell-acres-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/water-damage-restoration/",
         "/service-areas/allison-park-pa/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/bell-acres-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Bell Acres, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Bell Acres",
-      "meta_description": "24/7 emergency water cleanup in Bell Acres, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup bell acres",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/bell-acres-pa/",
-        "/service-areas/bell-acres-pa/fire-damage-restoration/",
-        "/service-areas/bell-acres-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -13289,51 +12697,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/monaca-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Monaca, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Monaca",
-      "meta_description": "24/7 emergency water cleanup in Monaca, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup monaca",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/monaca-pa/",
-        "/service-areas/monaca-pa/fire-damage-restoration/",
-        "/service-areas/monaca-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sewickley-heights-pa/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14117,51 +13480,6 @@
         "/service-areas/sewickley-heights-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/water-damage-restoration/",
         "/service-areas/allison-park-pa/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sewickley-heights-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Sewickley Heights, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Sewickley Heights",
-      "meta_description": "24/7 emergency water cleanup in Sewickley Heights, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup sewickley heights",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/sewickley-heights-pa/",
-        "/service-areas/sewickley-heights-pa/fire-damage-restoration/",
-        "/service-areas/sewickley-heights-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -14953,51 +14271,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/aliquippa-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Aliquippa, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Aliquippa",
-      "meta_description": "24/7 emergency water cleanup in Aliquippa, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup aliquippa",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/aliquippa-pa/",
-        "/service-areas/aliquippa-pa/fire-damage-restoration/",
-        "/service-areas/aliquippa-pa/mold-remediation/",
-        "/service-areas/allison-park-pa/water-cleanup/",
-        "/service-areas/baden-pa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sewickley-hills-pa/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15781,51 +15054,6 @@
         "/service-areas/sewickley-hills-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/water-damage-restoration/",
         "/service-areas/allison-park-pa/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sewickley-hills-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Sewickley Hills, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Sewickley Hills",
-      "meta_description": "24/7 emergency water cleanup in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup sewickley hills",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/sewickley-hills-pa/",
-        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
-        "/service-areas/sewickley-hills-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -16617,51 +15845,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/allison-park-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Allison Park, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Allison Park",
-      "meta_description": "24/7 emergency water cleanup in Allison Park, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup allison park",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/allison-park-pa/",
-        "/service-areas/allison-park-pa/fire-damage-restoration/",
-        "/service-areas/allison-park-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/baden-pa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/prospect-pa/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17445,51 +16628,6 @@
         "/service-areas/prospect-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/water-damage-restoration/",
         "/service-areas/allison-park-pa/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/prospect-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Prospect, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Prospect",
-      "meta_description": "24/7 emergency water cleanup in Prospect, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup prospect",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/prospect-pa/",
-        "/service-areas/prospect-pa/fire-damage-restoration/",
-        "/service-areas/prospect-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -18281,51 +17419,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/oak-hills-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Oak Hills, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Oak Hills",
-      "meta_description": "24/7 emergency water cleanup in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup oak hills",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/oak-hills-pa/",
-        "/service-areas/oak-hills-pa/fire-damage-restoration/",
-        "/service-areas/oak-hills-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/glenshaw-pa/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19109,51 +18202,6 @@
         "/service-areas/glenshaw-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/water-damage-restoration/",
         "/service-areas/allison-park-pa/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/glenshaw-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Glenshaw, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Glenshaw",
-      "meta_description": "24/7 emergency water cleanup in Glenshaw, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup glenshaw",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/glenshaw-pa/",
-        "/service-areas/glenshaw-pa/fire-damage-restoration/",
-        "/service-areas/glenshaw-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
         "/contact/"
       ]
     },
@@ -19945,51 +18993,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ellwood-city-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Ellwood City, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Ellwood City",
-      "meta_description": "24/7 emergency water cleanup in Ellwood City, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup ellwood city",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/ellwood-city-pa/",
-        "/service-areas/ellwood-city-pa/fire-damage-restoration/",
-        "/service-areas/ellwood-city-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/big-beaver-pa/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20773,51 +19776,6 @@
         "/service-areas/big-beaver-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/water-damage-restoration/",
         "/service-areas/allison-park-pa/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/big-beaver-pa/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Big Beaver, PA | FireDEX Butler",
-      "h1": "Emergency Water Cleanup in Big Beaver",
-      "meta_description": "24/7 emergency water cleanup in Big Beaver, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "emergency water cleanup big beaver",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/big-beaver-pa/",
-        "/service-areas/big-beaver-pa/fire-damage-restoration/",
-        "/service-areas/big-beaver-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/water-cleanup/",
-        "/service-areas/allison-park-pa/water-cleanup/",
         "/contact/"
       ]
     },

@@ -27,7 +27,7 @@
     "sewage-cleanup",
     "smoke-damage-restoration",
     "storm-damage-restoration",
-    "water-cleanup",
+    "emergency-water-removal",
     "water-damage-restoration"
   ],
   "service_areas": [
@@ -1504,6 +1504,7 @@
   "merged_services": {
     "basement-flood-cleanup": "basement-flooding-cleanup",
     "contents-restoration-storage": "contents-restoration-pack-out",
-    "vandalism-cleanup": "vandalism-graffiti-removal"
+    "vandalism-cleanup": "vandalism-graffiti-removal",
+    "water-cleanup": "emergency-water-removal"
   }
 }

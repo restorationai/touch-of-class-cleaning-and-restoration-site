@@ -16,7 +16,6 @@
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/basement-flooding-cleanup/",
     "/services/biohazard-cleanup/",
     "/services/burst-pipe-repair/",
@@ -71,7 +70,6 @@
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/basement-flooding-cleanup/",
     "/services/biohazard-cleanup/",
     "/services/burst-pipe-repair/",
@@ -521,23 +519,6 @@
     "/service-areas/oildale-ca/storm-damage-restoration/",
     "/blog/storm-damage-insurance-claim-checklist/"
   ],
-  "/services/water-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
-    "/service-areas/buttonwillow-ca/water-cleanup/",
-    "/service-areas/delano-ca/water-cleanup/",
-    "/service-areas/dustin-acres-ca/water-cleanup/",
-    "/service-areas/east-niles-ca/water-cleanup/",
-    "/service-areas/keene-ca/water-cleanup/",
-    "/service-areas/lake-isabella-ca/water-cleanup/",
-    "/service-areas/lamont-ca/water-cleanup/",
-    "/service-areas/maricopa-ca/water-cleanup/",
-    "/service-areas/mcfarland-ca/water-cleanup/",
-    "/service-areas/oildale-ca/water-cleanup/",
-    "/services/water-damage-restoration/"
-  ],
   "/services/water-damage-restoration/": [
     "/services/",
     "/contact/",
@@ -553,7 +534,6 @@
     "/service-areas/maricopa-ca/water-damage-restoration/",
     "/service-areas/mcfarland-ca/water-damage-restoration/",
     "/service-areas/oildale-ca/water-damage-restoration/",
-    "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
@@ -669,7 +649,6 @@
     "/service-areas/oildale-ca/sewage-cleanup/",
     "/service-areas/oildale-ca/smoke-damage-restoration/",
     "/service-areas/oildale-ca/storm-damage-restoration/",
-    "/service-areas/oildale-ca/water-cleanup/",
     "/service-areas/oildale-ca/basement-flooding-cleanup/",
     "/service-areas/oildale-ca/biohazard-cleanup/",
     "/service-areas/oildale-ca/burst-pipe-repair/",
@@ -707,7 +686,6 @@
     "/service-areas/rosedale-ca/sewage-cleanup/",
     "/service-areas/rosedale-ca/smoke-damage-restoration/",
     "/service-areas/rosedale-ca/storm-damage-restoration/",
-    "/service-areas/rosedale-ca/water-cleanup/",
     "/service-areas/rosedale-ca/basement-flooding-cleanup/",
     "/service-areas/rosedale-ca/biohazard-cleanup/",
     "/service-areas/rosedale-ca/burst-pipe-repair/",
@@ -745,7 +723,6 @@
     "/service-areas/delano-ca/sewage-cleanup/",
     "/service-areas/delano-ca/smoke-damage-restoration/",
     "/service-areas/delano-ca/storm-damage-restoration/",
-    "/service-areas/delano-ca/water-cleanup/",
     "/service-areas/delano-ca/basement-flooding-cleanup/",
     "/service-areas/delano-ca/biohazard-cleanup/",
     "/service-areas/delano-ca/burst-pipe-repair/",
@@ -783,7 +760,6 @@
     "/service-areas/shafter-ca/sewage-cleanup/",
     "/service-areas/shafter-ca/smoke-damage-restoration/",
     "/service-areas/shafter-ca/storm-damage-restoration/",
-    "/service-areas/shafter-ca/water-cleanup/",
     "/service-areas/shafter-ca/basement-flooding-cleanup/",
     "/service-areas/shafter-ca/biohazard-cleanup/",
     "/service-areas/shafter-ca/burst-pipe-repair/",
@@ -821,7 +797,6 @@
     "/service-areas/wasco-ca/sewage-cleanup/",
     "/service-areas/wasco-ca/smoke-damage-restoration/",
     "/service-areas/wasco-ca/storm-damage-restoration/",
-    "/service-areas/wasco-ca/water-cleanup/",
     "/service-areas/wasco-ca/basement-flooding-cleanup/",
     "/service-areas/wasco-ca/biohazard-cleanup/",
     "/service-areas/wasco-ca/burst-pipe-repair/",
@@ -859,7 +834,6 @@
     "/service-areas/taft-ca/sewage-cleanup/",
     "/service-areas/taft-ca/smoke-damage-restoration/",
     "/service-areas/taft-ca/storm-damage-restoration/",
-    "/service-areas/taft-ca/water-cleanup/",
     "/service-areas/taft-ca/basement-flooding-cleanup/",
     "/service-areas/taft-ca/biohazard-cleanup/",
     "/service-areas/taft-ca/burst-pipe-repair/",
@@ -897,7 +871,6 @@
     "/service-areas/tehachapi-ca/sewage-cleanup/",
     "/service-areas/tehachapi-ca/smoke-damage-restoration/",
     "/service-areas/tehachapi-ca/storm-damage-restoration/",
-    "/service-areas/tehachapi-ca/water-cleanup/",
     "/service-areas/tehachapi-ca/basement-flooding-cleanup/",
     "/service-areas/tehachapi-ca/biohazard-cleanup/",
     "/service-areas/tehachapi-ca/burst-pipe-repair/",
@@ -935,7 +908,6 @@
     "/service-areas/arvin-ca/sewage-cleanup/",
     "/service-areas/arvin-ca/smoke-damage-restoration/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
-    "/service-areas/arvin-ca/water-cleanup/",
     "/service-areas/arvin-ca/basement-flooding-cleanup/",
     "/service-areas/arvin-ca/biohazard-cleanup/",
     "/service-areas/arvin-ca/burst-pipe-repair/",
@@ -973,7 +945,6 @@
     "/service-areas/lamont-ca/sewage-cleanup/",
     "/service-areas/lamont-ca/smoke-damage-restoration/",
     "/service-areas/lamont-ca/storm-damage-restoration/",
-    "/service-areas/lamont-ca/water-cleanup/",
     "/service-areas/lamont-ca/basement-flooding-cleanup/",
     "/service-areas/lamont-ca/biohazard-cleanup/",
     "/service-areas/lamont-ca/burst-pipe-repair/",
@@ -1011,7 +982,6 @@
     "/service-areas/lake-isabella-ca/sewage-cleanup/",
     "/service-areas/lake-isabella-ca/smoke-damage-restoration/",
     "/service-areas/lake-isabella-ca/storm-damage-restoration/",
-    "/service-areas/lake-isabella-ca/water-cleanup/",
     "/service-areas/lake-isabella-ca/basement-flooding-cleanup/",
     "/service-areas/lake-isabella-ca/biohazard-cleanup/",
     "/service-areas/lake-isabella-ca/burst-pipe-repair/",
@@ -1049,7 +1019,6 @@
     "/service-areas/east-niles-ca/sewage-cleanup/",
     "/service-areas/east-niles-ca/smoke-damage-restoration/",
     "/service-areas/east-niles-ca/storm-damage-restoration/",
-    "/service-areas/east-niles-ca/water-cleanup/",
     "/service-areas/east-niles-ca/basement-flooding-cleanup/",
     "/service-areas/east-niles-ca/biohazard-cleanup/",
     "/service-areas/east-niles-ca/burst-pipe-repair/",
@@ -1087,7 +1056,6 @@
     "/service-areas/tarina-ca/sewage-cleanup/",
     "/service-areas/tarina-ca/smoke-damage-restoration/",
     "/service-areas/tarina-ca/storm-damage-restoration/",
-    "/service-areas/tarina-ca/water-cleanup/",
     "/service-areas/tarina-ca/basement-flooding-cleanup/",
     "/service-areas/tarina-ca/biohazard-cleanup/",
     "/service-areas/tarina-ca/burst-pipe-repair/",
@@ -1125,7 +1093,6 @@
     "/service-areas/weedpatch-ca/sewage-cleanup/",
     "/service-areas/weedpatch-ca/smoke-damage-restoration/",
     "/service-areas/weedpatch-ca/storm-damage-restoration/",
-    "/service-areas/weedpatch-ca/water-cleanup/",
     "/service-areas/weedpatch-ca/basement-flooding-cleanup/",
     "/service-areas/weedpatch-ca/biohazard-cleanup/",
     "/service-areas/weedpatch-ca/burst-pipe-repair/",
@@ -1163,7 +1130,6 @@
     "/service-areas/buttonwillow-ca/sewage-cleanup/",
     "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
     "/service-areas/buttonwillow-ca/storm-damage-restoration/",
-    "/service-areas/buttonwillow-ca/water-cleanup/",
     "/service-areas/buttonwillow-ca/basement-flooding-cleanup/",
     "/service-areas/buttonwillow-ca/biohazard-cleanup/",
     "/service-areas/buttonwillow-ca/burst-pipe-repair/",
@@ -1201,7 +1167,6 @@
     "/service-areas/dustin-acres-ca/sewage-cleanup/",
     "/service-areas/dustin-acres-ca/smoke-damage-restoration/",
     "/service-areas/dustin-acres-ca/storm-damage-restoration/",
-    "/service-areas/dustin-acres-ca/water-cleanup/",
     "/service-areas/dustin-acres-ca/basement-flooding-cleanup/",
     "/service-areas/dustin-acres-ca/biohazard-cleanup/",
     "/service-areas/dustin-acres-ca/burst-pipe-repair/",
@@ -1239,7 +1204,6 @@
     "/service-areas/mcfarland-ca/sewage-cleanup/",
     "/service-areas/mcfarland-ca/smoke-damage-restoration/",
     "/service-areas/mcfarland-ca/storm-damage-restoration/",
-    "/service-areas/mcfarland-ca/water-cleanup/",
     "/service-areas/mcfarland-ca/basement-flooding-cleanup/",
     "/service-areas/mcfarland-ca/biohazard-cleanup/",
     "/service-areas/mcfarland-ca/burst-pipe-repair/",
@@ -1277,7 +1241,6 @@
     "/service-areas/valley-acres-ca/sewage-cleanup/",
     "/service-areas/valley-acres-ca/smoke-damage-restoration/",
     "/service-areas/valley-acres-ca/storm-damage-restoration/",
-    "/service-areas/valley-acres-ca/water-cleanup/",
     "/service-areas/valley-acres-ca/basement-flooding-cleanup/",
     "/service-areas/valley-acres-ca/biohazard-cleanup/",
     "/service-areas/valley-acres-ca/burst-pipe-repair/",
@@ -1315,7 +1278,6 @@
     "/service-areas/woody-ca/sewage-cleanup/",
     "/service-areas/woody-ca/smoke-damage-restoration/",
     "/service-areas/woody-ca/storm-damage-restoration/",
-    "/service-areas/woody-ca/water-cleanup/",
     "/service-areas/woody-ca/basement-flooding-cleanup/",
     "/service-areas/woody-ca/biohazard-cleanup/",
     "/service-areas/woody-ca/burst-pipe-repair/",
@@ -1353,7 +1315,6 @@
     "/service-areas/bear-valley-springs-ca/sewage-cleanup/",
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
     "/service-areas/bear-valley-springs-ca/basement-flooding-cleanup/",
     "/service-areas/bear-valley-springs-ca/biohazard-cleanup/",
     "/service-areas/bear-valley-springs-ca/burst-pipe-repair/",
@@ -1391,7 +1352,6 @@
     "/service-areas/keene-ca/sewage-cleanup/",
     "/service-areas/keene-ca/smoke-damage-restoration/",
     "/service-areas/keene-ca/storm-damage-restoration/",
-    "/service-areas/keene-ca/water-cleanup/",
     "/service-areas/keene-ca/basement-flooding-cleanup/",
     "/service-areas/keene-ca/biohazard-cleanup/",
     "/service-areas/keene-ca/burst-pipe-repair/",
@@ -1429,7 +1389,6 @@
     "/service-areas/maricopa-ca/sewage-cleanup/",
     "/service-areas/maricopa-ca/smoke-damage-restoration/",
     "/service-areas/maricopa-ca/storm-damage-restoration/",
-    "/service-areas/maricopa-ca/water-cleanup/",
     "/service-areas/maricopa-ca/basement-flooding-cleanup/",
     "/service-areas/maricopa-ca/biohazard-cleanup/",
     "/service-areas/maricopa-ca/burst-pipe-repair/",
@@ -1657,15 +1616,6 @@
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/oildale-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/oildale-ca/",
-    "/service-areas/oildale-ca/fire-damage-restoration/",
-    "/service-areas/oildale-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/water-damage-restoration/": [
@@ -1938,15 +1888,6 @@
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/rosedale-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/rosedale-ca/",
-    "/service-areas/rosedale-ca/fire-damage-restoration/",
-    "/service-areas/rosedale-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/rosedale-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/rosedale-ca/",
@@ -2215,15 +2156,6 @@
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/delano-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/delano-ca/",
-    "/service-areas/delano-ca/fire-damage-restoration/",
-    "/service-areas/delano-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/delano-ca/water-damage-restoration/": [
@@ -2496,15 +2428,6 @@
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/shafter-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/shafter-ca/",
-    "/service-areas/shafter-ca/fire-damage-restoration/",
-    "/service-areas/shafter-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/shafter-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/shafter-ca/",
@@ -2773,15 +2696,6 @@
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/wasco-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/wasco-ca/",
-    "/service-areas/wasco-ca/fire-damage-restoration/",
-    "/service-areas/wasco-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/water-damage-restoration/": [
@@ -3054,15 +2968,6 @@
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/taft-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/taft-ca/",
-    "/service-areas/taft-ca/fire-damage-restoration/",
-    "/service-areas/taft-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/taft-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/taft-ca/",
@@ -3331,15 +3236,6 @@
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/tehachapi-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/tehachapi-ca/",
-    "/service-areas/tehachapi-ca/fire-damage-restoration/",
-    "/service-areas/tehachapi-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/water-damage-restoration/": [
@@ -3612,15 +3508,6 @@
     "/service-areas/buttonwillow-ca/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/arvin-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/arvin-ca/",
-    "/service-areas/arvin-ca/fire-damage-restoration/",
-    "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
-    "/service-areas/buttonwillow-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/arvin-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/arvin-ca/",
@@ -3889,15 +3776,6 @@
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/lamont-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/lamont-ca/",
-    "/service-areas/lamont-ca/fire-damage-restoration/",
-    "/service-areas/lamont-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/water-damage-restoration/": [
@@ -4170,15 +4048,6 @@
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/lake-isabella-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/lake-isabella-ca/",
-    "/service-areas/lake-isabella-ca/fire-damage-restoration/",
-    "/service-areas/lake-isabella-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/lake-isabella-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/lake-isabella-ca/",
@@ -4447,15 +4316,6 @@
     "/service-areas/east-niles-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/fire-damage-restoration/",
-    "/service-areas/east-niles-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/east-niles-ca/water-damage-restoration/": [
@@ -4728,15 +4588,6 @@
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/tarina-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/tarina-ca/",
-    "/service-areas/tarina-ca/fire-damage-restoration/",
-    "/service-areas/tarina-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/tarina-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/tarina-ca/",
@@ -5005,15 +4856,6 @@
     "/service-areas/weedpatch-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/weedpatch-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/weedpatch-ca/",
-    "/service-areas/weedpatch-ca/fire-damage-restoration/",
-    "/service-areas/weedpatch-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/weedpatch-ca/water-damage-restoration/": [
@@ -5286,15 +5128,6 @@
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/buttonwillow-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/buttonwillow-ca/",
-    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
-    "/service-areas/buttonwillow-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/buttonwillow-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/buttonwillow-ca/",
@@ -5563,15 +5396,6 @@
     "/service-areas/dustin-acres-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/dustin-acres-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/dustin-acres-ca/",
-    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
-    "/service-areas/dustin-acres-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/dustin-acres-ca/water-damage-restoration/": [
@@ -5844,15 +5668,6 @@
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/mcfarland-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/mcfarland-ca/",
-    "/service-areas/mcfarland-ca/fire-damage-restoration/",
-    "/service-areas/mcfarland-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/mcfarland-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/mcfarland-ca/",
@@ -6121,15 +5936,6 @@
     "/service-areas/valley-acres-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/valley-acres-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/valley-acres-ca/",
-    "/service-areas/valley-acres-ca/fire-damage-restoration/",
-    "/service-areas/valley-acres-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/valley-acres-ca/water-damage-restoration/": [
@@ -6402,15 +6208,6 @@
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/woody-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/woody-ca/",
-    "/service-areas/woody-ca/fire-damage-restoration/",
-    "/service-areas/woody-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/woody-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/woody-ca/",
@@ -6679,15 +6476,6 @@
     "/service-areas/bear-valley-springs-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/buttonwillow-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/bear-valley-springs-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/bear-valley-springs-ca/fire-damage-restoration/",
-    "/service-areas/bear-valley-springs-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/buttonwillow-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/water-damage-restoration/": [
@@ -6960,15 +6748,6 @@
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/keene-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/keene-ca/",
-    "/service-areas/keene-ca/fire-damage-restoration/",
-    "/service-areas/keene-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/keene-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/keene-ca/",
@@ -7237,15 +7016,6 @@
     "/service-areas/maricopa-ca/home-remodeling/",
     "/service-areas/arvin-ca/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/maricopa-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/maricopa-ca/",
-    "/service-areas/maricopa-ca/fire-damage-restoration/",
-    "/service-areas/maricopa-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/maricopa-ca/water-damage-restoration/": [

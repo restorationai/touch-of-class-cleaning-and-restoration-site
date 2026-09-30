@@ -52,7 +52,7 @@ This file is intended for AI assistants and language models to efficiently inges
 
 ### Core service pages
 - [Water Damage Restoration](https://dry1out.com/services/water-damage-restoration/)
-- [Emergency Water Cleanup](https://dry1out.com/services/water-cleanup/)
+- [Emergency Water Cleanup](https://dry1out.com/services/emergency-water-removal/)
 - [Fire Damage Restoration](https://dry1out.com/services/fire-damage-restoration/)
 - [Mold Remediation](https://dry1out.com/services/mold-remediation/)
 - [Mold Inspection and Testing](https://dry1out.com/services/mold-inspection-testing/)

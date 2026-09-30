@@ -9,7 +9,6 @@
     "/services/water-damage-restoration/",
     "/services/sewage-cleanup/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/biohazard-cleanup/",
     "/services/emergency-board-up-tarping/",
     "/services/odor-removal/",
@@ -55,7 +54,6 @@
     "/services/water-damage-restoration/",
     "/services/sewage-cleanup/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/biohazard-cleanup/",
     "/services/emergency-board-up-tarping/",
     "/services/odor-removal/",
@@ -314,27 +312,9 @@
     "/service-areas/el-paso-de-robles-ca/water-damage-restoration/",
     "/service-areas/grover-beach-ca/water-damage-restoration/",
     "/service-areas/guadalupe-ca/water-damage-restoration/",
-    "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
-  ],
-  "/services/water-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
-    "/service-areas/avila-beach-ca/water-cleanup/",
-    "/service-areas/ballard-ca/water-cleanup/",
-    "/service-areas/blacklake-ca/water-cleanup/",
-    "/service-areas/buellton-ca/water-cleanup/",
-    "/service-areas/callender-ca/water-cleanup/",
-    "/service-areas/cambria-ca/water-cleanup/",
-    "/service-areas/edna-ca/water-cleanup/",
-    "/service-areas/el-paso-de-robles-ca/water-cleanup/",
-    "/service-areas/grover-beach-ca/water-cleanup/",
-    "/service-areas/guadalupe-ca/water-cleanup/",
-    "/services/water-damage-restoration/"
   ],
   "/service-areas/vandenberg-village-ca/": [
     "/service-areas/",
@@ -344,7 +324,6 @@
     "/service-areas/vandenberg-village-ca/water-damage-restoration/",
     "/service-areas/vandenberg-village-ca/sewage-cleanup/",
     "/service-areas/vandenberg-village-ca/storm-damage-restoration/",
-    "/service-areas/vandenberg-village-ca/water-cleanup/",
     "/service-areas/vandenberg-village-ca/biohazard-cleanup/",
     "/service-areas/vandenberg-village-ca/emergency-board-up-tarping/",
     "/service-areas/vandenberg-village-ca/odor-removal/",
@@ -364,7 +343,6 @@
     "/service-areas/orcutt-ca/water-damage-restoration/",
     "/service-areas/orcutt-ca/sewage-cleanup/",
     "/service-areas/orcutt-ca/storm-damage-restoration/",
-    "/service-areas/orcutt-ca/water-cleanup/",
     "/service-areas/orcutt-ca/biohazard-cleanup/",
     "/service-areas/orcutt-ca/emergency-board-up-tarping/",
     "/service-areas/orcutt-ca/odor-removal/",
@@ -384,7 +362,6 @@
     "/service-areas/los-alamos-ca/water-damage-restoration/",
     "/service-areas/los-alamos-ca/sewage-cleanup/",
     "/service-areas/los-alamos-ca/storm-damage-restoration/",
-    "/service-areas/los-alamos-ca/water-cleanup/",
     "/service-areas/los-alamos-ca/biohazard-cleanup/",
     "/service-areas/los-alamos-ca/emergency-board-up-tarping/",
     "/service-areas/los-alamos-ca/odor-removal/",
@@ -404,7 +381,6 @@
     "/service-areas/lompoc-ca/water-damage-restoration/",
     "/service-areas/lompoc-ca/sewage-cleanup/",
     "/service-areas/lompoc-ca/storm-damage-restoration/",
-    "/service-areas/lompoc-ca/water-cleanup/",
     "/service-areas/lompoc-ca/biohazard-cleanup/",
     "/service-areas/lompoc-ca/emergency-board-up-tarping/",
     "/service-areas/lompoc-ca/odor-removal/",
@@ -424,7 +400,6 @@
     "/service-areas/los-olivos-ca/water-damage-restoration/",
     "/service-areas/los-olivos-ca/sewage-cleanup/",
     "/service-areas/los-olivos-ca/storm-damage-restoration/",
-    "/service-areas/los-olivos-ca/water-cleanup/",
     "/service-areas/los-olivos-ca/biohazard-cleanup/",
     "/service-areas/los-olivos-ca/emergency-board-up-tarping/",
     "/service-areas/los-olivos-ca/odor-removal/",
@@ -444,7 +419,6 @@
     "/service-areas/mission-hills-ca/water-damage-restoration/",
     "/service-areas/mission-hills-ca/sewage-cleanup/",
     "/service-areas/mission-hills-ca/storm-damage-restoration/",
-    "/service-areas/mission-hills-ca/water-cleanup/",
     "/service-areas/mission-hills-ca/biohazard-cleanup/",
     "/service-areas/mission-hills-ca/emergency-board-up-tarping/",
     "/service-areas/mission-hills-ca/odor-removal/",
@@ -464,7 +438,6 @@
     "/service-areas/santa-ynez-ca/water-damage-restoration/",
     "/service-areas/santa-ynez-ca/sewage-cleanup/",
     "/service-areas/santa-ynez-ca/storm-damage-restoration/",
-    "/service-areas/santa-ynez-ca/water-cleanup/",
     "/service-areas/santa-ynez-ca/biohazard-cleanup/",
     "/service-areas/santa-ynez-ca/emergency-board-up-tarping/",
     "/service-areas/santa-ynez-ca/odor-removal/",
@@ -484,7 +457,6 @@
     "/service-areas/solvang-ca/water-damage-restoration/",
     "/service-areas/solvang-ca/sewage-cleanup/",
     "/service-areas/solvang-ca/storm-damage-restoration/",
-    "/service-areas/solvang-ca/water-cleanup/",
     "/service-areas/solvang-ca/biohazard-cleanup/",
     "/service-areas/solvang-ca/emergency-board-up-tarping/",
     "/service-areas/solvang-ca/odor-removal/",
@@ -504,7 +476,6 @@
     "/service-areas/vandenberg-afb-ca/water-damage-restoration/",
     "/service-areas/vandenberg-afb-ca/sewage-cleanup/",
     "/service-areas/vandenberg-afb-ca/storm-damage-restoration/",
-    "/service-areas/vandenberg-afb-ca/water-cleanup/",
     "/service-areas/vandenberg-afb-ca/biohazard-cleanup/",
     "/service-areas/vandenberg-afb-ca/emergency-board-up-tarping/",
     "/service-areas/vandenberg-afb-ca/odor-removal/",
@@ -524,7 +495,6 @@
     "/service-areas/guadalupe-ca/water-damage-restoration/",
     "/service-areas/guadalupe-ca/sewage-cleanup/",
     "/service-areas/guadalupe-ca/storm-damage-restoration/",
-    "/service-areas/guadalupe-ca/water-cleanup/",
     "/service-areas/guadalupe-ca/biohazard-cleanup/",
     "/service-areas/guadalupe-ca/emergency-board-up-tarping/",
     "/service-areas/guadalupe-ca/odor-removal/",
@@ -544,7 +514,6 @@
     "/service-areas/buellton-ca/water-damage-restoration/",
     "/service-areas/buellton-ca/sewage-cleanup/",
     "/service-areas/buellton-ca/storm-damage-restoration/",
-    "/service-areas/buellton-ca/water-cleanup/",
     "/service-areas/buellton-ca/biohazard-cleanup/",
     "/service-areas/buellton-ca/emergency-board-up-tarping/",
     "/service-areas/buellton-ca/odor-removal/",
@@ -564,7 +533,6 @@
     "/service-areas/ballard-ca/water-damage-restoration/",
     "/service-areas/ballard-ca/sewage-cleanup/",
     "/service-areas/ballard-ca/storm-damage-restoration/",
-    "/service-areas/ballard-ca/water-cleanup/",
     "/service-areas/ballard-ca/biohazard-cleanup/",
     "/service-areas/ballard-ca/emergency-board-up-tarping/",
     "/service-areas/ballard-ca/odor-removal/",
@@ -584,7 +552,6 @@
     "/service-areas/arroyo-grande-ca/water-damage-restoration/",
     "/service-areas/arroyo-grande-ca/sewage-cleanup/",
     "/service-areas/arroyo-grande-ca/storm-damage-restoration/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
     "/service-areas/arroyo-grande-ca/biohazard-cleanup/",
     "/service-areas/arroyo-grande-ca/emergency-board-up-tarping/",
     "/service-areas/arroyo-grande-ca/odor-removal/",
@@ -604,7 +571,6 @@
     "/service-areas/avila-beach-ca/water-damage-restoration/",
     "/service-areas/avila-beach-ca/sewage-cleanup/",
     "/service-areas/avila-beach-ca/storm-damage-restoration/",
-    "/service-areas/avila-beach-ca/water-cleanup/",
     "/service-areas/avila-beach-ca/biohazard-cleanup/",
     "/service-areas/avila-beach-ca/emergency-board-up-tarping/",
     "/service-areas/avila-beach-ca/odor-removal/",
@@ -624,7 +590,6 @@
     "/service-areas/cambria-ca/water-damage-restoration/",
     "/service-areas/cambria-ca/sewage-cleanup/",
     "/service-areas/cambria-ca/storm-damage-restoration/",
-    "/service-areas/cambria-ca/water-cleanup/",
     "/service-areas/cambria-ca/biohazard-cleanup/",
     "/service-areas/cambria-ca/emergency-board-up-tarping/",
     "/service-areas/cambria-ca/odor-removal/",
@@ -644,7 +609,6 @@
     "/service-areas/el-paso-de-robles-ca/water-damage-restoration/",
     "/service-areas/el-paso-de-robles-ca/sewage-cleanup/",
     "/service-areas/el-paso-de-robles-ca/storm-damage-restoration/",
-    "/service-areas/el-paso-de-robles-ca/water-cleanup/",
     "/service-areas/el-paso-de-robles-ca/biohazard-cleanup/",
     "/service-areas/el-paso-de-robles-ca/emergency-board-up-tarping/",
     "/service-areas/el-paso-de-robles-ca/odor-removal/",
@@ -664,7 +628,6 @@
     "/service-areas/grover-beach-ca/water-damage-restoration/",
     "/service-areas/grover-beach-ca/sewage-cleanup/",
     "/service-areas/grover-beach-ca/storm-damage-restoration/",
-    "/service-areas/grover-beach-ca/water-cleanup/",
     "/service-areas/grover-beach-ca/biohazard-cleanup/",
     "/service-areas/grover-beach-ca/emergency-board-up-tarping/",
     "/service-areas/grover-beach-ca/odor-removal/",
@@ -684,7 +647,6 @@
     "/service-areas/los-berros-ca/water-damage-restoration/",
     "/service-areas/los-berros-ca/sewage-cleanup/",
     "/service-areas/los-berros-ca/storm-damage-restoration/",
-    "/service-areas/los-berros-ca/water-cleanup/",
     "/service-areas/los-berros-ca/biohazard-cleanup/",
     "/service-areas/los-berros-ca/emergency-board-up-tarping/",
     "/service-areas/los-berros-ca/odor-removal/",
@@ -704,7 +666,6 @@
     "/service-areas/nipomo-ca/water-damage-restoration/",
     "/service-areas/nipomo-ca/sewage-cleanup/",
     "/service-areas/nipomo-ca/storm-damage-restoration/",
-    "/service-areas/nipomo-ca/water-cleanup/",
     "/service-areas/nipomo-ca/biohazard-cleanup/",
     "/service-areas/nipomo-ca/emergency-board-up-tarping/",
     "/service-areas/nipomo-ca/odor-removal/",
@@ -724,7 +685,6 @@
     "/service-areas/oceano-ca/water-damage-restoration/",
     "/service-areas/oceano-ca/sewage-cleanup/",
     "/service-areas/oceano-ca/storm-damage-restoration/",
-    "/service-areas/oceano-ca/water-cleanup/",
     "/service-areas/oceano-ca/biohazard-cleanup/",
     "/service-areas/oceano-ca/emergency-board-up-tarping/",
     "/service-areas/oceano-ca/odor-removal/",
@@ -744,7 +704,6 @@
     "/service-areas/san-luis-obispo-ca/water-damage-restoration/",
     "/service-areas/san-luis-obispo-ca/sewage-cleanup/",
     "/service-areas/san-luis-obispo-ca/storm-damage-restoration/",
-    "/service-areas/san-luis-obispo-ca/water-cleanup/",
     "/service-areas/san-luis-obispo-ca/biohazard-cleanup/",
     "/service-areas/san-luis-obispo-ca/emergency-board-up-tarping/",
     "/service-areas/san-luis-obispo-ca/odor-removal/",
@@ -764,7 +723,6 @@
     "/service-areas/templeton-ca/water-damage-restoration/",
     "/service-areas/templeton-ca/sewage-cleanup/",
     "/service-areas/templeton-ca/storm-damage-restoration/",
-    "/service-areas/templeton-ca/water-cleanup/",
     "/service-areas/templeton-ca/biohazard-cleanup/",
     "/service-areas/templeton-ca/emergency-board-up-tarping/",
     "/service-areas/templeton-ca/odor-removal/",
@@ -784,7 +742,6 @@
     "/service-areas/santa-margarita-ca/water-damage-restoration/",
     "/service-areas/santa-margarita-ca/sewage-cleanup/",
     "/service-areas/santa-margarita-ca/storm-damage-restoration/",
-    "/service-areas/santa-margarita-ca/water-cleanup/",
     "/service-areas/santa-margarita-ca/biohazard-cleanup/",
     "/service-areas/santa-margarita-ca/emergency-board-up-tarping/",
     "/service-areas/santa-margarita-ca/odor-removal/",
@@ -804,7 +761,6 @@
     "/service-areas/pismo-beach-ca/water-damage-restoration/",
     "/service-areas/pismo-beach-ca/sewage-cleanup/",
     "/service-areas/pismo-beach-ca/storm-damage-restoration/",
-    "/service-areas/pismo-beach-ca/water-cleanup/",
     "/service-areas/pismo-beach-ca/biohazard-cleanup/",
     "/service-areas/pismo-beach-ca/emergency-board-up-tarping/",
     "/service-areas/pismo-beach-ca/odor-removal/",
@@ -824,7 +780,6 @@
     "/service-areas/morro-bay-ca/water-damage-restoration/",
     "/service-areas/morro-bay-ca/sewage-cleanup/",
     "/service-areas/morro-bay-ca/storm-damage-restoration/",
-    "/service-areas/morro-bay-ca/water-cleanup/",
     "/service-areas/morro-bay-ca/biohazard-cleanup/",
     "/service-areas/morro-bay-ca/emergency-board-up-tarping/",
     "/service-areas/morro-bay-ca/odor-removal/",
@@ -844,7 +799,6 @@
     "/service-areas/los-osos-ca/water-damage-restoration/",
     "/service-areas/los-osos-ca/sewage-cleanup/",
     "/service-areas/los-osos-ca/storm-damage-restoration/",
-    "/service-areas/los-osos-ca/water-cleanup/",
     "/service-areas/los-osos-ca/biohazard-cleanup/",
     "/service-areas/los-osos-ca/emergency-board-up-tarping/",
     "/service-areas/los-osos-ca/odor-removal/",
@@ -864,7 +818,6 @@
     "/service-areas/edna-ca/water-damage-restoration/",
     "/service-areas/edna-ca/sewage-cleanup/",
     "/service-areas/edna-ca/storm-damage-restoration/",
-    "/service-areas/edna-ca/water-cleanup/",
     "/service-areas/edna-ca/biohazard-cleanup/",
     "/service-areas/edna-ca/emergency-board-up-tarping/",
     "/service-areas/edna-ca/odor-removal/",
@@ -884,7 +837,6 @@
     "/service-areas/callender-ca/water-damage-restoration/",
     "/service-areas/callender-ca/sewage-cleanup/",
     "/service-areas/callender-ca/storm-damage-restoration/",
-    "/service-areas/callender-ca/water-cleanup/",
     "/service-areas/callender-ca/biohazard-cleanup/",
     "/service-areas/callender-ca/emergency-board-up-tarping/",
     "/service-areas/callender-ca/odor-removal/",
@@ -904,7 +856,6 @@
     "/service-areas/blacklake-ca/water-damage-restoration/",
     "/service-areas/blacklake-ca/sewage-cleanup/",
     "/service-areas/blacklake-ca/storm-damage-restoration/",
-    "/service-areas/blacklake-ca/water-cleanup/",
     "/service-areas/blacklake-ca/biohazard-cleanup/",
     "/service-areas/blacklake-ca/emergency-board-up-tarping/",
     "/service-areas/blacklake-ca/odor-removal/",
@@ -924,7 +875,6 @@
     "/service-areas/atascadero-ca/water-damage-restoration/",
     "/service-areas/atascadero-ca/sewage-cleanup/",
     "/service-areas/atascadero-ca/storm-damage-restoration/",
-    "/service-areas/atascadero-ca/water-cleanup/",
     "/service-areas/atascadero-ca/biohazard-cleanup/",
     "/service-areas/atascadero-ca/emergency-board-up-tarping/",
     "/service-areas/atascadero-ca/odor-removal/",
@@ -1044,15 +994,6 @@
     "/service-areas/atascadero-ca/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/vandenberg-village-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/vandenberg-village-ca/",
-    "/service-areas/vandenberg-village-ca/fire-damage-restoration/",
-    "/service-areas/vandenberg-village-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/orcutt-ca/biohazard-cleanup/": [
     "/services/biohazard-cleanup/",
     "/service-areas/orcutt-ca/",
@@ -1159,15 +1100,6 @@
     "/service-areas/orcutt-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/water-damage-restoration/",
     "/service-areas/atascadero-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/orcutt-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/orcutt-ca/",
-    "/service-areas/orcutt-ca/fire-damage-restoration/",
-    "/service-areas/orcutt-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/los-alamos-ca/biohazard-cleanup/": [
@@ -1278,15 +1210,6 @@
     "/service-areas/atascadero-ca/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/los-alamos-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/los-alamos-ca/",
-    "/service-areas/los-alamos-ca/fire-damage-restoration/",
-    "/service-areas/los-alamos-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/lompoc-ca/biohazard-cleanup/": [
     "/services/biohazard-cleanup/",
     "/service-areas/lompoc-ca/",
@@ -1393,15 +1316,6 @@
     "/service-areas/lompoc-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/water-damage-restoration/",
     "/service-areas/atascadero-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/lompoc-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/lompoc-ca/",
-    "/service-areas/lompoc-ca/fire-damage-restoration/",
-    "/service-areas/lompoc-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/los-olivos-ca/biohazard-cleanup/": [
@@ -1512,15 +1426,6 @@
     "/service-areas/atascadero-ca/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/los-olivos-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/los-olivos-ca/",
-    "/service-areas/los-olivos-ca/fire-damage-restoration/",
-    "/service-areas/los-olivos-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/mission-hills-ca/biohazard-cleanup/": [
     "/services/biohazard-cleanup/",
     "/service-areas/mission-hills-ca/",
@@ -1627,15 +1532,6 @@
     "/service-areas/mission-hills-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/water-damage-restoration/",
     "/service-areas/atascadero-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/mission-hills-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/mission-hills-ca/",
-    "/service-areas/mission-hills-ca/fire-damage-restoration/",
-    "/service-areas/mission-hills-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/santa-ynez-ca/biohazard-cleanup/": [
@@ -1746,15 +1642,6 @@
     "/service-areas/atascadero-ca/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/santa-ynez-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/santa-ynez-ca/",
-    "/service-areas/santa-ynez-ca/fire-damage-restoration/",
-    "/service-areas/santa-ynez-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/solvang-ca/biohazard-cleanup/": [
     "/services/biohazard-cleanup/",
     "/service-areas/solvang-ca/",
@@ -1861,15 +1748,6 @@
     "/service-areas/solvang-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/water-damage-restoration/",
     "/service-areas/atascadero-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/solvang-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/solvang-ca/",
-    "/service-areas/solvang-ca/fire-damage-restoration/",
-    "/service-areas/solvang-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/vandenberg-afb-ca/biohazard-cleanup/": [
@@ -1980,15 +1858,6 @@
     "/service-areas/atascadero-ca/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/vandenberg-afb-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/vandenberg-afb-ca/",
-    "/service-areas/vandenberg-afb-ca/fire-damage-restoration/",
-    "/service-areas/vandenberg-afb-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/guadalupe-ca/biohazard-cleanup/": [
     "/services/biohazard-cleanup/",
     "/service-areas/guadalupe-ca/",
@@ -2095,15 +1964,6 @@
     "/service-areas/guadalupe-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/water-damage-restoration/",
     "/service-areas/atascadero-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/guadalupe-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/guadalupe-ca/",
-    "/service-areas/guadalupe-ca/fire-damage-restoration/",
-    "/service-areas/guadalupe-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/buellton-ca/biohazard-cleanup/": [
@@ -2214,15 +2074,6 @@
     "/service-areas/atascadero-ca/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/buellton-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/buellton-ca/",
-    "/service-areas/buellton-ca/fire-damage-restoration/",
-    "/service-areas/buellton-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/ballard-ca/biohazard-cleanup/": [
     "/services/biohazard-cleanup/",
     "/service-areas/ballard-ca/",
@@ -2329,15 +2180,6 @@
     "/service-areas/ballard-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/water-damage-restoration/",
     "/service-areas/atascadero-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/ballard-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/ballard-ca/",
-    "/service-areas/ballard-ca/fire-damage-restoration/",
-    "/service-areas/ballard-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/arroyo-grande-ca/biohazard-cleanup/": [
@@ -2448,15 +2290,6 @@
     "/service-areas/avila-beach-ca/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/arroyo-grande-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/arroyo-grande-ca/",
-    "/service-areas/arroyo-grande-ca/fire-damage-restoration/",
-    "/service-areas/arroyo-grande-ca/mold-remediation/",
-    "/service-areas/atascadero-ca/water-cleanup/",
-    "/service-areas/avila-beach-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/avila-beach-ca/biohazard-cleanup/": [
     "/services/biohazard-cleanup/",
     "/service-areas/avila-beach-ca/",
@@ -2563,15 +2396,6 @@
     "/service-areas/avila-beach-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/water-damage-restoration/",
     "/service-areas/atascadero-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/avila-beach-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/avila-beach-ca/",
-    "/service-areas/avila-beach-ca/fire-damage-restoration/",
-    "/service-areas/avila-beach-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/cambria-ca/biohazard-cleanup/": [
@@ -2682,15 +2506,6 @@
     "/service-areas/atascadero-ca/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/cambria-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/cambria-ca/",
-    "/service-areas/cambria-ca/fire-damage-restoration/",
-    "/service-areas/cambria-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/el-paso-de-robles-ca/biohazard-cleanup/": [
     "/services/biohazard-cleanup/",
     "/service-areas/el-paso-de-robles-ca/",
@@ -2797,15 +2612,6 @@
     "/service-areas/el-paso-de-robles-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/water-damage-restoration/",
     "/service-areas/atascadero-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/el-paso-de-robles-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/el-paso-de-robles-ca/",
-    "/service-areas/el-paso-de-robles-ca/fire-damage-restoration/",
-    "/service-areas/el-paso-de-robles-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/grover-beach-ca/biohazard-cleanup/": [
@@ -2916,15 +2722,6 @@
     "/service-areas/atascadero-ca/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/grover-beach-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/grover-beach-ca/",
-    "/service-areas/grover-beach-ca/fire-damage-restoration/",
-    "/service-areas/grover-beach-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/los-berros-ca/biohazard-cleanup/": [
     "/services/biohazard-cleanup/",
     "/service-areas/los-berros-ca/",
@@ -3031,15 +2828,6 @@
     "/service-areas/los-berros-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/water-damage-restoration/",
     "/service-areas/atascadero-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/los-berros-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/los-berros-ca/",
-    "/service-areas/los-berros-ca/fire-damage-restoration/",
-    "/service-areas/los-berros-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/nipomo-ca/biohazard-cleanup/": [
@@ -3150,15 +2938,6 @@
     "/service-areas/atascadero-ca/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/nipomo-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/nipomo-ca/",
-    "/service-areas/nipomo-ca/fire-damage-restoration/",
-    "/service-areas/nipomo-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/oceano-ca/biohazard-cleanup/": [
     "/services/biohazard-cleanup/",
     "/service-areas/oceano-ca/",
@@ -3265,15 +3044,6 @@
     "/service-areas/oceano-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/water-damage-restoration/",
     "/service-areas/atascadero-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/oceano-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/oceano-ca/",
-    "/service-areas/oceano-ca/fire-damage-restoration/",
-    "/service-areas/oceano-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/san-luis-obispo-ca/biohazard-cleanup/": [
@@ -3384,15 +3154,6 @@
     "/service-areas/atascadero-ca/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/san-luis-obispo-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/san-luis-obispo-ca/",
-    "/service-areas/san-luis-obispo-ca/fire-damage-restoration/",
-    "/service-areas/san-luis-obispo-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/templeton-ca/biohazard-cleanup/": [
     "/services/biohazard-cleanup/",
     "/service-areas/templeton-ca/",
@@ -3499,15 +3260,6 @@
     "/service-areas/templeton-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/water-damage-restoration/",
     "/service-areas/atascadero-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/templeton-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/templeton-ca/",
-    "/service-areas/templeton-ca/fire-damage-restoration/",
-    "/service-areas/templeton-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/santa-margarita-ca/biohazard-cleanup/": [
@@ -3618,15 +3370,6 @@
     "/service-areas/atascadero-ca/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/santa-margarita-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/santa-margarita-ca/",
-    "/service-areas/santa-margarita-ca/fire-damage-restoration/",
-    "/service-areas/santa-margarita-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/pismo-beach-ca/biohazard-cleanup/": [
     "/services/biohazard-cleanup/",
     "/service-areas/pismo-beach-ca/",
@@ -3733,15 +3476,6 @@
     "/service-areas/pismo-beach-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/water-damage-restoration/",
     "/service-areas/atascadero-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/pismo-beach-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/pismo-beach-ca/",
-    "/service-areas/pismo-beach-ca/fire-damage-restoration/",
-    "/service-areas/pismo-beach-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/morro-bay-ca/biohazard-cleanup/": [
@@ -3852,15 +3586,6 @@
     "/service-areas/atascadero-ca/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/morro-bay-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/morro-bay-ca/",
-    "/service-areas/morro-bay-ca/fire-damage-restoration/",
-    "/service-areas/morro-bay-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/los-osos-ca/biohazard-cleanup/": [
     "/services/biohazard-cleanup/",
     "/service-areas/los-osos-ca/",
@@ -3967,15 +3692,6 @@
     "/service-areas/los-osos-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/water-damage-restoration/",
     "/service-areas/atascadero-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/los-osos-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/los-osos-ca/",
-    "/service-areas/los-osos-ca/fire-damage-restoration/",
-    "/service-areas/los-osos-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/edna-ca/biohazard-cleanup/": [
@@ -4086,15 +3802,6 @@
     "/service-areas/atascadero-ca/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/edna-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/edna-ca/",
-    "/service-areas/edna-ca/fire-damage-restoration/",
-    "/service-areas/edna-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/callender-ca/biohazard-cleanup/": [
     "/services/biohazard-cleanup/",
     "/service-areas/callender-ca/",
@@ -4201,15 +3908,6 @@
     "/service-areas/callender-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/water-damage-restoration/",
     "/service-areas/atascadero-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/callender-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/callender-ca/",
-    "/service-areas/callender-ca/fire-damage-restoration/",
-    "/service-areas/callender-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/blacklake-ca/biohazard-cleanup/": [
@@ -4320,15 +4018,6 @@
     "/service-areas/atascadero-ca/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/blacklake-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/blacklake-ca/",
-    "/service-areas/blacklake-ca/fire-damage-restoration/",
-    "/service-areas/blacklake-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/atascadero-ca/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/atascadero-ca/biohazard-cleanup/": [
     "/services/biohazard-cleanup/",
     "/service-areas/atascadero-ca/",
@@ -4435,15 +4124,6 @@
     "/service-areas/atascadero-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/water-damage-restoration/",
     "/service-areas/avila-beach-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/atascadero-ca/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/atascadero-ca/",
-    "/service-areas/atascadero-ca/fire-damage-restoration/",
-    "/service-areas/atascadero-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/water-cleanup/",
-    "/service-areas/avila-beach-ca/water-cleanup/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

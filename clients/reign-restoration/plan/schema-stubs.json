@@ -138,16 +138,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/rockwall-tx/": {
     "archetype": "service-area",
     "stubs": [
@@ -480,16 +470,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rockwall-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fate-tx/contents-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -561,16 +541,6 @@
     "missing_stubs": []
   },
   "/service-areas/fate-tx/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fate-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -660,16 +630,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rowlett-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wylie-tx/contents-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -741,16 +701,6 @@
     "missing_stubs": []
   },
   "/service-areas/wylie-tx/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wylie-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -840,16 +790,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/garland-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mesquite-tx/contents-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -921,16 +861,6 @@
     "missing_stubs": []
   },
   "/service-areas/mesquite-tx/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mesquite-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1020,16 +950,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/dallas-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/richardson-tx/contents-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1101,16 +1021,6 @@
     "missing_stubs": []
   },
   "/service-areas/richardson-tx/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/richardson-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1200,16 +1110,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/plano-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/allen-tx/contents-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1281,16 +1181,6 @@
     "missing_stubs": []
   },
   "/service-areas/allen-tx/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/allen-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1380,16 +1270,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mckinney-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/frisco-tx/contents-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1461,16 +1341,6 @@
     "missing_stubs": []
   },
   "/service-areas/frisco-tx/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/frisco-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1560,16 +1430,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/highland-park-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/university-park-tx/contents-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1641,16 +1501,6 @@
     "missing_stubs": []
   },
   "/service-areas/university-park-tx/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/university-park-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1740,16 +1590,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/greenville-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/terrell-tx/contents-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1821,16 +1661,6 @@
     "missing_stubs": []
   },
   "/service-areas/terrell-tx/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/terrell-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1920,16 +1750,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/nevada-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/union-valley-tx/contents-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2001,16 +1821,6 @@
     "missing_stubs": []
   },
   "/service-areas/union-valley-tx/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/union-valley-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2100,16 +1910,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/josephine-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lavon-tx/contents-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2181,16 +1981,6 @@
     "missing_stubs": []
   },
   "/service-areas/lavon-tx/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lavon-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2280,16 +2070,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mclendon-chisholm-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/caddo-mills-tx/contents-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2361,16 +2141,6 @@
     "missing_stubs": []
   },
   "/service-areas/caddo-mills-tx/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/caddo-mills-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2460,16 +2230,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/poetry-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/heath-tx/contents-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2541,16 +2301,6 @@
     "missing_stubs": []
   },
   "/service-areas/heath-tx/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/heath-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2640,16 +2390,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/farmersville-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sachse-tx/contents-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2721,16 +2461,6 @@
     "missing_stubs": []
   },
   "/service-areas/sachse-tx/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sachse-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2820,16 +2550,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lucas-tx/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/murphy-tx/contents-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2901,16 +2621,6 @@
     "missing_stubs": []
   },
   "/service-areas/murphy-tx/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/murphy-tx/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

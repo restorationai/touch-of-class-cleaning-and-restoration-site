@@ -208,6 +208,7 @@
   ],
   "merged_services": {
     "contents-restoration-storage": "contents-restoration",
-    "vandalism-graffiti-removal": "vandalism-cleanup"
+    "vandalism-graffiti-removal": "vandalism-cleanup",
+    "water-cleanup": "emergency-water-removal"
   }
 }

@@ -42,7 +42,7 @@
     "water-damage-restoration",
     "fire-damage-restoration",
     "mold-remediation",
-    "water-cleanup",
+    "emergency-water-removal",
     "flood-damage-restoration",
     "burst-pipe-repair",
     "basement-flooding-cleanup",
@@ -175,5 +175,8 @@
     "flood-damage-restoration",
     "sewage-cleanup",
     "smoke-damage-restoration"
-  ]
+  ],
+  "merged_services": {
+    "water-cleanup": "emergency-water-removal"
+  }
 }

@@ -805,58 +805,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Honolulu | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Honolulu",
-      "meta_description": "24/7 emergency water cleanup in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup honolulu",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
-        "/service-areas/diamond-head-hi/water-cleanup/",
-        "/service-areas/east-honolulu-hi/water-cleanup/",
-        "/service-areas/east-kapolei-hi/water-cleanup/",
-        "/service-areas/ewa-beach-hi/water-cleanup/",
-        "/service-areas/hawaii-kai-hi/water-cleanup/",
-        "/service-areas/heeia-hi/water-cleanup/",
-        "/service-areas/hickam-housing-hi/water-cleanup/",
-        "/service-areas/kahala-hi/water-cleanup/",
-        "/service-areas/kahaluu-hi/water-cleanup/",
-        "/service-areas/kailua-hi/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hawaii-kai-hi/",
       "archetype": "service-area",
       "vars_keys": [
@@ -2593,51 +2541,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/hawaii-kai-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Hawaii Kai, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Hawaii Kai",
-      "meta_description": "24/7 emergency water cleanup in Hawaii Kai, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup hawaii kai",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/hawaii-kai-hi/",
-        "/service-areas/hawaii-kai-hi/mold-remediation/",
-        "/service-areas/hawaii-kai-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/kahala-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3074,51 +2977,6 @@
         "/service-areas/kahala-hi/water-damage-restoration/",
         "/service-areas/aiea-hi/commercial-restoration/",
         "/service-areas/aina-haina-hi/commercial-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/kahala-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Kahala, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Kahala",
-      "meta_description": "24/7 emergency water cleanup in Kahala, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup kahala",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/kahala-hi/",
-        "/service-areas/kahala-hi/mold-remediation/",
-        "/service-areas/kahala-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3563,51 +3421,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/aina-haina-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Aina Haina, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Aina Haina",
-      "meta_description": "24/7 emergency water cleanup in Aina Haina, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup aina haina",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/aina-haina-hi/",
-        "/service-areas/aina-haina-hi/mold-remediation/",
-        "/service-areas/aina-haina-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/diamond-head-hi/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/kaimuki-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4044,51 +3857,6 @@
         "/service-areas/kaimuki-hi/water-damage-restoration/",
         "/service-areas/aiea-hi/commercial-restoration/",
         "/service-areas/aina-haina-hi/commercial-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/kaimuki-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Kaimuki, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Kaimuki",
-      "meta_description": "24/7 emergency water cleanup in Kaimuki, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup kaimuki",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/kaimuki-hi/",
-        "/service-areas/kaimuki-hi/mold-remediation/",
-        "/service-areas/kaimuki-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4533,51 +4301,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/diamond-head-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Diamond Head, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Diamond Head",
-      "meta_description": "24/7 emergency water cleanup in Diamond Head, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup diamond head",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/diamond-head-hi/",
-        "/service-areas/diamond-head-hi/mold-remediation/",
-        "/service-areas/diamond-head-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/kailua-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5014,51 +4737,6 @@
         "/service-areas/kailua-hi/water-damage-restoration/",
         "/service-areas/aiea-hi/commercial-restoration/",
         "/service-areas/aina-haina-hi/commercial-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/kailua-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Kailua, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Kailua",
-      "meta_description": "24/7 emergency water cleanup in Kailua, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup kailua",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/kailua-hi/",
-        "/service-areas/kailua-hi/mold-remediation/",
-        "/service-areas/kailua-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5503,51 +5181,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/kaneohe-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Kaneohe, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Kaneohe",
-      "meta_description": "24/7 emergency water cleanup in Kaneohe, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup kaneohe",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/kaneohe-hi/",
-        "/service-areas/kaneohe-hi/mold-remediation/",
-        "/service-areas/kaneohe-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/pearl-city-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5984,51 +5617,6 @@
         "/service-areas/pearl-city-hi/water-damage-restoration/",
         "/service-areas/aiea-hi/commercial-restoration/",
         "/service-areas/aina-haina-hi/commercial-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pearl-city-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Pearl City, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Pearl City",
-      "meta_description": "24/7 emergency water cleanup in Pearl City, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup pearl city",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/pearl-city-hi/",
-        "/service-areas/pearl-city-hi/mold-remediation/",
-        "/service-areas/pearl-city-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
         "/contact/"
       ]
     },
@@ -6473,51 +6061,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/aiea-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Aiea, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Aiea",
-      "meta_description": "24/7 emergency water cleanup in Aiea, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup aiea",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/aiea-hi/",
-        "/service-areas/aiea-hi/mold-remediation/",
-        "/service-areas/aiea-hi/water-damage-restoration/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
-        "/service-areas/diamond-head-hi/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ewa-beach-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6954,51 +6497,6 @@
         "/service-areas/ewa-beach-hi/water-damage-restoration/",
         "/service-areas/aiea-hi/commercial-restoration/",
         "/service-areas/aina-haina-hi/commercial-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/ewa-beach-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Ewa Beach, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Ewa Beach",
-      "meta_description": "24/7 emergency water cleanup in Ewa Beach, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup ewa beach",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/ewa-beach-hi/",
-        "/service-areas/ewa-beach-hi/mold-remediation/",
-        "/service-areas/ewa-beach-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
         "/contact/"
       ]
     },
@@ -7443,51 +6941,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/kapolei-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Kapolei",
-      "meta_description": "24/7 emergency water cleanup in Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup kapolei",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/kapolei-hi/",
-        "/service-areas/kapolei-hi/mold-remediation/",
-        "/service-areas/kapolei-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mililani-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7924,51 +7377,6 @@
         "/service-areas/mililani-hi/water-damage-restoration/",
         "/service-areas/aiea-hi/commercial-restoration/",
         "/service-areas/aina-haina-hi/commercial-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mililani-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Mililani, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Mililani",
-      "meta_description": "24/7 emergency water cleanup in Mililani, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup mililani",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/mililani-hi/",
-        "/service-areas/mililani-hi/mold-remediation/",
-        "/service-areas/mililani-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
         "/contact/"
       ]
     },
@@ -8413,51 +7821,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/urban-honolulu-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Urban Honolulu, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Urban Honolulu",
-      "meta_description": "24/7 emergency water cleanup in Urban Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup urban honolulu",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/urban-honolulu-hi/",
-        "/service-areas/urban-honolulu-hi/mold-remediation/",
-        "/service-areas/urban-honolulu-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hickam-housing-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8894,51 +8257,6 @@
         "/service-areas/hickam-housing-hi/water-damage-restoration/",
         "/service-areas/aiea-hi/commercial-restoration/",
         "/service-areas/aina-haina-hi/commercial-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hickam-housing-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Hickam Housing, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Hickam Housing",
-      "meta_description": "24/7 emergency water cleanup in Hickam Housing, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup hickam housing",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/hickam-housing-hi/",
-        "/service-areas/hickam-housing-hi/mold-remediation/",
-        "/service-areas/hickam-housing-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
         "/contact/"
       ]
     },
@@ -9383,51 +8701,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/east-honolulu-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in East Honolulu, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in East Honolulu",
-      "meta_description": "24/7 emergency water cleanup in East Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup east honolulu",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/east-honolulu-hi/",
-        "/service-areas/east-honolulu-hi/mold-remediation/",
-        "/service-areas/east-honolulu-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/waimanalo-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9864,51 +9137,6 @@
         "/service-areas/waimanalo-hi/water-damage-restoration/",
         "/service-areas/aiea-hi/commercial-restoration/",
         "/service-areas/aina-haina-hi/commercial-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/waimanalo-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Waimanalo, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Waimanalo",
-      "meta_description": "24/7 emergency water cleanup in Waimanalo, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup waimanalo",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/waimanalo-hi/",
-        "/service-areas/waimanalo-hi/mold-remediation/",
-        "/service-areas/waimanalo-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
         "/contact/"
       ]
     },
@@ -10353,51 +9581,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/heeia-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Heeia, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Heeia",
-      "meta_description": "24/7 emergency water cleanup in Heeia, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup heeia",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/heeia-hi/",
-        "/service-areas/heeia-hi/mold-remediation/",
-        "/service-areas/heeia-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/kahaluu-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10834,51 +10017,6 @@
         "/service-areas/kahaluu-hi/water-damage-restoration/",
         "/service-areas/aiea-hi/commercial-restoration/",
         "/service-areas/aina-haina-hi/commercial-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/kahaluu-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Kahaluu, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Kahaluu",
-      "meta_description": "24/7 emergency water cleanup in Kahaluu, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup kahaluu",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/kahaluu-hi/",
-        "/service-areas/kahaluu-hi/mold-remediation/",
-        "/service-areas/kahaluu-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
         "/contact/"
       ]
     },
@@ -11323,51 +10461,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/kaneohe-base-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Kaneohe Base, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Kaneohe Base",
-      "meta_description": "24/7 emergency water cleanup in Kaneohe Base, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup kaneohe base",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/kaneohe-base-hi/",
-        "/service-areas/kaneohe-base-hi/mold-remediation/",
-        "/service-areas/kaneohe-base-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/east-kapolei-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11804,51 +10897,6 @@
         "/service-areas/east-kapolei-hi/water-damage-restoration/",
         "/service-areas/aiea-hi/commercial-restoration/",
         "/service-areas/aina-haina-hi/commercial-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/east-kapolei-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in East Kapolei",
-      "meta_description": "24/7 emergency water cleanup in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup east kapolei",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/east-kapolei-hi/",
-        "/service-areas/east-kapolei-hi/mold-remediation/",
-        "/service-areas/east-kapolei-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
         "/contact/"
       ]
     },
@@ -12293,51 +11341,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/waiahole-waikane-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Waiahole-Waikane, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Waiahole-Waikane",
-      "meta_description": "24/7 emergency water cleanup in Waiahole-Waikane, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup waiahole-waikane",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/waiahole-waikane-hi/",
-        "/service-areas/waiahole-waikane-hi/mold-remediation/",
-        "/service-areas/waiahole-waikane-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/kalaeloa-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12774,51 +11777,6 @@
         "/service-areas/kalaeloa-hi/water-damage-restoration/",
         "/service-areas/aiea-hi/commercial-restoration/",
         "/service-areas/aina-haina-hi/commercial-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/kalaeloa-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Kalaeloa",
-      "meta_description": "24/7 emergency water cleanup in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup kalaeloa",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/kalaeloa-hi/",
-        "/service-areas/kalaeloa-hi/mold-remediation/",
-        "/service-areas/kalaeloa-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
         "/contact/"
       ]
     },
@@ -13263,51 +12221,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mililani-town-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Mililani Town, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Mililani Town",
-      "meta_description": "24/7 emergency water cleanup in Mililani Town, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup mililani town",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/mililani-town-hi/",
-        "/service-areas/mililani-town-hi/mold-remediation/",
-        "/service-areas/mililani-town-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/royal-kunia-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13744,51 +12657,6 @@
         "/service-areas/royal-kunia-hi/water-damage-restoration/",
         "/service-areas/aiea-hi/commercial-restoration/",
         "/service-areas/aina-haina-hi/commercial-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/royal-kunia-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Royal Kunia",
-      "meta_description": "24/7 emergency water cleanup in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup royal kunia",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/royal-kunia-hi/",
-        "/service-areas/royal-kunia-hi/mold-remediation/",
-        "/service-areas/royal-kunia-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
         "/contact/"
       ]
     },
@@ -14233,51 +13101,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mililani-mauka-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Mililani Mauka, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Mililani Mauka",
-      "meta_description": "24/7 emergency water cleanup in Mililani Mauka, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup mililani mauka",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/mililani-mauka-hi/",
-        "/service-areas/mililani-mauka-hi/mold-remediation/",
-        "/service-areas/mililani-mauka-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/makakilo-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14718,51 +13541,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/makakilo-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Makakilo, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Makakilo",
-      "meta_description": "24/7 emergency water cleanup in Makakilo, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup makakilo",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/makakilo-hi/",
-        "/service-areas/makakilo-hi/mold-remediation/",
-        "/service-areas/makakilo-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/waianae-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15199,51 +13977,6 @@
         "/service-areas/waianae-hi/water-damage-restoration/",
         "/service-areas/aiea-hi/commercial-restoration/",
         "/service-areas/aina-haina-hi/commercial-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/waianae-hi/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Waianae, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Emergency Water Cleanup in Waianae",
-      "meta_description": "24/7 emergency water cleanup in Waianae, HI. Insurance billing accepted. Call (808) 349-3407.",
-      "primary_keyword": "emergency water cleanup waianae",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/waianae-hi/",
-        "/service-areas/waianae-hi/mold-remediation/",
-        "/service-areas/waianae-hi/water-damage-restoration/",
-        "/service-areas/aiea-hi/water-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
         "/contact/"
       ]
     },

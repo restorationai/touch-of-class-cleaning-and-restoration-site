@@ -34,7 +34,7 @@
   "services": [
     "water-damage-restoration",
     "sewage-cleanup",
-    "water-cleanup",
+    "emergency-water-removal",
     "fire-damage-restoration",
     "content-recovery",
     "emergency-board-up",
@@ -105,6 +105,6 @@
     "ice-dams"
   ],
   "merged_services": {
-    "emergency-water-removal": "water-damage-restoration"
+    "water-cleanup": "emergency-water-removal"
   }
 }

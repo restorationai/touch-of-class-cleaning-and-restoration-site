@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "f9cde2962a7c192d"
 generated_at: "2026-09-23T14:11:52.226992+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/nellis-afb-nv/fire-damage-restoration/", "/service-areas/nellis-afb-nv/mold-remediation/", "/service-areas/nellis-afb-nv/water-damage-restoration/", "/service-areas/nellis-afb-nv/sewage-cleanup/", "/service-areas/nellis-afb-nv/storm-damage-restoration/", "/service-areas/nellis-afb-nv/water-cleanup/", "/service-areas/nellis-afb-nv/biohazard-cleanup/", "/service-areas/nellis-afb-nv/odor-removal/", "/service-areas/nellis-afb-nv/contents-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/nellis-afb-nv/fire-damage-restoration/", "/service-areas/nellis-afb-nv/mold-remediation/", "/service-areas/nellis-afb-nv/water-damage-restoration/", "/service-areas/nellis-afb-nv/sewage-cleanup/", "/service-areas/nellis-afb-nv/storm-damage-restoration/", "/service-areas/nellis-afb-nv/emergency-water-removal/", "/service-areas/nellis-afb-nv/biohazard-cleanup/", "/service-areas/nellis-afb-nv/odor-removal/", "/service-areas/nellis-afb-nv/contents-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nellis AFB"}]
 faq: []
 area_slug: "nellis-afb-nv"

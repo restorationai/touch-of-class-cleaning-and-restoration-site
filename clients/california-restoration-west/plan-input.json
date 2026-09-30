@@ -36,7 +36,7 @@
     "mold-remediation",
     "odor-removal",
     "storm-damage-restoration",
-    "water-cleanup",
+    "emergency-water-removal",
     "water-damage-restoration"
   ],
   "service_areas": [
@@ -157,6 +157,7 @@
     "crawl-space-encapsulation"
   ],
   "merged_services": {
-    "contents-restoration-storage": "contents-restoration"
+    "contents-restoration-storage": "contents-restoration",
+    "water-cleanup": "emergency-water-removal"
   }
 }

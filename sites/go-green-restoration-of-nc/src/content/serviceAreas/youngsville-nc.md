@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "e80759cca4b1c080"
 generated_at: "2026-09-23T14:11:44.812744+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/youngsville-nc/fire-damage-restoration/", "/service-areas/youngsville-nc/mold-remediation/", "/service-areas/youngsville-nc/water-damage-restoration/", "/service-areas/youngsville-nc/water-cleanup/", "/service-areas/youngsville-nc/biohazard-cleanup/", "/service-areas/youngsville-nc/odor-removal/", "/service-areas/youngsville-nc/air-duct-cleaning/", "/service-areas/youngsville-nc/crawl-space-encapsulation/", "/service-areas/youngsville-nc/insulation-removal-installation/", "/service-areas/youngsville-nc/carpet-cleaning/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/youngsville-nc/fire-damage-restoration/", "/service-areas/youngsville-nc/mold-remediation/", "/service-areas/youngsville-nc/water-damage-restoration/", "/service-areas/youngsville-nc/emergency-water-removal/", "/service-areas/youngsville-nc/biohazard-cleanup/", "/service-areas/youngsville-nc/odor-removal/", "/service-areas/youngsville-nc/air-duct-cleaning/", "/service-areas/youngsville-nc/crawl-space-encapsulation/", "/service-areas/youngsville-nc/insulation-removal-installation/", "/service-areas/youngsville-nc/carpet-cleaning/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Youngsville"}]
 faq: []
 area_slug: "youngsville-nc"

@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "62f7b4b9375da51d"
 generated_at: "2026-09-20T14:13:20.063410+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/ponce-de-leon-fl/fire-damage-restoration/", "/service-areas/ponce-de-leon-fl/mold-remediation/", "/service-areas/ponce-de-leon-fl/water-damage-restoration/", "/service-areas/ponce-de-leon-fl/storm-damage-restoration/", "/service-areas/ponce-de-leon-fl/water-cleanup/", "/service-areas/crestview-fl/", "/service-areas/defuniak-springs-fl/", "/service-areas/destin-fl/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/ponce-de-leon-fl/fire-damage-restoration/", "/service-areas/ponce-de-leon-fl/mold-remediation/", "/service-areas/ponce-de-leon-fl/water-damage-restoration/", "/service-areas/ponce-de-leon-fl/storm-damage-restoration/", "/service-areas/ponce-de-leon-fl/emergency-water-removal/", "/service-areas/crestview-fl/", "/service-areas/defuniak-springs-fl/", "/service-areas/destin-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ponce de Leon"}]
 faq: []
 area_slug: "ponce-de-leon-fl"

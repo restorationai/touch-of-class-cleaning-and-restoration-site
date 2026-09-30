@@ -44,7 +44,7 @@
     "post-construction-cleaning",
     "sewage-cleanup",
     "storm-damage-restoration",
-    "water-cleanup",
+    "emergency-water-removal",
     "water-damage-restoration",
     "appliance-leak-cleanup",
     "blood-cleanup",
@@ -603,7 +603,7 @@
     "burst-pipe-water-damage-cleanup": "burst-pipe-repair",
     "category-3-water-cleanup": "sewage-cleanup",
     "emergency-board-ups": "emergency-board-up",
-    "emergency-water-removal": "water-damage-restoration",
+    "water-cleanup": "emergency-water-removal",
     "water-heater-flood-cleanup": "appliance-leak-cleanup"
   }
 }

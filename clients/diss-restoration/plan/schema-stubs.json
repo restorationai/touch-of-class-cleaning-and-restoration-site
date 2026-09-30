@@ -188,16 +188,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/water-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -648,16 +638,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/warren-oh/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/warren-oh/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -919,16 +899,6 @@
     "missing_stubs": []
   },
   "/service-areas/boardman-oh/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/boardman-oh/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1208,16 +1178,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/austintown-oh/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/austintown-oh/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1479,16 +1439,6 @@
     "missing_stubs": []
   },
   "/service-areas/niles-oh/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/niles-oh/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1768,16 +1718,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/girard-oh/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/girard-oh/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2039,16 +1979,6 @@
     "missing_stubs": []
   },
   "/service-areas/struthers-oh/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/struthers-oh/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2328,16 +2258,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/canfield-oh/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/canfield-oh/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2599,16 +2519,6 @@
     "missing_stubs": []
   },
   "/service-areas/hubbard-oh/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hubbard-oh/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2888,16 +2798,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/campbell-oh/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/campbell-oh/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3159,16 +3059,6 @@
     "missing_stubs": []
   },
   "/service-areas/mineral-ridge-oh/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mineral-ridge-oh/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3448,16 +3338,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/farrell-pa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/farrell-pa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3719,16 +3599,6 @@
     "missing_stubs": []
   },
   "/service-areas/sharon-pa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sharon-pa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4008,16 +3878,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hermitage-pa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hermitage-pa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4279,16 +4139,6 @@
     "missing_stubs": []
   },
   "/service-areas/sharpsville-pa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sharpsville-pa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4568,16 +4418,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wheatland-pa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wheatland-pa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4839,16 +4679,6 @@
     "missing_stubs": []
   },
   "/service-areas/west-middlesex-pa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/west-middlesex-pa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5128,16 +4958,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/greenville-pa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/greenville-pa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5399,16 +5219,6 @@
     "missing_stubs": []
   },
   "/service-areas/grove-city-pa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/grove-city-pa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5688,16 +5498,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mercer-pa/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mercer-pa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5959,16 +5759,6 @@
     "missing_stubs": []
   },
   "/service-areas/new-castle-pa/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-castle-pa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

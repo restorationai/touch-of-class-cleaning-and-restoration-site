@@ -64,7 +64,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Post-Construction and Specialty Cleaning](https://aircarerestoration.com/services/post-construction-cleaning/)
 - [Sewage Cleanup and Sanitization](https://aircarerestoration.com/services/sewage-cleanup/)
 - [Storm Damage Restoration](https://aircarerestoration.com/services/storm-damage-restoration/)
-- [Emergency Water Cleanup](https://aircarerestoration.com/services/water-cleanup/)
+- [Emergency Water Cleanup](https://aircarerestoration.com/services/emergency-water-removal/)
 - [Water Damage Restoration](https://aircarerestoration.com/services/water-damage-restoration/)
 
 ### Service area pages

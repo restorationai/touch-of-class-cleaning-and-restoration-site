@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "d4323596044a2872"
 generated_at: "2026-09-23T14:12:04.434046+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/union-valley-tx/fire-damage-restoration/", "/service-areas/union-valley-tx/mold-remediation/", "/service-areas/union-valley-tx/roofing/", "/service-areas/union-valley-tx/water-damage-restoration/", "/service-areas/union-valley-tx/storm-damage-restoration/", "/service-areas/union-valley-tx/water-cleanup/", "/service-areas/union-valley-tx/general-contracting/", "/service-areas/union-valley-tx/odor-removal/", "/service-areas/union-valley-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/union-valley-tx/fire-damage-restoration/", "/service-areas/union-valley-tx/mold-remediation/", "/service-areas/union-valley-tx/roofing/", "/service-areas/union-valley-tx/water-damage-restoration/", "/service-areas/union-valley-tx/storm-damage-restoration/", "/service-areas/union-valley-tx/emergency-water-removal/", "/service-areas/union-valley-tx/general-contracting/", "/service-areas/union-valley-tx/odor-removal/", "/service-areas/union-valley-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Union Valley"}]
 faq: []
 area_slug: "union-valley-tx"

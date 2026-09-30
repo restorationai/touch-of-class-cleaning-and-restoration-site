@@ -56,7 +56,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Water Damage Restoration](https://drybros.com/services/water-damage-restoration/)
 - [Fire Damage Restoration](https://drybros.com/services/fire-damage-restoration/)
 - [Mold Remediation](https://drybros.com/services/mold-remediation/)
-- [Emergency Water Cleanup](https://drybros.com/services/water-cleanup/)
+- [Emergency Water Cleanup](https://drybros.com/services/emergency-water-removal/)
 - [Flood Damage Restoration](https://drybros.com/services/flood-damage-restoration/)
 - [Burst Pipe Cleanup and Repair](https://drybros.com/services/burst-pipe-repair/)
 - [Basement Flooding Cleanup](https://drybros.com/services/basement-flooding-cleanup/)

@@ -36,7 +36,7 @@
     "flood water cleanup",
     "standing water removal"
    ],
-   "tier": "core",
+   "tier": "adjacent",
    "priority": 9
   },
   {
@@ -921,17 +921,18 @@
   },
   {
    "slug": "emergency-water-removal",
-   "display_name": "24/7 Emergency Water Removal",
+   "display_name": "Emergency Water Removal & Cleanup",
    "short_name": "Emergency Water Removal",
    "primary_intent": "local_emergency",
    "secondary_keywords": [
     "emergency water removal",
-    "emergency water damage",
-    "24 hour water damage restoration",
-    "emergency flood service",
-    "emergency water extraction"
+    "water extraction",
+    "water removal",
+    "water cleanup",
+    "emergency water cleanup",
+    "standing water removal"
    ],
-   "tier": "adjacent",
+   "tier": "core",
    "priority": 9
   },
   {

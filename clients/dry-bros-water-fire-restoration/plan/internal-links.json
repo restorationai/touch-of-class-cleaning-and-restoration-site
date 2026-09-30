@@ -11,7 +11,6 @@
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/basement-flooding-cleanup/",
     "/services/burst-pipe-repair/",
     "/services/emergency-board-up-tarping/",
@@ -48,7 +47,6 @@
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/basement-flooding-cleanup/",
     "/services/burst-pipe-repair/",
     "/services/emergency-board-up-tarping/",
@@ -115,7 +113,6 @@
     "/service-areas/forest-park-il/water-damage-restoration/",
     "/service-areas/lincolnwood-il/water-damage-restoration/",
     "/service-areas/lyons-il/water-damage-restoration/",
-    "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
@@ -156,23 +153,6 @@
     "/blog/choosing-a-restoration-company/",
     "/blog/how-to-test-for-mold/",
     "/blog/signs-of-hidden-mold/"
-  ],
-  "/services/water-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
-    "/service-areas/brookfield-il/water-cleanup/",
-    "/service-areas/burbank-il/water-cleanup/",
-    "/service-areas/cicero-il/water-cleanup/",
-    "/service-areas/des-plaines-il/water-cleanup/",
-    "/service-areas/elmwood-park-il/water-cleanup/",
-    "/service-areas/evanston-il/water-cleanup/",
-    "/service-areas/evergreen-park-il/water-cleanup/",
-    "/service-areas/forest-park-il/water-cleanup/",
-    "/service-areas/lincolnwood-il/water-cleanup/",
-    "/service-areas/lyons-il/water-cleanup/",
-    "/services/water-damage-restoration/"
   ],
   "/services/flood-damage-restoration/": [
     "/services/",
@@ -329,7 +309,6 @@
     "/service-areas/naperville-il/sewage-cleanup/",
     "/service-areas/naperville-il/smoke-damage-restoration/",
     "/service-areas/naperville-il/storm-damage-restoration/",
-    "/service-areas/naperville-il/water-cleanup/",
     "/service-areas/naperville-il/basement-flooding-cleanup/",
     "/service-areas/naperville-il/burst-pipe-repair/",
     "/service-areas/naperville-il/emergency-board-up-tarping/",
@@ -349,7 +328,6 @@
     "/service-areas/cicero-il/sewage-cleanup/",
     "/service-areas/cicero-il/smoke-damage-restoration/",
     "/service-areas/cicero-il/storm-damage-restoration/",
-    "/service-areas/cicero-il/water-cleanup/",
     "/service-areas/cicero-il/basement-flooding-cleanup/",
     "/service-areas/cicero-il/burst-pipe-repair/",
     "/service-areas/cicero-il/emergency-board-up-tarping/",
@@ -369,7 +347,6 @@
     "/service-areas/evanston-il/sewage-cleanup/",
     "/service-areas/evanston-il/smoke-damage-restoration/",
     "/service-areas/evanston-il/storm-damage-restoration/",
-    "/service-areas/evanston-il/water-cleanup/",
     "/service-areas/evanston-il/basement-flooding-cleanup/",
     "/service-areas/evanston-il/burst-pipe-repair/",
     "/service-areas/evanston-il/emergency-board-up-tarping/",
@@ -389,7 +366,6 @@
     "/service-areas/oak-park-il/sewage-cleanup/",
     "/service-areas/oak-park-il/smoke-damage-restoration/",
     "/service-areas/oak-park-il/storm-damage-restoration/",
-    "/service-areas/oak-park-il/water-cleanup/",
     "/service-areas/oak-park-il/basement-flooding-cleanup/",
     "/service-areas/oak-park-il/burst-pipe-repair/",
     "/service-areas/oak-park-il/emergency-board-up-tarping/",
@@ -409,7 +385,6 @@
     "/service-areas/skokie-il/sewage-cleanup/",
     "/service-areas/skokie-il/smoke-damage-restoration/",
     "/service-areas/skokie-il/storm-damage-restoration/",
-    "/service-areas/skokie-il/water-cleanup/",
     "/service-areas/skokie-il/basement-flooding-cleanup/",
     "/service-areas/skokie-il/burst-pipe-repair/",
     "/service-areas/skokie-il/emergency-board-up-tarping/",
@@ -429,7 +404,6 @@
     "/service-areas/berwyn-il/sewage-cleanup/",
     "/service-areas/berwyn-il/smoke-damage-restoration/",
     "/service-areas/berwyn-il/storm-damage-restoration/",
-    "/service-areas/berwyn-il/water-cleanup/",
     "/service-areas/berwyn-il/basement-flooding-cleanup/",
     "/service-areas/berwyn-il/burst-pipe-repair/",
     "/service-areas/berwyn-il/emergency-board-up-tarping/",
@@ -449,7 +423,6 @@
     "/service-areas/des-plaines-il/sewage-cleanup/",
     "/service-areas/des-plaines-il/smoke-damage-restoration/",
     "/service-areas/des-plaines-il/storm-damage-restoration/",
-    "/service-areas/des-plaines-il/water-cleanup/",
     "/service-areas/des-plaines-il/basement-flooding-cleanup/",
     "/service-areas/des-plaines-il/burst-pipe-repair/",
     "/service-areas/des-plaines-il/emergency-board-up-tarping/",
@@ -469,7 +442,6 @@
     "/service-areas/stickney-il/sewage-cleanup/",
     "/service-areas/stickney-il/smoke-damage-restoration/",
     "/service-areas/stickney-il/storm-damage-restoration/",
-    "/service-areas/stickney-il/water-cleanup/",
     "/service-areas/stickney-il/basement-flooding-cleanup/",
     "/service-areas/stickney-il/burst-pipe-repair/",
     "/service-areas/stickney-il/emergency-board-up-tarping/",
@@ -489,7 +461,6 @@
     "/service-areas/bedford-park-il/sewage-cleanup/",
     "/service-areas/bedford-park-il/smoke-damage-restoration/",
     "/service-areas/bedford-park-il/storm-damage-restoration/",
-    "/service-areas/bedford-park-il/water-cleanup/",
     "/service-areas/bedford-park-il/basement-flooding-cleanup/",
     "/service-areas/bedford-park-il/burst-pipe-repair/",
     "/service-areas/bedford-park-il/emergency-board-up-tarping/",
@@ -509,7 +480,6 @@
     "/service-areas/lincolnwood-il/sewage-cleanup/",
     "/service-areas/lincolnwood-il/smoke-damage-restoration/",
     "/service-areas/lincolnwood-il/storm-damage-restoration/",
-    "/service-areas/lincolnwood-il/water-cleanup/",
     "/service-areas/lincolnwood-il/basement-flooding-cleanup/",
     "/service-areas/lincolnwood-il/burst-pipe-repair/",
     "/service-areas/lincolnwood-il/emergency-board-up-tarping/",
@@ -529,7 +499,6 @@
     "/service-areas/river-forest-il/sewage-cleanup/",
     "/service-areas/river-forest-il/smoke-damage-restoration/",
     "/service-areas/river-forest-il/storm-damage-restoration/",
-    "/service-areas/river-forest-il/water-cleanup/",
     "/service-areas/river-forest-il/basement-flooding-cleanup/",
     "/service-areas/river-forest-il/burst-pipe-repair/",
     "/service-areas/river-forest-il/emergency-board-up-tarping/",
@@ -549,7 +518,6 @@
     "/service-areas/forest-park-il/sewage-cleanup/",
     "/service-areas/forest-park-il/smoke-damage-restoration/",
     "/service-areas/forest-park-il/storm-damage-restoration/",
-    "/service-areas/forest-park-il/water-cleanup/",
     "/service-areas/forest-park-il/basement-flooding-cleanup/",
     "/service-areas/forest-park-il/burst-pipe-repair/",
     "/service-areas/forest-park-il/emergency-board-up-tarping/",
@@ -569,7 +537,6 @@
     "/service-areas/lyons-il/sewage-cleanup/",
     "/service-areas/lyons-il/smoke-damage-restoration/",
     "/service-areas/lyons-il/storm-damage-restoration/",
-    "/service-areas/lyons-il/water-cleanup/",
     "/service-areas/lyons-il/basement-flooding-cleanup/",
     "/service-areas/lyons-il/burst-pipe-repair/",
     "/service-areas/lyons-il/emergency-board-up-tarping/",
@@ -589,7 +556,6 @@
     "/service-areas/riverside-il/sewage-cleanup/",
     "/service-areas/riverside-il/smoke-damage-restoration/",
     "/service-areas/riverside-il/storm-damage-restoration/",
-    "/service-areas/riverside-il/water-cleanup/",
     "/service-areas/riverside-il/basement-flooding-cleanup/",
     "/service-areas/riverside-il/burst-pipe-repair/",
     "/service-areas/riverside-il/emergency-board-up-tarping/",
@@ -609,7 +575,6 @@
     "/service-areas/elmwood-park-il/sewage-cleanup/",
     "/service-areas/elmwood-park-il/smoke-damage-restoration/",
     "/service-areas/elmwood-park-il/storm-damage-restoration/",
-    "/service-areas/elmwood-park-il/water-cleanup/",
     "/service-areas/elmwood-park-il/basement-flooding-cleanup/",
     "/service-areas/elmwood-park-il/burst-pipe-repair/",
     "/service-areas/elmwood-park-il/emergency-board-up-tarping/",
@@ -629,7 +594,6 @@
     "/service-areas/north-riverside-il/sewage-cleanup/",
     "/service-areas/north-riverside-il/smoke-damage-restoration/",
     "/service-areas/north-riverside-il/storm-damage-restoration/",
-    "/service-areas/north-riverside-il/water-cleanup/",
     "/service-areas/north-riverside-il/basement-flooding-cleanup/",
     "/service-areas/north-riverside-il/burst-pipe-repair/",
     "/service-areas/north-riverside-il/emergency-board-up-tarping/",
@@ -649,7 +613,6 @@
     "/service-areas/melrose-park-il/sewage-cleanup/",
     "/service-areas/melrose-park-il/smoke-damage-restoration/",
     "/service-areas/melrose-park-il/storm-damage-restoration/",
-    "/service-areas/melrose-park-il/water-cleanup/",
     "/service-areas/melrose-park-il/basement-flooding-cleanup/",
     "/service-areas/melrose-park-il/burst-pipe-repair/",
     "/service-areas/melrose-park-il/emergency-board-up-tarping/",
@@ -669,7 +632,6 @@
     "/service-areas/burbank-il/sewage-cleanup/",
     "/service-areas/burbank-il/smoke-damage-restoration/",
     "/service-areas/burbank-il/storm-damage-restoration/",
-    "/service-areas/burbank-il/water-cleanup/",
     "/service-areas/burbank-il/basement-flooding-cleanup/",
     "/service-areas/burbank-il/burst-pipe-repair/",
     "/service-areas/burbank-il/emergency-board-up-tarping/",
@@ -689,7 +651,6 @@
     "/service-areas/evergreen-park-il/sewage-cleanup/",
     "/service-areas/evergreen-park-il/smoke-damage-restoration/",
     "/service-areas/evergreen-park-il/storm-damage-restoration/",
-    "/service-areas/evergreen-park-il/water-cleanup/",
     "/service-areas/evergreen-park-il/basement-flooding-cleanup/",
     "/service-areas/evergreen-park-il/burst-pipe-repair/",
     "/service-areas/evergreen-park-il/emergency-board-up-tarping/",
@@ -709,7 +670,6 @@
     "/service-areas/brookfield-il/sewage-cleanup/",
     "/service-areas/brookfield-il/smoke-damage-restoration/",
     "/service-areas/brookfield-il/storm-damage-restoration/",
-    "/service-areas/brookfield-il/water-cleanup/",
     "/service-areas/brookfield-il/basement-flooding-cleanup/",
     "/service-areas/brookfield-il/burst-pipe-repair/",
     "/service-areas/brookfield-il/emergency-board-up-tarping/",
@@ -729,7 +689,6 @@
     "/service-areas/maywood-il/sewage-cleanup/",
     "/service-areas/maywood-il/smoke-damage-restoration/",
     "/service-areas/maywood-il/storm-damage-restoration/",
-    "/service-areas/maywood-il/water-cleanup/",
     "/service-areas/maywood-il/basement-flooding-cleanup/",
     "/service-areas/maywood-il/burst-pipe-repair/",
     "/service-areas/maywood-il/emergency-board-up-tarping/",
@@ -764,15 +723,6 @@
     "/service-areas/naperville-il/water-damage-restoration/",
     "/service-areas/bedford-park-il/mold-remediation/",
     "/service-areas/berwyn-il/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/naperville-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/naperville-il/",
-    "/service-areas/naperville-il/fire-damage-restoration/",
-    "/service-areas/naperville-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/naperville-il/flood-damage-restoration/": [
@@ -883,15 +833,6 @@
     "/service-areas/berwyn-il/mold-remediation/",
     "/contact/"
   ],
-  "/service-areas/cicero-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/cicero-il/",
-    "/service-areas/cicero-il/fire-damage-restoration/",
-    "/service-areas/cicero-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/cicero-il/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/cicero-il/",
@@ -998,15 +939,6 @@
     "/service-areas/evanston-il/water-damage-restoration/",
     "/service-areas/bedford-park-il/mold-remediation/",
     "/service-areas/berwyn-il/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/evanston-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/evanston-il/",
-    "/service-areas/evanston-il/fire-damage-restoration/",
-    "/service-areas/evanston-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/evanston-il/flood-damage-restoration/": [
@@ -1117,15 +1049,6 @@
     "/service-areas/berwyn-il/mold-remediation/",
     "/contact/"
   ],
-  "/service-areas/oak-park-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/oak-park-il/",
-    "/service-areas/oak-park-il/fire-damage-restoration/",
-    "/service-areas/oak-park-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/oak-park-il/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/oak-park-il/",
@@ -1232,15 +1155,6 @@
     "/service-areas/skokie-il/water-damage-restoration/",
     "/service-areas/bedford-park-il/mold-remediation/",
     "/service-areas/berwyn-il/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/skokie-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/skokie-il/",
-    "/service-areas/skokie-il/fire-damage-restoration/",
-    "/service-areas/skokie-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/skokie-il/flood-damage-restoration/": [
@@ -1351,15 +1265,6 @@
     "/service-areas/brookfield-il/mold-remediation/",
     "/contact/"
   ],
-  "/service-areas/berwyn-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/berwyn-il/",
-    "/service-areas/berwyn-il/fire-damage-restoration/",
-    "/service-areas/berwyn-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/brookfield-il/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/berwyn-il/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/berwyn-il/",
@@ -1466,15 +1371,6 @@
     "/service-areas/des-plaines-il/water-damage-restoration/",
     "/service-areas/bedford-park-il/mold-remediation/",
     "/service-areas/berwyn-il/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/des-plaines-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/des-plaines-il/",
-    "/service-areas/des-plaines-il/fire-damage-restoration/",
-    "/service-areas/des-plaines-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/des-plaines-il/flood-damage-restoration/": [
@@ -1585,15 +1481,6 @@
     "/service-areas/berwyn-il/mold-remediation/",
     "/contact/"
   ],
-  "/service-areas/stickney-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/stickney-il/",
-    "/service-areas/stickney-il/fire-damage-restoration/",
-    "/service-areas/stickney-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/stickney-il/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/stickney-il/",
@@ -1700,15 +1587,6 @@
     "/service-areas/bedford-park-il/water-damage-restoration/",
     "/service-areas/berwyn-il/mold-remediation/",
     "/service-areas/brookfield-il/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/bedford-park-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/bedford-park-il/",
-    "/service-areas/bedford-park-il/fire-damage-restoration/",
-    "/service-areas/bedford-park-il/mold-remediation/",
-    "/service-areas/berwyn-il/water-cleanup/",
-    "/service-areas/brookfield-il/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/bedford-park-il/flood-damage-restoration/": [
@@ -1819,15 +1697,6 @@
     "/service-areas/berwyn-il/mold-remediation/",
     "/contact/"
   ],
-  "/service-areas/lincolnwood-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/lincolnwood-il/",
-    "/service-areas/lincolnwood-il/fire-damage-restoration/",
-    "/service-areas/lincolnwood-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/lincolnwood-il/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/lincolnwood-il/",
@@ -1934,15 +1803,6 @@
     "/service-areas/river-forest-il/water-damage-restoration/",
     "/service-areas/bedford-park-il/mold-remediation/",
     "/service-areas/berwyn-il/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/river-forest-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/river-forest-il/",
-    "/service-areas/river-forest-il/fire-damage-restoration/",
-    "/service-areas/river-forest-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/river-forest-il/flood-damage-restoration/": [
@@ -2053,15 +1913,6 @@
     "/service-areas/berwyn-il/mold-remediation/",
     "/contact/"
   ],
-  "/service-areas/forest-park-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/forest-park-il/",
-    "/service-areas/forest-park-il/fire-damage-restoration/",
-    "/service-areas/forest-park-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/forest-park-il/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/forest-park-il/",
@@ -2168,15 +2019,6 @@
     "/service-areas/lyons-il/water-damage-restoration/",
     "/service-areas/bedford-park-il/mold-remediation/",
     "/service-areas/berwyn-il/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/lyons-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/lyons-il/",
-    "/service-areas/lyons-il/fire-damage-restoration/",
-    "/service-areas/lyons-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/lyons-il/flood-damage-restoration/": [
@@ -2287,15 +2129,6 @@
     "/service-areas/berwyn-il/mold-remediation/",
     "/contact/"
   ],
-  "/service-areas/riverside-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/riverside-il/",
-    "/service-areas/riverside-il/fire-damage-restoration/",
-    "/service-areas/riverside-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/riverside-il/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/riverside-il/",
@@ -2402,15 +2235,6 @@
     "/service-areas/elmwood-park-il/water-damage-restoration/",
     "/service-areas/bedford-park-il/mold-remediation/",
     "/service-areas/berwyn-il/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/elmwood-park-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/elmwood-park-il/",
-    "/service-areas/elmwood-park-il/fire-damage-restoration/",
-    "/service-areas/elmwood-park-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/elmwood-park-il/flood-damage-restoration/": [
@@ -2521,15 +2345,6 @@
     "/service-areas/berwyn-il/mold-remediation/",
     "/contact/"
   ],
-  "/service-areas/north-riverside-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/north-riverside-il/",
-    "/service-areas/north-riverside-il/fire-damage-restoration/",
-    "/service-areas/north-riverside-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/north-riverside-il/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/north-riverside-il/",
@@ -2636,15 +2451,6 @@
     "/service-areas/melrose-park-il/water-damage-restoration/",
     "/service-areas/bedford-park-il/mold-remediation/",
     "/service-areas/berwyn-il/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/melrose-park-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/melrose-park-il/",
-    "/service-areas/melrose-park-il/fire-damage-restoration/",
-    "/service-areas/melrose-park-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/melrose-park-il/flood-damage-restoration/": [
@@ -2755,15 +2561,6 @@
     "/service-areas/berwyn-il/mold-remediation/",
     "/contact/"
   ],
-  "/service-areas/burbank-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/burbank-il/",
-    "/service-areas/burbank-il/fire-damage-restoration/",
-    "/service-areas/burbank-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/burbank-il/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/burbank-il/",
@@ -2870,15 +2667,6 @@
     "/service-areas/evergreen-park-il/water-damage-restoration/",
     "/service-areas/bedford-park-il/mold-remediation/",
     "/service-areas/berwyn-il/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/evergreen-park-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/evergreen-park-il/",
-    "/service-areas/evergreen-park-il/fire-damage-restoration/",
-    "/service-areas/evergreen-park-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/evergreen-park-il/flood-damage-restoration/": [
@@ -2989,15 +2777,6 @@
     "/service-areas/berwyn-il/mold-remediation/",
     "/contact/"
   ],
-  "/service-areas/brookfield-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/brookfield-il/",
-    "/service-areas/brookfield-il/fire-damage-restoration/",
-    "/service-areas/brookfield-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/brookfield-il/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/brookfield-il/",
@@ -3104,15 +2883,6 @@
     "/service-areas/maywood-il/water-damage-restoration/",
     "/service-areas/bedford-park-il/mold-remediation/",
     "/service-areas/berwyn-il/mold-remediation/",
-    "/contact/"
-  ],
-  "/service-areas/maywood-il/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/maywood-il/",
-    "/service-areas/maywood-il/fire-damage-restoration/",
-    "/service-areas/maywood-il/mold-remediation/",
-    "/service-areas/bedford-park-il/water-cleanup/",
-    "/service-areas/berwyn-il/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/maywood-il/flood-damage-restoration/": [

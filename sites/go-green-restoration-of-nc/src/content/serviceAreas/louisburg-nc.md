@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "2edc1d3e82d43ce7"
 generated_at: "2026-09-23T14:11:44.812363+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/louisburg-nc/fire-damage-restoration/", "/service-areas/louisburg-nc/mold-remediation/", "/service-areas/louisburg-nc/water-damage-restoration/", "/service-areas/louisburg-nc/water-cleanup/", "/service-areas/louisburg-nc/biohazard-cleanup/", "/service-areas/louisburg-nc/odor-removal/", "/service-areas/louisburg-nc/air-duct-cleaning/", "/service-areas/louisburg-nc/crawl-space-encapsulation/", "/service-areas/louisburg-nc/insulation-removal-installation/", "/service-areas/louisburg-nc/carpet-cleaning/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/louisburg-nc/fire-damage-restoration/", "/service-areas/louisburg-nc/mold-remediation/", "/service-areas/louisburg-nc/water-damage-restoration/", "/service-areas/louisburg-nc/emergency-water-removal/", "/service-areas/louisburg-nc/biohazard-cleanup/", "/service-areas/louisburg-nc/odor-removal/", "/service-areas/louisburg-nc/air-duct-cleaning/", "/service-areas/louisburg-nc/crawl-space-encapsulation/", "/service-areas/louisburg-nc/insulation-removal-installation/", "/service-areas/louisburg-nc/carpet-cleaning/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Louisburg"}]
 faq: []
 area_slug: "louisburg-nc"

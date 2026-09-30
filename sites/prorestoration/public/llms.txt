@@ -75,7 +75,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Smoke Damage Restoration](https://prorestorationca.com/services/smoke-damage-restoration/)
 - [Soot Removal](https://prorestorationca.com/services/smoke-damage-restoration/)
 - [Storm Damage Restoration](https://prorestorationca.com/services/storm-damage-restoration/)
-- [Emergency Water Cleanup](https://prorestorationca.com/services/water-cleanup/)
+- [Emergency Water Cleanup](https://prorestorationca.com/services/emergency-water-removal/)
 - [Water Damage Restoration](https://prorestorationca.com/services/water-damage-restoration/)
 - [Water Leak Detection](https://prorestorationca.com/services/water-leak-detection/)
 

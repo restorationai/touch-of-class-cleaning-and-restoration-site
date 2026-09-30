@@ -158,16 +158,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/water-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -619,16 +609,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-diego-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-diego-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -900,16 +880,6 @@
     "missing_stubs": []
   },
   "/service-areas/san-jose-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-jose-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1199,16 +1169,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-francisco-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-francisco-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1480,16 +1440,6 @@
     "missing_stubs": []
   },
   "/service-areas/oakland-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oakland-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1779,16 +1729,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/chula-vista-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/chula-vista-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2060,16 +2000,6 @@
     "missing_stubs": []
   },
   "/service-areas/fremont-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fremont-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2359,16 +2289,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/oceanside-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/oceanside-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2640,16 +2560,6 @@
     "missing_stubs": []
   },
   "/service-areas/escondido-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/escondido-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2939,16 +2849,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/carlsbad-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/carlsbad-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3220,16 +3120,6 @@
     "missing_stubs": []
   },
   "/service-areas/san-marcos-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-marcos-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3519,16 +3409,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/temecula-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/temecula-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3800,16 +3680,6 @@
     "missing_stubs": []
   },
   "/service-areas/hayward-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hayward-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4099,16 +3969,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sunnyvale-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sunnyvale-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4380,16 +4240,6 @@
     "missing_stubs": []
   },
   "/service-areas/santa-clara-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/santa-clara-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4679,16 +4529,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/el-cajon-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/el-cajon-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4960,16 +4800,6 @@
     "missing_stubs": []
   },
   "/service-areas/concord-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/concord-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5259,16 +5089,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/berkeley-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/berkeley-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5549,16 +5369,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/encinitas-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/encinitas-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5830,16 +5640,6 @@
     "missing_stubs": []
   },
   "/service-areas/santa-cruz-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/santa-cruz-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

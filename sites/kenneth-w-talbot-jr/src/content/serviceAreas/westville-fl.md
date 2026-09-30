@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "0793aba8480436ea"
 generated_at: "2026-09-20T14:13:20.063603+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/westville-fl/fire-damage-restoration/", "/service-areas/westville-fl/mold-remediation/", "/service-areas/westville-fl/water-damage-restoration/", "/service-areas/westville-fl/storm-damage-restoration/", "/service-areas/westville-fl/water-cleanup/", "/service-areas/crestview-fl/", "/service-areas/defuniak-springs-fl/", "/service-areas/destin-fl/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/westville-fl/fire-damage-restoration/", "/service-areas/westville-fl/mold-remediation/", "/service-areas/westville-fl/water-damage-restoration/", "/service-areas/westville-fl/storm-damage-restoration/", "/service-areas/westville-fl/emergency-water-removal/", "/service-areas/crestview-fl/", "/service-areas/defuniak-springs-fl/", "/service-areas/destin-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Westville"}]
 faq: []
 area_slug: "westville-fl"

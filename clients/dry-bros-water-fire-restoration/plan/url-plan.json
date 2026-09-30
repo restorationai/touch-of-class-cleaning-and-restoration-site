@@ -442,58 +442,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Chicago | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Chicago",
-      "meta_description": "24/7 emergency water cleanup in Chicago and surrounding areas. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup chicago",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
-        "/service-areas/brookfield-il/water-cleanup/",
-        "/service-areas/burbank-il/water-cleanup/",
-        "/service-areas/cicero-il/water-cleanup/",
-        "/service-areas/des-plaines-il/water-cleanup/",
-        "/service-areas/elmwood-park-il/water-cleanup/",
-        "/service-areas/evanston-il/water-cleanup/",
-        "/service-areas/evergreen-park-il/water-cleanup/",
-        "/service-areas/forest-park-il/water-cleanup/",
-        "/service-areas/lincolnwood-il/water-cleanup/",
-        "/service-areas/lyons-il/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/services/flood-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -2127,51 +2075,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/naperville-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Naperville, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Naperville",
-      "meta_description": "24/7 emergency water cleanup in Naperville, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup naperville",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/naperville-il/",
-        "/service-areas/naperville-il/fire-damage-restoration/",
-        "/service-areas/naperville-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/naperville-il/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2696,51 +2599,6 @@
         "/service-areas/cicero-il/water-damage-restoration/",
         "/service-areas/bedford-park-il/mold-remediation/",
         "/service-areas/berwyn-il/mold-remediation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/cicero-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Cicero, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Cicero",
-      "meta_description": "24/7 emergency water cleanup in Cicero, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup cicero",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/cicero-il/",
-        "/service-areas/cicero-il/fire-damage-restoration/",
-        "/service-areas/cicero-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3273,51 +3131,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/evanston-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Evanston, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Evanston",
-      "meta_description": "24/7 emergency water cleanup in Evanston, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup evanston",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/evanston-il/",
-        "/service-areas/evanston-il/fire-damage-restoration/",
-        "/service-areas/evanston-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/evanston-il/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3842,51 +3655,6 @@
         "/service-areas/oak-park-il/water-damage-restoration/",
         "/service-areas/bedford-park-il/mold-remediation/",
         "/service-areas/berwyn-il/mold-remediation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/oak-park-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Oak Park, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Oak Park",
-      "meta_description": "24/7 emergency water cleanup in Oak Park, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup oak park",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/oak-park-il/",
-        "/service-areas/oak-park-il/fire-damage-restoration/",
-        "/service-areas/oak-park-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4419,51 +4187,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/skokie-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Skokie, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Skokie",
-      "meta_description": "24/7 emergency water cleanup in Skokie, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup skokie",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/skokie-il/",
-        "/service-areas/skokie-il/fire-damage-restoration/",
-        "/service-areas/skokie-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/skokie-il/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4988,51 +4711,6 @@
         "/service-areas/berwyn-il/water-damage-restoration/",
         "/service-areas/bedford-park-il/mold-remediation/",
         "/service-areas/brookfield-il/mold-remediation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/berwyn-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Berwyn, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Berwyn",
-      "meta_description": "24/7 emergency water cleanup in Berwyn, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup berwyn",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/berwyn-il/",
-        "/service-areas/berwyn-il/fire-damage-restoration/",
-        "/service-areas/berwyn-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/brookfield-il/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5565,51 +5243,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/des-plaines-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Des Plaines, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Des Plaines",
-      "meta_description": "24/7 emergency water cleanup in Des Plaines, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup des plaines",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/des-plaines-il/",
-        "/service-areas/des-plaines-il/fire-damage-restoration/",
-        "/service-areas/des-plaines-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/des-plaines-il/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6134,51 +5767,6 @@
         "/service-areas/stickney-il/water-damage-restoration/",
         "/service-areas/bedford-park-il/mold-remediation/",
         "/service-areas/berwyn-il/mold-remediation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/stickney-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Stickney, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Stickney",
-      "meta_description": "24/7 emergency water cleanup in Stickney, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup stickney",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/stickney-il/",
-        "/service-areas/stickney-il/fire-damage-restoration/",
-        "/service-areas/stickney-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
         "/contact/"
       ]
     },
@@ -6711,51 +6299,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/bedford-park-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Bedford Park, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Bedford Park",
-      "meta_description": "24/7 emergency water cleanup in Bedford Park, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup bedford park",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/bedford-park-il/",
-        "/service-areas/bedford-park-il/fire-damage-restoration/",
-        "/service-areas/bedford-park-il/mold-remediation/",
-        "/service-areas/berwyn-il/water-cleanup/",
-        "/service-areas/brookfield-il/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/bedford-park-il/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7280,51 +6823,6 @@
         "/service-areas/lincolnwood-il/water-damage-restoration/",
         "/service-areas/bedford-park-il/mold-remediation/",
         "/service-areas/berwyn-il/mold-remediation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lincolnwood-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lincolnwood, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Lincolnwood",
-      "meta_description": "24/7 emergency water cleanup in Lincolnwood, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup lincolnwood",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lincolnwood-il/",
-        "/service-areas/lincolnwood-il/fire-damage-restoration/",
-        "/service-areas/lincolnwood-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
         "/contact/"
       ]
     },
@@ -7857,51 +7355,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/river-forest-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in River Forest, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in River Forest",
-      "meta_description": "24/7 emergency water cleanup in River Forest, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup river forest",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/river-forest-il/",
-        "/service-areas/river-forest-il/fire-damage-restoration/",
-        "/service-areas/river-forest-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/river-forest-il/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8426,51 +7879,6 @@
         "/service-areas/forest-park-il/water-damage-restoration/",
         "/service-areas/bedford-park-il/mold-remediation/",
         "/service-areas/berwyn-il/mold-remediation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/forest-park-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Forest Park, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Forest Park",
-      "meta_description": "24/7 emergency water cleanup in Forest Park, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup forest park",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/forest-park-il/",
-        "/service-areas/forest-park-il/fire-damage-restoration/",
-        "/service-areas/forest-park-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
         "/contact/"
       ]
     },
@@ -9003,51 +8411,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lyons-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lyons, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Lyons",
-      "meta_description": "24/7 emergency water cleanup in Lyons, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup lyons",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lyons-il/",
-        "/service-areas/lyons-il/fire-damage-restoration/",
-        "/service-areas/lyons-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lyons-il/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9572,51 +8935,6 @@
         "/service-areas/riverside-il/water-damage-restoration/",
         "/service-areas/bedford-park-il/mold-remediation/",
         "/service-areas/berwyn-il/mold-remediation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/riverside-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Riverside, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Riverside",
-      "meta_description": "24/7 emergency water cleanup in Riverside, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup riverside",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/riverside-il/",
-        "/service-areas/riverside-il/fire-damage-restoration/",
-        "/service-areas/riverside-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
         "/contact/"
       ]
     },
@@ -10149,51 +9467,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/elmwood-park-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Elmwood Park, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Elmwood Park",
-      "meta_description": "24/7 emergency water cleanup in Elmwood Park, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup elmwood park",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/elmwood-park-il/",
-        "/service-areas/elmwood-park-il/fire-damage-restoration/",
-        "/service-areas/elmwood-park-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/elmwood-park-il/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10718,51 +9991,6 @@
         "/service-areas/north-riverside-il/water-damage-restoration/",
         "/service-areas/bedford-park-il/mold-remediation/",
         "/service-areas/berwyn-il/mold-remediation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/north-riverside-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in North Riverside, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in North Riverside",
-      "meta_description": "24/7 emergency water cleanup in North Riverside, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup north riverside",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/north-riverside-il/",
-        "/service-areas/north-riverside-il/fire-damage-restoration/",
-        "/service-areas/north-riverside-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
         "/contact/"
       ]
     },
@@ -11295,51 +10523,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/melrose-park-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Melrose Park, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Melrose Park",
-      "meta_description": "24/7 emergency water cleanup in Melrose Park, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup melrose park",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/melrose-park-il/",
-        "/service-areas/melrose-park-il/fire-damage-restoration/",
-        "/service-areas/melrose-park-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/melrose-park-il/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11864,51 +11047,6 @@
         "/service-areas/burbank-il/water-damage-restoration/",
         "/service-areas/bedford-park-il/mold-remediation/",
         "/service-areas/berwyn-il/mold-remediation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/burbank-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Burbank, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Burbank",
-      "meta_description": "24/7 emergency water cleanup in Burbank, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup burbank",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/burbank-il/",
-        "/service-areas/burbank-il/fire-damage-restoration/",
-        "/service-areas/burbank-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
         "/contact/"
       ]
     },
@@ -12441,51 +11579,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/evergreen-park-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Evergreen Park, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Evergreen Park",
-      "meta_description": "24/7 emergency water cleanup in Evergreen Park, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup evergreen park",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/evergreen-park-il/",
-        "/service-areas/evergreen-park-il/fire-damage-restoration/",
-        "/service-areas/evergreen-park-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/evergreen-park-il/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13014,51 +12107,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/brookfield-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Brookfield, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Brookfield",
-      "meta_description": "24/7 emergency water cleanup in Brookfield, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup brookfield",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/brookfield-il/",
-        "/service-areas/brookfield-il/fire-damage-restoration/",
-        "/service-areas/brookfield-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/brookfield-il/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13583,51 +12631,6 @@
         "/service-areas/maywood-il/water-damage-restoration/",
         "/service-areas/bedford-park-il/mold-remediation/",
         "/service-areas/berwyn-il/mold-remediation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/maywood-il/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Maywood, IL | Dry Bros Water & Fire Restoration",
-      "h1": "Emergency Water Cleanup in Maywood",
-      "meta_description": "24/7 emergency water cleanup in Maywood, IL. Insurance billing accepted. Call (877) 379-2767.",
-      "primary_keyword": "emergency water cleanup maywood",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/maywood-il/",
-        "/service-areas/maywood-il/fire-damage-restoration/",
-        "/service-areas/maywood-il/mold-remediation/",
-        "/service-areas/bedford-park-il/water-cleanup/",
-        "/service-areas/berwyn-il/water-cleanup/",
         "/contact/"
       ]
     },

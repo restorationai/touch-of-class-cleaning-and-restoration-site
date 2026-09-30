@@ -109,7 +109,7 @@
     "burst-frozen-pipes",
     "commercial-fire-restoration",
     "contents-restoration-storage",
-    "water-cleanup",
+    "emergency-water-removal",
     "commercial-restoration",
     "mold-inspection-testing",
     "basement-flood-cleanup"
@@ -401,6 +401,7 @@
     "biohazard-cleanup"
   ],
   "merged_services": {
-    "contents-restoration-pack-out": "contents-restoration-storage"
+    "contents-restoration-pack-out": "contents-restoration-storage",
+    "water-cleanup": "emergency-water-removal"
   }
 }

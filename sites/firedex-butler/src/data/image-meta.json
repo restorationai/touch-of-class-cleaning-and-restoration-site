@@ -204,5 +204,14 @@
       480,
       768
     ]
+  },
+  "/images/services/emergency-water-removal.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
   }
 }

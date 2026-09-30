@@ -191,5 +191,8 @@
     "basement-flooding-cleanup",
     "burst-pipe-repair",
     "general-contracting"
-  ]
+  ],
+  "merged_services": {
+    "water-cleanup": "emergency-water-removal"
+  }
 }

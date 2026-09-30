@@ -827,57 +827,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Water Cleanup in American Fork | FIX Restoration",
-      "h1": "Water Cleanup in American Fork",
-      "meta_description": "Water cleanup in American Fork and surrounding areas. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup american fork",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
-        "/service-areas/cedar-fort-ut/water-cleanup/",
-        "/service-areas/cedar-hills-ut/water-cleanup/",
-        "/service-areas/cottonwood-heights-ut/water-cleanup/",
-        "/service-areas/draper-ut/water-cleanup/",
-        "/service-areas/eagle-mountain-ut/water-cleanup/",
-        "/service-areas/herriman-ut/water-cleanup/",
-        "/service-areas/highland-ut/water-cleanup/",
-        "/service-areas/lehi-ut/water-cleanup/",
-        "/service-areas/lindon-ut/water-cleanup/",
-        "/service-areas/orem-ut/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/services/water-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -2459,50 +2408,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/provo-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Provo, UT | FIX Restoration",
-      "h1": "Water Cleanup in Provo",
-      "meta_description": "Water cleanup in Provo, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup provo",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/provo-ut/",
-        "/service-areas/provo-ut/fire-damage-restoration/",
-        "/service-areas/provo-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/provo-ut/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3020,50 +2925,6 @@
         "/service-areas/orem-ut/mold-remediation/",
         "/service-areas/alpine-ut/storm-damage-restoration/",
         "/service-areas/bluffdale-ut/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/orem-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Orem, UT | FIX Restoration",
-      "h1": "Water Cleanup in Orem",
-      "meta_description": "Water cleanup in Orem, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup orem",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/orem-ut/",
-        "/service-areas/orem-ut/fire-damage-restoration/",
-        "/service-areas/orem-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3589,50 +3450,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lehi-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Lehi, UT | FIX Restoration",
-      "h1": "Water Cleanup in Lehi",
-      "meta_description": "Water cleanup in Lehi, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup lehi",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lehi-ut/",
-        "/service-areas/lehi-ut/fire-damage-restoration/",
-        "/service-areas/lehi-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lehi-ut/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4150,50 +3967,6 @@
         "/service-areas/pleasant-grove-ut/mold-remediation/",
         "/service-areas/alpine-ut/storm-damage-restoration/",
         "/service-areas/bluffdale-ut/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pleasant-grove-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Pleasant Grove, UT | FIX Restoration",
-      "h1": "Water Cleanup in Pleasant Grove",
-      "meta_description": "Water cleanup in Pleasant Grove, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup pleasant grove",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/pleasant-grove-ut/",
-        "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
-        "/service-areas/pleasant-grove-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4719,50 +4492,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/spanish-fork-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Spanish Fork, UT | FIX Restoration",
-      "h1": "Water Cleanup in Spanish Fork",
-      "meta_description": "Water cleanup in Spanish Fork, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup spanish fork",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/spanish-fork-ut/",
-        "/service-areas/spanish-fork-ut/fire-damage-restoration/",
-        "/service-areas/spanish-fork-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/spanish-fork-ut/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5280,50 +5009,6 @@
         "/service-areas/springville-ut/mold-remediation/",
         "/service-areas/alpine-ut/storm-damage-restoration/",
         "/service-areas/bluffdale-ut/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/springville-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Springville, UT | FIX Restoration",
-      "h1": "Water Cleanup in Springville",
-      "meta_description": "Water cleanup in Springville, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup springville",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/springville-ut/",
-        "/service-areas/springville-ut/fire-damage-restoration/",
-        "/service-areas/springville-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5849,50 +5534,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/saratoga-springs-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Saratoga Springs, UT | FIX Restoration",
-      "h1": "Water Cleanup in Saratoga Springs",
-      "meta_description": "Water cleanup in Saratoga Springs, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup saratoga springs",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/saratoga-springs-ut/",
-        "/service-areas/saratoga-springs-ut/fire-damage-restoration/",
-        "/service-areas/saratoga-springs-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/saratoga-springs-ut/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6410,50 +6051,6 @@
         "/service-areas/highland-ut/mold-remediation/",
         "/service-areas/alpine-ut/storm-damage-restoration/",
         "/service-areas/bluffdale-ut/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/highland-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Highland, UT | FIX Restoration",
-      "h1": "Water Cleanup in Highland",
-      "meta_description": "Water cleanup in Highland, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup highland",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/highland-ut/",
-        "/service-areas/highland-ut/fire-damage-restoration/",
-        "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -6979,50 +6576,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/cedar-hills-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Cedar Hills, UT | FIX Restoration",
-      "h1": "Water Cleanup in Cedar Hills",
-      "meta_description": "Water cleanup in Cedar Hills, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup cedar hills",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/cedar-hills-ut/",
-        "/service-areas/cedar-hills-ut/fire-damage-restoration/",
-        "/service-areas/cedar-hills-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/cedar-hills-ut/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7540,50 +7093,6 @@
         "/service-areas/lindon-ut/mold-remediation/",
         "/service-areas/alpine-ut/storm-damage-restoration/",
         "/service-areas/bluffdale-ut/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lindon-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Lindon, UT | FIX Restoration",
-      "h1": "Water Cleanup in Lindon",
-      "meta_description": "Water cleanup in Lindon, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup lindon",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lindon-ut/",
-        "/service-areas/lindon-ut/fire-damage-restoration/",
-        "/service-areas/lindon-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -8109,50 +7618,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/alpine-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Alpine, UT | FIX Restoration",
-      "h1": "Water Cleanup in Alpine",
-      "meta_description": "Water cleanup in Alpine, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup alpine",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/alpine-ut/",
-        "/service-areas/alpine-ut/fire-damage-restoration/",
-        "/service-areas/alpine-ut/mold-remediation/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
-        "/service-areas/cedar-fort-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/alpine-ut/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8670,50 +8135,6 @@
         "/service-areas/vineyard-ut/mold-remediation/",
         "/service-areas/alpine-ut/storm-damage-restoration/",
         "/service-areas/bluffdale-ut/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/vineyard-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Vineyard, UT | FIX Restoration",
-      "h1": "Water Cleanup in Vineyard",
-      "meta_description": "Water cleanup in Vineyard, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup vineyard",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/vineyard-ut/",
-        "/service-areas/vineyard-ut/fire-damage-restoration/",
-        "/service-areas/vineyard-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -9239,50 +8660,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/draper-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Draper, UT | FIX Restoration",
-      "h1": "Water Cleanup in Draper",
-      "meta_description": "Water cleanup in Draper, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup draper",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/draper-ut/",
-        "/service-areas/draper-ut/fire-damage-restoration/",
-        "/service-areas/draper-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/draper-ut/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9800,50 +9177,6 @@
         "/service-areas/bluffdale-ut/mold-remediation/",
         "/service-areas/alpine-ut/storm-damage-restoration/",
         "/service-areas/cedar-fort-ut/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/bluffdale-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Bluffdale, UT | FIX Restoration",
-      "h1": "Water Cleanup in Bluffdale",
-      "meta_description": "Water cleanup in Bluffdale, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup bluffdale",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/bluffdale-ut/",
-        "/service-areas/bluffdale-ut/fire-damage-restoration/",
-        "/service-areas/bluffdale-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/cedar-fort-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -10369,50 +9702,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/eagle-mountain-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Eagle Mountain, UT | FIX Restoration",
-      "h1": "Water Cleanup in Eagle Mountain",
-      "meta_description": "Water cleanup in Eagle Mountain, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup eagle mountain",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/eagle-mountain-ut/",
-        "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
-        "/service-areas/eagle-mountain-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/eagle-mountain-ut/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10930,50 +10219,6 @@
         "/service-areas/sandy-ut/mold-remediation/",
         "/service-areas/alpine-ut/storm-damage-restoration/",
         "/service-areas/bluffdale-ut/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sandy-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Sandy, UT | FIX Restoration",
-      "h1": "Water Cleanup in Sandy",
-      "meta_description": "Water cleanup in Sandy, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup sandy",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/sandy-ut/",
-        "/service-areas/sandy-ut/fire-damage-restoration/",
-        "/service-areas/sandy-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -11499,50 +10744,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/herriman-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Herriman, UT | FIX Restoration",
-      "h1": "Water Cleanup in Herriman",
-      "meta_description": "Water cleanup in Herriman, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup herriman",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/herriman-ut/",
-        "/service-areas/herriman-ut/fire-damage-restoration/",
-        "/service-areas/herriman-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/herriman-ut/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12060,50 +11261,6 @@
         "/service-areas/riverton-ut/mold-remediation/",
         "/service-areas/alpine-ut/storm-damage-restoration/",
         "/service-areas/bluffdale-ut/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/riverton-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Riverton, UT | FIX Restoration",
-      "h1": "Water Cleanup in Riverton",
-      "meta_description": "Water cleanup in Riverton, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup riverton",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/riverton-ut/",
-        "/service-areas/riverton-ut/fire-damage-restoration/",
-        "/service-areas/riverton-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
         "/contact/"
       ]
     },
@@ -12629,50 +11786,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/south-jordan-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in South Jordan, UT | FIX Restoration",
-      "h1": "Water Cleanup in South Jordan",
-      "meta_description": "Water cleanup in South Jordan, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup south jordan",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/south-jordan-ut/",
-        "/service-areas/south-jordan-ut/fire-damage-restoration/",
-        "/service-areas/south-jordan-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/south-jordan-ut/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13194,50 +12307,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/cedar-fort-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Cedar Fort, UT | FIX Restoration",
-      "h1": "Water Cleanup in Cedar Fort",
-      "meta_description": "Water cleanup in Cedar Fort, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup cedar fort",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/cedar-fort-ut/",
-        "/service-areas/cedar-fort-ut/fire-damage-restoration/",
-        "/service-areas/cedar-fort-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/cedar-fort-ut/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13755,50 +12824,6 @@
         "/service-areas/cottonwood-heights-ut/mold-remediation/",
         "/service-areas/alpine-ut/storm-damage-restoration/",
         "/service-areas/bluffdale-ut/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/cottonwood-heights-ut/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Cottonwood Heights, UT | FIX Restoration",
-      "h1": "Water Cleanup in Cottonwood Heights",
-      "meta_description": "Water cleanup in Cottonwood Heights, UT. Insurance billing accepted. Call (801) 930-9750.",
-      "primary_keyword": "emergency water cleanup cottonwood heights",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/cottonwood-heights-ut/",
-        "/service-areas/cottonwood-heights-ut/fire-damage-restoration/",
-        "/service-areas/cottonwood-heights-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-cleanup/",
-        "/service-areas/bluffdale-ut/water-cleanup/",
         "/contact/"
       ]
     },

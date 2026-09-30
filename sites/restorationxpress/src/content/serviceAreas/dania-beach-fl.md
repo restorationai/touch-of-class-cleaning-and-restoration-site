@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "b0ebe9aa00f20227"
 generated_at: "2026-09-20T14:13:46.899546+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/dania-beach-fl/fire-damage-restoration/", "/service-areas/dania-beach-fl/mold-remediation/", "/service-areas/dania-beach-fl/water-damage-restoration/", "/service-areas/dania-beach-fl/flood-damage-restoration/", "/service-areas/dania-beach-fl/smoke-damage-restoration/", "/service-areas/dania-beach-fl/storm-damage-restoration/", "/service-areas/dania-beach-fl/water-cleanup/", "/service-areas/cooper-city-fl/", "/service-areas/fort-lauderdale-fl/", "/service-areas/hallandale-beach-fl/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/dania-beach-fl/fire-damage-restoration/", "/service-areas/dania-beach-fl/mold-remediation/", "/service-areas/dania-beach-fl/water-damage-restoration/", "/service-areas/dania-beach-fl/flood-damage-restoration/", "/service-areas/dania-beach-fl/smoke-damage-restoration/", "/service-areas/dania-beach-fl/storm-damage-restoration/", "/service-areas/dania-beach-fl/emergency-water-removal/", "/service-areas/cooper-city-fl/", "/service-areas/fort-lauderdale-fl/", "/service-areas/hallandale-beach-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dania Beach"}]
 faq: []
 area_slug: "dania-beach-fl"

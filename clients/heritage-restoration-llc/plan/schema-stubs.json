@@ -88,16 +88,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/fire-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -526,16 +516,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/st-cloud-mn/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/st-cloud-mn/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -757,16 +737,6 @@
     "missing_stubs": []
   },
   "/service-areas/sartell-mn/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sartell-mn/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1006,16 +976,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sauk-rapids-mn/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sauk-rapids-mn/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1237,16 +1197,6 @@
     "missing_stubs": []
   },
   "/service-areas/brainerd-mn/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/brainerd-mn/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1486,16 +1436,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/baxter-mn/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/baxter-mn/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1717,16 +1657,6 @@
     "missing_stubs": []
   },
   "/service-areas/foley-mn/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/foley-mn/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1966,16 +1896,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/royalton-mn/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/royalton-mn/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2197,16 +2117,6 @@
     "missing_stubs": []
   },
   "/service-areas/pierz-mn/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pierz-mn/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2446,16 +2356,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sobieski-mn/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sobieski-mn/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2677,16 +2577,6 @@
     "missing_stubs": []
   },
   "/service-areas/flensburg-mn/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/flensburg-mn/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2926,16 +2816,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/randall-mn/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/randall-mn/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3157,16 +3037,6 @@
     "missing_stubs": []
   },
   "/service-areas/elmdale-mn/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elmdale-mn/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3406,16 +3276,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fort-ripley-mn/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fort-ripley-mn/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3637,16 +3497,6 @@
     "missing_stubs": []
   },
   "/service-areas/swanville-mn/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/swanville-mn/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3886,16 +3736,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/upsala-mn/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/upsala-mn/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4117,16 +3957,6 @@
     "missing_stubs": []
   },
   "/service-areas/rice-mn/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rice-mn/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4366,16 +4196,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/harding-mn/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/harding-mn/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4597,16 +4417,6 @@
     "missing_stubs": []
   },
   "/service-areas/st-stephen-mn/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/st-stephen-mn/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4846,16 +4656,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/long-prairie-mn/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/long-prairie-mn/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5077,16 +4877,6 @@
     "missing_stubs": []
   },
   "/service-areas/albany-mn/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/albany-mn/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5326,16 +5116,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/avon-mn/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/avon-mn/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5557,16 +5337,6 @@
     "missing_stubs": []
   },
   "/service-areas/st-joseph-mn/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/st-joseph-mn/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

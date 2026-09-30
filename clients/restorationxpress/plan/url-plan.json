@@ -580,57 +580,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Water Cleanup in Davie | RestorationXpress",
-      "h1": "Water Cleanup in Davie",
-      "meta_description": "Water cleanup in Davie and surrounding areas. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup davie",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/aventura-fl/water-cleanup/",
-        "/service-areas/cooper-city-fl/water-cleanup/",
-        "/service-areas/country-club-fl/water-cleanup/",
-        "/service-areas/dania-beach-fl/water-cleanup/",
-        "/service-areas/fort-lauderdale-fl/water-cleanup/",
-        "/service-areas/hallandale-beach-fl/water-cleanup/",
-        "/service-areas/hollywood-fl/water-cleanup/",
-        "/service-areas/lauderdale-lakes-fl/water-cleanup/",
-        "/service-areas/lauderhill-fl/water-cleanup/",
-        "/service-areas/miami-gardens-fl/water-cleanup/",
-        "/service-areas/miramar-fl/water-cleanup/",
-        "/service-areas/oakland-park-fl/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fort-lauderdale-fl/",
       "archetype": "service-area",
       "vars_keys": [
@@ -1731,50 +1680,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fort-lauderdale-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Fort Lauderdale, FL | RestorationXpress",
-      "h1": "Water Cleanup in Fort Lauderdale",
-      "meta_description": "Water cleanup in Fort Lauderdale, FL. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup fort lauderdale",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/fort-lauderdale-fl/",
-        "/service-areas/fort-lauderdale-fl/fire-damage-restoration/",
-        "/service-areas/fort-lauderdale-fl/mold-remediation/",
-        "/service-areas/aventura-fl/water-cleanup/",
-        "/service-areas/cooper-city-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hollywood-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2035,50 +1940,6 @@
         "/service-areas/hollywood-fl/mold-remediation/",
         "/service-areas/aventura-fl/smoke-damage-restoration/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hollywood-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Hollywood, FL | RestorationXpress",
-      "h1": "Water Cleanup in Hollywood",
-      "meta_description": "Water cleanup in Hollywood, FL. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup hollywood",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/hollywood-fl/",
-        "/service-areas/hollywood-fl/fire-damage-restoration/",
-        "/service-areas/hollywood-fl/mold-remediation/",
-        "/service-areas/aventura-fl/water-cleanup/",
-        "/service-areas/cooper-city-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2347,50 +2208,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/plantation-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Plantation, FL | RestorationXpress",
-      "h1": "Water Cleanup in Plantation",
-      "meta_description": "Water cleanup in Plantation, FL. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup plantation",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/plantation-fl/",
-        "/service-areas/plantation-fl/fire-damage-restoration/",
-        "/service-areas/plantation-fl/mold-remediation/",
-        "/service-areas/aventura-fl/water-cleanup/",
-        "/service-areas/cooper-city-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sunrise-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2651,50 +2468,6 @@
         "/service-areas/sunrise-fl/mold-remediation/",
         "/service-areas/aventura-fl/smoke-damage-restoration/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sunrise-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Sunrise, FL | RestorationXpress",
-      "h1": "Water Cleanup in Sunrise",
-      "meta_description": "Water cleanup in Sunrise, FL. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup sunrise",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/sunrise-fl/",
-        "/service-areas/sunrise-fl/fire-damage-restoration/",
-        "/service-areas/sunrise-fl/mold-remediation/",
-        "/service-areas/aventura-fl/water-cleanup/",
-        "/service-areas/cooper-city-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2963,50 +2736,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/cooper-city-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Cooper City, FL | RestorationXpress",
-      "h1": "Water Cleanup in Cooper City",
-      "meta_description": "Water cleanup in Cooper City, FL. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup cooper city",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/cooper-city-fl/",
-        "/service-areas/cooper-city-fl/fire-damage-restoration/",
-        "/service-areas/cooper-city-fl/mold-remediation/",
-        "/service-areas/aventura-fl/water-cleanup/",
-        "/service-areas/country-club-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/weston-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3267,50 +2996,6 @@
         "/service-areas/weston-fl/mold-remediation/",
         "/service-areas/aventura-fl/smoke-damage-restoration/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/weston-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Weston, FL | RestorationXpress",
-      "h1": "Water Cleanup in Weston",
-      "meta_description": "Water cleanup in Weston, FL. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup weston",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/weston-fl/",
-        "/service-areas/weston-fl/fire-damage-restoration/",
-        "/service-areas/weston-fl/mold-remediation/",
-        "/service-areas/aventura-fl/water-cleanup/",
-        "/service-areas/cooper-city-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3579,50 +3264,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/pembroke-pines-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Pembroke Pines, FL | RestorationXpress",
-      "h1": "Water Cleanup in Pembroke Pines",
-      "meta_description": "Water cleanup in Pembroke Pines, FL. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup pembroke pines",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/pembroke-pines-fl/",
-        "/service-areas/pembroke-pines-fl/fire-damage-restoration/",
-        "/service-areas/pembroke-pines-fl/mold-remediation/",
-        "/service-areas/aventura-fl/water-cleanup/",
-        "/service-areas/cooper-city-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/miramar-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3883,50 +3524,6 @@
         "/service-areas/miramar-fl/mold-remediation/",
         "/service-areas/aventura-fl/smoke-damage-restoration/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/miramar-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Miramar, FL | RestorationXpress",
-      "h1": "Water Cleanup in Miramar",
-      "meta_description": "Water cleanup in Miramar, FL. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup miramar",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/miramar-fl/",
-        "/service-areas/miramar-fl/fire-damage-restoration/",
-        "/service-areas/miramar-fl/mold-remediation/",
-        "/service-areas/aventura-fl/water-cleanup/",
-        "/service-areas/cooper-city-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4195,50 +3792,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/dania-beach-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Dania Beach, FL | RestorationXpress",
-      "h1": "Water Cleanup in Dania Beach",
-      "meta_description": "Water cleanup in Dania Beach, FL. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup dania beach",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/dania-beach-fl/",
-        "/service-areas/dania-beach-fl/fire-damage-restoration/",
-        "/service-areas/dania-beach-fl/mold-remediation/",
-        "/service-areas/aventura-fl/water-cleanup/",
-        "/service-areas/cooper-city-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/west-park-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4499,50 +4052,6 @@
         "/service-areas/west-park-fl/mold-remediation/",
         "/service-areas/aventura-fl/smoke-damage-restoration/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/west-park-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in West Park, FL | RestorationXpress",
-      "h1": "Water Cleanup in West Park",
-      "meta_description": "Water cleanup in West Park, FL. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup west park",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/west-park-fl/",
-        "/service-areas/west-park-fl/fire-damage-restoration/",
-        "/service-areas/west-park-fl/mold-remediation/",
-        "/service-areas/aventura-fl/water-cleanup/",
-        "/service-areas/cooper-city-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4811,50 +4320,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/miami-gardens-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Miami Gardens, FL | RestorationXpress",
-      "h1": "Water Cleanup in Miami Gardens",
-      "meta_description": "Water cleanup in Miami Gardens, FL. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup miami gardens",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/miami-gardens-fl/",
-        "/service-areas/miami-gardens-fl/fire-damage-restoration/",
-        "/service-areas/miami-gardens-fl/mold-remediation/",
-        "/service-areas/aventura-fl/water-cleanup/",
-        "/service-areas/cooper-city-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lauderhill-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5115,50 +4580,6 @@
         "/service-areas/lauderhill-fl/mold-remediation/",
         "/service-areas/aventura-fl/smoke-damage-restoration/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lauderhill-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Lauderhill, FL | RestorationXpress",
-      "h1": "Water Cleanup in Lauderhill",
-      "meta_description": "Water cleanup in Lauderhill, FL. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup lauderhill",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lauderhill-fl/",
-        "/service-areas/lauderhill-fl/fire-damage-restoration/",
-        "/service-areas/lauderhill-fl/mold-remediation/",
-        "/service-areas/aventura-fl/water-cleanup/",
-        "/service-areas/cooper-city-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5427,50 +4848,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/hallandale-beach-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Hallandale Beach, FL | RestorationXpress",
-      "h1": "Water Cleanup in Hallandale Beach",
-      "meta_description": "Water cleanup in Hallandale Beach, FL. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup hallandale beach",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/hallandale-beach-fl/",
-        "/service-areas/hallandale-beach-fl/fire-damage-restoration/",
-        "/service-areas/hallandale-beach-fl/mold-remediation/",
-        "/service-areas/aventura-fl/water-cleanup/",
-        "/service-areas/cooper-city-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lauderdale-lakes-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5731,50 +5108,6 @@
         "/service-areas/lauderdale-lakes-fl/mold-remediation/",
         "/service-areas/aventura-fl/smoke-damage-restoration/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lauderdale-lakes-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Lauderdale Lakes, FL | RestorationXpress",
-      "h1": "Water Cleanup in Lauderdale Lakes",
-      "meta_description": "Water cleanup in Lauderdale Lakes, FL. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup lauderdale lakes",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lauderdale-lakes-fl/",
-        "/service-areas/lauderdale-lakes-fl/fire-damage-restoration/",
-        "/service-areas/lauderdale-lakes-fl/mold-remediation/",
-        "/service-areas/aventura-fl/water-cleanup/",
-        "/service-areas/cooper-city-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -6043,50 +5376,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/southwest-ranches-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Southwest Ranches, FL | RestorationXpress",
-      "h1": "Water Cleanup in Southwest Ranches",
-      "meta_description": "Water cleanup in Southwest Ranches, FL. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup southwest ranches",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/southwest-ranches-fl/",
-        "/service-areas/southwest-ranches-fl/fire-damage-restoration/",
-        "/service-areas/southwest-ranches-fl/mold-remediation/",
-        "/service-areas/aventura-fl/water-cleanup/",
-        "/service-areas/cooper-city-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/oakland-park-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6347,50 +5636,6 @@
         "/service-areas/oakland-park-fl/mold-remediation/",
         "/service-areas/aventura-fl/smoke-damage-restoration/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/oakland-park-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Oakland Park, FL | RestorationXpress",
-      "h1": "Water Cleanup in Oakland Park",
-      "meta_description": "Water cleanup in Oakland Park, FL. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup oakland park",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/oakland-park-fl/",
-        "/service-areas/oakland-park-fl/fire-damage-restoration/",
-        "/service-areas/oakland-park-fl/mold-remediation/",
-        "/service-areas/aventura-fl/water-cleanup/",
-        "/service-areas/cooper-city-fl/water-cleanup/",
         "/contact/"
       ]
     },
@@ -6659,50 +5904,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/country-club-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Country Club, FL | RestorationXpress",
-      "h1": "Water Cleanup in Country Club",
-      "meta_description": "Water cleanup in Country Club, FL. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup country club",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/country-club-fl/",
-        "/service-areas/country-club-fl/fire-damage-restoration/",
-        "/service-areas/country-club-fl/mold-remediation/",
-        "/service-areas/aventura-fl/water-cleanup/",
-        "/service-areas/cooper-city-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/aventura-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6967,50 +6168,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/aventura-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Aventura, FL | RestorationXpress",
-      "h1": "Water Cleanup in Aventura",
-      "meta_description": "Water cleanup in Aventura, FL. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup aventura",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/aventura-fl/",
-        "/service-areas/aventura-fl/fire-damage-restoration/",
-        "/service-areas/aventura-fl/mold-remediation/",
-        "/service-areas/cooper-city-fl/water-cleanup/",
-        "/service-areas/country-club-fl/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/wilton-manors-fl/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7271,50 +6428,6 @@
         "/service-areas/wilton-manors-fl/mold-remediation/",
         "/service-areas/aventura-fl/smoke-damage-restoration/",
         "/service-areas/cooper-city-fl/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/wilton-manors-fl/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Wilton Manors, FL | RestorationXpress",
-      "h1": "Water Cleanup in Wilton Manors",
-      "meta_description": "Water cleanup in Wilton Manors, FL. Insurance billing accepted. Call (954) 964-6471.",
-      "primary_keyword": "emergency water cleanup wilton manors",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/wilton-manors-fl/",
-        "/service-areas/wilton-manors-fl/fire-damage-restoration/",
-        "/service-areas/wilton-manors-fl/mold-remediation/",
-        "/service-areas/aventura-fl/water-cleanup/",
-        "/service-areas/cooper-city-fl/water-cleanup/",
         "/contact/"
       ]
     },

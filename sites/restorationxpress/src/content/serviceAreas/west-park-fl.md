@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "ac3911a23cc6b234"
 generated_at: "2026-09-20T14:13:46.899769+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/west-park-fl/fire-damage-restoration/", "/service-areas/west-park-fl/mold-remediation/", "/service-areas/west-park-fl/water-damage-restoration/", "/service-areas/west-park-fl/flood-damage-restoration/", "/service-areas/west-park-fl/smoke-damage-restoration/", "/service-areas/west-park-fl/storm-damage-restoration/", "/service-areas/west-park-fl/water-cleanup/", "/service-areas/cooper-city-fl/", "/service-areas/dania-beach-fl/", "/service-areas/fort-lauderdale-fl/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/west-park-fl/fire-damage-restoration/", "/service-areas/west-park-fl/mold-remediation/", "/service-areas/west-park-fl/water-damage-restoration/", "/service-areas/west-park-fl/flood-damage-restoration/", "/service-areas/west-park-fl/smoke-damage-restoration/", "/service-areas/west-park-fl/storm-damage-restoration/", "/service-areas/west-park-fl/emergency-water-removal/", "/service-areas/cooper-city-fl/", "/service-areas/dania-beach-fl/", "/service-areas/fort-lauderdale-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "West Park"}]
 faq: []
 area_slug: "west-park-fl"

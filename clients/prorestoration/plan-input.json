@@ -34,7 +34,7 @@
     "sewage-cleanup",
     "smoke-damage-restoration",
     "storm-damage-restoration",
-    "water-cleanup",
+    "emergency-water-removal",
     "water-damage-restoration",
     "water-leak-detection"
   ],
@@ -409,8 +409,8 @@
   ],
   "merged_services": {
     "air-duct-hvac-cleaning": "air-duct-cleaning",
-    "emergency-water-removal": "water-damage-restoration",
     "soot-removal": "smoke-damage-restoration",
+    "water-cleanup": "emergency-water-removal",
     "water-heater-flood-cleanup": "appliance-leak-cleanup"
   }
 }

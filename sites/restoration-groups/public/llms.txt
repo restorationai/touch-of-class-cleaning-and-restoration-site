@@ -70,7 +70,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Smoke Damage Restoration](https://therestorationgroup.com/services/smoke-damage-restoration/)
 - [Storm Damage Restoration](https://therestorationgroup.com/services/storm-damage-restoration/)
 - [Vandalism Cleanup](https://therestorationgroup.com/services/vandalism-graffiti-removal/)
-- [Emergency Water Cleanup](https://therestorationgroup.com/services/water-cleanup/)
+- [Emergency Water Cleanup](https://therestorationgroup.com/services/emergency-water-removal/)
 - [Water Damage Restoration](https://therestorationgroup.com/services/water-damage-restoration/)
 
 ### Service area pages

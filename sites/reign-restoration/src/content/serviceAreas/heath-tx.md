@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "507e149109c8921d"
 generated_at: "2026-09-23T14:12:04.435989+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/heath-tx/fire-damage-restoration/", "/service-areas/heath-tx/mold-remediation/", "/service-areas/heath-tx/roofing/", "/service-areas/heath-tx/water-damage-restoration/", "/service-areas/heath-tx/storm-damage-restoration/", "/service-areas/heath-tx/water-cleanup/", "/service-areas/heath-tx/general-contracting/", "/service-areas/heath-tx/odor-removal/", "/service-areas/heath-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/heath-tx/fire-damage-restoration/", "/service-areas/heath-tx/mold-remediation/", "/service-areas/heath-tx/roofing/", "/service-areas/heath-tx/water-damage-restoration/", "/service-areas/heath-tx/storm-damage-restoration/", "/service-areas/heath-tx/emergency-water-removal/", "/service-areas/heath-tx/general-contracting/", "/service-areas/heath-tx/odor-removal/", "/service-areas/heath-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Heath"}]
 faq: []
 area_slug: "heath-tx"

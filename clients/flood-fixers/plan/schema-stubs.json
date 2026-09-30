@@ -118,16 +118,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/chula-vista-ca/": {
     "archetype": "service-area",
     "stubs": [
@@ -422,16 +412,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/chula-vista-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/oceanside-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -483,16 +463,6 @@
     "missing_stubs": []
   },
   "/service-areas/oceanside-ca/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oceanside-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -562,16 +532,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/escondido-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/carlsbad-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -623,16 +583,6 @@
     "missing_stubs": []
   },
   "/service-areas/carlsbad-ca/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/carlsbad-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -702,16 +652,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/el-cajon-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/vista-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -763,16 +703,6 @@
     "missing_stubs": []
   },
   "/service-areas/vista-ca/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/vista-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -842,16 +772,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-marcos-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/encinitas-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -903,16 +823,6 @@
     "missing_stubs": []
   },
   "/service-areas/encinitas-ca/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/encinitas-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -982,16 +892,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/la-mesa-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santee-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1043,16 +943,6 @@
     "missing_stubs": []
   },
   "/service-areas/santee-ca/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/santee-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1122,16 +1012,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/poway-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/national-city-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1183,16 +1063,6 @@
     "missing_stubs": []
   },
   "/service-areas/national-city-ca/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/national-city-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1262,16 +1132,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/spring-valley-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/temecula-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1323,16 +1183,6 @@
     "missing_stubs": []
   },
   "/service-areas/temecula-ca/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/temecula-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1402,16 +1252,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/harmony-grove-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hidden-meadows-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1463,16 +1303,6 @@
     "missing_stubs": []
   },
   "/service-areas/hidden-meadows-ca/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hidden-meadows-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1542,16 +1372,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bonsall-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/rancho-santa-fe-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1603,16 +1423,6 @@
     "missing_stubs": []
   },
   "/service-areas/rancho-santa-fe-ca/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rancho-santa-fe-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1682,16 +1492,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/valley-center-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fairbanks-ranch-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1743,16 +1543,6 @@
     "missing_stubs": []
   },
   "/service-areas/fairbanks-ranch-ca/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fairbanks-ranch-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1822,16 +1612,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/solana-beach-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/del-mar-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1883,16 +1663,6 @@
     "missing_stubs": []
   },
   "/service-areas/del-mar-ca/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/del-mar-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1962,16 +1732,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/camp-pendleton-mainside-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/camp-pendleton-south-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2023,16 +1783,6 @@
     "missing_stubs": []
   },
   "/service-areas/camp-pendleton-south-ca/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/camp-pendleton-south-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2102,16 +1852,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fallbrook-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pala-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2163,16 +1903,6 @@
     "missing_stubs": []
   },
   "/service-areas/pala-ca/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pala-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

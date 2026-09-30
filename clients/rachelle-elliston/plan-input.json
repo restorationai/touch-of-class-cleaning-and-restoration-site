@@ -61,7 +61,7 @@
     "odor-removal",
     "sewage-cleanup",
     "storm-damage-restoration",
-    "water-cleanup",
+    "emergency-water-removal",
     "water-damage-restoration"
   ],
   "service_areas": [
@@ -183,6 +183,6 @@
     "flood-damage-restoration"
   ],
   "merged_services": {
-    "emergency-water-removal": "water-damage-restoration"
+    "water-cleanup": "emergency-water-removal"
   }
 }

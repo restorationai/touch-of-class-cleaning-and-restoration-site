@@ -1805,57 +1805,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Water Cleanup in Sioux Falls | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Sioux Falls",
-      "meta_description": "Water cleanup in Sioux Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup sioux falls",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/service-areas/alton-ia/water-cleanup/",
-        "/service-areas/baltic-sd/water-cleanup/",
-        "/service-areas/beresford-sd/water-cleanup/",
-        "/service-areas/brandon-sd/water-cleanup/",
-        "/service-areas/brookings-sd/water-cleanup/",
-        "/service-areas/canton-sd/water-cleanup/",
-        "/service-areas/crooks-sd/water-cleanup/",
-        "/service-areas/dakota-dunes-sd/water-cleanup/",
-        "/service-areas/dell-rapids-sd/water-cleanup/",
-        "/service-areas/edgerton-mn/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/service-areas/brookings-sd/",
       "archetype": "service-area",
       "vars_keys": [
@@ -6142,50 +6091,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/brookings-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Brookings, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Brookings",
-      "meta_description": "Water cleanup in Brookings, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup brookings",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/brookings-sd/",
-        "/service-areas/brookings-sd/fire-damage-restoration/",
-        "/service-areas/brookings-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/yankton-sd/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7432,50 +7337,6 @@
         "/service-areas/yankton-sd/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/yankton-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Yankton, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Yankton",
-      "meta_description": "Water cleanup in Yankton, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup yankton",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/yankton-sd/",
-        "/service-areas/yankton-sd/fire-damage-restoration/",
-        "/service-areas/yankton-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -8730,50 +8591,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/worthington-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Worthington, MN | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Worthington",
-      "meta_description": "Water cleanup in Worthington, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup worthington",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/worthington-mn/",
-        "/service-areas/worthington-mn/fire-damage-restoration/",
-        "/service-areas/worthington-mn/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/brandon-sd/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10020,50 +9837,6 @@
         "/service-areas/brandon-sd/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/brandon-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Brandon, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Brandon",
-      "meta_description": "Water cleanup in Brandon, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup brandon",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/brandon-sd/",
-        "/service-areas/brandon-sd/fire-damage-restoration/",
-        "/service-areas/brandon-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -11318,50 +11091,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/le-mars-ia/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Le Mars, IA | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Le Mars",
-      "meta_description": "Water cleanup in Le Mars, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup le mars",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/le-mars-ia/",
-        "/service-areas/le-mars-ia/fire-damage-restoration/",
-        "/service-areas/le-mars-ia/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sioux-center-ia/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12608,50 +12337,6 @@
         "/service-areas/sioux-center-ia/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sioux-center-ia/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Sioux Center, IA | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Sioux Center",
-      "meta_description": "Water cleanup in Sioux Center, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup sioux center",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/sioux-center-ia/",
-        "/service-areas/sioux-center-ia/fire-damage-restoration/",
-        "/service-areas/sioux-center-ia/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -13906,50 +13591,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/harrisburg-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Harrisburg, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Harrisburg",
-      "meta_description": "Water cleanup in Harrisburg, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup harrisburg",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/harrisburg-sd/",
-        "/service-areas/harrisburg-sd/fire-damage-restoration/",
-        "/service-areas/harrisburg-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/madison-sd/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15196,50 +14837,6 @@
         "/service-areas/madison-sd/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/madison-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Madison, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Madison",
-      "meta_description": "Water cleanup in Madison, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup madison",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/madison-sd/",
-        "/service-areas/madison-sd/fire-damage-restoration/",
-        "/service-areas/madison-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -16494,50 +16091,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/tea-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Tea, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Tea",
-      "meta_description": "Water cleanup in Tea, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup tea",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/tea-sd/",
-        "/service-areas/tea-sd/fire-damage-restoration/",
-        "/service-areas/tea-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/orange-city-ia/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17784,50 +17337,6 @@
         "/service-areas/orange-city-ia/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/orange-city-ia/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Orange City, IA | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Orange City",
-      "meta_description": "Water cleanup in Orange City, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup orange city",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/orange-city-ia/",
-        "/service-areas/orange-city-ia/fire-damage-restoration/",
-        "/service-areas/orange-city-ia/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -19082,50 +18591,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/luverne-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Luverne, MN | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Luverne",
-      "meta_description": "Water cleanup in Luverne, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup luverne",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/luverne-mn/",
-        "/service-areas/luverne-mn/fire-damage-restoration/",
-        "/service-areas/luverne-mn/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/pipestone-mn/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20372,50 +19837,6 @@
         "/service-areas/pipestone-mn/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pipestone-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Pipestone, MN | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Pipestone",
-      "meta_description": "Water cleanup in Pipestone, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup pipestone",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/pipestone-mn/",
-        "/service-areas/pipestone-mn/fire-damage-restoration/",
-        "/service-areas/pipestone-mn/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -21670,50 +21091,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rock-valley-ia/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Rock Valley, IA | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Rock Valley",
-      "meta_description": "Water cleanup in Rock Valley, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup rock valley",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/rock-valley-ia/",
-        "/service-areas/rock-valley-ia/fire-damage-restoration/",
-        "/service-areas/rock-valley-ia/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/dell-rapids-sd/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22960,50 +22337,6 @@
         "/service-areas/dell-rapids-sd/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/dell-rapids-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Dell Rapids, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Dell Rapids",
-      "meta_description": "Water cleanup in Dell Rapids, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup dell rapids",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/dell-rapids-sd/",
-        "/service-areas/dell-rapids-sd/fire-damage-restoration/",
-        "/service-areas/dell-rapids-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -24258,50 +23591,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/hartford-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Hartford, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Hartford",
-      "meta_description": "Water cleanup in Hartford, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup hartford",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/hartford-sd/",
-        "/service-areas/hartford-sd/fire-damage-restoration/",
-        "/service-areas/hartford-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/canton-sd/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -25548,50 +24837,6 @@
         "/service-areas/canton-sd/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/canton-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Canton, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Canton",
-      "meta_description": "Water cleanup in Canton, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup canton",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/canton-sd/",
-        "/service-areas/canton-sd/fire-damage-restoration/",
-        "/service-areas/canton-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -26846,50 +26091,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/north-sioux-city-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in North Sioux City, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in North Sioux City",
-      "meta_description": "Water cleanup in North Sioux City, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup north sioux city",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/north-sioux-city-sd/",
-        "/service-areas/north-sioux-city-sd/fire-damage-restoration/",
-        "/service-areas/north-sioux-city-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sibley-ia/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -28136,50 +27337,6 @@
         "/service-areas/sibley-ia/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sibley-ia/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Sibley, IA | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Sibley",
-      "meta_description": "Water cleanup in Sibley, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup sibley",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/sibley-ia/",
-        "/service-areas/sibley-ia/fire-damage-restoration/",
-        "/service-areas/sibley-ia/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -29434,50 +28591,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rock-rapids-ia/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Rock Rapids, IA | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Rock Rapids",
-      "meta_description": "Water cleanup in Rock Rapids, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup rock rapids",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/rock-rapids-ia/",
-        "/service-areas/rock-rapids-ia/fire-damage-restoration/",
-        "/service-areas/rock-rapids-ia/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lennox-sd/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -30724,50 +29837,6 @@
         "/service-areas/lennox-sd/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lennox-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Lennox, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Lennox",
-      "meta_description": "Water cleanup in Lennox, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup lennox",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lennox-sd/",
-        "/service-areas/lennox-sd/fire-damage-restoration/",
-        "/service-areas/lennox-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -32022,50 +31091,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/flandreau-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Flandreau, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Flandreau",
-      "meta_description": "Water cleanup in Flandreau, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup flandreau",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/flandreau-sd/",
-        "/service-areas/flandreau-sd/fire-damage-restoration/",
-        "/service-areas/flandreau-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/parker-sd/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -33312,50 +32337,6 @@
         "/service-areas/parker-sd/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/parker-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Parker, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Parker",
-      "meta_description": "Water cleanup in Parker, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup parker",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/parker-sd/",
-        "/service-areas/parker-sd/fire-damage-restoration/",
-        "/service-areas/parker-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -34610,50 +33591,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/salem-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Salem, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Salem",
-      "meta_description": "Water cleanup in Salem, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup salem",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/salem-sd/",
-        "/service-areas/salem-sd/fire-damage-restoration/",
-        "/service-areas/salem-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/slayton-mn/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -35900,50 +34837,6 @@
         "/service-areas/slayton-mn/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/slayton-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Slayton, MN | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Slayton",
-      "meta_description": "Water cleanup in Slayton, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup slayton",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/slayton-mn/",
-        "/service-areas/slayton-mn/fire-damage-restoration/",
-        "/service-areas/slayton-mn/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -37198,50 +36091,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/crooks-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Crooks, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Crooks",
-      "meta_description": "Water cleanup in Crooks, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup crooks",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/crooks-sd/",
-        "/service-areas/crooks-sd/fire-damage-restoration/",
-        "/service-areas/crooks-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/baltic-sd/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -38488,50 +37337,6 @@
         "/service-areas/baltic-sd/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/baltic-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Baltic, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Baltic",
-      "meta_description": "Water cleanup in Baltic, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup baltic",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/baltic-sd/",
-        "/service-areas/baltic-sd/fire-damage-restoration/",
-        "/service-areas/baltic-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -39786,50 +38591,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/garretson-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Garretson, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Garretson",
-      "meta_description": "Water cleanup in Garretson, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup garretson",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/garretson-sd/",
-        "/service-areas/garretson-sd/fire-damage-restoration/",
-        "/service-areas/garretson-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/worthing-sd/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -41076,50 +39837,6 @@
         "/service-areas/worthing-sd/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/worthing-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Worthing, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Worthing",
-      "meta_description": "Water cleanup in Worthing, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup worthing",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/worthing-sd/",
-        "/service-areas/worthing-sd/fire-damage-restoration/",
-        "/service-areas/worthing-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -42374,50 +41091,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/volga-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Volga, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Volga",
-      "meta_description": "Water cleanup in Volga, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup volga",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/volga-sd/",
-        "/service-areas/volga-sd/fire-damage-restoration/",
-        "/service-areas/volga-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/beresford-sd/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -43664,50 +42337,6 @@
         "/service-areas/beresford-sd/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/beresford-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Beresford, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Beresford",
-      "meta_description": "Water cleanup in Beresford, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup beresford",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/beresford-sd/",
-        "/service-areas/beresford-sd/fire-damage-restoration/",
-        "/service-areas/beresford-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -44962,50 +43591,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/dakota-dunes-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Dakota Dunes, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Dakota Dunes",
-      "meta_description": "Water cleanup in Dakota Dunes, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup dakota dunes",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/dakota-dunes-sd/",
-        "/service-areas/dakota-dunes-sd/fire-damage-restoration/",
-        "/service-areas/dakota-dunes-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/elk-point-sd/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -46252,50 +44837,6 @@
         "/service-areas/elk-point-sd/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/elk-point-sd/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Elk Point, SD | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Elk Point",
-      "meta_description": "Water cleanup in Elk Point, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup elk point",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/elk-point-sd/",
-        "/service-areas/elk-point-sd/fire-damage-restoration/",
-        "/service-areas/elk-point-sd/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -47550,50 +46091,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/adrian-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Adrian, MN | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Adrian",
-      "meta_description": "Water cleanup in Adrian, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup adrian",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/adrian-mn/",
-        "/service-areas/adrian-mn/fire-damage-restoration/",
-        "/service-areas/adrian-mn/mold-remediation/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/service-areas/alton-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/edgerton-mn/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -48840,50 +47337,6 @@
         "/service-areas/edgerton-mn/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/edgerton-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Edgerton, MN | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Edgerton",
-      "meta_description": "Water cleanup in Edgerton, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup edgerton",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/edgerton-mn/",
-        "/service-areas/edgerton-mn/fire-damage-restoration/",
-        "/service-areas/edgerton-mn/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -50138,50 +48591,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fulda-mn/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Fulda, MN | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Fulda",
-      "meta_description": "Water cleanup in Fulda, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup fulda",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/fulda-mn/",
-        "/service-areas/fulda-mn/fire-damage-restoration/",
-        "/service-areas/fulda-mn/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/george-ia/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -51428,50 +49837,6 @@
         "/service-areas/george-ia/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/george-ia/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in George, IA | Crew Restoration & Construction",
-      "h1": "Water Cleanup in George",
-      "meta_description": "Water cleanup in George, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup george",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/george-ia/",
-        "/service-areas/george-ia/fire-damage-restoration/",
-        "/service-areas/george-ia/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -52726,50 +51091,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/hawarden-ia/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Hawarden, IA | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Hawarden",
-      "meta_description": "Water cleanup in Hawarden, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup hawarden",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/hawarden-ia/",
-        "/service-areas/hawarden-ia/fire-damage-restoration/",
-        "/service-areas/hawarden-ia/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hull-ia/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -54016,50 +52337,6 @@
         "/service-areas/hull-ia/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hull-ia/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Hull, IA | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Hull",
-      "meta_description": "Water cleanup in Hull, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup hull",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/hull-ia/",
-        "/service-areas/hull-ia/fire-damage-restoration/",
-        "/service-areas/hull-ia/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -55314,50 +53591,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/alton-ia/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Alton, IA | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Alton",
-      "meta_description": "Water cleanup in Alton, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup alton",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/alton-ia/",
-        "/service-areas/alton-ia/fire-damage-restoration/",
-        "/service-areas/alton-ia/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/akron-ia/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -56604,50 +54837,6 @@
         "/service-areas/akron-ia/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/alton-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/akron-ia/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Akron, IA | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Akron",
-      "meta_description": "Water cleanup in Akron, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup akron",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/akron-ia/",
-        "/service-areas/akron-ia/fire-damage-restoration/",
-        "/service-areas/akron-ia/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/alton-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -57902,50 +56091,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/remsen-ia/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Remsen, IA | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Remsen",
-      "meta_description": "Water cleanup in Remsen, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup remsen",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/remsen-ia/",
-        "/service-areas/remsen-ia/fire-damage-restoration/",
-        "/service-areas/remsen-ia/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hinton-ia/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -59192,50 +57337,6 @@
         "/service-areas/hinton-ia/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hinton-ia/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Hinton, IA | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Hinton",
-      "meta_description": "Water cleanup in Hinton, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup hinton",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/hinton-ia/",
-        "/service-areas/hinton-ia/fire-damage-restoration/",
-        "/service-areas/hinton-ia/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },
@@ -60490,50 +58591,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/merrill-ia/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Merrill, IA | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Merrill",
-      "meta_description": "Water cleanup in Merrill, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup merrill",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/merrill-ia/",
-        "/service-areas/merrill-ia/fire-damage-restoration/",
-        "/service-areas/merrill-ia/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/kingsley-ia/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -61780,50 +59837,6 @@
         "/service-areas/kingsley-ia/mold-remediation/",
         "/service-areas/adrian-mn/water-leak-detection/",
         "/service-areas/akron-ia/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/kingsley-ia/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Cleanup in Kingsley, IA | Crew Restoration & Construction",
-      "h1": "Water Cleanup in Kingsley",
-      "meta_description": "Water cleanup in Kingsley, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "emergency water cleanup kingsley",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/kingsley-ia/",
-        "/service-areas/kingsley-ia/fire-damage-restoration/",
-        "/service-areas/kingsley-ia/mold-remediation/",
-        "/service-areas/adrian-mn/water-cleanup/",
-        "/service-areas/akron-ia/water-cleanup/",
         "/contact/"
       ]
     },

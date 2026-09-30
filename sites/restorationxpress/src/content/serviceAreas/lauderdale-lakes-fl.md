@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "a341b4ec1b389f0d"
 generated_at: "2026-09-20T14:13:46.900480+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/lauderdale-lakes-fl/fire-damage-restoration/", "/service-areas/lauderdale-lakes-fl/mold-remediation/", "/service-areas/lauderdale-lakes-fl/water-damage-restoration/", "/service-areas/lauderdale-lakes-fl/flood-damage-restoration/", "/service-areas/lauderdale-lakes-fl/smoke-damage-restoration/", "/service-areas/lauderdale-lakes-fl/storm-damage-restoration/", "/service-areas/lauderdale-lakes-fl/water-cleanup/", "/service-areas/cooper-city-fl/", "/service-areas/dania-beach-fl/", "/service-areas/fort-lauderdale-fl/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/lauderdale-lakes-fl/fire-damage-restoration/", "/service-areas/lauderdale-lakes-fl/mold-remediation/", "/service-areas/lauderdale-lakes-fl/water-damage-restoration/", "/service-areas/lauderdale-lakes-fl/flood-damage-restoration/", "/service-areas/lauderdale-lakes-fl/smoke-damage-restoration/", "/service-areas/lauderdale-lakes-fl/storm-damage-restoration/", "/service-areas/lauderdale-lakes-fl/emergency-water-removal/", "/service-areas/cooper-city-fl/", "/service-areas/dania-beach-fl/", "/service-areas/fort-lauderdale-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lauderdale Lakes"}]
 faq: []
 area_slug: "lauderdale-lakes-fl"

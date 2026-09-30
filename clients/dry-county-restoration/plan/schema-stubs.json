@@ -328,16 +328,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/riverside-ca/": {
     "archetype": "service-area",
     "stubs": [
@@ -797,16 +787,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/riverside-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/anaheim-ca/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1068,16 +1048,6 @@
     "missing_stubs": []
   },
   "/service-areas/anaheim-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/anaheim-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1357,16 +1327,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-ana-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ontario-ca/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1628,16 +1588,6 @@
     "missing_stubs": []
   },
   "/service-areas/ontario-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ontario-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1917,16 +1867,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fullerton-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/norco-ca/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2188,16 +2128,6 @@
     "missing_stubs": []
   },
   "/service-areas/norco-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/norco-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2477,16 +2407,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/chino-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/chino-hills-ca/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2748,16 +2668,6 @@
     "missing_stubs": []
   },
   "/service-areas/chino-hills-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/chino-hills-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3037,16 +2947,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/eastvale-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/silverado-ca/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3308,16 +3208,6 @@
     "missing_stubs": []
   },
   "/service-areas/silverado-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/silverado-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3597,16 +3487,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/jurupa-valley-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/temescal-valley-ca/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3868,16 +3748,6 @@
     "missing_stubs": []
   },
   "/service-areas/temescal-valley-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/temescal-valley-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4157,16 +4027,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/yorba-linda-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lake-mathews-ca/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4428,16 +4288,6 @@
     "missing_stubs": []
   },
   "/service-areas/lake-mathews-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-mathews-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4717,16 +4567,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/woodcrest-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/trabuco-canyon-ca/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4988,16 +4828,6 @@
     "missing_stubs": []
   },
   "/service-areas/trabuco-canyon-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/trabuco-canyon-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5277,16 +5107,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/north-tustin-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/montclair-ca/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5548,16 +5368,6 @@
     "missing_stubs": []
   },
   "/service-areas/montclair-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/montclair-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5837,16 +5647,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/villa-park-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fontana-ca/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6117,16 +5917,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fontana-ca/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pomona-ca/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6388,16 +6178,6 @@
     "missing_stubs": []
   },
   "/service-areas/pomona-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pomona-ca/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

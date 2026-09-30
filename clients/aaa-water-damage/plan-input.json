@@ -469,5 +469,8 @@
     "flood-damage-restoration",
     "sewage-cleanup",
     "burst-pipe-repair"
-  ]
+  ],
+  "merged_services": {
+    "water-cleanup": "emergency-water-removal"
+  }
 }

@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "16d5f1ca0ccf346f"
 generated_at: "2026-09-23T14:11:52.230230+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/searchlight-nv/fire-damage-restoration/", "/service-areas/searchlight-nv/mold-remediation/", "/service-areas/searchlight-nv/water-damage-restoration/", "/service-areas/searchlight-nv/sewage-cleanup/", "/service-areas/searchlight-nv/storm-damage-restoration/", "/service-areas/searchlight-nv/water-cleanup/", "/service-areas/searchlight-nv/biohazard-cleanup/", "/service-areas/searchlight-nv/odor-removal/", "/service-areas/searchlight-nv/contents-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/searchlight-nv/fire-damage-restoration/", "/service-areas/searchlight-nv/mold-remediation/", "/service-areas/searchlight-nv/water-damage-restoration/", "/service-areas/searchlight-nv/sewage-cleanup/", "/service-areas/searchlight-nv/storm-damage-restoration/", "/service-areas/searchlight-nv/emergency-water-removal/", "/service-areas/searchlight-nv/biohazard-cleanup/", "/service-areas/searchlight-nv/odor-removal/", "/service-areas/searchlight-nv/contents-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Searchlight"}]
 faq: []
 area_slug: "searchlight-nv"

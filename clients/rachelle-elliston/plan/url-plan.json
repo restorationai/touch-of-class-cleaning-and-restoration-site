@@ -703,58 +703,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in North Las Vegas | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in North Las Vegas",
-      "meta_description": "24/7 emergency water cleanup in North Las Vegas and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup north las vegas",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
-        "/service-areas/enterprise-nv/water-cleanup/",
-        "/service-areas/henderson-nv/water-cleanup/",
-        "/service-areas/indian-springs-nv/water-cleanup/",
-        "/service-areas/las-vegas-nv/water-cleanup/",
-        "/service-areas/moapa-town-nv/water-cleanup/",
-        "/service-areas/moapa-valley-nv/water-cleanup/",
-        "/service-areas/mount-charleston-nv/water-cleanup/",
-        "/service-areas/nelson-nv/water-cleanup/",
-        "/service-areas/pahrump-nv/water-cleanup/",
-        "/service-areas/paradise-nv/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/services/water-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -3027,51 +2975,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/las-vegas-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Las Vegas, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Las Vegas",
-      "meta_description": "24/7 emergency water cleanup in Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup las vegas",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/las-vegas-nv/",
-        "/service-areas/las-vegas-nv/fire-damage-restoration/",
-        "/service-areas/las-vegas-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/las-vegas-nv/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4030,51 +3933,6 @@
         "/service-areas/henderson-nv/mold-remediation/",
         "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/henderson-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Henderson, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Henderson",
-      "meta_description": "24/7 emergency water cleanup in Henderson, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup henderson",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/henderson-nv/",
-        "/service-areas/henderson-nv/fire-damage-restoration/",
-        "/service-areas/henderson-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5041,51 +4899,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/paradise-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Paradise, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Paradise",
-      "meta_description": "24/7 emergency water cleanup in Paradise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup paradise",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/paradise-nv/",
-        "/service-areas/paradise-nv/fire-damage-restoration/",
-        "/service-areas/paradise-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/paradise-nv/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6044,51 +5857,6 @@
         "/service-areas/spring-valley-nv/mold-remediation/",
         "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/spring-valley-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Spring Valley, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Spring Valley",
-      "meta_description": "24/7 emergency water cleanup in Spring Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup spring valley",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/spring-valley-nv/",
-        "/service-areas/spring-valley-nv/fire-damage-restoration/",
-        "/service-areas/spring-valley-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -7055,51 +6823,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sunrise-manor-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Sunrise Manor, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Sunrise Manor",
-      "meta_description": "24/7 emergency water cleanup in Sunrise Manor, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup sunrise manor",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/sunrise-manor-nv/",
-        "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
-        "/service-areas/sunrise-manor-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sunrise-manor-nv/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8058,51 +7781,6 @@
         "/service-areas/enterprise-nv/mold-remediation/",
         "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/enterprise-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Enterprise, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Enterprise",
-      "meta_description": "24/7 emergency water cleanup in Enterprise, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup enterprise",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/enterprise-nv/",
-        "/service-areas/enterprise-nv/fire-damage-restoration/",
-        "/service-areas/enterprise-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -9069,51 +8747,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/summerlin-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Summerlin, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Summerlin",
-      "meta_description": "24/7 emergency water cleanup in Summerlin, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup summerlin",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/summerlin-nv/",
-        "/service-areas/summerlin-nv/fire-damage-restoration/",
-        "/service-areas/summerlin-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/summerlin-nv/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10072,51 +9705,6 @@
         "/service-areas/boulder-city-nv/mold-remediation/",
         "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/enterprise-nv/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/boulder-city-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Boulder City, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Boulder City",
-      "meta_description": "24/7 emergency water cleanup in Boulder City, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup boulder city",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/boulder-city-nv/",
-        "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/enterprise-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -11083,51 +10671,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/winchester-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Winchester, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Winchester",
-      "meta_description": "24/7 emergency water cleanup in Winchester, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup winchester",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/winchester-nv/",
-        "/service-areas/winchester-nv/fire-damage-restoration/",
-        "/service-areas/winchester-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/winchester-nv/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12086,51 +11629,6 @@
         "/service-areas/whitney-nv/mold-remediation/",
         "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/whitney-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Whitney, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Whitney",
-      "meta_description": "24/7 emergency water cleanup in Whitney, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup whitney",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/whitney-nv/",
-        "/service-areas/whitney-nv/fire-damage-restoration/",
-        "/service-areas/whitney-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -13097,51 +12595,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/summerlin-south-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Summerlin South, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Summerlin South",
-      "meta_description": "24/7 emergency water cleanup in Summerlin South, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup summerlin south",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/summerlin-south-nv/",
-        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
-        "/service-areas/summerlin-south-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/summerlin-south-nv/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14100,51 +13553,6 @@
         "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
         "/service-areas/enterprise-nv/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/blue-diamond-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Blue Diamond, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Blue Diamond",
-      "meta_description": "24/7 emergency water cleanup in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup blue diamond",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/blue-diamond-nv/",
-        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
-        "/service-areas/blue-diamond-nv/mold-remediation/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
-        "/service-areas/enterprise-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -15111,51 +14519,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mount-charleston-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Mount Charleston, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Mount Charleston",
-      "meta_description": "24/7 emergency water cleanup in Mount Charleston, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup mount charleston",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/mount-charleston-nv/",
-        "/service-areas/mount-charleston-nv/fire-damage-restoration/",
-        "/service-areas/mount-charleston-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mount-charleston-nv/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16114,51 +15477,6 @@
         "/service-areas/sandy-valley-nv/mold-remediation/",
         "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sandy-valley-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Sandy Valley, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Sandy Valley",
-      "meta_description": "24/7 emergency water cleanup in Sandy Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup sandy valley",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/sandy-valley-nv/",
-        "/service-areas/sandy-valley-nv/fire-damage-restoration/",
-        "/service-areas/sandy-valley-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -17125,51 +16443,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/nelson-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Nelson, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Nelson",
-      "meta_description": "24/7 emergency water cleanup in Nelson, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup nelson",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/nelson-nv/",
-        "/service-areas/nelson-nv/fire-damage-restoration/",
-        "/service-areas/nelson-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/nelson-nv/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18128,51 +17401,6 @@
         "/service-areas/indian-springs-nv/mold-remediation/",
         "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/indian-springs-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Indian Springs, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Indian Springs",
-      "meta_description": "24/7 emergency water cleanup in Indian Springs, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup indian springs",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/indian-springs-nv/",
-        "/service-areas/indian-springs-nv/fire-damage-restoration/",
-        "/service-areas/indian-springs-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -19139,51 +18367,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/moapa-town-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Moapa Town, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Moapa Town",
-      "meta_description": "24/7 emergency water cleanup in Moapa Town, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup moapa town",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/moapa-town-nv/",
-        "/service-areas/moapa-town-nv/fire-damage-restoration/",
-        "/service-areas/moapa-town-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/moapa-town-nv/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20142,51 +19325,6 @@
         "/service-areas/moapa-valley-nv/mold-remediation/",
         "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/moapa-valley-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Moapa Valley, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Moapa Valley",
-      "meta_description": "24/7 emergency water cleanup in Moapa Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup moapa valley",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/moapa-valley-nv/",
-        "/service-areas/moapa-valley-nv/fire-damage-restoration/",
-        "/service-areas/moapa-valley-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
         "/contact/"
       ]
     },
@@ -21153,51 +20291,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/searchlight-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Searchlight, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Searchlight",
-      "meta_description": "24/7 emergency water cleanup in Searchlight, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup searchlight",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/searchlight-nv/",
-        "/service-areas/searchlight-nv/fire-damage-restoration/",
-        "/service-areas/searchlight-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/searchlight-nv/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22156,51 +21249,6 @@
         "/service-areas/pahrump-nv/mold-remediation/",
         "/service-areas/blue-diamond-nv/storm-damage-restoration/",
         "/service-areas/boulder-city-nv/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pahrump-nv/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Pahrump, NV | Desert Valley Contracting Inc ",
-      "h1": "Emergency Water Cleanup in Pahrump",
-      "meta_description": "24/7 emergency water cleanup in Pahrump, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033.",
-      "primary_keyword": "emergency water cleanup pahrump",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/pahrump-nv/",
-        "/service-areas/pahrump-nv/fire-damage-restoration/",
-        "/service-areas/pahrump-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/water-cleanup/",
-        "/service-areas/boulder-city-nv/water-cleanup/",
         "/contact/"
       ]
     },

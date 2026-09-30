@@ -986,58 +986,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Abilene | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Abilene",
-      "meta_description": "24/7 emergency water cleanup in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup abilene",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
-        "/service-areas/baird-tx/water-cleanup/",
-        "/service-areas/ballinger-tx/water-cleanup/",
-        "/service-areas/bronte-tx/water-cleanup/",
-        "/service-areas/brownwood-tx/water-cleanup/",
-        "/service-areas/buffalo-gap-tx/water-cleanup/",
-        "/service-areas/clyde-tx/water-cleanup/",
-        "/service-areas/coleman-tx/water-cleanup/",
-        "/service-areas/colorado-city-tx/water-cleanup/",
-        "/service-areas/comanche-tx/water-cleanup/",
-        "/service-areas/early-tx/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/services/water-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -4151,51 +4099,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sweetwater-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Sweetwater, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Sweetwater",
-      "meta_description": "24/7 emergency water cleanup in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup sweetwater",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/sweetwater-tx/",
-        "/service-areas/sweetwater-tx/fire-damage-restoration/",
-        "/service-areas/sweetwater-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sweetwater-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5379,51 +5282,6 @@
         "/service-areas/clyde-tx/mold-remediation/",
         "/service-areas/albany-tx/vandalism-cleanup/",
         "/service-areas/anson-tx/vandalism-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/clyde-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Clyde, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Clyde",
-      "meta_description": "24/7 emergency water cleanup in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup clyde",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/clyde-tx/",
-        "/service-areas/clyde-tx/fire-damage-restoration/",
-        "/service-areas/clyde-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -6615,51 +6473,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/merkel-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Merkel, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Merkel",
-      "meta_description": "24/7 emergency water cleanup in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup merkel",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/merkel-tx/",
-        "/service-areas/merkel-tx/fire-damage-restoration/",
-        "/service-areas/merkel-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/merkel-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7843,51 +7656,6 @@
         "/service-areas/anson-tx/mold-remediation/",
         "/service-areas/albany-tx/vandalism-cleanup/",
         "/service-areas/baird-tx/vandalism-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/anson-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Anson, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Anson",
-      "meta_description": "24/7 emergency water cleanup in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup anson",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/anson-tx/",
-        "/service-areas/anson-tx/fire-damage-restoration/",
-        "/service-areas/anson-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/baird-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -9079,51 +8847,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/tuscola-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Tuscola, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Tuscola",
-      "meta_description": "24/7 emergency water cleanup in Tuscola, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup tuscola",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/tuscola-tx/",
-        "/service-areas/tuscola-tx/fire-damage-restoration/",
-        "/service-areas/tuscola-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/tuscola-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10307,51 +10030,6 @@
         "/service-areas/tye-tx/mold-remediation/",
         "/service-areas/albany-tx/vandalism-cleanup/",
         "/service-areas/anson-tx/vandalism-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/tye-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Tye, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Tye",
-      "meta_description": "24/7 emergency water cleanup in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup tye",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/tye-tx/",
-        "/service-areas/tye-tx/fire-damage-restoration/",
-        "/service-areas/tye-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -11543,51 +11221,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/buffalo-gap-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Buffalo Gap, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Buffalo Gap",
-      "meta_description": "24/7 emergency water cleanup in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup buffalo gap",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/buffalo-gap-tx/",
-        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
-        "/service-areas/buffalo-gap-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/buffalo-gap-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12771,51 +12404,6 @@
         "/service-areas/brownwood-tx/mold-remediation/",
         "/service-areas/albany-tx/vandalism-cleanup/",
         "/service-areas/anson-tx/vandalism-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/brownwood-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Brownwood, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Brownwood",
-      "meta_description": "24/7 emergency water cleanup in Brownwood, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup brownwood",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/brownwood-tx/",
-        "/service-areas/brownwood-tx/fire-damage-restoration/",
-        "/service-areas/brownwood-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -14007,51 +13595,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/early-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Early, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Early",
-      "meta_description": "24/7 emergency water cleanup in Early, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup early",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/early-tx/",
-        "/service-areas/early-tx/fire-damage-restoration/",
-        "/service-areas/early-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/early-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15235,51 +14778,6 @@
         "/service-areas/roby-tx/mold-remediation/",
         "/service-areas/albany-tx/vandalism-cleanup/",
         "/service-areas/anson-tx/vandalism-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/roby-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Roby, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Roby",
-      "meta_description": "24/7 emergency water cleanup in Roby, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup roby",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/roby-tx/",
-        "/service-areas/roby-tx/fire-damage-restoration/",
-        "/service-areas/roby-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -16471,51 +15969,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rotan-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Rotan, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Rotan",
-      "meta_description": "24/7 emergency water cleanup in Rotan, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup rotan",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/rotan-tx/",
-        "/service-areas/rotan-tx/fire-damage-restoration/",
-        "/service-areas/rotan-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rotan-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17699,51 +17152,6 @@
         "/service-areas/robert-lee-tx/mold-remediation/",
         "/service-areas/albany-tx/vandalism-cleanup/",
         "/service-areas/anson-tx/vandalism-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/robert-lee-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Robert Lee, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Robert Lee",
-      "meta_description": "24/7 emergency water cleanup in Robert Lee, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup robert lee",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/robert-lee-tx/",
-        "/service-areas/robert-lee-tx/fire-damage-restoration/",
-        "/service-areas/robert-lee-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -18935,51 +18343,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/bronte-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Bronte, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Bronte",
-      "meta_description": "24/7 emergency water cleanup in Bronte, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup bronte",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/bronte-tx/",
-        "/service-areas/bronte-tx/fire-damage-restoration/",
-        "/service-areas/bronte-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/bronte-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20163,51 +19526,6 @@
         "/service-areas/eden-tx/mold-remediation/",
         "/service-areas/albany-tx/vandalism-cleanup/",
         "/service-areas/anson-tx/vandalism-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/eden-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Eden, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Eden",
-      "meta_description": "24/7 emergency water cleanup in Eden, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup eden",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/eden-tx/",
-        "/service-areas/eden-tx/fire-damage-restoration/",
-        "/service-areas/eden-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -21399,51 +20717,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/paint-rock-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Paint Rock, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Paint Rock",
-      "meta_description": "24/7 emergency water cleanup in Paint Rock, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup paint rock",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/paint-rock-tx/",
-        "/service-areas/paint-rock-tx/fire-damage-restoration/",
-        "/service-areas/paint-rock-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/paint-rock-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22627,51 +21900,6 @@
         "/service-areas/san-angelo-tx/mold-remediation/",
         "/service-areas/albany-tx/vandalism-cleanup/",
         "/service-areas/anson-tx/vandalism-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/san-angelo-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in San Angelo, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in San Angelo",
-      "meta_description": "24/7 emergency water cleanup in San Angelo, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup san angelo",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/san-angelo-tx/",
-        "/service-areas/san-angelo-tx/fire-damage-restoration/",
-        "/service-areas/san-angelo-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -23863,51 +23091,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/snyder-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Snyder, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Snyder",
-      "meta_description": "24/7 emergency water cleanup in Snyder, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup snyder",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/snyder-tx/",
-        "/service-areas/snyder-tx/fire-damage-restoration/",
-        "/service-areas/snyder-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/snyder-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -25091,51 +24274,6 @@
         "/service-areas/coleman-tx/mold-remediation/",
         "/service-areas/albany-tx/vandalism-cleanup/",
         "/service-areas/anson-tx/vandalism-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/coleman-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Coleman, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Coleman",
-      "meta_description": "24/7 emergency water cleanup in Coleman, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup coleman",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/coleman-tx/",
-        "/service-areas/coleman-tx/fire-damage-restoration/",
-        "/service-areas/coleman-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -26327,51 +25465,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ballinger-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Ballinger, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Ballinger",
-      "meta_description": "24/7 emergency water cleanup in Ballinger, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup ballinger",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/ballinger-tx/",
-        "/service-areas/ballinger-tx/fire-damage-restoration/",
-        "/service-areas/ballinger-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ballinger-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -27555,51 +26648,6 @@
         "/service-areas/haskell-tx/mold-remediation/",
         "/service-areas/albany-tx/vandalism-cleanup/",
         "/service-areas/anson-tx/vandalism-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/haskell-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Haskell, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Haskell",
-      "meta_description": "24/7 emergency water cleanup in Haskell, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup haskell",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/haskell-tx/",
-        "/service-areas/haskell-tx/fire-damage-restoration/",
-        "/service-areas/haskell-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -28791,51 +27839,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/albany-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Albany, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Albany",
-      "meta_description": "24/7 emergency water cleanup in Albany, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup albany",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/albany-tx/",
-        "/service-areas/albany-tx/fire-damage-restoration/",
-        "/service-areas/albany-tx/mold-remediation/",
-        "/service-areas/anson-tx/water-cleanup/",
-        "/service-areas/baird-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/albany-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -30019,51 +29022,6 @@
         "/service-areas/eastland-tx/mold-remediation/",
         "/service-areas/albany-tx/vandalism-cleanup/",
         "/service-areas/anson-tx/vandalism-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/eastland-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Eastland, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Eastland",
-      "meta_description": "24/7 emergency water cleanup in Eastland, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup eastland",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/eastland-tx/",
-        "/service-areas/eastland-tx/fire-damage-restoration/",
-        "/service-areas/eastland-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -31255,51 +30213,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/colorado-city-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Colorado City, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Colorado City",
-      "meta_description": "24/7 emergency water cleanup in Colorado City, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup colorado city",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/colorado-city-tx/",
-        "/service-areas/colorado-city-tx/fire-damage-restoration/",
-        "/service-areas/colorado-city-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/colorado-city-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -32483,51 +31396,6 @@
         "/service-areas/comanche-tx/mold-remediation/",
         "/service-areas/albany-tx/vandalism-cleanup/",
         "/service-areas/anson-tx/vandalism-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/comanche-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Comanche, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Comanche",
-      "meta_description": "24/7 emergency water cleanup in Comanche, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup comanche",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/comanche-tx/",
-        "/service-areas/comanche-tx/fire-damage-restoration/",
-        "/service-areas/comanche-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -33719,51 +32587,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/potosi-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Potosi, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Potosi",
-      "meta_description": "24/7 emergency water cleanup in Potosi, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup potosi",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/potosi-tx/",
-        "/service-areas/potosi-tx/fire-damage-restoration/",
-        "/service-areas/potosi-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/potosi-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -34951,51 +33774,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/hawley-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Hawley, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Hawley",
-      "meta_description": "24/7 emergency water cleanup in Hawley, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup hawley",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/hawley-tx/",
-        "/service-areas/hawley-tx/fire-damage-restoration/",
-        "/service-areas/hawley-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hawley-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -36179,51 +34957,6 @@
         "/service-areas/baird-tx/mold-remediation/",
         "/service-areas/albany-tx/vandalism-cleanup/",
         "/service-areas/anson-tx/vandalism-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/baird-tx/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Baird, TX | Air Care Restoration",
-      "h1": "Emergency Water Cleanup in Baird",
-      "meta_description": "24/7 emergency water cleanup in Baird, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "emergency water cleanup baird",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/baird-tx/",
-        "/service-areas/baird-tx/fire-damage-restoration/",
-        "/service-areas/baird-tx/mold-remediation/",
-        "/service-areas/albany-tx/water-cleanup/",
-        "/service-areas/anson-tx/water-cleanup/",
         "/contact/"
       ]
     },

@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "06b25ab60176985d"
 generated_at: "2026-09-20T14:13:25.009797+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/isle-of-palms-sc/fire-damage-restoration/", "/service-areas/isle-of-palms-sc/mold-remediation/", "/service-areas/isle-of-palms-sc/water-damage-restoration/", "/service-areas/isle-of-palms-sc/water-cleanup/", "/service-areas/awendaw-sc/", "/service-areas/goose-creek-sc/", "/service-areas/hanahan-sc/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/isle-of-palms-sc/fire-damage-restoration/", "/service-areas/isle-of-palms-sc/mold-remediation/", "/service-areas/isle-of-palms-sc/water-damage-restoration/", "/service-areas/isle-of-palms-sc/emergency-water-removal/", "/service-areas/awendaw-sc/", "/service-areas/goose-creek-sc/", "/service-areas/hanahan-sc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Isle of Palms"}]
 faq: []
 area_slug: "isle-of-palms-sc"

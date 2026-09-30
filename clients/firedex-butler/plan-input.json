@@ -381,6 +381,7 @@
     "reconstruction"
   ],
   "merged_services": {
-    "soot-removal": "smoke-damage-restoration"
+    "soot-removal": "smoke-damage-restoration",
+    "water-cleanup": "emergency-water-removal"
   }
 }

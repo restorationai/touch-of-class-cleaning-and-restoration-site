@@ -33,7 +33,7 @@
     "roofing",
     "sewage-cleanup",
     "storm-damage-restoration",
-    "water-cleanup",
+    "emergency-water-removal",
     "water-damage-restoration"
   ],
   "service_areas": [
@@ -158,5 +158,8 @@
     "sewage-cleanup",
     "storm-damage-restoration",
     "general-contracting"
-  ]
+  ],
+  "merged_services": {
+    "water-cleanup": "emergency-water-removal"
+  }
 }

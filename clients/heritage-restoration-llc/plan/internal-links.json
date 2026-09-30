@@ -15,7 +15,6 @@
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/basement-flooding-cleanup/",
     "/services/burst-pipe-repair/",
     "/services/ceiling-water-damage-repair/",
@@ -64,7 +63,6 @@
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/basement-flooding-cleanup/",
     "/services/burst-pipe-repair/",
     "/services/ceiling-water-damage-repair/",
@@ -139,7 +137,6 @@
     "/service-areas/long-prairie-mn/water-damage-restoration/",
     "/service-areas/pierz-mn/water-damage-restoration/",
     "/service-areas/randall-mn/water-damage-restoration/",
-    "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
@@ -175,23 +172,6 @@
     "/service-areas/long-prairie-mn/general-contracting/",
     "/service-areas/pierz-mn/general-contracting/",
     "/service-areas/randall-mn/general-contracting/"
-  ],
-  "/services/water-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
-    "/service-areas/baxter-mn/water-cleanup/",
-    "/service-areas/brainerd-mn/water-cleanup/",
-    "/service-areas/elmdale-mn/water-cleanup/",
-    "/service-areas/flensburg-mn/water-cleanup/",
-    "/service-areas/foley-mn/water-cleanup/",
-    "/service-areas/fort-ripley-mn/water-cleanup/",
-    "/service-areas/harding-mn/water-cleanup/",
-    "/service-areas/long-prairie-mn/water-cleanup/",
-    "/service-areas/pierz-mn/water-cleanup/",
-    "/service-areas/randall-mn/water-cleanup/",
-    "/services/water-damage-restoration/"
   ],
   "/services/fire-damage-restoration/": [
     "/services/",
@@ -534,7 +514,6 @@
     "/service-areas/st-cloud-mn/sewage-cleanup/",
     "/service-areas/st-cloud-mn/smoke-damage-restoration/",
     "/service-areas/st-cloud-mn/storm-damage-restoration/",
-    "/service-areas/st-cloud-mn/water-cleanup/",
     "/service-areas/st-cloud-mn/basement-flooding-cleanup/",
     "/service-areas/st-cloud-mn/burst-pipe-repair/",
     "/service-areas/st-cloud-mn/ceiling-water-damage-repair/",
@@ -565,7 +544,6 @@
     "/service-areas/sartell-mn/sewage-cleanup/",
     "/service-areas/sartell-mn/smoke-damage-restoration/",
     "/service-areas/sartell-mn/storm-damage-restoration/",
-    "/service-areas/sartell-mn/water-cleanup/",
     "/service-areas/sartell-mn/basement-flooding-cleanup/",
     "/service-areas/sartell-mn/burst-pipe-repair/",
     "/service-areas/sartell-mn/ceiling-water-damage-repair/",
@@ -596,7 +574,6 @@
     "/service-areas/sauk-rapids-mn/sewage-cleanup/",
     "/service-areas/sauk-rapids-mn/smoke-damage-restoration/",
     "/service-areas/sauk-rapids-mn/storm-damage-restoration/",
-    "/service-areas/sauk-rapids-mn/water-cleanup/",
     "/service-areas/sauk-rapids-mn/basement-flooding-cleanup/",
     "/service-areas/sauk-rapids-mn/burst-pipe-repair/",
     "/service-areas/sauk-rapids-mn/ceiling-water-damage-repair/",
@@ -627,7 +604,6 @@
     "/service-areas/brainerd-mn/sewage-cleanup/",
     "/service-areas/brainerd-mn/smoke-damage-restoration/",
     "/service-areas/brainerd-mn/storm-damage-restoration/",
-    "/service-areas/brainerd-mn/water-cleanup/",
     "/service-areas/brainerd-mn/basement-flooding-cleanup/",
     "/service-areas/brainerd-mn/burst-pipe-repair/",
     "/service-areas/brainerd-mn/ceiling-water-damage-repair/",
@@ -658,7 +634,6 @@
     "/service-areas/baxter-mn/sewage-cleanup/",
     "/service-areas/baxter-mn/smoke-damage-restoration/",
     "/service-areas/baxter-mn/storm-damage-restoration/",
-    "/service-areas/baxter-mn/water-cleanup/",
     "/service-areas/baxter-mn/basement-flooding-cleanup/",
     "/service-areas/baxter-mn/burst-pipe-repair/",
     "/service-areas/baxter-mn/ceiling-water-damage-repair/",
@@ -689,7 +664,6 @@
     "/service-areas/foley-mn/sewage-cleanup/",
     "/service-areas/foley-mn/smoke-damage-restoration/",
     "/service-areas/foley-mn/storm-damage-restoration/",
-    "/service-areas/foley-mn/water-cleanup/",
     "/service-areas/foley-mn/basement-flooding-cleanup/",
     "/service-areas/foley-mn/burst-pipe-repair/",
     "/service-areas/foley-mn/ceiling-water-damage-repair/",
@@ -720,7 +694,6 @@
     "/service-areas/royalton-mn/sewage-cleanup/",
     "/service-areas/royalton-mn/smoke-damage-restoration/",
     "/service-areas/royalton-mn/storm-damage-restoration/",
-    "/service-areas/royalton-mn/water-cleanup/",
     "/service-areas/royalton-mn/basement-flooding-cleanup/",
     "/service-areas/royalton-mn/burst-pipe-repair/",
     "/service-areas/royalton-mn/ceiling-water-damage-repair/",
@@ -751,7 +724,6 @@
     "/service-areas/pierz-mn/sewage-cleanup/",
     "/service-areas/pierz-mn/smoke-damage-restoration/",
     "/service-areas/pierz-mn/storm-damage-restoration/",
-    "/service-areas/pierz-mn/water-cleanup/",
     "/service-areas/pierz-mn/basement-flooding-cleanup/",
     "/service-areas/pierz-mn/burst-pipe-repair/",
     "/service-areas/pierz-mn/ceiling-water-damage-repair/",
@@ -782,7 +754,6 @@
     "/service-areas/sobieski-mn/sewage-cleanup/",
     "/service-areas/sobieski-mn/smoke-damage-restoration/",
     "/service-areas/sobieski-mn/storm-damage-restoration/",
-    "/service-areas/sobieski-mn/water-cleanup/",
     "/service-areas/sobieski-mn/basement-flooding-cleanup/",
     "/service-areas/sobieski-mn/burst-pipe-repair/",
     "/service-areas/sobieski-mn/ceiling-water-damage-repair/",
@@ -813,7 +784,6 @@
     "/service-areas/flensburg-mn/sewage-cleanup/",
     "/service-areas/flensburg-mn/smoke-damage-restoration/",
     "/service-areas/flensburg-mn/storm-damage-restoration/",
-    "/service-areas/flensburg-mn/water-cleanup/",
     "/service-areas/flensburg-mn/basement-flooding-cleanup/",
     "/service-areas/flensburg-mn/burst-pipe-repair/",
     "/service-areas/flensburg-mn/ceiling-water-damage-repair/",
@@ -844,7 +814,6 @@
     "/service-areas/randall-mn/sewage-cleanup/",
     "/service-areas/randall-mn/smoke-damage-restoration/",
     "/service-areas/randall-mn/storm-damage-restoration/",
-    "/service-areas/randall-mn/water-cleanup/",
     "/service-areas/randall-mn/basement-flooding-cleanup/",
     "/service-areas/randall-mn/burst-pipe-repair/",
     "/service-areas/randall-mn/ceiling-water-damage-repair/",
@@ -875,7 +844,6 @@
     "/service-areas/elmdale-mn/sewage-cleanup/",
     "/service-areas/elmdale-mn/smoke-damage-restoration/",
     "/service-areas/elmdale-mn/storm-damage-restoration/",
-    "/service-areas/elmdale-mn/water-cleanup/",
     "/service-areas/elmdale-mn/basement-flooding-cleanup/",
     "/service-areas/elmdale-mn/burst-pipe-repair/",
     "/service-areas/elmdale-mn/ceiling-water-damage-repair/",
@@ -906,7 +874,6 @@
     "/service-areas/fort-ripley-mn/sewage-cleanup/",
     "/service-areas/fort-ripley-mn/smoke-damage-restoration/",
     "/service-areas/fort-ripley-mn/storm-damage-restoration/",
-    "/service-areas/fort-ripley-mn/water-cleanup/",
     "/service-areas/fort-ripley-mn/basement-flooding-cleanup/",
     "/service-areas/fort-ripley-mn/burst-pipe-repair/",
     "/service-areas/fort-ripley-mn/ceiling-water-damage-repair/",
@@ -937,7 +904,6 @@
     "/service-areas/swanville-mn/sewage-cleanup/",
     "/service-areas/swanville-mn/smoke-damage-restoration/",
     "/service-areas/swanville-mn/storm-damage-restoration/",
-    "/service-areas/swanville-mn/water-cleanup/",
     "/service-areas/swanville-mn/basement-flooding-cleanup/",
     "/service-areas/swanville-mn/burst-pipe-repair/",
     "/service-areas/swanville-mn/ceiling-water-damage-repair/",
@@ -968,7 +934,6 @@
     "/service-areas/upsala-mn/sewage-cleanup/",
     "/service-areas/upsala-mn/smoke-damage-restoration/",
     "/service-areas/upsala-mn/storm-damage-restoration/",
-    "/service-areas/upsala-mn/water-cleanup/",
     "/service-areas/upsala-mn/basement-flooding-cleanup/",
     "/service-areas/upsala-mn/burst-pipe-repair/",
     "/service-areas/upsala-mn/ceiling-water-damage-repair/",
@@ -999,7 +964,6 @@
     "/service-areas/rice-mn/sewage-cleanup/",
     "/service-areas/rice-mn/smoke-damage-restoration/",
     "/service-areas/rice-mn/storm-damage-restoration/",
-    "/service-areas/rice-mn/water-cleanup/",
     "/service-areas/rice-mn/basement-flooding-cleanup/",
     "/service-areas/rice-mn/burst-pipe-repair/",
     "/service-areas/rice-mn/ceiling-water-damage-repair/",
@@ -1030,7 +994,6 @@
     "/service-areas/harding-mn/sewage-cleanup/",
     "/service-areas/harding-mn/smoke-damage-restoration/",
     "/service-areas/harding-mn/storm-damage-restoration/",
-    "/service-areas/harding-mn/water-cleanup/",
     "/service-areas/harding-mn/basement-flooding-cleanup/",
     "/service-areas/harding-mn/burst-pipe-repair/",
     "/service-areas/harding-mn/ceiling-water-damage-repair/",
@@ -1061,7 +1024,6 @@
     "/service-areas/st-stephen-mn/sewage-cleanup/",
     "/service-areas/st-stephen-mn/smoke-damage-restoration/",
     "/service-areas/st-stephen-mn/storm-damage-restoration/",
-    "/service-areas/st-stephen-mn/water-cleanup/",
     "/service-areas/st-stephen-mn/basement-flooding-cleanup/",
     "/service-areas/st-stephen-mn/burst-pipe-repair/",
     "/service-areas/st-stephen-mn/ceiling-water-damage-repair/",
@@ -1092,7 +1054,6 @@
     "/service-areas/long-prairie-mn/sewage-cleanup/",
     "/service-areas/long-prairie-mn/smoke-damage-restoration/",
     "/service-areas/long-prairie-mn/storm-damage-restoration/",
-    "/service-areas/long-prairie-mn/water-cleanup/",
     "/service-areas/long-prairie-mn/basement-flooding-cleanup/",
     "/service-areas/long-prairie-mn/burst-pipe-repair/",
     "/service-areas/long-prairie-mn/ceiling-water-damage-repair/",
@@ -1123,7 +1084,6 @@
     "/service-areas/albany-mn/sewage-cleanup/",
     "/service-areas/albany-mn/smoke-damage-restoration/",
     "/service-areas/albany-mn/storm-damage-restoration/",
-    "/service-areas/albany-mn/water-cleanup/",
     "/service-areas/albany-mn/basement-flooding-cleanup/",
     "/service-areas/albany-mn/burst-pipe-repair/",
     "/service-areas/albany-mn/ceiling-water-damage-repair/",
@@ -1154,7 +1114,6 @@
     "/service-areas/avon-mn/sewage-cleanup/",
     "/service-areas/avon-mn/smoke-damage-restoration/",
     "/service-areas/avon-mn/storm-damage-restoration/",
-    "/service-areas/avon-mn/water-cleanup/",
     "/service-areas/avon-mn/basement-flooding-cleanup/",
     "/service-areas/avon-mn/burst-pipe-repair/",
     "/service-areas/avon-mn/ceiling-water-damage-repair/",
@@ -1185,7 +1144,6 @@
     "/service-areas/st-joseph-mn/sewage-cleanup/",
     "/service-areas/st-joseph-mn/smoke-damage-restoration/",
     "/service-areas/st-joseph-mn/storm-damage-restoration/",
-    "/service-areas/st-joseph-mn/water-cleanup/",
     "/service-areas/st-joseph-mn/basement-flooding-cleanup/",
     "/service-areas/st-joseph-mn/burst-pipe-repair/",
     "/service-areas/st-joseph-mn/ceiling-water-damage-repair/",
@@ -1227,15 +1185,6 @@
     "/service-areas/st-cloud-mn/mold-remediation/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/st-cloud-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/st-cloud-mn/",
-    "/service-areas/st-cloud-mn/fire-damage-restoration/",
-    "/service-areas/st-cloud-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/st-cloud-mn/fire-damage-restoration/": [
@@ -1445,15 +1394,6 @@
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/sartell-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/sartell-mn/",
-    "/service-areas/sartell-mn/fire-damage-restoration/",
-    "/service-areas/sartell-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/sartell-mn/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/sartell-mn/",
@@ -1659,15 +1599,6 @@
     "/service-areas/sauk-rapids-mn/mold-remediation/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/sauk-rapids-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/sauk-rapids-mn/",
-    "/service-areas/sauk-rapids-mn/fire-damage-restoration/",
-    "/service-areas/sauk-rapids-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/sauk-rapids-mn/fire-damage-restoration/": [
@@ -1877,15 +1808,6 @@
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/brainerd-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/brainerd-mn/",
-    "/service-areas/brainerd-mn/fire-damage-restoration/",
-    "/service-areas/brainerd-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/brainerd-mn/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/brainerd-mn/",
@@ -2091,15 +2013,6 @@
     "/service-areas/baxter-mn/mold-remediation/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/baxter-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/baxter-mn/",
-    "/service-areas/baxter-mn/fire-damage-restoration/",
-    "/service-areas/baxter-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/baxter-mn/fire-damage-restoration/": [
@@ -2309,15 +2222,6 @@
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/foley-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/foley-mn/",
-    "/service-areas/foley-mn/fire-damage-restoration/",
-    "/service-areas/foley-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/foley-mn/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/foley-mn/",
@@ -2523,15 +2427,6 @@
     "/service-areas/royalton-mn/mold-remediation/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/royalton-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/royalton-mn/",
-    "/service-areas/royalton-mn/fire-damage-restoration/",
-    "/service-areas/royalton-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/royalton-mn/fire-damage-restoration/": [
@@ -2741,15 +2636,6 @@
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/pierz-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/pierz-mn/",
-    "/service-areas/pierz-mn/fire-damage-restoration/",
-    "/service-areas/pierz-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/pierz-mn/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/pierz-mn/",
@@ -2955,15 +2841,6 @@
     "/service-areas/sobieski-mn/mold-remediation/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/sobieski-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/sobieski-mn/",
-    "/service-areas/sobieski-mn/fire-damage-restoration/",
-    "/service-areas/sobieski-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/sobieski-mn/fire-damage-restoration/": [
@@ -3173,15 +3050,6 @@
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/flensburg-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/flensburg-mn/",
-    "/service-areas/flensburg-mn/fire-damage-restoration/",
-    "/service-areas/flensburg-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/flensburg-mn/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/flensburg-mn/",
@@ -3387,15 +3255,6 @@
     "/service-areas/randall-mn/mold-remediation/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/randall-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/randall-mn/",
-    "/service-areas/randall-mn/fire-damage-restoration/",
-    "/service-areas/randall-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/randall-mn/fire-damage-restoration/": [
@@ -3605,15 +3464,6 @@
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/elmdale-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/elmdale-mn/",
-    "/service-areas/elmdale-mn/fire-damage-restoration/",
-    "/service-areas/elmdale-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/elmdale-mn/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/elmdale-mn/",
@@ -3819,15 +3669,6 @@
     "/service-areas/fort-ripley-mn/mold-remediation/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/fort-ripley-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/fort-ripley-mn/",
-    "/service-areas/fort-ripley-mn/fire-damage-restoration/",
-    "/service-areas/fort-ripley-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/fort-ripley-mn/fire-damage-restoration/": [
@@ -4037,15 +3878,6 @@
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/swanville-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/swanville-mn/",
-    "/service-areas/swanville-mn/fire-damage-restoration/",
-    "/service-areas/swanville-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/swanville-mn/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/swanville-mn/",
@@ -4251,15 +4083,6 @@
     "/service-areas/upsala-mn/mold-remediation/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/upsala-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/upsala-mn/",
-    "/service-areas/upsala-mn/fire-damage-restoration/",
-    "/service-areas/upsala-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/upsala-mn/fire-damage-restoration/": [
@@ -4469,15 +4292,6 @@
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/rice-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/rice-mn/",
-    "/service-areas/rice-mn/fire-damage-restoration/",
-    "/service-areas/rice-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/rice-mn/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/rice-mn/",
@@ -4683,15 +4497,6 @@
     "/service-areas/harding-mn/mold-remediation/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/harding-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/harding-mn/",
-    "/service-areas/harding-mn/fire-damage-restoration/",
-    "/service-areas/harding-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/harding-mn/fire-damage-restoration/": [
@@ -4901,15 +4706,6 @@
     "/service-areas/avon-mn/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/st-stephen-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/st-stephen-mn/",
-    "/service-areas/st-stephen-mn/fire-damage-restoration/",
-    "/service-areas/st-stephen-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/st-stephen-mn/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/st-stephen-mn/",
@@ -5115,15 +4911,6 @@
     "/service-areas/long-prairie-mn/mold-remediation/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/long-prairie-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/long-prairie-mn/",
-    "/service-areas/long-prairie-mn/fire-damage-restoration/",
-    "/service-areas/long-prairie-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/long-prairie-mn/fire-damage-restoration/": [
@@ -5333,15 +5120,6 @@
     "/service-areas/baxter-mn/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/albany-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/albany-mn/",
-    "/service-areas/albany-mn/fire-damage-restoration/",
-    "/service-areas/albany-mn/mold-remediation/",
-    "/service-areas/avon-mn/water-cleanup/",
-    "/service-areas/baxter-mn/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/albany-mn/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/albany-mn/",
@@ -5549,15 +5327,6 @@
     "/service-areas/baxter-mn/general-contracting/",
     "/contact/"
   ],
-  "/service-areas/avon-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/avon-mn/",
-    "/service-areas/avon-mn/fire-damage-restoration/",
-    "/service-areas/avon-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/baxter-mn/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/avon-mn/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/avon-mn/",
@@ -5763,15 +5532,6 @@
     "/service-areas/st-joseph-mn/mold-remediation/",
     "/service-areas/albany-mn/general-contracting/",
     "/service-areas/avon-mn/general-contracting/",
-    "/contact/"
-  ],
-  "/service-areas/st-joseph-mn/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/st-joseph-mn/",
-    "/service-areas/st-joseph-mn/fire-damage-restoration/",
-    "/service-areas/st-joseph-mn/mold-remediation/",
-    "/service-areas/albany-mn/water-cleanup/",
-    "/service-areas/avon-mn/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/st-joseph-mn/fire-damage-restoration/": [

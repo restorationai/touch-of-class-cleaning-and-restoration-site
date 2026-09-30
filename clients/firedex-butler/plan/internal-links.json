@@ -13,7 +13,6 @@
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/basement-flooding-cleanup/",
     "/services/biohazard-cleanup/",
     "/services/burst-pipe-repair/",
@@ -57,7 +56,6 @@
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/basement-flooding-cleanup/",
     "/services/biohazard-cleanup/",
     "/services/burst-pipe-repair/",
@@ -415,27 +413,9 @@
     "/service-areas/evans-city-pa/water-damage-restoration/",
     "/service-areas/franklin-park-pa/water-damage-restoration/",
     "/service-areas/gibsonia-pa/water-damage-restoration/",
-    "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
-  ],
-  "/services/water-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
-    "/service-areas/baden-pa/water-cleanup/",
-    "/service-areas/beaver-falls-pa/water-cleanup/",
-    "/service-areas/bell-acres-pa/water-cleanup/",
-    "/service-areas/big-beaver-pa/water-cleanup/",
-    "/service-areas/butler-pa/water-cleanup/",
-    "/service-areas/economy-pa/water-cleanup/",
-    "/service-areas/ellwood-city-pa/water-cleanup/",
-    "/service-areas/evans-city-pa/water-cleanup/",
-    "/service-areas/franklin-park-pa/water-cleanup/",
-    "/service-areas/gibsonia-pa/water-cleanup/",
-    "/services/water-damage-restoration/"
   ],
   "/service-areas/wexford-pa/": [
     "/service-areas/",
@@ -449,7 +429,6 @@
     "/service-areas/wexford-pa/sewage-cleanup/",
     "/service-areas/wexford-pa/smoke-damage-restoration/",
     "/service-areas/wexford-pa/storm-damage-restoration/",
-    "/service-areas/wexford-pa/water-cleanup/",
     "/service-areas/wexford-pa/basement-flooding-cleanup/",
     "/service-areas/wexford-pa/biohazard-cleanup/",
     "/service-areas/wexford-pa/burst-pipe-repair/",
@@ -475,7 +454,6 @@
     "/service-areas/mars-pa/sewage-cleanup/",
     "/service-areas/mars-pa/smoke-damage-restoration/",
     "/service-areas/mars-pa/storm-damage-restoration/",
-    "/service-areas/mars-pa/water-cleanup/",
     "/service-areas/mars-pa/basement-flooding-cleanup/",
     "/service-areas/mars-pa/biohazard-cleanup/",
     "/service-areas/mars-pa/burst-pipe-repair/",
@@ -501,7 +479,6 @@
     "/service-areas/zelienople-pa/sewage-cleanup/",
     "/service-areas/zelienople-pa/smoke-damage-restoration/",
     "/service-areas/zelienople-pa/storm-damage-restoration/",
-    "/service-areas/zelienople-pa/water-cleanup/",
     "/service-areas/zelienople-pa/basement-flooding-cleanup/",
     "/service-areas/zelienople-pa/biohazard-cleanup/",
     "/service-areas/zelienople-pa/burst-pipe-repair/",
@@ -527,7 +504,6 @@
     "/service-areas/evans-city-pa/sewage-cleanup/",
     "/service-areas/evans-city-pa/smoke-damage-restoration/",
     "/service-areas/evans-city-pa/storm-damage-restoration/",
-    "/service-areas/evans-city-pa/water-cleanup/",
     "/service-areas/evans-city-pa/basement-flooding-cleanup/",
     "/service-areas/evans-city-pa/biohazard-cleanup/",
     "/service-areas/evans-city-pa/burst-pipe-repair/",
@@ -553,7 +529,6 @@
     "/service-areas/seven-fields-pa/sewage-cleanup/",
     "/service-areas/seven-fields-pa/smoke-damage-restoration/",
     "/service-areas/seven-fields-pa/storm-damage-restoration/",
-    "/service-areas/seven-fields-pa/water-cleanup/",
     "/service-areas/seven-fields-pa/basement-flooding-cleanup/",
     "/service-areas/seven-fields-pa/biohazard-cleanup/",
     "/service-areas/seven-fields-pa/burst-pipe-repair/",
@@ -579,7 +554,6 @@
     "/service-areas/butler-pa/sewage-cleanup/",
     "/service-areas/butler-pa/smoke-damage-restoration/",
     "/service-areas/butler-pa/storm-damage-restoration/",
-    "/service-areas/butler-pa/water-cleanup/",
     "/service-areas/butler-pa/basement-flooding-cleanup/",
     "/service-areas/butler-pa/biohazard-cleanup/",
     "/service-areas/butler-pa/burst-pipe-repair/",
@@ -605,7 +579,6 @@
     "/service-areas/gibsonia-pa/sewage-cleanup/",
     "/service-areas/gibsonia-pa/smoke-damage-restoration/",
     "/service-areas/gibsonia-pa/storm-damage-restoration/",
-    "/service-areas/gibsonia-pa/water-cleanup/",
     "/service-areas/gibsonia-pa/basement-flooding-cleanup/",
     "/service-areas/gibsonia-pa/biohazard-cleanup/",
     "/service-areas/gibsonia-pa/burst-pipe-repair/",
@@ -631,7 +604,6 @@
     "/service-areas/beaver-falls-pa/sewage-cleanup/",
     "/service-areas/beaver-falls-pa/smoke-damage-restoration/",
     "/service-areas/beaver-falls-pa/storm-damage-restoration/",
-    "/service-areas/beaver-falls-pa/water-cleanup/",
     "/service-areas/beaver-falls-pa/basement-flooding-cleanup/",
     "/service-areas/beaver-falls-pa/biohazard-cleanup/",
     "/service-areas/beaver-falls-pa/burst-pipe-repair/",
@@ -657,7 +629,6 @@
     "/service-areas/economy-pa/sewage-cleanup/",
     "/service-areas/economy-pa/smoke-damage-restoration/",
     "/service-areas/economy-pa/storm-damage-restoration/",
-    "/service-areas/economy-pa/water-cleanup/",
     "/service-areas/economy-pa/basement-flooding-cleanup/",
     "/service-areas/economy-pa/biohazard-cleanup/",
     "/service-areas/economy-pa/burst-pipe-repair/",
@@ -683,7 +654,6 @@
     "/service-areas/franklin-park-pa/sewage-cleanup/",
     "/service-areas/franklin-park-pa/smoke-damage-restoration/",
     "/service-areas/franklin-park-pa/storm-damage-restoration/",
-    "/service-areas/franklin-park-pa/water-cleanup/",
     "/service-areas/franklin-park-pa/basement-flooding-cleanup/",
     "/service-areas/franklin-park-pa/biohazard-cleanup/",
     "/service-areas/franklin-park-pa/burst-pipe-repair/",
@@ -709,7 +679,6 @@
     "/service-areas/baden-pa/sewage-cleanup/",
     "/service-areas/baden-pa/smoke-damage-restoration/",
     "/service-areas/baden-pa/storm-damage-restoration/",
-    "/service-areas/baden-pa/water-cleanup/",
     "/service-areas/baden-pa/basement-flooding-cleanup/",
     "/service-areas/baden-pa/biohazard-cleanup/",
     "/service-areas/baden-pa/burst-pipe-repair/",
@@ -735,7 +704,6 @@
     "/service-areas/bell-acres-pa/sewage-cleanup/",
     "/service-areas/bell-acres-pa/smoke-damage-restoration/",
     "/service-areas/bell-acres-pa/storm-damage-restoration/",
-    "/service-areas/bell-acres-pa/water-cleanup/",
     "/service-areas/bell-acres-pa/basement-flooding-cleanup/",
     "/service-areas/bell-acres-pa/biohazard-cleanup/",
     "/service-areas/bell-acres-pa/burst-pipe-repair/",
@@ -761,7 +729,6 @@
     "/service-areas/monaca-pa/sewage-cleanup/",
     "/service-areas/monaca-pa/smoke-damage-restoration/",
     "/service-areas/monaca-pa/storm-damage-restoration/",
-    "/service-areas/monaca-pa/water-cleanup/",
     "/service-areas/monaca-pa/basement-flooding-cleanup/",
     "/service-areas/monaca-pa/biohazard-cleanup/",
     "/service-areas/monaca-pa/burst-pipe-repair/",
@@ -787,7 +754,6 @@
     "/service-areas/sewickley-heights-pa/sewage-cleanup/",
     "/service-areas/sewickley-heights-pa/smoke-damage-restoration/",
     "/service-areas/sewickley-heights-pa/storm-damage-restoration/",
-    "/service-areas/sewickley-heights-pa/water-cleanup/",
     "/service-areas/sewickley-heights-pa/basement-flooding-cleanup/",
     "/service-areas/sewickley-heights-pa/biohazard-cleanup/",
     "/service-areas/sewickley-heights-pa/burst-pipe-repair/",
@@ -813,7 +779,6 @@
     "/service-areas/aliquippa-pa/sewage-cleanup/",
     "/service-areas/aliquippa-pa/smoke-damage-restoration/",
     "/service-areas/aliquippa-pa/storm-damage-restoration/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
     "/service-areas/aliquippa-pa/basement-flooding-cleanup/",
     "/service-areas/aliquippa-pa/biohazard-cleanup/",
     "/service-areas/aliquippa-pa/burst-pipe-repair/",
@@ -839,7 +804,6 @@
     "/service-areas/sewickley-hills-pa/sewage-cleanup/",
     "/service-areas/sewickley-hills-pa/smoke-damage-restoration/",
     "/service-areas/sewickley-hills-pa/storm-damage-restoration/",
-    "/service-areas/sewickley-hills-pa/water-cleanup/",
     "/service-areas/sewickley-hills-pa/basement-flooding-cleanup/",
     "/service-areas/sewickley-hills-pa/biohazard-cleanup/",
     "/service-areas/sewickley-hills-pa/burst-pipe-repair/",
@@ -865,7 +829,6 @@
     "/service-areas/allison-park-pa/sewage-cleanup/",
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
     "/service-areas/allison-park-pa/storm-damage-restoration/",
-    "/service-areas/allison-park-pa/water-cleanup/",
     "/service-areas/allison-park-pa/basement-flooding-cleanup/",
     "/service-areas/allison-park-pa/biohazard-cleanup/",
     "/service-areas/allison-park-pa/burst-pipe-repair/",
@@ -891,7 +854,6 @@
     "/service-areas/prospect-pa/sewage-cleanup/",
     "/service-areas/prospect-pa/smoke-damage-restoration/",
     "/service-areas/prospect-pa/storm-damage-restoration/",
-    "/service-areas/prospect-pa/water-cleanup/",
     "/service-areas/prospect-pa/basement-flooding-cleanup/",
     "/service-areas/prospect-pa/biohazard-cleanup/",
     "/service-areas/prospect-pa/burst-pipe-repair/",
@@ -917,7 +879,6 @@
     "/service-areas/oak-hills-pa/sewage-cleanup/",
     "/service-areas/oak-hills-pa/smoke-damage-restoration/",
     "/service-areas/oak-hills-pa/storm-damage-restoration/",
-    "/service-areas/oak-hills-pa/water-cleanup/",
     "/service-areas/oak-hills-pa/basement-flooding-cleanup/",
     "/service-areas/oak-hills-pa/biohazard-cleanup/",
     "/service-areas/oak-hills-pa/burst-pipe-repair/",
@@ -943,7 +904,6 @@
     "/service-areas/glenshaw-pa/sewage-cleanup/",
     "/service-areas/glenshaw-pa/smoke-damage-restoration/",
     "/service-areas/glenshaw-pa/storm-damage-restoration/",
-    "/service-areas/glenshaw-pa/water-cleanup/",
     "/service-areas/glenshaw-pa/basement-flooding-cleanup/",
     "/service-areas/glenshaw-pa/biohazard-cleanup/",
     "/service-areas/glenshaw-pa/burst-pipe-repair/",
@@ -969,7 +929,6 @@
     "/service-areas/ellwood-city-pa/sewage-cleanup/",
     "/service-areas/ellwood-city-pa/smoke-damage-restoration/",
     "/service-areas/ellwood-city-pa/storm-damage-restoration/",
-    "/service-areas/ellwood-city-pa/water-cleanup/",
     "/service-areas/ellwood-city-pa/basement-flooding-cleanup/",
     "/service-areas/ellwood-city-pa/biohazard-cleanup/",
     "/service-areas/ellwood-city-pa/burst-pipe-repair/",
@@ -995,7 +954,6 @@
     "/service-areas/big-beaver-pa/sewage-cleanup/",
     "/service-areas/big-beaver-pa/smoke-damage-restoration/",
     "/service-areas/big-beaver-pa/storm-damage-restoration/",
-    "/service-areas/big-beaver-pa/water-cleanup/",
     "/service-areas/big-beaver-pa/basement-flooding-cleanup/",
     "/service-areas/big-beaver-pa/biohazard-cleanup/",
     "/service-areas/big-beaver-pa/burst-pipe-repair/",
@@ -1171,15 +1129,6 @@
     "/service-areas/allison-park-pa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/wexford-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/wexford-pa/",
-    "/service-areas/wexford-pa/fire-damage-restoration/",
-    "/service-areas/wexford-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/mars-pa/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/mars-pa/",
@@ -1340,15 +1289,6 @@
     "/service-areas/mars-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/water-damage-restoration/",
     "/service-areas/allison-park-pa/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/mars-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/mars-pa/",
-    "/service-areas/mars-pa/fire-damage-restoration/",
-    "/service-areas/mars-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/zelienople-pa/basement-flooding-cleanup/": [
@@ -1513,15 +1453,6 @@
     "/service-areas/allison-park-pa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/zelienople-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/zelienople-pa/",
-    "/service-areas/zelienople-pa/fire-damage-restoration/",
-    "/service-areas/zelienople-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/evans-city-pa/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/evans-city-pa/",
@@ -1682,15 +1613,6 @@
     "/service-areas/evans-city-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/water-damage-restoration/",
     "/service-areas/allison-park-pa/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/evans-city-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/evans-city-pa/",
-    "/service-areas/evans-city-pa/fire-damage-restoration/",
-    "/service-areas/evans-city-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/seven-fields-pa/basement-flooding-cleanup/": [
@@ -1855,15 +1777,6 @@
     "/service-areas/allison-park-pa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/seven-fields-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/seven-fields-pa/",
-    "/service-areas/seven-fields-pa/fire-damage-restoration/",
-    "/service-areas/seven-fields-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/butler-pa/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/butler-pa/",
@@ -2024,15 +1937,6 @@
     "/service-areas/butler-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/water-damage-restoration/",
     "/service-areas/allison-park-pa/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/butler-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/butler-pa/",
-    "/service-areas/butler-pa/fire-damage-restoration/",
-    "/service-areas/butler-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/gibsonia-pa/basement-flooding-cleanup/": [
@@ -2197,15 +2101,6 @@
     "/service-areas/allison-park-pa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/gibsonia-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/gibsonia-pa/",
-    "/service-areas/gibsonia-pa/fire-damage-restoration/",
-    "/service-areas/gibsonia-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/beaver-falls-pa/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/beaver-falls-pa/",
@@ -2366,15 +2261,6 @@
     "/service-areas/beaver-falls-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/water-damage-restoration/",
     "/service-areas/allison-park-pa/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/beaver-falls-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/beaver-falls-pa/",
-    "/service-areas/beaver-falls-pa/fire-damage-restoration/",
-    "/service-areas/beaver-falls-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/economy-pa/basement-flooding-cleanup/": [
@@ -2539,15 +2425,6 @@
     "/service-areas/allison-park-pa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/economy-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/economy-pa/",
-    "/service-areas/economy-pa/fire-damage-restoration/",
-    "/service-areas/economy-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/franklin-park-pa/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/franklin-park-pa/",
@@ -2708,15 +2585,6 @@
     "/service-areas/franklin-park-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/water-damage-restoration/",
     "/service-areas/allison-park-pa/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/franklin-park-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/franklin-park-pa/",
-    "/service-areas/franklin-park-pa/fire-damage-restoration/",
-    "/service-areas/franklin-park-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/baden-pa/basement-flooding-cleanup/": [
@@ -2881,15 +2749,6 @@
     "/service-areas/allison-park-pa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/baden-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/baden-pa/",
-    "/service-areas/baden-pa/fire-damage-restoration/",
-    "/service-areas/baden-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/bell-acres-pa/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/bell-acres-pa/",
@@ -3050,15 +2909,6 @@
     "/service-areas/bell-acres-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/water-damage-restoration/",
     "/service-areas/allison-park-pa/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/bell-acres-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/bell-acres-pa/",
-    "/service-areas/bell-acres-pa/fire-damage-restoration/",
-    "/service-areas/bell-acres-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/monaca-pa/basement-flooding-cleanup/": [
@@ -3223,15 +3073,6 @@
     "/service-areas/allison-park-pa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/monaca-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/monaca-pa/",
-    "/service-areas/monaca-pa/fire-damage-restoration/",
-    "/service-areas/monaca-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/sewickley-heights-pa/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/sewickley-heights-pa/",
@@ -3392,15 +3233,6 @@
     "/service-areas/sewickley-heights-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/water-damage-restoration/",
     "/service-areas/allison-park-pa/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/sewickley-heights-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/sewickley-heights-pa/",
-    "/service-areas/sewickley-heights-pa/fire-damage-restoration/",
-    "/service-areas/sewickley-heights-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/aliquippa-pa/basement-flooding-cleanup/": [
@@ -3565,15 +3397,6 @@
     "/service-areas/baden-pa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/aliquippa-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/aliquippa-pa/",
-    "/service-areas/aliquippa-pa/fire-damage-restoration/",
-    "/service-areas/aliquippa-pa/mold-remediation/",
-    "/service-areas/allison-park-pa/water-cleanup/",
-    "/service-areas/baden-pa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/sewickley-hills-pa/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/sewickley-hills-pa/",
@@ -3734,15 +3557,6 @@
     "/service-areas/sewickley-hills-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/water-damage-restoration/",
     "/service-areas/allison-park-pa/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/sewickley-hills-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/sewickley-hills-pa/",
-    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
-    "/service-areas/sewickley-hills-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/allison-park-pa/basement-flooding-cleanup/": [
@@ -3907,15 +3721,6 @@
     "/service-areas/baden-pa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/allison-park-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/allison-park-pa/",
-    "/service-areas/allison-park-pa/fire-damage-restoration/",
-    "/service-areas/allison-park-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/baden-pa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/prospect-pa/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/prospect-pa/",
@@ -4076,15 +3881,6 @@
     "/service-areas/prospect-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/water-damage-restoration/",
     "/service-areas/allison-park-pa/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/prospect-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/prospect-pa/",
-    "/service-areas/prospect-pa/fire-damage-restoration/",
-    "/service-areas/prospect-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/oak-hills-pa/basement-flooding-cleanup/": [
@@ -4249,15 +4045,6 @@
     "/service-areas/allison-park-pa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/oak-hills-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/oak-hills-pa/",
-    "/service-areas/oak-hills-pa/fire-damage-restoration/",
-    "/service-areas/oak-hills-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/glenshaw-pa/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/glenshaw-pa/",
@@ -4418,15 +4205,6 @@
     "/service-areas/glenshaw-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/water-damage-restoration/",
     "/service-areas/allison-park-pa/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/glenshaw-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/glenshaw-pa/",
-    "/service-areas/glenshaw-pa/fire-damage-restoration/",
-    "/service-areas/glenshaw-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/ellwood-city-pa/basement-flooding-cleanup/": [
@@ -4591,15 +4369,6 @@
     "/service-areas/allison-park-pa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/ellwood-city-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/ellwood-city-pa/",
-    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
-    "/service-areas/ellwood-city-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/big-beaver-pa/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/big-beaver-pa/",
@@ -4760,15 +4529,6 @@
     "/service-areas/big-beaver-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/water-damage-restoration/",
     "/service-areas/allison-park-pa/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/big-beaver-pa/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/big-beaver-pa/",
-    "/service-areas/big-beaver-pa/fire-damage-restoration/",
-    "/service-areas/big-beaver-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/water-cleanup/",
-    "/service-areas/allison-park-pa/water-cleanup/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

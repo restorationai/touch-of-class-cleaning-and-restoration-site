@@ -38,7 +38,7 @@
     "fire-damage-restoration",
     "mold-remediation",
     "storm-damage-restoration",
-    "water-cleanup"
+    "emergency-water-removal"
   ],
   "service_areas": [
     {
@@ -155,5 +155,8 @@
     "mold-remediation",
     "water-damage-restoration",
     "storm-damage-restoration"
-  ]
+  ],
+  "merged_services": {
+    "water-cleanup": "emergency-water-removal"
+  }
 }

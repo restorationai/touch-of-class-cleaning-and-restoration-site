@@ -15,7 +15,6 @@
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/basement-flooding-cleanup/",
     "/services/biohazard-cleanup/",
     "/services/burst-pipe-repair/",
@@ -94,7 +93,6 @@
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
     "/services/storm-damage-restoration/",
-    "/services/water-cleanup/",
     "/services/basement-flooding-cleanup/",
     "/services/biohazard-cleanup/",
     "/services/burst-pipe-repair/",
@@ -428,7 +426,6 @@
     "/service-areas/ellisville-ms/water-damage-restoration/",
     "/service-areas/escatawpa-ms/water-damage-restoration/",
     "/service-areas/gautier-ms/water-damage-restoration/",
-    "/services/water-cleanup/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
@@ -448,23 +445,6 @@
     "/service-areas/ellisville-ms/water-leak-detection/",
     "/service-areas/escatawpa-ms/water-leak-detection/",
     "/service-areas/gautier-ms/water-leak-detection/"
-  ],
-  "/services/water-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/service-areas/benndale-ms/water-cleanup/",
-    "/service-areas/big-point-ms/water-cleanup/",
-    "/service-areas/biloxi-ms/water-cleanup/",
-    "/service-areas/d-iberville-ms/water-cleanup/",
-    "/service-areas/delisle-ms/water-cleanup/",
-    "/service-areas/diamondhead-ms/water-cleanup/",
-    "/service-areas/eastabuchie-ms/water-cleanup/",
-    "/service-areas/ellisville-ms/water-cleanup/",
-    "/service-areas/escatawpa-ms/water-cleanup/",
-    "/service-areas/gautier-ms/water-cleanup/",
-    "/services/water-damage-restoration/"
   ],
   "/services/flood-damage-restoration/": [
     "/services/",
@@ -674,7 +654,6 @@
     "/service-areas/eastabuchie-ms/sewage-cleanup/",
     "/service-areas/eastabuchie-ms/smoke-damage-restoration/",
     "/service-areas/eastabuchie-ms/storm-damage-restoration/",
-    "/service-areas/eastabuchie-ms/water-cleanup/",
     "/service-areas/eastabuchie-ms/basement-flooding-cleanup/",
     "/service-areas/eastabuchie-ms/biohazard-cleanup/",
     "/service-areas/eastabuchie-ms/burst-pipe-repair/",
@@ -710,7 +689,6 @@
     "/service-areas/hattiesburg-ms/sewage-cleanup/",
     "/service-areas/hattiesburg-ms/smoke-damage-restoration/",
     "/service-areas/hattiesburg-ms/storm-damage-restoration/",
-    "/service-areas/hattiesburg-ms/water-cleanup/",
     "/service-areas/hattiesburg-ms/basement-flooding-cleanup/",
     "/service-areas/hattiesburg-ms/biohazard-cleanup/",
     "/service-areas/hattiesburg-ms/burst-pipe-repair/",
@@ -746,7 +724,6 @@
     "/service-areas/petal-ms/sewage-cleanup/",
     "/service-areas/petal-ms/smoke-damage-restoration/",
     "/service-areas/petal-ms/storm-damage-restoration/",
-    "/service-areas/petal-ms/water-cleanup/",
     "/service-areas/petal-ms/basement-flooding-cleanup/",
     "/service-areas/petal-ms/biohazard-cleanup/",
     "/service-areas/petal-ms/burst-pipe-repair/",
@@ -782,7 +759,6 @@
     "/service-areas/rawls-springs-ms/sewage-cleanup/",
     "/service-areas/rawls-springs-ms/smoke-damage-restoration/",
     "/service-areas/rawls-springs-ms/storm-damage-restoration/",
-    "/service-areas/rawls-springs-ms/water-cleanup/",
     "/service-areas/rawls-springs-ms/basement-flooding-cleanup/",
     "/service-areas/rawls-springs-ms/biohazard-cleanup/",
     "/service-areas/rawls-springs-ms/burst-pipe-repair/",
@@ -818,7 +794,6 @@
     "/service-areas/leakesville-ms/sewage-cleanup/",
     "/service-areas/leakesville-ms/smoke-damage-restoration/",
     "/service-areas/leakesville-ms/storm-damage-restoration/",
-    "/service-areas/leakesville-ms/water-cleanup/",
     "/service-areas/leakesville-ms/basement-flooding-cleanup/",
     "/service-areas/leakesville-ms/biohazard-cleanup/",
     "/service-areas/leakesville-ms/burst-pipe-repair/",
@@ -854,7 +829,6 @@
     "/service-areas/mclain-ms/sewage-cleanup/",
     "/service-areas/mclain-ms/smoke-damage-restoration/",
     "/service-areas/mclain-ms/storm-damage-restoration/",
-    "/service-areas/mclain-ms/water-cleanup/",
     "/service-areas/mclain-ms/basement-flooding-cleanup/",
     "/service-areas/mclain-ms/biohazard-cleanup/",
     "/service-areas/mclain-ms/burst-pipe-repair/",
@@ -890,7 +864,6 @@
     "/service-areas/state-line-ms/sewage-cleanup/",
     "/service-areas/state-line-ms/smoke-damage-restoration/",
     "/service-areas/state-line-ms/storm-damage-restoration/",
-    "/service-areas/state-line-ms/water-cleanup/",
     "/service-areas/state-line-ms/basement-flooding-cleanup/",
     "/service-areas/state-line-ms/biohazard-cleanup/",
     "/service-areas/state-line-ms/burst-pipe-repair/",
@@ -926,7 +899,6 @@
     "/service-areas/biloxi-ms/sewage-cleanup/",
     "/service-areas/biloxi-ms/smoke-damage-restoration/",
     "/service-areas/biloxi-ms/storm-damage-restoration/",
-    "/service-areas/biloxi-ms/water-cleanup/",
     "/service-areas/biloxi-ms/basement-flooding-cleanup/",
     "/service-areas/biloxi-ms/biohazard-cleanup/",
     "/service-areas/biloxi-ms/burst-pipe-repair/",
@@ -962,7 +934,6 @@
     "/service-areas/d-iberville-ms/sewage-cleanup/",
     "/service-areas/d-iberville-ms/smoke-damage-restoration/",
     "/service-areas/d-iberville-ms/storm-damage-restoration/",
-    "/service-areas/d-iberville-ms/water-cleanup/",
     "/service-areas/d-iberville-ms/basement-flooding-cleanup/",
     "/service-areas/d-iberville-ms/biohazard-cleanup/",
     "/service-areas/d-iberville-ms/burst-pipe-repair/",
@@ -998,7 +969,6 @@
     "/service-areas/delisle-ms/sewage-cleanup/",
     "/service-areas/delisle-ms/smoke-damage-restoration/",
     "/service-areas/delisle-ms/storm-damage-restoration/",
-    "/service-areas/delisle-ms/water-cleanup/",
     "/service-areas/delisle-ms/basement-flooding-cleanup/",
     "/service-areas/delisle-ms/biohazard-cleanup/",
     "/service-areas/delisle-ms/burst-pipe-repair/",
@@ -1034,7 +1004,6 @@
     "/service-areas/diamondhead-ms/sewage-cleanup/",
     "/service-areas/diamondhead-ms/smoke-damage-restoration/",
     "/service-areas/diamondhead-ms/storm-damage-restoration/",
-    "/service-areas/diamondhead-ms/water-cleanup/",
     "/service-areas/diamondhead-ms/basement-flooding-cleanup/",
     "/service-areas/diamondhead-ms/biohazard-cleanup/",
     "/service-areas/diamondhead-ms/burst-pipe-repair/",
@@ -1070,7 +1039,6 @@
     "/service-areas/henderson-point-ms/sewage-cleanup/",
     "/service-areas/henderson-point-ms/smoke-damage-restoration/",
     "/service-areas/henderson-point-ms/storm-damage-restoration/",
-    "/service-areas/henderson-point-ms/water-cleanup/",
     "/service-areas/henderson-point-ms/basement-flooding-cleanup/",
     "/service-areas/henderson-point-ms/biohazard-cleanup/",
     "/service-areas/henderson-point-ms/burst-pipe-repair/",
@@ -1106,7 +1074,6 @@
     "/service-areas/latimer-ms/sewage-cleanup/",
     "/service-areas/latimer-ms/smoke-damage-restoration/",
     "/service-areas/latimer-ms/storm-damage-restoration/",
-    "/service-areas/latimer-ms/water-cleanup/",
     "/service-areas/latimer-ms/basement-flooding-cleanup/",
     "/service-areas/latimer-ms/biohazard-cleanup/",
     "/service-areas/latimer-ms/burst-pipe-repair/",
@@ -1142,7 +1109,6 @@
     "/service-areas/long-beach-ms/sewage-cleanup/",
     "/service-areas/long-beach-ms/smoke-damage-restoration/",
     "/service-areas/long-beach-ms/storm-damage-restoration/",
-    "/service-areas/long-beach-ms/water-cleanup/",
     "/service-areas/long-beach-ms/basement-flooding-cleanup/",
     "/service-areas/long-beach-ms/biohazard-cleanup/",
     "/service-areas/long-beach-ms/burst-pipe-repair/",
@@ -1178,7 +1144,6 @@
     "/service-areas/lyman-ms/sewage-cleanup/",
     "/service-areas/lyman-ms/smoke-damage-restoration/",
     "/service-areas/lyman-ms/storm-damage-restoration/",
-    "/service-areas/lyman-ms/water-cleanup/",
     "/service-areas/lyman-ms/basement-flooding-cleanup/",
     "/service-areas/lyman-ms/biohazard-cleanup/",
     "/service-areas/lyman-ms/burst-pipe-repair/",
@@ -1214,7 +1179,6 @@
     "/service-areas/pass-christian-ms/sewage-cleanup/",
     "/service-areas/pass-christian-ms/smoke-damage-restoration/",
     "/service-areas/pass-christian-ms/storm-damage-restoration/",
-    "/service-areas/pass-christian-ms/water-cleanup/",
     "/service-areas/pass-christian-ms/basement-flooding-cleanup/",
     "/service-areas/pass-christian-ms/biohazard-cleanup/",
     "/service-areas/pass-christian-ms/burst-pipe-repair/",
@@ -1250,7 +1214,6 @@
     "/service-areas/saucier-ms/sewage-cleanup/",
     "/service-areas/saucier-ms/smoke-damage-restoration/",
     "/service-areas/saucier-ms/storm-damage-restoration/",
-    "/service-areas/saucier-ms/water-cleanup/",
     "/service-areas/saucier-ms/basement-flooding-cleanup/",
     "/service-areas/saucier-ms/biohazard-cleanup/",
     "/service-areas/saucier-ms/burst-pipe-repair/",
@@ -1286,7 +1249,6 @@
     "/service-areas/st-martin-ms/sewage-cleanup/",
     "/service-areas/st-martin-ms/smoke-damage-restoration/",
     "/service-areas/st-martin-ms/storm-damage-restoration/",
-    "/service-areas/st-martin-ms/water-cleanup/",
     "/service-areas/st-martin-ms/basement-flooding-cleanup/",
     "/service-areas/st-martin-ms/biohazard-cleanup/",
     "/service-areas/st-martin-ms/burst-pipe-repair/",
@@ -1322,7 +1284,6 @@
     "/service-areas/bay-st-louis-ms/sewage-cleanup/",
     "/service-areas/bay-st-louis-ms/smoke-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/service-areas/bay-st-louis-ms/basement-flooding-cleanup/",
     "/service-areas/bay-st-louis-ms/biohazard-cleanup/",
     "/service-areas/bay-st-louis-ms/burst-pipe-repair/",
@@ -1358,7 +1319,6 @@
     "/service-areas/kiln-ms/sewage-cleanup/",
     "/service-areas/kiln-ms/smoke-damage-restoration/",
     "/service-areas/kiln-ms/storm-damage-restoration/",
-    "/service-areas/kiln-ms/water-cleanup/",
     "/service-areas/kiln-ms/basement-flooding-cleanup/",
     "/service-areas/kiln-ms/biohazard-cleanup/",
     "/service-areas/kiln-ms/burst-pipe-repair/",
@@ -1394,7 +1354,6 @@
     "/service-areas/pearlington-ms/sewage-cleanup/",
     "/service-areas/pearlington-ms/smoke-damage-restoration/",
     "/service-areas/pearlington-ms/storm-damage-restoration/",
-    "/service-areas/pearlington-ms/water-cleanup/",
     "/service-areas/pearlington-ms/basement-flooding-cleanup/",
     "/service-areas/pearlington-ms/biohazard-cleanup/",
     "/service-areas/pearlington-ms/burst-pipe-repair/",
@@ -1430,7 +1389,6 @@
     "/service-areas/picayune-ms/sewage-cleanup/",
     "/service-areas/picayune-ms/smoke-damage-restoration/",
     "/service-areas/picayune-ms/storm-damage-restoration/",
-    "/service-areas/picayune-ms/water-cleanup/",
     "/service-areas/picayune-ms/basement-flooding-cleanup/",
     "/service-areas/picayune-ms/biohazard-cleanup/",
     "/service-areas/picayune-ms/burst-pipe-repair/",
@@ -1466,7 +1424,6 @@
     "/service-areas/waveland-ms/sewage-cleanup/",
     "/service-areas/waveland-ms/smoke-damage-restoration/",
     "/service-areas/waveland-ms/storm-damage-restoration/",
-    "/service-areas/waveland-ms/water-cleanup/",
     "/service-areas/waveland-ms/basement-flooding-cleanup/",
     "/service-areas/waveland-ms/biohazard-cleanup/",
     "/service-areas/waveland-ms/burst-pipe-repair/",
@@ -1502,7 +1459,6 @@
     "/service-areas/wiggins-ms/sewage-cleanup/",
     "/service-areas/wiggins-ms/smoke-damage-restoration/",
     "/service-areas/wiggins-ms/storm-damage-restoration/",
-    "/service-areas/wiggins-ms/water-cleanup/",
     "/service-areas/wiggins-ms/basement-flooding-cleanup/",
     "/service-areas/wiggins-ms/biohazard-cleanup/",
     "/service-areas/wiggins-ms/burst-pipe-repair/",
@@ -1538,7 +1494,6 @@
     "/service-areas/hide-a-way-lake-ms/sewage-cleanup/",
     "/service-areas/hide-a-way-lake-ms/smoke-damage-restoration/",
     "/service-areas/hide-a-way-lake-ms/storm-damage-restoration/",
-    "/service-areas/hide-a-way-lake-ms/water-cleanup/",
     "/service-areas/hide-a-way-lake-ms/basement-flooding-cleanup/",
     "/service-areas/hide-a-way-lake-ms/biohazard-cleanup/",
     "/service-areas/hide-a-way-lake-ms/burst-pipe-repair/",
@@ -1574,7 +1529,6 @@
     "/service-areas/lumberton-ms/sewage-cleanup/",
     "/service-areas/lumberton-ms/smoke-damage-restoration/",
     "/service-areas/lumberton-ms/storm-damage-restoration/",
-    "/service-areas/lumberton-ms/water-cleanup/",
     "/service-areas/lumberton-ms/basement-flooding-cleanup/",
     "/service-areas/lumberton-ms/biohazard-cleanup/",
     "/service-areas/lumberton-ms/burst-pipe-repair/",
@@ -1610,7 +1564,6 @@
     "/service-areas/poplarville-ms/sewage-cleanup/",
     "/service-areas/poplarville-ms/smoke-damage-restoration/",
     "/service-areas/poplarville-ms/storm-damage-restoration/",
-    "/service-areas/poplarville-ms/water-cleanup/",
     "/service-areas/poplarville-ms/basement-flooding-cleanup/",
     "/service-areas/poplarville-ms/biohazard-cleanup/",
     "/service-areas/poplarville-ms/burst-pipe-repair/",
@@ -1646,7 +1599,6 @@
     "/service-areas/big-point-ms/sewage-cleanup/",
     "/service-areas/big-point-ms/smoke-damage-restoration/",
     "/service-areas/big-point-ms/storm-damage-restoration/",
-    "/service-areas/big-point-ms/water-cleanup/",
     "/service-areas/big-point-ms/basement-flooding-cleanup/",
     "/service-areas/big-point-ms/biohazard-cleanup/",
     "/service-areas/big-point-ms/burst-pipe-repair/",
@@ -1682,7 +1634,6 @@
     "/service-areas/escatawpa-ms/sewage-cleanup/",
     "/service-areas/escatawpa-ms/smoke-damage-restoration/",
     "/service-areas/escatawpa-ms/storm-damage-restoration/",
-    "/service-areas/escatawpa-ms/water-cleanup/",
     "/service-areas/escatawpa-ms/basement-flooding-cleanup/",
     "/service-areas/escatawpa-ms/biohazard-cleanup/",
     "/service-areas/escatawpa-ms/burst-pipe-repair/",
@@ -1718,7 +1669,6 @@
     "/service-areas/gautier-ms/sewage-cleanup/",
     "/service-areas/gautier-ms/smoke-damage-restoration/",
     "/service-areas/gautier-ms/storm-damage-restoration/",
-    "/service-areas/gautier-ms/water-cleanup/",
     "/service-areas/gautier-ms/basement-flooding-cleanup/",
     "/service-areas/gautier-ms/biohazard-cleanup/",
     "/service-areas/gautier-ms/burst-pipe-repair/",
@@ -1754,7 +1704,6 @@
     "/service-areas/gulf-hills-ms/sewage-cleanup/",
     "/service-areas/gulf-hills-ms/smoke-damage-restoration/",
     "/service-areas/gulf-hills-ms/storm-damage-restoration/",
-    "/service-areas/gulf-hills-ms/water-cleanup/",
     "/service-areas/gulf-hills-ms/basement-flooding-cleanup/",
     "/service-areas/gulf-hills-ms/biohazard-cleanup/",
     "/service-areas/gulf-hills-ms/burst-pipe-repair/",
@@ -1790,7 +1739,6 @@
     "/service-areas/gulf-park-estates-ms/sewage-cleanup/",
     "/service-areas/gulf-park-estates-ms/smoke-damage-restoration/",
     "/service-areas/gulf-park-estates-ms/storm-damage-restoration/",
-    "/service-areas/gulf-park-estates-ms/water-cleanup/",
     "/service-areas/gulf-park-estates-ms/basement-flooding-cleanup/",
     "/service-areas/gulf-park-estates-ms/biohazard-cleanup/",
     "/service-areas/gulf-park-estates-ms/burst-pipe-repair/",
@@ -1826,7 +1774,6 @@
     "/service-areas/helena-ms/sewage-cleanup/",
     "/service-areas/helena-ms/smoke-damage-restoration/",
     "/service-areas/helena-ms/storm-damage-restoration/",
-    "/service-areas/helena-ms/water-cleanup/",
     "/service-areas/helena-ms/basement-flooding-cleanup/",
     "/service-areas/helena-ms/biohazard-cleanup/",
     "/service-areas/helena-ms/burst-pipe-repair/",
@@ -1862,7 +1809,6 @@
     "/service-areas/hurley-ms/sewage-cleanup/",
     "/service-areas/hurley-ms/smoke-damage-restoration/",
     "/service-areas/hurley-ms/storm-damage-restoration/",
-    "/service-areas/hurley-ms/water-cleanup/",
     "/service-areas/hurley-ms/basement-flooding-cleanup/",
     "/service-areas/hurley-ms/biohazard-cleanup/",
     "/service-areas/hurley-ms/burst-pipe-repair/",
@@ -1898,7 +1844,6 @@
     "/service-areas/moss-point-ms/sewage-cleanup/",
     "/service-areas/moss-point-ms/smoke-damage-restoration/",
     "/service-areas/moss-point-ms/storm-damage-restoration/",
-    "/service-areas/moss-point-ms/water-cleanup/",
     "/service-areas/moss-point-ms/basement-flooding-cleanup/",
     "/service-areas/moss-point-ms/biohazard-cleanup/",
     "/service-areas/moss-point-ms/burst-pipe-repair/",
@@ -1934,7 +1879,6 @@
     "/service-areas/ocean-springs-ms/sewage-cleanup/",
     "/service-areas/ocean-springs-ms/smoke-damage-restoration/",
     "/service-areas/ocean-springs-ms/storm-damage-restoration/",
-    "/service-areas/ocean-springs-ms/water-cleanup/",
     "/service-areas/ocean-springs-ms/basement-flooding-cleanup/",
     "/service-areas/ocean-springs-ms/biohazard-cleanup/",
     "/service-areas/ocean-springs-ms/burst-pipe-repair/",
@@ -1970,7 +1914,6 @@
     "/service-areas/pascagoula-ms/sewage-cleanup/",
     "/service-areas/pascagoula-ms/smoke-damage-restoration/",
     "/service-areas/pascagoula-ms/storm-damage-restoration/",
-    "/service-areas/pascagoula-ms/water-cleanup/",
     "/service-areas/pascagoula-ms/basement-flooding-cleanup/",
     "/service-areas/pascagoula-ms/biohazard-cleanup/",
     "/service-areas/pascagoula-ms/burst-pipe-repair/",
@@ -2006,7 +1949,6 @@
     "/service-areas/vancleave-ms/sewage-cleanup/",
     "/service-areas/vancleave-ms/smoke-damage-restoration/",
     "/service-areas/vancleave-ms/storm-damage-restoration/",
-    "/service-areas/vancleave-ms/water-cleanup/",
     "/service-areas/vancleave-ms/basement-flooding-cleanup/",
     "/service-areas/vancleave-ms/biohazard-cleanup/",
     "/service-areas/vancleave-ms/burst-pipe-repair/",
@@ -2042,7 +1984,6 @@
     "/service-areas/wade-ms/sewage-cleanup/",
     "/service-areas/wade-ms/smoke-damage-restoration/",
     "/service-areas/wade-ms/storm-damage-restoration/",
-    "/service-areas/wade-ms/water-cleanup/",
     "/service-areas/wade-ms/basement-flooding-cleanup/",
     "/service-areas/wade-ms/biohazard-cleanup/",
     "/service-areas/wade-ms/burst-pipe-repair/",
@@ -2078,7 +2019,6 @@
     "/service-areas/agricola-ms/sewage-cleanup/",
     "/service-areas/agricola-ms/smoke-damage-restoration/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
-    "/service-areas/agricola-ms/water-cleanup/",
     "/service-areas/agricola-ms/basement-flooding-cleanup/",
     "/service-areas/agricola-ms/biohazard-cleanup/",
     "/service-areas/agricola-ms/burst-pipe-repair/",
@@ -2114,7 +2054,6 @@
     "/service-areas/benndale-ms/sewage-cleanup/",
     "/service-areas/benndale-ms/smoke-damage-restoration/",
     "/service-areas/benndale-ms/storm-damage-restoration/",
-    "/service-areas/benndale-ms/water-cleanup/",
     "/service-areas/benndale-ms/basement-flooding-cleanup/",
     "/service-areas/benndale-ms/biohazard-cleanup/",
     "/service-areas/benndale-ms/burst-pipe-repair/",
@@ -2150,7 +2089,6 @@
     "/service-areas/lucedale-ms/sewage-cleanup/",
     "/service-areas/lucedale-ms/smoke-damage-restoration/",
     "/service-areas/lucedale-ms/storm-damage-restoration/",
-    "/service-areas/lucedale-ms/water-cleanup/",
     "/service-areas/lucedale-ms/basement-flooding-cleanup/",
     "/service-areas/lucedale-ms/biohazard-cleanup/",
     "/service-areas/lucedale-ms/burst-pipe-repair/",
@@ -2186,7 +2124,6 @@
     "/service-areas/ellisville-ms/sewage-cleanup/",
     "/service-areas/ellisville-ms/smoke-damage-restoration/",
     "/service-areas/ellisville-ms/storm-damage-restoration/",
-    "/service-areas/ellisville-ms/water-cleanup/",
     "/service-areas/ellisville-ms/basement-flooding-cleanup/",
     "/service-areas/ellisville-ms/biohazard-cleanup/",
     "/service-areas/ellisville-ms/burst-pipe-repair/",
@@ -2222,7 +2159,6 @@
     "/service-areas/laurel-ms/sewage-cleanup/",
     "/service-areas/laurel-ms/smoke-damage-restoration/",
     "/service-areas/laurel-ms/storm-damage-restoration/",
-    "/service-areas/laurel-ms/water-cleanup/",
     "/service-areas/laurel-ms/basement-flooding-cleanup/",
     "/service-areas/laurel-ms/biohazard-cleanup/",
     "/service-areas/laurel-ms/burst-pipe-repair/",
@@ -2258,7 +2194,6 @@
     "/service-areas/moselle-ms/sewage-cleanup/",
     "/service-areas/moselle-ms/smoke-damage-restoration/",
     "/service-areas/moselle-ms/storm-damage-restoration/",
-    "/service-areas/moselle-ms/water-cleanup/",
     "/service-areas/moselle-ms/basement-flooding-cleanup/",
     "/service-areas/moselle-ms/biohazard-cleanup/",
     "/service-areas/moselle-ms/burst-pipe-repair/",
@@ -2294,7 +2229,6 @@
     "/service-areas/ovett-ms/sewage-cleanup/",
     "/service-areas/ovett-ms/smoke-damage-restoration/",
     "/service-areas/ovett-ms/storm-damage-restoration/",
-    "/service-areas/ovett-ms/water-cleanup/",
     "/service-areas/ovett-ms/basement-flooding-cleanup/",
     "/service-areas/ovett-ms/biohazard-cleanup/",
     "/service-areas/ovett-ms/burst-pipe-repair/",
@@ -2330,7 +2264,6 @@
     "/service-areas/sandersville-ms/sewage-cleanup/",
     "/service-areas/sandersville-ms/smoke-damage-restoration/",
     "/service-areas/sandersville-ms/storm-damage-restoration/",
-    "/service-areas/sandersville-ms/water-cleanup/",
     "/service-areas/sandersville-ms/basement-flooding-cleanup/",
     "/service-areas/sandersville-ms/biohazard-cleanup/",
     "/service-areas/sandersville-ms/burst-pipe-repair/",
@@ -2494,15 +2427,6 @@
     "/service-areas/eastabuchie-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/eastabuchie-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/eastabuchie-ms/",
-    "/service-areas/eastabuchie-ms/fire-damage-restoration/",
-    "/service-areas/eastabuchie-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/eastabuchie-ms/flood-damage-restoration/": [
@@ -2757,15 +2681,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/hattiesburg-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/hattiesburg-ms/",
-    "/service-areas/hattiesburg-ms/fire-damage-restoration/",
-    "/service-areas/hattiesburg-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/hattiesburg-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/hattiesburg-ms/",
@@ -3016,15 +2931,6 @@
     "/service-areas/petal-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/petal-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/petal-ms/",
-    "/service-areas/petal-ms/fire-damage-restoration/",
-    "/service-areas/petal-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/petal-ms/flood-damage-restoration/": [
@@ -3279,15 +3185,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/rawls-springs-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/rawls-springs-ms/",
-    "/service-areas/rawls-springs-ms/fire-damage-restoration/",
-    "/service-areas/rawls-springs-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/rawls-springs-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/rawls-springs-ms/",
@@ -3538,15 +3435,6 @@
     "/service-areas/leakesville-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/leakesville-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/leakesville-ms/",
-    "/service-areas/leakesville-ms/fire-damage-restoration/",
-    "/service-areas/leakesville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/leakesville-ms/flood-damage-restoration/": [
@@ -3801,15 +3689,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/mclain-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/mclain-ms/",
-    "/service-areas/mclain-ms/fire-damage-restoration/",
-    "/service-areas/mclain-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/mclain-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/mclain-ms/",
@@ -4060,15 +3939,6 @@
     "/service-areas/state-line-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/state-line-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/state-line-ms/",
-    "/service-areas/state-line-ms/fire-damage-restoration/",
-    "/service-areas/state-line-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/state-line-ms/flood-damage-restoration/": [
@@ -4323,15 +4193,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/biloxi-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/biloxi-ms/",
-    "/service-areas/biloxi-ms/fire-damage-restoration/",
-    "/service-areas/biloxi-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/biloxi-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/biloxi-ms/",
@@ -4582,15 +4443,6 @@
     "/service-areas/d-iberville-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/d-iberville-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/d-iberville-ms/",
-    "/service-areas/d-iberville-ms/fire-damage-restoration/",
-    "/service-areas/d-iberville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/d-iberville-ms/flood-damage-restoration/": [
@@ -4845,15 +4697,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/delisle-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/delisle-ms/",
-    "/service-areas/delisle-ms/fire-damage-restoration/",
-    "/service-areas/delisle-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/delisle-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/delisle-ms/",
@@ -5104,15 +4947,6 @@
     "/service-areas/diamondhead-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/diamondhead-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/diamondhead-ms/",
-    "/service-areas/diamondhead-ms/fire-damage-restoration/",
-    "/service-areas/diamondhead-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/diamondhead-ms/flood-damage-restoration/": [
@@ -5367,15 +5201,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/henderson-point-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/henderson-point-ms/",
-    "/service-areas/henderson-point-ms/fire-damage-restoration/",
-    "/service-areas/henderson-point-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/henderson-point-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/henderson-point-ms/",
@@ -5626,15 +5451,6 @@
     "/service-areas/latimer-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/latimer-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/latimer-ms/",
-    "/service-areas/latimer-ms/fire-damage-restoration/",
-    "/service-areas/latimer-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/latimer-ms/flood-damage-restoration/": [
@@ -5889,15 +5705,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/long-beach-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/long-beach-ms/",
-    "/service-areas/long-beach-ms/fire-damage-restoration/",
-    "/service-areas/long-beach-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/long-beach-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/long-beach-ms/",
@@ -6148,15 +5955,6 @@
     "/service-areas/lyman-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/lyman-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/lyman-ms/",
-    "/service-areas/lyman-ms/fire-damage-restoration/",
-    "/service-areas/lyman-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/lyman-ms/flood-damage-restoration/": [
@@ -6411,15 +6209,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/pass-christian-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/pass-christian-ms/",
-    "/service-areas/pass-christian-ms/fire-damage-restoration/",
-    "/service-areas/pass-christian-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/pass-christian-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/pass-christian-ms/",
@@ -6670,15 +6459,6 @@
     "/service-areas/saucier-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/saucier-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/saucier-ms/",
-    "/service-areas/saucier-ms/fire-damage-restoration/",
-    "/service-areas/saucier-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/saucier-ms/flood-damage-restoration/": [
@@ -6933,15 +6713,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/st-martin-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/st-martin-ms/",
-    "/service-areas/st-martin-ms/fire-damage-restoration/",
-    "/service-areas/st-martin-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/st-martin-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/st-martin-ms/",
@@ -7192,15 +6963,6 @@
     "/service-areas/bay-st-louis-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/benndale-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/bay-st-louis-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/",
-    "/service-areas/bay-st-louis-ms/fire-damage-restoration/",
-    "/service-areas/bay-st-louis-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/benndale-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/bay-st-louis-ms/flood-damage-restoration/": [
@@ -7455,15 +7217,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/kiln-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/kiln-ms/",
-    "/service-areas/kiln-ms/fire-damage-restoration/",
-    "/service-areas/kiln-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/kiln-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/kiln-ms/",
@@ -7714,15 +7467,6 @@
     "/service-areas/pearlington-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/pearlington-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/pearlington-ms/",
-    "/service-areas/pearlington-ms/fire-damage-restoration/",
-    "/service-areas/pearlington-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/pearlington-ms/flood-damage-restoration/": [
@@ -7977,15 +7721,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/picayune-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/picayune-ms/",
-    "/service-areas/picayune-ms/fire-damage-restoration/",
-    "/service-areas/picayune-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/picayune-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/picayune-ms/",
@@ -8236,15 +7971,6 @@
     "/service-areas/waveland-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/waveland-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/waveland-ms/",
-    "/service-areas/waveland-ms/fire-damage-restoration/",
-    "/service-areas/waveland-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/waveland-ms/flood-damage-restoration/": [
@@ -8499,15 +8225,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/wiggins-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/wiggins-ms/",
-    "/service-areas/wiggins-ms/fire-damage-restoration/",
-    "/service-areas/wiggins-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/wiggins-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/wiggins-ms/",
@@ -8758,15 +8475,6 @@
     "/service-areas/hide-a-way-lake-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/hide-a-way-lake-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/hide-a-way-lake-ms/",
-    "/service-areas/hide-a-way-lake-ms/fire-damage-restoration/",
-    "/service-areas/hide-a-way-lake-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/hide-a-way-lake-ms/flood-damage-restoration/": [
@@ -9021,15 +8729,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/lumberton-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/lumberton-ms/",
-    "/service-areas/lumberton-ms/fire-damage-restoration/",
-    "/service-areas/lumberton-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/lumberton-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/lumberton-ms/",
@@ -9280,15 +8979,6 @@
     "/service-areas/poplarville-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/poplarville-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/poplarville-ms/",
-    "/service-areas/poplarville-ms/fire-damage-restoration/",
-    "/service-areas/poplarville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/poplarville-ms/flood-damage-restoration/": [
@@ -9543,15 +9233,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/big-point-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/big-point-ms/",
-    "/service-areas/big-point-ms/fire-damage-restoration/",
-    "/service-areas/big-point-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/big-point-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/big-point-ms/",
@@ -9802,15 +9483,6 @@
     "/service-areas/escatawpa-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/escatawpa-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/escatawpa-ms/",
-    "/service-areas/escatawpa-ms/fire-damage-restoration/",
-    "/service-areas/escatawpa-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/escatawpa-ms/flood-damage-restoration/": [
@@ -10065,15 +9737,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/gautier-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/gautier-ms/",
-    "/service-areas/gautier-ms/fire-damage-restoration/",
-    "/service-areas/gautier-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/gautier-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/gautier-ms/",
@@ -10324,15 +9987,6 @@
     "/service-areas/gulf-hills-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/gulf-hills-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/gulf-hills-ms/",
-    "/service-areas/gulf-hills-ms/fire-damage-restoration/",
-    "/service-areas/gulf-hills-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/gulf-hills-ms/flood-damage-restoration/": [
@@ -10587,15 +10241,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/gulf-park-estates-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/gulf-park-estates-ms/",
-    "/service-areas/gulf-park-estates-ms/fire-damage-restoration/",
-    "/service-areas/gulf-park-estates-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/gulf-park-estates-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/gulf-park-estates-ms/",
@@ -10846,15 +10491,6 @@
     "/service-areas/helena-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/helena-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/helena-ms/",
-    "/service-areas/helena-ms/fire-damage-restoration/",
-    "/service-areas/helena-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/helena-ms/flood-damage-restoration/": [
@@ -11109,15 +10745,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/hurley-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/hurley-ms/",
-    "/service-areas/hurley-ms/fire-damage-restoration/",
-    "/service-areas/hurley-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/hurley-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/hurley-ms/",
@@ -11368,15 +10995,6 @@
     "/service-areas/moss-point-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/moss-point-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/moss-point-ms/",
-    "/service-areas/moss-point-ms/fire-damage-restoration/",
-    "/service-areas/moss-point-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/moss-point-ms/flood-damage-restoration/": [
@@ -11631,15 +11249,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/ocean-springs-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/ocean-springs-ms/",
-    "/service-areas/ocean-springs-ms/fire-damage-restoration/",
-    "/service-areas/ocean-springs-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/ocean-springs-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/ocean-springs-ms/",
@@ -11890,15 +11499,6 @@
     "/service-areas/pascagoula-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/pascagoula-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/pascagoula-ms/",
-    "/service-areas/pascagoula-ms/fire-damage-restoration/",
-    "/service-areas/pascagoula-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/pascagoula-ms/flood-damage-restoration/": [
@@ -12153,15 +11753,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/vancleave-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/vancleave-ms/",
-    "/service-areas/vancleave-ms/fire-damage-restoration/",
-    "/service-areas/vancleave-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/vancleave-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/vancleave-ms/",
@@ -12412,15 +12003,6 @@
     "/service-areas/wade-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/wade-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/wade-ms/",
-    "/service-areas/wade-ms/fire-damage-restoration/",
-    "/service-areas/wade-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/wade-ms/flood-damage-restoration/": [
@@ -12675,15 +12257,6 @@
     "/service-areas/benndale-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/agricola-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/agricola-ms/",
-    "/service-areas/agricola-ms/fire-damage-restoration/",
-    "/service-areas/agricola-ms/mold-remediation/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/service-areas/benndale-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/agricola-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/agricola-ms/",
@@ -12934,15 +12507,6 @@
     "/service-areas/benndale-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/benndale-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/benndale-ms/",
-    "/service-areas/benndale-ms/fire-damage-restoration/",
-    "/service-areas/benndale-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/benndale-ms/flood-damage-restoration/": [
@@ -13197,15 +12761,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/lucedale-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/lucedale-ms/",
-    "/service-areas/lucedale-ms/fire-damage-restoration/",
-    "/service-areas/lucedale-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/lucedale-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/lucedale-ms/",
@@ -13456,15 +13011,6 @@
     "/service-areas/ellisville-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/ellisville-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/ellisville-ms/",
-    "/service-areas/ellisville-ms/fire-damage-restoration/",
-    "/service-areas/ellisville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/ellisville-ms/flood-damage-restoration/": [
@@ -13719,15 +13265,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/laurel-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/laurel-ms/",
-    "/service-areas/laurel-ms/fire-damage-restoration/",
-    "/service-areas/laurel-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/laurel-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/laurel-ms/",
@@ -13978,15 +13515,6 @@
     "/service-areas/moselle-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/moselle-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/moselle-ms/",
-    "/service-areas/moselle-ms/fire-damage-restoration/",
-    "/service-areas/moselle-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/moselle-ms/flood-damage-restoration/": [
@@ -14241,15 +13769,6 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/ovett-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/ovett-ms/",
-    "/service-areas/ovett-ms/fire-damage-restoration/",
-    "/service-areas/ovett-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/ovett-ms/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/ovett-ms/",
@@ -14500,15 +14019,6 @@
     "/service-areas/sandersville-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/sandersville-ms/water-cleanup/": [
-    "/services/water-cleanup/",
-    "/service-areas/sandersville-ms/",
-    "/service-areas/sandersville-ms/fire-damage-restoration/",
-    "/service-areas/sandersville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/water-cleanup/",
-    "/service-areas/bay-st-louis-ms/water-cleanup/",
     "/contact/"
   ],
   "/service-areas/sandersville-ms/flood-damage-restoration/": [

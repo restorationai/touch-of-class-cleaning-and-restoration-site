@@ -88,16 +88,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mount-pleasant-sc/": {
     "archetype": "service-area",
     "stubs": [
@@ -299,16 +289,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mount-pleasant-sc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/north-charleston-sc/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -330,16 +310,6 @@
     "missing_stubs": []
   },
   "/service-areas/north-charleston-sc/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-charleston-sc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -379,16 +349,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/summerville-sc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/james-island-sc/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -410,16 +370,6 @@
     "missing_stubs": []
   },
   "/service-areas/james-island-sc/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/james-island-sc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -459,16 +409,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hanahan-sc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/goose-creek-sc/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -490,16 +430,6 @@
     "missing_stubs": []
   },
   "/service-areas/goose-creek-sc/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/goose-creek-sc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -539,16 +469,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sullivan-s-island-sc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/isle-of-palms-sc/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -570,16 +490,6 @@
     "missing_stubs": []
   },
   "/service-areas/isle-of-palms-sc/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/isle-of-palms-sc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -619,16 +529,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ladson-sc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/awendaw-sc/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -650,16 +550,6 @@
     "missing_stubs": []
   },
   "/service-areas/awendaw-sc/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/awendaw-sc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -699,16 +589,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/folly-beach-sc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hollywood-sc/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -730,16 +610,6 @@
     "missing_stubs": []
   },
   "/service-areas/hollywood-sc/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hollywood-sc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -779,16 +649,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ravenel-sc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/moncks-corner-sc/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -810,16 +670,6 @@
     "missing_stubs": []
   },
   "/service-areas/moncks-corner-sc/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/moncks-corner-sc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -859,16 +709,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/kiawah-island-sc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/meggett-sc/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -890,16 +730,6 @@
     "missing_stubs": []
   },
   "/service-areas/meggett-sc/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/meggett-sc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -939,16 +769,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ridgeville-sc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/seabrook-island-sc/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -979,16 +799,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/seabrook-island-sc/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bonneau-sc/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1010,16 +820,6 @@
     "missing_stubs": []
   },
   "/service-areas/bonneau-sc/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bonneau-sc/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

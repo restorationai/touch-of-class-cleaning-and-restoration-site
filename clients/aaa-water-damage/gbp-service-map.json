@@ -2,28 +2,19 @@
   "slug": "aaa-water-damage",
   "policy": "scripts/site_structure.py (Santino 2026-09-30)",
   "gbp_services": {},
-  "merged": {},
-  "kept_pairs": [
-    {
-      "a": "water-damage-restoration",
-      "b": "water-cleanup",
-      "reason": "distinct query with 19,700/mo nationally (head + near me)",
+  "merged": {
+    "water-cleanup": {
+      "into": "emergency-water-removal",
+      "reason": "Santino 09-30: water cleanup renamed into the Emergency Water Removal & Cleanup page (one 'get the water out' cluster)",
       "volumes": {
-        "water-cleanup": {
-          "head": 1600,
-          "near_me": 18100,
-          "total": 19700
-        },
-        "water-damage-restoration": {
-          "head": 135000,
-          "near_me": 135000,
-          "total": 270000
-        },
-        "terms": {
-          "water-cleanup": "water cleanup",
-          "water-damage-restoration": "water damage restoration"
-        }
-      }
+        "emergency water removal": 16500,
+        "water extraction": 3600,
+        "water removal": 2400,
+        "water cleanup": 19700,
+        "emergency water cleanup": 480
+      },
+      "at": "2026-09-30"
     }
-  ]
+  },
+  "kept_pairs": []
 }

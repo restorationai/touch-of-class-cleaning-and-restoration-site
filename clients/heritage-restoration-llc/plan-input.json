@@ -36,7 +36,7 @@
     "water-damage-restoration",
     "storm-damage-restoration",
     "general-contracting",
-    "water-cleanup",
+    "emergency-water-removal",
     "fire-damage-restoration",
     "roofing",
     "basement-flooding-cleanup",
@@ -187,8 +187,8 @@
     "basement-flooding-cleanup"
   ],
   "merged_services": {
-    "emergency-water-removal": "water-damage-restoration",
     "general-contractor": "general-contracting",
-    "job-type-id-construction": "general-contracting"
+    "job-type-id-construction": "general-contracting",
+    "water-cleanup": "emergency-water-removal"
   }
 }

@@ -519,58 +519,6 @@
       ]
     },
     {
-      "url_path": "/services/water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Ventura | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Ventura",
-      "meta_description": "24/7 emergency water cleanup in Ventura and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup ventura",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
-        "/service-areas/castaic-ca/water-cleanup/",
-        "/service-areas/fillmore-ca/water-cleanup/",
-        "/service-areas/hasley-canyon-ca/water-cleanup/",
-        "/service-areas/lake-sherwood-ca/water-cleanup/",
-        "/service-areas/mira-monte-ca/water-cleanup/",
-        "/service-areas/moorpark-ca/water-cleanup/",
-        "/service-areas/oak-park-ca/water-cleanup/",
-        "/service-areas/oak-view-ca/water-cleanup/",
-        "/service-areas/ojai-ca/water-cleanup/",
-        "/service-areas/oxnard-ca/water-cleanup/",
-        "/services/water-damage-restoration/"
-      ]
-    },
-    {
       "url_path": "/services/water-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -1739,51 +1687,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/oxnard-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Oxnard, CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Oxnard",
-      "meta_description": "24/7 emergency water cleanup in Oxnard, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup oxnard",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/oxnard-ca/",
-        "/service-areas/oxnard-ca/mold-remediation/",
-        "/service-areas/oxnard-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/oxnard-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2038,51 +1941,6 @@
         "/service-areas/thousand-oaks-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/storm-damage-restoration/",
         "/service-areas/carpinteria-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/thousand-oaks-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Thousand Oaks, CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Thousand Oaks",
-      "meta_description": "24/7 emergency water cleanup in Thousand Oaks, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup thousand oaks",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/thousand-oaks-ca/",
-        "/service-areas/thousand-oaks-ca/mold-remediation/",
-        "/service-areas/thousand-oaks-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2345,51 +2203,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/simi-valley-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Simi Valley, CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Simi Valley",
-      "meta_description": "24/7 emergency water cleanup in Simi Valley, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup simi valley",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/simi-valley-ca/",
-        "/service-areas/simi-valley-ca/mold-remediation/",
-        "/service-areas/simi-valley-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/simi-valley-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2644,51 +2457,6 @@
         "/service-areas/camarillo-ca/water-damage-restoration/",
         "/service-areas/carpinteria-ca/storm-damage-restoration/",
         "/service-areas/castaic-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/camarillo-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Camarillo, CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Camarillo",
-      "meta_description": "24/7 emergency water cleanup in Camarillo, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup camarillo",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/camarillo-ca/",
-        "/service-areas/camarillo-ca/mold-remediation/",
-        "/service-areas/camarillo-ca/water-damage-restoration/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
-        "/service-areas/castaic-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -2951,51 +2719,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/santa-paula-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Santa Paula, CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Santa Paula",
-      "meta_description": "24/7 emergency water cleanup in Santa Paula, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup santa paula",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/santa-paula-ca/",
-        "/service-areas/santa-paula-ca/mold-remediation/",
-        "/service-areas/santa-paula-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/santa-paula-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3250,51 +2973,6 @@
         "/service-areas/port-hueneme-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/storm-damage-restoration/",
         "/service-areas/carpinteria-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/port-hueneme-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Port Hueneme, CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Port Hueneme",
-      "meta_description": "24/7 emergency water cleanup in Port Hueneme, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup port hueneme",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/port-hueneme-ca/",
-        "/service-areas/port-hueneme-ca/mold-remediation/",
-        "/service-areas/port-hueneme-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3557,51 +3235,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ojai-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Ojai, CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Ojai",
-      "meta_description": "24/7 emergency water cleanup in Ojai, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup ojai",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/ojai-ca/",
-        "/service-areas/ojai-ca/mold-remediation/",
-        "/service-areas/ojai-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ojai-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3856,51 +3489,6 @@
         "/service-areas/fillmore-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/storm-damage-restoration/",
         "/service-areas/carpinteria-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fillmore-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Fillmore, CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Fillmore",
-      "meta_description": "24/7 emergency water cleanup in Fillmore, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup fillmore",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/fillmore-ca/",
-        "/service-areas/fillmore-ca/mold-remediation/",
-        "/service-areas/fillmore-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4163,51 +3751,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mira-monte-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Mira Monte, CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Mira Monte",
-      "meta_description": "24/7 emergency water cleanup in Mira Monte, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup mira monte",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/mira-monte-ca/",
-        "/service-areas/mira-monte-ca/mold-remediation/",
-        "/service-areas/mira-monte-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mira-monte-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4462,51 +4005,6 @@
         "/service-areas/oak-view-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/storm-damage-restoration/",
         "/service-areas/carpinteria-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/oak-view-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Oak View, CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Oak View",
-      "meta_description": "24/7 emergency water cleanup in Oak View, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup oak view",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/oak-view-ca/",
-        "/service-areas/oak-view-ca/mold-remediation/",
-        "/service-areas/oak-view-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -4769,51 +4267,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/somis-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Somis, CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Somis",
-      "meta_description": "24/7 emergency water cleanup in Somis, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup somis",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/somis-ca/",
-        "/service-areas/somis-ca/mold-remediation/",
-        "/service-areas/somis-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/somis-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5068,51 +4521,6 @@
         "/service-areas/san-buenaventura-ventura-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/storm-damage-restoration/",
         "/service-areas/carpinteria-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/san-buenaventura-ventura-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in San Buenaventura (Ventura), CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in San Buenaventura (Ventura)",
-      "meta_description": "24/7 emergency water cleanup in San Buenaventura (Ventura), CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup san buenaventura (ventura)",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/san-buenaventura-ventura-ca/",
-        "/service-areas/san-buenaventura-ventura-ca/mold-remediation/",
-        "/service-areas/san-buenaventura-ventura-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5375,51 +4783,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/moorpark-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Moorpark, CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Moorpark",
-      "meta_description": "24/7 emergency water cleanup in Moorpark, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup moorpark",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/moorpark-ca/",
-        "/service-areas/moorpark-ca/mold-remediation/",
-        "/service-areas/moorpark-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/moorpark-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5674,51 +5037,6 @@
         "/service-areas/santa-rosa-valley-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/storm-damage-restoration/",
         "/service-areas/carpinteria-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/santa-rosa-valley-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Santa Rosa Valley, CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Santa Rosa Valley",
-      "meta_description": "24/7 emergency water cleanup in Santa Rosa Valley, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup santa rosa valley",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/santa-rosa-valley-ca/",
-        "/service-areas/santa-rosa-valley-ca/mold-remediation/",
-        "/service-areas/santa-rosa-valley-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -5981,51 +5299,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/piru-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Piru, CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Piru",
-      "meta_description": "24/7 emergency water cleanup in Piru, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup piru",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/piru-ca/",
-        "/service-areas/piru-ca/mold-remediation/",
-        "/service-areas/piru-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/piru-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6280,51 +5553,6 @@
         "/service-areas/hasley-canyon-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/storm-damage-restoration/",
         "/service-areas/carpinteria-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hasley-canyon-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Hasley Canyon, CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Hasley Canyon",
-      "meta_description": "24/7 emergency water cleanup in Hasley Canyon, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup hasley canyon",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/hasley-canyon-ca/",
-        "/service-areas/hasley-canyon-ca/mold-remediation/",
-        "/service-areas/hasley-canyon-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -6587,51 +5815,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lake-sherwood-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Lake Sherwood, CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Lake Sherwood",
-      "meta_description": "24/7 emergency water cleanup in Lake Sherwood, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup lake sherwood",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/lake-sherwood-ca/",
-        "/service-areas/lake-sherwood-ca/mold-remediation/",
-        "/service-areas/lake-sherwood-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lake-sherwood-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6886,51 +6069,6 @@
         "/service-areas/carpinteria-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/storm-damage-restoration/",
         "/service-areas/castaic-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/carpinteria-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Carpinteria, CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Carpinteria",
-      "meta_description": "24/7 emergency water cleanup in Carpinteria, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup carpinteria",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/carpinteria-ca/",
-        "/service-areas/carpinteria-ca/mold-remediation/",
-        "/service-areas/carpinteria-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/castaic-ca/water-cleanup/",
         "/contact/"
       ]
     },
@@ -7193,51 +6331,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/castaic-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Castaic, CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Castaic",
-      "meta_description": "24/7 emergency water cleanup in Castaic, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup castaic",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/castaic-ca/",
-        "/service-areas/castaic-ca/mold-remediation/",
-        "/service-areas/castaic-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/castaic-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7492,51 +6585,6 @@
         "/service-areas/oak-park-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/storm-damage-restoration/",
         "/service-areas/carpinteria-ca/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/oak-park-ca/water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Cleanup in Oak Park, CA | California Restoration West ",
-      "h1": "Emergency Water Cleanup in Oak Park",
-      "meta_description": "24/7 emergency water cleanup in Oak Park, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "emergency water cleanup oak park",
-      "secondary_keywords": [
-        "water cleanup",
-        "water damage cleanup",
-        "water clean up",
-        "emergency water cleanup",
-        "flood water cleanup",
-        "standing water removal"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-cleanup/",
-        "/service-areas/oak-park-ca/",
-        "/service-areas/oak-park-ca/mold-remediation/",
-        "/service-areas/oak-park-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/water-cleanup/",
-        "/service-areas/carpinteria-ca/water-cleanup/",
         "/contact/"
       ]
     },
