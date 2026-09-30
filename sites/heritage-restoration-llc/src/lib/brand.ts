@@ -61,7 +61,7 @@ export const brand = {
   certifications: ["IICRC WRT (WATER)", "IICRC FSRT (FIRE & SMOKE)", "IICRC ASD (STRUCTURAL DRYING)", "EPA LEAD-SAFE CERTIFIED", "IICRC AMRT (MOLD)"] as string[],
   trustBadges: ["IICRC Certified Firm", "Licensed & Insured", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: ["https://facebook.com/heritagermn", "https://maps.google.com/maps?cid=6190748544113397584", "https://www.yelp.com/biz/heritage-restoration-little-falls", "https://www.bbb.org/us/mn/little-falls/profile/residential-general-contractor/heritage-restoration-llc-0704-1000067972", "https://www.homeadvisor.com/rated.greensourceinc.156583960.html", "https://nextdoor.com/pages/heritage-restoration-247-emergency-plumbing-water-and-fire-damage-restoration-little-falls-mn/", "https://homeguide.com/mn/st-cloud/water-damage-restoration/heritage-restoration-llc-qWVymQ5TR"] as string[],
+  sameAsUrls: ["https://facebook.com/heritagermn", "https://maps.google.com/maps?cid=6190748544113397584", "https://www.yelp.com/biz/heritage-restoration-little-falls", "https://www.bbb.org/us/mn/little-falls/profile/residential-general-contractor/heritage-restoration-llc-0704-1000067972", "https://www.homeadvisor.com/rated.greensourceinc.156583960.html", "https://nextdoor.com/pages/heritage-restoration-247-emergency-plumbing-water-and-fire-damage-restoration-little-falls-mn/", "https://www.houzz.com/pro/webuser-404304764", "https://homeguide.com/mn/st-cloud/water-damage-restoration/heritage-restoration-llc-qWVymQ5TR"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "",
