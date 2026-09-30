@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-29-best-water-damage-restoration-in-vista-ca",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-29T02:07:36Z",
       "priority": 1,
       "prioritized": true,
@@ -79,7 +79,8 @@
           "context": "ty Cleaning** shows a 4.6 rating across 73 reviews. A rating in this range still reflects",
           "reason": "listicle review-count 73 (competitor stat \u2014 verify it is not presented as ours)"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-30T01:29:30Z"
     },
     {
       "id": "2026-09-29-does-homeowners-insurance-cover-water-damage",
