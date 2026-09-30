@@ -91,3 +91,7 @@
 - [Gray-Area Results Stance](gray-area-results-stance.md) — LAW 09-27: results-first gray area (self-ranking listicles, awards, confident credit tied to real work); still no fake reviews/impersonation/invented verification
 - [No Human Gates on Client Requests](no-human-gates-on-client-requests.md) — LAW 09-28: clear client change requests auto-run (phone hold removed); safety lives in classifier knowledge + dev_agent.md, not approval holds
 - [Client Texts via monica_oneoff](client-texts-via-monica-oneoff.md) — Claude's one-off texts use scripts/monica_oneoff.py (context note), never raw _ghl; API sends = machine rows (appId) since fix dc2a24c1a
+- [09-23 Sweep Restore](sweep-restore-0929.md) — 09-29: fleet restored from b68f92332 scaffold sweep (3-way per file); light overlay was stale (no DNI/Case Studies); nav label now "Case Studies"; About copy lives in plan-input home_about_blurb
+- [Shared-Owner Clients](shared-owner-clients.md) — Dry County+RT Olson (Bob), ProRestoration+All Pro (Jack): shared GHL contact is expected; attribute by message content
+- [Roadmap Status Doc](roadmap-status-doc.md) — docs/ROADMAP-STATUS.md = phases 1-3 status + waiting-on-Santino + planner/cover decisions; read at session start, keep current
+- [One Consolidated Reply](one-consolidated-reply.md) — 09-29: no spurts between tool runs; one complete answer at the end
