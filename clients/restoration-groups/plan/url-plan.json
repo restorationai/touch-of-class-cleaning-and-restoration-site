@@ -1547,55 +1547,6 @@
       ]
     },
     {
-      "url_path": "/services/water-heater-flood-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Kenilworth | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Kenilworth",
-      "meta_description": "24/7 water heater flood cleanup in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup kenilworth",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/service-areas/bloomfield-nj/water-heater-flood-cleanup/",
-        "/service-areas/bridgewater-nj/water-heater-flood-cleanup/",
-        "/service-areas/brooklyn-ny/water-heater-flood-cleanup/",
-        "/service-areas/carteret-nj/water-heater-flood-cleanup/",
-        "/service-areas/chatham-nj/water-heater-flood-cleanup/",
-        "/service-areas/clark-nj/water-heater-flood-cleanup/",
-        "/service-areas/clifton-nj/water-heater-flood-cleanup/",
-        "/service-areas/colonia-nj/water-heater-flood-cleanup/",
-        "/service-areas/cranford-nj/water-heater-flood-cleanup/",
-        "/service-areas/east-brunswick-nj/water-heater-flood-cleanup/"
-      ]
-    },
-    {
       "url_path": "/services/water-leak-detection/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -6475,49 +6426,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/union-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Union, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Union",
-      "meta_description": "24/7 water heater flood cleanup in Union, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup union",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/union-nj/",
-        "/service-areas/union-nj/fire-damage-restoration/",
-        "/service-areas/union-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/union-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7604,49 +7512,6 @@
         "/service-areas/elizabeth-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/elizabeth-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Elizabeth, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Elizabeth",
-      "meta_description": "24/7 water heater flood cleanup in Elizabeth, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup elizabeth",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/elizabeth-nj/",
-        "/service-areas/elizabeth-nj/fire-damage-restoration/",
-        "/service-areas/elizabeth-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -8741,49 +8606,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/westfield-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Westfield, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Westfield",
-      "meta_description": "24/7 water heater flood cleanup in Westfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup westfield",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/westfield-nj/",
-        "/service-areas/westfield-nj/fire-damage-restoration/",
-        "/service-areas/westfield-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/westfield-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9870,49 +9692,6 @@
         "/service-areas/cranford-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/cranford-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Cranford, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Cranford",
-      "meta_description": "24/7 water heater flood cleanup in Cranford, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup cranford",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/cranford-nj/",
-        "/service-areas/cranford-nj/fire-damage-restoration/",
-        "/service-areas/cranford-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -11007,49 +10786,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/springfield-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Springfield, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Springfield",
-      "meta_description": "24/7 water heater flood cleanup in Springfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup springfield",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/springfield-nj/",
-        "/service-areas/springfield-nj/fire-damage-restoration/",
-        "/service-areas/springfield-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/springfield-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12136,49 +11872,6 @@
         "/service-areas/summit-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/summit-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Summit, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Summit",
-      "meta_description": "24/7 water heater flood cleanup in Summit, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup summit",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/summit-nj/",
-        "/service-areas/summit-nj/fire-damage-restoration/",
-        "/service-areas/summit-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -13273,49 +12966,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/newark-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Newark, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Newark",
-      "meta_description": "24/7 water heater flood cleanup in Newark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup newark",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/newark-nj/",
-        "/service-areas/newark-nj/fire-damage-restoration/",
-        "/service-areas/newark-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/newark-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14402,49 +14052,6 @@
         "/service-areas/jersey-city-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/jersey-city-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Jersey City, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Jersey City",
-      "meta_description": "24/7 water heater flood cleanup in Jersey City, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup jersey city",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/jersey-city-nj/",
-        "/service-areas/jersey-city-nj/fire-damage-restoration/",
-        "/service-areas/jersey-city-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -15539,49 +15146,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/brooklyn-ny/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Brooklyn, NY | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Brooklyn",
-      "meta_description": "24/7 water heater flood cleanup in Brooklyn, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup brooklyn",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/brooklyn-ny/",
-        "/service-areas/brooklyn-ny/fire-damage-restoration/",
-        "/service-areas/brooklyn-ny/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/brooklyn-ny/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16668,49 +16232,6 @@
         "/service-areas/manhattan-ny/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/manhattan-ny/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Manhattan, NY | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Manhattan",
-      "meta_description": "24/7 water heater flood cleanup in Manhattan, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup manhattan",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/manhattan-ny/",
-        "/service-areas/manhattan-ny/fire-damage-restoration/",
-        "/service-areas/manhattan-ny/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -17805,49 +17326,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fair-lawn-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Fair Lawn, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Fair Lawn",
-      "meta_description": "24/7 water heater flood cleanup in Fair Lawn, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup fair lawn",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/fair-lawn-nj/",
-        "/service-areas/fair-lawn-nj/fire-damage-restoration/",
-        "/service-areas/fair-lawn-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fair-lawn-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18934,49 +18412,6 @@
         "/service-areas/highland-park-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/highland-park-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Highland Park, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Highland Park",
-      "meta_description": "24/7 water heater flood cleanup in Highland Park, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup highland park",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/highland-park-nj/",
-        "/service-areas/highland-park-nj/fire-damage-restoration/",
-        "/service-areas/highland-park-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -20071,49 +19506,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/staten-island-ny/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Staten Island, NY | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Staten Island",
-      "meta_description": "24/7 water heater flood cleanup in Staten Island, NY. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup staten island",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/staten-island-ny/",
-        "/service-areas/staten-island-ny/fire-damage-restoration/",
-        "/service-areas/staten-island-ny/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/staten-island-ny/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -21200,49 +20592,6 @@
         "/service-areas/linden-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/linden-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Linden, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Linden",
-      "meta_description": "24/7 water heater flood cleanup in Linden, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup linden",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/linden-nj/",
-        "/service-areas/linden-nj/fire-damage-restoration/",
-        "/service-areas/linden-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -22337,49 +21686,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rahway-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Rahway, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Rahway",
-      "meta_description": "24/7 water heater flood cleanup in Rahway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup rahway",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/rahway-nj/",
-        "/service-areas/rahway-nj/fire-damage-restoration/",
-        "/service-areas/rahway-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rahway-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -23466,49 +22772,6 @@
         "/service-areas/plainfield-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/plainfield-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Plainfield, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Plainfield",
-      "meta_description": "24/7 water heater flood cleanup in Plainfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup plainfield",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/plainfield-nj/",
-        "/service-areas/plainfield-nj/fire-damage-restoration/",
-        "/service-areas/plainfield-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -24603,49 +23866,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/scotch-plains-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Scotch Plains, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Scotch Plains",
-      "meta_description": "24/7 water heater flood cleanup in Scotch Plains, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup scotch plains",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/scotch-plains-nj/",
-        "/service-areas/scotch-plains-nj/fire-damage-restoration/",
-        "/service-areas/scotch-plains-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/scotch-plains-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -25732,49 +24952,6 @@
         "/service-areas/clark-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/clark-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Clark, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Clark",
-      "meta_description": "24/7 water heater flood cleanup in Clark, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup clark",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/clark-nj/",
-        "/service-areas/clark-nj/fire-damage-restoration/",
-        "/service-areas/clark-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -26869,49 +26046,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/roselle-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Roselle, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Roselle",
-      "meta_description": "24/7 water heater flood cleanup in Roselle, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup roselle",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/roselle-nj/",
-        "/service-areas/roselle-nj/fire-damage-restoration/",
-        "/service-areas/roselle-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/roselle-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -27998,49 +27132,6 @@
         "/service-areas/hillside-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hillside-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Hillside, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Hillside",
-      "meta_description": "24/7 water heater flood cleanup in Hillside, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup hillside",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/hillside-nj/",
-        "/service-areas/hillside-nj/fire-damage-restoration/",
-        "/service-areas/hillside-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -29135,49 +28226,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/east-orange-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in East Orange, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in East Orange",
-      "meta_description": "24/7 water heater flood cleanup in East Orange, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup east orange",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/east-orange-nj/",
-        "/service-areas/east-orange-nj/fire-damage-restoration/",
-        "/service-areas/east-orange-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/east-orange-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -30264,49 +29312,6 @@
         "/service-areas/west-orange-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/west-orange-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in West Orange, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in West Orange",
-      "meta_description": "24/7 water heater flood cleanup in West Orange, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup west orange",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/west-orange-nj/",
-        "/service-areas/west-orange-nj/fire-damage-restoration/",
-        "/service-areas/west-orange-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -31401,49 +30406,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/montclair-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Montclair, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Montclair",
-      "meta_description": "24/7 water heater flood cleanup in Montclair, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup montclair",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/montclair-nj/",
-        "/service-areas/montclair-nj/fire-damage-restoration/",
-        "/service-areas/montclair-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/montclair-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -32530,49 +31492,6 @@
         "/service-areas/bloomfield-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/bloomfield-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Bloomfield, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Bloomfield",
-      "meta_description": "24/7 water heater flood cleanup in Bloomfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup bloomfield",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/bloomfield-nj/",
-        "/service-areas/bloomfield-nj/fire-damage-restoration/",
-        "/service-areas/bloomfield-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -33667,49 +32586,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/livingston-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Livingston, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Livingston",
-      "meta_description": "24/7 water heater flood cleanup in Livingston, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup livingston",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/livingston-nj/",
-        "/service-areas/livingston-nj/fire-damage-restoration/",
-        "/service-areas/livingston-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/livingston-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -34796,49 +33672,6 @@
         "/service-areas/irvington-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/irvington-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Irvington, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Irvington",
-      "meta_description": "24/7 water heater flood cleanup in Irvington, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup irvington",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/irvington-nj/",
-        "/service-areas/irvington-nj/fire-damage-restoration/",
-        "/service-areas/irvington-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -35933,49 +34766,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/maplewood-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Maplewood, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Maplewood",
-      "meta_description": "24/7 water heater flood cleanup in Maplewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup maplewood",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/maplewood-nj/",
-        "/service-areas/maplewood-nj/fire-damage-restoration/",
-        "/service-areas/maplewood-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/maplewood-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -37062,49 +35852,6 @@
         "/service-areas/millburn-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/millburn-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Millburn, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Millburn",
-      "meta_description": "24/7 water heater flood cleanup in Millburn, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup millburn",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/millburn-nj/",
-        "/service-areas/millburn-nj/fire-damage-restoration/",
-        "/service-areas/millburn-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -38199,49 +36946,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/hackensack-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Hackensack, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Hackensack",
-      "meta_description": "24/7 water heater flood cleanup in Hackensack, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup hackensack",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/hackensack-nj/",
-        "/service-areas/hackensack-nj/fire-damage-restoration/",
-        "/service-areas/hackensack-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hackensack-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -39328,49 +38032,6 @@
         "/service-areas/paramus-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/paramus-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Paramus, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Paramus",
-      "meta_description": "24/7 water heater flood cleanup in Paramus, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup paramus",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/paramus-nj/",
-        "/service-areas/paramus-nj/fire-damage-restoration/",
-        "/service-areas/paramus-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -40465,49 +39126,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fort-lee-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Fort Lee, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Fort Lee",
-      "meta_description": "24/7 water heater flood cleanup in Fort Lee, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup fort lee",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/fort-lee-nj/",
-        "/service-areas/fort-lee-nj/fire-damage-restoration/",
-        "/service-areas/fort-lee-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fort-lee-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -41594,49 +40212,6 @@
         "/service-areas/teaneck-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/teaneck-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Teaneck, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Teaneck",
-      "meta_description": "24/7 water heater flood cleanup in Teaneck, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup teaneck",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/teaneck-nj/",
-        "/service-areas/teaneck-nj/fire-damage-restoration/",
-        "/service-areas/teaneck-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -42731,49 +41306,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ridgewood-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Ridgewood, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Ridgewood",
-      "meta_description": "24/7 water heater flood cleanup in Ridgewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup ridgewood",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/ridgewood-nj/",
-        "/service-areas/ridgewood-nj/fire-damage-restoration/",
-        "/service-areas/ridgewood-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ridgewood-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -43860,49 +42392,6 @@
         "/service-areas/englewood-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/englewood-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Englewood, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Englewood",
-      "meta_description": "24/7 water heater flood cleanup in Englewood, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup englewood",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/englewood-nj/",
-        "/service-areas/englewood-nj/fire-damage-restoration/",
-        "/service-areas/englewood-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -44997,49 +43486,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/garfield-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Garfield, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Garfield",
-      "meta_description": "24/7 water heater flood cleanup in Garfield, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup garfield",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/garfield-nj/",
-        "/service-areas/garfield-nj/fire-damage-restoration/",
-        "/service-areas/garfield-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/garfield-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -46126,49 +44572,6 @@
         "/service-areas/new-brunswick-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/new-brunswick-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in New Brunswick, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in New Brunswick",
-      "meta_description": "24/7 water heater flood cleanup in New Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup new brunswick",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/new-brunswick-nj/",
-        "/service-areas/new-brunswick-nj/fire-damage-restoration/",
-        "/service-areas/new-brunswick-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -47263,49 +45666,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/edison-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Edison, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Edison",
-      "meta_description": "24/7 water heater flood cleanup in Edison, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup edison",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/edison-nj/",
-        "/service-areas/edison-nj/fire-damage-restoration/",
-        "/service-areas/edison-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/edison-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -48392,49 +46752,6 @@
         "/service-areas/woodbridge-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/woodbridge-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Woodbridge, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Woodbridge",
-      "meta_description": "24/7 water heater flood cleanup in Woodbridge, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup woodbridge",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/woodbridge-nj/",
-        "/service-areas/woodbridge-nj/fire-damage-restoration/",
-        "/service-areas/woodbridge-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -49529,49 +47846,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/perth-amboy-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Perth Amboy, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Perth Amboy",
-      "meta_description": "24/7 water heater flood cleanup in Perth Amboy, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup perth amboy",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/perth-amboy-nj/",
-        "/service-areas/perth-amboy-nj/fire-damage-restoration/",
-        "/service-areas/perth-amboy-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/perth-amboy-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -50658,49 +48932,6 @@
         "/service-areas/east-brunswick-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/east-brunswick-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in East Brunswick, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in East Brunswick",
-      "meta_description": "24/7 water heater flood cleanup in East Brunswick, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup east brunswick",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/east-brunswick-nj/",
-        "/service-areas/east-brunswick-nj/fire-damage-restoration/",
-        "/service-areas/east-brunswick-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -51795,49 +50026,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/piscataway-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Piscataway, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Piscataway",
-      "meta_description": "24/7 water heater flood cleanup in Piscataway, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup piscataway",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/piscataway-nj/",
-        "/service-areas/piscataway-nj/fire-damage-restoration/",
-        "/service-areas/piscataway-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/piscataway-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -52924,49 +51112,6 @@
         "/service-areas/morristown-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/morristown-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Morristown, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Morristown",
-      "meta_description": "24/7 water heater flood cleanup in Morristown, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup morristown",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/morristown-nj/",
-        "/service-areas/morristown-nj/fire-damage-restoration/",
-        "/service-areas/morristown-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -54061,49 +52206,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/parsippany-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Parsippany, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Parsippany",
-      "meta_description": "24/7 water heater flood cleanup in Parsippany, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup parsippany",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/parsippany-nj/",
-        "/service-areas/parsippany-nj/fire-damage-restoration/",
-        "/service-areas/parsippany-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/parsippany-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -55190,49 +53292,6 @@
         "/service-areas/somerville-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/somerville-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Somerville, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Somerville",
-      "meta_description": "24/7 water heater flood cleanup in Somerville, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup somerville",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/somerville-nj/",
-        "/service-areas/somerville-nj/fire-damage-restoration/",
-        "/service-areas/somerville-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -56327,49 +54386,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/bridgewater-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Bridgewater, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Bridgewater",
-      "meta_description": "24/7 water heater flood cleanup in Bridgewater, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup bridgewater",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/bridgewater-nj/",
-        "/service-areas/bridgewater-nj/fire-damage-restoration/",
-        "/service-areas/bridgewater-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/bridgewater-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -57456,49 +55472,6 @@
         "/service-areas/paterson-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/paterson-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Paterson, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Paterson",
-      "meta_description": "24/7 water heater flood cleanup in Paterson, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup paterson",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/paterson-nj/",
-        "/service-areas/paterson-nj/fire-damage-restoration/",
-        "/service-areas/paterson-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -58593,49 +56566,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/clifton-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Clifton, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Clifton",
-      "meta_description": "24/7 water heater flood cleanup in Clifton, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup clifton",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/clifton-nj/",
-        "/service-areas/clifton-nj/fire-damage-restoration/",
-        "/service-areas/clifton-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/clifton-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -59722,49 +57652,6 @@
         "/service-areas/wayne-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/wayne-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Wayne, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Wayne",
-      "meta_description": "24/7 water heater flood cleanup in Wayne, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup wayne",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/wayne-nj/",
-        "/service-areas/wayne-nj/fire-damage-restoration/",
-        "/service-areas/wayne-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -60859,49 +58746,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/passaic-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Passaic, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Passaic",
-      "meta_description": "24/7 water heater flood cleanup in Passaic, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup passaic",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/passaic-nj/",
-        "/service-areas/passaic-nj/fire-damage-restoration/",
-        "/service-areas/passaic-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/passaic-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -61988,49 +59832,6 @@
         "/service-areas/hoboken-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hoboken-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Hoboken, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Hoboken",
-      "meta_description": "24/7 water heater flood cleanup in Hoboken, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup hoboken",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/hoboken-nj/",
-        "/service-areas/hoboken-nj/fire-damage-restoration/",
-        "/service-areas/hoboken-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -63125,49 +60926,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Bayonne, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Bayonne",
-      "meta_description": "24/7 water heater flood cleanup in Bayonne, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup bayonne",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/",
-        "/service-areas/bayonne-nj/fire-damage-restoration/",
-        "/service-areas/bayonne-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bloomfield-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/bayonne-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -64254,49 +62012,6 @@
         "/service-areas/north-bergen-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/north-bergen-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in North Bergen, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in North Bergen",
-      "meta_description": "24/7 water heater flood cleanup in North Bergen, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup north bergen",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/north-bergen-nj/",
-        "/service-areas/north-bergen-nj/fire-damage-restoration/",
-        "/service-areas/north-bergen-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -65391,49 +63106,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mountainside-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Mountainside, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Mountainside",
-      "meta_description": "24/7 water heater flood cleanup in Mountainside, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup mountainside",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/mountainside-nj/",
-        "/service-areas/mountainside-nj/fire-damage-restoration/",
-        "/service-areas/mountainside-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mountainside-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -66520,49 +64192,6 @@
         "/service-areas/short-hills-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/short-hills-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Short Hills, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Short Hills",
-      "meta_description": "24/7 water heater flood cleanup in Short Hills, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup short hills",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/short-hills-nj/",
-        "/service-areas/short-hills-nj/fire-damage-restoration/",
-        "/service-areas/short-hills-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -67657,49 +65286,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/colonia-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Colonia, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Colonia",
-      "meta_description": "24/7 water heater flood cleanup in Colonia, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup colonia",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/colonia-nj/",
-        "/service-areas/colonia-nj/fire-damage-restoration/",
-        "/service-areas/colonia-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/colonia-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -68786,49 +66372,6 @@
         "/service-areas/new-providence-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/new-providence-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in New Providence, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in New Providence",
-      "meta_description": "24/7 water heater flood cleanup in New Providence, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup new providence",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/new-providence-nj/",
-        "/service-areas/new-providence-nj/fire-damage-restoration/",
-        "/service-areas/new-providence-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -69923,49 +67466,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Avenel, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Avenel",
-      "meta_description": "24/7 water heater flood cleanup in Avenel, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup avenel",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/avenel-nj/",
-        "/service-areas/avenel-nj/fire-damage-restoration/",
-        "/service-areas/avenel-nj/mold-remediation/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/service-areas/bloomfield-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/avenel-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -71052,49 +68552,6 @@
         "/service-areas/chatham-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/chatham-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Chatham, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Chatham",
-      "meta_description": "24/7 water heater flood cleanup in Chatham, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup chatham",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/chatham-nj/",
-        "/service-areas/chatham-nj/fire-damage-restoration/",
-        "/service-areas/chatham-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },
@@ -72189,49 +69646,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/watchung-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Watchung, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Watchung",
-      "meta_description": "24/7 water heater flood cleanup in Watchung, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup watchung",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/watchung-nj/",
-        "/service-areas/watchung-nj/fire-damage-restoration/",
-        "/service-areas/watchung-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/watchung-nj/water-leak-detection/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -73318,49 +70732,6 @@
         "/service-areas/carteret-nj/mold-remediation/",
         "/service-areas/avenel-nj/ceiling-water-damage-repair/",
         "/service-areas/bayonne-nj/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/carteret-nj/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Carteret, NJ | The Restoration Group",
-      "h1": "Water Heater Flood Cleanup in Carteret",
-      "meta_description": "24/7 water heater flood cleanup in Carteret, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422.",
-      "primary_keyword": "water heater flood cleanup carteret",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/carteret-nj/",
-        "/service-areas/carteret-nj/fire-damage-restoration/",
-        "/service-areas/carteret-nj/mold-remediation/",
-        "/service-areas/avenel-nj/water-heater-flood-cleanup/",
-        "/service-areas/bayonne-nj/water-heater-flood-cleanup/",
         "/contact/"
       ]
     },

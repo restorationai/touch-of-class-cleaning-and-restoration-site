@@ -14,6 +14,23 @@
         "emergency water cleanup": 480
       },
       "at": "2026-09-30"
+    },
+    "mold-inspection-testing": {
+      "into": "mold-inspection-assessment",
+      "reason": "Santino 09-30 audit leftover: unrendered placeholder twin (page + 20 city stubs, Freeport-titled). The canonical client-pinned page is titled 'Mold Inspection & Assessment', so it already carries the 'mold inspection' head (54,200/mo nationally incl. near me); two pages on one head would cannibalize.",
+      "volumes": {
+        "mold-inspection-testing": {
+          "head": 27100,
+          "near_me": 27100,
+          "total": 54200
+        },
+        "mold-inspection-assessment": {
+          "head": 720,
+          "near_me": 27100,
+          "total": 27820
+        }
+      },
+      "at": "2026-09-30"
     }
   },
   "kept_pairs": []

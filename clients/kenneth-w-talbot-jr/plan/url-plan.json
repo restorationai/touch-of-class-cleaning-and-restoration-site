@@ -807,57 +807,6 @@
       ]
     },
     {
-      "url_path": "/services/mold-inspection-testing/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Freeport | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Freeport",
-      "meta_description": "24/7 mold inspection and testing in Freeport and surrounding areas. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing freeport",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.2,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
-        "/service-areas/destin-fl/mold-inspection-testing/",
-        "/service-areas/ebro-fl/mold-inspection-testing/",
-        "/service-areas/eglin-afb-fl/mold-inspection-testing/",
-        "/service-areas/fort-walton-beach-fl/mold-inspection-testing/",
-        "/service-areas/harold-fl/mold-inspection-testing/",
-        "/service-areas/hurlburt-field-fl/mold-inspection-testing/",
-        "/service-areas/laurel-hill-fl/mold-inspection-testing/",
-        "/service-areas/miramar-beach-fl/mold-inspection-testing/",
-        "/service-areas/navarre-fl/mold-inspection-testing/",
-        "/service-areas/niceville-fl/mold-inspection-testing/",
-        "/blog/how-to-test-for-mold/"
-      ]
-    },
-    {
       "url_path": "/services/commercial-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -2889,50 +2838,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/destin-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Destin, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Destin",
-      "meta_description": "24/7 mold inspection and testing in Destin, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing destin",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/destin-fl/",
-        "/service-areas/destin-fl/fire-damage-restoration/",
-        "/service-areas/destin-fl/mold-remediation/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/destin-fl/commercial-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3766,50 +3671,6 @@
         "/service-areas/miramar-beach-fl/mold-remediation/",
         "/service-areas/crestview-fl/smoke-damage-restoration/",
         "/service-areas/defuniak-springs-fl/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/miramar-beach-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Miramar Beach, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Miramar Beach",
-      "meta_description": "24/7 mold inspection and testing in Miramar Beach, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing miramar beach",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/miramar-beach-fl/",
-        "/service-areas/miramar-beach-fl/fire-damage-restoration/",
-        "/service-areas/miramar-beach-fl/mold-remediation/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -4651,50 +4512,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/santa-rosa-beach-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Santa Rosa Beach, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Santa Rosa Beach",
-      "meta_description": "24/7 mold inspection and testing in Santa Rosa Beach, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing santa rosa beach",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/santa-rosa-beach-fl/",
-        "/service-areas/santa-rosa-beach-fl/fire-damage-restoration/",
-        "/service-areas/santa-rosa-beach-fl/mold-remediation/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/santa-rosa-beach-fl/commercial-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5528,50 +5345,6 @@
         "/service-areas/niceville-fl/mold-remediation/",
         "/service-areas/crestview-fl/smoke-damage-restoration/",
         "/service-areas/defuniak-springs-fl/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/niceville-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Niceville, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Niceville",
-      "meta_description": "24/7 mold inspection and testing in Niceville, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing niceville",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/niceville-fl/",
-        "/service-areas/niceville-fl/fire-damage-restoration/",
-        "/service-areas/niceville-fl/mold-remediation/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -6413,50 +6186,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fort-walton-beach-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Fort Walton Beach, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Fort Walton Beach",
-      "meta_description": "24/7 mold inspection and testing in Fort Walton Beach, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing fort walton beach",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/fort-walton-beach-fl/",
-        "/service-areas/fort-walton-beach-fl/fire-damage-restoration/",
-        "/service-areas/fort-walton-beach-fl/mold-remediation/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fort-walton-beach-fl/commercial-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7290,50 +7019,6 @@
         "/service-areas/panama-city-beach-fl/mold-remediation/",
         "/service-areas/crestview-fl/smoke-damage-restoration/",
         "/service-areas/defuniak-springs-fl/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/panama-city-beach-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Panama City Beach, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Panama City Beach",
-      "meta_description": "24/7 mold inspection and testing in Panama City Beach, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing panama city beach",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/panama-city-beach-fl/",
-        "/service-areas/panama-city-beach-fl/fire-damage-restoration/",
-        "/service-areas/panama-city-beach-fl/mold-remediation/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -8175,50 +7860,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/crestview-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Crestview, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Crestview",
-      "meta_description": "24/7 mold inspection and testing in Crestview, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing crestview",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/crestview-fl/",
-        "/service-areas/crestview-fl/fire-damage-restoration/",
-        "/service-areas/crestview-fl/mold-remediation/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
-        "/service-areas/destin-fl/mold-inspection-testing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/crestview-fl/commercial-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9052,50 +8693,6 @@
         "/service-areas/defuniak-springs-fl/mold-remediation/",
         "/service-areas/crestview-fl/smoke-damage-restoration/",
         "/service-areas/destin-fl/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in DeFuniak Springs, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in DeFuniak Springs",
-      "meta_description": "24/7 mold inspection and testing in DeFuniak Springs, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing defuniak springs",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/",
-        "/service-areas/defuniak-springs-fl/fire-damage-restoration/",
-        "/service-areas/defuniak-springs-fl/mold-remediation/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/destin-fl/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -9937,50 +9534,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/valparaiso-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Valparaiso, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Valparaiso",
-      "meta_description": "24/7 mold inspection and testing in Valparaiso, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing valparaiso",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/valparaiso-fl/",
-        "/service-areas/valparaiso-fl/fire-damage-restoration/",
-        "/service-areas/valparaiso-fl/mold-remediation/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/valparaiso-fl/commercial-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10814,50 +10367,6 @@
         "/service-areas/ebro-fl/mold-remediation/",
         "/service-areas/crestview-fl/smoke-damage-restoration/",
         "/service-areas/defuniak-springs-fl/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/ebro-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Ebro, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Ebro",
-      "meta_description": "24/7 mold inspection and testing in Ebro, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing ebro",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/ebro-fl/",
-        "/service-areas/ebro-fl/fire-damage-restoration/",
-        "/service-areas/ebro-fl/mold-remediation/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -11699,50 +11208,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ponce-de-leon-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Ponce de Leon, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Ponce de Leon",
-      "meta_description": "24/7 mold inspection and testing in Ponce de Leon, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing ponce de leon",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/ponce-de-leon-fl/",
-        "/service-areas/ponce-de-leon-fl/fire-damage-restoration/",
-        "/service-areas/ponce-de-leon-fl/mold-remediation/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ponce-de-leon-fl/commercial-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12576,50 +12041,6 @@
         "/service-areas/westville-fl/mold-remediation/",
         "/service-areas/crestview-fl/smoke-damage-restoration/",
         "/service-areas/defuniak-springs-fl/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/westville-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Westville, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Westville",
-      "meta_description": "24/7 mold inspection and testing in Westville, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing westville",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/westville-fl/",
-        "/service-areas/westville-fl/fire-damage-restoration/",
-        "/service-areas/westville-fl/mold-remediation/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -13461,50 +12882,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/eglin-afb-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Eglin AFB, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Eglin AFB",
-      "meta_description": "24/7 mold inspection and testing in Eglin AFB, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing eglin afb",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/eglin-afb-fl/",
-        "/service-areas/eglin-afb-fl/fire-damage-restoration/",
-        "/service-areas/eglin-afb-fl/mold-remediation/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/eglin-afb-fl/commercial-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14338,50 +13715,6 @@
         "/service-areas/vernon-fl/mold-remediation/",
         "/service-areas/crestview-fl/smoke-damage-restoration/",
         "/service-areas/defuniak-springs-fl/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/vernon-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Vernon, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Vernon",
-      "meta_description": "24/7 mold inspection and testing in Vernon, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing vernon",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/vernon-fl/",
-        "/service-areas/vernon-fl/fire-damage-restoration/",
-        "/service-areas/vernon-fl/mold-remediation/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -15223,50 +14556,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/wright-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Wright, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Wright",
-      "meta_description": "24/7 mold inspection and testing in Wright, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing wright",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/wright-fl/",
-        "/service-areas/wright-fl/fire-damage-restoration/",
-        "/service-areas/wright-fl/mold-remediation/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/wright-fl/commercial-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16100,50 +15389,6 @@
         "/service-areas/hurlburt-field-fl/mold-remediation/",
         "/service-areas/crestview-fl/smoke-damage-restoration/",
         "/service-areas/defuniak-springs-fl/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hurlburt-field-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Hurlburt Field, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Hurlburt Field",
-      "meta_description": "24/7 mold inspection and testing in Hurlburt Field, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing hurlburt field",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/hurlburt-field-fl/",
-        "/service-areas/hurlburt-field-fl/fire-damage-restoration/",
-        "/service-areas/hurlburt-field-fl/mold-remediation/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -16985,50 +16230,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/paxton-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Paxton, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Paxton",
-      "meta_description": "24/7 mold inspection and testing in Paxton, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing paxton",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/paxton-fl/",
-        "/service-areas/paxton-fl/fire-damage-restoration/",
-        "/service-areas/paxton-fl/mold-remediation/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/paxton-fl/commercial-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17862,50 +17063,6 @@
         "/service-areas/laurel-hill-fl/mold-remediation/",
         "/service-areas/crestview-fl/smoke-damage-restoration/",
         "/service-areas/defuniak-springs-fl/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/laurel-hill-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Laurel Hill, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Laurel Hill",
-      "meta_description": "24/7 mold inspection and testing in Laurel Hill, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing laurel hill",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/laurel-hill-fl/",
-        "/service-areas/laurel-hill-fl/fire-damage-restoration/",
-        "/service-areas/laurel-hill-fl/mold-remediation/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
         "/contact/"
       ]
     },
@@ -18747,50 +17904,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/harold-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Harold, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Harold",
-      "meta_description": "24/7 mold inspection and testing in Harold, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing harold",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/harold-fl/",
-        "/service-areas/harold-fl/fire-damage-restoration/",
-        "/service-areas/harold-fl/mold-remediation/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/harold-fl/commercial-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19624,50 +18737,6 @@
         "/service-areas/navarre-fl/mold-remediation/",
         "/service-areas/crestview-fl/smoke-damage-restoration/",
         "/service-areas/defuniak-springs-fl/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/navarre-fl/mold-inspection-testing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Mold Inspection and Testing in Navarre, FL | Veterans Remediation & Restoration ",
-      "h1": "Mold Inspection and Testing in Navarre",
-      "meta_description": "24/7 mold inspection and testing in Navarre, FL. Insurance billing accepted. Call (337) 344-1248.",
-      "primary_keyword": "mold inspection and testing navarre",
-      "secondary_keywords": [
-        "mold inspection",
-        "mold testing",
-        "indoor air quality testing",
-        "mold spore testing",
-        "mold assessment"
-      ],
-      "search_intent": "local_health",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 5.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/mold-inspection-testing/",
-        "/service-areas/navarre-fl/",
-        "/service-areas/navarre-fl/fire-damage-restoration/",
-        "/service-areas/navarre-fl/mold-remediation/",
-        "/service-areas/crestview-fl/mold-inspection-testing/",
-        "/service-areas/defuniak-springs-fl/mold-inspection-testing/",
         "/contact/"
       ]
     },

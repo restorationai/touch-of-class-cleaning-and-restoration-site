@@ -288,16 +288,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-heater-flood-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/water-leak-detection/": {
     "archetype": "service-landing",
     "stubs": [
@@ -1088,16 +1078,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/union-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/union-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1339,16 +1319,6 @@
     "missing_stubs": []
   },
   "/service-areas/elizabeth-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elizabeth-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1608,16 +1578,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/westfield-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/westfield-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1859,16 +1819,6 @@
     "missing_stubs": []
   },
   "/service-areas/cranford-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/cranford-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2128,16 +2078,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/springfield-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/springfield-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2379,16 +2319,6 @@
     "missing_stubs": []
   },
   "/service-areas/summit-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/summit-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2648,16 +2578,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/newark-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/newark-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2899,16 +2819,6 @@
     "missing_stubs": []
   },
   "/service-areas/jersey-city-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/jersey-city-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3168,16 +3078,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/brooklyn-ny/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/brooklyn-ny/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3419,16 +3319,6 @@
     "missing_stubs": []
   },
   "/service-areas/manhattan-ny/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/manhattan-ny/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3688,16 +3578,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fair-lawn-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fair-lawn-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3939,16 +3819,6 @@
     "missing_stubs": []
   },
   "/service-areas/highland-park-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/highland-park-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4208,16 +4078,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/staten-island-ny/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/staten-island-ny/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4459,16 +4319,6 @@
     "missing_stubs": []
   },
   "/service-areas/linden-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/linden-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4728,16 +4578,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rahway-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/rahway-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4979,16 +4819,6 @@
     "missing_stubs": []
   },
   "/service-areas/plainfield-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/plainfield-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5248,16 +5078,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/scotch-plains-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/scotch-plains-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5499,16 +5319,6 @@
     "missing_stubs": []
   },
   "/service-areas/clark-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/clark-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5768,16 +5578,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/roselle-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/roselle-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6019,16 +5819,6 @@
     "missing_stubs": []
   },
   "/service-areas/hillside-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hillside-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6288,16 +6078,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/east-orange-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/east-orange-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6539,16 +6319,6 @@
     "missing_stubs": []
   },
   "/service-areas/west-orange-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/west-orange-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6808,16 +6578,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/montclair-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/montclair-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7059,16 +6819,6 @@
     "missing_stubs": []
   },
   "/service-areas/bloomfield-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bloomfield-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7328,16 +7078,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/livingston-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/livingston-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7579,16 +7319,6 @@
     "missing_stubs": []
   },
   "/service-areas/irvington-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/irvington-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7848,16 +7578,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/maplewood-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/maplewood-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8099,16 +7819,6 @@
     "missing_stubs": []
   },
   "/service-areas/millburn-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/millburn-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8368,16 +8078,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hackensack-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hackensack-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8619,16 +8319,6 @@
     "missing_stubs": []
   },
   "/service-areas/paramus-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/paramus-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8888,16 +8578,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fort-lee-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fort-lee-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9139,16 +8819,6 @@
     "missing_stubs": []
   },
   "/service-areas/teaneck-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/teaneck-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9408,16 +9078,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ridgewood-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ridgewood-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9659,16 +9319,6 @@
     "missing_stubs": []
   },
   "/service-areas/englewood-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/englewood-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9928,16 +9578,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/garfield-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/garfield-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10179,16 +9819,6 @@
     "missing_stubs": []
   },
   "/service-areas/new-brunswick-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-brunswick-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10448,16 +10078,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/edison-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/edison-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10699,16 +10319,6 @@
     "missing_stubs": []
   },
   "/service-areas/woodbridge-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/woodbridge-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10968,16 +10578,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/perth-amboy-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/perth-amboy-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11219,16 +10819,6 @@
     "missing_stubs": []
   },
   "/service-areas/east-brunswick-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/east-brunswick-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11488,16 +11078,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/piscataway-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/piscataway-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11739,16 +11319,6 @@
     "missing_stubs": []
   },
   "/service-areas/morristown-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/morristown-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12008,16 +11578,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/parsippany-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/parsippany-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12259,16 +11819,6 @@
     "missing_stubs": []
   },
   "/service-areas/somerville-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/somerville-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12528,16 +12078,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bridgewater-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bridgewater-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12779,16 +12319,6 @@
     "missing_stubs": []
   },
   "/service-areas/paterson-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/paterson-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13048,16 +12578,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/clifton-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/clifton-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -13299,16 +12819,6 @@
     "missing_stubs": []
   },
   "/service-areas/wayne-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wayne-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13568,16 +13078,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/passaic-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/passaic-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -13819,16 +13319,6 @@
     "missing_stubs": []
   },
   "/service-areas/hoboken-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hoboken-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -14088,16 +13578,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bayonne-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bayonne-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -14339,16 +13819,6 @@
     "missing_stubs": []
   },
   "/service-areas/north-bergen-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-bergen-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -14608,16 +14078,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mountainside-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mountainside-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -14859,16 +14319,6 @@
     "missing_stubs": []
   },
   "/service-areas/short-hills-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/short-hills-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -15128,16 +14578,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/colonia-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/colonia-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -15379,16 +14819,6 @@
     "missing_stubs": []
   },
   "/service-areas/new-providence-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-providence-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -15648,16 +15078,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/avenel-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/avenel-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -15899,16 +15319,6 @@
     "missing_stubs": []
   },
   "/service-areas/chatham-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/chatham-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -16168,16 +15578,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/watchung-nj/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/watchung-nj/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -16419,16 +15819,6 @@
     "missing_stubs": []
   },
   "/service-areas/carteret-nj/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/carteret-nj/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

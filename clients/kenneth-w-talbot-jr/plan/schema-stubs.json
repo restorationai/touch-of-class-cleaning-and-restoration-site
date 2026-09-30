@@ -158,16 +158,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/mold-inspection-testing/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/commercial-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -538,16 +528,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/destin-fl/mold-inspection-testing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/destin-fl/commercial-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -729,16 +709,6 @@
     "missing_stubs": []
   },
   "/service-areas/miramar-beach-fl/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/miramar-beach-fl/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -938,16 +908,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-rosa-beach-fl/mold-inspection-testing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-rosa-beach-fl/commercial-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1129,16 +1089,6 @@
     "missing_stubs": []
   },
   "/service-areas/niceville-fl/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/niceville-fl/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1338,16 +1288,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fort-walton-beach-fl/mold-inspection-testing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fort-walton-beach-fl/commercial-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1529,16 +1469,6 @@
     "missing_stubs": []
   },
   "/service-areas/panama-city-beach-fl/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/panama-city-beach-fl/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1738,16 +1668,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/crestview-fl/mold-inspection-testing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/crestview-fl/commercial-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1929,16 +1849,6 @@
     "missing_stubs": []
   },
   "/service-areas/defuniak-springs-fl/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/defuniak-springs-fl/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2138,16 +2048,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/valparaiso-fl/mold-inspection-testing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/valparaiso-fl/commercial-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2329,16 +2229,6 @@
     "missing_stubs": []
   },
   "/service-areas/ebro-fl/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ebro-fl/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2538,16 +2428,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ponce-de-leon-fl/mold-inspection-testing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ponce-de-leon-fl/commercial-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2729,16 +2609,6 @@
     "missing_stubs": []
   },
   "/service-areas/westville-fl/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/westville-fl/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2938,16 +2808,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/eglin-afb-fl/mold-inspection-testing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/eglin-afb-fl/commercial-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3129,16 +2989,6 @@
     "missing_stubs": []
   },
   "/service-areas/vernon-fl/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/vernon-fl/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3338,16 +3188,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wright-fl/mold-inspection-testing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wright-fl/commercial-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3529,16 +3369,6 @@
     "missing_stubs": []
   },
   "/service-areas/hurlburt-field-fl/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hurlburt-field-fl/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3738,16 +3568,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/paxton-fl/mold-inspection-testing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/paxton-fl/commercial-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3929,16 +3749,6 @@
     "missing_stubs": []
   },
   "/service-areas/laurel-hill-fl/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/laurel-hill-fl/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4138,16 +3948,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/harold-fl/mold-inspection-testing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/harold-fl/commercial-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4329,16 +4129,6 @@
     "missing_stubs": []
   },
   "/service-areas/navarre-fl/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/navarre-fl/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

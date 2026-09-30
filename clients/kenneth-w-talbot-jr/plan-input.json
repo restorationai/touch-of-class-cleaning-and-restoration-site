@@ -158,6 +158,7 @@
     "storm-damage-restoration"
   ],
   "merged_services": {
+    "mold-inspection-testing": "mold-inspection-assessment",
     "water-cleanup": "emergency-water-removal"
   }
 }

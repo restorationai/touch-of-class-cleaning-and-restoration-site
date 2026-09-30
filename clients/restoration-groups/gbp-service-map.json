@@ -851,6 +851,23 @@
         "emergency water cleanup": 480
       },
       "at": "2026-09-30"
+    },
+    "water-heater-flood-cleanup": {
+      "into": "appliance-leak-cleanup",
+      "reason": "Santino 09-30 audit leftover: 'water heater flood cleanup' has 0/mo nationally (head + near me) < 10,000 bar; unrendered placeholder page + 60 city stubs fold into the rendered appliance leak page.",
+      "volumes": {
+        "water-heater-flood-cleanup": {
+          "head": 0,
+          "near_me": 0,
+          "total": 0
+        },
+        "appliance-leak-cleanup": {
+          "head": 10,
+          "near_me": 0,
+          "total": 10
+        }
+      },
+      "at": "2026-09-30"
     }
   },
   "kept_pairs": []
