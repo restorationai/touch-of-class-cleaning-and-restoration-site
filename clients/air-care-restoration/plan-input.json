@@ -77,7 +77,6 @@
     "post-construction-cleaning",
     "sewage-cleanup",
     "storm-damage-restoration",
-    "vandalism-cleanup",
     "water-cleanup",
     "water-damage-restoration"
   ],
@@ -254,7 +253,7 @@
   "merged_services": {
     "air-duct-hvac-cleaning": "air-duct-cleaning",
     "contents-restoration-storage": "contents-restoration",
-    "vandalism-graffiti-removal": "vandalism-cleanup",
+    "vandalism-cleanup": "vandalism-graffiti-removal",
     "water-cleanup": "emergency-water-removal"
   }
 }

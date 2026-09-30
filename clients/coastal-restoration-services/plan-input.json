@@ -36,7 +36,6 @@
     "post-construction-cleaning",
     "sewage-cleanup",
     "storm-damage-restoration",
-    "vandalism-cleanup",
     "water-damage-restoration"
   ],
   "service_areas": [
@@ -209,7 +208,7 @@
   ],
   "merged_services": {
     "contents-restoration-storage": "contents-restoration",
-    "vandalism-graffiti-removal": "vandalism-cleanup",
+    "vandalism-cleanup": "vandalism-graffiti-removal",
     "water-cleanup": "emergency-water-removal"
   }
 }

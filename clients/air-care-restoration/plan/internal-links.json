@@ -30,7 +30,6 @@
     "/services/asbestos-abatement/",
     "/services/air-duct-cleaning/",
     "/services/contents-restoration/",
-    "/services/vandalism-cleanup/",
     "/services/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -88,7 +87,6 @@
     "/services/asbestos-abatement/",
     "/services/air-duct-cleaning/",
     "/services/contents-restoration/",
-    "/services/vandalism-cleanup/",
     "/services/post-construction-cleaning/"
   ],
   "/service-areas/": [
@@ -356,22 +354,6 @@
     "/service-areas/comanche-tx/storm-damage-restoration/",
     "/service-areas/early-tx/storm-damage-restoration/"
   ],
-  "/services/vandalism-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
-    "/service-areas/baird-tx/vandalism-cleanup/",
-    "/service-areas/ballinger-tx/vandalism-cleanup/",
-    "/service-areas/bronte-tx/vandalism-cleanup/",
-    "/service-areas/brownwood-tx/vandalism-cleanup/",
-    "/service-areas/buffalo-gap-tx/vandalism-cleanup/",
-    "/service-areas/clyde-tx/vandalism-cleanup/",
-    "/service-areas/coleman-tx/vandalism-cleanup/",
-    "/service-areas/colorado-city-tx/vandalism-cleanup/",
-    "/service-areas/comanche-tx/vandalism-cleanup/",
-    "/service-areas/early-tx/vandalism-cleanup/"
-  ],
   "/services/water-damage-restoration/": [
     "/services/",
     "/contact/",
@@ -631,7 +613,6 @@
     "/service-areas/sweetwater-tx/asbestos-abatement/",
     "/service-areas/sweetwater-tx/air-duct-cleaning/",
     "/service-areas/sweetwater-tx/contents-restoration/",
-    "/service-areas/sweetwater-tx/vandalism-cleanup/",
     "/service-areas/sweetwater-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -666,7 +647,6 @@
     "/service-areas/clyde-tx/asbestos-abatement/",
     "/service-areas/clyde-tx/air-duct-cleaning/",
     "/service-areas/clyde-tx/contents-restoration/",
-    "/service-areas/clyde-tx/vandalism-cleanup/",
     "/service-areas/clyde-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -701,7 +681,6 @@
     "/service-areas/merkel-tx/asbestos-abatement/",
     "/service-areas/merkel-tx/air-duct-cleaning/",
     "/service-areas/merkel-tx/contents-restoration/",
-    "/service-areas/merkel-tx/vandalism-cleanup/",
     "/service-areas/merkel-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -736,7 +715,6 @@
     "/service-areas/anson-tx/asbestos-abatement/",
     "/service-areas/anson-tx/air-duct-cleaning/",
     "/service-areas/anson-tx/contents-restoration/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
     "/service-areas/anson-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/baird-tx/",
@@ -771,7 +749,6 @@
     "/service-areas/tuscola-tx/asbestos-abatement/",
     "/service-areas/tuscola-tx/air-duct-cleaning/",
     "/service-areas/tuscola-tx/contents-restoration/",
-    "/service-areas/tuscola-tx/vandalism-cleanup/",
     "/service-areas/tuscola-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -806,7 +783,6 @@
     "/service-areas/tye-tx/asbestos-abatement/",
     "/service-areas/tye-tx/air-duct-cleaning/",
     "/service-areas/tye-tx/contents-restoration/",
-    "/service-areas/tye-tx/vandalism-cleanup/",
     "/service-areas/tye-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -841,7 +817,6 @@
     "/service-areas/buffalo-gap-tx/asbestos-abatement/",
     "/service-areas/buffalo-gap-tx/air-duct-cleaning/",
     "/service-areas/buffalo-gap-tx/contents-restoration/",
-    "/service-areas/buffalo-gap-tx/vandalism-cleanup/",
     "/service-areas/buffalo-gap-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -876,7 +851,6 @@
     "/service-areas/brownwood-tx/asbestos-abatement/",
     "/service-areas/brownwood-tx/air-duct-cleaning/",
     "/service-areas/brownwood-tx/contents-restoration/",
-    "/service-areas/brownwood-tx/vandalism-cleanup/",
     "/service-areas/brownwood-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -911,7 +885,6 @@
     "/service-areas/early-tx/asbestos-abatement/",
     "/service-areas/early-tx/air-duct-cleaning/",
     "/service-areas/early-tx/contents-restoration/",
-    "/service-areas/early-tx/vandalism-cleanup/",
     "/service-areas/early-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -946,7 +919,6 @@
     "/service-areas/roby-tx/asbestos-abatement/",
     "/service-areas/roby-tx/air-duct-cleaning/",
     "/service-areas/roby-tx/contents-restoration/",
-    "/service-areas/roby-tx/vandalism-cleanup/",
     "/service-areas/roby-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -981,7 +953,6 @@
     "/service-areas/rotan-tx/asbestos-abatement/",
     "/service-areas/rotan-tx/air-duct-cleaning/",
     "/service-areas/rotan-tx/contents-restoration/",
-    "/service-areas/rotan-tx/vandalism-cleanup/",
     "/service-areas/rotan-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -1016,7 +987,6 @@
     "/service-areas/robert-lee-tx/asbestos-abatement/",
     "/service-areas/robert-lee-tx/air-duct-cleaning/",
     "/service-areas/robert-lee-tx/contents-restoration/",
-    "/service-areas/robert-lee-tx/vandalism-cleanup/",
     "/service-areas/robert-lee-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -1051,7 +1021,6 @@
     "/service-areas/bronte-tx/asbestos-abatement/",
     "/service-areas/bronte-tx/air-duct-cleaning/",
     "/service-areas/bronte-tx/contents-restoration/",
-    "/service-areas/bronte-tx/vandalism-cleanup/",
     "/service-areas/bronte-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -1086,7 +1055,6 @@
     "/service-areas/eden-tx/asbestos-abatement/",
     "/service-areas/eden-tx/air-duct-cleaning/",
     "/service-areas/eden-tx/contents-restoration/",
-    "/service-areas/eden-tx/vandalism-cleanup/",
     "/service-areas/eden-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -1121,7 +1089,6 @@
     "/service-areas/paint-rock-tx/asbestos-abatement/",
     "/service-areas/paint-rock-tx/air-duct-cleaning/",
     "/service-areas/paint-rock-tx/contents-restoration/",
-    "/service-areas/paint-rock-tx/vandalism-cleanup/",
     "/service-areas/paint-rock-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -1156,7 +1123,6 @@
     "/service-areas/san-angelo-tx/asbestos-abatement/",
     "/service-areas/san-angelo-tx/air-duct-cleaning/",
     "/service-areas/san-angelo-tx/contents-restoration/",
-    "/service-areas/san-angelo-tx/vandalism-cleanup/",
     "/service-areas/san-angelo-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -1191,7 +1157,6 @@
     "/service-areas/snyder-tx/asbestos-abatement/",
     "/service-areas/snyder-tx/air-duct-cleaning/",
     "/service-areas/snyder-tx/contents-restoration/",
-    "/service-areas/snyder-tx/vandalism-cleanup/",
     "/service-areas/snyder-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -1226,7 +1191,6 @@
     "/service-areas/coleman-tx/asbestos-abatement/",
     "/service-areas/coleman-tx/air-duct-cleaning/",
     "/service-areas/coleman-tx/contents-restoration/",
-    "/service-areas/coleman-tx/vandalism-cleanup/",
     "/service-areas/coleman-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -1261,7 +1225,6 @@
     "/service-areas/ballinger-tx/asbestos-abatement/",
     "/service-areas/ballinger-tx/air-duct-cleaning/",
     "/service-areas/ballinger-tx/contents-restoration/",
-    "/service-areas/ballinger-tx/vandalism-cleanup/",
     "/service-areas/ballinger-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -1296,7 +1259,6 @@
     "/service-areas/haskell-tx/asbestos-abatement/",
     "/service-areas/haskell-tx/air-duct-cleaning/",
     "/service-areas/haskell-tx/contents-restoration/",
-    "/service-areas/haskell-tx/vandalism-cleanup/",
     "/service-areas/haskell-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -1331,7 +1293,6 @@
     "/service-areas/albany-tx/asbestos-abatement/",
     "/service-areas/albany-tx/air-duct-cleaning/",
     "/service-areas/albany-tx/contents-restoration/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
     "/service-areas/albany-tx/post-construction-cleaning/",
     "/service-areas/anson-tx/",
     "/service-areas/baird-tx/",
@@ -1366,7 +1327,6 @@
     "/service-areas/eastland-tx/asbestos-abatement/",
     "/service-areas/eastland-tx/air-duct-cleaning/",
     "/service-areas/eastland-tx/contents-restoration/",
-    "/service-areas/eastland-tx/vandalism-cleanup/",
     "/service-areas/eastland-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -1401,7 +1361,6 @@
     "/service-areas/colorado-city-tx/asbestos-abatement/",
     "/service-areas/colorado-city-tx/air-duct-cleaning/",
     "/service-areas/colorado-city-tx/contents-restoration/",
-    "/service-areas/colorado-city-tx/vandalism-cleanup/",
     "/service-areas/colorado-city-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -1436,7 +1395,6 @@
     "/service-areas/comanche-tx/asbestos-abatement/",
     "/service-areas/comanche-tx/air-duct-cleaning/",
     "/service-areas/comanche-tx/contents-restoration/",
-    "/service-areas/comanche-tx/vandalism-cleanup/",
     "/service-areas/comanche-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -1471,7 +1429,6 @@
     "/service-areas/potosi-tx/asbestos-abatement/",
     "/service-areas/potosi-tx/air-duct-cleaning/",
     "/service-areas/potosi-tx/contents-restoration/",
-    "/service-areas/potosi-tx/vandalism-cleanup/",
     "/service-areas/potosi-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -1506,7 +1463,6 @@
     "/service-areas/hawley-tx/asbestos-abatement/",
     "/service-areas/hawley-tx/air-duct-cleaning/",
     "/service-areas/hawley-tx/contents-restoration/",
-    "/service-areas/hawley-tx/vandalism-cleanup/",
     "/service-areas/hawley-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -1541,7 +1497,6 @@
     "/service-areas/baird-tx/asbestos-abatement/",
     "/service-areas/baird-tx/air-duct-cleaning/",
     "/service-areas/baird-tx/contents-restoration/",
-    "/service-areas/baird-tx/vandalism-cleanup/",
     "/service-areas/baird-tx/post-construction-cleaning/",
     "/service-areas/albany-tx/",
     "/service-areas/anson-tx/",
@@ -1662,15 +1617,6 @@
     "/service-areas/sweetwater-tx/mold-remediation/",
     "/service-areas/albany-tx/storm-damage-restoration/",
     "/service-areas/anson-tx/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/sweetwater-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/sweetwater-tx/",
-    "/service-areas/sweetwater-tx/fire-damage-restoration/",
-    "/service-areas/sweetwater-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/sweetwater-tx/water-damage-restoration/": [
@@ -1916,15 +1862,6 @@
     "/service-areas/anson-tx/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/clyde-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/clyde-tx/",
-    "/service-areas/clyde-tx/fire-damage-restoration/",
-    "/service-areas/clyde-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/clyde-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/clyde-tx/",
@@ -2166,15 +2103,6 @@
     "/service-areas/merkel-tx/mold-remediation/",
     "/service-areas/albany-tx/storm-damage-restoration/",
     "/service-areas/anson-tx/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/merkel-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/merkel-tx/",
-    "/service-areas/merkel-tx/fire-damage-restoration/",
-    "/service-areas/merkel-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/merkel-tx/water-damage-restoration/": [
@@ -2420,15 +2348,6 @@
     "/service-areas/baird-tx/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/anson-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/anson-tx/",
-    "/service-areas/anson-tx/fire-damage-restoration/",
-    "/service-areas/anson-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/baird-tx/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/anson-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/anson-tx/",
@@ -2670,15 +2589,6 @@
     "/service-areas/tuscola-tx/mold-remediation/",
     "/service-areas/albany-tx/storm-damage-restoration/",
     "/service-areas/anson-tx/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/tuscola-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/tuscola-tx/",
-    "/service-areas/tuscola-tx/fire-damage-restoration/",
-    "/service-areas/tuscola-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/tuscola-tx/water-damage-restoration/": [
@@ -2924,15 +2834,6 @@
     "/service-areas/anson-tx/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/tye-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/tye-tx/",
-    "/service-areas/tye-tx/fire-damage-restoration/",
-    "/service-areas/tye-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/tye-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/tye-tx/",
@@ -3174,15 +3075,6 @@
     "/service-areas/buffalo-gap-tx/mold-remediation/",
     "/service-areas/albany-tx/storm-damage-restoration/",
     "/service-areas/anson-tx/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/buffalo-gap-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/buffalo-gap-tx/",
-    "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
-    "/service-areas/buffalo-gap-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/buffalo-gap-tx/water-damage-restoration/": [
@@ -3428,15 +3320,6 @@
     "/service-areas/anson-tx/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/brownwood-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/brownwood-tx/",
-    "/service-areas/brownwood-tx/fire-damage-restoration/",
-    "/service-areas/brownwood-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/brownwood-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/brownwood-tx/",
@@ -3678,15 +3561,6 @@
     "/service-areas/early-tx/mold-remediation/",
     "/service-areas/albany-tx/storm-damage-restoration/",
     "/service-areas/anson-tx/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/early-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/early-tx/",
-    "/service-areas/early-tx/fire-damage-restoration/",
-    "/service-areas/early-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/early-tx/water-damage-restoration/": [
@@ -3932,15 +3806,6 @@
     "/service-areas/anson-tx/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/roby-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/roby-tx/",
-    "/service-areas/roby-tx/fire-damage-restoration/",
-    "/service-areas/roby-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/roby-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/roby-tx/",
@@ -4182,15 +4047,6 @@
     "/service-areas/rotan-tx/mold-remediation/",
     "/service-areas/albany-tx/storm-damage-restoration/",
     "/service-areas/anson-tx/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/rotan-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/rotan-tx/",
-    "/service-areas/rotan-tx/fire-damage-restoration/",
-    "/service-areas/rotan-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/rotan-tx/water-damage-restoration/": [
@@ -4436,15 +4292,6 @@
     "/service-areas/anson-tx/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/robert-lee-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/robert-lee-tx/",
-    "/service-areas/robert-lee-tx/fire-damage-restoration/",
-    "/service-areas/robert-lee-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/robert-lee-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/robert-lee-tx/",
@@ -4686,15 +4533,6 @@
     "/service-areas/bronte-tx/mold-remediation/",
     "/service-areas/albany-tx/storm-damage-restoration/",
     "/service-areas/anson-tx/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/bronte-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/bronte-tx/",
-    "/service-areas/bronte-tx/fire-damage-restoration/",
-    "/service-areas/bronte-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/bronte-tx/water-damage-restoration/": [
@@ -4940,15 +4778,6 @@
     "/service-areas/anson-tx/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/eden-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/eden-tx/",
-    "/service-areas/eden-tx/fire-damage-restoration/",
-    "/service-areas/eden-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/eden-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/eden-tx/",
@@ -5190,15 +5019,6 @@
     "/service-areas/paint-rock-tx/mold-remediation/",
     "/service-areas/albany-tx/storm-damage-restoration/",
     "/service-areas/anson-tx/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/paint-rock-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/paint-rock-tx/",
-    "/service-areas/paint-rock-tx/fire-damage-restoration/",
-    "/service-areas/paint-rock-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/paint-rock-tx/water-damage-restoration/": [
@@ -5444,15 +5264,6 @@
     "/service-areas/anson-tx/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/san-angelo-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/san-angelo-tx/",
-    "/service-areas/san-angelo-tx/fire-damage-restoration/",
-    "/service-areas/san-angelo-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/san-angelo-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/san-angelo-tx/",
@@ -5694,15 +5505,6 @@
     "/service-areas/snyder-tx/mold-remediation/",
     "/service-areas/albany-tx/storm-damage-restoration/",
     "/service-areas/anson-tx/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/snyder-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/snyder-tx/",
-    "/service-areas/snyder-tx/fire-damage-restoration/",
-    "/service-areas/snyder-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/snyder-tx/water-damage-restoration/": [
@@ -5948,15 +5750,6 @@
     "/service-areas/anson-tx/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/coleman-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/coleman-tx/",
-    "/service-areas/coleman-tx/fire-damage-restoration/",
-    "/service-areas/coleman-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/coleman-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/coleman-tx/",
@@ -6198,15 +5991,6 @@
     "/service-areas/ballinger-tx/mold-remediation/",
     "/service-areas/albany-tx/storm-damage-restoration/",
     "/service-areas/anson-tx/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/ballinger-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/ballinger-tx/",
-    "/service-areas/ballinger-tx/fire-damage-restoration/",
-    "/service-areas/ballinger-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/ballinger-tx/water-damage-restoration/": [
@@ -6452,15 +6236,6 @@
     "/service-areas/anson-tx/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/haskell-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/haskell-tx/",
-    "/service-areas/haskell-tx/fire-damage-restoration/",
-    "/service-areas/haskell-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/haskell-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/haskell-tx/",
@@ -6702,15 +6477,6 @@
     "/service-areas/albany-tx/mold-remediation/",
     "/service-areas/anson-tx/storm-damage-restoration/",
     "/service-areas/baird-tx/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/albany-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/albany-tx/",
-    "/service-areas/albany-tx/fire-damage-restoration/",
-    "/service-areas/albany-tx/mold-remediation/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
-    "/service-areas/baird-tx/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/albany-tx/water-damage-restoration/": [
@@ -6956,15 +6722,6 @@
     "/service-areas/anson-tx/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/eastland-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/eastland-tx/",
-    "/service-areas/eastland-tx/fire-damage-restoration/",
-    "/service-areas/eastland-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/eastland-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/eastland-tx/",
@@ -7206,15 +6963,6 @@
     "/service-areas/colorado-city-tx/mold-remediation/",
     "/service-areas/albany-tx/storm-damage-restoration/",
     "/service-areas/anson-tx/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/colorado-city-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/colorado-city-tx/",
-    "/service-areas/colorado-city-tx/fire-damage-restoration/",
-    "/service-areas/colorado-city-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/colorado-city-tx/water-damage-restoration/": [
@@ -7460,15 +7208,6 @@
     "/service-areas/anson-tx/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/comanche-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/comanche-tx/",
-    "/service-areas/comanche-tx/fire-damage-restoration/",
-    "/service-areas/comanche-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/comanche-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/comanche-tx/",
@@ -7710,15 +7449,6 @@
     "/service-areas/potosi-tx/mold-remediation/",
     "/service-areas/albany-tx/storm-damage-restoration/",
     "/service-areas/anson-tx/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/potosi-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/potosi-tx/",
-    "/service-areas/potosi-tx/fire-damage-restoration/",
-    "/service-areas/potosi-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/potosi-tx/water-damage-restoration/": [
@@ -7964,15 +7694,6 @@
     "/service-areas/anson-tx/storm-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/hawley-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/hawley-tx/",
-    "/service-areas/hawley-tx/fire-damage-restoration/",
-    "/service-areas/hawley-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/hawley-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/hawley-tx/",
@@ -8214,15 +7935,6 @@
     "/service-areas/baird-tx/mold-remediation/",
     "/service-areas/albany-tx/storm-damage-restoration/",
     "/service-areas/anson-tx/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/baird-tx/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/baird-tx/",
-    "/service-areas/baird-tx/fire-damage-restoration/",
-    "/service-areas/baird-tx/mold-remediation/",
-    "/service-areas/albany-tx/vandalism-cleanup/",
-    "/service-areas/anson-tx/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/baird-tx/water-damage-restoration/": [

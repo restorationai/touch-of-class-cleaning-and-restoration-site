@@ -158,16 +158,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/vandalism-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/water-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -698,16 +688,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/vandenberg-village-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/vandenberg-village-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -959,16 +939,6 @@
     "missing_stubs": []
   },
   "/service-areas/orcutt-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/orcutt-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1238,16 +1208,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/los-alamos-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/los-alamos-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1499,16 +1459,6 @@
     "missing_stubs": []
   },
   "/service-areas/lompoc-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lompoc-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1778,16 +1728,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/los-olivos-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/los-olivos-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2039,16 +1979,6 @@
     "missing_stubs": []
   },
   "/service-areas/mission-hills-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mission-hills-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2318,16 +2248,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-ynez-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-ynez-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2579,16 +2499,6 @@
     "missing_stubs": []
   },
   "/service-areas/solvang-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/solvang-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2858,16 +2768,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/vandenberg-afb-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/vandenberg-afb-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3119,16 +3019,6 @@
     "missing_stubs": []
   },
   "/service-areas/guadalupe-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/guadalupe-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3398,16 +3288,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/buellton-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/buellton-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3659,16 +3539,6 @@
     "missing_stubs": []
   },
   "/service-areas/ballard-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ballard-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3938,16 +3808,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/arroyo-grande-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/arroyo-grande-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4199,16 +4059,6 @@
     "missing_stubs": []
   },
   "/service-areas/avila-beach-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/avila-beach-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4478,16 +4328,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/cambria-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/cambria-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4739,16 +4579,6 @@
     "missing_stubs": []
   },
   "/service-areas/el-paso-de-robles-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/el-paso-de-robles-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5018,16 +4848,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/grover-beach-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/grover-beach-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5279,16 +5099,6 @@
     "missing_stubs": []
   },
   "/service-areas/los-berros-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/los-berros-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5558,16 +5368,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/nipomo-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/nipomo-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5819,16 +5619,6 @@
     "missing_stubs": []
   },
   "/service-areas/oceano-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oceano-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6098,16 +5888,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-luis-obispo-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-luis-obispo-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6359,16 +6139,6 @@
     "missing_stubs": []
   },
   "/service-areas/templeton-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/templeton-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6638,16 +6408,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-margarita-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-margarita-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6899,16 +6659,6 @@
     "missing_stubs": []
   },
   "/service-areas/pismo-beach-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pismo-beach-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7178,16 +6928,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/morro-bay-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/morro-bay-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7439,16 +7179,6 @@
     "missing_stubs": []
   },
   "/service-areas/los-osos-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/los-osos-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7718,16 +7448,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/edna-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/edna-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7979,16 +7699,6 @@
     "missing_stubs": []
   },
   "/service-areas/callender-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/callender-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8258,16 +7968,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/blacklake-ca/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/blacklake-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8519,16 +8219,6 @@
     "missing_stubs": []
   },
   "/service-areas/atascadero-ca/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/atascadero-ca/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

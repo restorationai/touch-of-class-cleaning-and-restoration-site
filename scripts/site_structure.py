@@ -152,9 +152,13 @@ SERVICE_CLUSTERS: list[dict] = [
         ("post-construction-cleaning", "post construction cleaning", False),
         ("post-construction-specialty-cleaning", "post construction cleaning", True),
     ]},
+    # Santino 09-30: graffiti removal (~1,510/mo nationally) is the canonical
+    # head, vandalism cleanup (~50/mo) folds INTO it, never the reverse
+    # (scripts/graffiti_reversal.py undid the backwards merge on Air Care +
+    # Coastal). Order = canonical preference.
     {"name": "vandalism", "members": [
-        ("vandalism-cleanup", "vandalism cleanup", False),
         ("vandalism-graffiti-removal", "graffiti removal", False),
+        ("vandalism-cleanup", "vandalism cleanup", True),
         ("vandalism-damage-cleanup-and-repair", "vandalism repair", True),
     ]},
     {"name": "leak detection", "members": [

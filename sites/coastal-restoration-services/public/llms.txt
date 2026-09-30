@@ -62,7 +62,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Post-Construction and Specialty Cleaning](https://callcrs.com/services/post-construction-cleaning/)
 - [Sewage Cleanup and Sanitization](https://callcrs.com/services/sewage-cleanup/)
 - [Storm Damage Restoration](https://callcrs.com/services/storm-damage-restoration/)
-- [Vandalism Cleanup](https://callcrs.com/services/vandalism-cleanup/)
+- [Vandalism Cleanup](https://callcrs.com/services/vandalism-graffiti-removal/)
 - [Water Damage Restoration](https://callcrs.com/services/water-damage-restoration/)
 
 ### Service area pages
