@@ -67,7 +67,7 @@
     },
     {
       "id": "2026-09-24-water-damage-restoration-cost-il",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-24T15:28:56Z",
       "priority": 1,
       "prioritized": true,
@@ -114,7 +114,8 @@
           "context": "to confirm materials are drying to the IICRC S500 standard rather than just \"looking",
           "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-30T01:27:46Z"
     },
     {
       "id": "2026-09-10-best-water-damage-restoration-in-chicago-il",
