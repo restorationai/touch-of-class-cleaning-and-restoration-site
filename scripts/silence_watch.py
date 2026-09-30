@@ -283,6 +283,29 @@ def probe_dev_agent(days: float):
         f"{len(outs)} task(s) closed out in {days:g}d"
 
 
+def probe_lsa_geo(days: float):
+    """Nightly LSA service-area apply (lsa-geo.yml, 09:37 UTC). Every client
+    with an LSA account must have a recent run in ops_kv lsa-geo-runs; the
+    LAGGARD's run time is the output age, so one client silently dropping
+    out of the matrix still goes red."""
+    rows = _rows("/rest/v1/companies?select=id,status,integration_settings->lsa->>customer_id"
+                 "&integration_settings->lsa->>customer_id=not.is.null")
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from client_ops_sync import slug_map
+    sm = slug_map()
+    live = [sm[r["id"]] for r in rows if sm.get(r["id"])
+            and (r.get("status") or "active") not in ("paused", "cancelled", "canceled", "inactive")]
+    kv = _rows("/rest/v1/ops_kv?k=eq.lsa-geo-runs&select=v")
+    runs = (kv[0].get("v") if kv else None) or {}
+    ats = [(runs.get(s) or {}).get("at") for s in live]
+    missing = [s for s, a in zip(live, ats) if not a]
+    oldest = None if missing else min(ats) if ats else None
+    added = sum(int((runs.get(s) or {}).get("added") or 0) for s in live)
+    return len(live), (f"{len(live)} client(s) with an LSA account"
+                       + (f", never checked: {', '.join(missing[:5])}" if missing else "")), \
+        oldest, f"{added} area(s) added on the latest runs"
+
+
 # --------------------------------------------------------------- the roster
 # quiet_days = how long this system may legitimately produce nothing WHILE it
 # has inputs. Set from the schedule, with headroom for one missed run.
@@ -341,6 +364,13 @@ SYSTEMS: list[dict] = [
             "collecting, and the backlog hides the stall",
      "fix": "check the n8n review dispatcher workflow + "
             "review_requests.next_send_at"},
+    {"key": "lsa-geo", "label": "LSA service areas (nightly apply)",
+     "probe": probe_lsa_geo, "window": 3, "quiet_days": 2,
+     "why": "LSA only serves the areas on the campaign; AirCare went live on "
+            "Abilene alone while her wizard listed eight counties. If this "
+            "stops, new clients launch under-targeted and nobody sees it",
+     "fix": "gh run list --workflow lsa-geo.yml   (nightly 09:37 UTC) && "
+            "python3 scripts/lsa_geo.py report"},
     {"key": "dev-agent", "label": "nightly dev agent (drains the queue)",
      "probe": probe_dev_agent, "window": 3, "quiet_days": 2,
      "why": "queued client work that never executes is worse than never "

@@ -418,6 +418,7 @@ def apply(slug: str, dry: bool, broad: bool = False) -> int:
     adds = [g for g in a.get("gap", []) if not g["redundant"] and (broad or not g.get("broad"))]
     if a.get("skip") or not adds:
         print("   nothing to add")
+        _record(slug, 0, 0, dry)
         return 0
     acid = a["account"]
     camp = next(iter(a["campaigns"]))
@@ -449,6 +450,14 @@ def apply(slug: str, dry: bool, broad: bool = False) -> int:
     svc.mutate_campaign_criteria(request=req)
     names = [g["place"] for g in adds]
     print(f"   ADDED {len(ops)}: {', '.join(names)}")
+    # VERIFY from Google, not from our own write (watcher contract): every
+    # place we just added must now read back as covered
+    import io, contextlib
+    with contextlib.redirect_stdout(io.StringIO()):
+        after = audit(slug, cl)
+    added = {g["geo"] for g in adds}
+    left = [g["place"] for g in after.get("gap", []) if g["geo"] in added]
+    _record(slug, len(adds), len(adds) - len(left), dry)
     try:
         from work_log import work_log
         work_log(a["company_id"], "ads", "lsa-service-areas",
@@ -458,7 +467,28 @@ def apply(slug: str, dry: bool, broad: bool = False) -> int:
                  source="lsa_geo")
     except Exception as e:  # noqa: BLE001
         print(f"  [work-log] warn: {str(e)[:100]}")
+    if left:
+        print(f"   VERIFY FAILED: still not targeted after the write: {', '.join(left)}")
+        return 1
+    print("   verified: every added area reads back as targeted")
     return 0
+
+
+def _record(slug: str, gap: int, added: int, dry: bool) -> None:
+    """Watcher inputs: per-client last-run record (ops_kv lsa-geo-runs) that
+    silence_watch reads, plus the shared heartbeat. Never raises."""
+    if dry:
+        return
+    try:
+        from datetime import datetime, timezone
+        runs = cc.kv_get("lsa-geo-runs") or {}
+        runs[slug] = {"at": datetime.now(timezone.utc).isoformat(),
+                      "gap": gap, "added": added}
+        cc.kv_set("lsa-geo-runs", runs)
+        from heartbeat import stamp
+        stamp("lsa-geo", inputs=gap, outputs=added, slug=slug)
+    except Exception as e:  # noqa: BLE001
+        print(f"  [watch] warn: {str(e)[:100]}")
 
 
 # ------------------------------------------------------------------ check (CI)

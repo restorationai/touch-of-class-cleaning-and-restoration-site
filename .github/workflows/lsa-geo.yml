@@ -2,14 +2,17 @@
 # only): every day, per client, compare the LSA campaign's location targets to
 # every area the client told us they cover (onboarding wizard, GBP service
 # area, site city pages, priority areas, site brief, HQ) and file ONE [FLAG]
-# ops note when the uncovered set changes. PER-CLIENT FAN-OUT (LAW 09-19).
-# Adding the areas is `python3 scripts/lsa_geo.py apply --slug X` (or run this
-# workflow with apply=true for one slug).
+# PER-CLIENT FAN-OUT (LAW 09-19). NIGHTLY RUNS APPLY (Santino 2026-09-30:
+# "add it via our system, not manually, overnight, and add a watcher"): the
+# uncovered STRONG areas are added, then read back from Google to verify; a
+# failed verify fails the job (alert email). Broad (wizard-only, established
+# account) areas are never auto-added; they stay in `lsa_geo.py report`.
+# Watcher: silence_watch "lsa-geo" reads ops_kv lsa-geo-runs.
 name: LSA Service Areas
 
 on:
   schedule:
-    - cron: "47 13 * * *"   # 13:47 UTC daily, after the LSA lead review
+    - cron: "37 9 * * *"    # 09:37 UTC = 02:37 PT nightly
   workflow_dispatch:
     inputs:
       only_slug:
@@ -86,7 +89,7 @@ jobs:
           # MCC access rides the narestco agency grant (same as lsa-lead-review)
           mkdir -p clients/narestco
           printf '%s' "$NARESTCO_ADS_TOKEN" > clients/narestco/.ads-token.json
-          if [ "${{ github.event.inputs.apply }}" = "true" ]; then
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event.inputs.apply }}" = "true" ]; then
             python3 scripts/lsa_geo.py apply --slug "${{ matrix.slug }}"
           else
             python3 scripts/lsa_geo.py check --slug "${{ matrix.slug }}"
