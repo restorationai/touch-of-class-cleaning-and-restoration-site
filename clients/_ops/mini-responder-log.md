@@ -34,3 +34,10 @@
 
 ## 2026-09-30 18:18 UTC — 0 fulfilled, 1 routed
 - NEED-20260930-1117-chamber-dv-deactivated [~] human rachelle-elliston: routed to Santino (judgment call)
+
+## 2026-09-30 21:35 UTC — 1 fulfilled, 4 routed
+- NEED-20260930-1225-bbb-tdi-exists [~] human tdi-builders: routed to Claude (judgment call)
+- NEED-20260930-1235-apple-still-not-activated [~] human narestco: routed to Claude (judgment call)
+- NEED-20260930-1235-houzz-dv-existing [~] human rachelle-elliston: routed to Claude (judgment call)
+- NEED-CANARY-202609302059 [x] company-nap narestco: National Restoration Construction | 1530 S Dash Point RD, Federal Way, WA 98003 | REAL phone (206) 883-0333 | https://narestco.com
+- NEED-20260930-1431-bing-session-not-persisted [~] human _ops: routed to Claude (judgment call)
