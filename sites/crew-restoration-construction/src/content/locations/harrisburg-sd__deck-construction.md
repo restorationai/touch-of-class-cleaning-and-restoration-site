@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "2c55039ee5aa1623"
-generated_at: "2026-09-29T22:44:28.091588+00:00"
+generated_at: "2026-09-30T19:28:26.448638+00:00"
 manual_override: false
 internal_links: ["/services/deck-construction/", "/service-areas/harrisburg-sd/", "/service-areas/harrisburg-sd/fire-damage-restoration/", "/service-areas/harrisburg-sd/mold-remediation/", "/service-areas/adrian-mn/deck-construction/", "/service-areas/akron-ia/deck-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harrisburg", "url": "/service-areas/harrisburg-sd/"}, {"name": "Deck Construction"}]

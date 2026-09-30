@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "6706cacf2d2468da"
-generated_at: "2026-09-29T22:44:28.097193+00:00"
+generated_at: "2026-09-30T19:28:26.459206+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/madison-sd/", "/service-areas/madison-sd/fire-damage-restoration/", "/service-areas/madison-sd/mold-remediation/", "/service-areas/adrian-mn/water-leak-detection/", "/service-areas/akron-ia/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Madison", "url": "/service-areas/madison-sd/"}, {"name": "Water Leak Detection"}]

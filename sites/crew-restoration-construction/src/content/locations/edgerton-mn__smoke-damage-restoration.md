@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "ef0f67a506985ff3"
-generated_at: "2026-09-29T22:44:28.199555+00:00"
+generated_at: "2026-09-30T19:28:26.602106+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/edgerton-mn/", "/service-areas/edgerton-mn/fire-damage-restoration/", "/service-areas/edgerton-mn/mold-remediation/", "/service-areas/adrian-mn/smoke-damage-restoration/", "/service-areas/akron-ia/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Edgerton", "url": "/service-areas/edgerton-mn/"}, {"name": "Smoke Damage Restoration"}]

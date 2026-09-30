@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "7c91c0e32a8ba4de"
-generated_at: "2026-09-29T22:44:28.161644+00:00"
+generated_at: "2026-09-30T19:28:26.556165+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/baltic-sd/", "/service-areas/baltic-sd/fire-damage-restoration/", "/service-areas/baltic-sd/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/akron-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baltic", "url": "/service-areas/baltic-sd/"}, {"name": "Industrial Restoration"}]

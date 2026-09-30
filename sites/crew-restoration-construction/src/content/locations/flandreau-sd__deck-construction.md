@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "d0d639b095c54fde"
-generated_at: "2026-09-29T22:44:28.143824+00:00"
+generated_at: "2026-09-30T19:28:26.527395+00:00"
 manual_override: false
 internal_links: ["/services/deck-construction/", "/service-areas/flandreau-sd/", "/service-areas/flandreau-sd/fire-damage-restoration/", "/service-areas/flandreau-sd/mold-remediation/", "/service-areas/adrian-mn/deck-construction/", "/service-areas/akron-ia/deck-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Flandreau", "url": "/service-areas/flandreau-sd/"}, {"name": "Deck Construction"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "8b539fe2e9dcd244"
-generated_at: "2026-09-29T22:44:28.117451+00:00"
+generated_at: "2026-09-30T19:28:26.492177+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/dell-rapids-sd/", "/service-areas/dell-rapids-sd/fire-damage-restoration/", "/service-areas/dell-rapids-sd/mold-remediation/", "/service-areas/adrian-mn/water-heater-flood-cleanup/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dell Rapids", "url": "/service-areas/dell-rapids-sd/"}, {"name": "Water Heater Flood Cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "1a8538977c37a2d1"
-generated_at: "2026-09-29T22:44:28.213400+00:00"
+generated_at: "2026-09-30T19:28:26.626482+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/alton-ia/", "/service-areas/alton-ia/fire-damage-restoration/", "/service-areas/alton-ia/mold-remediation/", "/service-areas/adrian-mn/burst-pipe-repair/", "/service-areas/akron-ia/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alton", "url": "/service-areas/alton-ia/"}, {"name": "Burst Pipe Cleanup and Repair"}]

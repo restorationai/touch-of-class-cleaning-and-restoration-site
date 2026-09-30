@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "918a983062dda011"
-generated_at: "2026-09-29T22:44:28.157738+00:00"
+generated_at: "2026-09-30T19:28:26.550046+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/crooks-sd/", "/service-areas/crooks-sd/fire-damage-restoration/", "/service-areas/crooks-sd/mold-remediation/", "/service-areas/adrian-mn/flood-damage-restoration/", "/service-areas/akron-ia/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Crooks", "url": "/service-areas/crooks-sd/"}, {"name": "Flood Damage Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "707113b035bc08f9"
-generated_at: "2026-09-29T22:44:28.141441+00:00"
+generated_at: "2026-09-30T19:28:26.523410+00:00"
 manual_override: false
 internal_links: ["/services/foundation-installation/", "/service-areas/lennox-sd/", "/service-areas/lennox-sd/fire-damage-restoration/", "/service-areas/lennox-sd/mold-remediation/", "/service-areas/adrian-mn/foundation-installation/", "/service-areas/akron-ia/foundation-installation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lennox", "url": "/service-areas/lennox-sd/"}, {"name": "Foundation Installation"}]

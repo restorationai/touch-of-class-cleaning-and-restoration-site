@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "d4871c99b5285219"
-generated_at: "2026-09-29T22:44:28.185168+00:00"
+generated_at: "2026-09-30T19:28:26.586809+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/elk-point-sd/", "/service-areas/elk-point-sd/fire-damage-restoration/", "/service-areas/elk-point-sd/mold-remediation/", "/service-areas/adrian-mn/burst-pipe-repair/", "/service-areas/akron-ia/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elk Point", "url": "/service-areas/elk-point-sd/"}, {"name": "Burst Pipe Cleanup and Repair"}]

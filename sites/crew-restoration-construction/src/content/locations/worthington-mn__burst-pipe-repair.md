@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "ebc2d116c395e75d"
-generated_at: "2026-09-29T22:44:28.077171+00:00"
+generated_at: "2026-09-30T19:28:26.420040+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/worthington-mn/", "/service-areas/worthington-mn/fire-damage-restoration/", "/service-areas/worthington-mn/mold-remediation/", "/service-areas/adrian-mn/burst-pipe-repair/", "/service-areas/akron-ia/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Worthington", "url": "/service-areas/worthington-mn/"}, {"name": "Burst Pipe Cleanup and Repair"}]

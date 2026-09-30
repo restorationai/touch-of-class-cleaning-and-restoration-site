@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "43725d372ee1e18d"
-generated_at: "2026-09-29T22:44:28.151927+00:00"
+generated_at: "2026-09-30T19:28:26.540696+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/salem-sd/", "/service-areas/salem-sd/fire-damage-restoration/", "/service-areas/salem-sd/mold-remediation/", "/service-areas/adrian-mn/reconstruction/", "/service-areas/akron-ia/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Salem", "url": "/service-areas/salem-sd/"}, {"name": "Reconstruction Services"}]

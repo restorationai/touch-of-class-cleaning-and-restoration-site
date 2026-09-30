@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "454b67de52587a45"
-generated_at: "2026-09-29T22:44:28.159362+00:00"
+generated_at: "2026-09-30T19:28:26.552448+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/crooks-sd/", "/service-areas/crooks-sd/fire-damage-restoration/", "/service-areas/crooks-sd/mold-remediation/", "/service-areas/adrian-mn/water-heater-flood-cleanup/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Crooks", "url": "/service-areas/crooks-sd/"}, {"name": "Water Heater Flood Cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "33118c06feefa7a5"
-generated_at: "2026-09-29T22:44:28.223407+00:00"
+generated_at: "2026-09-30T19:28:26.642450+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/remsen-ia/", "/service-areas/remsen-ia/fire-damage-restoration/", "/service-areas/remsen-ia/mold-remediation/", "/service-areas/adrian-mn/water-heater-flood-cleanup/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Remsen", "url": "/service-areas/remsen-ia/"}, {"name": "Water Heater Flood Cleanup"}]

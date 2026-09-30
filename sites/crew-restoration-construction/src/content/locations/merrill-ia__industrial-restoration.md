@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "e5cf616f77e4cc4c"
-generated_at: "2026-09-29T22:44:28.233540+00:00"
+generated_at: "2026-09-30T19:28:26.651297+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/merrill-ia/", "/service-areas/merrill-ia/fire-damage-restoration/", "/service-areas/merrill-ia/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/akron-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Merrill", "url": "/service-areas/merrill-ia/"}, {"name": "Industrial Restoration"}]

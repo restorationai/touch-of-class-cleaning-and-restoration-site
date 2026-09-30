@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "41cc56f9f0ec9473"
-generated_at: "2026-09-29T22:44:28.213728+00:00"
+generated_at: "2026-09-30T19:28:26.627178+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/alton-ia/", "/service-areas/alton-ia/fire-damage-restoration/", "/service-areas/alton-ia/mold-remediation/", "/service-areas/adrian-mn/commercial-restoration/", "/service-areas/akron-ia/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alton", "url": "/service-areas/alton-ia/"}, {"name": "Commercial Restoration"}]

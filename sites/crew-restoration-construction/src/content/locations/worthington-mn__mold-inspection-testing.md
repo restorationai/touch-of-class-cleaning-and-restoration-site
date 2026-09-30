@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "1877c1b2799ae97c"
-generated_at: "2026-09-29T22:44:28.079147+00:00"
+generated_at: "2026-09-30T19:28:26.423289+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/worthington-mn/", "/service-areas/worthington-mn/fire-damage-restoration/", "/service-areas/worthington-mn/mold-remediation/", "/service-areas/adrian-mn/mold-inspection-testing/", "/service-areas/akron-ia/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Worthington", "url": "/service-areas/worthington-mn/"}, {"name": "Mold Inspection and Testing"}]

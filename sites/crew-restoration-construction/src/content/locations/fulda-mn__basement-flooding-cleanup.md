@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "ab229cd9c3c7a3f0"
-generated_at: "2026-09-29T22:44:28.200244+00:00"
+generated_at: "2026-09-30T19:28:26.603144+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/fulda-mn/", "/service-areas/fulda-mn/fire-damage-restoration/", "/service-areas/fulda-mn/mold-remediation/", "/service-areas/adrian-mn/basement-flooding-cleanup/", "/service-areas/akron-ia/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fulda", "url": "/service-areas/fulda-mn/"}, {"name": "Basement Flooding Cleanup"}]

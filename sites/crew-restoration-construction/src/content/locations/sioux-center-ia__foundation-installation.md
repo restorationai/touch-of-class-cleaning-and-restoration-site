@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "394ed42003749d03"
-generated_at: "2026-09-29T22:44:28.088137+00:00"
+generated_at: "2026-09-30T19:28:26.439287+00:00"
 manual_override: false
 internal_links: ["/services/foundation-installation/", "/service-areas/sioux-center-ia/", "/service-areas/sioux-center-ia/fire-damage-restoration/", "/service-areas/sioux-center-ia/mold-remediation/", "/service-areas/adrian-mn/foundation-installation/", "/service-areas/akron-ia/foundation-installation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sioux Center", "url": "/service-areas/sioux-center-ia/"}, {"name": "Foundation Installation"}]

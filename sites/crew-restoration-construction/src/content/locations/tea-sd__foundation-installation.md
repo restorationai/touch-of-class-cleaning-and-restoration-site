@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "68b46a655ed54c4b"
-generated_at: "2026-09-29T22:44:28.099033+00:00"
+generated_at: "2026-09-30T19:28:26.462258+00:00"
 manual_override: false
 internal_links: ["/services/foundation-installation/", "/service-areas/tea-sd/", "/service-areas/tea-sd/fire-damage-restoration/", "/service-areas/tea-sd/mold-remediation/", "/service-areas/adrian-mn/foundation-installation/", "/service-areas/akron-ia/foundation-installation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tea", "url": "/service-areas/tea-sd/"}, {"name": "Foundation Installation"}]

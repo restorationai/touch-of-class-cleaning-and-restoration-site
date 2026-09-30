@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "49ea211d8e623210"
-generated_at: "2026-09-29T22:44:28.180122+00:00"
+generated_at: "2026-09-30T19:28:26.577150+00:00"
 manual_override: false
 internal_links: ["/services/excavations/", "/service-areas/beresford-sd/", "/service-areas/beresford-sd/fire-damage-restoration/", "/service-areas/beresford-sd/mold-remediation/", "/service-areas/adrian-mn/excavations/", "/service-areas/akron-ia/excavations/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Beresford", "url": "/service-areas/beresford-sd/"}, {"name": "Excavations"}]

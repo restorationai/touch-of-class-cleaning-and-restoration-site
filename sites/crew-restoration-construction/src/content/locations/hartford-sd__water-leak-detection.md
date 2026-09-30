@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "b6677d0050448a9e"
-generated_at: "2026-09-29T22:44:28.121042+00:00"
+generated_at: "2026-09-30T19:28:26.498077+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/hartford-sd/", "/service-areas/hartford-sd/fire-damage-restoration/", "/service-areas/hartford-sd/mold-remediation/", "/service-areas/adrian-mn/water-leak-detection/", "/service-areas/akron-ia/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hartford", "url": "/service-areas/hartford-sd/"}, {"name": "Water Leak Detection"}]

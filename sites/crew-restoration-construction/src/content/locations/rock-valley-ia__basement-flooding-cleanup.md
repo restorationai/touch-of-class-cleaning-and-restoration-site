@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "e60f28820fec4119"
-generated_at: "2026-09-29T22:44:28.110975+00:00"
+generated_at: "2026-09-30T19:28:26.481832+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/rock-valley-ia/", "/service-areas/rock-valley-ia/fire-damage-restoration/", "/service-areas/rock-valley-ia/mold-remediation/", "/service-areas/adrian-mn/basement-flooding-cleanup/", "/service-areas/akron-ia/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rock Valley", "url": "/service-areas/rock-valley-ia/"}, {"name": "Basement Flooding Cleanup"}]

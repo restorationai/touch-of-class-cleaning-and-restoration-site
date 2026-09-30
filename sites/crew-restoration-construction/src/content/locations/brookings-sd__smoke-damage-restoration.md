@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "1784191e0929c3d3"
-generated_at: "2026-09-29T22:44:28.073062+00:00"
+generated_at: "2026-09-30T19:28:26.413052+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/brookings-sd/", "/service-areas/brookings-sd/fire-damage-restoration/", "/service-areas/brookings-sd/mold-remediation/", "/service-areas/adrian-mn/smoke-damage-restoration/", "/service-areas/akron-ia/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brookings", "url": "/service-areas/brookings-sd/"}, {"name": "Smoke Damage Restoration"}]

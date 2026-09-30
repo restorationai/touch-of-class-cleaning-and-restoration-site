@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "2310b7611614c8f8"
-generated_at: "2026-09-29T22:44:28.156102+00:00"
+generated_at: "2026-09-30T19:28:26.547856+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/crooks-sd/", "/service-areas/crooks-sd/fire-damage-restoration/", "/service-areas/crooks-sd/mold-remediation/", "/service-areas/adrian-mn/burst-pipe-repair/", "/service-areas/akron-ia/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Crooks", "url": "/service-areas/crooks-sd/"}, {"name": "Burst Pipe Cleanup and Repair"}]

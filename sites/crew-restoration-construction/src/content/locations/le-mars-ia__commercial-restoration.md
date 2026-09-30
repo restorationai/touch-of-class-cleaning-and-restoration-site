@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "ca7fa2ee7219da0c"
-generated_at: "2026-09-29T22:44:28.083919+00:00"
+generated_at: "2026-09-30T19:28:26.431925+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/le-mars-ia/", "/service-areas/le-mars-ia/fire-damage-restoration/", "/service-areas/le-mars-ia/mold-remediation/", "/service-areas/adrian-mn/commercial-restoration/", "/service-areas/akron-ia/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Le Mars", "url": "/service-areas/le-mars-ia/"}, {"name": "Commercial Restoration"}]

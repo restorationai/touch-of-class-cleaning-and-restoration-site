@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "aa4faf72fe7d1d05"
-generated_at: "2026-09-29T22:44:28.163006+00:00"
+generated_at: "2026-09-30T19:28:26.558166+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/baltic-sd/", "/service-areas/baltic-sd/fire-damage-restoration/", "/service-areas/baltic-sd/mold-remediation/", "/service-areas/adrian-mn/water-leak-detection/", "/service-areas/akron-ia/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baltic", "url": "/service-areas/baltic-sd/"}, {"name": "Water Leak Detection"}]

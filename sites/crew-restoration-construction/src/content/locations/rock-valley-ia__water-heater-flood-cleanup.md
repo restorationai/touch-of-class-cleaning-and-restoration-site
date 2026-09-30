@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "015f9ad54f587c81"
-generated_at: "2026-09-29T22:44:28.113510+00:00"
+generated_at: "2026-09-30T19:28:26.486611+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/rock-valley-ia/", "/service-areas/rock-valley-ia/fire-damage-restoration/", "/service-areas/rock-valley-ia/mold-remediation/", "/service-areas/adrian-mn/water-heater-flood-cleanup/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rock Valley", "url": "/service-areas/rock-valley-ia/"}, {"name": "Water Heater Flood Cleanup"}]

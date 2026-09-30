@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "b2d3ccb382b8f2e9"
-generated_at: "2026-09-29T22:44:28.097777+00:00"
+generated_at: "2026-09-30T19:28:26.459894+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/tea-sd/", "/service-areas/tea-sd/fire-damage-restoration/", "/service-areas/tea-sd/mold-remediation/", "/service-areas/adrian-mn/burst-pipe-repair/", "/service-areas/akron-ia/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tea", "url": "/service-areas/tea-sd/"}, {"name": "Burst Pipe Cleanup and Repair"}]

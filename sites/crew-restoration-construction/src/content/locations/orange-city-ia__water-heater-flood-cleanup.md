@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "d6dc40d349929826"
-generated_at: "2026-09-29T22:44:28.102932+00:00"
+generated_at: "2026-09-30T19:28:26.470061+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/orange-city-ia/", "/service-areas/orange-city-ia/fire-damage-restoration/", "/service-areas/orange-city-ia/mold-remediation/", "/service-areas/adrian-mn/water-heater-flood-cleanup/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Orange City", "url": "/service-areas/orange-city-ia/"}, {"name": "Water Heater Flood Cleanup"}]

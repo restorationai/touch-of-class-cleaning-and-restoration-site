@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "a45b3e69dadc56f9"
-generated_at: "2026-09-29T22:44:28.099196+00:00"
+generated_at: "2026-09-30T19:28:26.462565+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/tea-sd/", "/service-areas/tea-sd/fire-damage-restoration/", "/service-areas/tea-sd/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/akron-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tea", "url": "/service-areas/tea-sd/"}, {"name": "Industrial Restoration"}]

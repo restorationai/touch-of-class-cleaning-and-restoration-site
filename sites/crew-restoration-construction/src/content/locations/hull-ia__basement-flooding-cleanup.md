@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "e4c3f1e08a35a6b1"
-generated_at: "2026-09-29T22:44:28.210228+00:00"
+generated_at: "2026-09-30T19:28:26.620242+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/hull-ia/", "/service-areas/hull-ia/fire-damage-restoration/", "/service-areas/hull-ia/mold-remediation/", "/service-areas/adrian-mn/basement-flooding-cleanup/", "/service-areas/akron-ia/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hull", "url": "/service-areas/hull-ia/"}, {"name": "Basement Flooding Cleanup"}]

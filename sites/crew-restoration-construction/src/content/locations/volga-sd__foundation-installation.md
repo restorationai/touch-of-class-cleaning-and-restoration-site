@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "f991423c4c289a51"
-generated_at: "2026-09-29T22:44:28.177284+00:00"
+generated_at: "2026-09-30T19:28:26.572353+00:00"
 manual_override: false
 internal_links: ["/services/foundation-installation/", "/service-areas/volga-sd/", "/service-areas/volga-sd/fire-damage-restoration/", "/service-areas/volga-sd/mold-remediation/", "/service-areas/adrian-mn/foundation-installation/", "/service-areas/akron-ia/foundation-installation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Volga", "url": "/service-areas/volga-sd/"}, {"name": "Foundation Installation"}]

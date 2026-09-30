@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "7dd0bb12936729d5"
-generated_at: "2026-09-29T22:44:28.230490+00:00"
+generated_at: "2026-09-30T19:28:26.647732+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/hinton-ia/", "/service-areas/hinton-ia/fire-damage-restoration/", "/service-areas/hinton-ia/mold-remediation/", "/service-areas/adrian-mn/water-heater-flood-cleanup/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hinton", "url": "/service-areas/hinton-ia/"}, {"name": "Water Heater Flood Cleanup"}]

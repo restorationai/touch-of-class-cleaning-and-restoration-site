@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "4c1ac54ab59fb3b6"
-generated_at: "2026-09-29T22:44:28.169047+00:00"
+generated_at: "2026-09-30T19:28:26.566079+00:00"
 manual_override: false
 internal_links: ["/services/excavations/", "/service-areas/worthing-sd/", "/service-areas/worthing-sd/fire-damage-restoration/", "/service-areas/worthing-sd/mold-remediation/", "/service-areas/adrian-mn/excavations/", "/service-areas/akron-ia/excavations/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Worthing", "url": "/service-areas/worthing-sd/"}, {"name": "Excavations"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "825d83a84cd7907c"
-generated_at: "2026-09-29T22:44:28.199716+00:00"
+generated_at: "2026-09-30T19:28:26.602458+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/edgerton-mn/", "/service-areas/edgerton-mn/fire-damage-restoration/", "/service-areas/edgerton-mn/mold-remediation/", "/service-areas/adrian-mn/water-heater-flood-cleanup/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Edgerton", "url": "/service-areas/edgerton-mn/"}, {"name": "Water Heater Flood Cleanup"}]

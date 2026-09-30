@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "b6bb3365730f6f13"
-generated_at: "2026-09-29T22:44:28.171608+00:00"
+generated_at: "2026-09-30T19:28:26.569977+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/volga-sd/", "/service-areas/volga-sd/fire-damage-restoration/", "/service-areas/volga-sd/mold-remediation/", "/service-areas/adrian-mn/burst-pipe-repair/", "/service-areas/akron-ia/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Volga", "url": "/service-areas/volga-sd/"}, {"name": "Burst Pipe Cleanup and Repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "012b78bd9789aa5d"
-generated_at: "2026-09-29T22:44:28.128203+00:00"
+generated_at: "2026-09-30T19:28:26.502335+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/canton-sd/", "/service-areas/canton-sd/fire-damage-restoration/", "/service-areas/canton-sd/mold-remediation/", "/service-areas/adrian-mn/mold-inspection-testing/", "/service-areas/akron-ia/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Canton", "url": "/service-areas/canton-sd/"}, {"name": "Mold Inspection and Testing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "6e4c616490661b0c"
-generated_at: "2026-09-29T22:44:28.135313+00:00"
+generated_at: "2026-09-30T19:28:26.512729+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/sibley-ia/", "/service-areas/sibley-ia/fire-damage-restoration/", "/service-areas/sibley-ia/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/akron-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sibley", "url": "/service-areas/sibley-ia/"}, {"name": "Industrial Restoration"}]

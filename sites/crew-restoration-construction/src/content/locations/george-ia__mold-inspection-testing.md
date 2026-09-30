@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "f4d93351ef38034b"
-generated_at: "2026-09-29T22:44:28.205911+00:00"
+generated_at: "2026-09-30T19:28:26.612638+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/george-ia/", "/service-areas/george-ia/fire-damage-restoration/", "/service-areas/george-ia/mold-remediation/", "/service-areas/adrian-mn/mold-inspection-testing/", "/service-areas/akron-ia/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "George", "url": "/service-areas/george-ia/"}, {"name": "Mold Inspection and Testing"}]

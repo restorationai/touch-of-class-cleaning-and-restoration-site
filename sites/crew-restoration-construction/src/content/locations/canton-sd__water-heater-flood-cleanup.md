@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "901c2482c1088d50"
-generated_at: "2026-09-29T22:44:28.128766+00:00"
+generated_at: "2026-09-30T19:28:26.503474+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/canton-sd/", "/service-areas/canton-sd/fire-damage-restoration/", "/service-areas/canton-sd/mold-remediation/", "/service-areas/adrian-mn/water-heater-flood-cleanup/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Canton", "url": "/service-areas/canton-sd/"}, {"name": "Water Heater Flood Cleanup"}]

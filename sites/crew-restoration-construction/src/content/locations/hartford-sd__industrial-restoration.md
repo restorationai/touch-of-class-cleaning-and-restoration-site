@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "4c1b96cd753603be"
-generated_at: "2026-09-29T22:44:28.119747+00:00"
+generated_at: "2026-09-30T19:28:26.495917+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/hartford-sd/", "/service-areas/hartford-sd/fire-damage-restoration/", "/service-areas/hartford-sd/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/akron-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hartford", "url": "/service-areas/hartford-sd/"}, {"name": "Industrial Restoration"}]

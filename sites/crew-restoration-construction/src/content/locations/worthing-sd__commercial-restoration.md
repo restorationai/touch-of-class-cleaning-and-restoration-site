@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "92737d65589d4d15"
-generated_at: "2026-09-29T22:44:28.168323+00:00"
+generated_at: "2026-09-30T19:28:26.565007+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/worthing-sd/", "/service-areas/worthing-sd/fire-damage-restoration/", "/service-areas/worthing-sd/mold-remediation/", "/service-areas/adrian-mn/commercial-restoration/", "/service-areas/akron-ia/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Worthing", "url": "/service-areas/worthing-sd/"}, {"name": "Commercial Restoration"}]

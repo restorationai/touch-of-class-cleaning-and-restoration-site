@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "b79aee94dd443994"
-generated_at: "2026-09-29T22:44:28.074282+00:00"
+generated_at: "2026-09-30T19:28:26.415042+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/yankton-sd/", "/service-areas/yankton-sd/fire-damage-restoration/", "/service-areas/yankton-sd/mold-remediation/", "/service-areas/adrian-mn/commercial-restoration/", "/service-areas/akron-ia/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Yankton", "url": "/service-areas/yankton-sd/"}, {"name": "Commercial Restoration"}]

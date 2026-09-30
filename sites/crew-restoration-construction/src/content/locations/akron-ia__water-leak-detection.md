@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "5915f76df2527c50"
-generated_at: "2026-09-29T22:44:28.219693+00:00"
+generated_at: "2026-09-30T19:28:26.637546+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/akron-ia/", "/service-areas/akron-ia/fire-damage-restoration/", "/service-areas/akron-ia/mold-remediation/", "/service-areas/adrian-mn/water-leak-detection/", "/service-areas/alton-ia/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Akron", "url": "/service-areas/akron-ia/"}, {"name": "Water Leak Detection"}]

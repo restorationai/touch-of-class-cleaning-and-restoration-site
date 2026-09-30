@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "630d8c52d4ce496a"
-generated_at: "2026-09-29T22:44:28.127726+00:00"
+generated_at: "2026-09-30T19:28:26.501656+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/canton-sd/", "/service-areas/canton-sd/fire-damage-restoration/", "/service-areas/canton-sd/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/akron-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Canton", "url": "/service-areas/canton-sd/"}, {"name": "Industrial Restoration"}]

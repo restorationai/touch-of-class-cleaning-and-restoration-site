@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "281e71668a56c430"
-generated_at: "2026-09-29T22:44:28.139230+00:00"
+generated_at: "2026-09-30T19:28:26.519118+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/rock-rapids-ia/", "/service-areas/rock-rapids-ia/fire-damage-restoration/", "/service-areas/rock-rapids-ia/mold-remediation/", "/service-areas/adrian-mn/reconstruction/", "/service-areas/akron-ia/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rock Rapids", "url": "/service-areas/rock-rapids-ia/"}, {"name": "Reconstruction Services"}]

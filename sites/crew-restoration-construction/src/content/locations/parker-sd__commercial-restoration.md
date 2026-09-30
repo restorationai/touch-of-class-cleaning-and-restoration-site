@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "caa0723e82fc86dc"
-generated_at: "2026-09-29T22:44:28.146634+00:00"
+generated_at: "2026-09-30T19:28:26.532365+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/parker-sd/", "/service-areas/parker-sd/fire-damage-restoration/", "/service-areas/parker-sd/mold-remediation/", "/service-areas/adrian-mn/commercial-restoration/", "/service-areas/akron-ia/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Parker", "url": "/service-areas/parker-sd/"}, {"name": "Commercial Restoration"}]

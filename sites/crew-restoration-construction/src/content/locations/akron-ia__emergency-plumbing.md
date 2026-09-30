@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "09e86d271aa65caf"
-generated_at: "2026-09-29T22:44:28.217674+00:00"
+generated_at: "2026-09-30T19:28:26.633888+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/akron-ia/", "/service-areas/akron-ia/fire-damage-restoration/", "/service-areas/akron-ia/mold-remediation/", "/service-areas/adrian-mn/emergency-plumbing/", "/service-areas/alton-ia/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Akron", "url": "/service-areas/akron-ia/"}, {"name": "Emergency Plumbing"}]

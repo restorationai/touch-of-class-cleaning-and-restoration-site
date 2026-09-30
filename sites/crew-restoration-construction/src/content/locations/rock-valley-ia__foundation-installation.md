@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "8da93678fc7d42b9"
-generated_at: "2026-09-29T22:44:28.112510+00:00"
+generated_at: "2026-09-30T19:28:26.484438+00:00"
 manual_override: false
 internal_links: ["/services/foundation-installation/", "/service-areas/rock-valley-ia/", "/service-areas/rock-valley-ia/fire-damage-restoration/", "/service-areas/rock-valley-ia/mold-remediation/", "/service-areas/adrian-mn/foundation-installation/", "/service-areas/akron-ia/foundation-installation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rock Valley", "url": "/service-areas/rock-valley-ia/"}, {"name": "Foundation Installation"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "6bf24555f12c1bad"
-generated_at: "2026-09-29T22:44:28.233379+00:00"
+generated_at: "2026-09-30T19:28:26.650994+00:00"
 manual_override: false
 internal_links: ["/services/foundation-installation/", "/service-areas/merrill-ia/", "/service-areas/merrill-ia/fire-damage-restoration/", "/service-areas/merrill-ia/mold-remediation/", "/service-areas/adrian-mn/foundation-installation/", "/service-areas/akron-ia/foundation-installation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Merrill", "url": "/service-areas/merrill-ia/"}, {"name": "Foundation Installation"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "971f679bc44a674d"
-generated_at: "2026-09-29T22:44:28.132648+00:00"
+generated_at: "2026-09-30T19:28:26.510402+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/sibley-ia/", "/service-areas/sibley-ia/fire-damage-restoration/", "/service-areas/sibley-ia/mold-remediation/", "/service-areas/adrian-mn/ceiling-water-damage-repair/", "/service-areas/akron-ia/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sibley", "url": "/service-areas/sibley-ia/"}, {"name": "Ceiling Water Damage Repair"}]

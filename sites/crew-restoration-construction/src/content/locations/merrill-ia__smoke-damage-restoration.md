@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "a8865509af4fee10"
-generated_at: "2026-09-29T22:44:28.234337+00:00"
+generated_at: "2026-09-30T19:28:26.652783+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/merrill-ia/", "/service-areas/merrill-ia/fire-damage-restoration/", "/service-areas/merrill-ia/mold-remediation/", "/service-areas/adrian-mn/smoke-damage-restoration/", "/service-areas/akron-ia/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Merrill", "url": "/service-areas/merrill-ia/"}, {"name": "Smoke Damage Restoration"}]

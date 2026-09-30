@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "294b7312f88469f1"
-generated_at: "2026-09-29T22:44:28.195764+00:00"
+generated_at: "2026-09-30T19:28:26.594702+00:00"
 manual_override: false
 internal_links: ["/services/foundation-installation/", "/service-areas/adrian-mn/", "/service-areas/adrian-mn/fire-damage-restoration/", "/service-areas/adrian-mn/mold-remediation/", "/service-areas/akron-ia/foundation-installation/", "/service-areas/alton-ia/foundation-installation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Adrian", "url": "/service-areas/adrian-mn/"}, {"name": "Foundation Installation"}]

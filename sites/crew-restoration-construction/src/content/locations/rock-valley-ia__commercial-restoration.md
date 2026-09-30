@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "344c0366c0239fc6"
-generated_at: "2026-09-29T22:44:28.111489+00:00"
+generated_at: "2026-09-30T19:28:26.482775+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/rock-valley-ia/", "/service-areas/rock-valley-ia/fire-damage-restoration/", "/service-areas/rock-valley-ia/mold-remediation/", "/service-areas/adrian-mn/commercial-restoration/", "/service-areas/akron-ia/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rock Valley", "url": "/service-areas/rock-valley-ia/"}, {"name": "Commercial Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "493124d79ec5a9d6"
-generated_at: "2026-09-29T22:44:28.086647+00:00"
+generated_at: "2026-09-30T19:28:26.437028+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/sioux-center-ia/", "/service-areas/sioux-center-ia/fire-damage-restoration/", "/service-areas/sioux-center-ia/mold-remediation/", "/service-areas/adrian-mn/burst-pipe-repair/", "/service-areas/akron-ia/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sioux Center", "url": "/service-areas/sioux-center-ia/"}, {"name": "Burst Pipe Cleanup and Repair"}]

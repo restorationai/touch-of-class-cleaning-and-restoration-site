@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "7dffe3a5cddc47f6"
-generated_at: "2026-09-29T22:44:28.164224+00:00"
+generated_at: "2026-09-30T19:28:26.559372+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/garretson-sd/", "/service-areas/garretson-sd/fire-damage-restoration/", "/service-areas/garretson-sd/mold-remediation/", "/service-areas/adrian-mn/commercial-restoration/", "/service-areas/akron-ia/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Garretson", "url": "/service-areas/garretson-sd/"}, {"name": "Commercial Restoration"}]

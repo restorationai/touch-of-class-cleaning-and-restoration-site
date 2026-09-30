@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "84f5400965ce5230"
-generated_at: "2026-09-29T22:44:28.209186+00:00"
+generated_at: "2026-09-30T19:28:26.618373+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/hawarden-ia/", "/service-areas/hawarden-ia/fire-damage-restoration/", "/service-areas/hawarden-ia/mold-remediation/", "/service-areas/adrian-mn/mold-inspection-testing/", "/service-areas/akron-ia/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hawarden", "url": "/service-areas/hawarden-ia/"}, {"name": "Mold Inspection and Testing"}]

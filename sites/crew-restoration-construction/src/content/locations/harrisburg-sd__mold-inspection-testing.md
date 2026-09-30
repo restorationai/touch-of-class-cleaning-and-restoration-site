@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "65de2320788c81b8"
-generated_at: "2026-09-29T22:44:28.093540+00:00"
+generated_at: "2026-09-30T19:28:26.451088+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/harrisburg-sd/", "/service-areas/harrisburg-sd/fire-damage-restoration/", "/service-areas/harrisburg-sd/mold-remediation/", "/service-areas/adrian-mn/mold-inspection-testing/", "/service-areas/akron-ia/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harrisburg", "url": "/service-areas/harrisburg-sd/"}, {"name": "Mold Inspection and Testing"}]

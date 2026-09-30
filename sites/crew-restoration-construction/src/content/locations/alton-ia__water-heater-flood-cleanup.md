@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "751b9f030a024908"
-generated_at: "2026-09-29T22:44:28.216061+00:00"
+generated_at: "2026-09-30T19:28:26.631461+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/alton-ia/", "/service-areas/alton-ia/fire-damage-restoration/", "/service-areas/alton-ia/mold-remediation/", "/service-areas/adrian-mn/water-heater-flood-cleanup/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alton", "url": "/service-areas/alton-ia/"}, {"name": "Water Heater Flood Cleanup"}]

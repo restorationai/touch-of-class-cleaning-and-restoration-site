@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "35a49308661771e3"
-generated_at: "2026-09-29T22:44:28.211713+00:00"
+generated_at: "2026-09-30T19:28:26.623262+00:00"
 manual_override: false
 internal_links: ["/services/foundation-installation/", "/service-areas/hull-ia/", "/service-areas/hull-ia/fire-damage-restoration/", "/service-areas/hull-ia/mold-remediation/", "/service-areas/adrian-mn/foundation-installation/", "/service-areas/akron-ia/foundation-installation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hull", "url": "/service-areas/hull-ia/"}, {"name": "Foundation Installation"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "ba4e415b03f745b9"
-generated_at: "2026-09-29T22:44:28.215316+00:00"
+generated_at: "2026-09-30T19:28:26.630238+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/alton-ia/", "/service-areas/alton-ia/fire-damage-restoration/", "/service-areas/alton-ia/mold-remediation/", "/service-areas/adrian-mn/mold-inspection-testing/", "/service-areas/akron-ia/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alton", "url": "/service-areas/alton-ia/"}, {"name": "Mold Inspection and Testing"}]

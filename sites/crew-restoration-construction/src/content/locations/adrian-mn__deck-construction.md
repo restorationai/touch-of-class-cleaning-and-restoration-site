@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "e431959b040b4f10"
-generated_at: "2026-09-29T22:44:28.194934+00:00"
+generated_at: "2026-09-30T19:28:26.593295+00:00"
 manual_override: false
 internal_links: ["/services/deck-construction/", "/service-areas/adrian-mn/", "/service-areas/adrian-mn/fire-damage-restoration/", "/service-areas/adrian-mn/mold-remediation/", "/service-areas/akron-ia/deck-construction/", "/service-areas/alton-ia/deck-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Adrian", "url": "/service-areas/adrian-mn/"}, {"name": "Deck Construction"}]

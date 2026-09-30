@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "6d4e6d41cb4fcc46"
-generated_at: "2026-09-29T22:44:28.087139+00:00"
+generated_at: "2026-09-30T19:28:26.437950+00:00"
 manual_override: false
 internal_links: ["/services/deck-construction/", "/service-areas/sioux-center-ia/", "/service-areas/sioux-center-ia/fire-damage-restoration/", "/service-areas/sioux-center-ia/mold-remediation/", "/service-areas/adrian-mn/deck-construction/", "/service-areas/akron-ia/deck-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sioux Center", "url": "/service-areas/sioux-center-ia/"}, {"name": "Deck Construction"}]

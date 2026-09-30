@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "58322c5cb8638cc0"
-generated_at: "2026-09-29T22:44:28.183328+00:00"
+generated_at: "2026-09-30T19:28:26.583542+00:00"
 manual_override: false
 internal_links: ["/services/foundation-installation/", "/service-areas/dakota-dunes-sd/", "/service-areas/dakota-dunes-sd/fire-damage-restoration/", "/service-areas/dakota-dunes-sd/mold-remediation/", "/service-areas/adrian-mn/foundation-installation/", "/service-areas/akron-ia/foundation-installation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dakota Dunes", "url": "/service-areas/dakota-dunes-sd/"}, {"name": "Foundation Installation"}]

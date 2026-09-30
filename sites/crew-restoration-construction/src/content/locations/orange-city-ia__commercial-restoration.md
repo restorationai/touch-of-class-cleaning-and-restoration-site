@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "e46a22ca0e770ea7"
-generated_at: "2026-09-29T22:44:28.100927+00:00"
+generated_at: "2026-09-30T19:28:26.466003+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/orange-city-ia/", "/service-areas/orange-city-ia/fire-damage-restoration/", "/service-areas/orange-city-ia/mold-remediation/", "/service-areas/adrian-mn/commercial-restoration/", "/service-areas/akron-ia/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Orange City", "url": "/service-areas/orange-city-ia/"}, {"name": "Commercial Restoration"}]

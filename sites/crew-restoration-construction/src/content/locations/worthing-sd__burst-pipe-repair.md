@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "f382bda5be244d48"
-generated_at: "2026-09-29T22:44:28.167906+00:00"
+generated_at: "2026-09-30T19:28:26.564405+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/worthing-sd/", "/service-areas/worthing-sd/fire-damage-restoration/", "/service-areas/worthing-sd/mold-remediation/", "/service-areas/adrian-mn/burst-pipe-repair/", "/service-areas/akron-ia/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Worthing", "url": "/service-areas/worthing-sd/"}, {"name": "Burst Pipe Cleanup and Repair"}]

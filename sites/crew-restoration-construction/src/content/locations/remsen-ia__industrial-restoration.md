@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "422979b87fe23ce1"
-generated_at: "2026-09-29T22:44:28.221963+00:00"
+generated_at: "2026-09-30T19:28:26.640724+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/remsen-ia/", "/service-areas/remsen-ia/fire-damage-restoration/", "/service-areas/remsen-ia/mold-remediation/", "/service-areas/adrian-mn/industrial-restoration/", "/service-areas/akron-ia/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Remsen", "url": "/service-areas/remsen-ia/"}, {"name": "Industrial Restoration"}]

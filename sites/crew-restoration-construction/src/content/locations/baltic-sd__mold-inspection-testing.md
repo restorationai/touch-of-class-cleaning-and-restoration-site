@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "ef755b18ae24699a"
-generated_at: "2026-09-29T22:44:28.161972+00:00"
+generated_at: "2026-09-30T19:28:26.556712+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/baltic-sd/", "/service-areas/baltic-sd/fire-damage-restoration/", "/service-areas/baltic-sd/mold-remediation/", "/service-areas/adrian-mn/mold-inspection-testing/", "/service-areas/akron-ia/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baltic", "url": "/service-areas/baltic-sd/"}, {"name": "Mold Inspection and Testing"}]

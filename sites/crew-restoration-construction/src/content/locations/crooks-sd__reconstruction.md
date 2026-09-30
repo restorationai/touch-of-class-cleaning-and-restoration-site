@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "42ee78a040de6ee9"
-generated_at: "2026-09-29T22:44:28.158868+00:00"
+generated_at: "2026-09-30T19:28:26.551673+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/crooks-sd/", "/service-areas/crooks-sd/fire-damage-restoration/", "/service-areas/crooks-sd/mold-remediation/", "/service-areas/adrian-mn/reconstruction/", "/service-areas/akron-ia/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Crooks", "url": "/service-areas/crooks-sd/"}, {"name": "Reconstruction Services"}]

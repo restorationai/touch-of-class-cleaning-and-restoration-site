@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "486c12378d5f16b6"
-generated_at: "2026-09-29T22:44:28.181419+00:00"
+generated_at: "2026-09-30T19:28:26.580067+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/beresford-sd/", "/service-areas/beresford-sd/fire-damage-restoration/", "/service-areas/beresford-sd/mold-remediation/", "/service-areas/adrian-mn/water-heater-flood-cleanup/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Beresford", "url": "/service-areas/beresford-sd/"}, {"name": "Water Heater Flood Cleanup"}]

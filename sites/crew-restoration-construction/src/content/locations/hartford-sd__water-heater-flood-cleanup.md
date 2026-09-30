@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "14fd1c13460261ae"
-generated_at: "2026-09-29T22:44:28.120832+00:00"
+generated_at: "2026-09-30T19:28:26.497805+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/hartford-sd/", "/service-areas/hartford-sd/fire-damage-restoration/", "/service-areas/hartford-sd/mold-remediation/", "/service-areas/adrian-mn/water-heater-flood-cleanup/", "/service-areas/akron-ia/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hartford", "url": "/service-areas/hartford-sd/"}, {"name": "Water Heater Flood Cleanup"}]
