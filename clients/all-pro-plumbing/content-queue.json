@@ -722,7 +722,7 @@
     },
     {
       "id": "2026-08-26-plumbing-contractor-vs-plumber",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-26T13:45:00Z",
       "written_at": null,
       "post_url": null,
@@ -757,8 +757,7 @@
         "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
       ],
       "notes": "6,600/mo at KD 12, uncovered. Scope-and-permits angle, deliberately kept off the license-verification angle in the sibling 'licensed plumber' post: apprentice/journeyman/master tiers, what a contracting entity carries that an individual tech does not, and a plain table of Kern County job types that need a permit and inspection versus same-day handyman-scale fixes. Absorbs the 'plumber vs handyman' cluster (20/mo but constant in AI answers). LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup.",
-      "source": "rank-ai-keyword-researcher",
-      "banked_at": "2026-09-21T22:24:17.174371+00:00"
+      "source": "rank-ai-keyword-researcher"
     },
     {
       "id": "2026-09-21-what-to-do-if-toilet-is-overflowing",
