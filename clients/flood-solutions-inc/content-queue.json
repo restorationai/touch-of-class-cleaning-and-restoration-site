@@ -505,7 +505,7 @@
     },
     {
       "id": "2026-09-21-sump-pump-failure-insurance-macomb",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-21T16:50:00Z",
       "written_at": "2026-10-01T22:28:49Z",
       "post_url": "https://floodsolutionsinc.com/blog/does-homeowners-insurance-cover-sump-pump-failure-macomb/",
@@ -548,7 +548,8 @@
           "context": "cumentation protocols aligned with the [IICRC S500 standard](https://www.iicrc.org/pa",
           "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
         }
-      ]
+      ],
+      "published_verified_at": "2026-10-01T22:30:25Z"
     },
     {
       "id": "2026-09-21-what-causes-basement-flooding-michigan",
