@@ -103,6 +103,23 @@ jobs:
           # the ops run.
           python3 scripts/location_checklist_sync.py || true
 
+      - name: City-page gate refresh (Santino 2026-10-01)
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ANTHROPIC_API_KEY:          ${{ secrets.ANTHROPIC_API_KEY }}
+          DATAFORSEO_USERNAME:        ${{ secrets.DATAFORSEO_USERNAME }}
+          DATAFORSEO_PASSWORD:        ${{ secrets.DATAFORSEO_PASSWORD }}
+        run: |
+          # CITY PAGES MUST MAKE SENSE: re-derive each client's offered
+          # services (truth table + GBP in their own words) and decide any
+          # new city x service combo (DataForSEO demand + one Claude
+          # plausibility pass per site) BEFORE the ripple/parity steps
+          # re-plan, so every plan run reads stored decisions and a failed
+          # combo is never recreated. Plumbing gate decisions refresh too.
+          timeout 1500 python3 scripts/city_page_gate.py refresh --all || true
+          python3 scripts/plumbing_gate.py || true
+
       - name: LSA auto-detection (queue #5, 2026-07-31)
         env:
           SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}

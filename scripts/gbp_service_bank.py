@@ -56,10 +56,15 @@ def client_capabilities(slug: str, cid: str) -> tuple[set, set, bool]:
         caps |= set(pi.get("services") or [])
         lic = " ".join(str(x) for x in (pi.get("brand") or {}).get(
             "license_numbers", []) or [])
-    if rec_p.exists():
-        rec = json.loads(rec_p.read_text())
-        lt = json.dumps(rec.get("licenses") or rec.get("brand", {})).lower()
-        plumbing_ok = "plumb" in lt
+    # Plumbing family: the ONE plumbing gate (Santino 2026-10-01,
+    # scripts/plumbing_gate.py): licensed plumber, or a plumbing name /
+    # DBA that is confirmed. (Was a loose "plumb" substring match on the
+    # client record, which a business NAME alone could satisfy.)
+    try:
+        import plumbing_gate
+        plumbing_ok = plumbing_gate.allowed(slug)
+    except Exception:  # noqa: BLE001 -- unknown = closed
+        plumbing_ok = False
     prof = (_sb("GET", f"/rest/v1/marketing_gbp_profiles?company_id=eq.{cid}"
                 "&select=services") or [{}])[0]
     on_gbp = {_norm(str(s)) for s in (prof.get("services") or [])}

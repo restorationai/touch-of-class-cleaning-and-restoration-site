@@ -412,10 +412,19 @@ def page_services(slug: str) -> dict[str, list[str]]:
     pages = service_pages(slug)
     out: dict[str, list[str]] = {}
     seen: dict[str, set] = {}
+    import plumbing_gate
+    plumbing_ok = None
     for label, e in load_map(slug).get("gbp_services", {}).items():
         page = e.get("page")
         if e.get("verdict") != "mapped" or page not in pages:
             continue
+        if plumbing_gate.is_plumbing_service(label) or e.get("source") == "plumbing-gate":
+            # plumbing gate (10-01): no "plumbing" wording on a site that has
+            # not confirmed its plumbing name / DBA / license
+            if plumbing_ok is None:
+                plumbing_ok = plumbing_gate.allowed(slug)
+            if not plumbing_ok:
+                continue
         name = _customer_label(label, truth)
         key = _list_key(name)
         if not name or not key:

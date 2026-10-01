@@ -1723,6 +1723,17 @@ def cmd_render(args) -> int:
             else:
                 filtered.append(p)
         pages = filtered
+    # Never pay for a page with no scaffolded file (2026-10-01): the API call
+    # used to run first and update_content_md then died on the missing file.
+    # A planned-but-unscaffolded page waits for add-pages (the city-page gate
+    # prunes placeholders the plan may later re-admit).
+    _missing = [p for p in pages if not (site_dir / "src" / "content"
+                / ARCHETYPE_TO_COLLECTION[p["archetype"]][0]
+                / f"{derive_filename(p)}.md").exists()]
+    if _missing:
+        print(f"    Skipping {len(_missing)} planned page(s) with no content file "
+              f"(run add-pages to scaffold them).")
+        pages = [p for p in pages if p not in _missing]
     if args.limit:
         pages = pages[: args.limit]
 

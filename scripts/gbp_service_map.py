@@ -167,9 +167,27 @@ def resolve(slug: str, labels: list[str], apply: bool, *, force: bool = False,
     pages = ss.service_pages(slug)
     city, state = ss.metro_of(slug)
     out, pending = {}, []
+    import plumbing_gate
     for raw in labels:
         label = _label(raw)
         prev = ss.map_lookup(m, label)
+        # EMERGENCY PLUMBING GATE (Santino 2026-10-01, scripts/plumbing_gate.py):
+        # a GBP "Emergency Plumbing" / "Plumbing" service creates a site page
+        # only once the plumbing name is confirmed, the plumbing DBA is
+        # uploaded, or the client is a licensed plumber. Until then it maps to
+        # water damage restoration (the page's own "Services We Handle" list
+        # leaves plumbing labels out, so the word never reaches the site).
+        if plumbing_gate.is_plumbing_service(label):
+            if not plumbing_gate.allowed(slug):
+                fb = next((p for p in ("water-damage-restoration", "emergency-water-removal")
+                           if p in pages), None)
+                out[label] = {"verdict": "mapped" if fb else "held", "page": fb,
+                              "source": "plumbing-gate",
+                              "reason": "plumbing gate not met (no confirmed plumbing name/DBA, "
+                                        "not a licensed plumber)", "at": _today()}
+                continue
+            if prev and prev.get("source") == "plumbing-gate":
+                prev = None   # gate opened since: decide it for real
         if prev and recheck and prev.get("verdict") in recheck:
             prev = None
         if prev and not force and (prev.get("verdict") != "mapped" or prev.get("page") in pages):

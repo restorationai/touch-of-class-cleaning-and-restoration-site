@@ -24,6 +24,26 @@ Outputs (under rank-ai/clients/{slug}/plan/):
   schema-stubs.json
   plan-report.md
 
+Gates (Santino 2026-10-01; standing rules in docs/ROADMAP-STATUS.md):
+  EMERGENCY PLUMBING GATE (scripts/plumbing_gate.py). emergency-plumbing and
+    every plumbing-claim service are OFF the restoration core floor. A
+    restoration client's plan carries one only when (a) its GBP rename with
+    plumbing in the name is confirmed (live GBP title has plumbing, or the
+    rename was executed), (b) a DBA filing including plumbing has been
+    uploaded/verified (rename_intent.dba_filed / dba_verified), or (c) the
+    client is a licensed plumbing company (plumbing vertical or plumbing
+    license). Otherwise the slug is held out even when plan-input lists it.
+    A chosen-but-unfiled plumbing name does not pass.
+  CITY-PAGE GATE (scripts/city_page_gate.py). /service-areas/{city}/{service}/
+    is planned only when (i) the client actually offers the service (truth
+    table, pre-core-floor plan-input, explicit non-core service, GBP in the
+    client's own words; a core-floor default keeps only its service page),
+    (ii) the city is a service area, and (iii) the combo is plausible AND has
+    local demand ("{service} {city}" >= 10/mo, or the head term >= 1,000/mo
+    in the metro) or a genuine local angle (per-site Claude pass). Water
+    damage restoration passes in every service-area city. Decisions persist
+    in clients/{slug}/city-page-gate.json; rendered pages are never dropped.
+
 Spec: rank-ai/docs/site-plan-skill-spec.md
 """
 from __future__ import annotations
@@ -248,6 +268,11 @@ def expand_inputs(template: Template, plan_input: dict, client: dict) -> dict:
 
     # Resolve services from slugs to full service objects
     selected_slugs = list(plan_input.get("services") or [])
+    # What the client/plan-input explicitly lists, BEFORE any default below.
+    # The city-page gate (scripts/city_page_gate.py) only grants city pages
+    # to confirmed services; core-floor defaults keep their service page.
+    inputs["_explicit_services"] = list(selected_slugs)
+    _slug = client.get("slug") or plan_input.get("_slug") or ""
     # WATER CLEANUP IS A DEFAULT, not a checkbox (Santino 2026-08-13, the
     # Roto-Rooter signal): it is the colloquial term homeowners actually
     # search for the same work, so every client doing water damage
@@ -295,19 +320,50 @@ def expand_inputs(template: Template, plan_input: dict, client: dict) -> dict:
     # the restoration template, zero water services) got 18 defaulted water
     # pages from this rule via the nightly sync; template choice is not
     # proof of vertical.
+    # EMERGENCY PLUMBING GATE (Santino 2026-10-01, scripts/plumbing_gate.py):
+    # emergency-plumbing and every other plumbing-claim service come OFF the
+    # core floor. A restoration client's site carries one only when (a) its
+    # GBP rename with plumbing in the name is confirmed (live GBP title, or
+    # the rename executed), (b) a DBA filing that includes plumbing has been
+    # uploaded/verified (rename_intent.dba_filed / dba_verified), or (c) it
+    # is a licensed plumbing company (plumbing vertical / plumbing license,
+    # e.g. RT Olson, All Pro, ProRestoration on All Pro's license). Until
+    # then the slug is HELD out of the plan even when plan-input lists it,
+    # and a GBP "Emergency Plumbing" service maps to water damage
+    # restoration (gbp_service_map.py) without the word plumbing on the site.
+    import plumbing_gate
+    _plumb_ok = None
+
+    def _plumbing_allowed() -> bool:
+        nonlocal _plumb_ok
+        if _plumb_ok is None:
+            _plumb_ok = plumbing_gate.allowed(_slug)
+        return _plumb_ok
+
     _does_water = any("water" in s or "flood" in s for s in selected_slugs)
+    floor_added = []
     if _does_water and str(inputs.get("vertical") or client.get("vertical")
                            or "restoration") == "restoration":
-        floor_added = []
         for s in template.services_by_slug.values():
             slug_ = s.get("slug")
             if (s.get("tier") == "core" and slug_ not in selected_slugs
                     and slug_ not in excluded):
+                if (plumbing_gate.is_plumbing_service(slug_, s.get("display_name", ""))
+                        and not _plumbing_allowed()):
+                    continue
                 selected_slugs.append(slug_)
                 floor_added.append(slug_)
         if floor_added:
             print(f"  core-floor: +{len(floor_added)} default restoration "
                   f"service(s): {', '.join(floor_added)}")
+    inputs["_floor_added"] = floor_added
+    _plumb = [s for s in selected_slugs
+              if plumbing_gate.is_plumbing_service(
+                  s, (template.services_by_slug.get(s) or {}).get("display_name", ""))]
+    if _plumb and not _plumbing_allowed():
+        selected_slugs = [s for s in selected_slugs if s not in _plumb]
+        print(f"  plumbing-gate: HELD {', '.join(_plumb)} (no confirmed plumbing name, "
+              f"no plumbing DBA on file, not a licensed plumber)")
     services = []
     missing = []
     for slug in selected_slugs:
@@ -474,11 +530,18 @@ def expand_ia(template: Template, inputs: dict) -> list[Page]:
             ))
 
     # Cross-product service-area-service pages (home city skipped, same rule)
+    # CITY PAGES MUST MAKE SENSE (Santino 2026-10-01): only combos that pass
+    # the city-page gate (scripts/city_page_gate.py: offered service, city in
+    # area, local demand or a genuine local angle, plausible) are planned.
+    # inputs["_city_gate"] is None for clients the gate skips.
+    gate = inputs.get("_city_gate")
     if inputs.get("cross_product"):
         arc = template.archetypes.get("service-area-service")
         if arc:
             for area in _ring(inputs["service_areas"]):
                 for service in inputs["services"]:
+                    if gate is not None and (area["slug"], service["slug"]) not in gate:
+                        continue
                     ctx = _resolved_ctx(inputs, area=area, service=service)
                     pages.append(Page(
                         url_path=render(arc["path_pattern"], ctx),
@@ -1203,8 +1266,28 @@ def cmd_generate(args) -> int:
     template = load_template(template_name)
 
     # Normalize inputs
+    client.setdefault("slug", slug)
     inputs = expand_inputs(template, plan_input, client)
     inputs["_slug"] = slug   # emergency naming (scripts/emergency_naming.py) needs the client
+    # City-page gate: decided once per combo, persisted per client in
+    # clients/{slug}/city-page-gate.json so the nightly re-plan never
+    # recreates a failed combo. Fail-closed for undecided combos.
+    inputs["_city_gate"] = None
+    if inputs.get("cross_product"):
+        try:
+            import city_page_gate
+            ring = [a for a in inputs["service_areas"] if not a.get("primary")]
+            inputs["_city_gate"] = city_page_gate.plan_filter(
+                slug, inputs, set(inputs.get("_floor_added") or []), ring)
+        except Exception as e:  # noqa: BLE001
+            try:
+                import city_page_gate
+                ring = [a for a in inputs["service_areas"] if not a.get("primary")]
+                inputs["_city_gate"] = city_page_gate.plan_filter(
+                    slug, inputs, set(inputs.get("_floor_added") or []), ring, online=False)
+                print(f"  city-gate: online decide failed ({str(e)[:100]}); stored decisions only")
+            except Exception as e2:  # noqa: BLE001
+                die(f"city-page gate failed for {slug}: {e2}")
 
     print(f"==> Generating plan for {slug} ({client['domain']})")
     print(f"    Template:        {template.name} v{template.version}")
@@ -1340,8 +1423,28 @@ def cmd_report(args) -> int:
     template = load_template(payload["template"])
     plan_input = load_json(out_dir / "plan-input.json")
     client = load_json(client_record_path(slug))
+    client.setdefault("slug", slug)
     inputs = expand_inputs(template, plan_input, client)
     inputs["_slug"] = slug   # emergency naming (scripts/emergency_naming.py) needs the client
+    # City-page gate: decided once per combo, persisted per client in
+    # clients/{slug}/city-page-gate.json so the nightly re-plan never
+    # recreates a failed combo. Fail-closed for undecided combos.
+    inputs["_city_gate"] = None
+    if inputs.get("cross_product"):
+        try:
+            import city_page_gate
+            ring = [a for a in inputs["service_areas"] if not a.get("primary")]
+            inputs["_city_gate"] = city_page_gate.plan_filter(
+                slug, inputs, set(inputs.get("_floor_added") or []), ring)
+        except Exception as e:  # noqa: BLE001
+            try:
+                import city_page_gate
+                ring = [a for a in inputs["service_areas"] if not a.get("primary")]
+                inputs["_city_gate"] = city_page_gate.plan_filter(
+                    slug, inputs, set(inputs.get("_floor_added") or []), ring, online=False)
+                print(f"  city-gate: online decide failed ({str(e)[:100]}); stored decisions only")
+            except Exception as e2:  # noqa: BLE001
+                die(f"city-page gate failed for {slug}: {e2}")
 
     # Rebuild lightweight Page objects from the persisted plan
     pages: list[Page] = []
