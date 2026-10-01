@@ -1,6 +1,6 @@
 {
   "slug": "restoration-groups",
-  "generated_at": "2026-09-29T19:53:08Z",
+  "generated_at": "2026-10-01T17:21:24Z",
   "truth": {
     "hours": "24/7",
     "is_247": true,
@@ -16,7 +16,7 @@
     "vertical": "restoration"
   },
   "errors": 0,
-  "review_flags": 21,
+  "review_flags": 24,
   "violations": [
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
@@ -133,7 +133,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "itial emergency mitigation through full structural reconstruction so business owners can focus on reopeni",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flood-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, commercial-restoration"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, commercial-restoration, contents-restoration-pack-out"
     },
     {
       "file": "src/content/locations/manhattan-ny__fire-damage-restoration.md",
@@ -160,7 +160,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "andle that?\", \"answer\": \"Yes \\u2014 any structural reconstruction following fire damage in Ridgewood requ",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flood-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, commercial-restoration"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, commercial-restoration, contents-restoration-pack-out"
     },
     {
       "file": "src/content/locations/wayne-nj__smoke-damage-restoration.md",
@@ -178,7 +178,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "ion, fire and smoke damage cleanup, and structural reconstruction in-house for Roselle properties. We don",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flood-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, commercial-restoration"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, commercial-restoration, contents-restoration-pack-out"
     },
     {
       "file": "src/content/serviceAreas/roselle-nj.md",
@@ -187,7 +187,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "moke damage, mold remediation, and full structural reconstruction for homeowners and property managers ac",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flood-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, commercial-restoration"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, commercial-restoration, contents-restoration-pack-out"
     },
     {
       "file": "src/content/serviceAreas/teaneck-nj.md",
@@ -196,7 +196,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "backup and biohazard cleanup, and full structural reconstruction with our own crews. We do not hand off",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flood-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, commercial-restoration"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, commercial-restoration, contents-restoration-pack-out"
     },
     {
       "file": "src/content/serviceAreas/teaneck-nj.md",
@@ -205,7 +205,34 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "e, mold remediation, sewer backups, and structural reconstruction for homeowners, landlords, and commerci",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flood-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, commercial-restoration"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, commercial-restoration, contents-restoration-pack-out"
+    },
+    {
+      "file": "src/content/services/reconstruction.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "structural reconstruction",
+      "context": "e reconstruction\", \"rebuild services\", \"structural reconstruction\", \"post-disaster rebuilding\", \"fire dam",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, commercial-restoration, contents-restoration-pack-out"
+    },
+    {
+      "file": "src/content/services/reconstruction.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Reconstruction Services",
+      "context": "archetype: \"service-landing\" title: \"Reconstruction Services in Kenilworth | The Restoration Group\"",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, commercial-restoration, contents-restoration-pack-out"
+    },
+    {
+      "file": "src/content/services/reconstruction.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Reconstruction Services",
+      "context": "the plan. --> Placeholder content for Reconstruction Services in Kenilworth.",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, commercial-restoration, contents-restoration-pack-out"
     }
   ]
 }

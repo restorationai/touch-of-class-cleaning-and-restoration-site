@@ -1,6 +1,6 @@
 {
   "slug": "coastal-restoration-services",
-  "checked_at": "2026-09-29T19:42:08.833075+00:00",
+  "checked_at": "2026-10-01T17:13:04.051667+00:00",
   "canonical": {
     "name": "Coastal Restoration Services Inc",
     "phone": "(805) 345-7440",
@@ -43,12 +43,8 @@
     {
       "platform": "angi",
       "url": "https://www.angi.com/companylist/us/ca/santa-maria/coastal-restoration-services-inc-reviews-1.htm",
-      "status": "ok",
-      "fetch": "google_serp_snippet",
-      "phones_found": [],
-      "phone_match": null,
-      "address_match": null,
-      "notes": "via Google snippet (page bot-blocked); no phone number found on page; canonical street address not found on page"
+      "status": "unverified",
+      "notes": "unverifiable \u2014 every fetch tier failed (http 403; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
     },
     {
       "platform": "yelp",

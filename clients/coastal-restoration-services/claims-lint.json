@@ -1,6 +1,6 @@
 {
   "slug": "coastal-restoration-services",
-  "generated_at": "2026-09-29T19:53:02Z",
+  "generated_at": "2026-10-01T17:21:19Z",
   "truth": {
     "hours": "",
     "is_247": false,
@@ -19,8 +19,8 @@
     "gbp_review_count": 29,
     "vertical": "restoration"
   },
-  "errors": 8,
-  "review_flags": 13,
+  "errors": 7,
+  "review_flags": 16,
   "violations": [
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
@@ -113,15 +113,6 @@
       "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
     },
     {
-      "file": "src/content/locations/blacklake-ca__contents-restoration-storage.md",
-      "part": "body",
-      "family": "response-time",
-      "severity": "error",
-      "matched": "on-site within",
-      "context": "lways an emergency that requires a crew on-site within the hour, the priority is coordinating",
-      "reason": "promises response/arrival timing but brand is neither 24/7 nor has brand.response_minutes set"
-    },
-    {
       "file": "src/content/locations/nipomo-ca__post-construction-cleaning.md",
       "part": "frontmatter",
       "family": "response-time",
@@ -149,7 +140,7 @@
       "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
     },
     {
-      "file": "src/content/locations/templeton-ca__vandalism-cleanup.md",
+      "file": "src/content/locations/templeton-ca__vandalism-graffiti-removal.md",
       "part": "body",
       "family": "certification",
       "severity": "review",
@@ -209,6 +200,33 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "age restoration, biohazard cleanup, and structural reconstruction for residential and commercial properti",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: biohazard-cleanup, contents-restoration, contents-restoration-storage, crawl-space-encapsulation, emergency-board-up-tarping, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/services/reconstruction.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "structural reconstruction",
+      "context": "e reconstruction\", \"rebuild services\", \"structural reconstruction\", \"post-disaster rebuilding\", \"fire dam",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: biohazard-cleanup, contents-restoration, contents-restoration-storage, crawl-space-encapsulation, emergency-board-up-tarping, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/services/reconstruction.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Reconstruction Services",
+      "context": "archetype: \"service-landing\" title: \"Reconstruction Services in Santa Maria | Coastal Restoration Se",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: biohazard-cleanup, contents-restoration, contents-restoration-storage, crawl-space-encapsulation, emergency-board-up-tarping, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/services/reconstruction.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Reconstruction Services",
+      "context": "the plan. --> Placeholder content for Reconstruction Services in Santa Maria.",
       "reason": "names the 'reconstruction' service family but plan-input services are only: biohazard-cleanup, contents-restoration, contents-restoration-storage, crawl-space-encapsulation, emergency-board-up-tarping, fire-damage-restoration"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "slug": "diss-restoration",
-  "generated_at": "2026-09-29T19:53:03Z",
+  "generated_at": "2026-10-01T17:21:20Z",
   "truth": {
     "hours": "24/7",
     "is_247": true,
@@ -22,7 +22,7 @@
     "vertical": "restoration"
   },
   "errors": 0,
-  "review_flags": 10,
+  "review_flags": 13,
   "violations": [
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-youngstown-oh.md",
@@ -85,7 +85,7 @@
       "severity": "review",
       "matched": "reconstruction services",
       "context": "age cleanup, mold remediation, and full reconstruction services to Hubbard residential and commercial p",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, contents-restoration, contents-restoration-storage"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, air-duct-hvac-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, carpet-upholstery-cleaning"
     },
     {
       "file": "src/content/serviceAreas/niles-oh.md",
@@ -94,7 +94,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "old remediation, biohazard cleanup, and structural reconstruction. ## Restoration emergencies common in",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, contents-restoration, contents-restoration-storage"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, air-duct-hvac-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, carpet-upholstery-cleaning"
     },
     {
       "file": "src/content/serviceAreas/struthers-oh.md",
@@ -103,7 +103,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "e damage cleanup, mold remediation, and structural reconstruction for both residential and commercial pro",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, contents-restoration, contents-restoration-storage"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, air-duct-hvac-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, carpet-upholstery-cleaning"
     },
     {
       "file": "src/content/serviceAreas/warren-oh.md",
@@ -112,7 +112,34 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "mage restoration, mold remediation, and structural reconstruction for both residential and commercial pro",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, contents-restoration, contents-restoration-storage"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, air-duct-hvac-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, carpet-upholstery-cleaning"
+    },
+    {
+      "file": "src/content/services/reconstruction.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "structural reconstruction",
+      "context": "e reconstruction\", \"rebuild services\", \"structural reconstruction\", \"post-disaster rebuilding\", \"fire dam",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, air-duct-hvac-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, carpet-upholstery-cleaning"
+    },
+    {
+      "file": "src/content/services/reconstruction.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Reconstruction Services",
+      "context": "archetype: \"service-landing\" title: \"Reconstruction Services in Youngstown | DISS Restoration\" h1: \"",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, air-duct-hvac-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, carpet-upholstery-cleaning"
+    },
+    {
+      "file": "src/content/services/reconstruction.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Reconstruction Services",
+      "context": "the plan. --> Placeholder content for Reconstruction Services in Youngstown.",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, air-duct-hvac-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, carpet-upholstery-cleaning"
     }
   ]
 }

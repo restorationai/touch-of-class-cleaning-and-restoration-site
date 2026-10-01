@@ -1,6 +1,6 @@
 {
   "slug": "quality-contracting-inc",
-  "generated_at": "2026-09-29T19:53:07Z",
+  "generated_at": "2026-10-01T17:21:23Z",
   "truth": {
     "hours": "",
     "is_247": false,
@@ -10,11 +10,11 @@
     "response_minutes": null,
     "family_owned": false,
     "founded_year": "",
-    "gbp_review_count": 109,
+    "gbp_review_count": 110,
     "vertical": "restoration"
   },
   "errors": 17,
-  "review_flags": 32,
+  "review_flags": 35,
   "violations": [
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
@@ -428,7 +428,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "fire and smoke damage cleanup, and full structural reconstruction. For multi-unit properties \\u2014 commo",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, contents-restoration, contents-restoration-storage"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, air-duct-hvac-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, carpet-upholstery-cleaning"
     },
     {
       "file": "src/content/serviceAreas/worcester-ma.md",
@@ -437,7 +437,7 @@
       "severity": "review",
       "matched": "structural reconstruction",
       "context": "emediation, fire and smoke cleanup, and structural reconstruction for homeowners and property managers ac",
-      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, contents-restoration, contents-restoration-storage"
+      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, air-duct-hvac-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, carpet-upholstery-cleaning"
     },
     {
       "file": "src/content/serviceAreas/worcester-ma.md",
@@ -456,6 +456,33 @@
       "matched": "lead-safe",
       "context": "molition of pre-1978 materials requires lead-safe work practices, and suspected asbestos-",
       "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+    },
+    {
+      "file": "src/content/services/reconstruction.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "structural reconstruction",
+      "context": "e reconstruction\", \"rebuild services\", \"structural reconstruction\", \"post-disaster rebuilding\", \"fire dam",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, air-duct-hvac-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, carpet-upholstery-cleaning"
+    },
+    {
+      "file": "src/content/services/reconstruction.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Reconstruction Services",
+      "context": "archetype: \"service-landing\" title: \"Reconstruction Services in Auburn | Quality Contracting, Inc.\"",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, air-duct-hvac-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, carpet-upholstery-cleaning"
+    },
+    {
+      "file": "src/content/services/reconstruction.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Reconstruction Services",
+      "context": "the plan. --> Placeholder content for Reconstruction Services in Auburn.",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, air-duct-hvac-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, carpet-upholstery-cleaning"
     }
   ]
 }

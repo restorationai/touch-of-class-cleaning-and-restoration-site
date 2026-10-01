@@ -1,6 +1,6 @@
 {
   "slug": "flood-fixers",
-  "checked_at": "2026-09-29T19:45:10.331200+00:00",
+  "checked_at": "2026-10-01T17:14:11.718435+00:00",
   "canonical": {
     "name": "Flood Fixers",
     "phone": "(855) 204-1124",
@@ -37,8 +37,14 @@
     {
       "platform": "yelp",
       "url": "https://m.yelp.com/biz/flood-fixers-san-diego",
-      "status": "unverified",
-      "notes": "unverifiable \u2014 every fetch tier failed (http 403; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
+      "status": "ok",
+      "fetch": "google_serp_snippet",
+      "phones_found": [
+        "(855) 204-1124"
+      ],
+      "phone_match": true,
+      "address_match": null,
+      "notes": "via Google snippet (page bot-blocked); canonical street address not found on page"
     },
     {
       "platform": "houzz",
@@ -51,7 +57,7 @@
         "(888) 610-7168",
         "(800) 340-9610",
         "(888) 316-6960",
-        "(289) 781-3346"
+        "(714) 689-6633"
       ],
       "phone_match": true,
       "address_match": null,
@@ -62,16 +68,6 @@
       "url": "https://www.facebook.com/61589997593516",
       "status": "unverified",
       "notes": "unverifiable \u2014 every fetch tier failed (http 400; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
-    },
-    {
-      "platform": "bing_places",
-      "url": "https://www.bing.com/maps?ss=ypid.YN98B76BD2E3E0D8A0",
-      "status": "ok",
-      "fetch": "http",
-      "phones_found": [],
-      "phone_match": null,
-      "address_match": null,
-      "notes": "no phone number found on page; canonical street address not found on page"
     }
   ],
   "duplicates": [],
