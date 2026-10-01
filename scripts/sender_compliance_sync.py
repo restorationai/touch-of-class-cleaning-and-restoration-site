@@ -135,7 +135,7 @@ def main() -> int:
                "?select=id,a2p_state&a2p_state=not.is.null") or []
     for m in mids:
         stg = (m.get("a2p_state") or {}).get("stage")
-        if stg in (None, "approved"):
+        if stg in (None, "approved", "cancelled"):
             continue
         r2 = subprocess.run(
             [sys.executable, str(ROOT / "scripts" / "a2p_provision.py"),

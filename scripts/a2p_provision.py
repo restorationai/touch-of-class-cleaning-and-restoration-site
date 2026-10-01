@@ -282,6 +282,11 @@ def run(cid: str) -> int:
                          auth=sub, timeout=30).json()
         for camp in c.get("compliance") or []:
             print("  campaign status:", camp.get("campaign_status"))
+            if str(camp.get("campaign_status")).upper() == "FAILED":
+                # Davis 2026-10-01 failed vetting and nothing said so; keep
+                # the carriers' reasons and raise so the stall alert fires.
+                raise RuntimeError("campaign FAILED vetting: "
+                                   + json.dumps(camp.get("errors"))[:400])
             if str(camp.get("campaign_status")).upper() == "VERIFIED":
                 st.update(stage="approved")
                 _save(cid, st)
@@ -307,7 +312,7 @@ def advance_all() -> int:
                "?select=id,a2p_state&a2p_state=not.is.null") or []
     for m in mids:
         stg = (m.get("a2p_state") or {}).get("stage")
-        if stg in (None, "approved"):
+        if stg in (None, "approved", "cancelled"):
             continue
         err = None
         try:
