@@ -424,6 +424,7 @@ def main():
     # 6b. geo-grid config + first scan — without this the app's Local Maps
     # stays empty (the Gregory question, 2026-07-21). Keywords = top services,
     # grid centered on the company's city until a storefront is known.
+    first_scan = False   # the first map scan runs LAST (see step 8)
     kw_f = cdir / "geogrid-keywords.txt"
     ct_f = cdir / "geogrid-cities.json"
     # Keywords and cities are seeded INDEPENDENTLY. Gating both on kw_f used
@@ -491,8 +492,7 @@ def main():
         # from plan-input service areas on the next overnight pass.
         if cities:
             ct_f.write_text(json.dumps(cities, indent=1) + "\n")
-            subprocess.run([sys.executable, str(ROOT / "scripts" / "geogrid_cron.py"),
-                            "--slug", slug])
+            first_scan = True
         elif not ct_f.exists():
             print("geo-grid: could not geocode '{}' — leaving the city ring "
                   "UNwritten; setup_ledger heals it overnight and the ops "
@@ -512,6 +512,20 @@ def main():
     print("\nHarvesting the client's own photos (GBP + any existing website)...")
     subprocess.run([sys.executable, str(ROOT / "scripts" / "photo_harvest.py"),
                     "run", "--slug", slug])
+
+    # 8. First map-rankings scan LAST, time-boxed (Restoration Resource
+    # 2026-09-30): 5 keywords x 3 grid sizes runs well past an hour, and it
+    # used to sit BEFORE the GBP sync, so the CI bootstrap hit its 60-minute
+    # timeout and was cancelled before the Locations tab ever got data (three
+    # new clients stuck: Restoration Resource, RestoPros, BIONIC). The
+    # nightly geogrid cron finishes anything this window doesn't.
+    if first_scan:
+        try:
+            subprocess.run([sys.executable, str(ROOT / "scripts" / "geogrid_cron.py"),
+                            "--slug", slug], timeout=900)
+        except subprocess.TimeoutExpired:
+            print("geo-grid: first scan still running after 15 min; the nightly "
+                  "geogrid cron completes it")
 
     print("\nBootstrap complete for {} ({}).".format(co["name"], slug))
     print("Hub link (use this in all client messages): " + hub)
