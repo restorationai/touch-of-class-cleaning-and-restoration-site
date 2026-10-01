@@ -812,6 +812,9 @@ def ensure_gbp_first_sync(dry_run: bool, cid_to_slug: dict) -> list[str]:
                 capture_output=True, text=True, timeout=600)
             tail = (r.stdout or r.stderr or "").strip().splitlines()
             out.append(f"{slug}: first GBP sync -> {tail[-1][:120] if tail else 'no output'}")
+            # first Profile Health score the same night, not next Monday
+            subprocess.run([sys.executable, str(ROOT / "scripts" / "gbp_face_audit.py"),
+                            "--slug", slug], capture_output=True, text=True, timeout=600)
         except Exception as e:
             out.append(f"{slug}: first GBP sync failed ({str(e)[:100]})")
     return out

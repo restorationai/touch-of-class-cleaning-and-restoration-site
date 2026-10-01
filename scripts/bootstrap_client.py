@@ -499,10 +499,14 @@ def main():
                   "digest carries a NO MAP DATA alarm until scans exist"
                   .format(full.get("city")))
 
-    # 6. GBP sync (needs place_id)
+    # 6. GBP sync (needs place_id) + the first Profile Health score, so the
+    # Locations tab is complete on day one (BIONIC 2026-10-01: the score card
+    # waited for the Monday-only face audit). Dry-run mode writes the score.
     if place_id:
         subprocess.run([sys.executable, str(ROOT / "scripts" / "gbp.py"),
                         "sync", "--slug", slug])
+        subprocess.run([sys.executable, str(ROOT / "scripts" / "gbp_face_audit.py"),
+                        "--slug", slug], timeout=600)
     else:
         print("no place_id on the Google integration yet — GBP sync skipped")
 
