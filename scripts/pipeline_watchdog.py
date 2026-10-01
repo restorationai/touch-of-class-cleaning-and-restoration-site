@@ -111,6 +111,27 @@ def _self_heal_ai_scan() -> str:
     return "dispatched" if r.status_code == 204 else f"dispatch failed {r.status_code}"
 
 
+def check_conflict_markers() -> list[str]:
+    """Git conflict markers committed to main (09-30: an autostash conflict
+    shipped them into clients/_ops/last-sync.json and every ops-sync run
+    crashed for hours, silently stalling onboarding). One alert listing the
+    files; scripts/conflict_marker_guard.py is the fix."""
+    import subprocess
+    try:
+        r = subprocess.run(["git", "grep", "-l", "-E",
+                            "^(<<<<<<<|>>>>>>>) (Updated upstream|Stashed changes|HEAD)",
+                            "--", "clients", "sites", "scripts", "templates"],
+                           cwd=str(ROOT), capture_output=True, text=True, timeout=120)
+    except Exception:  # noqa: BLE001
+        return []
+    files = [f for f in r.stdout.split() if f]
+    if not files:
+        return []
+    return [f"git conflict markers committed in {len(files)} file(s): "
+            f"{', '.join(files[:6])} — automated runs reading them will crash; "
+            "run scripts/conflict_marker_guard.py and commit"]
+
+
 def check_heartbeats() -> list[str]:
     issues = []
     for key, max_days in HEARTBEATS.items():
@@ -672,7 +693,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
-    issues = (check_workflows() + check_heartbeats() + check_coverage()
+    issues = (check_workflows() + check_conflict_markers() + check_heartbeats() + check_coverage()
               + check_site_area_gap() + check_citation_stall()
               + check_lsa_leads()
               + check_stuck_lead_audits()

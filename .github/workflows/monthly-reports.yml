@@ -58,6 +58,7 @@ jobs:
 
       - name: Commit generated report files
         run: |
+          python3 scripts/conflict_marker_guard.py || true   # never commit git conflict markers (09-30)
           git add clients/*/reports/ portfolio/digests/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing to commit."

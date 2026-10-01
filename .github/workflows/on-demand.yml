@@ -89,6 +89,7 @@ jobs:
         run: |
           git config user.name "rank-ai-ci"
           git config user.email "ci@restorationai.io"
+          python3 scripts/conflict_marker_guard.py || true   # never commit git conflict markers (09-30)
           git add clients/
           if git diff --cached --quiet; then
             echo "No artifacts to commit."

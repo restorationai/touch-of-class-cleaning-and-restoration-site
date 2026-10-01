@@ -88,6 +88,7 @@ jobs:
         run: |
           git config user.name "Rank AI Bot"
           git config user.email "ops@restorationai.io"
+          python3 scripts/conflict_marker_guard.py || true   # never commit git conflict markers (09-30)
           git add clients/_ops/mini-needs.md clients/_ops/mini-responder-log.md clients/_ops/mini-trigger clients/*/docs 2>/dev/null || true
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
           git commit -q -m "mini needs answered [mini-responder] [automated]"

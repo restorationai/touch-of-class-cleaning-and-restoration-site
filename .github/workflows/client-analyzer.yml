@@ -54,6 +54,7 @@ jobs:
         run: |
           git config user.name "rank-ai-bot"
           git config user.email "ops@restorationai.io"
+          python3 scripts/conflict_marker_guard.py || true   # never commit git conflict markers (09-30)
           git add clients/*/analyzer/ || true
           git diff --cached --quiet || git commit -m "analyzer: biweekly reports [automated]"
           git pull --rebase origin main || true

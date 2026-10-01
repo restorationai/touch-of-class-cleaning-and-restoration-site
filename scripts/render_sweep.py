@@ -215,6 +215,7 @@ def render_one(slug: str, workers: int) -> bool:
     # clients/{slug}/ too: the image pass writes photo-manifest.json there,
     # and an unstaged manifest left the tree dirty -> sync-deploy refused
     # (2026-09-05 sweep failure)
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "conflict_marker_guard.py")])
     run(["git", "add", f"sites/{slug}/", f"clients/{slug}.json", f"clients/{slug}/"])
     if subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode != 0:
         run(["git", "commit", "-m",

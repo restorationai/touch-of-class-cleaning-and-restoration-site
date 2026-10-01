@@ -1704,8 +1704,6 @@
       "triage_model": "claude-sonnet-4-6"
     }
   },
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
   "slots": {
     "service:upholstery-cleaning": {
       "asset": "gbp:gbp-AF1QipNWQOw7Ta4l_sZxdy9yRlV7TY54GYUYz5JqbU-_",
@@ -1718,12 +1716,4 @@
     }
   },
   "triaged_at": "2026-09-30T19:34:00Z"
-=======
-  "slots": {},
-  "triaged_at": "2026-09-30T22:11:41Z"
->>>>>>> Stashed changes
-=======
-  "slots": {},
-  "triaged_at": "2026-09-30T22:45:33Z"
->>>>>>> Stashed changes
 }

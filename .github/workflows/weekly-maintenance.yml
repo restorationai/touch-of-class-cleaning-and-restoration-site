@@ -98,6 +98,7 @@ jobs:
           python3 scripts/sync_brand_reviews.py --all || echo "Review sync failed (non-fatal — sites keep last-synced ratings)."
           # Commit now: the content step's sync-deploy pushes the subtree from
           # committed HEAD, so uncommitted brand.ts edits would not ride along.
+          python3 scripts/conflict_marker_guard.py || true   # never commit git conflict markers (09-30)
           git add sites/*/src/lib/brand.ts sites/*/public/llms.txt 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Review sync: no rating/review changes."
@@ -146,6 +147,7 @@ jobs:
         # end of the job and the runner died mid-push.
         if: always()
         run: |
+          python3 scripts/conflict_marker_guard.py || true   # never commit git conflict markers (09-30)
           git add clients/ sites/ portfolio/ docs/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing to checkpoint."
@@ -161,6 +163,7 @@ jobs:
               git fetch origin main
               if ! git rebase --autostash origin/main; then
                 git checkout --theirs -- clients/ 2>/dev/null || true
+                python3 scripts/conflict_marker_guard.py || true   # never commit git conflict markers (09-30)
                 git add -A
                 GIT_EDITOR=true git rebase --continue || { git rebase --abort; exit 1; }
               fi
@@ -388,6 +391,7 @@ jobs:
         # blog post written before the hang because this step never ran.
         if: always()
         run: |
+          python3 scripts/conflict_marker_guard.py || true   # never commit git conflict markers (09-30)
           git add clients/ sites/ portfolio/ docs/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing to commit."
@@ -405,6 +409,7 @@ jobs:
               git fetch origin main
               if ! git rebase --autostash origin/main; then
                 git checkout --theirs -- clients/ 2>/dev/null || true
+                python3 scripts/conflict_marker_guard.py || true   # never commit git conflict markers (09-30)
                 git add -A
                 GIT_EDITOR=true git rebase --continue || { git rebase --abort; exit 1; }
               fi

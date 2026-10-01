@@ -182,6 +182,7 @@ jobs:
 
       - name: Commit + push generated plan/content/catalog changes
         run: |
+          python3 scripts/conflict_marker_guard.py || true   # never commit git conflict markers (09-30)
           git add clients/ sites/ templates/ 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "chore: gbp page build $(date +%Y-%m-%d) [automated]"

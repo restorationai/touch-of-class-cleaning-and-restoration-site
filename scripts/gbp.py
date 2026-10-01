@@ -2788,6 +2788,7 @@ def build_client_pages(slug: str) -> tuple:
     # 4. commit first — sync-deploy does a `git subtree split` over COMMITTED history, so
     #    the new pages (+ plan/catalog changes) must be committed or they (a) won't be in
     #    the push and (b) make the tree dirty, which sync-deploy refuses.
+    _sh([sys.executable, str(ROOT / "scripts" / "conflict_marker_guard.py")])
     _sh(["git", "add", "clients", "sites", "templates"])
     _sh(["git", "commit", "-m", f"gbp: build pages for {slug} [automated]"])  # no-op if nothing staged
 

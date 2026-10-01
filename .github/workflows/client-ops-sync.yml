@@ -499,6 +499,7 @@ jobs:
           # scaffolds + renders sites/{slug} in this job — committing only
           # clients/ threw the rendered site away and CI re-rendered it daily
           # (Reign 2026-08-03, second-order cost: the whole render bill again).
+          python3 scripts/conflict_marker_guard.py || true   # never commit git conflict markers (09-30)
           git add clients/ sites/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing to commit."

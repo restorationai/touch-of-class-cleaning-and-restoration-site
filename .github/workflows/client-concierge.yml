@@ -155,6 +155,7 @@ jobs:
         if: ${{ github.event.inputs.dry_run != 'true' }}
         run: |
           git pull --rebase origin main || true
+          python3 scripts/conflict_marker_guard.py || true   # never commit git conflict markers (09-30)
           git add clients/_ops/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing to commit."
