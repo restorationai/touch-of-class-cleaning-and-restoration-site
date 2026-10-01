@@ -1,6 +1,6 @@
 {
   "slug": "restoration-groups",
-  "generated_at": "2026-10-01T17:21:24Z",
+  "generated_at": "2026-10-01T21:41:43Z",
   "truth": {
     "hours": "24/7",
     "is_247": true,
@@ -16,7 +16,7 @@
     "vertical": "restoration"
   },
   "errors": 0,
-  "review_flags": 24,
+  "review_flags": 25,
   "violations": [
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-kenilworth-nj.md",
@@ -172,6 +172,15 @@
       "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
     },
     {
+      "file": "src/content/serviceAreas/colonia-nj.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "reconstruction services",
+      "context": "old remediation, biohazard cleanup, and reconstruction services for homeowners and property managers in",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, commercial-restoration, contents-restoration-pack-out"
+    },
+    {
       "file": "src/content/serviceAreas/roselle-nj.md",
       "part": "frontmatter",
       "family": "service-scope",
@@ -230,8 +239,8 @@
       "part": "body",
       "family": "service-scope",
       "severity": "review",
-      "matched": "Reconstruction Services",
-      "context": "the plan. --> Placeholder content for Reconstruction Services in Kenilworth.",
+      "matched": "reconstruction services",
+      "context": "t match the rest of the house. ## What reconstruction services actually involves Reconstruction picks",
       "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, commercial-restoration, contents-restoration-pack-out"
     }
   ]

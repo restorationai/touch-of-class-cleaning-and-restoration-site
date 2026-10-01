@@ -1,6 +1,6 @@
 {
   "slug": "coastal-restoration-services",
-  "generated_at": "2026-10-01T17:21:19Z",
+  "generated_at": "2026-10-01T21:41:37Z",
   "truth": {
     "hours": "",
     "is_247": false,
@@ -20,7 +20,7 @@
     "vertical": "restoration"
   },
   "errors": 7,
-  "review_flags": 16,
+  "review_flags": 17,
   "violations": [
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
@@ -225,8 +225,17 @@
       "part": "body",
       "family": "service-scope",
       "severity": "review",
-      "matched": "Reconstruction Services",
-      "context": "the plan. --> Placeholder content for Reconstruction Services in Santa Maria.",
+      "matched": "structural reconstruction",
+      "context": "ks once materials are selected, while a structural reconstruction following a kitchen or attic fire can r",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: biohazard-cleanup, contents-restoration, contents-restoration-storage, crawl-space-encapsulation, emergency-board-up-tarping, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/services/reconstruction.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "reconstruction services",
+      "context": "out\" and a livable home again is where reconstruction services come in. It covers everything from fram",
       "reason": "names the 'reconstruction' service family but plan-input services are only: biohazard-cleanup, contents-restoration, contents-restoration-storage, crawl-space-encapsulation, emergency-board-up-tarping, fire-damage-restoration"
     }
   ]

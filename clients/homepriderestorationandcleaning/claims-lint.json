@@ -1,6 +1,6 @@
 {
   "slug": "homepriderestorationandcleaning",
-  "generated_at": "2026-10-01T17:21:22Z",
+  "generated_at": "2026-10-01T21:41:40Z",
   "truth": {
     "hours": "24/7",
     "is_247": true,
@@ -18,7 +18,7 @@
     "vertical": "restoration"
   },
   "errors": 0,
-  "review_flags": 11,
+  "review_flags": 13,
   "violations": [
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-saratoga-springs-ut.md",
@@ -55,6 +55,15 @@
       "matched": "68 reviews",
       "context": "alists holds a 4.9 Google rating across 68 reviews. They are an established local restorat",
       "reason": "listicle review-count 68 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/serviceAreas/bluffdale-ut.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "reconstruction services",
+      "context": "nto finished living space. **Storm and reconstruction services** follow wind, hail, or snow-load damag",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, carpet-cleaning, carpet-upholstery-cleaning"
     },
     {
       "file": "src/content/serviceAreas/orem-ut.md",
@@ -115,8 +124,17 @@
       "part": "body",
       "family": "service-scope",
       "severity": "review",
-      "matched": "Reconstruction Services",
-      "context": "the plan. --> Placeholder content for Reconstruction Services in Saratoga Springs.",
+      "matched": "Structural reconstruction",
+      "context": "scope. 2. **Permits and code review.** Structural reconstruction involving framing, electrical, or plumb",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, carpet-cleaning, carpet-upholstery-cleaning"
+    },
+    {
+      "file": "src/content/services/reconstruction.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Reconstruction services",
+      "context": "the house has to be put back together. Reconstruction services saratoga springs cover everything from",
       "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, basement-flooding-cleanup, biohazard-cleanup, burst-pipe-repair, carpet-cleaning, carpet-upholstery-cleaning"
     }
   ]

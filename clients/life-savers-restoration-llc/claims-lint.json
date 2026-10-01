@@ -1,6 +1,6 @@
 {
   "slug": "life-savers-restoration-llc",
-  "generated_at": "2026-10-01T17:21:22Z",
+  "generated_at": "2026-10-01T21:41:40Z",
   "truth": {
     "hours": "24/7",
     "is_247": true,
@@ -24,7 +24,7 @@
     "vertical": "restoration"
   },
   "errors": 0,
-  "review_flags": 11,
+  "review_flags": 13,
   "violations": [
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-henderson-nv.md",
@@ -99,6 +99,24 @@
       "reason": "names the 'reconstruction' service family but plan-input services are only: biohazard-cleanup, contents-restoration, contents-restoration-storage, fire-damage-restoration, mold-remediation, odor-removal"
     },
     {
+      "file": "src/content/serviceAreas/laughlin-nv.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "reconstruction services",
+      "context": "proper disposal protocols. **Storm and reconstruction services** cover the rebuild side after a monsoo",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: biohazard-cleanup, contents-restoration, contents-restoration-storage, fire-damage-restoration, mold-remediation, odor-removal"
+    },
+    {
+      "file": "src/content/serviceAreas/searchlight-nv.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "reconstruction services",
+      "context": "rchlight summer. Biohazard cleanup and reconstruction services round out the work, handling anything f",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: biohazard-cleanup, contents-restoration, contents-restoration-storage, fire-damage-restoration, mold-remediation, odor-removal"
+    },
+    {
       "file": "src/content/services/reconstruction.md",
       "part": "frontmatter",
       "family": "service-scope",
@@ -121,8 +139,8 @@
       "part": "body",
       "family": "service-scope",
       "severity": "review",
-      "matched": "Reconstruction Services",
-      "context": "the plan. --> Placeholder content for Reconstruction Services in Henderson.",
+      "matched": "reconstruction services",
+      "context": "and \"my house is whole again\" is where reconstruction services come in. This is the rebuild phase: fra",
       "reason": "names the 'reconstruction' service family but plan-input services are only: biohazard-cleanup, contents-restoration, contents-restoration-storage, fire-damage-restoration, mold-remediation, odor-removal"
     }
   ]

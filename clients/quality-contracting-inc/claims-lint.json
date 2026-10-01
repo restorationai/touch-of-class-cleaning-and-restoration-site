@@ -1,6 +1,6 @@
 {
   "slug": "quality-contracting-inc",
-  "generated_at": "2026-10-01T17:21:23Z",
+  "generated_at": "2026-10-01T21:41:41Z",
   "truth": {
     "hours": "",
     "is_247": false,
@@ -14,7 +14,7 @@
     "vertical": "restoration"
   },
   "errors": 17,
-  "review_flags": 35,
+  "review_flags": 60,
   "violations": [
     {
       "file": "src/content/blog/best-water-damage-restoration-company-in-auburn-ma.md",
@@ -314,12 +314,120 @@
       "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
     },
     {
+      "file": "src/content/locations/bellingham-ma__emergency-water-removal.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "movers and dehumidifiers following the IICRC S500 structural drying standard, with d",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/bellingham-ma__emergency-water-removal.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "n the actual damage. Drying follows the IICRC S500 standard for structural drying: ai",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/bellingham-ma__water-damage-restoration.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "daily until materials read dry per the IICRC S500 standard before any reconstruction",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
       "file": "src/content/locations/fiskdale-ma__water-damage-restoration.md",
       "part": "body",
       "family": "certification",
       "severity": "review",
       "matched": "IICRC",
       "context": "rying on a schedule consistent with the IICRC S500 standard. If readings plateau, the",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/hudson-ma__mold-remediation.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "e same general approach laid out in the IICRC S520 mold remediation standard, so spor",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/hudson-ma__water-damage-restoration.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "he structure reads dry according to the IICRC S500 standard rather than stopping once",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/hudson-ma__water-damage-restoration.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "gs confirm the structure is dry per the IICRC S500 standard, not just until it looks",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/marlborough-ma__water-damage-restoration.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "surface. Structural drying follows the IICRC S500 standard for psychrometry, meaning",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/maynard-ma__water-damage-restoration.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ynard homes?\", \"answer\": \"We follow the IICRC S500 standard for water damage restorat",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/maynard-ma__water-damage-restoration.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "sion gets handled separately, following IICRC S500 drying standards for category and",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/milford-ma__biohazard-cleanup.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "EPA-registered products applied per the IICRC S540 standard for biohazard remediation",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/milford-ma__sewage-cleanup.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "roducts and dry the structure following IICRC S500 guidelines until moisture readings",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/milford-ma__sewage-cleanup.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "space is dried and monitored following IICRC S500 drying guidelines until moisture r",
       "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
     },
     {
@@ -332,12 +440,93 @@
       "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
     },
     {
+      "file": "src/content/locations/palmer-town-ma__emergency-water-removal.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "er involved and set up according to the IICRC S500 structural drying standard rather",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/palmer-town-ma__emergency-water-removal.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "dry on the surface. Drying follows the IICRC S500 standard for structural drying, wi",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/palmer-town-ma__water-damage-restoration.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "sture-mapping approach described in the IICRC S500 standard. Equipment placement and",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/palmer-town-ma__water-damage-restoration.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "isture-mapping approach laid out in the IICRC S500 standard, with air movers and dehu",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/southbridge-town-ma__emergency-water-removal.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ne applies. Materials are dried per the IICRC S500 standard, and we document moisture",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/southbridge-town-ma__storm-damage-restoration.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "track moisture content daily and follow IICRC S500 drying standards to confirm when i",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/southbridge-town-ma__storm-damage-restoration.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "move into structural drying, following IICRC S500 drying standards as a baseline, wi",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
       "file": "src/content/locations/southbridge-town-ma__water-damage-restoration.md",
       "part": "body",
       "family": "certification",
       "severity": "review",
       "matched": "IICRC",
       "context": "djusted as materials dry, following the IICRC S500 standard for water damage restorat",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/ware-ma__emergency-water-removal.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "r\": \"We dry structures in line with the IICRC S500 standard, using moisture meters to",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/ware-ma__emergency-water-removal.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "re dried and monitored in line with the IICRC S500 drying standard, with daily moistu",
       "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
     },
     {
@@ -422,6 +611,24 @@
       "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
     },
     {
+      "file": "src/content/serviceAreas/oxford-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "subfloor, and dry the structure to the IICRC S500 standard rather than just running",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/serviceAreas/southbridge-town-ma.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "areas are stabilized and dried per the IICRC S500 standard. ## Coverage and how fas",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
       "file": "src/content/serviceAreas/worcester-ma.md",
       "part": "frontmatter",
       "family": "service-scope",
@@ -446,6 +653,15 @@
       "severity": "review",
       "matched": "IICRC",
       "context": "eters, and dry structural assemblies to IICRC S500 standards. We document the loss th",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/services/basement-flooding-cleanup.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "hey return to a normal range, following IICRC S500 drying guidelines. 5. **Antimicrob",
       "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
     },
     {
@@ -480,8 +696,17 @@
       "part": "body",
       "family": "service-scope",
       "severity": "review",
-      "matched": "Reconstruction Services",
-      "context": "the plan. --> Placeholder content for Reconstruction Services in Auburn.",
+      "matched": "structural reconstruction",
+      "context": "eet where a kitchen used to be. This is structural reconstruction and post-disaster rebuilding: turning a",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, air-duct-hvac-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, carpet-upholstery-cleaning"
+    },
+    {
+      "file": "src/content/services/reconstruction.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Reconstruction services",
+      "context": "n of roof that was tarped and torn off. Reconstruction services auburn is the rebuild phase that homeow",
       "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, air-duct-hvac-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, carpet-upholstery-cleaning"
     }
   ]
