@@ -113,7 +113,9 @@ def run(cid: str) -> int:
             "Attributes": json.dumps({
                 "business_name": legal,
                 "business_identity": "direct_customer",
-                "business_type": "Limited Liability Corporation",
+                # Per-client override (Davis 2026-10-01 is "Davis Construction
+                # Inc.", a corporation): a wrong entity type fails the brand.
+                "business_type": st.get("business_type") or "Limited Liability Corporation",
                 "business_industry": "CONSTRUCTION",
                 "business_registration_identifier": "EIN",
                 "business_registration_number": row["business_ein"],
@@ -214,8 +216,12 @@ def run(cid: str) -> int:
             "InboundRequestUrl": os.environ["SUPABASE_URL"].rstrip("/")
             + "/functions/v1/twilio-inbound-review-optout",
             "UseInboundWebhookOnNumber": "false"}, auth=sub)
+        # The LOCAL number bought for this registration (a2p_state.number_sid).
+        # twilio_phone_number_sid can be the client's toll-free line (Davis),
+        # which must never be pulled into a 10DLC messaging service.
         _post(f"https://messaging.twilio.com/v1/Services/{svc['sid']}/PhoneNumbers",
-              {"PhoneNumberSid": row["twilio_phone_number_sid"]}, auth=sub)
+              {"PhoneNumberSid": st.get("number_sid") or row["twilio_phone_number_sid"]},
+              auth=sub)
         camp = _post(f"https://messaging.twilio.com/v1/Services/{svc['sid']}"
                      "/Compliance/Usa2p", {
             "BrandRegistrationSid": st["brand_sid"],

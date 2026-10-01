@@ -38,6 +38,12 @@ We do not use your contact information for unsolicited marketing. We do not sell
 
 Restoration work often involves insurance carriers, adjusters, and occasionally subcontractors. We share your information with these parties only when you've given us explicit authorization, typically through a signed work-authorization or direction-to-pay form. We do not share your data with any outside party without that authorization.
 
+**SMS and mobile information is never shared.** No mobile information, phone numbers collected for SMS, or text messaging originator opt-in data and consent will be shared with, sold to, or transferred to any third parties, affiliates, or partner companies for marketing or promotional purposes under any circumstances. SMS opt-in consent is used solely by Davis Construction Inc. to communicate with you.
+
+## Text Messaging
+
+If you give us your mobile number and agree to receive texts, Davis Construction Inc. may text you about your project: appointment and service updates, follow-ups after the job, and a request to review our work. Message frequency varies. Message and data rates may apply. Reply STOP at any time to stop receiving texts, or HELP for help. You can also reach us at (256) 771-0326. Consent to receive texts is not a condition of any purchase or service.
+
 ## Data Retention
 
 We retain job-related records, including contact information, estimates, photos, and insurance documentation, for as long as necessary to fulfill the work and meet Alabama contractor recordkeeping requirements, generally a minimum of five years. If you'd like your information removed from our records and there is no active legal or insurance obligation requiring retention, contact us and we'll handle it promptly.
