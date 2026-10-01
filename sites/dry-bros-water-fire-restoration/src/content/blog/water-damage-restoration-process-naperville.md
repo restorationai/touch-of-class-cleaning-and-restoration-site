@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration process"
 secondary_keywords: ["what does water damage restoration include", "water extraction services", "when to call a water damage restoration company", "who do i call for water damage", "water damage restoration near me"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-process-naperville/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-process-naperville/hero.webp"
 generated_at: "2026-09-21T00:24:02Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/naperville-il/water-damage-restoration/", "/services/mold-remediation/", "/blog/burst-pipe-emergency-checklist/", "/blog/signs-of-hidden-mold/", "/blog/does-homeowners-insurance-cover-water-damage/"]

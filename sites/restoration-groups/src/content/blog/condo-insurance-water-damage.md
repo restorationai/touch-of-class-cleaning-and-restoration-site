@@ -7,8 +7,8 @@ primary_keyword: "condo insurance water damage"
 secondary_keywords: ["who pays for water damage in a condo", "condo master policy vs ho-6 water damage", "water leak from upstairs condo who is responsible", "does condo insurance cover water damage from a neighbor", "hoa responsibility water damage new jersey", "condo water damage deductible"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/condo-insurance-water-damage/hero.webp"
+og: "/images/blog/2026/10/condo-insurance-water-damage/hero.webp"
 generated_at: "2026-09-07T20:34:28Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/commercial-restoration/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/storm-damage-insurance-claim-checklist/", "/contact/"]

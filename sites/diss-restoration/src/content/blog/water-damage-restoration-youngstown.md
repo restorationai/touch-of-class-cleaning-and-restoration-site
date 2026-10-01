@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration youngstown"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-youngstown/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-youngstown/hero.webp"
 generated_at: "2026-09-19T22:28:01Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/blog/burst-pipe-emergency-checklist/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/water-damage-restoration-cost-oh/", "/blog/choosing-a-restoration-company/", "/contact/"]

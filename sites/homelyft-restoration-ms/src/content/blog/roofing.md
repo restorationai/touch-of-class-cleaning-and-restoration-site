@@ -7,8 +7,8 @@ primary_keyword: "Roofing."
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/roofing/hero.webp"
+og: "/images/blog/2026/10/roofing/hero.webp"
 generated_at: "2026-09-20T14:32:50Z"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/services/storm-damage-restoration/", "/services/water-damage-restoration/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/what-to-do-first-24-hours-water-damage/", "/service-areas/d-iberville-ms/"]

@@ -7,8 +7,8 @@ primary_keyword: "coastal restoration"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/coastal-restoration/hero.webp"
+og: "/images/blog/2026/10/coastal-restoration/hero.webp"
 generated_at: "2026-09-15T15:13:48Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/crawl-space-encapsulation/", "/services/storm-damage-restoration/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/choosing-a-restoration-company/", "/contact/"]

@@ -7,8 +7,8 @@ primary_keyword: "unattended death cleanup"
 secondary_keywords: ["who cleans up after a death at home", "unattended death cleanup cost", "biohazard cleanup after death", "how long does unattended death cleanup take", "does insurance cover unattended death cleanup"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/unattended-death-cleanup/hero.webp"
+og: "/images/blog/2026/10/unattended-death-cleanup/hero.webp"
 generated_at: "2026-09-24T19:26:05Z"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/las-vegas-nv/biohazard-cleanup/", "/contact/", "/blog/does-homeowners-insurance-cover-water-damage/"]

@@ -7,8 +7,8 @@ primary_keyword: "who to call for mold remediation in Ventura, CA"
 secondary_keywords: ["who do you call for mold remediation Ventura", "who do I call for mold remediation in Ventura", "mold remediation emergency number Ventura CA", "mold removal Ventura", "mold cleanup Ventura", "black mold removal Ventura"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/who-to-call-for-mold-remediation-in-ventura-ca/hero.webp"
+og: "/images/blog/2026/10/who-to-call-for-mold-remediation-in-ventura-ca/hero.webp"
 generated_at: "2026-09-29T22:31:02Z"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/services/crawl-space-encapsulation/", "/blog/how-to-test-for-mold/", "/blog/black-mold-vs-regular-mold/", "/contact/"]

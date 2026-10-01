@@ -7,8 +7,8 @@ primary_keyword: "Carpet & Upholstery Cleaning"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/carpet-upholstery-cleaning/hero.webp"
+og: "/images/blog/2026/10/carpet-upholstery-cleaning/hero.webp"
 generated_at: "2026-09-20T14:22:16Z"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/services/tile-grout-cleaning/", "/services/water-damage-restoration/", "/blog/mold-after-water-damage/", "/service-areas/goldsmith-tx/"]

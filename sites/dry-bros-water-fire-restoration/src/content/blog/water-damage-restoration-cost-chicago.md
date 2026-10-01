@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost"
 secondary_keywords: ["how much does water damage restoration cost", "water mitigation cost", "water damage restoration cost per square foot", "what does water damage restoration include", "water extraction services"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost-chicago/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost-chicago/hero.webp"
 generated_at: "2026-09-18T23:01:38Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/emergency-water-removal/", "/contact/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/blog/signs-of-hidden-mold/"]

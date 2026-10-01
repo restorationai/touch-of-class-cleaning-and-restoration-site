@@ -7,8 +7,8 @@ primary_keyword: "mold testing kingsburg"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/mold-testing-kingsburg/hero.webp"
+og: "/images/blog/2026/10/mold-testing-kingsburg/hero.webp"
 generated_at: "2026-09-18T12:18:41Z"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/services/indoor-air-quality-testing/", "/services/clearance-testing/", "/services/post-flood-mold-assessment/", "/contact/", "/blog/air-sampling-vs-surface-sampling/", "/blog/do-i-need-mold-test-before-buying-house/", "/blog/why-independent-mold-testing-matters/"]

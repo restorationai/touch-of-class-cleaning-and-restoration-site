@@ -7,8 +7,8 @@ primary_keyword: "black mold removal"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/black-mold-removal/hero.webp"
+og: "/images/blog/2026/10/black-mold-removal/hero.webp"
 generated_at: "2026-09-13T10:30:30Z"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/blog/black-mold-vs-regular-mold/", "/blog/choosing-a-restoration-company/", "/blog/signs-of-hidden-mold/", "/blog/how-to-test-for-mold/"]

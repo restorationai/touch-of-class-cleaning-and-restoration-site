@@ -7,6 +7,8 @@ primary_keyword: "how long does water damage restoration actually take"
 secondary_keywords: ["water damage restoration"]
 search_intent: "informational_process"
 priority: 4.8
+hero: "/images/blog/2026/10/how-long-does-water-damage-restoration-take/hero.webp"
+og: "/images/blog/2026/10/how-long-does-water-damage-restoration-take/hero.webp"
 plan_hash: "8d0a24ccdcd16230"
 generated_at: "2026-09-30T19:28:33.882677+00:00"
 manual_override: false

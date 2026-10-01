@@ -7,8 +7,8 @@ primary_keyword: "Lead Testing"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/lead-testing/hero.webp"
+og: "/images/blog/2026/10/lead-testing/hero.webp"
 generated_at: "2026-09-30T10:27:29Z"
 manual_override: false
 internal_links: ["/services/lead-paint-testing/", "/services/clearance-testing/", "/services/compliance-consulting/", "/service-areas/clovis-ca/", "/contact/"]

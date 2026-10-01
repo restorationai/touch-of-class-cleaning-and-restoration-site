@@ -7,8 +7,8 @@ primary_keyword: "Storm & Wind Damage Restoration"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/storm-wind-damage-restoration/hero.webp"
+og: "/images/blog/2026/10/storm-wind-damage-restoration/hero.webp"
 generated_at: "2026-09-18T10:38:37Z"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/services/emergency-board-up-tarping/", "/services/water-damage-restoration/", "/services/contents-restoration-storage/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/contact/"]

@@ -7,6 +7,8 @@ primary_keyword: "does homeowners insurance cover water damage a plainenglish gu
 secondary_keywords: ["water damage restoration"]
 search_intent: "informational_insurance"
 priority: 5.4
+hero: "/images/blog/2026/10/does-homeowners-insurance-cover-water-damage/hero.webp"
+og: "/images/blog/2026/10/does-homeowners-insurance-cover-water-damage/hero.webp"
 plan_hash: "dff3fea33c65f11b"
 generated_at: "2026-09-20T05:12:19.827326+00:00"
 manual_override: false

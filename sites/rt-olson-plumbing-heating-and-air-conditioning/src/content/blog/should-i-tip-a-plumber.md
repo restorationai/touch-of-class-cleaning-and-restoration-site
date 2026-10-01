@@ -7,8 +7,8 @@ primary_keyword: "should i tip a plumber"
 secondary_keywords: ["do you tip a plumber for a service call", "how much do you tip a plumber", "do you tip plumbers on a big install job", "is it rude not to tip a tradesperson", "better ways to thank a plumber than tipping", "do plumbing companies allow their techs to accept tips"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/should-i-tip-a-plumber/hero.webp"
+og: "/images/blog/2026/10/should-i-tip-a-plumber/hero.webp"
 generated_at: "2026-09-22T15:36:22Z"
 manual_override: false
 internal_links: ["/services/drain-cleaning/", "/services/emergency-plumbing/", "/contact/", "/services/", "/about/"]

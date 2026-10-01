@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in Midland, TX"
 secondary_keywords: ["best water damage restoration companies Midland", "top rated water damage restoration Midland TX", "who is the best water damage restoration company in Midland", "water damage cleanup Midland", "water cleanup Midland", "water removal Midland"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/best-water-damage-restoration-company-in-midland-tx/hero.webp"
+og: "/images/blog/2026/10/best-water-damage-restoration-company-in-midland-tx/hero.webp"
 generated_at: "2026-09-09T10:26:07Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/sewage-cleanup/", "/services/storm-damage-restoration/", "/blog/sewage-backup-health-risks/", "/blog/storm-damage-insurance-claim-checklist/", "/blog/mold-after-water-damage/", "/blog/choosing-a-restoration-company/", "/blog/burst-pipe-emergency-checklist/", "/blog/does-homeowners-insurance-cover-water-damage/", "/contact/"]

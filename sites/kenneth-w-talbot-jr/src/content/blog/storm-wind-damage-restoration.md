@@ -7,8 +7,8 @@ primary_keyword: "Storm & Wind Damage Restoration"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/storm-wind-damage-restoration/hero.webp"
+og: "/images/blog/2026/10/storm-wind-damage-restoration/hero.webp"
 generated_at: "2026-09-20T14:37:14Z"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/services/water-damage-restoration/", "/services/mold-remediation/", "/blog/burst-pipe-emergency-checklist/", "/blog/signs-of-hidden-mold/", "/blog/does-homeowners-insurance-cover-water-damage/", "/service-areas/crestview-fl/"]

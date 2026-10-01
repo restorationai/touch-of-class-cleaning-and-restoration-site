@@ -7,6 +7,8 @@ primary_keyword: "wood vs composite decking which is right for your backyard"
 secondary_keywords: ["decks, pergolas and fences"]
 search_intent: "informational_specialty"
 priority: 4.8
+hero: "https://images.davisconstructioncontractors.com/blog/2026/10/wood-vs-composite-decking/hero.webp"
+og: "https://images.davisconstructioncontractors.com/blog/2026/10/wood-vs-composite-decking/hero.webp"
 plan_hash: "777ccddac28e41e3"
 generated_at: "2026-09-30T14:12:04.108813+00:00"
 manual_override: false

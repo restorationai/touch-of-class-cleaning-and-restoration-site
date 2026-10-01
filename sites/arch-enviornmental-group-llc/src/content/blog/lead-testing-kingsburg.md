@@ -7,8 +7,8 @@ primary_keyword: "lead testing kingsburg"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/lead-testing-kingsburg/hero.webp"
+og: "/images/blog/2026/10/lead-testing-kingsburg/hero.webp"
 generated_at: "2026-09-20T14:22:05Z"
 manual_override: false
 internal_links: ["/services/lead-paint-testing/", "/services/clearance-testing/", "/services/environmental-site-assessments/", "/contact/", "/service-areas/kingsburg-ca/"]

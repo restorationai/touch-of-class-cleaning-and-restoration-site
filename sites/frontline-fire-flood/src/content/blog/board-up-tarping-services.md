@@ -7,8 +7,8 @@ primary_keyword: "Board-Up & Tarping Services"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/board-up-tarping-services/hero.webp"
+og: "/images/blog/2026/10/board-up-tarping-services/hero.webp"
 generated_at: "2026-09-22T15:18:09Z"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/services/fire-damage-restoration/", "/services/storm-damage-restoration/", "/service-areas/parkland-wa/", "/blog/fire-damage-restoration-process/", "/blog/does-homeowners-insurance-cover-water-damage/"]

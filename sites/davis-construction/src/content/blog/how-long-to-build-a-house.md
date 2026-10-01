@@ -7,6 +7,8 @@ primary_keyword: "how long does it take to build a house a realistic timeline"
 secondary_keywords: ["new home construction"]
 search_intent: "informational_process"
 priority: 4.8
+hero: "https://images.davisconstructioncontractors.com/blog/2026/10/how-long-to-build-a-house/hero.webp"
+og: "https://images.davisconstructioncontractors.com/blog/2026/10/how-long-to-build-a-house/hero.webp"
 plan_hash: "47d463075ee442d6"
 generated_at: "2026-09-30T14:12:04.109878+00:00"
 manual_override: false

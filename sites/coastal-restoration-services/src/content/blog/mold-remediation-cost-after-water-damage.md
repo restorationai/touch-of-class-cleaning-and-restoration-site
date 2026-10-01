@@ -7,8 +7,8 @@ primary_keyword: "how much does mold remediation cost after water damage"
 secondary_keywords: ["mold remediation cost per square foot", "cost to remove mold after a water leak", "does insurance cover mold remediation after water damage", "mold inspection cost before remediation", "how much does mold remediation cost after water damage in California", "signs you need mold remediation not just drying"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/mold-remediation-cost-after-water-damage/hero.webp"
+og: "/images/blog/2026/10/mold-remediation-cost-after-water-damage/hero.webp"
 generated_at: "2026-09-20T14:26:47Z"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/services/water-damage-restoration/", "/service-areas/lompoc-ca/mold-remediation/", "/blog/water-damage-insurance-claim-tips/", "/blog/how-to-test-for-mold/", "/blog/signs-of-hidden-mold/"]

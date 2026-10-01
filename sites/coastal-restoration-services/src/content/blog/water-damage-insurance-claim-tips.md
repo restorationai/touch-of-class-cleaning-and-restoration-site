@@ -7,8 +7,8 @@ primary_keyword: "water damage insurance claim tips"
 secondary_keywords: ["water damage insurance claim list", "how to file a home insurance claim for water damage", "what is an assignment of benefits in a water damage claim", "do i have to use my insurance company's preferred restoration contractor", "does homeowners insurance cover additional living expenses water damage", "what questions to ask a water damage restoration company", "does homeowners insurance cover water damage in california"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-insurance-claim-tips/hero.webp"
+og: "/images/blog/2026/10/water-damage-insurance-claim-tips/hero.webp"
 generated_at: "2026-09-03T20:00:40Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/contact/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/choosing-a-restoration-company/"]

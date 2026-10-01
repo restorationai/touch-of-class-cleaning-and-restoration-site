@@ -7,6 +7,8 @@ primary_keyword: "vinyl fiber cement or wood home siding options compared"
 secondary_keywords: ["siding and gutters"]
 search_intent: "informational_specialty"
 priority: 4.8
+hero: "https://images.davisconstructioncontractors.com/blog/2026/10/siding-options-compared/hero.webp"
+og: "https://images.davisconstructioncontractors.com/blog/2026/10/siding-options-compared/hero.webp"
 plan_hash: "b1b5ecb8d6d0976d"
 generated_at: "2026-09-30T14:12:04.109114+00:00"
 manual_override: false

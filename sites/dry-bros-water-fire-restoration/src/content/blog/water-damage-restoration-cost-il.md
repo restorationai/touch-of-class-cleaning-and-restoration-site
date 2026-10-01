@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost IL"
 secondary_keywords: ["how much does water damage restoration cost in IL", "water damage restoration price IL", "average cost of water damage restoration IL", "water damage cleanup IL", "water cleanup IL", "water removal IL"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost-il/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost-il/hero.webp"
 generated_at: "2026-09-30T01:26:06Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/basement-flooding-cleanup/", "/services/sewage-cleanup/", "/service-areas/chicago-il/", "/contact/"]

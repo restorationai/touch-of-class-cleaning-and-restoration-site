@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in Lakewood, WA"
 secondary_keywords: ["best water damage restoration companies Lakewood", "top rated water damage restoration Lakewood WA", "who is the best water damage restoration company in Lakewood", "water damage cleanup Lakewood", "water damage repair Lakewood", "water cleanup Lakewood"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/best-water-damage-restoration-company-in-lakewood-wa/hero.webp"
+og: "/images/blog/2026/10/best-water-damage-restoration-company-in-lakewood-wa/hero.webp"
 generated_at: "2026-09-06T13:46:54Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/emergency-water-removal/", "/services/mold-remediation/", "/services/fire-damage-restoration/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/", "/contact/"]

@@ -7,8 +7,8 @@ primary_keyword: "asbestos testing cost CA"
 secondary_keywords: ["how much does asbestos testing cost in CA", "asbestos testing price CA", "average cost of asbestos testing CA", "asbestos test CA", "asbestos testing near me CA", "asbestos check CA"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/asbestos-testing-cost-ca/hero.webp"
+og: "/images/blog/2026/10/asbestos-testing-cost-ca/hero.webp"
 generated_at: "2026-09-22T15:09:39Z"
 manual_override: false
 internal_links: ["/services/asbestos-testing/", "/services/clearance-testing/", "/blog/asbestos-test-before-renovation/", "/contact/", "/service-areas/kingsburg-ca/"]

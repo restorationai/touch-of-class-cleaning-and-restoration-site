@@ -7,8 +7,8 @@ primary_keyword: "who to call for water damage restoration in Henderson, NV"
 secondary_keywords: ["who do you call for water damage restoration Henderson", "who do I call for water damage restoration in Henderson", "water damage restoration emergency number Henderson NV", "water damage cleanup Henderson", "water cleanup Henderson", "water damage repair Henderson"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-henderson-nv/hero.webp"
+og: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-henderson-nv/hero.webp"
 generated_at: "2026-09-18T10:55:36Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/what-to-do-first-24-hours-water-damage/", "/contact/", "/service-areas/henderson-nv/"]

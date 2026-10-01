@@ -7,6 +7,8 @@ primary_keyword: "how long does a roof replacement actually take"
 secondary_keywords: ["roofing installation and replacement"]
 search_intent: "informational_process"
 priority: 4.8
+hero: "https://images.davisconstructioncontractors.com/blog/2026/10/how-long-does-roof-replacement-take/hero.webp"
+og: "https://images.davisconstructioncontractors.com/blog/2026/10/how-long-does-roof-replacement-take/hero.webp"
 plan_hash: "ec1edf914f40b9a7"
 generated_at: "2026-09-30T14:12:04.108498+00:00"
 manual_override: false

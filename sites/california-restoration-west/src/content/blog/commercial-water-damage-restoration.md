@@ -7,8 +7,8 @@ primary_keyword: "commercial water damage restoration"
 secondary_keywords: ["commercial water damage restoration near me", "commercial water damage cleanup", "office water damage restoration", "water damage restoration for apartment buildings", "business interruption after water damage", "commercial water damage restoration ventura"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/commercial-water-damage-restoration/hero.webp"
+og: "/images/blog/2026/10/commercial-water-damage-restoration/hero.webp"
 generated_at: "2026-09-03T19:52:44Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/contents-restoration/", "/service-areas/oxnard-ca/water-damage-restoration/", "/blog/water-damage-restoration-cost/", "/blog/burst-pipe-emergency-checklist/"]

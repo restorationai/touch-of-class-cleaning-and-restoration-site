@@ -7,8 +7,8 @@ primary_keyword: "best plumber near me"
 secondary_keywords: ["how to choose a plumber", "what questions to ask a plumber before hiring", "plumber red flags to walk away from", "how many plumbing quotes should you get", "do plumbers give free estimates", "flat rate vs hourly plumbing pricing", "should you always take the lowest plumbing bid"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/how-to-pick-the-best-plumber-near-me/hero.webp"
+og: "/images/blog/2026/10/how-to-pick-the-best-plumber-near-me/hero.webp"
 generated_at: "2026-09-08T14:52:23Z"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/services/leak-detection/", "/services/emergency-plumbing/", "/blog/local-plumber-vs-national-chain/"]

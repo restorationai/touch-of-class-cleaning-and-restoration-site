@@ -7,8 +7,8 @@ primary_keyword: "who to call for water damage restoration in Kenilworth, NJ"
 secondary_keywords: ["who do you call for water damage restoration Kenilworth", "who do I call for water damage restoration in Kenilworth", "water damage restoration emergency number Kenilworth NJ", "water damage cleanup Kenilworth", "water cleanup Kenilworth", "water removal Kenilworth"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-kenilworth-nj/hero.webp"
+og: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-kenilworth-nj/hero.webp"
 generated_at: "2026-09-18T11:08:09Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/basement-flooding-cleanup/", "/services/sewage-cleanup/", "/services/emergency-board-up-tarping/", "/contact/"]

@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost"
 secondary_keywords: ["how much does water damage restoration cost", "water damage restoration cost per square foot", "water damage restoration cost calculator", "water damage restoration cost honolulu", "water damage restoration price sheet", "what affects water damage restoration pricing"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost/hero.webp"
 generated_at: "2026-09-24T15:22:04Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/flood-equipment-rental/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/how-long-does-water-damage-restoration-take/", "/contact/"]

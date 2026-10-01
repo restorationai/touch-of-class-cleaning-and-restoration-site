@@ -7,8 +7,8 @@ primary_keyword: "fire damage restoration sunrise manor"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/fire-damage-restoration-sunrise-manor/hero.webp"
+og: "/images/blog/2026/10/fire-damage-restoration-sunrise-manor/hero.webp"
 generated_at: "2026-09-22T15:29:47Z"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/services/water-damage-restoration/", "/services/contents-restoration-storage/", "/blog/fire-damage-restoration-process/", "/blog/fire-damage-restoration-cost-nv/", "/blog/what-to-do-first-24-hours-water-damage/", "/service-areas/sunrise-manor-nv/"]

@@ -7,8 +7,8 @@ primary_keyword: "how long does it take to dry out walls from water damage"
 secondary_keywords: ["will a dehumidifier pull moisture out of drywall", "how to draw moisture out of drywall", "how long should you run a dehumidifier in your house", "where not to place a dehumidifier", "how long does water damage restoration take"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/how-long-dry-out-walls-water-damage-brainerd-mn/hero.webp"
+og: "/images/blog/2026/10/how-long-dry-out-walls-water-damage-brainerd-mn/hero.webp"
 generated_at: "2026-09-23T00:46:51Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/brainerd-mn/water-damage-restoration/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/basement-flooding-prevention/", "/contact/"]

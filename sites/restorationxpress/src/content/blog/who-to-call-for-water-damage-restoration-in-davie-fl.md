@@ -7,8 +7,8 @@ primary_keyword: "who to call for water damage restoration in Davie, FL"
 secondary_keywords: ["who do you call for water damage restoration Davie", "who do I call for water damage restoration in Davie", "water damage restoration emergency number Davie FL", "water damage repair Davie", "water damage cleanup Davie", "water cleanup Davie"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-davie-fl/hero.webp"
+og: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-davie-fl/hero.webp"
 generated_at: "2026-09-18T11:11:14Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/flood-damage-restoration/", "/services/mold-remediation/", "/blog/burst-pipe-emergency-checklist/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/does-homeowners-insurance-cover-water-damage/", "/contact/"]

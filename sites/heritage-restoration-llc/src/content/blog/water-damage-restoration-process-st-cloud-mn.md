@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration process"
 secondary_keywords: ["what does water damage restoration include", "can water damage be restored", "water damage restoration equipment and drying", "water damage restoration timeline", "do i need a licensed water damage restoration company"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-process-st-cloud-mn/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-process-st-cloud-mn/hero.webp"
 generated_at: "2026-09-21T00:25:20Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/st-cloud-mn/water-damage-restoration/", "/services/emergency-water-removal/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/burst-pipe-emergency-checklist/", "/blog/does-homeowners-insurance-cover-water-damage/"]

@@ -7,8 +7,8 @@ primary_keyword: ""
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/restoration-job-goes-right-case-study/hero.webp"
+og: "/images/blog/2026/10/restoration-job-goes-right-case-study/hero.webp"
 generated_at: "2026-09-29T22:47:14Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/fire-damage-restoration/", "/contact/"]

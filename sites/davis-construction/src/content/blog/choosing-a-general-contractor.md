@@ -7,6 +7,8 @@ primary_keyword: "how to choose a general contractor in  without getting burned"
 secondary_keywords: ["renovations, remodels and general contracting", "home remodeling", "new home construction"]
 search_intent: "commercial_decision"
 priority: 6.0
+hero: "https://images.davisconstructioncontractors.com/blog/2026/10/choosing-a-general-contractor/hero.webp"
+og: "https://images.davisconstructioncontractors.com/blog/2026/10/choosing-a-general-contractor/hero.webp"
 plan_hash: "0955c742468e71c0"
 generated_at: "2026-09-30T14:12:04.107229+00:00"
 manual_override: false

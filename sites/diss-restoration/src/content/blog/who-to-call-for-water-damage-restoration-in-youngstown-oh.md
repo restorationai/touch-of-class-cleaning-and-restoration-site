@@ -7,8 +7,8 @@ primary_keyword: "who to call for water damage restoration in Youngstown, OH"
 secondary_keywords: ["who do you call for water damage restoration Youngstown", "who do I call for water damage restoration in Youngstown", "water damage restoration emergency number Youngstown OH", "water damage repair Youngstown", "water damage cleanup Youngstown", "water cleanup Youngstown"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-youngstown-oh/hero.webp"
+og: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-youngstown-oh/hero.webp"
 generated_at: "2026-09-17T15:13:12Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/blog/does-homeowners-insurance-cover-water-damage/", "/contact/"]

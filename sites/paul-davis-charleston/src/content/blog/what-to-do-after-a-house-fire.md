@@ -7,8 +7,8 @@ primary_keyword: "what to do after a house fire"
 secondary_keywords: ["fire restoration checklist", "can you live in a house after a fire", "debris removal after house fire", "what does a fire restoration company do", "fire damage restoration process", "how long does fire damage restoration take"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/what-to-do-after-a-house-fire/hero.webp"
+og: "/images/blog/2026/10/what-to-do-after-a-house-fire/hero.webp"
 generated_at: "2026-09-29T20:20:52Z"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/services/water-damage-restoration/", "/services/mold-remediation/", "/blog/fire-damage-restoration-process/", "/blog/smoke-odor-removal-techniques/", "/blog/mold-after-water-damage/"]

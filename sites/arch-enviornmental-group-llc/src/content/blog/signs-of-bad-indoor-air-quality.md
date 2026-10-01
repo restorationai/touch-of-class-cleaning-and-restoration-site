@@ -7,6 +7,8 @@ primary_keyword: "7 signs of bad indoor air quality and which tests confirm each
 secondary_keywords: ["indoor air quality testing"]
 search_intent: "informational_health"
 priority: 5.4
+hero: "/images/blog/2026/10/signs-of-bad-indoor-air-quality/hero.webp"
+og: "/images/blog/2026/10/signs-of-bad-indoor-air-quality/hero.webp"
 plan_hash: "736e5198c7a8e77f"
 generated_at: "2026-09-04T23:21:19.393720+00:00"
 manual_override: false

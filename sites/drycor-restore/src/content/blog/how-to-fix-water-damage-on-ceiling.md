@@ -7,8 +7,8 @@ primary_keyword: "how to fix water damage on ceiling"
 secondary_keywords: ["ceiling water damage repair", "water damage on ceiling", "signs of water damage behind walls", "ceiling water damage repair cost", "water stain on ceiling after heavy rain", "when to replace instead of repair a water damaged ceiling"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/how-to-fix-water-damage-on-ceiling/hero.webp"
+og: "/images/blog/2026/10/how-to-fix-water-damage-on-ceiling/hero.webp"
 generated_at: "2026-09-22T15:17:38Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/storm-damage-restoration/", "/services/mold-remediation/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/signs-of-hidden-mold/"]

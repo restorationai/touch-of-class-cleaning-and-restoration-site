@@ -7,8 +7,8 @@ primary_keyword: "Fire & Smoke Restoration"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/fire-smoke-restoration/hero.webp"
+og: "/images/blog/2026/10/fire-smoke-restoration/hero.webp"
 generated_at: "2026-09-18T10:43:07Z"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/services/water-damage-restoration/", "/blog/fire-damage-restoration-process/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/contact/", "/service-areas/defuniak-springs-fl/"]

@@ -7,8 +7,8 @@ primary_keyword: "Fire & Smoke Restoration"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/fire-smoke-restoration/hero.webp"
+og: "/images/blog/2026/10/fire-smoke-restoration/hero.webp"
 generated_at: "2026-09-22T15:32:06Z"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/services/contents-restoration-storage/", "/services/water-damage-restoration/", "/blog/fire-damage-restoration-process/", "/blog/burst-pipe-emergency-checklist/", "/service-areas/enterprise-nv/", "/contact/"]

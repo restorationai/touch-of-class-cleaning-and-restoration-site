@@ -7,6 +7,8 @@ primary_keyword: "the fire damage restoration process explained"
 secondary_keywords: ["fire damage restoration", "smoke damage restoration"]
 search_intent: "informational_emergency"
 priority: 5.4
+hero: "/images/blog/2026/10/fire-damage-restoration-process/hero.webp"
+og: "/images/blog/2026/10/fire-damage-restoration-process/hero.webp"
 plan_hash: "5a5e35ef855d1b19"
 generated_at: "2026-10-01T18:38:17.023934+00:00"
 manual_override: false

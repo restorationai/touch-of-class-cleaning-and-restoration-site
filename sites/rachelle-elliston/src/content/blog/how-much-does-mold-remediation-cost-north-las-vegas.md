@@ -7,8 +7,8 @@ primary_keyword: "how much does mold remediation cost"
 secondary_keywords: ["average cost of mold remediation", "mold remediation cost per square foot", "how much does mold remediation cost in las vegas", "black mold remediation cost", "does mold remediation include replacing drywall", "who pays for mold remediation"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/how-much-does-mold-remediation-cost-north-las-vegas/hero.webp"
+og: "/images/blog/2026/10/how-much-does-mold-remediation-cost-north-las-vegas/hero.webp"
 generated_at: "2026-09-29T22:44:59Z"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/north-las-vegas-nv/mold-remediation/", "/services/water-damage-restoration/", "/blog/how-to-test-for-mold/", "/blog/black-mold-vs-regular-mold/"]

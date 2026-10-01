@@ -7,8 +7,8 @@ primary_keyword: "mold inspection cost"
 secondary_keywords: ["mold inspection price", "mold inspection cost near me", "how much does a mold inspection cost in california", "mold inspection cost for apartment", "how much does mold testing cost", "professional mold testing"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/mold-inspection-cost/hero.webp"
+og: "/images/blog/2026/10/mold-inspection-cost/hero.webp"
 generated_at: "2026-09-14T10:30:00Z"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/fresno-ca/mold-inspection-testing/", "/contact/", "/blog/air-sampling-vs-surface-sampling/", "/blog/why-independent-mold-testing-matters/", "/blog/diy-mold-test-kits-vs-professional-inspection/"]

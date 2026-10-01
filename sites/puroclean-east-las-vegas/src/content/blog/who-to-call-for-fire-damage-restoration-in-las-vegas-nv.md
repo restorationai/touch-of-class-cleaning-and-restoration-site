@@ -7,8 +7,8 @@ primary_keyword: "who to call for fire damage restoration in Las Vegas, NV"
 secondary_keywords: ["who do you call for fire damage restoration Las Vegas", "who do I call for fire damage restoration in Las Vegas", "fire damage restoration emergency number Las Vegas NV", "fire damage cleanup Las Vegas", "fire restoration Las Vegas", "smoke damage cleanup Las Vegas"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/who-to-call-for-fire-damage-restoration-in-las-vegas-nv/hero.webp"
+og: "/images/blog/2026/10/who-to-call-for-fire-damage-restoration-in-las-vegas-nv/hero.webp"
 generated_at: "2026-09-18T11:01:51Z"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/services/contents-restoration-storage/", "/services/water-damage-restoration/", "/blog/fire-damage-restoration-process/", "/blog/fire-damage-restoration-cost-nv/"]

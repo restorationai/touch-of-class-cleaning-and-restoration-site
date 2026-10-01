@@ -7,8 +7,8 @@ primary_keyword: ""
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-call-case-study/hero.webp"
+og: "/images/blog/2026/10/water-damage-call-case-study/hero.webp"
 generated_at: "2026-09-29T22:47:57Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/how-long-does-water-damage-restoration-take/", "/contact/"]

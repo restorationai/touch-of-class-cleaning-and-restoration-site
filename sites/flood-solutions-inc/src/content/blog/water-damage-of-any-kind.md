@@ -7,8 +7,8 @@ primary_keyword: "Water Damage of any kind"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-of-any-kind/hero.webp"
+og: "/images/blog/2026/10/water-damage-of-any-kind/hero.webp"
 generated_at: "2026-09-18T11:57:48Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/mold-after-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/service-areas/chesterfield-mi/"]

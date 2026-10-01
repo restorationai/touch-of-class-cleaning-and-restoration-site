@@ -7,8 +7,8 @@ primary_keyword: "mold remediation youngstown"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/mold-remediation-youngstown/hero.webp"
+og: "/images/blog/2026/10/mold-remediation-youngstown/hero.webp"
 generated_at: "2026-09-24T10:28:22Z"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/blog/signs-of-hidden-mold/", "/blog/black-mold-vs-regular-mold/", "/blog/how-to-test-for-mold/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/service-areas/youngstown-oh/"]

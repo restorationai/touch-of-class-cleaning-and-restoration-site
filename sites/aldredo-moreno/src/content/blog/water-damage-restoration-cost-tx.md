@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost TX"
 secondary_keywords: ["how much does water damage restoration cost in TX", "water damage restoration price TX", "average cost of water damage restoration TX", "water damage cleanup TX", "water cleanup TX", "water removal TX"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost-tx/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost-tx/hero.webp"
 generated_at: "2026-09-24T15:24:09Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/sewage-cleanup/", "/services/storm-damage-restoration/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/contact/"]

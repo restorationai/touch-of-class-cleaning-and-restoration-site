@@ -7,8 +7,8 @@ primary_keyword: "fire damage restoration spring valley"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/fire-damage-restoration-spring-valley/hero.webp"
+og: "/images/blog/2026/10/fire-damage-restoration-spring-valley/hero.webp"
 generated_at: "2026-09-20T14:40:50Z"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/services/contents-restoration-storage/", "/services/water-damage-restoration/", "/blog/fire-damage-restoration-process/", "/blog/fire-damage-restoration-cost-nv/", "/blog/choosing-a-restoration-company/", "/service-areas/spring-valley-nv/"]

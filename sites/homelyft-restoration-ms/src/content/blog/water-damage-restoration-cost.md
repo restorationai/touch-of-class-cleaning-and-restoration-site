@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost"
 secondary_keywords: ["water damage restoration cost per square foot", "average cost of water damage restoration", "how much does water damage restoration cost", "water damage restoration cost calculator", "water damage restoration price sheet", "what affects water damage restoration cost"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost/hero.webp"
 generated_at: "2026-09-22T15:22:16Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/service-areas/gulfport-ms/water-damage-restoration/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/"]

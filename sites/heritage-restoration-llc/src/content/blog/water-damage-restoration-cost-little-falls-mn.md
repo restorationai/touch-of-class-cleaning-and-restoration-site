@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost"
 secondary_keywords: ["water damage restoration cost per square foot", "cost of water damage restoration", "water damage restoration prices", "how much does water damage restoration cost", "what does water damage restoration include"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost-little-falls-mn/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost-little-falls-mn/hero.webp"
 generated_at: "2026-09-18T23:23:12Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/emergency-water-removal/", "/contact/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/"]

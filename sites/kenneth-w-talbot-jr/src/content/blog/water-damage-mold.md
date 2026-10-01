@@ -7,8 +7,8 @@ primary_keyword: "water damage mold"
 secondary_keywords: ["mold after water damage", "how long for mold to grow after water damage", "how long does it take to dry out water damage", "signs of mold after a leak", "can you stop mold after water damage", "water damage mold remediation"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-mold/hero.webp"
+og: "/images/blog/2026/10/water-damage-mold/hero.webp"
 generated_at: "2026-09-24T16:55:51Z"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/services/water-damage-restoration/", "/service-areas/santa-rosa-beach-fl/mold-remediation/", "/blog/signs-of-hidden-mold/", "/contact/"]

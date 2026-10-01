@@ -7,8 +7,8 @@ primary_keyword: "fire damage claim miramar"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/fire-damage-claim-miramar/hero.webp"
+og: "/images/blog/2026/10/fire-damage-claim-miramar/hero.webp"
 generated_at: "2026-09-20T14:44:48Z"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/services/smoke-damage-restoration/", "/blog/fire-damage-restoration-process/", "/blog/smoke-odor-removal-techniques/", "/blog/storm-damage-insurance-claim-checklist/", "/service-areas/miramar-fl/", "/contact/"]

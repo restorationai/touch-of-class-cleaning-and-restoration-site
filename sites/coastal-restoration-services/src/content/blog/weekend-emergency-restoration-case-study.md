@@ -7,8 +7,8 @@ primary_keyword: ""
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/weekend-emergency-restoration-case-study/hero.webp"
+og: "/images/blog/2026/10/weekend-emergency-restoration-case-study/hero.webp"
 generated_at: "2026-09-29T22:29:35Z"
 manual_override: false
 internal_links: ["/contact/", "/about/", "/blog/choosing-a-restoration-company/", "/blog/water-damage-restoration-process/", "/blog/water-damage-insurance-claim-tips/"]

@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost MA"
 secondary_keywords: ["how much does water damage restoration cost in MA", "water damage restoration price MA", "average cost of water damage restoration MA", "water damage cleanup MA", "water damage repair MA", "water cleanup MA"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost-ma/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost-ma/hero.webp"
 generated_at: "2026-09-07T20:26:29Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/sewage-cleanup/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/", "/contact/"]

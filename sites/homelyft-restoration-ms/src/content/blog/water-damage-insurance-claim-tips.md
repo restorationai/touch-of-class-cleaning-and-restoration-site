@@ -7,8 +7,8 @@ primary_keyword: "water damage insurance claim tips"
 secondary_keywords: ["how to file a water damage insurance claim", "how to document water damage for insurance", "water damage insurance adjuster tips", "what does homeowners insurance not cover water damage", "flood insurance vs homeowners insurance water damage", "how long do i have to file a water damage claim"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-insurance-claim-tips/hero.webp"
+og: "/images/blog/2026/10/water-damage-insurance-claim-tips/hero.webp"
 generated_at: "2026-09-24T16:33:32Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/storm-damage-restoration/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/water-damage-restoration-cost/", "/contact/"]

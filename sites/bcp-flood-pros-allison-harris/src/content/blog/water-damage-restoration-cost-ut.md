@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost UT"
 secondary_keywords: ["how much does water damage restoration cost in UT", "water damage restoration price UT", "average cost of water damage restoration UT", "water damage cleanup UT", "water cleanup UT", "water removal UT"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost-ut/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost-ut/hero.webp"
 generated_at: "2026-09-24T15:23:16Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/what-to-do-first-24-hours-water-damage/", "/contact/"]

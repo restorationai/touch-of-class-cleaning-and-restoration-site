@@ -7,8 +7,8 @@ primary_keyword: "Fire & Smoke Restoration"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/fire-smoke-restoration/hero.webp"
+og: "/images/blog/2026/10/fire-smoke-restoration/hero.webp"
 generated_at: "2026-09-29T22:27:15Z"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/services/odor-removal/", "/services/contents-restoration-storage/", "/services/emergency-board-up-tarping/", "/services/general-contracting/", "/service-areas/highland-ut/", "/blog/fire-damage-restoration-process/"]

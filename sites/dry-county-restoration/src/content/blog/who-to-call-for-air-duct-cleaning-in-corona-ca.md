@@ -7,8 +7,8 @@ primary_keyword: "who to call for air duct cleaning in Corona, CA"
 secondary_keywords: ["who do you call for air duct cleaning Corona", "who do I call for air duct cleaning in Corona", "air duct cleaning emergency number Corona CA"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/who-to-call-for-air-duct-cleaning-in-corona-ca/hero.webp"
+og: "/images/blog/2026/10/who-to-call-for-air-duct-cleaning-in-corona-ca/hero.webp"
 generated_at: "2026-09-29T20:41:35Z"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/services/mold-remediation/", "/services/fire-damage-restoration/", "/services/odor-removal/", "/contact/"]

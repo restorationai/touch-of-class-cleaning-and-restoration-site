@@ -7,8 +7,8 @@ primary_keyword: "fire damage restoration youngstown"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/fire-damage-restoration-youngstown/hero.webp"
+og: "/images/blog/2026/10/fire-damage-restoration-youngstown/hero.webp"
 generated_at: "2026-09-22T00:59:33Z"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/services/contents-restoration/", "/services/asbestos-abatement/", "/services/emergency-board-up-tarping/", "/blog/fire-damage-restoration-process/", "/contact/"]

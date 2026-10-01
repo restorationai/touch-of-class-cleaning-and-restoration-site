@@ -7,8 +7,8 @@ primary_keyword: "Mold"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/mold/hero.webp"
+og: "/images/blog/2026/10/mold/hero.webp"
 generated_at: "2026-09-22T00:58:20Z"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/blog/how-to-test-for-mold/", "/blog/signs-of-hidden-mold/", "/blog/does-homeowners-insurance-cover-water-damage/", "/service-areas/chino-hills-ca/"]

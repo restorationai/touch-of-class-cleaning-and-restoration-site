@@ -7,8 +7,8 @@ primary_keyword: "residential water damage restoration"
 secondary_keywords: ["residential water damage restoration near me", "home water damage restoration", "house water damage restoration", "water damage restoration for homeowners", "what happens during residential water damage restoration", "residential water damage restoration ventura"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/residential-water-damage-restoration/hero.webp"
+og: "/images/blog/2026/10/residential-water-damage-restoration/hero.webp"
 generated_at: "2026-09-18T12:20:48Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/emergency-water-removal/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/blog/commercial-water-damage-restoration/"]

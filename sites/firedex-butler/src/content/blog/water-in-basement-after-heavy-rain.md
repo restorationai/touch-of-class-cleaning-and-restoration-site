@@ -7,8 +7,8 @@ primary_keyword: "water in basement after heavy rain"
 secondary_keywords: ["why does my basement flood when it rains", "basement seepage after storm", "sump pump failure water damage", "does homeowners insurance cover sump pump failure", "how to stop water coming in basement walls", "storm damage basement flooding"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-in-basement-after-heavy-rain/hero.webp"
+og: "/images/blog/2026/10/water-in-basement-after-heavy-rain/hero.webp"
 generated_at: "2026-09-22T15:17:40Z"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/services/storm-damage-restoration/", "/services/flood-damage-restoration/", "/services/water-damage-restoration/", "/services/sewage-cleanup/", "/blog/flooded-basement-what-to-do/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/storm-damage-insurance-claim-checklist/"]

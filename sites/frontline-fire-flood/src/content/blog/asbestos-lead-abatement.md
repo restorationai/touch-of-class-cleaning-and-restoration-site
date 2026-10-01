@@ -7,8 +7,8 @@ primary_keyword: "Asbestos & Lead Abatement"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/asbestos-lead-abatement/hero.webp"
+og: "/images/blog/2026/10/asbestos-lead-abatement/hero.webp"
 generated_at: "2026-09-24T15:34:29Z"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/services/water-damage-restoration/", "/services/fire-damage-restoration/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/choosing-a-restoration-company/", "/service-areas/olympia-wa/"]

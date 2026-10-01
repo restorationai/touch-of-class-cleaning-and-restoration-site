@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost"
 secondary_keywords: ["water damage restoration cost per square foot", "average cost of water damage restoration", "how much does water damage restoration cost", "water damage restoration cost calculator", "water damage restoration prices", "cost of water damage restoration"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost-macomb-mi/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost-macomb-mi/hero.webp"
 generated_at: "2026-09-21T16:56:53Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/emergency-water-removal/", "/contact/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/mold-after-water-damage/", "/blog/how-long-does-water-damage-restoration-take/"]

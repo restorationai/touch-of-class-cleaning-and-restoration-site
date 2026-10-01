@@ -7,8 +7,8 @@ primary_keyword: "how do i document flood damage for insurance"
 secondary_keywords: ["how to document water damage for insurance claim", "flood damage insurance claim checklist", "what to photograph after a flood", "flood damage inventory list", "proof of loss flood claim", "do i need an adjuster for flood damage"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/document-flood-damage-for-insurance/hero.webp"
+og: "/images/blog/2026/10/document-flood-damage-for-insurance/hero.webp"
 generated_at: "2026-09-12T13:46:25Z"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/services/water-damage-restoration/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/how-to-prevent-mold-after-a-flood/", "/contact/"]

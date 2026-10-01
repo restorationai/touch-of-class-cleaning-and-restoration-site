@@ -7,8 +7,8 @@ primary_keyword: "Duct Cleaning"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/duct-cleaning/hero.webp"
+og: "/images/blog/2026/10/duct-cleaning/hero.webp"
 generated_at: "2026-09-24T15:38:45Z"
 manual_override: false
 internal_links: ["/services/indoor-air-quality/", "/services/ac-repair/", "/services/furnace-repair/", "/contact/", "/service-areas/chino-hills-ca/"]

@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration equipment"
 secondary_keywords: ["air movers vs box fans water damage", "dehumidifier for water damage restoration", "moisture meter water damage inspection", "thermal imaging camera water leak detection", "negative air machine water damage", "how long do drying fans stay in the house"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-equipment/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-equipment/hero.webp"
 generated_at: "2026-09-22T15:15:26Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/blog/signs-of-hidden-mold/", "/blog/how-to-test-for-mold/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/water-damage-insurance-claim-tips/"]

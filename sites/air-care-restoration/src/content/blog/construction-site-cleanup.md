@@ -7,8 +7,8 @@ primary_keyword: "construction site cleanup"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/construction-site-cleanup/hero.webp"
+og: "/images/blog/2026/10/construction-site-cleanup/hero.webp"
 generated_at: "2026-09-22T15:09:38Z"
 manual_override: false
 internal_links: ["/services/post-construction-cleaning/", "/services/asbestos-abatement/", "/services/mold-remediation/", "/services/air-duct-cleaning/", "/services/general-contracting/"]

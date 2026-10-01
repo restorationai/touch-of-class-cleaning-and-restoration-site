@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in Thonotosasa, FL"
 secondary_keywords: ["best water damage restoration companies Thonotosasa", "top rated water damage restoration Thonotosasa FL", "who is the best water damage restoration company in Thonotosasa", "water damage cleanup Thonotosasa", "water cleanup Thonotosasa", "water removal Thonotosasa"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/best-water-damage-restoration-company-in-thonotosasa-fl/hero.webp"
+og: "/images/blog/2026/10/best-water-damage-restoration-company-in-thonotosasa-fl/hero.webp"
 generated_at: "2026-09-06T10:26:30Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/choosing-a-restoration-company/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/service-areas/thonotosasa-fl/", "/contact/"]

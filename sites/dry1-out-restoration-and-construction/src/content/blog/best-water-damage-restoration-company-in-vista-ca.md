@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in Vista, CA"
 secondary_keywords: ["best water damage restoration companies Vista", "top rated water damage restoration Vista CA", "who is the best water damage restoration company in Vista", "water damage cleanup Vista", "water cleanup Vista", "water removal Vista"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/best-water-damage-restoration-company-in-vista-ca/hero.webp"
+og: "/images/blog/2026/10/best-water-damage-restoration-company-in-vista-ca/hero.webp"
 generated_at: "2026-09-30T01:28:03Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/vista-ca/", "/contact/", "/about/"]

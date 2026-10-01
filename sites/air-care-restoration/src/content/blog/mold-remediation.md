@@ -7,8 +7,8 @@ primary_keyword: "mold remediation"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/mold-remediation/hero.webp"
+og: "/images/blog/2026/10/mold-remediation/hero.webp"
 generated_at: "2026-09-18T12:13:03Z"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/blog/signs-of-hidden-mold/", "/blog/how-to-test-for-mold/", "/blog/black-mold-removal/", "/contact/"]

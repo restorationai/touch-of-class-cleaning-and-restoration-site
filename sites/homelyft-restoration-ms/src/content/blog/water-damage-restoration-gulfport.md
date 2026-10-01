@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration gulfport"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-gulfport/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-gulfport/hero.webp"
 generated_at: "2026-09-18T11:52:16Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/sewage-cleanup/", "/blog/burst-pipe-checklist/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/best-water-damage-restoration-company-in-gulfport-ms/", "/service-areas/gulfport-ms/"]

@@ -7,8 +7,8 @@ primary_keyword: "licensed plumber"
 secondary_keywords: ["what is a c 36 plumbing license", "how do i know if a plumber is licensed", "do i need a licensed plumber", "how to look up a contractor license in california", "licensed vs unlicensed plumber risks", "does a plumber need to be bonded and insured", "which plumbing jobs need a permit in riverside county"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/licensed-plumber-c36-verify-california/hero.webp"
+og: "/images/blog/2026/10/licensed-plumber-c36-verify-california/hero.webp"
 generated_at: "2026-09-18T11:13:25Z"
 manual_override: false
 internal_links: ["/services/water-heater-installation/", "/services/", "/contact/", "/about/", "/blog/how-to-pick-the-best-plumber-near-me/"]

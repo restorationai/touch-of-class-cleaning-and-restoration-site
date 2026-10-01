@@ -7,8 +7,8 @@ primary_keyword: "who pays for water damage in a condo"
 secondary_keywords: ["water leak from upstairs condo who pays", "condo water damage responsibility", "condo association water damage", "hoa vs unit owner water damage florida", "condo insurance water damage"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/who-pays-for-water-damage-in-a-condo/hero.webp"
+og: "/images/blog/2026/10/who-pays-for-water-damage-in-a-condo/hero.webp"
 generated_at: "2026-09-24T20:02:48Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/fort-lauderdale-fl/water-damage-restoration/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/mold-after-water-damage/", "/contact/"]

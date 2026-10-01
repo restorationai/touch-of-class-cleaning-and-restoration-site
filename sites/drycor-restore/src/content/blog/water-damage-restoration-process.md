@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration process"
 secondary_keywords: ["water damage restoration process steps", "water damage restoration checklist", "how long does water damage take to dry", "water damage restoration equipment drying time", "what happens during water mitigation", "how do restoration companies dry a house"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-process/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-process/hero.webp"
 generated_at: "2026-09-24T15:33:56Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/emergency-water-removal/", "/services/contents-restoration-storage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/"]

@@ -7,8 +7,8 @@ primary_keyword: "category 3 water damage"
 secondary_keywords: ["category 1 2 3 water damage", "black water damage cleanup", "clean water vs gray water vs black water", "sewage backup in basement", "when does clean water become category 3", "water damage classes of drying"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/category-3-water-damage/hero.webp"
+og: "/images/blog/2026/10/category-3-water-damage/hero.webp"
 generated_at: "2026-09-24T15:32:50Z"
 manual_override: false
 internal_links: ["/services/sewage-cleanup/", "/services/water-damage-restoration/", "/services/mold-remediation/", "/services/basement-flooding-cleanup/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/mold-after-water-damage/"]

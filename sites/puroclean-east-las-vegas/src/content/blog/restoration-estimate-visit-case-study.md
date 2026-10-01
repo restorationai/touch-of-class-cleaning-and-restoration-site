@@ -7,8 +7,8 @@ primary_keyword: ""
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/restoration-estimate-visit-case-study/hero.webp"
+og: "/images/blog/2026/10/restoration-estimate-visit-case-study/hero.webp"
 generated_at: "2026-09-29T22:12:56Z"
 manual_override: false
 internal_links: ["/blog/choosing-a-restoration-company/", "/contact/", "/services/", "/about/"]

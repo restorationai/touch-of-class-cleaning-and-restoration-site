@@ -7,6 +7,8 @@ primary_keyword: "asphalt vs metal vs tile choosing the right roofing material"
 secondary_keywords: ["roofing installation and replacement"]
 search_intent: "informational_specialty"
 priority: 5.4
+hero: "https://images.davisconstructioncontractors.com/blog/2026/10/roofing-material-comparison/hero.webp"
+og: "https://images.davisconstructioncontractors.com/blog/2026/10/roofing-material-comparison/hero.webp"
 plan_hash: "c06477477b8d57a6"
 generated_at: "2026-09-30T14:12:04.107866+00:00"
 manual_override: false

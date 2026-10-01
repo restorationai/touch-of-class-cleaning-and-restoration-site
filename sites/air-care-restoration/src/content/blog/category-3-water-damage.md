@@ -7,8 +7,8 @@ primary_keyword: "category 3 water damage"
 secondary_keywords: ["category 1 vs category 2 vs category 3 water", "what is black water damage", "is sewage backup category 3", "category 3 water damage cleanup process", "can you save carpet after category 3 water", "how long before category 2 becomes category 3"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/category-3-water-damage/hero.webp"
+og: "/images/blog/2026/10/category-3-water-damage/hero.webp"
 generated_at: "2026-09-03T19:18:36Z"
 manual_override: false
 internal_links: ["/services/sewage-cleanup/", "/services/biohazard-cleanup/", "/services/water-damage-restoration/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/water-damage-restoration-cost/", "/contact/"]

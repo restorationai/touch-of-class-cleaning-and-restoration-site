@@ -7,8 +7,8 @@ primary_keyword: "water damage hardwood floors"
 secondary_keywords: ["how to dry hardwood floors after water damage", "cupping and crowning in hardwood after a leak", "should i replace carpet after water damage", "how long does water damage restoration take", "what equipment do restoration companies use to dry a house"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-hardwood-floors/hero.webp"
+og: "/images/blog/2026/10/water-damage-hardwood-floors/hero.webp"
 generated_at: "2026-09-22T15:30:52Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/contents-restoration/", "/services/crawl-space-encapsulation/", "/contact/", "/blog/burst-pipe-emergency-checklist/", "/blog/signs-of-hidden-mold/", "/blog/does-homeowners-insurance-cover-water-damage/"]

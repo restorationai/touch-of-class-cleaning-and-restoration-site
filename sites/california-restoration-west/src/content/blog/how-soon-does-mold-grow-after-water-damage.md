@@ -7,8 +7,8 @@ primary_keyword: "how soon does mold grow after water damage"
 secondary_keywords: ["how long before mold grows after a leak", "does water damage always cause mold", "24 to 48 hour mold growth window", "signs of mold after water damage", "how to prevent mold after water damage", "when to call mold remediation after a flood"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/how-soon-does-mold-grow-after-water-damage/hero.webp"
+og: "/images/blog/2026/10/how-soon-does-mold-grow-after-water-damage/hero.webp"
 generated_at: "2026-09-22T15:13:40Z"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/services/water-damage-restoration/", "/blog/signs-of-hidden-mold/", "/blog/what-to-do-first-24-hours-water-damage/", "/contact/"]

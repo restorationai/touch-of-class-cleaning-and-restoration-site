@@ -7,6 +7,8 @@ primary_keyword: "burst pipe emergency checklist stepbystep response"
 secondary_keywords: ["water damage restoration", "appliance leak cleanup"]
 search_intent: "informational_emergency"
 priority: 6.0
+hero: "/images/blog/2026/10/burst-pipe-emergency-checklist/hero.webp"
+og: "/images/blog/2026/10/burst-pipe-emergency-checklist/hero.webp"
 plan_hash: "e68240da9b49668f"
 generated_at: "2026-09-20T05:09:13.958370+00:00"
 manual_override: false

@@ -7,6 +7,8 @@ primary_keyword: "the storm damage repair process from inspection to finished re
 secondary_keywords: ["storm damage restoration", "roofing installation and replacement"]
 search_intent: "informational_process"
 priority: 4.8
+hero: "https://images.davisconstructioncontractors.com/blog/2026/10/storm-damage-repair-process/hero.webp"
+og: "https://images.davisconstructioncontractors.com/blog/2026/10/storm-damage-repair-process/hero.webp"
 plan_hash: "f976ebd26ca048f2"
 generated_at: "2026-09-30T14:12:04.109411+00:00"
 manual_override: false

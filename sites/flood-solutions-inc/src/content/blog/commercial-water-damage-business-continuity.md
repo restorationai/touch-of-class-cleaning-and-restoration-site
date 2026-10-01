@@ -7,6 +7,8 @@ primary_keyword: "commercial water damage protecting business continuity after a
 secondary_keywords: ["commercial restoration", "water damage restoration"]
 search_intent: "informational_b2b"
 priority: 4.2
+hero: "/images/blog/2026/10/commercial-water-damage-business-continuity/hero.webp"
+og: "/images/blog/2026/10/commercial-water-damage-business-continuity/hero.webp"
 plan_hash: "420141864949f409"
 generated_at: "2026-09-11T16:36:44.283434+00:00"
 manual_override: false

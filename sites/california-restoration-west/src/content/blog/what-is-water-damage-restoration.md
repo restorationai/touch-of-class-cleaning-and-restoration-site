@@ -7,8 +7,8 @@ primary_keyword: "what is water damage restoration"
 secondary_keywords: ["what does water damage restoration include", "water damage restoration vs water mitigation", "what is the water damage restoration process", "how does the water damage restoration process work", "what equipment do water damage restoration companies use", "is water damage restoration the same as remediation"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/what-is-water-damage-restoration/hero.webp"
+og: "/images/blog/2026/10/what-is-water-damage-restoration/hero.webp"
 generated_at: "2026-09-20T14:26:31Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/emergency-water-removal/", "/services/mold-remediation/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/water-damage-restoration-cost/"]

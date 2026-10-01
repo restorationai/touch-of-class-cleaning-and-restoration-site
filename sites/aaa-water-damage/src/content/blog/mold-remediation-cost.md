@@ -7,8 +7,8 @@ primary_keyword: "mold remediation cost"
 secondary_keywords: ["how much does mold remediation cost", "mold remediation cost per square foot", "whole-house mold remediation cost", "cost of mold remediation in a condo", "what affects mold remediation pricing", "does the mold remediation quote include reconstruction"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/mold-remediation-cost/hero.webp"
+og: "/images/blog/2026/10/mold-remediation-cost/hero.webp"
 generated_at: "2026-10-01T16:23:20Z"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/services/mold-inspection-testing/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/mold-after-water-damage/"]

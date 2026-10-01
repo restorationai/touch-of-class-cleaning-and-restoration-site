@@ -7,8 +7,8 @@ primary_keyword: "does renters insurance cover water damage"
 secondary_keywords: ["renters insurance water damage from upstairs apartment", "who pays for water damage in a rental, landlord or tenant", "how to document water damage for insurance claim", "does renters insurance cover flooding", "water damage restoration insurance claim process"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/does-renters-insurance-cover-water-damage/hero.webp"
+og: "/images/blog/2026/10/does-renters-insurance-cover-water-damage/hero.webp"
 generated_at: "2026-09-24T19:39:54Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/", "/contact/"]

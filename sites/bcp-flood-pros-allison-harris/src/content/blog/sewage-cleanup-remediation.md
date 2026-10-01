@@ -7,8 +7,8 @@ primary_keyword: "Sewage Cleanup & Remediation"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/sewage-cleanup-remediation/hero.webp"
+og: "/images/blog/2026/10/sewage-cleanup-remediation/hero.webp"
 generated_at: "2026-09-20T14:22:07Z"
 manual_override: false
 internal_links: ["/services/sewage-cleanup/", "/services/mold-remediation/", "/services/water-damage-restoration/", "/service-areas/orem-ut/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/"]

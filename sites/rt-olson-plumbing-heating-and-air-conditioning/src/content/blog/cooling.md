@@ -7,8 +7,8 @@ primary_keyword: "Cooling"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/cooling/hero.webp"
+og: "/images/blog/2026/10/cooling/hero.webp"
 generated_at: "2026-09-29T22:49:25Z"
 manual_override: false
 internal_links: ["/services/ac-repair/", "/services/indoor-air-quality/", "/service-areas/chino-ca/", "/contact/"]

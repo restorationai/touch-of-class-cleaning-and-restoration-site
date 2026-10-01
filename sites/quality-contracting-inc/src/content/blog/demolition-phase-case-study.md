@@ -7,8 +7,8 @@ primary_keyword: ""
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/demolition-phase-case-study/hero.webp"
+og: "/images/blog/2026/10/demolition-phase-case-study/hero.webp"
 generated_at: "2026-09-29T22:26:13Z"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/services/water-damage-restoration/", "/services/fire-damage-restoration/", "/contact/", "/about/"]

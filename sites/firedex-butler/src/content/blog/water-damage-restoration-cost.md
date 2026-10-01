@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost"
 secondary_keywords: ["water damage restoration cost per square foot", "how much does water damage restoration cost", "how much does it cost to fix a flooded basement", "who pays for water damage restoration", "water damage insurance claim", "water damage restoration cost calculator"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost/hero.webp"
 generated_at: "2026-09-20T14:29:57Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/basement-flooding-cleanup/", "/services/burst-pipe-repair/", "/services/reconstruction/", "/contact/"]

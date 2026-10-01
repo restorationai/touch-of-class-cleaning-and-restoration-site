@@ -7,8 +7,8 @@ primary_keyword: "who to call for water damage restoration in Auburn, MA"
 secondary_keywords: ["who do you call for water damage restoration Auburn", "who do I call for water damage restoration in Auburn", "water damage restoration emergency number Auburn MA", "water removal Auburn", "water damage repair Auburn", "water damage cleanup Auburn"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-auburn-ma/hero.webp"
+og: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-auburn-ma/hero.webp"
 generated_at: "2026-09-18T11:05:07Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/contact/"]

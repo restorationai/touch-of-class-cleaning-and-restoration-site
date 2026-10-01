@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost NV"
 secondary_keywords: ["how much does water damage restoration cost in NV", "water damage restoration price NV", "average cost of water damage restoration NV", "water damage cleanup NV", "water cleanup NV", "water removal NV"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost-nv/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost-nv/hero.webp"
 generated_at: "2026-09-07T20:07:37Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/sewage-cleanup/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/contact/"]

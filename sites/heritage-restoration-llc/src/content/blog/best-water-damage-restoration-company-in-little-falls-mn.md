@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in Little Falls, MN"
 secondary_keywords: ["best water damage restoration companies Little Falls", "top rated water damage restoration Little Falls MN", "who is the best water damage restoration company in Little Falls", "water damage cleanup Little Falls", "water cleanup Little Falls", "water removal Little Falls"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/best-water-damage-restoration-company-in-little-falls-mn/hero.webp"
+og: "/images/blog/2026/10/best-water-damage-restoration-company-in-little-falls-mn/hero.webp"
 generated_at: "2026-09-16T10:27:06Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/emergency-water-removal/", "/services/general-contracting/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/service-areas/little-falls-mn/"]

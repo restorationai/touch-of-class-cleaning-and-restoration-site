@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost MI"
 secondary_keywords: ["how much does water damage restoration cost in MI", "water damage restoration price MI", "average cost of water damage restoration MI", "flood cleanup MI", "water damage cleanup MI", "water cleanup MI"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost-mi/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost-mi/hero.webp"
 generated_at: "2026-09-29T20:34:01Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/sewage-cleanup/", "/services/emergency-water-removal/", "/service-areas/macomb-mi/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/water-damage-restoration-cost-macomb-mi/", "/contact/"]

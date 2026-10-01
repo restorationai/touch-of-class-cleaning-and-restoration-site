@@ -7,8 +7,8 @@ primary_keyword: "can i clean up flood damage myself"
 secondary_keywords: ["diy flood cleanup", "should i hire a flood restoration company", "is flood water contaminated", "category 3 water flood", "how long does flood damage cleanup take", "flood cleanup safety gear"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/can-i-clean-up-flood-damage-myself/hero.webp"
+og: "/images/blog/2026/10/can-i-clean-up-flood-damage-myself/hero.webp"
 generated_at: "2026-09-18T12:04:20Z"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/services/sewage-cleanup/", "/services/flood-equipment-rental/", "/services/mold-remediation/", "/blog/sewage-backup-health-risks/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/how-to-prevent-mold-after-a-flood/", "/blog/document-flood-damage-for-insurance/"]

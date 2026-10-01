@@ -7,8 +7,8 @@ primary_keyword: "who to call for water damage restoration in Gulfport, MS"
 secondary_keywords: ["who do you call for water damage restoration Gulfport", "who do I call for water damage restoration in Gulfport", "water damage restoration emergency number Gulfport MS", "water damage cleanup Gulfport", "water damage repair Gulfport", "water cleanup Gulfport"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-gulfport-ms/hero.webp"
+og: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-gulfport-ms/hero.webp"
 generated_at: "2026-09-11T10:30:00Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/sewage-cleanup/", "/services/mold-remediation/", "/services/storm-damage-restoration/", "/services/emergency-board-up-tarping/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/what-to-do-first-24-hours-water-damage/"]

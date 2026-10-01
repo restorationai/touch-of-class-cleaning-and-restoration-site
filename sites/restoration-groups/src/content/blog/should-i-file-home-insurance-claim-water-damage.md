@@ -7,8 +7,8 @@ primary_keyword: "should i file a home insurance claim for water damage"
 secondary_keywords: ["how to file a home insurance claim for water damage", "water damage claim deductible worth it", "will filing a water damage claim raise my premium", "how many claims before homeowners insurance drops you", "water damage claim documentation checklist", "actual cash value vs replacement cost water damage"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/should-i-file-home-insurance-claim-water-damage/hero.webp"
+og: "/images/blog/2026/10/should-i-file-home-insurance-claim-water-damage/hero.webp"
 generated_at: "2026-09-24T20:09:22Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/burst-pipe-repair/", "/contact/", "/blog/water-damage-restoration-cost-nj/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/storm-damage-insurance-claim-checklist/", "/blog/does-homeowners-insurance-cover-water-damage/"]

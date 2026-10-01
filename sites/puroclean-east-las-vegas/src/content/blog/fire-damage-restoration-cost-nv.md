@@ -7,8 +7,8 @@ primary_keyword: "fire damage restoration cost NV"
 secondary_keywords: ["how much does fire damage restoration cost in NV", "fire damage restoration price NV", "average cost of fire damage restoration NV", "fire damage cleanup NV", "smoke damage cleanup NV", "fire restoration NV"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/fire-damage-restoration-cost-nv/hero.webp"
+og: "/images/blog/2026/10/fire-damage-restoration-cost-nv/hero.webp"
 generated_at: "2026-09-07T20:24:05Z"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/services/commercial-fire-restoration/", "/services/contents-restoration-storage/", "/blog/fire-damage-restoration-process/"]

@@ -7,8 +7,8 @@ primary_keyword: "category 3 water damage"
 secondary_keywords: ["category 1 2 and 3 water damage", "black water damage", "what is category 3 water", "sewage water damage category", "professional water damage categories", "category 3 water damage cleanup"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/category-3-water-damage-sterling-heights-mi/hero.webp"
+og: "/images/blog/2026/10/category-3-water-damage-sterling-heights-mi/hero.webp"
 generated_at: "2026-09-23T22:28:28Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/emergency-water-removal/", "/service-areas/sterling-heights-mi/water-damage-restoration/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/mold-after-water-damage/"]

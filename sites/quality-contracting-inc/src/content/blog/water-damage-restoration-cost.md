@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost"
 secondary_keywords: ["water damage restoration prices", "water damage restoration cost per square foot", "how much does water damage restoration cost", "ceiling water damage repair cost", "water damage restoration insurance claim process", "does insurance pay the restoration company directly"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost/hero.webp"
 generated_at: "2026-09-20T14:43:38Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/contact/", "/blog/burst-pipe-emergency-checklist/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/signs-of-hidden-mold/"]

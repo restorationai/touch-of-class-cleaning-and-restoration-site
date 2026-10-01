@@ -7,6 +7,8 @@ primary_keyword: "what iicrc certification means and why you should hire it"
 secondary_keywords: ["water damage restoration", "mold remediation", "fire damage restoration"]
 search_intent: "informational_trust"
 priority: 3.6
+hero: "/images/blog/2026/10/iicrc-certification-explained/hero.webp"
+og: "/images/blog/2026/10/iicrc-certification-explained/hero.webp"
 plan_hash: "23dff75e91bd5d7c"
 generated_at: "2026-09-22T15:29:35.451995+00:00"
 manual_override: false

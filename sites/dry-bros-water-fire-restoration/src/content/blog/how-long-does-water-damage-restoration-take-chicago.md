@@ -7,8 +7,8 @@ primary_keyword: "how long does water damage restoration take"
 secondary_keywords: ["how long does it take to dry out a house after water damage", "how long after water damage does mold grow", "wet drywall how long before mold", "musty smell after water damage", "what does water damage restoration include"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/how-long-does-water-damage-restoration-take-chicago/hero.webp"
+og: "/images/blog/2026/10/how-long-does-water-damage-restoration-take-chicago/hero.webp"
 generated_at: "2026-09-23T00:45:48Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/odor-removal/", "/blog/signs-of-hidden-mold/", "/blog/water-damage-restoration-cost-chicago/"]

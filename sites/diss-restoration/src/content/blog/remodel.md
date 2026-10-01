@@ -7,8 +7,8 @@ primary_keyword: "Remodel"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/remodel/hero.webp"
+og: "/images/blog/2026/10/remodel/hero.webp"
 generated_at: "2026-10-01T21:32:02Z"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/services/water-damage-restoration/", "/services/fire-damage-restoration/", "/service-areas/struthers-oh/", "/contact/"]

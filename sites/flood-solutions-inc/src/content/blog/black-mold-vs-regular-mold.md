@@ -7,6 +7,8 @@ primary_keyword: "black mold vs regular mold how to tell the difference"
 secondary_keywords: ["mold remediation"]
 search_intent: "informational_health"
 priority: 4.8
+hero: "/images/blog/2026/10/black-mold-vs-regular-mold/hero.webp"
+og: "/images/blog/2026/10/black-mold-vs-regular-mold/hero.webp"
 plan_hash: "133089535bacb44c"
 generated_at: "2026-09-25T00:16:11.682132+00:00"
 manual_override: false

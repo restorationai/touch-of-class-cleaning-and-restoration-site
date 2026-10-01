@@ -7,8 +7,8 @@ primary_keyword: "category 3 water damage"
 secondary_keywords: ["category 1 vs category 2 vs category 3 water", "what is black water damage", "is category 3 water damage dangerous", "does insurance cover category 3 water damage", "how contractors classify water damage", "sewage backup category 3"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/category-3-water-damage/hero.webp"
+og: "/images/blog/2026/10/category-3-water-damage/hero.webp"
 generated_at: "2026-09-24T17:06:28Z"
 manual_override: false
 internal_links: ["/services/sewage-cleanup/", "/services/water-damage-restoration/", "/services/biohazard-cleanup/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/water-damage-restoration-cost-nv/"]

@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost"
 secondary_keywords: ["how much does water damage restoration cost", "water damage restoration cost per square foot", "water damage restoration price sheet", "water damage restoration cost las vegas", "what affects water damage restoration pricing", "does insurance pay the restoration bill directly"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost/hero.webp"
 generated_at: "2026-09-22T15:29:05Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/henderson-nv/water-damage-restoration/", "/contact/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/blog/black-mold-vs-regular-mold/", "/blog/best-water-damage-restoration-company-in-henderson-nv/"]

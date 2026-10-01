@@ -7,8 +7,8 @@ primary_keyword: "Leak Detection"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/leak-detection/hero.webp"
+og: "/images/blog/2026/10/leak-detection/hero.webp"
 generated_at: "2026-10-01T21:28:28Z"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/services/water-damage-restoration/", "/services/burst-pipe-repair/", "/service-areas/anaheim-ca/", "/contact/"]

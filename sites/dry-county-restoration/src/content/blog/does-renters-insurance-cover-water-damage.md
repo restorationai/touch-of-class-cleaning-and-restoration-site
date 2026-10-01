@@ -7,8 +7,8 @@ primary_keyword: "does renters insurance cover water damage"
 secondary_keywords: ["will renters insurance cover water damage", "does renters insurance cover burst pipes", "renters insurance water damage from upstairs neighbor", "what water damage is not covered by renters insurance", "is water damage covered by insurance in California", "should I file an insurance claim for water damage"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/does-renters-insurance-cover-water-damage/hero.webp"
+og: "/images/blog/2026/10/does-renters-insurance-cover-water-damage/hero.webp"
 generated_at: "2026-09-03T20:21:57Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/sewage-cleanup/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/contact/"]

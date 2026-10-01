@@ -7,8 +7,8 @@ primary_keyword: "who to call for water damage restoration in Santa Maria, CA"
 secondary_keywords: ["who do you call for water damage restoration Santa Maria", "who do I call for water damage restoration in Santa Maria", "water damage restoration emergency number Santa Maria CA", "water damage cleanup Santa Maria", "water cleanup Santa Maria", "water removal Santa Maria"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-santa-maria-ca/hero.webp"
+og: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-santa-maria-ca/hero.webp"
 generated_at: "2026-09-18T12:24:51Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/sewage-cleanup/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/water-damage-insurance-claim-tips/", "/blog/burst-pipe-emergency-checklist/"]

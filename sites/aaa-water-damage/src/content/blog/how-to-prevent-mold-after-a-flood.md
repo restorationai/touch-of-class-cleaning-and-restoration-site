@@ -7,8 +7,8 @@ primary_keyword: "how to prevent mold after a flood"
 secondary_keywords: ["how to prevent mold after water damage", "mold after flooding", "how fast does mold grow after a flood", "drying out a house after a flood", "dehumidifier after flood", "hawaii humidity mold"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/how-to-prevent-mold-after-a-flood/hero.webp"
+og: "/images/blog/2026/10/how-to-prevent-mold-after-a-flood/hero.webp"
 generated_at: "2026-09-03T19:10:48Z"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/services/mold-remediation/", "/services/mold-inspection-testing/", "/services/flood-equipment-rental/", "/blog/mold-after-water-damage/", "/blog/signs-of-hidden-mold/"]

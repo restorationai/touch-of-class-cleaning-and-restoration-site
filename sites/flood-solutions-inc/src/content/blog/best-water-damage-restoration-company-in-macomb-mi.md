@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in Macomb, MI"
 secondary_keywords: ["best water damage restoration companies Macomb", "top rated water damage restoration Macomb MI", "who is the best water damage restoration company in Macomb", "water damage cleanup Macomb", "water cleanup Macomb", "water removal Macomb"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/best-water-damage-restoration-company-in-macomb-mi/hero.webp"
+og: "/images/blog/2026/10/best-water-damage-restoration-company-in-macomb-mi/hero.webp"
 generated_at: "2026-09-12T10:26:24Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/choosing-a-restoration-company/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/does-homeowners-insurance-cover-water-damage/", "/service-areas/macomb-mi/"]

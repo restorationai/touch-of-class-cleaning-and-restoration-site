@@ -7,8 +7,8 @@ primary_keyword: "mold growth timeline"
 secondary_keywords: []
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/mold-growth-timeline/hero.webp"
+og: "/images/blog/2026/10/mold-growth-timeline/hero.webp"
 generated_at: "2026-09-22T15:35:46Z"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/blog/signs-of-hidden-mold/", "/blog/how-to-test-for-mold/", "/blog/mold-after-water-damage/", "/contact/"]

@@ -7,8 +7,8 @@ primary_keyword: "how do i know if there is water damage behind my walls"
 secondary_keywords: ["signs of water damage behind drywall", "musty smell but no visible water damage", "how to check for moisture in walls", "water stains on ceiling and walls", "what does water damage restoration include"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-behind-walls-little-falls-mn/hero.webp"
+og: "/images/blog/2026/10/water-damage-behind-walls-little-falls-mn/hero.webp"
 generated_at: "2026-09-30T01:27:24Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/emergency-water-removal/", "/blog/mold-after-water-damage/", "/contact/"]

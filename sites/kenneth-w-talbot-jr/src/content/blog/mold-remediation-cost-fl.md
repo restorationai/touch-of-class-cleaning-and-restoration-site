@@ -7,8 +7,8 @@ primary_keyword: "mold remediation cost FL"
 secondary_keywords: ["how much does mold remediation cost in FL", "mold remediation price FL", "average cost of mold remediation FL", "mold removal FL", "mold cleanup FL", "black mold removal FL"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/mold-remediation-cost-fl/hero.webp"
+og: "/images/blog/2026/10/mold-remediation-cost-fl/hero.webp"
 generated_at: "2026-09-22T15:28:12Z"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/blog/signs-of-hidden-mold/", "/blog/how-to-test-for-mold/", "/blog/does-homeowners-insurance-cover-water-damage/", "/service-areas/freeport-fl/"]

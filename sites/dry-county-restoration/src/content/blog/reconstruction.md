@@ -7,8 +7,8 @@ primary_keyword: "Reconstruction"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/reconstruction/hero.webp"
+og: "/images/blog/2026/10/reconstruction/hero.webp"
 generated_at: "2026-09-19T22:27:37Z"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/services/water-damage-restoration/", "/services/fire-damage-restoration/", "/services/storm-damage-restoration/", "/service-areas/fullerton-ca/", "/blog/does-homeowners-insurance-cover-water-damage/"]

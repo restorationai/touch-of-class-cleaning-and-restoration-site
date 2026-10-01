@@ -7,6 +7,8 @@ primary_keyword: "8 ways to prevent basement flooding this season"
 secondary_keywords: ["water damage restoration"]
 search_intent: "informational_prevention"
 priority: 4.2
+hero: "/images/blog/2026/10/basement-flooding-prevention/hero.webp"
+og: "/images/blog/2026/10/basement-flooding-prevention/hero.webp"
 plan_hash: "7b8047974558bcde"
 generated_at: "2026-09-20T14:13:25.018901+00:00"
 manual_override: false

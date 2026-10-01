@@ -7,8 +7,8 @@ primary_keyword: "what does flood insurance cover"
 secondary_keywords: ["what does flood insurance not cover", "does flood insurance cover burst pipes", "does flood insurance cover sewer backup", "flood insurance vs homeowners insurance water damage", "does flood insurance cover basement flooding", "NFIP flood insurance waiting period"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/what-does-flood-insurance-cover/hero.webp"
+og: "/images/blog/2026/10/what-does-flood-insurance-cover/hero.webp"
 generated_at: "2026-09-20T14:43:48Z"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/services/basement-flooding-cleanup/", "/services/water-damage-restoration/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/mold-after-water-damage/", "/blog/what-to-do-first-24-hours-water-damage/"]

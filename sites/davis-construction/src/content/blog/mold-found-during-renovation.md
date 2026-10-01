@@ -7,6 +7,8 @@ primary_keyword: "found mold during a renovation heres what happens next"
 secondary_keywords: ["mold remediation", "home remodeling"]
 search_intent: "informational_health"
 priority: 4.8
+hero: "https://images.davisconstructioncontractors.com/blog/2026/10/mold-found-during-renovation/hero.webp"
+og: "https://images.davisconstructioncontractors.com/blog/2026/10/mold-found-during-renovation/hero.webp"
 plan_hash: "584b0ff6abfa6baa"
 generated_at: "2026-09-23T14:11:32.886697+00:00"
 manual_override: false

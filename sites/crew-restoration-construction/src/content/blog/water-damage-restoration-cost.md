@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost"
 secondary_keywords: ["water damage repair cost", "average cost of water damage restoration", "water damage restoration cost per square foot", "cost to dry out a house after a leak", "water damage restoration cost sioux falls"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "https://images.crew3r.com/blog/2026/10/water-damage-restoration-cost/hero.webp"
+og: "https://images.crew3r.com/blog/2026/10/water-damage-restoration-cost/hero.webp"
 generated_at: "2026-09-03T20:07:23Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/sioux-falls-sd/water-damage-restoration/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/services/mold-remediation/"]

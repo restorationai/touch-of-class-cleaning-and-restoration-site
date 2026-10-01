@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost"
 secondary_keywords: ["water damage restoration cost per square foot", "flooded basement cleanup cost", "basement flooding repair cost", "water damage basement repair cost", "how much does servpro cost per square foot", "basement water removal cost"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost/hero.webp"
 generated_at: "2026-09-03T20:14:06Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/blog/flooded-basement-cleanup/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/signs-of-hidden-mold/", "/service-areas/youngstown-oh/"]

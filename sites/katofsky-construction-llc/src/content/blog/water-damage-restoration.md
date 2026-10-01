@@ -7,8 +7,8 @@ primary_keyword: "Water Damage Restoration"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration/hero.webp"
 generated_at: "2026-09-30T10:28:17Z"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/services/contents-restoration-storage/", "/services/sewage-cleanup/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/sewage-backup-health-risks/", "/contact/"]

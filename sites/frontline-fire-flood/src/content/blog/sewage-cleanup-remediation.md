@@ -7,8 +7,8 @@ primary_keyword: "Sewage Cleanup & Remediation"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/sewage-cleanup-remediation/hero.webp"
+og: "/images/blog/2026/10/sewage-cleanup-remediation/hero.webp"
 generated_at: "2026-09-29T22:36:18Z"
 manual_override: false
 internal_links: ["/services/sewage-cleanup/", "/services/water-damage-restoration/", "/services/emergency-water-removal/", "/services/mold-remediation/", "/service-areas/lacey-wa/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/what-to-do-first-24-hours-water-damage/"]

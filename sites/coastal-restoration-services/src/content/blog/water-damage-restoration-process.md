@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration process"
 secondary_keywords: ["water damage inspection and assessment", "water extraction process", "structural drying and dehumidification", "cleaning and sanitizing after water damage", "water damage repairs and reconstruction", "how long does the restoration process take"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-process/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-process/hero.webp"
 generated_at: "2026-09-24T15:30:09Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/sewage-cleanup/", "/services/mold-remediation/", "/blog/water-damage-insurance-claim-tips/", "/blog/signs-of-hidden-mold/", "/blog/water-damage-restoration-cost/"]

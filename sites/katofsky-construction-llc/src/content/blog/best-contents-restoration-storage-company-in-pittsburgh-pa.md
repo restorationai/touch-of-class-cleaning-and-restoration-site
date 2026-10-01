@@ -7,8 +7,8 @@ primary_keyword: "best contents restoration storage company in Pittsburgh, PA"
 secondary_keywords: ["best contents restoration storage companies Pittsburgh", "top rated contents restoration storage Pittsburgh PA", "who is the best contents restoration storage company in Pittsburgh"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/best-contents-restoration-storage-company-in-pittsburgh-pa/hero.webp"
+og: "/images/blog/2026/10/best-contents-restoration-storage-company-in-pittsburgh-pa/hero.webp"
 generated_at: "2026-09-22T22:28:56Z"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/services/fire-damage-restoration/", "/blog/choosing-a-restoration-company/", "/blog/fire-damage-restoration-process/", "/service-areas/pittsburgh-pa/", "/contact/"]

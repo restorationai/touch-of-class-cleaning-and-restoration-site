@@ -7,8 +7,8 @@ primary_keyword: "who to call for water damage restoration in Cranberry Township
 secondary_keywords: ["who do you call for water damage restoration Cranberry Township", "who do I call for water damage restoration in Cranberry Township", "water damage restoration emergency number Cranberry Township PA", "water damage cleanup Cranberry Township", "water cleanup Cranberry Township", "water removal Cranberry Township"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-cranberry-township-pa/hero.webp"
+og: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-cranberry-township-pa/hero.webp"
 generated_at: "2026-09-10T19:58:44Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/basement-flooding-cleanup/", "/services/burst-pipe-repair/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/blog/best-water-damage-restoration-company-in-cranberry-township-pa/", "/contact/"]

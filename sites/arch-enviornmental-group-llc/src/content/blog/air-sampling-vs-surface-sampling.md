@@ -7,6 +7,8 @@ primary_keyword: "air sampling vs surface sampling for mold which one do you act
 secondary_keywords: ["mold inspection and testing"]
 search_intent: "informational_process"
 priority: 5.4
+hero: "/images/blog/2026/10/air-sampling-vs-surface-sampling/hero.webp"
+og: "/images/blog/2026/10/air-sampling-vs-surface-sampling/hero.webp"
 plan_hash: "f6fa1cd47d8f6ba9"
 generated_at: "2026-09-04T23:20:34.322151+00:00"
 manual_override: false

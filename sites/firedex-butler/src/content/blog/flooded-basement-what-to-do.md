@@ -7,8 +7,8 @@ primary_keyword: "flooded basement what to do"
 secondary_keywords: ["what to do after basement flood", "how to dry out a flooded basement", "how long does it take to dry out a flooded basement", "basement flooding cleanup", "how much does it cost to fix a flooded basement", "who to call for water damage"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/flooded-basement-what-to-do/hero.webp"
+og: "/images/blog/2026/10/flooded-basement-what-to-do/hero.webp"
 generated_at: "2026-09-18T11:35:19Z"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/services/water-damage-restoration/", "/services/sewage-cleanup/", "/services/burst-pipe-repair/", "/blog/mold-after-water-damage/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/does-homeowners-insurance-cover-water-damage/"]

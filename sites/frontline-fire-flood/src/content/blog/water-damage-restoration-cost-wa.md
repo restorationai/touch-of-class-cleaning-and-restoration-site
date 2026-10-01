@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost WA"
 secondary_keywords: ["how much does water damage restoration cost in WA", "water damage restoration price WA", "average cost of water damage restoration WA", "water damage cleanup WA", "water cleanup WA", "water removal WA"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost-wa/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost-wa/hero.webp"
 generated_at: "2026-09-20T14:32:30Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/emergency-water-removal/", "/services/mold-remediation/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/best-water-damage-restoration-company-in-lakewood-wa/"]

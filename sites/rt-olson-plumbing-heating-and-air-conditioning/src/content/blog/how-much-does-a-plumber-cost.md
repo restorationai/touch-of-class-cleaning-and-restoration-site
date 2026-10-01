@@ -7,8 +7,8 @@ primary_keyword: "how much does a plumber cost"
 secondary_keywords: ["how much does a plumber cost per hour", "how much should a plumber charge per hour", "how much does a plumber charge to unclog drain", "how much does a plumber charge to install a toilet", "what is a plumbing service call fee", "why do emergency plumbing rates cost more", "flat rate vs hourly plumber pricing"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/how-much-does-a-plumber-cost/hero.webp"
+og: "/images/blog/2026/10/how-much-does-a-plumber-cost/hero.webp"
 generated_at: "2026-09-20T14:48:19Z"
 manual_override: false
 internal_links: ["/services/drain-cleaning/", "/services/toilet-faucet-repair/", "/services/water-heater-installation/", "/services/leak-detection/", "/services/"]

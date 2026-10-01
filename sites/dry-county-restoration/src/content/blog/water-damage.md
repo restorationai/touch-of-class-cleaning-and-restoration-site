@@ -7,8 +7,8 @@ primary_keyword: "Water damage"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage/hero.webp"
+og: "/images/blog/2026/10/water-damage/hero.webp"
 generated_at: "2026-09-24T10:27:11Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/sewage-cleanup/", "/services/mold-remediation/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/water-damage-restoration-cost-ca/", "/blog/signs-of-hidden-mold/", "/contact/"]

@@ -7,8 +7,8 @@ primary_keyword: "who to call for water damage restoration in Honolulu, HI"
 secondary_keywords: ["who do you call for water damage restoration Honolulu", "who do I call for water damage restoration in Honolulu", "water damage restoration emergency number Honolulu HI", "water removal Honolulu", "water damage cleanup Honolulu", "water cleanup Honolulu"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-honolulu-hi/hero.webp"
+og: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-honolulu-hi/hero.webp"
 generated_at: "2026-09-22T15:08:22Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/flood-damage-restoration/", "/services/commercial-restoration/", "/blog/flood-insurance-hawaii/", "/blog/document-flood-damage-for-insurance/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/"]

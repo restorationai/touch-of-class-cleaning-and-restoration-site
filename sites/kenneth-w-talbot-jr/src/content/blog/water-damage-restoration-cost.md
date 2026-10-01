@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost"
 secondary_keywords: ["water damage restoration cost per square foot", "how much does water damage restoration cost", "what is the average cost of water damage restoration", "what drives water damage restoration pricing", "does insurance pay for water damage restoration"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost/hero.webp"
 generated_at: "2026-09-30T10:28:35Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/emergency-water-removal/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/mold-remediation-cost-fl/", "/service-areas/freeport-fl/"]

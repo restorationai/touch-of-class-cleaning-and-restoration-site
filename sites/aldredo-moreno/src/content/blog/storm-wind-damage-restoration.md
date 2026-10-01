@@ -7,8 +7,8 @@ primary_keyword: "Storm & Wind Damage Restoration"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/storm-wind-damage-restoration/hero.webp"
+og: "/images/blog/2026/10/storm-wind-damage-restoration/hero.webp"
 generated_at: "2026-10-01T21:39:41Z"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/services/water-damage-restoration/", "/services/junk-debris-removal/", "/service-areas/andrews-tx/", "/contact/"]

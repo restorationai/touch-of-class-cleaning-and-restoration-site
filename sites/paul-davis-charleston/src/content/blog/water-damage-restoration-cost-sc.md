@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost SC"
 secondary_keywords: ["how much does water damage restoration cost in SC", "water damage restoration price SC", "average cost of water damage restoration SC", "water damage cleanup SC", "water cleanup SC", "water removal SC"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost-sc/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost-sc/hero.webp"
 generated_at: "2026-09-23T00:47:58Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/burst-pipe-emergency-checklist/", "/blog/does-homeowners-insurance-cover-water-damage/", "/contact/"]

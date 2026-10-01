@@ -7,8 +7,8 @@ primary_keyword: "does homeowners insurance cover black mold"
 secondary_keywords: ["what insurance companies cover mold damage", "does home insurance cover mold from water damage", "mold coverage limit homeowners insurance", "is mold covered if caused by a burst pipe", "does insurance cover mold from a slow leak", "mold remediation insurance claim documentation"]
 search_intent: "informational"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/does-homeowners-insurance-cover-black-mold/hero.webp"
+og: "/images/blog/2026/10/does-homeowners-insurance-cover-black-mold/hero.webp"
 generated_at: "2026-09-22T15:36:18Z"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/services/mold-inspection-testing/", "/services/water-damage-restoration/", "/blog/black-mold-vs-regular-mold/", "/blog/signs-of-hidden-mold/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-does-flood-insurance-cover/"]

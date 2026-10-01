@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost"
 secondary_keywords: ["water damage restoration cost per square foot", "how much does water damage restoration cost", "water damage restoration cost calculator", "water damage restoration price sheet", "does insurance pay the water damage restoration bill", "average water damage repair cost in the Tampa Bay area"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost/hero.webp"
 generated_at: "2026-09-20T14:28:45Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/emergency-water-removal/", "/service-areas/tampa-fl/water-damage-restoration/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/blog/signs-of-hidden-mold/", "/blog/water-damage-restoration-cost-fl/"]

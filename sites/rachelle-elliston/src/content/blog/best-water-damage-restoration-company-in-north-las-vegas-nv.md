@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in North Las Vegas, NV"
 secondary_keywords: ["best water damage restoration companies North Las Vegas", "top rated water damage restoration North Las Vegas NV", "who is the best water damage restoration company in North Las Vegas", "water damage cleanup North Las Vegas", "water cleanup North Las Vegas", "water removal North Las Vegas"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/best-water-damage-restoration-company-in-north-las-vegas-nv/hero.webp"
+og: "/images/blog/2026/10/best-water-damage-restoration-company-in-north-las-vegas-nv/hero.webp"
 generated_at: "2026-09-20T10:28:55Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/general-contracting/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/service-areas/north-las-vegas-nv/"]

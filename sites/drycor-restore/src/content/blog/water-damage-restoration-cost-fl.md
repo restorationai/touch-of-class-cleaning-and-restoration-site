@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration cost FL"
 secondary_keywords: ["how much does water damage restoration cost in FL", "water damage restoration price FL", "average cost of water damage restoration FL", "water damage cleanup FL", "water cleanup FL", "water removal FL"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/water-damage-restoration-cost-fl/hero.webp"
+og: "/images/blog/2026/10/water-damage-restoration-cost-fl/hero.webp"
 generated_at: "2026-09-18T10:30:40Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/emergency-water-removal/", "/services/sewage-cleanup/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/"]

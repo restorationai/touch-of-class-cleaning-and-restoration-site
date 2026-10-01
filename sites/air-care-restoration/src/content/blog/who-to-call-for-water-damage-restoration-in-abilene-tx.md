@@ -7,8 +7,8 @@ primary_keyword: "who to call for water damage restoration in Abilene, TX"
 secondary_keywords: ["who do you call for water damage restoration Abilene", "who do I call for water damage restoration in Abilene", "water damage restoration emergency number Abilene TX", "water damage cleanup Abilene", "water cleanup Abilene", "water removal Abilene"]
 search_intent: "transactional"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-abilene-tx/hero.webp"
+og: "/images/blog/2026/10/who-to-call-for-water-damage-restoration-in-abilene-tx/hero.webp"
 generated_at: "2026-09-29T22:30:26Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/emergency-water-removal/", "/services/sewage-cleanup/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/contact/"]

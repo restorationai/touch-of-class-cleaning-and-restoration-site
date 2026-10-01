@@ -7,8 +7,8 @@ primary_keyword: "Mold Testing"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/mold-testing/hero.webp"
+og: "/images/blog/2026/10/mold-testing/hero.webp"
 generated_at: "2026-09-24T15:23:10Z"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/services/clearance-testing/", "/blog/air-sampling-vs-surface-sampling/", "/blog/mold-testing-after-water-damage/", "/contact/"]

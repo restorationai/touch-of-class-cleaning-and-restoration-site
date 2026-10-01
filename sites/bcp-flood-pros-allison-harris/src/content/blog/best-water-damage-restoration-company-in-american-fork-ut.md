@@ -7,8 +7,8 @@ primary_keyword: "best water damage restoration company in American Fork, UT"
 secondary_keywords: ["best water damage restoration companies American Fork", "top rated water damage restoration American Fork UT", "who is the best water damage restoration company in American Fork", "water damage cleanup American Fork", "water cleanup American Fork", "water removal American Fork"]
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/best-water-damage-restoration-company-in-american-fork-ut/hero.webp"
+og: "/images/blog/2026/10/best-water-damage-restoration-company-in-american-fork-ut/hero.webp"
 generated_at: "2026-09-09T14:45:24Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/mold-remediation/", "/services/sewage-cleanup/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/burst-pipe-emergency-checklist/", "/blog/choosing-a-restoration-company/", "/service-areas/american-fork-ut/"]

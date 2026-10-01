@@ -7,8 +7,8 @@ primary_keyword: "General Contracting (Reconstruction & Renovation)"
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: ""
-og: ""
+hero: "/images/blog/2026/10/general-contracting-reconstruction-renovation/hero.webp"
+og: "/images/blog/2026/10/general-contracting-reconstruction-renovation/hero.webp"
 generated_at: "2026-09-22T15:08:05Z"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/services/water-damage-restoration/", "/services/fire-damage-restoration/", "/services/storm-damage-restoration/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/storm-wind-damage-restoration/", "/blog/choosing-a-restoration-company/", "/service-areas/lehi-ut/", "/contact/"]
