@@ -510,6 +510,14 @@ jobs:
         run: |
           python3 scripts/tollfree_autoreg.py watch --apply || echo "tollfree watch failed (non-fatal)"
 
+      - name: Brand colors from existing site + logo (unlaunched previews only)
+        # Santino 2026-10-01: a preview still on the starter palette gets its
+        # colors from the client's old website + logo (logo owns the shade),
+        # then retints. Live sites are reported, never auto-recolored. The
+        # commit step below ships the files; the next deploy carries them.
+        continue-on-error: true
+        run: python3 scripts/build_site.py autocolor --apply || echo "autocolor failed (non-fatal)"
+
       - name: Commit refreshed client data
         run: |
           # sites/ too: the auto-build path (setup_ledger.ensure_auto_site_build)

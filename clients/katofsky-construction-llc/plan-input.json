@@ -25,7 +25,11 @@
       "Licensed & Insured",
       "24/7 Emergency Service",
       "Locally Owned & Operated"
-    ]
+    ],
+    "primary_color": "#cb312f",
+    "dark_color": "#181616",
+    "accent_color": "#cf5051",
+    "color_source": "autocolor: existing site + logo"
   },
   "services": [
     "air-duct-cleaning",

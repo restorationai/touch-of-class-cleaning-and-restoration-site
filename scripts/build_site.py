@@ -2068,6 +2068,23 @@ def _auto_palette(logo_path, domain: str | None):
     if not site:
         return logo
     primary = site[0]
+    # THE LOGO OWNS THE SHADE (Dry1 Out 2026-10-01): an old WordPress site's
+    # CSS is full of theme defaults, so its top hue picked a generic #338bf6
+    # over the logo's real navy #1b2e6d. The site decides WHICH hue leads; when
+    # the logo carries that hue we use the logo's exact shade, and when the
+    # site's top hue appears nowhere in a colored logo, the logo wins outright.
+    if logo:
+        logo_cols = [c for c in (logo.get("primary_color"), logo.get("accent_color")) if c]
+
+        def _close(a, b):
+            d = abs(hue(a) - hue(b))
+            return min(d, 1 - d) < 0.09
+
+        match = next((c for c in logo_cols if _close(c, primary)), None)
+        if match:
+            primary = match
+        elif not any(_close(sc, lc) for sc in site[:3] for lc in logo_cols):
+            return logo
     accent = None
     candidates = site[1:] + ([logo.get("accent_color"),
                               logo.get("primary_color")] if logo else [])
@@ -2078,6 +2095,11 @@ def _auto_palette(logo_path, domain: str | None):
         if min(d, 1 - d) >= 0.12:
             accent = cand
             break
+    if accent and logo:
+        for lc in (logo.get("accent_color"), logo.get("primary_color")):
+            if lc and min(abs(hue(lc) - hue(accent)), 1 - abs(hue(lc) - hue(accent))) < 0.09:
+                accent = lc   # logo owns the shade for the accent too
+                break
     dark = _neutral_dark(primary)
     out = {"primary_color": primary, "dark_color": dark}
     if accent:
@@ -2420,6 +2442,71 @@ def cmd_scaffold(args) -> int:
 # ----------------------------------------------------------------------------
 
 
+def cmd_autocolor(args) -> int:
+    """Fill MISSING brand colors from the client's existing website + logo,
+    persist them to plan-input, then retint. Never touches a site that already
+    has colors (a human pick or a locked brand kit wins). Nightly backstop
+    (Santino 2026-10-01): the scaffold-time palette only ran when the logo was
+    pulled from the branding bucket, so Dry1 Out and Katofsky shipped with the
+    default palette and their preview reveals were held on 'brand colors'."""
+    slugs = [args.slug] if args.slug else sorted(
+        p.parent.name for p in CLIENTS_DIR.glob("*/plan-input.json"))
+    rc = 0
+    for slug in slugs:
+        pi_path = CLIENTS_DIR / slug / "plan-input.json"
+        site_dir = SITES_DIR / slug
+        if not (pi_path.exists() and site_dir.exists()):
+            continue
+        pi = load_json(pi_path)
+        b = pi.setdefault("brand", {})
+        if b.get("primary_color") or (b.get("colors") or {}).get("primary"):
+            continue
+        # Only a site still on the STARTER default palette (#171717) — a hand
+        # tint (All Pro #dc2626) is a human pick. LIVE sites are reported, not
+        # recolored: a palette change on a published site is Santino's call.
+        tw = site_dir / "tailwind.config.mjs"
+        m = re.search(r'primary:\s*\{\s*DEFAULT:\s*"([^"]+)"', tw.read_text()) if tw.exists() else None
+        if m and m.group(1).lower() != "#171717":
+            continue
+        try:
+            rec = load_json(CLIENTS_DIR / f"{slug}.json")
+        except Exception:  # noqa: BLE001
+            rec = {}
+        live = bool(rec.get("cut_over_at") or (rec.get("apex_cutover") or {}).get("completed_at"))
+        if not live and rec.get("domain") and not str(rec.get("domain")).endswith(".invalid"):
+            # the client record's cutover stamp is unreliable (Veterans is live
+            # with none): our build answering on the real domain = live
+            try:
+                import requests as _rq
+                live = '/_astro/' in _rq.get(f"https://{rec['domain']}", timeout=12).text
+            except Exception:  # noqa: BLE001
+                live = False
+        if live:
+            print(f"  {slug}: LIVE site on the default palette; not recoloring automatically")
+            continue
+        logo = next((p for p in sorted((site_dir / "public" / "images").glob("logo.*"))
+                     if p.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp")), None)
+        try:
+            domain = load_json(CLIENTS_DIR / f"{slug}.json").get("domain")
+        except Exception:  # noqa: BLE001
+            domain = None
+        pal = _auto_palette(logo, domain) if logo else _auto_palette(None, domain) if domain else None
+        if not pal:
+            print(f"  {slug}: no usable colors from logo or site; keeping default")
+            continue
+        print(f"  {slug}: primary {pal['primary_color']} accent "
+              f"{pal.get('accent_color', '-')} dark {pal['dark_color']}"
+              + ("" if args.apply else "  (dry run: pass --apply to write + retint)"))
+        if not args.apply:
+            continue
+        b.update(pal)
+        b.setdefault("color_source", "autocolor: existing site + logo")
+        save_json(pi_path, {k: v for k, v in pi.items() if k != "_slug"})
+        r = cmd_retint(argparse.Namespace(slug=slug, force=False))
+        rc = rc or r
+    return rc
+
+
 def cmd_retint(args) -> int:
     """Re-derive the colour files from plan-input without a full re-scaffold.
 
@@ -2457,6 +2544,11 @@ def cmd_retint(args) -> int:
         if not src.exists():
             continue
         dst = site_dir / rel
+        # A LOGO favicon (an <image> of the client's real logo) carries no
+        # palette, so it never needs retinting and never blocks one (Dry1 Out /
+        # Katofsky 2026-10-01: their logo favicons held the whole retint back).
+        if rel.endswith("favicon.svg") and dst.exists() and "<image" in dst.read_text():
+            continue
         new, leftover = substitute_text(src.read_text(), tokens)
         if leftover:
             print(f"    WARNING {rel}: unsubstituted {sorted(leftover)}")
@@ -3265,6 +3357,10 @@ def build_parser() -> argparse.ArgumentParser:
     pap.add_argument("--slug", required=True)
     pap.set_defaults(func=cmd_add_pages)
 
+    pa = sub.add_parser("autocolor", help="Fill missing brand colors from existing site + logo, then retint")
+    pa.add_argument("--slug")
+    pa.add_argument("--apply", action="store_true", help="retint the site files too")
+    pa.set_defaults(func=cmd_autocolor)
     ps = sub.add_parser("scaffold", help="Copy starter, substitute tokens, push to GitHub, create Pages project")
     ps.add_argument("--slug", required=True)
     ps.add_argument("--refresh-design", action="store_true",

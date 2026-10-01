@@ -33,7 +33,11 @@
     ],
     "lat": 33.1428794,
     "lng": -117.219342,
-    "address": "1235 Activity Dr"
+    "address": "1235 Activity Dr",
+    "primary_color": "#1b2e6d",
+    "dark_color": "#161618",
+    "accent_color": "#c2423f",
+    "color_source": "autocolor: existing site + logo"
   },
   "template": "restoration",
   "services": [
