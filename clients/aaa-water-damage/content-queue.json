@@ -418,10 +418,10 @@
     },
     {
       "id": "2026-08-17-mold-remediation-cost",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-17T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-10-01T16:23:20Z",
+      "post_url": "https://aaawaterdamagehawaii.com/blog/mold-remediation-cost/",
       "primary_keyword": "mold remediation cost",
       "intent": "commercial",
       "volume": 9900,
@@ -452,7 +452,18 @@
       ],
       "notes": "Highest-value uncovered term in the seed family: 9,900/mo at KD 3 with a $16.92 CPC, and none of the 12 planned blog posts touch mold pricing. Break cost down by driver (square footage affected, containment complexity, materials removed, HVAC involvement, post-remediation verification) instead of publishing a flat price list. Oahu angle: year-round humidity means remediation here often follows a water loss that was never dried to standard, so scope tends to be larger than a mainland comparison quote suggests. Truth gate: no fixed price sheet, no guaranteed quote range. Remediation includes removing affected drywall as part of the mitigation scope, but the post must NOT offer or imply licensed reconstruction, drywall rebuild or painting: those service pages were deliberately omitted pending an HI contractor license number.",
       "source": "keyword-researcher",
-      "seed": "mold remediation"
+      "seed": "mold remediation",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/mold-remediation-cost.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "caused it was never fully dried to the [IICRC S500 water damage standard](https://www",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-08-17-does-homeowners-insurance-cover-mold-remediation",
