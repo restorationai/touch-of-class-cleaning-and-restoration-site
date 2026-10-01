@@ -520,12 +520,24 @@ def main():
     # new clients stuck: Restoration Resource, RestoPros, BIONIC). The
     # nightly geogrid cron finishes anything this window doesn't.
     if first_scan:
+        # Dispatch the scan as its own cloud job instead of waiting on it here:
+        # inside the CI backstop each bootstrap gets 900s and the scan alone
+        # can take longer, which still killed RestoPros + BIONIC (09-30).
+        # geogrid-scan.yml (slug input) runs it; the daily baseline catch-up
+        # is the backstop if this dispatch fails.
         try:
-            subprocess.run([sys.executable, str(ROOT / "scripts" / "geogrid_cron.py"),
-                            "--slug", slug], timeout=900)
-        except subprocess.TimeoutExpired:
-            print("geo-grid: first scan still running after 15 min; the nightly "
-                  "geogrid cron completes it")
+            import os, urllib.request
+            tok = os.environ.get("GITHUB_PERSONAL_ACCESS_TOKEN") or os.environ.get("GH_PAT", "")
+            req = urllib.request.Request(
+                "https://api.github.com/repos/restorationai/Rank-AI-Pipeline/actions/workflows/geogrid-scan.yml/dispatches",
+                data=json.dumps({"ref": "main", "inputs": {"slug": slug}}).encode(),
+                method="POST", headers={"Authorization": f"token {tok}",
+                                        "Accept": "application/vnd.github+json"})
+            urllib.request.urlopen(req, timeout=30)
+            print("geo-grid: first scan dispatched as its own job (geogrid-scan.yml)")
+        except Exception as e:  # noqa: BLE001
+            print(f"geo-grid: dispatch failed ({str(e)[:80]}); the daily baseline "
+                  "catch-up scans it")
 
     print("\nBootstrap complete for {} ({}).".format(co["name"], slug))
     print("Hub link (use this in all client messages): " + hub)
