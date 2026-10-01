@@ -21,6 +21,7 @@ import json
 import os
 import subprocess
 import sys
+import threading
 import time
 import urllib.error
 import urllib.request
@@ -259,6 +260,55 @@ def log(msg: str) -> None:
           flush=True)
 
 
+_RUNNING: set = set()
+_RUN_LOCK = threading.Lock()
+
+
+def _run_job(name: str, argv: list, timeout: int) -> None:
+    """One job run on its own thread (see main)."""
+    log(f"--- {name} start")
+    try:
+        r = subprocess.run(argv, timeout=timeout, capture_output=True, text=True)
+        out = (r.stdout or "").strip()
+        err = (r.stderr or "").strip()
+        if out:
+            print(out[-6000:], flush=True)
+        if r.returncode != 0:
+            log(f"!!! {name} exited {r.returncode}")
+            if err:
+                print(err[-2000:], file=sys.stderr, flush=True)
+        elif err:
+            tail = "\n".join(l for l in err.splitlines()
+                             if "Warning" not in l and "warn" not in l)
+            if tail.strip():
+                print(tail[-1000:], file=sys.stderr, flush=True)
+        log(f"--- {name} done")
+    except subprocess.TimeoutExpired:
+        log(f"!!! {name} timed out after {timeout}s")
+    except Exception as e:  # noqa: BLE001 — a job must never kill the worker
+        log(f"!!! {name} crashed: {e!r}")
+    finally:
+        with _RUN_LOCK:
+            _RUNNING.discard(name)
+
+
+def _launch(name: str, argv: list, timeout: int) -> bool:
+    """Start a job unless that same job is still running. Returns True when
+    launched. CONCURRENT BY DESIGN (Coastal 2026-10-01): the loop used to run
+    every job inline, one after another, so a 60-second job (the app's
+    'Refresh names' / rename pitches, scheduled client sends every 5 min)
+    waited behind 15-minute and 90-minute jobs and a click sat 'queued'
+    while Santino was on the phone with the client. Each job now runs on
+    its own thread; a job never overlaps ITSELF."""
+    with _RUN_LOCK:
+        if name in _RUNNING:
+            return False
+        _RUNNING.add(name)
+    threading.Thread(target=_run_job, args=(name, argv, timeout),
+                     name=name, daemon=True).start()
+    return True
+
+
 def main() -> None:
     last_run = {name: 0.0 for name, _, _ in JOBS}
     daily_done: dict = {}
@@ -271,56 +321,23 @@ def main() -> None:
     while True:
         now = time.time()
         utc = datetime.now(timezone.utc)
-        # Cron-critical GitHub workflows: fire workflow_dispatch at the
-        # intended times (GitHub's own cron drops runs; it stays as backup).
-        tick_workflow_dispatches(dispatch_done)
+        try:
+            tick_workflow_dispatches(dispatch_done)
+        except Exception as e:  # noqa: BLE001
+            log(f"!!! workflow dispatch tick crashed: {e!r}")
         for name, at, argv in DAILY_JOBS:
             if daily_done.get(name) == utc.date():
                 continue
             hh, mm = at.split(":")
             if (utc.hour, utc.minute) >= (int(hh), int(mm)):
-                daily_done[name] = utc.date()
-                log(f"--- {name} (daily {at}Z) start")
-                try:
-                    r = subprocess.run(argv, timeout=90 * 60,
-                                       capture_output=True, text=True)
-                    if r.stdout:
-                        print(r.stdout.strip()[-6000:], flush=True)
-                    if r.returncode != 0:
-                        log(f"!!! {name} exited {r.returncode}")
-                        if r.stderr:
-                            print(r.stderr.strip()[-2000:], file=sys.stderr, flush=True)
-                except Exception as e:  # noqa: BLE001
-                    log(f"!!! {name} crashed the runner: {e!r}")
-                log(f"--- {name} done")
+                if _launch(name, argv, 90 * 60):
+                    daily_done[name] = utc.date()
         for name, interval, argv in JOBS:
             if now - last_run[name] < interval:
                 continue
-            last_run[name] = now
-            log(f"--- {name} start")
-            try:
-                r = subprocess.run(argv, timeout=JOB_TIMEOUT,
-                                   capture_output=True, text=True)
-                out = (r.stdout or "").strip()
-                err = (r.stderr or "").strip()
-                if out:
-                    print(out, flush=True)
-                if r.returncode != 0:
-                    log(f"!!! {name} exited {r.returncode}")
-                    if err:
-                        print(err[-2000:], file=sys.stderr, flush=True)
-                elif err:
-                    # keep warnings visible but compact
-                    tail = "\n".join(l for l in err.splitlines()
-                                     if "Warning" not in l and "warn" not in l)
-                    if tail.strip():
-                        print(tail[-1000:], file=sys.stderr, flush=True)
-                log(f"--- {name} done")
-            except subprocess.TimeoutExpired:
-                log(f"!!! {name} timed out after {JOB_TIMEOUT}s")
-            except Exception as e:  # noqa: BLE001 — the loop must survive
-                log(f"!!! {name} crashed the runner: {e!r}")
-        time.sleep(20)
+            if _launch(name, argv, JOB_TIMEOUT):
+                last_run[name] = now
+        time.sleep(10)
 
 
 if __name__ == "__main__":
