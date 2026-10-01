@@ -679,7 +679,7 @@
     },
     {
       "id": "2026-08-26-how-to-hire-a-licensed-plumber",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-08-26T13:45:00Z",
       "written_at": "2026-10-01T01:23:58Z",
       "post_url": "https://allproplumbingheatingandair.com/blog/how-to-hire-a-licensed-plumber/",
@@ -717,7 +717,8 @@
         "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/CheckLicense.aspx"
       ],
       "notes": "8,100/mo at KD 26 with $25.75 CPC and no commercial page targeting it. Write the how-to-verify walkthrough: CSLB license lookup by number or business name, C-36 classification, workers comp and bond status, why the license matters most on permitted work (repipe, sewer replacement, gas line, water heater changeout). This is the vetting-mechanics post; /blog/how-to-find-a-good-plumber/ is the soft-skills vetting post and the two must cross-link, not overlap. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup.",
-      "source": "rank-ai-keyword-researcher"
+      "source": "rank-ai-keyword-researcher",
+      "published_verified_at": "2026-10-01T01:25:38Z"
     },
     {
       "id": "2026-08-26-plumbing-contractor-vs-plumber",
