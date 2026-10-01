@@ -1,451 +1,498 @@
 {
-  "items": [
-    {
-      "id": "2026-09-06-duct-cleaning",
-      "status": "published",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "duct-cleaning",
-      "primary_keyword": "Duct Cleaning",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "chino-hills-ca",
-      "source": "app target-term (onboarding-backfill)",
-      "written_at": "2026-09-24T15:38:45Z",
-      "post_url": "https://rtolsonplumbing.com/blog/duct-cleaning/",
-      "published_verified_at": "2026-09-24T15:41:44Z"
-    },
-    {
-      "id": "2026-09-06-cooling",
-      "status": "written",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "cooling",
-      "primary_keyword": "Cooling",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "chino-ca",
-      "source": "app target-term (onboarding-backfill)",
-      "written_at": "2026-09-29T22:49:25Z",
-      "post_url": "https://rtolsonplumbing.com/blog/cooling/"
-    },
-    {
-      "id": "2026-09-06-heating",
-      "status": "queued",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "heating",
-      "primary_keyword": "Heating",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "canyon-lake-ca",
-      "source": "app target-term (onboarding-backfill)"
-    },
-    {
-      "id": "2026-09-06-water-treatment",
-      "status": "queued",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "water-treatment",
-      "primary_keyword": "Water treatment",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "bloomington-ca",
-      "source": "app target-term (onboarding-backfill)"
-    },
-    {
-      "id": "2026-09-06-water-heaters",
-      "status": "queued",
-      "queued_at": "2026-09-06T10:23:57Z",
-      "priority": 1,
-      "content_type": "target_term",
-      "combo_key": "water-heaters",
-      "primary_keyword": "Water Heaters",
-      "intent": "commercial",
-      "target_word_count": 1400,
-      "city_anchor": "anaheim-ca",
-      "source": "app target-term (onboarding-backfill)"
-    },
-    {
-      "id": "2026-08-28-local-plumber-vs-national-chain",
-      "status": "written",
-      "queued_at": "2026-08-28T01:35:00Z",
-      "written_at": "2026-08-28T01:37:25Z",
-      "post_url": "https://rtolsonplumbing.com/blog/local-plumber-vs-national-chain/",
-      "primary_keyword": "local plumber",
-      "intent": "transactional",
-      "volume": 22200,
-      "kd": 24,
-      "fan_out_cluster": [
-        "local plumber vs franchise plumbing company",
-        "how fast can a local plumber get here",
-        "do national plumbing chains charge more",
-        "who actually shows up when you call a plumbing franchise",
-        "questions to ask before booking a plumber",
-        "why after hours plumbing rates differ by company"
-      ],
-      "suggested_slug": "local-plumber-vs-national-chain",
-      "suggested_title": "Local plumber vs national chain: what actually changes when you call",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/",
-        "/services/emergency-plumbing/",
-        "/service-areas/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "emergency-plumbing",
-        "drain-cleaning",
-        "water-heater-repair"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
-      ],
-      "notes": "22,200/mo at KD 24, uncovered in the commercial partition. Angle is dispatch reality, not brand chest-beating: who owns the truck, who sets the price, how routing works when a call comes in at 2am, and why a shop 15 minutes away beats a call center. RT Olson can back the 24/7 line (brand.hours is 24/7 and the trust badges carry 24/7 Emergency Service), so the after-hours section may state it plainly. Founded 2014, Corona based at 9064 Pulsar Ct: use that for the local-proof paragraph. Do not name or knock specific competitors.",
-      "source": "rank-ai-keyword-researcher"
-    },
-    {
-      "id": "2026-08-28-how-to-pick-the-best-plumber-near-me",
-      "status": "written",
-      "queued_at": "2026-08-28T01:35:00Z",
-      "written_at": "2026-09-08T14:52:23Z",
-      "post_url": "https://rtolsonplumbing.com/blog/how-to-pick-the-best-plumber-near-me/",
-      "primary_keyword": "best plumber near me",
-      "intent": "commercial",
-      "volume": 14800,
-      "kd": 24,
-      "fan_out_cluster": [
-        "how to choose a plumber",
-        "what questions to ask a plumber before hiring",
-        "plumber red flags to walk away from",
-        "how many plumbing quotes should you get",
-        "do plumbers give free estimates",
-        "flat rate vs hourly plumbing pricing",
-        "should you always take the lowest plumbing bid"
-      ],
-      "suggested_slug": "how-to-pick-the-best-plumber-near-me",
-      "suggested_title": "How to pick the best plumber near me (a homeowner's 10 minute checklist)",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/",
-        "/contact/",
-        "/services/emergency-plumbing/",
-        "/services/leak-detection/"
-      ],
-      "service_tags": [
-        "emergency-plumbing",
-        "leak-detection",
-        "drain-cleaning"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
-      ],
-      "notes": "14,800/mo at KD 24. Selection-process post: reviews, quote count, written itemized estimate, the 'is that the total installed price including parts, labor, permits, disposal and the call-out fee' question, and why the cheapest bid often is not. Keep this deliberately OFF the license-verification angle: that is the sibling 'licensed plumber' post. The ChatGPT decomposition for Corona leads with exactly this checklist, so structure it as scannable H2 steps with a short answer capsule up top for AI retrieval.",
-      "source": "rank-ai-keyword-researcher"
-    },
-    {
-      "id": "2026-08-28-licensed-plumber-c36-verify-california",
-      "status": "published",
-      "queued_at": "2026-08-28T01:35:00Z",
-      "written_at": "2026-09-18T11:13:25Z",
-      "post_url": "https://rtolsonplumbing.com/blog/licensed-plumber-c36-verify-california/",
-      "primary_keyword": "licensed plumber",
-      "intent": "transactional",
-      "volume": 8100,
-      "kd": 26,
-      "fan_out_cluster": [
-        "what is a c 36 plumbing license",
-        "how do i know if a plumber is licensed",
-        "do i need a licensed plumber",
-        "how to look up a contractor license in california",
-        "licensed vs unlicensed plumber risks",
-        "does a plumber need to be bonded and insured",
-        "which plumbing jobs need a permit in riverside county"
-      ],
-      "suggested_slug": "licensed-plumber-c36-verify-california",
-      "suggested_title": "Licensed plumber: what a C-36 means in California and how to verify one in 60 seconds",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/",
-        "/about/",
-        "/contact/",
-        "/services/water-heater-installation/"
-      ],
-      "service_tags": [
-        "water-heater-installation",
-        "repiping",
-        "gas-line-services"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/CheckLicense.aspx",
-        "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
-      ],
-      "notes": "8,100/mo at KD 26 and the strongest AI-retrieval slot in this seed: ChatGPT's own Corona answer opens by telling the homeowner to check CSLB for an active C-36. Teach the lookup step by step and link the CSLB check page. RT Olson holds license 997337 and licensed_insured_attested is true, so the brand may state it is licensed and insured and invite readers to verify 997337 themselves: that self-verification invite is the trust move. Cover which jobs (water heater swaps, repipes, gas lines, sewer work) need a permit and inspection.",
-      "source": "rank-ai-keyword-researcher",
-      "published_verified_at": "2026-09-18T11:15:09Z"
-    },
-    {
-      "id": "2026-08-28-how-much-does-a-plumber-cost",
-      "status": "written",
-      "queued_at": "2026-08-28T01:35:00Z",
-      "written_at": "2026-09-20T14:48:19Z",
-      "post_url": "https://rtolsonplumbing.com/blog/how-much-does-a-plumber-cost/",
-      "primary_keyword": "how much does a plumber cost",
-      "intent": "commercial",
-      "volume": 1600,
-      "kd": 0,
-      "fan_out_cluster": [
-        "how much does a plumber cost per hour",
-        "how much should a plumber charge per hour",
-        "how much does a plumber charge to unclog drain",
-        "how much does a plumber charge to install a toilet",
-        "what is a plumbing service call fee",
-        "why do emergency plumbing rates cost more",
-        "flat rate vs hourly plumber pricing"
-      ],
-      "suggested_slug": "how-much-does-a-plumber-cost",
-      "suggested_title": "How much does a plumber cost in 2026 (real price ranges by job)",
-      "target_word_count": 1800,
-      "internal_link_targets": [
-        "/services/",
-        "/services/drain-cleaning/",
-        "/services/toilet-faucet-repair/",
-        "/services/water-heater-installation/",
-        "/services/leak-detection/"
-      ],
-      "service_tags": [
-        "drain-cleaning",
-        "toilet-faucet-repair",
-        "water-heater-installation",
-        "leak-detection"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.energystar.gov/",
-        "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
-      ],
-      "notes": "Cost hub for the whole seed family: absorbs the per-hour cluster (1,600/mo), unclog-drain (480/mo) and toilet-install (1,000/mo) so those stay banked instead of becoming thin standalone posts. Lead with a job-by-job price table (service call, drain clear, hydro jet, camera inspection, leak detection, 50 gal gas water heater, tankless, slab leak reroute, trenchless lining): those are the exact rows ChatGPT is already publishing for the Corona and Riverside County market. Present ranges as market ranges, never as RT Olson's prices, and say plainly what moves a number (access, permits, materials, after-hours).",
-      "source": "rank-ai-keyword-researcher"
-    },
-    {
-      "id": "2026-08-28-should-i-tip-a-plumber",
-      "status": "written",
-      "queued_at": "2026-08-28T01:35:00Z",
-      "written_at": "2026-09-22T15:36:22Z",
-      "post_url": "https://rtolsonplumbing.com/blog/should-i-tip-a-plumber/",
-      "primary_keyword": "should i tip a plumber",
-      "intent": "informational",
-      "volume": 2400,
-      "kd": 0,
-      "fan_out_cluster": [
-        "do you tip a plumber for a service call",
-        "how much do you tip a plumber",
-        "do you tip plumbers on a big install job",
-        "is it rude not to tip a tradesperson",
-        "better ways to thank a plumber than tipping",
-        "do plumbing companies allow their techs to accept tips"
-      ],
-      "suggested_slug": "should-i-tip-a-plumber",
-      "suggested_title": "Should I tip a plumber? What homeowners actually do (and better ways to say thanks)",
-      "target_word_count": 1100,
-      "internal_link_targets": [
-        "/contact/",
-        "/services/",
-        "/about/"
-      ],
-      "service_tags": [
-        "emergency-plumbing",
-        "drain-cleaning"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [],
-      "notes": "2,400/mo at KD 0 and zero competition (competition_index 1): the cheapest win in this seed. Low direct dispatch value, high trust and AI-answer value, and it lands people on the site while they already have a plumber in the house. Answer the question in the first 40 words (no, tipping is not expected; cash tips on holidays or brutal after-hours calls are appreciated but never required), then pivot to the alternatives that actually help a local shop: a Google review, referrals, cold drinks. Point the review CTA at the GBP review link on file.",
-      "source": "rank-ai-keyword-researcher"
-    },
-    {
-      "id": "2026-09-28-emergency-plumber-cost",
-      "status": "queued",
-      "queued_at": "2026-09-28T12:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "emergency plumber cost",
-      "intent": "commercial",
-      "volume": 390,
-      "kd": 0,
-      "fan_out_cluster": [
-        "how much does an emergency plumber cost",
-        "emergency plumber cost per hour",
-        "do plumbers charge more on weekends",
-        "24 hour plumber cost",
-        "emergency plumber near me cheap"
-      ],
-      "suggested_slug": "emergency-plumber-cost",
-      "suggested_title": "Emergency plumber cost in Corona: what after-hours plumbing really runs",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/emergency-plumbing/",
-        "/blog/how-much-does-a-plumber-cost/"
-      ],
-      "service_tags": [
-        "emergency-plumbing"
-      ],
-      "city_anchor": "corona-ca",
-      "external_authority_candidates": [
-        "https://www.cslb.ca.gov/"
-      ],
-      "notes": "Lead with a cost-factor capsule (after-hours, weekend, holiday, trip fee, repair type) rather than invented dollar figures; only cite prices the brand has confirmed. Link to the existing general plumber-cost post, differentiate on the after-hours premium. RT Olson hours are 24/7 so round-the-clock claims are supported."
-    },
-    {
-      "id": "2026-09-28-what-to-do-if-you-smell-gas-in-your-house",
-      "status": "queued",
-      "queued_at": "2026-09-28T12:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "what to do if you smell gas in your house",
-      "intent": "informational",
-      "volume": 880,
-      "kd": 26,
-      "fan_out_cluster": [
-        "signs of a gas leak in the home",
-        "should you call 911 or the gas company for a gas smell",
-        "gas smell near water heater or furnace",
-        "what not to do when you smell gas",
-        "when it is safe to go back inside after a gas leak"
-      ],
-      "suggested_slug": "what-to-do-if-you-smell-gas-in-your-house",
-      "suggested_title": "What to do if you smell gas in your house in Riverside",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/furnace-repair/",
-        "/services/water-heater-repair/",
-        "/services/emergency-plumbing/"
-      ],
-      "service_tags": [
-        "furnace-repair",
-        "water-heater-repair",
-        "emergency-plumbing"
-      ],
-      "city_anchor": "riverside-ca",
-      "external_authority_candidates": [
-        "https://www.socalgas.com/stay-safe/gas-leaks",
-        "https://www.cpuc.ca.gov/"
-      ],
-      "notes": "Safety-first framing: leave the house, no switches or flames, call 911 or SoCalGas from outside BEFORE calling a plumber (matches site copy). Service fit is via gas appliances (furnace, water heater); client does not list gas-line services, so do not promise gas line repair."
-    },
-    {
-      "id": "2026-09-28-how-to-shut-off-main-water-valve",
-      "status": "queued",
-      "queued_at": "2026-09-28T12:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how to shut off main water valve",
-      "intent": "informational",
-      "volume": 880,
-      "kd": 17,
-      "fan_out_cluster": [
-        "where is my main water shut off valve",
-        "curb stop vs house shut-off valve",
-        "what to do if the main valve is stuck",
-        "shutting off water to a water heater or toilet",
-        "when to call an emergency plumber after shutting off water"
-      ],
-      "suggested_slug": "how-to-shut-off-main-water-valve",
-      "suggested_title": "How to shut off main water valve in a Corona home",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/emergency-plumbing/",
-        "/blog/what-to-do-burst-pipe/",
-        "/services/leak-detection/"
-      ],
-      "service_tags": [
-        "emergency-plumbing",
-        "leak-detection"
-      ],
-      "city_anchor": "corona-ca",
-      "external_authority_candidates": [
-        "https://www.epa.gov/watersense"
-      ],
-      "notes": "Step-by-step capsule first (locate, turn clockwise, open a low faucet to drain). Cover common Inland Empire slab-home valve locations (garage wall, front hose bib area) and the meter-box curb stop. Link to the burst-pipe blog as a sibling, not a duplicate."
-    },
-    {
-      "id": "2026-09-28-how-to-stop-a-toilet-from-overflowing",
-      "status": "banked",
-      "queued_at": "2026-09-28T12:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how to stop a toilet from overflowing",
-      "intent": "informational",
-      "volume": 590,
-      "kd": 0,
-      "fan_out_cluster": [
-        "toilet shut off valve location",
-        "lifting the flapper to stop the flow",
-        "is a clogged toilet a plumbing emergency",
-        "why a toilet keeps overflowing",
-        "when a toilet overflow points to a main line clog"
-      ],
-      "suggested_slug": "how-to-stop-a-toilet-from-overflowing",
-      "suggested_title": "How to stop a toilet from overflowing (Anaheim homeowner guide)",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/toilet-faucet-repair/",
-        "/services/drain-cleaning/",
-        "/services/emergency-plumbing/"
-      ],
-      "service_tags": [
-        "toilet-faucet-repair",
-        "drain-cleaning"
-      ],
-      "city_anchor": "anaheim-ca",
-      "external_authority_candidates": [
-        "https://www.epa.gov/watersense"
-      ],
-      "notes": "Answer in the first two sentences (close the supply valve, lift the float/flapper). Then diagnose repeat overflows and multi-fixture backups as a main line issue. Stay on stopping the water and fixing the cause, not cleanup/drying (restoration turf).",
-      "banked_at": "2026-09-29T02:04:34.990472+00:00"
-    },
-    {
-      "id": "2026-09-28-what-is-considered-a-plumbing-emergency",
-      "status": "banked",
-      "queued_at": "2026-09-28T12:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "what is considered a plumbing emergency",
-      "intent": "informational",
-      "volume": 90,
-      "kd": 0,
-      "fan_out_cluster": [
-        "what counts as a plumbing emergency",
-        "is a clogged toilet a plumbing emergency",
-        "is a leaking water heater an emergency",
-        "what to do while waiting for an emergency plumber",
-        "sewage backup in house"
-      ],
-      "suggested_slug": "what-is-considered-a-plumbing-emergency",
-      "suggested_title": "What is considered a plumbing emergency in Temecula (and what can wait)",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/emergency-plumbing/",
-        "/services/water-heater-repair/",
-        "/services/drain-cleaning/"
-      ],
-      "service_tags": [
-        "emergency-plumbing",
-        "water-heater-repair",
-        "drain-cleaning"
-      ],
-      "city_anchor": "temecula-ca",
-      "external_authority_candidates": [
-        "https://www.ready.gov/"
-      ],
-      "notes": "Hub post for the emergency cluster. Use a call-now vs can-wait list. Link out to the shut-off valve, toilet overflow, gas smell and emergency cost posts once published. Gas smell item must say call 911/SoCalGas first.",
-      "banked_at": "2026-09-29T02:04:34.990474+00:00"
-    }
-  ]
+ "items": [
+  {
+   "id": "2026-10-01-best-leak-detection-in-corona-ca",
+   "status": "queued",
+   "queued_at": "2026-10-01T22:25:19Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-leak-detection-in-corona-ca",
+   "primary_keyword": "best leak detection company in Corona, CA",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "corona-ca",
+   "best_of": {
+    "service": "leak-detection",
+    "service_pretty": "Leak Detection",
+    "city": "Corona",
+    "state": "CA",
+    "competitors": [
+     {
+      "name": "Cable Pipe & Leak Detection",
+      "google_rating": 4.9,
+      "review_count": 278
+     },
+     {
+      "name": "California Leak Detection Specialists",
+      "google_rating": 5,
+      "review_count": 31
+     },
+     {
+      "name": "OneStop Plumbers - Plumbing and Leak Detection",
+      "google_rating": 5,
+      "review_count": 1821
+     },
+     {
+      "name": "Magic Snake Pro",
+      "google_rating": 4.9,
+      "review_count": 37
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best leak detection companies Corona",
+    "top rated leak detection Corona CA",
+    "who is the best leak detection company in Corona"
+   ],
+   "source": "best-of-seeder"
+  },
+  {
+   "id": "2026-09-06-duct-cleaning",
+   "status": "published",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "duct-cleaning",
+   "primary_keyword": "Duct Cleaning",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "chino-hills-ca",
+   "source": "app target-term (onboarding-backfill)",
+   "written_at": "2026-09-24T15:38:45Z",
+   "post_url": "https://rtolsonplumbing.com/blog/duct-cleaning/",
+   "published_verified_at": "2026-09-24T15:41:44Z"
+  },
+  {
+   "id": "2026-09-06-cooling",
+   "status": "written",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "cooling",
+   "primary_keyword": "Cooling",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "chino-ca",
+   "source": "app target-term (onboarding-backfill)",
+   "written_at": "2026-09-29T22:49:25Z",
+   "post_url": "https://rtolsonplumbing.com/blog/cooling/"
+  },
+  {
+   "id": "2026-09-06-heating",
+   "status": "queued",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "heating",
+   "primary_keyword": "Heating",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "canyon-lake-ca",
+   "source": "app target-term (onboarding-backfill)"
+  },
+  {
+   "id": "2026-09-06-water-treatment",
+   "status": "queued",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "water-treatment",
+   "primary_keyword": "Water treatment",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "bloomington-ca",
+   "source": "app target-term (onboarding-backfill)"
+  },
+  {
+   "id": "2026-09-06-water-heaters",
+   "status": "queued",
+   "queued_at": "2026-09-06T10:23:57Z",
+   "priority": 1,
+   "content_type": "target_term",
+   "combo_key": "water-heaters",
+   "primary_keyword": "Water Heaters",
+   "intent": "commercial",
+   "target_word_count": 1400,
+   "city_anchor": "anaheim-ca",
+   "source": "app target-term (onboarding-backfill)"
+  },
+  {
+   "id": "2026-08-28-local-plumber-vs-national-chain",
+   "status": "written",
+   "queued_at": "2026-08-28T01:35:00Z",
+   "written_at": "2026-08-28T01:37:25Z",
+   "post_url": "https://rtolsonplumbing.com/blog/local-plumber-vs-national-chain/",
+   "primary_keyword": "local plumber",
+   "intent": "transactional",
+   "volume": 22200,
+   "kd": 24,
+   "fan_out_cluster": [
+    "local plumber vs franchise plumbing company",
+    "how fast can a local plumber get here",
+    "do national plumbing chains charge more",
+    "who actually shows up when you call a plumbing franchise",
+    "questions to ask before booking a plumber",
+    "why after hours plumbing rates differ by company"
+   ],
+   "suggested_slug": "local-plumber-vs-national-chain",
+   "suggested_title": "Local plumber vs national chain: what actually changes when you call",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/",
+    "/services/emergency-plumbing/",
+    "/service-areas/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "emergency-plumbing",
+    "drain-cleaning",
+    "water-heater-repair"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
+   ],
+   "notes": "22,200/mo at KD 24, uncovered in the commercial partition. Angle is dispatch reality, not brand chest-beating: who owns the truck, who sets the price, how routing works when a call comes in at 2am, and why a shop 15 minutes away beats a call center. RT Olson can back the 24/7 line (brand.hours is 24/7 and the trust badges carry 24/7 Emergency Service), so the after-hours section may state it plainly. Founded 2014, Corona based at 9064 Pulsar Ct: use that for the local-proof paragraph. Do not name or knock specific competitors.",
+   "source": "rank-ai-keyword-researcher"
+  },
+  {
+   "id": "2026-08-28-how-to-pick-the-best-plumber-near-me",
+   "status": "written",
+   "queued_at": "2026-08-28T01:35:00Z",
+   "written_at": "2026-09-08T14:52:23Z",
+   "post_url": "https://rtolsonplumbing.com/blog/how-to-pick-the-best-plumber-near-me/",
+   "primary_keyword": "best plumber near me",
+   "intent": "commercial",
+   "volume": 14800,
+   "kd": 24,
+   "fan_out_cluster": [
+    "how to choose a plumber",
+    "what questions to ask a plumber before hiring",
+    "plumber red flags to walk away from",
+    "how many plumbing quotes should you get",
+    "do plumbers give free estimates",
+    "flat rate vs hourly plumbing pricing",
+    "should you always take the lowest plumbing bid"
+   ],
+   "suggested_slug": "how-to-pick-the-best-plumber-near-me",
+   "suggested_title": "How to pick the best plumber near me (a homeowner's 10 minute checklist)",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/",
+    "/contact/",
+    "/services/emergency-plumbing/",
+    "/services/leak-detection/"
+   ],
+   "service_tags": [
+    "emergency-plumbing",
+    "leak-detection",
+    "drain-cleaning"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
+   ],
+   "notes": "14,800/mo at KD 24. Selection-process post: reviews, quote count, written itemized estimate, the 'is that the total installed price including parts, labor, permits, disposal and the call-out fee' question, and why the cheapest bid often is not. Keep this deliberately OFF the license-verification angle: that is the sibling 'licensed plumber' post. The ChatGPT decomposition for Corona leads with exactly this checklist, so structure it as scannable H2 steps with a short answer capsule up top for AI retrieval.",
+   "source": "rank-ai-keyword-researcher"
+  },
+  {
+   "id": "2026-08-28-licensed-plumber-c36-verify-california",
+   "status": "published",
+   "queued_at": "2026-08-28T01:35:00Z",
+   "written_at": "2026-09-18T11:13:25Z",
+   "post_url": "https://rtolsonplumbing.com/blog/licensed-plumber-c36-verify-california/",
+   "primary_keyword": "licensed plumber",
+   "intent": "transactional",
+   "volume": 8100,
+   "kd": 26,
+   "fan_out_cluster": [
+    "what is a c 36 plumbing license",
+    "how do i know if a plumber is licensed",
+    "do i need a licensed plumber",
+    "how to look up a contractor license in california",
+    "licensed vs unlicensed plumber risks",
+    "does a plumber need to be bonded and insured",
+    "which plumbing jobs need a permit in riverside county"
+   ],
+   "suggested_slug": "licensed-plumber-c36-verify-california",
+   "suggested_title": "Licensed plumber: what a C-36 means in California and how to verify one in 60 seconds",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/",
+    "/about/",
+    "/contact/",
+    "/services/water-heater-installation/"
+   ],
+   "service_tags": [
+    "water-heater-installation",
+    "repiping",
+    "gas-line-services"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/CheckLicense.aspx",
+    "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
+   ],
+   "notes": "8,100/mo at KD 26 and the strongest AI-retrieval slot in this seed: ChatGPT's own Corona answer opens by telling the homeowner to check CSLB for an active C-36. Teach the lookup step by step and link the CSLB check page. RT Olson holds license 997337 and licensed_insured_attested is true, so the brand may state it is licensed and insured and invite readers to verify 997337 themselves: that self-verification invite is the trust move. Cover which jobs (water heater swaps, repipes, gas lines, sewer work) need a permit and inspection.",
+   "source": "rank-ai-keyword-researcher",
+   "published_verified_at": "2026-09-18T11:15:09Z"
+  },
+  {
+   "id": "2026-08-28-how-much-does-a-plumber-cost",
+   "status": "written",
+   "queued_at": "2026-08-28T01:35:00Z",
+   "written_at": "2026-09-20T14:48:19Z",
+   "post_url": "https://rtolsonplumbing.com/blog/how-much-does-a-plumber-cost/",
+   "primary_keyword": "how much does a plumber cost",
+   "intent": "commercial",
+   "volume": 1600,
+   "kd": 0,
+   "fan_out_cluster": [
+    "how much does a plumber cost per hour",
+    "how much should a plumber charge per hour",
+    "how much does a plumber charge to unclog drain",
+    "how much does a plumber charge to install a toilet",
+    "what is a plumbing service call fee",
+    "why do emergency plumbing rates cost more",
+    "flat rate vs hourly plumber pricing"
+   ],
+   "suggested_slug": "how-much-does-a-plumber-cost",
+   "suggested_title": "How much does a plumber cost in 2026 (real price ranges by job)",
+   "target_word_count": 1800,
+   "internal_link_targets": [
+    "/services/",
+    "/services/drain-cleaning/",
+    "/services/toilet-faucet-repair/",
+    "/services/water-heater-installation/",
+    "/services/leak-detection/"
+   ],
+   "service_tags": [
+    "drain-cleaning",
+    "toilet-faucet-repair",
+    "water-heater-installation",
+    "leak-detection"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.energystar.gov/",
+    "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
+   ],
+   "notes": "Cost hub for the whole seed family: absorbs the per-hour cluster (1,600/mo), unclog-drain (480/mo) and toilet-install (1,000/mo) so those stay banked instead of becoming thin standalone posts. Lead with a job-by-job price table (service call, drain clear, hydro jet, camera inspection, leak detection, 50 gal gas water heater, tankless, slab leak reroute, trenchless lining): those are the exact rows ChatGPT is already publishing for the Corona and Riverside County market. Present ranges as market ranges, never as RT Olson's prices, and say plainly what moves a number (access, permits, materials, after-hours).",
+   "source": "rank-ai-keyword-researcher"
+  },
+  {
+   "id": "2026-08-28-should-i-tip-a-plumber",
+   "status": "written",
+   "queued_at": "2026-08-28T01:35:00Z",
+   "written_at": "2026-09-22T15:36:22Z",
+   "post_url": "https://rtolsonplumbing.com/blog/should-i-tip-a-plumber/",
+   "primary_keyword": "should i tip a plumber",
+   "intent": "informational",
+   "volume": 2400,
+   "kd": 0,
+   "fan_out_cluster": [
+    "do you tip a plumber for a service call",
+    "how much do you tip a plumber",
+    "do you tip plumbers on a big install job",
+    "is it rude not to tip a tradesperson",
+    "better ways to thank a plumber than tipping",
+    "do plumbing companies allow their techs to accept tips"
+   ],
+   "suggested_slug": "should-i-tip-a-plumber",
+   "suggested_title": "Should I tip a plumber? What homeowners actually do (and better ways to say thanks)",
+   "target_word_count": 1100,
+   "internal_link_targets": [
+    "/contact/",
+    "/services/",
+    "/about/"
+   ],
+   "service_tags": [
+    "emergency-plumbing",
+    "drain-cleaning"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [],
+   "notes": "2,400/mo at KD 0 and zero competition (competition_index 1): the cheapest win in this seed. Low direct dispatch value, high trust and AI-answer value, and it lands people on the site while they already have a plumber in the house. Answer the question in the first 40 words (no, tipping is not expected; cash tips on holidays or brutal after-hours calls are appreciated but never required), then pivot to the alternatives that actually help a local shop: a Google review, referrals, cold drinks. Point the review CTA at the GBP review link on file.",
+   "source": "rank-ai-keyword-researcher"
+  },
+  {
+   "id": "2026-09-28-emergency-plumber-cost",
+   "status": "queued",
+   "queued_at": "2026-09-28T12:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "emergency plumber cost",
+   "intent": "commercial",
+   "volume": 390,
+   "kd": 0,
+   "fan_out_cluster": [
+    "how much does an emergency plumber cost",
+    "emergency plumber cost per hour",
+    "do plumbers charge more on weekends",
+    "24 hour plumber cost",
+    "emergency plumber near me cheap"
+   ],
+   "suggested_slug": "emergency-plumber-cost",
+   "suggested_title": "Emergency plumber cost in Corona: what after-hours plumbing really runs",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/emergency-plumbing/",
+    "/blog/how-much-does-a-plumber-cost/"
+   ],
+   "service_tags": [
+    "emergency-plumbing"
+   ],
+   "city_anchor": "corona-ca",
+   "external_authority_candidates": [
+    "https://www.cslb.ca.gov/"
+   ],
+   "notes": "Lead with a cost-factor capsule (after-hours, weekend, holiday, trip fee, repair type) rather than invented dollar figures; only cite prices the brand has confirmed. Link to the existing general plumber-cost post, differentiate on the after-hours premium. RT Olson hours are 24/7 so round-the-clock claims are supported."
+  },
+  {
+   "id": "2026-09-28-what-to-do-if-you-smell-gas-in-your-house",
+   "status": "queued",
+   "queued_at": "2026-09-28T12:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "what to do if you smell gas in your house",
+   "intent": "informational",
+   "volume": 880,
+   "kd": 26,
+   "fan_out_cluster": [
+    "signs of a gas leak in the home",
+    "should you call 911 or the gas company for a gas smell",
+    "gas smell near water heater or furnace",
+    "what not to do when you smell gas",
+    "when it is safe to go back inside after a gas leak"
+   ],
+   "suggested_slug": "what-to-do-if-you-smell-gas-in-your-house",
+   "suggested_title": "What to do if you smell gas in your house in Riverside",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/furnace-repair/",
+    "/services/water-heater-repair/",
+    "/services/emergency-plumbing/"
+   ],
+   "service_tags": [
+    "furnace-repair",
+    "water-heater-repair",
+    "emergency-plumbing"
+   ],
+   "city_anchor": "riverside-ca",
+   "external_authority_candidates": [
+    "https://www.socalgas.com/stay-safe/gas-leaks",
+    "https://www.cpuc.ca.gov/"
+   ],
+   "notes": "Safety-first framing: leave the house, no switches or flames, call 911 or SoCalGas from outside BEFORE calling a plumber (matches site copy). Service fit is via gas appliances (furnace, water heater); client does not list gas-line services, so do not promise gas line repair."
+  },
+  {
+   "id": "2026-09-28-how-to-shut-off-main-water-valve",
+   "status": "queued",
+   "queued_at": "2026-09-28T12:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how to shut off main water valve",
+   "intent": "informational",
+   "volume": 880,
+   "kd": 17,
+   "fan_out_cluster": [
+    "where is my main water shut off valve",
+    "curb stop vs house shut-off valve",
+    "what to do if the main valve is stuck",
+    "shutting off water to a water heater or toilet",
+    "when to call an emergency plumber after shutting off water"
+   ],
+   "suggested_slug": "how-to-shut-off-main-water-valve",
+   "suggested_title": "How to shut off main water valve in a Corona home",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/emergency-plumbing/",
+    "/blog/what-to-do-burst-pipe/",
+    "/services/leak-detection/"
+   ],
+   "service_tags": [
+    "emergency-plumbing",
+    "leak-detection"
+   ],
+   "city_anchor": "corona-ca",
+   "external_authority_candidates": [
+    "https://www.epa.gov/watersense"
+   ],
+   "notes": "Step-by-step capsule first (locate, turn clockwise, open a low faucet to drain). Cover common Inland Empire slab-home valve locations (garage wall, front hose bib area) and the meter-box curb stop. Link to the burst-pipe blog as a sibling, not a duplicate."
+  },
+  {
+   "id": "2026-09-28-how-to-stop-a-toilet-from-overflowing",
+   "status": "banked",
+   "queued_at": "2026-09-28T12:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how to stop a toilet from overflowing",
+   "intent": "informational",
+   "volume": 590,
+   "kd": 0,
+   "fan_out_cluster": [
+    "toilet shut off valve location",
+    "lifting the flapper to stop the flow",
+    "is a clogged toilet a plumbing emergency",
+    "why a toilet keeps overflowing",
+    "when a toilet overflow points to a main line clog"
+   ],
+   "suggested_slug": "how-to-stop-a-toilet-from-overflowing",
+   "suggested_title": "How to stop a toilet from overflowing (Anaheim homeowner guide)",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/toilet-faucet-repair/",
+    "/services/drain-cleaning/",
+    "/services/emergency-plumbing/"
+   ],
+   "service_tags": [
+    "toilet-faucet-repair",
+    "drain-cleaning"
+   ],
+   "city_anchor": "anaheim-ca",
+   "external_authority_candidates": [
+    "https://www.epa.gov/watersense"
+   ],
+   "notes": "Answer in the first two sentences (close the supply valve, lift the float/flapper). Then diagnose repeat overflows and multi-fixture backups as a main line issue. Stay on stopping the water and fixing the cause, not cleanup/drying (restoration turf).",
+   "banked_at": "2026-09-29T02:04:34.990472+00:00"
+  },
+  {
+   "id": "2026-09-28-what-is-considered-a-plumbing-emergency",
+   "status": "banked",
+   "queued_at": "2026-09-28T12:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "what is considered a plumbing emergency",
+   "intent": "informational",
+   "volume": 90,
+   "kd": 0,
+   "fan_out_cluster": [
+    "what counts as a plumbing emergency",
+    "is a clogged toilet a plumbing emergency",
+    "is a leaking water heater an emergency",
+    "what to do while waiting for an emergency plumber",
+    "sewage backup in house"
+   ],
+   "suggested_slug": "what-is-considered-a-plumbing-emergency",
+   "suggested_title": "What is considered a plumbing emergency in Temecula (and what can wait)",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/emergency-plumbing/",
+    "/services/water-heater-repair/",
+    "/services/drain-cleaning/"
+   ],
+   "service_tags": [
+    "emergency-plumbing",
+    "water-heater-repair",
+    "drain-cleaning"
+   ],
+   "city_anchor": "temecula-ca",
+   "external_authority_candidates": [
+    "https://www.ready.gov/"
+   ],
+   "notes": "Hub post for the emergency cluster. Use a call-now vs can-wait list. Link out to the shut-off valve, toilet overflow, gas smell and emergency cost posts once published. Gas smell item must say call 911/SoCalGas first.",
+   "banked_at": "2026-09-29T02:04:34.990474+00:00"
+  }
+ ]
 }
