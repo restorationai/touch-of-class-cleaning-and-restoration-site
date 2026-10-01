@@ -345,6 +345,24 @@ def scan_and_store(
         )
 
     found = [r for r in results if r["found"]]
+    # IMPLAUSIBLE-ZERO GUARD (BIONIC 2026-10-01): a verified listing with real
+    # reviews that is "not found" at EVERY point is a matching/centering bug
+    # (wrong name, missing place_id, grid on the wrong side of town), not a
+    # ranking. Writing it would show the client and the dashboard "you rank
+    # nowhere". Refuse to persist; the cron logs a FAIL and the digest's
+    # zero-scan tripwire surfaces it.
+    if not found and len(pts) >= 25:
+        try:
+            _rows = sb.table("marketing_gbp_profiles").select("review_count,title") \
+                .eq("company_id", meta["company_id"]).limit(1).execute().data or []
+            _rc = int((_rows[0] if _rows else {}).get("review_count") or 0)
+        except Exception:  # noqa: BLE001
+            _rc = 0
+        if _rc >= 10:
+            raise RuntimeError(
+                f"implausible scan: 0/{len(pts)} found for '{keyword}' @ {city['label']} "
+                f"but the listing has {_rc} reviews; check place_id/name match and the grid "
+                "center; not writing")
     cost = sum(r["cost"] for r in results)
     avg = (sum(r["rank"] for r in found) / len(found)) if found else None
     top3 = (100.0 * sum(1 for r in found if r["rank"] <= 3) / len(pts)) if pts else 0.0
