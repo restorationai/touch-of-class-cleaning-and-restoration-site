@@ -1,24 +1,40 @@
 #!/usr/bin/env python3
 """
-Rank AI — Geo-grid bi-weekly cron (System: local map rankings).
+Rank AI — geo-grid (local map rankings) scheduler. PER-CLIENT MATRIX.
 
-Every 2 weeks, for each active client that has a geo-grid config, scans every
-(keyword × city) and writes a NEW scan row + its points to Supabase, renders a
-static PNG, and uploads it to R2. Scans are never overwritten — the accumulating
-history is exactly what powers the dashboard's "Compare" (before/after) view.
+Santino 2026-10-01 ("why did GitHub cancel it partway through?"): the old
+fleet run scanned every client one grid after another (10-20 min per grid in
+task mode), so a 1st-of-month run needed far more than its 330-minute job and
+was killed partway, every month, and the daily cron ALSO ran a full fleet on
+the 1st, colliding with it. The house law (09-19) is per-client fan-out, so:
 
-Config per client (same files the report builder reads):
-    clients/{slug}/geogrid-keywords.txt   one keyword per line
-    clients/{slug}/geogrid-cities.json    [{"label","lat","lng"}, ...]
+  plan job    geogrid_cron.py --list --mode due     -> JSON roster of slugs
+  scan jobs   geogrid_cron.py --slug X --mode due   -> one GitHub job per
+              client, own timeout, own concurrency lane, max-parallel capped
 
-A client with neither file is skipped. Runs on Railway (railway.geogrid-cron.toml),
-schedule "every 2 weeks". Reuses scan_and_store() — the same unit of work the
-POST /geogrid/scan endpoint uses.
+WHAT IS DUE (geogrid_coverage.due_combos): every configured (keyword x city
+x radius) with no scan this calendar month and none in the last 7 days. On
+the 1st that is everything (the monthly run). Any later day it is only what
+the month has not covered yet, so a killed or failed job finishes itself on
+the next daily pass at no extra cost; there is no separate "resume" path.
+A combo that fails 3 times in a month stops retrying (spend cap) and the
+watchdog's coverage card names it.
+
+Inside one client every grid is posted to DataForSEO at once and collected
+together (geogrid_store.scan_many_and_store), so a 15-grid client takes about
+as long as one grid.
+
+Modes:
+  due        the scheduled lane (monthly coverage + daily catch-up)
+  ondemand   a single-slug dispatch (app Refresh, bootstrap): every combo not
+             scanned in the last 20h, limited to one per client per month
+             (GEOGRID_FORCE=1 overrides)
 
 Usage:
-    python3 scripts/geogrid_cron.py                 # all configured clients
-    python3 scripts/geogrid_cron.py --slug narestco # one client
-    python3 scripts/geogrid_cron.py --dry-run       # list the work, scan nothing
+  python3 scripts/geogrid_cron.py --list --mode due            # roster JSON
+  python3 scripts/geogrid_cron.py --slug narestco --mode due   # one client
+  python3 scripts/geogrid_cron.py --slug narestco --dry-run
+  python3 scripts/geogrid_cron.py --mode due                   # local: all, sequential
 """
 from __future__ import annotations
 
@@ -26,162 +42,205 @@ import argparse
 import json
 import os
 import sys
-import time
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from geogrid_store import COMPANY_MAP, sb_client, scan_and_store  # noqa: E402
+import geogrid_coverage as gc  # noqa: E402
+
+COST_PER_SCAN = 0.102          # task mode, 13x13 (measured 09-06 / 10-01)
+DEFAULT_DAILY_BUDGET = 40.0    # USD per scheduled pass; the rest rolls to tomorrow
 
 
-def load_config(slug: str) -> tuple[list[str], list[dict]]:
-    kw_f = ROOT / "clients" / slug / "geogrid-keywords.txt"
-    ct_f = ROOT / "clients" / slug / "geogrid-cities.json"
-    keywords = [ln.strip() for ln in kw_f.read_text().splitlines() if ln.strip()] if kw_f.exists() else []
-    cities = json.loads(ct_f.read_text()) if ct_f.exists() else []
-    return keywords, cities
+def _log(msg: str) -> None:
+    print(msg, flush=True)
 
 
-def run_client(sb, slug: str, dry_run: bool) -> dict:
-    keywords, cities = load_config(slug)
-    if not keywords or not cities:
-        print(f"  [{slug}] SKIP — no geogrid-keywords.txt / geogrid-cities.json")
-        return {"slug": slug, "scans": 0, "cost": 0.0, "skipped": True}
+def ondemand_combos(slug: str, scans: list[dict]) -> list[dict]:
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=20)
+    done = {gc.combo_key(s["keyword"], s["city_label"], s["miles"]) for s in scans
+            if datetime.fromisoformat(str(s["scanned_at"]).replace("Z", "+00:00")) >= cutoff}
+    return [c for c in gc.expected_combos(slug) if c["key"] not in done]
 
-    # Per-city radius list (Santino 2026-07-26: 9.5mi standard, 15mi wide view
-    # for metro home cities). "miles_list" on a city entry; absent = [9.5].
-    pairs = [(kw, c, m) for kw in keywords for c in cities
-             for m in (c.get("miles_list") or [9.5])]
 
-    # SAME-DAY DEDUPE (2026-09-02): the Sept 1 fleet run died 20 scans into
-    # narestco and there was no way to re-run without paying for the 20 again.
-    # Skipping any (keyword, city, radius) already scanned in the last 20h
-    # makes a crashed run resumable by simply dispatching it again, and makes
-    # overlapping schedulers (Railway cron + GitHub cron) spend-safe.
-    if sb is not None:
+def ondemand_refused(slug: str, scans: list[dict]) -> str | None:
+    """ON-DEMAND QUOTA (Santino 2026-09-06): one full rescan per client per
+    calendar month on top of the scheduled pass. A client whose scans this
+    month all come from ONE day (the scheduled pass or its first baseline)
+    still has its rescan available."""
+    if os.environ.get("GEOGRID_FORCE"):
+        return None
+    ms = gc.month_start()
+    month = [s for s in scans
+             if datetime.fromisoformat(str(s["scanned_at"]).replace("Z", "+00:00")) >= ms]
+    days = {str(s["scanned_at"])[:10] for s in month}
+    if len(month) > 5 and len(days) >= 2:
+        return (f"monthly on-demand rescan already used ({len(month)} scans across "
+                f"{len(days)} day(s) this month); GEOGRID_FORCE=1 overrides")
+    return None
+
+
+def plan(mode: str, slug: str | None, budget: float) -> list[str]:
+    """The matrix roster: clients with work to do, cheapest-to-complete
+    first under the per-pass budget (never-scanned clients always first)."""
+    slugs = [slug] if slug else gc.active_roster()
+    cmap = gc.company_map()
+    rows = []
+    for s in slugs:
+        if s in gc.SKIP_SLUGS or s not in cmap:
+            _log(f"  [{s}] skip (dead/on-hold or unmapped)")
+            continue
         try:
-            cid = COMPANY_MAP.get(slug)
-            from datetime import datetime, timedelta, timezone
-            cutoff = (datetime.now(timezone.utc) - timedelta(hours=20)).isoformat()
-            recent = (sb.table("marketing_geogrid_scans")
-                      .select("keyword,city_label,miles")
-                      .eq("company_id", cid).gte("scanned_at", cutoff)
-                      .execute().data or [])
-            done = {(r["keyword"], (r.get("city_label") or "").strip(),
-                     float(r.get("miles") or 0)) for r in recent}
-            before = len(pairs)
-            pairs = [(kw, c, m) for kw, c, m in pairs
-                     if (kw, c["label"].strip(), float(m)) not in done]
-            if len(pairs) < before:
-                print(f"  [{slug}] {before - len(pairs)} scan(s) already done "
-                      "in the last 20h — skipping those")
-        except Exception as e:  # noqa: BLE001 — dedupe must never kill the run
-            print(f"  [{slug}] dedupe check failed ({str(e)[:80]}) — running all pairs")
-    print(f"  [{slug}] {len(keywords)} keywords × {len(cities)} cities/radii = {len(pairs)} scans")
-    if dry_run:
-        for kw, c, m in pairs:
-            print(f"      WOULD scan: '{kw}' @ {c['label']} ({m}mi)")
-        return {"slug": slug, "scans": len(pairs), "cost": 0.0, "skipped": False, "dry": True}
+            scans = gc.fetch_scans(cmap[s])
+        except Exception as e:  # noqa: BLE001 — fail closed per client
+            _log(f"  [{s}] skip this pass: scan history unreadable ({str(e)[:80]})")
+            continue
+        if mode == "ondemand":
+            why = ondemand_refused(s, scans)
+            if why:
+                _log(f"  [{s}] REFUSED: {why}")
+                continue
+            n = len(ondemand_combos(s, scans))
+        else:
+            n = len(gc.due_combos(s, scans))
+        if n:
+            rows.append((0 if not scans else 1, n, s))
+            _log(f"  [{s}] {n} scan(s) due")
+    rows.sort()
+    out, spend = [], 0.0
+    for first, n, s in rows:
+        cost = n * COST_PER_SCAN
+        if out and not slug and spend + cost > budget:
+            _log(f"  [{s}] deferred to the next pass (budget ${budget:.0f}, "
+                 f"${spend:.2f} planned)")
+            continue
+        out.append(s)
+        spend += cost
+    _log(f"plan: {len(out)} client(s), ~${spend:.2f} estimated")
+    return out
 
-    scans, cost, fails = 0, 0.0, 0
-    for kw, c, m in pairs:
+
+def run_client(slug: str, mode: str, dry_run: bool = False,
+               max_scans: int | None = None) -> dict:
+    cmap = gc.company_map()
+    cid = cmap.get(slug)
+    if not cid:
+        _log(f"  [{slug}] SKIP: no company_id mapping")
+        return {"slug": slug, "scans": 0, "fails": 0, "cost": 0.0}
+    kws, cities = gc.load_config(slug)
+    if not kws or not cities:
+        _log(f"  [{slug}] SKIP: no geogrid-keywords.txt / geogrid-cities.json")
+        return {"slug": slug, "scans": 0, "fails": 0, "cost": 0.0}
+    if not dry_run:
+        # the app reads configured coverage from this mirror ("not scanned
+        # yet" instead of silently omitting a keyword)
+        _log(f"  [{slug}] app config mirror: {'ok' if gc.publish_config(slug) else 'FAILED'}")
+    scans = gc.fetch_scans(cid)
+    if mode == "ondemand":
+        why = ondemand_refused(slug, scans)
+        if why:
+            _log(f"  [{slug}] REFUSED: {why}")
+            return {"slug": slug, "scans": 0, "fails": 0, "cost": 0.0}
+        combos = ondemand_combos(slug, scans)
+    else:
+        combos = gc.due_combos(slug, scans)
+    if max_scans is not None:
+        combos = combos[:max_scans]
+    _log(f"  [{slug}] {len(kws)} keyword(s) x {len(cities)} city(ies) = "
+         f"{len(gc.expected_combos(slug))} configured; {len(combos)} to scan now "
+         f"(~${len(combos) * COST_PER_SCAN:.2f})")
+    if dry_run or not combos:
+        for c in combos:
+            _log(f"      WOULD scan: '{c['keyword']}' @ {c['label']} ({c['miles']}mi)")
+        return {"slug": slug, "scans": 0, "fails": 0, "cost": 0.0}
+
+    from geogrid_store import sb_client, scan_many_and_store
+    sb = sb_client()
+    tally = {"scans": 0, "fails": 0, "cost": 0.0, "systemic": 0}
+
+    def _on(res):
+        c = res["combo"]
+        if res["row"]:
+            r = res["row"]
+            tally["scans"] += 1
+            tally["cost"] += float(r.get("cost_usd") or 0.0)
+            _log(f"      ok: '{c['keyword']}' @ {c['label']} {c['miles']}mi | "
+                 f"avg={r.get('avg_rank')} top3={r.get('pct_in_top3')}% "
+                 f"found={r.get('found_points')}/{r.get('total_points')} "
+                 f"img={'yes' if r.get('image_url') else 'NO'}")
+        else:
+            tally["fails"] += 1
+            if not str(res["error"]).startswith("implausible"):
+                tally["systemic"] += 1      # DataForSEO/storage, not identity
+            gc.record_failure(slug, c["key"], res["error"])
+            _log(f"      FAIL: '{c['keyword']}' @ {c['label']} {c['miles']}mi: "
+                 f"{str(res['error'])[:220]}")
+
+    # Chunks bound memory and keep each batch's polling window sane for the
+    # biggest configs (QCI: 140 grids); within a chunk everything is in flight.
+    chunk = int(os.environ.get("GEOGRID_CHUNK") or 40)
+    for i in range(0, len(combos), chunk):
+        part = combos[i:i + chunk]
+        _log(f"  [{slug}] batch {i // chunk + 1}: {len(part)} grid(s) in flight")
         try:
-            row = scan_and_store(sb, slug, kw, c, miles=m)
-            scans += 1
-            cost += float(row.get("cost_usd") or 0.0)
-            print(f"      ok: '{kw}' @ {c['label']} | avg={row.get('avg_rank')} "
-                  f"top3={row.get('pct_in_top3')}% found={row.get('found_points')}/{row.get('total_points')}")
-        except Exception as e:
-            fails += 1
-            sys.stderr.write(f"      FAIL: '{kw}' @ {c['label']} ({m}mi): {str(e)[:200]}\n")
-        time.sleep(1)  # gentle pacing between scans
-    print(f"  [{slug}] done — {scans} scans, {fails} failed, ${cost:.2f}")
-    return {"slug": slug, "scans": scans, "cost": cost, "fails": fails, "skipped": False}
+            scan_many_and_store(sb, slug, part, on_result=_on)
+        except Exception as e:  # noqa: BLE001 — e.g. no business identity
+            for c in part:
+                tally["fails"] += 1
+                tally["systemic"] += 1
+                gc.record_failure(slug, c["key"], str(e))
+            _log(f"  [{slug}] batch FAILED before scanning: {str(e)[:220]}")
+    _log(f"  [{slug}] done: {tally['scans']} stored, {tally['fails']} failed "
+         f"({tally['systemic']} systemic), ${tally['cost']:.2f}")
+    return {"slug": slug, **tally}
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Rank AI geo-grid bi-weekly cron")
-    ap.add_argument("--slug", help="Run a single client (default: all configured)")
-    ap.add_argument("--dry-run", action="store_true", help="List the work, scan nothing")
+    from dotenv import load_dotenv
+    load_dotenv(ROOT / ".env")
+    ap = argparse.ArgumentParser(description="Rank AI geo-grid scheduler (per-client)")
+    ap.add_argument("--slug", help="One client")
+    ap.add_argument("--mode", choices=["due", "ondemand"], default=None,
+                    help="due = scheduled coverage lane; ondemand = single-slug "
+                         "refresh (default: ondemand with --slug, else due)")
+    ap.add_argument("--list", action="store_true",
+                    help="Print the matrix roster (slugs=<json>) and exit")
+    ap.add_argument("--budget", type=float,
+                    default=float(os.environ.get("GEOGRID_DAILY_BUDGET") or DEFAULT_DAILY_BUDGET))
+    ap.add_argument("--max-scans", type=int, help="Cap grids for this client run")
+    ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--baseline-only", action="store_true",
-                    help="Scan ONLY clients with zero stored scans (the "
-                         "new-signup catch-up lane: daily, task-mode, so a "
-                         "client bootstrapped Sep 9 sees heatmaps within 24h "
-                         "instead of waiting for the monthly on Oct 1)")
-    args = ap.parse_args()
+                    help="(legacy flag) same as --mode due")
+    a = ap.parse_args()
+    mode = a.mode or ("ondemand" if a.slug and not a.baseline_only else "due")
 
-    slugs = [args.slug] if args.slug else list(COMPANY_MAP.keys())
-    if args.baseline_only:
-        try:
-            scanned = (sb_client().table("marketing_geogrid_scans")
-                       .select("company_id").limit(20000).execute().data or [])
-            have = {r["company_id"] for r in scanned}
-            slugs = [s for s in slugs if COMPANY_MAP.get(s) not in have]
-        except Exception as e:  # noqa: BLE001 — fail CLOSED here: a broken
-            # check must not turn the daily catch-up into a full fleet run
-            print(f"  [baseline-only] scan-history check failed "
-                  f"({str(e)[:80]}) — aborting rather than over-scanning")
-            return 0
-        if not slugs:
-            print("baseline-only: every configured client already has scans "
-                  "— nothing to do")
-            return 0
-    # ON-DEMAND QUOTA (Santino 2026-09-06): the monthly fleet run is the
-    # baseline; a single-slug dispatch (the app's Refresh button / manual
-    # dispatch) is limited to ONE per client per calendar month. Full-depth
-    # configs cost ~$6-10 per client per run, so unlimited refreshes would
-    # quietly rebuild the biweekly bill. GEOGRID_FORCE=1 bypasses (ops use).
-    if args.slug and not args.dry_run and not os.environ.get("GEOGRID_FORCE"):
-        try:
-            from datetime import datetime, timezone
-            month_start = datetime.now(timezone.utc).strftime("%Y-%m-01")
-            cid = COMPANY_MAP.get(args.slug)
-            recent = (sb_client().table("marketing_geogrid_scans")
-                      .select("id,scanned_at").eq("company_id", cid)
-                      .gte("scanned_at", month_start).limit(200)
-                      .execute().data or [])
-            # >5 scans this month = the fleet run or a prior refresh already
-            # covered them (a config test run is a handful at most)
-            days = {str(r["scanned_at"])[:10] for r in recent}
-            if len(recent) > 5 and len(days) >= 2:
-                print(f"  [{args.slug}] REFUSED — monthly on-demand rescan "
-                      f"already used ({len(recent)} scans across {len(days)} "
-                      "day(s) this month). GEOGRID_FORCE=1 overrides.")
-                return 0
-        except Exception as e:  # noqa: BLE001 — quota must never kill a scan
-            print(f"  (quota check errored, proceeding: {str(e)[:80]})")
-    # ACCOUNT-STATUS GATE (Santino 2026-08-04: Mold Solutionz paused — it has
-    # geo-grid config + a company_map entry, so the cron would have kept
-    # burning DataForSEO spend on a cancelled client). companies.status is
-    # the pause button's single source of truth; local clients/*.json status
-    # is not updated by the app. Fail-open: if the status read errors, keep
-    # the full roster rather than silently skipping paying clients.
-    try:
-        rows = (sb_client().table("companies")
-                .select("id,status")
-                .in_("id", [COMPANY_MAP[s] for s in slugs if s in COMPANY_MAP])
-                .execute().data or [])
-        inactive = {"paused", "cancelled", "canceled", "churned", "inactive",
-                    "archived", "suspended"}
-        bad = {r["id"] for r in rows
-               if str(r.get("status") or "").strip().lower() in inactive}
-        for s in [s for s in slugs if COMPANY_MAP.get(s) in bad]:
-            print(f"  [{s}] SKIP — account paused/cancelled (companies.status)")
-            slugs.remove(s)
-    except Exception as e:  # noqa: BLE001 — gate must never kill the cron
-        print(f"  [status-gate] check failed ({str(e)[:80]}) — running full roster")
-    mode = "DRY RUN" if args.dry_run else "RUN"
-    print(f"geogrid_cron — {mode} — {len(slugs)} client(s): {', '.join(slugs)}")
+    if a.list:
+        slugs = plan(mode, a.slug, a.budget)
+        line = f"slugs={json.dumps(slugs)}"
+        print(line)
+        gh_out = os.environ.get("GITHUB_OUTPUT")
+        if gh_out:
+            with open(gh_out, "a") as f:
+                f.write(line + "\n")
+                f.write(f"mode={mode}\n")
+        return 0
 
-    sb = None if args.dry_run else sb_client()
-    total_scans, total_cost = 0, 0.0
-    for slug in slugs:
-        r = run_client(sb, slug, args.dry_run)
-        total_scans += r["scans"]
-        total_cost += r["cost"]
+    if a.slug:
+        r = run_client(a.slug, mode, a.dry_run, a.max_scans)
+        # Per-combo failures are recorded in ops_kv and named on the
+        # watchdog's coverage card. The job itself fails only when nothing
+        # could be stored for a SYSTEMIC reason (DataForSEO/R2/Supabase), so
+        # a red run means "the scanner is broken", never "one listing's
+        # identity needs a human".
+        return 1 if (r.get("systemic") and not r["scans"]) else 0
 
-    print(f"\nDone. {total_scans} scans across {len(slugs)} client(s). DataForSEO spend: ${total_cost:.2f}")
+    # local convenience: the whole due roster, one client after another
+    total = 0.0
+    for s in plan(mode, None, a.budget):
+        total += run_client(s, mode, a.dry_run)["cost"]
+    _log(f"\nDone. DataForSEO spend: ${total:.2f}")
     return 0
 
 

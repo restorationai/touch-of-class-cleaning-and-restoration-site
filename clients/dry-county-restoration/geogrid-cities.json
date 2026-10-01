@@ -1,6 +1,6 @@
 [
  {
-  "label": "Corona ",
+  "label": "Corona",
   "lat": 33.8752945,
   "lng": -117.566444,
   "miles_list": [
@@ -9,9 +9,29 @@
    15
   ]
  },
- { "label": "Riverside, CA", "lat": 33.9825, "lng": -117.3742 },
- { "label": "Norco, CA", "lat": 33.9323, "lng": -117.5509 },
- { "label": "Chino Hills, CA", "lat": 33.9927, "lng": -117.7601 },
- { "label": "Chino, CA", "lat": 34.0134, "lng": -117.6901 },
- { "label": "Ontario, CA", "lat": 34.0658, "lng": -117.6484 }
+ {
+  "label": "Riverside, CA",
+  "lat": 33.9825,
+  "lng": -117.3742
+ },
+ {
+  "label": "Norco, CA",
+  "lat": 33.9323,
+  "lng": -117.5509
+ },
+ {
+  "label": "Chino Hills, CA",
+  "lat": 33.9927,
+  "lng": -117.7601
+ },
+ {
+  "label": "Chino, CA",
+  "lat": 34.0134,
+  "lng": -117.6901
+ },
+ {
+  "label": "Ontario, CA",
+  "lat": 34.0658,
+  "lng": -117.6484
+ }
 ]

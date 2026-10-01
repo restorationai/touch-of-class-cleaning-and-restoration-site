@@ -170,7 +170,48 @@ def r2_put(bucket: str, key: str, data: bytes, content_type: str = "image/png") 
 
 
 # ---------------------------------------------------------------------------
-# Persist: insert scan -> render+upload PNG -> patch image_url -> insert points
+# Image: render + upload, verified by a real GET-able URL
+# ---------------------------------------------------------------------------
+
+def _url_serves(url: str) -> bool:
+    try:
+        r = requests.head(url, timeout=20, allow_redirects=True)
+        return r.status_code == 200 and "image" in r.headers.get("content-type", "")
+    except Exception:  # noqa: BLE001
+        return False
+
+
+def upload_image(points: list[dict], key: str, bucket: str, public_url: str) -> str | None:
+    """Render the grid PNG and return a URL that ACTUALLY SERVES it.
+
+    A 200 PUT is not a working image: images.{domain} can resolve yet not be
+    bound to the bucket, or not resolve at all before the site cuts over
+    (ProRestoration 08-04). The per-client URL is used only after a HEAD
+    proves it serves; otherwise the shared bucket on our own domain takes it.
+    Returns None only when every upload failed (the app then draws the grid
+    from the stored points)."""
+    with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp:
+        tmp_path = Path(tmp.name)
+    try:
+        render_png(points, tmp_path)
+        data = tmp_path.read_bytes()
+    finally:
+        tmp_path.unlink(missing_ok=True)
+    if _host_resolves(public_url) and r2_put(bucket, key, data, "image/png"):
+        url = f"{public_url}/{key}"
+        if _url_serves(url):
+            return url
+        sys.stderr.write(f"  image: {url} does not serve after upload; using shared bucket\n")
+    if r2_put(FALLBACK_BUCKET, key, data, "image/png"):
+        url = f"{FALLBACK_PUBLIC_URL}/{key}"
+        if _url_serves(url):
+            return url
+        sys.stderr.write(f"  image: shared-bucket URL {url} does not serve\n")
+    return None
+
+
+# ---------------------------------------------------------------------------
+# Persist: render+upload PNG -> insert scan (with image_url) -> insert points
 # ---------------------------------------------------------------------------
 
 def persist_scan(
@@ -196,12 +237,31 @@ def persist_scan(
     scanned_at: str | None = None,
     render: bool = True,
 ) -> dict:
-    """Write one scan + its points. Returns the inserted scan row (incl. id, image_url)."""
+    """Write one scan + its points. Returns the inserted scan row (incl. id, image_url).
+
+    ORDER MATTERS (10-01): the row used to be inserted first and patched with
+    image_url afterwards, then points inserted last. A run killed in between
+    (the 330-min fleet timeout did exactly that) left rows with no image and
+    no points, i.e. a permanently blank map in the app. Now the scan id is
+    minted here, the image is uploaded BEFORE the row exists, and a row whose
+    points fail to insert is deleted again."""
+    import uuid
+    scan_id = str(uuid.uuid4())
     grid_spacing_mi = round(miles / (grid_size - 1), 4) if grid_size > 1 else miles
+    image_url = None
+    if render:
+        try:
+            image_url = upload_image(points, f"geogrid/{_kw_slug(keyword)}/{scan_id}.png",
+                                     bucket, public_url)
+        except Exception as e:  # noqa: BLE001 — the points still render in-app
+            sys.stderr.write(f"  render/upload failed (scan {scan_id} still stored): {str(e)[:200]}\n")
     scan_row = {
+        "id":              scan_id,
         "company_id":      company_id,
-        "keyword":         keyword,
-        "city_label":      city_label,
+        "keyword":         " ".join(keyword.split()),
+        # labels are compared trimmed everywhere; store them that way
+        # ('Santa Maria ' and 'Santa Maria' were two cities in the app)
+        "city_label":      " ".join(str(city_label).split()),
         "center_lat":      center_lat,
         "center_lng":      center_lng,
         "grid_size":       grid_size,
@@ -213,42 +273,10 @@ def persist_scan(
         "found_points":    found_points,
         "total_points":    total_points,
         "cost_usd":        round(cost_usd, 4),
+        "image_url":       image_url,
         "scanned_at":      scanned_at or _now_iso(),
     }
-    inserted = sb.table("marketing_geogrid_scans").insert(scan_row).execute()
-    scan = inserted.data[0]
-    scan_id = scan["id"]
-
-    # Render PNG + upload to R2, keyed by scan_id, then patch image_url.
-    # Fallback (Kyle/Crew3r 2026-07-26): the per-client bucket only exists
-    # after full site onboarding, so day-one scans lost every image ("bucket
-    # does not exist"). When the client bucket rejects the put, the shared
-    # public bucket takes it — map images must exist from the first scan.
-    image_url = None
-    if render:
-        try:
-            with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp:
-                tmp_path = Path(tmp.name)
-            render_png(points, tmp_path)
-            key = f"geogrid/{_kw_slug(keyword)}/{scan_id}.png"
-            data = tmp_path.read_bytes()
-            # A successful PUT is not a working URL. images.{domain} only
-            # resolves AFTER the client's domain cuts over to our Cloudflare —
-            # so a client whose bucket already exists but whose site is still
-            # pre-launch got a 200 upload and an image_url on a host that
-            # NXDOMAINs, i.e. a blank map in the app with nothing logged
-            # anywhere (ProRestoration 2026-08-04). Serve those from the shared
-            # public bucket until their own domain is live.
-            if r2_put(bucket, key, data, "image/png") and _host_resolves(public_url):
-                image_url = f"{public_url}/{key}"
-            elif r2_put(FALLBACK_BUCKET, key, data, "image/png"):
-                image_url = f"{FALLBACK_PUBLIC_URL}/{key}"
-            if image_url:
-                sb.table("marketing_geogrid_scans").update({"image_url": image_url}).eq("id", scan_id).execute()
-                scan["image_url"] = image_url
-            tmp_path.unlink(missing_ok=True)
-        except Exception as e:
-            sys.stderr.write(f"  render/upload failed (scan {scan_id} still stored): {str(e)[:200]}\n")
+    scan = sb.table("marketing_geogrid_scans").insert(scan_row).execute().data[0]
 
     # Points — grid_row / grid_col per the app's migration.
     point_rows = [{
@@ -260,16 +288,151 @@ def persist_scan(
         "rank":     p.get("rank"),
         "found":    bool(p.get("found")),
     } for p in points]
-    for i in range(0, len(point_rows), 200):
-        sb.table("marketing_geogrid_points").insert(point_rows[i:i + 200]).execute()
-
+    try:
+        for i in range(0, len(point_rows), 200):
+            sb.table("marketing_geogrid_points").insert(point_rows[i:i + 200]).execute()
+    except Exception:
+        # a scan without its points is a blank map forever; take it back out
+        try:
+            sb.table("marketing_geogrid_scans").delete().eq("id", scan_id).execute()
+        except Exception:  # noqa: BLE001
+            pass
+        raise
     return scan
 
 
 # ---------------------------------------------------------------------------
-# Scan one keyword × one city (DataForSEO) and persist — the unit of work for
-# both the bi-weekly cron and the POST /geogrid/scan endpoint.
+# Scan -> verify -> persist. scan_many_and_store is the unit of work for the
+# per-client cron job (all of a client's grids in flight at once);
+# scan_and_store is the single-grid path POST /geogrid/scan uses.
 # ---------------------------------------------------------------------------
+
+def _biz_inside(biz: dict, city: dict, miles: float) -> bool:
+    """Is the business's own location inside this grid? Only then is
+    'not found at a single point' implausible; a satellite city 20 miles
+    away can truthfully read 0/169."""
+    import math
+    half = miles / 2.0
+    dlat = abs(biz["lat"] - city["lat"]) * gs.MILES_PER_DEG_LAT
+    dlng = abs(biz["lng"] - city["lng"]) * gs.MILES_PER_DEG_LAT * math.cos(math.radians(city["lat"]))
+    return dlat <= half and dlng <= half
+
+
+def _review_count(sb, company_id: str) -> int:
+    try:
+        rows = sb.table("marketing_gbp_profiles").select("review_count") \
+            .eq("company_id", company_id).limit(1).execute().data or []
+        return int((rows[0] if rows else {}).get("review_count") or 0)
+    except Exception:  # noqa: BLE001
+        return 0
+
+
+def _finalize(sb, slug, meta, biz, auth, keyword, city, miles, pts, results,
+              grid, zoom, max_rank, workers, render, review_count) -> dict:
+    # A point whose DataForSEO call ERRORED (or whose task never completed)
+    # bills $0 and returns found=False — a failed call, NOT "not ranking here".
+    # Retry those once live.
+    def _errored(r):
+        return (not r["found"]) and (r.get("cost") or 0.0) == 0.0
+
+    err_idx = [k for k, r in enumerate(results) if _errored(r)]
+    if err_idx:
+        time.sleep(2)
+        with cf.ThreadPoolExecutor(max_workers=workers) as ex:
+            futs = {ex.submit(gs.rank_at_point, auth, keyword, pts[k], biz, zoom, max_rank): k
+                    for k in err_idx}
+            for fut in cf.as_completed(futs):
+                results[futs[fut]] = fut.result()
+
+    # Still mostly errored = unreliable. Raise instead of persisting an
+    # all-red grid that looks identical to a real ranking collapse.
+    errored_final = sum(1 for r in results if _errored(r))
+    if errored_final > 0.4 * len(pts):
+        raise RuntimeError(
+            f"unreliable scan: {errored_final}/{len(pts)} points errored ($0 cost) for "
+            f"'{keyword}' @ {city['label']} — likely DataForSEO rate-limit/credit/auth; not writing")
+
+    found = [r for r in results if r["found"]]
+    # IMPLAUSIBLE-ZERO GUARD (BIONIC 2026-10-01): a listing with real reviews
+    # that is "not found" at EVERY point of a grid that contains the business
+    # itself is a matching/centering bug, not a ranking. 10-01 refinement:
+    # only when the business sits inside the grid; satellite cities can be
+    # genuinely empty and must still be written.
+    if not found and len(pts) >= 25 and review_count >= 10 and _biz_inside(biz, city, miles):
+        raise RuntimeError(
+            f"implausible scan: 0/{len(pts)} found for '{keyword}' @ {city['label']} "
+            f"but the listing has {review_count} reviews and sits inside the grid; check "
+            "place_id/name match and the grid center; not writing")
+    cost = sum(r["cost"] for r in results)
+    avg = (sum(r["rank"] for r in found) / len(found)) if found else None
+    top3 = (100.0 * sum(1 for r in found if r["rank"] <= 3) / len(pts)) if pts else 0.0
+    return persist_scan(
+        sb, slug=slug, company_id=meta["company_id"], keyword=keyword,
+        city_label=city["label"], center_lat=city["lat"], center_lng=city["lng"],
+        grid_size=grid, miles=miles, zoom=zoom, points=results, avg_rank=avg,
+        pct_in_top3=top3, found_points=len(found), total_points=len(pts),
+        cost_usd=cost, public_url=meta["public_url"], bucket=meta["bucket"],
+        render=render)
+
+
+def scan_many_and_store(
+    sb,
+    slug: str,
+    combos: list[dict],
+    grid: int = 13,
+    zoom: int = 12,
+    max_rank: int = 20,
+    workers: int = 16,
+    render: bool = True,
+    on_result=None,
+) -> list[dict]:
+    """Scan many (keyword, city, miles) grids for ONE client concurrently and
+    persist each that passes verification.
+
+    combos: [{"keyword": str, "city": {"label","lat","lng"}, "miles": float}]
+    Returns [{"combo", "row" | None, "error" | None}] in combo order;
+    on_result(outcome) fires as each one is stored/refused."""
+    meta = resolve_client(slug)
+    u, p = gs.load_dfs_creds()
+    auth = base64.b64encode(f"{u}:{p}".encode()).decode()
+    biz = gs.load_center(slug)
+    rc = _review_count(sb, meta["company_id"])
+    jobs = [{"id": i, "keyword": c["keyword"],
+             "pts": gs.build_grid(c["city"]["lat"], c["city"]["lng"], grid, float(c["miles"]))}
+            for i, c in enumerate(combos)]
+
+    if os.environ.get("GEOGRID_LIVE"):
+        raw = {j["id"]: [None] * len(j["pts"]) for j in jobs}
+        for j in jobs:
+            with cf.ThreadPoolExecutor(max_workers=workers) as ex:
+                futs = {ex.submit(gs.rank_at_point, auth, j["keyword"], pt, biz, zoom, max_rank): k
+                        for k, pt in enumerate(j["pts"])}
+                for fut in cf.as_completed(futs):
+                    raw[j["id"]][futs[fut]] = fut.result()
+    else:
+        try:
+            raw = gs.scan_many_tasked(auth, jobs, biz, zoom, max_rank,
+                                      log=lambda m: print(m, flush=True))
+        except Exception as e:  # noqa: BLE001 — every point retries live below
+            sys.stderr.write(f"  task-mode failed ({str(e)[:120]}); every point "
+                             "will be retried live\n")
+            raw = {j["id"]: [{**pt, "rank": None, "found": False, "cost": 0.0}
+                             for pt in j["pts"]] for j in jobs}
+
+    out = []
+    for j, c in zip(jobs, combos):
+        res = {"combo": c, "row": None, "error": None}
+        try:
+            res["row"] = _finalize(sb, slug, meta, biz, auth, c["keyword"], c["city"],
+                                   float(c["miles"]), j["pts"], raw[j["id"]], grid, zoom,
+                                   max_rank, workers, render, rc)
+        except Exception as e:  # noqa: BLE001 — one bad grid never sinks the rest
+            res["error"] = str(e)
+        out.append(res)
+        if on_result:
+            on_result(res)
+    return out
+
 
 def scan_and_store(
     sb,
@@ -283,112 +446,14 @@ def scan_and_store(
     workers: int = 16,
     render: bool = True,
 ) -> dict:
-    """Run a live geo-grid scan for one keyword+city, store it, return the scan row.
-
-    `city` = {"label": "...", "lat": .., "lng": ..}. Business identity (cid/place_id/
-    name, used to match the listing) comes from the client's plan-input.json.
-    """
-    meta = resolve_client(slug)
-    u, p = gs.load_dfs_creds()
-    auth = base64.b64encode(f"{u}:{p}".encode()).decode()
-    biz = gs.load_center(slug)
-
-    pts = gs.build_grid(city["lat"], city["lng"], grid, miles)
-    results = [None] * len(pts)
-
-    def _run(indices):
-        with cf.ThreadPoolExecutor(max_workers=workers) as ex:
-            futs = {ex.submit(gs.rank_at_point, auth, keyword, pts[k], biz, zoom, max_rank): k
-                    for k in indices}
-            for fut in cf.as_completed(futs):
-                results[futs[fut]] = fut.result()
-
-    # TASK-QUEUE MODE default (2026-09-06): ~$0.10/scan vs live's ~$0.34 —
-    # a background report has no need for live latency. GEOGRID_LIVE=1
-    # restores the old per-point live path; any task-mode failure also
-    # falls back to live so a queue outage cannot blank a scheduled scan.
-    if os.environ.get("GEOGRID_LIVE"):
-        _run(range(len(pts)))
-    else:
-        try:
-            tasked = gs.scan_points_tasked(auth, keyword, pts, biz, zoom, max_rank)
-            by_rc = {(r["row"], r["col"]): r for r in tasked}
-            for k, p_ in enumerate(pts):
-                results[k] = by_rc.get((p_["row"], p_["col"])) or {
-                    **p_, "rank": None, "found": False, "cost": 0.0}
-        except Exception as e:
-            sys.stderr.write(f"  task-mode failed ({str(e)[:120]}) — falling "
-                             "back to live scan\n")
-            _run(range(len(pts)))
-
-    # A point whose DataForSEO call ERRORED bills $0 and returns found=False. A point
-    # that simply didn't contain the listing still bills >$0. So $0-cost, not-found
-    # points = failed calls (rate-limit / timeout / auth), NOT a genuine "not ranking
-    # here". Retry those once — a transient blip shouldn't poison the scan.
-    def _errored(r):
-        return (not r["found"]) and (r.get("cost") or 0.0) == 0.0
-
-    err_idx = [k for k, r in enumerate(results) if _errored(r)]
-    if err_idx:
-        time.sleep(2)
-        _run(err_idx)
-
-    # If a large share of points STILL errored, the scan is unreliable. Raise instead
-    # of persisting — an all-error scan writes as an all-red / avg-0 grid that looks
-    # identical to a real ranking collapse and misleads the dashboard. The cron catches
-    # this per keyword, logs a FAIL, and leaves the last good scan in place.
-    errored_final = sum(1 for r in results if _errored(r))
-    if errored_final > 0.4 * len(pts):
-        raise RuntimeError(
-            f"unreliable scan: {errored_final}/{len(pts)} points errored ($0 cost) for "
-            f"'{keyword}' @ {city['label']} — likely DataForSEO rate-limit/credit/auth; not writing"
-        )
-
-    found = [r for r in results if r["found"]]
-    # IMPLAUSIBLE-ZERO GUARD (BIONIC 2026-10-01): a verified listing with real
-    # reviews that is "not found" at EVERY point is a matching/centering bug
-    # (wrong name, missing place_id, grid on the wrong side of town), not a
-    # ranking. Writing it would show the client and the dashboard "you rank
-    # nowhere". Refuse to persist; the cron logs a FAIL and the digest's
-    # zero-scan tripwire surfaces it.
-    if not found and len(pts) >= 25:
-        try:
-            _rows = sb.table("marketing_gbp_profiles").select("review_count,title") \
-                .eq("company_id", meta["company_id"]).limit(1).execute().data or []
-            _rc = int((_rows[0] if _rows else {}).get("review_count") or 0)
-        except Exception:  # noqa: BLE001
-            _rc = 0
-        if _rc >= 10:
-            raise RuntimeError(
-                f"implausible scan: 0/{len(pts)} found for '{keyword}' @ {city['label']} "
-                f"but the listing has {_rc} reviews; check place_id/name match and the grid "
-                "center; not writing")
-    cost = sum(r["cost"] for r in results)
-    avg = (sum(r["rank"] for r in found) / len(found)) if found else None
-    top3 = (100.0 * sum(1 for r in found if r["rank"] <= 3) / len(pts)) if pts else 0.0
-
-    return persist_scan(
-        sb,
-        slug=slug,
-        company_id=meta["company_id"],
-        keyword=keyword,
-        city_label=city["label"],
-        center_lat=city["lat"],
-        center_lng=city["lng"],
-        grid_size=grid,
-        miles=miles,
-        zoom=zoom,
-        points=results,
-        avg_rank=avg,
-        pct_in_top3=top3,
-        found_points=len(found),
-        total_points=len(pts),
-        cost_usd=cost,
-        public_url=meta["public_url"],
-        bucket=meta["bucket"],
-        render=render,
-    )
-
+    """Run one geo-grid scan for one keyword+city, store it, return the scan
+    row (raises when the scan is refused). `city` = {"label","lat","lng"}."""
+    r = scan_many_and_store(sb, slug, [{"keyword": keyword, "city": city, "miles": miles}],
+                            grid=grid, zoom=zoom, max_rank=max_rank, workers=workers,
+                            render=render)[0]
+    if r["error"]:
+        raise RuntimeError(r["error"])
+    return r["row"]
 
 # ---------------------------------------------------------------------------
 # CLI

@@ -734,10 +734,17 @@ def ensure_baseline_scans(dry_run: bool, cid_to_slug: dict) -> list[str]:
                 if dry_run:
                     out.append(f"{slug}: WOULD run geo-grid baseline")
                 else:
+                    # Dispatch the per-client geogrid job instead of scanning
+                    # inline (10-01): an inline scan here ran inside this
+                    # job's timeout and outside the client's geogrid
+                    # concurrency lane. mode=due is spend-safe (only combos
+                    # the month has not covered).
                     try:
-                        out.append(f"{slug}: geo-grid baseline -> "
-                                   + run_tool([str(ROOT / 'scripts' / 'geogrid_cron.py'),
-                                               '--slug', slug], 3600))
+                        import geogrid_coverage as _gc  # noqa: PLC0415
+                        ok = _gc.dispatch_scan(slug, mode="due")
+                        out.append(f"{slug}: geo-grid baseline "
+                                   + ("dispatched (geogrid-scan.yml)" if ok
+                                      else "dispatch FAILED; the daily lane picks it up"))
                     except Exception as e:
                         out.append(f"{slug}: geo-grid baseline failed ({str(e)[:80]})")
         ai = _sb("GET", f"/rest/v1/marketing_ai_search_scans?company_id=eq.{cid}"

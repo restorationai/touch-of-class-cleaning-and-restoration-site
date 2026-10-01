@@ -52,7 +52,7 @@ WATCHED_WORKFLOWS = [
     "weekly-maintenance.yml", "call-intel.yml", "gbp-maintenance.yml",
     "monthly-reports.yml", "dev-agent.yml", "site-render.yml",
     "lsa-lead-review.yml", "site-regression-watch.yml",
-    "index-watch.yml",
+    "index-watch.yml", "geogrid-scan.yml",
 ]
 HEARTBEATS = {"heartbeat:parity": 8, "heartbeat:service-bank": 8,
               "heartbeat:ai-scan": 5, "heartbeat:lsa-lead-review": 2}
@@ -614,6 +614,73 @@ def check_coverage() -> list[str]:
     return issues
 
 
+def check_geogrid() -> list[str]:
+    """MAP RANKINGS (Santino 2026-10-01: "feels like the system is broken").
+    For ten days every map scan stored 0-found, fleet runs were killed
+    partway every month, configured radii/keywords were never scanned, and
+    nothing said so. Outcome checks, one card per problem class:
+
+      coverage   an active client has configured (keyword x city x radius)
+                 combos with no scan in 35 days (or that hit the 3-failure
+                 monthly cap), judged after the first 3 days of a month and
+                 for clients older than 3 days
+      images     a client's latest map image is missing or does not serve
+      zero       every home-grid scan of a client found nothing (a listing
+                 identity / centering problem, not a ranking)"""
+    try:
+        import geogrid_coverage as gc  # noqa: PLC0415
+        roster = gc.active_roster()
+        comps = {c["id"]: c for c in _sb(
+            "GET", "/rest/v1/companies?select=id,created_at") or []}
+    except Exception as e:  # noqa: BLE001
+        return [f"geogrid watchdog failed — {str(e)[:100]}"]
+    cmap = gc.company_map()
+    incomplete, broken, zero = [], [], []
+    for slug in roster:
+        cid = cmap.get(slug)
+        try:
+            age = (NOW - datetime.fromisoformat(str(
+                (comps.get(cid) or {}).get("created_at")).replace("Z", "+00:00"))).days
+        except (TypeError, ValueError):
+            age = 999
+        try:
+            cov = gc.coverage(slug)
+        except Exception as e:  # noqa: BLE001
+            incomplete.append(f"{slug} (unreadable: {str(e)[:40]})")
+            continue
+        gap = len(cov["missing"]) + len(cov["stale"])
+        if gap and age >= 3 and NOW.day >= 4:
+            capped = sum(1 for v in gc.failures(slug).values()
+                         if int((v or {}).get("count") or 0) >= gc.MAX_FAILS_PER_MONTH)
+            incomplete.append(f"{slug} {len(cov['present'])}/{cov['expected']}"
+                              + (f" ({capped} gave up after 3 failures)" if capped else ""))
+        latest = [c["scan"] for c in cov["present"]]
+        bad = gc.broken_images(latest) if latest else []
+        if bad:
+            broken.append(f"{slug} {len(bad)}/{len(latest)}")
+        home = cov["present"] and [c for c in cov["present"]
+                                   if c["label"] == gc.load_config(slug)[1][0]["label"]]
+        if home and all(not c["scan"].get("found_points") for c in home):
+            zero.append(f"{slug} ({len(home)} home grids)")
+    issues = []
+    if incomplete:
+        issues.append("geogrid coverage incomplete — configured map scans missing or "
+                      f"older than 35 days for {len(incomplete)} client(s): "
+                      + "; ".join(incomplete[:15])
+                      + ". The daily geogrid-scan lane retries due combos; check its "
+                      "plan log and ops_kv geogrid-failures:* for the errors")
+    if broken:
+        issues.append("geogrid images broken — latest map image missing or not "
+                      f"serving for {len(broken)} client(s): " + "; ".join(broken[:15])
+                      + ". The app falls back to drawing the stored points")
+    if zero:
+        issues.append("geogrid zero-found home grids — every home-city map found "
+                      f"nothing for {len(zero)} client(s): " + "; ".join(zero[:15])
+                      + ". Usually the listing identity (place_id/name) or the grid "
+                      "center, not a real ranking; check plan-input brand + home city lat/lng")
+    return issues
+
+
 def alert_key(issue: str) -> str:
     """Stable identity of an alert condition, independent of the numbers in
     it. Digits stripped (2026-09-19: '0/2 posts' -> '1/2 posts' minted a NEW
@@ -785,7 +852,8 @@ def main() -> int:
               + check_stuck_lead_audits()
               + check_email_claims()
               + check_nap_parity()
-              + check_site_guards())
+              + check_site_guards()
+              + check_geogrid())
     if not issues:
         print("pipeline watchdog: ALL SYSTEMS ALIVE")
     fresh = [] if a.dry_run else reconcile_notes(issues)

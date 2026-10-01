@@ -1,50 +1,98 @@
 name: Geogrid Scan
 
-# Cloud geo-grid scans — three triggers, one script:
-#   1. workflow_dispatch with a slug — the app's "Refresh scan" button
-#      (geogrid-refresh edge fn) and the signup flow.
-#   2. workflow_dispatch without a slug — full fleet run on demand.
-#   3. schedule (1st + 15th, 09:00 UTC) — the bi-weekly fleet scan. This
-#      replaced the Railway geogrid-cron service 2026-09-02: Railway bakes
-#      clients/ into the image at deploy time, so its Aug 15 run only saw the
-#      5 clients that existed at its last deploy, and its Sept 1 run crashed
-#      mid-narestco. Actions checks out fresh main every run, and the
-#      same-day dedupe inside geogrid_cron makes reruns and scheduler
-#      overlap spend-safe.
+# Local map rankings (geo-grid), PER-CLIENT MATRIX (2026-10-01).
+#
+# Why it changed: the old single job scanned the whole fleet one grid after
+# another (10-20 min per grid), so the 1st-of-month run needed many hours,
+# hit its 330-minute timeout and was cancelled partway every month; and the
+# daily cron ALSO ran a full fleet on the 1st (both cron lines matched the
+# day-of-month check), so two fleet runs collided. House law (09-19): every
+# system fans out per client.
+#
+#   plan   lists the clients with due work (geogrid_cron.py --list), cheapest
+#          to finish first, under a per-pass budget (GEOGRID_DAILY_BUDGET,
+#          default $40; the rest rolls to the next daily pass)
+#   scan   one job per client: own timeout, own concurrency lane
+#          (geogrid-client-<slug>), max 3 clients at once so the fleet stays
+#          under DataForSEO's 2000 calls/min
+#
+# ONE schedule: daily 10:25 UTC. "Due" = configured (keyword x city x radius)
+# with no scan this calendar month and none in the last 7 days, so the 1st
+# runs the monthly pass and every later day only finishes what the month
+# has not covered (a killed job resumes itself, at no extra cost).
+#
+# workflow_dispatch:
+#   slug set   -> that client only, mode "ondemand" (app Refresh button,
+#                 bootstrap): one full rescan per client per month
+#   mode=due   -> scheduled semantics on demand (with or without slug)
 
 on:
   schedule:
-    - cron: '0 9 1 * *'      # MONTHLY fleet scan (Santino 2026-09-06: biweekly
-                             # at full-depth configs ≈ $400+/mo DFS; monthly +
-                             # one on-demand rescan per client per month)
-    - cron: '25 10 * * *'    # DAILY baseline catch-up (Santino 2026-09-09):
-                             # ONLY clients with zero stored scans — a signup
-                             # on the 9th sees heatmaps within 24h instead of
-                             # waiting for the 1st. No-op on quiet days.
+    - cron: '25 10 * * *'
   workflow_dispatch:
     inputs:
       slug:
-        description: "Client slug (empty = full fleet)"
+        description: "Client slug (empty = every client with due work)"
+        required: false
+      mode:
+        description: "due | ondemand (default: ondemand with a slug, else due)"
         required: false
 
-concurrency:
-  # one lane PER SLUG (10-01): a shared group keeps only one pending run, so
-  # each new dispatch cancelled the queued one (Dry1 Out + RestoPros first
-  # scans were silently cancelled by the next client's bootstrap dispatch)
-  group: geogrid-scan-${{ github.event.inputs.slug || 'fleet' }}
-  cancel-in-progress: false
-
 jobs:
-  scan:
+  plan:
     runs-on: ubuntu-latest
-    timeout-minutes: 330
+    timeout-minutes: 15
+    outputs:
+      slugs: ${{ steps.list.outputs.slugs }}
+      mode: ${{ steps.list.outputs.mode }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
       - run: pip install -r requirements.txt
-      - name: Run geogrid scans
+      - id: list
+        name: List clients with due map scans
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GEOGRID_DAILY_BUDGET:      ${{ vars.GEOGRID_DAILY_BUDGET }}
+          SLUG: ${{ github.event.inputs.slug }}
+          MODE: ${{ github.event.inputs.mode }}
+        run: |
+          if [ -z "$MODE" ]; then
+            if [ -n "$SLUG" ]; then MODE=ondemand; else MODE=due; fi
+          fi
+          if [ -n "$SLUG" ]; then
+            python3 -u scripts/geogrid_cron.py --list --mode "$MODE" --slug "$SLUG"
+          else
+            python3 -u scripts/geogrid_cron.py --list --mode "$MODE"
+          fi
+
+  scan:
+    needs: plan
+    if: needs.plan.outputs.slugs != '' && needs.plan.outputs.slugs != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        slug: ${{ fromJSON(needs.plan.outputs.slugs) }}
+    concurrency:
+      # one lane per client across every run (scheduled, dispatched, app
+      # refresh): two jobs never scan the same client at once
+      group: geogrid-client-${{ matrix.slug }}
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+      - name: Scan ${{ matrix.slug }}
         env:
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -52,20 +100,13 @@ jobs:
           DATAFORSEO_PASSWORD:       ${{ secrets.DATAFORSEO_PASSWORD }}
           CLOUDFLARE_ACCOUNT_ID:     ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_R2_API_TOKEN:   ${{ secrets.CLOUDFLARE_R2_API_TOKEN }}
-        run: |
-          SLUG="${{ github.event.inputs.slug }}"
-          if [ -n "$SLUG" ]; then
-            python3 scripts/geogrid_cron.py --slug "$SLUG"
-          elif [ "${{ github.event_name }}" = "schedule" ] && [ "$(date -u +%d)" != "01" ]; then
-            python3 scripts/geogrid_cron.py --baseline-only
-          else
-            python3 scripts/geogrid_cron.py
-          fi
+          PYTHONUNBUFFERED: '1'
+        run: python3 -u scripts/geogrid_cron.py --slug "${{ matrix.slug }}" --mode "${{ needs.plan.outputs.mode }}"
       - name: Alert on failure
         if: failure()
         env:
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
         run: |
           python3 scripts/notify_failure.py \
-            --subject "[Rank AI] geogrid-scan failed: ${{ github.event.inputs.slug || 'FLEET' }}" \
+            --subject "[Rank AI] geogrid-scan failed: ${{ matrix.slug }}" \
             --run-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true

@@ -1,9 +1,10 @@
 [
  {
-  "label": "ABILENE",
+  "label": "Abilene, TX",
   "lat": 32.44645,
   "lng": -99.7475905,
   "miles_list": [
+   6.5,
    9.5,
    15
   ]

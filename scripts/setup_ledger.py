@@ -2337,17 +2337,23 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                         pass
                     has_img = bool(newest[0].get("image_url"))
                 drift = len(gg_cities) <= 1 and n_areas >= 4
-                stale = age_days > 8 or not has_img
+                # 35d, not 8 (10-01): scans are MONTHLY, so an 8-day bar kept
+                # this item open most of the month and its heal spent a full
+                # on-demand rescan per client mid-month, outside the
+                # per-client geogrid lane.
+                stale = age_days > 35 or not has_img
                 if drift:
                     attention.append(f"{slug}: geo-grid config drift — {len(gg_cities)} "
                                      f"city configured vs {n_areas} service areas (reseed the ring)")
                 if stale and not drift and not dry_run and _HEALS["geogrid"] > 0:
                     _HEALS["geogrid"] -= 1
-                    subprocess.Popen([sys.executable,
-                                      str(ROOT / "scripts" / "geogrid_cron.py"),
-                                      "--slug", slug])
+                    # queue the client's own geogrid job (mode=due: only
+                    # combos the month has not covered; never an inline scan)
+                    import geogrid_coverage as _gc  # noqa: PLC0415
+                    _ok = _gc.dispatch_scan(slug, mode="due")
                     attention.append(f"{slug}: geo-grid stale ({age_days}d"
-                                     + ("" if has_img else ", no image") + ") — re-scan started")
+                                     + ("" if has_img else ", no image") + ") — "
+                                     + ("re-scan dispatched" if _ok else "re-scan dispatch FAILED"))
                 rows_fresh = {"company_id": cid, "item_key": "data-fresh", "kind": "auto",
                               "status": "open" if (stale or drift) else "done",
                               "title": "Map ranking data is up to date",

@@ -29,7 +29,10 @@
     "primary_color": "#cb312f",
     "dark_color": "#181616",
     "accent_color": "#cf5051",
-    "color_source": "autocolor: existing site + logo"
+    "color_source": "autocolor: existing site + logo",
+    "place_id": "ChIJM1WRdNC7IWwRNunGD79PM7E",
+    "google_cid": "12768637050547530038",
+    "gbp_title": "Katofsky Construction"
   },
   "services": [
     "air-duct-cleaning",

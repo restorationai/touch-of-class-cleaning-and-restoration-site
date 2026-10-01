@@ -91,7 +91,10 @@ def load_center(slug: str) -> dict:
     p = ROOT / "clients" / slug / "plan-input.json"
     if not p.exists():
         raise ValueError(f"{p} not found.")
-    data = json.loads(p.read_text())
+    _raw = p.read_text()
+    data = json.loads(_raw)
+    _l2 = _raw.split("\n")[1] if "\n" in _raw else " "
+    _indent = (len(_l2) - len(_l2.lstrip())) or 1   # keep the file's own layout
     b = data.get("brand", {})
     if not (b.get("lat") and b.get("lng")):
         # SELF-HEAL (Dry1 Out 2026-10-01: no brand.lat ever, so every scan
@@ -114,7 +117,7 @@ def load_center(slug: str) -> dict:
         if ll:
             b["lat"], b["lng"] = ll[0], ll[1]
             data["brand"] = b
-            p.write_text(json.dumps(data, indent=1) + "\n")
+            p.write_text(json.dumps(data, indent=_indent) + "\n")
     # IDENTITY SELF-HEAL (BIONIC 2026-10-01): with no place_id the matcher
     # fell back to the LEGAL name ("BIONIC Emergency Services LLC") while the
     # listing is titled "BIONIC Water Damage Restoration of Houston", so all
@@ -137,7 +140,7 @@ def load_center(slug: str) -> dict:
                     b["place_id"] = _rows[0]["place_id"]
                     b.setdefault("gbp_title", _rows[0].get("title"))
                     data["brand"] = b
-                    p.write_text(json.dumps(data, indent=1) + "\n")
+                    p.write_text(json.dumps(data, indent=_indent) + "\n")
         except Exception:  # noqa: BLE001 — identity heal never blocks a scan
             pass
     for k in ("lat", "lng", "display_name"):
@@ -170,19 +173,28 @@ def build_grid(lat: float, lng: float, n: int, miles: float) -> list[dict]:
     return pts
 
 
+def _squash(s: str) -> str:
+    """Name-match normaliser: case, punctuation and spacing never decide a
+    match ("Go Green Restoration of NC" vs listing "Go Green Restoration Of
+    N.C." read 0/169 on 10-01)."""
+    return re.sub(r"[^a-z0-9]+", "", (s or "").lower())
+
+
 def _match_rank(items: list, biz: dict, max_rank: int):
     """Find the business's rank in a maps SERP item list (shared by live and
     task modes — identical matching semantics)."""
     rank = None
+    names = [_squash(n) for n in (biz.get("names") or [biz["name"]])]
+    names = [n for n in names if len(n) >= 6]   # never match on a stub
     for it in items or []:
         if not isinstance(it, dict):
             continue
         cid = str(it.get("cid")) if it.get("cid") is not None else None
-        title = (it.get("title") or "").lower()
+        title = _squash(it.get("title") or "")
         match = (
             (biz["cid"] and cid == biz["cid"]) or
             (biz["place_id"] and it.get("place_id") == biz["place_id"]) or
-            any(n.lower() in title for n in (biz.get("names") or [biz["name"]]))
+            any(n in title for n in names)
         )
         if match:
             rank = it.get("rank_absolute") or it.get("rank_group")
@@ -205,81 +217,163 @@ def _dfs_get(url: str, auth: str) -> dict:
         return json.loads(r.read())
 
 
+class _RateLimiter:
+    """Thread-safe pacing for DataForSEO calls. The account limit is 2000
+    calls/min across EVERY job, and the per-client matrix runs several jobs
+    at once, so each job holds itself to GEOGRID_DFS_RPS (default 8/s)."""
+
+    def __init__(self, rps: float):
+        import threading
+        self.gap = 1.0 / max(rps, 0.1)
+        self.lock = threading.Lock()
+        self.next = 0.0
+
+    def wait(self) -> None:
+        import time as _t
+        with self.lock:
+            t = _t.monotonic()
+            slot = max(self.next, t)
+            self.next = slot + self.gap
+        if slot > t:
+            _t.sleep(slot - t)
+
+
+def scan_many_tasked(auth: str, jobs: list[dict], biz: dict, zoom: int,
+                     max_rank: int, timeout_s: int | None = None,
+                     log=None) -> dict:
+    """Task-queue scan of MANY grids at once (Santino 2026-10-01: one client's
+    scans ran one after another, 10-20 min each, so a fleet run outlived its
+    330-min job and was killed). Every point of every job is posted up front
+    (<=100 tasks per task_post), then all of them are collected together with
+    direct task_get polling (free; the account-wide tasks_ready list is capped
+    and never surfaced new clients' tasks, 09-30) on a thread pool held under
+    the account rate limit.
+
+    jobs: [{"id": any, "keyword": str, "pts": [{"row","col","lat","lng"}...]}]
+    Returns {job_id: [point result...]} — one entry per point, in pts order.
+    A point whose task never completed comes back cost=0.0 / found=False,
+    which geogrid_store treats as a FAILED call (retried live, never written
+    as "not ranking")."""
+    import threading
+    import time as _t
+    log = log or (lambda m: sys.stderr.write(m + "\n"))
+    rps = float(os.environ.get("GEOGRID_DFS_RPS") or 8)
+    lim = _RateLimiter(rps)
+    # tag -> (job id, point); the tag round-trips through DataForSEO so a
+    # posted task can always be tied back to its grid cell
+    by_tag: dict[str, tuple] = {}
+    payload_all = []
+    for j_i, job in enumerate(jobs):
+        for p in job["pts"]:
+            tag = f"{j_i}:{p['row']},{p['col']}"
+            by_tag[tag] = (job["id"], p)
+            payload_all.append({
+                "keyword": job["keyword"],
+                "location_coordinate": f"{p['lat']},{p['lng']},{zoom}z",
+                "language_code": "en",
+                "device": "desktop",
+                # ranks past max_rank are discarded anyway; a shallow SERP
+                # keeps each task_get payload small (no price change)
+                "depth": max(20, max_rank),
+                "tag": tag,
+            })
+    id_to_tag: dict[str, str] = {}
+    cost_by_tag: dict[str, float] = {}
+    t_post = _t.time()
+    for i in range(0, len(payload_all), 100):
+        batch = payload_all[i:i + 100]
+        resp = None
+        for attempt in range(4):
+            lim.wait()
+            try:
+                resp = _dfs_post(DFS_TASK_POST, auth, batch)
+                break
+            except Exception as e:  # noqa: BLE001 — retry transient post errors
+                log(f"  WARN task_post batch {i // 100}: {str(e)[:100]} (attempt {attempt + 1})")
+                _t.sleep(5 * (attempt + 1))
+        for t in (resp or {}).get("tasks") or []:
+            tag = ((t.get("data") or {}).get("tag")) or ""
+            if t.get("id") and t.get("status_code") in (20000, 20100) and tag in by_tag:
+                id_to_tag[t["id"]] = tag
+                cost_by_tag[tag] = float(t.get("cost") or 0.0)
+    log(f"  posted {len(id_to_tag)}/{len(payload_all)} tasks for {len(jobs)} scan(s) "
+        f"in {int(_t.time() - t_post)}s")
+
+    n = len(id_to_tag)
+    if timeout_s is None:
+        # one full polling sweep takes n/rps seconds; allow the queue ~25 min
+        # plus three sweeps, whichever is longer
+        timeout_s = int(max(1500, 1500 + 3 * n / rps))
+    deadline = _t.time() + timeout_s
+    got: dict[str, dict] = {}
+    lock = threading.Lock()
+    pending = list(id_to_tag)
+
+    def _poll(tid: str):
+        lim.wait()
+        try:
+            r = _dfs_get(DFS_TASK_GET + tid, auth)
+        except Exception:  # noqa: BLE001 — retried next sweep
+            return
+        task = (r.get("tasks") or [{}])[0]
+        if task.get("status_code") != 20000 or not task.get("result"):
+            return                     # still queued / in progress
+        items = ((task.get("result") or [{}])[0] or {}).get("items") or []
+        tag = id_to_tag[tid]
+        _, pt = by_tag[tag]
+        rank = _match_rank(items, biz, max_rank)
+        with lock:
+            got[tid] = {**pt, "rank": rank, "found": rank is not None,
+                        "cost": cost_by_tag.get(tag) or 0.0}
+
+    _t.sleep(min(60, max(20, n / 200)))   # nothing is ready in the first minute
+    sweep = 0
+    workers = max(4, min(16, int(rps * 2)))
+    tail_since = None
+    while pending and _t.time() < deadline:
+        sweep += 1
+        before = len(got)
+        with cf.ThreadPoolExecutor(max_workers=workers) as ex:
+            list(ex.map(_poll, pending))
+        pending = [t for t in pending if t not in got]
+        log(f"  sweep {sweep}: {len(got)}/{n} collected, {len(pending)} pending")
+        # STRAGGLER CUTOFF (10-01 live test: 506/507 done in ~4 min, then one
+        # task sat in the queue for 12 more). Once 97%+ is in, give the rest
+        # 4 minutes; whatever is still queued is re-asked live (~$0.002/pt)
+        # by geogrid_store instead of holding the whole client hostage.
+        if pending and len(pending) <= max(3, 0.03 * n):
+            tail_since = tail_since or _t.time()
+            if _t.time() - tail_since > 240:
+                log(f"  {len(pending)} straggler(s) handed to the live retry")
+                break
+        if pending and len(got) - before < max(5, 0.1 * len(pending)):
+            _t.sleep(30)               # the queue is behind; don't spin
+    if pending:
+        log(f"  WARN {len(pending)} task(s) never completed inside {timeout_s}s; "
+            "those points are marked failed (retried live, never stored as not-found)")
+
+    out: dict = {job["id"]: [] for job in jobs}
+    seen = set()
+    for tid, res in got.items():
+        jid, _ = by_tag[id_to_tag[tid]]
+        out[jid].append(res)
+        seen.add(id_to_tag[tid])
+    for tag, (jid, pt) in by_tag.items():
+        if tag not in seen:            # never posted or never completed
+            out[jid].append({**pt, "rank": None, "found": False, "cost": 0.0})
+    for job in jobs:                   # restore grid order
+        order = {(p["row"], p["col"]): k for k, p in enumerate(job["pts"])}
+        out[job["id"]].sort(key=lambda r: order[(r["row"], r["col"])])
+    return out
+
+
 def scan_points_tasked(auth: str, keyword: str, pts: list[dict], biz: dict,
                        zoom: int, max_rank: int,
                        timeout_s: int = 1500) -> list[dict]:
-    """Task-queue scan of all grid points: batch task_post (<=100/request),
-    poll tasks_ready, task_get each result. Points whose task never completes
-    inside timeout come back rank=None (cost already incurred at post)."""
-    import time as _t
-    id_to_pt: dict[str, dict] = {}
-    total_cost = 0.0
-    for i in range(0, len(pts), 100):
-        batch = pts[i:i + 100]
-        payload = [{
-            "keyword": keyword,
-            "location_coordinate": f"{p['lat']},{p['lng']},{zoom}z",
-            "language_code": "en",
-            "device": "desktop",
-            "tag": f"{p['row']},{p['col']}",
-        } for p in batch]
-        resp = _dfs_post(DFS_TASK_POST, auth, payload)
-        for t in resp.get("tasks") or []:
-            total_cost += float(t.get("cost") or 0.0)
-            tid = t.get("id")
-            tag = ((t.get("data") or {}).get("tag")) or ""
-            if tid and t.get("status_code") in (20000, 20100):
-                row_col = tag.split(",")
-                for p in batch:
-                    if len(row_col) == 2 and p["row"] == int(row_col[0]) and p["col"] == int(row_col[1]):
-                        id_to_pt[tid] = p
-                        break
-    results: dict[str, dict] = {}
-    deadline = _t.time() + timeout_s
-    pending = set(id_to_pt)
-    per_pt_cost = (total_cost / len(pts)) if pts else 0.0
-    while pending and _t.time() < deadline:
-        _t.sleep(12)
-        try:
-            ready = _dfs_get(DFS_TASKS_READY, auth)
-        except Exception:
-            continue
-        ready_ids = []
-        for t in (ready.get("tasks") or []):
-            for r in (t.get("result") or []):
-                if r.get("id") in pending:
-                    ready_ids.append(r["id"])
-        # DIRECT POLL (Restoration Resource / Dry1 Out 2026-09-30): the
-        # account-wide tasks_ready list is capped, and with the whole fleet
-        # scanning a new client's tasks never surfaced in it, so all 169
-        # points timed out as "not found" (0/169 scans that read as "ranks
-        # nowhere"). task_get is free; ask for a rotating slice of the
-        # pending ids directly every pass.
-        direct = [t for t in list(pending)[:40] if t not in ready_ids]
-        for tid in ready_ids + direct:
-            try:
-                got = _dfs_get(DFS_TASK_GET + tid, auth)
-                task = (got.get("tasks") or [{}])[0]
-                if task.get("status_code") != 20000 or not task.get("result"):
-                    continue          # still queued / in progress
-                items = ((task.get("result") or [{}])[0] or {}).get("items") or []
-                pt = id_to_pt[tid]
-                rank = _match_rank(items, biz, max_rank)
-                results[tid] = {**pt, "rank": rank, "found": rank is not None,
-                                "cost": per_pt_cost}
-                pending.discard(tid)
-            except Exception as e:
-                sys.stderr.write(f"  WARN task_get {tid}: {str(e)[:100]}\n")
-    if pending:
-        sys.stderr.write(f"  WARN {len(pending)} task(s) never completed inside "
-                         f"{timeout_s}s — those points read as not-found\n")
-        # cost 0.0 marks them as FAILED calls, not "not ranking here", so
-        # geogrid_store retries them live and refuses to persist the scan
-        # when too many stay unknown (never write a fake all-red grid)
-        for tid in pending:
-            pt = id_to_pt[tid]
-            results[tid] = {**pt, "rank": None, "found": False, "cost": 0.0}
-    return list(results.values())
+    """Single-grid wrapper around scan_many_tasked (kept for callers)."""
+    return scan_many_tasked(auth, [{"id": 0, "keyword": keyword, "pts": pts}],
+                            biz, zoom, max_rank, timeout_s)[0]
+
 
 
 def rank_at_point(auth: str, keyword: str, pt: dict, biz: dict, zoom: int, max_rank: int) -> dict:
