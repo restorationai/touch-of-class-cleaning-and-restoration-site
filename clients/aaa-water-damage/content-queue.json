@@ -467,7 +467,7 @@
     },
     {
       "id": "2026-08-17-does-homeowners-insurance-cover-mold-remediation",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-17T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -501,8 +501,7 @@
       ],
       "notes": "Decision-stage insurance query, exactly the 24-48-hours-before-they-hire moment the methodology flags as high value: 1,000/mo at KD 26. The existing planned post covers insurance for WATER damage, not mold, so this is a genuine gap rather than a duplicate; cross-link the two. Core explanation: coverage usually turns on whether the mold resulted from a sudden accidental discharge that was addressed promptly versus long-term seepage or deferred maintenance, and most policies carry a mold sublimit. Hawaii angle: ambient humidity means insurers scrutinise the 'sudden vs gradual' line harder here. Keep it educational and state plainly this is not legal or insurance advice and the policy language controls.",
       "source": "keyword-researcher",
-      "seed": "mold remediation",
-      "banked_at": "2026-09-24T22:24:15.025827+00:00"
+      "seed": "mold remediation"
     },
     {
       "id": "2026-08-17-who-pays-for-mold-remediation",

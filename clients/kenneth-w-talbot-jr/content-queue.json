@@ -371,7 +371,7 @@
     },
     {
       "id": "2026-09-24-signs-of-water-damage-in-walls",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T16:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -403,11 +403,12 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Question-format GEO piece. Baseboards (1,300/mo) is folded in as an H2. Include an old-vs-new water stain section."
+      "notes": "Question-format GEO piece. Baseboards (1,300/mo) is folded in as an H2. Include an old-vs-new water stain section.",
+      "banked_at": "2026-10-01T17:05:05.264265+00:00"
     },
     {
       "id": "2026-09-24-hardwood-floor-water-damage",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T16:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -439,7 +440,8 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.nwfa.org/"
       ],
-      "notes": "Volume 1,600/mo, KD 0. Explain specialized floor-drying mats and moisture readings; honest about when boards must be replaced."
+      "notes": "Volume 1,600/mo, KD 0. Explain specialized floor-drying mats and moisture readings; honest about when boards must be replaced.",
+      "banked_at": "2026-10-01T17:05:05.264272+00:00"
     },
     {
       "id": "2026-10-01-does-homeowners-insurance-cover-mold-remediation",
