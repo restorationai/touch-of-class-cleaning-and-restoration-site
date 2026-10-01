@@ -66,6 +66,15 @@
       1200
     ]
   },
+  "/images/services/ceiling-water-damage-repair.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/commercial-restoration.webp": {
     "height": 480,
     "variants": [
@@ -107,6 +116,13 @@
       1200
     ]
   },
+  "/images/services/emergency-water-removal.webp": {
+    "width": 720,
+    "height": 480,
+    "variants": [
+      480
+    ]
+  },
   "/images/services/fire-damage-restoration.webp": {
     "width": 1376,
     "height": 768,
@@ -124,13 +140,31 @@
     "width": 720
   },
   "/images/services/general-contracting.webp": {
+    "width": 1376,
     "height": 768,
     "variants": [
       480,
       768,
       1200
-    ],
-    "width": 1376
+    ]
+  },
+  "/images/services/industrial-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/large-loss-response.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
   },
   "/images/services/mold-inspection-testing.webp": {
     "width": 1376,
@@ -160,13 +194,13 @@
     ]
   },
   "/images/services/reconstruction.webp": {
+    "width": 1376,
     "height": 768,
     "variants": [
       480,
       768,
       1200
-    ],
-    "width": 1376
+    ]
   },
   "/images/services/sewage-cleanup.webp": {
     "width": 1376,
@@ -227,6 +261,15 @@
       480
     ]
   },
+  "/images/services/water-leak-detection.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/team.webp": {
     "height": 836,
     "variants": [
@@ -285,12 +328,5 @@
       768
     ],
     "width": 1200
-  },
-  "/images/services/emergency-water-removal.webp": {
-    "width": 720,
-    "height": 480,
-    "variants": [
-      480
-    ]
   }
 }
