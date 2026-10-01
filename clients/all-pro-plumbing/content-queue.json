@@ -1,954 +1,980 @@
 {
-  "items": [
+ "items": [
+  {
+   "id": "2026-10-01-emergency-plumbing-cost-ca",
+   "status": "queued",
+   "queued_at": "2026-10-01T22:25:19Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "cost_guide",
+   "combo_key": "emergency-plumbing-cost-ca",
+   "primary_keyword": "emergency plumbing cost CA",
+   "intent": "transactional",
+   "target_word_count": 1500,
+   "city_anchor": "bakersfield-ca",
+   "best_of": {
+    "service": "emergency-plumbing",
+    "service_pretty": "Emergency Plumbing",
+    "city": "Bakersfield",
+    "state": "CA",
+    "competitors": []
+   },
+   "fan_out_cluster": [
+    "how much does emergency plumbing cost in CA",
+    "emergency plumbing price CA",
+    "average cost of emergency plumbing CA"
+   ],
+   "source": "best-of-seeder"
+  },
+  {
+   "id": "2026-07-27-best-emergency-plumbing-in-bakersfield-ca",
+   "status": "written",
+   "queued_at": "2026-07-27T17:41:36Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-emergency-plumbing-in-bakersfield-ca",
+   "primary_keyword": "best emergency plumbing company in Bakersfield, CA",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "bakersfield-ca",
+   "best_of": {
+    "service": "emergency-plumbing",
+    "service_pretty": "Emergency Plumbing",
+    "city": "Bakersfield",
+    "state": "CA",
+    "competitors": [
+     {
+      "name": "The Honest Plumber",
+      "google_rating": 3.9,
+      "review_count": 288
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best emergency plumbing companies Bakersfield",
+    "top rated emergency plumbing Bakersfield CA",
+    "who is the best emergency plumbing company in Bakersfield"
+   ],
+   "source": "best-of-seeder",
+   "written_at": "2026-07-27T17:54:24Z",
+   "post_url": "https://allproplumbingheatingandair.com/blog/best-emergency-plumbing-company-in-bakersfield-ca/"
+  },
+  {
+   "id": "2026-07-27-how-much-does-a-plumber-cost-per-hour",
+   "status": "published",
+   "queued_at": "2026-07-27T20:50:00Z",
+   "written_at": "2026-07-30T17:30:26Z",
+   "post_url": "https://allproplumbingheatingandair.com/blog/how-much-does-a-plumber-cost-per-hour/",
+   "primary_keyword": "how much does a plumber cost per hour",
+   "intent": "commercial",
+   "volume": 1600,
+   "kd": 11,
+   "fan_out_cluster": [
+    "plumber prices per hour",
+    "how much do plumbers charge per hour near me",
+    "plumbing labor price list",
+    "how much does a plumber charge for a service call",
+    "emergency plumber cost per hour",
+    "plumber bakersfield prices",
+    "plumbing cost estimator",
+    "plumbing prices per fixture"
+   ],
+   "suggested_slug": "how-much-does-a-plumber-cost-per-hour",
+   "suggested_title": "How much does a plumber cost per hour in Bakersfield (2026 price ranges)",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/emergency-plumbing/",
+    "/services/drain-cleaning/",
+    "/services/toilet-faucet-repair/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "emergency-plumbing",
+    "drain-cleaning",
+    "toilet-faucet-repair"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm",
+    "https://www.cslb.ca.gov/"
+   ],
+   "notes": "Highest-CPC cluster in this run (service-call and per-hour terms run $8 to $28 CPC). Open with a scannable price table: service call or diagnostic fee, hourly vs flat-rate, after-hours premium, then per-job ranges (drain clearing, toilet, water heater). Brand hours are 24/7 so after-hours availability can be stated plainly. LICENSE GATE: do not call All Pro licensed, certified or bonded anywhere in this post (CSLB 960566 is held by PRO RESTORATION SERVICES INC and the DBA is unconfirmed). Explain flat-rate vs hourly generically and tell readers to verify any contractor on the CSLB lookup.",
+   "source": "rank-ai-keyword-researcher",
+   "claims_flags": [
     {
-      "id": "2026-07-27-best-emergency-plumbing-in-bakersfield-ca",
-      "status": "written",
-      "queued_at": "2026-07-27T17:41:36Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "best_of_comparison",
-      "combo_key": "best-emergency-plumbing-in-bakersfield-ca",
-      "primary_keyword": "best emergency plumbing company in Bakersfield, CA",
-      "intent": "commercial",
-      "target_word_count": 1600,
-      "city_anchor": "bakersfield-ca",
-      "best_of": {
-        "service": "emergency-plumbing",
-        "service_pretty": "Emergency Plumbing",
-        "city": "Bakersfield",
-        "state": "CA",
-        "competitors": [
-          {
-            "name": "The Honest Plumber",
-            "google_rating": 3.9,
-            "review_count": 288
-          }
-        ]
-      },
-      "fan_out_cluster": [
-        "best emergency plumbing companies Bakersfield",
-        "top rated emergency plumbing Bakersfield CA",
-        "who is the best emergency plumbing company in Bakersfield"
-      ],
-      "source": "best-of-seeder",
-      "written_at": "2026-07-27T17:54:24Z",
-      "post_url": "https://allproplumbingheatingandair.com/blog/best-emergency-plumbing-company-in-bakersfield-ca/"
-    },
-    {
-      "id": "2026-07-27-how-much-does-a-plumber-cost-per-hour",
-      "status": "published",
-      "queued_at": "2026-07-27T20:50:00Z",
-      "written_at": "2026-07-30T17:30:26Z",
-      "post_url": "https://allproplumbingheatingandair.com/blog/how-much-does-a-plumber-cost-per-hour/",
-      "primary_keyword": "how much does a plumber cost per hour",
-      "intent": "commercial",
-      "volume": 1600,
-      "kd": 11,
-      "fan_out_cluster": [
-        "plumber prices per hour",
-        "how much do plumbers charge per hour near me",
-        "plumbing labor price list",
-        "how much does a plumber charge for a service call",
-        "emergency plumber cost per hour",
-        "plumber bakersfield prices",
-        "plumbing cost estimator",
-        "plumbing prices per fixture"
-      ],
-      "suggested_slug": "how-much-does-a-plumber-cost-per-hour",
-      "suggested_title": "How much does a plumber cost per hour in Bakersfield (2026 price ranges)",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/emergency-plumbing/",
-        "/services/drain-cleaning/",
-        "/services/toilet-faucet-repair/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "emergency-plumbing",
-        "drain-cleaning",
-        "toilet-faucet-repair"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm",
-        "https://www.cslb.ca.gov/"
-      ],
-      "notes": "Highest-CPC cluster in this run (service-call and per-hour terms run $8 to $28 CPC). Open with a scannable price table: service call or diagnostic fee, hourly vs flat-rate, after-hours premium, then per-job ranges (drain clearing, toilet, water heater). Brand hours are 24/7 so after-hours availability can be stated plainly. LICENSE GATE: do not call All Pro licensed, certified or bonded anywhere in this post (CSLB 960566 is held by PRO RESTORATION SERVICES INC and the DBA is unconfirmed). Explain flat-rate vs hourly generically and tell readers to verify any contractor on the CSLB lookup.",
-      "source": "rank-ai-keyword-researcher",
-      "claims_flags": [
-        {
-          "file": "src/content/blog/how-much-does-a-plumber-cost-per-hour.md",
-          "part": "body",
-          "family": "service-scope",
-          "severity": "review",
-          "matched": "mold remediation",
-          "context": "ys less than the drywall, flooring, and mold remediation that follows 8 hours of unchecked water",
-          "reason": "names the 'mold' service family but plan-input services are only: emergency-plumbing, burst-pipe-repair, drain-cleaning, sewer-line-repair, water-heater-repair, water-heater-installation"
-        }
-      ],
-      "published_verified_at": "2026-07-30T17:31:34Z"
-    },
-    {
-      "id": "2026-07-27-how-to-find-a-good-plumber",
-      "status": "written",
-      "queued_at": "2026-07-27T20:50:00Z",
-      "written_at": "2026-08-03T17:52:31Z",
-      "post_url": "https://allproplumbingheatingandair.com/blog/how-to-find-a-good-plumber/",
-      "primary_keyword": "how to find a good plumber",
-      "intent": "informational",
-      "volume": null,
-      "kd": 8,
-      "fan_out_cluster": [
-        "what questions to ask a plumber before hiring",
-        "how to check if a plumber is licensed in california",
-        "signs of a bad plumber",
-        "licensed vs unlicensed plumber",
-        "should a plumber give a written estimate",
-        "how many plumbing quotes should I get"
-      ],
-      "suggested_slug": "how-to-find-a-good-plumber",
-      "suggested_title": "How to find a good plumber in Bakersfield: a 10-question vetting checklist",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/",
-        "/service-areas/bakersfield-ca/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "emergency-plumbing",
-        "sewer-line-repair",
-        "water-heater-repair"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://web.cslb.ca.gov/OnlineServices/CheckLicenseII/checklicense.aspx",
-        "https://www.cslb.ca.gov/Consumers/"
-      ],
-      "notes": "Pure GEO play: zero measured Google volume, but the ChatGPT decomposition for this seed is built almost entirely out of this question (license verification, questions to ask, warning signs). Question-and-answer H2s so AI engines can lift passages verbatim. LICENSE GATE IS CRITICAL HERE: the post teaches readers to verify a CSLB number without ever asserting All Pro's own license status. Frame every checklist item in second person (what you should ask any contractor), never as a claim about us.",
-      "source": "rank-ai-keyword-researcher"
-    },
-    {
-      "id": "2026-07-27-toilet-replacement-cost",
-      "status": "written",
-      "queued_at": "2026-07-27T20:50:00Z",
-      "written_at": "2026-08-10T17:33:30Z",
-      "post_url": "https://allproplumbingheatingandair.com/blog/toilet-replacement-cost/",
-      "primary_keyword": "toilet replacement cost",
-      "intent": "commercial",
-      "volume": 5400,
-      "kd": 1,
-      "fan_out_cluster": [
-        "plumber cost to replace toilet near me",
-        "how much does a plumber cost to fix a toilet",
-        "labor cost to replace toilet fill valve",
-        "plumber to install toilet",
-        "toilet installation labor cost",
-        "is it worth replacing an old toilet"
-      ],
-      "suggested_slug": "toilet-replacement-cost",
-      "suggested_title": "Toilet replacement cost in 2026: what Bakersfield homeowners actually pay",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/toilet-faucet-repair/",
-        "/service-areas/bakersfield-ca/toilet-faucet-repair/"
-      ],
-      "service_tags": [
-        "toilet-faucet-repair"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.epa.gov/watersense/residential-toilets"
-      ],
-      "notes": "Highest volume uncovered term in the run (5,400/mo at KD 1). Split fixture cost from labor cost, then cover the cheap-fix fork: fill valve or flapper repair versus full replacement. Local angle: Bakersfield's very hard municipal water scales flappers and fill valves early, so repair-then-replace timing is a real decision here. WaterSense rebate angle fits the water-savings section.",
-      "source": "rank-ai-keyword-researcher"
-    },
-    {
-      "id": "2026-07-27-does-homeowners-insurance-cover-slab-leak-repair",
-      "status": "written",
-      "queued_at": "2026-07-27T20:50:00Z",
-      "written_at": "2026-08-17T17:42:25Z",
-      "post_url": "https://allproplumbingheatingandair.com/blog/does-homeowners-insurance-cover-slab-leak-repair/",
-      "primary_keyword": "does homeowners insurance cover slab leak repair",
-      "intent": "informational",
-      "volume": 170,
-      "kd": null,
-      "fan_out_cluster": [
-        "who pays for slab leak repair",
-        "slab leak insurance claim denied",
-        "average cost of slab leak repair",
-        "does insurance cover the water damage from a slab leak",
-        "how to prove a slab leak to insurance",
-        "slab leak repair cost bakersfield"
-      ],
-      "suggested_slug": "does-homeowners-insurance-cover-slab-leak-repair",
-      "suggested_title": "Does homeowners insurance cover slab leak repair? A Bakersfield homeowner's guide",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/slab-leak-repair/",
-        "/services/leak-detection/",
-        "/service-areas/bakersfield-ca/slab-leak-repair/"
-      ],
-      "service_tags": [
-        "slab-leak-repair",
-        "leak-detection"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iii.org/article/what-does-a-standard-homeowners-policy-cover"
-      ],
-      "notes": "Signature local topic: nearly every Bakersfield home is slab-on-grade, so slab leaks are a defining local call, and the existing /blog/signs-of-a-slab-leak/ post covers symptoms but not the money question. Teach the standard split (many policies pay to access and repair plus resulting damage, but not the failed pipe itself) and tell readers to read their own policy, with no coverage guarantees. Scope: stop at detection and pipe repair. Drying and rebuild are out of scope for this site; at most one contextual sister-company cross-link to ProRestoration Services per linking-rules sister_company_policy.",
-      "source": "rank-ai-keyword-researcher"
-    },
-    {
-      "id": "2026-07-27-how-much-does-a-plumber-cost-to-unclog-a-drain",
-      "status": "published",
-      "queued_at": "2026-07-27T20:50:00Z",
-      "written_at": "2026-08-26T13:45:39Z",
-      "post_url": "https://allproplumbingheatingandair.com/blog/how-much-does-a-plumber-cost-to-unclog-a-drain/",
-      "primary_keyword": "how much does a plumber cost to unclog a drain",
-      "intent": "commercial",
-      "volume": 480,
-      "kd": null,
-      "fan_out_cluster": [
-        "hydrojet drain cleaning cost",
-        "cost to snake a main line",
-        "drain cleaning cost bakersfield",
-        "how much does it cost to clear a sewer line",
-        "why does my drain keep clogging",
-        "when snaking is not enough"
-      ],
-      "suggested_slug": "how-much-does-a-plumber-cost-to-unclog-a-drain",
-      "suggested_title": "How much does a plumber cost to unclog a drain? Bakersfield pricing by clog type",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/drain-cleaning/",
-        "/services/sewer-line-repair/",
-        "/service-areas/bakersfield-ca/drain-cleaning/"
-      ],
-      "service_tags": [
-        "drain-cleaning",
-        "sewer-line-repair"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.epa.gov/septic/septicsmart-homeowners"
-      ],
-      "notes": "Price by clog type (single fixture, branch line, main line, camera inspection, hydro jetting) rather than one number. Local hook: mature downtown tree canopy drives root-intruded laterals in Oleander, Westchester and East Bakersfield, which is why a repeat main-line clog becomes a sewer conversation. Complements the planned /blog/hydro-jetting-vs-snaking/ post: that one compares methods, this one prices them, so cross-link rather than restate.",
-      "source": "rank-ai-keyword-researcher",
-      "published_verified_at": "2026-08-26T13:45:51Z"
-    },
-    {
-      "id": "2026-07-30-air-conditioner-not-cooling",
-      "status": "published",
-      "queued_at": "2026-07-30T17:27:39Z",
-      "written_at": "2026-08-31T21:40:27Z",
-      "post_url": "https://allproplumbingheatingandair.com/blog/air-conditioner-not-cooling/",
-      "primary_keyword": "air conditioner not cooling",
-      "intent": "informational",
-      "volume": 5400,
-      "kd": null,
-      "fan_out_cluster": [
-        "why is my ac running but not cooling the house",
-        "air conditioner not blowing cold air but running",
-        "air conditioner not cooling but fan is running",
-        "central air conditioner not cooling",
-        "split ac not cooling but fan is running",
-        "why is my ac blowing warm air"
-      ],
-      "suggested_slug": "air-conditioner-not-cooling",
-      "suggested_title": "Air conditioner not cooling: 9 reasons your AC runs but the house stays hot",
-      "target_word_count": 1800,
-      "internal_link_targets": [
-        "/services/ac-repair/",
-        "/services/ac-installation/",
-        "/services/ductless-mini-splits/"
-      ],
-      "service_tags": [
-        "ac-repair",
-        "ac-installation",
-        "ductless-mini-splits"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.energy.gov/energysaver/air-conditioning"
-      ],
-      "notes": "Peak-season Bakersfield hub post: 100F+ stretches make this the highest-volume AC symptom query in the bank. Lead with the fan-runs-but-no-cold-air split (thermostat, filter, breaker, capacitor, refrigerant, dirty condenser coil). Kern County dust and triple-digit heat load the condenser hard, so give outdoor-coil cleaning its own section.",
-      "claims_flags": [
-        {
-          "file": "src/content/blog/air-conditioner-not-cooling.md",
-          "part": "body",
-          "family": "certification",
-          "severity": "review",
-          "matched": "certified technician",
-          "context": "n608), refrigerant must be handled by a certified technician. It cannot legally be purchased or char",
-          "reason": "certification mention looks like a regulatory reference \u2014 verify it is not a self-claim"
-        }
-      ],
-      "published_verified_at": "2026-08-31T21:41:39Z"
-    },
-    {
-      "id": "2026-07-30-how-much-does-ac-repair-cost",
-      "status": "published",
-      "queued_at": "2026-07-30T17:27:39Z",
-      "written_at": "2026-09-03T19:22:21Z",
-      "post_url": "https://allproplumbingheatingandair.com/blog/how-much-does-ac-repair-cost/",
-      "primary_keyword": "how much does ac repair cost",
-      "intent": "informational",
-      "volume": 1000,
-      "kd": 5,
-      "fan_out_cluster": [
-        "central ac repair cost",
-        "average hvac service call cost",
-        "hvac diagnostic cost",
-        "hvac repair cost calculator",
-        "is it worth repairing a 15 year old air conditioner",
-        "should i repair or replace my air conditioner"
-      ],
-      "suggested_slug": "how-much-does-ac-repair-cost",
-      "suggested_title": "How much does AC repair cost (and when repair stops making sense)",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/ac-repair/",
-        "/services/ac-installation/",
-        "/services/heat-pump-services/"
-      ],
-      "service_tags": [
-        "ac-repair",
-        "ac-installation"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.energystar.gov/products/heating_cooling"
-      ],
-      "notes": "KD 5 on a 1,000/mo informational term: best difficulty-to-volume ratio in this run. Cover diagnostic fee, common part-level costs (capacitor, contactor, fan motor, coil, compressor), then the repair-vs-replace math. Distinct from the existing /blog/how-much-does-a-new-ac-cost/ post (that one is replacement pricing) - link the two rather than repeating the equipment-cost table.",
-      "published_verified_at": "2026-09-03T19:23:36Z"
-    },
-    {
-      "id": "2026-07-30-why-is-my-ac-not-turning-on",
-      "status": "written",
-      "queued_at": "2026-07-30T17:27:39Z",
-      "written_at": "2026-09-13T14:36:42Z",
-      "post_url": "https://allproplumbingheatingandair.com/blog/why-is-my-ac-not-turning-on/",
-      "primary_keyword": "why is my ac not turning on",
-      "intent": "informational",
-      "volume": 720,
-      "kd": null,
-      "fan_out_cluster": [
-        "thermostat set to cool but ac not turning on",
-        "ac not turning on but fan works",
-        "what does an ac capacitor do when it fails",
-        "ac not blowing cold air reset",
-        "thermostat clicks but ac does not turn on"
-      ],
-      "suggested_slug": "why-is-my-ac-not-turning-on",
-      "suggested_title": "Why is my AC not turning on: the checks to run before you call",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/ac-repair/",
-        "/services/ac-installation/"
-      ],
-      "service_tags": [
-        "ac-repair"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.energy.gov/energysaver/central-air-conditioning"
-      ],
-      "notes": "Order the homeowner-safe checks first (thermostat mode/batteries, tripped breaker, condensate float switch, disconnect at the outdoor unit), then hand off to the technician-only causes. Capacitor failure is the single most common no-start in summer heat: explain the symptom (hum, no fan spin) without instructing anyone to touch it, capacitors hold charge."
-    },
-    {
-      "id": "2026-07-30-hvac-yearly-maintenance-cost",
-      "status": "banked",
-      "queued_at": "2026-07-30T17:27:39Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "hvac yearly maintenance cost",
-      "intent": "commercial",
-      "volume": 590,
-      "kd": null,
-      "fan_out_cluster": [
-        "ac tune up service",
-        "average hvac service call cost",
-        "hvac diagnostic cost",
-        "ac cleaning service",
-        "hvac yearly maintenance cost near me"
-      ],
-      "suggested_slug": "hvac-yearly-maintenance-cost",
-      "suggested_title": "HVAC yearly maintenance cost: what a tune-up runs and what it actually prevents",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/ac-repair/",
-        "/services/indoor-air-quality/",
-        "/services/ductwork/",
-        "/services/furnace-repair/"
-      ],
-      "service_tags": [
-        "ac-repair",
-        "indoor-air-quality",
-        "ductwork",
-        "furnace-repair"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.energystar.gov/products/heating_cooling/hvac_maintenance"
-      ],
-      "notes": "Decision-stage: people price maintenance plans weeks before a breakdown. Frame around Kern County reality - dust, a cooling season that runs March to October, and hard water on the plumbing side - so an annual visit is a genuinely different value proposition than in a mild climate. Do not invent plan pricing or name a maintenance-agreement tier the brand has not confirmed.",
-      "banked_at": "2026-09-17T22:13:26.009989+00:00"
-    },
-    {
-      "id": "2026-07-30-why-is-my-ac-leaking-water-inside",
-      "status": "banked",
-      "queued_at": "2026-07-30T17:27:39Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "why is my ac leaking water inside",
-      "intent": "informational",
-      "volume": 390,
-      "kd": null,
-      "fan_out_cluster": [
-        "ac leaking water from ceiling",
-        "clogged condensate drain line symptoms",
-        "is water dripping from ac dangerous",
-        "hvac leaking water on floor",
-        "why is my ac leaking water from the bottom"
-      ],
-      "suggested_slug": "why-is-my-ac-leaking-water-inside",
-      "suggested_title": "Why is my AC leaking water inside (and how to stop it before it damages the ceiling)",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/ac-repair/",
-        "/services/leak-detection/",
-        "/services/drain-cleaning/"
-      ],
-      "service_tags": [
-        "ac-repair",
-        "leak-detection"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.energy.gov/energysaver/central-air-conditioning"
-      ],
-      "notes": "Clogged condensate drain line is the usual cause, then frozen evaporator coil and a rusted/overflowing drain pan. Keep this on the AC side: stopping the leak and clearing the drain. Do NOT drift into drying out the ceiling or water-damage cleanup, that is the restoration vertical and the sister company's turf per linking-rules.json.",
-      "banked_at": "2026-09-17T22:13:26.009997+00:00"
-    },
-    {
-      "id": "2026-08-17-what-does-a-plumber-do",
-      "status": "published",
-      "queued_at": "2026-08-17T17:38:35Z",
-      "written_at": "2026-09-18T12:15:21Z",
-      "post_url": "https://allproplumbingheatingandair.com/blog/what-does-a-plumber-do/",
-      "primary_keyword": "what does a plumber do",
-      "intent": "informational",
-      "volume": 3600,
-      "kd": 21,
-      "fan_out_cluster": [
-        "what jobs does a residential plumber handle",
-        "when should you call a plumber instead of a handyman",
-        "what is the difference between a plumber and a drain cleaning company",
-        "what does a plumber do on a service call",
-        "what plumbing work requires a permit in california",
-        "what can a plumber fix that you cannot fix yourself"
-      ],
-      "suggested_slug": "what-does-a-plumber-do",
-      "suggested_title": "What does a plumber do (and when you actually need to call one)",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/",
-        "/services/emergency-plumbing/",
-        "/services/drain-cleaning/",
-        "/services/water-heater-repair/",
-        "/service-areas/bakersfield-ca/"
-      ],
-      "service_tags": [
-        "emergency-plumbing",
-        "drain-cleaning",
-        "water-heater-repair",
-        "sewer-line-repair",
-        "leak-detection"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.cslb.ca.gov/Consumers/",
-        "https://www.epa.gov/watersense"
-      ],
-      "notes": "Highest-volume uncovered informational term for this seed (3,600/mo, KD 21) and the natural topical hub for the whole plumbing service catalog. Structure as scannable question H2s so AI engines can lift passages: what a plumber does day to day, the job categories (drains and sewers, water heaters, leaks and repipes, gas lines, fixtures), plumber vs handyman vs drain-only company, and when a job needs a permit. Bakersfield hook: slab foundations and hard municipal water mean slab leaks and scale-killed water heaters are the two calls that most often surprise homeowners. Link out to every service landing page: this is the internal-linking anchor post. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
-      "source": "rank-ai-keyword-researcher",
-      "published_verified_at": "2026-09-18T12:16:38Z"
-    },
-    {
-      "id": "2026-08-17-how-much-does-a-plumber-cost-to-unclog-a-toilet",
-      "status": "published",
-      "queued_at": "2026-08-17T17:38:35Z",
-      "written_at": "2026-09-20T14:21:13Z",
-      "post_url": "https://allproplumbingheatingandair.com/blog/how-much-does-a-plumber-cost-to-unclog-a-toilet/",
-      "primary_keyword": "how much does a plumber cost to unclog a toilet",
-      "intent": "commercial",
-      "volume": 590,
-      "kd": 0,
-      "fan_out_cluster": [
-        "how much does it cost for plumber to unclog toilet",
-        "toilet auger vs plunger when to call a plumber",
-        "why does my toilet keep clogging",
-        "how much does it cost to remove and reset a toilet",
-        "clogged toilet emergency after hours cost",
-        "signs a toilet clog is actually a main line clog"
-      ],
-      "suggested_slug": "how-much-does-a-plumber-cost-to-unclog-a-toilet",
-      "suggested_title": "How much does a plumber cost to unclog a toilet? Bakersfield price ranges",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/toilet-faucet-repair/",
-        "/services/drain-cleaning/",
-        "/services/sewer-line-repair/",
-        "/service-areas/bakersfield-ca/toilet-faucet-repair/"
-      ],
-      "service_tags": [
-        "toilet-faucet-repair",
-        "drain-cleaning",
-        "sewer-line-repair"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.epa.gov/watersense/residential-toilets"
-      ],
-      "notes": "Price by escalation tier rather than one number: auger from the bowl, pull-and-reset, branch line, main line, camera inspection. Complements the already-queued 'unclog a drain' post: that one prices drains and sewer laterals, this one stays on the toilet and hands off to it, so cross-link instead of restating. Key diagnostic hook readers search for: if the tub gurgles when the toilet flushes it is a main line, not a toilet. Brand hours are 24/7 so the after-hours premium can be described plainly. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
-      "source": "rank-ai-keyword-researcher",
-      "published_verified_at": "2026-09-20T14:22:35Z"
-    },
-    {
-      "id": "2026-08-17-how-much-does-a-plumber-cost-to-fix-a-pipe",
-      "status": "banked",
-      "queued_at": "2026-08-17T17:38:35Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how much does a plumber cost to fix a pipe",
-      "intent": "commercial",
-      "volume": 170,
-      "kd": 1,
-      "fan_out_cluster": [
-        "how much does a plumber cost to fix a leak",
-        "cost to repair a burst pipe",
-        "galvanized pipe replacement cost per foot",
-        "pinhole leak in copper pipe repair cost",
-        "when a pipe repair turns into a repipe",
-        "does homeowners insurance cover a burst pipe",
-        "how much does slab leak pipe repair cost"
-      ],
-      "suggested_slug": "how-much-does-a-plumber-cost-to-fix-a-pipe",
-      "suggested_title": "How much does a plumber cost to fix a pipe? Repair pricing by pipe type and location",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/burst-pipe-repair/",
-        "/services/leak-detection/",
-        "/services/slab-leak-repair/",
-        "/services/repiping/",
-        "/service-areas/bakersfield-ca/burst-pipe-repair/"
-      ],
-      "service_tags": [
-        "burst-pipe-repair",
-        "leak-detection",
-        "slab-leak-repair",
-        "repiping"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.epa.gov/watersense/fix-leak-week"
-      ],
-      "notes": "Absorbs the sibling term 'how much does a plumber cost to fix a leak' (90/mo, KD 16), which is parked at priority 2 in the bank rather than queued so the two do not cannibalise. Price by three axes: pipe material (galvanized, copper, PEX, cast iron), location (accessible, in-wall, under slab), and access cost, because access is usually the bigger line item. Two strong local hooks: pre-1970 homes in Oleander, Westchester and East Bakersfield still run galvanized supply, and Tehachapi at 4,000 ft is the one service-area city that actually freezes and bursts pipes. Include the repair-vs-repipe decision point. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
-      "source": "rank-ai-keyword-researcher",
-      "banked_at": "2026-09-21T22:24:17.174345+00:00"
-    },
-    {
-      "id": "2026-08-17-do-plumbers-give-free-estimates",
-      "status": "banked",
-      "queued_at": "2026-08-17T17:38:35Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "do plumbers give free estimates",
-      "intent": "informational",
-      "volume": 110,
-      "kd": 0,
-      "fan_out_cluster": [
-        "do plumbers charge for estimates",
-        "plumber near me free estimate",
-        "what is a plumbing diagnostic fee",
-        "should a plumber give a written estimate before starting work",
-        "flat rate vs hourly plumbing quotes",
-        "how many plumbing quotes should you get"
-      ],
-      "suggested_slug": "do-plumbers-give-free-estimates",
-      "suggested_title": "Do plumbers give free estimates? How plumbing quotes and diagnostic fees really work",
-      "target_word_count": 1300,
-      "internal_link_targets": [
-        "/contact/",
-        "/services/",
-        "/services/leak-detection/",
-        "/service-areas/bakersfield-ca/"
-      ],
-      "service_tags": [
-        "emergency-plumbing",
-        "leak-detection",
-        "drain-cleaning"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
-      ],
-      "notes": "Trust and pricing-transparency topic that also captures the transactional 'plumber near me free estimate' cluster (2,900/mo) which has no commercial page of its own. Explain the real distinction honestly: a quote on visible, straightforward work is usually free, while diagnostic work that takes time and equipment (leak detection, camera inspection) normally carries a fee that is often credited to the repair. Complements /blog/how-to-find-a-good-plumber/ (vetting) and /blog/how-much-does-a-plumber-cost-per-hour/ (rates) rather than repeating them. Do not state All Pro's own estimate policy unless it is confirmed in plan-input. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
-      "source": "rank-ai-keyword-researcher",
-      "banked_at": "2026-09-21T22:24:17.174360+00:00"
-    },
-    {
-      "id": "2026-08-26-should-i-tip-a-plumber",
-      "status": "published",
-      "queued_at": "2026-08-26T13:45:00Z",
-      "written_at": "2026-09-22T15:08:49Z",
-      "post_url": "https://allproplumbingheatingandair.com/blog/should-i-tip-a-plumber/",
-      "primary_keyword": "should i tip a plumber",
-      "intent": "informational",
-      "volume": 2400,
-      "kd": 0,
-      "fan_out_cluster": [
-        "do you tip a plumber",
-        "how much do you tip a plumber",
-        "do you tip plumbers who come to your house",
-        "should i tip a plumber for a water heater install",
-        "is tipping expected on an after-hours emergency plumbing call",
-        "better ways to thank a plumber than cash"
-      ],
-      "suggested_slug": "should-i-tip-a-plumber",
-      "suggested_title": "Should I tip a plumber? What Bakersfield homeowners actually do",
-      "target_word_count": 1200,
-      "internal_link_targets": [
-        "/services/",
-        "/contact/",
-        "/services/emergency-plumbing/"
-      ],
-      "service_tags": [
-        "emergency-plumbing",
-        "water-heater-installation"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
-      ],
-      "notes": "2,400/mo at KD 0 and no page on the site touches it: the cheapest ranking win in this seed family. Answer the question in the first two sentences (tipping is never expected on a quoted invoice, $10-$20 or a cold drink is a normal gesture on a hard after-hours or attic/crawlspace job), then cover the situations readers actually mean: emergency night calls, water heater hauls, multi-day repipes, apprentice vs lead tech. Close on the alternatives that help a local crew more than cash: a Google review, a referral, naming the tech. Pure trust content, no dispatch push beyond one soft CTA. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup.",
-      "source": "rank-ai-keyword-researcher",
-      "published_verified_at": "2026-09-22T15:12:13Z"
-    },
-    {
-      "id": "2026-08-26-how-much-does-an-emergency-plumber-cost",
-      "status": "published",
-      "queued_at": "2026-08-26T13:45:00Z",
-      "written_at": "2026-09-24T15:22:11Z",
-      "post_url": "https://allproplumbingheatingandair.com/blog/how-much-does-an-emergency-plumber-cost/",
-      "primary_keyword": "how much does an emergency plumber cost",
-      "intent": "informational",
-      "volume": 140,
-      "kd": 0,
-      "fan_out_cluster": [
-        "emergency plumber call out fee vs hourly rate",
-        "after hours plumber rates explained",
-        "weekend and holiday plumbing rates",
-        "what counts as a plumbing emergency",
-        "how much does a burst pipe repair cost at 2am",
-        "does homeowners insurance cover an emergency plumber",
-        "how to keep an emergency plumbing call from getting expensive"
-      ],
-      "suggested_slug": "how-much-does-an-emergency-plumber-cost",
-      "suggested_title": "How much does an emergency plumber cost? Call-out fees and after-hours rates explained",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/emergency-plumbing/",
-        "/services/burst-pipe-repair/",
-        "/services/leak-detection/",
-        "/service-areas/bakersfield-ca/"
-      ],
-      "service_tags": [
-        "emergency-plumbing",
-        "burst-pipe-repair",
-        "leak-detection"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
-      ],
-      "notes": "$41 CPC on a KD 0 keyword: the ads side pays real money for this intent and nothing on the site answers it. Structure it as fee anatomy (call-out/trip fee, after-hours multiplier, diagnostic time, then the repair itself) with honest ranges rather than one made-up number, and give the shut-off-the-water step before any pricing so the page earns the AI-answer slot. 24/7 claims ARE allowed for this brand (plan-input brand.hours = 24/7). Pairs with /blog/how-much-does-a-plumber-cost-per-hour/ (day rates) and /blog/what-to-do-burst-pipe/ (the emergency itself): link both, do not restate them. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
-      "source": "rank-ai-keyword-researcher",
-      "published_verified_at": "2026-09-24T15:26:41Z"
-    },
-    {
-      "id": "2026-08-26-how-to-hire-a-licensed-plumber",
-      "status": "published",
-      "queued_at": "2026-08-26T13:45:00Z",
-      "written_at": "2026-10-01T01:23:58Z",
-      "post_url": "https://allproplumbingheatingandair.com/blog/how-to-hire-a-licensed-plumber/",
-      "primary_keyword": "licensed plumber",
-      "intent": "transactional",
-      "volume": 8100,
-      "kd": 26,
-      "fan_out_cluster": [
-        "how to know if a plumber is licensed",
-        "how to verify a plumbing license in california",
-        "what is a c-36 plumbing contractor license",
-        "risks of hiring an unlicensed plumber",
-        "is the plumber bonded and insured",
-        "do plumbers warranty their work",
-        "does a licensed plumber have to pull a permit"
-      ],
-      "suggested_slug": "how-to-hire-a-licensed-plumber",
-      "suggested_title": "How to hire a licensed plumber in California (and check the license in two minutes)",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/",
-        "/contact/",
-        "/services/repiping/",
-        "/services/gas-line-services/",
-        "/services/water-heater-installation/"
-      ],
-      "service_tags": [
-        "repiping",
-        "gas-line-services",
-        "water-heater-installation"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/",
-        "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/CheckLicense.aspx"
-      ],
-      "notes": "8,100/mo at KD 26 with $25.75 CPC and no commercial page targeting it. Write the how-to-verify walkthrough: CSLB license lookup by number or business name, C-36 classification, workers comp and bond status, why the license matters most on permitted work (repipe, sewer replacement, gas line, water heater changeout). This is the vetting-mechanics post; /blog/how-to-find-a-good-plumber/ is the soft-skills vetting post and the two must cross-link, not overlap. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup.",
-      "source": "rank-ai-keyword-researcher",
-      "published_verified_at": "2026-10-01T01:25:38Z"
-    },
-    {
-      "id": "2026-08-26-plumbing-contractor-vs-plumber",
-      "status": "queued",
-      "queued_at": "2026-08-26T13:45:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "plumbing contractor",
-      "intent": "transactional",
-      "volume": 6600,
-      "kd": 12,
-      "fan_out_cluster": [
-        "what is a plumbing contractor",
-        "plumbing contractor vs plumber",
-        "master plumber vs journeyman plumber",
-        "plumber vs handyman for plumbing work",
-        "which plumbing jobs need a permit in california",
-        "when does a plumbing job need a licensed contractor"
-      ],
-      "suggested_slug": "plumbing-contractor-vs-plumber",
-      "suggested_title": "Plumbing contractor vs plumber: which one does your job actually need?",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/",
-        "/services/sewer-line-repair/",
-        "/services/repiping/",
-        "/services/gas-line-services/"
-      ],
-      "service_tags": [
-        "sewer-line-repair",
-        "repiping",
-        "gas-line-services"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
-      ],
-      "notes": "6,600/mo at KD 12, uncovered. Scope-and-permits angle, deliberately kept off the license-verification angle in the sibling 'licensed plumber' post: apprentice/journeyman/master tiers, what a contracting entity carries that an individual tech does not, and a plain table of Kern County job types that need a permit and inspection versus same-day handyman-scale fixes. Absorbs the 'plumber vs handyman' cluster (20/mo but constant in AI answers). LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup.",
-      "source": "rank-ai-keyword-researcher"
-    },
-    {
-      "id": "2026-09-21-what-to-do-if-toilet-is-overflowing",
-      "status": "queued",
-      "queued_at": "2026-09-21T17:50:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "what to do if toilet is overflowing",
-      "intent": "informational",
-      "volume": 880,
-      "kd": 0,
-      "fan_out_cluster": [
-        "how to stop a toilet from overflowing before it floods the bathroom",
-        "where is the toilet shutoff valve",
-        "what to do if the toilet overflows and the shutoff valve is stuck",
-        "is an overflowing toilet a plumbing emergency",
-        "why does my toilet overflow when i flush",
-        "when an overflowing toilet means a sewer line problem"
-      ],
-      "suggested_slug": "what-to-do-if-toilet-is-overflowing",
-      "suggested_title": "What to do if toilet is overflowing: the first 60 seconds",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/toilet-faucet-repair/",
-        "/services/emergency-plumbing/",
-        "/services/drain-cleaning/",
-        "/services/sewer-line-repair/"
-      ],
-      "service_tags": [
-        "toilet-faucet-repair",
-        "emergency-plumbing",
-        "drain-cleaning"
-      ],
-      "city_anchor": "bakersfield-ca",
-      "external_authority_candidates": [
-        "https://www.epa.gov/watersense"
-      ],
-      "notes": "Lead with the stop-the-flow sequence: lift the tank lid, push the flapper down, then close the shutoff valve behind the bowl. Flag repeat overflows across multiple fixtures as a main-line backup, which is the 24/7 dispatch trigger. Bakersfield angle: mature downtown tree canopy means root-intruded laterals are a common root cause."
-    },
-    {
-      "id": "2026-09-21-what-is-considered-a-plumbing-emergency",
-      "status": "queued",
-      "queued_at": "2026-09-21T17:50:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "what is considered a plumbing emergency",
-      "intent": "informational",
-      "volume": 90,
-      "kd": 0,
-      "fan_out_cluster": [
-        "what are the most common plumbing emergencies",
-        "is a leaking water heater an emergency",
-        "can a clogged drain wait until morning",
-        "when to call an emergency plumber vs wait",
-        "do emergency plumbers work 24/7",
-        "signs you need an emergency plumber right now"
-      ],
-      "suggested_slug": "what-is-considered-a-plumbing-emergency",
-      "suggested_title": "What is considered a plumbing emergency (and what can wait until morning)",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/emergency-plumbing/",
-        "/services/burst-pipe-repair/",
-        "/services/sewer-line-repair/",
-        "/services/water-heater-repair/"
-      ],
-      "service_tags": [
-        "emergency-plumbing",
-        "burst-pipe-repair",
-        "sewer-line-repair"
-      ],
-      "city_anchor": "bakersfield-ca",
-      "external_authority_candidates": [
-        "https://www.ready.gov/"
-      ],
-      "notes": "Build the post as a two-column call-now vs can-wait triage table: that structure is what AI assistants lift verbatim. Brand hours are 24/7, so call-now language is permitted. Include the gas-smell case with call-911/utility-first framing, never a dispatch CTA."
-    },
-    {
-      "id": "2026-09-21-how-to-turn-off-the-water-in-an-emergency",
-      "status": "queued",
-      "queued_at": "2026-09-21T17:50:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how do i turn off the water in an emergency",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "where is my main water shutoff valve",
-        "how to shut off water to a single fixture",
-        "how to turn off the water heater in an emergency",
-        "what to do if the main shutoff valve will not turn",
-        "how to use a water meter key at the curb stop",
-        "how to stop a leak until the plumber arrives"
-      ],
-      "suggested_slug": "how-to-turn-off-the-water-in-an-emergency",
-      "suggested_title": "How do I turn off the water in an emergency: find your shutoff before you need it",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/emergency-plumbing/",
-        "/services/burst-pipe-repair/",
-        "/services/leak-detection/",
-        "/services/slab-leak-repair/"
-      ],
-      "service_tags": [
-        "emergency-plumbing",
-        "burst-pipe-repair",
-        "leak-detection"
-      ],
-      "city_anchor": "bakersfield-ca",
-      "external_authority_candidates": [
-        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html"
-      ],
-      "notes": "Zero measured Google volume but surfaced by the ChatGPT decomposition, so treat it as AI-retrieval fuel and write it as a numbered procedure. Bakersfield specifics: nearly all housing is slab-on-grade, so the main shutoff is usually at the front hose bib wall or the curb stop box near the sidewalk, not in a basement."
-    },
-    {
-      "id": "2026-09-21-does-homeowners-insurance-cover-emergency-plumbing",
-      "status": "queued",
-      "queued_at": "2026-09-21T17:50:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "will homeowners insurance cover emergency plumbing repairs",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "does insurance cover a burst pipe",
-        "sudden and accidental vs gradual leak coverage",
-        "does homeowners insurance pay to fix the pipe or just the damage",
-        "what documentation to collect for a plumbing claim",
-        "does insurance cover sewer line replacement",
-        "when a plumbing claim gets denied"
-      ],
-      "suggested_slug": "does-homeowners-insurance-cover-emergency-plumbing-repairs",
-      "suggested_title": "Will homeowners insurance cover emergency plumbing repairs?",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/emergency-plumbing/",
-        "/services/burst-pipe-repair/",
-        "/services/leak-detection/",
-        "/services/repiping/"
-      ],
-      "service_tags": [
-        "emergency-plumbing",
-        "burst-pipe-repair",
-        "leak-detection"
-      ],
-      "city_anchor": "oildale-ca",
-      "external_authority_candidates": [
-        "https://www.iii.org/article/what-homeowners-insurance-covers"
-      ],
-      "notes": "Key distinction to lead with: most policies pay for the resulting water damage but not the failed pipe itself, and gradual leaks are typically excluded while sudden and accidental ones are covered. Keep it educational, no coverage guarantees. Distinct from the existing slab-leak insurance post, which is slab-specific. Oildale angle: 1940s-1960s galvanized supply lines age into the gradual-leak exclusion."
-    },
-    {
-      "id": "2026-09-21-how-to-prevent-plumbing-emergencies",
-      "status": "queued",
-      "queued_at": "2026-09-21T17:50:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how to prevent plumbing emergencies",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "annual plumbing maintenance checklist for homeowners",
-        "how to keep pipes from freezing",
-        "what not to put down the drain or garbage disposal",
-        "how often should you flush a water heater",
-        "how to test your main shutoff valve",
-        "warning signs a plumbing failure is coming"
-      ],
-      "suggested_slug": "how-to-prevent-plumbing-emergencies",
-      "suggested_title": "How to prevent plumbing emergencies: a seasonal homeowner checklist",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/emergency-plumbing/",
-        "/services/water-heater-repair/",
-        "/services/drain-cleaning/",
-        "/services/water-softeners-filtration/"
-      ],
-      "service_tags": [
-        "emergency-plumbing",
-        "water-heater-repair",
-        "drain-cleaning",
-        "water-softeners-filtration"
-      ],
-      "city_anchor": "tehachapi-ca",
-      "external_authority_candidates": [
-        "https://www.energystar.gov/"
-      ],
-      "notes": "Tehachapi is the one service area with real freezes at ~4,000 ft, so anchor the fall section on freeze prevention, hose-bib disconnects and heat tape checks. Tie hard-water scale to water heater flushing, which is the top preventable failure across Kern County."
+     "file": "src/content/blog/how-much-does-a-plumber-cost-per-hour.md",
+     "part": "body",
+     "family": "service-scope",
+     "severity": "review",
+     "matched": "mold remediation",
+     "context": "ys less than the drywall, flooring, and mold remediation that follows 8 hours of unchecked water",
+     "reason": "names the 'mold' service family but plan-input services are only: emergency-plumbing, burst-pipe-repair, drain-cleaning, sewer-line-repair, water-heater-repair, water-heater-installation"
     }
-  ]
+   ],
+   "published_verified_at": "2026-07-30T17:31:34Z"
+  },
+  {
+   "id": "2026-07-27-how-to-find-a-good-plumber",
+   "status": "written",
+   "queued_at": "2026-07-27T20:50:00Z",
+   "written_at": "2026-08-03T17:52:31Z",
+   "post_url": "https://allproplumbingheatingandair.com/blog/how-to-find-a-good-plumber/",
+   "primary_keyword": "how to find a good plumber",
+   "intent": "informational",
+   "volume": null,
+   "kd": 8,
+   "fan_out_cluster": [
+    "what questions to ask a plumber before hiring",
+    "how to check if a plumber is licensed in california",
+    "signs of a bad plumber",
+    "licensed vs unlicensed plumber",
+    "should a plumber give a written estimate",
+    "how many plumbing quotes should I get"
+   ],
+   "suggested_slug": "how-to-find-a-good-plumber",
+   "suggested_title": "How to find a good plumber in Bakersfield: a 10-question vetting checklist",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/",
+    "/service-areas/bakersfield-ca/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "emergency-plumbing",
+    "sewer-line-repair",
+    "water-heater-repair"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://web.cslb.ca.gov/OnlineServices/CheckLicenseII/checklicense.aspx",
+    "https://www.cslb.ca.gov/Consumers/"
+   ],
+   "notes": "Pure GEO play: zero measured Google volume, but the ChatGPT decomposition for this seed is built almost entirely out of this question (license verification, questions to ask, warning signs). Question-and-answer H2s so AI engines can lift passages verbatim. LICENSE GATE IS CRITICAL HERE: the post teaches readers to verify a CSLB number without ever asserting All Pro's own license status. Frame every checklist item in second person (what you should ask any contractor), never as a claim about us.",
+   "source": "rank-ai-keyword-researcher"
+  },
+  {
+   "id": "2026-07-27-toilet-replacement-cost",
+   "status": "written",
+   "queued_at": "2026-07-27T20:50:00Z",
+   "written_at": "2026-08-10T17:33:30Z",
+   "post_url": "https://allproplumbingheatingandair.com/blog/toilet-replacement-cost/",
+   "primary_keyword": "toilet replacement cost",
+   "intent": "commercial",
+   "volume": 5400,
+   "kd": 1,
+   "fan_out_cluster": [
+    "plumber cost to replace toilet near me",
+    "how much does a plumber cost to fix a toilet",
+    "labor cost to replace toilet fill valve",
+    "plumber to install toilet",
+    "toilet installation labor cost",
+    "is it worth replacing an old toilet"
+   ],
+   "suggested_slug": "toilet-replacement-cost",
+   "suggested_title": "Toilet replacement cost in 2026: what Bakersfield homeowners actually pay",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/toilet-faucet-repair/",
+    "/service-areas/bakersfield-ca/toilet-faucet-repair/"
+   ],
+   "service_tags": [
+    "toilet-faucet-repair"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.epa.gov/watersense/residential-toilets"
+   ],
+   "notes": "Highest volume uncovered term in the run (5,400/mo at KD 1). Split fixture cost from labor cost, then cover the cheap-fix fork: fill valve or flapper repair versus full replacement. Local angle: Bakersfield's very hard municipal water scales flappers and fill valves early, so repair-then-replace timing is a real decision here. WaterSense rebate angle fits the water-savings section.",
+   "source": "rank-ai-keyword-researcher"
+  },
+  {
+   "id": "2026-07-27-does-homeowners-insurance-cover-slab-leak-repair",
+   "status": "written",
+   "queued_at": "2026-07-27T20:50:00Z",
+   "written_at": "2026-08-17T17:42:25Z",
+   "post_url": "https://allproplumbingheatingandair.com/blog/does-homeowners-insurance-cover-slab-leak-repair/",
+   "primary_keyword": "does homeowners insurance cover slab leak repair",
+   "intent": "informational",
+   "volume": 170,
+   "kd": null,
+   "fan_out_cluster": [
+    "who pays for slab leak repair",
+    "slab leak insurance claim denied",
+    "average cost of slab leak repair",
+    "does insurance cover the water damage from a slab leak",
+    "how to prove a slab leak to insurance",
+    "slab leak repair cost bakersfield"
+   ],
+   "suggested_slug": "does-homeowners-insurance-cover-slab-leak-repair",
+   "suggested_title": "Does homeowners insurance cover slab leak repair? A Bakersfield homeowner's guide",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/slab-leak-repair/",
+    "/services/leak-detection/",
+    "/service-areas/bakersfield-ca/slab-leak-repair/"
+   ],
+   "service_tags": [
+    "slab-leak-repair",
+    "leak-detection"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iii.org/article/what-does-a-standard-homeowners-policy-cover"
+   ],
+   "notes": "Signature local topic: nearly every Bakersfield home is slab-on-grade, so slab leaks are a defining local call, and the existing /blog/signs-of-a-slab-leak/ post covers symptoms but not the money question. Teach the standard split (many policies pay to access and repair plus resulting damage, but not the failed pipe itself) and tell readers to read their own policy, with no coverage guarantees. Scope: stop at detection and pipe repair. Drying and rebuild are out of scope for this site; at most one contextual sister-company cross-link to ProRestoration Services per linking-rules sister_company_policy.",
+   "source": "rank-ai-keyword-researcher"
+  },
+  {
+   "id": "2026-07-27-how-much-does-a-plumber-cost-to-unclog-a-drain",
+   "status": "published",
+   "queued_at": "2026-07-27T20:50:00Z",
+   "written_at": "2026-08-26T13:45:39Z",
+   "post_url": "https://allproplumbingheatingandair.com/blog/how-much-does-a-plumber-cost-to-unclog-a-drain/",
+   "primary_keyword": "how much does a plumber cost to unclog a drain",
+   "intent": "commercial",
+   "volume": 480,
+   "kd": null,
+   "fan_out_cluster": [
+    "hydrojet drain cleaning cost",
+    "cost to snake a main line",
+    "drain cleaning cost bakersfield",
+    "how much does it cost to clear a sewer line",
+    "why does my drain keep clogging",
+    "when snaking is not enough"
+   ],
+   "suggested_slug": "how-much-does-a-plumber-cost-to-unclog-a-drain",
+   "suggested_title": "How much does a plumber cost to unclog a drain? Bakersfield pricing by clog type",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/drain-cleaning/",
+    "/services/sewer-line-repair/",
+    "/service-areas/bakersfield-ca/drain-cleaning/"
+   ],
+   "service_tags": [
+    "drain-cleaning",
+    "sewer-line-repair"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.epa.gov/septic/septicsmart-homeowners"
+   ],
+   "notes": "Price by clog type (single fixture, branch line, main line, camera inspection, hydro jetting) rather than one number. Local hook: mature downtown tree canopy drives root-intruded laterals in Oleander, Westchester and East Bakersfield, which is why a repeat main-line clog becomes a sewer conversation. Complements the planned /blog/hydro-jetting-vs-snaking/ post: that one compares methods, this one prices them, so cross-link rather than restate.",
+   "source": "rank-ai-keyword-researcher",
+   "published_verified_at": "2026-08-26T13:45:51Z"
+  },
+  {
+   "id": "2026-07-30-air-conditioner-not-cooling",
+   "status": "published",
+   "queued_at": "2026-07-30T17:27:39Z",
+   "written_at": "2026-08-31T21:40:27Z",
+   "post_url": "https://allproplumbingheatingandair.com/blog/air-conditioner-not-cooling/",
+   "primary_keyword": "air conditioner not cooling",
+   "intent": "informational",
+   "volume": 5400,
+   "kd": null,
+   "fan_out_cluster": [
+    "why is my ac running but not cooling the house",
+    "air conditioner not blowing cold air but running",
+    "air conditioner not cooling but fan is running",
+    "central air conditioner not cooling",
+    "split ac not cooling but fan is running",
+    "why is my ac blowing warm air"
+   ],
+   "suggested_slug": "air-conditioner-not-cooling",
+   "suggested_title": "Air conditioner not cooling: 9 reasons your AC runs but the house stays hot",
+   "target_word_count": 1800,
+   "internal_link_targets": [
+    "/services/ac-repair/",
+    "/services/ac-installation/",
+    "/services/ductless-mini-splits/"
+   ],
+   "service_tags": [
+    "ac-repair",
+    "ac-installation",
+    "ductless-mini-splits"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.energy.gov/energysaver/air-conditioning"
+   ],
+   "notes": "Peak-season Bakersfield hub post: 100F+ stretches make this the highest-volume AC symptom query in the bank. Lead with the fan-runs-but-no-cold-air split (thermostat, filter, breaker, capacitor, refrigerant, dirty condenser coil). Kern County dust and triple-digit heat load the condenser hard, so give outdoor-coil cleaning its own section.",
+   "claims_flags": [
+    {
+     "file": "src/content/blog/air-conditioner-not-cooling.md",
+     "part": "body",
+     "family": "certification",
+     "severity": "review",
+     "matched": "certified technician",
+     "context": "n608), refrigerant must be handled by a certified technician. It cannot legally be purchased or char",
+     "reason": "certification mention looks like a regulatory reference \u2014 verify it is not a self-claim"
+    }
+   ],
+   "published_verified_at": "2026-08-31T21:41:39Z"
+  },
+  {
+   "id": "2026-07-30-how-much-does-ac-repair-cost",
+   "status": "published",
+   "queued_at": "2026-07-30T17:27:39Z",
+   "written_at": "2026-09-03T19:22:21Z",
+   "post_url": "https://allproplumbingheatingandair.com/blog/how-much-does-ac-repair-cost/",
+   "primary_keyword": "how much does ac repair cost",
+   "intent": "informational",
+   "volume": 1000,
+   "kd": 5,
+   "fan_out_cluster": [
+    "central ac repair cost",
+    "average hvac service call cost",
+    "hvac diagnostic cost",
+    "hvac repair cost calculator",
+    "is it worth repairing a 15 year old air conditioner",
+    "should i repair or replace my air conditioner"
+   ],
+   "suggested_slug": "how-much-does-ac-repair-cost",
+   "suggested_title": "How much does AC repair cost (and when repair stops making sense)",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/ac-repair/",
+    "/services/ac-installation/",
+    "/services/heat-pump-services/"
+   ],
+   "service_tags": [
+    "ac-repair",
+    "ac-installation"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.energystar.gov/products/heating_cooling"
+   ],
+   "notes": "KD 5 on a 1,000/mo informational term: best difficulty-to-volume ratio in this run. Cover diagnostic fee, common part-level costs (capacitor, contactor, fan motor, coil, compressor), then the repair-vs-replace math. Distinct from the existing /blog/how-much-does-a-new-ac-cost/ post (that one is replacement pricing) - link the two rather than repeating the equipment-cost table.",
+   "published_verified_at": "2026-09-03T19:23:36Z"
+  },
+  {
+   "id": "2026-07-30-why-is-my-ac-not-turning-on",
+   "status": "written",
+   "queued_at": "2026-07-30T17:27:39Z",
+   "written_at": "2026-09-13T14:36:42Z",
+   "post_url": "https://allproplumbingheatingandair.com/blog/why-is-my-ac-not-turning-on/",
+   "primary_keyword": "why is my ac not turning on",
+   "intent": "informational",
+   "volume": 720,
+   "kd": null,
+   "fan_out_cluster": [
+    "thermostat set to cool but ac not turning on",
+    "ac not turning on but fan works",
+    "what does an ac capacitor do when it fails",
+    "ac not blowing cold air reset",
+    "thermostat clicks but ac does not turn on"
+   ],
+   "suggested_slug": "why-is-my-ac-not-turning-on",
+   "suggested_title": "Why is my AC not turning on: the checks to run before you call",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/ac-repair/",
+    "/services/ac-installation/"
+   ],
+   "service_tags": [
+    "ac-repair"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.energy.gov/energysaver/central-air-conditioning"
+   ],
+   "notes": "Order the homeowner-safe checks first (thermostat mode/batteries, tripped breaker, condensate float switch, disconnect at the outdoor unit), then hand off to the technician-only causes. Capacitor failure is the single most common no-start in summer heat: explain the symptom (hum, no fan spin) without instructing anyone to touch it, capacitors hold charge."
+  },
+  {
+   "id": "2026-07-30-hvac-yearly-maintenance-cost",
+   "status": "banked",
+   "queued_at": "2026-07-30T17:27:39Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "hvac yearly maintenance cost",
+   "intent": "commercial",
+   "volume": 590,
+   "kd": null,
+   "fan_out_cluster": [
+    "ac tune up service",
+    "average hvac service call cost",
+    "hvac diagnostic cost",
+    "ac cleaning service",
+    "hvac yearly maintenance cost near me"
+   ],
+   "suggested_slug": "hvac-yearly-maintenance-cost",
+   "suggested_title": "HVAC yearly maintenance cost: what a tune-up runs and what it actually prevents",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/ac-repair/",
+    "/services/indoor-air-quality/",
+    "/services/ductwork/",
+    "/services/furnace-repair/"
+   ],
+   "service_tags": [
+    "ac-repair",
+    "indoor-air-quality",
+    "ductwork",
+    "furnace-repair"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.energystar.gov/products/heating_cooling/hvac_maintenance"
+   ],
+   "notes": "Decision-stage: people price maintenance plans weeks before a breakdown. Frame around Kern County reality - dust, a cooling season that runs March to October, and hard water on the plumbing side - so an annual visit is a genuinely different value proposition than in a mild climate. Do not invent plan pricing or name a maintenance-agreement tier the brand has not confirmed.",
+   "banked_at": "2026-09-17T22:13:26.009989+00:00"
+  },
+  {
+   "id": "2026-07-30-why-is-my-ac-leaking-water-inside",
+   "status": "banked",
+   "queued_at": "2026-07-30T17:27:39Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "why is my ac leaking water inside",
+   "intent": "informational",
+   "volume": 390,
+   "kd": null,
+   "fan_out_cluster": [
+    "ac leaking water from ceiling",
+    "clogged condensate drain line symptoms",
+    "is water dripping from ac dangerous",
+    "hvac leaking water on floor",
+    "why is my ac leaking water from the bottom"
+   ],
+   "suggested_slug": "why-is-my-ac-leaking-water-inside",
+   "suggested_title": "Why is my AC leaking water inside (and how to stop it before it damages the ceiling)",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/ac-repair/",
+    "/services/leak-detection/",
+    "/services/drain-cleaning/"
+   ],
+   "service_tags": [
+    "ac-repair",
+    "leak-detection"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.energy.gov/energysaver/central-air-conditioning"
+   ],
+   "notes": "Clogged condensate drain line is the usual cause, then frozen evaporator coil and a rusted/overflowing drain pan. Keep this on the AC side: stopping the leak and clearing the drain. Do NOT drift into drying out the ceiling or water-damage cleanup, that is the restoration vertical and the sister company's turf per linking-rules.json.",
+   "banked_at": "2026-09-17T22:13:26.009997+00:00"
+  },
+  {
+   "id": "2026-08-17-what-does-a-plumber-do",
+   "status": "published",
+   "queued_at": "2026-08-17T17:38:35Z",
+   "written_at": "2026-09-18T12:15:21Z",
+   "post_url": "https://allproplumbingheatingandair.com/blog/what-does-a-plumber-do/",
+   "primary_keyword": "what does a plumber do",
+   "intent": "informational",
+   "volume": 3600,
+   "kd": 21,
+   "fan_out_cluster": [
+    "what jobs does a residential plumber handle",
+    "when should you call a plumber instead of a handyman",
+    "what is the difference between a plumber and a drain cleaning company",
+    "what does a plumber do on a service call",
+    "what plumbing work requires a permit in california",
+    "what can a plumber fix that you cannot fix yourself"
+   ],
+   "suggested_slug": "what-does-a-plumber-do",
+   "suggested_title": "What does a plumber do (and when you actually need to call one)",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/",
+    "/services/emergency-plumbing/",
+    "/services/drain-cleaning/",
+    "/services/water-heater-repair/",
+    "/service-areas/bakersfield-ca/"
+   ],
+   "service_tags": [
+    "emergency-plumbing",
+    "drain-cleaning",
+    "water-heater-repair",
+    "sewer-line-repair",
+    "leak-detection"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.cslb.ca.gov/Consumers/",
+    "https://www.epa.gov/watersense"
+   ],
+   "notes": "Highest-volume uncovered informational term for this seed (3,600/mo, KD 21) and the natural topical hub for the whole plumbing service catalog. Structure as scannable question H2s so AI engines can lift passages: what a plumber does day to day, the job categories (drains and sewers, water heaters, leaks and repipes, gas lines, fixtures), plumber vs handyman vs drain-only company, and when a job needs a permit. Bakersfield hook: slab foundations and hard municipal water mean slab leaks and scale-killed water heaters are the two calls that most often surprise homeowners. Link out to every service landing page: this is the internal-linking anchor post. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
+   "source": "rank-ai-keyword-researcher",
+   "published_verified_at": "2026-09-18T12:16:38Z"
+  },
+  {
+   "id": "2026-08-17-how-much-does-a-plumber-cost-to-unclog-a-toilet",
+   "status": "published",
+   "queued_at": "2026-08-17T17:38:35Z",
+   "written_at": "2026-09-20T14:21:13Z",
+   "post_url": "https://allproplumbingheatingandair.com/blog/how-much-does-a-plumber-cost-to-unclog-a-toilet/",
+   "primary_keyword": "how much does a plumber cost to unclog a toilet",
+   "intent": "commercial",
+   "volume": 590,
+   "kd": 0,
+   "fan_out_cluster": [
+    "how much does it cost for plumber to unclog toilet",
+    "toilet auger vs plunger when to call a plumber",
+    "why does my toilet keep clogging",
+    "how much does it cost to remove and reset a toilet",
+    "clogged toilet emergency after hours cost",
+    "signs a toilet clog is actually a main line clog"
+   ],
+   "suggested_slug": "how-much-does-a-plumber-cost-to-unclog-a-toilet",
+   "suggested_title": "How much does a plumber cost to unclog a toilet? Bakersfield price ranges",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/toilet-faucet-repair/",
+    "/services/drain-cleaning/",
+    "/services/sewer-line-repair/",
+    "/service-areas/bakersfield-ca/toilet-faucet-repair/"
+   ],
+   "service_tags": [
+    "toilet-faucet-repair",
+    "drain-cleaning",
+    "sewer-line-repair"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.epa.gov/watersense/residential-toilets"
+   ],
+   "notes": "Price by escalation tier rather than one number: auger from the bowl, pull-and-reset, branch line, main line, camera inspection. Complements the already-queued 'unclog a drain' post: that one prices drains and sewer laterals, this one stays on the toilet and hands off to it, so cross-link instead of restating. Key diagnostic hook readers search for: if the tub gurgles when the toilet flushes it is a main line, not a toilet. Brand hours are 24/7 so the after-hours premium can be described plainly. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
+   "source": "rank-ai-keyword-researcher",
+   "published_verified_at": "2026-09-20T14:22:35Z"
+  },
+  {
+   "id": "2026-08-17-how-much-does-a-plumber-cost-to-fix-a-pipe",
+   "status": "banked",
+   "queued_at": "2026-08-17T17:38:35Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how much does a plumber cost to fix a pipe",
+   "intent": "commercial",
+   "volume": 170,
+   "kd": 1,
+   "fan_out_cluster": [
+    "how much does a plumber cost to fix a leak",
+    "cost to repair a burst pipe",
+    "galvanized pipe replacement cost per foot",
+    "pinhole leak in copper pipe repair cost",
+    "when a pipe repair turns into a repipe",
+    "does homeowners insurance cover a burst pipe",
+    "how much does slab leak pipe repair cost"
+   ],
+   "suggested_slug": "how-much-does-a-plumber-cost-to-fix-a-pipe",
+   "suggested_title": "How much does a plumber cost to fix a pipe? Repair pricing by pipe type and location",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/burst-pipe-repair/",
+    "/services/leak-detection/",
+    "/services/slab-leak-repair/",
+    "/services/repiping/",
+    "/service-areas/bakersfield-ca/burst-pipe-repair/"
+   ],
+   "service_tags": [
+    "burst-pipe-repair",
+    "leak-detection",
+    "slab-leak-repair",
+    "repiping"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.epa.gov/watersense/fix-leak-week"
+   ],
+   "notes": "Absorbs the sibling term 'how much does a plumber cost to fix a leak' (90/mo, KD 16), which is parked at priority 2 in the bank rather than queued so the two do not cannibalise. Price by three axes: pipe material (galvanized, copper, PEX, cast iron), location (accessible, in-wall, under slab), and access cost, because access is usually the bigger line item. Two strong local hooks: pre-1970 homes in Oleander, Westchester and East Bakersfield still run galvanized supply, and Tehachapi at 4,000 ft is the one service-area city that actually freezes and bursts pipes. Include the repair-vs-repipe decision point. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
+   "source": "rank-ai-keyword-researcher",
+   "banked_at": "2026-09-21T22:24:17.174345+00:00"
+  },
+  {
+   "id": "2026-08-17-do-plumbers-give-free-estimates",
+   "status": "banked",
+   "queued_at": "2026-08-17T17:38:35Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "do plumbers give free estimates",
+   "intent": "informational",
+   "volume": 110,
+   "kd": 0,
+   "fan_out_cluster": [
+    "do plumbers charge for estimates",
+    "plumber near me free estimate",
+    "what is a plumbing diagnostic fee",
+    "should a plumber give a written estimate before starting work",
+    "flat rate vs hourly plumbing quotes",
+    "how many plumbing quotes should you get"
+   ],
+   "suggested_slug": "do-plumbers-give-free-estimates",
+   "suggested_title": "Do plumbers give free estimates? How plumbing quotes and diagnostic fees really work",
+   "target_word_count": 1300,
+   "internal_link_targets": [
+    "/contact/",
+    "/services/",
+    "/services/leak-detection/",
+    "/service-areas/bakersfield-ca/"
+   ],
+   "service_tags": [
+    "emergency-plumbing",
+    "leak-detection",
+    "drain-cleaning"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
+   ],
+   "notes": "Trust and pricing-transparency topic that also captures the transactional 'plumber near me free estimate' cluster (2,900/mo) which has no commercial page of its own. Explain the real distinction honestly: a quote on visible, straightforward work is usually free, while diagnostic work that takes time and equipment (leak detection, camera inspection) normally carries a fee that is often credited to the repair. Complements /blog/how-to-find-a-good-plumber/ (vetting) and /blog/how-much-does-a-plumber-cost-per-hour/ (rates) rather than repeating them. Do not state All Pro's own estimate policy unless it is confirmed in plan-input. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
+   "source": "rank-ai-keyword-researcher",
+   "banked_at": "2026-09-21T22:24:17.174360+00:00"
+  },
+  {
+   "id": "2026-08-26-should-i-tip-a-plumber",
+   "status": "published",
+   "queued_at": "2026-08-26T13:45:00Z",
+   "written_at": "2026-09-22T15:08:49Z",
+   "post_url": "https://allproplumbingheatingandair.com/blog/should-i-tip-a-plumber/",
+   "primary_keyword": "should i tip a plumber",
+   "intent": "informational",
+   "volume": 2400,
+   "kd": 0,
+   "fan_out_cluster": [
+    "do you tip a plumber",
+    "how much do you tip a plumber",
+    "do you tip plumbers who come to your house",
+    "should i tip a plumber for a water heater install",
+    "is tipping expected on an after-hours emergency plumbing call",
+    "better ways to thank a plumber than cash"
+   ],
+   "suggested_slug": "should-i-tip-a-plumber",
+   "suggested_title": "Should I tip a plumber? What Bakersfield homeowners actually do",
+   "target_word_count": 1200,
+   "internal_link_targets": [
+    "/services/",
+    "/contact/",
+    "/services/emergency-plumbing/"
+   ],
+   "service_tags": [
+    "emergency-plumbing",
+    "water-heater-installation"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
+   ],
+   "notes": "2,400/mo at KD 0 and no page on the site touches it: the cheapest ranking win in this seed family. Answer the question in the first two sentences (tipping is never expected on a quoted invoice, $10-$20 or a cold drink is a normal gesture on a hard after-hours or attic/crawlspace job), then cover the situations readers actually mean: emergency night calls, water heater hauls, multi-day repipes, apprentice vs lead tech. Close on the alternatives that help a local crew more than cash: a Google review, a referral, naming the tech. Pure trust content, no dispatch push beyond one soft CTA. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup.",
+   "source": "rank-ai-keyword-researcher",
+   "published_verified_at": "2026-09-22T15:12:13Z"
+  },
+  {
+   "id": "2026-08-26-how-much-does-an-emergency-plumber-cost",
+   "status": "published",
+   "queued_at": "2026-08-26T13:45:00Z",
+   "written_at": "2026-09-24T15:22:11Z",
+   "post_url": "https://allproplumbingheatingandair.com/blog/how-much-does-an-emergency-plumber-cost/",
+   "primary_keyword": "how much does an emergency plumber cost",
+   "intent": "informational",
+   "volume": 140,
+   "kd": 0,
+   "fan_out_cluster": [
+    "emergency plumber call out fee vs hourly rate",
+    "after hours plumber rates explained",
+    "weekend and holiday plumbing rates",
+    "what counts as a plumbing emergency",
+    "how much does a burst pipe repair cost at 2am",
+    "does homeowners insurance cover an emergency plumber",
+    "how to keep an emergency plumbing call from getting expensive"
+   ],
+   "suggested_slug": "how-much-does-an-emergency-plumber-cost",
+   "suggested_title": "How much does an emergency plumber cost? Call-out fees and after-hours rates explained",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/emergency-plumbing/",
+    "/services/burst-pipe-repair/",
+    "/services/leak-detection/",
+    "/service-areas/bakersfield-ca/"
+   ],
+   "service_tags": [
+    "emergency-plumbing",
+    "burst-pipe-repair",
+    "leak-detection"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
+   ],
+   "notes": "$41 CPC on a KD 0 keyword: the ads side pays real money for this intent and nothing on the site answers it. Structure it as fee anatomy (call-out/trip fee, after-hours multiplier, diagnostic time, then the repair itself) with honest ranges rather than one made-up number, and give the shut-off-the-water step before any pricing so the page earns the AI-answer slot. 24/7 claims ARE allowed for this brand (plan-input brand.hours = 24/7). Pairs with /blog/how-much-does-a-plumber-cost-per-hour/ (day rates) and /blog/what-to-do-burst-pipe/ (the emergency itself): link both, do not restate them. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup. SCOPE GATE: stay on stopping the water and fixing the pipe. Do not mention mold remediation, structural drying or reconstruction (restoration vertical, sister company ProRestoration Services).",
+   "source": "rank-ai-keyword-researcher",
+   "published_verified_at": "2026-09-24T15:26:41Z"
+  },
+  {
+   "id": "2026-08-26-how-to-hire-a-licensed-plumber",
+   "status": "published",
+   "queued_at": "2026-08-26T13:45:00Z",
+   "written_at": "2026-10-01T01:23:58Z",
+   "post_url": "https://allproplumbingheatingandair.com/blog/how-to-hire-a-licensed-plumber/",
+   "primary_keyword": "licensed plumber",
+   "intent": "transactional",
+   "volume": 8100,
+   "kd": 26,
+   "fan_out_cluster": [
+    "how to know if a plumber is licensed",
+    "how to verify a plumbing license in california",
+    "what is a c-36 plumbing contractor license",
+    "risks of hiring an unlicensed plumber",
+    "is the plumber bonded and insured",
+    "do plumbers warranty their work",
+    "does a licensed plumber have to pull a permit"
+   ],
+   "suggested_slug": "how-to-hire-a-licensed-plumber",
+   "suggested_title": "How to hire a licensed plumber in California (and check the license in two minutes)",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/",
+    "/contact/",
+    "/services/repiping/",
+    "/services/gas-line-services/",
+    "/services/water-heater-installation/"
+   ],
+   "service_tags": [
+    "repiping",
+    "gas-line-services",
+    "water-heater-installation"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/",
+    "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/CheckLicense.aspx"
+   ],
+   "notes": "8,100/mo at KD 26 with $25.75 CPC and no commercial page targeting it. Write the how-to-verify walkthrough: CSLB license lookup by number or business name, C-36 classification, workers comp and bond status, why the license matters most on permitted work (repipe, sewer replacement, gas line, water heater changeout). This is the vetting-mechanics post; /blog/how-to-find-a-good-plumber/ is the soft-skills vetting post and the two must cross-link, not overlap. LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup.",
+   "source": "rank-ai-keyword-researcher",
+   "published_verified_at": "2026-10-01T01:25:38Z"
+  },
+  {
+   "id": "2026-08-26-plumbing-contractor-vs-plumber",
+   "status": "queued",
+   "queued_at": "2026-08-26T13:45:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "plumbing contractor",
+   "intent": "transactional",
+   "volume": 6600,
+   "kd": 12,
+   "fan_out_cluster": [
+    "what is a plumbing contractor",
+    "plumbing contractor vs plumber",
+    "master plumber vs journeyman plumber",
+    "plumber vs handyman for plumbing work",
+    "which plumbing jobs need a permit in california",
+    "when does a plumbing job need a licensed contractor"
+   ],
+   "suggested_slug": "plumbing-contractor-vs-plumber",
+   "suggested_title": "Plumbing contractor vs plumber: which one does your job actually need?",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/",
+    "/services/sewer-line-repair/",
+    "/services/repiping/",
+    "/services/gas-line-services/"
+   ],
+   "service_tags": [
+    "sewer-line-repair",
+    "repiping",
+    "gas-line-services"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.cslb.ca.gov/Consumers/Hire_A_Contractor/"
+   ],
+   "notes": "6,600/mo at KD 12, uncovered. Scope-and-permits angle, deliberately kept off the license-verification angle in the sibling 'licensed plumber' post: apprentice/journeyman/master tiers, what a contracting entity carries that an individual tech does not, and a plain table of Kern County job types that need a permit and inspection versus same-day handyman-scale fixes. Absorbs the 'plumber vs handyman' cluster (20/mo but constant in AI answers). LICENSE GATE: never call All Pro licensed, certified or bonded in this post. CSLB 960566 is held by PRO RESTORATION SERVICES INC and the All Pro DBA is unconfirmed. Frame every licensing point in second person (what you should check on any contractor you hire) and link the CSLB lookup.",
+   "source": "rank-ai-keyword-researcher"
+  },
+  {
+   "id": "2026-09-21-what-to-do-if-toilet-is-overflowing",
+   "status": "queued",
+   "queued_at": "2026-09-21T17:50:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "what to do if toilet is overflowing",
+   "intent": "informational",
+   "volume": 880,
+   "kd": 0,
+   "fan_out_cluster": [
+    "how to stop a toilet from overflowing before it floods the bathroom",
+    "where is the toilet shutoff valve",
+    "what to do if the toilet overflows and the shutoff valve is stuck",
+    "is an overflowing toilet a plumbing emergency",
+    "why does my toilet overflow when i flush",
+    "when an overflowing toilet means a sewer line problem"
+   ],
+   "suggested_slug": "what-to-do-if-toilet-is-overflowing",
+   "suggested_title": "What to do if toilet is overflowing: the first 60 seconds",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/toilet-faucet-repair/",
+    "/services/emergency-plumbing/",
+    "/services/drain-cleaning/",
+    "/services/sewer-line-repair/"
+   ],
+   "service_tags": [
+    "toilet-faucet-repair",
+    "emergency-plumbing",
+    "drain-cleaning"
+   ],
+   "city_anchor": "bakersfield-ca",
+   "external_authority_candidates": [
+    "https://www.epa.gov/watersense"
+   ],
+   "notes": "Lead with the stop-the-flow sequence: lift the tank lid, push the flapper down, then close the shutoff valve behind the bowl. Flag repeat overflows across multiple fixtures as a main-line backup, which is the 24/7 dispatch trigger. Bakersfield angle: mature downtown tree canopy means root-intruded laterals are a common root cause."
+  },
+  {
+   "id": "2026-09-21-what-is-considered-a-plumbing-emergency",
+   "status": "queued",
+   "queued_at": "2026-09-21T17:50:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "what is considered a plumbing emergency",
+   "intent": "informational",
+   "volume": 90,
+   "kd": 0,
+   "fan_out_cluster": [
+    "what are the most common plumbing emergencies",
+    "is a leaking water heater an emergency",
+    "can a clogged drain wait until morning",
+    "when to call an emergency plumber vs wait",
+    "do emergency plumbers work 24/7",
+    "signs you need an emergency plumber right now"
+   ],
+   "suggested_slug": "what-is-considered-a-plumbing-emergency",
+   "suggested_title": "What is considered a plumbing emergency (and what can wait until morning)",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/emergency-plumbing/",
+    "/services/burst-pipe-repair/",
+    "/services/sewer-line-repair/",
+    "/services/water-heater-repair/"
+   ],
+   "service_tags": [
+    "emergency-plumbing",
+    "burst-pipe-repair",
+    "sewer-line-repair"
+   ],
+   "city_anchor": "bakersfield-ca",
+   "external_authority_candidates": [
+    "https://www.ready.gov/"
+   ],
+   "notes": "Build the post as a two-column call-now vs can-wait triage table: that structure is what AI assistants lift verbatim. Brand hours are 24/7, so call-now language is permitted. Include the gas-smell case with call-911/utility-first framing, never a dispatch CTA."
+  },
+  {
+   "id": "2026-09-21-how-to-turn-off-the-water-in-an-emergency",
+   "status": "queued",
+   "queued_at": "2026-09-21T17:50:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how do i turn off the water in an emergency",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "where is my main water shutoff valve",
+    "how to shut off water to a single fixture",
+    "how to turn off the water heater in an emergency",
+    "what to do if the main shutoff valve will not turn",
+    "how to use a water meter key at the curb stop",
+    "how to stop a leak until the plumber arrives"
+   ],
+   "suggested_slug": "how-to-turn-off-the-water-in-an-emergency",
+   "suggested_title": "How do I turn off the water in an emergency: find your shutoff before you need it",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/emergency-plumbing/",
+    "/services/burst-pipe-repair/",
+    "/services/leak-detection/",
+    "/services/slab-leak-repair/"
+   ],
+   "service_tags": [
+    "emergency-plumbing",
+    "burst-pipe-repair",
+    "leak-detection"
+   ],
+   "city_anchor": "bakersfield-ca",
+   "external_authority_candidates": [
+    "https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html"
+   ],
+   "notes": "Zero measured Google volume but surfaced by the ChatGPT decomposition, so treat it as AI-retrieval fuel and write it as a numbered procedure. Bakersfield specifics: nearly all housing is slab-on-grade, so the main shutoff is usually at the front hose bib wall or the curb stop box near the sidewalk, not in a basement."
+  },
+  {
+   "id": "2026-09-21-does-homeowners-insurance-cover-emergency-plumbing",
+   "status": "queued",
+   "queued_at": "2026-09-21T17:50:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "will homeowners insurance cover emergency plumbing repairs",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "does insurance cover a burst pipe",
+    "sudden and accidental vs gradual leak coverage",
+    "does homeowners insurance pay to fix the pipe or just the damage",
+    "what documentation to collect for a plumbing claim",
+    "does insurance cover sewer line replacement",
+    "when a plumbing claim gets denied"
+   ],
+   "suggested_slug": "does-homeowners-insurance-cover-emergency-plumbing-repairs",
+   "suggested_title": "Will homeowners insurance cover emergency plumbing repairs?",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/emergency-plumbing/",
+    "/services/burst-pipe-repair/",
+    "/services/leak-detection/",
+    "/services/repiping/"
+   ],
+   "service_tags": [
+    "emergency-plumbing",
+    "burst-pipe-repair",
+    "leak-detection"
+   ],
+   "city_anchor": "oildale-ca",
+   "external_authority_candidates": [
+    "https://www.iii.org/article/what-homeowners-insurance-covers"
+   ],
+   "notes": "Key distinction to lead with: most policies pay for the resulting water damage but not the failed pipe itself, and gradual leaks are typically excluded while sudden and accidental ones are covered. Keep it educational, no coverage guarantees. Distinct from the existing slab-leak insurance post, which is slab-specific. Oildale angle: 1940s-1960s galvanized supply lines age into the gradual-leak exclusion."
+  },
+  {
+   "id": "2026-09-21-how-to-prevent-plumbing-emergencies",
+   "status": "queued",
+   "queued_at": "2026-09-21T17:50:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how to prevent plumbing emergencies",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "annual plumbing maintenance checklist for homeowners",
+    "how to keep pipes from freezing",
+    "what not to put down the drain or garbage disposal",
+    "how often should you flush a water heater",
+    "how to test your main shutoff valve",
+    "warning signs a plumbing failure is coming"
+   ],
+   "suggested_slug": "how-to-prevent-plumbing-emergencies",
+   "suggested_title": "How to prevent plumbing emergencies: a seasonal homeowner checklist",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/emergency-plumbing/",
+    "/services/water-heater-repair/",
+    "/services/drain-cleaning/",
+    "/services/water-softeners-filtration/"
+   ],
+   "service_tags": [
+    "emergency-plumbing",
+    "water-heater-repair",
+    "drain-cleaning",
+    "water-softeners-filtration"
+   ],
+   "city_anchor": "tehachapi-ca",
+   "external_authority_candidates": [
+    "https://www.energystar.gov/"
+   ],
+   "notes": "Tehachapi is the one service area with real freezes at ~4,000 ft, so anchor the fall section on freeze prevention, hose-bib disconnects and heat tape checks. Tie hard-water scale to water heater flushing, which is the top preventable failure across Kern County."
+  }
+ ]
 }
