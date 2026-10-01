@@ -131,7 +131,7 @@
     },
     {
       "id": "2026-09-06-trauma-crime-scene-biohazard",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-06T10:23:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -140,7 +140,38 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "boulder-city-nv",
-      "source": "app target-term (onboarding-backfill)"
+      "source": "app target-term (onboarding-backfill)",
+      "written_at": "2026-10-01T22:27:02Z",
+      "post_url": "https://purocleaneastlasvegas.com/blog/trauma-crime-scene-biohazard/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/trauma-crime-scene-biohazard.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "OSHA bloodborne pathogen protocols and IICRC S540 procedures for safe removal and di",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/trauma-crime-scene-biohazard.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "contamination usually come from. The [IICRC](https://www.iicrc.org) publishes a spe",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/trauma-crime-scene-biohazard.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "estoration services. Their crews follow IICRC-recognized procedures for trauma and cr",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ]
     },
     {
       "id": "2026-08-28-fire-damage-restoration-cost-nv",
