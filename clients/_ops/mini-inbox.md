@@ -8,6 +8,7 @@
      (tdiusa.com is deliberately NOT on this list. Leave it alone even if it shows up.)
   4. Do NOT generate the Bing Webmaster API key (Settings > API access). That credential is Santino's to create and store; the weekly automation (scripts/bing_webmaster.py) waits for it.
   5. Ledger ONE line per platform event in clients/_ops/mini-ledger.md (e.g. `2026-10-01 | fleet | bing-webmaster | imported 27 GSC properties | status: verified`, plus one line per site where you had to submit the sitemap by hand), push immediately, then a run report `clients/_ops/mini-reports/YYYY-MM-DD-HHMM-bing-webmaster-import.md` listing per site: imported yes/no, verified yes/no, sitemap status (Success / Pending / error text).
+  → RESULT (mini 2026-10-01 14:42 PDT): DONE. Signed in with Google as contact@ (standing 09-30 rule, no code; the login persists across tabs). Imported 28 GSC properties: all 27 + restorationai.io, all verified, no DNS; tdiusa.com isn't in GSC. Submitted sitemap-index.xml by hand on 15 sites, each SUCCESSFUL. Now 23/27 Success, 4 Processing. API key NOT generated. Report: 2026-10-01-1425-bing-webmaster-import.md
 
 - [x] **AGENT CHROME SETUP — do it yourself, unattended OK (Santino 2026-09-30: "why can't the mini run this itself?"):** agents now attach to a REAL signed-in Chrome instead of the Playwright profile that kept losing logins (browser_agent/agent_chrome.py, commit 30f99f1c5). Steps:
   1. `git pull`, then `python3 -m browser_agent.agent_chrome list`.
@@ -349,4 +350,3 @@
   → RESULT (mini 2026-09-27): RECON DONE 09-27 (read-only to first gate, narestco): Nextdoor US-BUILDABLE; Yelp US-BUILDABLE pending phone-code test; Angi NEEDS-CLIENT-STEP; Facebook NEEDS-CLIENT-STEP / agency-profile decision; Thumbtack HARD-BLOCKED; HomeAdvisor HARD-BLOCKED (paid). Full table in 2026-09-27-0748 run report.
 
 <!-- completed items get [x] + a one-line result; MacBook Claude prunes -->
-  → RESULT (mini 2026-10-01 14:42 PDT): DONE. Signed in with Google as contact@ (standing 09-30 rule, no code; the login persists across tabs). Imported 28 GSC properties: all 27 + restorationai.io, all verified, no DNS; tdiusa.com isn't in GSC. Submitted sitemap-index.xml by hand on 15 sites, each SUCCESSFUL. Now 23/27 Success, 4 Processing. API key NOT generated. Report: 2026-10-01-1425-bing-webmaster-import.md
