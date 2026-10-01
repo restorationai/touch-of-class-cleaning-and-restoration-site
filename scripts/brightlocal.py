@@ -248,7 +248,8 @@ def rename_gate(slug: str) -> tuple[bool, str]:
       - a row with status 'chosen'  -> RENAMING: blocked until the live GBP
         title matches the chosen string (marketing_gbp_profiles.title,
         synced by gbp.py) -> then clear.
-      - ALL name rows dismissed     -> KEEPING the name -> clear.
+      - ALL name rows dismissed     -> still UNDECIDED (10-01): only an
+        explicit keep decision clears a client that is not renaming.
       - open rows / no rows         -> UNDECIDED -> blocked (fail closed).
     Manual override: integration_settings.rename_intent.decision == 'keep'.
     """
@@ -329,7 +330,13 @@ def rename_gate(slug: str) -> tuple[bool, str]:
     if intent == "rename":
         return False, ("rename=yes but every candidate is dismissed — "
                        "choose a name (or flip the decision to keep)")
-    return True, "KEEPING the current name (all candidates dismissed)"
+    # Santino 2026-10-01: "all dismissed" is NOT consent. Reign looked
+    # cleared with no rename conversation ever held (three autoseeded names,
+    # dismissed). Clear only on the client's explicit keep (rename_intent.
+    # decision='keep', the app's Keep-current-name button) or a DBA filing.
+    return False, ("UNDECIDED: every candidate is dismissed but nobody "
+                   "recorded the client's decision — record an explicit keep "
+                   "(Keep current name) or seed and choose a new name")
 
 
 # ------------------------------------------------------------ order policy
