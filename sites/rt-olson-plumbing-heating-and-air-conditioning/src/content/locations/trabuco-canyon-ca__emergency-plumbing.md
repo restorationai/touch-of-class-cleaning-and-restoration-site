@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "81d42b1df66cc006"
 generated_at: "2026-09-20T14:13:48.604348+00:00"
 manual_override: false
-internal_links: ["/services/emergency-plumbing/", "/service-areas/trabuco-canyon-ca/", "/service-areas/trabuco-canyon-ca/ac-repair/", "/service-areas/trabuco-canyon-ca/drain-cleaning/", "/service-areas/anaheim-ca/emergency-plumbing/", "/service-areas/bloomington-ca/emergency-plumbing/", "/contact/"]
+internal_links: ["/services/emergency-plumbing/", "/service-areas/trabuco-canyon-ca/", "/service-areas/anaheim-ca/emergency-plumbing/", "/service-areas/bloomington-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Trabuco Canyon", "url": "/service-areas/trabuco-canyon-ca/"}, {"name": "Emergency Plumbing"}]
 faq: []
 area_slug: "trabuco-canyon-ca"

@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "e34dd527eae966f8"
 generated_at: "2026-09-30T19:28:43.465330+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/waveland-ms/", "/service-areas/waveland-ms/fire-damage-restoration/", "/service-areas/waveland-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-water-removal/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/waveland-ms/", "/service-areas/waveland-ms/fire-damage-restoration/", "/service-areas/waveland-ms/mold-remediation/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Waveland", "url": "/service-areas/waveland-ms/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "waveland-ms"

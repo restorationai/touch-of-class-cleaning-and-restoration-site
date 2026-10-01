@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "5c0c8413cb9e1877"
 generated_at: "2026-09-30T19:28:35.999173+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/crystal-springs-fl/", "/service-areas/crystal-springs-fl/fire-damage-restoration/", "/service-areas/crystal-springs-fl/mold-remediation/", "/service-areas/anna-maria-fl/water-damage-restoration/", "/service-areas/apollo-beach-fl/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/crystal-springs-fl/", "/service-areas/anna-maria-fl/water-damage-restoration/", "/service-areas/apollo-beach-fl/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Crystal Springs", "url": "/service-areas/crystal-springs-fl/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "crystal-springs-fl"

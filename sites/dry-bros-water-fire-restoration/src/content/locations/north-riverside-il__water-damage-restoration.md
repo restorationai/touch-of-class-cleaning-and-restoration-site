@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "41637172985c3b01"
 generated_at: "2026-09-24T17:27:58.255294+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/north-riverside-il/", "/service-areas/north-riverside-il/fire-damage-restoration/", "/service-areas/north-riverside-il/mold-remediation/", "/service-areas/bedford-park-il/water-damage-restoration/", "/service-areas/berwyn-il/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/north-riverside-il/", "/service-areas/bedford-park-il/water-damage-restoration/", "/service-areas/berwyn-il/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Riverside", "url": "/service-areas/north-riverside-il/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "north-riverside-il"

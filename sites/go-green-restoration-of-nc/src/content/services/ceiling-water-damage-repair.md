@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "dbca05a81e0c4189"
 generated_at: "2026-09-30T19:28:39.571592+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/ceiling-water-damage-repair/", "/service-areas/clayton-nc/ceiling-water-damage-repair/", "/service-areas/durham-nc/ceiling-water-damage-repair/", "/service-areas/elm-city-nc/ceiling-water-damage-repair/", "/service-areas/kenly-nc/ceiling-water-damage-repair/", "/service-areas/knightdale-nc/ceiling-water-damage-repair/", "/service-areas/lake-royale-nc/ceiling-water-damage-repair/", "/service-areas/louisburg-nc/ceiling-water-damage-repair/", "/service-areas/nashville-nc/ceiling-water-damage-repair/", "/service-areas/pine-level-nc/ceiling-water-damage-repair/", "/service-areas/raleigh-nc/ceiling-water-damage-repair/", "/service-areas/rocky-mount-nc/ceiling-water-damage-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/", "/service-areas/elm-city-nc/", "/service-areas/kenly-nc/", "/service-areas/knightdale-nc/", "/service-areas/lake-royale-nc/", "/service-areas/louisburg-nc/", "/service-areas/nashville-nc/", "/service-areas/pine-level-nc/", "/service-areas/raleigh-nc/", "/service-areas/rocky-mount-nc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Ceiling Water Damage Repair"}]
 faq: []
 service_slug: "ceiling-water-damage-repair"

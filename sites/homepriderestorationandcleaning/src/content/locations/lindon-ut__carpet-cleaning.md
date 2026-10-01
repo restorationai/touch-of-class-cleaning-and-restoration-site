@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "2478d777c4a53c49"
 generated_at: "2026-09-30T19:28:45.250632+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/fire-damage-restoration/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/alpine-ut/carpet-cleaning/", "/service-areas/american-fork-ut/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/lindon-ut/", "/service-areas/alpine-ut/carpet-cleaning/", "/service-areas/american-fork-ut/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lindon", "url": "/service-areas/lindon-ut/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "lindon-ut"

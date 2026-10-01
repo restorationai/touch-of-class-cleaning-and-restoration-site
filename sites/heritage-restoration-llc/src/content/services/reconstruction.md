@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "4b5662d40f39b41d"
 generated_at: "2026-09-30T19:28:41.597430+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/reconstruction/", "/service-areas/avon-mn/reconstruction/", "/service-areas/baxter-mn/reconstruction/", "/service-areas/brainerd-mn/reconstruction/", "/service-areas/elmdale-mn/reconstruction/", "/service-areas/flensburg-mn/reconstruction/", "/service-areas/foley-mn/reconstruction/", "/service-areas/fort-ripley-mn/reconstruction/", "/service-areas/harding-mn/reconstruction/", "/service-areas/long-prairie-mn/reconstruction/", "/service-areas/pierz-mn/reconstruction/", "/service-areas/randall-mn/reconstruction/"]
+internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/", "/service-areas/avon-mn/", "/service-areas/baxter-mn/", "/service-areas/brainerd-mn/", "/service-areas/elmdale-mn/", "/service-areas/flensburg-mn/", "/service-areas/foley-mn/", "/service-areas/fort-ripley-mn/", "/service-areas/harding-mn/", "/service-areas/long-prairie-mn/", "/service-areas/pierz-mn/", "/service-areas/randall-mn/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Reconstruction Services"}]
 faq: []
 service_slug: "reconstruction"

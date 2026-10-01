@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "07ea302927ed2241"
 generated_at: "2026-09-30T19:28:32.683371+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/water-heater-flood-cleanup/", "/service-areas/chino-ca/water-heater-flood-cleanup/", "/service-areas/chino-hills-ca/water-heater-flood-cleanup/", "/service-areas/eastvale-ca/water-heater-flood-cleanup/", "/service-areas/fontana-ca/water-heater-flood-cleanup/", "/service-areas/fullerton-ca/water-heater-flood-cleanup/", "/service-areas/jurupa-valley-ca/water-heater-flood-cleanup/", "/service-areas/lake-mathews-ca/water-heater-flood-cleanup/", "/service-areas/montclair-ca/water-heater-flood-cleanup/", "/service-areas/norco-ca/water-heater-flood-cleanup/", "/service-areas/north-tustin-ca/water-heater-flood-cleanup/", "/service-areas/ontario-ca/water-heater-flood-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/", "/service-areas/eastvale-ca/", "/service-areas/fontana-ca/", "/service-areas/fullerton-ca/", "/service-areas/jurupa-valley-ca/", "/service-areas/lake-mathews-ca/", "/service-areas/montclair-ca/", "/service-areas/norco-ca/", "/service-areas/north-tustin-ca/", "/service-areas/ontario-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Water Heater Flood Cleanup"}]
 faq: []
 service_slug: "water-heater-flood-cleanup"

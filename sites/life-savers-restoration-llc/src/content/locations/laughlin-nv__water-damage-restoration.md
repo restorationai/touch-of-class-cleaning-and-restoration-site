@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "f767184a651be745"
 generated_at: "2026-09-30T19:28:50.998188+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/laughlin-nv/", "/service-areas/laughlin-nv/fire-damage-restoration/", "/service-areas/laughlin-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/laughlin-nv/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Laughlin", "url": "/service-areas/laughlin-nv/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "laughlin-nv"

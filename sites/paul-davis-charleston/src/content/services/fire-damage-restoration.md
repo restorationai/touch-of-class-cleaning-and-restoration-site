@@ -10,7 +10,7 @@ priority: 9.0
 plan_hash: "ce8b52f6402c70b9"
 generated_at: "2026-09-20T14:13:25.008050+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/awendaw-sc/fire-damage-restoration/", "/service-areas/goose-creek-sc/fire-damage-restoration/", "/service-areas/hanahan-sc/fire-damage-restoration/", "/service-areas/isle-of-palms-sc/fire-damage-restoration/", "/service-areas/james-island-sc/fire-damage-restoration/", "/service-areas/ladson-sc/fire-damage-restoration/", "/service-areas/mount-pleasant-sc/fire-damage-restoration/", "/service-areas/north-charleston-sc/fire-damage-restoration/", "/service-areas/sullivan-s-island-sc/fire-damage-restoration/", "/service-areas/summerville-sc/fire-damage-restoration/", "/blog/choosing-a-restoration-company/", "/blog/fire-damage-restoration-process/", "/blog/smoke-odor-removal-techniques/"]
+internal_links: ["/services/", "/contact/", "/service-areas/awendaw-sc/", "/service-areas/goose-creek-sc/", "/service-areas/hanahan-sc/", "/service-areas/isle-of-palms-sc/", "/service-areas/james-island-sc/", "/service-areas/ladson-sc/", "/service-areas/mount-pleasant-sc/", "/service-areas/north-charleston-sc/fire-damage-restoration/", "/service-areas/sullivan-s-island-sc/", "/service-areas/summerville-sc/", "/blog/choosing-a-restoration-company/", "/blog/fire-damage-restoration-process/", "/blog/smoke-odor-removal-techniques/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 service_slug: "fire-damage-restoration"

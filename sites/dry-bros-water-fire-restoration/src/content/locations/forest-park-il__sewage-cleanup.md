@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "c8686ed2bd2c9cbd"
 generated_at: "2026-09-24T17:27:58.249004+00:00"
 manual_override: false
-internal_links: ["/services/sewage-cleanup/", "/service-areas/forest-park-il/", "/service-areas/forest-park-il/fire-damage-restoration/", "/service-areas/forest-park-il/mold-remediation/", "/service-areas/bedford-park-il/sewage-cleanup/", "/service-areas/berwyn-il/sewage-cleanup/", "/contact/"]
+internal_links: ["/services/sewage-cleanup/", "/service-areas/forest-park-il/", "/service-areas/bedford-park-il/", "/service-areas/berwyn-il/sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Forest Park", "url": "/service-areas/forest-park-il/"}, {"name": "Sewage Cleanup and Sanitization"}]
 faq: []
 area_slug: "forest-park-il"

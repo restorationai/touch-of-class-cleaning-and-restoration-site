@@ -1,0 +1,78 @@
+{
+ "policy": "scripts/city_page_gate.py (Santino 2026-10-01)",
+ "thresholds": {
+  "combo_min": 10,
+  "head_metro_min": 1000
+ },
+ "decisions": {},
+ "offered": {
+  "contents-restoration-storage": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "emergency-board-up-tarping": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Emergency Board-Up & Stabilization'",
+   "GBP service in the client's words: 'Board-Up & Tarping Services'"
+  ],
+  "emergency-plumbing": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "emergency-water-removal": [
+   "GBP service in the client's words: 'Dishwasher Leak Water Damage Cleanup'",
+   "GBP service in the client's words: 'Appliance Leak Water Damage Cleanup'",
+   "GBP service in the client's words: 'Washing Machine Leak Cleanup'",
+   "GBP service in the client's words: 'Water Extraction'",
+   "default with water damage restoration (Santino 09-30)"
+  ],
+  "fire-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Fire Damage Cleanup & Restoration'",
+   "GBP service in the client's words: 'Commercial Fire Damage Restoration'"
+  ],
+  "general-contracting": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'General Contracting (Reconstruction & Renovation)'"
+  ],
+  "mold-remediation": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Mold Removal'",
+   "GBP service in the client's words: 'Commercial Mold Remediation'"
+  ],
+  "reconstruction": [
+   "GBP service in the client's words: 'Water Damage Reconstruction'",
+   "GBP service in the client's words: 'Post-Loss Reconstruction'",
+   "GBP service in the client's words: 'Fire Damage Reconstruction'"
+  ],
+  "sewage-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "smoke-damage-restoration": [
+   "GBP service in the client's words: 'Smoke Damage Cleanup'"
+  ],
+  "storm-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "water-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "water-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Commercial Water Damage Restoration'",
+   "GBP service in the client's words: 'Water Damage Cleanup & Restoration'",
+   "GBP service in the client's words: 'Storm Water Damage Restoration'"
+  ]
+ }
+}

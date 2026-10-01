@@ -10,7 +10,7 @@ priority: 3.6
 plan_hash: "f18ac383a6443bdd"
 generated_at: "2026-09-30T19:28:52.909482+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/post-construction-cleaning/", "/service-areas/auburn-wa/post-construction-cleaning/", "/service-areas/bellevue-wa/post-construction-cleaning/", "/service-areas/bremerton-wa/post-construction-cleaning/", "/service-areas/burien-wa/post-construction-cleaning/", "/service-areas/des-moines-wa/post-construction-cleaning/", "/service-areas/edgewood-wa/post-construction-cleaning/", "/service-areas/everett-wa/post-construction-cleaning/", "/service-areas/fife-wa/post-construction-cleaning/", "/service-areas/gig-harbor-wa/post-construction-cleaning/", "/service-areas/kent-wa/post-construction-cleaning/", "/service-areas/kirkland-wa/post-construction-cleaning/"]
+internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/", "/service-areas/auburn-wa/", "/service-areas/bellevue-wa/", "/service-areas/bremerton-wa/", "/service-areas/burien-wa/", "/service-areas/des-moines-wa/", "/service-areas/edgewood-wa/", "/service-areas/everett-wa/", "/service-areas/fife-wa/", "/service-areas/gig-harbor-wa/", "/service-areas/kent-wa/", "/service-areas/kirkland-wa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Post-Construction and Specialty Cleaning"}]
 faq: []
 service_slug: "post-construction-cleaning"

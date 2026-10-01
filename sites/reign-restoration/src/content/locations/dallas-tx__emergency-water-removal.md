@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "4b1d78e1b94008d4"
 generated_at: "2026-09-30T19:29:00.318468+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/dallas-tx/", "/service-areas/dallas-tx/fire-damage-restoration/", "/service-areas/dallas-tx/mold-remediation/", "/service-areas/allen-tx/emergency-water-removal/", "/service-areas/caddo-mills-tx/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/dallas-tx/", "/service-areas/dallas-tx/fire-damage-restoration/", "/service-areas/dallas-tx/mold-remediation/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dallas", "url": "/service-areas/dallas-tx/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "dallas-tx"

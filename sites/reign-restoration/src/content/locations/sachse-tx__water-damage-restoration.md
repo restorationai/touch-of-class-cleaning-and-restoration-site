@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "bd363ddec6fb6a3a"
 generated_at: "2026-09-30T19:29:00.381484+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/sachse-tx/", "/service-areas/sachse-tx/fire-damage-restoration/", "/service-areas/sachse-tx/mold-remediation/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/caddo-mills-tx/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/sachse-tx/", "/service-areas/sachse-tx/mold-remediation/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/caddo-mills-tx/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sachse", "url": "/service-areas/sachse-tx/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "sachse-tx"

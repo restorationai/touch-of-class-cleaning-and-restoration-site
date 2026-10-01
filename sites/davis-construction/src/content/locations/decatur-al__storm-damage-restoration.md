@@ -10,7 +10,7 @@ priority: 4.9
 plan_hash: "da5a088ff4df7792"
 generated_at: "2026-09-30T14:12:04.099235+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/decatur-al/", "/service-areas/decatur-al/home-remodeling/", "/service-areas/decatur-al/roofing/", "/service-areas/arab-al/storm-damage-restoration/", "/service-areas/ardmore-al/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/decatur-al/", "/service-areas/decatur-al/home-remodeling/", "/service-areas/decatur-al/roofing/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Decatur", "url": "/service-areas/decatur-al/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "decatur-al"

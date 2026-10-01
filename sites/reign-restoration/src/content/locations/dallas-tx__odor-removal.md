@@ -10,7 +10,7 @@ priority: 4.9
 plan_hash: "cd40754878b4a5a7"
 generated_at: "2026-09-30T19:29:00.317712+00:00"
 manual_override: false
-internal_links: ["/services/odor-removal/", "/service-areas/dallas-tx/", "/service-areas/dallas-tx/fire-damage-restoration/", "/service-areas/dallas-tx/mold-remediation/", "/service-areas/allen-tx/odor-removal/", "/service-areas/caddo-mills-tx/odor-removal/", "/contact/"]
+internal_links: ["/services/odor-removal/", "/service-areas/dallas-tx/", "/service-areas/dallas-tx/fire-damage-restoration/", "/service-areas/dallas-tx/mold-remediation/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dallas", "url": "/service-areas/dallas-tx/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 area_slug: "dallas-tx"

@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "37d8d159e7bc33e8"
 generated_at: "2026-09-24T17:27:58.229998+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/bedford-park-il/water-damage-restoration/", "/service-areas/bedford-park-il/flood-damage-restoration/", "/service-areas/bedford-park-il/sewage-cleanup/", "/service-areas/bedford-park-il/smoke-damage-restoration/", "/service-areas/bedford-park-il/storm-damage-restoration/", "/service-areas/bedford-park-il/emergency-water-removal/", "/service-areas/bedford-park-il/basement-flooding-cleanup/", "/service-areas/bedford-park-il/burst-pipe-repair/", "/service-areas/bedford-park-il/emergency-board-up-tarping/", "/service-areas/bedford-park-il/odor-removal/", "/service-areas/bedford-park-il/contents-restoration/", "/service-areas/berwyn-il/", "/service-areas/brookfield-il/", "/service-areas/burbank-il/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/water-damage-restoration/", "/service-areas/berwyn-il/", "/service-areas/brookfield-il/", "/service-areas/burbank-il/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bedford Park"}]
 faq: []
 area_slug: "bedford-park-il"

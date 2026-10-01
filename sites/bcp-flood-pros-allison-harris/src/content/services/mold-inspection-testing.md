@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "4923f385bed8fff1"
 generated_at: "2026-09-30T19:28:21.542049+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/mold-inspection-testing/", "/service-areas/bluffdale-ut/mold-inspection-testing/", "/service-areas/cedar-fort-ut/mold-inspection-testing/", "/service-areas/cedar-hills-ut/mold-inspection-testing/", "/service-areas/cottonwood-heights-ut/mold-inspection-testing/", "/service-areas/draper-ut/mold-inspection-testing/", "/service-areas/eagle-mountain-ut/mold-inspection-testing/", "/service-areas/herriman-ut/mold-inspection-testing/", "/service-areas/highland-ut/mold-inspection-testing/", "/service-areas/lehi-ut/mold-inspection-testing/", "/service-areas/lindon-ut/mold-inspection-testing/", "/service-areas/orem-ut/mold-inspection-testing/", "/blog/how-to-test-for-mold/"]
+internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/", "/service-areas/bluffdale-ut/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-hills-ut/", "/service-areas/cottonwood-heights-ut/", "/service-areas/draper-ut/", "/service-areas/eagle-mountain-ut/", "/service-areas/herriman-ut/", "/service-areas/highland-ut/", "/service-areas/lehi-ut/", "/service-areas/lindon-ut/", "/service-areas/orem-ut/", "/blog/how-to-test-for-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "mold-inspection-testing"}]
 faq: []
 service_slug: "mold-inspection-testing"

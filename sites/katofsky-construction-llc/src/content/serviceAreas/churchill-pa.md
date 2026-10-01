@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "36717dbac8932c8b"
 generated_at: "2026-09-30T19:28:48.264884+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/churchill-pa/fire-damage-restoration/", "/service-areas/churchill-pa/roofing/", "/service-areas/churchill-pa/sewage-cleanup/", "/service-areas/churchill-pa/biohazard-cleanup/", "/service-areas/churchill-pa/general-contracting/", "/service-areas/churchill-pa/emergency-board-up-tarping/", "/service-areas/churchill-pa/asbestos-abatement/", "/service-areas/churchill-pa/air-duct-cleaning/", "/service-areas/churchill-pa/contents-restoration-storage/", "/service-areas/churchill-pa/lead-paint-abatement/", "/service-areas/churchill-pa/carpet-cleaning/", "/service-areas/churchill-pa/upholstery-cleaning/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/churchill-pa/", "/service-areas/churchill-pa/carpet-cleaning/", "/service-areas/churchill-pa/upholstery-cleaning/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Churchill"}]
 faq: []
 area_slug: "churchill-pa"

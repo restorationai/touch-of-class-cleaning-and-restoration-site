@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "ef1dd41fa02550d2"
 generated_at: "2026-09-30T19:28:39.580476+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/water-leak-detection/", "/service-areas/clayton-nc/water-leak-detection/", "/service-areas/durham-nc/water-leak-detection/", "/service-areas/elm-city-nc/water-leak-detection/", "/service-areas/kenly-nc/water-leak-detection/", "/service-areas/knightdale-nc/water-leak-detection/", "/service-areas/lake-royale-nc/water-leak-detection/", "/service-areas/louisburg-nc/water-leak-detection/", "/service-areas/nashville-nc/water-leak-detection/", "/service-areas/pine-level-nc/water-leak-detection/", "/service-areas/raleigh-nc/water-leak-detection/", "/service-areas/rocky-mount-nc/water-leak-detection/"]
+internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/", "/service-areas/elm-city-nc/", "/service-areas/kenly-nc/", "/service-areas/knightdale-nc/", "/service-areas/lake-royale-nc/", "/service-areas/louisburg-nc/", "/service-areas/nashville-nc/", "/service-areas/pine-level-nc/", "/service-areas/raleigh-nc/", "/service-areas/rocky-mount-nc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Water Leak Detection"}]
 faq: []
 service_slug: "water-leak-detection"

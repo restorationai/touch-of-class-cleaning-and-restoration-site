@@ -1,0 +1,22 @@
+{
+  "slug": "crew-restoration-construction",
+  "allowed": false,
+  "reason": "no plumbing name confirmed, no plumbing DBA, not a licensed plumber",
+  "evidence": {
+    "company_id": "CO-1785003272145",
+    "gbp_title": "Crew Restoration & Construction Inc.",
+    "rename_intent": {
+      "decision": "rename",
+      "dba_name": "Crew Restoration & Construction - Roofing, Water, Mold & Fire Damage Restoration",
+      "dba_filed": true,
+      "dba_filed_at": "2026-09-29",
+      "dba_verified": "vision_sweep",
+      "dba_doc_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785003272145/docs/2EC89AFC-0036-4EC8-B354-55AD3688B720.jpeg"
+    },
+    "chosen_names": [
+      "Crew Restoration & Construction - Roofing, Water, Mold & Fire Damage Restoration"
+    ]
+  },
+  "checked_at": "2026-10-01T04:48:49+00:00",
+  "source": "supabase"
+}

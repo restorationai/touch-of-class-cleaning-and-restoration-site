@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "3cb01f3af84f9581"
 generated_at: "2026-09-29T23:13:11.289696+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/all-plumbing-services/", "/service-areas/bloomington-ca/all-plumbing-services/", "/service-areas/canyon-lake-ca/all-plumbing-services/", "/service-areas/chino-ca/all-plumbing-services/", "/service-areas/chino-hills-ca/all-plumbing-services/", "/service-areas/claremont-ca/all-plumbing-services/", "/service-areas/diamond-bar-ca/all-plumbing-services/", "/service-areas/eastvale-ca/all-plumbing-services/", "/service-areas/fontana-ca/all-plumbing-services/", "/service-areas/french-valley-ca/all-plumbing-services/", "/service-areas/fullerton-ca/all-plumbing-services/", "/service-areas/hemet-ca/all-plumbing-services/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/", "/service-areas/bloomington-ca/", "/service-areas/canyon-lake-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/", "/service-areas/claremont-ca/", "/service-areas/diamond-bar-ca/", "/service-areas/eastvale-ca/", "/service-areas/fontana-ca/", "/service-areas/french-valley-ca/", "/service-areas/fullerton-ca/", "/service-areas/hemet-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "All Plumbing Services"}]
 faq: []
 service_slug: "all-plumbing-services"

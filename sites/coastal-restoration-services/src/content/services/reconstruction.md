@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "3a065745ca88d49c"
 generated_at: "2026-09-30T19:28:25.262437+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/reconstruction/", "/service-areas/atascadero-ca/reconstruction/", "/service-areas/avila-beach-ca/reconstruction/", "/service-areas/ballard-ca/reconstruction/", "/service-areas/blacklake-ca/reconstruction/", "/service-areas/buellton-ca/reconstruction/", "/service-areas/callender-ca/reconstruction/", "/service-areas/cambria-ca/reconstruction/", "/service-areas/edna-ca/reconstruction/", "/service-areas/el-paso-de-robles-ca/reconstruction/", "/service-areas/grover-beach-ca/reconstruction/", "/service-areas/guadalupe-ca/reconstruction/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/", "/service-areas/atascadero-ca/", "/service-areas/avila-beach-ca/", "/service-areas/ballard-ca/", "/service-areas/blacklake-ca/", "/service-areas/buellton-ca/", "/service-areas/callender-ca/", "/service-areas/cambria-ca/", "/service-areas/edna-ca/", "/service-areas/el-paso-de-robles-ca/", "/service-areas/grover-beach-ca/", "/service-areas/guadalupe-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "reconstruction"}]
 faq: []
 service_slug: "reconstruction"

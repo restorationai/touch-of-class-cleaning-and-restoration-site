@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "08bc92d470330c77"
 generated_at: "2026-09-30T19:28:50.994591+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/indian-springs-nv/", "/service-areas/indian-springs-nv/fire-damage-restoration/", "/service-areas/indian-springs-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/indian-springs-nv/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Indian Springs", "url": "/service-areas/indian-springs-nv/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "indian-springs-nv"

@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "b8f594719cc0ea4c"
 generated_at: "2026-09-30T19:29:00.387010+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/murphy-tx/", "/service-areas/murphy-tx/mold-remediation/", "/service-areas/murphy-tx/roofing/", "/service-areas/allen-tx/fire-damage-restoration/", "/service-areas/caddo-mills-tx/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/murphy-tx/", "/service-areas/murphy-tx/mold-remediation/", "/service-areas/allen-tx/fire-damage-restoration/", "/service-areas/caddo-mills-tx/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Murphy", "url": "/service-areas/murphy-tx/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "murphy-tx"

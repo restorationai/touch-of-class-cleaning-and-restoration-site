@@ -366,9 +366,22 @@
     "accent_color": "#e5304c",
     "lat": 40.7099,
     "lng": -80.1061,
-    "ga4_measurement_id": "G-65LP4WBQWM"
+    "ga4_measurement_id": "G-65LP4WBQWM",
+    "theme": "light"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",
-  "blog_seed_count": 12
+  "blog_seed_count": 12,
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "commercial-restoration",
+    "flood-damage-restoration",
+    "reconstruction"
+  ],
+  "merged_services": {
+    "soot-removal": "smoke-damage-restoration",
+    "water-cleanup": "emergency-water-removal"
+  }
 }

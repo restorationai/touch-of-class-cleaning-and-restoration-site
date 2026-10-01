@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "5ff69ca643ba5b99"
 generated_at: "2026-09-30T19:28:32.861587+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/pomona-ca/", "/service-areas/pomona-ca/fire-damage-restoration/", "/service-areas/pomona-ca/mold-remediation/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/pomona-ca/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pomona", "url": "/service-areas/pomona-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "pomona-ca"

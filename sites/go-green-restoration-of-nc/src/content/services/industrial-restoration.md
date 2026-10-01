@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "3ae8c96b593435fc"
 generated_at: "2026-09-30T19:28:39.577376+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/industrial-restoration/", "/service-areas/clayton-nc/industrial-restoration/", "/service-areas/durham-nc/industrial-restoration/", "/service-areas/elm-city-nc/industrial-restoration/", "/service-areas/kenly-nc/industrial-restoration/", "/service-areas/knightdale-nc/industrial-restoration/", "/service-areas/lake-royale-nc/industrial-restoration/", "/service-areas/louisburg-nc/industrial-restoration/", "/service-areas/nashville-nc/industrial-restoration/", "/service-areas/pine-level-nc/industrial-restoration/", "/service-areas/raleigh-nc/industrial-restoration/", "/service-areas/rocky-mount-nc/industrial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/", "/service-areas/elm-city-nc/", "/service-areas/kenly-nc/", "/service-areas/knightdale-nc/", "/service-areas/lake-royale-nc/", "/service-areas/louisburg-nc/", "/service-areas/nashville-nc/", "/service-areas/pine-level-nc/", "/service-areas/raleigh-nc/", "/service-areas/rocky-mount-nc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Industrial Restoration"}]
 faq: []
 service_slug: "industrial-restoration"

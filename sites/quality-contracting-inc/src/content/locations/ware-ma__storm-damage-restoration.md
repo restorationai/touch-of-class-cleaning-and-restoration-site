@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "038e92cb5ec6b266"
 generated_at: "2026-09-30T19:28:57.265517+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/ware-ma/", "/service-areas/ware-ma/fire-damage-restoration/", "/service-areas/ware-ma/mold-remediation/", "/service-areas/bellingham-ma/storm-damage-restoration/", "/service-areas/east-douglas-ma/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/ware-ma/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ware", "url": "/service-areas/ware-ma/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "ware-ma"

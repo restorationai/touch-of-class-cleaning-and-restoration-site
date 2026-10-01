@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "fa344a6a278a16bf"
 generated_at: "2026-09-30T19:28:48.263479+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/wilkinsburg-pa/fire-damage-restoration/", "/service-areas/wilkinsburg-pa/roofing/", "/service-areas/wilkinsburg-pa/sewage-cleanup/", "/service-areas/wilkinsburg-pa/biohazard-cleanup/", "/service-areas/wilkinsburg-pa/general-contracting/", "/service-areas/wilkinsburg-pa/emergency-board-up-tarping/", "/service-areas/wilkinsburg-pa/asbestos-abatement/", "/service-areas/wilkinsburg-pa/air-duct-cleaning/", "/service-areas/wilkinsburg-pa/contents-restoration-storage/", "/service-areas/wilkinsburg-pa/lead-paint-abatement/", "/service-areas/wilkinsburg-pa/carpet-cleaning/", "/service-areas/wilkinsburg-pa/upholstery-cleaning/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/wilkinsburg-pa/", "/service-areas/wilkinsburg-pa/emergency-board-up-tarping/", "/service-areas/wilkinsburg-pa/asbestos-abatement/", "/service-areas/wilkinsburg-pa/lead-paint-abatement/", "/service-areas/wilkinsburg-pa/carpet-cleaning/", "/service-areas/wilkinsburg-pa/upholstery-cleaning/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wilkinsburg"}]
 faq: []
 area_slug: "wilkinsburg-pa"

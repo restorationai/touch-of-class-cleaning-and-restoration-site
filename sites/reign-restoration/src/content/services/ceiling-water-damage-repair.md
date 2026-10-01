@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "ca9b43d7fda51dfe"
 generated_at: "2026-09-30T19:29:00.300162+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/ceiling-water-damage-repair/", "/service-areas/caddo-mills-tx/ceiling-water-damage-repair/", "/service-areas/dallas-tx/ceiling-water-damage-repair/", "/service-areas/farmersville-tx/ceiling-water-damage-repair/", "/service-areas/fate-tx/ceiling-water-damage-repair/", "/service-areas/frisco-tx/ceiling-water-damage-repair/", "/service-areas/garland-tx/ceiling-water-damage-repair/", "/service-areas/greenville-tx/ceiling-water-damage-repair/", "/service-areas/heath-tx/ceiling-water-damage-repair/", "/service-areas/highland-park-tx/ceiling-water-damage-repair/", "/service-areas/josephine-tx/ceiling-water-damage-repair/", "/service-areas/lavon-tx/ceiling-water-damage-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/", "/service-areas/farmersville-tx/", "/service-areas/fate-tx/", "/service-areas/frisco-tx/", "/service-areas/garland-tx/", "/service-areas/greenville-tx/", "/service-areas/heath-tx/", "/service-areas/highland-park-tx/", "/service-areas/josephine-tx/", "/service-areas/lavon-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "ceiling-water-damage-repair"}]
 faq: []
 service_slug: "ceiling-water-damage-repair"

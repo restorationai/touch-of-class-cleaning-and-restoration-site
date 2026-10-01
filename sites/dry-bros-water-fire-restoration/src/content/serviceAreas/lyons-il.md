@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "596d08d55799fc2d"
 generated_at: "2026-09-24T17:27:58.230651+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/lyons-il/fire-damage-restoration/", "/service-areas/lyons-il/mold-remediation/", "/service-areas/lyons-il/water-damage-restoration/", "/service-areas/lyons-il/flood-damage-restoration/", "/service-areas/lyons-il/sewage-cleanup/", "/service-areas/lyons-il/smoke-damage-restoration/", "/service-areas/lyons-il/storm-damage-restoration/", "/service-areas/lyons-il/emergency-water-removal/", "/service-areas/lyons-il/basement-flooding-cleanup/", "/service-areas/lyons-il/burst-pipe-repair/", "/service-areas/lyons-il/emergency-board-up-tarping/", "/service-areas/lyons-il/odor-removal/", "/service-areas/lyons-il/contents-restoration/", "/service-areas/bedford-park-il/", "/service-areas/berwyn-il/", "/service-areas/brookfield-il/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/lyons-il/", "/service-areas/lyons-il/water-damage-restoration/", "/service-areas/lyons-il/flood-damage-restoration/", "/service-areas/bedford-park-il/", "/service-areas/berwyn-il/", "/service-areas/brookfield-il/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lyons"}]
 faq: []
 area_slug: "lyons-il"

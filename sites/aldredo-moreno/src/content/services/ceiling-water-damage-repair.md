@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "ff53dfde326516b1"
 generated_at: "2026-09-30T19:28:20.829327+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/ceiling-water-damage-repair/", "/service-areas/big-lake-tx/ceiling-water-damage-repair/", "/service-areas/big-spring-tx/ceiling-water-damage-repair/", "/service-areas/crane-tx/ceiling-water-damage-repair/", "/service-areas/garden-city-tx/ceiling-water-damage-repair/", "/service-areas/gardendale-tx/ceiling-water-damage-repair/", "/service-areas/goldsmith-tx/ceiling-water-damage-repair/", "/service-areas/greenwood-tx/ceiling-water-damage-repair/", "/service-areas/imperial-tx/ceiling-water-damage-repair/", "/service-areas/mccamey-tx/ceiling-water-damage-repair/", "/service-areas/monahans-tx/ceiling-water-damage-repair/", "/service-areas/odessa-tx/ceiling-water-damage-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/", "/service-areas/big-lake-tx/", "/service-areas/big-spring-tx/", "/service-areas/crane-tx/", "/service-areas/garden-city-tx/", "/service-areas/gardendale-tx/", "/service-areas/goldsmith-tx/", "/service-areas/greenwood-tx/", "/service-areas/imperial-tx/", "/service-areas/mccamey-tx/", "/service-areas/monahans-tx/", "/service-areas/odessa-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "ceiling-water-damage-repair"}]
 faq: []
 service_slug: "ceiling-water-damage-repair"

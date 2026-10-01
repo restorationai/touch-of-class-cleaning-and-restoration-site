@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "affc9018ca81aa68"
 generated_at: "2026-09-20T14:13:28.025551+00:00"
 manual_override: false
-internal_links: ["/services/commercial-restoration/", "/service-areas/summerlin-south-nv/", "/service-areas/summerlin-south-nv/fire-damage-restoration/", "/service-areas/summerlin-south-nv/mold-remediation/", "/service-areas/blue-diamond-nv/commercial-restoration/", "/service-areas/boulder-city-nv/commercial-restoration/", "/contact/"]
+internal_links: ["/services/commercial-restoration/", "/service-areas/summerlin-south-nv/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Summerlin South", "url": "/service-areas/summerlin-south-nv/"}, {"name": "Commercial Restoration"}]
 faq: []
 area_slug: "summerlin-south-nv"

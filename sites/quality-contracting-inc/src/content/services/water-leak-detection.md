@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "81ba0f5671830e96"
 generated_at: "2026-09-30T19:28:56.905894+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/water-leak-detection/", "/service-areas/east-douglas-ma/water-leak-detection/", "/service-areas/fiskdale-ma/water-leak-detection/", "/service-areas/framingham-ma/water-leak-detection/", "/service-areas/franklin-town-ma/water-leak-detection/", "/service-areas/hopkinton-ma/water-leak-detection/", "/service-areas/hudson-ma/water-leak-detection/", "/service-areas/leominster-ma/water-leak-detection/", "/service-areas/marlborough-ma/water-leak-detection/", "/service-areas/maynard-ma/water-leak-detection/", "/service-areas/milford-ma/water-leak-detection/", "/service-areas/natick-ma/water-leak-detection/"]
+internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/service-areas/framingham-ma/", "/service-areas/franklin-town-ma/", "/service-areas/hopkinton-ma/", "/service-areas/hudson-ma/", "/service-areas/leominster-ma/", "/service-areas/marlborough-ma/", "/service-areas/maynard-ma/", "/service-areas/milford-ma/", "/service-areas/natick-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Water Leak Detection"}]
 faq: []
 service_slug: "water-leak-detection"

@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "da476a4a70c6aec6"
 generated_at: "2026-09-30T19:28:57.256332+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/water-damage-restoration/", "/service-areas/fiskdale-ma/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/water-damage-restoration/", "/service-areas/fiskdale-ma/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellingham", "url": "/service-areas/bellingham-ma/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "bellingham-ma"

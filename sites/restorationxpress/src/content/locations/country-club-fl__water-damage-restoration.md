@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "c7e0bc0c5e3488f4"
 generated_at: "2026-09-20T19:37:24.483222+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/country-club-fl/", "/service-areas/country-club-fl/fire-damage-restoration/", "/service-areas/country-club-fl/mold-remediation/", "/service-areas/cooper-city-fl/water-damage-restoration/", "/service-areas/dania-beach-fl/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/country-club-fl/", "/service-areas/cooper-city-fl/water-damage-restoration/", "/service-areas/dania-beach-fl/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Country Club", "url": "/service-areas/country-club-fl/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "country-club-fl"

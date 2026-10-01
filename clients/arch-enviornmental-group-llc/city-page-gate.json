@@ -1,0 +1,2389 @@
+{
+ "policy": "scripts/city_page_gate.py (Santino 2026-10-01)",
+ "thresholds": {
+  "combo_min": 10,
+  "head_metro_min": 1000
+ },
+ "decisions": {
+  "bakersfield-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing bakersfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bakersfield-ca__asbestos-testing": {
+   "pass": true,
+   "why": "local angle: older oil-era housing stock",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bakersfield-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification bakersfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bakersfield-ca__compliance-consulting": {
+   "pass": true,
+   "why": "local angle: oil and gas regulatory compliance needs",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bakersfield-ca__environmental-site-assessments": {
+   "pass": true,
+   "why": "local angle: oil and gas industrial base",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bakersfield-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments bakersfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bakersfield-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing bakersfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bakersfield-ca__lead-paint-testing": {
+   "pass": true,
+   "why": "local angle: older pre-1978 housing stock",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bakersfield-ca__litigation-support-sampling": {
+   "pass": true,
+   "why": "local angle: larger legal and industrial market",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bakersfield-ca__mold-inspection-testing": {
+   "pass": true,
+   "why": "local demand: 'mold inspection bakersfield' 110/mo",
+   "vol": 110,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bakersfield-ca__post-flood-mold-assessment": {
+   "pass": false,
+   "why": "no local demand ('post flood mold assessment bakersfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bakersfield-ca__radon-testing": {
+   "pass": true,
+   "why": "local demand: 'radon testing bakersfield' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bakersfield-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management bakersfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bakersfield-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment bakersfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bakersfield-ca__voc-formaldehyde-testing": {
+   "pass": true,
+   "why": "local angle: oil and gas industrial emissions",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bakersfield-ca__water-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('water quality testing bakersfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clovis-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing clovis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clovis-ca__asbestos-testing": {
+   "pass": false,
+   "why": "no local demand ('asbestos testing and inspection clovis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clovis-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification clovis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clovis-ca__compliance-consulting": {
+   "pass": false,
+   "why": "no local demand ('environmental compliance consulting clovis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clovis-ca__environmental-site-assessments": {
+   "pass": false,
+   "why": "no local demand ('environmental site assessments clovis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clovis-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments clovis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clovis-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing clovis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clovis-ca__lead-paint-testing": {
+   "pass": false,
+   "why": "no local demand ('lead paint testing and inspection clovis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clovis-ca__litigation-support-sampling": {
+   "pass": false,
+   "why": "no local demand ('litigation support and forensic sampling clovis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clovis-ca__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection clovis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clovis-ca__post-flood-mold-assessment": {
+   "pass": false,
+   "why": "no local demand ('post flood mold assessment clovis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clovis-ca__radon-testing": {
+   "pass": false,
+   "why": "no local demand ('radon testing clovis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clovis-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management clovis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clovis-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment clovis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clovis-ca__voc-formaldehyde-testing": {
+   "pass": false,
+   "why": "no local demand ('voc and formaldehyde testing clovis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clovis-ca__water-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('water quality testing clovis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dinuba-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing dinuba' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dinuba-ca__asbestos-testing": {
+   "pass": false,
+   "why": "no local demand ('asbestos testing and inspection dinuba' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dinuba-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification dinuba' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dinuba-ca__compliance-consulting": {
+   "pass": false,
+   "why": "no local demand ('environmental compliance consulting dinuba' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dinuba-ca__environmental-site-assessments": {
+   "pass": false,
+   "why": "no local demand ('environmental site assessments dinuba' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dinuba-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments dinuba' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dinuba-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing dinuba' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dinuba-ca__lead-paint-testing": {
+   "pass": false,
+   "why": "no local demand ('lead paint testing and inspection dinuba' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dinuba-ca__litigation-support-sampling": {
+   "pass": false,
+   "why": "no local demand ('litigation support and forensic sampling dinuba' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dinuba-ca__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection dinuba' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dinuba-ca__post-flood-mold-assessment": {
+   "pass": false,
+   "why": "no local demand ('post flood mold assessment dinuba' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dinuba-ca__radon-testing": {
+   "pass": false,
+   "why": "no local demand ('radon testing dinuba' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dinuba-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management dinuba' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dinuba-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment dinuba' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dinuba-ca__voc-formaldehyde-testing": {
+   "pass": false,
+   "why": "no local demand ('voc and formaldehyde testing dinuba' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dinuba-ca__water-quality-testing": {
+   "pass": true,
+   "why": "local angle: rural well water reliance",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "easton-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing easton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "easton-ca__asbestos-testing": {
+   "pass": false,
+   "why": "no local demand ('asbestos testing and inspection easton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "easton-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification easton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "easton-ca__compliance-consulting": {
+   "pass": false,
+   "why": "implausible here: tiny unincorporated area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "easton-ca__environmental-site-assessments": {
+   "pass": false,
+   "why": "implausible here: tiny unincorporated area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "easton-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments easton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "easton-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing easton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "easton-ca__lead-paint-testing": {
+   "pass": false,
+   "why": "no local demand ('lead paint testing and inspection easton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "easton-ca__litigation-support-sampling": {
+   "pass": false,
+   "why": "no local demand ('litigation support and forensic sampling easton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "easton-ca__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection easton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "easton-ca__post-flood-mold-assessment": {
+   "pass": false,
+   "why": "no local demand ('post flood mold assessment easton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "easton-ca__radon-testing": {
+   "pass": false,
+   "why": "no local demand ('radon testing easton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "easton-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management easton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "easton-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment easton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "easton-ca__voc-formaldehyde-testing": {
+   "pass": false,
+   "why": "no local demand ('voc and formaldehyde testing easton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "easton-ca__water-quality-testing": {
+   "pass": true,
+   "why": "local angle: rural well water reliance",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fowler-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing fowler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fowler-ca__asbestos-testing": {
+   "pass": false,
+   "why": "no local demand ('asbestos testing and inspection fowler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fowler-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification fowler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fowler-ca__compliance-consulting": {
+   "pass": false,
+   "why": "no local demand ('environmental compliance consulting fowler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fowler-ca__environmental-site-assessments": {
+   "pass": false,
+   "why": "no local demand ('environmental site assessments fowler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fowler-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments fowler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fowler-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing fowler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fowler-ca__lead-paint-testing": {
+   "pass": false,
+   "why": "no local demand ('lead paint testing and inspection fowler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fowler-ca__litigation-support-sampling": {
+   "pass": false,
+   "why": "no local demand ('litigation support and forensic sampling fowler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fowler-ca__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection fowler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fowler-ca__post-flood-mold-assessment": {
+   "pass": false,
+   "why": "no local demand ('post flood mold assessment fowler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fowler-ca__radon-testing": {
+   "pass": false,
+   "why": "no local demand ('radon testing fowler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fowler-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management fowler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fowler-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment fowler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fowler-ca__voc-formaldehyde-testing": {
+   "pass": false,
+   "why": "no local demand ('voc and formaldehyde testing fowler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fowler-ca__water-quality-testing": {
+   "pass": true,
+   "why": "local angle: agricultural well water area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fresno-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing fresno' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fresno-ca__asbestos-testing": {
+   "pass": true,
+   "why": "local angle: older downtown housing stock",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fresno-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification fresno' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fresno-ca__compliance-consulting": {
+   "pass": true,
+   "why": "local angle: large regulated commercial sector",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fresno-ca__environmental-site-assessments": {
+   "pass": true,
+   "why": "local angle: large commercial and industrial base",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fresno-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments fresno' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fresno-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing fresno' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fresno-ca__lead-paint-testing": {
+   "pass": true,
+   "why": "local angle: many pre-1978 homes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fresno-ca__litigation-support-sampling": {
+   "pass": true,
+   "why": "local angle: larger legal and commercial market",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fresno-ca__mold-inspection-testing": {
+   "pass": true,
+   "why": "local demand: 'mold inspection fresno' 390/mo",
+   "vol": 390,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fresno-ca__post-flood-mold-assessment": {
+   "pass": false,
+   "why": "no local demand ('post flood mold assessment fresno' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fresno-ca__radon-testing": {
+   "pass": false,
+   "why": "no local demand ('radon testing fresno' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fresno-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management fresno' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fresno-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment fresno' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fresno-ca__voc-formaldehyde-testing": {
+   "pass": true,
+   "why": "local angle: manufacturing and industrial base",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fresno-ca__water-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('water quality testing fresno' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hanford-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing hanford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hanford-ca__asbestos-testing": {
+   "pass": false,
+   "why": "no local demand ('asbestos testing and inspection hanford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hanford-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification hanford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hanford-ca__compliance-consulting": {
+   "pass": true,
+   "why": "local angle: regional industrial compliance needs",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hanford-ca__environmental-site-assessments": {
+   "pass": true,
+   "why": "local angle: regional commercial and industrial hub",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hanford-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments hanford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hanford-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing hanford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hanford-ca__lead-paint-testing": {
+   "pass": false,
+   "why": "no local demand ('lead paint testing and inspection hanford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hanford-ca__litigation-support-sampling": {
+   "pass": false,
+   "why": "no local demand ('litigation support and forensic sampling hanford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hanford-ca__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection hanford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hanford-ca__post-flood-mold-assessment": {
+   "pass": true,
+   "why": "local angle: Tulare Lake basin flood-prone area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hanford-ca__radon-testing": {
+   "pass": false,
+   "why": "no local demand ('radon testing hanford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hanford-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management hanford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hanford-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment hanford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hanford-ca__voc-formaldehyde-testing": {
+   "pass": false,
+   "why": "no local demand ('voc and formaldehyde testing hanford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hanford-ca__water-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('water quality testing hanford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ivanhoe-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing ivanhoe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ivanhoe-ca__asbestos-testing": {
+   "pass": false,
+   "why": "no local demand ('asbestos testing and inspection ivanhoe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ivanhoe-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification ivanhoe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ivanhoe-ca__compliance-consulting": {
+   "pass": false,
+   "why": "implausible here: tiny unincorporated area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "ivanhoe-ca__environmental-site-assessments": {
+   "pass": false,
+   "why": "implausible here: tiny unincorporated area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "ivanhoe-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments ivanhoe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ivanhoe-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing ivanhoe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ivanhoe-ca__lead-paint-testing": {
+   "pass": false,
+   "why": "no local demand ('lead paint testing and inspection ivanhoe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ivanhoe-ca__litigation-support-sampling": {
+   "pass": false,
+   "why": "no local demand ('litigation support and forensic sampling ivanhoe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ivanhoe-ca__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection ivanhoe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ivanhoe-ca__post-flood-mold-assessment": {
+   "pass": false,
+   "why": "no local demand ('post flood mold assessment ivanhoe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ivanhoe-ca__radon-testing": {
+   "pass": false,
+   "why": "no local demand ('radon testing ivanhoe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ivanhoe-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management ivanhoe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ivanhoe-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment ivanhoe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ivanhoe-ca__voc-formaldehyde-testing": {
+   "pass": false,
+   "why": "no local demand ('voc and formaldehyde testing ivanhoe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ivanhoe-ca__water-quality-testing": {
+   "pass": true,
+   "why": "local angle: rural well water reliance",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lemoore-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing lemoore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lemoore-ca__asbestos-testing": {
+   "pass": false,
+   "why": "no local demand ('asbestos testing and inspection lemoore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lemoore-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification lemoore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lemoore-ca__compliance-consulting": {
+   "pass": false,
+   "why": "no local demand ('environmental compliance consulting lemoore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lemoore-ca__environmental-site-assessments": {
+   "pass": true,
+   "why": "local angle: near Naval Air Station Lemoore activity",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lemoore-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments lemoore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lemoore-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing lemoore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lemoore-ca__lead-paint-testing": {
+   "pass": false,
+   "why": "no local demand ('lead paint testing and inspection lemoore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lemoore-ca__litigation-support-sampling": {
+   "pass": false,
+   "why": "no local demand ('litigation support and forensic sampling lemoore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lemoore-ca__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection lemoore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lemoore-ca__post-flood-mold-assessment": {
+   "pass": true,
+   "why": "local angle: Tulare Lake basin flood-prone area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lemoore-ca__radon-testing": {
+   "pass": false,
+   "why": "no local demand ('radon testing lemoore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lemoore-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management lemoore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lemoore-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment lemoore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lemoore-ca__voc-formaldehyde-testing": {
+   "pass": false,
+   "why": "no local demand ('voc and formaldehyde testing lemoore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lemoore-ca__water-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('water quality testing lemoore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "minkler-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing minkler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "minkler-ca__asbestos-testing": {
+   "pass": false,
+   "why": "no local demand ('asbestos testing and inspection minkler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "minkler-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification minkler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "minkler-ca__compliance-consulting": {
+   "pass": false,
+   "why": "implausible here: tiny community, no commercial base",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "minkler-ca__environmental-site-assessments": {
+   "pass": false,
+   "why": "implausible here: tiny community, no commercial base",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "minkler-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments minkler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "minkler-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing minkler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "minkler-ca__lead-paint-testing": {
+   "pass": false,
+   "why": "no local demand ('lead paint testing and inspection minkler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "minkler-ca__litigation-support-sampling": {
+   "pass": false,
+   "why": "no local demand ('litigation support and forensic sampling minkler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "minkler-ca__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection minkler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "minkler-ca__post-flood-mold-assessment": {
+   "pass": false,
+   "why": "no local demand ('post flood mold assessment minkler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "minkler-ca__radon-testing": {
+   "pass": false,
+   "why": "no local demand ('radon testing minkler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "minkler-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management minkler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "minkler-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment minkler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "minkler-ca__voc-formaldehyde-testing": {
+   "pass": false,
+   "why": "no local demand ('voc and formaldehyde testing minkler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "minkler-ca__water-quality-testing": {
+   "pass": true,
+   "why": "local angle: rural well water reliance",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orange-cove-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing orange cove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orange-cove-ca__asbestos-testing": {
+   "pass": false,
+   "why": "no local demand ('asbestos testing and inspection orange cove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orange-cove-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification orange cove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orange-cove-ca__compliance-consulting": {
+   "pass": false,
+   "why": "no local demand ('environmental compliance consulting orange cove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orange-cove-ca__environmental-site-assessments": {
+   "pass": false,
+   "why": "no local demand ('environmental site assessments orange cove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orange-cove-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments orange cove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orange-cove-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing orange cove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orange-cove-ca__lead-paint-testing": {
+   "pass": false,
+   "why": "no local demand ('lead paint testing and inspection orange cove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orange-cove-ca__litigation-support-sampling": {
+   "pass": false,
+   "why": "no local demand ('litigation support and forensic sampling orange cove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orange-cove-ca__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection orange cove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orange-cove-ca__post-flood-mold-assessment": {
+   "pass": false,
+   "why": "no local demand ('post flood mold assessment orange cove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orange-cove-ca__radon-testing": {
+   "pass": false,
+   "why": "no local demand ('radon testing orange cove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orange-cove-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management orange cove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orange-cove-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment orange cove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orange-cove-ca__voc-formaldehyde-testing": {
+   "pass": false,
+   "why": "no local demand ('voc and formaldehyde testing orange cove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orange-cove-ca__water-quality-testing": {
+   "pass": true,
+   "why": "local angle: agricultural well water area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parlier-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing parlier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parlier-ca__asbestos-testing": {
+   "pass": false,
+   "why": "no local demand ('asbestos testing and inspection parlier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parlier-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification parlier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parlier-ca__compliance-consulting": {
+   "pass": false,
+   "why": "no local demand ('environmental compliance consulting parlier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parlier-ca__environmental-site-assessments": {
+   "pass": false,
+   "why": "no local demand ('environmental site assessments parlier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parlier-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments parlier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parlier-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing parlier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parlier-ca__lead-paint-testing": {
+   "pass": false,
+   "why": "no local demand ('lead paint testing and inspection parlier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parlier-ca__litigation-support-sampling": {
+   "pass": false,
+   "why": "no local demand ('litigation support and forensic sampling parlier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parlier-ca__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection parlier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parlier-ca__post-flood-mold-assessment": {
+   "pass": false,
+   "why": "no local demand ('post flood mold assessment parlier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parlier-ca__radon-testing": {
+   "pass": false,
+   "why": "no local demand ('radon testing parlier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parlier-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management parlier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parlier-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment parlier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parlier-ca__voc-formaldehyde-testing": {
+   "pass": false,
+   "why": "no local demand ('voc and formaldehyde testing parlier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parlier-ca__water-quality-testing": {
+   "pass": true,
+   "why": "local angle: agricultural well water area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "porterville-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing porterville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "porterville-ca__asbestos-testing": {
+   "pass": false,
+   "why": "no local demand ('asbestos testing and inspection porterville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "porterville-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification porterville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "porterville-ca__compliance-consulting": {
+   "pass": false,
+   "why": "no local demand ('environmental compliance consulting porterville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "porterville-ca__environmental-site-assessments": {
+   "pass": false,
+   "why": "no local demand ('environmental site assessments porterville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "porterville-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments porterville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "porterville-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing porterville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "porterville-ca__lead-paint-testing": {
+   "pass": false,
+   "why": "no local demand ('lead paint testing and inspection porterville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "porterville-ca__litigation-support-sampling": {
+   "pass": false,
+   "why": "no local demand ('litigation support and forensic sampling porterville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "porterville-ca__mold-inspection-testing": {
+   "pass": true,
+   "why": "local demand: 'mold inspection porterville' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "porterville-ca__post-flood-mold-assessment": {
+   "pass": false,
+   "why": "no local demand ('post flood mold assessment porterville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "porterville-ca__radon-testing": {
+   "pass": false,
+   "why": "no local demand ('radon testing porterville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "porterville-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management porterville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "porterville-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment porterville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "porterville-ca__voc-formaldehyde-testing": {
+   "pass": false,
+   "why": "no local demand ('voc and formaldehyde testing porterville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "porterville-ca__water-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('water quality testing porterville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "reedley-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing reedley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "reedley-ca__asbestos-testing": {
+   "pass": false,
+   "why": "no local demand ('asbestos testing and inspection reedley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "reedley-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification reedley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "reedley-ca__compliance-consulting": {
+   "pass": false,
+   "why": "no local demand ('environmental compliance consulting reedley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "reedley-ca__environmental-site-assessments": {
+   "pass": false,
+   "why": "no local demand ('environmental site assessments reedley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "reedley-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments reedley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "reedley-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing reedley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "reedley-ca__lead-paint-testing": {
+   "pass": false,
+   "why": "no local demand ('lead paint testing and inspection reedley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "reedley-ca__litigation-support-sampling": {
+   "pass": false,
+   "why": "no local demand ('litigation support and forensic sampling reedley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "reedley-ca__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection reedley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "reedley-ca__post-flood-mold-assessment": {
+   "pass": false,
+   "why": "no local demand ('post flood mold assessment reedley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "reedley-ca__radon-testing": {
+   "pass": false,
+   "why": "no local demand ('radon testing reedley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "reedley-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management reedley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "reedley-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment reedley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "reedley-ca__voc-formaldehyde-testing": {
+   "pass": false,
+   "why": "no local demand ('voc and formaldehyde testing reedley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "reedley-ca__water-quality-testing": {
+   "pass": true,
+   "why": "local angle: rural well water reliance",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverdale-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing riverdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverdale-ca__asbestos-testing": {
+   "pass": false,
+   "why": "no local demand ('asbestos testing and inspection riverdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverdale-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification riverdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverdale-ca__compliance-consulting": {
+   "pass": false,
+   "why": "implausible here: tiny unincorporated area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "riverdale-ca__environmental-site-assessments": {
+   "pass": false,
+   "why": "implausible here: tiny unincorporated area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "riverdale-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments riverdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverdale-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing riverdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverdale-ca__lead-paint-testing": {
+   "pass": false,
+   "why": "no local demand ('lead paint testing and inspection riverdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverdale-ca__litigation-support-sampling": {
+   "pass": false,
+   "why": "no local demand ('litigation support and forensic sampling riverdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverdale-ca__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection riverdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverdale-ca__post-flood-mold-assessment": {
+   "pass": false,
+   "why": "no local demand ('post flood mold assessment riverdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverdale-ca__radon-testing": {
+   "pass": false,
+   "why": "no local demand ('radon testing riverdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverdale-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management riverdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverdale-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment riverdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverdale-ca__voc-formaldehyde-testing": {
+   "pass": false,
+   "why": "no local demand ('voc and formaldehyde testing riverdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverdale-ca__water-quality-testing": {
+   "pass": true,
+   "why": "local angle: rural well water reliance",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sanger-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing sanger' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sanger-ca__asbestos-testing": {
+   "pass": false,
+   "why": "no local demand ('asbestos testing and inspection sanger' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sanger-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification sanger' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sanger-ca__compliance-consulting": {
+   "pass": false,
+   "why": "no local demand ('environmental compliance consulting sanger' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sanger-ca__environmental-site-assessments": {
+   "pass": false,
+   "why": "no local demand ('environmental site assessments sanger' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sanger-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments sanger' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sanger-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing sanger' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sanger-ca__lead-paint-testing": {
+   "pass": false,
+   "why": "no local demand ('lead paint testing and inspection sanger' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sanger-ca__litigation-support-sampling": {
+   "pass": false,
+   "why": "no local demand ('litigation support and forensic sampling sanger' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sanger-ca__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection sanger' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sanger-ca__post-flood-mold-assessment": {
+   "pass": false,
+   "why": "no local demand ('post flood mold assessment sanger' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sanger-ca__radon-testing": {
+   "pass": false,
+   "why": "no local demand ('radon testing sanger' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sanger-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management sanger' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sanger-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment sanger' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sanger-ca__voc-formaldehyde-testing": {
+   "pass": false,
+   "why": "no local demand ('voc and formaldehyde testing sanger' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sanger-ca__water-quality-testing": {
+   "pass": true,
+   "why": "local angle: agricultural well water area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-ca__asbestos-testing": {
+   "pass": false,
+   "why": "no local demand ('asbestos testing and inspection selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-ca__compliance-consulting": {
+   "pass": false,
+   "why": "no local demand ('environmental compliance consulting selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-ca__environmental-site-assessments": {
+   "pass": false,
+   "why": "no local demand ('environmental site assessments selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-ca__lead-paint-testing": {
+   "pass": false,
+   "why": "no local demand ('lead paint testing and inspection selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-ca__litigation-support-sampling": {
+   "pass": false,
+   "why": "no local demand ('litigation support and forensic sampling selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-ca__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-ca__post-flood-mold-assessment": {
+   "pass": false,
+   "why": "no local demand ('post flood mold assessment selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-ca__radon-testing": {
+   "pass": false,
+   "why": "no local demand ('radon testing selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-ca__voc-formaldehyde-testing": {
+   "pass": false,
+   "why": "no local demand ('voc and formaldehyde testing selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-ca__water-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('water quality testing selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "squaw-valley-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing squaw valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "squaw-valley-ca__asbestos-testing": {
+   "pass": false,
+   "why": "no local demand ('asbestos testing and inspection squaw valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "squaw-valley-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification squaw valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "squaw-valley-ca__compliance-consulting": {
+   "pass": false,
+   "why": "implausible here: rural area, no commercial base",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "squaw-valley-ca__environmental-site-assessments": {
+   "pass": false,
+   "why": "implausible here: rural area, no commercial base",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "squaw-valley-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments squaw valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "squaw-valley-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing squaw valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "squaw-valley-ca__lead-paint-testing": {
+   "pass": false,
+   "why": "no local demand ('lead paint testing and inspection squaw valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "squaw-valley-ca__litigation-support-sampling": {
+   "pass": false,
+   "why": "no local demand ('litigation support and forensic sampling squaw valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "squaw-valley-ca__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection squaw valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "squaw-valley-ca__post-flood-mold-assessment": {
+   "pass": false,
+   "why": "no local demand ('post flood mold assessment squaw valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "squaw-valley-ca__radon-testing": {
+   "pass": false,
+   "why": "no local demand ('radon testing squaw valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "squaw-valley-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management squaw valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "squaw-valley-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment squaw valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "squaw-valley-ca__voc-formaldehyde-testing": {
+   "pass": false,
+   "why": "no local demand ('voc and formaldehyde testing squaw valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "squaw-valley-ca__water-quality-testing": {
+   "pass": true,
+   "why": "local angle: rural well water reliance",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tulare-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing tulare' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tulare-ca__asbestos-testing": {
+   "pass": false,
+   "why": "no local demand ('asbestos testing and inspection tulare' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tulare-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification tulare' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tulare-ca__compliance-consulting": {
+   "pass": false,
+   "why": "no local demand ('environmental compliance consulting tulare' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tulare-ca__environmental-site-assessments": {
+   "pass": false,
+   "why": "no local demand ('environmental site assessments tulare' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tulare-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments tulare' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tulare-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing tulare' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tulare-ca__lead-paint-testing": {
+   "pass": false,
+   "why": "no local demand ('lead paint testing and inspection tulare' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tulare-ca__litigation-support-sampling": {
+   "pass": false,
+   "why": "no local demand ('litigation support and forensic sampling tulare' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tulare-ca__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection tulare' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tulare-ca__post-flood-mold-assessment": {
+   "pass": true,
+   "why": "local angle: Tulare Lake basin flood-prone area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tulare-ca__radon-testing": {
+   "pass": false,
+   "why": "no local demand ('radon testing tulare' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tulare-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management tulare' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tulare-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment tulare' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tulare-ca__voc-formaldehyde-testing": {
+   "pass": false,
+   "why": "no local demand ('voc and formaldehyde testing tulare' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tulare-ca__water-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('water quality testing tulare' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "visalia-ca__allergen-testing": {
+   "pass": false,
+   "why": "no local demand ('allergen testing visalia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "visalia-ca__asbestos-testing": {
+   "pass": false,
+   "why": "no local demand ('asbestos testing and inspection visalia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "visalia-ca__clearance-testing": {
+   "pass": false,
+   "why": "no local demand ('clearance testing and post remediation verification visalia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "visalia-ca__compliance-consulting": {
+   "pass": false,
+   "why": "no local demand ('environmental compliance consulting visalia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "visalia-ca__environmental-site-assessments": {
+   "pass": false,
+   "why": "no local demand ('environmental site assessments visalia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "visalia-ca__hvac-duct-assessments": {
+   "pass": false,
+   "why": "no local demand ('hvac and duct system assessments visalia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "visalia-ca__indoor-air-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality testing visalia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "visalia-ca__lead-paint-testing": {
+   "pass": false,
+   "why": "no local demand ('lead paint testing and inspection visalia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "visalia-ca__litigation-support-sampling": {
+   "pass": false,
+   "why": "no local demand ('litigation support and forensic sampling visalia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "visalia-ca__mold-inspection-testing": {
+   "pass": true,
+   "why": "local demand: 'mold inspection visalia' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "visalia-ca__post-flood-mold-assessment": {
+   "pass": false,
+   "why": "no local demand ('post flood mold assessment visalia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "visalia-ca__radon-testing": {
+   "pass": false,
+   "why": "no local demand ('radon testing visalia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "visalia-ca__remediation-oversight": {
+   "pass": false,
+   "why": "no local demand ('remediation oversight and project management visalia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "visalia-ca__sewage-contamination-assessment": {
+   "pass": false,
+   "why": "no local demand ('sewage contamination assessment visalia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "visalia-ca__voc-formaldehyde-testing": {
+   "pass": false,
+   "why": "no local demand ('voc and formaldehyde testing visalia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "visalia-ca__water-quality-testing": {
+   "pass": false,
+   "why": "no local demand ('water quality testing visalia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  }
+ },
+ "offered": {
+  "allergen-testing": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "asbestos-testing": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "clearance-testing": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "compliance-consulting": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "environmental-site-assessments": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "hvac-duct-assessments": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "indoor-air-quality-testing": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "lead-paint-testing": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "litigation-support-sampling": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "mold-inspection-testing": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "post-flood-mold-assessment": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "radon-testing": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "remediation-oversight": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "sewage-contamination-assessment": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "voc-formaldehyde-testing": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "water-quality-testing": [
+   "plan-input before core floor (2026-09-24)"
+  ]
+ },
+ "metro": "Fresno,California,United States",
+ "heads": {
+  "mold-inspection-testing": {
+   "term": "mold inspection",
+   "metro": 60
+  },
+  "indoor-air-quality-testing": {
+   "term": "indoor air quality testing",
+   "metro": 20
+  },
+  "asbestos-testing": {
+   "term": "asbestos testing and inspection",
+   "metro": 0
+  },
+  "lead-paint-testing": {
+   "term": "lead paint testing and inspection",
+   "metro": 0
+  },
+  "water-quality-testing": {
+   "term": "water quality testing",
+   "metro": 20
+  },
+  "clearance-testing": {
+   "term": "clearance testing and post remediation verification",
+   "metro": 0
+  },
+  "environmental-site-assessments": {
+   "term": "environmental site assessments",
+   "metro": 110
+  },
+  "radon-testing": {
+   "term": "radon testing",
+   "metro": 30
+  },
+  "voc-formaldehyde-testing": {
+   "term": "voc and formaldehyde testing",
+   "metro": 0
+  },
+  "sewage-contamination-assessment": {
+   "term": "sewage contamination assessment",
+   "metro": 0
+  },
+  "post-flood-mold-assessment": {
+   "term": "post flood mold assessment",
+   "metro": 0
+  },
+  "allergen-testing": {
+   "term": "allergen testing",
+   "metro": 20
+  },
+  "hvac-duct-assessments": {
+   "term": "hvac and duct system assessments",
+   "metro": 0
+  },
+  "remediation-oversight": {
+   "term": "remediation oversight and project management",
+   "metro": 0
+  },
+  "compliance-consulting": {
+   "term": "environmental compliance consulting",
+   "metro": 10
+  },
+  "litigation-support-sampling": {
+   "term": "litigation support and forensic sampling",
+   "metro": 0
+  }
+ },
+ "updated_at": "2026-10-01T05:03:16+00:00"
+}

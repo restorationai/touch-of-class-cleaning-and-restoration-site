@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "9e5309ce1527641f"
 generated_at: "2026-09-30T19:29:00.363593+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/mclendon-chisholm-tx/", "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/", "/service-areas/mclendon-chisholm-tx/mold-remediation/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/caddo-mills-tx/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/mclendon-chisholm-tx/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/caddo-mills-tx/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McLendon-Chisholm", "url": "/service-areas/mclendon-chisholm-tx/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "mclendon-chisholm-tx"

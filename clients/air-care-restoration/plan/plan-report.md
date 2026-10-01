@@ -1,21 +1,21 @@
 # Site Plan Report — Air Care Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:28:19.491460+00:00
+- Generated: 2026-10-01T05:03:01.826658+00:00
 - Domain: `aircarerestoration.com`
-- Services selected: 28 of 91 catalog entries
+- Services selected: 26 of 91 catalog entries
 - Service areas: 28
 - Cross-product enabled: True
-- Total URLs: **828**
-- Total internal links: 6760 (avg 8.2 per page)
+- Total URLs: **477**
+- Total internal links: 3821 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 756 |
-| `service-landing` | 28 |
+| `service-area-service` | 407 |
 | `service-area` | 27 |
+| `service-landing` | 26 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -40,7 +40,6 @@
 - `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `vandalism-cleanup` — Vandalism Cleanup (specialty, priority 5)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
@@ -54,7 +53,6 @@
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
 
@@ -95,12 +93,12 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation abilene |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration abilene |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration abilene |
-| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing abilene |
 | `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup abilene |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration abilene |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services abilene |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization abilene |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration abilene |
+| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration abilene |
 
 ## Validation
 

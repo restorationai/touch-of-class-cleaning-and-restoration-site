@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "e89fc075b36b496a"
 generated_at: "2026-09-22T14:28:14.940140+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/seabrook-island-sc/", "/service-areas/seabrook-island-sc/fire-damage-restoration/", "/service-areas/seabrook-island-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/folly-beach-sc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/seabrook-island-sc/", "/service-areas/seabrook-island-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/folly-beach-sc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Seabrook Island", "url": "/service-areas/seabrook-island-sc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "seabrook-island-sc"

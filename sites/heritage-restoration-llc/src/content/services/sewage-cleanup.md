@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "6ab2dd088414ba01"
 generated_at: "2026-09-30T19:28:41.598138+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/sewage-cleanup/", "/service-areas/avon-mn/sewage-cleanup/", "/service-areas/baxter-mn/sewage-cleanup/", "/service-areas/brainerd-mn/sewage-cleanup/", "/service-areas/elmdale-mn/sewage-cleanup/", "/service-areas/flensburg-mn/sewage-cleanup/", "/service-areas/foley-mn/sewage-cleanup/", "/service-areas/fort-ripley-mn/sewage-cleanup/", "/service-areas/harding-mn/sewage-cleanup/", "/service-areas/long-prairie-mn/sewage-cleanup/", "/service-areas/pierz-mn/sewage-cleanup/", "/service-areas/randall-mn/sewage-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/", "/service-areas/avon-mn/", "/service-areas/baxter-mn/", "/service-areas/brainerd-mn/", "/service-areas/elmdale-mn/", "/service-areas/flensburg-mn/", "/service-areas/foley-mn/", "/service-areas/fort-ripley-mn/", "/service-areas/harding-mn/", "/service-areas/long-prairie-mn/", "/service-areas/pierz-mn/", "/service-areas/randall-mn/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Sewage Cleanup and Sanitization"}]
 faq: []
 service_slug: "sewage-cleanup"

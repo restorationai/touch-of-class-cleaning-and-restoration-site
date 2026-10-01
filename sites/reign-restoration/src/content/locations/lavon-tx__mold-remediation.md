@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "0a8b35ad03f87d8a"
 generated_at: "2026-09-30T19:29:00.358737+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/lavon-tx/", "/service-areas/lavon-tx/fire-damage-restoration/", "/service-areas/lavon-tx/roofing/", "/service-areas/allen-tx/mold-remediation/", "/service-areas/caddo-mills-tx/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/lavon-tx/", "/service-areas/allen-tx/mold-remediation/", "/service-areas/caddo-mills-tx/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lavon", "url": "/service-areas/lavon-tx/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "lavon-tx"

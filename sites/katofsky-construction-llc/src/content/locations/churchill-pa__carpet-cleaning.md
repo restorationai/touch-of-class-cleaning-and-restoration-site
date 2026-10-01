@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "572251f0f39c1436"
 generated_at: "2026-09-30T19:28:48.310058+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/churchill-pa/", "/service-areas/churchill-pa/fire-damage-restoration/", "/service-areas/churchill-pa/roofing/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/churchill-pa/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Churchill", "url": "/service-areas/churchill-pa/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "churchill-pa"

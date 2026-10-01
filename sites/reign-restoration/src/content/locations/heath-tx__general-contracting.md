@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "36f360c6c417fa95"
 generated_at: "2026-09-30T19:29:00.373054+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/heath-tx/", "/service-areas/heath-tx/fire-damage-restoration/", "/service-areas/heath-tx/mold-remediation/", "/service-areas/allen-tx/general-contracting/", "/service-areas/caddo-mills-tx/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/heath-tx/", "/service-areas/allen-tx/general-contracting/", "/service-areas/caddo-mills-tx/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Heath", "url": "/service-areas/heath-tx/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "heath-tx"

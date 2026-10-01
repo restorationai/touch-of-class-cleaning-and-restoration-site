@@ -10,7 +10,7 @@ priority: 3.5
 plan_hash: "83d1323e8ebfbfb8"
 generated_at: "2026-09-30T19:28:48.296766+00:00"
 manual_override: false
-internal_links: ["/services/air-duct-cleaning/", "/service-areas/forest-hills-pa/", "/service-areas/forest-hills-pa/fire-damage-restoration/", "/service-areas/forest-hills-pa/roofing/", "/service-areas/allison-park-pa/air-duct-cleaning/", "/service-areas/baldwin-pa/air-duct-cleaning/", "/contact/"]
+internal_links: ["/services/air-duct-cleaning/", "/service-areas/forest-hills-pa/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Forest Hills", "url": "/service-areas/forest-hills-pa/"}, {"name": "Air Duct Cleaning"}]
 faq: []
 area_slug: "forest-hills-pa"

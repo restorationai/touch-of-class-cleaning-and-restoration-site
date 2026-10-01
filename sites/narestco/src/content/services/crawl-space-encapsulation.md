@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "fdb527b109d62b73"
 generated_at: "2026-09-30T19:28:52.907322+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/crawl-space-encapsulation/", "/service-areas/auburn-wa/crawl-space-encapsulation/", "/service-areas/bellevue-wa/crawl-space-encapsulation/", "/service-areas/bremerton-wa/crawl-space-encapsulation/", "/service-areas/burien-wa/crawl-space-encapsulation/", "/service-areas/des-moines-wa/crawl-space-encapsulation/", "/service-areas/edgewood-wa/crawl-space-encapsulation/", "/service-areas/everett-wa/crawl-space-encapsulation/", "/service-areas/fife-wa/crawl-space-encapsulation/", "/service-areas/gig-harbor-wa/crawl-space-encapsulation/", "/service-areas/kent-wa/crawl-space-encapsulation/", "/service-areas/kirkland-wa/crawl-space-encapsulation/"]
+internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/", "/service-areas/auburn-wa/", "/service-areas/bellevue-wa/", "/service-areas/bremerton-wa/", "/service-areas/burien-wa/", "/service-areas/des-moines-wa/", "/service-areas/edgewood-wa/", "/service-areas/everett-wa/", "/service-areas/fife-wa/", "/service-areas/gig-harbor-wa/", "/service-areas/kent-wa/", "/service-areas/kirkland-wa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Crawl Space Encapsulation"}]
 faq: []
 service_slug: "crawl-space-encapsulation"

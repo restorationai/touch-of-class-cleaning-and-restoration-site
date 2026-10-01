@@ -1,20 +1,20 @@
 # Site Plan Report — Go Green Restoration of NC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T21:36:57.918345+00:00
+- Generated: 2026-10-01T05:04:41.811004+00:00
 - Domain: `gogreenrestorationofnc.com`
-- Services selected: 27 of 91 catalog entries
+- Services selected: 26 of 91 catalog entries
 - Service areas: 23
 - Cross-product enabled: True
-- Total URLs: **660**
-- Total internal links: 5413 (avg 8.2 per page)
+- Total URLs: **169**
+- Total internal links: 1227 (avg 7.3 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 594 |
-| `service-landing` | 27 |
+| `service-area-service` | 104 |
+| `service-landing` | 26 |
 | `service-area` | 22 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -35,7 +35,6 @@
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
 - `commercial-restoration` — Commercial Restoration (core, priority 9)
 - `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
-- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
@@ -89,12 +88,12 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation middlesex |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration middlesex |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration middlesex |
-| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing middlesex |
 | `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup middlesex |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration middlesex |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services middlesex |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization middlesex |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration middlesex |
+| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration middlesex |
 
 ## Validation
 

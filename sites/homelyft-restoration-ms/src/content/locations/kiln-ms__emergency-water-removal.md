@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "df2ef7ae666a2f17"
 generated_at: "2026-09-30T19:28:43.448498+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/kiln-ms/", "/service-areas/kiln-ms/fire-damage-restoration/", "/service-areas/kiln-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-water-removal/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/kiln-ms/", "/service-areas/kiln-ms/fire-damage-restoration/", "/service-areas/kiln-ms/mold-remediation/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kiln", "url": "/service-areas/kiln-ms/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "kiln-ms"

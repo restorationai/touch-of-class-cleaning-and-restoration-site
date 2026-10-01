@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "98a60e9739a95617"
 generated_at: "2026-09-30T19:28:52.910269+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/water-leak-detection/", "/service-areas/auburn-wa/water-leak-detection/", "/service-areas/bellevue-wa/water-leak-detection/", "/service-areas/bremerton-wa/water-leak-detection/", "/service-areas/burien-wa/water-leak-detection/", "/service-areas/des-moines-wa/water-leak-detection/", "/service-areas/edgewood-wa/water-leak-detection/", "/service-areas/everett-wa/water-leak-detection/", "/service-areas/fife-wa/water-leak-detection/", "/service-areas/gig-harbor-wa/water-leak-detection/", "/service-areas/kent-wa/water-leak-detection/", "/service-areas/kirkland-wa/water-leak-detection/"]
+internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/", "/service-areas/auburn-wa/", "/service-areas/bellevue-wa/", "/service-areas/bremerton-wa/", "/service-areas/burien-wa/", "/service-areas/des-moines-wa/", "/service-areas/edgewood-wa/", "/service-areas/everett-wa/", "/service-areas/fife-wa/", "/service-areas/gig-harbor-wa/", "/service-areas/kent-wa/", "/service-areas/kirkland-wa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Water Leak Detection"}]
 faq: []
 service_slug: "water-leak-detection"

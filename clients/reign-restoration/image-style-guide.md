@@ -274,7 +274,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Contents Restoration and Storage, Fire Damage Restoration, Renovations, Remodels and General Contracting, Mold Remediation, Odor Removal and Deodorization, Roofing Installation and Replacement, Storm Damage Restoration, Water Damage Restoration, Emergency Water Removal & Cleanup, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Basement Flooding Cleanup, Sewage Cleanup and Sanitization, Smoke Damage Restoration, Mold Inspection and Testing, Commercial Restoration, Industrial Restoration, Reconstruction Services, Large Loss and Catastrophic Response, Ceiling Water Damage Repair, Water Heater Flood Cleanup, Water Leak Detection, Emergency Plumbing)
+- [ ] (continue for each of Contents Restoration and Storage, Fire Damage Restoration, Renovations, Remodels and General Contracting, Mold Remediation, Odor Removal and Deodorization, Roofing Installation and Replacement, Storm Damage Restoration, Water Damage Restoration, Emergency Water Removal & Cleanup, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Basement Flooding Cleanup, Sewage Cleanup and Sanitization, Smoke Damage Restoration, Mold Inspection and Testing, Commercial Restoration, Industrial Restoration, Reconstruction Services, Large Loss and Catastrophic Response, Ceiling Water Damage Repair, Water Heater Flood Cleanup, Water Leak Detection)
 
 ### Service area pages (one image per city served)
 - [ ] Royse City hero — exterior shot, regional housing stock, evocative of the city

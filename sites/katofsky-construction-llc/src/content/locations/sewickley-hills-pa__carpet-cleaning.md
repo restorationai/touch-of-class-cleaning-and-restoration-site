@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "894e642419fee51c"
 generated_at: "2026-09-30T19:28:48.321681+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/roofing/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/sewickley-hills-pa/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Hills", "url": "/service-areas/sewickley-hills-pa/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "sewickley-hills-pa"

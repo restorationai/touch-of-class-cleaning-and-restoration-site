@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "605ee2ec7e9bf9c1"
 generated_at: "2026-09-30T19:28:56.919875+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/worcester-ma/", "/service-areas/worcester-ma/fire-damage-restoration/", "/service-areas/worcester-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/worcester-ma/", "/service-areas/worcester-ma/fire-damage-restoration/", "/service-areas/worcester-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Worcester", "url": "/service-areas/worcester-ma/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "worcester-ma"

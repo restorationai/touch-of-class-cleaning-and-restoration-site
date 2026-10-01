@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "e221a75aa098907a"
 generated_at: "2026-09-30T19:28:33.866660+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/encinitas-ca/", "/service-areas/encinitas-ca/fire-damage-restoration/", "/service-areas/encinitas-ca/mold-remediation/", "/service-areas/berkeley-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/encinitas-ca/", "/service-areas/berkeley-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Encinitas", "url": "/service-areas/encinitas-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "encinitas-ca"

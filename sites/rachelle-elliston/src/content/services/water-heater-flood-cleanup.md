@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "c576bc0738bc413b"
 generated_at: "2026-09-30T19:28:58.484793+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/water-heater-flood-cleanup/", "/service-areas/boulder-city-nv/water-heater-flood-cleanup/", "/service-areas/enterprise-nv/water-heater-flood-cleanup/", "/service-areas/henderson-nv/water-heater-flood-cleanup/", "/service-areas/indian-springs-nv/water-heater-flood-cleanup/", "/service-areas/las-vegas-nv/water-heater-flood-cleanup/", "/service-areas/moapa-town-nv/water-heater-flood-cleanup/", "/service-areas/moapa-valley-nv/water-heater-flood-cleanup/", "/service-areas/mount-charleston-nv/water-heater-flood-cleanup/", "/service-areas/nelson-nv/water-heater-flood-cleanup/", "/service-areas/pahrump-nv/water-heater-flood-cleanup/", "/service-areas/paradise-nv/water-heater-flood-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/enterprise-nv/", "/service-areas/henderson-nv/", "/service-areas/indian-springs-nv/", "/service-areas/las-vegas-nv/", "/service-areas/moapa-town-nv/", "/service-areas/moapa-valley-nv/", "/service-areas/mount-charleston-nv/", "/service-areas/nelson-nv/", "/service-areas/pahrump-nv/", "/service-areas/paradise-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-heater-flood-cleanup"}]
 faq: []
 service_slug: "water-heater-flood-cleanup"

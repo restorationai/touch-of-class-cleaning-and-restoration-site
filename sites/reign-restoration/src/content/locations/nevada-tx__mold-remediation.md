@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "1f40f53b1d323f2b"
 generated_at: "2026-09-30T19:29:00.341500+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/nevada-tx/", "/service-areas/nevada-tx/fire-damage-restoration/", "/service-areas/nevada-tx/roofing/", "/service-areas/allen-tx/mold-remediation/", "/service-areas/caddo-mills-tx/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/nevada-tx/", "/service-areas/nevada-tx/fire-damage-restoration/", "/service-areas/allen-tx/mold-remediation/", "/service-areas/caddo-mills-tx/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nevada", "url": "/service-areas/nevada-tx/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "nevada-tx"

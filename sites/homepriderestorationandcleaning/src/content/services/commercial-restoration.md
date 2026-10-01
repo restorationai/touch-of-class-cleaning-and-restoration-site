@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "dee9eb99af968d5f"
 generated_at: "2026-09-30T19:28:45.049037+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/commercial-restoration/", "/service-areas/american-fork-ut/commercial-restoration/", "/service-areas/benjamin-ut/commercial-restoration/", "/service-areas/bluffdale-ut/commercial-restoration/", "/service-areas/cedar-fort-ut/commercial-restoration/", "/service-areas/cedar-hills-ut/commercial-restoration/", "/service-areas/draper-ut/commercial-restoration/", "/service-areas/eagle-mountain-ut/commercial-restoration/", "/service-areas/fairfield-ut/commercial-restoration/", "/service-areas/heber-city-ut/commercial-restoration/", "/service-areas/herriman-ut/commercial-restoration/", "/service-areas/highland-ut/commercial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/", "/service-areas/american-fork-ut/", "/service-areas/benjamin-ut/", "/service-areas/bluffdale-ut/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-hills-ut/", "/service-areas/draper-ut/", "/service-areas/eagle-mountain-ut/", "/service-areas/fairfield-ut/", "/service-areas/heber-city-ut/", "/service-areas/herriman-ut/", "/service-areas/highland-ut/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "commercial-restoration"}]
 faq: []
 service_slug: "commercial-restoration"

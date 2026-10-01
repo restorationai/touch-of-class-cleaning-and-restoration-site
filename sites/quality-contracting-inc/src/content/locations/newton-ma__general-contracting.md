@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "5afa04210de23301"
 generated_at: "2026-09-30T19:28:57.134295+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/newton-ma/", "/service-areas/newton-ma/fire-damage-restoration/", "/service-areas/newton-ma/mold-remediation/", "/service-areas/bellingham-ma/general-contracting/", "/service-areas/east-douglas-ma/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/newton-ma/", "/service-areas/newton-ma/fire-damage-restoration/", "/service-areas/newton-ma/mold-remediation/", "/service-areas/bellingham-ma/general-contracting/", "/service-areas/east-douglas-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Newton", "url": "/service-areas/newton-ma/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "newton-ma"

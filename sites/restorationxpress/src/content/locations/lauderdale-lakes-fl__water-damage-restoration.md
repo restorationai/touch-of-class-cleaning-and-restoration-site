@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "42fa43e8c1bd7291"
 generated_at: "2026-09-20T14:13:46.909063+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/lauderdale-lakes-fl/", "/service-areas/lauderdale-lakes-fl/fire-damage-restoration/", "/service-areas/lauderdale-lakes-fl/mold-remediation/", "/service-areas/cooper-city-fl/water-damage-restoration/", "/service-areas/dania-beach-fl/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/lauderdale-lakes-fl/", "/service-areas/cooper-city-fl/water-damage-restoration/", "/service-areas/dania-beach-fl/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lauderdale Lakes", "url": "/service-areas/lauderdale-lakes-fl/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "lauderdale-lakes-fl"

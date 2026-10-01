@@ -1,22 +1,22 @@
 # Site Plan Report — RestorationXpress 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T14:13:48.976714+00:00
+- Generated: 2026-10-01T05:05:52.041496+00:00
 - Domain: `restorationxpress.com`
-- Services selected: 7 of 65 catalog entries
+- Services selected: 19 of 91 catalog entries
 - Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **180**
-- Total internal links: 1408 (avg 7.8 per page)
+- Total URLs: **118**
+- Total internal links: 812 (avg 6.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 133 |
+| `service-area-service` | 59 |
+| `service-landing` | 19 |
 | `service-area` | 19 |
 | `blog-post` | 12 |
-| `service-landing` | 7 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -33,7 +33,19 @@
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
+- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
+- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
 
 ## Service areas
 
@@ -65,13 +77,13 @@
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration davie |
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation davie |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration davie |
+| `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration davie |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup davie |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration davie |
+| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services davie |
+| `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization davie |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration davie |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration davie |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup davie |
-| `/service-areas/aventura-fl/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration aventura |
-| `/service-areas/aventura-fl/mold-remediation/` | `service-area-service` | 7.0 | mold remediation aventura |
-| `/service-areas/aventura-fl/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration aventura |
 
 ## Validation
 

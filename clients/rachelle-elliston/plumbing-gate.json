@@ -1,0 +1,22 @@
+{
+  "slug": "rachelle-elliston",
+  "allowed": true,
+  "reason": "(b) DBA on file (document_read, 2026-09-21): 'Desert Valley Restoration-24/7 Emergency Plumbing, Water and Fire Damage Restoration'",
+  "evidence": {
+    "company_id": "CO-1789170047342",
+    "gbp_title": "Desert Valley Contracting",
+    "rename_intent": {
+      "decision": "rename",
+      "dba_name": "Desert Valley Restoration-24/7 Emergency Plumbing, Water and Fire Damage Restoration",
+      "dba_filed": true,
+      "dba_filed_at": "2026-09-21",
+      "dba_verified": "document_read",
+      "dba_doc_url": "branding/CO-1789170047342/docs/DVC FEN Firm Name Desert Valley Restoration.pdf"
+    },
+    "chosen_names": [
+      "Desert Valley Restoration-24/7 Emergency Plumbing, Water and Fire Damage Restoration"
+    ]
+  },
+  "checked_at": "2026-10-01T04:49:02+00:00",
+  "source": "supabase"
+}

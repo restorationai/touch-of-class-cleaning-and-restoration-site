@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "fec3fbbb3c6d67bb"
 generated_at: "2026-09-30T19:28:48.265577+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/jefferson-hills-pa/fire-damage-restoration/", "/service-areas/jefferson-hills-pa/roofing/", "/service-areas/jefferson-hills-pa/sewage-cleanup/", "/service-areas/jefferson-hills-pa/biohazard-cleanup/", "/service-areas/jefferson-hills-pa/general-contracting/", "/service-areas/jefferson-hills-pa/emergency-board-up-tarping/", "/service-areas/jefferson-hills-pa/asbestos-abatement/", "/service-areas/jefferson-hills-pa/air-duct-cleaning/", "/service-areas/jefferson-hills-pa/contents-restoration-storage/", "/service-areas/jefferson-hills-pa/lead-paint-abatement/", "/service-areas/jefferson-hills-pa/carpet-cleaning/", "/service-areas/jefferson-hills-pa/upholstery-cleaning/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/jefferson-hills-pa/", "/service-areas/jefferson-hills-pa/carpet-cleaning/", "/service-areas/jefferson-hills-pa/upholstery-cleaning/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Jefferson Hills"}]
 faq: []
 area_slug: "jefferson-hills-pa"

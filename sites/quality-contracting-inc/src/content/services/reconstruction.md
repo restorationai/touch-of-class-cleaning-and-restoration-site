@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "4f5deb7151a97e49"
 generated_at: "2026-09-30T19:28:56.909169+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/reconstruction/", "/service-areas/east-douglas-ma/reconstruction/", "/service-areas/fiskdale-ma/reconstruction/", "/service-areas/framingham-ma/reconstruction/", "/service-areas/franklin-town-ma/reconstruction/", "/service-areas/hopkinton-ma/reconstruction/", "/service-areas/hudson-ma/reconstruction/", "/service-areas/leominster-ma/reconstruction/", "/service-areas/marlborough-ma/reconstruction/", "/service-areas/maynard-ma/reconstruction/", "/service-areas/milford-ma/reconstruction/", "/service-areas/natick-ma/reconstruction/"]
+internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/service-areas/framingham-ma/", "/service-areas/franklin-town-ma/", "/service-areas/hopkinton-ma/", "/service-areas/hudson-ma/", "/service-areas/leominster-ma/", "/service-areas/marlborough-ma/", "/service-areas/maynard-ma/", "/service-areas/milford-ma/", "/service-areas/natick-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "reconstruction"}]
 faq: []
 service_slug: "reconstruction"

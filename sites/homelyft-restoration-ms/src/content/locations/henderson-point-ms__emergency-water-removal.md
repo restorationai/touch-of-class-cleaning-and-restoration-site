@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "26ff56572cad62e1"
 generated_at: "2026-09-30T19:28:43.403640+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/henderson-point-ms/", "/service-areas/henderson-point-ms/fire-damage-restoration/", "/service-areas/henderson-point-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-water-removal/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/henderson-point-ms/", "/service-areas/henderson-point-ms/fire-damage-restoration/", "/service-areas/henderson-point-ms/mold-remediation/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Henderson Point", "url": "/service-areas/henderson-point-ms/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "henderson-point-ms"

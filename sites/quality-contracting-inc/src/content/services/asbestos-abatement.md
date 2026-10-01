@@ -10,7 +10,7 @@ priority: 5.4
 plan_hash: "16990cb1f15906ad"
 generated_at: "2026-09-30T19:28:56.901430+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/asbestos-abatement/", "/service-areas/east-douglas-ma/asbestos-abatement/", "/service-areas/fiskdale-ma/asbestos-abatement/", "/service-areas/framingham-ma/asbestos-abatement/", "/service-areas/franklin-town-ma/asbestos-abatement/", "/service-areas/hopkinton-ma/asbestos-abatement/", "/service-areas/hudson-ma/asbestos-abatement/", "/service-areas/leominster-ma/asbestos-abatement/", "/service-areas/marlborough-ma/asbestos-abatement/", "/service-areas/maynard-ma/asbestos-abatement/", "/service-areas/milford-ma/asbestos-abatement/", "/service-areas/natick-ma/asbestos-abatement/"]
+internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/asbestos-abatement/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/service-areas/framingham-ma/", "/service-areas/franklin-town-ma/", "/service-areas/hopkinton-ma/", "/service-areas/hudson-ma/", "/service-areas/leominster-ma/", "/service-areas/marlborough-ma/", "/service-areas/maynard-ma/", "/service-areas/milford-ma/asbestos-abatement/", "/service-areas/natick-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Asbestos Abatement"}]
 faq: []
 service_slug: "asbestos-abatement"

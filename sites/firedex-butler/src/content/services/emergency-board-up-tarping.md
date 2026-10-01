@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "ca6539d25ea25790"
 generated_at: "2026-09-23T14:11:40.869427+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/aliquippa-pa/emergency-board-up-tarping/", "/service-areas/allison-park-pa/emergency-board-up-tarping/", "/service-areas/baden-pa/emergency-board-up-tarping/", "/service-areas/beaver-falls-pa/emergency-board-up-tarping/", "/service-areas/bell-acres-pa/emergency-board-up-tarping/", "/service-areas/big-beaver-pa/emergency-board-up-tarping/", "/service-areas/butler-pa/emergency-board-up-tarping/", "/service-areas/economy-pa/emergency-board-up-tarping/", "/service-areas/ellwood-city-pa/emergency-board-up-tarping/", "/service-areas/evans-city-pa/emergency-board-up-tarping/", "/service-areas/franklin-park-pa/emergency-board-up-tarping/", "/service-areas/gibsonia-pa/emergency-board-up-tarping/"]
+internal_links: ["/services/", "/contact/", "/service-areas/aliquippa-pa/", "/service-areas/allison-park-pa/", "/service-areas/baden-pa/", "/service-areas/beaver-falls-pa/", "/service-areas/bell-acres-pa/", "/service-areas/big-beaver-pa/", "/service-areas/butler-pa/", "/service-areas/economy-pa/", "/service-areas/ellwood-city-pa/", "/service-areas/evans-city-pa/", "/service-areas/franklin-park-pa/", "/service-areas/gibsonia-pa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Emergency Board-Up and Tarping"}]
 faq: []
 service_slug: "emergency-board-up-tarping"

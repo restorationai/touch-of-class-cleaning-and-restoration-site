@@ -10,7 +10,7 @@ priority: 3.5
 plan_hash: "1b96da23179cb43d"
 generated_at: "2026-09-30T19:28:41.602400+00:00"
 manual_override: false
-internal_links: ["/services/job-type-id-basement-remodeling/", "/service-areas/st-cloud-mn/", "/service-areas/st-cloud-mn/fire-damage-restoration/", "/service-areas/st-cloud-mn/mold-remediation/", "/service-areas/albany-mn/job-type-id-basement-remodeling/", "/service-areas/avon-mn/job-type-id-basement-remodeling/", "/contact/"]
+internal_links: ["/services/job-type-id-basement-remodeling/", "/service-areas/st-cloud-mn/", "/service-areas/st-cloud-mn/fire-damage-restoration/", "/service-areas/albany-mn/", "/service-areas/avon-mn/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "St. Cloud", "url": "/service-areas/st-cloud-mn/"}, {"name": "Basement Remodeling"}]
 faq: []
 area_slug: "st-cloud-mn"

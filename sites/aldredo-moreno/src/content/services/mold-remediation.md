@@ -10,7 +10,7 @@ priority: 9.0
 plan_hash: "d4b2e5db2aaef457"
 generated_at: "2026-09-30T19:28:20.827162+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/mold-remediation/", "/service-areas/big-lake-tx/mold-remediation/", "/service-areas/big-spring-tx/mold-remediation/", "/service-areas/crane-tx/mold-remediation/", "/service-areas/garden-city-tx/mold-remediation/", "/service-areas/gardendale-tx/mold-remediation/", "/service-areas/goldsmith-tx/mold-remediation/", "/service-areas/greenwood-tx/mold-remediation/", "/service-areas/imperial-tx/mold-remediation/", "/service-areas/mccamey-tx/mold-remediation/", "/service-areas/monahans-tx/mold-remediation/", "/service-areas/odessa-tx/mold-remediation/", "/blog/choosing-a-restoration-company/", "/blog/how-to-test-for-mold/", "/blog/signs-of-hidden-mold/"]
+internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/", "/service-areas/big-lake-tx/", "/service-areas/big-spring-tx/", "/service-areas/crane-tx/", "/service-areas/garden-city-tx/", "/service-areas/gardendale-tx/", "/service-areas/goldsmith-tx/", "/service-areas/greenwood-tx/", "/service-areas/imperial-tx/", "/service-areas/mccamey-tx/", "/service-areas/monahans-tx/", "/service-areas/odessa-tx/", "/blog/choosing-a-restoration-company/", "/blog/how-to-test-for-mold/", "/blog/signs-of-hidden-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "mold-remediation"}]
 faq: []
 service_slug: "mold-remediation"

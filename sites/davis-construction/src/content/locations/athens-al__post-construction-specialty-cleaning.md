@@ -10,7 +10,7 @@ priority: 3.5
 plan_hash: "858acaf0dbbf5a88"
 generated_at: "2026-09-30T14:12:04.052538+00:00"
 manual_override: false
-internal_links: ["/services/post-construction-specialty-cleaning/", "/service-areas/athens-al/", "/service-areas/athens-al/home-remodeling/", "/service-areas/athens-al/roofing/", "/service-areas/arab-al/post-construction-specialty-cleaning/", "/service-areas/ardmore-al/post-construction-specialty-cleaning/", "/contact/"]
+internal_links: ["/services/post-construction-specialty-cleaning/", "/service-areas/athens-al/", "/service-areas/athens-al/home-remodeling/", "/service-areas/athens-al/roofing/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Athens", "url": "/service-areas/athens-al/"}, {"name": "Post-Construction & Specialty Cleaning"}]
 faq: []
 area_slug: "athens-al"

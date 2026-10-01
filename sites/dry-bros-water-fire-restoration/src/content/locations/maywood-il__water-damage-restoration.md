@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "8b4af070433407e9"
 generated_at: "2026-09-24T17:27:58.266070+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/maywood-il/", "/service-areas/maywood-il/fire-damage-restoration/", "/service-areas/maywood-il/mold-remediation/", "/service-areas/bedford-park-il/water-damage-restoration/", "/service-areas/berwyn-il/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/maywood-il/", "/service-areas/maywood-il/fire-damage-restoration/", "/service-areas/bedford-park-il/water-damage-restoration/", "/service-areas/berwyn-il/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Maywood", "url": "/service-areas/maywood-il/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "maywood-il"

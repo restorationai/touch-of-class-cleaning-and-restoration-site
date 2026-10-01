@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "1bb9c4634de29db3"
 generated_at: "2026-09-30T19:28:48.265839+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/sewickley-hills-pa/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/roofing/", "/service-areas/sewickley-hills-pa/sewage-cleanup/", "/service-areas/sewickley-hills-pa/biohazard-cleanup/", "/service-areas/sewickley-hills-pa/general-contracting/", "/service-areas/sewickley-hills-pa/emergency-board-up-tarping/", "/service-areas/sewickley-hills-pa/asbestos-abatement/", "/service-areas/sewickley-hills-pa/air-duct-cleaning/", "/service-areas/sewickley-hills-pa/contents-restoration-storage/", "/service-areas/sewickley-hills-pa/lead-paint-abatement/", "/service-areas/sewickley-hills-pa/carpet-cleaning/", "/service-areas/sewickley-hills-pa/upholstery-cleaning/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/carpet-cleaning/", "/service-areas/sewickley-hills-pa/upholstery-cleaning/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Hills"}]
 faq: []
 area_slug: "sewickley-hills-pa"

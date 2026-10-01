@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "266234f93161b360"
 generated_at: "2026-09-30T19:28:39.604267+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/rocky-mount-nc/", "/service-areas/rocky-mount-nc/fire-damage-restoration/", "/service-areas/rocky-mount-nc/mold-remediation/", "/service-areas/archer-lodge-nc/emergency-water-removal/", "/service-areas/clayton-nc/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/rocky-mount-nc/", "/service-areas/rocky-mount-nc/fire-damage-restoration/", "/service-areas/rocky-mount-nc/mold-remediation/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rocky Mount", "url": "/service-areas/rocky-mount-nc/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "rocky-mount-nc"

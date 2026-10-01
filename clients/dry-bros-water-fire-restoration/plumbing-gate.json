@@ -1,0 +1,22 @@
+{
+  "slug": "dry-bros-water-fire-restoration",
+  "allowed": false,
+  "reason": "no plumbing name confirmed, no plumbing DBA, not a licensed plumber",
+  "evidence": {
+    "company_id": "CO-1788898034500",
+    "gbp_title": "",
+    "rename_intent": {
+      "decision": "rename",
+      "dba_name": "DRY BROS - 24/7 EMERGENCY WATER DAMAGE RESTORATION & MOLD REMEDIATION",
+      "dba_filed": true,
+      "dba_filed_at": "2026-09-14",
+      "dba_verified": "vision_auto",
+      "dba_doc_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788898034500/docs/dba/verified-1789405648.jpg"
+    },
+    "chosen_names": [
+      "Dry Bros - 24/7 Emergency Water Damage Restoration & Mold Remediation"
+    ]
+  },
+  "checked_at": "2026-10-01T04:48:52+00:00",
+  "source": "supabase"
+}

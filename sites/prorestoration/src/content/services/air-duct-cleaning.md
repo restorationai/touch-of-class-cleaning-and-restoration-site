@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "3b2fe9869f14f6b1"
 generated_at: "2026-09-30T19:28:54.511447+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/air-duct-cleaning/", "/service-areas/bear-valley-springs-ca/air-duct-cleaning/", "/service-areas/buttonwillow-ca/air-duct-cleaning/", "/service-areas/delano-ca/air-duct-cleaning/", "/service-areas/dustin-acres-ca/air-duct-cleaning/", "/service-areas/east-niles-ca/air-duct-cleaning/", "/service-areas/keene-ca/air-duct-cleaning/", "/service-areas/lake-isabella-ca/air-duct-cleaning/", "/service-areas/lamont-ca/air-duct-cleaning/", "/service-areas/maricopa-ca/air-duct-cleaning/", "/service-areas/mcfarland-ca/air-duct-cleaning/", "/service-areas/oildale-ca/air-duct-cleaning/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/", "/service-areas/bear-valley-springs-ca/", "/service-areas/buttonwillow-ca/", "/service-areas/delano-ca/", "/service-areas/dustin-acres-ca/", "/service-areas/east-niles-ca/", "/service-areas/keene-ca/", "/service-areas/lake-isabella-ca/", "/service-areas/lamont-ca/", "/service-areas/maricopa-ca/", "/service-areas/mcfarland-ca/", "/service-areas/oildale-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Air Duct Cleaning"}]
 faq: []
 service_slug: "air-duct-cleaning"

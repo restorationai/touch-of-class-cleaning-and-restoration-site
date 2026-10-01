@@ -369,37 +369,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/huntsville-al/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/huntsville-al/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/huntsville-al/decks-pergolas-fences/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/huntsville-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -440,16 +410,6 @@
     "missing_stubs": []
   },
   "/service-areas/huntsville-al/painting-trim/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/huntsville-al/post-construction-specialty-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -509,37 +469,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/athens-al/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/athens-al/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/athens-al/decks-pergolas-fences/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/athens-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -639,47 +569,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/athens-al/windows-doors/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/moores-mill-al/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/moores-mill-al/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/moores-mill-al/decks-pergolas-fences/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/moores-mill-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -699,37 +589,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/moores-mill-al/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/moores-mill-al/new-construction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/moores-mill-al/painting-trim/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/moores-mill-al/post-construction-specialty-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -749,77 +609,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/moores-mill-al/siding-gutters/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/moores-mill-al/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/moores-mill-al/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/moores-mill-al/windows-doors/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/redstone-arsenal-al/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/redstone-arsenal-al/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/redstone-arsenal-al/decks-pergolas-fences/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/redstone-arsenal-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -839,37 +629,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/redstone-arsenal-al/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/redstone-arsenal-al/new-construction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/redstone-arsenal-al/painting-trim/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/redstone-arsenal-al/post-construction-specialty-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -889,77 +649,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/redstone-arsenal-al/siding-gutters/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/redstone-arsenal-al/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/redstone-arsenal-al/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/redstone-arsenal-al/windows-doors/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/meridianville-al/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/meridianville-al/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/meridianville-al/decks-pergolas-fences/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/meridianville-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -979,37 +669,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/meridianville-al/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/meridianville-al/new-construction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/meridianville-al/painting-trim/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/meridianville-al/post-construction-specialty-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1029,77 +689,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/meridianville-al/siding-gutters/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/meridianville-al/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/meridianville-al/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/meridianville-al/windows-doors/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hazel-green-al/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hazel-green-al/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hazel-green-al/decks-pergolas-fences/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hazel-green-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1119,37 +709,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hazel-green-al/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hazel-green-al/new-construction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hazel-green-al/painting-trim/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hazel-green-al/post-construction-specialty-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1169,77 +729,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hazel-green-al/siding-gutters/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hazel-green-al/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hazel-green-al/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hazel-green-al/windows-doors/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-market-al/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-market-al/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/new-market-al/decks-pergolas-fences/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-market-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1279,87 +769,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/new-market-al/painting-trim/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-market-al/post-construction-specialty-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/new-market-al/roofing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-market-al/siding-gutters/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-market-al/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-market-al/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-market-al/windows-doors/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/harvest-al/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/harvest-al/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1379,27 +789,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/harvest-al/fire-smoke-rebuilding/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/harvest-al/home-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/harvest-al/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1419,87 +809,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/harvest-al/painting-trim/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/harvest-al/post-construction-specialty-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/harvest-al/roofing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/harvest-al/siding-gutters/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/harvest-al/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/harvest-al/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/harvest-al/windows-doors/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gurley-al/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gurley-al/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1519,27 +829,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gurley-al/fire-smoke-rebuilding/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/gurley-al/home-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gurley-al/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1559,107 +849,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gurley-al/painting-trim/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gurley-al/post-construction-specialty-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/gurley-al/roofing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gurley-al/siding-gutters/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gurley-al/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gurley-al/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gurley-al/windows-doors/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/owens-cross-roads-al/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/owens-cross-roads-al/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/owens-cross-roads-al/decks-pergolas-fences/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/owens-cross-roads-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1679,127 +869,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/owens-cross-roads-al/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/owens-cross-roads-al/new-construction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/owens-cross-roads-al/painting-trim/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/owens-cross-roads-al/post-construction-specialty-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/owens-cross-roads-al/roofing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/owens-cross-roads-al/siding-gutters/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/owens-cross-roads-al/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/owens-cross-roads-al/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/owens-cross-roads-al/windows-doors/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/triana-al/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/triana-al/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/triana-al/decks-pergolas-fences/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/triana-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1819,127 +889,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/triana-al/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/triana-al/new-construction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/triana-al/painting-trim/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/triana-al/post-construction-specialty-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/triana-al/roofing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/triana-al/siding-gutters/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/triana-al/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/triana-al/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/triana-al/windows-doors/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-hope-al/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-hope-al/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-hope-al/decks-pergolas-fences/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-hope-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1959,127 +909,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/new-hope-al/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-hope-al/new-construction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-hope-al/painting-trim/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-hope-al/post-construction-specialty-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/new-hope-al/roofing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-hope-al/siding-gutters/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-hope-al/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-hope-al/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-hope-al/windows-doors/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ardmore-al/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ardmore-al/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ardmore-al/decks-pergolas-fences/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ardmore-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2109,57 +939,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ardmore-al/new-construction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ardmore-al/painting-trim/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ardmore-al/post-construction-specialty-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ardmore-al/roofing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ardmore-al/siding-gutters/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ardmore-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2179,56 +959,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ardmore-al/windows-doors/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/priceville-al/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/priceville-al/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/priceville-al/decks-pergolas-fences/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/priceville-al/fire-smoke-rebuilding/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/priceville-al/home-remodeling/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2239,127 +969,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/priceville-al/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/priceville-al/new-construction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/priceville-al/painting-trim/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/priceville-al/post-construction-specialty-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/priceville-al/roofing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/priceville-al/siding-gutters/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/priceville-al/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/priceville-al/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/priceville-al/windows-doors/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/somerville-al/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/somerville-al/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/somerville-al/decks-pergolas-fences/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/somerville-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2389,57 +999,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/somerville-al/new-construction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/somerville-al/painting-trim/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/somerville-al/post-construction-specialty-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/somerville-al/roofing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/somerville-al/siding-gutters/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/somerville-al/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2459,56 +1019,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/somerville-al/windows-doors/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elkmont-al/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elkmont-al/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elkmont-al/decks-pergolas-fences/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elkmont-al/fire-smoke-rebuilding/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/elkmont-al/home-remodeling/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2519,127 +1029,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/elkmont-al/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elkmont-al/new-construction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elkmont-al/painting-trim/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elkmont-al/post-construction-specialty-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/elkmont-al/roofing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elkmont-al/siding-gutters/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elkmont-al/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elkmont-al/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elkmont-al/windows-doors/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/decatur-al/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/decatur-al/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/decatur-al/decks-pergolas-fences/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/decatur-al/fire-smoke-rebuilding/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2669,47 +1059,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/decatur-al/new-construction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/decatur-al/painting-trim/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/decatur-al/post-construction-specialty-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/decatur-al/roofing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/decatur-al/siding-gutters/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2739,97 +1089,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/decatur-al/windows-doors/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/arab-al/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/arab-al/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/arab-al/decks-pergolas-fences/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/arab-al/fire-smoke-rebuilding/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/arab-al/home-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/arab-al/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/arab-al/new-construction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/arab-al/painting-trim/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/arab-al/post-construction-specialty-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2849,86 +1109,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/arab-al/siding-gutters/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/arab-al/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/arab-al/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/arab-al/windows-doors/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hartselle-al/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hartselle-al/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hartselle-al/decks-pergolas-fences/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hartselle-al/fire-smoke-rebuilding/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hartselle-al/home-remodeling/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2939,87 +1119,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hartselle-al/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hartselle-al/new-construction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hartselle-al/painting-trim/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hartselle-al/post-construction-specialty-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hartselle-al/roofing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hartselle-al/siding-gutters/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hartselle-al/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hartselle-al/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hartselle-al/windows-doors/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

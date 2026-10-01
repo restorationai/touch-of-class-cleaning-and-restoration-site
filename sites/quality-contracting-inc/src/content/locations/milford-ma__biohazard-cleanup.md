@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "004c9da5161d3e77"
 generated_at: "2026-09-30T19:28:57.219516+00:00"
 manual_override: false
-internal_links: ["/services/biohazard-cleanup/", "/service-areas/milford-ma/", "/service-areas/milford-ma/fire-damage-restoration/", "/service-areas/milford-ma/mold-remediation/", "/service-areas/bellingham-ma/biohazard-cleanup/", "/service-areas/east-douglas-ma/biohazard-cleanup/", "/contact/"]
+internal_links: ["/services/biohazard-cleanup/", "/service-areas/milford-ma/", "/service-areas/milford-ma/fire-damage-restoration/", "/service-areas/milford-ma/mold-remediation/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Milford", "url": "/service-areas/milford-ma/"}, {"name": "Biohazard Cleanup"}]
 faq: []
 area_slug: "milford-ma"

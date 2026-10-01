@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "323d1235d4a31ec6"
 generated_at: "2026-09-30T19:29:00.299564+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/burst-pipe-repair/", "/service-areas/caddo-mills-tx/burst-pipe-repair/", "/service-areas/dallas-tx/burst-pipe-repair/", "/service-areas/farmersville-tx/burst-pipe-repair/", "/service-areas/fate-tx/burst-pipe-repair/", "/service-areas/frisco-tx/burst-pipe-repair/", "/service-areas/garland-tx/burst-pipe-repair/", "/service-areas/greenville-tx/burst-pipe-repair/", "/service-areas/heath-tx/burst-pipe-repair/", "/service-areas/highland-park-tx/burst-pipe-repair/", "/service-areas/josephine-tx/burst-pipe-repair/", "/service-areas/lavon-tx/burst-pipe-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/", "/service-areas/farmersville-tx/", "/service-areas/fate-tx/", "/service-areas/frisco-tx/", "/service-areas/garland-tx/", "/service-areas/greenville-tx/", "/service-areas/heath-tx/", "/service-areas/highland-park-tx/", "/service-areas/josephine-tx/", "/service-areas/lavon-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "burst-pipe-repair"}]
 faq: []
 service_slug: "burst-pipe-repair"

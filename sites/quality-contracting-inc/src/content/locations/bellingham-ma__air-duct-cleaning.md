@@ -10,7 +10,7 @@ priority: 3.5
 plan_hash: "b99d361ffb003a08"
 generated_at: "2026-09-30T19:28:57.251168+00:00"
 manual_override: false
-internal_links: ["/services/air-duct-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/air-duct-cleaning/", "/service-areas/fiskdale-ma/air-duct-cleaning/", "/contact/"]
+internal_links: ["/services/air-duct-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellingham", "url": "/service-areas/bellingham-ma/"}, {"name": "Air Duct Cleaning"}]
 faq: []
 area_slug: "bellingham-ma"

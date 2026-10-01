@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "99811c3e0945045c"
 generated_at: "2026-09-30T19:28:21.541642+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/flood-damage-restoration/", "/service-areas/bluffdale-ut/flood-damage-restoration/", "/service-areas/cedar-fort-ut/flood-damage-restoration/", "/service-areas/cedar-hills-ut/flood-damage-restoration/", "/service-areas/cottonwood-heights-ut/flood-damage-restoration/", "/service-areas/draper-ut/flood-damage-restoration/", "/service-areas/eagle-mountain-ut/flood-damage-restoration/", "/service-areas/herriman-ut/flood-damage-restoration/", "/service-areas/highland-ut/flood-damage-restoration/", "/service-areas/lehi-ut/flood-damage-restoration/", "/service-areas/lindon-ut/flood-damage-restoration/", "/service-areas/orem-ut/flood-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/", "/service-areas/bluffdale-ut/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-hills-ut/", "/service-areas/cottonwood-heights-ut/", "/service-areas/draper-ut/", "/service-areas/eagle-mountain-ut/", "/service-areas/herriman-ut/", "/service-areas/highland-ut/", "/service-areas/lehi-ut/", "/service-areas/lindon-ut/", "/service-areas/orem-ut/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "flood-damage-restoration"}]
 faq: []
 service_slug: "flood-damage-restoration"

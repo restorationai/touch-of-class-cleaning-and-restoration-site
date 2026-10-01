@@ -1,9 +1,9 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-22T18:09:45.261476+00:00",
+  "generated_at": "2026-10-01T05:03:07.280897+00:00",
   "input_summary": {
-    "service_count": 11,
+    "service_count": 22,
     "service_area_count": 28,
     "cross_product": true,
     "blog_seed_count": 12
@@ -44,14 +44,25 @@
         "/service-areas/",
         "/contact/",
         "/about/",
+        "/services/fire-damage-restoration/",
         "/services/mold-remediation/",
         "/services/water-damage-restoration/",
         "/services/commercial-restoration/",
+        "/services/emergency-water-removal/",
         "/services/flood-damage-restoration/",
+        "/services/reconstruction/",
         "/services/sewage-cleanup/",
-        "/services/water-cleanup/",
+        "/services/smoke-damage-restoration/",
+        "/services/storm-damage-restoration/",
+        "/services/basement-flooding-cleanup/",
         "/services/burst-pipe-repair/",
+        "/services/ceiling-water-damage-repair/",
+        "/services/general-contracting/",
+        "/services/large-loss-response/",
         "/services/mold-inspection-testing/",
+        "/services/industrial-restoration/",
+        "/services/water-heater-flood-cleanup/",
+        "/services/water-leak-detection/",
         "/services/carpet-cleaning/",
         "/services/upholstery-cleaning/",
         "/services/flood-equipment-rental/",
@@ -114,14 +125,25 @@
       "status": "planned",
       "internal_links_out": [
         "/",
+        "/services/fire-damage-restoration/",
         "/services/mold-remediation/",
         "/services/water-damage-restoration/",
         "/services/commercial-restoration/",
+        "/services/emergency-water-removal/",
         "/services/flood-damage-restoration/",
+        "/services/reconstruction/",
         "/services/sewage-cleanup/",
-        "/services/water-cleanup/",
+        "/services/smoke-damage-restoration/",
+        "/services/storm-damage-restoration/",
+        "/services/basement-flooding-cleanup/",
         "/services/burst-pipe-repair/",
+        "/services/ceiling-water-damage-repair/",
+        "/services/general-contracting/",
+        "/services/large-loss-response/",
         "/services/mold-inspection-testing/",
+        "/services/industrial-restoration/",
+        "/services/water-heater-flood-cleanup/",
+        "/services/water-leak-detection/",
         "/services/carpet-cleaning/",
         "/services/upholstery-cleaning/",
         "/services/flood-equipment-rental/"
@@ -216,14 +238,14 @@
         "/blog/what-to-do-first-24-hours-water-damage/",
         "/blog/choosing-a-restoration-company/",
         "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/fire-damage-restoration-process/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/",
         "/blog/black-mold-vs-regular-mold/",
         "/blog/how-long-does-water-damage-restoration-take/",
         "/blog/mold-after-water-damage/",
-        "/blog/basement-flooding-prevention/",
-        "/blog/commercial-water-damage-business-continuity/",
-        "/blog/sewage-backup-health-risks/"
+        "/blog/storm-damage-insurance-claim-checklist/",
+        "/blog/smoke-odor-removal-techniques/"
       ]
     },
     {
@@ -300,9 +322,9 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Water Damage Restoration in Honolulu | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Honolulu",
-      "meta_description": "24/7 water damage restoration in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Honolulu | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Honolulu",
+      "meta_description": "24/7 emergency water damage restoration in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration honolulu",
       "secondary_keywords": [
         "water removal",
@@ -342,7 +364,7 @@
         "/service-areas/kahala-hi/water-damage-restoration/",
         "/service-areas/kahaluu-hi/water-damage-restoration/",
         "/service-areas/kailua-hi/water-damage-restoration/",
-        "/services/water-cleanup/",
+        "/services/emergency-water-removal/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
         "/blog/choosing-a-restoration-company/"
@@ -354,9 +376,9 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Flood Damage Restoration in Honolulu | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Honolulu",
-      "meta_description": "24/7 flood damage restoration in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Honolulu | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Honolulu",
+      "meta_description": "24/7 emergency flood damage restoration in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration honolulu",
       "secondary_keywords": [
         "flood cleanup",
@@ -404,9 +426,9 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Honolulu | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Honolulu",
-      "meta_description": "24/7 burst pipe cleanup and repair in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Burst Pipe Cleanup and Repair in Honolulu | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Honolulu",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair honolulu",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -454,9 +476,9 @@
       "vars_keys": [
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Honolulu | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Honolulu",
-      "meta_description": "24/7 sewage cleanup and sanitization in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Sewage Cleanup and Sanitization in Honolulu | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Honolulu",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization honolulu",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -495,8 +517,7 @@
         "/service-areas/hickam-housing-hi/sewage-cleanup/",
         "/service-areas/kahala-hi/sewage-cleanup/",
         "/service-areas/kahaluu-hi/sewage-cleanup/",
-        "/service-areas/kailua-hi/sewage-cleanup/",
-        "/blog/sewage-backup-health-risks/"
+        "/service-areas/kailua-hi/sewage-cleanup/"
       ]
     },
     {
@@ -800,8 +821,483 @@
         "/service-areas/hickam-housing-hi/commercial-restoration/",
         "/service-areas/kahala-hi/commercial-restoration/",
         "/service-areas/kahaluu-hi/commercial-restoration/",
-        "/service-areas/kailua-hi/commercial-restoration/",
-        "/blog/commercial-water-damage-business-continuity/"
+        "/service-areas/kailua-hi/commercial-restoration/"
+      ]
+    },
+    {
+      "url_path": "/services/emergency-water-removal/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Honolulu | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Honolulu",
+      "meta_description": "24/7 emergency water removal & cleanup in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup honolulu",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/service-areas/diamond-head-hi/emergency-water-removal/",
+        "/service-areas/east-honolulu-hi/emergency-water-removal/",
+        "/service-areas/east-kapolei-hi/emergency-water-removal/",
+        "/service-areas/ewa-beach-hi/emergency-water-removal/",
+        "/service-areas/hawaii-kai-hi/emergency-water-removal/",
+        "/service-areas/heeia-hi/emergency-water-removal/",
+        "/service-areas/hickam-housing-hi/emergency-water-removal/",
+        "/service-areas/kahala-hi/emergency-water-removal/",
+        "/service-areas/kahaluu-hi/emergency-water-removal/",
+        "/service-areas/kailua-hi/emergency-water-removal/",
+        "/services/water-damage-restoration/"
+      ]
+    },
+    {
+      "url_path": "/services/basement-flooding-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "24/7 Emergency Basement Flooding Cleanup in Honolulu | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Basement Flooding Cleanup in Honolulu",
+      "meta_description": "24/7 emergency basement flooding cleanup in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "basement flooding cleanup honolulu",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "24/7 Emergency Fire Damage Restoration in Honolulu | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Fire Damage Restoration in Honolulu",
+      "meta_description": "24/7 emergency fire damage restoration in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "fire damage restoration honolulu",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/fire-damage-restoration-process/",
+        "/blog/smoke-odor-removal-techniques/"
+      ]
+    },
+    {
+      "url_path": "/services/smoke-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "24/7 Emergency Smoke Damage Restoration in Honolulu | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Smoke Damage Restoration in Honolulu",
+      "meta_description": "24/7 emergency smoke damage restoration in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "smoke damage restoration honolulu",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/blog/fire-damage-restoration-process/",
+        "/blog/smoke-odor-removal-techniques/"
+      ]
+    },
+    {
+      "url_path": "/services/storm-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "24/7 Emergency Storm Damage Restoration in Honolulu | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Storm Damage Restoration in Honolulu",
+      "meta_description": "24/7 emergency storm damage restoration in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "storm damage restoration honolulu",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/blog/storm-damage-insurance-claim-checklist/"
+      ]
+    },
+    {
+      "url_path": "/services/industrial-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Industrial Restoration in Honolulu | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Industrial Restoration in Honolulu",
+      "meta_description": "24/7 industrial restoration in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "industrial restoration honolulu",
+      "secondary_keywords": [
+        "industrial water damage",
+        "warehouse restoration",
+        "manufacturing facility restoration",
+        "industrial fire damage",
+        "plant restoration services"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/reconstruction/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Reconstruction Services in Honolulu | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Reconstruction Services in Honolulu",
+      "meta_description": "24/7 reconstruction services in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "reconstruction services honolulu",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/general-contracting/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Honolulu | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Renovations, Remodels and General Contracting in Honolulu",
+      "meta_description": "24/7 renovations, remodels and general contracting in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "renovations, remodels and general contracting honolulu",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/large-loss-response/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Large Loss and Catastrophic Response in Honolulu | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Large Loss and Catastrophic Response in Honolulu",
+      "meta_description": "24/7 large loss and catastrophic response in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "large loss and catastrophic response honolulu",
+      "secondary_keywords": [
+        "large loss restoration",
+        "catastrophic loss response",
+        "commercial catastrophic restoration",
+        "multi-million dollar restoration",
+        "large loss adjusters"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/ceiling-water-damage-repair/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "24/7 Emergency Ceiling Water Damage Repair in Honolulu | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Ceiling Water Damage Repair in Honolulu",
+      "meta_description": "24/7 emergency ceiling water damage repair in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "ceiling water damage repair honolulu",
+      "secondary_keywords": [
+        "ceiling leaking",
+        "water coming through ceiling",
+        "ceiling leak repair",
+        "sagging ceiling water damage",
+        "water stain ceiling"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/water-heater-flood-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "24/7 Emergency Water Heater Flood Cleanup in Honolulu | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Heater Flood Cleanup in Honolulu",
+      "meta_description": "24/7 emergency water heater flood cleanup in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "water heater flood cleanup honolulu",
+      "secondary_keywords": [
+        "water heater leaking",
+        "water heater burst",
+        "flooded water heater",
+        "water heater leak damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/water-leak-detection/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Leak Detection in Honolulu | AAA Water Damage Restoration & Carpet Care",
+      "h1": "Water Leak Detection in Honolulu",
+      "meta_description": "24/7 water leak detection in Honolulu and surrounding areas. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "water leak detection honolulu",
+      "secondary_keywords": [
+        "leak detection",
+        "hidden water leak",
+        "slab leak detection",
+        "water leak in wall",
+        "leak detection service"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
       ]
     },
     {
@@ -839,9 +1335,9 @@
         "/service-areas/hawaii-kai-hi/mold-remediation/",
         "/service-areas/hawaii-kai-hi/water-damage-restoration/",
         "/service-areas/hawaii-kai-hi/commercial-restoration/",
+        "/service-areas/hawaii-kai-hi/emergency-water-removal/",
         "/service-areas/hawaii-kai-hi/flood-damage-restoration/",
         "/service-areas/hawaii-kai-hi/sewage-cleanup/",
-        "/service-areas/hawaii-kai-hi/water-cleanup/",
         "/service-areas/hawaii-kai-hi/burst-pipe-repair/",
         "/service-areas/hawaii-kai-hi/mold-inspection-testing/",
         "/service-areas/hawaii-kai-hi/carpet-cleaning/",
@@ -887,9 +1383,9 @@
         "/service-areas/kahala-hi/mold-remediation/",
         "/service-areas/kahala-hi/water-damage-restoration/",
         "/service-areas/kahala-hi/commercial-restoration/",
+        "/service-areas/kahala-hi/emergency-water-removal/",
         "/service-areas/kahala-hi/flood-damage-restoration/",
         "/service-areas/kahala-hi/sewage-cleanup/",
-        "/service-areas/kahala-hi/water-cleanup/",
         "/service-areas/kahala-hi/burst-pipe-repair/",
         "/service-areas/kahala-hi/mold-inspection-testing/",
         "/service-areas/kahala-hi/carpet-cleaning/",
@@ -935,9 +1431,9 @@
         "/service-areas/aina-haina-hi/mold-remediation/",
         "/service-areas/aina-haina-hi/water-damage-restoration/",
         "/service-areas/aina-haina-hi/commercial-restoration/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
         "/service-areas/aina-haina-hi/flood-damage-restoration/",
         "/service-areas/aina-haina-hi/sewage-cleanup/",
-        "/service-areas/aina-haina-hi/water-cleanup/",
         "/service-areas/aina-haina-hi/burst-pipe-repair/",
         "/service-areas/aina-haina-hi/mold-inspection-testing/",
         "/service-areas/aina-haina-hi/carpet-cleaning/",
@@ -983,9 +1479,9 @@
         "/service-areas/kaimuki-hi/mold-remediation/",
         "/service-areas/kaimuki-hi/water-damage-restoration/",
         "/service-areas/kaimuki-hi/commercial-restoration/",
+        "/service-areas/kaimuki-hi/emergency-water-removal/",
         "/service-areas/kaimuki-hi/flood-damage-restoration/",
         "/service-areas/kaimuki-hi/sewage-cleanup/",
-        "/service-areas/kaimuki-hi/water-cleanup/",
         "/service-areas/kaimuki-hi/burst-pipe-repair/",
         "/service-areas/kaimuki-hi/mold-inspection-testing/",
         "/service-areas/kaimuki-hi/carpet-cleaning/",
@@ -1031,9 +1527,9 @@
         "/service-areas/diamond-head-hi/mold-remediation/",
         "/service-areas/diamond-head-hi/water-damage-restoration/",
         "/service-areas/diamond-head-hi/commercial-restoration/",
+        "/service-areas/diamond-head-hi/emergency-water-removal/",
         "/service-areas/diamond-head-hi/flood-damage-restoration/",
         "/service-areas/diamond-head-hi/sewage-cleanup/",
-        "/service-areas/diamond-head-hi/water-cleanup/",
         "/service-areas/diamond-head-hi/burst-pipe-repair/",
         "/service-areas/diamond-head-hi/mold-inspection-testing/",
         "/service-areas/diamond-head-hi/carpet-cleaning/",
@@ -1079,9 +1575,9 @@
         "/service-areas/kailua-hi/mold-remediation/",
         "/service-areas/kailua-hi/water-damage-restoration/",
         "/service-areas/kailua-hi/commercial-restoration/",
+        "/service-areas/kailua-hi/emergency-water-removal/",
         "/service-areas/kailua-hi/flood-damage-restoration/",
         "/service-areas/kailua-hi/sewage-cleanup/",
-        "/service-areas/kailua-hi/water-cleanup/",
         "/service-areas/kailua-hi/burst-pipe-repair/",
         "/service-areas/kailua-hi/mold-inspection-testing/",
         "/service-areas/kailua-hi/carpet-cleaning/",
@@ -1127,9 +1623,9 @@
         "/service-areas/kaneohe-hi/mold-remediation/",
         "/service-areas/kaneohe-hi/water-damage-restoration/",
         "/service-areas/kaneohe-hi/commercial-restoration/",
+        "/service-areas/kaneohe-hi/emergency-water-removal/",
         "/service-areas/kaneohe-hi/flood-damage-restoration/",
         "/service-areas/kaneohe-hi/sewage-cleanup/",
-        "/service-areas/kaneohe-hi/water-cleanup/",
         "/service-areas/kaneohe-hi/burst-pipe-repair/",
         "/service-areas/kaneohe-hi/mold-inspection-testing/",
         "/service-areas/kaneohe-hi/carpet-cleaning/",
@@ -1175,9 +1671,9 @@
         "/service-areas/pearl-city-hi/mold-remediation/",
         "/service-areas/pearl-city-hi/water-damage-restoration/",
         "/service-areas/pearl-city-hi/commercial-restoration/",
+        "/service-areas/pearl-city-hi/emergency-water-removal/",
         "/service-areas/pearl-city-hi/flood-damage-restoration/",
         "/service-areas/pearl-city-hi/sewage-cleanup/",
-        "/service-areas/pearl-city-hi/water-cleanup/",
         "/service-areas/pearl-city-hi/burst-pipe-repair/",
         "/service-areas/pearl-city-hi/mold-inspection-testing/",
         "/service-areas/pearl-city-hi/carpet-cleaning/",
@@ -1223,9 +1719,9 @@
         "/service-areas/aiea-hi/mold-remediation/",
         "/service-areas/aiea-hi/water-damage-restoration/",
         "/service-areas/aiea-hi/commercial-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
         "/service-areas/aiea-hi/flood-damage-restoration/",
         "/service-areas/aiea-hi/sewage-cleanup/",
-        "/service-areas/aiea-hi/water-cleanup/",
         "/service-areas/aiea-hi/burst-pipe-repair/",
         "/service-areas/aiea-hi/mold-inspection-testing/",
         "/service-areas/aiea-hi/carpet-cleaning/",
@@ -1271,9 +1767,9 @@
         "/service-areas/ewa-beach-hi/mold-remediation/",
         "/service-areas/ewa-beach-hi/water-damage-restoration/",
         "/service-areas/ewa-beach-hi/commercial-restoration/",
+        "/service-areas/ewa-beach-hi/emergency-water-removal/",
         "/service-areas/ewa-beach-hi/flood-damage-restoration/",
         "/service-areas/ewa-beach-hi/sewage-cleanup/",
-        "/service-areas/ewa-beach-hi/water-cleanup/",
         "/service-areas/ewa-beach-hi/burst-pipe-repair/",
         "/service-areas/ewa-beach-hi/mold-inspection-testing/",
         "/service-areas/ewa-beach-hi/carpet-cleaning/",
@@ -1319,9 +1815,9 @@
         "/service-areas/kapolei-hi/mold-remediation/",
         "/service-areas/kapolei-hi/water-damage-restoration/",
         "/service-areas/kapolei-hi/commercial-restoration/",
+        "/service-areas/kapolei-hi/emergency-water-removal/",
         "/service-areas/kapolei-hi/flood-damage-restoration/",
         "/service-areas/kapolei-hi/sewage-cleanup/",
-        "/service-areas/kapolei-hi/water-cleanup/",
         "/service-areas/kapolei-hi/burst-pipe-repair/",
         "/service-areas/kapolei-hi/mold-inspection-testing/",
         "/service-areas/kapolei-hi/carpet-cleaning/",
@@ -1367,9 +1863,9 @@
         "/service-areas/mililani-hi/mold-remediation/",
         "/service-areas/mililani-hi/water-damage-restoration/",
         "/service-areas/mililani-hi/commercial-restoration/",
+        "/service-areas/mililani-hi/emergency-water-removal/",
         "/service-areas/mililani-hi/flood-damage-restoration/",
         "/service-areas/mililani-hi/sewage-cleanup/",
-        "/service-areas/mililani-hi/water-cleanup/",
         "/service-areas/mililani-hi/burst-pipe-repair/",
         "/service-areas/mililani-hi/mold-inspection-testing/",
         "/service-areas/mililani-hi/carpet-cleaning/",
@@ -1415,9 +1911,9 @@
         "/service-areas/urban-honolulu-hi/mold-remediation/",
         "/service-areas/urban-honolulu-hi/water-damage-restoration/",
         "/service-areas/urban-honolulu-hi/commercial-restoration/",
+        "/service-areas/urban-honolulu-hi/emergency-water-removal/",
         "/service-areas/urban-honolulu-hi/flood-damage-restoration/",
         "/service-areas/urban-honolulu-hi/sewage-cleanup/",
-        "/service-areas/urban-honolulu-hi/water-cleanup/",
         "/service-areas/urban-honolulu-hi/burst-pipe-repair/",
         "/service-areas/urban-honolulu-hi/mold-inspection-testing/",
         "/service-areas/urban-honolulu-hi/carpet-cleaning/",
@@ -1463,9 +1959,9 @@
         "/service-areas/hickam-housing-hi/mold-remediation/",
         "/service-areas/hickam-housing-hi/water-damage-restoration/",
         "/service-areas/hickam-housing-hi/commercial-restoration/",
+        "/service-areas/hickam-housing-hi/emergency-water-removal/",
         "/service-areas/hickam-housing-hi/flood-damage-restoration/",
         "/service-areas/hickam-housing-hi/sewage-cleanup/",
-        "/service-areas/hickam-housing-hi/water-cleanup/",
         "/service-areas/hickam-housing-hi/burst-pipe-repair/",
         "/service-areas/hickam-housing-hi/mold-inspection-testing/",
         "/service-areas/hickam-housing-hi/carpet-cleaning/",
@@ -1511,9 +2007,9 @@
         "/service-areas/east-honolulu-hi/mold-remediation/",
         "/service-areas/east-honolulu-hi/water-damage-restoration/",
         "/service-areas/east-honolulu-hi/commercial-restoration/",
+        "/service-areas/east-honolulu-hi/emergency-water-removal/",
         "/service-areas/east-honolulu-hi/flood-damage-restoration/",
         "/service-areas/east-honolulu-hi/sewage-cleanup/",
-        "/service-areas/east-honolulu-hi/water-cleanup/",
         "/service-areas/east-honolulu-hi/burst-pipe-repair/",
         "/service-areas/east-honolulu-hi/mold-inspection-testing/",
         "/service-areas/east-honolulu-hi/carpet-cleaning/",
@@ -1559,9 +2055,9 @@
         "/service-areas/waimanalo-hi/mold-remediation/",
         "/service-areas/waimanalo-hi/water-damage-restoration/",
         "/service-areas/waimanalo-hi/commercial-restoration/",
+        "/service-areas/waimanalo-hi/emergency-water-removal/",
         "/service-areas/waimanalo-hi/flood-damage-restoration/",
         "/service-areas/waimanalo-hi/sewage-cleanup/",
-        "/service-areas/waimanalo-hi/water-cleanup/",
         "/service-areas/waimanalo-hi/burst-pipe-repair/",
         "/service-areas/waimanalo-hi/mold-inspection-testing/",
         "/service-areas/waimanalo-hi/carpet-cleaning/",
@@ -1607,9 +2103,9 @@
         "/service-areas/heeia-hi/mold-remediation/",
         "/service-areas/heeia-hi/water-damage-restoration/",
         "/service-areas/heeia-hi/commercial-restoration/",
+        "/service-areas/heeia-hi/emergency-water-removal/",
         "/service-areas/heeia-hi/flood-damage-restoration/",
         "/service-areas/heeia-hi/sewage-cleanup/",
-        "/service-areas/heeia-hi/water-cleanup/",
         "/service-areas/heeia-hi/burst-pipe-repair/",
         "/service-areas/heeia-hi/mold-inspection-testing/",
         "/service-areas/heeia-hi/carpet-cleaning/",
@@ -1655,9 +2151,9 @@
         "/service-areas/kahaluu-hi/mold-remediation/",
         "/service-areas/kahaluu-hi/water-damage-restoration/",
         "/service-areas/kahaluu-hi/commercial-restoration/",
+        "/service-areas/kahaluu-hi/emergency-water-removal/",
         "/service-areas/kahaluu-hi/flood-damage-restoration/",
         "/service-areas/kahaluu-hi/sewage-cleanup/",
-        "/service-areas/kahaluu-hi/water-cleanup/",
         "/service-areas/kahaluu-hi/burst-pipe-repair/",
         "/service-areas/kahaluu-hi/mold-inspection-testing/",
         "/service-areas/kahaluu-hi/carpet-cleaning/",
@@ -1703,9 +2199,9 @@
         "/service-areas/kaneohe-base-hi/mold-remediation/",
         "/service-areas/kaneohe-base-hi/water-damage-restoration/",
         "/service-areas/kaneohe-base-hi/commercial-restoration/",
+        "/service-areas/kaneohe-base-hi/emergency-water-removal/",
         "/service-areas/kaneohe-base-hi/flood-damage-restoration/",
         "/service-areas/kaneohe-base-hi/sewage-cleanup/",
-        "/service-areas/kaneohe-base-hi/water-cleanup/",
         "/service-areas/kaneohe-base-hi/burst-pipe-repair/",
         "/service-areas/kaneohe-base-hi/mold-inspection-testing/",
         "/service-areas/kaneohe-base-hi/carpet-cleaning/",
@@ -1751,9 +2247,9 @@
         "/service-areas/east-kapolei-hi/mold-remediation/",
         "/service-areas/east-kapolei-hi/water-damage-restoration/",
         "/service-areas/east-kapolei-hi/commercial-restoration/",
+        "/service-areas/east-kapolei-hi/emergency-water-removal/",
         "/service-areas/east-kapolei-hi/flood-damage-restoration/",
         "/service-areas/east-kapolei-hi/sewage-cleanup/",
-        "/service-areas/east-kapolei-hi/water-cleanup/",
         "/service-areas/east-kapolei-hi/burst-pipe-repair/",
         "/service-areas/east-kapolei-hi/mold-inspection-testing/",
         "/service-areas/east-kapolei-hi/carpet-cleaning/",
@@ -1799,9 +2295,9 @@
         "/service-areas/waiahole-waikane-hi/mold-remediation/",
         "/service-areas/waiahole-waikane-hi/water-damage-restoration/",
         "/service-areas/waiahole-waikane-hi/commercial-restoration/",
+        "/service-areas/waiahole-waikane-hi/emergency-water-removal/",
         "/service-areas/waiahole-waikane-hi/flood-damage-restoration/",
         "/service-areas/waiahole-waikane-hi/sewage-cleanup/",
-        "/service-areas/waiahole-waikane-hi/water-cleanup/",
         "/service-areas/waiahole-waikane-hi/burst-pipe-repair/",
         "/service-areas/waiahole-waikane-hi/mold-inspection-testing/",
         "/service-areas/waiahole-waikane-hi/carpet-cleaning/",
@@ -1847,9 +2343,9 @@
         "/service-areas/kalaeloa-hi/mold-remediation/",
         "/service-areas/kalaeloa-hi/water-damage-restoration/",
         "/service-areas/kalaeloa-hi/commercial-restoration/",
+        "/service-areas/kalaeloa-hi/emergency-water-removal/",
         "/service-areas/kalaeloa-hi/flood-damage-restoration/",
         "/service-areas/kalaeloa-hi/sewage-cleanup/",
-        "/service-areas/kalaeloa-hi/water-cleanup/",
         "/service-areas/kalaeloa-hi/burst-pipe-repair/",
         "/service-areas/kalaeloa-hi/mold-inspection-testing/",
         "/service-areas/kalaeloa-hi/carpet-cleaning/",
@@ -1895,9 +2391,9 @@
         "/service-areas/mililani-town-hi/mold-remediation/",
         "/service-areas/mililani-town-hi/water-damage-restoration/",
         "/service-areas/mililani-town-hi/commercial-restoration/",
+        "/service-areas/mililani-town-hi/emergency-water-removal/",
         "/service-areas/mililani-town-hi/flood-damage-restoration/",
         "/service-areas/mililani-town-hi/sewage-cleanup/",
-        "/service-areas/mililani-town-hi/water-cleanup/",
         "/service-areas/mililani-town-hi/burst-pipe-repair/",
         "/service-areas/mililani-town-hi/mold-inspection-testing/",
         "/service-areas/mililani-town-hi/carpet-cleaning/",
@@ -1943,9 +2439,9 @@
         "/service-areas/royal-kunia-hi/mold-remediation/",
         "/service-areas/royal-kunia-hi/water-damage-restoration/",
         "/service-areas/royal-kunia-hi/commercial-restoration/",
+        "/service-areas/royal-kunia-hi/emergency-water-removal/",
         "/service-areas/royal-kunia-hi/flood-damage-restoration/",
         "/service-areas/royal-kunia-hi/sewage-cleanup/",
-        "/service-areas/royal-kunia-hi/water-cleanup/",
         "/service-areas/royal-kunia-hi/burst-pipe-repair/",
         "/service-areas/royal-kunia-hi/mold-inspection-testing/",
         "/service-areas/royal-kunia-hi/carpet-cleaning/",
@@ -1991,9 +2487,9 @@
         "/service-areas/mililani-mauka-hi/mold-remediation/",
         "/service-areas/mililani-mauka-hi/water-damage-restoration/",
         "/service-areas/mililani-mauka-hi/commercial-restoration/",
+        "/service-areas/mililani-mauka-hi/emergency-water-removal/",
         "/service-areas/mililani-mauka-hi/flood-damage-restoration/",
         "/service-areas/mililani-mauka-hi/sewage-cleanup/",
-        "/service-areas/mililani-mauka-hi/water-cleanup/",
         "/service-areas/mililani-mauka-hi/burst-pipe-repair/",
         "/service-areas/mililani-mauka-hi/mold-inspection-testing/",
         "/service-areas/mililani-mauka-hi/carpet-cleaning/",
@@ -2039,9 +2535,9 @@
         "/service-areas/makakilo-hi/mold-remediation/",
         "/service-areas/makakilo-hi/water-damage-restoration/",
         "/service-areas/makakilo-hi/commercial-restoration/",
+        "/service-areas/makakilo-hi/emergency-water-removal/",
         "/service-areas/makakilo-hi/flood-damage-restoration/",
         "/service-areas/makakilo-hi/sewage-cleanup/",
-        "/service-areas/makakilo-hi/water-cleanup/",
         "/service-areas/makakilo-hi/burst-pipe-repair/",
         "/service-areas/makakilo-hi/mold-inspection-testing/",
         "/service-areas/makakilo-hi/carpet-cleaning/",
@@ -2087,9 +2583,9 @@
         "/service-areas/waianae-hi/mold-remediation/",
         "/service-areas/waianae-hi/water-damage-restoration/",
         "/service-areas/waianae-hi/commercial-restoration/",
+        "/service-areas/waianae-hi/emergency-water-removal/",
         "/service-areas/waianae-hi/flood-damage-restoration/",
         "/service-areas/waianae-hi/sewage-cleanup/",
-        "/service-areas/waianae-hi/water-cleanup/",
         "/service-areas/waianae-hi/burst-pipe-repair/",
         "/service-areas/waianae-hi/mold-inspection-testing/",
         "/service-areas/waianae-hi/carpet-cleaning/",
@@ -2107,9 +2603,9 @@
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Hawaii Kai, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Hawaii Kai",
-      "meta_description": "24/7 water damage restoration in Hawaii Kai, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Hawaii Kai, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Hawaii Kai",
+      "meta_description": "24/7 emergency water damage restoration in Hawaii Kai, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration hawaii kai",
       "secondary_keywords": [
         "water removal",
@@ -2151,9 +2647,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Hawaii Kai, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Hawaii Kai",
-      "meta_description": "24/7 flood damage restoration in Hawaii Kai, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Hawaii Kai, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Hawaii Kai",
+      "meta_description": "24/7 emergency flood damage restoration in Hawaii Kai, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration hawaii kai",
       "secondary_keywords": [
         "flood cleanup",
@@ -2195,9 +2691,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Hawaii Kai, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Hawaii Kai",
-      "meta_description": "24/7 burst pipe cleanup and repair in Hawaii Kai, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Burst Pipe Cleanup and Repair in Hawaii Kai, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Hawaii Kai",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Hawaii Kai, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair hawaii kai",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -2239,9 +2735,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Hawaii Kai, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Hawaii Kai",
-      "meta_description": "24/7 sewage cleanup and sanitization in Hawaii Kai, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Hawaii Kai, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Hawaii Kai",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Hawaii Kai, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization hawaii kai",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -2541,15 +3037,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/hawaii-kai-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Hawaii Kai, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Hawaii Kai",
+      "meta_description": "24/7 emergency water removal & cleanup in Hawaii Kai, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup hawaii kai",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/hawaii-kai-hi/",
+        "/service-areas/hawaii-kai-hi/mold-remediation/",
+        "/service-areas/hawaii-kai-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/kahala-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Kahala, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Kahala",
-      "meta_description": "24/7 water damage restoration in Kahala, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Kahala, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Kahala",
+      "meta_description": "24/7 emergency water damage restoration in Kahala, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration kahala",
       "secondary_keywords": [
         "water removal",
@@ -2591,9 +3132,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Kahala, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Kahala",
-      "meta_description": "24/7 flood damage restoration in Kahala, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Kahala, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Kahala",
+      "meta_description": "24/7 emergency flood damage restoration in Kahala, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration kahala",
       "secondary_keywords": [
         "flood cleanup",
@@ -2635,9 +3176,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Kahala, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Kahala",
-      "meta_description": "24/7 burst pipe cleanup and repair in Kahala, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Burst Pipe Cleanup and Repair in Kahala, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Kahala",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Kahala, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair kahala",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -2679,9 +3220,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Kahala, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Kahala",
-      "meta_description": "24/7 sewage cleanup and sanitization in Kahala, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Sewage Cleanup and Sanitization in Kahala, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Kahala",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Kahala, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization kahala",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -2981,15 +3522,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/kahala-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Kahala, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Kahala",
+      "meta_description": "24/7 emergency water removal & cleanup in Kahala, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup kahala",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/kahala-hi/",
+        "/service-areas/kahala-hi/mold-remediation/",
+        "/service-areas/kahala-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/aina-haina-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Aina Haina, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Aina Haina",
-      "meta_description": "24/7 water damage restoration in Aina Haina, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Aina Haina, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Aina Haina",
+      "meta_description": "24/7 emergency water damage restoration in Aina Haina, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration aina haina",
       "secondary_keywords": [
         "water removal",
@@ -3031,9 +3617,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Aina Haina, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Aina Haina",
-      "meta_description": "24/7 flood damage restoration in Aina Haina, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Aina Haina, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Aina Haina",
+      "meta_description": "24/7 emergency flood damage restoration in Aina Haina, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration aina haina",
       "secondary_keywords": [
         "flood cleanup",
@@ -3075,9 +3661,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Aina Haina, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Aina Haina",
-      "meta_description": "24/7 burst pipe cleanup and repair in Aina Haina, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Burst Pipe Cleanup and Repair in Aina Haina, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Aina Haina",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Aina Haina, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair aina haina",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -3119,9 +3705,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Aina Haina, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Aina Haina",
-      "meta_description": "24/7 sewage cleanup and sanitization in Aina Haina, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Aina Haina, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Aina Haina",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Aina Haina, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization aina haina",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -3421,15 +4007,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/aina-haina-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Aina Haina, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Aina Haina",
+      "meta_description": "24/7 emergency water removal & cleanup in Aina Haina, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup aina haina",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/",
+        "/service-areas/aina-haina-hi/mold-remediation/",
+        "/service-areas/aina-haina-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/diamond-head-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/kaimuki-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Kaimuki, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Kaimuki",
-      "meta_description": "24/7 water damage restoration in Kaimuki, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Kaimuki, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Kaimuki",
+      "meta_description": "24/7 emergency water damage restoration in Kaimuki, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration kaimuki",
       "secondary_keywords": [
         "water removal",
@@ -3471,9 +4102,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Kaimuki, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Kaimuki",
-      "meta_description": "24/7 flood damage restoration in Kaimuki, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Kaimuki, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Kaimuki",
+      "meta_description": "24/7 emergency flood damage restoration in Kaimuki, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration kaimuki",
       "secondary_keywords": [
         "flood cleanup",
@@ -3515,9 +4146,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Kaimuki, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Kaimuki",
-      "meta_description": "24/7 burst pipe cleanup and repair in Kaimuki, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Burst Pipe Cleanup and Repair in Kaimuki, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Kaimuki",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Kaimuki, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair kaimuki",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -3559,9 +4190,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Kaimuki, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Kaimuki",
-      "meta_description": "24/7 sewage cleanup and sanitization in Kaimuki, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Kaimuki, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Kaimuki",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Kaimuki, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization kaimuki",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -3861,15 +4492,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/kaimuki-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Kaimuki, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Kaimuki",
+      "meta_description": "24/7 emergency water removal & cleanup in Kaimuki, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup kaimuki",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/kaimuki-hi/",
+        "/service-areas/kaimuki-hi/mold-remediation/",
+        "/service-areas/kaimuki-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/diamond-head-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Diamond Head, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Diamond Head",
-      "meta_description": "24/7 water damage restoration in Diamond Head, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Diamond Head, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Diamond Head",
+      "meta_description": "24/7 emergency water damage restoration in Diamond Head, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration diamond head",
       "secondary_keywords": [
         "water removal",
@@ -3911,9 +4587,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Diamond Head, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Diamond Head",
-      "meta_description": "24/7 flood damage restoration in Diamond Head, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Diamond Head, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Diamond Head",
+      "meta_description": "24/7 emergency flood damage restoration in Diamond Head, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration diamond head",
       "secondary_keywords": [
         "flood cleanup",
@@ -3955,9 +4631,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Diamond Head, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Diamond Head",
-      "meta_description": "24/7 burst pipe cleanup and repair in Diamond Head, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Burst Pipe Cleanup and Repair in Diamond Head, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Diamond Head",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Diamond Head, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair diamond head",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -3999,9 +4675,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Diamond Head, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Diamond Head",
-      "meta_description": "24/7 sewage cleanup and sanitization in Diamond Head, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Diamond Head | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Diamond Head",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Diamond Head, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization diamond head",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -4301,15 +4977,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/diamond-head-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Diamond Head, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Diamond Head",
+      "meta_description": "24/7 emergency water removal & cleanup in Diamond Head, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup diamond head",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/diamond-head-hi/",
+        "/service-areas/diamond-head-hi/mold-remediation/",
+        "/service-areas/diamond-head-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/kailua-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Kailua, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Kailua",
-      "meta_description": "24/7 water damage restoration in Kailua, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Kailua, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Kailua",
+      "meta_description": "24/7 emergency water damage restoration in Kailua, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration kailua",
       "secondary_keywords": [
         "water removal",
@@ -4351,9 +5072,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Kailua, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Kailua",
-      "meta_description": "24/7 flood damage restoration in Kailua, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Kailua, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Kailua",
+      "meta_description": "24/7 emergency flood damage restoration in Kailua, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration kailua",
       "secondary_keywords": [
         "flood cleanup",
@@ -4395,9 +5116,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Kailua, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Kailua",
-      "meta_description": "24/7 burst pipe cleanup and repair in Kailua, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Burst Pipe Cleanup and Repair in Kailua, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Kailua",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Kailua, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair kailua",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -4439,9 +5160,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Kailua, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Kailua",
-      "meta_description": "24/7 sewage cleanup and sanitization in Kailua, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Sewage Cleanup and Sanitization in Kailua, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Kailua",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Kailua, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization kailua",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -4741,15 +5462,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/kailua-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Kailua, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Kailua",
+      "meta_description": "24/7 emergency water removal & cleanup in Kailua, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup kailua",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/kailua-hi/",
+        "/service-areas/kailua-hi/mold-remediation/",
+        "/service-areas/kailua-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/kaneohe-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Kaneohe, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Kaneohe",
-      "meta_description": "24/7 water damage restoration in Kaneohe, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Kaneohe, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Kaneohe",
+      "meta_description": "24/7 emergency water damage restoration in Kaneohe, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration kaneohe",
       "secondary_keywords": [
         "water removal",
@@ -4791,9 +5557,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Kaneohe, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Kaneohe",
-      "meta_description": "24/7 flood damage restoration in Kaneohe, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Kaneohe, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Kaneohe",
+      "meta_description": "24/7 emergency flood damage restoration in Kaneohe, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration kaneohe",
       "secondary_keywords": [
         "flood cleanup",
@@ -4835,9 +5601,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Kaneohe, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Kaneohe",
-      "meta_description": "24/7 burst pipe cleanup and repair in Kaneohe, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Burst Pipe Cleanup and Repair in Kaneohe, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Kaneohe",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Kaneohe, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair kaneohe",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -4879,9 +5645,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Kaneohe, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Kaneohe",
-      "meta_description": "24/7 sewage cleanup and sanitization in Kaneohe, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Kaneohe, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Kaneohe",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Kaneohe, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization kaneohe",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -5181,15 +5947,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/kaneohe-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Kaneohe, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Kaneohe",
+      "meta_description": "24/7 emergency water removal & cleanup in Kaneohe, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup kaneohe",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/kaneohe-hi/",
+        "/service-areas/kaneohe-hi/mold-remediation/",
+        "/service-areas/kaneohe-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/pearl-city-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Pearl City, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Pearl City",
-      "meta_description": "24/7 water damage restoration in Pearl City, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Pearl City, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Pearl City",
+      "meta_description": "24/7 emergency water damage restoration in Pearl City, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration pearl city",
       "secondary_keywords": [
         "water removal",
@@ -5231,9 +6042,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Pearl City, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Pearl City",
-      "meta_description": "24/7 flood damage restoration in Pearl City, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Pearl City, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Pearl City",
+      "meta_description": "24/7 emergency flood damage restoration in Pearl City, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration pearl city",
       "secondary_keywords": [
         "flood cleanup",
@@ -5275,9 +6086,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Pearl City, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Pearl City",
-      "meta_description": "24/7 burst pipe cleanup and repair in Pearl City, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Burst Pipe Cleanup and Repair in Pearl City, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Pearl City",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Pearl City, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair pearl city",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -5319,9 +6130,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Pearl City, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Pearl City",
-      "meta_description": "24/7 sewage cleanup and sanitization in Pearl City, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Pearl City, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Pearl City",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Pearl City, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization pearl city",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -5621,15 +6432,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/pearl-city-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Pearl City, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Pearl City",
+      "meta_description": "24/7 emergency water removal & cleanup in Pearl City, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup pearl city",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/pearl-city-hi/",
+        "/service-areas/pearl-city-hi/mold-remediation/",
+        "/service-areas/pearl-city-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/aiea-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Aiea, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Aiea",
-      "meta_description": "24/7 water damage restoration in Aiea, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Aiea, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Aiea",
+      "meta_description": "24/7 emergency water damage restoration in Aiea, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration aiea",
       "secondary_keywords": [
         "water removal",
@@ -5671,9 +6527,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Aiea, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Aiea",
-      "meta_description": "24/7 flood damage restoration in Aiea, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Aiea, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Aiea",
+      "meta_description": "24/7 emergency flood damage restoration in Aiea, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration aiea",
       "secondary_keywords": [
         "flood cleanup",
@@ -5715,9 +6571,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Aiea, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Aiea",
-      "meta_description": "24/7 burst pipe cleanup and repair in Aiea, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Burst Pipe Cleanup and Repair in Aiea, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Aiea",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Aiea, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair aiea",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -5759,9 +6615,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Aiea, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Aiea",
-      "meta_description": "24/7 sewage cleanup and sanitization in Aiea, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Sewage Cleanup and Sanitization in Aiea, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Aiea",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Aiea, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization aiea",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -6061,15 +6917,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/aiea-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Aiea, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Aiea",
+      "meta_description": "24/7 emergency water removal & cleanup in Aiea, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup aiea",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/aiea-hi/",
+        "/service-areas/aiea-hi/mold-remediation/",
+        "/service-areas/aiea-hi/water-damage-restoration/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/service-areas/diamond-head-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/ewa-beach-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Ewa Beach, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Ewa Beach",
-      "meta_description": "24/7 water damage restoration in Ewa Beach, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Ewa Beach, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Ewa Beach",
+      "meta_description": "24/7 emergency water damage restoration in Ewa Beach, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration ewa beach",
       "secondary_keywords": [
         "water removal",
@@ -6111,9 +7012,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Ewa Beach, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Ewa Beach",
-      "meta_description": "24/7 flood damage restoration in Ewa Beach, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Ewa Beach, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Ewa Beach",
+      "meta_description": "24/7 emergency flood damage restoration in Ewa Beach, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration ewa beach",
       "secondary_keywords": [
         "flood cleanup",
@@ -6155,9 +7056,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Ewa Beach, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Ewa Beach",
-      "meta_description": "24/7 burst pipe cleanup and repair in Ewa Beach, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Burst Pipe Cleanup and Repair in Ewa Beach, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Ewa Beach",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Ewa Beach, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair ewa beach",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -6199,9 +7100,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Ewa Beach, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Ewa Beach",
-      "meta_description": "24/7 sewage cleanup and sanitization in Ewa Beach, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Ewa Beach, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Ewa Beach",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Ewa Beach, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization ewa beach",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -6501,15 +7402,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/ewa-beach-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Ewa Beach, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Ewa Beach",
+      "meta_description": "24/7 emergency water removal & cleanup in Ewa Beach, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup ewa beach",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/ewa-beach-hi/",
+        "/service-areas/ewa-beach-hi/mold-remediation/",
+        "/service-areas/ewa-beach-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/kapolei-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Kapolei",
-      "meta_description": "24/7 water damage restoration in Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Kapolei",
+      "meta_description": "24/7 emergency water damage restoration in Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration kapolei",
       "secondary_keywords": [
         "water removal",
@@ -6551,9 +7497,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Kapolei",
-      "meta_description": "24/7 flood damage restoration in Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Kapolei",
+      "meta_description": "24/7 emergency flood damage restoration in Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration kapolei",
       "secondary_keywords": [
         "flood cleanup",
@@ -6595,9 +7541,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Kapolei",
-      "meta_description": "24/7 burst pipe cleanup and repair in Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Burst Pipe Cleanup and Repair in Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Kapolei",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair kapolei",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -6639,9 +7585,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Kapolei",
-      "meta_description": "24/7 sewage cleanup and sanitization in Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Kapolei",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization kapolei",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -6941,15 +7887,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/kapolei-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Kapolei",
+      "meta_description": "24/7 emergency water removal & cleanup in Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup kapolei",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/kapolei-hi/",
+        "/service-areas/kapolei-hi/mold-remediation/",
+        "/service-areas/kapolei-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/mililani-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Mililani, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Mililani",
-      "meta_description": "24/7 water damage restoration in Mililani, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Mililani, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Mililani",
+      "meta_description": "24/7 emergency water damage restoration in Mililani, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration mililani",
       "secondary_keywords": [
         "water removal",
@@ -6991,9 +7982,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Mililani, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Mililani",
-      "meta_description": "24/7 flood damage restoration in Mililani, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Mililani, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Mililani",
+      "meta_description": "24/7 emergency flood damage restoration in Mililani, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration mililani",
       "secondary_keywords": [
         "flood cleanup",
@@ -7035,9 +8026,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Mililani, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Mililani",
-      "meta_description": "24/7 burst pipe cleanup and repair in Mililani, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Burst Pipe Cleanup and Repair in Mililani, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Mililani",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Mililani, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair mililani",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -7079,9 +8070,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Mililani, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Mililani",
-      "meta_description": "24/7 sewage cleanup and sanitization in Mililani, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Mililani, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Mililani",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Mililani, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization mililani",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -7381,15 +8372,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/mililani-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Mililani, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Mililani",
+      "meta_description": "24/7 emergency water removal & cleanup in Mililani, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup mililani",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/mililani-hi/",
+        "/service-areas/mililani-hi/mold-remediation/",
+        "/service-areas/mililani-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/urban-honolulu-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Urban Honolulu, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Urban Honolulu",
-      "meta_description": "24/7 water damage restoration in Urban Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Water Damage Restoration in Urban Honolulu, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Urban Honolulu",
+      "meta_description": "24/7 emergency water damage restoration in Urban Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration urban honolulu",
       "secondary_keywords": [
         "water removal",
@@ -7431,9 +8467,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Urban Honolulu, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Urban Honolulu",
-      "meta_description": "24/7 flood damage restoration in Urban Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Flood Damage Restoration in Urban Honolulu, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Urban Honolulu",
+      "meta_description": "24/7 emergency flood damage restoration in Urban Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration urban honolulu",
       "secondary_keywords": [
         "flood cleanup",
@@ -7475,9 +8511,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Urban Honolulu, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Urban Honolulu",
-      "meta_description": "24/7 burst pipe cleanup and repair in Urban Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Burst Pipe Cleanup and Repair in Urban Honolulu | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Urban Honolulu",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Urban Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair urban honolulu",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -7519,9 +8555,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Urban Honolulu, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Urban Honolulu",
-      "meta_description": "24/7 sewage cleanup and sanitization in Urban Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Urban Honolulu | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Urban Honolulu",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Urban Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization urban honolulu",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -7821,15 +8857,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/urban-honolulu-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Urban Honolulu, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Urban Honolulu",
+      "meta_description": "24/7 emergency water removal & cleanup in Urban Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup urban honolulu",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/urban-honolulu-hi/",
+        "/service-areas/urban-honolulu-hi/mold-remediation/",
+        "/service-areas/urban-honolulu-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/hickam-housing-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Hickam Housing, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Hickam Housing",
-      "meta_description": "24/7 water damage restoration in Hickam Housing, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Water Damage Restoration in Hickam Housing, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Hickam Housing",
+      "meta_description": "24/7 emergency water damage restoration in Hickam Housing, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration hickam housing",
       "secondary_keywords": [
         "water removal",
@@ -7871,9 +8952,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Hickam Housing, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Hickam Housing",
-      "meta_description": "24/7 flood damage restoration in Hickam Housing, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Flood Damage Restoration in Hickam Housing, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Hickam Housing",
+      "meta_description": "24/7 emergency flood damage restoration in Hickam Housing, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration hickam housing",
       "secondary_keywords": [
         "flood cleanup",
@@ -7915,9 +8996,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Hickam Housing, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Hickam Housing",
-      "meta_description": "24/7 burst pipe cleanup and repair in Hickam Housing, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Burst Pipe Cleanup and Repair in Hickam Housing | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Hickam Housing",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Hickam Housing, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair hickam housing",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -7959,9 +9040,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Hickam Housing, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Hickam Housing",
-      "meta_description": "24/7 sewage cleanup and sanitization in Hickam Housing, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Hickam Housing | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Hickam Housing",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Hickam Housing, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization hickam housing",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -8261,15 +9342,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/hickam-housing-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Hickam Housing, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Hickam Housing",
+      "meta_description": "24/7 emergency water removal & cleanup in Hickam Housing, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup hickam housing",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/hickam-housing-hi/",
+        "/service-areas/hickam-housing-hi/mold-remediation/",
+        "/service-areas/hickam-housing-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/east-honolulu-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in East Honolulu, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in East Honolulu",
-      "meta_description": "24/7 water damage restoration in East Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in East Honolulu, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in East Honolulu",
+      "meta_description": "24/7 emergency water damage restoration in East Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration east honolulu",
       "secondary_keywords": [
         "water removal",
@@ -8311,9 +9437,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in East Honolulu, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in East Honolulu",
-      "meta_description": "24/7 flood damage restoration in East Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in East Honolulu, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in East Honolulu",
+      "meta_description": "24/7 emergency flood damage restoration in East Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration east honolulu",
       "secondary_keywords": [
         "flood cleanup",
@@ -8355,9 +9481,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in East Honolulu, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in East Honolulu",
-      "meta_description": "24/7 burst pipe cleanup and repair in East Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Burst Pipe Cleanup and Repair in East Honolulu, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in East Honolulu",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in East Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair east honolulu",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -8399,9 +9525,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in East Honolulu, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in East Honolulu",
-      "meta_description": "24/7 sewage cleanup and sanitization in East Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in East Honolulu | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in East Honolulu",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in East Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization east honolulu",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -8701,15 +9827,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/east-honolulu-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in East Honolulu, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in East Honolulu",
+      "meta_description": "24/7 emergency water removal & cleanup in East Honolulu, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup east honolulu",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/east-honolulu-hi/",
+        "/service-areas/east-honolulu-hi/mold-remediation/",
+        "/service-areas/east-honolulu-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/waimanalo-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Waimanalo, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Waimanalo",
-      "meta_description": "24/7 water damage restoration in Waimanalo, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Waimanalo, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Waimanalo",
+      "meta_description": "24/7 emergency water damage restoration in Waimanalo, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration waimanalo",
       "secondary_keywords": [
         "water removal",
@@ -8751,9 +9922,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Waimanalo, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Waimanalo",
-      "meta_description": "24/7 flood damage restoration in Waimanalo, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Waimanalo, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Waimanalo",
+      "meta_description": "24/7 emergency flood damage restoration in Waimanalo, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration waimanalo",
       "secondary_keywords": [
         "flood cleanup",
@@ -8795,9 +9966,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Waimanalo, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Waimanalo",
-      "meta_description": "24/7 burst pipe cleanup and repair in Waimanalo, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Burst Pipe Cleanup and Repair in Waimanalo, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Waimanalo",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Waimanalo, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair waimanalo",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -8839,9 +10010,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Waimanalo, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Waimanalo",
-      "meta_description": "24/7 sewage cleanup and sanitization in Waimanalo, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Waimanalo, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Waimanalo",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Waimanalo, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization waimanalo",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -9141,15 +10312,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/waimanalo-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Waimanalo, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Waimanalo",
+      "meta_description": "24/7 emergency water removal & cleanup in Waimanalo, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup waimanalo",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/waimanalo-hi/",
+        "/service-areas/waimanalo-hi/mold-remediation/",
+        "/service-areas/waimanalo-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/heeia-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Heeia, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Heeia",
-      "meta_description": "24/7 water damage restoration in Heeia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Heeia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Heeia",
+      "meta_description": "24/7 emergency water damage restoration in Heeia, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration heeia",
       "secondary_keywords": [
         "water removal",
@@ -9191,9 +10407,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Heeia, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Heeia",
-      "meta_description": "24/7 flood damage restoration in Heeia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Heeia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Heeia",
+      "meta_description": "24/7 emergency flood damage restoration in Heeia, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration heeia",
       "secondary_keywords": [
         "flood cleanup",
@@ -9235,9 +10451,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Heeia, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Heeia",
-      "meta_description": "24/7 burst pipe cleanup and repair in Heeia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Burst Pipe Cleanup and Repair in Heeia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Heeia",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Heeia, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair heeia",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -9279,9 +10495,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Heeia, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Heeia",
-      "meta_description": "24/7 sewage cleanup and sanitization in Heeia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Sewage Cleanup and Sanitization in Heeia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Heeia",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Heeia, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization heeia",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -9581,15 +10797,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/heeia-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Heeia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Heeia",
+      "meta_description": "24/7 emergency water removal & cleanup in Heeia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup heeia",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/heeia-hi/",
+        "/service-areas/heeia-hi/mold-remediation/",
+        "/service-areas/heeia-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/kahaluu-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Kahaluu, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Kahaluu",
-      "meta_description": "24/7 water damage restoration in Kahaluu, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Kahaluu, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Kahaluu",
+      "meta_description": "24/7 emergency water damage restoration in Kahaluu, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration kahaluu",
       "secondary_keywords": [
         "water removal",
@@ -9631,9 +10892,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Kahaluu, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Kahaluu",
-      "meta_description": "24/7 flood damage restoration in Kahaluu, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Kahaluu, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Kahaluu",
+      "meta_description": "24/7 emergency flood damage restoration in Kahaluu, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration kahaluu",
       "secondary_keywords": [
         "flood cleanup",
@@ -9675,9 +10936,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Kahaluu, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Kahaluu",
-      "meta_description": "24/7 burst pipe cleanup and repair in Kahaluu, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Burst Pipe Cleanup and Repair in Kahaluu, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Kahaluu",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Kahaluu, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair kahaluu",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -9719,9 +10980,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Kahaluu, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Kahaluu",
-      "meta_description": "24/7 sewage cleanup and sanitization in Kahaluu, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Kahaluu, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Kahaluu",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Kahaluu, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization kahaluu",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -10021,15 +11282,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/kahaluu-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Kahaluu, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Kahaluu",
+      "meta_description": "24/7 emergency water removal & cleanup in Kahaluu, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup kahaluu",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/kahaluu-hi/",
+        "/service-areas/kahaluu-hi/mold-remediation/",
+        "/service-areas/kahaluu-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/kaneohe-base-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Kaneohe Base, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Kaneohe Base",
-      "meta_description": "24/7 water damage restoration in Kaneohe Base, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Kaneohe Base, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Kaneohe Base",
+      "meta_description": "24/7 emergency water damage restoration in Kaneohe Base, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration kaneohe base",
       "secondary_keywords": [
         "water removal",
@@ -10071,9 +11377,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Kaneohe Base, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Kaneohe Base",
-      "meta_description": "24/7 flood damage restoration in Kaneohe Base, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Kaneohe Base, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Kaneohe Base",
+      "meta_description": "24/7 emergency flood damage restoration in Kaneohe Base, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration kaneohe base",
       "secondary_keywords": [
         "flood cleanup",
@@ -10115,9 +11421,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Kaneohe Base, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Kaneohe Base",
-      "meta_description": "24/7 burst pipe cleanup and repair in Kaneohe Base, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Burst Pipe Cleanup and Repair in Kaneohe Base, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Kaneohe Base",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Kaneohe Base, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair kaneohe base",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -10159,9 +11465,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Kaneohe Base, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Kaneohe Base",
-      "meta_description": "24/7 sewage cleanup and sanitization in Kaneohe Base, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Kaneohe Base | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Kaneohe Base",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Kaneohe Base, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization kaneohe base",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -10461,15 +11767,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/kaneohe-base-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Kaneohe Base, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Kaneohe Base",
+      "meta_description": "24/7 emergency water removal & cleanup in Kaneohe Base, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup kaneohe base",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/kaneohe-base-hi/",
+        "/service-areas/kaneohe-base-hi/mold-remediation/",
+        "/service-areas/kaneohe-base-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/east-kapolei-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in East Kapolei",
-      "meta_description": "24/7 water damage restoration in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in East Kapolei",
+      "meta_description": "24/7 emergency water damage restoration in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration east kapolei",
       "secondary_keywords": [
         "water removal",
@@ -10511,9 +11862,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in East Kapolei",
-      "meta_description": "24/7 flood damage restoration in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in East Kapolei",
+      "meta_description": "24/7 emergency flood damage restoration in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration east kapolei",
       "secondary_keywords": [
         "flood cleanup",
@@ -10555,9 +11906,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in East Kapolei",
-      "meta_description": "24/7 burst pipe cleanup and repair in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Burst Pipe Cleanup and Repair in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in East Kapolei",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair east kapolei",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -10599,9 +11950,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in East Kapolei",
-      "meta_description": "24/7 sewage cleanup and sanitization in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in East Kapolei | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in East Kapolei",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization east kapolei",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -10901,15 +12252,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/east-kapolei-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in East Kapolei, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in East Kapolei",
+      "meta_description": "24/7 emergency water removal & cleanup in East Kapolei, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup east kapolei",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/east-kapolei-hi/",
+        "/service-areas/east-kapolei-hi/mold-remediation/",
+        "/service-areas/east-kapolei-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/waiahole-waikane-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Waiahole-Waikane, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Waiahole-Waikane",
-      "meta_description": "24/7 water damage restoration in Waiahole-Waikane, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Water Damage Restoration in Waiahole-Waikane, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Waiahole-Waikane",
+      "meta_description": "24/7 emergency water damage restoration in Waiahole-Waikane, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration waiahole-waikane",
       "secondary_keywords": [
         "water removal",
@@ -10951,9 +12347,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Waiahole-Waikane, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Waiahole-Waikane",
-      "meta_description": "24/7 flood damage restoration in Waiahole-Waikane, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Flood Damage Restoration in Waiahole-Waikane, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Waiahole-Waikane",
+      "meta_description": "24/7 emergency flood damage restoration in Waiahole-Waikane, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration waiahole-waikane",
       "secondary_keywords": [
         "flood cleanup",
@@ -10995,9 +12391,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Waiahole-Waikane, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Waiahole-Waikane",
-      "meta_description": "24/7 burst pipe cleanup and repair in Waiahole-Waikane, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Burst Pipe Cleanup and Repair in Waiahole-Waikane | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Waiahole-Waikane",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Waiahole-Waikane, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair waiahole-waikane",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -11039,9 +12435,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Waiahole-Waikane, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Waiahole-Waikane",
-      "meta_description": "24/7 sewage cleanup and sanitization in Waiahole-Waikane, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Waiahole-Waikane | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Waiahole-Waikane",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Waiahole-Waikane, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization waiahole-waikane",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -11341,15 +12737,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/waiahole-waikane-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Waiahole-Waikane, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Waiahole-Waikane",
+      "meta_description": "24/7 emergency water removal & cleanup in Waiahole-Waikane, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup waiahole-waikane",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/waiahole-waikane-hi/",
+        "/service-areas/waiahole-waikane-hi/mold-remediation/",
+        "/service-areas/waiahole-waikane-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/kalaeloa-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Kalaeloa",
-      "meta_description": "24/7 water damage restoration in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Kalaeloa",
+      "meta_description": "24/7 emergency water damage restoration in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration kalaeloa",
       "secondary_keywords": [
         "water removal",
@@ -11391,9 +12832,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Kalaeloa",
-      "meta_description": "24/7 flood damage restoration in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Kalaeloa",
+      "meta_description": "24/7 emergency flood damage restoration in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration kalaeloa",
       "secondary_keywords": [
         "flood cleanup",
@@ -11435,9 +12876,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Kalaeloa",
-      "meta_description": "24/7 burst pipe cleanup and repair in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Burst Pipe Cleanup and Repair in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Kalaeloa",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair kalaeloa",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -11479,9 +12920,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Kalaeloa",
-      "meta_description": "24/7 sewage cleanup and sanitization in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Kalaeloa",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization kalaeloa",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -11781,15 +13222,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/kalaeloa-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Kalaeloa, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Kalaeloa",
+      "meta_description": "24/7 emergency water removal & cleanup in Kalaeloa, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup kalaeloa",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/kalaeloa-hi/",
+        "/service-areas/kalaeloa-hi/mold-remediation/",
+        "/service-areas/kalaeloa-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/mililani-town-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Mililani Town, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Mililani Town",
-      "meta_description": "24/7 water damage restoration in Mililani Town, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Mililani Town, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Mililani Town",
+      "meta_description": "24/7 emergency water damage restoration in Mililani Town, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration mililani town",
       "secondary_keywords": [
         "water removal",
@@ -11831,9 +13317,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Mililani Town, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Mililani Town",
-      "meta_description": "24/7 flood damage restoration in Mililani Town, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Mililani Town, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Mililani Town",
+      "meta_description": "24/7 emergency flood damage restoration in Mililani Town, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration mililani town",
       "secondary_keywords": [
         "flood cleanup",
@@ -11875,9 +13361,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Mililani Town, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Mililani Town",
-      "meta_description": "24/7 burst pipe cleanup and repair in Mililani Town, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Burst Pipe Cleanup and Repair in Mililani Town, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Mililani Town",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Mililani Town, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair mililani town",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -11919,9 +13405,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Mililani Town, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Mililani Town",
-      "meta_description": "24/7 sewage cleanup and sanitization in Mililani Town, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Mililani Town | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Mililani Town",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Mililani Town, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization mililani town",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -12221,15 +13707,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/mililani-town-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Mililani Town, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Mililani Town",
+      "meta_description": "24/7 emergency water removal & cleanup in Mililani Town, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup mililani town",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/mililani-town-hi/",
+        "/service-areas/mililani-town-hi/mold-remediation/",
+        "/service-areas/mililani-town-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/royal-kunia-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Royal Kunia",
-      "meta_description": "24/7 water damage restoration in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Royal Kunia",
+      "meta_description": "24/7 emergency water damage restoration in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration royal kunia",
       "secondary_keywords": [
         "water removal",
@@ -12271,9 +13802,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Royal Kunia",
-      "meta_description": "24/7 flood damage restoration in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Royal Kunia",
+      "meta_description": "24/7 emergency flood damage restoration in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration royal kunia",
       "secondary_keywords": [
         "flood cleanup",
@@ -12315,9 +13846,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Royal Kunia",
-      "meta_description": "24/7 burst pipe cleanup and repair in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Burst Pipe Cleanup and Repair in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Royal Kunia",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair royal kunia",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -12359,9 +13890,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Royal Kunia",
-      "meta_description": "24/7 sewage cleanup and sanitization in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Royal Kunia",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization royal kunia",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -12661,15 +14192,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/royal-kunia-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Royal Kunia, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Royal Kunia",
+      "meta_description": "24/7 emergency water removal & cleanup in Royal Kunia, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup royal kunia",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/royal-kunia-hi/",
+        "/service-areas/royal-kunia-hi/mold-remediation/",
+        "/service-areas/royal-kunia-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/mililani-mauka-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Mililani Mauka, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Mililani Mauka",
-      "meta_description": "24/7 water damage restoration in Mililani Mauka, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Water Damage Restoration in Mililani Mauka, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Mililani Mauka",
+      "meta_description": "24/7 emergency water damage restoration in Mililani Mauka, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration mililani mauka",
       "secondary_keywords": [
         "water removal",
@@ -12711,9 +14287,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Mililani Mauka, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Mililani Mauka",
-      "meta_description": "24/7 flood damage restoration in Mililani Mauka, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Flood Damage Restoration in Mililani Mauka, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Mililani Mauka",
+      "meta_description": "24/7 emergency flood damage restoration in Mililani Mauka, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration mililani mauka",
       "secondary_keywords": [
         "flood cleanup",
@@ -12755,9 +14331,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Mililani Mauka, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Mililani Mauka",
-      "meta_description": "24/7 burst pipe cleanup and repair in Mililani Mauka, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Burst Pipe Cleanup and Repair in Mililani Mauka | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Mililani Mauka",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Mililani Mauka, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair mililani mauka",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -12799,9 +14375,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Mililani Mauka, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Mililani Mauka",
-      "meta_description": "24/7 sewage cleanup and sanitization in Mililani Mauka, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Mililani Mauka | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Mililani Mauka",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Mililani Mauka, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization mililani mauka",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -13101,15 +14677,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/mililani-mauka-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Mililani Mauka, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Mililani Mauka",
+      "meta_description": "24/7 emergency water removal & cleanup in Mililani Mauka, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup mililani mauka",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/mililani-mauka-hi/",
+        "/service-areas/mililani-mauka-hi/mold-remediation/",
+        "/service-areas/mililani-mauka-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/makakilo-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Makakilo, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Makakilo",
-      "meta_description": "24/7 water damage restoration in Makakilo, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Makakilo, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Makakilo",
+      "meta_description": "24/7 emergency water damage restoration in Makakilo, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration makakilo",
       "secondary_keywords": [
         "water removal",
@@ -13151,9 +14772,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Makakilo, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Makakilo",
-      "meta_description": "24/7 flood damage restoration in Makakilo, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Makakilo, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Makakilo",
+      "meta_description": "24/7 emergency flood damage restoration in Makakilo, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration makakilo",
       "secondary_keywords": [
         "flood cleanup",
@@ -13195,9 +14816,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Makakilo, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Makakilo",
-      "meta_description": "24/7 burst pipe cleanup and repair in Makakilo, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Burst Pipe Cleanup and Repair in Makakilo, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Makakilo",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Makakilo, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair makakilo",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -13239,9 +14860,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Makakilo, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Makakilo",
-      "meta_description": "24/7 sewage cleanup and sanitization in Makakilo, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Makakilo, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Makakilo",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Makakilo, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization makakilo",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -13541,15 +15162,60 @@
       ]
     },
     {
+      "url_path": "/service-areas/makakilo-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Makakilo, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Makakilo",
+      "meta_description": "24/7 emergency water removal & cleanup in Makakilo, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup makakilo",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/makakilo-hi/",
+        "/service-areas/makakilo-hi/mold-remediation/",
+        "/service-areas/makakilo-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/waianae-hi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
         "area",
         "service"
       ],
-      "title": "Water Damage Restoration in Waianae, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Water Damage Restoration in Waianae",
-      "meta_description": "24/7 water damage restoration in Waianae, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Water Damage Restoration in Waianae, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Damage Restoration in Waianae",
+      "meta_description": "24/7 emergency water damage restoration in Waianae, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "water damage restoration waianae",
       "secondary_keywords": [
         "water removal",
@@ -13591,9 +15257,9 @@
         "area",
         "service"
       ],
-      "title": "Flood Damage Restoration in Waianae, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Flood Damage Restoration in Waianae",
-      "meta_description": "24/7 flood damage restoration in Waianae, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Flood Damage Restoration in Waianae, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Flood Damage Restoration in Waianae",
+      "meta_description": "24/7 emergency flood damage restoration in Waianae, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "flood damage restoration waianae",
       "secondary_keywords": [
         "flood cleanup",
@@ -13635,9 +15301,9 @@
         "area",
         "service"
       ],
-      "title": "Burst Pipe Cleanup and Repair in Waianae, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Burst Pipe Cleanup and Repair in Waianae",
-      "meta_description": "24/7 burst pipe cleanup and repair in Waianae, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "24/7 Emergency Burst Pipe Cleanup and Repair in Waianae, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Waianae",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Waianae, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "burst pipe cleanup and repair waianae",
       "secondary_keywords": [
         "burst pipe cleanup",
@@ -13679,9 +15345,9 @@
         "area",
         "service"
       ],
-      "title": "Sewage Cleanup and Sanitization in Waianae, HI | AAA Water Damage Restoration & Carpet Care",
-      "h1": "Sewage Cleanup and Sanitization in Waianae",
-      "meta_description": "24/7 sewage cleanup and sanitization in Waianae, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "title": "Emergency Sewage Cleanup and Sanitization in Waianae, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Waianae",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Waianae, HI. Insurance billing accepted. Call (808) 349-3407.",
       "primary_keyword": "sewage cleanup and sanitization waianae",
       "secondary_keywords": [
         "sewage backup cleanup",
@@ -13981,6 +15647,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/waianae-hi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Waianae, HI | AAA Water Damage Restoration & Carpet Care",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Waianae",
+      "meta_description": "24/7 emergency water removal & cleanup in Waianae, HI. Insurance billing accepted. Call (808) 349-3407.",
+      "primary_keyword": "emergency water removal & cleanup waianae",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/waianae-hi/",
+        "/service-areas/waianae-hi/mold-remediation/",
+        "/service-areas/waianae-hi/water-damage-restoration/",
+        "/service-areas/aiea-hi/emergency-water-removal/",
+        "/service-areas/aina-haina-hi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/blog/what-to-do-first-24-hours-water-damage/",
       "archetype": "blog-post",
       "vars_keys": [
@@ -14164,6 +15875,43 @@
       ]
     },
     {
+      "url_path": "/blog/fire-damage-restoration-process/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "The Fire Damage Restoration Process, Explained",
+      "h1": "The Fire Damage Restoration Process, Explained",
+      "meta_description": "",
+      "primary_keyword": "the fire damage restoration process explained",
+      "secondary_keywords": [
+        "fire damage restoration",
+        "smoke damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/smoke-odor-removal-techniques/"
+      ]
+    },
+    {
       "url_path": "/blog/choosing-a-restoration-company/",
       "archetype": "blog-post",
       "vars_keys": [
@@ -14195,6 +15943,7 @@
       "status": "planned",
       "internal_links_out": [
         "/blog/",
+        "/services/fire-damage-restoration/",
         "/services/mold-remediation/",
         "/services/water-damage-restoration/",
         "/blog/burst-pipe-emergency-checklist/",
@@ -14236,6 +15985,39 @@
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/storm-damage-insurance-claim-checklist/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Storm Damage Insurance Claim Checklist (Use This Before You Call Your Insurer)",
+      "h1": "Storm Damage Insurance Claim Checklist (Use This Before You Call Your Insurer)",
+      "meta_description": "",
+      "primary_keyword": "storm damage insurance claim checklist use this before you call your insurer",
+      "secondary_keywords": [
+        "storm damage restoration"
+      ],
+      "search_intent": "informational_insurance",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/storm-damage-restoration/"
       ]
     },
     {
@@ -14313,19 +16095,20 @@
       ]
     },
     {
-      "url_path": "/blog/sewage-backup-health-risks/",
+      "url_path": "/blog/smoke-odor-removal-techniques/",
       "archetype": "blog-post",
       "vars_keys": [
         "post"
       ],
-      "title": "Why You Can't DIY Sewage Backup: The Health Risks Nobody Warns You About",
-      "h1": "Why You Can't DIY Sewage Backup: The Health Risks Nobody Warns You About",
+      "title": "How Professionals Remove Smoke Odor (and Why DIY Usually Fails)",
+      "h1": "How Professionals Remove Smoke Odor (and Why DIY Usually Fails)",
       "meta_description": "",
-      "primary_keyword": "why you cant diy sewage backup the health risks nobody warns you about",
+      "primary_keyword": "how professionals remove smoke odor and why diy usually fails",
       "secondary_keywords": [
-        "sewage cleanup and sanitization"
+        "smoke damage restoration",
+        "fire damage restoration"
       ],
-      "search_intent": "informational_health",
+      "search_intent": "informational_specialty",
       "target_word_count": 1400,
       "image_roles": [
         "hero",
@@ -14342,81 +16125,10 @@
       "status": "planned",
       "internal_links_out": [
         "/blog/",
-        "/services/sewage-cleanup/"
-      ]
-    },
-    {
-      "url_path": "/blog/basement-flooding-prevention/",
-      "archetype": "blog-post",
-      "vars_keys": [
-        "post"
-      ],
-      "title": "8 Ways To Prevent Basement Flooding This Season",
-      "h1": "8 Ways To Prevent Basement Flooding This Season",
-      "meta_description": "",
-      "primary_keyword": "8 ways to prevent basement flooding this season",
-      "secondary_keywords": [
-        "water damage restoration"
-      ],
-      "search_intent": "informational_prevention",
-      "target_word_count": 1400,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "blog-posting",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.2,
-      "status": "planned",
-      "internal_links_out": [
-        "/blog/",
-        "/services/water-damage-restoration/",
-        "/blog/burst-pipe-emergency-checklist/",
-        "/blog/what-to-do-first-24-hours-water-damage/",
-        "/blog/choosing-a-restoration-company/"
-      ]
-    },
-    {
-      "url_path": "/blog/commercial-water-damage-business-continuity/",
-      "archetype": "blog-post",
-      "vars_keys": [
-        "post"
-      ],
-      "title": "Commercial Water Damage: Protecting Business Continuity After a Loss",
-      "h1": "Commercial Water Damage: Protecting Business Continuity After a Loss",
-      "meta_description": "",
-      "primary_keyword": "commercial water damage protecting business continuity after a loss",
-      "secondary_keywords": [
-        "commercial restoration",
-        "water damage restoration"
-      ],
-      "search_intent": "informational_b2b",
-      "target_word_count": 1400,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "blog-posting",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.2,
-      "status": "planned",
-      "internal_links_out": [
-        "/blog/",
-        "/services/water-damage-restoration/",
-        "/services/commercial-restoration/",
-        "/blog/burst-pipe-emergency-checklist/",
-        "/blog/what-to-do-first-24-hours-water-damage/",
-        "/blog/choosing-a-restoration-company/"
+        "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/fire-damage-restoration-process/"
       ]
     },
     {

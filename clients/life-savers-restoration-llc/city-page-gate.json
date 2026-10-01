@@ -1,0 +1,1156 @@
+{
+ "policy": "scripts/city_page_gate.py (Santino 2026-10-01)",
+ "thresholds": {
+  "combo_min": 10,
+  "head_metro_min": 1000
+ },
+ "decisions": {
+  "blue-diamond-nv__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup blue diamond' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "blue-diamond-nv__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration blue diamond' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "blue-diamond-nv__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal blue diamond' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "blue-diamond-nv__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration blue diamond' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "blue-diamond-nv__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation blue diamond' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "blue-diamond-nv__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal blue diamond' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "blue-diamond-nv__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup blue diamond' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "blue-diamond-nv__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration blue diamond' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "boulder-city-nv__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup boulder city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "boulder-city-nv__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration boulder city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "boulder-city-nv__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal boulder city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "boulder-city-nv__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration boulder city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "boulder-city-nv__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation boulder city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "boulder-city-nv__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal boulder city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "boulder-city-nv__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup boulder city' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "boulder-city-nv__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Near Lake Mead, flash flood exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cal-nev-ari-nv__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup cal-nev-ari' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cal-nev-ari-nv__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration cal-nev-ari' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cal-nev-ari-nv__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal cal-nev-ari' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cal-nev-ari-nv__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration cal-nev-ari' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cal-nev-ari-nv__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation cal-nev-ari' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cal-nev-ari-nv__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal cal-nev-ari' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cal-nev-ari-nv__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup cal-nev-ari' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cal-nev-ari-nv__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration cal-nev-ari' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "enterprise-nv__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup enterprise' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "enterprise-nv__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration enterprise' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "enterprise-nv__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal enterprise' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "enterprise-nv__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration enterprise' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "enterprise-nv__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation enterprise' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "enterprise-nv__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal enterprise' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "enterprise-nv__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup enterprise' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "enterprise-nv__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration enterprise' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "goodsprings-nv__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup goodsprings' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "goodsprings-nv__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration goodsprings' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "goodsprings-nv__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal goodsprings' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "goodsprings-nv__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration goodsprings' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "goodsprings-nv__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation goodsprings' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "goodsprings-nv__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal goodsprings' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "goodsprings-nv__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup goodsprings' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "goodsprings-nv__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration goodsprings' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "indian-springs-nv__biohazard-cleanup": {
+   "pass": true,
+   "why": "local angle: Near Creech AFB, military biohazard exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "indian-springs-nv__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration indian springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "indian-springs-nv__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal indian springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "indian-springs-nv__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration indian springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "indian-springs-nv__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation indian springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "indian-springs-nv__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal indian springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "indian-springs-nv__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup indian springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "indian-springs-nv__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration indian springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "las-vegas-nv__biohazard-cleanup": {
+   "pass": true,
+   "why": "local demand: 'biohazard cleanup las vegas' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "las-vegas-nv__contents-restoration": {
+   "pass": true,
+   "why": "local demand: 'contents restoration las vegas' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "las-vegas-nv__emergency-water-removal": {
+   "pass": true,
+   "why": "local demand: 'emergency water removal las vegas' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "las-vegas-nv__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration las vegas' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "las-vegas-nv__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation las vegas' 390/mo",
+   "vol": 390,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "las-vegas-nv__odor-removal": {
+   "pass": true,
+   "why": "local demand: 'odor removal las vegas' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "las-vegas-nv__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup las vegas' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "las-vegas-nv__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Valley prone to sudden flash flooding",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laughlin-nv__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup laughlin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laughlin-nv__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration laughlin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laughlin-nv__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal laughlin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laughlin-nv__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration laughlin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laughlin-nv__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation laughlin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laughlin-nv__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal laughlin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laughlin-nv__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup laughlin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laughlin-nv__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Colorado River flooding threatens riverside casinos",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nellis-afb-nv__biohazard-cleanup": {
+   "pass": true,
+   "why": "local angle: Military base increases biohazard incident risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nellis-afb-nv__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration nellis afb' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nellis-afb-nv__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal nellis afb' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nellis-afb-nv__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration nellis afb' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nellis-afb-nv__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation nellis afb' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nellis-afb-nv__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal nellis afb' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nellis-afb-nv__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup nellis afb' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nellis-afb-nv__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration nellis afb' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nelson-nv__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup nelson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nelson-nv__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration nelson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nelson-nv__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal nelson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nelson-nv__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration nelson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nelson-nv__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation nelson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nelson-nv__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal nelson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nelson-nv__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup nelson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nelson-nv__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration nelson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "north-las-vegas-nv__biohazard-cleanup": {
+   "pass": true,
+   "why": "local demand: 'biohazard cleanup north las vegas' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "north-las-vegas-nv__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration north las vegas' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "north-las-vegas-nv__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal north las vegas' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "north-las-vegas-nv__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration north las vegas' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "north-las-vegas-nv__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation north las vegas' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "north-las-vegas-nv__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal north las vegas' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "north-las-vegas-nv__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup north las vegas' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "north-las-vegas-nv__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration north las vegas' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "paradise-nv__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup paradise' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "paradise-nv__contents-restoration": {
+   "pass": true,
+   "why": "local angle: Dense hotel-casino corridor needs contents storage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "paradise-nv__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal paradise' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "paradise-nv__fire-damage-restoration": {
+   "pass": true,
+   "why": "local angle: High-rise casino corridor elevates fire risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "paradise-nv__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation paradise' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "paradise-nv__odor-removal": {
+   "pass": true,
+   "why": "local angle: Casino/hotel smoke creates persistent odor issues",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "paradise-nv__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup paradise' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "paradise-nv__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration paradise' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandy-valley-nv__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup sandy valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandy-valley-nv__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration sandy valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandy-valley-nv__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal sandy valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandy-valley-nv__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration sandy valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandy-valley-nv__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation sandy valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandy-valley-nv__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal sandy valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandy-valley-nv__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup sandy valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandy-valley-nv__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration sandy valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "searchlight-nv__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup searchlight' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "searchlight-nv__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration searchlight' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "searchlight-nv__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal searchlight' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "searchlight-nv__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration searchlight' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "searchlight-nv__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation searchlight' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "searchlight-nv__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal searchlight' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "searchlight-nv__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup searchlight' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "searchlight-nv__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration searchlight' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "spring-valley-nv__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup spring valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "spring-valley-nv__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration spring valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "spring-valley-nv__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal spring valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "spring-valley-nv__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration spring valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "spring-valley-nv__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation spring valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "spring-valley-nv__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal spring valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "spring-valley-nv__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup spring valley' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "spring-valley-nv__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration spring valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "summerlin-south-nv__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup summerlin south' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "summerlin-south-nv__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration summerlin south' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "summerlin-south-nv__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal summerlin south' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "summerlin-south-nv__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration summerlin south' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "summerlin-south-nv__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation summerlin south' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "summerlin-south-nv__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal summerlin south' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "summerlin-south-nv__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup summerlin south' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "summerlin-south-nv__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration summerlin south' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sunrise-manor-nv__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup sunrise manor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sunrise-manor-nv__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration sunrise manor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sunrise-manor-nv__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal sunrise manor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sunrise-manor-nv__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration sunrise manor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sunrise-manor-nv__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation sunrise manor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sunrise-manor-nv__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal sunrise manor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sunrise-manor-nv__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup sunrise manor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sunrise-manor-nv__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration sunrise manor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "whitney-nv__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup whitney' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "whitney-nv__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration whitney' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "whitney-nv__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal whitney' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "whitney-nv__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration whitney' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "whitney-nv__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation whitney' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "whitney-nv__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal whitney' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "whitney-nv__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup whitney' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "whitney-nv__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration whitney' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "winchester-nv__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup winchester' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "winchester-nv__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration winchester' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "winchester-nv__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal winchester' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "winchester-nv__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration winchester' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "winchester-nv__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation winchester' 40/mo",
+   "vol": 40,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "winchester-nv__odor-removal": {
+   "pass": true,
+   "why": "local angle: Older commercial strip with lingering smoke odors",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "winchester-nv__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup winchester' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "winchester-nv__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration winchester' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  }
+ },
+ "offered": {
+  "biohazard-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "contents-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "contents-restoration-storage": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "emergency-water-removal": [
+   "GBP service in the client's words: 'Emergency Cleanup'",
+   "GBP service in the client's words: 'Water Clean Up'",
+   "default with water damage restoration (Santino 09-30)"
+  ],
+  "fire-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "mold-remediation": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Certified Mold Remediation'"
+  ],
+  "odor-removal": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "sewage-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Sewage Cleanup & Remediation'"
+  ],
+  "storm-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "water-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ]
+ },
+ "heads": {
+  "biohazard-cleanup": {
+   "term": "biohazard cleanup",
+   "metro": null
+  },
+  "contents-restoration": {
+   "term": "contents restoration",
+   "metro": null
+  },
+  "fire-damage-restoration": {
+   "term": "fire damage restoration",
+   "metro": null
+  },
+  "mold-remediation": {
+   "term": "mold remediation",
+   "metro": null
+  },
+  "odor-removal": {
+   "term": "odor removal",
+   "metro": null
+  },
+  "sewage-cleanup": {
+   "term": "sewage cleanup",
+   "metro": null
+  },
+  "storm-damage-restoration": {
+   "term": "storm damage restoration",
+   "metro": null
+  },
+  "emergency-water-removal": {
+   "term": "emergency water removal",
+   "metro": null
+  }
+ },
+ "updated_at": "2026-10-01T05:05:15+00:00"
+}

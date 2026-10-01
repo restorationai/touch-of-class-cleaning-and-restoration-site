@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "93971265ec888394"
 generated_at: "2026-09-30T19:28:32.679246+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/ceiling-water-damage-repair/", "/service-areas/chino-ca/ceiling-water-damage-repair/", "/service-areas/chino-hills-ca/ceiling-water-damage-repair/", "/service-areas/eastvale-ca/ceiling-water-damage-repair/", "/service-areas/fontana-ca/ceiling-water-damage-repair/", "/service-areas/fullerton-ca/ceiling-water-damage-repair/", "/service-areas/jurupa-valley-ca/ceiling-water-damage-repair/", "/service-areas/lake-mathews-ca/ceiling-water-damage-repair/", "/service-areas/montclair-ca/ceiling-water-damage-repair/", "/service-areas/norco-ca/ceiling-water-damage-repair/", "/service-areas/north-tustin-ca/ceiling-water-damage-repair/", "/service-areas/ontario-ca/ceiling-water-damage-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/", "/service-areas/eastvale-ca/", "/service-areas/fontana-ca/", "/service-areas/fullerton-ca/", "/service-areas/jurupa-valley-ca/", "/service-areas/lake-mathews-ca/", "/service-areas/montclair-ca/", "/service-areas/norco-ca/", "/service-areas/north-tustin-ca/", "/service-areas/ontario-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Ceiling Water Damage Repair"}]
 faq: []
 service_slug: "ceiling-water-damage-repair"

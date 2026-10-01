@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "05639b71fbd8210f"
 generated_at: "2026-09-20T14:13:48.584904+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/woodcrest-ca/ac-repair/", "/service-areas/woodcrest-ca/drain-cleaning/", "/service-areas/woodcrest-ca/emergency-plumbing/", "/service-areas/woodcrest-ca/water-heater-repair/", "/service-areas/woodcrest-ca/furnace-repair/", "/service-areas/woodcrest-ca/water-heater-installation/", "/service-areas/woodcrest-ca/leak-detection/", "/service-areas/woodcrest-ca/repiping/", "/service-areas/woodcrest-ca/toilet-faucet-repair/", "/service-areas/woodcrest-ca/indoor-air-quality/", "/service-areas/woodcrest-ca/water-softeners-filtration/", "/service-areas/woodcrest-ca/garbage-disposal/", "/service-areas/anaheim-ca/", "/service-areas/bloomington-ca/", "/service-areas/canyon-lake-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/woodcrest-ca/", "/service-areas/woodcrest-ca/emergency-plumbing/", "/service-areas/anaheim-ca/", "/service-areas/bloomington-ca/", "/service-areas/canyon-lake-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woodcrest"}]
 faq: []
 area_slug: "woodcrest-ca"

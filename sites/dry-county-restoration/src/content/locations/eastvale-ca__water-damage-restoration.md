@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "8ba774a1b744fe10"
 generated_at: "2026-09-30T19:28:32.743973+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/eastvale-ca/", "/service-areas/eastvale-ca/fire-damage-restoration/", "/service-areas/eastvale-ca/mold-remediation/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/eastvale-ca/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eastvale", "url": "/service-areas/eastvale-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "eastvale-ca"

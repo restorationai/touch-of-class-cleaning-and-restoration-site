@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "9d0a09865f9ed41a"
 generated_at: "2026-09-21T19:19:15.024050+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/searchlight-nv/", "/service-areas/searchlight-nv/fire-damage-restoration/", "/service-areas/searchlight-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/searchlight-nv/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Searchlight", "url": "/service-areas/searchlight-nv/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "searchlight-nv"

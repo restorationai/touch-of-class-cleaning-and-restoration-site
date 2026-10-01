@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "bbc068dee79b9d09"
 generated_at: "2026-09-30T19:28:45.273064+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/cedar-hills-ut/", "/service-areas/cedar-hills-ut/fire-damage-restoration/", "/service-areas/cedar-hills-ut/mold-remediation/", "/service-areas/alpine-ut/carpet-cleaning/", "/service-areas/american-fork-ut/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/cedar-hills-ut/", "/service-areas/alpine-ut/carpet-cleaning/", "/service-areas/american-fork-ut/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Hills", "url": "/service-areas/cedar-hills-ut/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "cedar-hills-ut"

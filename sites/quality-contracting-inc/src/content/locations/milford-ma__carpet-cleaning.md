@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "4ffbaf9f0a63f234"
 generated_at: "2026-09-30T19:28:57.219847+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/milford-ma/", "/service-areas/milford-ma/fire-damage-restoration/", "/service-areas/milford-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/milford-ma/", "/service-areas/milford-ma/fire-damage-restoration/", "/service-areas/milford-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Milford", "url": "/service-areas/milford-ma/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "milford-ma"

@@ -10,7 +10,7 @@ priority: 4.9
 plan_hash: "dea6dc7aa22e332f"
 generated_at: "2026-09-30T19:28:57.254744+00:00"
 manual_override: false
-internal_links: ["/services/odor-removal/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/odor-removal/", "/service-areas/fiskdale-ma/odor-removal/", "/contact/"]
+internal_links: ["/services/odor-removal/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellingham", "url": "/service-areas/bellingham-ma/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 area_slug: "bellingham-ma"

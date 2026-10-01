@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "0bef8fde214cb4a8"
 generated_at: "2026-09-20T14:13:46.907804+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/hallandale-beach-fl/", "/service-areas/hallandale-beach-fl/fire-damage-restoration/", "/service-areas/hallandale-beach-fl/mold-remediation/", "/service-areas/cooper-city-fl/water-damage-restoration/", "/service-areas/dania-beach-fl/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/hallandale-beach-fl/", "/service-areas/cooper-city-fl/water-damage-restoration/", "/service-areas/dania-beach-fl/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hallandale Beach", "url": "/service-areas/hallandale-beach-fl/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "hallandale-beach-fl"

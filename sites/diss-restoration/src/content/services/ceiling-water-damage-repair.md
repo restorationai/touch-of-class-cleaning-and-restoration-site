@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "a9ddf09a490e13bc"
 generated_at: "2026-09-30T19:28:30.047262+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/austintown-oh/ceiling-water-damage-repair/", "/service-areas/boardman-oh/ceiling-water-damage-repair/", "/service-areas/campbell-oh/ceiling-water-damage-repair/", "/service-areas/canfield-oh/ceiling-water-damage-repair/", "/service-areas/farrell-pa/ceiling-water-damage-repair/", "/service-areas/girard-oh/ceiling-water-damage-repair/", "/service-areas/greenville-pa/ceiling-water-damage-repair/", "/service-areas/grove-city-pa/ceiling-water-damage-repair/", "/service-areas/hermitage-pa/ceiling-water-damage-repair/", "/service-areas/hubbard-oh/ceiling-water-damage-repair/", "/service-areas/mercer-pa/ceiling-water-damage-repair/", "/service-areas/mineral-ridge-oh/ceiling-water-damage-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/austintown-oh/", "/service-areas/boardman-oh/", "/service-areas/campbell-oh/", "/service-areas/canfield-oh/", "/service-areas/farrell-pa/", "/service-areas/girard-oh/", "/service-areas/greenville-pa/", "/service-areas/grove-city-pa/", "/service-areas/hermitage-pa/", "/service-areas/hubbard-oh/", "/service-areas/mercer-pa/", "/service-areas/mineral-ridge-oh/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "ceiling-water-damage-repair"}]
 faq: []
 service_slug: "ceiling-water-damage-repair"

@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "c17e1c99626c7925"
 generated_at: "2026-09-30T19:28:56.906544+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/flood-damage-restoration/", "/service-areas/east-douglas-ma/flood-damage-restoration/", "/service-areas/fiskdale-ma/flood-damage-restoration/", "/service-areas/framingham-ma/flood-damage-restoration/", "/service-areas/franklin-town-ma/flood-damage-restoration/", "/service-areas/hopkinton-ma/flood-damage-restoration/", "/service-areas/hudson-ma/flood-damage-restoration/", "/service-areas/leominster-ma/flood-damage-restoration/", "/service-areas/marlborough-ma/flood-damage-restoration/", "/service-areas/maynard-ma/flood-damage-restoration/", "/service-areas/milford-ma/flood-damage-restoration/", "/service-areas/natick-ma/flood-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/service-areas/framingham-ma/", "/service-areas/franklin-town-ma/", "/service-areas/hopkinton-ma/", "/service-areas/hudson-ma/", "/service-areas/leominster-ma/", "/service-areas/marlborough-ma/", "/service-areas/maynard-ma/", "/service-areas/milford-ma/", "/service-areas/natick-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "flood-damage-restoration"}]
 faq: []
 service_slug: "flood-damage-restoration"

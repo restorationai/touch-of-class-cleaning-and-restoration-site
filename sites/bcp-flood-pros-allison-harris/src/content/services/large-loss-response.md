@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "a1080e10cde38426"
 generated_at: "2026-09-30T19:28:21.542289+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/large-loss-response/", "/service-areas/bluffdale-ut/large-loss-response/", "/service-areas/cedar-fort-ut/large-loss-response/", "/service-areas/cedar-hills-ut/large-loss-response/", "/service-areas/cottonwood-heights-ut/large-loss-response/", "/service-areas/draper-ut/large-loss-response/", "/service-areas/eagle-mountain-ut/large-loss-response/", "/service-areas/herriman-ut/large-loss-response/", "/service-areas/highland-ut/large-loss-response/", "/service-areas/lehi-ut/large-loss-response/", "/service-areas/lindon-ut/large-loss-response/", "/service-areas/orem-ut/large-loss-response/"]
+internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/", "/service-areas/bluffdale-ut/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-hills-ut/", "/service-areas/cottonwood-heights-ut/", "/service-areas/draper-ut/", "/service-areas/eagle-mountain-ut/", "/service-areas/herriman-ut/", "/service-areas/highland-ut/", "/service-areas/lehi-ut/", "/service-areas/lindon-ut/", "/service-areas/orem-ut/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "large-loss-response"}]
 faq: []
 service_slug: "large-loss-response"

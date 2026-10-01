@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "0efabf59da9557f8"
 generated_at: "2026-09-30T19:28:38.071668+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/frederickson-wa/", "/service-areas/frederickson-wa/fire-damage-restoration/", "/service-areas/frederickson-wa/mold-remediation/", "/service-areas/anderson-island-wa/water-damage-restoration/", "/service-areas/auburn-wa/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/frederickson-wa/", "/service-areas/anderson-island-wa/water-damage-restoration/", "/service-areas/auburn-wa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Frederickson", "url": "/service-areas/frederickson-wa/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "frederickson-wa"

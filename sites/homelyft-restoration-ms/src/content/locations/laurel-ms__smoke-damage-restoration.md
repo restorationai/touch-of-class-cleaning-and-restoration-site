@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "a28dd984ba9b724d"
 generated_at: "2026-09-30T19:28:43.582873+00:00"
 manual_override: false
-internal_links: ["/services/smoke-damage-restoration/", "/service-areas/laurel-ms/", "/service-areas/laurel-ms/fire-damage-restoration/", "/service-areas/laurel-ms/mold-remediation/", "/service-areas/agricola-ms/smoke-damage-restoration/", "/service-areas/bay-st-louis-ms/smoke-damage-restoration/", "/contact/"]
+internal_links: ["/services/smoke-damage-restoration/", "/service-areas/laurel-ms/", "/service-areas/laurel-ms/fire-damage-restoration/", "/service-areas/laurel-ms/mold-remediation/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Laurel", "url": "/service-areas/laurel-ms/"}, {"name": "smoke-damage-restoration"}]
 faq: []
 area_slug: "laurel-ms"

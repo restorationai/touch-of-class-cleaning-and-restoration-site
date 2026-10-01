@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "31bb19a5fc6bb909"
 generated_at: "2026-09-20T19:17:38.161779+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/hollywood-sc/", "/service-areas/hollywood-sc/mold-remediation/", "/service-areas/hollywood-sc/water-damage-restoration/", "/service-areas/awendaw-sc/fire-damage-restoration/", "/service-areas/folly-beach-sc/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/hollywood-sc/", "/service-areas/hollywood-sc/mold-remediation/", "/service-areas/hollywood-sc/water-damage-restoration/", "/service-areas/awendaw-sc/", "/service-areas/folly-beach-sc/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hollywood", "url": "/service-areas/hollywood-sc/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "hollywood-sc"

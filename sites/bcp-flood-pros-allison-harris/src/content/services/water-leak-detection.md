@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "d5f47e4d4f14255c"
 generated_at: "2026-09-30T19:28:21.542468+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/water-leak-detection/", "/service-areas/bluffdale-ut/water-leak-detection/", "/service-areas/cedar-fort-ut/water-leak-detection/", "/service-areas/cedar-hills-ut/water-leak-detection/", "/service-areas/cottonwood-heights-ut/water-leak-detection/", "/service-areas/draper-ut/water-leak-detection/", "/service-areas/eagle-mountain-ut/water-leak-detection/", "/service-areas/herriman-ut/water-leak-detection/", "/service-areas/highland-ut/water-leak-detection/", "/service-areas/lehi-ut/water-leak-detection/", "/service-areas/lindon-ut/water-leak-detection/", "/service-areas/orem-ut/water-leak-detection/"]
+internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/", "/service-areas/bluffdale-ut/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-hills-ut/", "/service-areas/cottonwood-heights-ut/", "/service-areas/draper-ut/", "/service-areas/eagle-mountain-ut/", "/service-areas/herriman-ut/", "/service-areas/highland-ut/", "/service-areas/lehi-ut/", "/service-areas/lindon-ut/", "/service-areas/orem-ut/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-leak-detection"}]
 faq: []
 service_slug: "water-leak-detection"

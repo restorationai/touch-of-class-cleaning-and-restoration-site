@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "9ff4153be829a435"
 generated_at: "2026-09-30T19:28:50.940210+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/industrial-restoration/", "/service-areas/boulder-city-nv/industrial-restoration/", "/service-areas/cal-nev-ari-nv/industrial-restoration/", "/service-areas/enterprise-nv/industrial-restoration/", "/service-areas/goodsprings-nv/industrial-restoration/", "/service-areas/indian-springs-nv/industrial-restoration/", "/service-areas/las-vegas-nv/industrial-restoration/", "/service-areas/laughlin-nv/industrial-restoration/", "/service-areas/nellis-afb-nv/industrial-restoration/", "/service-areas/nelson-nv/industrial-restoration/", "/service-areas/north-las-vegas-nv/industrial-restoration/", "/service-areas/paradise-nv/industrial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/", "/service-areas/enterprise-nv/", "/service-areas/goodsprings-nv/", "/service-areas/indian-springs-nv/", "/service-areas/las-vegas-nv/", "/service-areas/laughlin-nv/", "/service-areas/nellis-afb-nv/", "/service-areas/nelson-nv/", "/service-areas/north-las-vegas-nv/", "/service-areas/paradise-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "industrial-restoration"}]
 faq: []
 service_slug: "industrial-restoration"

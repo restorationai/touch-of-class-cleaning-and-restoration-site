@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "c8b959c27f4e3a67"
 generated_at: "2026-09-30T19:28:54.516850+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/large-loss-response/", "/service-areas/bear-valley-springs-ca/large-loss-response/", "/service-areas/buttonwillow-ca/large-loss-response/", "/service-areas/delano-ca/large-loss-response/", "/service-areas/dustin-acres-ca/large-loss-response/", "/service-areas/east-niles-ca/large-loss-response/", "/service-areas/keene-ca/large-loss-response/", "/service-areas/lake-isabella-ca/large-loss-response/", "/service-areas/lamont-ca/large-loss-response/", "/service-areas/maricopa-ca/large-loss-response/", "/service-areas/mcfarland-ca/large-loss-response/", "/service-areas/oildale-ca/large-loss-response/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/", "/service-areas/bear-valley-springs-ca/", "/service-areas/buttonwillow-ca/", "/service-areas/delano-ca/", "/service-areas/dustin-acres-ca/", "/service-areas/east-niles-ca/", "/service-areas/keene-ca/", "/service-areas/lake-isabella-ca/", "/service-areas/lamont-ca/", "/service-areas/maricopa-ca/", "/service-areas/mcfarland-ca/", "/service-areas/oildale-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "large-loss-response"}]
 faq: []
 service_slug: "large-loss-response"

@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "c2b874c4fcf016b2"
 generated_at: "2026-09-30T19:29:00.297941+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/odor-removal/", "/service-areas/caddo-mills-tx/odor-removal/", "/service-areas/dallas-tx/odor-removal/", "/service-areas/farmersville-tx/odor-removal/", "/service-areas/fate-tx/odor-removal/", "/service-areas/frisco-tx/odor-removal/", "/service-areas/garland-tx/odor-removal/", "/service-areas/greenville-tx/odor-removal/", "/service-areas/heath-tx/odor-removal/", "/service-areas/highland-park-tx/odor-removal/", "/service-areas/josephine-tx/odor-removal/", "/service-areas/lavon-tx/odor-removal/"]
+internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/odor-removal/", "/service-areas/farmersville-tx/", "/service-areas/fate-tx/", "/service-areas/frisco-tx/", "/service-areas/garland-tx/", "/service-areas/greenville-tx/", "/service-areas/heath-tx/", "/service-areas/highland-park-tx/", "/service-areas/josephine-tx/", "/service-areas/lavon-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 service_slug: "odor-removal"

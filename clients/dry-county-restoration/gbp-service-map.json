@@ -525,10 +525,10 @@
     },
     "Install Water Fixtures": {
       "verdict": "mapped",
-      "page": "emergency-plumbing",
-      "source": "claude",
-      "reason": "Plumbing fixture task",
-      "at": "2026-09-30"
+      "page": "water-damage-restoration",
+      "source": "plumbing-gate",
+      "reason": "plumbing gate not met: maps to water damage restoration",
+      "at": "2026-10-01"
     },
     "Insurance Claim Help": {
       "verdict": "declined",
@@ -710,24 +710,24 @@
     },
     "Plumbing": {
       "verdict": "mapped",
-      "page": "emergency-plumbing",
-      "reason": "name containment",
-      "source": "containment",
-      "at": "2026-09-30"
+      "page": "water-damage-restoration",
+      "source": "plumbing-gate",
+      "reason": "plumbing gate not met: maps to water damage restoration",
+      "at": "2026-10-01"
     },
     "Plumbing Leaks": {
       "verdict": "mapped",
-      "page": "emergency-plumbing",
-      "source": "claude",
-      "reason": "Plumbing repair task",
-      "at": "2026-09-30"
+      "page": "water-damage-restoration",
+      "source": "plumbing-gate",
+      "reason": "plumbing gate not met: maps to water damage restoration",
+      "at": "2026-10-01"
     },
     "Plumbing Repair": {
       "verdict": "mapped",
-      "page": "emergency-plumbing",
-      "source": "claude",
-      "reason": "Direct match",
-      "at": "2026-09-30"
+      "page": "water-damage-restoration",
+      "source": "plumbing-gate",
+      "reason": "plumbing gate not met: maps to water damage restoration",
+      "at": "2026-10-01"
     },
     "Post-Construction & Specialty Cleaning": {
       "verdict": "mapped",
@@ -787,10 +787,10 @@
     },
     "Repair Water Fixtures": {
       "verdict": "mapped",
-      "page": "emergency-plumbing",
-      "source": "claude",
-      "reason": "Plumbing repair task",
-      "at": "2026-09-30"
+      "page": "water-damage-restoration",
+      "source": "plumbing-gate",
+      "reason": "plumbing gate not met: maps to water damage restoration",
+      "at": "2026-10-01"
     },
     "Repairs And Reconstruction": {
       "verdict": "mapped",
@@ -1070,10 +1070,10 @@
     },
     "Water Damage Plumbing": {
       "verdict": "mapped",
-      "page": "emergency-plumbing",
-      "source": "claude",
-      "reason": "Plumbing fix tied to water damage",
-      "at": "2026-09-30"
+      "page": "water-damage-restoration",
+      "source": "plumbing-gate",
+      "reason": "plumbing gate not met: maps to water damage restoration",
+      "at": "2026-10-01"
     },
     "Water Damage Remodeling": {
       "verdict": "mapped",
@@ -1168,17 +1168,17 @@
     },
     "Water Pipe": {
       "verdict": "mapped",
-      "page": "emergency-plumbing",
-      "source": "claude",
-      "reason": "Plumbing service",
-      "at": "2026-09-30"
+      "page": "water-damage-restoration",
+      "source": "plumbing-gate",
+      "reason": "plumbing gate not met: maps to water damage restoration",
+      "at": "2026-10-01"
     },
     "Water Piping": {
       "verdict": "mapped",
-      "page": "emergency-plumbing",
-      "source": "claude",
-      "reason": "Plumbing pipe service",
-      "at": "2026-09-30"
+      "page": "water-damage-restoration",
+      "source": "plumbing-gate",
+      "reason": "plumbing gate not met: maps to water damage restoration",
+      "at": "2026-10-01"
     },
     "Wet Carpet Drying": {
       "verdict": "mapped",

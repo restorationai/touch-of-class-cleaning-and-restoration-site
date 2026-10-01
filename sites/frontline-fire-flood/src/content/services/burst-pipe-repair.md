@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "627563c259174bfb"
 generated_at: "2026-09-30T19:28:37.914367+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anderson-island-wa/burst-pipe-repair/", "/service-areas/auburn-wa/burst-pipe-repair/", "/service-areas/bonney-lake-wa/burst-pipe-repair/", "/service-areas/bremerton-wa/burst-pipe-repair/", "/service-areas/burien-wa/burst-pipe-repair/", "/service-areas/centralia-wa/burst-pipe-repair/", "/service-areas/dupont-wa/burst-pipe-repair/", "/service-areas/federal-way-wa/burst-pipe-repair/", "/service-areas/fife-wa/burst-pipe-repair/", "/service-areas/fircrest-wa/burst-pipe-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anderson-island-wa/", "/service-areas/auburn-wa/", "/service-areas/bonney-lake-wa/", "/service-areas/bremerton-wa/", "/service-areas/burien-wa/", "/service-areas/centralia-wa/", "/service-areas/dupont-wa/", "/service-areas/federal-way-wa/", "/service-areas/fife-wa/", "/service-areas/fircrest-wa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "burst-pipe-repair"}]
 faq: []
 service_slug: "burst-pipe-repair"

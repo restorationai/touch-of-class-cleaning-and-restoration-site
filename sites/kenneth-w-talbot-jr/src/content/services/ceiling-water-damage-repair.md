@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "1ead9e7182c87e95"
 generated_at: "2026-09-30T19:28:49.210359+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/crestview-fl/ceiling-water-damage-repair/", "/service-areas/defuniak-springs-fl/ceiling-water-damage-repair/", "/service-areas/destin-fl/ceiling-water-damage-repair/", "/service-areas/ebro-fl/ceiling-water-damage-repair/", "/service-areas/eglin-afb-fl/ceiling-water-damage-repair/", "/service-areas/fort-walton-beach-fl/ceiling-water-damage-repair/", "/service-areas/harold-fl/ceiling-water-damage-repair/", "/service-areas/hurlburt-field-fl/ceiling-water-damage-repair/", "/service-areas/laurel-hill-fl/ceiling-water-damage-repair/", "/service-areas/miramar-beach-fl/ceiling-water-damage-repair/", "/service-areas/navarre-fl/ceiling-water-damage-repair/", "/service-areas/niceville-fl/ceiling-water-damage-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/crestview-fl/", "/service-areas/defuniak-springs-fl/", "/service-areas/destin-fl/", "/service-areas/ebro-fl/", "/service-areas/eglin-afb-fl/", "/service-areas/fort-walton-beach-fl/", "/service-areas/harold-fl/", "/service-areas/hurlburt-field-fl/", "/service-areas/laurel-hill-fl/", "/service-areas/miramar-beach-fl/", "/service-areas/navarre-fl/", "/service-areas/niceville-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "ceiling-water-damage-repair"}]
 faq: []
 service_slug: "ceiling-water-damage-repair"

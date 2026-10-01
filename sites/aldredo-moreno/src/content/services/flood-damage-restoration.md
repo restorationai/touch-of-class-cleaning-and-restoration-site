@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "ede415d76a1cafaf"
 generated_at: "2026-09-30T19:28:20.825410+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/flood-damage-restoration/", "/service-areas/big-lake-tx/flood-damage-restoration/", "/service-areas/big-spring-tx/flood-damage-restoration/", "/service-areas/crane-tx/flood-damage-restoration/", "/service-areas/garden-city-tx/flood-damage-restoration/", "/service-areas/gardendale-tx/flood-damage-restoration/", "/service-areas/goldsmith-tx/flood-damage-restoration/", "/service-areas/greenwood-tx/flood-damage-restoration/", "/service-areas/imperial-tx/flood-damage-restoration/", "/service-areas/mccamey-tx/flood-damage-restoration/", "/service-areas/monahans-tx/flood-damage-restoration/", "/service-areas/odessa-tx/flood-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/", "/service-areas/big-lake-tx/", "/service-areas/big-spring-tx/", "/service-areas/crane-tx/", "/service-areas/garden-city-tx/", "/service-areas/gardendale-tx/", "/service-areas/goldsmith-tx/", "/service-areas/greenwood-tx/", "/service-areas/imperial-tx/", "/service-areas/mccamey-tx/", "/service-areas/monahans-tx/", "/service-areas/odessa-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "flood-damage-restoration"}]
 faq: []
 service_slug: "flood-damage-restoration"

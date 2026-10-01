@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "d818279bff963327"
 generated_at: "2026-09-30T19:28:58.485427+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/emergency-plumbing/", "/service-areas/boulder-city-nv/emergency-plumbing/", "/service-areas/enterprise-nv/emergency-plumbing/", "/service-areas/henderson-nv/emergency-plumbing/", "/service-areas/indian-springs-nv/emergency-plumbing/", "/service-areas/las-vegas-nv/emergency-plumbing/", "/service-areas/moapa-town-nv/emergency-plumbing/", "/service-areas/moapa-valley-nv/emergency-plumbing/", "/service-areas/mount-charleston-nv/emergency-plumbing/", "/service-areas/nelson-nv/emergency-plumbing/", "/service-areas/pahrump-nv/emergency-plumbing/", "/service-areas/paradise-nv/emergency-plumbing/"]
+internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/enterprise-nv/", "/service-areas/henderson-nv/", "/service-areas/indian-springs-nv/", "/service-areas/las-vegas-nv/", "/service-areas/moapa-town-nv/", "/service-areas/moapa-valley-nv/", "/service-areas/mount-charleston-nv/", "/service-areas/nelson-nv/", "/service-areas/pahrump-nv/", "/service-areas/paradise-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "emergency-plumbing"}]
 faq: []
 service_slug: "emergency-plumbing"

@@ -1,21 +1,21 @@
 # Site Plan Report — DRYCOR RESTORE
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:28:34.294861+00:00
+- Generated: 2026-10-01T05:03:52.412984+00:00
 - Domain: `drycor.com`
-- Services selected: 22 of 91 catalog entries
+- Services selected: 21 of 91 catalog entries
 - Service areas: 68
 - Cross-product enabled: True
-- Total URLs: **1580**
-- Total internal links: 12688 (avg 8.0 per page)
+- Total URLs: **652**
+- Total internal links: 5098 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 1474 |
+| `service-area-service` | 547 |
 | `service-area` | 67 |
-| `service-landing` | 22 |
+| `service-landing` | 21 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -33,7 +33,6 @@
 - `commercial-restoration` — Commercial Restoration (core, priority 9)
 - `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
-- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 - `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
@@ -129,12 +128,12 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation thonotosassa |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration thonotosassa |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration thonotosassa |
-| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing thonotosassa |
 | `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup thonotosassa |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration thonotosassa |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services thonotosassa |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization thonotosassa |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration thonotosassa |
+| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration thonotosassa |
 
 ## Validation
 

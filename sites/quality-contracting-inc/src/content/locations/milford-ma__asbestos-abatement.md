@@ -10,7 +10,7 @@ priority: 4.2
 plan_hash: "2a72c9a3a66904f8"
 generated_at: "2026-09-30T19:28:57.219228+00:00"
 manual_override: false
-internal_links: ["/services/asbestos-abatement/", "/service-areas/milford-ma/", "/service-areas/milford-ma/fire-damage-restoration/", "/service-areas/milford-ma/mold-remediation/", "/service-areas/bellingham-ma/asbestos-abatement/", "/service-areas/east-douglas-ma/asbestos-abatement/", "/contact/"]
+internal_links: ["/services/asbestos-abatement/", "/service-areas/milford-ma/", "/service-areas/milford-ma/fire-damage-restoration/", "/service-areas/milford-ma/mold-remediation/", "/service-areas/bellingham-ma/asbestos-abatement/", "/service-areas/east-douglas-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Milford", "url": "/service-areas/milford-ma/"}, {"name": "Asbestos Abatement"}]
 faq: []
 area_slug: "milford-ma"

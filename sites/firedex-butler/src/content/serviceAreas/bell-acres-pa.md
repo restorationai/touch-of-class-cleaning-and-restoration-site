@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "45c4ce447dd0a2aa"
 generated_at: "2026-09-23T14:11:40.872555+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/bell-acres-pa/fire-damage-restoration/", "/service-areas/bell-acres-pa/mold-remediation/", "/service-areas/bell-acres-pa/water-damage-restoration/", "/service-areas/bell-acres-pa/commercial-restoration/", "/service-areas/bell-acres-pa/flood-damage-restoration/", "/service-areas/bell-acres-pa/reconstruction/", "/service-areas/bell-acres-pa/sewage-cleanup/", "/service-areas/bell-acres-pa/smoke-damage-restoration/", "/service-areas/bell-acres-pa/storm-damage-restoration/", "/service-areas/bell-acres-pa/emergency-water-removal/", "/service-areas/bell-acres-pa/basement-flooding-cleanup/", "/service-areas/bell-acres-pa/biohazard-cleanup/", "/service-areas/bell-acres-pa/burst-pipe-repair/", "/service-areas/bell-acres-pa/general-contracting/", "/service-areas/bell-acres-pa/mold-inspection-testing/", "/service-areas/bell-acres-pa/emergency-board-up-tarping/", "/service-areas/bell-acres-pa/frozen-pipe-restoration/", "/service-areas/bell-acres-pa/odor-removal/", "/service-areas/bell-acres-pa/contents-restoration-storage/", "/service-areas/aliquippa-pa/", "/service-areas/allison-park-pa/", "/service-areas/baden-pa/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/bell-acres-pa/", "/service-areas/bell-acres-pa/water-damage-restoration/", "/service-areas/aliquippa-pa/", "/service-areas/allison-park-pa/", "/service-areas/baden-pa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bell Acres"}]
 faq: []
 area_slug: "bell-acres-pa"

@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Emergency Water Removal & Cleanup, Fire Damage Restoration, Mold Remediation, Storm Damage Restoration, Water Damage Restoration, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Basement Flooding Cleanup, Sewage Cleanup and Sanitization, Smoke Damage Restoration, Mold Inspection and Testing, Commercial Restoration, Industrial Restoration, Reconstruction Services, Renovations, Remodels and General Contracting, Large Loss and Catastrophic Response, Ceiling Water Damage Repair, Water Heater Flood Cleanup, Water Leak Detection, Emergency Plumbing)
+- [ ] (continue for each of Emergency Water Removal & Cleanup, Fire Damage Restoration, Mold Remediation, Storm Damage Restoration, Water Damage Restoration, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Basement Flooding Cleanup, Sewage Cleanup and Sanitization, Smoke Damage Restoration, Commercial Restoration, Industrial Restoration, Large Loss and Catastrophic Response, Ceiling Water Damage Repair, Water Heater Flood Cleanup, Water Leak Detection)
 
 ### Service area pages (one image per city served)
 - [ ] Freeport hero — exterior shot, regional housing stock, evocative of the city

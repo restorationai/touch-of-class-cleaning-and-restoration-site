@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "5508a61e19d03c9b"
 generated_at: "2026-09-30T19:28:37.915028+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anderson-island-wa/water-heater-flood-cleanup/", "/service-areas/auburn-wa/water-heater-flood-cleanup/", "/service-areas/bonney-lake-wa/water-heater-flood-cleanup/", "/service-areas/bremerton-wa/water-heater-flood-cleanup/", "/service-areas/burien-wa/water-heater-flood-cleanup/", "/service-areas/centralia-wa/water-heater-flood-cleanup/", "/service-areas/dupont-wa/water-heater-flood-cleanup/", "/service-areas/federal-way-wa/water-heater-flood-cleanup/", "/service-areas/fife-wa/water-heater-flood-cleanup/", "/service-areas/fircrest-wa/water-heater-flood-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anderson-island-wa/", "/service-areas/auburn-wa/", "/service-areas/bonney-lake-wa/", "/service-areas/bremerton-wa/", "/service-areas/burien-wa/", "/service-areas/centralia-wa/", "/service-areas/dupont-wa/", "/service-areas/federal-way-wa/", "/service-areas/fife-wa/", "/service-areas/fircrest-wa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-heater-flood-cleanup"}]
 faq: []
 service_slug: "water-heater-flood-cleanup"

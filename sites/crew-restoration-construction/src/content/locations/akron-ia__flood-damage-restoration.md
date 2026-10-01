@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "54f1e9c6703e2015"
 generated_at: "2026-09-30T19:28:26.634627+00:00"
 manual_override: false
-internal_links: ["/services/flood-damage-restoration/", "/service-areas/akron-ia/", "/service-areas/akron-ia/fire-damage-restoration/", "/service-areas/akron-ia/mold-remediation/", "/service-areas/adrian-mn/flood-damage-restoration/", "/service-areas/alton-ia/flood-damage-restoration/", "/contact/"]
+internal_links: ["/services/flood-damage-restoration/", "/service-areas/akron-ia/", "/service-areas/akron-ia/fire-damage-restoration/", "/service-areas/akron-ia/mold-remediation/", "/service-areas/adrian-mn/", "/service-areas/alton-ia/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Akron", "url": "/service-areas/akron-ia/"}, {"name": "Flood Damage Restoration"}]
 faq: []
 area_slug: "akron-ia"

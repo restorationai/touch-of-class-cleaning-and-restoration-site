@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "cb4545c390ddd161"
 generated_at: "2026-09-20T14:13:46.906513+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/lauderhill-fl/", "/service-areas/lauderhill-fl/fire-damage-restoration/", "/service-areas/lauderhill-fl/mold-remediation/", "/service-areas/cooper-city-fl/water-damage-restoration/", "/service-areas/dania-beach-fl/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/lauderhill-fl/", "/service-areas/cooper-city-fl/water-damage-restoration/", "/service-areas/dania-beach-fl/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lauderhill", "url": "/service-areas/lauderhill-fl/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "lauderhill-fl"

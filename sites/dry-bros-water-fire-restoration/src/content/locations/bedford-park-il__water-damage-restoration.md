@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "b12ffcd4ca9cea88"
 generated_at: "2026-09-24T17:27:58.241142+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/bedford-park-il/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/bedford-park-il/mold-remediation/", "/service-areas/berwyn-il/water-damage-restoration/", "/service-areas/brookfield-il/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/bedford-park-il/", "/service-areas/berwyn-il/water-damage-restoration/", "/service-areas/brookfield-il/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bedford Park", "url": "/service-areas/bedford-park-il/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "bedford-park-il"

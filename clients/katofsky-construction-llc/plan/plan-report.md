@@ -1,19 +1,19 @@
 # Site Plan Report — Katofsky Construction LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:28:45.479031+00:00
+- Generated: 2026-10-01T05:05:06.017753+00:00
 - Domain: `katofskyconstruction.com`
 - Services selected: 12 of 91 catalog entries
 - Service areas: 35
 - Cross-product enabled: True
-- Total URLs: **468**
-- Total internal links: 3738 (avg 8.0 per page)
+- Total URLs: **348**
+- Total internal links: 2760 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 408 |
+| `service-area-service` | 288 |
 | `service-area` | 34 |
 | `service-landing` | 12 |
 | `blog-post` | 5 |
@@ -87,11 +87,11 @@
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization pittsburgh |
 | `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup pittsburgh |
 | `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting pittsburgh |
-| `/service-areas/allison-park-pa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration allison park |
-| `/service-areas/allison-park-pa/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement allison park |
 | `/service-areas/baldwin-pa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration baldwin |
 | `/service-areas/baldwin-pa/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement baldwin |
 | `/service-areas/bethel-park-pa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration bethel park |
+| `/service-areas/bethel-park-pa/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement bethel park |
+| `/service-areas/carnegie-pa/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration carnegie |
 
 ## Validation
 

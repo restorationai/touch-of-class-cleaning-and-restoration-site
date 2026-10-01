@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "60b51e326e8fe997"
 generated_at: "2026-09-30T14:12:04.048336+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/somerville-al/home-remodeling/", "/service-areas/somerville-al/roofing/", "/service-areas/somerville-al/decks-pergolas-fences/", "/service-areas/somerville-al/new-construction/", "/service-areas/somerville-al/siding-gutters/", "/service-areas/somerville-al/fire-smoke-rebuilding/", "/service-areas/somerville-al/mold-remediation/", "/service-areas/somerville-al/painting-trim/", "/service-areas/somerville-al/storm-damage-restoration/", "/service-areas/somerville-al/water-damage-restoration/", "/service-areas/somerville-al/windows-doors/", "/service-areas/somerville-al/basement-sewage-cleanup/", "/service-areas/somerville-al/carpet-upholstery-cleaning/", "/service-areas/somerville-al/post-construction-specialty-cleaning/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/somerville-al/home-remodeling/", "/service-areas/somerville-al/roofing/", "/service-areas/somerville-al/", "/service-areas/somerville-al/mold-remediation/", "/service-areas/somerville-al/water-damage-restoration/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Somerville"}]
 faq: []
 area_slug: "somerville-al"

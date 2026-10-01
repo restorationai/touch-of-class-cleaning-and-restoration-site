@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "6149f92c4c6c4e6c"
 generated_at: "2026-09-30T19:29:00.352399+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/union-valley-tx/", "/service-areas/union-valley-tx/fire-damage-restoration/", "/service-areas/union-valley-tx/mold-remediation/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/caddo-mills-tx/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/union-valley-tx/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/caddo-mills-tx/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Union Valley", "url": "/service-areas/union-valley-tx/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "union-valley-tx"

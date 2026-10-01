@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "9ca481e4da9875d1"
 generated_at: "2026-09-23T14:11:40.870516+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/aliquippa-pa/emergency-water-removal/", "/service-areas/allison-park-pa/emergency-water-removal/", "/service-areas/baden-pa/emergency-water-removal/", "/service-areas/beaver-falls-pa/emergency-water-removal/", "/service-areas/bell-acres-pa/emergency-water-removal/", "/service-areas/big-beaver-pa/emergency-water-removal/", "/service-areas/butler-pa/emergency-water-removal/", "/service-areas/economy-pa/emergency-water-removal/", "/service-areas/ellwood-city-pa/emergency-water-removal/", "/service-areas/evans-city-pa/emergency-water-removal/", "/service-areas/franklin-park-pa/emergency-water-removal/", "/service-areas/gibsonia-pa/emergency-water-removal/", "/services/water-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/aliquippa-pa/", "/service-areas/allison-park-pa/", "/service-areas/baden-pa/", "/service-areas/beaver-falls-pa/", "/service-areas/bell-acres-pa/", "/service-areas/big-beaver-pa/", "/service-areas/butler-pa/", "/service-areas/economy-pa/", "/service-areas/ellwood-city-pa/", "/service-areas/evans-city-pa/", "/service-areas/franklin-park-pa/", "/service-areas/gibsonia-pa/", "/services/water-damage-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Emergency Water Removal & Cleanup"}]
 faq: []
 service_slug: "emergency-water-removal"

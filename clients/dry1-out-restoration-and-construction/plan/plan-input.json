@@ -30,7 +30,10 @@
       "Licensed & Insured",
       "24/7 Emergency Service",
       "Locally Owned & Operated"
-    ]
+    ],
+    "lat": 33.1428794,
+    "lng": -117.219342,
+    "address": "1235 Activity Dr"
   },
   "template": "restoration",
   "services": [

@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "c903cc4a62d83af8"
 generated_at: "2026-09-30T19:29:02.467095+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/mountainside-nj/", "/service-areas/mountainside-nj/fire-damage-restoration/", "/service-areas/mountainside-nj/mold-remediation/", "/service-areas/avenel-nj/water-damage-restoration/", "/service-areas/bayonne-nj/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/mountainside-nj/", "/service-areas/avenel-nj/water-damage-restoration/", "/service-areas/bayonne-nj/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mountainside", "url": "/service-areas/mountainside-nj/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "mountainside-nj"

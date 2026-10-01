@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "ea321e84a4a47059"
 generated_at: "2026-09-30T19:28:26.580744+00:00"
 manual_override: false
-internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/dakota-dunes-sd/", "/service-areas/dakota-dunes-sd/fire-damage-restoration/", "/service-areas/dakota-dunes-sd/mold-remediation/", "/service-areas/adrian-mn/basement-flooding-cleanup/", "/service-areas/akron-ia/basement-flooding-cleanup/", "/contact/"]
+internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/dakota-dunes-sd/", "/service-areas/dakota-dunes-sd/fire-damage-restoration/", "/service-areas/dakota-dunes-sd/mold-remediation/", "/service-areas/adrian-mn/", "/service-areas/akron-ia/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dakota Dunes", "url": "/service-areas/dakota-dunes-sd/"}, {"name": "Basement Flooding Cleanup"}]
 faq: []
 area_slug: "dakota-dunes-sd"

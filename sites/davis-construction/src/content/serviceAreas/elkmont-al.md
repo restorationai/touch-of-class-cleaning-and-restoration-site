@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "892542f76e427400"
 generated_at: "2026-09-30T14:12:04.048630+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/elkmont-al/home-remodeling/", "/service-areas/elkmont-al/roofing/", "/service-areas/elkmont-al/decks-pergolas-fences/", "/service-areas/elkmont-al/new-construction/", "/service-areas/elkmont-al/siding-gutters/", "/service-areas/elkmont-al/fire-smoke-rebuilding/", "/service-areas/elkmont-al/mold-remediation/", "/service-areas/elkmont-al/painting-trim/", "/service-areas/elkmont-al/storm-damage-restoration/", "/service-areas/elkmont-al/water-damage-restoration/", "/service-areas/elkmont-al/windows-doors/", "/service-areas/elkmont-al/basement-sewage-cleanup/", "/service-areas/elkmont-al/carpet-upholstery-cleaning/", "/service-areas/elkmont-al/post-construction-specialty-cleaning/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/elkmont-al/home-remodeling/", "/service-areas/elkmont-al/roofing/", "/service-areas/elkmont-al/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elkmont"}]
 faq: []
 area_slug: "elkmont-al"

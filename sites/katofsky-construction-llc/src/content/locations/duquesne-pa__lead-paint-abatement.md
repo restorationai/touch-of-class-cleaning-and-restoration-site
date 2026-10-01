@@ -10,7 +10,7 @@ priority: 3.5
 plan_hash: "1e64b58f4c525074"
 generated_at: "2026-09-30T19:28:48.315599+00:00"
 manual_override: false
-internal_links: ["/services/lead-paint-abatement/", "/service-areas/duquesne-pa/", "/service-areas/duquesne-pa/fire-damage-restoration/", "/service-areas/duquesne-pa/roofing/", "/service-areas/allison-park-pa/lead-paint-abatement/", "/service-areas/baldwin-pa/lead-paint-abatement/", "/contact/"]
+internal_links: ["/services/lead-paint-abatement/", "/service-areas/duquesne-pa/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/lead-paint-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Duquesne", "url": "/service-areas/duquesne-pa/"}, {"name": "Lead Paint Abatement"}]
 faq: []
 area_slug: "duquesne-pa"

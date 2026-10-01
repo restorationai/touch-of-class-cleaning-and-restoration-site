@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "c9b885c704d0cd29"
 generated_at: "2026-09-30T19:28:25.261882+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/flood-damage-restoration/", "/service-areas/atascadero-ca/flood-damage-restoration/", "/service-areas/avila-beach-ca/flood-damage-restoration/", "/service-areas/ballard-ca/flood-damage-restoration/", "/service-areas/blacklake-ca/flood-damage-restoration/", "/service-areas/buellton-ca/flood-damage-restoration/", "/service-areas/callender-ca/flood-damage-restoration/", "/service-areas/cambria-ca/flood-damage-restoration/", "/service-areas/edna-ca/flood-damage-restoration/", "/service-areas/el-paso-de-robles-ca/flood-damage-restoration/", "/service-areas/grover-beach-ca/flood-damage-restoration/", "/service-areas/guadalupe-ca/flood-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/", "/service-areas/atascadero-ca/", "/service-areas/avila-beach-ca/", "/service-areas/ballard-ca/", "/service-areas/blacklake-ca/", "/service-areas/buellton-ca/", "/service-areas/callender-ca/", "/service-areas/cambria-ca/", "/service-areas/edna-ca/", "/service-areas/el-paso-de-robles-ca/", "/service-areas/grover-beach-ca/", "/service-areas/guadalupe-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "flood-damage-restoration"}]
 faq: []
 service_slug: "flood-damage-restoration"

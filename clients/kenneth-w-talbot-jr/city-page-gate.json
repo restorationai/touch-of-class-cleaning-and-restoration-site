@@ -1,0 +1,614 @@
+{
+ "policy": "scripts/city_page_gate.py (Santino 2026-10-01)",
+ "thresholds": {
+  "combo_min": 10,
+  "head_metro_min": 1000
+ },
+ "decisions": {
+  "crestview-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal crestview' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crestview-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration crestview' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crestview-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation crestview' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crestview-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration crestview' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "defuniak-springs-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal defuniak springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "defuniak-springs-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration defuniak springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "defuniak-springs-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation defuniak springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "defuniak-springs-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration defuniak springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "destin-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal destin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "destin-fl__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration destin' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "destin-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation destin' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "destin-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Coastal hurricane and storm surge exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ebro-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal ebro' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ebro-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration ebro' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ebro-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation ebro' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ebro-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration ebro' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eglin-afb-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal eglin afb' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eglin-afb-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration eglin afb' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eglin-afb-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation eglin afb' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eglin-afb-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration eglin afb' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fort-walton-beach-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal fort walton beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fort-walton-beach-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration fort walton beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fort-walton-beach-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation fort walton beach' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fort-walton-beach-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Coastal hurricane and storm surge exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "harold-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal harold' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "harold-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration harold' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "harold-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation harold' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "harold-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration harold' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurlburt-field-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal hurlburt field' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurlburt-field-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration hurlburt field' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurlburt-field-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation hurlburt field' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurlburt-field-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration hurlburt field' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-hill-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal laurel hill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-hill-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration laurel hill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-hill-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation laurel hill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-hill-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration laurel hill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "miramar-beach-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal miramar beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "miramar-beach-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration miramar beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "miramar-beach-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation miramar beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "miramar-beach-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Coastal hurricane and storm surge exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "navarre-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal navarre' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "navarre-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration navarre' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "navarre-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation navarre' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "navarre-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Coastal hurricane and storm surge exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "niceville-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal niceville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "niceville-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration niceville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "niceville-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation niceville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "niceville-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration niceville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "panama-city-beach-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal panama city beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "panama-city-beach-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration panama city beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "panama-city-beach-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation panama city beach' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "panama-city-beach-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Coastal hurricane and storm surge exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "paxton-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal paxton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "paxton-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration paxton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "paxton-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation paxton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "paxton-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration paxton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ponce-de-leon-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal ponce de leon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ponce-de-leon-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration ponce de leon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ponce-de-leon-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation ponce de leon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ponce-de-leon-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration ponce de leon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "santa-rosa-beach-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal santa rosa beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "santa-rosa-beach-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration santa rosa beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "santa-rosa-beach-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation santa rosa beach' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "santa-rosa-beach-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Coastal hurricane and storm surge exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valparaiso-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal valparaiso' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valparaiso-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration valparaiso' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valparaiso-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation valparaiso' 30/mo",
+   "vol": 30,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valparaiso-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration valparaiso' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vernon-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal vernon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vernon-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration vernon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vernon-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation vernon' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vernon-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration vernon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "westville-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal westville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "westville-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration westville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "westville-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation westville' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "westville-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration westville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wright-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal wright' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wright-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration wright' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wright-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation wright' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wright-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration wright' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  }
+ },
+ "offered": {
+  "emergency-water-removal": [
+   "default with water damage restoration (Santino 09-30)"
+  ],
+  "fire-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "mold-remediation": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "storm-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "water-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "water-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ]
+ },
+ "heads": {
+  "emergency-water-removal": {
+   "term": "emergency water removal",
+   "metro": null
+  },
+  "fire-damage-restoration": {
+   "term": "fire damage restoration",
+   "metro": null
+  },
+  "mold-remediation": {
+   "term": "mold remediation",
+   "metro": null
+  },
+  "storm-damage-restoration": {
+   "term": "storm damage restoration",
+   "metro": null
+  }
+ },
+ "updated_at": "2026-10-01T05:04:56+00:00"
+}

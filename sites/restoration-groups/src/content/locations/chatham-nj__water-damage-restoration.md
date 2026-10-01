@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "02eab6f7b577efe1"
 generated_at: "2026-09-30T19:29:02.504213+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/chatham-nj/", "/service-areas/chatham-nj/fire-damage-restoration/", "/service-areas/chatham-nj/mold-remediation/", "/service-areas/avenel-nj/water-damage-restoration/", "/service-areas/bayonne-nj/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/chatham-nj/", "/service-areas/avenel-nj/water-damage-restoration/", "/service-areas/bayonne-nj/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Chatham", "url": "/service-areas/chatham-nj/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "chatham-nj"

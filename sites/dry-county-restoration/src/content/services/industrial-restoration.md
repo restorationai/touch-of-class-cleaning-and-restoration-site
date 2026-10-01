@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "ca6d280da0bbdfff"
 generated_at: "2026-09-30T19:28:32.680986+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/industrial-restoration/", "/service-areas/chino-ca/industrial-restoration/", "/service-areas/chino-hills-ca/industrial-restoration/", "/service-areas/eastvale-ca/industrial-restoration/", "/service-areas/fontana-ca/industrial-restoration/", "/service-areas/fullerton-ca/industrial-restoration/", "/service-areas/jurupa-valley-ca/industrial-restoration/", "/service-areas/lake-mathews-ca/industrial-restoration/", "/service-areas/montclair-ca/industrial-restoration/", "/service-areas/norco-ca/industrial-restoration/", "/service-areas/north-tustin-ca/industrial-restoration/", "/service-areas/ontario-ca/industrial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/", "/service-areas/eastvale-ca/", "/service-areas/fontana-ca/", "/service-areas/fullerton-ca/", "/service-areas/jurupa-valley-ca/", "/service-areas/lake-mathews-ca/", "/service-areas/montclair-ca/", "/service-areas/norco-ca/", "/service-areas/north-tustin-ca/", "/service-areas/ontario-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Industrial Restoration"}]
 faq: []
 service_slug: "industrial-restoration"

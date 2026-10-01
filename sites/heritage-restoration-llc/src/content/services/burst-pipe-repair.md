@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "74bd5c5737fcd3ae"
 generated_at: "2026-09-30T19:28:41.593607+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/burst-pipe-repair/", "/service-areas/avon-mn/burst-pipe-repair/", "/service-areas/baxter-mn/burst-pipe-repair/", "/service-areas/brainerd-mn/burst-pipe-repair/", "/service-areas/elmdale-mn/burst-pipe-repair/", "/service-areas/flensburg-mn/burst-pipe-repair/", "/service-areas/foley-mn/burst-pipe-repair/", "/service-areas/fort-ripley-mn/burst-pipe-repair/", "/service-areas/harding-mn/burst-pipe-repair/", "/service-areas/long-prairie-mn/burst-pipe-repair/", "/service-areas/pierz-mn/burst-pipe-repair/", "/service-areas/randall-mn/burst-pipe-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/", "/service-areas/avon-mn/", "/service-areas/baxter-mn/", "/service-areas/brainerd-mn/", "/service-areas/elmdale-mn/", "/service-areas/flensburg-mn/", "/service-areas/foley-mn/", "/service-areas/fort-ripley-mn/", "/service-areas/harding-mn/", "/service-areas/long-prairie-mn/", "/service-areas/pierz-mn/", "/service-areas/randall-mn/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Burst Pipe Cleanup and Repair"}]
 faq: []
 service_slug: "burst-pipe-repair"

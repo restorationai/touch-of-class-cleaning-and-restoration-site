@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "ae4c5ce29abbc7bc"
 generated_at: "2026-09-30T19:28:26.528365+00:00"
 manual_override: false
-internal_links: ["/services/flood-damage-restoration/", "/service-areas/flandreau-sd/", "/service-areas/flandreau-sd/fire-damage-restoration/", "/service-areas/flandreau-sd/mold-remediation/", "/service-areas/adrian-mn/flood-damage-restoration/", "/service-areas/akron-ia/flood-damage-restoration/", "/contact/"]
+internal_links: ["/services/flood-damage-restoration/", "/service-areas/flandreau-sd/", "/service-areas/flandreau-sd/fire-damage-restoration/", "/service-areas/flandreau-sd/mold-remediation/", "/service-areas/adrian-mn/", "/service-areas/akron-ia/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Flandreau", "url": "/service-areas/flandreau-sd/"}, {"name": "Flood Damage Restoration"}]
 faq: []
 area_slug: "flandreau-sd"

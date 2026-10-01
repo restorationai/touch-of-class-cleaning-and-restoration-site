@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Sewage Cleanup and Sanitization, Mold Remediation, Mold Inspection and Testing, Carpet Cleaning, Upholstery Cleaning, Flood & Drying Equipment Rental, Commercial Restoration, Emergency Water Cleanup)
+- [ ] (continue for each of Water Damage Restoration, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Sewage Cleanup and Sanitization, Mold Remediation, Mold Inspection and Testing, Carpet Cleaning, Upholstery Cleaning, Flood & Drying Equipment Rental, Commercial Restoration, Emergency Water Removal & Cleanup, Basement Flooding Cleanup, Fire Damage Restoration, Smoke Damage Restoration, Storm Damage Restoration, Industrial Restoration, Reconstruction Services, Renovations, Remodels and General Contracting, Large Loss and Catastrophic Response, Ceiling Water Damage Repair, Water Heater Flood Cleanup, Water Leak Detection)
 
 ### Service area pages (one image per city served)
 - [ ] Honolulu hero — exterior shot, regional housing stock, evocative of the city

@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "aea9a9419218199b"
 generated_at: "2026-09-30T19:28:56.909829+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/ceiling-water-damage-repair/", "/service-areas/east-douglas-ma/ceiling-water-damage-repair/", "/service-areas/fiskdale-ma/ceiling-water-damage-repair/", "/service-areas/framingham-ma/ceiling-water-damage-repair/", "/service-areas/franklin-town-ma/ceiling-water-damage-repair/", "/service-areas/hopkinton-ma/ceiling-water-damage-repair/", "/service-areas/hudson-ma/ceiling-water-damage-repair/", "/service-areas/leominster-ma/ceiling-water-damage-repair/", "/service-areas/marlborough-ma/ceiling-water-damage-repair/", "/service-areas/maynard-ma/ceiling-water-damage-repair/", "/service-areas/milford-ma/ceiling-water-damage-repair/", "/service-areas/natick-ma/ceiling-water-damage-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/service-areas/framingham-ma/", "/service-areas/franklin-town-ma/", "/service-areas/hopkinton-ma/", "/service-areas/hudson-ma/", "/service-areas/leominster-ma/", "/service-areas/marlborough-ma/", "/service-areas/maynard-ma/", "/service-areas/milford-ma/", "/service-areas/natick-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "ceiling-water-damage-repair"}]
 faq: []
 service_slug: "ceiling-water-damage-repair"

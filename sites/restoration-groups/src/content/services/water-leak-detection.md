@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "6a3448b3a3a0772e"
 generated_at: "2026-09-30T19:29:02.383328+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/avenel-nj/water-leak-detection/", "/service-areas/bayonne-nj/water-leak-detection/", "/service-areas/bloomfield-nj/water-leak-detection/", "/service-areas/bridgewater-nj/water-leak-detection/", "/service-areas/brooklyn-ny/water-leak-detection/", "/service-areas/carteret-nj/water-leak-detection/", "/service-areas/chatham-nj/water-leak-detection/", "/service-areas/clark-nj/water-leak-detection/", "/service-areas/clifton-nj/water-leak-detection/", "/service-areas/colonia-nj/water-leak-detection/", "/service-areas/cranford-nj/water-leak-detection/", "/service-areas/east-brunswick-nj/water-leak-detection/"]
+internal_links: ["/services/", "/contact/", "/service-areas/avenel-nj/", "/service-areas/bayonne-nj/", "/service-areas/bloomfield-nj/", "/service-areas/bridgewater-nj/", "/service-areas/brooklyn-ny/", "/service-areas/carteret-nj/", "/service-areas/chatham-nj/", "/service-areas/clark-nj/", "/service-areas/clifton-nj/", "/service-areas/colonia-nj/", "/service-areas/cranford-nj/", "/service-areas/east-brunswick-nj/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-leak-detection"}]
 faq: []
 service_slug: "water-leak-detection"

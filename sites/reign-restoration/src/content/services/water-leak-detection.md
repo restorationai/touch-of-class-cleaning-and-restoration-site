@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "21e92a656c3a9ff8"
 generated_at: "2026-09-30T19:29:00.300271+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/water-leak-detection/", "/service-areas/caddo-mills-tx/water-leak-detection/", "/service-areas/dallas-tx/water-leak-detection/", "/service-areas/farmersville-tx/water-leak-detection/", "/service-areas/fate-tx/water-leak-detection/", "/service-areas/frisco-tx/water-leak-detection/", "/service-areas/garland-tx/water-leak-detection/", "/service-areas/greenville-tx/water-leak-detection/", "/service-areas/heath-tx/water-leak-detection/", "/service-areas/highland-park-tx/water-leak-detection/", "/service-areas/josephine-tx/water-leak-detection/", "/service-areas/lavon-tx/water-leak-detection/"]
+internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/", "/service-areas/farmersville-tx/", "/service-areas/fate-tx/", "/service-areas/frisco-tx/", "/service-areas/garland-tx/", "/service-areas/greenville-tx/", "/service-areas/heath-tx/", "/service-areas/highland-park-tx/", "/service-areas/josephine-tx/", "/service-areas/lavon-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-leak-detection"}]
 faq: []
 service_slug: "water-leak-detection"

@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "37603250febbba54"
 generated_at: "2026-09-30T19:28:39.578537+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/odor-removal/", "/service-areas/clayton-nc/odor-removal/", "/service-areas/durham-nc/odor-removal/", "/service-areas/elm-city-nc/odor-removal/", "/service-areas/kenly-nc/odor-removal/", "/service-areas/knightdale-nc/odor-removal/", "/service-areas/lake-royale-nc/odor-removal/", "/service-areas/louisburg-nc/odor-removal/", "/service-areas/nashville-nc/odor-removal/", "/service-areas/pine-level-nc/odor-removal/", "/service-areas/raleigh-nc/odor-removal/", "/service-areas/rocky-mount-nc/odor-removal/"]
+internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/", "/service-areas/elm-city-nc/", "/service-areas/kenly-nc/", "/service-areas/knightdale-nc/", "/service-areas/lake-royale-nc/", "/service-areas/louisburg-nc/", "/service-areas/nashville-nc/odor-removal/", "/service-areas/pine-level-nc/", "/service-areas/raleigh-nc/odor-removal/", "/service-areas/rocky-mount-nc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 service_slug: "odor-removal"

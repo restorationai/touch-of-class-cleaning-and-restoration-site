@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "aa76298bf6a9e7ba"
 generated_at: "2026-09-29T23:13:11.290419+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/gas-line-inspections/", "/service-areas/bloomington-ca/gas-line-inspections/", "/service-areas/canyon-lake-ca/gas-line-inspections/", "/service-areas/chino-ca/gas-line-inspections/", "/service-areas/chino-hills-ca/gas-line-inspections/", "/service-areas/claremont-ca/gas-line-inspections/", "/service-areas/diamond-bar-ca/gas-line-inspections/", "/service-areas/eastvale-ca/gas-line-inspections/", "/service-areas/fontana-ca/gas-line-inspections/", "/service-areas/french-valley-ca/gas-line-inspections/", "/service-areas/fullerton-ca/gas-line-inspections/", "/service-areas/hemet-ca/gas-line-inspections/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/", "/service-areas/bloomington-ca/", "/service-areas/canyon-lake-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/", "/service-areas/claremont-ca/", "/service-areas/diamond-bar-ca/", "/service-areas/eastvale-ca/", "/service-areas/fontana-ca/", "/service-areas/french-valley-ca/", "/service-areas/fullerton-ca/", "/service-areas/hemet-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Gas Line Inspections"}]
 faq: []
 service_slug: "gas-line-inspections"

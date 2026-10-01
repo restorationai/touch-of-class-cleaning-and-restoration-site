@@ -105,4 +105,4 @@ If you need a [water damage assessment](/services/water-damage-restoration/) or 
 
 **About DRYCOR RESTORE**
 
-DRYCOR RESTORE is an IICRC Certified Firm serving the Tampa Bay area and surrounding communities since 2005 (license CBC1253966). Their crews hold IICRC WRT (Water Restoration Technician), NAERMC mold, and EPA Lead-Safe certifications and handle water damage restoration, water cleanup, mold remediation, sewage cleanup, storm damage restoration, fire damage restoration, emergency board-up and tarping, emergency plumbing, contents restoration and storage, and general contracting. Available 24/7 for emergency response.
+DRYCOR RESTORE is an IICRC Certified Firm serving the Tampa Bay area and surrounding communities since 2005 (license CBC1253966). Their crews hold IICRC WRT (Water Restoration Technician), NAERMC mold, and EPA Lead-Safe certifications and handle water damage restoration, water cleanup, mold remediation, sewage cleanup, storm damage restoration, fire damage restoration, emergency board-up and tarping, contents restoration and storage, and general contracting. Available 24/7 for emergency response.

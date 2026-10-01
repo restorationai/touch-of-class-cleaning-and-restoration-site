@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "223adfbbd9da7304"
 generated_at: "2026-09-30T19:28:23.367768+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/camarillo-ca/ceiling-water-damage-repair/", "/service-areas/carpinteria-ca/ceiling-water-damage-repair/", "/service-areas/castaic-ca/ceiling-water-damage-repair/", "/service-areas/fillmore-ca/ceiling-water-damage-repair/", "/service-areas/hasley-canyon-ca/ceiling-water-damage-repair/", "/service-areas/lake-sherwood-ca/ceiling-water-damage-repair/", "/service-areas/mira-monte-ca/ceiling-water-damage-repair/", "/service-areas/moorpark-ca/ceiling-water-damage-repair/", "/service-areas/oak-park-ca/ceiling-water-damage-repair/", "/service-areas/oak-view-ca/ceiling-water-damage-repair/", "/service-areas/ojai-ca/ceiling-water-damage-repair/", "/service-areas/oxnard-ca/ceiling-water-damage-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/camarillo-ca/", "/service-areas/carpinteria-ca/", "/service-areas/castaic-ca/", "/service-areas/fillmore-ca/", "/service-areas/hasley-canyon-ca/", "/service-areas/lake-sherwood-ca/", "/service-areas/mira-monte-ca/", "/service-areas/moorpark-ca/", "/service-areas/oak-park-ca/", "/service-areas/oak-view-ca/", "/service-areas/ojai-ca/", "/service-areas/oxnard-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "ceiling-water-damage-repair"}]
 faq: []
 service_slug: "ceiling-water-damage-repair"

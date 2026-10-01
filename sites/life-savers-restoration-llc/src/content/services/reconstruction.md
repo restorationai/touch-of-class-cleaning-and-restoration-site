@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "9c504caa73db2523"
 generated_at: "2026-09-30T19:28:50.940266+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/reconstruction/", "/service-areas/boulder-city-nv/reconstruction/", "/service-areas/cal-nev-ari-nv/reconstruction/", "/service-areas/enterprise-nv/reconstruction/", "/service-areas/goodsprings-nv/reconstruction/", "/service-areas/indian-springs-nv/reconstruction/", "/service-areas/las-vegas-nv/reconstruction/", "/service-areas/laughlin-nv/reconstruction/", "/service-areas/nellis-afb-nv/reconstruction/", "/service-areas/nelson-nv/reconstruction/", "/service-areas/north-las-vegas-nv/reconstruction/", "/service-areas/paradise-nv/reconstruction/"]
+internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/", "/service-areas/enterprise-nv/", "/service-areas/goodsprings-nv/", "/service-areas/indian-springs-nv/", "/service-areas/las-vegas-nv/", "/service-areas/laughlin-nv/", "/service-areas/nellis-afb-nv/", "/service-areas/nelson-nv/", "/service-areas/north-las-vegas-nv/", "/service-areas/paradise-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "reconstruction"}]
 faq: []
 service_slug: "reconstruction"

@@ -12,10 +12,10 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 300,
-    "generated_at": "2026-09-21T19:19:14.903455+00:00"
+    "url_count": 166,
+    "generated_at": "2026-10-01T05:05:50.175559+00:00"
   },
-  "updated_at": "2026-09-30T23:04:23.908266+00:00",
+  "updated_at": "2026-10-01T05:05:50.175567+00:00",
   "build": {
     "scaffolded_at": "2026-07-23T06:15:02.233709+00:00",
     "github_repo": "restorationai/puroclean-east-las-vegas-site",

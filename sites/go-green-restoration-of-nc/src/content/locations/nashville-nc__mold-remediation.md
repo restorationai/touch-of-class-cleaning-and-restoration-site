@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "cd2838029e950bec"
 generated_at: "2026-09-30T19:28:39.746076+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/nashville-nc/", "/service-areas/nashville-nc/fire-damage-restoration/", "/service-areas/nashville-nc/water-damage-restoration/", "/service-areas/archer-lodge-nc/mold-remediation/", "/service-areas/clayton-nc/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/nashville-nc/", "/service-areas/nashville-nc/fire-damage-restoration/", "/service-areas/nashville-nc/water-damage-restoration/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nashville", "url": "/service-areas/nashville-nc/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "nashville-nc"

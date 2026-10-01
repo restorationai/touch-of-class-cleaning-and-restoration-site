@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "91e8a454e488dd32"
 generated_at: "2026-09-30T19:28:53.104744+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/normandy-park-wa/", "/service-areas/normandy-park-wa/fire-damage-restoration/", "/service-areas/normandy-park-wa/mold-remediation/", "/service-areas/algona-wa/water-damage-restoration/", "/service-areas/auburn-wa/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/normandy-park-wa/", "/service-areas/algona-wa/water-damage-restoration/", "/service-areas/auburn-wa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Normandy Park", "url": "/service-areas/normandy-park-wa/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "normandy-park-wa"

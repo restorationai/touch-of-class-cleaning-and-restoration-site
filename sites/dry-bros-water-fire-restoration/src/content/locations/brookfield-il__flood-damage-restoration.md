@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "8b07038172713b62"
 generated_at: "2026-09-24T17:27:58.264710+00:00"
 manual_override: false
-internal_links: ["/services/flood-damage-restoration/", "/service-areas/brookfield-il/", "/service-areas/brookfield-il/fire-damage-restoration/", "/service-areas/brookfield-il/mold-remediation/", "/service-areas/bedford-park-il/flood-damage-restoration/", "/service-areas/berwyn-il/flood-damage-restoration/", "/contact/"]
+internal_links: ["/services/flood-damage-restoration/", "/service-areas/brookfield-il/", "/service-areas/brookfield-il/mold-remediation/", "/service-areas/bedford-park-il/", "/service-areas/berwyn-il/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brookfield", "url": "/service-areas/brookfield-il/"}, {"name": "Flood Damage Restoration"}]
 faq: []
 area_slug: "brookfield-il"

@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "2aafe52bec4ba424"
 generated_at: "2026-09-30T19:28:43.425708+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/pass-christian-ms/", "/service-areas/pass-christian-ms/fire-damage-restoration/", "/service-areas/pass-christian-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-water-removal/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/pass-christian-ms/", "/service-areas/pass-christian-ms/fire-damage-restoration/", "/service-areas/pass-christian-ms/mold-remediation/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pass Christian", "url": "/service-areas/pass-christian-ms/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "pass-christian-ms"

@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "3c5c969514937811"
 generated_at: "2026-09-30T19:28:54.512379+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/biohazard-cleanup/", "/service-areas/bear-valley-springs-ca/biohazard-cleanup/", "/service-areas/buttonwillow-ca/biohazard-cleanup/", "/service-areas/delano-ca/biohazard-cleanup/", "/service-areas/dustin-acres-ca/biohazard-cleanup/", "/service-areas/east-niles-ca/biohazard-cleanup/", "/service-areas/keene-ca/biohazard-cleanup/", "/service-areas/lake-isabella-ca/biohazard-cleanup/", "/service-areas/lamont-ca/biohazard-cleanup/", "/service-areas/maricopa-ca/biohazard-cleanup/", "/service-areas/mcfarland-ca/biohazard-cleanup/", "/service-areas/oildale-ca/biohazard-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/", "/service-areas/bear-valley-springs-ca/", "/service-areas/buttonwillow-ca/", "/service-areas/delano-ca/", "/service-areas/dustin-acres-ca/", "/service-areas/east-niles-ca/", "/service-areas/keene-ca/", "/service-areas/lake-isabella-ca/", "/service-areas/lamont-ca/", "/service-areas/maricopa-ca/biohazard-cleanup/", "/service-areas/mcfarland-ca/", "/service-areas/oildale-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Biohazard Cleanup"}]
 faq: []
 service_slug: "biohazard-cleanup"

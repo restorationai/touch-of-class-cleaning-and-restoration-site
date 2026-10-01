@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "703b977956b3aac0"
 generated_at: "2026-09-30T19:28:32.802103+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/woodcrest-ca/", "/service-areas/woodcrest-ca/fire-damage-restoration/", "/service-areas/woodcrest-ca/mold-remediation/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/woodcrest-ca/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woodcrest", "url": "/service-areas/woodcrest-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "woodcrest-ca"

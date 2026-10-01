@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "600e56f53e1d47da"
 generated_at: "2026-09-30T19:28:56.906983+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/burst-pipe-repair/", "/service-areas/east-douglas-ma/burst-pipe-repair/", "/service-areas/fiskdale-ma/burst-pipe-repair/", "/service-areas/framingham-ma/burst-pipe-repair/", "/service-areas/franklin-town-ma/burst-pipe-repair/", "/service-areas/hopkinton-ma/burst-pipe-repair/", "/service-areas/hudson-ma/burst-pipe-repair/", "/service-areas/leominster-ma/burst-pipe-repair/", "/service-areas/marlborough-ma/burst-pipe-repair/", "/service-areas/maynard-ma/burst-pipe-repair/", "/service-areas/milford-ma/burst-pipe-repair/", "/service-areas/natick-ma/burst-pipe-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/service-areas/framingham-ma/", "/service-areas/franklin-town-ma/", "/service-areas/hopkinton-ma/", "/service-areas/hudson-ma/", "/service-areas/leominster-ma/", "/service-areas/marlborough-ma/", "/service-areas/maynard-ma/", "/service-areas/milford-ma/", "/service-areas/natick-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "burst-pipe-repair"}]
 faq: []
 service_slug: "burst-pipe-repair"

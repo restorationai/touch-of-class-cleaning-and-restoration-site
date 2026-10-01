@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "41a5be6681817159"
 generated_at: "2026-09-20T20:42:02.354511+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/moncks-corner-sc/", "/service-areas/moncks-corner-sc/fire-damage-restoration/", "/service-areas/moncks-corner-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/folly-beach-sc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/moncks-corner-sc/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/folly-beach-sc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moncks Corner", "url": "/service-areas/moncks-corner-sc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "moncks-corner-sc"

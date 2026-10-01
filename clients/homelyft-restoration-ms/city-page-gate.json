@@ -1,0 +1,6108 @@
+{
+ "policy": "scripts/city_page_gate.py (Santino 2026-10-01)",
+ "thresholds": {
+  "combo_min": 10,
+  "head_metro_min": 1000
+ },
+ "decisions": {
+  "agricola-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "agricola-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "agricola-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "agricola-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "agricola-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "agricola-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "agricola-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "agricola-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "agricola-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "agricola-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "agricola-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "agricola-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "agricola-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "agricola-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "agricola-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "agricola-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "agricola-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "agricola-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bay-st-louis-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement bay st. louis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bay-st-louis-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup bay st. louis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bay-st-louis-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning bay st. louis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bay-st-louis-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration bay st. louis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bay-st-louis-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation bay st. louis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bay-st-louis-ms__emergency-board-up-tarping": {
+   "pass": true,
+   "why": "local angle: frequent hurricane and storm surge damage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bay-st-louis-ms__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: Bay coastal hurricane flood exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bay-st-louis-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration bay st. louis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bay-st-louis-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor bay st. louis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bay-st-louis-ms__mold-remediation": {
+   "pass": true,
+   "why": "local angle: humid coastal air fosters mold issues",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bay-st-louis-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal bay st. louis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bay-st-louis-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning bay st. louis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bay-st-louis-ms__roofing": {
+   "pass": true,
+   "why": "local angle: hurricane-prone coastal roofing demand",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bay-st-louis-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup bay st. louis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bay-st-louis-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration bay st. louis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bay-st-louis-ms__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: severe hurricane and storm surge history",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bay-st-louis-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning bay st. louis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bay-st-louis-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection bay st. louis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benndale-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benndale-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benndale-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benndale-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benndale-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benndale-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benndale-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benndale-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benndale-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benndale-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benndale-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benndale-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benndale-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benndale-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benndale-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benndale-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benndale-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benndale-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-point-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement big point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-point-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup big point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-point-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning big point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-point-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration big point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-point-ms__crawl-space-encapsulation": {
+   "pass": true,
+   "why": "local angle: coastal marsh and flood-prone terrain",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-point-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up big point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-point-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal big point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-point-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration big point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-point-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor big point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-point-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation big point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-point-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal big point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-point-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning big point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-point-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement big point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-point-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup big point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-point-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration big point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-point-ms__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: coastal Jackson County hurricane exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-point-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning big point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-point-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection big point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "biloxi-ms__asbestos-abatement": {
+   "pass": true,
+   "why": "local angle: historic older buildings and housing stock",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "biloxi-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup biloxi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "biloxi-ms__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning biloxi' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "biloxi-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration biloxi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "biloxi-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation biloxi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "biloxi-ms__emergency-board-up-tarping": {
+   "pass": true,
+   "why": "local angle: frequent hurricane wind and storm damage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "biloxi-ms__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: Coastal hurricane storm surge flood exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "biloxi-ms__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration biloxi' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "biloxi-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor biloxi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "biloxi-ms__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation biloxi' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "biloxi-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal biloxi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "biloxi-ms__post-construction-cleaning": {
+   "pass": true,
+   "why": "local angle: casino and commercial construction activity",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "biloxi-ms__roofing": {
+   "pass": true,
+   "why": "local angle: frequent hurricane roof damage exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "biloxi-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup biloxi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "biloxi-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration biloxi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "biloxi-ms__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: direct Gulf Coast hurricane exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "biloxi-ms__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning biloxi' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "biloxi-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection biloxi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "d-iberville-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement d'iberville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "d-iberville-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup d'iberville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "d-iberville-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning d'iberville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "d-iberville-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration d'iberville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "d-iberville-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation d'iberville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "d-iberville-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up d'iberville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "d-iberville-ms__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: Coastal hurricane storm surge flood exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "d-iberville-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration d'iberville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "d-iberville-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor d'iberville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "d-iberville-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation d'iberville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "d-iberville-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal d'iberville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "d-iberville-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning d'iberville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "d-iberville-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement d'iberville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "d-iberville-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup d'iberville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "d-iberville-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration d'iberville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "d-iberville-ms__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: coastal city facing hurricane storm surge",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "d-iberville-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning d'iberville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "d-iberville-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection d'iberville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delisle-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement delisle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delisle-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup delisle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delisle-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning delisle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delisle-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration delisle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delisle-ms__crawl-space-encapsulation": {
+   "pass": true,
+   "why": "local angle: Wolf River flood zone area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delisle-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up delisle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delisle-ms__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: Bayou coastal flood exposure area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delisle-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration delisle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delisle-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor delisle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delisle-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation delisle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delisle-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal delisle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delisle-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning delisle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delisle-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement delisle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delisle-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup delisle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delisle-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration delisle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delisle-ms__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: near Bay St. Louis hurricane exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delisle-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning delisle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delisle-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection delisle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "diamondhead-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement diamondhead' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "diamondhead-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup diamondhead' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "diamondhead-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning diamondhead' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "diamondhead-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration diamondhead' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "diamondhead-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation diamondhead' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "diamondhead-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up diamondhead' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "diamondhead-ms__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: Coastal canal community flood exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "diamondhead-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration diamondhead' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "diamondhead-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor diamondhead' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "diamondhead-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation diamondhead' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "diamondhead-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal diamondhead' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "diamondhead-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning diamondhead' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "diamondhead-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement diamondhead' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "diamondhead-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup diamondhead' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "diamondhead-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration diamondhead' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "diamondhead-ms__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: coastal community vulnerable to hurricanes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "diamondhead-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning diamondhead' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "diamondhead-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection diamondhead' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eastabuchie-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eastabuchie-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eastabuchie-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eastabuchie-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eastabuchie-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eastabuchie-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eastabuchie-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eastabuchie-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eastabuchie-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eastabuchie-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eastabuchie-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eastabuchie-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eastabuchie-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eastabuchie-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eastabuchie-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eastabuchie-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eastabuchie-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eastabuchie-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellisville-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellisville-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellisville-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellisville-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellisville-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellisville-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellisville-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellisville-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellisville-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellisville-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellisville-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellisville-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellisville-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellisville-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellisville-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellisville-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellisville-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellisville-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "escatawpa-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement escatawpa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "escatawpa-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup escatawpa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "escatawpa-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning escatawpa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "escatawpa-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration escatawpa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "escatawpa-ms__crawl-space-encapsulation": {
+   "pass": true,
+   "why": "local angle: near Escatawpa River flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "escatawpa-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up escatawpa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "escatawpa-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal escatawpa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "escatawpa-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration escatawpa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "escatawpa-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor escatawpa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "escatawpa-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation escatawpa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "escatawpa-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal escatawpa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "escatawpa-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning escatawpa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "escatawpa-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement escatawpa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "escatawpa-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup escatawpa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "escatawpa-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration escatawpa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "escatawpa-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration escatawpa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "escatawpa-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning escatawpa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "escatawpa-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection escatawpa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gautier-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement gautier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gautier-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup gautier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gautier-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning gautier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gautier-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration gautier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gautier-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation gautier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gautier-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up gautier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gautier-ms__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: Coastal river flood exposure area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gautier-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration gautier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gautier-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor gautier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gautier-ms__mold-remediation": {
+   "pass": true,
+   "why": "local angle: humid coastal climate near Gulf",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gautier-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal gautier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gautier-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning gautier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gautier-ms__roofing": {
+   "pass": true,
+   "why": "local angle: coastal hurricane roof damage exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gautier-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup gautier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gautier-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration gautier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gautier-ms__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: coastal city with hurricane surge risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gautier-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning gautier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gautier-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection gautier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-hills-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement gulf hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-hills-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup gulf hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-hills-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning gulf hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-hills-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration gulf hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-hills-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation gulf hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-hills-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up gulf hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-hills-ms__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: Coastal creek flood-prone area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-hills-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration gulf hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-hills-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor gulf hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-hills-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation gulf hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-hills-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal gulf hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-hills-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning gulf hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-hills-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement gulf hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-hills-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup gulf hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-hills-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration gulf hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-hills-ms__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: near coast, hurricane wind exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-hills-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning gulf hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-hills-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection gulf hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-park-estates-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement gulf park estates' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-park-estates-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup gulf park estates' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-park-estates-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning gulf park estates' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-park-estates-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration gulf park estates' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-park-estates-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation gulf park estates' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-park-estates-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up gulf park estates' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-park-estates-ms__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: Coastal shoreline flood exposure area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-park-estates-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration gulf park estates' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-park-estates-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor gulf park estates' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-park-estates-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation gulf park estates' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-park-estates-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal gulf park estates' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-park-estates-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning gulf park estates' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-park-estates-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement gulf park estates' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-park-estates-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup gulf park estates' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-park-estates-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration gulf park estates' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-park-estates-ms__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: coastal Ocean Springs hurricane exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-park-estates-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning gulf park estates' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gulf-park-estates-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection gulf park estates' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hattiesburg-ms__asbestos-abatement": {
+   "pass": true,
+   "why": "local angle: older housing stock needing renovation work",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hattiesburg-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup hattiesburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hattiesburg-ms__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning hattiesburg' 110/mo",
+   "vol": 110,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hattiesburg-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration hattiesburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hattiesburg-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation hattiesburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hattiesburg-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up hattiesburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hattiesburg-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal hattiesburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hattiesburg-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration hattiesburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hattiesburg-ms__general-contracting": {
+   "pass": true,
+   "why": "local angle: regional growth hub with steady construction demand",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hattiesburg-ms__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation hattiesburg' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hattiesburg-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal hattiesburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hattiesburg-ms__post-construction-cleaning": {
+   "pass": true,
+   "why": "local angle: growing city with active construction projects",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hattiesburg-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement hattiesburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hattiesburg-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup hattiesburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hattiesburg-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration hattiesburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hattiesburg-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration hattiesburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hattiesburg-ms__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning hattiesburg' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hattiesburg-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection hattiesburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "helena-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement helena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "helena-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup helena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "helena-ms__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning helena' 260/mo",
+   "vol": 260,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "helena-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration helena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "helena-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation helena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "helena-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up helena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "helena-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal helena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "helena-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration helena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "helena-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor helena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "helena-ms__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation helena' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "helena-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal helena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "helena-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning helena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "helena-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement helena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "helena-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup helena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "helena-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration helena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "helena-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration helena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "helena-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning helena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "helena-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection helena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "henderson-point-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement henderson point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "henderson-point-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup henderson point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "henderson-point-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning henderson point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "henderson-point-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration henderson point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "henderson-point-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation henderson point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "henderson-point-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up henderson point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "henderson-point-ms__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: Coastal peninsula hurricane surge exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "henderson-point-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration henderson point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "henderson-point-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor henderson point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "henderson-point-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation henderson point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "henderson-point-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal henderson point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "henderson-point-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning henderson point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "henderson-point-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement henderson point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "henderson-point-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup henderson point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "henderson-point-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration henderson point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "henderson-point-ms__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: exposed peninsula, high hurricane risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "henderson-point-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning henderson point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "henderson-point-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection henderson point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hide-a-way-lake-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hide-a-way-lake-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hide-a-way-lake-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hide-a-way-lake-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hide-a-way-lake-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hide-a-way-lake-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hide-a-way-lake-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hide-a-way-lake-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hide-a-way-lake-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hide-a-way-lake-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hide-a-way-lake-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hide-a-way-lake-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hide-a-way-lake-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hide-a-way-lake-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hide-a-way-lake-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hide-a-way-lake-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hide-a-way-lake-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hide-a-way-lake-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurley-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurley-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurley-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurley-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurley-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurley-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurley-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurley-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurley-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurley-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurley-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurley-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurley-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurley-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurley-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurley-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurley-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hurley-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kiln-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement kiln' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kiln-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup kiln' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kiln-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning kiln' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kiln-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration kiln' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kiln-ms__crawl-space-encapsulation": {
+   "pass": true,
+   "why": "local angle: Jourdan River flood zone homes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kiln-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up kiln' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kiln-ms__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: Jourdan River flood-prone area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kiln-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration kiln' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kiln-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor kiln' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kiln-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation kiln' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kiln-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal kiln' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kiln-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning kiln' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kiln-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement kiln' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kiln-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup kiln' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kiln-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration kiln' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kiln-ms__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Hancock County hurricane and flood exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kiln-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning kiln' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kiln-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection kiln' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "latimer-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "latimer-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "latimer-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "latimer-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "latimer-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "latimer-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "latimer-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "latimer-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "latimer-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "latimer-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "latimer-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "latimer-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "latimer-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "latimer-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "latimer-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "latimer-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "latimer-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "latimer-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-ms__asbestos-abatement": {
+   "pass": true,
+   "why": "local angle: historic district with older building stock",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup laurel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-ms__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning laurel' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration laurel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation laurel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up laurel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal laurel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-ms__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration laurel' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-ms__general-contracting": {
+   "pass": true,
+   "why": "local angle: renowned renovation hub, HGTV Home Town fame",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-ms__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation laurel' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal laurel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning laurel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement laurel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-ms__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup laurel' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-ms__smoke-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'smoke damage restoration laurel' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration laurel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning laurel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "laurel-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection laurel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "leakesville-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "leakesville-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "leakesville-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "leakesville-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "leakesville-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "leakesville-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "leakesville-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "leakesville-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "leakesville-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "leakesville-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "leakesville-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "leakesville-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "leakesville-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "leakesville-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "leakesville-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "leakesville-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "leakesville-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "leakesville-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "long-beach-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement long beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "long-beach-ms__biohazard-cleanup": {
+   "pass": true,
+   "why": "local demand: 'biohazard cleanup long beach' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "long-beach-ms__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning long beach' 320/mo",
+   "vol": 320,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "long-beach-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration long beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "long-beach-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation long beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "long-beach-ms__emergency-board-up-tarping": {
+   "pass": true,
+   "why": "local angle: coastal hurricane wind damage exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "long-beach-ms__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: Gulf coastline hurricane surge exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "long-beach-ms__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration long beach' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "long-beach-ms__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor long beach' 320/mo",
+   "vol": 320,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "long-beach-ms__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation long beach' 140/mo",
+   "vol": 140,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "long-beach-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal long beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "long-beach-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning long beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "long-beach-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement long beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "long-beach-ms__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup long beach' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "long-beach-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration long beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "long-beach-ms__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Gulf-front hurricane and storm surge risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "long-beach-ms__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning long beach' 90/mo",
+   "vol": 90,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "long-beach-ms__water-leak-detection": {
+   "pass": true,
+   "why": "local demand: 'water leak detection long beach' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucedale-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucedale-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucedale-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucedale-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucedale-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucedale-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucedale-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucedale-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucedale-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucedale-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucedale-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucedale-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucedale-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucedale-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucedale-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucedale-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucedale-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucedale-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lumberton-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement lumberton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lumberton-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup lumberton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lumberton-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning lumberton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lumberton-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration lumberton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lumberton-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation lumberton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lumberton-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up lumberton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lumberton-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal lumberton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lumberton-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration lumberton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lumberton-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor lumberton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lumberton-ms__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation lumberton' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lumberton-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal lumberton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lumberton-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning lumberton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lumberton-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement lumberton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lumberton-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup lumberton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lumberton-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration lumberton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lumberton-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration lumberton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lumberton-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning lumberton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lumberton-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection lumberton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lyman-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lyman-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lyman-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lyman-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lyman-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lyman-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lyman-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lyman-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lyman-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lyman-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lyman-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lyman-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lyman-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lyman-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lyman-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lyman-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lyman-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lyman-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclain-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclain-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclain-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclain-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclain-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclain-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclain-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclain-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclain-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclain-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclain-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclain-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclain-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclain-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclain-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclain-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclain-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclain-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moselle-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moselle-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moselle-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moselle-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moselle-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moselle-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moselle-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moselle-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moselle-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moselle-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moselle-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moselle-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moselle-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moselle-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moselle-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moselle-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moselle-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moselle-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moss-point-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement moss point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moss-point-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup moss point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moss-point-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning moss point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moss-point-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration moss point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moss-point-ms__crawl-space-encapsulation": {
+   "pass": true,
+   "why": "local angle: riverside location prone to flooding",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moss-point-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up moss point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moss-point-ms__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: River and coastal flood exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moss-point-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration moss point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moss-point-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor moss point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moss-point-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation moss point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moss-point-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal moss point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moss-point-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning moss point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moss-point-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement moss point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moss-point-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup moss point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moss-point-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration moss point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moss-point-ms__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: coastal river city, hurricane flooding risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moss-point-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning moss point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moss-point-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection moss point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ocean-springs-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement ocean springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ocean-springs-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup ocean springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ocean-springs-ms__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning ocean springs' 30/mo",
+   "vol": 30,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ocean-springs-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration ocean springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ocean-springs-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation ocean springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ocean-springs-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up ocean springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ocean-springs-ms__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: Coastal bay hurricane flood exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ocean-springs-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration ocean springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ocean-springs-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor ocean springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ocean-springs-ms__mold-remediation": {
+   "pass": true,
+   "why": "local angle: humid Gulf-front climate promotes mold",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ocean-springs-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal ocean springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ocean-springs-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning ocean springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ocean-springs-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement ocean springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ocean-springs-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup ocean springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ocean-springs-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration ocean springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ocean-springs-ms__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: coastal city facing hurricane storm damage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ocean-springs-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning ocean springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ocean-springs-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection ocean springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ovett-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ovett-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ovett-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ovett-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ovett-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ovett-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ovett-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ovett-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ovett-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ovett-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ovett-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ovett-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ovett-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ovett-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ovett-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ovett-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ovett-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ovett-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pascagoula-ms__asbestos-abatement": {
+   "pass": true,
+   "why": "local angle: older industrial-era buildings common",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pascagoula-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup pascagoula' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pascagoula-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning pascagoula' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pascagoula-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration pascagoula' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pascagoula-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation pascagoula' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pascagoula-ms__emergency-board-up-tarping": {
+   "pass": true,
+   "why": "local angle: coastal hurricane and industrial storm damage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pascagoula-ms__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: Coastal river port flood exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pascagoula-ms__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration pascagoula' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pascagoula-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor pascagoula' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pascagoula-ms__mold-remediation": {
+   "pass": true,
+   "why": "local angle: humid industrial coastal climate",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pascagoula-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal pascagoula' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pascagoula-ms__post-construction-cleaning": {
+   "pass": true,
+   "why": "local angle: shipyard and industrial construction projects",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pascagoula-ms__roofing": {
+   "pass": true,
+   "why": "local angle: coastal hurricane and industrial roofing needs",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pascagoula-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup pascagoula' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pascagoula-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration pascagoula' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pascagoula-ms__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: coastal industrial city, hurricane exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pascagoula-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning pascagoula' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pascagoula-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection pascagoula' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pass-christian-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement pass christian' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pass-christian-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup pass christian' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pass-christian-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning pass christian' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pass-christian-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration pass christian' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pass-christian-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation pass christian' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pass-christian-ms__emergency-board-up-tarping": {
+   "pass": true,
+   "why": "local angle: exposed Gulf-front hurricane damage risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pass-christian-ms__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: Gulf coastline hurricane surge exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pass-christian-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration pass christian' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pass-christian-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor pass christian' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pass-christian-ms__mold-remediation": {
+   "pass": true,
+   "why": "local angle: coastal humidity encourages mold growth",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pass-christian-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal pass christian' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pass-christian-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning pass christian' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pass-christian-ms__roofing": {
+   "pass": true,
+   "why": "local angle: exposed peninsula, frequent storm roof damage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pass-christian-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup pass christian' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pass-christian-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration pass christian' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pass-christian-ms__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: exposed Gulf-front hurricane damage history",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pass-christian-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning pass christian' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pass-christian-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection pass christian' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pearlington-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement pearlington' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pearlington-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup pearlington' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pearlington-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning pearlington' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pearlington-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration pearlington' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pearlington-ms__crawl-space-encapsulation": {
+   "pass": true,
+   "why": "local angle: Pearl River floodplain, elevated crawl space homes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pearlington-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up pearlington' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pearlington-ms__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: Pearl River flood-prone low area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pearlington-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration pearlington' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pearlington-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor pearlington' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pearlington-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation pearlington' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pearlington-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal pearlington' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pearlington-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning pearlington' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pearlington-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement pearlington' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pearlington-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup pearlington' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pearlington-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration pearlington' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pearlington-ms__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Pearl River hurricane flood exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pearlington-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning pearlington' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pearlington-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection pearlington' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "petal-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "petal-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "petal-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "petal-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "petal-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "petal-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "petal-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "petal-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "petal-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "petal-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "petal-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "petal-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "petal-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "petal-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "petal-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "petal-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "petal-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "petal-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "picayune-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "picayune-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "picayune-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "picayune-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "picayune-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "picayune-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "picayune-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "picayune-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "picayune-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "picayune-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "picayune-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "picayune-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "picayune-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "picayune-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "picayune-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "picayune-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "picayune-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "picayune-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poplarville-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poplarville-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poplarville-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poplarville-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poplarville-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poplarville-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poplarville-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poplarville-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poplarville-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poplarville-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poplarville-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poplarville-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poplarville-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poplarville-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poplarville-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poplarville-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poplarville-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poplarville-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rawls-springs-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rawls-springs-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rawls-springs-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rawls-springs-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rawls-springs-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rawls-springs-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rawls-springs-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rawls-springs-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rawls-springs-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rawls-springs-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rawls-springs-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rawls-springs-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rawls-springs-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rawls-springs-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rawls-springs-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rawls-springs-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rawls-springs-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rawls-springs-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandersville-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandersville-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandersville-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandersville-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandersville-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandersville-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandersville-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandersville-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandersville-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandersville-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandersville-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandersville-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandersville-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandersville-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandersville-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandersville-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandersville-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sandersville-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "saucier-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "saucier-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "saucier-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "saucier-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "saucier-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "saucier-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "saucier-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "saucier-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "saucier-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "saucier-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "saucier-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "saucier-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "saucier-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "saucier-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "saucier-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "saucier-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "saucier-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "saucier-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-martin-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement st. martin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-martin-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup st. martin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-martin-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning st. martin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-martin-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration st. martin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-martin-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation st. martin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-martin-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up st. martin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-martin-ms__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: Coastal bayou flood-prone area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-martin-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration st. martin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-martin-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor st. martin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-martin-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation st. martin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-martin-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal st. martin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-martin-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning st. martin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-martin-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement st. martin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-martin-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup st. martin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-martin-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration st. martin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-martin-ms__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: coastal area near Biloxi hurricane exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-martin-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning st. martin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-martin-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection st. martin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "state-line-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "state-line-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "state-line-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "state-line-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "state-line-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "state-line-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "state-line-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "state-line-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "state-line-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "state-line-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "state-line-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "state-line-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "state-line-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "state-line-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "state-line-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "state-line-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "state-line-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "state-line-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vancleave-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement vancleave' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vancleave-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup vancleave' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vancleave-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning vancleave' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vancleave-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration vancleave' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vancleave-ms__crawl-space-encapsulation": {
+   "pass": true,
+   "why": "local angle: near Pascagoula River flood-prone area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vancleave-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up vancleave' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vancleave-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal vancleave' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vancleave-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration vancleave' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vancleave-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor vancleave' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vancleave-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation vancleave' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vancleave-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal vancleave' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vancleave-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning vancleave' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vancleave-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement vancleave' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vancleave-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup vancleave' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vancleave-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration vancleave' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vancleave-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration vancleave' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vancleave-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning vancleave' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vancleave-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection vancleave' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wade-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement wade' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wade-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup wade' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wade-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning wade' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wade-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration wade' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wade-ms__crawl-space-encapsulation": {
+   "pass": true,
+   "why": "local angle: near Pascagoula River flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wade-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up wade' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wade-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal wade' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wade-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration wade' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wade-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor wade' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wade-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation wade' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wade-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal wade' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wade-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning wade' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wade-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement wade' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wade-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup wade' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wade-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration wade' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wade-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration wade' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wade-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning wade' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wade-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection wade' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "waveland-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement waveland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "waveland-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup waveland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "waveland-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning waveland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "waveland-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration waveland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "waveland-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation waveland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "waveland-ms__emergency-board-up-tarping": {
+   "pass": true,
+   "why": "local angle: high hurricane exposure, direct Gulf frontage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "waveland-ms__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: Gulf coastline hurricane surge exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "waveland-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration waveland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "waveland-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor waveland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "waveland-ms__mold-remediation": {
+   "pass": true,
+   "why": "local angle: high humidity from Gulf proximity",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "waveland-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal waveland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "waveland-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning waveland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "waveland-ms__roofing": {
+   "pass": true,
+   "why": "local angle: direct Gulf hurricane wind exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "waveland-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup waveland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "waveland-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration waveland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "waveland-ms__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: ground zero for Katrina storm surge",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "waveland-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning waveland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "waveland-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection waveland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wiggins-ms__asbestos-abatement": {
+   "pass": false,
+   "why": "no local demand ('asbestos abatement wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wiggins-ms__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wiggins-ms__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wiggins-ms__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wiggins-ms__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wiggins-ms__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wiggins-ms__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wiggins-ms__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wiggins-ms__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wiggins-ms__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wiggins-ms__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wiggins-ms__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wiggins-ms__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wiggins-ms__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wiggins-ms__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wiggins-ms__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wiggins-ms__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wiggins-ms__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  }
+ },
+ "offered": {
+  "asbestos-abatement": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "biohazard-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "carpet-cleaning": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "carpet-upholstery-cleaning": [
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "contents-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "contents-restoration-storage": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "crawl-space-encapsulation": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "emergency-board-up-tarping": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Roof Tarping'",
+   "GBP service in the client's words: 'Board-Up & Tarping Services'"
+  ],
+  "emergency-water-removal": [
+   "GBP service in the client's words: 'Emergency Water Extraction'",
+   "default with water damage restoration (Santino 09-30)"
+  ],
+  "fire-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "general-contracting": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'General Contracting (Reconstruction & Renovation)'"
+  ],
+  "mold-remediation": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "odor-removal": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Odor Control & Deodorization'"
+  ],
+  "post-construction-cleaning": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "roofing": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "sewage-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Sewage Cleanup & Remediation'"
+  ],
+  "smoke-damage-restoration": [
+   "GBP service in the client's words: 'Smoke Damage Cleanup'"
+  ],
+  "storm-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Storm Damage Repair'"
+  ],
+  "upholstery-cleaning": [
+   "explicit non-core plan-input service"
+  ],
+  "vandalism-cleanup": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "water-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "water-leak-detection": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ]
+ },
+ "metro": "Long Beach,Mississippi,United States",
+ "heads": {
+  "asbestos-abatement": {
+   "term": "asbestos abatement",
+   "metro": 20
+  },
+  "biohazard-cleanup": {
+   "term": "biohazard cleanup",
+   "metro": 0
+  },
+  "carpet-cleaning": {
+   "term": "carpet cleaning",
+   "metro": 30
+  },
+  "contents-restoration": {
+   "term": "contents restoration",
+   "metro": 0
+  },
+  "crawl-space-encapsulation": {
+   "term": "crawl space encapsulation",
+   "metro": 10
+  },
+  "emergency-board-up-tarping": {
+   "term": "emergency board up",
+   "metro": 0
+  },
+  "fire-damage-restoration": {
+   "term": "fire damage restoration",
+   "metro": 10
+  },
+  "general-contracting": {
+   "term": "general contractor",
+   "metro": 20
+  },
+  "mold-remediation": {
+   "term": "mold remediation",
+   "metro": 20
+  },
+  "odor-removal": {
+   "term": "odor removal",
+   "metro": 0
+  },
+  "post-construction-cleaning": {
+   "term": "post construction cleaning",
+   "metro": 10
+  },
+  "roofing": {
+   "term": "roofing installation and replacement",
+   "metro": 0
+  },
+  "sewage-cleanup": {
+   "term": "sewage cleanup",
+   "metro": 0
+  },
+  "storm-damage-restoration": {
+   "term": "storm damage restoration",
+   "metro": 0
+  },
+  "water-leak-detection": {
+   "term": "water leak detection",
+   "metro": 20
+  },
+  "upholstery-cleaning": {
+   "term": "upholstery cleaning",
+   "metro": 20
+  },
+  "emergency-water-removal": {
+   "term": "emergency water removal",
+   "metro": 0
+  },
+  "smoke-damage-restoration": {
+   "term": "smoke damage restoration",
+   "metro": 0
+  }
+ },
+ "updated_at": "2026-10-01T05:05:47+00:00"
+}

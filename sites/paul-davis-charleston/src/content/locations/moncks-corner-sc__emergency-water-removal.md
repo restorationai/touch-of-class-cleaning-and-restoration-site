@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "2ecf9cb3c2179362"
 generated_at: "2026-09-20T20:42:02.355100+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/moncks-corner-sc/", "/service-areas/moncks-corner-sc/fire-damage-restoration/", "/service-areas/moncks-corner-sc/mold-remediation/", "/service-areas/awendaw-sc/emergency-water-removal/", "/service-areas/folly-beach-sc/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/moncks-corner-sc/", "/service-areas/awendaw-sc/emergency-water-removal/", "/service-areas/folly-beach-sc/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moncks Corner", "url": "/service-areas/moncks-corner-sc/"}, {"name": "Emergency Water Removal & Cleanup"}]
 faq: []
 area_slug: "moncks-corner-sc"

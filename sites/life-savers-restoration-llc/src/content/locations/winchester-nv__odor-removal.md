@@ -10,7 +10,7 @@ priority: 4.9
 plan_hash: "77b179b5bd6445f6"
 generated_at: "2026-09-30T19:28:50.960664+00:00"
 manual_override: false
-internal_links: ["/services/odor-removal/", "/service-areas/winchester-nv/", "/service-areas/winchester-nv/fire-damage-restoration/", "/service-areas/winchester-nv/mold-remediation/", "/service-areas/blue-diamond-nv/odor-removal/", "/service-areas/boulder-city-nv/odor-removal/", "/contact/"]
+internal_links: ["/services/odor-removal/", "/service-areas/winchester-nv/", "/service-areas/winchester-nv/fire-damage-restoration/", "/service-areas/winchester-nv/mold-remediation/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Winchester", "url": "/service-areas/winchester-nv/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 area_slug: "winchester-nv"

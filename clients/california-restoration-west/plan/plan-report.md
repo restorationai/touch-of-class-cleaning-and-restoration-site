@@ -1,20 +1,20 @@
 # Site Plan Report — California Restoration West 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:28:21.693309+00:00
+- Generated: 2026-10-01T05:03:06.654237+00:00
 - Domain: `californiarestorationwest.com`
-- Services selected: 23 of 91 catalog entries
+- Services selected: 22 of 91 catalog entries
 - Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **520**
-- Total internal links: 4263 (avg 8.2 per page)
+- Total URLs: **199**
+- Total internal links: 1507 (avg 7.6 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 460 |
-| `service-landing` | 23 |
+| `service-area-service` | 140 |
+| `service-landing` | 22 |
 | `service-area` | 20 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -49,7 +49,6 @@
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
 
@@ -83,12 +82,12 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation ventura |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration ventura |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration ventura |
-| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing ventura |
 | `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup ventura |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration ventura |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services ventura |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization ventura |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration ventura |
+| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration ventura |
 
 ## Validation
 

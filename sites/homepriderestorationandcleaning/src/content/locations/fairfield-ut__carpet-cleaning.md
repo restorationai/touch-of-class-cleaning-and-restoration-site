@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "261b1c89d60cdcbf"
 generated_at: "2026-09-30T19:28:45.261919+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/fire-damage-restoration/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/alpine-ut/carpet-cleaning/", "/service-areas/american-fork-ut/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/alpine-ut/carpet-cleaning/", "/service-areas/american-fork-ut/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fairfield", "url": "/service-areas/fairfield-ut/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "fairfield-ut"

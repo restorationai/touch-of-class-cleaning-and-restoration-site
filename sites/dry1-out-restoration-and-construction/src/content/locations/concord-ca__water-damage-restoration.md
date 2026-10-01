@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "fc70f504a254ad38"
 generated_at: "2026-09-30T19:28:33.842956+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/concord-ca/", "/service-areas/concord-ca/fire-damage-restoration/", "/service-areas/concord-ca/mold-remediation/", "/service-areas/berkeley-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/concord-ca/", "/service-areas/berkeley-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Concord", "url": "/service-areas/concord-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "concord-ca"

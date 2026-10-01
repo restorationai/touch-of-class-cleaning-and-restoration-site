@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "836fc64445ceac9a"
 generated_at: "2026-09-30T14:12:04.048044+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/priceville-al/home-remodeling/", "/service-areas/priceville-al/roofing/", "/service-areas/priceville-al/decks-pergolas-fences/", "/service-areas/priceville-al/new-construction/", "/service-areas/priceville-al/siding-gutters/", "/service-areas/priceville-al/fire-smoke-rebuilding/", "/service-areas/priceville-al/mold-remediation/", "/service-areas/priceville-al/painting-trim/", "/service-areas/priceville-al/storm-damage-restoration/", "/service-areas/priceville-al/water-damage-restoration/", "/service-areas/priceville-al/windows-doors/", "/service-areas/priceville-al/basement-sewage-cleanup/", "/service-areas/priceville-al/carpet-upholstery-cleaning/", "/service-areas/priceville-al/post-construction-specialty-cleaning/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/priceville-al/home-remodeling/", "/service-areas/priceville-al/roofing/", "/service-areas/priceville-al/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Priceville"}]
 faq: []
 area_slug: "priceville-al"

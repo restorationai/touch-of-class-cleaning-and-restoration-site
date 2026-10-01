@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "708b27de9e2687aa"
 generated_at: "2026-09-30T19:28:57.271201+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/leominster-ma/", "/service-areas/leominster-ma/fire-damage-restoration/", "/service-areas/leominster-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/leominster-ma/", "/service-areas/leominster-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Leominster", "url": "/service-areas/leominster-ma/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "leominster-ma"

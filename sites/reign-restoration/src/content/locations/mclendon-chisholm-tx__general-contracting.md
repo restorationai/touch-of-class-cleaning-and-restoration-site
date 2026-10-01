@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "32ac4ce0253b71d2"
 generated_at: "2026-09-30T19:29:00.362001+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/mclendon-chisholm-tx/", "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/", "/service-areas/mclendon-chisholm-tx/mold-remediation/", "/service-areas/allen-tx/general-contracting/", "/service-areas/caddo-mills-tx/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/mclendon-chisholm-tx/", "/service-areas/allen-tx/general-contracting/", "/service-areas/caddo-mills-tx/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McLendon-Chisholm", "url": "/service-areas/mclendon-chisholm-tx/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "mclendon-chisholm-tx"

@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "5c3b399831140331"
 generated_at: "2026-09-30T19:28:45.266988+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/fire-damage-restoration/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/alpine-ut/storm-damage-restoration/", "/service-areas/american-fork-ut/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/alpine-ut/", "/service-areas/american-fork-ut/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fairfield", "url": "/service-areas/fairfield-ut/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "fairfield-ut"

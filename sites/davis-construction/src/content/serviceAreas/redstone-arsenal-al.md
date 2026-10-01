@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "ae60ec1201a3c7e5"
 generated_at: "2026-09-30T14:12:04.044973+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/redstone-arsenal-al/home-remodeling/", "/service-areas/redstone-arsenal-al/roofing/", "/service-areas/redstone-arsenal-al/decks-pergolas-fences/", "/service-areas/redstone-arsenal-al/new-construction/", "/service-areas/redstone-arsenal-al/siding-gutters/", "/service-areas/redstone-arsenal-al/fire-smoke-rebuilding/", "/service-areas/redstone-arsenal-al/mold-remediation/", "/service-areas/redstone-arsenal-al/painting-trim/", "/service-areas/redstone-arsenal-al/storm-damage-restoration/", "/service-areas/redstone-arsenal-al/water-damage-restoration/", "/service-areas/redstone-arsenal-al/windows-doors/", "/service-areas/redstone-arsenal-al/basement-sewage-cleanup/", "/service-areas/redstone-arsenal-al/carpet-upholstery-cleaning/", "/service-areas/redstone-arsenal-al/post-construction-specialty-cleaning/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/redstone-arsenal-al/home-remodeling/", "/service-areas/redstone-arsenal-al/roofing/", "/service-areas/redstone-arsenal-al/decks-pergolas-fences/", "/service-areas/redstone-arsenal-al/new-construction/", "/service-areas/redstone-arsenal-al/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Redstone Arsenal"}]
 faq: []
 area_slug: "redstone-arsenal-al"

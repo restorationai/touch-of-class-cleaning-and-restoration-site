@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "5e25e705a11110cd"
 generated_at: "2026-09-20T14:13:25.009972+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/ladson-sc/fire-damage-restoration/", "/service-areas/ladson-sc/mold-remediation/", "/service-areas/ladson-sc/water-damage-restoration/", "/service-areas/ladson-sc/emergency-water-removal/", "/service-areas/awendaw-sc/", "/service-areas/goose-creek-sc/", "/service-areas/hanahan-sc/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/ladson-sc/", "/service-areas/ladson-sc/water-damage-restoration/", "/service-areas/awendaw-sc/", "/service-areas/goose-creek-sc/", "/service-areas/hanahan-sc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ladson"}]
 faq: []
 area_slug: "ladson-sc"

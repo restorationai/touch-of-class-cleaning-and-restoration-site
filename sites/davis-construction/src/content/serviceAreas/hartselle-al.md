@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "ef7faec7c42c5094"
 generated_at: "2026-09-30T14:12:04.049527+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/hartselle-al/home-remodeling/", "/service-areas/hartselle-al/roofing/", "/service-areas/hartselle-al/decks-pergolas-fences/", "/service-areas/hartselle-al/new-construction/", "/service-areas/hartselle-al/siding-gutters/", "/service-areas/hartselle-al/fire-smoke-rebuilding/", "/service-areas/hartselle-al/mold-remediation/", "/service-areas/hartselle-al/painting-trim/", "/service-areas/hartselle-al/storm-damage-restoration/", "/service-areas/hartselle-al/water-damage-restoration/", "/service-areas/hartselle-al/windows-doors/", "/service-areas/hartselle-al/basement-sewage-cleanup/", "/service-areas/hartselle-al/carpet-upholstery-cleaning/", "/service-areas/hartselle-al/post-construction-specialty-cleaning/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/hartselle-al/home-remodeling/", "/service-areas/hartselle-al/roofing/", "/service-areas/hartselle-al/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hartselle"}]
 faq: []
 area_slug: "hartselle-al"

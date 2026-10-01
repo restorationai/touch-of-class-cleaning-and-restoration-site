@@ -95,7 +95,6 @@
     "/contact/",
     "/service-areas/chesterfield-mi/content-recovery/",
     "/service-areas/clinton-township-mi/content-recovery/",
-    "/service-areas/rochester-hills-mi/content-recovery/",
     "/service-areas/shelby-township-mi/content-recovery/",
     "/service-areas/sterling-heights-mi/content-recovery/",
     "/service-areas/troy-mi/content-recovery/",
@@ -162,8 +161,7 @@
     "/service-areas/shelby-township-mi/ice-dams/",
     "/service-areas/sterling-heights-mi/ice-dams/",
     "/service-areas/troy-mi/ice-dams/",
-    "/service-areas/utica-mi/ice-dams/",
-    "/service-areas/warren-mi/ice-dams/"
+    "/service-areas/utica-mi/ice-dams/"
   ],
   "/services/sewage-cleanup/": [
     "/services/",
@@ -405,7 +403,6 @@
     "/service-areas/warren-mi/content-recovery/",
     "/service-areas/warren-mi/emergency-board-up/",
     "/service-areas/warren-mi/environmental-consultants/",
-    "/service-areas/warren-mi/ice-dams/",
     "/service-areas/chesterfield-mi/",
     "/service-areas/clinton-township-mi/",
     "/service-areas/rochester-hills-mi/"
@@ -486,7 +483,6 @@
     "/service-areas/rochester-hills-mi/industrial-restoration/",
     "/service-areas/rochester-hills-mi/water-heater-flood-cleanup/",
     "/service-areas/rochester-hills-mi/water-leak-detection/",
-    "/service-areas/rochester-hills-mi/content-recovery/",
     "/service-areas/rochester-hills-mi/emergency-board-up/",
     "/service-areas/rochester-hills-mi/environmental-consultants/",
     "/service-areas/rochester-hills-mi/ice-dams/",
@@ -812,15 +808,6 @@
     "/service-areas/clinton-township-mi/fire-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/warren-mi/ice-dams/": [
-    "/services/ice-dams/",
-    "/service-areas/warren-mi/",
-    "/service-areas/warren-mi/fire-damage-restoration/",
-    "/service-areas/warren-mi/mold-remediation/",
-    "/service-areas/chesterfield-mi/ice-dams/",
-    "/service-areas/clinton-township-mi/ice-dams/",
-    "/contact/"
-  ],
   "/service-areas/warren-mi/sewage-cleanup/": [
     "/services/sewage-cleanup/",
     "/service-areas/warren-mi/",
@@ -962,7 +949,7 @@
     "/service-areas/clinton-township-mi/fire-damage-restoration/",
     "/service-areas/clinton-township-mi/mold-remediation/",
     "/service-areas/chesterfield-mi/content-recovery/",
-    "/service-areas/rochester-hills-mi/content-recovery/",
+    "/service-areas/shelby-township-mi/content-recovery/",
     "/contact/"
   ],
   "/service-areas/clinton-township-mi/emergency-board-up/": [
@@ -1332,15 +1319,6 @@
     "/service-areas/troy-mi/mold-remediation/",
     "/service-areas/chesterfield-mi/water-leak-detection/",
     "/service-areas/clinton-township-mi/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/rochester-hills-mi/content-recovery/": [
-    "/services/content-recovery/",
-    "/service-areas/rochester-hills-mi/",
-    "/service-areas/rochester-hills-mi/fire-damage-restoration/",
-    "/service-areas/rochester-hills-mi/mold-remediation/",
-    "/service-areas/chesterfield-mi/content-recovery/",
-    "/service-areas/clinton-township-mi/content-recovery/",
     "/contact/"
   ],
   "/service-areas/rochester-hills-mi/emergency-board-up/": [
@@ -1907,7 +1885,7 @@
     "/service-areas/chesterfield-mi/fire-damage-restoration/",
     "/service-areas/chesterfield-mi/mold-remediation/",
     "/service-areas/clinton-township-mi/content-recovery/",
-    "/service-areas/rochester-hills-mi/content-recovery/",
+    "/service-areas/shelby-township-mi/content-recovery/",
     "/contact/"
   ],
   "/service-areas/chesterfield-mi/emergency-board-up/": [

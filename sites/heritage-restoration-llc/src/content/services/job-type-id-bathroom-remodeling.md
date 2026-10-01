@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "2ee1b63b7bc691f8"
 generated_at: "2026-09-30T19:28:41.596085+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/job-type-id-bathroom-remodeling/", "/service-areas/avon-mn/job-type-id-bathroom-remodeling/", "/service-areas/baxter-mn/job-type-id-bathroom-remodeling/", "/service-areas/brainerd-mn/job-type-id-bathroom-remodeling/", "/service-areas/elmdale-mn/job-type-id-bathroom-remodeling/", "/service-areas/flensburg-mn/job-type-id-bathroom-remodeling/", "/service-areas/foley-mn/job-type-id-bathroom-remodeling/", "/service-areas/fort-ripley-mn/job-type-id-bathroom-remodeling/", "/service-areas/harding-mn/job-type-id-bathroom-remodeling/", "/service-areas/long-prairie-mn/job-type-id-bathroom-remodeling/", "/service-areas/pierz-mn/job-type-id-bathroom-remodeling/", "/service-areas/randall-mn/job-type-id-bathroom-remodeling/"]
+internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/job-type-id-bathroom-remodeling/", "/service-areas/avon-mn/", "/service-areas/baxter-mn/", "/service-areas/brainerd-mn/", "/service-areas/elmdale-mn/", "/service-areas/flensburg-mn/", "/service-areas/foley-mn/", "/service-areas/fort-ripley-mn/", "/service-areas/harding-mn/", "/service-areas/long-prairie-mn/", "/service-areas/pierz-mn/", "/service-areas/randall-mn/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Bathroom Remodeling"}]
 faq: []
 service_slug: "job-type-id-bathroom-remodeling"

@@ -1,21 +1,21 @@
 # Site Plan Report — FireDEX Butler
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-23T14:11:38.515623+00:00
+- Generated: 2026-10-01T05:03:54.509730+00:00
 - Domain: `firedex.net`
-- Services selected: 20 of 65 catalog entries
+- Services selected: 24 of 91 catalog entries
 - Service areas: 23
 - Cross-product enabled: True
-- Total URLs: **503**
-- Total internal links: 4095 (avg 8.1 per page)
+- Total URLs: **209**
+- Total internal links: 1591 (avg 7.6 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 440 |
+| `service-area-service` | 142 |
+| `service-landing` | 24 |
 | `service-area` | 22 |
-| `service-landing` | 20 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -43,10 +43,14 @@
 - `reconstruction` — Reconstruction Services (core, priority 9)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
-- `soot-removal` — Soot Removal (specialty, priority 7)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
 
 ## Service areas
 
@@ -82,12 +86,12 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation cranberry township |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration cranberry township |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration cranberry township |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup cranberry township |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration cranberry township |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services cranberry township |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization cranberry township |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration cranberry township |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration cranberry township |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup cranberry township |
 
 ## Validation
 

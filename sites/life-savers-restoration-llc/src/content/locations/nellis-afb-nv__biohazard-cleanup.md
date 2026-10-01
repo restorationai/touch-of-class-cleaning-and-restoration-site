@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "dc3396c8fe614a89"
 generated_at: "2026-09-30T19:28:50.963087+00:00"
 manual_override: false
-internal_links: ["/services/biohazard-cleanup/", "/service-areas/nellis-afb-nv/", "/service-areas/nellis-afb-nv/fire-damage-restoration/", "/service-areas/nellis-afb-nv/mold-remediation/", "/service-areas/blue-diamond-nv/biohazard-cleanup/", "/service-areas/boulder-city-nv/biohazard-cleanup/", "/contact/"]
+internal_links: ["/services/biohazard-cleanup/", "/service-areas/nellis-afb-nv/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nellis AFB", "url": "/service-areas/nellis-afb-nv/"}, {"name": "Biohazard Cleanup"}]
 faq: []
 area_slug: "nellis-afb-nv"

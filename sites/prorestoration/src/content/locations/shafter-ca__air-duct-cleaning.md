@@ -10,7 +10,7 @@ priority: 3.5
 plan_hash: "13198120e4c2bc52"
 generated_at: "2026-09-30T19:28:54.543429+00:00"
 manual_override: false
-internal_links: ["/services/air-duct-cleaning/", "/service-areas/shafter-ca/", "/service-areas/shafter-ca/fire-damage-restoration/", "/service-areas/shafter-ca/home-remodeling/", "/service-areas/arvin-ca/air-duct-cleaning/", "/service-areas/bear-valley-springs-ca/air-duct-cleaning/", "/contact/"]
+internal_links: ["/services/air-duct-cleaning/", "/service-areas/shafter-ca/", "/service-areas/shafter-ca/fire-damage-restoration/", "/service-areas/shafter-ca/home-remodeling/", "/service-areas/arvin-ca/", "/service-areas/bear-valley-springs-ca/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Shafter", "url": "/service-areas/shafter-ca/"}, {"name": "Air Duct Cleaning"}]
 faq: []
 area_slug: "shafter-ca"

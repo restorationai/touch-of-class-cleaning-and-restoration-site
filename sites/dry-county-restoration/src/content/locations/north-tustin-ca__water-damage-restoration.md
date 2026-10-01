@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "4fb19f71f9631565"
 generated_at: "2026-09-30T19:28:32.820797+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/north-tustin-ca/", "/service-areas/north-tustin-ca/fire-damage-restoration/", "/service-areas/north-tustin-ca/mold-remediation/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/north-tustin-ca/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Tustin", "url": "/service-areas/north-tustin-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "north-tustin-ca"

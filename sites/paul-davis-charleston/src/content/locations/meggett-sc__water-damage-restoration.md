@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "3d941ecfbbc22aa3"
 generated_at: "2026-09-21T19:19:01.302817+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/meggett-sc/", "/service-areas/meggett-sc/fire-damage-restoration/", "/service-areas/meggett-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/folly-beach-sc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/meggett-sc/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/folly-beach-sc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Meggett", "url": "/service-areas/meggett-sc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "meggett-sc"

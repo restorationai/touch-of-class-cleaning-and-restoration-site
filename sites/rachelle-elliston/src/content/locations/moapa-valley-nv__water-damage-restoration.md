@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "c8130a1d002b2f07"
 generated_at: "2026-09-30T19:28:58.600604+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/moapa-valley-nv/", "/service-areas/moapa-valley-nv/fire-damage-restoration/", "/service-areas/moapa-valley-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/moapa-valley-nv/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moapa Valley", "url": "/service-areas/moapa-valley-nv/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "moapa-valley-nv"

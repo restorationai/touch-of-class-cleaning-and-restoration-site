@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "9d23045bfdb5f80f"
 generated_at: "2026-09-30T19:28:54.693188+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/maricopa-ca/", "/service-areas/maricopa-ca/fire-damage-restoration/", "/service-areas/maricopa-ca/home-remodeling/", "/service-areas/arvin-ca/water-damage-restoration/", "/service-areas/bear-valley-springs-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/maricopa-ca/", "/service-areas/arvin-ca/water-damage-restoration/", "/service-areas/bear-valley-springs-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Maricopa", "url": "/service-areas/maricopa-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "maricopa-ca"

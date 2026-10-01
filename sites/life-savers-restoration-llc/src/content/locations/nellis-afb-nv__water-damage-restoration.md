@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "dab450d0786106ee"
 generated_at: "2026-09-30T19:28:50.965307+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/nellis-afb-nv/", "/service-areas/nellis-afb-nv/fire-damage-restoration/", "/service-areas/nellis-afb-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/nellis-afb-nv/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nellis AFB", "url": "/service-areas/nellis-afb-nv/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "nellis-afb-nv"

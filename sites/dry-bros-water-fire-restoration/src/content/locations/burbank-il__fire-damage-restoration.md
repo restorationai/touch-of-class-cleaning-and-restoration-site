@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "614375ac856bfabd"
 generated_at: "2026-09-24T17:27:58.260020+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/burbank-il/", "/service-areas/burbank-il/mold-remediation/", "/service-areas/burbank-il/water-damage-restoration/", "/service-areas/bedford-park-il/fire-damage-restoration/", "/service-areas/berwyn-il/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/burbank-il/", "/service-areas/burbank-il/water-damage-restoration/", "/service-areas/bedford-park-il/", "/service-areas/berwyn-il/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burbank", "url": "/service-areas/burbank-il/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "burbank-il"

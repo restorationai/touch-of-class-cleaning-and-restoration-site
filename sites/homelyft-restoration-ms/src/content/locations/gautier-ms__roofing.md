@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "cd8d7abd0602026c"
 generated_at: "2026-09-30T19:28:43.503570+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/gautier-ms/", "/service-areas/gautier-ms/fire-damage-restoration/", "/service-areas/gautier-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/gautier-ms/", "/service-areas/gautier-ms/fire-damage-restoration/", "/service-areas/gautier-ms/mold-remediation/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gautier", "url": "/service-areas/gautier-ms/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "gautier-ms"

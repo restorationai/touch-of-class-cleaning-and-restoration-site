@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "26379924f0714f2a"
 generated_at: "2026-09-30T19:28:58.538414+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/whitney-nv/", "/service-areas/whitney-nv/fire-damage-restoration/", "/service-areas/whitney-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/whitney-nv/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitney", "url": "/service-areas/whitney-nv/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "whitney-nv"

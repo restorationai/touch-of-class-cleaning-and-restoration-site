@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "90ec933cf0781177"
 generated_at: "2026-09-20T20:42:23.544522+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/aventura-fl/fire-damage-restoration/", "/service-areas/aventura-fl/mold-remediation/", "/service-areas/aventura-fl/water-damage-restoration/", "/service-areas/aventura-fl/flood-damage-restoration/", "/service-areas/aventura-fl/smoke-damage-restoration/", "/service-areas/aventura-fl/storm-damage-restoration/", "/service-areas/aventura-fl/emergency-water-removal/", "/service-areas/cooper-city-fl/", "/service-areas/country-club-fl/", "/service-areas/dania-beach-fl/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/aventura-fl/", "/service-areas/aventura-fl/water-damage-restoration/", "/service-areas/cooper-city-fl/", "/service-areas/country-club-fl/", "/service-areas/dania-beach-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Aventura"}]
 faq: []
 area_slug: "aventura-fl"

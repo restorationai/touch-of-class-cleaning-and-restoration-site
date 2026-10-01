@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "e461df86b7a9e9e5"
 generated_at: "2026-09-30T19:28:41.596850+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/mold-inspection-testing/", "/service-areas/avon-mn/mold-inspection-testing/", "/service-areas/baxter-mn/mold-inspection-testing/", "/service-areas/brainerd-mn/mold-inspection-testing/", "/service-areas/elmdale-mn/mold-inspection-testing/", "/service-areas/flensburg-mn/mold-inspection-testing/", "/service-areas/foley-mn/mold-inspection-testing/", "/service-areas/fort-ripley-mn/mold-inspection-testing/", "/service-areas/harding-mn/mold-inspection-testing/", "/service-areas/long-prairie-mn/mold-inspection-testing/", "/service-areas/pierz-mn/mold-inspection-testing/", "/service-areas/randall-mn/mold-inspection-testing/", "/blog/how-to-test-for-mold/"]
+internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/", "/service-areas/avon-mn/", "/service-areas/baxter-mn/", "/service-areas/brainerd-mn/", "/service-areas/elmdale-mn/", "/service-areas/flensburg-mn/", "/service-areas/foley-mn/", "/service-areas/fort-ripley-mn/", "/service-areas/harding-mn/", "/service-areas/long-prairie-mn/", "/service-areas/pierz-mn/", "/service-areas/randall-mn/", "/blog/how-to-test-for-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Mold Inspection and Testing"}]
 faq: []
 service_slug: "mold-inspection-testing"

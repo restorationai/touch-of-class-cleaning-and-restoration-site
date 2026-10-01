@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "8cfb634bba5c8343"
 generated_at: "2026-09-30T19:28:54.662792+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/arvin-ca/water-damage-restoration/", "/service-areas/bear-valley-springs-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/woody-ca/", "/service-areas/arvin-ca/water-damage-restoration/", "/service-areas/bear-valley-springs-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woody", "url": "/service-areas/woody-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "woody-ca"

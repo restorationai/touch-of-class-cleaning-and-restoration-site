@@ -1,0 +1,62 @@
+{
+ "policy": "scripts/city_page_gate.py (Santino 2026-10-01)",
+ "thresholds": {
+  "combo_min": 10,
+  "head_metro_min": 1000
+ },
+ "decisions": {},
+ "offered": {
+  "burst-pipe-repair": [
+   "GBP service in the client's words: 'Burst Pipe Cleanup'"
+  ],
+  "content-recovery": [
+   "explicit non-core plan-input service"
+  ],
+  "emergency-board-up": [
+   "explicit non-core plan-input service",
+   "GBP service in the client's words: 'Security Board-Up'"
+  ],
+  "emergency-water-removal": [
+   "GBP service in the client's words: 'Dishwasher Overflow'",
+   "GBP service in the client's words: 'Our Water Damage Cleanup'",
+   "GBP service in the client's words: 'Wet Carpet'",
+   "default with water damage restoration (Santino 09-30)"
+  ],
+  "environmental-consultants": [
+   "explicit non-core plan-input service"
+  ],
+  "fire-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "ice-dams": [
+   "explicit non-core plan-input service"
+  ],
+  "mold-remediation": [
+   "GBP service in the client's words: 'Mold Remediation Specialists'"
+  ],
+  "sewage-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "storm-damage-restoration": [
+   "GBP service in the client's words: 'Storm Damage Cleanup'",
+   "GBP service in the client's words: 'Wind And Storm Damage Restoration'"
+  ],
+  "water-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "water-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Water Extraction Drying'",
+   "GBP service in the client's words: 'Water Mitigation Specialists'",
+   "GBP service in the client's words: 'Commercial Water Damage Restoration'"
+  ],
+  "water-leak-detection": [
+   "GBP service in the client's words: 'Water Leak'"
+  ]
+ }
+}

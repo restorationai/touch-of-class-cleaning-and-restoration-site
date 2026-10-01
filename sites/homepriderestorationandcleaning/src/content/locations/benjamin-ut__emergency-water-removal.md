@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "517158bfd9f0152d"
 generated_at: "2026-09-30T19:28:45.353374+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/benjamin-ut/", "/service-areas/benjamin-ut/fire-damage-restoration/", "/service-areas/benjamin-ut/mold-remediation/", "/service-areas/alpine-ut/emergency-water-removal/", "/service-areas/american-fork-ut/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/benjamin-ut/", "/service-areas/alpine-ut/", "/service-areas/american-fork-ut/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Benjamin", "url": "/service-areas/benjamin-ut/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "benjamin-ut"

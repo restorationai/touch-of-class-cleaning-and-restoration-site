@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "7b911089fe9b9173"
 generated_at: "2026-09-20T14:13:25.012834+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/james-island-sc/", "/service-areas/james-island-sc/fire-damage-restoration/", "/service-areas/james-island-sc/mold-remediation/", "/service-areas/awendaw-sc/emergency-water-removal/", "/service-areas/goose-creek-sc/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/james-island-sc/", "/service-areas/james-island-sc/mold-remediation/", "/service-areas/awendaw-sc/emergency-water-removal/", "/service-areas/goose-creek-sc/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "James Island", "url": "/service-areas/james-island-sc/"}, {"name": "Emergency Water Removal & Cleanup"}]
 faq: []
 area_slug: "james-island-sc"

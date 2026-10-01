@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "14299709bf22d64b"
 generated_at: "2026-09-30T19:28:50.940080+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/mold-inspection-testing/", "/service-areas/boulder-city-nv/mold-inspection-testing/", "/service-areas/cal-nev-ari-nv/mold-inspection-testing/", "/service-areas/enterprise-nv/mold-inspection-testing/", "/service-areas/goodsprings-nv/mold-inspection-testing/", "/service-areas/indian-springs-nv/mold-inspection-testing/", "/service-areas/las-vegas-nv/mold-inspection-testing/", "/service-areas/laughlin-nv/mold-inspection-testing/", "/service-areas/nellis-afb-nv/mold-inspection-testing/", "/service-areas/nelson-nv/mold-inspection-testing/", "/service-areas/north-las-vegas-nv/mold-inspection-testing/", "/service-areas/paradise-nv/mold-inspection-testing/", "/blog/how-to-test-for-mold/"]
+internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/", "/service-areas/enterprise-nv/", "/service-areas/goodsprings-nv/", "/service-areas/indian-springs-nv/", "/service-areas/las-vegas-nv/", "/service-areas/laughlin-nv/", "/service-areas/nellis-afb-nv/", "/service-areas/nelson-nv/", "/service-areas/north-las-vegas-nv/", "/service-areas/paradise-nv/", "/blog/how-to-test-for-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "mold-inspection-testing"}]
 faq: []
 service_slug: "mold-inspection-testing"

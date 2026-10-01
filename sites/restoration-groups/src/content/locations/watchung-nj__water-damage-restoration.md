@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "379c8f027e13a5cc"
 generated_at: "2026-09-30T19:29:02.510550+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/watchung-nj/", "/service-areas/watchung-nj/fire-damage-restoration/", "/service-areas/watchung-nj/mold-remediation/", "/service-areas/avenel-nj/water-damage-restoration/", "/service-areas/bayonne-nj/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/watchung-nj/", "/service-areas/avenel-nj/water-damage-restoration/", "/service-areas/bayonne-nj/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Watchung", "url": "/service-areas/watchung-nj/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "watchung-nj"

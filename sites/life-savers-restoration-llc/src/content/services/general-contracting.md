@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "05811d0d9f84481f"
 generated_at: "2026-09-30T19:28:50.940324+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/general-contracting/", "/service-areas/boulder-city-nv/general-contracting/", "/service-areas/cal-nev-ari-nv/general-contracting/", "/service-areas/enterprise-nv/general-contracting/", "/service-areas/goodsprings-nv/general-contracting/", "/service-areas/indian-springs-nv/general-contracting/", "/service-areas/las-vegas-nv/general-contracting/", "/service-areas/laughlin-nv/general-contracting/", "/service-areas/nellis-afb-nv/general-contracting/", "/service-areas/nelson-nv/general-contracting/", "/service-areas/north-las-vegas-nv/general-contracting/", "/service-areas/paradise-nv/general-contracting/"]
+internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/", "/service-areas/enterprise-nv/", "/service-areas/goodsprings-nv/", "/service-areas/indian-springs-nv/", "/service-areas/las-vegas-nv/", "/service-areas/laughlin-nv/", "/service-areas/nellis-afb-nv/", "/service-areas/nelson-nv/", "/service-areas/north-las-vegas-nv/", "/service-areas/paradise-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "general-contracting"}]
 faq: []
 service_slug: "general-contracting"

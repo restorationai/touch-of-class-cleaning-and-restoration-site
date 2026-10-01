@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "987f7c24ef2cbb6c"
 generated_at: "2026-09-30T19:28:30.048025+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/austintown-oh/water-leak-detection/", "/service-areas/boardman-oh/water-leak-detection/", "/service-areas/campbell-oh/water-leak-detection/", "/service-areas/canfield-oh/water-leak-detection/", "/service-areas/farrell-pa/water-leak-detection/", "/service-areas/girard-oh/water-leak-detection/", "/service-areas/greenville-pa/water-leak-detection/", "/service-areas/grove-city-pa/water-leak-detection/", "/service-areas/hermitage-pa/water-leak-detection/", "/service-areas/hubbard-oh/water-leak-detection/", "/service-areas/mercer-pa/water-leak-detection/", "/service-areas/mineral-ridge-oh/water-leak-detection/"]
+internal_links: ["/services/", "/contact/", "/service-areas/austintown-oh/", "/service-areas/boardman-oh/", "/service-areas/campbell-oh/", "/service-areas/canfield-oh/", "/service-areas/farrell-pa/", "/service-areas/girard-oh/", "/service-areas/greenville-pa/", "/service-areas/grove-city-pa/", "/service-areas/hermitage-pa/", "/service-areas/hubbard-oh/", "/service-areas/mercer-pa/", "/service-areas/mineral-ridge-oh/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-leak-detection"}]
 faq: []
 service_slug: "water-leak-detection"

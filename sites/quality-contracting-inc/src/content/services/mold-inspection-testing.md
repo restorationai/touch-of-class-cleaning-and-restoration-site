@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "d528780fdf736751"
 generated_at: "2026-09-30T19:28:56.908088+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/mold-inspection-testing/", "/service-areas/east-douglas-ma/mold-inspection-testing/", "/service-areas/fiskdale-ma/mold-inspection-testing/", "/service-areas/framingham-ma/mold-inspection-testing/", "/service-areas/franklin-town-ma/mold-inspection-testing/", "/service-areas/hopkinton-ma/mold-inspection-testing/", "/service-areas/hudson-ma/mold-inspection-testing/", "/service-areas/leominster-ma/mold-inspection-testing/", "/service-areas/marlborough-ma/mold-inspection-testing/", "/service-areas/maynard-ma/mold-inspection-testing/", "/service-areas/milford-ma/mold-inspection-testing/", "/service-areas/natick-ma/mold-inspection-testing/", "/blog/how-to-test-for-mold/"]
+internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/service-areas/framingham-ma/", "/service-areas/franklin-town-ma/", "/service-areas/hopkinton-ma/", "/service-areas/hudson-ma/", "/service-areas/leominster-ma/", "/service-areas/marlborough-ma/", "/service-areas/maynard-ma/", "/service-areas/milford-ma/", "/service-areas/natick-ma/", "/blog/how-to-test-for-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "mold-inspection-testing"}]
 faq: []
 service_slug: "mold-inspection-testing"

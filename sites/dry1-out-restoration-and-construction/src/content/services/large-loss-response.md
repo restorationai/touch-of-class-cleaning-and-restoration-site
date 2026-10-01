@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "96eab1f6f37c6fbe"
 generated_at: "2026-09-30T19:28:33.685495+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/large-loss-response/", "/service-areas/carlsbad-ca/large-loss-response/", "/service-areas/chula-vista-ca/large-loss-response/", "/service-areas/concord-ca/large-loss-response/", "/service-areas/el-cajon-ca/large-loss-response/", "/service-areas/encinitas-ca/large-loss-response/", "/service-areas/escondido-ca/large-loss-response/", "/service-areas/fremont-ca/large-loss-response/", "/service-areas/hayward-ca/large-loss-response/", "/service-areas/oakland-ca/large-loss-response/", "/service-areas/oceanside-ca/large-loss-response/", "/service-areas/san-diego-ca/large-loss-response/"]
+internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/", "/service-areas/carlsbad-ca/", "/service-areas/chula-vista-ca/", "/service-areas/concord-ca/", "/service-areas/el-cajon-ca/", "/service-areas/encinitas-ca/", "/service-areas/escondido-ca/", "/service-areas/fremont-ca/", "/service-areas/hayward-ca/", "/service-areas/oakland-ca/", "/service-areas/oceanside-ca/", "/service-areas/san-diego-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "large-loss-response"}]
 faq: []
 service_slug: "large-loss-response"

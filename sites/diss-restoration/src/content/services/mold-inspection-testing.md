@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "f53b591c7a482111"
 generated_at: "2026-09-30T19:28:30.045580+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/austintown-oh/mold-inspection-testing/", "/service-areas/boardman-oh/mold-inspection-testing/", "/service-areas/campbell-oh/mold-inspection-testing/", "/service-areas/canfield-oh/mold-inspection-testing/", "/service-areas/farrell-pa/mold-inspection-testing/", "/service-areas/girard-oh/mold-inspection-testing/", "/service-areas/greenville-pa/mold-inspection-testing/", "/service-areas/grove-city-pa/mold-inspection-testing/", "/service-areas/hermitage-pa/mold-inspection-testing/", "/service-areas/hubbard-oh/mold-inspection-testing/", "/service-areas/mercer-pa/mold-inspection-testing/", "/service-areas/mineral-ridge-oh/mold-inspection-testing/", "/blog/how-to-test-for-mold/"]
+internal_links: ["/services/", "/contact/", "/service-areas/austintown-oh/", "/service-areas/boardman-oh/", "/service-areas/campbell-oh/", "/service-areas/canfield-oh/", "/service-areas/farrell-pa/", "/service-areas/girard-oh/", "/service-areas/greenville-pa/", "/service-areas/grove-city-pa/", "/service-areas/hermitage-pa/", "/service-areas/hubbard-oh/", "/service-areas/mercer-pa/", "/service-areas/mineral-ridge-oh/", "/blog/how-to-test-for-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "mold-inspection-testing"}]
 faq: []
 service_slug: "mold-inspection-testing"

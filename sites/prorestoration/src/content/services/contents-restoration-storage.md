@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "f56347e8f545c3b9"
 generated_at: "2026-09-30T19:28:54.512787+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/contents-restoration-storage/", "/service-areas/bear-valley-springs-ca/contents-restoration-storage/", "/service-areas/buttonwillow-ca/contents-restoration-storage/", "/service-areas/delano-ca/contents-restoration-storage/", "/service-areas/dustin-acres-ca/contents-restoration-storage/", "/service-areas/east-niles-ca/contents-restoration-storage/", "/service-areas/keene-ca/contents-restoration-storage/", "/service-areas/lake-isabella-ca/contents-restoration-storage/", "/service-areas/lamont-ca/contents-restoration-storage/", "/service-areas/maricopa-ca/contents-restoration-storage/", "/service-areas/mcfarland-ca/contents-restoration-storage/", "/service-areas/oildale-ca/contents-restoration-storage/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/", "/service-areas/bear-valley-springs-ca/", "/service-areas/buttonwillow-ca/", "/service-areas/delano-ca/", "/service-areas/dustin-acres-ca/", "/service-areas/east-niles-ca/", "/service-areas/keene-ca/", "/service-areas/lake-isabella-ca/", "/service-areas/lamont-ca/", "/service-areas/maricopa-ca/", "/service-areas/mcfarland-ca/", "/service-areas/oildale-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Contents Restoration & Storage"}]
 faq: []
 service_slug: "contents-restoration-storage"

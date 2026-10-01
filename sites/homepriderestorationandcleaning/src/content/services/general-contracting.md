@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "537ab70e8b3c789d"
 generated_at: "2026-09-30T19:28:45.049889+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/general-contracting/", "/service-areas/american-fork-ut/general-contracting/", "/service-areas/benjamin-ut/general-contracting/", "/service-areas/bluffdale-ut/general-contracting/", "/service-areas/cedar-fort-ut/general-contracting/", "/service-areas/cedar-hills-ut/general-contracting/", "/service-areas/draper-ut/general-contracting/", "/service-areas/eagle-mountain-ut/general-contracting/", "/service-areas/fairfield-ut/general-contracting/", "/service-areas/heber-city-ut/general-contracting/", "/service-areas/herriman-ut/general-contracting/", "/service-areas/highland-ut/general-contracting/"]
+internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/", "/service-areas/american-fork-ut/", "/service-areas/benjamin-ut/", "/service-areas/bluffdale-ut/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-hills-ut/", "/service-areas/draper-ut/", "/service-areas/eagle-mountain-ut/", "/service-areas/fairfield-ut/", "/service-areas/heber-city-ut/", "/service-areas/herriman-ut/", "/service-areas/highland-ut/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "general-contracting"}]
 faq: []
 service_slug: "general-contracting"

@@ -10,7 +10,7 @@ priority: 4.9
 plan_hash: "5169832b0176426c"
 generated_at: "2026-09-30T19:28:43.414419+00:00"
 manual_override: false
-internal_links: ["/services/water-leak-detection/", "/service-areas/long-beach-ms/", "/service-areas/long-beach-ms/fire-damage-restoration/", "/service-areas/long-beach-ms/mold-remediation/", "/service-areas/agricola-ms/water-leak-detection/", "/service-areas/bay-st-louis-ms/water-leak-detection/", "/contact/"]
+internal_links: ["/services/water-leak-detection/", "/service-areas/long-beach-ms/", "/service-areas/long-beach-ms/fire-damage-restoration/", "/service-areas/long-beach-ms/mold-remediation/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Long Beach", "url": "/service-areas/long-beach-ms/"}, {"name": "Water Leak Detection"}]
 faq: []
 area_slug: "long-beach-ms"

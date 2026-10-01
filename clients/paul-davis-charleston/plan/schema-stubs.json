@@ -88,6 +88,166 @@
     ],
     "missing_stubs": []
   },
+  "/services/emergency-water-removal/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/flood-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/burst-pipe-repair/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/basement-flooding-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/sewage-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/smoke-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/mold-inspection-testing/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/storm-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/commercial-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/industrial-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/reconstruction/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/general-contracting/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/large-loss-response/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/ceiling-water-damage-repair/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/water-heater-flood-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/water-leak-detection/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/mount-pleasant-sc/": {
     "archetype": "service-area",
     "stubs": [
@@ -269,16 +429,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mount-pleasant-sc/fire-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mount-pleasant-sc/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -329,16 +479,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/summerville-sc/fire-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/summerville-sc/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -359,7 +499,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/james-island-sc/fire-damage-restoration/": {
+  "/service-areas/james-island-sc/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -369,7 +509,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/james-island-sc/mold-remediation/": {
+  "/service-areas/james-island-sc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -389,37 +529,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hanahan-sc/fire-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hanahan-sc/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/goose-creek-sc/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/goose-creek-sc/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -449,7 +559,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sullivan-s-island-sc/fire-damage-restoration/": {
+  "/service-areas/sullivan-s-island-sc/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -459,7 +569,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sullivan-s-island-sc/mold-remediation/": {
+  "/service-areas/sullivan-s-island-sc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -479,7 +589,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/isle-of-palms-sc/fire-damage-restoration/": {
+  "/service-areas/isle-of-palms-sc/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -489,7 +599,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/isle-of-palms-sc/mold-remediation/": {
+  "/service-areas/isle-of-palms-sc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -509,26 +619,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ladson-sc/fire-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ladson-sc/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/awendaw-sc/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -539,17 +629,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/awendaw-sc/fire-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/awendaw-sc/mold-remediation/": {
+  "/service-areas/awendaw-sc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -569,7 +649,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/folly-beach-sc/fire-damage-restoration/": {
+  "/service-areas/folly-beach-sc/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -579,7 +659,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/folly-beach-sc/mold-remediation/": {
+  "/service-areas/folly-beach-sc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -629,26 +709,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ravenel-sc/fire-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ravenel-sc/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/moncks-corner-sc/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -659,17 +719,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/moncks-corner-sc/fire-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/moncks-corner-sc/mold-remediation/": {
+  "/service-areas/moncks-corner-sc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -689,7 +739,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/kiawah-island-sc/fire-damage-restoration/": {
+  "/service-areas/kiawah-island-sc/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -699,7 +749,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/kiawah-island-sc/mold-remediation/": {
+  "/service-areas/kiawah-island-sc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -719,47 +769,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/meggett-sc/fire-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/meggett-sc/mold-remediation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ridgeville-sc/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ridgeville-sc/fire-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ridgeville-sc/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -779,16 +789,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/seabrook-island-sc/fire-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/seabrook-island-sc/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -799,27 +799,17 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/seabrook-island-sc/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/bonneau-sc/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bonneau-sc/fire-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bonneau-sc/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -901,6 +891,15 @@
     ],
     "missing_stubs": []
   },
+  "/blog/storm-damage-insurance-claim-checklist/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/blog/how-long-does-water-damage-restoration-take/": {
     "archetype": "blog-post",
     "stubs": [
@@ -920,15 +919,6 @@
     "missing_stubs": []
   },
   "/blog/smoke-odor-removal-techniques/": {
-    "archetype": "blog-post",
-    "stubs": [
-      "blog-posting",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/blog/basement-flooding-prevention/": {
     "archetype": "blog-post",
     "stubs": [
       "blog-posting",

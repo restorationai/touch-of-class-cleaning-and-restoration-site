@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "61a5ce7cc12f2d25"
 generated_at: "2026-09-30T19:28:43.437010+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/st-martin-ms/", "/service-areas/st-martin-ms/fire-damage-restoration/", "/service-areas/st-martin-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-water-removal/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/st-martin-ms/", "/service-areas/st-martin-ms/fire-damage-restoration/", "/service-areas/st-martin-ms/mold-remediation/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "St. Martin", "url": "/service-areas/st-martin-ms/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "st-martin-ms"

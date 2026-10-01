@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "f3f363d1ea61e413"
 generated_at: "2026-09-30T19:28:41.594745+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/emergency-plumbing/", "/service-areas/avon-mn/emergency-plumbing/", "/service-areas/baxter-mn/emergency-plumbing/", "/service-areas/brainerd-mn/emergency-plumbing/", "/service-areas/elmdale-mn/emergency-plumbing/", "/service-areas/flensburg-mn/emergency-plumbing/", "/service-areas/foley-mn/emergency-plumbing/", "/service-areas/fort-ripley-mn/emergency-plumbing/", "/service-areas/harding-mn/emergency-plumbing/", "/service-areas/long-prairie-mn/emergency-plumbing/", "/service-areas/pierz-mn/emergency-plumbing/", "/service-areas/randall-mn/emergency-plumbing/"]
+internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/", "/service-areas/avon-mn/", "/service-areas/baxter-mn/", "/service-areas/brainerd-mn/", "/service-areas/elmdale-mn/", "/service-areas/flensburg-mn/", "/service-areas/foley-mn/", "/service-areas/fort-ripley-mn/", "/service-areas/harding-mn/", "/service-areas/long-prairie-mn/", "/service-areas/pierz-mn/", "/service-areas/randall-mn/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Emergency Plumbing"}]
 faq: []
 service_slug: "emergency-plumbing"

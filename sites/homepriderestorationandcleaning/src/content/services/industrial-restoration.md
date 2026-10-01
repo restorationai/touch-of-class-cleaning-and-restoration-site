@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "3d1355f05764d1aa"
 generated_at: "2026-09-30T19:28:45.049353+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/industrial-restoration/", "/service-areas/american-fork-ut/industrial-restoration/", "/service-areas/benjamin-ut/industrial-restoration/", "/service-areas/bluffdale-ut/industrial-restoration/", "/service-areas/cedar-fort-ut/industrial-restoration/", "/service-areas/cedar-hills-ut/industrial-restoration/", "/service-areas/draper-ut/industrial-restoration/", "/service-areas/eagle-mountain-ut/industrial-restoration/", "/service-areas/fairfield-ut/industrial-restoration/", "/service-areas/heber-city-ut/industrial-restoration/", "/service-areas/herriman-ut/industrial-restoration/", "/service-areas/highland-ut/industrial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/", "/service-areas/american-fork-ut/", "/service-areas/benjamin-ut/", "/service-areas/bluffdale-ut/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-hills-ut/", "/service-areas/draper-ut/", "/service-areas/eagle-mountain-ut/", "/service-areas/fairfield-ut/", "/service-areas/heber-city-ut/", "/service-areas/herriman-ut/", "/service-areas/highland-ut/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "industrial-restoration"}]
 faq: []
 service_slug: "industrial-restoration"

@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "c06ac1bab88a8485"
 generated_at: "2026-09-30T19:28:43.392419+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/delisle-ms/", "/service-areas/delisle-ms/fire-damage-restoration/", "/service-areas/delisle-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-water-removal/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/delisle-ms/", "/service-areas/delisle-ms/fire-damage-restoration/", "/service-areas/delisle-ms/mold-remediation/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "DeLisle", "url": "/service-areas/delisle-ms/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "delisle-ms"

@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "8eb031d8b780b7d8"
 generated_at: "2026-09-30T19:28:52.904951+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/air-duct-cleaning/", "/service-areas/auburn-wa/air-duct-cleaning/", "/service-areas/bellevue-wa/air-duct-cleaning/", "/service-areas/bremerton-wa/air-duct-cleaning/", "/service-areas/burien-wa/air-duct-cleaning/", "/service-areas/des-moines-wa/air-duct-cleaning/", "/service-areas/edgewood-wa/air-duct-cleaning/", "/service-areas/everett-wa/air-duct-cleaning/", "/service-areas/fife-wa/air-duct-cleaning/", "/service-areas/gig-harbor-wa/air-duct-cleaning/", "/service-areas/kent-wa/air-duct-cleaning/", "/service-areas/kirkland-wa/air-duct-cleaning/"]
+internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/", "/service-areas/auburn-wa/", "/service-areas/bellevue-wa/", "/service-areas/bremerton-wa/", "/service-areas/burien-wa/", "/service-areas/des-moines-wa/", "/service-areas/edgewood-wa/", "/service-areas/everett-wa/", "/service-areas/fife-wa/", "/service-areas/gig-harbor-wa/", "/service-areas/kent-wa/", "/service-areas/kirkland-wa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Air Duct Cleaning"}]
 faq: []
 service_slug: "air-duct-cleaning"

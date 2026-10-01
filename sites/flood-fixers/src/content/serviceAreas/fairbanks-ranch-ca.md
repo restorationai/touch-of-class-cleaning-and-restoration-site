@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "841449919f35abad"
 generated_at: "2026-09-24T17:22:06.403832+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/fairbanks-ranch-ca/water-damage-restoration/", "/service-areas/fairbanks-ranch-ca/flood-damage-restoration/", "/service-areas/fairbanks-ranch-ca/reconstruction/", "/service-areas/fairbanks-ranch-ca/emergency-water-removal/", "/service-areas/fairbanks-ranch-ca/basement-flooding-cleanup/", "/service-areas/fairbanks-ranch-ca/burst-pipe-repair/", "/service-areas/fairbanks-ranch-ca/general-contracting/", "/service-areas/bonsall-ca/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-south-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/fairbanks-ranch-ca/water-damage-restoration/", "/service-areas/fairbanks-ranch-ca/", "/service-areas/bonsall-ca/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-south-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fairbanks Ranch"}]
 faq: []
 area_slug: "fairbanks-ranch-ca"

@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "aef758b7a839cbe1"
 generated_at: "2026-09-30T19:28:33.686066+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/water-leak-detection/", "/service-areas/carlsbad-ca/water-leak-detection/", "/service-areas/chula-vista-ca/water-leak-detection/", "/service-areas/concord-ca/water-leak-detection/", "/service-areas/el-cajon-ca/water-leak-detection/", "/service-areas/encinitas-ca/water-leak-detection/", "/service-areas/escondido-ca/water-leak-detection/", "/service-areas/fremont-ca/water-leak-detection/", "/service-areas/hayward-ca/water-leak-detection/", "/service-areas/oakland-ca/water-leak-detection/", "/service-areas/oceanside-ca/water-leak-detection/", "/service-areas/san-diego-ca/water-leak-detection/"]
+internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/", "/service-areas/carlsbad-ca/", "/service-areas/chula-vista-ca/", "/service-areas/concord-ca/", "/service-areas/el-cajon-ca/", "/service-areas/encinitas-ca/", "/service-areas/escondido-ca/", "/service-areas/fremont-ca/", "/service-areas/hayward-ca/", "/service-areas/oakland-ca/", "/service-areas/oceanside-ca/", "/service-areas/san-diego-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-leak-detection"}]
 faq: []
 service_slug: "water-leak-detection"

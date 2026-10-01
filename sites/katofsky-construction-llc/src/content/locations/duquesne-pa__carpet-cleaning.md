@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "77383552d17c26ac"
 generated_at: "2026-09-30T19:28:48.313918+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/duquesne-pa/", "/service-areas/duquesne-pa/fire-damage-restoration/", "/service-areas/duquesne-pa/roofing/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/duquesne-pa/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Duquesne", "url": "/service-areas/duquesne-pa/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "duquesne-pa"

@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "13262404cf115446"
 generated_at: "2026-09-30T19:29:00.299897+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/commercial-restoration/", "/service-areas/caddo-mills-tx/commercial-restoration/", "/service-areas/dallas-tx/commercial-restoration/", "/service-areas/farmersville-tx/commercial-restoration/", "/service-areas/fate-tx/commercial-restoration/", "/service-areas/frisco-tx/commercial-restoration/", "/service-areas/garland-tx/commercial-restoration/", "/service-areas/greenville-tx/commercial-restoration/", "/service-areas/heath-tx/commercial-restoration/", "/service-areas/highland-park-tx/commercial-restoration/", "/service-areas/josephine-tx/commercial-restoration/", "/service-areas/lavon-tx/commercial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/", "/service-areas/farmersville-tx/", "/service-areas/fate-tx/", "/service-areas/frisco-tx/", "/service-areas/garland-tx/", "/service-areas/greenville-tx/", "/service-areas/heath-tx/", "/service-areas/highland-park-tx/", "/service-areas/josephine-tx/", "/service-areas/lavon-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "commercial-restoration"}]
 faq: []
 service_slug: "commercial-restoration"

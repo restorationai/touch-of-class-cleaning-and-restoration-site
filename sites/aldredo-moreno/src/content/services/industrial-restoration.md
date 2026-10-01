@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "25ab60fd1ef434ae"
 generated_at: "2026-09-30T19:28:20.828174+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/industrial-restoration/", "/service-areas/big-lake-tx/industrial-restoration/", "/service-areas/big-spring-tx/industrial-restoration/", "/service-areas/crane-tx/industrial-restoration/", "/service-areas/garden-city-tx/industrial-restoration/", "/service-areas/gardendale-tx/industrial-restoration/", "/service-areas/goldsmith-tx/industrial-restoration/", "/service-areas/greenwood-tx/industrial-restoration/", "/service-areas/imperial-tx/industrial-restoration/", "/service-areas/mccamey-tx/industrial-restoration/", "/service-areas/monahans-tx/industrial-restoration/", "/service-areas/odessa-tx/industrial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/", "/service-areas/big-lake-tx/", "/service-areas/big-spring-tx/", "/service-areas/crane-tx/", "/service-areas/garden-city-tx/", "/service-areas/gardendale-tx/", "/service-areas/goldsmith-tx/", "/service-areas/greenwood-tx/", "/service-areas/imperial-tx/", "/service-areas/mccamey-tx/", "/service-areas/monahans-tx/", "/service-areas/odessa-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "industrial-restoration"}]
 faq: []
 service_slug: "industrial-restoration"

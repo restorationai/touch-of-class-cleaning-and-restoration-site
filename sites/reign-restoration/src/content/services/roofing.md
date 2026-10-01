@@ -10,7 +10,7 @@ priority: 9.0
 plan_hash: "6d2dd799c0712f5b"
 generated_at: "2026-09-30T19:29:00.298506+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/roofing/", "/service-areas/caddo-mills-tx/roofing/", "/service-areas/dallas-tx/roofing/", "/service-areas/farmersville-tx/roofing/", "/service-areas/fate-tx/roofing/", "/service-areas/frisco-tx/roofing/", "/service-areas/garland-tx/roofing/", "/service-areas/greenville-tx/roofing/", "/service-areas/heath-tx/roofing/", "/service-areas/highland-park-tx/roofing/", "/service-areas/josephine-tx/roofing/", "/service-areas/lavon-tx/roofing/"]
+internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/", "/service-areas/farmersville-tx/", "/service-areas/fate-tx/", "/service-areas/frisco-tx/", "/service-areas/garland-tx/", "/service-areas/greenville-tx/", "/service-areas/heath-tx/", "/service-areas/highland-park-tx/", "/service-areas/josephine-tx/", "/service-areas/lavon-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 service_slug: "roofing"

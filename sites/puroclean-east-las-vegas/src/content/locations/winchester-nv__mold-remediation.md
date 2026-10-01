@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "4a8daba986fc8b2d"
 generated_at: "2026-09-20T14:13:28.021939+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/winchester-nv/", "/service-areas/winchester-nv/fire-damage-restoration/", "/service-areas/winchester-nv/water-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/winchester-nv/", "/service-areas/winchester-nv/fire-damage-restoration/", "/service-areas/winchester-nv/water-damage-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Winchester", "url": "/service-areas/winchester-nv/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "winchester-nv"

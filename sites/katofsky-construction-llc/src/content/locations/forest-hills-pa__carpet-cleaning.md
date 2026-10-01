@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "12a6ffbd4fc75393"
 generated_at: "2026-09-30T19:28:48.297801+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/forest-hills-pa/", "/service-areas/forest-hills-pa/fire-damage-restoration/", "/service-areas/forest-hills-pa/roofing/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/forest-hills-pa/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Forest Hills", "url": "/service-areas/forest-hills-pa/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "forest-hills-pa"

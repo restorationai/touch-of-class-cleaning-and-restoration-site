@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "da3d1f0a4e32c824"
 generated_at: "2026-09-30T19:28:45.295149+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/alpine-ut/carpet-cleaning/", "/service-areas/american-fork-ut/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/bluffdale-ut/", "/service-areas/alpine-ut/carpet-cleaning/", "/service-areas/american-fork-ut/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bluffdale", "url": "/service-areas/bluffdale-ut/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "bluffdale-ut"

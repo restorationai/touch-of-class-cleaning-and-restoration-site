@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "c7088a46cb609cc9"
 generated_at: "2026-09-30T19:28:26.484125+00:00"
 manual_override: false
-internal_links: ["/services/flood-damage-restoration/", "/service-areas/rock-valley-ia/", "/service-areas/rock-valley-ia/fire-damage-restoration/", "/service-areas/rock-valley-ia/mold-remediation/", "/service-areas/adrian-mn/flood-damage-restoration/", "/service-areas/akron-ia/flood-damage-restoration/", "/contact/"]
+internal_links: ["/services/flood-damage-restoration/", "/service-areas/rock-valley-ia/", "/service-areas/rock-valley-ia/fire-damage-restoration/", "/service-areas/rock-valley-ia/mold-remediation/", "/service-areas/adrian-mn/", "/service-areas/akron-ia/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rock Valley", "url": "/service-areas/rock-valley-ia/"}, {"name": "Flood Damage Restoration"}]
 faq: []
 area_slug: "rock-valley-ia"

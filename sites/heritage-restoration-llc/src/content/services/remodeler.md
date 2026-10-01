@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "63a1f762fc7e9197"
 generated_at: "2026-09-30T19:28:41.597762+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/remodeler/", "/service-areas/avon-mn/remodeler/", "/service-areas/baxter-mn/remodeler/", "/service-areas/brainerd-mn/remodeler/", "/service-areas/elmdale-mn/remodeler/", "/service-areas/flensburg-mn/remodeler/", "/service-areas/foley-mn/remodeler/", "/service-areas/fort-ripley-mn/remodeler/", "/service-areas/harding-mn/remodeler/", "/service-areas/long-prairie-mn/remodeler/", "/service-areas/pierz-mn/remodeler/", "/service-areas/randall-mn/remodeler/"]
+internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/", "/service-areas/avon-mn/", "/service-areas/baxter-mn/", "/service-areas/brainerd-mn/", "/service-areas/elmdale-mn/", "/service-areas/flensburg-mn/", "/service-areas/foley-mn/", "/service-areas/fort-ripley-mn/", "/service-areas/harding-mn/", "/service-areas/long-prairie-mn/", "/service-areas/pierz-mn/", "/service-areas/randall-mn/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Remodeler"}]
 faq: []
 service_slug: "remodeler"

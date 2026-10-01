@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "a084d5af39d73b54"
 generated_at: "2026-09-30T19:29:00.300043+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/reconstruction/", "/service-areas/caddo-mills-tx/reconstruction/", "/service-areas/dallas-tx/reconstruction/", "/service-areas/farmersville-tx/reconstruction/", "/service-areas/fate-tx/reconstruction/", "/service-areas/frisco-tx/reconstruction/", "/service-areas/garland-tx/reconstruction/", "/service-areas/greenville-tx/reconstruction/", "/service-areas/heath-tx/reconstruction/", "/service-areas/highland-park-tx/reconstruction/", "/service-areas/josephine-tx/reconstruction/", "/service-areas/lavon-tx/reconstruction/"]
+internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/", "/service-areas/farmersville-tx/", "/service-areas/fate-tx/", "/service-areas/frisco-tx/", "/service-areas/garland-tx/", "/service-areas/greenville-tx/", "/service-areas/heath-tx/", "/service-areas/highland-park-tx/", "/service-areas/josephine-tx/", "/service-areas/lavon-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "reconstruction"}]
 faq: []
 service_slug: "reconstruction"

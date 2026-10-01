@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "c41cdc6ea292b646"
 generated_at: "2026-09-30T19:28:25.262380+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/industrial-restoration/", "/service-areas/atascadero-ca/industrial-restoration/", "/service-areas/avila-beach-ca/industrial-restoration/", "/service-areas/ballard-ca/industrial-restoration/", "/service-areas/blacklake-ca/industrial-restoration/", "/service-areas/buellton-ca/industrial-restoration/", "/service-areas/callender-ca/industrial-restoration/", "/service-areas/cambria-ca/industrial-restoration/", "/service-areas/edna-ca/industrial-restoration/", "/service-areas/el-paso-de-robles-ca/industrial-restoration/", "/service-areas/grover-beach-ca/industrial-restoration/", "/service-areas/guadalupe-ca/industrial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/", "/service-areas/atascadero-ca/", "/service-areas/avila-beach-ca/", "/service-areas/ballard-ca/", "/service-areas/blacklake-ca/", "/service-areas/buellton-ca/", "/service-areas/callender-ca/", "/service-areas/cambria-ca/", "/service-areas/edna-ca/", "/service-areas/el-paso-de-robles-ca/", "/service-areas/grover-beach-ca/", "/service-areas/guadalupe-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "industrial-restoration"}]
 faq: []
 service_slug: "industrial-restoration"

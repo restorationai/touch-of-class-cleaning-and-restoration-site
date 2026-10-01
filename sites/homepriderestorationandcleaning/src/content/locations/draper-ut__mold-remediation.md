@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "7b849f09fb52a339"
 generated_at: "2026-09-30T19:28:45.322686+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/draper-ut/", "/service-areas/draper-ut/fire-damage-restoration/", "/service-areas/draper-ut/water-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/draper-ut/", "/service-areas/draper-ut/water-damage-restoration/", "/service-areas/alpine-ut/", "/service-areas/american-fork-ut/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Draper", "url": "/service-areas/draper-ut/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "draper-ut"

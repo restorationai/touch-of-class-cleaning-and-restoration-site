@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "3e6390b12ef0667c"
 generated_at: "2026-09-22T18:10:24.421898+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/bonneau-sc/fire-damage-restoration/", "/service-areas/bonneau-sc/mold-remediation/", "/service-areas/bonneau-sc/water-damage-restoration/", "/service-areas/bonneau-sc/emergency-water-removal/", "/service-areas/awendaw-sc/", "/service-areas/folly-beach-sc/", "/service-areas/goose-creek-sc/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/bonneau-sc/", "/service-areas/bonneau-sc/water-damage-restoration/", "/service-areas/awendaw-sc/", "/service-areas/folly-beach-sc/", "/service-areas/goose-creek-sc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bonneau"}]
 faq: []
 area_slug: "bonneau-sc"

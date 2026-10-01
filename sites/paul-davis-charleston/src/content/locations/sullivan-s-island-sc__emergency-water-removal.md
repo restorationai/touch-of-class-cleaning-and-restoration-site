@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "e42cb1eddb9538e9"
 generated_at: "2026-09-20T14:13:25.014838+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/sullivan-s-island-sc/", "/service-areas/sullivan-s-island-sc/fire-damage-restoration/", "/service-areas/sullivan-s-island-sc/mold-remediation/", "/service-areas/awendaw-sc/emergency-water-removal/", "/service-areas/goose-creek-sc/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/sullivan-s-island-sc/", "/service-areas/sullivan-s-island-sc/mold-remediation/", "/service-areas/awendaw-sc/emergency-water-removal/", "/service-areas/goose-creek-sc/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sullivan's Island", "url": "/service-areas/sullivan-s-island-sc/"}, {"name": "Emergency Water Removal & Cleanup"}]
 faq: []
 area_slug: "sullivan-s-island-sc"

@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "6dfee953bfc71c7e"
 generated_at: "2026-09-30T19:28:52.906998+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/contents-restoration-storage/", "/service-areas/auburn-wa/contents-restoration-storage/", "/service-areas/bellevue-wa/contents-restoration-storage/", "/service-areas/bremerton-wa/contents-restoration-storage/", "/service-areas/burien-wa/contents-restoration-storage/", "/service-areas/des-moines-wa/contents-restoration-storage/", "/service-areas/edgewood-wa/contents-restoration-storage/", "/service-areas/everett-wa/contents-restoration-storage/", "/service-areas/fife-wa/contents-restoration-storage/", "/service-areas/gig-harbor-wa/contents-restoration-storage/", "/service-areas/kent-wa/contents-restoration-storage/", "/service-areas/kirkland-wa/contents-restoration-storage/"]
+internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/", "/service-areas/auburn-wa/", "/service-areas/bellevue-wa/", "/service-areas/bremerton-wa/", "/service-areas/burien-wa/", "/service-areas/des-moines-wa/", "/service-areas/edgewood-wa/", "/service-areas/everett-wa/", "/service-areas/fife-wa/", "/service-areas/gig-harbor-wa/", "/service-areas/kent-wa/", "/service-areas/kirkland-wa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Contents Restoration & Storage"}]
 faq: []
 service_slug: "contents-restoration-storage"

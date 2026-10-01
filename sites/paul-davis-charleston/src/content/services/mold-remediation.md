@@ -10,7 +10,7 @@ priority: 9.0
 plan_hash: "5108947c536899b0"
 generated_at: "2026-09-20T14:13:25.008220+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/awendaw-sc/mold-remediation/", "/service-areas/goose-creek-sc/mold-remediation/", "/service-areas/hanahan-sc/mold-remediation/", "/service-areas/isle-of-palms-sc/mold-remediation/", "/service-areas/james-island-sc/mold-remediation/", "/service-areas/ladson-sc/mold-remediation/", "/service-areas/mount-pleasant-sc/mold-remediation/", "/service-areas/north-charleston-sc/mold-remediation/", "/service-areas/sullivan-s-island-sc/mold-remediation/", "/service-areas/summerville-sc/mold-remediation/", "/blog/choosing-a-restoration-company/", "/blog/how-to-test-for-mold/", "/blog/signs-of-hidden-mold/"]
+internal_links: ["/services/", "/contact/", "/service-areas/awendaw-sc/", "/service-areas/goose-creek-sc/mold-remediation/", "/service-areas/hanahan-sc/", "/service-areas/isle-of-palms-sc/mold-remediation/", "/service-areas/james-island-sc/mold-remediation/", "/service-areas/ladson-sc/", "/service-areas/mount-pleasant-sc/mold-remediation/", "/service-areas/north-charleston-sc/mold-remediation/", "/service-areas/sullivan-s-island-sc/mold-remediation/", "/service-areas/summerville-sc/mold-remediation/", "/blog/choosing-a-restoration-company/", "/blog/how-to-test-for-mold/", "/blog/signs-of-hidden-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Mold Remediation"}]
 faq: []
 service_slug: "mold-remediation"

@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "08d004f74c3a6e82"
 generated_at: "2026-09-30T19:28:23.367655+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/camarillo-ca/general-contracting/", "/service-areas/carpinteria-ca/general-contracting/", "/service-areas/castaic-ca/general-contracting/", "/service-areas/fillmore-ca/general-contracting/", "/service-areas/hasley-canyon-ca/general-contracting/", "/service-areas/lake-sherwood-ca/general-contracting/", "/service-areas/mira-monte-ca/general-contracting/", "/service-areas/moorpark-ca/general-contracting/", "/service-areas/oak-park-ca/general-contracting/", "/service-areas/oak-view-ca/general-contracting/", "/service-areas/ojai-ca/general-contracting/", "/service-areas/oxnard-ca/general-contracting/"]
+internal_links: ["/services/", "/contact/", "/service-areas/camarillo-ca/", "/service-areas/carpinteria-ca/", "/service-areas/castaic-ca/", "/service-areas/fillmore-ca/", "/service-areas/hasley-canyon-ca/", "/service-areas/lake-sherwood-ca/", "/service-areas/mira-monte-ca/", "/service-areas/moorpark-ca/", "/service-areas/oak-park-ca/", "/service-areas/oak-view-ca/", "/service-areas/ojai-ca/", "/service-areas/oxnard-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "general-contracting"}]
 faq: []
 service_slug: "general-contracting"

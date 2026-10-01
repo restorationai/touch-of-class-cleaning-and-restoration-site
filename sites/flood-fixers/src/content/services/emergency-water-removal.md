@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "c68ee38b5401ac71"
 generated_at: "2026-09-24T17:22:06.401949+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/bonsall-ca/emergency-water-removal/", "/service-areas/camp-pendleton-mainside-ca/emergency-water-removal/", "/service-areas/camp-pendleton-south-ca/emergency-water-removal/", "/service-areas/carlsbad-ca/emergency-water-removal/", "/service-areas/chula-vista-ca/emergency-water-removal/", "/service-areas/del-mar-ca/emergency-water-removal/", "/service-areas/el-cajon-ca/emergency-water-removal/", "/service-areas/encinitas-ca/emergency-water-removal/", "/service-areas/escondido-ca/emergency-water-removal/", "/service-areas/fairbanks-ranch-ca/emergency-water-removal/", "/service-areas/fallbrook-ca/emergency-water-removal/", "/service-areas/harmony-grove-ca/emergency-water-removal/", "/services/water-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/bonsall-ca/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/camp-pendleton-south-ca/", "/service-areas/carlsbad-ca/", "/service-areas/chula-vista-ca/", "/service-areas/del-mar-ca/", "/service-areas/el-cajon-ca/", "/service-areas/encinitas-ca/", "/service-areas/escondido-ca/", "/service-areas/fairbanks-ranch-ca/", "/service-areas/fallbrook-ca/", "/service-areas/harmony-grove-ca/", "/services/water-damage-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Emergency Water Removal & Cleanup"}]
 faq: []
 service_slug: "emergency-water-removal"

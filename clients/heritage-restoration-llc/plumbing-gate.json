@@ -1,0 +1,21 @@
+{
+  "slug": "heritage-restoration-llc",
+  "allowed": true,
+  "reason": "(b) DBA on file (vision_auto, 2026-09-17): 'Heritage Restoration - 24/7 Emergency Plumbing, Water and Fire Damage Restoration'",
+  "evidence": {
+    "company_id": "CO-1789496674784",
+    "gbp_title": "Heritage Restoration LLC",
+    "rename_intent": {
+      "dba_name": "Heritage Restoration - 24/7 Emergency Plumbing, Water and Fire Damage Restoration",
+      "dba_filed": true,
+      "dba_filed_at": "2026-09-17",
+      "dba_verified": "vision_auto",
+      "dba_doc_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1789496674784/docs/dba/1789666735560-e09eceaf.jpg"
+    },
+    "chosen_names": [
+      "Heritage Restoration - 24/7 Emergency Plumbing, Water and Fire Damage Restoration"
+    ]
+  },
+  "checked_at": "2026-10-01T04:48:57+00:00",
+  "source": "supabase"
+}

@@ -10,7 +10,7 @@ priority: 3.5
 plan_hash: "bd180ee7ea993dff"
 generated_at: "2026-09-30T19:28:48.283903+00:00"
 manual_override: false
-internal_links: ["/services/lead-paint-abatement/", "/service-areas/munhall-pa/", "/service-areas/munhall-pa/fire-damage-restoration/", "/service-areas/munhall-pa/roofing/", "/service-areas/allison-park-pa/lead-paint-abatement/", "/service-areas/baldwin-pa/lead-paint-abatement/", "/contact/"]
+internal_links: ["/services/lead-paint-abatement/", "/service-areas/munhall-pa/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/lead-paint-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Munhall", "url": "/service-areas/munhall-pa/"}, {"name": "Lead Paint Abatement"}]
 faq: []
 area_slug: "munhall-pa"

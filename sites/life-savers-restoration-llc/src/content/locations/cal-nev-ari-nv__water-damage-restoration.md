@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "76278f2193f58eba"
 generated_at: "2026-09-30T19:28:50.990906+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/cal-nev-ari-nv/", "/service-areas/cal-nev-ari-nv/fire-damage-restoration/", "/service-areas/cal-nev-ari-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/cal-nev-ari-nv/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cal-Nev-Ari", "url": "/service-areas/cal-nev-ari-nv/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "cal-nev-ari-nv"

@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "6af54fa33540db2d"
 generated_at: "2026-09-20T14:13:28.019780+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/enterprise-nv/fire-damage-restoration/", "/service-areas/enterprise-nv/mold-remediation/", "/service-areas/enterprise-nv/water-damage-restoration/", "/service-areas/enterprise-nv/commercial-restoration/", "/service-areas/enterprise-nv/sewage-cleanup/", "/service-areas/enterprise-nv/emergency-water-removal/", "/service-areas/enterprise-nv/biohazard-cleanup/", "/service-areas/enterprise-nv/mold-inspection-testing/", "/service-areas/enterprise-nv/basement-flood-cleanup/", "/service-areas/enterprise-nv/burst-frozen-pipes/", "/service-areas/enterprise-nv/commercial-fire-restoration/", "/service-areas/enterprise-nv/contents-restoration-storage/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/henderson-nv/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/enterprise-nv/", "/service-areas/enterprise-nv/water-damage-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/henderson-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Enterprise"}]
 faq: []
 area_slug: "enterprise-nv"

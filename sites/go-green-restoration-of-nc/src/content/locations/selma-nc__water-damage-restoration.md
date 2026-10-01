@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "a105ff945d5f9fac"
 generated_at: "2026-09-30T19:28:39.738471+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/selma-nc/", "/service-areas/selma-nc/fire-damage-restoration/", "/service-areas/selma-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-damage-restoration/", "/service-areas/clayton-nc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/selma-nc/", "/service-areas/archer-lodge-nc/water-damage-restoration/", "/service-areas/clayton-nc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Selma", "url": "/service-areas/selma-nc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "selma-nc"

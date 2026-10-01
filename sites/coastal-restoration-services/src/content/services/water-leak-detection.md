@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "8e94625ed19bc773"
 generated_at: "2026-09-30T19:28:25.262726+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/water-leak-detection/", "/service-areas/atascadero-ca/water-leak-detection/", "/service-areas/avila-beach-ca/water-leak-detection/", "/service-areas/ballard-ca/water-leak-detection/", "/service-areas/blacklake-ca/water-leak-detection/", "/service-areas/buellton-ca/water-leak-detection/", "/service-areas/callender-ca/water-leak-detection/", "/service-areas/cambria-ca/water-leak-detection/", "/service-areas/edna-ca/water-leak-detection/", "/service-areas/el-paso-de-robles-ca/water-leak-detection/", "/service-areas/grover-beach-ca/water-leak-detection/", "/service-areas/guadalupe-ca/water-leak-detection/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/", "/service-areas/atascadero-ca/", "/service-areas/avila-beach-ca/", "/service-areas/ballard-ca/", "/service-areas/blacklake-ca/", "/service-areas/buellton-ca/", "/service-areas/callender-ca/", "/service-areas/cambria-ca/", "/service-areas/edna-ca/", "/service-areas/el-paso-de-robles-ca/", "/service-areas/grover-beach-ca/", "/service-areas/guadalupe-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-leak-detection"}]
 faq: []
 service_slug: "water-leak-detection"

@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "68d4af45086024eb"
 generated_at: "2026-09-30T19:28:21.542108+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/commercial-restoration/", "/service-areas/bluffdale-ut/commercial-restoration/", "/service-areas/cedar-fort-ut/commercial-restoration/", "/service-areas/cedar-hills-ut/commercial-restoration/", "/service-areas/cottonwood-heights-ut/commercial-restoration/", "/service-areas/draper-ut/commercial-restoration/", "/service-areas/eagle-mountain-ut/commercial-restoration/", "/service-areas/herriman-ut/commercial-restoration/", "/service-areas/highland-ut/commercial-restoration/", "/service-areas/lehi-ut/commercial-restoration/", "/service-areas/lindon-ut/commercial-restoration/", "/service-areas/orem-ut/commercial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/", "/service-areas/bluffdale-ut/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-hills-ut/", "/service-areas/cottonwood-heights-ut/", "/service-areas/draper-ut/", "/service-areas/eagle-mountain-ut/", "/service-areas/herriman-ut/", "/service-areas/highland-ut/", "/service-areas/lehi-ut/", "/service-areas/lindon-ut/", "/service-areas/orem-ut/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "commercial-restoration"}]
 faq: []
 service_slug: "commercial-restoration"

@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "d3a1152bb02c311e"
 generated_at: "2026-09-30T19:28:43.329637+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/service-areas/benndale-ms/burst-pipe-repair/", "/service-areas/big-point-ms/burst-pipe-repair/", "/service-areas/biloxi-ms/burst-pipe-repair/", "/service-areas/d-iberville-ms/burst-pipe-repair/", "/service-areas/delisle-ms/burst-pipe-repair/", "/service-areas/diamondhead-ms/burst-pipe-repair/", "/service-areas/eastabuchie-ms/burst-pipe-repair/", "/service-areas/ellisville-ms/burst-pipe-repair/", "/service-areas/escatawpa-ms/burst-pipe-repair/", "/service-areas/gautier-ms/burst-pipe-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/", "/service-areas/benndale-ms/", "/service-areas/big-point-ms/", "/service-areas/biloxi-ms/", "/service-areas/d-iberville-ms/", "/service-areas/delisle-ms/", "/service-areas/diamondhead-ms/", "/service-areas/eastabuchie-ms/", "/service-areas/ellisville-ms/", "/service-areas/escatawpa-ms/", "/service-areas/gautier-ms/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "burst-pipe-repair"}]
 faq: []
 service_slug: "burst-pipe-repair"

@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "db63d8ad1a88e10d"
 generated_at: "2026-09-30T19:28:32.679551+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/commercial-restoration/", "/service-areas/chino-ca/commercial-restoration/", "/service-areas/chino-hills-ca/commercial-restoration/", "/service-areas/eastvale-ca/commercial-restoration/", "/service-areas/fontana-ca/commercial-restoration/", "/service-areas/fullerton-ca/commercial-restoration/", "/service-areas/jurupa-valley-ca/commercial-restoration/", "/service-areas/lake-mathews-ca/commercial-restoration/", "/service-areas/montclair-ca/commercial-restoration/", "/service-areas/norco-ca/commercial-restoration/", "/service-areas/north-tustin-ca/commercial-restoration/", "/service-areas/ontario-ca/commercial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/", "/service-areas/eastvale-ca/", "/service-areas/fontana-ca/", "/service-areas/fullerton-ca/", "/service-areas/jurupa-valley-ca/", "/service-areas/lake-mathews-ca/", "/service-areas/montclair-ca/", "/service-areas/norco-ca/", "/service-areas/north-tustin-ca/", "/service-areas/ontario-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Commercial Restoration"}]
 faq: []
 service_slug: "commercial-restoration"

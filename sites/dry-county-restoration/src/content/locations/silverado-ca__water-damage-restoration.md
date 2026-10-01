@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "803210ce672dca2a"
 generated_at: "2026-09-30T19:28:32.752903+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/silverado-ca/", "/service-areas/silverado-ca/fire-damage-restoration/", "/service-areas/silverado-ca/mold-remediation/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/silverado-ca/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Silverado", "url": "/service-areas/silverado-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "silverado-ca"

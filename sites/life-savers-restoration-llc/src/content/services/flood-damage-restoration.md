@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "ceefccef968c71ed"
 generated_at: "2026-09-30T19:28:50.939735+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/flood-damage-restoration/", "/service-areas/boulder-city-nv/flood-damage-restoration/", "/service-areas/cal-nev-ari-nv/flood-damage-restoration/", "/service-areas/enterprise-nv/flood-damage-restoration/", "/service-areas/goodsprings-nv/flood-damage-restoration/", "/service-areas/indian-springs-nv/flood-damage-restoration/", "/service-areas/las-vegas-nv/flood-damage-restoration/", "/service-areas/laughlin-nv/flood-damage-restoration/", "/service-areas/nellis-afb-nv/flood-damage-restoration/", "/service-areas/nelson-nv/flood-damage-restoration/", "/service-areas/north-las-vegas-nv/flood-damage-restoration/", "/service-areas/paradise-nv/flood-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/", "/service-areas/enterprise-nv/", "/service-areas/goodsprings-nv/", "/service-areas/indian-springs-nv/", "/service-areas/las-vegas-nv/", "/service-areas/laughlin-nv/", "/service-areas/nellis-afb-nv/", "/service-areas/nelson-nv/", "/service-areas/north-las-vegas-nv/", "/service-areas/paradise-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "flood-damage-restoration"}]
 faq: []
 service_slug: "flood-damage-restoration"

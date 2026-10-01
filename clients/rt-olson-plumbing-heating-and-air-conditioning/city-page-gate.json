@@ -1,0 +1,101 @@
+{
+ "policy": "scripts/city_page_gate.py (Santino 2026-10-01)",
+ "thresholds": {
+  "combo_min": 10,
+  "head_metro_min": 1000
+ },
+ "decisions": {},
+ "offered": {
+  "ac-repair": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "all-plumbing-services": [
+   "explicit non-core plan-input service",
+   "GBP service in the client's words: 'Plumbing'"
+  ],
+  "attic-insulation": [
+   "explicit non-core plan-input service",
+   "GBP service in the client's words: 'HVAC - Duct cleaning - attic insulation - Heating and Cooling'"
+  ],
+  "drain-cleaning": [
+   "plan-input before core floor (2026-09-24)",
+   "GBP service in the client's words: 'Drain Cleaning Service'"
+  ],
+  "drain-sewer-repairs": [
+   "explicit non-core plan-input service"
+  ],
+  "emergency-plumbing": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Hour Emergency Plumbing Service'"
+  ],
+  "furnace-repair": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "garbage-disposal": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "GBP service in the client's words: 'Garbage disposal repair service'"
+  ],
+  "gas-line-inspections": [
+   "explicit non-core plan-input service"
+  ],
+  "indoor-air-quality": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "instant-hot-water-system": [
+   "explicit non-core plan-input service",
+   "GBP service in the client's words: 'Hot Water System'"
+  ],
+  "kitchen-bathroom-remodeling": [
+   "explicit non-core plan-input service"
+  ],
+  "leak-detection": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'FREE Leak Detection'",
+   "GBP service in the client's words: 'Underground and Slab Leak Detection'",
+   "GBP service in the client's words: 'Free Water Leak Detection (No Pools)'",
+   "GBP service in the client's words: 'Water Damage Leak Detection'",
+   "GBP service in the client's words: 'Leak Detection Corona'",
+   "GBP service in the client's words: 'Slab Leak Detection Corona'",
+   "GBP service in the client's words: 'Water Leak Detection Corona'",
+   "GBP service in the client's words: 'Slab Leak Detection And Repair'",
+   "GBP service in the client's words: 'Sewer Leak Detection'",
+   "GBP service in the client's words: 'Natural Gas Leak Detection'"
+  ],
+  "repiping": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "GBP service in the client's words: 'Repiping your home'"
+  ],
+  "reverse-osmosis": [
+   "explicit non-core plan-input service",
+   "GBP service in the client's words: 'Reverse Osmosis System'",
+   "GBP service in the client's words: 'Reverse Osmosis Water'"
+  ],
+  "sewer-camera-inspection": [
+   "explicit non-core plan-input service"
+  ],
+  "slab-leak-and-pipe-repair": [
+   "explicit non-core plan-input service"
+  ],
+  "toilet-faucet-repair": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "water-heater-installation": [
+   "plan-input before core floor (2026-09-24)",
+   "GBP service in the client's words: '50 gallon hot water heater installation'"
+  ],
+  "water-heater-repair": [
+   "plan-input before core floor (2026-09-24)",
+   "GBP service in the client's words: 'Water Heater Repair & Installation'"
+  ],
+  "water-softeners-filtration": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ]
+ }
+}

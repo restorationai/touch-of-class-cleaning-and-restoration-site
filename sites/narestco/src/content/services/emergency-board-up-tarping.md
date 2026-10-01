@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "733e81d0de46493c"
 generated_at: "2026-09-30T19:28:52.907667+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/emergency-board-up-tarping/", "/service-areas/auburn-wa/emergency-board-up-tarping/", "/service-areas/bellevue-wa/emergency-board-up-tarping/", "/service-areas/bremerton-wa/emergency-board-up-tarping/", "/service-areas/burien-wa/emergency-board-up-tarping/", "/service-areas/des-moines-wa/emergency-board-up-tarping/", "/service-areas/edgewood-wa/emergency-board-up-tarping/", "/service-areas/everett-wa/emergency-board-up-tarping/", "/service-areas/fife-wa/emergency-board-up-tarping/", "/service-areas/gig-harbor-wa/emergency-board-up-tarping/", "/service-areas/kent-wa/emergency-board-up-tarping/", "/service-areas/kirkland-wa/emergency-board-up-tarping/"]
+internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/", "/service-areas/auburn-wa/", "/service-areas/bellevue-wa/", "/service-areas/bremerton-wa/", "/service-areas/burien-wa/", "/service-areas/des-moines-wa/", "/service-areas/edgewood-wa/", "/service-areas/everett-wa/", "/service-areas/fife-wa/", "/service-areas/gig-harbor-wa/", "/service-areas/kent-wa/", "/service-areas/kirkland-wa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Emergency Board-Up and Tarping"}]
 faq: []
 service_slug: "emergency-board-up-tarping"

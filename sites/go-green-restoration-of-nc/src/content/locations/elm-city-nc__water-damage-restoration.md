@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "a5db3a0d9100f16b"
 generated_at: "2026-09-30T19:28:39.759886+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/elm-city-nc/", "/service-areas/elm-city-nc/fire-damage-restoration/", "/service-areas/elm-city-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-damage-restoration/", "/service-areas/clayton-nc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/elm-city-nc/", "/service-areas/archer-lodge-nc/water-damage-restoration/", "/service-areas/clayton-nc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elm City", "url": "/service-areas/elm-city-nc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "elm-city-nc"

@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "cb39e03bb70850a4"
 generated_at: "2026-09-30T19:28:57.244645+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/hudson-ma/", "/service-areas/hudson-ma/fire-damage-restoration/", "/service-areas/hudson-ma/roofing/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/hudson-ma/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hudson", "url": "/service-areas/hudson-ma/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "hudson-ma"

@@ -1,20 +1,20 @@
 # Site Plan Report — Quality Contracting, Inc.
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T21:36:58.669552+00:00
+- Generated: 2026-10-01T05:05:58.837228+00:00
 - Domain: `qualitycontracting.us`
-- Services selected: 31 of 91 catalog entries
+- Services selected: 30 of 91 catalog entries
 - Service areas: 28
 - Cross-product enabled: True
-- Total URLs: **912**
-- Total internal links: 7456 (avg 8.2 per page)
+- Total URLs: **317**
+- Total internal links: 2500 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 837 |
-| `service-landing` | 31 |
+| `service-area-service` | 243 |
+| `service-landing` | 30 |
 | `service-area` | 27 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -34,7 +34,6 @@
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
 - `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
-- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
 - `mold-remediation` — Mold Remediation (core, priority 10)
@@ -99,11 +98,11 @@
 | `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement auburn |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration auburn |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration auburn |
-| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing auburn |
 | `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup auburn |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration auburn |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services auburn |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization auburn |
+| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration auburn |
 
 ## Validation
 

@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "f39597fe6b24c6bc"
 generated_at: "2026-09-24T17:22:06.404374+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/reconstruction/", "/service-areas/camp-pendleton-mainside-ca/emergency-water-removal/", "/service-areas/camp-pendleton-mainside-ca/basement-flooding-cleanup/", "/service-areas/camp-pendleton-mainside-ca/burst-pipe-repair/", "/service-areas/camp-pendleton-mainside-ca/general-contracting/", "/service-areas/bonsall-ca/", "/service-areas/camp-pendleton-south-ca/", "/service-areas/carlsbad-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/", "/service-areas/bonsall-ca/", "/service-areas/camp-pendleton-south-ca/", "/service-areas/carlsbad-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Camp Pendleton Mainside"}]
 faq: []
 area_slug: "camp-pendleton-mainside-ca"

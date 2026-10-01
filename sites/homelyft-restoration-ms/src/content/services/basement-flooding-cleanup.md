@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "c6f7375a442817e4"
 generated_at: "2026-09-30T19:28:43.329999+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/agricola-ms/basement-flooding-cleanup/", "/service-areas/bay-st-louis-ms/basement-flooding-cleanup/", "/service-areas/benndale-ms/basement-flooding-cleanup/", "/service-areas/big-point-ms/basement-flooding-cleanup/", "/service-areas/biloxi-ms/basement-flooding-cleanup/", "/service-areas/d-iberville-ms/basement-flooding-cleanup/", "/service-areas/delisle-ms/basement-flooding-cleanup/", "/service-areas/diamondhead-ms/basement-flooding-cleanup/", "/service-areas/eastabuchie-ms/basement-flooding-cleanup/", "/service-areas/ellisville-ms/basement-flooding-cleanup/", "/service-areas/escatawpa-ms/basement-flooding-cleanup/", "/service-areas/gautier-ms/basement-flooding-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/", "/service-areas/benndale-ms/", "/service-areas/big-point-ms/", "/service-areas/biloxi-ms/", "/service-areas/d-iberville-ms/", "/service-areas/delisle-ms/", "/service-areas/diamondhead-ms/", "/service-areas/eastabuchie-ms/", "/service-areas/ellisville-ms/", "/service-areas/escatawpa-ms/", "/service-areas/gautier-ms/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "basement-flooding-cleanup"}]
 faq: []
 service_slug: "basement-flooding-cleanup"

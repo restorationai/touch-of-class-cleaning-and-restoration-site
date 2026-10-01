@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "efec24efa906a5b2"
 generated_at: "2026-09-30T19:28:43.327500+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/agricola-ms/odor-removal/", "/service-areas/bay-st-louis-ms/odor-removal/", "/service-areas/benndale-ms/odor-removal/", "/service-areas/big-point-ms/odor-removal/", "/service-areas/biloxi-ms/odor-removal/", "/service-areas/d-iberville-ms/odor-removal/", "/service-areas/delisle-ms/odor-removal/", "/service-areas/diamondhead-ms/odor-removal/", "/service-areas/eastabuchie-ms/odor-removal/", "/service-areas/ellisville-ms/odor-removal/", "/service-areas/escatawpa-ms/odor-removal/", "/service-areas/gautier-ms/odor-removal/"]
+internal_links: ["/services/", "/contact/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/", "/service-areas/benndale-ms/", "/service-areas/big-point-ms/", "/service-areas/biloxi-ms/", "/service-areas/d-iberville-ms/", "/service-areas/delisle-ms/", "/service-areas/diamondhead-ms/", "/service-areas/eastabuchie-ms/", "/service-areas/ellisville-ms/", "/service-areas/escatawpa-ms/", "/service-areas/gautier-ms/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 service_slug: "odor-removal"

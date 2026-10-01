@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "7b2b76392345b6fe"
 generated_at: "2026-09-20T14:13:28.024352+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/summerlin-south-nv/", "/service-areas/summerlin-south-nv/fire-damage-restoration/", "/service-areas/summerlin-south-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/summerlin-south-nv/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Summerlin South", "url": "/service-areas/summerlin-south-nv/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "summerlin-south-nv"

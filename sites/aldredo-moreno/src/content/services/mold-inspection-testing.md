@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "d8d9bf60debfe8a7"
 generated_at: "2026-09-30T19:28:20.827432+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/mold-inspection-testing/", "/service-areas/big-lake-tx/mold-inspection-testing/", "/service-areas/big-spring-tx/mold-inspection-testing/", "/service-areas/crane-tx/mold-inspection-testing/", "/service-areas/garden-city-tx/mold-inspection-testing/", "/service-areas/gardendale-tx/mold-inspection-testing/", "/service-areas/goldsmith-tx/mold-inspection-testing/", "/service-areas/greenwood-tx/mold-inspection-testing/", "/service-areas/imperial-tx/mold-inspection-testing/", "/service-areas/mccamey-tx/mold-inspection-testing/", "/service-areas/monahans-tx/mold-inspection-testing/", "/service-areas/odessa-tx/mold-inspection-testing/", "/blog/how-to-test-for-mold/"]
+internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/", "/service-areas/big-lake-tx/", "/service-areas/big-spring-tx/", "/service-areas/crane-tx/", "/service-areas/garden-city-tx/", "/service-areas/gardendale-tx/", "/service-areas/goldsmith-tx/", "/service-areas/greenwood-tx/", "/service-areas/imperial-tx/", "/service-areas/mccamey-tx/", "/service-areas/monahans-tx/", "/service-areas/odessa-tx/", "/blog/how-to-test-for-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "mold-inspection-testing"}]
 faq: []
 service_slug: "mold-inspection-testing"

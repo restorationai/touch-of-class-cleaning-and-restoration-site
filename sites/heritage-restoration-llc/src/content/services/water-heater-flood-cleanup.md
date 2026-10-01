@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "379f7cac808130cc"
 generated_at: "2026-09-30T19:28:41.598821+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/water-heater-flood-cleanup/", "/service-areas/avon-mn/water-heater-flood-cleanup/", "/service-areas/baxter-mn/water-heater-flood-cleanup/", "/service-areas/brainerd-mn/water-heater-flood-cleanup/", "/service-areas/elmdale-mn/water-heater-flood-cleanup/", "/service-areas/flensburg-mn/water-heater-flood-cleanup/", "/service-areas/foley-mn/water-heater-flood-cleanup/", "/service-areas/fort-ripley-mn/water-heater-flood-cleanup/", "/service-areas/harding-mn/water-heater-flood-cleanup/", "/service-areas/long-prairie-mn/water-heater-flood-cleanup/", "/service-areas/pierz-mn/water-heater-flood-cleanup/", "/service-areas/randall-mn/water-heater-flood-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/", "/service-areas/avon-mn/", "/service-areas/baxter-mn/", "/service-areas/brainerd-mn/", "/service-areas/elmdale-mn/", "/service-areas/flensburg-mn/", "/service-areas/foley-mn/", "/service-areas/fort-ripley-mn/", "/service-areas/harding-mn/", "/service-areas/long-prairie-mn/", "/service-areas/pierz-mn/", "/service-areas/randall-mn/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Water Heater Flood Cleanup"}]
 faq: []
 service_slug: "water-heater-flood-cleanup"

@@ -10,7 +10,7 @@ priority: 9.0
 plan_hash: "e664cbc3cab4dde6"
 generated_at: "2026-09-30T19:28:20.826515+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/fire-damage-restoration/", "/service-areas/big-lake-tx/fire-damage-restoration/", "/service-areas/big-spring-tx/fire-damage-restoration/", "/service-areas/crane-tx/fire-damage-restoration/", "/service-areas/garden-city-tx/fire-damage-restoration/", "/service-areas/gardendale-tx/fire-damage-restoration/", "/service-areas/goldsmith-tx/fire-damage-restoration/", "/service-areas/greenwood-tx/fire-damage-restoration/", "/service-areas/imperial-tx/fire-damage-restoration/", "/service-areas/mccamey-tx/fire-damage-restoration/", "/service-areas/monahans-tx/fire-damage-restoration/", "/service-areas/odessa-tx/fire-damage-restoration/", "/blog/choosing-a-restoration-company/", "/blog/fire-damage-restoration-process/"]
+internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/", "/service-areas/big-lake-tx/", "/service-areas/big-spring-tx/", "/service-areas/crane-tx/", "/service-areas/garden-city-tx/", "/service-areas/gardendale-tx/", "/service-areas/goldsmith-tx/", "/service-areas/greenwood-tx/", "/service-areas/imperial-tx/", "/service-areas/mccamey-tx/", "/service-areas/monahans-tx/", "/service-areas/odessa-tx/", "/blog/choosing-a-restoration-company/", "/blog/fire-damage-restoration-process/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "fire-damage-restoration"}]
 faq: []
 service_slug: "fire-damage-restoration"

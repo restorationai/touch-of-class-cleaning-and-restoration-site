@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "28a543d18f9fe976"
 generated_at: "2026-09-30T19:28:25.262264+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/mold-inspection-testing/", "/service-areas/atascadero-ca/mold-inspection-testing/", "/service-areas/avila-beach-ca/mold-inspection-testing/", "/service-areas/ballard-ca/mold-inspection-testing/", "/service-areas/blacklake-ca/mold-inspection-testing/", "/service-areas/buellton-ca/mold-inspection-testing/", "/service-areas/callender-ca/mold-inspection-testing/", "/service-areas/cambria-ca/mold-inspection-testing/", "/service-areas/edna-ca/mold-inspection-testing/", "/service-areas/el-paso-de-robles-ca/mold-inspection-testing/", "/service-areas/grover-beach-ca/mold-inspection-testing/", "/service-areas/guadalupe-ca/mold-inspection-testing/", "/blog/how-to-test-for-mold/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/", "/service-areas/atascadero-ca/", "/service-areas/avila-beach-ca/", "/service-areas/ballard-ca/", "/service-areas/blacklake-ca/", "/service-areas/buellton-ca/", "/service-areas/callender-ca/", "/service-areas/cambria-ca/", "/service-areas/edna-ca/", "/service-areas/el-paso-de-robles-ca/", "/service-areas/grover-beach-ca/", "/service-areas/guadalupe-ca/", "/blog/how-to-test-for-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "mold-inspection-testing"}]
 faq: []
 service_slug: "mold-inspection-testing"

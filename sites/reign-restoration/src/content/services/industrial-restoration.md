@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "f2b52cbf3954068b"
 generated_at: "2026-09-30T19:29:00.299981+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/industrial-restoration/", "/service-areas/caddo-mills-tx/industrial-restoration/", "/service-areas/dallas-tx/industrial-restoration/", "/service-areas/farmersville-tx/industrial-restoration/", "/service-areas/fate-tx/industrial-restoration/", "/service-areas/frisco-tx/industrial-restoration/", "/service-areas/garland-tx/industrial-restoration/", "/service-areas/greenville-tx/industrial-restoration/", "/service-areas/heath-tx/industrial-restoration/", "/service-areas/highland-park-tx/industrial-restoration/", "/service-areas/josephine-tx/industrial-restoration/", "/service-areas/lavon-tx/industrial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/", "/service-areas/farmersville-tx/", "/service-areas/fate-tx/", "/service-areas/frisco-tx/", "/service-areas/garland-tx/", "/service-areas/greenville-tx/", "/service-areas/heath-tx/", "/service-areas/highland-park-tx/", "/service-areas/josephine-tx/", "/service-areas/lavon-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "industrial-restoration"}]
 faq: []
 service_slug: "industrial-restoration"

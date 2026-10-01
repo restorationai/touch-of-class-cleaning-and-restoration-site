@@ -10,7 +10,7 @@ priority: 3.5
 plan_hash: "4cda7dcb6efe7324"
 generated_at: "2026-09-20T14:13:28.031556+00:00"
 manual_override: false
-internal_links: ["/services/burst-frozen-pipes/", "/service-areas/mount-charleston-nv/", "/service-areas/mount-charleston-nv/fire-damage-restoration/", "/service-areas/mount-charleston-nv/mold-remediation/", "/service-areas/blue-diamond-nv/burst-frozen-pipes/", "/service-areas/boulder-city-nv/burst-frozen-pipes/", "/contact/"]
+internal_links: ["/services/burst-frozen-pipes/", "/service-areas/mount-charleston-nv/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/burst-frozen-pipes/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mount Charleston", "url": "/service-areas/mount-charleston-nv/"}, {"name": "Burst & Frozen Pipes"}]
 faq: []
 area_slug: "mount-charleston-nv"

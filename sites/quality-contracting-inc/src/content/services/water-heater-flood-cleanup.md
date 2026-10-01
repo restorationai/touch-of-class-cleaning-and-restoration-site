@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "ac736628951038b9"
 generated_at: "2026-09-30T19:28:56.910312+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/water-heater-flood-cleanup/", "/service-areas/east-douglas-ma/water-heater-flood-cleanup/", "/service-areas/fiskdale-ma/water-heater-flood-cleanup/", "/service-areas/framingham-ma/water-heater-flood-cleanup/", "/service-areas/franklin-town-ma/water-heater-flood-cleanup/", "/service-areas/hopkinton-ma/water-heater-flood-cleanup/", "/service-areas/hudson-ma/water-heater-flood-cleanup/", "/service-areas/leominster-ma/water-heater-flood-cleanup/", "/service-areas/marlborough-ma/water-heater-flood-cleanup/", "/service-areas/maynard-ma/water-heater-flood-cleanup/", "/service-areas/milford-ma/water-heater-flood-cleanup/", "/service-areas/natick-ma/water-heater-flood-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/service-areas/framingham-ma/", "/service-areas/franklin-town-ma/", "/service-areas/hopkinton-ma/", "/service-areas/hudson-ma/", "/service-areas/leominster-ma/", "/service-areas/marlborough-ma/", "/service-areas/maynard-ma/", "/service-areas/milford-ma/", "/service-areas/natick-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-heater-flood-cleanup"}]
 faq: []
 service_slug: "water-heater-flood-cleanup"

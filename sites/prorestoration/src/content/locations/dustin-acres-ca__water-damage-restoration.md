@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "8d5ff05b3304eddc"
 generated_at: "2026-09-30T19:28:54.630181+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/dustin-acres-ca/", "/service-areas/dustin-acres-ca/fire-damage-restoration/", "/service-areas/dustin-acres-ca/home-remodeling/", "/service-areas/arvin-ca/water-damage-restoration/", "/service-areas/bear-valley-springs-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/dustin-acres-ca/", "/service-areas/arvin-ca/water-damage-restoration/", "/service-areas/bear-valley-springs-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dustin Acres", "url": "/service-areas/dustin-acres-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "dustin-acres-ca"

@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "09381a0f21f34170"
 generated_at: "2026-09-30T19:28:43.414735+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/long-beach-ms/", "/service-areas/long-beach-ms/fire-damage-restoration/", "/service-areas/long-beach-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-water-removal/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/long-beach-ms/", "/service-areas/long-beach-ms/fire-damage-restoration/", "/service-areas/long-beach-ms/mold-remediation/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Long Beach", "url": "/service-areas/long-beach-ms/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "long-beach-ms"

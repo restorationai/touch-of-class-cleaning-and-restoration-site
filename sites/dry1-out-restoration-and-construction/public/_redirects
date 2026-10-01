@@ -326,3 +326,6 @@
 /service-areas/sunnyvale-ca/water-cleanup/ /service-areas/sunnyvale-ca/emergency-water-removal/ 301
 /service-areas/temecula-ca/water-cleanup /service-areas/temecula-ca/emergency-water-removal/ 301
 /service-areas/temecula-ca/water-cleanup/ /service-areas/temecula-ca/emergency-water-removal/ 301
+# plumbing gate 2026-10-01: emergency plumbing held until the plumbing name/DBA is confirmed (scripts/plumbing_gate.py)
+/services/emergency-plumbing /services/water-damage-restoration/ 301
+/services/emergency-plumbing/ /services/water-damage-restoration/ 301

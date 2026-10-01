@@ -1,0 +1,13 @@
+{
+  "slug": "quality-contracting-inc",
+  "allowed": false,
+  "reason": "no plumbing name confirmed, no plumbing DBA, not a licensed plumber",
+  "evidence": {
+    "company_id": "CO-1785180744028",
+    "gbp_title": "Quality Contracting, Inc.",
+    "rename_intent": {},
+    "chosen_names": []
+  },
+  "checked_at": "2026-10-01T04:49:02+00:00",
+  "source": "supabase"
+}

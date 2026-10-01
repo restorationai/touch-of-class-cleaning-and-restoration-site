@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "bb83112a53a91ebe"
 generated_at: "2026-09-30T19:28:57.119910+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/wellesley-ma/", "/service-areas/wellesley-ma/fire-damage-restoration/", "/service-areas/wellesley-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/wellesley-ma/", "/service-areas/wellesley-ma/fire-damage-restoration/", "/service-areas/wellesley-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wellesley", "url": "/service-areas/wellesley-ma/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "wellesley-ma"

@@ -10,7 +10,7 @@ priority: 9.0
 plan_hash: "00c37fdbc8705f88"
 generated_at: "2026-09-30T19:28:43.328041+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/service-areas/benndale-ms/roofing/", "/service-areas/big-point-ms/roofing/", "/service-areas/biloxi-ms/roofing/", "/service-areas/d-iberville-ms/roofing/", "/service-areas/delisle-ms/roofing/", "/service-areas/diamondhead-ms/roofing/", "/service-areas/eastabuchie-ms/roofing/", "/service-areas/ellisville-ms/roofing/", "/service-areas/escatawpa-ms/roofing/", "/service-areas/gautier-ms/roofing/"]
+internal_links: ["/services/", "/contact/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/roofing/", "/service-areas/benndale-ms/", "/service-areas/big-point-ms/", "/service-areas/biloxi-ms/roofing/", "/service-areas/d-iberville-ms/", "/service-areas/delisle-ms/", "/service-areas/diamondhead-ms/", "/service-areas/eastabuchie-ms/", "/service-areas/ellisville-ms/", "/service-areas/escatawpa-ms/", "/service-areas/gautier-ms/roofing/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 service_slug: "roofing"

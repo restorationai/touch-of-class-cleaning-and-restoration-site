@@ -10,7 +10,7 @@ priority: 3.6
 plan_hash: "4f4ba84b3122ec1d"
 generated_at: "2026-09-30T19:28:54.514781+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/post-construction-cleaning/", "/service-areas/bear-valley-springs-ca/post-construction-cleaning/", "/service-areas/buttonwillow-ca/post-construction-cleaning/", "/service-areas/delano-ca/post-construction-cleaning/", "/service-areas/dustin-acres-ca/post-construction-cleaning/", "/service-areas/east-niles-ca/post-construction-cleaning/", "/service-areas/keene-ca/post-construction-cleaning/", "/service-areas/lake-isabella-ca/post-construction-cleaning/", "/service-areas/lamont-ca/post-construction-cleaning/", "/service-areas/maricopa-ca/post-construction-cleaning/", "/service-areas/mcfarland-ca/post-construction-cleaning/", "/service-areas/oildale-ca/post-construction-cleaning/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/", "/service-areas/bear-valley-springs-ca/", "/service-areas/buttonwillow-ca/", "/service-areas/delano-ca/", "/service-areas/dustin-acres-ca/", "/service-areas/east-niles-ca/", "/service-areas/keene-ca/", "/service-areas/lake-isabella-ca/", "/service-areas/lamont-ca/", "/service-areas/maricopa-ca/", "/service-areas/mcfarland-ca/", "/service-areas/oildale-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Post-Construction and Specialty Cleaning"}]
 faq: []
 service_slug: "post-construction-cleaning"

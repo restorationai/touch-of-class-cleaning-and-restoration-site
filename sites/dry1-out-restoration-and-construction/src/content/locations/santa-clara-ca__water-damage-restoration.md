@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "31cc1514df58093b"
 generated_at: "2026-09-30T19:28:33.821221+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/santa-clara-ca/", "/service-areas/santa-clara-ca/fire-damage-restoration/", "/service-areas/santa-clara-ca/mold-remediation/", "/service-areas/berkeley-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/santa-clara-ca/", "/service-areas/berkeley-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Clara", "url": "/service-areas/santa-clara-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "santa-clara-ca"

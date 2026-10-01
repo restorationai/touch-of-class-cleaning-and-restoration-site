@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "6d24b4e086bd16a8"
 generated_at: "2026-09-30T19:28:30.045890+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/austintown-oh/commercial-restoration/", "/service-areas/boardman-oh/commercial-restoration/", "/service-areas/campbell-oh/commercial-restoration/", "/service-areas/canfield-oh/commercial-restoration/", "/service-areas/farrell-pa/commercial-restoration/", "/service-areas/girard-oh/commercial-restoration/", "/service-areas/greenville-pa/commercial-restoration/", "/service-areas/grove-city-pa/commercial-restoration/", "/service-areas/hermitage-pa/commercial-restoration/", "/service-areas/hubbard-oh/commercial-restoration/", "/service-areas/mercer-pa/commercial-restoration/", "/service-areas/mineral-ridge-oh/commercial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/austintown-oh/", "/service-areas/boardman-oh/", "/service-areas/campbell-oh/", "/service-areas/canfield-oh/", "/service-areas/farrell-pa/", "/service-areas/girard-oh/", "/service-areas/greenville-pa/", "/service-areas/grove-city-pa/", "/service-areas/hermitage-pa/", "/service-areas/hubbard-oh/", "/service-areas/mercer-pa/", "/service-areas/mineral-ridge-oh/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "commercial-restoration"}]
 faq: []
 service_slug: "commercial-restoration"

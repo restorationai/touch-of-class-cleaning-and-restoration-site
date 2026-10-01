@@ -1,0 +1,1648 @@
+{
+ "policy": "scripts/city_page_gate.py (Santino 2026-10-01)",
+ "thresholds": {
+  "combo_min": 10,
+  "head_metro_min": 1000
+ },
+ "decisions": {
+  "archer-lodge-nc__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning archer lodge' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "archer-lodge-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup archer lodge' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "archer-lodge-nc__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning archer lodge' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "archer-lodge-nc__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation archer lodge' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "archer-lodge-nc__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal archer lodge' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "archer-lodge-nc__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration archer lodge' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "archer-lodge-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation archer lodge' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "archer-lodge-nc__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation archer lodge' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "archer-lodge-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal archer lodge' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "archer-lodge-nc__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning archer lodge' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clayton-nc__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning clayton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clayton-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup clayton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clayton-nc__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning clayton' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clayton-nc__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation clayton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clayton-nc__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal clayton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clayton-nc__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration clayton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clayton-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation clayton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clayton-nc__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation clayton' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clayton-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal clayton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clayton-nc__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning clayton' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "durham-nc__air-duct-cleaning": {
+   "pass": true,
+   "why": "local demand: 'air duct cleaning durham' 140/mo",
+   "vol": 140,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "durham-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup durham' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "durham-nc__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning durham' 110/mo",
+   "vol": 110,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "durham-nc__crawl-space-encapsulation": {
+   "pass": true,
+   "why": "local demand: 'crawl space encapsulation durham' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "durham-nc__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal durham' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "durham-nc__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration durham' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "durham-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation durham' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "durham-nc__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation durham' 320/mo",
+   "vol": 320,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "durham-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal durham' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "durham-nc__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning durham' 40/mo",
+   "vol": 40,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elm-city-nc__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning elm city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elm-city-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup elm city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elm-city-nc__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning elm city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elm-city-nc__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation elm city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elm-city-nc__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal elm city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elm-city-nc__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration elm city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elm-city-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation elm city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elm-city-nc__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation elm city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elm-city-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal elm city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elm-city-nc__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning elm city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kenly-nc__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning kenly' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kenly-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup kenly' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kenly-nc__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning kenly' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kenly-nc__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation kenly' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kenly-nc__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal kenly' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kenly-nc__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration kenly' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kenly-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation kenly' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kenly-nc__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation kenly' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kenly-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal kenly' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "kenly-nc__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning kenly' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "knightdale-nc__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning knightdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "knightdale-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup knightdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "knightdale-nc__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning knightdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "knightdale-nc__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation knightdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "knightdale-nc__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal knightdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "knightdale-nc__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration knightdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "knightdale-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation knightdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "knightdale-nc__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation knightdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "knightdale-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal knightdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "knightdale-nc__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning knightdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-royale-nc__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning lake royale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-royale-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup lake royale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-royale-nc__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning lake royale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-royale-nc__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation lake royale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-royale-nc__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: Lakefront homes face higher water damage risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-royale-nc__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration lake royale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-royale-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation lake royale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-royale-nc__mold-remediation": {
+   "pass": true,
+   "why": "local angle: Lakeside homes face elevated humidity and moisture",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-royale-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal lake royale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-royale-nc__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning lake royale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "louisburg-nc__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning louisburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "louisburg-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup louisburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "louisburg-nc__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning louisburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "louisburg-nc__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation louisburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "louisburg-nc__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal louisburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "louisburg-nc__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration louisburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "louisburg-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation louisburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "louisburg-nc__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation louisburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "louisburg-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal louisburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "louisburg-nc__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning louisburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nashville-nc__air-duct-cleaning": {
+   "pass": true,
+   "why": "local demand: 'air duct cleaning nashville' 590/mo",
+   "vol": 590,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nashville-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup nashville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nashville-nc__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning nashville' 480/mo",
+   "vol": 480,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nashville-nc__crawl-space-encapsulation": {
+   "pass": true,
+   "why": "local demand: 'crawl space encapsulation nashville' 110/mo",
+   "vol": 110,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nashville-nc__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal nashville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nashville-nc__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration nashville' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nashville-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation nashville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nashville-nc__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation nashville' 720/mo",
+   "vol": 720,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nashville-nc__odor-removal": {
+   "pass": true,
+   "why": "local demand: 'odor removal nashville' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nashville-nc__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning nashville' 90/mo",
+   "vol": 90,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pine-level-nc__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning pine level' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pine-level-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup pine level' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pine-level-nc__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning pine level' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pine-level-nc__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation pine level' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pine-level-nc__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal pine level' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pine-level-nc__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration pine level' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pine-level-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation pine level' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pine-level-nc__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation pine level' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pine-level-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal pine level' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pine-level-nc__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning pine level' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "raleigh-nc__air-duct-cleaning": {
+   "pass": true,
+   "why": "local demand: 'air duct cleaning raleigh' 480/mo",
+   "vol": 480,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "raleigh-nc__biohazard-cleanup": {
+   "pass": true,
+   "why": "local demand: 'biohazard cleanup raleigh' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "raleigh-nc__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning raleigh' 1900/mo",
+   "vol": 1900,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "raleigh-nc__crawl-space-encapsulation": {
+   "pass": true,
+   "why": "local demand: 'crawl space encapsulation raleigh' 110/mo",
+   "vol": 110,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "raleigh-nc__emergency-water-removal": {
+   "pass": true,
+   "why": "local demand: 'emergency water removal raleigh' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "raleigh-nc__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration raleigh' 90/mo",
+   "vol": 90,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "raleigh-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation raleigh' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "raleigh-nc__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation raleigh' 210/mo",
+   "vol": 210,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "raleigh-nc__odor-removal": {
+   "pass": true,
+   "why": "local demand: 'odor removal raleigh' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "raleigh-nc__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning raleigh' 170/mo",
+   "vol": 170,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rocky-mount-nc__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning rocky mount' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rocky-mount-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup rocky mount' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rocky-mount-nc__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning rocky mount' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rocky-mount-nc__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation rocky mount' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rocky-mount-nc__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: Tar River flood zone causes frequent flooding",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rocky-mount-nc__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration rocky mount' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rocky-mount-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation rocky mount' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rocky-mount-nc__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation rocky mount' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rocky-mount-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal rocky mount' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rocky-mount-nc__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning rocky mount' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rolesville-nc__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning rolesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rolesville-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup rolesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rolesville-nc__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning rolesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rolesville-nc__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation rolesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rolesville-nc__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal rolesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rolesville-nc__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration rolesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rolesville-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation rolesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rolesville-nc__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation rolesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rolesville-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal rolesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rolesville-nc__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning rolesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-nc__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-nc__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning selma' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-nc__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-nc__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-nc__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-nc__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "selma-nc__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "smithfield-nc__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning smithfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "smithfield-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup smithfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "smithfield-nc__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning smithfield' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "smithfield-nc__crawl-space-encapsulation": {
+   "pass": true,
+   "why": "local demand: 'crawl space encapsulation smithfield' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "smithfield-nc__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal smithfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "smithfield-nc__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration smithfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "smithfield-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation smithfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "smithfield-nc__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation smithfield' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "smithfield-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal smithfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "smithfield-nc__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning smithfield' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "spring-hope-nc__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning spring hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "spring-hope-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup spring hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "spring-hope-nc__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning spring hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "spring-hope-nc__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation spring hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "spring-hope-nc__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal spring hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "spring-hope-nc__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration spring hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "spring-hope-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation spring hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "spring-hope-nc__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation spring hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "spring-hope-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal spring hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "spring-hope-nc__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning spring hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wake-forest-nc__air-duct-cleaning": {
+   "pass": true,
+   "why": "local demand: 'air duct cleaning wake forest' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wake-forest-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup wake forest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wake-forest-nc__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning wake forest' 170/mo",
+   "vol": 170,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wake-forest-nc__crawl-space-encapsulation": {
+   "pass": true,
+   "why": "local demand: 'crawl space encapsulation wake forest' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wake-forest-nc__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal wake forest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wake-forest-nc__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration wake forest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wake-forest-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation wake forest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wake-forest-nc__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation wake forest' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wake-forest-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal wake forest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wake-forest-nc__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning wake forest' 30/mo",
+   "vol": 30,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wendell-nc__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning wendell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wendell-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup wendell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wendell-nc__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning wendell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wendell-nc__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation wendell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wendell-nc__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal wendell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wendell-nc__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration wendell' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wendell-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation wendell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wendell-nc__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation wendell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wendell-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal wendell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wendell-nc__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning wendell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-nc__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning wilson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup wilson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-nc__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning wilson' 40/mo",
+   "vol": 40,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-nc__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation wilson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-nc__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal wilson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-nc__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration wilson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation wilson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-nc__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation wilson' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal wilson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-nc__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning wilson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-s-mills-nc__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning wilson's mills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-s-mills-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup wilson's mills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-s-mills-nc__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning wilson's mills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-s-mills-nc__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation wilson's mills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-s-mills-nc__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal wilson's mills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-s-mills-nc__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration wilson's mills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-s-mills-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation wilson's mills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-s-mills-nc__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation wilson's mills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-s-mills-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal wilson's mills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wilson-s-mills-nc__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning wilson's mills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "youngsville-nc__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning youngsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "youngsville-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup youngsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "youngsville-nc__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning youngsville' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "youngsville-nc__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation youngsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "youngsville-nc__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal youngsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "youngsville-nc__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration youngsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "youngsville-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation youngsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "youngsville-nc__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation youngsville' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "youngsville-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal youngsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "youngsville-nc__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning youngsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zebulon-nc__air-duct-cleaning": {
+   "pass": true,
+   "why": "local demand: 'air duct cleaning zebulon' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zebulon-nc__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup zebulon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zebulon-nc__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning zebulon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zebulon-nc__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation zebulon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zebulon-nc__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal zebulon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zebulon-nc__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration zebulon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zebulon-nc__insulation-removal-installation": {
+   "pass": false,
+   "why": "no local demand ('insulation removal installation zebulon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zebulon-nc__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation zebulon' 40/mo",
+   "vol": 40,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zebulon-nc__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal zebulon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zebulon-nc__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning zebulon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  }
+ },
+ "offered": {
+  "air-duct-cleaning": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "air-duct-hvac-cleaning": [
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "biohazard-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "carpet-cleaning": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "carpet-upholstery-cleaning": [
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "crawl-space-encapsulation": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "emergency-water-removal": [
+   "default with water damage restoration (Santino 09-30)"
+  ],
+  "fire-damage-restoration": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "insulation-removal-installation": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "mold-remediation": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "odor-removal": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Odor Control & Deodorization'"
+  ],
+  "upholstery-cleaning": [
+   "explicit non-core plan-input service"
+  ],
+  "water-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ]
+ },
+ "metro": "Nashville,North Carolina,United States",
+ "heads": {
+  "air-duct-cleaning": {
+   "term": "air duct cleaning",
+   "metro": 20
+  },
+  "biohazard-cleanup": {
+   "term": "biohazard cleanup",
+   "metro": 0
+  },
+  "carpet-cleaning": {
+   "term": "carpet cleaning",
+   "metro": 20
+  },
+  "crawl-space-encapsulation": {
+   "term": "crawl space encapsulation",
+   "metro": 20
+  },
+  "fire-damage-restoration": {
+   "term": "fire damage restoration",
+   "metro": 20
+  },
+  "insulation-removal-installation": {
+   "term": "insulation removal installation",
+   "metro": 0
+  },
+  "mold-remediation": {
+   "term": "mold remediation",
+   "metro": 20
+  },
+  "odor-removal": {
+   "term": "odor removal",
+   "metro": 0
+  },
+  "upholstery-cleaning": {
+   "term": "upholstery cleaning",
+   "metro": 20
+  },
+  "emergency-water-removal": {
+   "term": "emergency water removal",
+   "metro": 0
+  }
+ },
+ "updated_at": "2026-10-01T05:04:41+00:00"
+}

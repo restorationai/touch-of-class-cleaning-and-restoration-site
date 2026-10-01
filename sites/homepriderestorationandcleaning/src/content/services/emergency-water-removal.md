@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "b11fbc93050a0337"
 generated_at: "2026-09-30T19:28:45.047488+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/emergency-water-removal/", "/service-areas/american-fork-ut/emergency-water-removal/", "/service-areas/benjamin-ut/emergency-water-removal/", "/service-areas/bluffdale-ut/emergency-water-removal/", "/service-areas/cedar-fort-ut/emergency-water-removal/", "/service-areas/cedar-hills-ut/emergency-water-removal/", "/service-areas/draper-ut/emergency-water-removal/", "/service-areas/eagle-mountain-ut/emergency-water-removal/", "/service-areas/fairfield-ut/emergency-water-removal/", "/service-areas/heber-city-ut/emergency-water-removal/", "/service-areas/herriman-ut/emergency-water-removal/", "/service-areas/highland-ut/emergency-water-removal/", "/services/water-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/", "/service-areas/american-fork-ut/emergency-water-removal/", "/service-areas/benjamin-ut/emergency-water-removal/", "/service-areas/bluffdale-ut/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-hills-ut/", "/service-areas/draper-ut/", "/service-areas/eagle-mountain-ut/", "/service-areas/fairfield-ut/", "/service-areas/heber-city-ut/", "/service-areas/herriman-ut/", "/service-areas/highland-ut/", "/services/water-damage-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "emergency-water-removal"}]
 faq: []
 service_slug: "emergency-water-removal"

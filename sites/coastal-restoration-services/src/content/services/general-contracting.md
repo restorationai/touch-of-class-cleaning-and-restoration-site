@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "4655cc09244008d8"
 generated_at: "2026-09-30T19:28:25.262500+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/general-contracting/", "/service-areas/atascadero-ca/general-contracting/", "/service-areas/avila-beach-ca/general-contracting/", "/service-areas/ballard-ca/general-contracting/", "/service-areas/blacklake-ca/general-contracting/", "/service-areas/buellton-ca/general-contracting/", "/service-areas/callender-ca/general-contracting/", "/service-areas/cambria-ca/general-contracting/", "/service-areas/edna-ca/general-contracting/", "/service-areas/el-paso-de-robles-ca/general-contracting/", "/service-areas/grover-beach-ca/general-contracting/", "/service-areas/guadalupe-ca/general-contracting/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/", "/service-areas/atascadero-ca/", "/service-areas/avila-beach-ca/", "/service-areas/ballard-ca/", "/service-areas/blacklake-ca/", "/service-areas/buellton-ca/", "/service-areas/callender-ca/", "/service-areas/cambria-ca/", "/service-areas/edna-ca/", "/service-areas/el-paso-de-robles-ca/", "/service-areas/grover-beach-ca/", "/service-areas/guadalupe-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "general-contracting"}]
 faq: []
 service_slug: "general-contracting"

@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "c09c2739ed4adb69"
 generated_at: "2026-09-30T19:28:32.829659+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/montclair-ca/", "/service-areas/montclair-ca/fire-damage-restoration/", "/service-areas/montclair-ca/mold-remediation/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/montclair-ca/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Montclair", "url": "/service-areas/montclair-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "montclair-ca"

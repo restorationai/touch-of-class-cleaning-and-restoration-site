@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "7857225ea7535088"
 generated_at: "2026-09-30T19:28:43.328592+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/agricola-ms/water-leak-detection/", "/service-areas/bay-st-louis-ms/water-leak-detection/", "/service-areas/benndale-ms/water-leak-detection/", "/service-areas/big-point-ms/water-leak-detection/", "/service-areas/biloxi-ms/water-leak-detection/", "/service-areas/d-iberville-ms/water-leak-detection/", "/service-areas/delisle-ms/water-leak-detection/", "/service-areas/diamondhead-ms/water-leak-detection/", "/service-areas/eastabuchie-ms/water-leak-detection/", "/service-areas/ellisville-ms/water-leak-detection/", "/service-areas/escatawpa-ms/water-leak-detection/", "/service-areas/gautier-ms/water-leak-detection/"]
+internal_links: ["/services/", "/contact/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/", "/service-areas/benndale-ms/", "/service-areas/big-point-ms/", "/service-areas/biloxi-ms/", "/service-areas/d-iberville-ms/", "/service-areas/delisle-ms/", "/service-areas/diamondhead-ms/", "/service-areas/eastabuchie-ms/", "/service-areas/ellisville-ms/", "/service-areas/escatawpa-ms/", "/service-areas/gautier-ms/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Water Leak Detection"}]
 faq: []
 service_slug: "water-leak-detection"

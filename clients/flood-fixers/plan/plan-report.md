@@ -1,22 +1,22 @@
 # Site Plan Report — Flood Fixers
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T19:18:42.127549+00:00
+- Generated: 2026-10-01T05:03:56.435591+00:00
 - Domain: `flood-fixers.com`
-- Services selected: 7 of 65 catalog entries
+- Services selected: 19 of 91 catalog entries
 - Service areas: 27
 - Cross-product enabled: True
-- Total URLs: **233**
-- Total internal links: 1822 (avg 7.8 per page)
+- Total URLs: **162**
+- Total internal links: 1175 (avg 7.3 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 182 |
+| `service-area-service` | 96 |
 | `service-area` | 26 |
-| `blog-post` | 9 |
-| `service-landing` | 7 |
+| `service-landing` | 19 |
+| `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -33,7 +33,19 @@
 - `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
 - `reconstruction` — Reconstruction Services (core, priority 9)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
+- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
+- `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
 
 ## Service areas
 
@@ -69,16 +81,16 @@
 
 | URL | Archetype | Priority | Primary keyword |
 | --- | --- | --- | --- |
+| `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration san diego |
+| `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation san diego |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration san diego |
+| `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration san diego |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup san diego |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration san diego |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services san diego |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup san diego |
-| `/services/basement-flooding-cleanup/` | `service-landing` | 7.2 | basement flooding cleanup san diego |
-| `/services/burst-pipe-repair/` | `service-landing` | 7.2 | burst pipe cleanup and repair san diego |
-| `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting san diego |
-| `/service-areas/bonsall-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration bonsall |
-| `/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration camp pendleton mainside |
-| `/service-areas/camp-pendleton-south-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration camp pendleton south |
+| `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization san diego |
+| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration san diego |
+| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration san diego |
 
 ## Validation
 

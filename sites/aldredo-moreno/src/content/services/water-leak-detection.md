@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "f9bd742b71780fcd"
 generated_at: "2026-09-30T19:28:20.829998+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/water-leak-detection/", "/service-areas/big-lake-tx/water-leak-detection/", "/service-areas/big-spring-tx/water-leak-detection/", "/service-areas/crane-tx/water-leak-detection/", "/service-areas/garden-city-tx/water-leak-detection/", "/service-areas/gardendale-tx/water-leak-detection/", "/service-areas/goldsmith-tx/water-leak-detection/", "/service-areas/greenwood-tx/water-leak-detection/", "/service-areas/imperial-tx/water-leak-detection/", "/service-areas/mccamey-tx/water-leak-detection/", "/service-areas/monahans-tx/water-leak-detection/", "/service-areas/odessa-tx/water-leak-detection/"]
+internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/", "/service-areas/big-lake-tx/", "/service-areas/big-spring-tx/", "/service-areas/crane-tx/", "/service-areas/garden-city-tx/", "/service-areas/gardendale-tx/", "/service-areas/goldsmith-tx/", "/service-areas/greenwood-tx/", "/service-areas/imperial-tx/", "/service-areas/mccamey-tx/", "/service-areas/monahans-tx/", "/service-areas/odessa-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-leak-detection"}]
 faq: []
 service_slug: "water-leak-detection"

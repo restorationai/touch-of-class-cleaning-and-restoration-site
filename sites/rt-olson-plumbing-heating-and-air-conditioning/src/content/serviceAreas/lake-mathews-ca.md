@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "a5b9c18d61d50d2e"
 generated_at: "2026-09-20T14:13:48.584708+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/lake-mathews-ca/ac-repair/", "/service-areas/lake-mathews-ca/drain-cleaning/", "/service-areas/lake-mathews-ca/emergency-plumbing/", "/service-areas/lake-mathews-ca/water-heater-repair/", "/service-areas/lake-mathews-ca/furnace-repair/", "/service-areas/lake-mathews-ca/water-heater-installation/", "/service-areas/lake-mathews-ca/leak-detection/", "/service-areas/lake-mathews-ca/repiping/", "/service-areas/lake-mathews-ca/toilet-faucet-repair/", "/service-areas/lake-mathews-ca/indoor-air-quality/", "/service-areas/lake-mathews-ca/water-softeners-filtration/", "/service-areas/lake-mathews-ca/garbage-disposal/", "/service-areas/anaheim-ca/", "/service-areas/bloomington-ca/", "/service-areas/canyon-lake-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/lake-mathews-ca/", "/service-areas/lake-mathews-ca/emergency-plumbing/", "/service-areas/anaheim-ca/", "/service-areas/bloomington-ca/", "/service-areas/canyon-lake-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Mathews"}]
 faq: []
 area_slug: "lake-mathews-ca"

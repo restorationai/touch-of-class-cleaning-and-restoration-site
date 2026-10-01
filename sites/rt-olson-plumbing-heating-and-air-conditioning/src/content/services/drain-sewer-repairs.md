@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "f7e7f235cd48bef9"
 generated_at: "2026-09-29T23:13:11.290257+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/drain-sewer-repairs/", "/service-areas/bloomington-ca/drain-sewer-repairs/", "/service-areas/canyon-lake-ca/drain-sewer-repairs/", "/service-areas/chino-ca/drain-sewer-repairs/", "/service-areas/chino-hills-ca/drain-sewer-repairs/", "/service-areas/claremont-ca/drain-sewer-repairs/", "/service-areas/diamond-bar-ca/drain-sewer-repairs/", "/service-areas/eastvale-ca/drain-sewer-repairs/", "/service-areas/fontana-ca/drain-sewer-repairs/", "/service-areas/french-valley-ca/drain-sewer-repairs/", "/service-areas/fullerton-ca/drain-sewer-repairs/", "/service-areas/hemet-ca/drain-sewer-repairs/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/", "/service-areas/bloomington-ca/", "/service-areas/canyon-lake-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/", "/service-areas/claremont-ca/", "/service-areas/diamond-bar-ca/", "/service-areas/eastvale-ca/", "/service-areas/fontana-ca/", "/service-areas/french-valley-ca/", "/service-areas/fullerton-ca/", "/service-areas/hemet-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Drain & Sewer Repairs"}]
 faq: []
 service_slug: "drain-sewer-repairs"

@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "71a002e5df6d2784"
 generated_at: "2026-09-20T14:13:46.904065+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/west-park-fl/", "/service-areas/west-park-fl/fire-damage-restoration/", "/service-areas/west-park-fl/mold-remediation/", "/service-areas/cooper-city-fl/water-damage-restoration/", "/service-areas/dania-beach-fl/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/west-park-fl/", "/service-areas/cooper-city-fl/water-damage-restoration/", "/service-areas/dania-beach-fl/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "West Park", "url": "/service-areas/west-park-fl/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "west-park-fl"

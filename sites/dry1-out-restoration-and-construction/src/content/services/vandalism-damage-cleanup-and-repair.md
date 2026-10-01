@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "841e7e8756deeb87"
 generated_at: "2026-09-30T19:28:33.682487+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/carlsbad-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/chula-vista-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/concord-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/el-cajon-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/encinitas-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/escondido-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/fremont-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/hayward-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/oakland-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/oceanside-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/san-diego-ca/vandalism-damage-cleanup-and-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/", "/service-areas/carlsbad-ca/", "/service-areas/chula-vista-ca/", "/service-areas/concord-ca/", "/service-areas/el-cajon-ca/", "/service-areas/encinitas-ca/", "/service-areas/escondido-ca/", "/service-areas/fremont-ca/", "/service-areas/hayward-ca/", "/service-areas/oakland-ca/", "/service-areas/oceanside-ca/", "/service-areas/san-diego-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Vandalism Damage Cleanup and Repair"}]
 faq: []
 service_slug: "vandalism-damage-cleanup-and-repair"

@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "4b8b760801e4800c"
 generated_at: "2026-09-30T19:29:00.356275+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/josephine-tx/", "/service-areas/josephine-tx/fire-damage-restoration/", "/service-areas/josephine-tx/mold-remediation/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/caddo-mills-tx/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/josephine-tx/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/caddo-mills-tx/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Josephine", "url": "/service-areas/josephine-tx/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "josephine-tx"

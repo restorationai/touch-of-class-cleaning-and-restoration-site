@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "a1fbfcef4446bfa5"
 generated_at: "2026-09-30T19:28:19.945072+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/albany-tx/reconstruction/", "/service-areas/anson-tx/reconstruction/", "/service-areas/baird-tx/reconstruction/", "/service-areas/ballinger-tx/reconstruction/", "/service-areas/bronte-tx/reconstruction/", "/service-areas/brownwood-tx/reconstruction/", "/service-areas/buffalo-gap-tx/reconstruction/", "/service-areas/clyde-tx/reconstruction/", "/service-areas/coleman-tx/reconstruction/", "/service-areas/colorado-city-tx/reconstruction/", "/service-areas/comanche-tx/reconstruction/", "/service-areas/early-tx/reconstruction/"]
+internal_links: ["/services/", "/contact/", "/service-areas/albany-tx/", "/service-areas/anson-tx/reconstruction/", "/service-areas/baird-tx/", "/service-areas/ballinger-tx/", "/service-areas/bronte-tx/", "/service-areas/brownwood-tx/", "/service-areas/buffalo-gap-tx/reconstruction/", "/service-areas/clyde-tx/reconstruction/", "/service-areas/coleman-tx/", "/service-areas/colorado-city-tx/", "/service-areas/comanche-tx/", "/service-areas/early-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "reconstruction"}]
 faq: []
 service_slug: "reconstruction"

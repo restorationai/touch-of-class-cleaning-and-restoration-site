@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "d762376594737144"
 generated_at: "2026-09-30T19:28:49.210073+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/crestview-fl/commercial-restoration/", "/service-areas/defuniak-springs-fl/commercial-restoration/", "/service-areas/destin-fl/commercial-restoration/", "/service-areas/ebro-fl/commercial-restoration/", "/service-areas/eglin-afb-fl/commercial-restoration/", "/service-areas/fort-walton-beach-fl/commercial-restoration/", "/service-areas/harold-fl/commercial-restoration/", "/service-areas/hurlburt-field-fl/commercial-restoration/", "/service-areas/laurel-hill-fl/commercial-restoration/", "/service-areas/miramar-beach-fl/commercial-restoration/", "/service-areas/navarre-fl/commercial-restoration/", "/service-areas/niceville-fl/commercial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/crestview-fl/", "/service-areas/defuniak-springs-fl/", "/service-areas/destin-fl/", "/service-areas/ebro-fl/", "/service-areas/eglin-afb-fl/", "/service-areas/fort-walton-beach-fl/", "/service-areas/harold-fl/", "/service-areas/hurlburt-field-fl/", "/service-areas/laurel-hill-fl/", "/service-areas/miramar-beach-fl/", "/service-areas/navarre-fl/", "/service-areas/niceville-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "commercial-restoration"}]
 faq: []
 service_slug: "commercial-restoration"

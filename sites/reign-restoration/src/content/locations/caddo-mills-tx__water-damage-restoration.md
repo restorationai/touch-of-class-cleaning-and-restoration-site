@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "f2c93f250e08f055"
 generated_at: "2026-09-30T19:29:00.367399+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/caddo-mills-tx/", "/service-areas/caddo-mills-tx/fire-damage-restoration/", "/service-areas/caddo-mills-tx/mold-remediation/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/dallas-tx/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/caddo-mills-tx/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/dallas-tx/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Caddo Mills", "url": "/service-areas/caddo-mills-tx/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "caddo-mills-tx"

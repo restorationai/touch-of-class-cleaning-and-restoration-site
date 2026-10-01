@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "ae8d7cf2f8090088"
 generated_at: "2026-09-30T19:28:32.761562+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/jurupa-valley-ca/", "/service-areas/jurupa-valley-ca/fire-damage-restoration/", "/service-areas/jurupa-valley-ca/mold-remediation/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/jurupa-valley-ca/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Jurupa Valley", "url": "/service-areas/jurupa-valley-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "jurupa-valley-ca"

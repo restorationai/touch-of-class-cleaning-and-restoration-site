@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "846e5618ceebd197"
 generated_at: "2026-09-30T19:28:23.367546+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/camarillo-ca/industrial-restoration/", "/service-areas/carpinteria-ca/industrial-restoration/", "/service-areas/castaic-ca/industrial-restoration/", "/service-areas/fillmore-ca/industrial-restoration/", "/service-areas/hasley-canyon-ca/industrial-restoration/", "/service-areas/lake-sherwood-ca/industrial-restoration/", "/service-areas/mira-monte-ca/industrial-restoration/", "/service-areas/moorpark-ca/industrial-restoration/", "/service-areas/oak-park-ca/industrial-restoration/", "/service-areas/oak-view-ca/industrial-restoration/", "/service-areas/ojai-ca/industrial-restoration/", "/service-areas/oxnard-ca/industrial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/camarillo-ca/", "/service-areas/carpinteria-ca/", "/service-areas/castaic-ca/", "/service-areas/fillmore-ca/", "/service-areas/hasley-canyon-ca/", "/service-areas/lake-sherwood-ca/", "/service-areas/mira-monte-ca/", "/service-areas/moorpark-ca/", "/service-areas/oak-park-ca/", "/service-areas/oak-view-ca/", "/service-areas/ojai-ca/", "/service-areas/oxnard-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "industrial-restoration"}]
 faq: []
 service_slug: "industrial-restoration"

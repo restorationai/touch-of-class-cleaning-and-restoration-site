@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "270639392abaa48f"
 generated_at: "2026-09-30T19:28:52.906452+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/commercial-restoration/", "/service-areas/auburn-wa/commercial-restoration/", "/service-areas/bellevue-wa/commercial-restoration/", "/service-areas/bremerton-wa/commercial-restoration/", "/service-areas/burien-wa/commercial-restoration/", "/service-areas/des-moines-wa/commercial-restoration/", "/service-areas/edgewood-wa/commercial-restoration/", "/service-areas/everett-wa/commercial-restoration/", "/service-areas/fife-wa/commercial-restoration/", "/service-areas/gig-harbor-wa/commercial-restoration/", "/service-areas/kent-wa/commercial-restoration/", "/service-areas/kirkland-wa/commercial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/", "/service-areas/auburn-wa/", "/service-areas/bellevue-wa/", "/service-areas/bremerton-wa/", "/service-areas/burien-wa/", "/service-areas/des-moines-wa/", "/service-areas/edgewood-wa/", "/service-areas/everett-wa/", "/service-areas/fife-wa/", "/service-areas/gig-harbor-wa/", "/service-areas/kent-wa/", "/service-areas/kirkland-wa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Commercial Restoration"}]
 faq: []
 service_slug: "commercial-restoration"

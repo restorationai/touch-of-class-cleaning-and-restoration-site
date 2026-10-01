@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "1bb19566d89d10fa"
 generated_at: "2026-09-30T19:28:39.580897+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/emergency-water-removal/", "/service-areas/clayton-nc/emergency-water-removal/", "/service-areas/durham-nc/emergency-water-removal/", "/service-areas/elm-city-nc/emergency-water-removal/", "/service-areas/kenly-nc/emergency-water-removal/", "/service-areas/knightdale-nc/emergency-water-removal/", "/service-areas/lake-royale-nc/emergency-water-removal/", "/service-areas/louisburg-nc/emergency-water-removal/", "/service-areas/nashville-nc/emergency-water-removal/", "/service-areas/pine-level-nc/emergency-water-removal/", "/service-areas/raleigh-nc/emergency-water-removal/", "/service-areas/rocky-mount-nc/emergency-water-removal/", "/services/water-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/", "/service-areas/elm-city-nc/", "/service-areas/kenly-nc/", "/service-areas/knightdale-nc/", "/service-areas/lake-royale-nc/emergency-water-removal/", "/service-areas/louisburg-nc/", "/service-areas/nashville-nc/", "/service-areas/pine-level-nc/", "/service-areas/raleigh-nc/emergency-water-removal/", "/service-areas/rocky-mount-nc/emergency-water-removal/", "/services/water-damage-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "emergency-water-removal"}]
 faq: []
 service_slug: "emergency-water-removal"

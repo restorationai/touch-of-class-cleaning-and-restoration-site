@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "82cc0c2a4cc78819"
 generated_at: "2026-09-20T14:13:25.012305+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/james-island-sc/", "/service-areas/james-island-sc/fire-damage-restoration/", "/service-areas/james-island-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/goose-creek-sc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/james-island-sc/", "/service-areas/james-island-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/goose-creek-sc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "James Island", "url": "/service-areas/james-island-sc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "james-island-sc"

@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "d89ce7f5338725d7"
 generated_at: "2026-09-30T19:28:38.023332+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/steilacoom-wa/", "/service-areas/steilacoom-wa/fire-damage-restoration/", "/service-areas/steilacoom-wa/mold-remediation/", "/service-areas/anderson-island-wa/water-damage-restoration/", "/service-areas/auburn-wa/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/steilacoom-wa/", "/service-areas/anderson-island-wa/water-damage-restoration/", "/service-areas/auburn-wa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Steilacoom", "url": "/service-areas/steilacoom-wa/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "steilacoom-wa"

@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "252eb334fa4297fc"
 generated_at: "2026-09-30T19:28:58.484460+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/ceiling-water-damage-repair/", "/service-areas/boulder-city-nv/ceiling-water-damage-repair/", "/service-areas/enterprise-nv/ceiling-water-damage-repair/", "/service-areas/henderson-nv/ceiling-water-damage-repair/", "/service-areas/indian-springs-nv/ceiling-water-damage-repair/", "/service-areas/las-vegas-nv/ceiling-water-damage-repair/", "/service-areas/moapa-town-nv/ceiling-water-damage-repair/", "/service-areas/moapa-valley-nv/ceiling-water-damage-repair/", "/service-areas/mount-charleston-nv/ceiling-water-damage-repair/", "/service-areas/nelson-nv/ceiling-water-damage-repair/", "/service-areas/pahrump-nv/ceiling-water-damage-repair/", "/service-areas/paradise-nv/ceiling-water-damage-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/enterprise-nv/", "/service-areas/henderson-nv/", "/service-areas/indian-springs-nv/", "/service-areas/las-vegas-nv/", "/service-areas/moapa-town-nv/", "/service-areas/moapa-valley-nv/", "/service-areas/mount-charleston-nv/", "/service-areas/nelson-nv/", "/service-areas/pahrump-nv/", "/service-areas/paradise-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "ceiling-water-damage-repair"}]
 faq: []
 service_slug: "ceiling-water-damage-repair"

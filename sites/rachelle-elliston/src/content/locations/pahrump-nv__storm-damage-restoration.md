@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "d42b78f3ceff33c9"
 generated_at: "2026-09-30T19:28:58.614776+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/pahrump-nv/", "/service-areas/pahrump-nv/fire-damage-restoration/", "/service-areas/pahrump-nv/mold-remediation/", "/service-areas/blue-diamond-nv/storm-damage-restoration/", "/service-areas/boulder-city-nv/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/pahrump-nv/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pahrump", "url": "/service-areas/pahrump-nv/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "pahrump-nv"

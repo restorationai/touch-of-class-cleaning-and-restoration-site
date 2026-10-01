@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "e108258f6753b8f1"
 generated_at: "2026-09-30T19:28:32.682269+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/reconstruction/", "/service-areas/chino-ca/reconstruction/", "/service-areas/chino-hills-ca/reconstruction/", "/service-areas/eastvale-ca/reconstruction/", "/service-areas/fontana-ca/reconstruction/", "/service-areas/fullerton-ca/reconstruction/", "/service-areas/jurupa-valley-ca/reconstruction/", "/service-areas/lake-mathews-ca/reconstruction/", "/service-areas/montclair-ca/reconstruction/", "/service-areas/norco-ca/reconstruction/", "/service-areas/north-tustin-ca/reconstruction/", "/service-areas/ontario-ca/reconstruction/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/", "/service-areas/eastvale-ca/", "/service-areas/fontana-ca/", "/service-areas/fullerton-ca/", "/service-areas/jurupa-valley-ca/", "/service-areas/lake-mathews-ca/", "/service-areas/montclair-ca/", "/service-areas/norco-ca/", "/service-areas/north-tustin-ca/", "/service-areas/ontario-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Reconstruction Services"}]
 faq: []
 service_slug: "reconstruction"

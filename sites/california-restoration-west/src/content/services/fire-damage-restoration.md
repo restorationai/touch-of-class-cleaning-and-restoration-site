@@ -10,7 +10,7 @@ priority: 9.0
 plan_hash: "efc2766894ffe46e"
 generated_at: "2026-09-30T19:28:23.367306+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/camarillo-ca/fire-damage-restoration/", "/service-areas/carpinteria-ca/fire-damage-restoration/", "/service-areas/castaic-ca/fire-damage-restoration/", "/service-areas/fillmore-ca/fire-damage-restoration/", "/service-areas/hasley-canyon-ca/fire-damage-restoration/", "/service-areas/lake-sherwood-ca/fire-damage-restoration/", "/service-areas/mira-monte-ca/fire-damage-restoration/", "/service-areas/moorpark-ca/fire-damage-restoration/", "/service-areas/oak-park-ca/fire-damage-restoration/", "/service-areas/oak-view-ca/fire-damage-restoration/", "/service-areas/ojai-ca/fire-damage-restoration/", "/service-areas/oxnard-ca/fire-damage-restoration/", "/blog/choosing-a-restoration-company/", "/blog/fire-damage-restoration-process/"]
+internal_links: ["/services/", "/contact/", "/service-areas/camarillo-ca/", "/service-areas/carpinteria-ca/", "/service-areas/castaic-ca/", "/service-areas/fillmore-ca/", "/service-areas/hasley-canyon-ca/", "/service-areas/lake-sherwood-ca/", "/service-areas/mira-monte-ca/", "/service-areas/moorpark-ca/", "/service-areas/oak-park-ca/", "/service-areas/oak-view-ca/", "/service-areas/ojai-ca/", "/service-areas/oxnard-ca/", "/blog/choosing-a-restoration-company/", "/blog/fire-damage-restoration-process/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "fire-damage-restoration"}]
 faq: []
 service_slug: "fire-damage-restoration"

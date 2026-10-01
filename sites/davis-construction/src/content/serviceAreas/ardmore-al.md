@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "eee509f57c7c8897"
 generated_at: "2026-09-30T14:12:04.047712+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/ardmore-al/home-remodeling/", "/service-areas/ardmore-al/roofing/", "/service-areas/ardmore-al/decks-pergolas-fences/", "/service-areas/ardmore-al/new-construction/", "/service-areas/ardmore-al/siding-gutters/", "/service-areas/ardmore-al/fire-smoke-rebuilding/", "/service-areas/ardmore-al/mold-remediation/", "/service-areas/ardmore-al/painting-trim/", "/service-areas/ardmore-al/storm-damage-restoration/", "/service-areas/ardmore-al/water-damage-restoration/", "/service-areas/ardmore-al/windows-doors/", "/service-areas/ardmore-al/basement-sewage-cleanup/", "/service-areas/ardmore-al/carpet-upholstery-cleaning/", "/service-areas/ardmore-al/post-construction-specialty-cleaning/", "/service-areas/arab-al/", "/service-areas/athens-al/", "/service-areas/decatur-al/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/ardmore-al/home-remodeling/", "/service-areas/ardmore-al/roofing/", "/service-areas/ardmore-al/", "/service-areas/ardmore-al/mold-remediation/", "/service-areas/ardmore-al/water-damage-restoration/", "/service-areas/arab-al/", "/service-areas/athens-al/", "/service-areas/decatur-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ardmore"}]
 faq: []
 area_slug: "ardmore-al"

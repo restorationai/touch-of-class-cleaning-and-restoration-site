@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "a26de9f8cd0105ab"
 generated_at: "2026-09-30T19:28:58.481504+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/burst-pipe-repair/", "/service-areas/boulder-city-nv/burst-pipe-repair/", "/service-areas/enterprise-nv/burst-pipe-repair/", "/service-areas/henderson-nv/burst-pipe-repair/", "/service-areas/indian-springs-nv/burst-pipe-repair/", "/service-areas/las-vegas-nv/burst-pipe-repair/", "/service-areas/moapa-town-nv/burst-pipe-repair/", "/service-areas/moapa-valley-nv/burst-pipe-repair/", "/service-areas/mount-charleston-nv/burst-pipe-repair/", "/service-areas/nelson-nv/burst-pipe-repair/", "/service-areas/pahrump-nv/burst-pipe-repair/", "/service-areas/paradise-nv/burst-pipe-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/enterprise-nv/", "/service-areas/henderson-nv/", "/service-areas/indian-springs-nv/", "/service-areas/las-vegas-nv/", "/service-areas/moapa-town-nv/", "/service-areas/moapa-valley-nv/", "/service-areas/mount-charleston-nv/", "/service-areas/nelson-nv/", "/service-areas/pahrump-nv/", "/service-areas/paradise-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "burst-pipe-repair"}]
 faq: []
 service_slug: "burst-pipe-repair"

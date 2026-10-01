@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "b52ddabf36b00953"
 generated_at: "2026-09-30T19:28:45.045326+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/emergency-board-up-tarping/", "/service-areas/american-fork-ut/emergency-board-up-tarping/", "/service-areas/benjamin-ut/emergency-board-up-tarping/", "/service-areas/bluffdale-ut/emergency-board-up-tarping/", "/service-areas/cedar-fort-ut/emergency-board-up-tarping/", "/service-areas/cedar-hills-ut/emergency-board-up-tarping/", "/service-areas/draper-ut/emergency-board-up-tarping/", "/service-areas/eagle-mountain-ut/emergency-board-up-tarping/", "/service-areas/fairfield-ut/emergency-board-up-tarping/", "/service-areas/heber-city-ut/emergency-board-up-tarping/", "/service-areas/herriman-ut/emergency-board-up-tarping/", "/service-areas/highland-ut/emergency-board-up-tarping/"]
+internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/", "/service-areas/american-fork-ut/", "/service-areas/benjamin-ut/", "/service-areas/bluffdale-ut/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-hills-ut/", "/service-areas/draper-ut/", "/service-areas/eagle-mountain-ut/", "/service-areas/fairfield-ut/", "/service-areas/heber-city-ut/", "/service-areas/herriman-ut/", "/service-areas/highland-ut/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Emergency Board-Up and Tarping"}]
 faq: []
 service_slug: "emergency-board-up-tarping"

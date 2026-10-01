@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "05b1198e5081efd9"
 generated_at: "2026-09-30T19:28:21.541827+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/burst-pipe-repair/", "/service-areas/bluffdale-ut/burst-pipe-repair/", "/service-areas/cedar-fort-ut/burst-pipe-repair/", "/service-areas/cedar-hills-ut/burst-pipe-repair/", "/service-areas/cottonwood-heights-ut/burst-pipe-repair/", "/service-areas/draper-ut/burst-pipe-repair/", "/service-areas/eagle-mountain-ut/burst-pipe-repair/", "/service-areas/herriman-ut/burst-pipe-repair/", "/service-areas/highland-ut/burst-pipe-repair/", "/service-areas/lehi-ut/burst-pipe-repair/", "/service-areas/lindon-ut/burst-pipe-repair/", "/service-areas/orem-ut/burst-pipe-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/", "/service-areas/bluffdale-ut/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-hills-ut/", "/service-areas/cottonwood-heights-ut/", "/service-areas/draper-ut/", "/service-areas/eagle-mountain-ut/", "/service-areas/herriman-ut/", "/service-areas/highland-ut/", "/service-areas/lehi-ut/", "/service-areas/lindon-ut/", "/service-areas/orem-ut/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "burst-pipe-repair"}]
 faq: []
 service_slug: "burst-pipe-repair"

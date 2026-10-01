@@ -1,20 +1,20 @@
 # Site Plan Report — Dry County Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T21:36:57.720051+00:00
+- Generated: 2026-10-01T05:03:47.905731+00:00
 - Domain: `drycountyrestoration.com`
-- Services selected: 29 of 91 catalog entries
+- Services selected: 28 of 91 catalog entries
 - Service areas: 22
 - Cross-product enabled: True
-- Total URLs: **676**
-- Total internal links: 5558 (avg 8.2 per page)
+- Total URLs: **188**
+- Total internal links: 1388 (avg 7.4 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 609 |
-| `service-landing` | 29 |
+| `service-area-service` | 122 |
+| `service-landing` | 28 |
 | `service-area` | 21 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -36,7 +36,6 @@
 - `commercial-restoration` — Commercial Restoration (core, priority 9)
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
-- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
@@ -91,11 +90,11 @@
 | `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement corona |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration corona |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration corona |
-| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing corona |
 | `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup corona |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration corona |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services corona |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization corona |
+| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration corona |
 
 ## Validation
 

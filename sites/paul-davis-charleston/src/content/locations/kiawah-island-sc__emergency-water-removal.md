@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "0be3984eeefe6e8c"
 generated_at: "2026-09-21T14:13:36.633891+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/kiawah-island-sc/", "/service-areas/kiawah-island-sc/fire-damage-restoration/", "/service-areas/kiawah-island-sc/mold-remediation/", "/service-areas/awendaw-sc/emergency-water-removal/", "/service-areas/folly-beach-sc/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/kiawah-island-sc/", "/service-areas/kiawah-island-sc/mold-remediation/", "/service-areas/awendaw-sc/emergency-water-removal/", "/service-areas/folly-beach-sc/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kiawah Island", "url": "/service-areas/kiawah-island-sc/"}, {"name": "Emergency Water Removal & Cleanup"}]
 faq: []
 area_slug: "kiawah-island-sc"

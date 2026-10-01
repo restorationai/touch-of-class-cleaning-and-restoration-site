@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "3945be880216b969"
 generated_at: "2026-09-30T19:28:50.940497+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/water-heater-flood-cleanup/", "/service-areas/boulder-city-nv/water-heater-flood-cleanup/", "/service-areas/cal-nev-ari-nv/water-heater-flood-cleanup/", "/service-areas/enterprise-nv/water-heater-flood-cleanup/", "/service-areas/goodsprings-nv/water-heater-flood-cleanup/", "/service-areas/indian-springs-nv/water-heater-flood-cleanup/", "/service-areas/las-vegas-nv/water-heater-flood-cleanup/", "/service-areas/laughlin-nv/water-heater-flood-cleanup/", "/service-areas/nellis-afb-nv/water-heater-flood-cleanup/", "/service-areas/nelson-nv/water-heater-flood-cleanup/", "/service-areas/north-las-vegas-nv/water-heater-flood-cleanup/", "/service-areas/paradise-nv/water-heater-flood-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/", "/service-areas/enterprise-nv/", "/service-areas/goodsprings-nv/", "/service-areas/indian-springs-nv/", "/service-areas/las-vegas-nv/", "/service-areas/laughlin-nv/", "/service-areas/nellis-afb-nv/", "/service-areas/nelson-nv/", "/service-areas/north-las-vegas-nv/", "/service-areas/paradise-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-heater-flood-cleanup"}]
 faq: []
 service_slug: "water-heater-flood-cleanup"

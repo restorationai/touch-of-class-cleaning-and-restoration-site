@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "cd3c0b40ee00bbf2"
 generated_at: "2026-09-30T19:28:53.170541+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/north-puyallup-wa/", "/service-areas/north-puyallup-wa/fire-damage-restoration/", "/service-areas/north-puyallup-wa/mold-remediation/", "/service-areas/algona-wa/water-damage-restoration/", "/service-areas/auburn-wa/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/north-puyallup-wa/", "/service-areas/algona-wa/water-damage-restoration/", "/service-areas/auburn-wa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Puyallup", "url": "/service-areas/north-puyallup-wa/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "north-puyallup-wa"

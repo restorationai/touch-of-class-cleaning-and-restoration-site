@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "4916ee285df725c5"
 generated_at: "2026-09-30T19:28:57.252113+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/carpet-cleaning/", "/service-areas/fiskdale-ma/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellingham", "url": "/service-areas/bellingham-ma/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "bellingham-ma"

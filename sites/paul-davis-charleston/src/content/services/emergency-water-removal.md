@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "359489adbed12b87"
 generated_at: "2026-09-20T14:13:25.008382+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/awendaw-sc/emergency-water-removal/", "/service-areas/goose-creek-sc/emergency-water-removal/", "/service-areas/hanahan-sc/emergency-water-removal/", "/service-areas/isle-of-palms-sc/emergency-water-removal/", "/service-areas/james-island-sc/emergency-water-removal/", "/service-areas/ladson-sc/emergency-water-removal/", "/service-areas/mount-pleasant-sc/emergency-water-removal/", "/service-areas/north-charleston-sc/emergency-water-removal/", "/service-areas/sullivan-s-island-sc/emergency-water-removal/", "/service-areas/summerville-sc/emergency-water-removal/", "/services/water-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/awendaw-sc/emergency-water-removal/", "/service-areas/goose-creek-sc/", "/service-areas/hanahan-sc/", "/service-areas/isle-of-palms-sc/emergency-water-removal/", "/service-areas/james-island-sc/emergency-water-removal/", "/service-areas/ladson-sc/", "/service-areas/mount-pleasant-sc/", "/service-areas/north-charleston-sc/", "/service-areas/sullivan-s-island-sc/emergency-water-removal/", "/service-areas/summerville-sc/", "/services/water-damage-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Emergency Water Removal & Cleanup"}]
 faq: []
 service_slug: "emergency-water-removal"

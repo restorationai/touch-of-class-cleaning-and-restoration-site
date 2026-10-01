@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "0104bbdf194af57a"
 generated_at: "2026-09-20T14:13:25.013019+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/hanahan-sc/", "/service-areas/hanahan-sc/fire-damage-restoration/", "/service-areas/hanahan-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/goose-creek-sc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/hanahan-sc/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/goose-creek-sc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hanahan", "url": "/service-areas/hanahan-sc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "hanahan-sc"

@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "241a4d3e11f89adb"
 generated_at: "2026-09-30T19:28:33.809387+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/sunnyvale-ca/", "/service-areas/sunnyvale-ca/fire-damage-restoration/", "/service-areas/sunnyvale-ca/mold-remediation/", "/service-areas/berkeley-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/sunnyvale-ca/", "/service-areas/berkeley-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sunnyvale", "url": "/service-areas/sunnyvale-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "sunnyvale-ca"

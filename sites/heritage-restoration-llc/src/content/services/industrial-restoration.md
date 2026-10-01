@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "2c5c9b02a548eb7b"
 generated_at: "2026-09-30T19:28:41.595437+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/industrial-restoration/", "/service-areas/avon-mn/industrial-restoration/", "/service-areas/baxter-mn/industrial-restoration/", "/service-areas/brainerd-mn/industrial-restoration/", "/service-areas/elmdale-mn/industrial-restoration/", "/service-areas/flensburg-mn/industrial-restoration/", "/service-areas/foley-mn/industrial-restoration/", "/service-areas/fort-ripley-mn/industrial-restoration/", "/service-areas/harding-mn/industrial-restoration/", "/service-areas/long-prairie-mn/industrial-restoration/", "/service-areas/pierz-mn/industrial-restoration/", "/service-areas/randall-mn/industrial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/", "/service-areas/avon-mn/", "/service-areas/baxter-mn/", "/service-areas/brainerd-mn/", "/service-areas/elmdale-mn/", "/service-areas/flensburg-mn/", "/service-areas/foley-mn/", "/service-areas/fort-ripley-mn/", "/service-areas/harding-mn/", "/service-areas/long-prairie-mn/", "/service-areas/pierz-mn/", "/service-areas/randall-mn/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Industrial Restoration"}]
 faq: []
 service_slug: "industrial-restoration"

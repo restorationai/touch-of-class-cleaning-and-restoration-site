@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "6d338d5344688af8"
 generated_at: "2026-09-24T17:27:58.249879+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/lyons-il/", "/service-areas/lyons-il/fire-damage-restoration/", "/service-areas/lyons-il/mold-remediation/", "/service-areas/bedford-park-il/water-damage-restoration/", "/service-areas/berwyn-il/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/lyons-il/", "/service-areas/bedford-park-il/water-damage-restoration/", "/service-areas/berwyn-il/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lyons", "url": "/service-areas/lyons-il/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "lyons-il"

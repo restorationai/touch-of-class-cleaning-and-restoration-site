@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "1e3e868dceecc8c9"
 generated_at: "2026-09-23T14:11:40.869184+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/aliquippa-pa/contents-restoration-storage/", "/service-areas/allison-park-pa/contents-restoration-storage/", "/service-areas/baden-pa/contents-restoration-storage/", "/service-areas/beaver-falls-pa/contents-restoration-storage/", "/service-areas/bell-acres-pa/contents-restoration-storage/", "/service-areas/big-beaver-pa/contents-restoration-storage/", "/service-areas/butler-pa/contents-restoration-storage/", "/service-areas/economy-pa/contents-restoration-storage/", "/service-areas/ellwood-city-pa/contents-restoration-storage/", "/service-areas/evans-city-pa/contents-restoration-storage/", "/service-areas/franklin-park-pa/contents-restoration-storage/", "/service-areas/gibsonia-pa/contents-restoration-storage/"]
+internal_links: ["/services/", "/contact/", "/service-areas/aliquippa-pa/", "/service-areas/allison-park-pa/", "/service-areas/baden-pa/", "/service-areas/beaver-falls-pa/", "/service-areas/bell-acres-pa/", "/service-areas/big-beaver-pa/", "/service-areas/butler-pa/", "/service-areas/economy-pa/", "/service-areas/ellwood-city-pa/", "/service-areas/evans-city-pa/", "/service-areas/franklin-park-pa/", "/service-areas/gibsonia-pa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Contents Restoration & Storage"}]
 faq: []
 service_slug: "contents-restoration-storage"

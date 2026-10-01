@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "d8b1dbcf7bbae23f"
 generated_at: "2026-09-30T19:29:02.491643+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/new-providence-nj/", "/service-areas/new-providence-nj/fire-damage-restoration/", "/service-areas/new-providence-nj/mold-remediation/", "/service-areas/avenel-nj/water-damage-restoration/", "/service-areas/bayonne-nj/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/new-providence-nj/", "/service-areas/avenel-nj/water-damage-restoration/", "/service-areas/bayonne-nj/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Providence", "url": "/service-areas/new-providence-nj/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "new-providence-nj"

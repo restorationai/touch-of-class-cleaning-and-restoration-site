@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "3daa13943d3e8c45"
 generated_at: "2026-09-30T19:28:39.710487+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/knightdale-nc/", "/service-areas/knightdale-nc/fire-damage-restoration/", "/service-areas/knightdale-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-damage-restoration/", "/service-areas/clayton-nc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/knightdale-nc/", "/service-areas/archer-lodge-nc/water-damage-restoration/", "/service-areas/clayton-nc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Knightdale", "url": "/service-areas/knightdale-nc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "knightdale-nc"

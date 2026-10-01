@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "d87e856536301acb"
 generated_at: "2026-09-30T19:28:23.367601+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/camarillo-ca/reconstruction/", "/service-areas/carpinteria-ca/reconstruction/", "/service-areas/castaic-ca/reconstruction/", "/service-areas/fillmore-ca/reconstruction/", "/service-areas/hasley-canyon-ca/reconstruction/", "/service-areas/lake-sherwood-ca/reconstruction/", "/service-areas/mira-monte-ca/reconstruction/", "/service-areas/moorpark-ca/reconstruction/", "/service-areas/oak-park-ca/reconstruction/", "/service-areas/oak-view-ca/reconstruction/", "/service-areas/ojai-ca/reconstruction/", "/service-areas/oxnard-ca/reconstruction/"]
+internal_links: ["/services/", "/contact/", "/service-areas/camarillo-ca/", "/service-areas/carpinteria-ca/", "/service-areas/castaic-ca/", "/service-areas/fillmore-ca/", "/service-areas/hasley-canyon-ca/", "/service-areas/lake-sherwood-ca/", "/service-areas/mira-monte-ca/", "/service-areas/moorpark-ca/", "/service-areas/oak-park-ca/", "/service-areas/oak-view-ca/", "/service-areas/ojai-ca/", "/service-areas/oxnard-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "reconstruction"}]
 faq: []
 service_slug: "reconstruction"

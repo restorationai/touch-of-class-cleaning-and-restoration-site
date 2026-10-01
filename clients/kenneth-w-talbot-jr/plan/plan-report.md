@@ -1,21 +1,21 @@
 # Site Plan Report — Veterans Remediation & Restoration 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:28:48.454334+00:00
+- Generated: 2026-10-01T05:04:56.127279+00:00
 - Domain: `veteransremediation.com`
-- Services selected: 20 of 91 catalog entries
+- Services selected: 16 of 91 catalog entries
 - Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **457**
-- Total internal links: 3735 (avg 8.2 per page)
+- Total URLs: **153**
+- Total internal links: 1137 (avg 7.4 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 400 |
-| `service-landing` | 20 |
+| `service-area-service` | 100 |
 | `service-area` | 20 |
+| `service-landing` | 16 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -37,16 +37,12 @@
 - `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
-- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
 - `commercial-restoration` — Commercial Restoration (core, priority 9)
 - `industrial-restoration` — Industrial Restoration (core, priority 7)
-- `reconstruction` — Reconstruction Services (core, priority 9)
-- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
 - `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
 
@@ -80,12 +76,12 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation freeport |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration freeport |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration freeport |
-| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing freeport |
 | `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup freeport |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration freeport |
-| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services freeport |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization freeport |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration freeport |
+| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration freeport |
+| `/services/basement-flooding-cleanup/` | `service-landing` | 7.2 | basement flooding cleanup freeport |
 
 ## Validation
 

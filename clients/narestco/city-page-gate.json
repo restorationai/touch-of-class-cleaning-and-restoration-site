@@ -1,0 +1,155 @@
+{
+ "policy": "scripts/city_page_gate.py (Santino 2026-10-01)",
+ "thresholds": {
+  "combo_min": 10,
+  "head_metro_min": 1000
+ },
+ "decisions": {},
+ "offered": {
+  "air-duct-cleaning": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "air-duct-hvac-cleaning": [
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "appliance-leak-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "GBP service in the client's words: 'Appliance Leak Cleanup (Washer/Dishwasher/Water Heater)'"
+  ],
+  "asbestos-abatement": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "basement-flooding-cleanup": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "biohazard-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Biohazard and Trauma Cleanup'"
+  ],
+  "burst-pipe-repair": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "contents-restoration-storage": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "crawl-space-encapsulation": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "crime-scene-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "emergency-board-up-tarping": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "emergency-water-removal": [
+   "default with water damage restoration (Santino 09-30)"
+  ],
+  "fire-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "flood-damage-restoration": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "frozen-pipe-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "general-contracting": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "hoarding-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "mold-inspection-testing": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "mold-remediation": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Mold Removal & Cleanup'",
+   "GBP service in the client's words: 'Black Mold Remediation'"
+  ],
+  "odor-removal": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Odor Removal & Air Scrubbing (HEPA Filtration)'"
+  ],
+  "post-construction-cleaning": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "reconstruction": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "roof-leak-repair": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "roofing": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "sewage-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Sewage Cleanup & Remediation'"
+  ],
+  "smoke-damage-restoration": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "soot-removal": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "storm-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "trauma-scene-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "unattended-death-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "vandalism-cleanup": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "water-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "water-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Crawl Space Water Removal'"
+  ],
+  "water-leak-detection": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Leak Detection'"
+  ]
+ }
+}

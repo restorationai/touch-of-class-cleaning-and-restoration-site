@@ -10,7 +10,7 @@ priority: 4.9
 plan_hash: "5435a71889b614ac"
 generated_at: "2026-09-30T19:28:50.948430+00:00"
 manual_override: false
-internal_links: ["/services/odor-removal/", "/service-areas/paradise-nv/", "/service-areas/paradise-nv/fire-damage-restoration/", "/service-areas/paradise-nv/mold-remediation/", "/service-areas/blue-diamond-nv/odor-removal/", "/service-areas/boulder-city-nv/odor-removal/", "/contact/"]
+internal_links: ["/services/odor-removal/", "/service-areas/paradise-nv/", "/service-areas/paradise-nv/fire-damage-restoration/", "/service-areas/paradise-nv/mold-remediation/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Paradise", "url": "/service-areas/paradise-nv/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 area_slug: "paradise-nv"

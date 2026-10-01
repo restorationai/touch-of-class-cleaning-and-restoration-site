@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "995242cd6243ece6"
 generated_at: "2026-09-21T14:13:40.201332+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/pahrump-nv/", "/service-areas/pahrump-nv/fire-damage-restoration/", "/service-areas/pahrump-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/pahrump-nv/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pahrump", "url": "/service-areas/pahrump-nv/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "pahrump-nv"

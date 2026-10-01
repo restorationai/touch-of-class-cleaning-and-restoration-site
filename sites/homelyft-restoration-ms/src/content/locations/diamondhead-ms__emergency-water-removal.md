@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "6c4a43d945dd2b97"
 generated_at: "2026-09-30T19:28:43.398053+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/diamondhead-ms/", "/service-areas/diamondhead-ms/fire-damage-restoration/", "/service-areas/diamondhead-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-water-removal/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/diamondhead-ms/", "/service-areas/diamondhead-ms/fire-damage-restoration/", "/service-areas/diamondhead-ms/mold-remediation/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Diamondhead", "url": "/service-areas/diamondhead-ms/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "diamondhead-ms"

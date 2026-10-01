@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "02df567a75ab5add"
 generated_at: "2026-09-30T19:29:00.299771+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/smoke-damage-restoration/", "/service-areas/caddo-mills-tx/smoke-damage-restoration/", "/service-areas/dallas-tx/smoke-damage-restoration/", "/service-areas/farmersville-tx/smoke-damage-restoration/", "/service-areas/fate-tx/smoke-damage-restoration/", "/service-areas/frisco-tx/smoke-damage-restoration/", "/service-areas/garland-tx/smoke-damage-restoration/", "/service-areas/greenville-tx/smoke-damage-restoration/", "/service-areas/heath-tx/smoke-damage-restoration/", "/service-areas/highland-park-tx/smoke-damage-restoration/", "/service-areas/josephine-tx/smoke-damage-restoration/", "/service-areas/lavon-tx/smoke-damage-restoration/", "/blog/fire-damage-restoration-process/"]
+internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/", "/service-areas/farmersville-tx/", "/service-areas/fate-tx/", "/service-areas/frisco-tx/", "/service-areas/garland-tx/", "/service-areas/greenville-tx/", "/service-areas/heath-tx/", "/service-areas/highland-park-tx/", "/service-areas/josephine-tx/", "/service-areas/lavon-tx/", "/blog/fire-damage-restoration-process/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "smoke-damage-restoration"}]
 faq: []
 service_slug: "smoke-damage-restoration"

@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "e99826b2a29a08c8"
 generated_at: "2026-09-24T17:27:58.230790+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/riverside-il/fire-damage-restoration/", "/service-areas/riverside-il/mold-remediation/", "/service-areas/riverside-il/water-damage-restoration/", "/service-areas/riverside-il/flood-damage-restoration/", "/service-areas/riverside-il/sewage-cleanup/", "/service-areas/riverside-il/smoke-damage-restoration/", "/service-areas/riverside-il/storm-damage-restoration/", "/service-areas/riverside-il/emergency-water-removal/", "/service-areas/riverside-il/basement-flooding-cleanup/", "/service-areas/riverside-il/burst-pipe-repair/", "/service-areas/riverside-il/emergency-board-up-tarping/", "/service-areas/riverside-il/odor-removal/", "/service-areas/riverside-il/contents-restoration/", "/service-areas/bedford-park-il/", "/service-areas/berwyn-il/", "/service-areas/brookfield-il/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/riverside-il/fire-damage-restoration/", "/service-areas/riverside-il/mold-remediation/", "/service-areas/riverside-il/water-damage-restoration/", "/service-areas/riverside-il/flood-damage-restoration/", "/service-areas/riverside-il/", "/service-areas/riverside-il/smoke-damage-restoration/", "/service-areas/riverside-il/storm-damage-restoration/", "/service-areas/riverside-il/burst-pipe-repair/", "/service-areas/bedford-park-il/", "/service-areas/berwyn-il/", "/service-areas/brookfield-il/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Riverside"}]
 faq: []
 area_slug: "riverside-il"

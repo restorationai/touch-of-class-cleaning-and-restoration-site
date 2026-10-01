@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "6269f9dbf2b4ea07"
 generated_at: "2026-09-30T19:28:56.920640+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/worcester-ma/", "/service-areas/worcester-ma/fire-damage-restoration/", "/service-areas/worcester-ma/mold-remediation/", "/service-areas/bellingham-ma/general-contracting/", "/service-areas/east-douglas-ma/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/worcester-ma/", "/service-areas/worcester-ma/fire-damage-restoration/", "/service-areas/worcester-ma/mold-remediation/", "/service-areas/bellingham-ma/general-contracting/", "/service-areas/east-douglas-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Worcester", "url": "/service-areas/worcester-ma/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "worcester-ma"

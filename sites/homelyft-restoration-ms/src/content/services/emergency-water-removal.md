@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "30e19d7323d50e8b"
 generated_at: "2026-09-30T19:28:43.328948+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/agricola-ms/emergency-water-removal/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/service-areas/benndale-ms/emergency-water-removal/", "/service-areas/big-point-ms/emergency-water-removal/", "/service-areas/biloxi-ms/emergency-water-removal/", "/service-areas/d-iberville-ms/emergency-water-removal/", "/service-areas/delisle-ms/emergency-water-removal/", "/service-areas/diamondhead-ms/emergency-water-removal/", "/service-areas/eastabuchie-ms/emergency-water-removal/", "/service-areas/ellisville-ms/emergency-water-removal/", "/service-areas/escatawpa-ms/emergency-water-removal/", "/service-areas/gautier-ms/emergency-water-removal/", "/services/water-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/service-areas/benndale-ms/", "/service-areas/big-point-ms/", "/service-areas/biloxi-ms/emergency-water-removal/", "/service-areas/d-iberville-ms/emergency-water-removal/", "/service-areas/delisle-ms/emergency-water-removal/", "/service-areas/diamondhead-ms/emergency-water-removal/", "/service-areas/eastabuchie-ms/", "/service-areas/ellisville-ms/", "/service-areas/escatawpa-ms/", "/service-areas/gautier-ms/emergency-water-removal/", "/services/water-damage-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "emergency-water-removal"}]
 faq: []
 service_slug: "emergency-water-removal"

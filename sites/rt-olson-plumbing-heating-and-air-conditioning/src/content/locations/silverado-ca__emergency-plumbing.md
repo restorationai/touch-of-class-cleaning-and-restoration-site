@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "68d9446a87f1cd50"
 generated_at: "2026-09-20T14:13:48.596242+00:00"
 manual_override: false
-internal_links: ["/services/emergency-plumbing/", "/service-areas/silverado-ca/", "/service-areas/silverado-ca/ac-repair/", "/service-areas/silverado-ca/drain-cleaning/", "/service-areas/anaheim-ca/emergency-plumbing/", "/service-areas/bloomington-ca/emergency-plumbing/", "/contact/"]
+internal_links: ["/services/emergency-plumbing/", "/service-areas/silverado-ca/", "/service-areas/anaheim-ca/emergency-plumbing/", "/service-areas/bloomington-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Silverado", "url": "/service-areas/silverado-ca/"}, {"name": "Emergency Plumbing"}]
 faq: []
 area_slug: "silverado-ca"

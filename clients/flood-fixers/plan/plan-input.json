@@ -178,9 +178,21 @@
     "lng": -117.1661,
     "city": "San Marcos",
     "state": "CA",
-    "ga4_measurement_id": "G-BPB9R60M10"
+    "ga4_measurement_id": "G-BPB9R60M10",
+    "logo_url": "/images/logo.webp"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",
-  "blog_seed_count": 12
+  "blog_seed_count": 12,
+  "homepage_services": [
+    "water-damage-restoration",
+    "flood-damage-restoration",
+    "reconstruction",
+    "basement-flooding-cleanup",
+    "burst-pipe-repair",
+    "general-contracting"
+  ],
+  "merged_services": {
+    "water-cleanup": "emergency-water-removal"
+  }
 }

@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "18848c48b34b13eb"
 generated_at: "2026-09-30T19:29:00.299626+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/basement-flooding-cleanup/", "/service-areas/caddo-mills-tx/basement-flooding-cleanup/", "/service-areas/dallas-tx/basement-flooding-cleanup/", "/service-areas/farmersville-tx/basement-flooding-cleanup/", "/service-areas/fate-tx/basement-flooding-cleanup/", "/service-areas/frisco-tx/basement-flooding-cleanup/", "/service-areas/garland-tx/basement-flooding-cleanup/", "/service-areas/greenville-tx/basement-flooding-cleanup/", "/service-areas/heath-tx/basement-flooding-cleanup/", "/service-areas/highland-park-tx/basement-flooding-cleanup/", "/service-areas/josephine-tx/basement-flooding-cleanup/", "/service-areas/lavon-tx/basement-flooding-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/", "/service-areas/farmersville-tx/", "/service-areas/fate-tx/", "/service-areas/frisco-tx/", "/service-areas/garland-tx/", "/service-areas/greenville-tx/", "/service-areas/heath-tx/", "/service-areas/highland-park-tx/", "/service-areas/josephine-tx/", "/service-areas/lavon-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "basement-flooding-cleanup"}]
 faq: []
 service_slug: "basement-flooding-cleanup"

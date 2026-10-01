@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "140b804ee638e447"
 generated_at: "2026-09-30T19:28:20.827752+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/commercial-restoration/", "/service-areas/big-lake-tx/commercial-restoration/", "/service-areas/big-spring-tx/commercial-restoration/", "/service-areas/crane-tx/commercial-restoration/", "/service-areas/garden-city-tx/commercial-restoration/", "/service-areas/gardendale-tx/commercial-restoration/", "/service-areas/goldsmith-tx/commercial-restoration/", "/service-areas/greenwood-tx/commercial-restoration/", "/service-areas/imperial-tx/commercial-restoration/", "/service-areas/mccamey-tx/commercial-restoration/", "/service-areas/monahans-tx/commercial-restoration/", "/service-areas/odessa-tx/commercial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/", "/service-areas/big-lake-tx/", "/service-areas/big-spring-tx/", "/service-areas/crane-tx/", "/service-areas/garden-city-tx/", "/service-areas/gardendale-tx/", "/service-areas/goldsmith-tx/", "/service-areas/greenwood-tx/", "/service-areas/imperial-tx/", "/service-areas/mccamey-tx/", "/service-areas/monahans-tx/", "/service-areas/odessa-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "commercial-restoration"}]
 faq: []
 service_slug: "commercial-restoration"

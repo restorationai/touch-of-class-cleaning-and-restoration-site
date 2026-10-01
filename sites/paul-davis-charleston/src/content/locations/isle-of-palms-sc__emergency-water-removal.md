@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "64726355dafd8d66"
 generated_at: "2026-09-20T14:13:25.015473+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/isle-of-palms-sc/", "/service-areas/isle-of-palms-sc/fire-damage-restoration/", "/service-areas/isle-of-palms-sc/mold-remediation/", "/service-areas/awendaw-sc/emergency-water-removal/", "/service-areas/goose-creek-sc/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/isle-of-palms-sc/", "/service-areas/isle-of-palms-sc/mold-remediation/", "/service-areas/awendaw-sc/emergency-water-removal/", "/service-areas/goose-creek-sc/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Isle of Palms", "url": "/service-areas/isle-of-palms-sc/"}, {"name": "Emergency Water Removal & Cleanup"}]
 faq: []
 area_slug: "isle-of-palms-sc"

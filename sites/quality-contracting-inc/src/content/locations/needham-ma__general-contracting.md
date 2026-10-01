@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "b3b6c00d9d991d2b"
 generated_at: "2026-09-30T19:28:57.127234+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/needham-ma/", "/service-areas/needham-ma/fire-damage-restoration/", "/service-areas/needham-ma/mold-remediation/", "/service-areas/bellingham-ma/general-contracting/", "/service-areas/east-douglas-ma/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/needham-ma/", "/service-areas/needham-ma/fire-damage-restoration/", "/service-areas/needham-ma/mold-remediation/", "/service-areas/bellingham-ma/general-contracting/", "/service-areas/east-douglas-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Needham", "url": "/service-areas/needham-ma/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "needham-ma"

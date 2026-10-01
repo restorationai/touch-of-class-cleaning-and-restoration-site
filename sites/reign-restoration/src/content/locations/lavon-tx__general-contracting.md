@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "55663c49c5f7b477"
 generated_at: "2026-09-30T19:29:00.358393+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/lavon-tx/", "/service-areas/lavon-tx/fire-damage-restoration/", "/service-areas/lavon-tx/mold-remediation/", "/service-areas/allen-tx/general-contracting/", "/service-areas/caddo-mills-tx/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/lavon-tx/", "/service-areas/lavon-tx/mold-remediation/", "/service-areas/allen-tx/general-contracting/", "/service-areas/caddo-mills-tx/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lavon", "url": "/service-areas/lavon-tx/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "lavon-tx"

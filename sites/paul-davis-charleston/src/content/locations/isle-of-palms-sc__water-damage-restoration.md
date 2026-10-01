@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "a2078b8f7381750c"
 generated_at: "2026-09-20T14:13:25.014997+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/isle-of-palms-sc/", "/service-areas/isle-of-palms-sc/fire-damage-restoration/", "/service-areas/isle-of-palms-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/goose-creek-sc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/isle-of-palms-sc/", "/service-areas/isle-of-palms-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/goose-creek-sc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Isle of Palms", "url": "/service-areas/isle-of-palms-sc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "isle-of-palms-sc"

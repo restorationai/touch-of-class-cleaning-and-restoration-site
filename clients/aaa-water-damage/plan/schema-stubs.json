@@ -158,6 +158,126 @@
     ],
     "missing_stubs": []
   },
+  "/services/emergency-water-removal/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/basement-flooding-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/fire-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/smoke-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/storm-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/industrial-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/reconstruction/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/general-contracting/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/large-loss-response/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/ceiling-water-damage-repair/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/water-heater-flood-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/water-leak-detection/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/hawaii-kai-hi/": {
     "archetype": "service-area",
     "stubs": [
@@ -501,6 +621,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/hawaii-kai-hi/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/kahala-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -592,6 +722,16 @@
     "missing_stubs": []
   },
   "/service-areas/kahala-hi/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/kahala-hi/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -701,6 +841,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/aina-haina-hi/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/kaimuki-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -792,6 +942,16 @@
     "missing_stubs": []
   },
   "/service-areas/kaimuki-hi/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/kaimuki-hi/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -901,6 +1061,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/diamond-head-hi/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/kailua-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -992,6 +1162,16 @@
     "missing_stubs": []
   },
   "/service-areas/kailua-hi/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/kailua-hi/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1101,6 +1281,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/kaneohe-hi/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/pearl-city-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1192,6 +1382,16 @@
     "missing_stubs": []
   },
   "/service-areas/pearl-city-hi/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/pearl-city-hi/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1301,6 +1501,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/aiea-hi/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/ewa-beach-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1392,6 +1602,16 @@
     "missing_stubs": []
   },
   "/service-areas/ewa-beach-hi/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/ewa-beach-hi/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1501,6 +1721,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/kapolei-hi/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/mililani-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1592,6 +1822,16 @@
     "missing_stubs": []
   },
   "/service-areas/mililani-hi/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/mililani-hi/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1701,6 +1941,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/urban-honolulu-hi/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/hickam-housing-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1792,6 +2042,16 @@
     "missing_stubs": []
   },
   "/service-areas/hickam-housing-hi/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hickam-housing-hi/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1901,6 +2161,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/east-honolulu-hi/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/waimanalo-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1992,6 +2262,16 @@
     "missing_stubs": []
   },
   "/service-areas/waimanalo-hi/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/waimanalo-hi/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2101,6 +2381,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/heeia-hi/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/kahaluu-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2192,6 +2482,16 @@
     "missing_stubs": []
   },
   "/service-areas/kahaluu-hi/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/kahaluu-hi/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2301,6 +2601,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/kaneohe-base-hi/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/east-kapolei-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2392,6 +2702,16 @@
     "missing_stubs": []
   },
   "/service-areas/east-kapolei-hi/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/east-kapolei-hi/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2501,6 +2821,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/waiahole-waikane-hi/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/kalaeloa-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2592,6 +2922,16 @@
     "missing_stubs": []
   },
   "/service-areas/kalaeloa-hi/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/kalaeloa-hi/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2701,6 +3041,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/mililani-town-hi/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/royal-kunia-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2792,6 +3142,16 @@
     "missing_stubs": []
   },
   "/service-areas/royal-kunia-hi/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/royal-kunia-hi/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2901,6 +3261,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/mililani-mauka-hi/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/makakilo-hi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2992,6 +3362,16 @@
     "missing_stubs": []
   },
   "/service-areas/makakilo-hi/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/makakilo-hi/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3101,6 +3481,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/waianae-hi/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/blog/what-to-do-first-24-hours-water-damage/": {
     "archetype": "blog-post",
     "stubs": [
@@ -3146,6 +3536,15 @@
     ],
     "missing_stubs": []
   },
+  "/blog/fire-damage-restoration-process/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/blog/choosing-a-restoration-company/": {
     "archetype": "blog-post",
     "stubs": [
@@ -3156,6 +3555,15 @@
     "missing_stubs": []
   },
   "/blog/black-mold-vs-regular-mold/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/storm-damage-insurance-claim-checklist/": {
     "archetype": "blog-post",
     "stubs": [
       "blog-posting",
@@ -3182,25 +3590,7 @@
     ],
     "missing_stubs": []
   },
-  "/blog/sewage-backup-health-risks/": {
-    "archetype": "blog-post",
-    "stubs": [
-      "blog-posting",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/blog/basement-flooding-prevention/": {
-    "archetype": "blog-post",
-    "stubs": [
-      "blog-posting",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/blog/commercial-water-damage-business-continuity/": {
+  "/blog/smoke-odor-removal-techniques/": {
     "archetype": "blog-post",
     "stubs": [
       "blog-posting",

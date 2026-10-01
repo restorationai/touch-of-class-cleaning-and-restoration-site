@@ -1,0 +1,13 @@
+{
+  "slug": "coastal-restoration-services",
+  "allowed": false,
+  "reason": "no plumbing name confirmed, no plumbing DBA, not a licensed plumber",
+  "evidence": {
+    "company_id": "CO-1785186518304",
+    "gbp_title": "Coastal Restoration Services Inc",
+    "rename_intent": {},
+    "chosen_names": []
+  },
+  "checked_at": "2026-10-01T04:48:48+00:00",
+  "source": "supabase"
+}

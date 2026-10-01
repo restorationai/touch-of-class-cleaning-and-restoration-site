@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "9762fc26fba976e7"
 generated_at: "2026-09-30T19:28:21.541901+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/basement-flooding-cleanup/", "/service-areas/bluffdale-ut/basement-flooding-cleanup/", "/service-areas/cedar-fort-ut/basement-flooding-cleanup/", "/service-areas/cedar-hills-ut/basement-flooding-cleanup/", "/service-areas/cottonwood-heights-ut/basement-flooding-cleanup/", "/service-areas/draper-ut/basement-flooding-cleanup/", "/service-areas/eagle-mountain-ut/basement-flooding-cleanup/", "/service-areas/herriman-ut/basement-flooding-cleanup/", "/service-areas/highland-ut/basement-flooding-cleanup/", "/service-areas/lehi-ut/basement-flooding-cleanup/", "/service-areas/lindon-ut/basement-flooding-cleanup/", "/service-areas/orem-ut/basement-flooding-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/", "/service-areas/bluffdale-ut/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-hills-ut/", "/service-areas/cottonwood-heights-ut/", "/service-areas/draper-ut/", "/service-areas/eagle-mountain-ut/", "/service-areas/herriman-ut/", "/service-areas/highland-ut/", "/service-areas/lehi-ut/", "/service-areas/lindon-ut/", "/service-areas/orem-ut/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "basement-flooding-cleanup"}]
 faq: []
 service_slug: "basement-flooding-cleanup"

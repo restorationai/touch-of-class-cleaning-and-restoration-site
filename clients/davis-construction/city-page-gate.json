@@ -1,0 +1,2001 @@
+{
+ "policy": "scripts/city_page_gate.py (Santino 2026-10-01)",
+ "thresholds": {
+  "combo_min": 10,
+  "head_metro_min": 1000
+ },
+ "decisions": {
+  "arab-al__basement-sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement sewage cleanup arab' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arab-al__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning arab' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arab-al__decks-pergolas-fences": {
+   "pass": false,
+   "why": "no local demand ('deck builder arab' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arab-al__fire-smoke-rebuilding": {
+   "pass": false,
+   "why": "no local demand ('fire and smoke damage rebuilding arab' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arab-al__home-remodeling": {
+   "pass": false,
+   "why": "no local demand ('home remodeling arab' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arab-al__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation arab' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arab-al__new-construction": {
+   "pass": false,
+   "why": "no local demand ('new home construction arab' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arab-al__painting-trim": {
+   "pass": false,
+   "why": "no local demand ('painting and trim arab' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arab-al__post-construction-specialty-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning arab' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arab-al__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement arab' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arab-al__siding-gutters": {
+   "pass": false,
+   "why": "no local demand ('siding and gutters arab' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arab-al__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration arab' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arab-al__water-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('water damage restoration arab' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arab-al__windows-doors": {
+   "pass": false,
+   "why": "no local demand ('windows and doors arab' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ardmore-al__basement-sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement sewage cleanup ardmore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ardmore-al__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning ardmore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ardmore-al__decks-pergolas-fences": {
+   "pass": false,
+   "why": "no local demand ('deck builder ardmore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ardmore-al__fire-smoke-rebuilding": {
+   "pass": false,
+   "why": "no local demand ('fire and smoke damage rebuilding ardmore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ardmore-al__home-remodeling": {
+   "pass": false,
+   "why": "no local demand ('home remodeling ardmore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ardmore-al__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation ardmore' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ardmore-al__new-construction": {
+   "pass": false,
+   "why": "no local demand ('new home construction ardmore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ardmore-al__painting-trim": {
+   "pass": false,
+   "why": "no local demand ('painting and trim ardmore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ardmore-al__post-construction-specialty-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning ardmore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ardmore-al__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement ardmore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ardmore-al__siding-gutters": {
+   "pass": false,
+   "why": "no local demand ('siding and gutters ardmore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ardmore-al__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration ardmore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ardmore-al__water-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'water damage restoration ardmore' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ardmore-al__windows-doors": {
+   "pass": false,
+   "why": "no local demand ('windows and doors ardmore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "athens-al__basement-sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement sewage cleanup athens' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "athens-al__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning athens' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "athens-al__decks-pergolas-fences": {
+   "pass": false,
+   "why": "no local demand ('deck builder athens' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "athens-al__fire-smoke-rebuilding": {
+   "pass": false,
+   "why": "no local demand ('fire and smoke damage rebuilding athens' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "athens-al__home-remodeling": {
+   "pass": false,
+   "why": "no local demand ('home remodeling athens' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "athens-al__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation athens' 90/mo",
+   "vol": 90,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "athens-al__new-construction": {
+   "pass": true,
+   "why": "local demand: 'new home construction athens' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "athens-al__painting-trim": {
+   "pass": false,
+   "why": "no local demand ('painting and trim athens' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "athens-al__post-construction-specialty-cleaning": {
+   "pass": true,
+   "why": "local demand: 'post construction cleaning athens' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "athens-al__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement athens' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "athens-al__siding-gutters": {
+   "pass": false,
+   "why": "no local demand ('siding and gutters athens' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "athens-al__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration athens' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "athens-al__water-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'water damage restoration athens' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "athens-al__windows-doors": {
+   "pass": false,
+   "why": "no local demand ('windows and doors athens' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "decatur-al__basement-sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement sewage cleanup decatur' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "decatur-al__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning decatur' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "decatur-al__decks-pergolas-fences": {
+   "pass": false,
+   "why": "no local demand ('deck builder decatur' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "decatur-al__fire-smoke-rebuilding": {
+   "pass": false,
+   "why": "no local demand ('fire and smoke damage rebuilding decatur' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "decatur-al__home-remodeling": {
+   "pass": true,
+   "why": "local demand: 'home remodeling decatur' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "decatur-al__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation decatur' 170/mo",
+   "vol": 170,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "decatur-al__new-construction": {
+   "pass": false,
+   "why": "no local demand ('new home construction decatur' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "decatur-al__painting-trim": {
+   "pass": false,
+   "why": "no local demand ('painting and trim decatur' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "decatur-al__post-construction-specialty-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning decatur' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "decatur-al__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement decatur' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "decatur-al__siding-gutters": {
+   "pass": false,
+   "why": "no local demand ('siding and gutters decatur' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "decatur-al__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Tennessee River flood zone and industrial riverfront",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "decatur-al__water-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'water damage restoration decatur' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "decatur-al__windows-doors": {
+   "pass": false,
+   "why": "no local demand ('windows and doors decatur' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elkmont-al__basement-sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement sewage cleanup elkmont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elkmont-al__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning elkmont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elkmont-al__decks-pergolas-fences": {
+   "pass": false,
+   "why": "no local demand ('deck builder elkmont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elkmont-al__fire-smoke-rebuilding": {
+   "pass": false,
+   "why": "no local demand ('fire and smoke damage rebuilding elkmont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elkmont-al__home-remodeling": {
+   "pass": false,
+   "why": "no local demand ('home remodeling elkmont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elkmont-al__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation elkmont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elkmont-al__new-construction": {
+   "pass": false,
+   "why": "no local demand ('new home construction elkmont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elkmont-al__painting-trim": {
+   "pass": false,
+   "why": "no local demand ('painting and trim elkmont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elkmont-al__post-construction-specialty-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning elkmont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elkmont-al__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement elkmont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elkmont-al__siding-gutters": {
+   "pass": false,
+   "why": "no local demand ('siding and gutters elkmont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elkmont-al__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration elkmont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elkmont-al__water-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('water damage restoration elkmont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "elkmont-al__windows-doors": {
+   "pass": false,
+   "why": "no local demand ('windows and doors elkmont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gurley-al__basement-sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement sewage cleanup gurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gurley-al__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning gurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gurley-al__decks-pergolas-fences": {
+   "pass": false,
+   "why": "no local demand ('deck builder gurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gurley-al__fire-smoke-rebuilding": {
+   "pass": false,
+   "why": "no local demand ('fire and smoke damage rebuilding gurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gurley-al__home-remodeling": {
+   "pass": false,
+   "why": "no local demand ('home remodeling gurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gurley-al__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation gurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gurley-al__new-construction": {
+   "pass": false,
+   "why": "no local demand ('new home construction gurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gurley-al__painting-trim": {
+   "pass": false,
+   "why": "no local demand ('painting and trim gurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gurley-al__post-construction-specialty-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning gurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gurley-al__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement gurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gurley-al__siding-gutters": {
+   "pass": false,
+   "why": "no local demand ('siding and gutters gurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gurley-al__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration gurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gurley-al__water-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('water damage restoration gurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gurley-al__windows-doors": {
+   "pass": false,
+   "why": "no local demand ('windows and doors gurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hartselle-al__basement-sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement sewage cleanup hartselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hartselle-al__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning hartselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hartselle-al__decks-pergolas-fences": {
+   "pass": false,
+   "why": "no local demand ('deck builder hartselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hartselle-al__fire-smoke-rebuilding": {
+   "pass": false,
+   "why": "no local demand ('fire and smoke damage rebuilding hartselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hartselle-al__home-remodeling": {
+   "pass": false,
+   "why": "no local demand ('home remodeling hartselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hartselle-al__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation hartselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hartselle-al__new-construction": {
+   "pass": false,
+   "why": "no local demand ('new home construction hartselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hartselle-al__painting-trim": {
+   "pass": false,
+   "why": "no local demand ('painting and trim hartselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hartselle-al__post-construction-specialty-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning hartselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hartselle-al__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement hartselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hartselle-al__siding-gutters": {
+   "pass": false,
+   "why": "no local demand ('siding and gutters hartselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hartselle-al__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration hartselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hartselle-al__water-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('water damage restoration hartselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hartselle-al__windows-doors": {
+   "pass": false,
+   "why": "no local demand ('windows and doors hartselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "harvest-al__basement-sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement sewage cleanup harvest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "harvest-al__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning harvest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "harvest-al__decks-pergolas-fences": {
+   "pass": false,
+   "why": "no local demand ('deck builder harvest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "harvest-al__fire-smoke-rebuilding": {
+   "pass": false,
+   "why": "no local demand ('fire and smoke damage rebuilding harvest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "harvest-al__home-remodeling": {
+   "pass": false,
+   "why": "no local demand ('home remodeling harvest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "harvest-al__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation harvest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "harvest-al__new-construction": {
+   "pass": false,
+   "why": "no local demand ('new home construction harvest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "harvest-al__painting-trim": {
+   "pass": false,
+   "why": "no local demand ('painting and trim harvest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "harvest-al__post-construction-specialty-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning harvest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "harvest-al__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement harvest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "harvest-al__siding-gutters": {
+   "pass": false,
+   "why": "no local demand ('siding and gutters harvest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "harvest-al__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration harvest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "harvest-al__water-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('water damage restoration harvest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "harvest-al__windows-doors": {
+   "pass": false,
+   "why": "no local demand ('windows and doors harvest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hazel-green-al__basement-sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement sewage cleanup hazel green' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hazel-green-al__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning hazel green' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hazel-green-al__decks-pergolas-fences": {
+   "pass": false,
+   "why": "no local demand ('deck builder hazel green' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hazel-green-al__fire-smoke-rebuilding": {
+   "pass": false,
+   "why": "no local demand ('fire and smoke damage rebuilding hazel green' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hazel-green-al__home-remodeling": {
+   "pass": false,
+   "why": "no local demand ('home remodeling hazel green' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hazel-green-al__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation hazel green' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hazel-green-al__new-construction": {
+   "pass": false,
+   "why": "no local demand ('new home construction hazel green' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hazel-green-al__painting-trim": {
+   "pass": false,
+   "why": "no local demand ('painting and trim hazel green' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hazel-green-al__post-construction-specialty-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning hazel green' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hazel-green-al__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement hazel green' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hazel-green-al__siding-gutters": {
+   "pass": false,
+   "why": "no local demand ('siding and gutters hazel green' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hazel-green-al__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration hazel green' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hazel-green-al__water-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('water damage restoration hazel green' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "hazel-green-al__windows-doors": {
+   "pass": false,
+   "why": "no local demand ('windows and doors hazel green' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "huntsville-al__basement-sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement sewage cleanup huntsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "huntsville-al__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning huntsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "huntsville-al__decks-pergolas-fences": {
+   "pass": false,
+   "why": "no local demand ('deck builder huntsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "huntsville-al__fire-smoke-rebuilding": {
+   "pass": false,
+   "why": "no local demand ('fire and smoke damage rebuilding huntsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "huntsville-al__home-remodeling": {
+   "pass": false,
+   "why": "no local demand ('home remodeling huntsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "huntsville-al__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation huntsville' 260/mo",
+   "vol": 260,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "huntsville-al__new-construction": {
+   "pass": false,
+   "why": "no local demand ('new home construction huntsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "huntsville-al__painting-trim": {
+   "pass": false,
+   "why": "no local demand ('painting and trim huntsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "huntsville-al__post-construction-specialty-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning huntsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "huntsville-al__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement huntsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "huntsville-al__siding-gutters": {
+   "pass": false,
+   "why": "no local demand ('siding and gutters huntsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "huntsville-al__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration huntsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "huntsville-al__water-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'water damage restoration huntsville' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "huntsville-al__windows-doors": {
+   "pass": true,
+   "why": "local demand: 'windows and doors huntsville' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "meridianville-al__basement-sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement sewage cleanup meridianville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "meridianville-al__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning meridianville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "meridianville-al__decks-pergolas-fences": {
+   "pass": false,
+   "why": "no local demand ('deck builder meridianville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "meridianville-al__fire-smoke-rebuilding": {
+   "pass": false,
+   "why": "no local demand ('fire and smoke damage rebuilding meridianville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "meridianville-al__home-remodeling": {
+   "pass": false,
+   "why": "no local demand ('home remodeling meridianville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "meridianville-al__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation meridianville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "meridianville-al__new-construction": {
+   "pass": false,
+   "why": "no local demand ('new home construction meridianville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "meridianville-al__painting-trim": {
+   "pass": false,
+   "why": "no local demand ('painting and trim meridianville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "meridianville-al__post-construction-specialty-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning meridianville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "meridianville-al__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement meridianville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "meridianville-al__siding-gutters": {
+   "pass": false,
+   "why": "no local demand ('siding and gutters meridianville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "meridianville-al__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration meridianville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "meridianville-al__water-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('water damage restoration meridianville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "meridianville-al__windows-doors": {
+   "pass": false,
+   "why": "no local demand ('windows and doors meridianville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moores-mill-al__basement-sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement sewage cleanup moores mill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moores-mill-al__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning moores mill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moores-mill-al__decks-pergolas-fences": {
+   "pass": false,
+   "why": "no local demand ('deck builder moores mill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moores-mill-al__fire-smoke-rebuilding": {
+   "pass": false,
+   "why": "no local demand ('fire and smoke damage rebuilding moores mill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moores-mill-al__home-remodeling": {
+   "pass": false,
+   "why": "no local demand ('home remodeling moores mill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moores-mill-al__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation moores mill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moores-mill-al__new-construction": {
+   "pass": false,
+   "why": "no local demand ('new home construction moores mill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moores-mill-al__painting-trim": {
+   "pass": false,
+   "why": "no local demand ('painting and trim moores mill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moores-mill-al__post-construction-specialty-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning moores mill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moores-mill-al__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement moores mill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moores-mill-al__siding-gutters": {
+   "pass": false,
+   "why": "no local demand ('siding and gutters moores mill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moores-mill-al__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration moores mill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moores-mill-al__water-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('water damage restoration moores mill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "moores-mill-al__windows-doors": {
+   "pass": false,
+   "why": "no local demand ('windows and doors moores mill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-hope-al__basement-sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement sewage cleanup new hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-hope-al__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning new hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-hope-al__decks-pergolas-fences": {
+   "pass": false,
+   "why": "no local demand ('deck builder new hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-hope-al__fire-smoke-rebuilding": {
+   "pass": false,
+   "why": "no local demand ('fire and smoke damage rebuilding new hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-hope-al__home-remodeling": {
+   "pass": false,
+   "why": "no local demand ('home remodeling new hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-hope-al__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation new hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-hope-al__new-construction": {
+   "pass": false,
+   "why": "no local demand ('new home construction new hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-hope-al__painting-trim": {
+   "pass": false,
+   "why": "no local demand ('painting and trim new hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-hope-al__post-construction-specialty-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning new hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-hope-al__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement new hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-hope-al__siding-gutters": {
+   "pass": false,
+   "why": "no local demand ('siding and gutters new hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-hope-al__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration new hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-hope-al__water-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('water damage restoration new hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-hope-al__windows-doors": {
+   "pass": false,
+   "why": "no local demand ('windows and doors new hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-market-al__basement-sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement sewage cleanup new market' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-market-al__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning new market' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-market-al__decks-pergolas-fences": {
+   "pass": false,
+   "why": "no local demand ('deck builder new market' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-market-al__fire-smoke-rebuilding": {
+   "pass": false,
+   "why": "no local demand ('fire and smoke damage rebuilding new market' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-market-al__home-remodeling": {
+   "pass": false,
+   "why": "no local demand ('home remodeling new market' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-market-al__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation new market' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-market-al__new-construction": {
+   "pass": false,
+   "why": "no local demand ('new home construction new market' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-market-al__painting-trim": {
+   "pass": false,
+   "why": "no local demand ('painting and trim new market' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-market-al__post-construction-specialty-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning new market' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-market-al__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement new market' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-market-al__siding-gutters": {
+   "pass": false,
+   "why": "no local demand ('siding and gutters new market' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-market-al__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration new market' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-market-al__water-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('water damage restoration new market' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-market-al__windows-doors": {
+   "pass": false,
+   "why": "no local demand ('windows and doors new market' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "owens-cross-roads-al__basement-sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement sewage cleanup owens cross roads' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "owens-cross-roads-al__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning owens cross roads' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "owens-cross-roads-al__decks-pergolas-fences": {
+   "pass": false,
+   "why": "no local demand ('deck builder owens cross roads' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "owens-cross-roads-al__fire-smoke-rebuilding": {
+   "pass": false,
+   "why": "no local demand ('fire and smoke damage rebuilding owens cross roads' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "owens-cross-roads-al__home-remodeling": {
+   "pass": false,
+   "why": "no local demand ('home remodeling owens cross roads' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "owens-cross-roads-al__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation owens cross roads' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "owens-cross-roads-al__new-construction": {
+   "pass": false,
+   "why": "no local demand ('new home construction owens cross roads' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "owens-cross-roads-al__painting-trim": {
+   "pass": false,
+   "why": "no local demand ('painting and trim owens cross roads' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "owens-cross-roads-al__post-construction-specialty-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning owens cross roads' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "owens-cross-roads-al__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement owens cross roads' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "owens-cross-roads-al__siding-gutters": {
+   "pass": false,
+   "why": "no local demand ('siding and gutters owens cross roads' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "owens-cross-roads-al__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration owens cross roads' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "owens-cross-roads-al__water-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('water damage restoration owens cross roads' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "owens-cross-roads-al__windows-doors": {
+   "pass": false,
+   "why": "no local demand ('windows and doors owens cross roads' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "priceville-al__basement-sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement sewage cleanup priceville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "priceville-al__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning priceville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "priceville-al__decks-pergolas-fences": {
+   "pass": false,
+   "why": "no local demand ('deck builder priceville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "priceville-al__fire-smoke-rebuilding": {
+   "pass": false,
+   "why": "no local demand ('fire and smoke damage rebuilding priceville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "priceville-al__home-remodeling": {
+   "pass": false,
+   "why": "no local demand ('home remodeling priceville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "priceville-al__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation priceville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "priceville-al__new-construction": {
+   "pass": false,
+   "why": "no local demand ('new home construction priceville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "priceville-al__painting-trim": {
+   "pass": false,
+   "why": "no local demand ('painting and trim priceville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "priceville-al__post-construction-specialty-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning priceville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "priceville-al__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement priceville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "priceville-al__siding-gutters": {
+   "pass": false,
+   "why": "no local demand ('siding and gutters priceville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "priceville-al__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration priceville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "priceville-al__water-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('water damage restoration priceville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "priceville-al__windows-doors": {
+   "pass": false,
+   "why": "no local demand ('windows and doors priceville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "redstone-arsenal-al__basement-sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement sewage cleanup redstone arsenal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "redstone-arsenal-al__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning redstone arsenal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "redstone-arsenal-al__decks-pergolas-fences": {
+   "pass": false,
+   "why": "implausible here: federal military base, no private homes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "redstone-arsenal-al__fire-smoke-rebuilding": {
+   "pass": false,
+   "why": "no local demand ('fire and smoke damage rebuilding redstone arsenal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "redstone-arsenal-al__home-remodeling": {
+   "pass": false,
+   "why": "implausible here: federal military base, no private homes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "redstone-arsenal-al__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation redstone arsenal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "redstone-arsenal-al__new-construction": {
+   "pass": false,
+   "why": "implausible here: federal military base, no private homes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "redstone-arsenal-al__painting-trim": {
+   "pass": false,
+   "why": "implausible here: federal military base, no private homes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "redstone-arsenal-al__post-construction-specialty-cleaning": {
+   "pass": false,
+   "why": "implausible here: federal military base, no private homes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "redstone-arsenal-al__roofing": {
+   "pass": false,
+   "why": "implausible here: federal military base, no private homes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "redstone-arsenal-al__siding-gutters": {
+   "pass": false,
+   "why": "implausible here: federal military base, no private homes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "redstone-arsenal-al__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration redstone arsenal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "redstone-arsenal-al__water-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('water damage restoration redstone arsenal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "redstone-arsenal-al__windows-doors": {
+   "pass": false,
+   "why": "implausible here: federal military base, no private homes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "somerville-al__basement-sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement sewage cleanup somerville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "somerville-al__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning somerville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "somerville-al__decks-pergolas-fences": {
+   "pass": false,
+   "why": "no local demand ('deck builder somerville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "somerville-al__fire-smoke-rebuilding": {
+   "pass": false,
+   "why": "no local demand ('fire and smoke damage rebuilding somerville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "somerville-al__home-remodeling": {
+   "pass": false,
+   "why": "no local demand ('home remodeling somerville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "somerville-al__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation somerville' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "somerville-al__new-construction": {
+   "pass": false,
+   "why": "no local demand ('new home construction somerville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "somerville-al__painting-trim": {
+   "pass": false,
+   "why": "no local demand ('painting and trim somerville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "somerville-al__post-construction-specialty-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning somerville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "somerville-al__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement somerville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "somerville-al__siding-gutters": {
+   "pass": false,
+   "why": "no local demand ('siding and gutters somerville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "somerville-al__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration somerville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "somerville-al__water-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'water damage restoration somerville' 30/mo",
+   "vol": 30,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "somerville-al__windows-doors": {
+   "pass": false,
+   "why": "no local demand ('windows and doors somerville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "triana-al__basement-sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement sewage cleanup triana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "triana-al__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning triana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "triana-al__decks-pergolas-fences": {
+   "pass": false,
+   "why": "no local demand ('deck builder triana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "triana-al__fire-smoke-rebuilding": {
+   "pass": false,
+   "why": "no local demand ('fire and smoke damage rebuilding triana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "triana-al__home-remodeling": {
+   "pass": false,
+   "why": "no local demand ('home remodeling triana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "triana-al__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation triana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "triana-al__new-construction": {
+   "pass": false,
+   "why": "no local demand ('new home construction triana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "triana-al__painting-trim": {
+   "pass": false,
+   "why": "no local demand ('painting and trim triana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "triana-al__post-construction-specialty-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning triana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "triana-al__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement triana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "triana-al__siding-gutters": {
+   "pass": false,
+   "why": "no local demand ('siding and gutters triana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "triana-al__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration triana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "triana-al__water-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('water damage restoration triana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "triana-al__windows-doors": {
+   "pass": false,
+   "why": "no local demand ('windows and doors triana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  }
+ },
+ "offered": {
+  "basement-sewage-cleanup": [
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "carpet-upholstery-cleaning": [
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "decks-pergolas-fences": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "fire-smoke-rebuilding": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "home-remodeling": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "mold-remediation": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "new-construction": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "painting-trim": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "post-construction-specialty-cleaning": [
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "roofing": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "siding-gutters": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "storm-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "water-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "windows-doors": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ]
+ },
+ "metro": "Huntsville,Alabama,United States",
+ "heads": {
+  "basement-sewage-cleanup": {
+   "term": "basement sewage cleanup",
+   "metro": 0
+  },
+  "carpet-upholstery-cleaning": {
+   "term": "carpet and upholstery cleaning",
+   "metro": 20
+  },
+  "decks-pergolas-fences": {
+   "term": "deck builder",
+   "metro": 60
+  },
+  "fire-smoke-rebuilding": {
+   "term": "fire and smoke damage rebuilding",
+   "metro": 0
+  },
+  "home-remodeling": {
+   "term": "home remodeling",
+   "metro": 20
+  },
+  "mold-remediation": {
+   "term": "mold remediation",
+   "metro": 80
+  },
+  "new-construction": {
+   "term": "new home construction",
+   "metro": 80
+  },
+  "painting-trim": {
+   "term": "painting and trim",
+   "metro": 10
+  },
+  "post-construction-specialty-cleaning": {
+   "term": "post construction cleaning",
+   "metro": 20
+  },
+  "roofing": {
+   "term": "roofing installation and replacement",
+   "metro": 0
+  },
+  "siding-gutters": {
+   "term": "siding and gutters",
+   "metro": 20
+  },
+  "storm-damage-restoration": {
+   "term": "storm damage restoration",
+   "metro": 20
+  },
+  "water-damage-restoration": {
+   "term": "water damage restoration",
+   "metro": 120
+  },
+  "windows-doors": {
+   "term": "windows and doors",
+   "metro": 30
+  }
+ },
+ "updated_at": "2026-10-01T05:04:06+00:00"
+}

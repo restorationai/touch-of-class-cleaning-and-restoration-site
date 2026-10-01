@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "9a95d287a11df79e"
 generated_at: "2026-09-30T19:28:53.116376+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/vashon-wa/", "/service-areas/vashon-wa/fire-damage-restoration/", "/service-areas/vashon-wa/mold-remediation/", "/service-areas/algona-wa/water-damage-restoration/", "/service-areas/auburn-wa/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/vashon-wa/", "/service-areas/algona-wa/water-damage-restoration/", "/service-areas/auburn-wa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vashon", "url": "/service-areas/vashon-wa/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "vashon-wa"

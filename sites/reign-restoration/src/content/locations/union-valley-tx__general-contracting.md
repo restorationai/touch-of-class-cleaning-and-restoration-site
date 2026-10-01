@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "8c46354d20097680"
 generated_at: "2026-09-30T19:29:00.345001+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/union-valley-tx/", "/service-areas/union-valley-tx/fire-damage-restoration/", "/service-areas/union-valley-tx/mold-remediation/", "/service-areas/allen-tx/general-contracting/", "/service-areas/caddo-mills-tx/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/union-valley-tx/", "/service-areas/allen-tx/general-contracting/", "/service-areas/caddo-mills-tx/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Union Valley", "url": "/service-areas/union-valley-tx/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "union-valley-tx"

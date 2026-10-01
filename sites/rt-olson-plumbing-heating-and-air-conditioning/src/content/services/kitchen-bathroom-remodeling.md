@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "53e223b6782a79f9"
 generated_at: "2026-09-29T23:13:11.290709+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/kitchen-bathroom-remodeling/", "/service-areas/bloomington-ca/kitchen-bathroom-remodeling/", "/service-areas/canyon-lake-ca/kitchen-bathroom-remodeling/", "/service-areas/chino-ca/kitchen-bathroom-remodeling/", "/service-areas/chino-hills-ca/kitchen-bathroom-remodeling/", "/service-areas/claremont-ca/kitchen-bathroom-remodeling/", "/service-areas/diamond-bar-ca/kitchen-bathroom-remodeling/", "/service-areas/eastvale-ca/kitchen-bathroom-remodeling/", "/service-areas/fontana-ca/kitchen-bathroom-remodeling/", "/service-areas/french-valley-ca/kitchen-bathroom-remodeling/", "/service-areas/fullerton-ca/kitchen-bathroom-remodeling/", "/service-areas/hemet-ca/kitchen-bathroom-remodeling/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/", "/service-areas/bloomington-ca/", "/service-areas/canyon-lake-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/", "/service-areas/claremont-ca/", "/service-areas/diamond-bar-ca/", "/service-areas/eastvale-ca/", "/service-areas/fontana-ca/", "/service-areas/french-valley-ca/", "/service-areas/fullerton-ca/", "/service-areas/hemet-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Kitchen & Bathroom Remodeling"}]
 faq: []
 service_slug: "kitchen-bathroom-remodeling"

@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "8c0a65708e3852fd"
 generated_at: "2026-09-30T19:28:33.678896+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/emergency-board-up/", "/service-areas/carlsbad-ca/emergency-board-up/", "/service-areas/chula-vista-ca/emergency-board-up/", "/service-areas/concord-ca/emergency-board-up/", "/service-areas/el-cajon-ca/emergency-board-up/", "/service-areas/encinitas-ca/emergency-board-up/", "/service-areas/escondido-ca/emergency-board-up/", "/service-areas/fremont-ca/emergency-board-up/", "/service-areas/hayward-ca/emergency-board-up/", "/service-areas/oakland-ca/emergency-board-up/", "/service-areas/oceanside-ca/emergency-board-up/", "/service-areas/san-diego-ca/emergency-board-up/"]
+internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/", "/service-areas/carlsbad-ca/", "/service-areas/chula-vista-ca/", "/service-areas/concord-ca/", "/service-areas/el-cajon-ca/", "/service-areas/encinitas-ca/", "/service-areas/escondido-ca/", "/service-areas/fremont-ca/", "/service-areas/hayward-ca/", "/service-areas/oakland-ca/", "/service-areas/oceanside-ca/", "/service-areas/san-diego-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Emergency Board Up"}]
 faq: []
 service_slug: "emergency-board-up"

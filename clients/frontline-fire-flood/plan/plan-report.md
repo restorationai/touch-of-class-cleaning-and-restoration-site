@@ -1,19 +1,19 @@
 # Site Plan Report — Frontline Fire & Flood
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T21:50:08.080809+00:00
+- Generated: 2026-10-01T05:03:59.955047+00:00
 - Domain: `frontlinefireflood.com`
 - Services selected: 24 of 91 catalog entries
 - Service areas: 36
 - Cross-product enabled: True
-- Total URLs: **916**
-- Total internal links: 7424 (avg 8.1 per page)
+- Total URLs: **295**
+- Total internal links: 2252 (avg 7.6 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 840 |
+| `service-area-service` | 219 |
 | `service-area` | 35 |
 | `service-landing` | 24 |
 | `blog-post` | 8 |

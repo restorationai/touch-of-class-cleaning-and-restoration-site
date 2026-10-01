@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "e273e1e25b39de15"
 generated_at: "2026-09-30T19:28:26.416479+00:00"
 manual_override: false
-internal_links: ["/services/flood-damage-restoration/", "/service-areas/yankton-sd/", "/service-areas/yankton-sd/fire-damage-restoration/", "/service-areas/yankton-sd/mold-remediation/", "/service-areas/adrian-mn/flood-damage-restoration/", "/service-areas/akron-ia/flood-damage-restoration/", "/contact/"]
+internal_links: ["/services/flood-damage-restoration/", "/service-areas/yankton-sd/", "/service-areas/yankton-sd/fire-damage-restoration/", "/service-areas/yankton-sd/mold-remediation/", "/service-areas/adrian-mn/", "/service-areas/akron-ia/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Yankton", "url": "/service-areas/yankton-sd/"}, {"name": "Flood Damage Restoration"}]
 faq: []
 area_slug: "yankton-sd"

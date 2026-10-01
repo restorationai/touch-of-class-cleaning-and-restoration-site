@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "f185fb916af385cd"
 generated_at: "2026-09-30T14:12:04.049237+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/arab-al/home-remodeling/", "/service-areas/arab-al/roofing/", "/service-areas/arab-al/decks-pergolas-fences/", "/service-areas/arab-al/new-construction/", "/service-areas/arab-al/siding-gutters/", "/service-areas/arab-al/fire-smoke-rebuilding/", "/service-areas/arab-al/mold-remediation/", "/service-areas/arab-al/painting-trim/", "/service-areas/arab-al/storm-damage-restoration/", "/service-areas/arab-al/water-damage-restoration/", "/service-areas/arab-al/windows-doors/", "/service-areas/arab-al/basement-sewage-cleanup/", "/service-areas/arab-al/carpet-upholstery-cleaning/", "/service-areas/arab-al/post-construction-specialty-cleaning/", "/service-areas/ardmore-al/", "/service-areas/athens-al/", "/service-areas/decatur-al/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/arab-al/home-remodeling/", "/service-areas/arab-al/roofing/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/", "/service-areas/decatur-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Arab"}]
 faq: []
 area_slug: "arab-al"

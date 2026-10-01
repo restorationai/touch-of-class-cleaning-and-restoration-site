@@ -1,0 +1,1659 @@
+{
+ "policy": "scripts/city_page_gate.py (Santino 2026-10-01)",
+ "thresholds": {
+  "combo_min": 10,
+  "head_metro_min": 1000
+ },
+ "decisions": {
+  "allen-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration allen' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "allen-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal allen' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "allen-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration allen' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "allen-tx__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1310/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "allen-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation allen' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "allen-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal allen' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "allen-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement allen' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "allen-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration allen' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "caddo-mills-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration caddo mills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "caddo-mills-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal caddo mills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "caddo-mills-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration caddo mills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "caddo-mills-tx__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1310/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "caddo-mills-tx__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation caddo mills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "caddo-mills-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal caddo mills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "caddo-mills-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement caddo mills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "caddo-mills-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration caddo mills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dallas-tx__contents-restoration": {
+   "pass": true,
+   "why": "local demand: 'contents restoration dallas' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dallas-tx__emergency-water-removal": {
+   "pass": true,
+   "why": "local demand: 'emergency water removal dallas' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dallas-tx__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration dallas' 170/mo",
+   "vol": 170,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dallas-tx__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor dallas' 1300/mo",
+   "vol": 1300,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dallas-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation dallas' 390/mo",
+   "vol": 390,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dallas-tx__odor-removal": {
+   "pass": true,
+   "why": "local demand: 'odor removal dallas' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dallas-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement dallas' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dallas-tx__storm-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'storm damage restoration dallas' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "farmersville-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration farmersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "farmersville-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal farmersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "farmersville-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration farmersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "farmersville-tx__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1310/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "farmersville-tx__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation farmersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "farmersville-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal farmersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "farmersville-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement farmersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "farmersville-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration farmersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fate-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration fate' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fate-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal fate' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fate-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration fate' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fate-tx__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1310/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fate-tx__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation fate' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fate-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal fate' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fate-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement fate' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fate-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration fate' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "frisco-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration frisco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "frisco-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal frisco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "frisco-tx__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration frisco' 110/mo",
+   "vol": 110,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "frisco-tx__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor frisco' 110/mo",
+   "vol": 110,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "frisco-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation frisco' 170/mo",
+   "vol": 170,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "frisco-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal frisco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "frisco-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement frisco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "frisco-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration frisco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "garland-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration garland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "garland-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal garland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "garland-tx__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration garland' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "garland-tx__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor garland' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "garland-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation garland' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "garland-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal garland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "garland-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement garland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "garland-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration garland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "greenville-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration greenville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "greenville-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal greenville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "greenville-tx__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration greenville' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "greenville-tx__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor greenville' 590/mo",
+   "vol": 590,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "greenville-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation greenville' 320/mo",
+   "vol": 320,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "greenville-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal greenville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "greenville-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement greenville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "greenville-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration greenville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heath-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration heath' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heath-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal heath' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heath-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration heath' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heath-tx__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1310/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heath-tx__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation heath' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heath-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal heath' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heath-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement heath' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heath-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration heath' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-park-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration highland park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-park-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal highland park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-park-tx__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration highland park' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-park-tx__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor highland park' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-park-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation highland park' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-park-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal highland park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-park-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement highland park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-park-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration highland park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "josephine-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration josephine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "josephine-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal josephine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "josephine-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration josephine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "josephine-tx__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1310/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "josephine-tx__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation josephine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "josephine-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal josephine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "josephine-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement josephine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "josephine-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration josephine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lavon-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration lavon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lavon-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal lavon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lavon-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration lavon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lavon-tx__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1310/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lavon-tx__mold-remediation": {
+   "pass": true,
+   "why": "local angle: near Lavon Lake, high humidity",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lavon-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal lavon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lavon-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement lavon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lavon-tx__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: near lake, flood-prone storm exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucas-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration lucas' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucas-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal lucas' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucas-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration lucas' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucas-tx__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1310/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucas-tx__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation lucas' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucas-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal lucas' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucas-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement lucas' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lucas-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration lucas' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mckinney-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration mckinney' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mckinney-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal mckinney' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mckinney-tx__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration mckinney' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mckinney-tx__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor mckinney' 140/mo",
+   "vol": 140,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mckinney-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation mckinney' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mckinney-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal mckinney' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mckinney-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement mckinney' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mckinney-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration mckinney' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclendon-chisholm-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration mclendon-chisholm' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclendon-chisholm-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal mclendon-chisholm' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclendon-chisholm-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration mclendon-chisholm' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclendon-chisholm-tx__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1310/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclendon-chisholm-tx__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation mclendon-chisholm' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclendon-chisholm-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal mclendon-chisholm' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclendon-chisholm-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement mclendon-chisholm' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mclendon-chisholm-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration mclendon-chisholm' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mesquite-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration mesquite' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mesquite-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal mesquite' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mesquite-tx__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration mesquite' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mesquite-tx__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1310/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mesquite-tx__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation mesquite' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mesquite-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal mesquite' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mesquite-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement mesquite' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mesquite-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration mesquite' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "murphy-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration murphy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "murphy-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal murphy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "murphy-tx__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration murphy' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "murphy-tx__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1310/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "murphy-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation murphy' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "murphy-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal murphy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "murphy-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement murphy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "murphy-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration murphy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nevada-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration nevada' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nevada-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal nevada' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nevada-tx__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration nevada' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nevada-tx__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor nevada' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nevada-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation nevada' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nevada-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal nevada' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nevada-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement nevada' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nevada-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration nevada' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "plano-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration plano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "plano-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal plano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "plano-tx__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration plano' 110/mo",
+   "vol": 110,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "plano-tx__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor plano' 170/mo",
+   "vol": 170,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "plano-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation plano' 110/mo",
+   "vol": 110,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "plano-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal plano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "plano-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement plano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "plano-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration plano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poetry-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration poetry' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poetry-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal poetry' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poetry-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration poetry' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poetry-tx__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1310/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poetry-tx__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation poetry' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poetry-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal poetry' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poetry-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement poetry' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "poetry-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration poetry' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "richardson-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration richardson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "richardson-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal richardson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "richardson-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration richardson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "richardson-tx__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor richardson' 30/mo",
+   "vol": 30,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "richardson-tx__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation richardson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "richardson-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal richardson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "richardson-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement richardson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "richardson-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration richardson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rockwall-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration rockwall' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rockwall-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal rockwall' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rockwall-tx__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration rockwall' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rockwall-tx__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1310/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rockwall-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation rockwall' 110/mo",
+   "vol": 110,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rockwall-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal rockwall' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rockwall-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement rockwall' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rockwall-tx__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: lakefront city, flood and storm exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rowlett-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration rowlett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rowlett-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal rowlett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rowlett-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration rowlett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rowlett-tx__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1310/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rowlett-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation rowlett' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rowlett-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal rowlett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rowlett-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement rowlett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rowlett-tx__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: lake-adjacent flood zone, storm damage risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sachse-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration sachse' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sachse-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal sachse' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sachse-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration sachse' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sachse-tx__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1310/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sachse-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation sachse' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sachse-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal sachse' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sachse-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement sachse' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sachse-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration sachse' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "terrell-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration terrell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "terrell-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal terrell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "terrell-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration terrell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "terrell-tx__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1310/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "terrell-tx__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation terrell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "terrell-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal terrell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "terrell-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement terrell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "terrell-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration terrell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "union-valley-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration union valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "union-valley-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal union valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "union-valley-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration union valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "union-valley-tx__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1310/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "union-valley-tx__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation union valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "union-valley-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal union valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "union-valley-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement union valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "union-valley-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration union valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "university-park-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration university park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "university-park-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal university park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "university-park-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration university park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "university-park-tx__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1310/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "university-park-tx__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation university park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "university-park-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal university park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "university-park-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement university park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "university-park-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration university park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wylie-tx__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration wylie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wylie-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal wylie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wylie-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration wylie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wylie-tx__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1310/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wylie-tx__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation wylie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wylie-tx__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal wylie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wylie-tx__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement wylie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wylie-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration wylie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  }
+ },
+ "offered": {
+  "contents-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "contents-restoration-storage": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "emergency-water-removal": [
+   "default with water damage restoration (Santino 09-30)"
+  ],
+  "fire-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "general-contracting": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'General Contracting (Reconstruction & Renovation)'"
+  ],
+  "mold-remediation": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "odor-removal": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Odor Control & Deodorization'"
+  ],
+  "roofing": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "storm-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "water-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ]
+ },
+ "metro": "Dallas,Texas,United States",
+ "heads": {
+  "contents-restoration": {
+   "term": "contents restoration",
+   "metro": 20
+  },
+  "fire-damage-restoration": {
+   "term": "fire damage restoration",
+   "metro": 150
+  },
+  "general-contracting": {
+   "term": "general contractor",
+   "metro": 1310
+  },
+  "mold-remediation": {
+   "term": "mold remediation",
+   "metro": 560
+  },
+  "odor-removal": {
+   "term": "odor removal",
+   "metro": 20
+  },
+  "roofing": {
+   "term": "roofing installation and replacement",
+   "metro": 0
+  },
+  "storm-damage-restoration": {
+   "term": "storm damage restoration",
+   "metro": 20
+  },
+  "emergency-water-removal": {
+   "term": "emergency water removal",
+   "metro": 60
+  }
+ },
+ "updated_at": "2026-10-01T05:06:18+00:00"
+}

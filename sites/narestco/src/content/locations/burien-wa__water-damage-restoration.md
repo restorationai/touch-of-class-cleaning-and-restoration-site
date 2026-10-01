@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "811913338309b7e8"
 generated_at: "2026-09-30T19:28:53.127057+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/burien-wa/", "/service-areas/burien-wa/fire-damage-restoration/", "/service-areas/burien-wa/mold-remediation/", "/service-areas/algona-wa/water-damage-restoration/", "/service-areas/auburn-wa/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/burien-wa/", "/service-areas/algona-wa/water-damage-restoration/", "/service-areas/auburn-wa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burien", "url": "/service-areas/burien-wa/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "burien-wa"

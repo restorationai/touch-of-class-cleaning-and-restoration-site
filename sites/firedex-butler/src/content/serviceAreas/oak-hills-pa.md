@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "a3b1748d5134c949"
 generated_at: "2026-09-23T14:11:40.875169+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/oak-hills-pa/fire-damage-restoration/", "/service-areas/oak-hills-pa/mold-remediation/", "/service-areas/oak-hills-pa/water-damage-restoration/", "/service-areas/oak-hills-pa/commercial-restoration/", "/service-areas/oak-hills-pa/flood-damage-restoration/", "/service-areas/oak-hills-pa/reconstruction/", "/service-areas/oak-hills-pa/sewage-cleanup/", "/service-areas/oak-hills-pa/smoke-damage-restoration/", "/service-areas/oak-hills-pa/storm-damage-restoration/", "/service-areas/oak-hills-pa/emergency-water-removal/", "/service-areas/oak-hills-pa/basement-flooding-cleanup/", "/service-areas/oak-hills-pa/biohazard-cleanup/", "/service-areas/oak-hills-pa/burst-pipe-repair/", "/service-areas/oak-hills-pa/general-contracting/", "/service-areas/oak-hills-pa/mold-inspection-testing/", "/service-areas/oak-hills-pa/emergency-board-up-tarping/", "/service-areas/oak-hills-pa/frozen-pipe-restoration/", "/service-areas/oak-hills-pa/odor-removal/", "/service-areas/oak-hills-pa/contents-restoration-storage/", "/service-areas/aliquippa-pa/", "/service-areas/allison-park-pa/", "/service-areas/baden-pa/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/oak-hills-pa/", "/service-areas/oak-hills-pa/water-damage-restoration/", "/service-areas/aliquippa-pa/", "/service-areas/allison-park-pa/", "/service-areas/baden-pa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oak Hills"}]
 faq: []
 area_slug: "oak-hills-pa"

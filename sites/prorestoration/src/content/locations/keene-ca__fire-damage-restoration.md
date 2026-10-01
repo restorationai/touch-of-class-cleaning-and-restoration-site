@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "0bb11cf5e59eaf7d"
 generated_at: "2026-09-30T19:28:54.678563+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/keene-ca/", "/service-areas/keene-ca/home-remodeling/", "/service-areas/keene-ca/mold-remediation/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/keene-ca/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Keene", "url": "/service-areas/keene-ca/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "keene-ca"

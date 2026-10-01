@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "8f1d986e74949d39"
 generated_at: "2026-09-30T19:28:25.262066+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/burst-pipe-repair/", "/service-areas/atascadero-ca/burst-pipe-repair/", "/service-areas/avila-beach-ca/burst-pipe-repair/", "/service-areas/ballard-ca/burst-pipe-repair/", "/service-areas/blacklake-ca/burst-pipe-repair/", "/service-areas/buellton-ca/burst-pipe-repair/", "/service-areas/callender-ca/burst-pipe-repair/", "/service-areas/cambria-ca/burst-pipe-repair/", "/service-areas/edna-ca/burst-pipe-repair/", "/service-areas/el-paso-de-robles-ca/burst-pipe-repair/", "/service-areas/grover-beach-ca/burst-pipe-repair/", "/service-areas/guadalupe-ca/burst-pipe-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/", "/service-areas/atascadero-ca/", "/service-areas/avila-beach-ca/", "/service-areas/ballard-ca/", "/service-areas/blacklake-ca/", "/service-areas/buellton-ca/", "/service-areas/callender-ca/", "/service-areas/cambria-ca/", "/service-areas/edna-ca/", "/service-areas/el-paso-de-robles-ca/", "/service-areas/grover-beach-ca/", "/service-areas/guadalupe-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "burst-pipe-repair"}]
 faq: []
 service_slug: "burst-pipe-repair"

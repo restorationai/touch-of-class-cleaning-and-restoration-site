@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "47c786e348a8c2b5"
 generated_at: "2026-09-30T19:28:32.811755+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/trabuco-canyon-ca/", "/service-areas/trabuco-canyon-ca/fire-damage-restoration/", "/service-areas/trabuco-canyon-ca/mold-remediation/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/trabuco-canyon-ca/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Trabuco Canyon", "url": "/service-areas/trabuco-canyon-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "trabuco-canyon-ca"

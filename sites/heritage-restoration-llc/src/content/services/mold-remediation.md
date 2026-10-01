@@ -10,7 +10,7 @@ priority: 9.0
 plan_hash: "97a3c996b5f745cb"
 generated_at: "2026-09-30T19:28:41.597190+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/mold-remediation/", "/service-areas/avon-mn/mold-remediation/", "/service-areas/baxter-mn/mold-remediation/", "/service-areas/brainerd-mn/mold-remediation/", "/service-areas/elmdale-mn/mold-remediation/", "/service-areas/flensburg-mn/mold-remediation/", "/service-areas/foley-mn/mold-remediation/", "/service-areas/fort-ripley-mn/mold-remediation/", "/service-areas/harding-mn/mold-remediation/", "/service-areas/long-prairie-mn/mold-remediation/", "/service-areas/pierz-mn/mold-remediation/", "/service-areas/randall-mn/mold-remediation/", "/blog/choosing-a-restoration-company/", "/blog/how-to-test-for-mold/", "/blog/signs-of-hidden-mold/"]
+internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/", "/service-areas/avon-mn/", "/service-areas/baxter-mn/", "/service-areas/brainerd-mn/", "/service-areas/elmdale-mn/", "/service-areas/flensburg-mn/", "/service-areas/foley-mn/", "/service-areas/fort-ripley-mn/", "/service-areas/harding-mn/", "/service-areas/long-prairie-mn/", "/service-areas/pierz-mn/", "/service-areas/randall-mn/", "/blog/choosing-a-restoration-company/", "/blog/how-to-test-for-mold/", "/blog/signs-of-hidden-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Mold Remediation"}]
 faq: []
 service_slug: "mold-remediation"

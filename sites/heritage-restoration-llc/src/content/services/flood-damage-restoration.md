@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "f026d69a9e7db3ac"
 generated_at: "2026-09-30T19:28:41.595090+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/flood-damage-restoration/", "/service-areas/avon-mn/flood-damage-restoration/", "/service-areas/baxter-mn/flood-damage-restoration/", "/service-areas/brainerd-mn/flood-damage-restoration/", "/service-areas/elmdale-mn/flood-damage-restoration/", "/service-areas/flensburg-mn/flood-damage-restoration/", "/service-areas/foley-mn/flood-damage-restoration/", "/service-areas/fort-ripley-mn/flood-damage-restoration/", "/service-areas/harding-mn/flood-damage-restoration/", "/service-areas/long-prairie-mn/flood-damage-restoration/", "/service-areas/pierz-mn/flood-damage-restoration/", "/service-areas/randall-mn/flood-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/", "/service-areas/avon-mn/", "/service-areas/baxter-mn/", "/service-areas/brainerd-mn/", "/service-areas/elmdale-mn/", "/service-areas/flensburg-mn/", "/service-areas/foley-mn/", "/service-areas/fort-ripley-mn/", "/service-areas/harding-mn/", "/service-areas/long-prairie-mn/", "/service-areas/pierz-mn/", "/service-areas/randall-mn/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Flood Damage Restoration"}]
 faq: []
 service_slug: "flood-damage-restoration"

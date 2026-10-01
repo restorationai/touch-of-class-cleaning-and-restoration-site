@@ -1,19 +1,19 @@
 # Site Plan Report — Heritage Restoration LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:28:40.166348+00:00
+- Generated: 2026-10-01T05:04:42.040166+00:00
 - Domain: `heritagermn.com`
 - Services selected: 24 of 91 catalog entries
 - Service areas: 23
 - Cross-product enabled: True
-- Total URLs: **591**
-- Total internal links: 4837 (avg 8.2 per page)
+- Total URLs: **198**
+- Total internal links: 1476 (avg 7.5 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 528 |
+| `service-area-service` | 135 |
 | `service-landing` | 24 |
 | `service-area` | 22 |
 | `blog-post` | 8 |

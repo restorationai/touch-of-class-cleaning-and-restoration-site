@@ -10,7 +10,7 @@ priority: 9.0
 plan_hash: "4f0d659d34958449"
 generated_at: "2026-09-30T19:28:32.682604+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/roofing/", "/service-areas/chino-ca/roofing/", "/service-areas/chino-hills-ca/roofing/", "/service-areas/eastvale-ca/roofing/", "/service-areas/fontana-ca/roofing/", "/service-areas/fullerton-ca/roofing/", "/service-areas/jurupa-valley-ca/roofing/", "/service-areas/lake-mathews-ca/roofing/", "/service-areas/montclair-ca/roofing/", "/service-areas/norco-ca/roofing/", "/service-areas/north-tustin-ca/roofing/", "/service-areas/ontario-ca/roofing/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/", "/service-areas/eastvale-ca/", "/service-areas/fontana-ca/", "/service-areas/fullerton-ca/", "/service-areas/jurupa-valley-ca/", "/service-areas/lake-mathews-ca/", "/service-areas/montclair-ca/", "/service-areas/norco-ca/", "/service-areas/north-tustin-ca/", "/service-areas/ontario-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 service_slug: "roofing"

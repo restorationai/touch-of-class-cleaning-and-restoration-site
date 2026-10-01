@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "72b3684b0754786a"
 generated_at: "2026-09-30T19:28:52.906068+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/ceiling-water-damage-repair/", "/service-areas/auburn-wa/ceiling-water-damage-repair/", "/service-areas/bellevue-wa/ceiling-water-damage-repair/", "/service-areas/bremerton-wa/ceiling-water-damage-repair/", "/service-areas/burien-wa/ceiling-water-damage-repair/", "/service-areas/des-moines-wa/ceiling-water-damage-repair/", "/service-areas/edgewood-wa/ceiling-water-damage-repair/", "/service-areas/everett-wa/ceiling-water-damage-repair/", "/service-areas/fife-wa/ceiling-water-damage-repair/", "/service-areas/gig-harbor-wa/ceiling-water-damage-repair/", "/service-areas/kent-wa/ceiling-water-damage-repair/", "/service-areas/kirkland-wa/ceiling-water-damage-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/", "/service-areas/auburn-wa/", "/service-areas/bellevue-wa/", "/service-areas/bremerton-wa/", "/service-areas/burien-wa/", "/service-areas/des-moines-wa/", "/service-areas/edgewood-wa/", "/service-areas/everett-wa/", "/service-areas/fife-wa/", "/service-areas/gig-harbor-wa/", "/service-areas/kent-wa/", "/service-areas/kirkland-wa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Ceiling Water Damage Repair"}]
 faq: []
 service_slug: "ceiling-water-damage-repair"

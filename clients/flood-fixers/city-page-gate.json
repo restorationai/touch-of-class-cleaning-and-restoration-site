@@ -1,0 +1,34 @@
+{
+ "policy": "scripts/city_page_gate.py (Santino 2026-10-01)",
+ "thresholds": {
+  "combo_min": 10,
+  "head_metro_min": 1000
+ },
+ "decisions": {},
+ "offered": {
+  "basement-flooding-cleanup": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "burst-pipe-repair": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "emergency-water-removal": [
+   "default with water damage restoration (Santino 09-30)"
+  ],
+  "flood-damage-restoration": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "general-contracting": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'General Contracting (Reconstruction & Renovation)'"
+  ],
+  "reconstruction": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "water-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ]
+ }
+}

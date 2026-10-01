@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "1b8ed1bfb9a0d60c"
 generated_at: "2026-09-30T19:28:20.828756+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/general-contracting/", "/service-areas/big-lake-tx/general-contracting/", "/service-areas/big-spring-tx/general-contracting/", "/service-areas/crane-tx/general-contracting/", "/service-areas/garden-city-tx/general-contracting/", "/service-areas/gardendale-tx/general-contracting/", "/service-areas/goldsmith-tx/general-contracting/", "/service-areas/greenwood-tx/general-contracting/", "/service-areas/imperial-tx/general-contracting/", "/service-areas/mccamey-tx/general-contracting/", "/service-areas/monahans-tx/general-contracting/", "/service-areas/odessa-tx/general-contracting/"]
+internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/", "/service-areas/big-lake-tx/", "/service-areas/big-spring-tx/", "/service-areas/crane-tx/", "/service-areas/garden-city-tx/", "/service-areas/gardendale-tx/", "/service-areas/goldsmith-tx/", "/service-areas/greenwood-tx/", "/service-areas/imperial-tx/", "/service-areas/mccamey-tx/", "/service-areas/monahans-tx/", "/service-areas/odessa-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "general-contracting"}]
 faq: []
 service_slug: "general-contracting"

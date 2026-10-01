@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "41f902fe2022afb6"
 generated_at: "2026-09-30T19:28:52.908624+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/industrial-restoration/", "/service-areas/auburn-wa/industrial-restoration/", "/service-areas/bellevue-wa/industrial-restoration/", "/service-areas/bremerton-wa/industrial-restoration/", "/service-areas/burien-wa/industrial-restoration/", "/service-areas/des-moines-wa/industrial-restoration/", "/service-areas/edgewood-wa/industrial-restoration/", "/service-areas/everett-wa/industrial-restoration/", "/service-areas/fife-wa/industrial-restoration/", "/service-areas/gig-harbor-wa/industrial-restoration/", "/service-areas/kent-wa/industrial-restoration/", "/service-areas/kirkland-wa/industrial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/", "/service-areas/auburn-wa/", "/service-areas/bellevue-wa/", "/service-areas/bremerton-wa/", "/service-areas/burien-wa/", "/service-areas/des-moines-wa/", "/service-areas/edgewood-wa/", "/service-areas/everett-wa/", "/service-areas/fife-wa/", "/service-areas/gig-harbor-wa/", "/service-areas/kent-wa/", "/service-areas/kirkland-wa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Industrial Restoration"}]
 faq: []
 service_slug: "industrial-restoration"

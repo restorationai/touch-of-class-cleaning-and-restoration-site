@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "2d44ab04e4d5ca40"
 generated_at: "2026-09-30T19:29:00.380293+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/sachse-tx/", "/service-areas/sachse-tx/fire-damage-restoration/", "/service-areas/sachse-tx/roofing/", "/service-areas/allen-tx/mold-remediation/", "/service-areas/caddo-mills-tx/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/sachse-tx/", "/service-areas/allen-tx/mold-remediation/", "/service-areas/caddo-mills-tx/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sachse", "url": "/service-areas/sachse-tx/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "sachse-tx"

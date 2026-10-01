@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "624a415a562d74fc"
 generated_at: "2026-09-30T19:28:26.586470+00:00"
 manual_override: false
-internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/elk-point-sd/", "/service-areas/elk-point-sd/fire-damage-restoration/", "/service-areas/elk-point-sd/mold-remediation/", "/service-areas/adrian-mn/basement-flooding-cleanup/", "/service-areas/akron-ia/basement-flooding-cleanup/", "/contact/"]
+internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/elk-point-sd/", "/service-areas/elk-point-sd/fire-damage-restoration/", "/service-areas/elk-point-sd/mold-remediation/", "/service-areas/adrian-mn/", "/service-areas/akron-ia/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elk Point", "url": "/service-areas/elk-point-sd/"}, {"name": "Basement Flooding Cleanup"}]
 faq: []
 area_slug: "elk-point-sd"

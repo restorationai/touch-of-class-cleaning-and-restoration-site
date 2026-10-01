@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "4c184732c61e0f2f"
 generated_at: "2026-09-30T19:28:58.482194+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/smoke-damage-restoration/", "/service-areas/boulder-city-nv/smoke-damage-restoration/", "/service-areas/enterprise-nv/smoke-damage-restoration/", "/service-areas/henderson-nv/smoke-damage-restoration/", "/service-areas/indian-springs-nv/smoke-damage-restoration/", "/service-areas/las-vegas-nv/smoke-damage-restoration/", "/service-areas/moapa-town-nv/smoke-damage-restoration/", "/service-areas/moapa-valley-nv/smoke-damage-restoration/", "/service-areas/mount-charleston-nv/smoke-damage-restoration/", "/service-areas/nelson-nv/smoke-damage-restoration/", "/service-areas/pahrump-nv/smoke-damage-restoration/", "/service-areas/paradise-nv/smoke-damage-restoration/", "/blog/fire-damage-restoration-process/"]
+internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/enterprise-nv/", "/service-areas/henderson-nv/", "/service-areas/indian-springs-nv/", "/service-areas/las-vegas-nv/", "/service-areas/moapa-town-nv/", "/service-areas/moapa-valley-nv/", "/service-areas/mount-charleston-nv/", "/service-areas/nelson-nv/", "/service-areas/pahrump-nv/", "/service-areas/paradise-nv/", "/blog/fire-damage-restoration-process/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "smoke-damage-restoration"}]
 faq: []
 service_slug: "smoke-damage-restoration"

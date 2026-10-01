@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "d7cb6d3e1acc3819"
 generated_at: "2026-09-30T19:29:00.299836+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/mold-inspection-testing/", "/service-areas/caddo-mills-tx/mold-inspection-testing/", "/service-areas/dallas-tx/mold-inspection-testing/", "/service-areas/farmersville-tx/mold-inspection-testing/", "/service-areas/fate-tx/mold-inspection-testing/", "/service-areas/frisco-tx/mold-inspection-testing/", "/service-areas/garland-tx/mold-inspection-testing/", "/service-areas/greenville-tx/mold-inspection-testing/", "/service-areas/heath-tx/mold-inspection-testing/", "/service-areas/highland-park-tx/mold-inspection-testing/", "/service-areas/josephine-tx/mold-inspection-testing/", "/service-areas/lavon-tx/mold-inspection-testing/", "/blog/how-to-test-for-mold/"]
+internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/", "/service-areas/farmersville-tx/", "/service-areas/fate-tx/", "/service-areas/frisco-tx/", "/service-areas/garland-tx/", "/service-areas/greenville-tx/", "/service-areas/heath-tx/", "/service-areas/highland-park-tx/", "/service-areas/josephine-tx/", "/service-areas/lavon-tx/", "/blog/how-to-test-for-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "mold-inspection-testing"}]
 faq: []
 service_slug: "mold-inspection-testing"

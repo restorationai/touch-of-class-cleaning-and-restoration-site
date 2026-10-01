@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "d7d1bd061bb730f3"
 generated_at: "2026-09-30T19:28:21.542167+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/industrial-restoration/", "/service-areas/bluffdale-ut/industrial-restoration/", "/service-areas/cedar-fort-ut/industrial-restoration/", "/service-areas/cedar-hills-ut/industrial-restoration/", "/service-areas/cottonwood-heights-ut/industrial-restoration/", "/service-areas/draper-ut/industrial-restoration/", "/service-areas/eagle-mountain-ut/industrial-restoration/", "/service-areas/herriman-ut/industrial-restoration/", "/service-areas/highland-ut/industrial-restoration/", "/service-areas/lehi-ut/industrial-restoration/", "/service-areas/lindon-ut/industrial-restoration/", "/service-areas/orem-ut/industrial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/", "/service-areas/bluffdale-ut/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-hills-ut/", "/service-areas/cottonwood-heights-ut/", "/service-areas/draper-ut/", "/service-areas/eagle-mountain-ut/", "/service-areas/herriman-ut/", "/service-areas/highland-ut/", "/service-areas/lehi-ut/", "/service-areas/lindon-ut/", "/service-areas/orem-ut/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "industrial-restoration"}]
 faq: []
 service_slug: "industrial-restoration"

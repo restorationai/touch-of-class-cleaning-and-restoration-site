@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "eb033cab8d3db2e3"
 generated_at: "2026-09-22T14:28:14.940559+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/seabrook-island-sc/", "/service-areas/seabrook-island-sc/fire-damage-restoration/", "/service-areas/seabrook-island-sc/mold-remediation/", "/service-areas/awendaw-sc/emergency-water-removal/", "/service-areas/folly-beach-sc/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/seabrook-island-sc/", "/service-areas/seabrook-island-sc/mold-remediation/", "/service-areas/awendaw-sc/emergency-water-removal/", "/service-areas/folly-beach-sc/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Seabrook Island", "url": "/service-areas/seabrook-island-sc/"}, {"name": "Emergency Water Removal & Cleanup"}]
 faq: []
 area_slug: "seabrook-island-sc"

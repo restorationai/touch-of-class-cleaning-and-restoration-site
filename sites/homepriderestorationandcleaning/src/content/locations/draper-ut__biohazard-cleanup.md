@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "6b93111608314acb"
 generated_at: "2026-09-30T19:28:45.319078+00:00"
 manual_override: false
-internal_links: ["/services/biohazard-cleanup/", "/service-areas/draper-ut/", "/service-areas/draper-ut/fire-damage-restoration/", "/service-areas/draper-ut/mold-remediation/", "/service-areas/alpine-ut/biohazard-cleanup/", "/service-areas/american-fork-ut/biohazard-cleanup/", "/contact/"]
+internal_links: ["/services/biohazard-cleanup/", "/service-areas/draper-ut/", "/service-areas/draper-ut/mold-remediation/", "/service-areas/alpine-ut/", "/service-areas/american-fork-ut/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Draper", "url": "/service-areas/draper-ut/"}, {"name": "Biohazard Cleanup"}]
 faq: []
 area_slug: "draper-ut"

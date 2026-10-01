@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "1c21adda63772523"
 generated_at: "2026-09-30T19:28:21.541985+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/smoke-damage-restoration/", "/service-areas/bluffdale-ut/smoke-damage-restoration/", "/service-areas/cedar-fort-ut/smoke-damage-restoration/", "/service-areas/cedar-hills-ut/smoke-damage-restoration/", "/service-areas/cottonwood-heights-ut/smoke-damage-restoration/", "/service-areas/draper-ut/smoke-damage-restoration/", "/service-areas/eagle-mountain-ut/smoke-damage-restoration/", "/service-areas/herriman-ut/smoke-damage-restoration/", "/service-areas/highland-ut/smoke-damage-restoration/", "/service-areas/lehi-ut/smoke-damage-restoration/", "/service-areas/lindon-ut/smoke-damage-restoration/", "/service-areas/orem-ut/smoke-damage-restoration/", "/blog/fire-damage-restoration-process/"]
+internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/", "/service-areas/bluffdale-ut/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-hills-ut/", "/service-areas/cottonwood-heights-ut/", "/service-areas/draper-ut/", "/service-areas/eagle-mountain-ut/", "/service-areas/herriman-ut/", "/service-areas/highland-ut/", "/service-areas/lehi-ut/", "/service-areas/lindon-ut/", "/service-areas/orem-ut/", "/blog/fire-damage-restoration-process/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "smoke-damage-restoration"}]
 faq: []
 service_slug: "smoke-damage-restoration"

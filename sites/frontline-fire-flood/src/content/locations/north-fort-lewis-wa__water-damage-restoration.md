@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "3f5ba1264c6e4317"
 generated_at: "2026-09-30T19:28:38.027564+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/north-fort-lewis-wa/", "/service-areas/north-fort-lewis-wa/fire-damage-restoration/", "/service-areas/north-fort-lewis-wa/mold-remediation/", "/service-areas/anderson-island-wa/water-damage-restoration/", "/service-areas/auburn-wa/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/north-fort-lewis-wa/", "/service-areas/anderson-island-wa/water-damage-restoration/", "/service-areas/auburn-wa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Fort Lewis", "url": "/service-areas/north-fort-lewis-wa/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "north-fort-lewis-wa"

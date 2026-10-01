@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "437be5a33e65b736"
 generated_at: "2026-09-20T17:30:07.625605+00:00"
 manual_override: false
-internal_links: ["/services/emergency-plumbing/", "/service-areas/villa-park-ca/", "/service-areas/villa-park-ca/ac-repair/", "/service-areas/villa-park-ca/drain-cleaning/", "/service-areas/anaheim-ca/emergency-plumbing/", "/service-areas/bloomington-ca/emergency-plumbing/", "/contact/"]
+internal_links: ["/services/emergency-plumbing/", "/service-areas/villa-park-ca/", "/service-areas/anaheim-ca/emergency-plumbing/", "/service-areas/bloomington-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Villa Park", "url": "/service-areas/villa-park-ca/"}, {"name": "Emergency Plumbing"}]
 faq: []
 area_slug: "villa-park-ca"

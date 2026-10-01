@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "23c4112d951ef6b1"
 generated_at: "2026-09-30T19:28:43.330701+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/agricola-ms/mold-inspection-testing/", "/service-areas/bay-st-louis-ms/mold-inspection-testing/", "/service-areas/benndale-ms/mold-inspection-testing/", "/service-areas/big-point-ms/mold-inspection-testing/", "/service-areas/biloxi-ms/mold-inspection-testing/", "/service-areas/d-iberville-ms/mold-inspection-testing/", "/service-areas/delisle-ms/mold-inspection-testing/", "/service-areas/diamondhead-ms/mold-inspection-testing/", "/service-areas/eastabuchie-ms/mold-inspection-testing/", "/service-areas/ellisville-ms/mold-inspection-testing/", "/service-areas/escatawpa-ms/mold-inspection-testing/", "/service-areas/gautier-ms/mold-inspection-testing/", "/blog/how-to-test-for-mold/"]
+internal_links: ["/services/", "/contact/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/", "/service-areas/benndale-ms/", "/service-areas/big-point-ms/", "/service-areas/biloxi-ms/", "/service-areas/d-iberville-ms/", "/service-areas/delisle-ms/", "/service-areas/diamondhead-ms/", "/service-areas/eastabuchie-ms/", "/service-areas/ellisville-ms/", "/service-areas/escatawpa-ms/", "/service-areas/gautier-ms/", "/blog/how-to-test-for-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "mold-inspection-testing"}]
 faq: []
 service_slug: "mold-inspection-testing"

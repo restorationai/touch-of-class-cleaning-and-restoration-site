@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "aebdb6b2c7c4901a"
 generated_at: "2026-09-30T19:28:58.529849+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/winchester-nv/", "/service-areas/winchester-nv/fire-damage-restoration/", "/service-areas/winchester-nv/mold-remediation/", "/service-areas/blue-diamond-nv/general-contracting/", "/service-areas/boulder-city-nv/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/winchester-nv/", "/service-areas/winchester-nv/fire-damage-restoration/", "/service-areas/winchester-nv/mold-remediation/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Winchester", "url": "/service-areas/winchester-nv/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "winchester-nv"

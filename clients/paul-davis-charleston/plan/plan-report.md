@@ -1,22 +1,22 @@
 # Site Plan Report — Paul Davis Restoration of Charleston
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T18:10:24.284036+00:00
+- Generated: 2026-10-01T05:05:32.378958+00:00
 - Domain: `None`
-- Services selected: 4 of 65 catalog entries
+- Services selected: 19 of 91 catalog entries
 - Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **120**
-- Total internal links: 902 (avg 7.5 per page)
+- Total URLs: **99**
+- Total internal links: 639 (avg 6.5 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 76 |
+| `service-area-service` | 40 |
+| `service-landing` | 19 |
 | `service-area` | 19 |
 | `blog-post` | 12 |
-| `service-landing` | 4 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -30,7 +30,22 @@
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `mold-remediation` — Mold Remediation (core, priority 10)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
+- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
+- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
+- `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
+- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
 
 ## Service areas
 
@@ -62,13 +77,13 @@
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration charleston |
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation charleston |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration charleston |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup charleston |
-| `/service-areas/awendaw-sc/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration awendaw |
-| `/service-areas/awendaw-sc/mold-remediation/` | `service-area-service` | 7.0 | mold remediation awendaw |
-| `/service-areas/awendaw-sc/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration awendaw |
-| `/service-areas/bonneau-sc/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration bonneau |
-| `/service-areas/bonneau-sc/mold-remediation/` | `service-area-service` | 7.0 | mold remediation bonneau |
-| `/service-areas/bonneau-sc/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration bonneau |
+| `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration charleston |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup charleston |
+| `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration charleston |
+| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services charleston |
+| `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization charleston |
+| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration charleston |
+| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration charleston |
 
 ## Validation
 

@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "fa663a23156e7200"
 generated_at: "2026-09-30T19:29:00.299709+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/sewage-cleanup/", "/service-areas/caddo-mills-tx/sewage-cleanup/", "/service-areas/dallas-tx/sewage-cleanup/", "/service-areas/farmersville-tx/sewage-cleanup/", "/service-areas/fate-tx/sewage-cleanup/", "/service-areas/frisco-tx/sewage-cleanup/", "/service-areas/garland-tx/sewage-cleanup/", "/service-areas/greenville-tx/sewage-cleanup/", "/service-areas/heath-tx/sewage-cleanup/", "/service-areas/highland-park-tx/sewage-cleanup/", "/service-areas/josephine-tx/sewage-cleanup/", "/service-areas/lavon-tx/sewage-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/", "/service-areas/farmersville-tx/", "/service-areas/fate-tx/", "/service-areas/frisco-tx/", "/service-areas/garland-tx/", "/service-areas/greenville-tx/", "/service-areas/heath-tx/", "/service-areas/highland-park-tx/", "/service-areas/josephine-tx/", "/service-areas/lavon-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "sewage-cleanup"}]
 faq: []
 service_slug: "sewage-cleanup"

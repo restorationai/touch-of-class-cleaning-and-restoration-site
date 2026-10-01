@@ -1,0 +1,2689 @@
+{
+ "policy": "scripts/city_page_gate.py (Santino 2026-10-01)",
+ "thresholds": {
+  "combo_min": 10,
+  "head_metro_min": 1000
+ },
+ "decisions": {
+  "arvin-ca__ac-installation": {
+   "pass": false,
+   "why": "no local demand ('ac installation and replacement arvin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arvin-ca__ac-repair": {
+   "pass": false,
+   "why": "no local demand ('air conditioning repair arvin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arvin-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair arvin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arvin-ca__drain-cleaning": {
+   "pass": false,
+   "why": "no local demand ('drain cleaning arvin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arvin-ca__ductless-mini-splits": {
+   "pass": false,
+   "why": "no local demand ('ductless mini split systems arvin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arvin-ca__ductwork": {
+   "pass": false,
+   "why": "no local demand ('ductwork repair and installation arvin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arvin-ca__furnace-installation": {
+   "pass": false,
+   "why": "no local demand ('furnace installation and replacement arvin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arvin-ca__furnace-repair": {
+   "pass": false,
+   "why": "no local demand ('furnace repair arvin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arvin-ca__garbage-disposal": {
+   "pass": false,
+   "why": "no local demand ('garbage disposal repair and installation arvin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arvin-ca__gas-line-services": {
+   "pass": false,
+   "why": "no local demand ('gas line installation and leak repair arvin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arvin-ca__heat-pump-services": {
+   "pass": false,
+   "why": "no local demand ('heat pump installation and repair arvin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arvin-ca__indoor-air-quality": {
+   "pass": true,
+   "why": "local angle: agricultural area, dust and pesticide exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arvin-ca__leak-detection": {
+   "pass": false,
+   "why": "no local demand ('leak detection arvin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arvin-ca__repiping": {
+   "pass": false,
+   "why": "no local demand ('whole house repiping arvin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arvin-ca__sewer-line-repair": {
+   "pass": false,
+   "why": "no local demand ('sewer line repair and replacement arvin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arvin-ca__slab-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('slab leak repair arvin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arvin-ca__sump-pumps": {
+   "pass": false,
+   "why": "implausible here: flat valley slab homes, no basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "arvin-ca__toilet-faucet-repair": {
+   "pass": false,
+   "why": "no local demand ('toilet faucet and fixture services arvin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arvin-ca__water-heater-installation": {
+   "pass": false,
+   "why": "no local demand ('water heater installation and replacement arvin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arvin-ca__water-heater-repair": {
+   "pass": false,
+   "why": "no local demand ('water heater repair arvin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "arvin-ca__water-softeners-filtration": {
+   "pass": true,
+   "why": "local angle: farm community, hard well water issues",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__ac-installation": {
+   "pass": false,
+   "why": "no local demand ('ac installation and replacement bear valley springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__ac-repair": {
+   "pass": false,
+   "why": "no local demand ('air conditioning repair bear valley springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__burst-pipe-repair": {
+   "pass": true,
+   "why": "local angle: mountain community, hard winter freezes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__drain-cleaning": {
+   "pass": false,
+   "why": "no local demand ('drain cleaning bear valley springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__ductless-mini-splits": {
+   "pass": true,
+   "why": "local angle: mountain cabins lack central ductwork",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__ductwork": {
+   "pass": false,
+   "why": "no local demand ('ductwork repair and installation bear valley springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__furnace-installation": {
+   "pass": true,
+   "why": "local angle: mountain cabins, cold harsh winters",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__furnace-repair": {
+   "pass": true,
+   "why": "local angle: mountain cabins, cold harsh winters",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__garbage-disposal": {
+   "pass": false,
+   "why": "no local demand ('garbage disposal repair and installation bear valley springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__gas-line-services": {
+   "pass": false,
+   "why": "no local demand ('gas line installation and leak repair bear valley springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__heat-pump-services": {
+   "pass": true,
+   "why": "local angle: mountain climate, heating and cooling",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__indoor-air-quality": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality bear valley springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__leak-detection": {
+   "pass": false,
+   "why": "no local demand ('leak detection bear valley springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__repiping": {
+   "pass": false,
+   "why": "no local demand ('whole house repiping bear valley springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__sewer-line-repair": {
+   "pass": false,
+   "why": "no local demand ('sewer line repair and replacement bear valley springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__slab-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('slab leak repair bear valley springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__sump-pumps": {
+   "pass": false,
+   "why": "no local demand ('sump pump installation and repair bear valley springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__toilet-faucet-repair": {
+   "pass": false,
+   "why": "no local demand ('toilet faucet and fixture services bear valley springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__water-heater-installation": {
+   "pass": false,
+   "why": "no local demand ('water heater installation and replacement bear valley springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__water-heater-repair": {
+   "pass": false,
+   "why": "no local demand ('water heater repair bear valley springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bear-valley-springs-ca__water-softeners-filtration": {
+   "pass": false,
+   "why": "no local demand ('water softeners and filtration systems bear valley springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__ac-installation": {
+   "pass": false,
+   "why": "no local demand ('ac installation and replacement buttonwillow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__ac-repair": {
+   "pass": false,
+   "why": "no local demand ('air conditioning repair buttonwillow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair buttonwillow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__drain-cleaning": {
+   "pass": false,
+   "why": "no local demand ('drain cleaning buttonwillow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__ductless-mini-splits": {
+   "pass": false,
+   "why": "no local demand ('ductless mini split systems buttonwillow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__ductwork": {
+   "pass": false,
+   "why": "no local demand ('ductwork repair and installation buttonwillow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__furnace-installation": {
+   "pass": false,
+   "why": "no local demand ('furnace installation and replacement buttonwillow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__furnace-repair": {
+   "pass": false,
+   "why": "no local demand ('furnace repair buttonwillow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__garbage-disposal": {
+   "pass": false,
+   "why": "no local demand ('garbage disposal repair and installation buttonwillow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__gas-line-services": {
+   "pass": false,
+   "why": "no local demand ('gas line installation and leak repair buttonwillow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__heat-pump-services": {
+   "pass": false,
+   "why": "no local demand ('heat pump installation and repair buttonwillow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__indoor-air-quality": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality buttonwillow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__leak-detection": {
+   "pass": false,
+   "why": "no local demand ('leak detection buttonwillow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__repiping": {
+   "pass": false,
+   "why": "no local demand ('whole house repiping buttonwillow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__sewer-line-repair": {
+   "pass": false,
+   "why": "no local demand ('sewer line repair and replacement buttonwillow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__slab-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('slab leak repair buttonwillow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__sump-pumps": {
+   "pass": false,
+   "why": "implausible here: flat valley slab homes, no basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "buttonwillow-ca__toilet-faucet-repair": {
+   "pass": false,
+   "why": "no local demand ('toilet faucet and fixture services buttonwillow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__water-heater-installation": {
+   "pass": false,
+   "why": "no local demand ('water heater installation and replacement buttonwillow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__water-heater-repair": {
+   "pass": false,
+   "why": "no local demand ('water heater repair buttonwillow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "buttonwillow-ca__water-softeners-filtration": {
+   "pass": true,
+   "why": "local angle: rural farm town, hard well water",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__ac-installation": {
+   "pass": false,
+   "why": "no local demand ('ac installation and replacement delano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__ac-repair": {
+   "pass": false,
+   "why": "no local demand ('air conditioning repair delano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair delano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__drain-cleaning": {
+   "pass": false,
+   "why": "no local demand ('drain cleaning delano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__ductless-mini-splits": {
+   "pass": false,
+   "why": "no local demand ('ductless mini split systems delano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__ductwork": {
+   "pass": false,
+   "why": "no local demand ('ductwork repair and installation delano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__furnace-installation": {
+   "pass": false,
+   "why": "no local demand ('furnace installation and replacement delano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__furnace-repair": {
+   "pass": false,
+   "why": "no local demand ('furnace repair delano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__garbage-disposal": {
+   "pass": false,
+   "why": "no local demand ('garbage disposal repair and installation delano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__gas-line-services": {
+   "pass": false,
+   "why": "no local demand ('gas line installation and leak repair delano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__heat-pump-services": {
+   "pass": false,
+   "why": "no local demand ('heat pump installation and repair delano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__indoor-air-quality": {
+   "pass": true,
+   "why": "local angle: farming community, field dust drift",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__leak-detection": {
+   "pass": false,
+   "why": "no local demand ('leak detection delano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__repiping": {
+   "pass": false,
+   "why": "no local demand ('whole house repiping delano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__sewer-line-repair": {
+   "pass": false,
+   "why": "no local demand ('sewer line repair and replacement delano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__slab-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('slab leak repair delano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__sump-pumps": {
+   "pass": false,
+   "why": "implausible here: flat valley slab homes, no basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "delano-ca__toilet-faucet-repair": {
+   "pass": false,
+   "why": "no local demand ('toilet faucet and fixture services delano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__water-heater-installation": {
+   "pass": false,
+   "why": "no local demand ('water heater installation and replacement delano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__water-heater-repair": {
+   "pass": false,
+   "why": "no local demand ('water heater repair delano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "delano-ca__water-softeners-filtration": {
+   "pass": true,
+   "why": "local angle: farming area relies on hard well water",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__ac-installation": {
+   "pass": false,
+   "why": "no local demand ('ac installation and replacement dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__ac-repair": {
+   "pass": false,
+   "why": "no local demand ('air conditioning repair dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__drain-cleaning": {
+   "pass": false,
+   "why": "no local demand ('drain cleaning dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__ductless-mini-splits": {
+   "pass": false,
+   "why": "no local demand ('ductless mini split systems dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__ductwork": {
+   "pass": false,
+   "why": "no local demand ('ductwork repair and installation dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__furnace-installation": {
+   "pass": false,
+   "why": "no local demand ('furnace installation and replacement dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__furnace-repair": {
+   "pass": false,
+   "why": "no local demand ('furnace repair dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__garbage-disposal": {
+   "pass": false,
+   "why": "no local demand ('garbage disposal repair and installation dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__gas-line-services": {
+   "pass": false,
+   "why": "no local demand ('gas line installation and leak repair dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__heat-pump-services": {
+   "pass": false,
+   "why": "no local demand ('heat pump installation and repair dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__indoor-air-quality": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__leak-detection": {
+   "pass": false,
+   "why": "no local demand ('leak detection dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__repiping": {
+   "pass": false,
+   "why": "no local demand ('whole house repiping dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__sewer-line-repair": {
+   "pass": false,
+   "why": "no local demand ('sewer line repair and replacement dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__slab-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('slab leak repair dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__sump-pumps": {
+   "pass": false,
+   "why": "implausible here: flat valley slab homes, no basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "dustin-acres-ca__toilet-faucet-repair": {
+   "pass": false,
+   "why": "no local demand ('toilet faucet and fixture services dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__water-heater-installation": {
+   "pass": false,
+   "why": "no local demand ('water heater installation and replacement dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__water-heater-repair": {
+   "pass": false,
+   "why": "no local demand ('water heater repair dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dustin-acres-ca__water-softeners-filtration": {
+   "pass": false,
+   "why": "no local demand ('water softeners and filtration systems dustin acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__ac-installation": {
+   "pass": false,
+   "why": "no local demand ('ac installation and replacement keene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__ac-repair": {
+   "pass": false,
+   "why": "no local demand ('air conditioning repair keene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__burst-pipe-repair": {
+   "pass": true,
+   "why": "local angle: remote mountain area, hard freezes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__drain-cleaning": {
+   "pass": false,
+   "why": "no local demand ('drain cleaning keene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__ductless-mini-splits": {
+   "pass": false,
+   "why": "no local demand ('ductless mini split systems keene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__ductwork": {
+   "pass": false,
+   "why": "no local demand ('ductwork repair and installation keene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__furnace-installation": {
+   "pass": true,
+   "why": "local angle: remote mountain area, cold winters",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__furnace-repair": {
+   "pass": true,
+   "why": "local angle: remote mountain area, cold winters",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__garbage-disposal": {
+   "pass": false,
+   "why": "no local demand ('garbage disposal repair and installation keene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__gas-line-services": {
+   "pass": false,
+   "why": "no local demand ('gas line installation and leak repair keene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__heat-pump-services": {
+   "pass": false,
+   "why": "no local demand ('heat pump installation and repair keene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__indoor-air-quality": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality keene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__leak-detection": {
+   "pass": false,
+   "why": "no local demand ('leak detection keene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__repiping": {
+   "pass": false,
+   "why": "no local demand ('whole house repiping keene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__sewer-line-repair": {
+   "pass": false,
+   "why": "no local demand ('sewer line repair and replacement keene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__slab-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('slab leak repair keene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__sump-pumps": {
+   "pass": false,
+   "why": "no local demand ('sump pump installation and repair keene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__toilet-faucet-repair": {
+   "pass": false,
+   "why": "no local demand ('toilet faucet and fixture services keene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__water-heater-installation": {
+   "pass": false,
+   "why": "no local demand ('water heater installation and replacement keene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__water-heater-repair": {
+   "pass": false,
+   "why": "no local demand ('water heater repair keene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "keene-ca__water-softeners-filtration": {
+   "pass": false,
+   "why": "no local demand ('water softeners and filtration systems keene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__ac-installation": {
+   "pass": false,
+   "why": "no local demand ('ac installation and replacement lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__ac-repair": {
+   "pass": false,
+   "why": "no local demand ('air conditioning repair lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__drain-cleaning": {
+   "pass": false,
+   "why": "no local demand ('drain cleaning lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__ductless-mini-splits": {
+   "pass": false,
+   "why": "no local demand ('ductless mini split systems lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__ductwork": {
+   "pass": false,
+   "why": "no local demand ('ductwork repair and installation lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__furnace-installation": {
+   "pass": false,
+   "why": "no local demand ('furnace installation and replacement lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__furnace-repair": {
+   "pass": false,
+   "why": "no local demand ('furnace repair lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__garbage-disposal": {
+   "pass": false,
+   "why": "no local demand ('garbage disposal repair and installation lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__gas-line-services": {
+   "pass": false,
+   "why": "no local demand ('gas line installation and leak repair lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__heat-pump-services": {
+   "pass": false,
+   "why": "no local demand ('heat pump installation and repair lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__indoor-air-quality": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__leak-detection": {
+   "pass": false,
+   "why": "no local demand ('leak detection lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__repiping": {
+   "pass": false,
+   "why": "no local demand ('whole house repiping lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__sewer-line-repair": {
+   "pass": false,
+   "why": "no local demand ('sewer line repair and replacement lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__slab-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('slab leak repair lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__sump-pumps": {
+   "pass": false,
+   "why": "implausible here: flat valley slab homes, no basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "lamont-ca__toilet-faucet-repair": {
+   "pass": false,
+   "why": "no local demand ('toilet faucet and fixture services lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__water-heater-installation": {
+   "pass": false,
+   "why": "no local demand ('water heater installation and replacement lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__water-heater-repair": {
+   "pass": false,
+   "why": "no local demand ('water heater repair lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lamont-ca__water-softeners-filtration": {
+   "pass": false,
+   "why": "no local demand ('water softeners and filtration systems lamont' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__ac-installation": {
+   "pass": false,
+   "why": "no local demand ('ac installation and replacement mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__ac-repair": {
+   "pass": false,
+   "why": "no local demand ('air conditioning repair mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__drain-cleaning": {
+   "pass": false,
+   "why": "no local demand ('drain cleaning mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__ductless-mini-splits": {
+   "pass": false,
+   "why": "no local demand ('ductless mini split systems mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__ductwork": {
+   "pass": false,
+   "why": "no local demand ('ductwork repair and installation mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__furnace-installation": {
+   "pass": false,
+   "why": "no local demand ('furnace installation and replacement mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__furnace-repair": {
+   "pass": false,
+   "why": "no local demand ('furnace repair mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__garbage-disposal": {
+   "pass": false,
+   "why": "no local demand ('garbage disposal repair and installation mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__gas-line-services": {
+   "pass": false,
+   "why": "no local demand ('gas line installation and leak repair mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__heat-pump-services": {
+   "pass": false,
+   "why": "no local demand ('heat pump installation and repair mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__indoor-air-quality": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__leak-detection": {
+   "pass": false,
+   "why": "no local demand ('leak detection mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__repiping": {
+   "pass": false,
+   "why": "no local demand ('whole house repiping mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__sewer-line-repair": {
+   "pass": false,
+   "why": "no local demand ('sewer line repair and replacement mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__slab-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('slab leak repair mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__sump-pumps": {
+   "pass": false,
+   "why": "implausible here: flat valley slab homes, no basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "mcfarland-ca__toilet-faucet-repair": {
+   "pass": false,
+   "why": "no local demand ('toilet faucet and fixture services mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__water-heater-installation": {
+   "pass": false,
+   "why": "no local demand ('water heater installation and replacement mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__water-heater-repair": {
+   "pass": false,
+   "why": "no local demand ('water heater repair mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mcfarland-ca__water-softeners-filtration": {
+   "pass": false,
+   "why": "no local demand ('water softeners and filtration systems mcfarland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__ac-installation": {
+   "pass": false,
+   "why": "no local demand ('ac installation and replacement oildale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__ac-repair": {
+   "pass": false,
+   "why": "no local demand ('air conditioning repair oildale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair oildale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__drain-cleaning": {
+   "pass": false,
+   "why": "no local demand ('drain cleaning oildale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__ductless-mini-splits": {
+   "pass": true,
+   "why": "local angle: older oil-town homes lack ductwork",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__ductwork": {
+   "pass": false,
+   "why": "no local demand ('ductwork repair and installation oildale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__furnace-installation": {
+   "pass": false,
+   "why": "no local demand ('furnace installation and replacement oildale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__furnace-repair": {
+   "pass": false,
+   "why": "no local demand ('furnace repair oildale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__garbage-disposal": {
+   "pass": false,
+   "why": "no local demand ('garbage disposal repair and installation oildale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__gas-line-services": {
+   "pass": true,
+   "why": "local angle: legacy oil-field gas infrastructure, leak risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__heat-pump-services": {
+   "pass": false,
+   "why": "no local demand ('heat pump installation and repair oildale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__indoor-air-quality": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality oildale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__leak-detection": {
+   "pass": false,
+   "why": "no local demand ('leak detection oildale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__repiping": {
+   "pass": true,
+   "why": "local angle: older oil-boom era homes need repiping",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__sewer-line-repair": {
+   "pass": true,
+   "why": "local angle: historic oil town, aging sewer infrastructure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__slab-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('slab leak repair oildale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__sump-pumps": {
+   "pass": false,
+   "why": "implausible here: flat valley slab homes, no basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "oildale-ca__toilet-faucet-repair": {
+   "pass": false,
+   "why": "no local demand ('toilet faucet and fixture services oildale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__water-heater-installation": {
+   "pass": false,
+   "why": "no local demand ('water heater installation and replacement oildale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__water-heater-repair": {
+   "pass": false,
+   "why": "no local demand ('water heater repair oildale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oildale-ca__water-softeners-filtration": {
+   "pass": false,
+   "why": "no local demand ('water softeners and filtration systems oildale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__ac-installation": {
+   "pass": false,
+   "why": "no local demand ('ac installation and replacement rosedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__ac-repair": {
+   "pass": false,
+   "why": "no local demand ('air conditioning repair rosedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair rosedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__drain-cleaning": {
+   "pass": false,
+   "why": "no local demand ('drain cleaning rosedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__ductless-mini-splits": {
+   "pass": false,
+   "why": "no local demand ('ductless mini split systems rosedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__ductwork": {
+   "pass": false,
+   "why": "no local demand ('ductwork repair and installation rosedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__furnace-installation": {
+   "pass": false,
+   "why": "no local demand ('furnace installation and replacement rosedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__furnace-repair": {
+   "pass": true,
+   "why": "local demand: 'furnace repair rosedale' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__garbage-disposal": {
+   "pass": false,
+   "why": "no local demand ('garbage disposal repair and installation rosedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__gas-line-services": {
+   "pass": false,
+   "why": "no local demand ('gas line installation and leak repair rosedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__heat-pump-services": {
+   "pass": false,
+   "why": "no local demand ('heat pump installation and repair rosedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__indoor-air-quality": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality rosedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__leak-detection": {
+   "pass": false,
+   "why": "no local demand ('leak detection rosedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__repiping": {
+   "pass": false,
+   "why": "no local demand ('whole house repiping rosedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__sewer-line-repair": {
+   "pass": false,
+   "why": "no local demand ('sewer line repair and replacement rosedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__slab-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('slab leak repair rosedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__sump-pumps": {
+   "pass": false,
+   "why": "implausible here: flat valley slab homes, no basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "rosedale-ca__toilet-faucet-repair": {
+   "pass": false,
+   "why": "no local demand ('toilet faucet and fixture services rosedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__water-heater-installation": {
+   "pass": false,
+   "why": "no local demand ('water heater installation and replacement rosedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__water-heater-repair": {
+   "pass": false,
+   "why": "no local demand ('water heater repair rosedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "rosedale-ca__water-softeners-filtration": {
+   "pass": false,
+   "why": "no local demand ('water softeners and filtration systems rosedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__ac-installation": {
+   "pass": false,
+   "why": "no local demand ('ac installation and replacement shafter' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__ac-repair": {
+   "pass": false,
+   "why": "no local demand ('air conditioning repair shafter' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair shafter' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__drain-cleaning": {
+   "pass": false,
+   "why": "no local demand ('drain cleaning shafter' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__ductless-mini-splits": {
+   "pass": false,
+   "why": "no local demand ('ductless mini split systems shafter' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__ductwork": {
+   "pass": false,
+   "why": "no local demand ('ductwork repair and installation shafter' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__furnace-installation": {
+   "pass": false,
+   "why": "no local demand ('furnace installation and replacement shafter' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__furnace-repair": {
+   "pass": false,
+   "why": "no local demand ('furnace repair shafter' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__garbage-disposal": {
+   "pass": false,
+   "why": "no local demand ('garbage disposal repair and installation shafter' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__gas-line-services": {
+   "pass": false,
+   "why": "no local demand ('gas line installation and leak repair shafter' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__heat-pump-services": {
+   "pass": false,
+   "why": "no local demand ('heat pump installation and repair shafter' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__indoor-air-quality": {
+   "pass": true,
+   "why": "local angle: farm town, pesticide and dust drift",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__leak-detection": {
+   "pass": false,
+   "why": "no local demand ('leak detection shafter' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__repiping": {
+   "pass": false,
+   "why": "no local demand ('whole house repiping shafter' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__sewer-line-repair": {
+   "pass": false,
+   "why": "no local demand ('sewer line repair and replacement shafter' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__slab-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('slab leak repair shafter' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__sump-pumps": {
+   "pass": false,
+   "why": "implausible here: flat valley slab homes, no basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "shafter-ca__toilet-faucet-repair": {
+   "pass": false,
+   "why": "no local demand ('toilet faucet and fixture services shafter' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__water-heater-installation": {
+   "pass": false,
+   "why": "no local demand ('water heater installation and replacement shafter' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__water-heater-repair": {
+   "pass": false,
+   "why": "no local demand ('water heater repair shafter' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "shafter-ca__water-softeners-filtration": {
+   "pass": false,
+   "why": "no local demand ('water softeners and filtration systems shafter' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__ac-installation": {
+   "pass": false,
+   "why": "no local demand ('ac installation and replacement stallion springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__ac-repair": {
+   "pass": false,
+   "why": "no local demand ('air conditioning repair stallion springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__burst-pipe-repair": {
+   "pass": true,
+   "why": "local angle: mountain community, hard winter freezes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__drain-cleaning": {
+   "pass": false,
+   "why": "no local demand ('drain cleaning stallion springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__ductless-mini-splits": {
+   "pass": true,
+   "why": "local angle: mountain cabins lack central ductwork",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__ductwork": {
+   "pass": false,
+   "why": "no local demand ('ductwork repair and installation stallion springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__furnace-installation": {
+   "pass": true,
+   "why": "local angle: mountain community, cold winters",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__furnace-repair": {
+   "pass": true,
+   "why": "local angle: mountain community, cold winters",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__garbage-disposal": {
+   "pass": false,
+   "why": "no local demand ('garbage disposal repair and installation stallion springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__gas-line-services": {
+   "pass": false,
+   "why": "no local demand ('gas line installation and leak repair stallion springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__heat-pump-services": {
+   "pass": true,
+   "why": "local angle: mountain climate, heating and cooling",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__indoor-air-quality": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality stallion springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__leak-detection": {
+   "pass": false,
+   "why": "no local demand ('leak detection stallion springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__repiping": {
+   "pass": false,
+   "why": "no local demand ('whole house repiping stallion springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__sewer-line-repair": {
+   "pass": false,
+   "why": "no local demand ('sewer line repair and replacement stallion springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__slab-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('slab leak repair stallion springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__sump-pumps": {
+   "pass": false,
+   "why": "no local demand ('sump pump installation and repair stallion springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__toilet-faucet-repair": {
+   "pass": false,
+   "why": "no local demand ('toilet faucet and fixture services stallion springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__water-heater-installation": {
+   "pass": false,
+   "why": "no local demand ('water heater installation and replacement stallion springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__water-heater-repair": {
+   "pass": false,
+   "why": "no local demand ('water heater repair stallion springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stallion-springs-ca__water-softeners-filtration": {
+   "pass": false,
+   "why": "no local demand ('water softeners and filtration systems stallion springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__ac-installation": {
+   "pass": true,
+   "why": "local angle: desert oil town, extreme summer heat",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__ac-repair": {
+   "pass": true,
+   "why": "local angle: desert oil town, extreme summer heat",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair taft' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__drain-cleaning": {
+   "pass": false,
+   "why": "no local demand ('drain cleaning taft' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__ductless-mini-splits": {
+   "pass": true,
+   "why": "local angle: older oil-town homes lack ductwork",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__ductwork": {
+   "pass": false,
+   "why": "no local demand ('ductwork repair and installation taft' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__furnace-installation": {
+   "pass": false,
+   "why": "no local demand ('furnace installation and replacement taft' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__furnace-repair": {
+   "pass": false,
+   "why": "no local demand ('furnace repair taft' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__garbage-disposal": {
+   "pass": false,
+   "why": "no local demand ('garbage disposal repair and installation taft' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__gas-line-services": {
+   "pass": true,
+   "why": "local angle: historic oil town, extensive gas lines",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__heat-pump-services": {
+   "pass": false,
+   "why": "no local demand ('heat pump installation and repair taft' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__indoor-air-quality": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality taft' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__leak-detection": {
+   "pass": false,
+   "why": "no local demand ('leak detection taft' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__repiping": {
+   "pass": false,
+   "why": "no local demand ('whole house repiping taft' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__sewer-line-repair": {
+   "pass": false,
+   "why": "no local demand ('sewer line repair and replacement taft' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__slab-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('slab leak repair taft' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__sump-pumps": {
+   "pass": false,
+   "why": "implausible here: flat valley slab homes, no basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "taft-ca__toilet-faucet-repair": {
+   "pass": false,
+   "why": "no local demand ('toilet faucet and fixture services taft' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__water-heater-installation": {
+   "pass": false,
+   "why": "no local demand ('water heater installation and replacement taft' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__water-heater-repair": {
+   "pass": false,
+   "why": "no local demand ('water heater repair taft' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "taft-ca__water-softeners-filtration": {
+   "pass": false,
+   "why": "no local demand ('water softeners and filtration systems taft' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__ac-installation": {
+   "pass": false,
+   "why": "no local demand ('ac installation and replacement tehachapi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__ac-repair": {
+   "pass": true,
+   "why": "local demand: 'air conditioning repair tehachapi' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__burst-pipe-repair": {
+   "pass": true,
+   "why": "local angle: high elevation, hard winter freezes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__drain-cleaning": {
+   "pass": false,
+   "why": "no local demand ('drain cleaning tehachapi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__ductless-mini-splits": {
+   "pass": false,
+   "why": "no local demand ('ductless mini split systems tehachapi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__ductwork": {
+   "pass": false,
+   "why": "no local demand ('ductwork repair and installation tehachapi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__furnace-installation": {
+   "pass": true,
+   "why": "local angle: mountain elevation, cold winters common",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__furnace-repair": {
+   "pass": true,
+   "why": "local angle: mountain elevation, cold winters common",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__garbage-disposal": {
+   "pass": false,
+   "why": "no local demand ('garbage disposal repair and installation tehachapi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__gas-line-services": {
+   "pass": false,
+   "why": "no local demand ('gas line installation and leak repair tehachapi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__heat-pump-services": {
+   "pass": true,
+   "why": "local angle: mountain climate needs heating and cooling",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__indoor-air-quality": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality tehachapi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__leak-detection": {
+   "pass": false,
+   "why": "no local demand ('leak detection tehachapi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__repiping": {
+   "pass": false,
+   "why": "no local demand ('whole house repiping tehachapi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__sewer-line-repair": {
+   "pass": false,
+   "why": "no local demand ('sewer line repair and replacement tehachapi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__slab-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('slab leak repair tehachapi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__sump-pumps": {
+   "pass": false,
+   "why": "no local demand ('sump pump installation and repair tehachapi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__toilet-faucet-repair": {
+   "pass": false,
+   "why": "no local demand ('toilet faucet and fixture services tehachapi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__water-heater-installation": {
+   "pass": false,
+   "why": "no local demand ('water heater installation and replacement tehachapi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__water-heater-repair": {
+   "pass": true,
+   "why": "local demand: 'water heater repair tehachapi' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tehachapi-ca__water-softeners-filtration": {
+   "pass": false,
+   "why": "no local demand ('water softeners and filtration systems tehachapi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__ac-installation": {
+   "pass": false,
+   "why": "no local demand ('ac installation and replacement valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__ac-repair": {
+   "pass": false,
+   "why": "no local demand ('air conditioning repair valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__drain-cleaning": {
+   "pass": false,
+   "why": "no local demand ('drain cleaning valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__ductless-mini-splits": {
+   "pass": false,
+   "why": "no local demand ('ductless mini split systems valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__ductwork": {
+   "pass": false,
+   "why": "no local demand ('ductwork repair and installation valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__furnace-installation": {
+   "pass": false,
+   "why": "no local demand ('furnace installation and replacement valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__furnace-repair": {
+   "pass": false,
+   "why": "no local demand ('furnace repair valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__garbage-disposal": {
+   "pass": false,
+   "why": "no local demand ('garbage disposal repair and installation valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__gas-line-services": {
+   "pass": false,
+   "why": "no local demand ('gas line installation and leak repair valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__heat-pump-services": {
+   "pass": false,
+   "why": "no local demand ('heat pump installation and repair valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__indoor-air-quality": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__leak-detection": {
+   "pass": false,
+   "why": "no local demand ('leak detection valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__repiping": {
+   "pass": false,
+   "why": "no local demand ('whole house repiping valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__sewer-line-repair": {
+   "pass": false,
+   "why": "no local demand ('sewer line repair and replacement valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__slab-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('slab leak repair valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__sump-pumps": {
+   "pass": false,
+   "why": "implausible here: flat valley slab homes, no basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "valley-acres-ca__toilet-faucet-repair": {
+   "pass": false,
+   "why": "no local demand ('toilet faucet and fixture services valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__water-heater-installation": {
+   "pass": false,
+   "why": "no local demand ('water heater installation and replacement valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__water-heater-repair": {
+   "pass": false,
+   "why": "no local demand ('water heater repair valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valley-acres-ca__water-softeners-filtration": {
+   "pass": false,
+   "why": "no local demand ('water softeners and filtration systems valley acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__ac-installation": {
+   "pass": false,
+   "why": "no local demand ('ac installation and replacement wasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__ac-repair": {
+   "pass": false,
+   "why": "no local demand ('air conditioning repair wasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair wasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__drain-cleaning": {
+   "pass": false,
+   "why": "no local demand ('drain cleaning wasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__ductless-mini-splits": {
+   "pass": false,
+   "why": "no local demand ('ductless mini split systems wasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__ductwork": {
+   "pass": false,
+   "why": "no local demand ('ductwork repair and installation wasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__furnace-installation": {
+   "pass": false,
+   "why": "no local demand ('furnace installation and replacement wasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__furnace-repair": {
+   "pass": false,
+   "why": "no local demand ('furnace repair wasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__garbage-disposal": {
+   "pass": false,
+   "why": "no local demand ('garbage disposal repair and installation wasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__gas-line-services": {
+   "pass": false,
+   "why": "no local demand ('gas line installation and leak repair wasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__heat-pump-services": {
+   "pass": false,
+   "why": "no local demand ('heat pump installation and repair wasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__indoor-air-quality": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality wasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__leak-detection": {
+   "pass": false,
+   "why": "no local demand ('leak detection wasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__repiping": {
+   "pass": false,
+   "why": "no local demand ('whole house repiping wasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__sewer-line-repair": {
+   "pass": false,
+   "why": "no local demand ('sewer line repair and replacement wasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__slab-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('slab leak repair wasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__sump-pumps": {
+   "pass": false,
+   "why": "implausible here: flat valley slab homes, no basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "wasco-ca__toilet-faucet-repair": {
+   "pass": false,
+   "why": "no local demand ('toilet faucet and fixture services wasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__water-heater-installation": {
+   "pass": false,
+   "why": "no local demand ('water heater installation and replacement wasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__water-heater-repair": {
+   "pass": false,
+   "why": "no local demand ('water heater repair wasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wasco-ca__water-softeners-filtration": {
+   "pass": true,
+   "why": "local angle: agricultural town, hard groundwater common",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__ac-installation": {
+   "pass": false,
+   "why": "no local demand ('ac installation and replacement weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__ac-repair": {
+   "pass": false,
+   "why": "no local demand ('air conditioning repair weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__drain-cleaning": {
+   "pass": false,
+   "why": "no local demand ('drain cleaning weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__ductless-mini-splits": {
+   "pass": false,
+   "why": "no local demand ('ductless mini split systems weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__ductwork": {
+   "pass": false,
+   "why": "no local demand ('ductwork repair and installation weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__furnace-installation": {
+   "pass": false,
+   "why": "no local demand ('furnace installation and replacement weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__furnace-repair": {
+   "pass": false,
+   "why": "no local demand ('furnace repair weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__garbage-disposal": {
+   "pass": false,
+   "why": "no local demand ('garbage disposal repair and installation weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__gas-line-services": {
+   "pass": false,
+   "why": "no local demand ('gas line installation and leak repair weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__heat-pump-services": {
+   "pass": false,
+   "why": "no local demand ('heat pump installation and repair weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__indoor-air-quality": {
+   "pass": false,
+   "why": "no local demand ('indoor air quality weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__leak-detection": {
+   "pass": false,
+   "why": "no local demand ('leak detection weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__repiping": {
+   "pass": false,
+   "why": "no local demand ('whole house repiping weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__sewer-line-repair": {
+   "pass": false,
+   "why": "no local demand ('sewer line repair and replacement weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__slab-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('slab leak repair weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__sump-pumps": {
+   "pass": false,
+   "why": "implausible here: flat valley slab homes, no basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "weedpatch-ca__toilet-faucet-repair": {
+   "pass": false,
+   "why": "no local demand ('toilet faucet and fixture services weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__water-heater-installation": {
+   "pass": false,
+   "why": "no local demand ('water heater installation and replacement weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__water-heater-repair": {
+   "pass": false,
+   "why": "no local demand ('water heater repair weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "weedpatch-ca__water-softeners-filtration": {
+   "pass": false,
+   "why": "no local demand ('water softeners and filtration systems weedpatch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  }
+ },
+ "offered": {
+  "ac-installation": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "ac-repair": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "burst-pipe-repair": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "drain-cleaning": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "ductless-mini-splits": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "ductwork": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "emergency-plumbing": [
+   "plan-input before core floor (2026-09-24)",
+   "GBP service in the client's words: 'Plumbing'"
+  ],
+  "furnace-installation": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "furnace-repair": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "garbage-disposal": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "gas-line-services": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "heat-pump-services": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "indoor-air-quality": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "leak-detection": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "repiping": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "sewer-line-repair": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "slab-leak-repair": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "sump-pumps": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "toilet-faucet-repair": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "water-heater-installation": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "water-heater-repair": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "water-softeners-filtration": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ]
+ },
+ "metro": "Bakersfield,California,United States",
+ "heads": {
+  "burst-pipe-repair": {
+   "term": "burst pipe repair",
+   "metro": 10
+  },
+  "drain-cleaning": {
+   "term": "drain cleaning",
+   "metro": 100
+  },
+  "sewer-line-repair": {
+   "term": "sewer line repair and replacement",
+   "metro": 0
+  },
+  "water-heater-repair": {
+   "term": "water heater repair",
+   "metro": 110
+  },
+  "water-heater-installation": {
+   "term": "water heater installation and replacement",
+   "metro": 0
+  },
+  "leak-detection": {
+   "term": "leak detection",
+   "metro": 20
+  },
+  "slab-leak-repair": {
+   "term": "slab leak repair",
+   "metro": 20
+  },
+  "repiping": {
+   "term": "whole house repiping",
+   "metro": 10
+  },
+  "gas-line-services": {
+   "term": "gas line installation and leak repair",
+   "metro": 0
+  },
+  "sump-pumps": {
+   "term": "sump pump installation and repair",
+   "metro": 0
+  },
+  "water-softeners-filtration": {
+   "term": "water softeners and filtration systems",
+   "metro": 10
+  },
+  "toilet-faucet-repair": {
+   "term": "toilet faucet and fixture services",
+   "metro": 0
+  },
+  "garbage-disposal": {
+   "term": "garbage disposal repair and installation",
+   "metro": 0
+  },
+  "furnace-repair": {
+   "term": "furnace repair",
+   "metro": 100
+  },
+  "furnace-installation": {
+   "term": "furnace installation and replacement",
+   "metro": 0
+  },
+  "heat-pump-services": {
+   "term": "heat pump installation and repair",
+   "metro": 0
+  },
+  "ac-repair": {
+   "term": "air conditioning repair",
+   "metro": 620
+  },
+  "ac-installation": {
+   "term": "ac installation and replacement",
+   "metro": 0
+  },
+  "ductless-mini-splits": {
+   "term": "ductless mini split systems",
+   "metro": 20
+  },
+  "ductwork": {
+   "term": "ductwork repair and installation",
+   "metro": 0
+  },
+  "indoor-air-quality": {
+   "term": "indoor air quality",
+   "metro": 30
+  }
+ },
+ "updated_at": "2026-10-01T05:03:36+00:00"
+}

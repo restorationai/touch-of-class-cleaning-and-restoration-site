@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "56446af85b8f1fbb"
 generated_at: "2026-09-30T19:28:30.044621+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/austintown-oh/burst-pipe-repair/", "/service-areas/boardman-oh/burst-pipe-repair/", "/service-areas/campbell-oh/burst-pipe-repair/", "/service-areas/canfield-oh/burst-pipe-repair/", "/service-areas/farrell-pa/burst-pipe-repair/", "/service-areas/girard-oh/burst-pipe-repair/", "/service-areas/greenville-pa/burst-pipe-repair/", "/service-areas/grove-city-pa/burst-pipe-repair/", "/service-areas/hermitage-pa/burst-pipe-repair/", "/service-areas/hubbard-oh/burst-pipe-repair/", "/service-areas/mercer-pa/burst-pipe-repair/", "/service-areas/mineral-ridge-oh/burst-pipe-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/austintown-oh/", "/service-areas/boardman-oh/", "/service-areas/campbell-oh/", "/service-areas/canfield-oh/", "/service-areas/farrell-pa/", "/service-areas/girard-oh/", "/service-areas/greenville-pa/", "/service-areas/grove-city-pa/", "/service-areas/hermitage-pa/", "/service-areas/hubbard-oh/", "/service-areas/mercer-pa/", "/service-areas/mineral-ridge-oh/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "burst-pipe-repair"}]
 faq: []
 service_slug: "burst-pipe-repair"

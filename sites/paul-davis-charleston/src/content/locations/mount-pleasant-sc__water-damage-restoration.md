@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "07159c81b70a92d5"
 generated_at: "2026-09-20T14:13:25.010330+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/mount-pleasant-sc/", "/service-areas/mount-pleasant-sc/fire-damage-restoration/", "/service-areas/mount-pleasant-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/goose-creek-sc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/mount-pleasant-sc/", "/service-areas/mount-pleasant-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/goose-creek-sc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mount Pleasant", "url": "/service-areas/mount-pleasant-sc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "mount-pleasant-sc"

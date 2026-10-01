@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "7a74383c9355a7ff"
 generated_at: "2026-09-30T19:28:50.939925+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/basement-flooding-cleanup/", "/service-areas/boulder-city-nv/basement-flooding-cleanup/", "/service-areas/cal-nev-ari-nv/basement-flooding-cleanup/", "/service-areas/enterprise-nv/basement-flooding-cleanup/", "/service-areas/goodsprings-nv/basement-flooding-cleanup/", "/service-areas/indian-springs-nv/basement-flooding-cleanup/", "/service-areas/las-vegas-nv/basement-flooding-cleanup/", "/service-areas/laughlin-nv/basement-flooding-cleanup/", "/service-areas/nellis-afb-nv/basement-flooding-cleanup/", "/service-areas/nelson-nv/basement-flooding-cleanup/", "/service-areas/north-las-vegas-nv/basement-flooding-cleanup/", "/service-areas/paradise-nv/basement-flooding-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/", "/service-areas/enterprise-nv/", "/service-areas/goodsprings-nv/", "/service-areas/indian-springs-nv/", "/service-areas/las-vegas-nv/", "/service-areas/laughlin-nv/", "/service-areas/nellis-afb-nv/", "/service-areas/nelson-nv/", "/service-areas/north-las-vegas-nv/", "/service-areas/paradise-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "basement-flooding-cleanup"}]
 faq: []
 service_slug: "basement-flooding-cleanup"

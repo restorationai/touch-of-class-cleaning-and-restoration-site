@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "b85ffb7f3fa9e2bf"
 generated_at: "2026-09-30T19:28:25.262202+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/smoke-damage-restoration/", "/service-areas/atascadero-ca/smoke-damage-restoration/", "/service-areas/avila-beach-ca/smoke-damage-restoration/", "/service-areas/ballard-ca/smoke-damage-restoration/", "/service-areas/blacklake-ca/smoke-damage-restoration/", "/service-areas/buellton-ca/smoke-damage-restoration/", "/service-areas/callender-ca/smoke-damage-restoration/", "/service-areas/cambria-ca/smoke-damage-restoration/", "/service-areas/edna-ca/smoke-damage-restoration/", "/service-areas/el-paso-de-robles-ca/smoke-damage-restoration/", "/service-areas/grover-beach-ca/smoke-damage-restoration/", "/service-areas/guadalupe-ca/smoke-damage-restoration/", "/blog/fire-damage-restoration-process/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/", "/service-areas/atascadero-ca/", "/service-areas/avila-beach-ca/", "/service-areas/ballard-ca/", "/service-areas/blacklake-ca/", "/service-areas/buellton-ca/", "/service-areas/callender-ca/", "/service-areas/cambria-ca/", "/service-areas/edna-ca/", "/service-areas/el-paso-de-robles-ca/", "/service-areas/grover-beach-ca/", "/service-areas/guadalupe-ca/", "/blog/fire-damage-restoration-process/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "smoke-damage-restoration"}]
 faq: []
 service_slug: "smoke-damage-restoration"

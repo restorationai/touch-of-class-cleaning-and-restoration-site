@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "f6acd929c674d137"
 generated_at: "2026-09-30T19:28:39.579170+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/sewage-cleanup/", "/service-areas/clayton-nc/sewage-cleanup/", "/service-areas/durham-nc/sewage-cleanup/", "/service-areas/elm-city-nc/sewage-cleanup/", "/service-areas/kenly-nc/sewage-cleanup/", "/service-areas/knightdale-nc/sewage-cleanup/", "/service-areas/lake-royale-nc/sewage-cleanup/", "/service-areas/louisburg-nc/sewage-cleanup/", "/service-areas/nashville-nc/sewage-cleanup/", "/service-areas/pine-level-nc/sewage-cleanup/", "/service-areas/raleigh-nc/sewage-cleanup/", "/service-areas/rocky-mount-nc/sewage-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/", "/service-areas/elm-city-nc/", "/service-areas/kenly-nc/", "/service-areas/knightdale-nc/", "/service-areas/lake-royale-nc/", "/service-areas/louisburg-nc/", "/service-areas/nashville-nc/", "/service-areas/pine-level-nc/", "/service-areas/raleigh-nc/", "/service-areas/rocky-mount-nc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Sewage Cleanup and Sanitization"}]
 faq: []
 service_slug: "sewage-cleanup"

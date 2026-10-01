@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "f33b1ad601128b59"
 generated_at: "2026-09-20T19:37:13.575651+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/ravenel-sc/", "/service-areas/ravenel-sc/fire-damage-restoration/", "/service-areas/ravenel-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/folly-beach-sc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/ravenel-sc/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/folly-beach-sc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ravenel", "url": "/service-areas/ravenel-sc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "ravenel-sc"

@@ -10,7 +10,7 @@ priority: 4.9
 plan_hash: "4eb016da69746327"
 generated_at: "2026-09-30T14:12:04.097807+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/decatur-al/", "/service-areas/decatur-al/home-remodeling/", "/service-areas/decatur-al/roofing/", "/service-areas/arab-al/mold-remediation/", "/service-areas/ardmore-al/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/decatur-al/", "/service-areas/decatur-al/home-remodeling/", "/service-areas/decatur-al/roofing/", "/service-areas/arab-al/", "/service-areas/ardmore-al/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Decatur", "url": "/service-areas/decatur-al/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "decatur-al"

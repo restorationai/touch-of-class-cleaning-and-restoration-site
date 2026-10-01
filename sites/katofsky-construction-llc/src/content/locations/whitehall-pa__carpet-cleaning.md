@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "61c6bbd68f13975e"
 generated_at: "2026-09-30T19:28:48.278298+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/whitehall-pa/", "/service-areas/whitehall-pa/fire-damage-restoration/", "/service-areas/whitehall-pa/roofing/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/whitehall-pa/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitehall", "url": "/service-areas/whitehall-pa/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "whitehall-pa"

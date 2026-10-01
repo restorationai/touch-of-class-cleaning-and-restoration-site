@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "f81393e8a0e2f640"
 generated_at: "2026-09-30T19:28:56.908717+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/industrial-restoration/", "/service-areas/east-douglas-ma/industrial-restoration/", "/service-areas/fiskdale-ma/industrial-restoration/", "/service-areas/framingham-ma/industrial-restoration/", "/service-areas/franklin-town-ma/industrial-restoration/", "/service-areas/hopkinton-ma/industrial-restoration/", "/service-areas/hudson-ma/industrial-restoration/", "/service-areas/leominster-ma/industrial-restoration/", "/service-areas/marlborough-ma/industrial-restoration/", "/service-areas/maynard-ma/industrial-restoration/", "/service-areas/milford-ma/industrial-restoration/", "/service-areas/natick-ma/industrial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/service-areas/framingham-ma/", "/service-areas/franklin-town-ma/", "/service-areas/hopkinton-ma/", "/service-areas/hudson-ma/", "/service-areas/leominster-ma/", "/service-areas/marlborough-ma/", "/service-areas/maynard-ma/", "/service-areas/milford-ma/", "/service-areas/natick-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "industrial-restoration"}]
 faq: []
 service_slug: "industrial-restoration"

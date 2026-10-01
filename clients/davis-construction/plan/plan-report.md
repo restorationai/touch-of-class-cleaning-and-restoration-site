@@ -1,19 +1,19 @@
 # Site Plan Report — Davis Construction Contractors
 
 - Template: `construction` v0.1.0
-- Generated: 2026-09-30T14:12:03.287175+00:00
+- Generated: 2026-10-01T05:04:06.737881+00:00
 - Domain: `davisconstructioncontractors.com`
 - Services selected: 14 of 30 catalog entries
 - Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **320**
-- Total internal links: 2574 (avg 8.0 per page)
+- Total URLs: **130**
+- Total internal links: 926 (avg 7.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 266 |
+| `service-area-service` | 76 |
 | `service-area` | 19 |
 | `service-landing` | 14 |
 | `blog-post` | 12 |

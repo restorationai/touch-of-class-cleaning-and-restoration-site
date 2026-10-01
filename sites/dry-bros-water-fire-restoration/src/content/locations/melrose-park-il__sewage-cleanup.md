@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "a09d9c6b22410aad"
 generated_at: "2026-09-24T17:27:58.258731+00:00"
 manual_override: false
-internal_links: ["/services/sewage-cleanup/", "/service-areas/melrose-park-il/", "/service-areas/melrose-park-il/fire-damage-restoration/", "/service-areas/melrose-park-il/mold-remediation/", "/service-areas/bedford-park-il/sewage-cleanup/", "/service-areas/berwyn-il/sewage-cleanup/", "/contact/"]
+internal_links: ["/services/sewage-cleanup/", "/service-areas/melrose-park-il/", "/service-areas/bedford-park-il/", "/service-areas/berwyn-il/sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Melrose Park", "url": "/service-areas/melrose-park-il/"}, {"name": "Sewage Cleanup and Sanitization"}]
 faq: []
 area_slug: "melrose-park-il"

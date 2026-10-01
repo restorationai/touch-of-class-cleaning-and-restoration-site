@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "2a69f59074e83fb0"
 generated_at: "2026-09-30T19:28:43.381529+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/biloxi-ms/", "/service-areas/biloxi-ms/fire-damage-restoration/", "/service-areas/biloxi-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-water-removal/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/biloxi-ms/", "/service-areas/biloxi-ms/fire-damage-restoration/", "/service-areas/biloxi-ms/mold-remediation/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Biloxi", "url": "/service-areas/biloxi-ms/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "biloxi-ms"

@@ -1,21 +1,21 @@
 # Site Plan Report — PuroClean of East Las Vegas
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T19:19:14.903227+00:00
+- Generated: 2026-10-01T05:05:50.175148+00:00
 - Domain: `purocleaneastlasvegas.com`
-- Services selected: 13 of 65 catalog entries
+- Services selected: 24 of 91 catalog entries
 - Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **300**
-- Total internal links: 2414 (avg 8.0 per page)
+- Total URLs: **166**
+- Total internal links: 1223 (avg 7.4 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 247 |
+| `service-area-service` | 102 |
+| `service-landing` | 24 |
 | `service-area` | 19 |
-| `service-landing` | 13 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -35,11 +35,22 @@
 - `burst-frozen-pipes` — Burst & Frozen Pipes (adjacent, priority 5)
 - `commercial-fire-restoration` — Commercial Fire Restoration (adjacent, priority 5)
 - `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 - `commercial-restoration` — Commercial Restoration (core, priority 9)
-- `contents-restoration-pack-out` — Contents Restoration & Pack-Out (adjacent, priority 5)
 - `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
 - `basement-flood-cleanup` — Basement Flood Cleanup (adjacent, priority 5)
+- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
+- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
 
 ## Service areas
 
@@ -72,12 +83,12 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation las vegas |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration las vegas |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration las vegas |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup las vegas |
+| `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration las vegas |
+| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services las vegas |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization las vegas |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup las vegas |
-| `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup las vegas |
-| `/services/mold-inspection-testing/` | `service-landing` | 7.2 | mold inspection and testing las vegas |
-| `/service-areas/blue-diamond-nv/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration blue diamond |
-| `/service-areas/blue-diamond-nv/mold-remediation/` | `service-area-service` | 7.0 | mold remediation blue diamond |
+| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration las vegas |
+| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration las vegas |
 
 ## Validation
 

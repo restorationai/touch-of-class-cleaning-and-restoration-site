@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "a42688d7d9a85224"
 generated_at: "2026-09-30T19:28:35.667648+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/apollo-beach-fl/burst-pipe-repair/", "/service-areas/auburndale-fl/burst-pipe-repair/", "/service-areas/bartow-fl/burst-pipe-repair/", "/service-areas/bradenton-fl/burst-pipe-repair/", "/service-areas/brandon-fl/burst-pipe-repair/", "/service-areas/clearwater-beach-fl/burst-pipe-repair/", "/service-areas/clearwater-fl/burst-pipe-repair/", "/service-areas/crystal-springs-fl/burst-pipe-repair/", "/service-areas/dade-city-fl/burst-pipe-repair/", "/service-areas/davenport-fl/burst-pipe-repair/", "/service-areas/dover-fl/burst-pipe-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anna-maria-fl/", "/service-areas/apollo-beach-fl/", "/service-areas/auburndale-fl/", "/service-areas/bartow-fl/", "/service-areas/bradenton-fl/", "/service-areas/brandon-fl/", "/service-areas/clearwater-beach-fl/", "/service-areas/clearwater-fl/", "/service-areas/crystal-springs-fl/", "/service-areas/dade-city-fl/", "/service-areas/davenport-fl/", "/service-areas/dover-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Burst Pipe Cleanup and Repair"}]
 faq: []
 service_slug: "burst-pipe-repair"

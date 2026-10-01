@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "3e66c4539d78e0e8"
 generated_at: "2026-09-30T19:28:57.222886+00:00"
 manual_override: false
-internal_links: ["/services/sewage-cleanup/", "/service-areas/milford-ma/", "/service-areas/milford-ma/fire-damage-restoration/", "/service-areas/milford-ma/mold-remediation/", "/service-areas/bellingham-ma/sewage-cleanup/", "/service-areas/east-douglas-ma/sewage-cleanup/", "/contact/"]
+internal_links: ["/services/sewage-cleanup/", "/service-areas/milford-ma/", "/service-areas/milford-ma/fire-damage-restoration/", "/service-areas/milford-ma/mold-remediation/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Milford", "url": "/service-areas/milford-ma/"}, {"name": "Sewage Cleanup and Sanitization"}]
 faq: []
 area_slug: "milford-ma"

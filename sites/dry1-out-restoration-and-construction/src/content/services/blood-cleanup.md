@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "7f221607b0fdfc9f"
 generated_at: "2026-09-30T19:28:33.677980+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/blood-cleanup/", "/service-areas/carlsbad-ca/blood-cleanup/", "/service-areas/chula-vista-ca/blood-cleanup/", "/service-areas/concord-ca/blood-cleanup/", "/service-areas/el-cajon-ca/blood-cleanup/", "/service-areas/encinitas-ca/blood-cleanup/", "/service-areas/escondido-ca/blood-cleanup/", "/service-areas/fremont-ca/blood-cleanup/", "/service-areas/hayward-ca/blood-cleanup/", "/service-areas/oakland-ca/blood-cleanup/", "/service-areas/oceanside-ca/blood-cleanup/", "/service-areas/san-diego-ca/blood-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/", "/service-areas/carlsbad-ca/", "/service-areas/chula-vista-ca/", "/service-areas/concord-ca/", "/service-areas/el-cajon-ca/", "/service-areas/encinitas-ca/", "/service-areas/escondido-ca/", "/service-areas/fremont-ca/", "/service-areas/hayward-ca/", "/service-areas/oakland-ca/", "/service-areas/oceanside-ca/", "/service-areas/san-diego-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Blood Cleanup"}]
 faq: []
 service_slug: "blood-cleanup"

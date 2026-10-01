@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "ded8296bd73f1567"
 generated_at: "2026-09-30T19:28:58.481110+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/flood-damage-restoration/", "/service-areas/boulder-city-nv/flood-damage-restoration/", "/service-areas/enterprise-nv/flood-damage-restoration/", "/service-areas/henderson-nv/flood-damage-restoration/", "/service-areas/indian-springs-nv/flood-damage-restoration/", "/service-areas/las-vegas-nv/flood-damage-restoration/", "/service-areas/moapa-town-nv/flood-damage-restoration/", "/service-areas/moapa-valley-nv/flood-damage-restoration/", "/service-areas/mount-charleston-nv/flood-damage-restoration/", "/service-areas/nelson-nv/flood-damage-restoration/", "/service-areas/pahrump-nv/flood-damage-restoration/", "/service-areas/paradise-nv/flood-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/enterprise-nv/", "/service-areas/henderson-nv/", "/service-areas/indian-springs-nv/", "/service-areas/las-vegas-nv/", "/service-areas/moapa-town-nv/", "/service-areas/moapa-valley-nv/", "/service-areas/mount-charleston-nv/", "/service-areas/nelson-nv/", "/service-areas/pahrump-nv/", "/service-areas/paradise-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "flood-damage-restoration"}]
 faq: []
 service_slug: "flood-damage-restoration"

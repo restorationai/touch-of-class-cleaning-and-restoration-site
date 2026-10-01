@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "b25acd5e3ae45b6c"
 generated_at: "2026-09-30T19:28:37.914826+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anderson-island-wa/general-contracting/", "/service-areas/auburn-wa/general-contracting/", "/service-areas/bonney-lake-wa/general-contracting/", "/service-areas/bremerton-wa/general-contracting/", "/service-areas/burien-wa/general-contracting/", "/service-areas/centralia-wa/general-contracting/", "/service-areas/dupont-wa/general-contracting/", "/service-areas/federal-way-wa/general-contracting/", "/service-areas/fife-wa/general-contracting/", "/service-areas/fircrest-wa/general-contracting/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anderson-island-wa/", "/service-areas/auburn-wa/", "/service-areas/bonney-lake-wa/", "/service-areas/bremerton-wa/", "/service-areas/burien-wa/", "/service-areas/centralia-wa/", "/service-areas/dupont-wa/", "/service-areas/federal-way-wa/", "/service-areas/fife-wa/", "/service-areas/fircrest-wa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "general-contracting"}]
 faq: []
 service_slug: "general-contracting"

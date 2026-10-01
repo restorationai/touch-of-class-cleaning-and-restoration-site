@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "e3c0d9672451ace0"
 generated_at: "2026-09-30T19:28:35.671025+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anna-maria-fl/smoke-damage-restoration/", "/service-areas/apollo-beach-fl/smoke-damage-restoration/", "/service-areas/auburndale-fl/smoke-damage-restoration/", "/service-areas/bartow-fl/smoke-damage-restoration/", "/service-areas/bradenton-fl/smoke-damage-restoration/", "/service-areas/brandon-fl/smoke-damage-restoration/", "/service-areas/clearwater-beach-fl/smoke-damage-restoration/", "/service-areas/clearwater-fl/smoke-damage-restoration/", "/service-areas/crystal-springs-fl/smoke-damage-restoration/", "/service-areas/dade-city-fl/smoke-damage-restoration/", "/service-areas/davenport-fl/smoke-damage-restoration/", "/service-areas/dover-fl/smoke-damage-restoration/", "/blog/fire-damage-restoration-process/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anna-maria-fl/", "/service-areas/apollo-beach-fl/", "/service-areas/auburndale-fl/", "/service-areas/bartow-fl/", "/service-areas/bradenton-fl/", "/service-areas/brandon-fl/", "/service-areas/clearwater-beach-fl/", "/service-areas/clearwater-fl/", "/service-areas/crystal-springs-fl/", "/service-areas/dade-city-fl/", "/service-areas/davenport-fl/", "/service-areas/dover-fl/", "/blog/fire-damage-restoration-process/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Smoke Damage Restoration"}]
 faq: []
 service_slug: "smoke-damage-restoration"

@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "57da55709484829d"
 generated_at: "2026-09-30T19:29:02.383214+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/avenel-nj/ceiling-water-damage-repair/", "/service-areas/bayonne-nj/ceiling-water-damage-repair/", "/service-areas/bloomfield-nj/ceiling-water-damage-repair/", "/service-areas/bridgewater-nj/ceiling-water-damage-repair/", "/service-areas/brooklyn-ny/ceiling-water-damage-repair/", "/service-areas/carteret-nj/ceiling-water-damage-repair/", "/service-areas/chatham-nj/ceiling-water-damage-repair/", "/service-areas/clark-nj/ceiling-water-damage-repair/", "/service-areas/clifton-nj/ceiling-water-damage-repair/", "/service-areas/colonia-nj/ceiling-water-damage-repair/", "/service-areas/cranford-nj/ceiling-water-damage-repair/", "/service-areas/east-brunswick-nj/ceiling-water-damage-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/avenel-nj/", "/service-areas/bayonne-nj/", "/service-areas/bloomfield-nj/", "/service-areas/bridgewater-nj/", "/service-areas/brooklyn-ny/", "/service-areas/carteret-nj/", "/service-areas/chatham-nj/", "/service-areas/clark-nj/", "/service-areas/clifton-nj/", "/service-areas/colonia-nj/", "/service-areas/cranford-nj/", "/service-areas/east-brunswick-nj/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "ceiling-water-damage-repair"}]
 faq: []
 service_slug: "ceiling-water-damage-repair"

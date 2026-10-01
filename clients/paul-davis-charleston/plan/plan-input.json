@@ -113,5 +113,13 @@
       "state": "SC",
       "slug": "bonneau-sc"
     }
-  ]
+  ],
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration"
+  ],
+  "merged_services": {
+    "water-cleanup": "emergency-water-removal"
+  }
 }

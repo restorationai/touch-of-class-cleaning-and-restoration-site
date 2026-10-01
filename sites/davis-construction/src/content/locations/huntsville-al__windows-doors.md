@@ -10,7 +10,7 @@ priority: 4.9
 plan_hash: "3e088771bfff006b"
 generated_at: "2026-09-30T14:12:04.051275+00:00"
 manual_override: false
-internal_links: ["/services/windows-doors/", "/service-areas/huntsville-al/", "/service-areas/huntsville-al/home-remodeling/", "/service-areas/huntsville-al/roofing/", "/service-areas/arab-al/windows-doors/", "/service-areas/ardmore-al/windows-doors/", "/contact/"]
+internal_links: ["/services/windows-doors/", "/service-areas/huntsville-al/", "/service-areas/huntsville-al/home-remodeling/", "/service-areas/huntsville-al/roofing/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Huntsville", "url": "/service-areas/huntsville-al/"}, {"name": "Window and Door Installation"}]
 faq: []
 area_slug: "huntsville-al"

@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "5b3ce10e06350537"
 generated_at: "2026-09-20T14:13:25.008798+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/north-charleston-sc/fire-damage-restoration/", "/service-areas/north-charleston-sc/mold-remediation/", "/service-areas/north-charleston-sc/water-damage-restoration/", "/service-areas/north-charleston-sc/emergency-water-removal/", "/service-areas/awendaw-sc/", "/service-areas/goose-creek-sc/", "/service-areas/hanahan-sc/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/north-charleston-sc/fire-damage-restoration/", "/service-areas/north-charleston-sc/mold-remediation/", "/service-areas/north-charleston-sc/water-damage-restoration/", "/service-areas/north-charleston-sc/", "/service-areas/awendaw-sc/", "/service-areas/goose-creek-sc/", "/service-areas/hanahan-sc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Charleston"}]
 faq: []
 area_slug: "north-charleston-sc"

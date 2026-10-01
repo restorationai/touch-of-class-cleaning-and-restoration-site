@@ -10,7 +10,7 @@ priority: 4.2
 plan_hash: "ace8ffb0782ea29f"
 generated_at: "2026-09-30T19:28:56.919503+00:00"
 manual_override: false
-internal_links: ["/services/asbestos-abatement/", "/service-areas/worcester-ma/", "/service-areas/worcester-ma/fire-damage-restoration/", "/service-areas/worcester-ma/mold-remediation/", "/service-areas/bellingham-ma/asbestos-abatement/", "/service-areas/east-douglas-ma/asbestos-abatement/", "/contact/"]
+internal_links: ["/services/asbestos-abatement/", "/service-areas/worcester-ma/", "/service-areas/worcester-ma/fire-damage-restoration/", "/service-areas/worcester-ma/mold-remediation/", "/service-areas/bellingham-ma/asbestos-abatement/", "/service-areas/east-douglas-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Worcester", "url": "/service-areas/worcester-ma/"}, {"name": "Asbestos Abatement"}]
 faq: []
 area_slug: "worcester-ma"

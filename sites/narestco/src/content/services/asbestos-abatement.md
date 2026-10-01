@@ -10,7 +10,7 @@ priority: 5.4
 plan_hash: "a75e35db739dbfd1"
 generated_at: "2026-09-30T19:28:52.905537+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/asbestos-abatement/", "/service-areas/auburn-wa/asbestos-abatement/", "/service-areas/bellevue-wa/asbestos-abatement/", "/service-areas/bremerton-wa/asbestos-abatement/", "/service-areas/burien-wa/asbestos-abatement/", "/service-areas/des-moines-wa/asbestos-abatement/", "/service-areas/edgewood-wa/asbestos-abatement/", "/service-areas/everett-wa/asbestos-abatement/", "/service-areas/fife-wa/asbestos-abatement/", "/service-areas/gig-harbor-wa/asbestos-abatement/", "/service-areas/kent-wa/asbestos-abatement/", "/service-areas/kirkland-wa/asbestos-abatement/"]
+internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/", "/service-areas/auburn-wa/", "/service-areas/bellevue-wa/", "/service-areas/bremerton-wa/", "/service-areas/burien-wa/", "/service-areas/des-moines-wa/", "/service-areas/edgewood-wa/", "/service-areas/everett-wa/", "/service-areas/fife-wa/", "/service-areas/gig-harbor-wa/", "/service-areas/kent-wa/", "/service-areas/kirkland-wa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Asbestos Abatement"}]
 faq: []
 service_slug: "asbestos-abatement"

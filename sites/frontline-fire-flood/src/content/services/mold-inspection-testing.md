@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "0f19432c55f20d4a"
 generated_at: "2026-09-30T19:28:37.914579+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anderson-island-wa/mold-inspection-testing/", "/service-areas/auburn-wa/mold-inspection-testing/", "/service-areas/bonney-lake-wa/mold-inspection-testing/", "/service-areas/bremerton-wa/mold-inspection-testing/", "/service-areas/burien-wa/mold-inspection-testing/", "/service-areas/centralia-wa/mold-inspection-testing/", "/service-areas/dupont-wa/mold-inspection-testing/", "/service-areas/federal-way-wa/mold-inspection-testing/", "/service-areas/fife-wa/mold-inspection-testing/", "/service-areas/fircrest-wa/mold-inspection-testing/", "/blog/how-to-test-for-mold/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anderson-island-wa/", "/service-areas/auburn-wa/", "/service-areas/bonney-lake-wa/", "/service-areas/bremerton-wa/", "/service-areas/burien-wa/", "/service-areas/centralia-wa/", "/service-areas/dupont-wa/", "/service-areas/federal-way-wa/", "/service-areas/fife-wa/", "/service-areas/fircrest-wa/", "/blog/how-to-test-for-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "mold-inspection-testing"}]
 faq: []
 service_slug: "mold-inspection-testing"

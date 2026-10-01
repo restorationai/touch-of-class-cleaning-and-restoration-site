@@ -600,16 +600,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/warren-mi/ice-dams/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/warren-mi/sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1171,16 +1161,6 @@
     "missing_stubs": []
   },
   "/service-areas/troy-mi/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rochester-hills-mi/content-recovery/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "48a73072a882a020"
 generated_at: "2026-09-30T19:28:33.685197+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/reconstruction/", "/service-areas/carlsbad-ca/reconstruction/", "/service-areas/chula-vista-ca/reconstruction/", "/service-areas/concord-ca/reconstruction/", "/service-areas/el-cajon-ca/reconstruction/", "/service-areas/encinitas-ca/reconstruction/", "/service-areas/escondido-ca/reconstruction/", "/service-areas/fremont-ca/reconstruction/", "/service-areas/hayward-ca/reconstruction/", "/service-areas/oakland-ca/reconstruction/", "/service-areas/oceanside-ca/reconstruction/", "/service-areas/san-diego-ca/reconstruction/"]
+internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/", "/service-areas/carlsbad-ca/", "/service-areas/chula-vista-ca/", "/service-areas/concord-ca/", "/service-areas/el-cajon-ca/", "/service-areas/encinitas-ca/", "/service-areas/escondido-ca/", "/service-areas/fremont-ca/", "/service-areas/hayward-ca/", "/service-areas/oakland-ca/", "/service-areas/oceanside-ca/", "/service-areas/san-diego-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "reconstruction"}]
 faq: []
 service_slug: "reconstruction"

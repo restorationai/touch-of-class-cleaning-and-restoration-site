@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "27cd7c82f4aad822"
 generated_at: "2026-09-20T14:13:25.009611+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/sullivan-s-island-sc/fire-damage-restoration/", "/service-areas/sullivan-s-island-sc/mold-remediation/", "/service-areas/sullivan-s-island-sc/water-damage-restoration/", "/service-areas/sullivan-s-island-sc/emergency-water-removal/", "/service-areas/awendaw-sc/", "/service-areas/goose-creek-sc/", "/service-areas/hanahan-sc/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/sullivan-s-island-sc/", "/service-areas/sullivan-s-island-sc/mold-remediation/", "/service-areas/sullivan-s-island-sc/water-damage-restoration/", "/service-areas/sullivan-s-island-sc/emergency-water-removal/", "/service-areas/awendaw-sc/", "/service-areas/goose-creek-sc/", "/service-areas/hanahan-sc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sullivan's Island"}]
 faq: []
 area_slug: "sullivan-s-island-sc"

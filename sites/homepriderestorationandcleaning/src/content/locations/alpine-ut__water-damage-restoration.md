@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "1686ed08e41cbf0f"
 generated_at: "2026-09-30T19:28:45.314683+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/water-damage-restoration/", "/service-areas/benjamin-ut/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/alpine-ut/", "/service-areas/american-fork-ut/water-damage-restoration/", "/service-areas/benjamin-ut/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alpine", "url": "/service-areas/alpine-ut/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "alpine-ut"

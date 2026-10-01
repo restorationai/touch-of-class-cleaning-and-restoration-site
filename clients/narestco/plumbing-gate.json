@@ -1,0 +1,13 @@
+{
+  "slug": "narestco",
+  "allowed": false,
+  "reason": "no plumbing name confirmed, no plumbing DBA, not a licensed plumber",
+  "evidence": {
+    "company_id": "CO-1771290587387",
+    "gbp_title": "National Restoration Construction LLC",
+    "rename_intent": {},
+    "chosen_names": []
+  },
+  "checked_at": "2026-10-01T04:49:00+00:00",
+  "source": "supabase"
+}

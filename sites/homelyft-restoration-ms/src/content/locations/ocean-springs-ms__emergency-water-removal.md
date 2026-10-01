@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "ea78a6b02ce5ef25"
 generated_at: "2026-09-30T19:28:43.537800+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/ocean-springs-ms/", "/service-areas/ocean-springs-ms/fire-damage-restoration/", "/service-areas/ocean-springs-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-water-removal/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/ocean-springs-ms/", "/service-areas/ocean-springs-ms/fire-damage-restoration/", "/service-areas/ocean-springs-ms/mold-remediation/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ocean Springs", "url": "/service-areas/ocean-springs-ms/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "ocean-springs-ms"

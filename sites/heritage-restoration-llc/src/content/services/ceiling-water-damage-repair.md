@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "a81d214d21161b09"
 generated_at: "2026-09-30T19:28:41.594022+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/ceiling-water-damage-repair/", "/service-areas/avon-mn/ceiling-water-damage-repair/", "/service-areas/baxter-mn/ceiling-water-damage-repair/", "/service-areas/brainerd-mn/ceiling-water-damage-repair/", "/service-areas/elmdale-mn/ceiling-water-damage-repair/", "/service-areas/flensburg-mn/ceiling-water-damage-repair/", "/service-areas/foley-mn/ceiling-water-damage-repair/", "/service-areas/fort-ripley-mn/ceiling-water-damage-repair/", "/service-areas/harding-mn/ceiling-water-damage-repair/", "/service-areas/long-prairie-mn/ceiling-water-damage-repair/", "/service-areas/pierz-mn/ceiling-water-damage-repair/", "/service-areas/randall-mn/ceiling-water-damage-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/", "/service-areas/avon-mn/", "/service-areas/baxter-mn/", "/service-areas/brainerd-mn/", "/service-areas/elmdale-mn/", "/service-areas/flensburg-mn/", "/service-areas/foley-mn/", "/service-areas/fort-ripley-mn/", "/service-areas/harding-mn/", "/service-areas/long-prairie-mn/", "/service-areas/pierz-mn/", "/service-areas/randall-mn/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Ceiling Water Damage Repair"}]
 faq: []
 service_slug: "ceiling-water-damage-repair"

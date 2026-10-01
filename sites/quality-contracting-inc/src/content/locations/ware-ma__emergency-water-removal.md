@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "265b131f1d633805"
 generated_at: "2026-09-30T19:28:57.266516+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/ware-ma/", "/service-areas/ware-ma/fire-damage-restoration/", "/service-areas/ware-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-water-removal/", "/service-areas/east-douglas-ma/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/ware-ma/", "/service-areas/bellingham-ma/emergency-water-removal/", "/service-areas/east-douglas-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ware", "url": "/service-areas/ware-ma/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "ware-ma"

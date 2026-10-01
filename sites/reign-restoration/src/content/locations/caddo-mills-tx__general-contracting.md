@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "ff9d9fde849bd1f4"
 generated_at: "2026-09-30T19:29:00.365887+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/caddo-mills-tx/", "/service-areas/caddo-mills-tx/fire-damage-restoration/", "/service-areas/caddo-mills-tx/mold-remediation/", "/service-areas/allen-tx/general-contracting/", "/service-areas/dallas-tx/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/caddo-mills-tx/", "/service-areas/allen-tx/general-contracting/", "/service-areas/dallas-tx/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Caddo Mills", "url": "/service-areas/caddo-mills-tx/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "caddo-mills-tx"

@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "38310df618f7441d"
 generated_at: "2026-09-30T19:29:00.376613+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/farmersville-tx/", "/service-areas/farmersville-tx/fire-damage-restoration/", "/service-areas/farmersville-tx/mold-remediation/", "/service-areas/allen-tx/general-contracting/", "/service-areas/caddo-mills-tx/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/farmersville-tx/", "/service-areas/allen-tx/general-contracting/", "/service-areas/caddo-mills-tx/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Farmersville", "url": "/service-areas/farmersville-tx/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "farmersville-tx"

@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "7904fb9168a78731"
 generated_at: "2026-09-30T19:28:54.516627+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/industrial-restoration/", "/service-areas/bear-valley-springs-ca/industrial-restoration/", "/service-areas/buttonwillow-ca/industrial-restoration/", "/service-areas/delano-ca/industrial-restoration/", "/service-areas/dustin-acres-ca/industrial-restoration/", "/service-areas/east-niles-ca/industrial-restoration/", "/service-areas/keene-ca/industrial-restoration/", "/service-areas/lake-isabella-ca/industrial-restoration/", "/service-areas/lamont-ca/industrial-restoration/", "/service-areas/maricopa-ca/industrial-restoration/", "/service-areas/mcfarland-ca/industrial-restoration/", "/service-areas/oildale-ca/industrial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/", "/service-areas/bear-valley-springs-ca/", "/service-areas/buttonwillow-ca/", "/service-areas/delano-ca/", "/service-areas/dustin-acres-ca/", "/service-areas/east-niles-ca/", "/service-areas/keene-ca/", "/service-areas/lake-isabella-ca/", "/service-areas/lamont-ca/", "/service-areas/maricopa-ca/", "/service-areas/mcfarland-ca/", "/service-areas/oildale-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "industrial-restoration"}]
 faq: []
 service_slug: "industrial-restoration"

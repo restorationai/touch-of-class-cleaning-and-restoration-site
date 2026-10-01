@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "8700271713ea39aa"
 generated_at: "2026-09-30T19:28:58.573904+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/nelson-nv/", "/service-areas/nelson-nv/fire-damage-restoration/", "/service-areas/nelson-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/nelson-nv/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nelson", "url": "/service-areas/nelson-nv/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "nelson-nv"

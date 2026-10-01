@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "9259290255aadfc6"
 generated_at: "2026-09-30T19:28:32.681916+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/odor-removal/", "/service-areas/chino-ca/odor-removal/", "/service-areas/chino-hills-ca/odor-removal/", "/service-areas/eastvale-ca/odor-removal/", "/service-areas/fontana-ca/odor-removal/", "/service-areas/fullerton-ca/odor-removal/", "/service-areas/jurupa-valley-ca/odor-removal/", "/service-areas/lake-mathews-ca/odor-removal/", "/service-areas/montclair-ca/odor-removal/", "/service-areas/norco-ca/odor-removal/", "/service-areas/north-tustin-ca/odor-removal/", "/service-areas/ontario-ca/odor-removal/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/", "/service-areas/eastvale-ca/", "/service-areas/fontana-ca/", "/service-areas/fullerton-ca/", "/service-areas/jurupa-valley-ca/", "/service-areas/lake-mathews-ca/", "/service-areas/montclair-ca/", "/service-areas/norco-ca/", "/service-areas/north-tustin-ca/", "/service-areas/ontario-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 service_slug: "odor-removal"

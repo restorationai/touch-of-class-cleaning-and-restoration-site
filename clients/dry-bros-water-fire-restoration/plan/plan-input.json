@@ -6,7 +6,7 @@
     "phone": "(877) 379-2767",
     "email": "amin.mashouf@gmail.com",
     "street_address": "3918 W 63rd ST",
-    "city": "chicago",
+    "city": "Chicago",
     "state": "il",
     "postal_code": "60629",
     "theme": "light",
@@ -42,6 +42,7 @@
     "water-damage-restoration",
     "fire-damage-restoration",
     "mold-remediation",
+    "emergency-water-removal",
     "flood-damage-restoration",
     "burst-pipe-repair",
     "basement-flooding-cleanup",
@@ -166,5 +167,16 @@
     }
   ],
   "template": "restoration",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "flood-damage-restoration",
+    "sewage-cleanup",
+    "smoke-damage-restoration"
+  ],
+  "merged_services": {
+    "water-cleanup": "emergency-water-removal"
+  }
 }

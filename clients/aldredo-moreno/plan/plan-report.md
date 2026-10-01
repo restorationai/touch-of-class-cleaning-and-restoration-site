@@ -1,20 +1,20 @@
 # Site Plan Report — ACS Enterprise 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T21:36:57.373160+00:00
+- Generated: 2026-10-01T05:03:04.595138+00:00
 - Domain: `theacsenterprises.com`
-- Services selected: 25 of 91 catalog entries
+- Services selected: 24 of 91 catalog entries
 - Service areas: 16
 - Cross-product enabled: True
-- Total URLs: **432**
-- Total internal links: 3580 (avg 8.3 per page)
+- Total URLs: **191**
+- Total internal links: 1464 (avg 7.7 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 375 |
-| `service-landing` | 25 |
+| `service-area-service` | 135 |
+| `service-landing` | 24 |
 | `service-area` | 15 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -51,7 +51,6 @@
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
 
@@ -80,12 +79,12 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation midland |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration midland |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration midland |
-| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing midland |
 | `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup midland |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration midland |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services midland |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization midland |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration midland |
+| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration midland |
 
 ## Validation
 

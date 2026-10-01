@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "cffc672b0c971946"
 generated_at: "2026-09-20T14:13:48.584216+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/silverado-ca/ac-repair/", "/service-areas/silverado-ca/drain-cleaning/", "/service-areas/silverado-ca/emergency-plumbing/", "/service-areas/silverado-ca/water-heater-repair/", "/service-areas/silverado-ca/furnace-repair/", "/service-areas/silverado-ca/water-heater-installation/", "/service-areas/silverado-ca/leak-detection/", "/service-areas/silverado-ca/repiping/", "/service-areas/silverado-ca/toilet-faucet-repair/", "/service-areas/silverado-ca/indoor-air-quality/", "/service-areas/silverado-ca/water-softeners-filtration/", "/service-areas/silverado-ca/garbage-disposal/", "/service-areas/anaheim-ca/", "/service-areas/bloomington-ca/", "/service-areas/canyon-lake-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/silverado-ca/", "/service-areas/silverado-ca/emergency-plumbing/", "/service-areas/anaheim-ca/", "/service-areas/bloomington-ca/", "/service-areas/canyon-lake-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Silverado"}]
 faq: []
 area_slug: "silverado-ca"

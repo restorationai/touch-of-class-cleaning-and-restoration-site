@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "fa300b10244e0023"
 generated_at: "2026-09-30T19:28:32.678898+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/burst-pipe-repair/", "/service-areas/chino-ca/burst-pipe-repair/", "/service-areas/chino-hills-ca/burst-pipe-repair/", "/service-areas/eastvale-ca/burst-pipe-repair/", "/service-areas/fontana-ca/burst-pipe-repair/", "/service-areas/fullerton-ca/burst-pipe-repair/", "/service-areas/jurupa-valley-ca/burst-pipe-repair/", "/service-areas/lake-mathews-ca/burst-pipe-repair/", "/service-areas/montclair-ca/burst-pipe-repair/", "/service-areas/norco-ca/burst-pipe-repair/", "/service-areas/north-tustin-ca/burst-pipe-repair/", "/service-areas/ontario-ca/burst-pipe-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/", "/service-areas/eastvale-ca/", "/service-areas/fontana-ca/", "/service-areas/fullerton-ca/", "/service-areas/jurupa-valley-ca/", "/service-areas/lake-mathews-ca/", "/service-areas/montclair-ca/", "/service-areas/norco-ca/", "/service-areas/north-tustin-ca/", "/service-areas/ontario-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Burst Pipe Cleanup and Repair"}]
 faq: []
 service_slug: "burst-pipe-repair"

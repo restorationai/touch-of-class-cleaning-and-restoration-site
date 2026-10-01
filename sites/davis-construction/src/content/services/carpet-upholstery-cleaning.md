@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "7e09f35a93a1966c"
 generated_at: "2026-09-30T14:12:04.043367+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arab-al/carpet-upholstery-cleaning/", "/service-areas/ardmore-al/carpet-upholstery-cleaning/", "/service-areas/athens-al/carpet-upholstery-cleaning/", "/service-areas/decatur-al/carpet-upholstery-cleaning/", "/service-areas/elkmont-al/carpet-upholstery-cleaning/", "/service-areas/gurley-al/carpet-upholstery-cleaning/", "/service-areas/hartselle-al/carpet-upholstery-cleaning/", "/service-areas/harvest-al/carpet-upholstery-cleaning/", "/service-areas/hazel-green-al/carpet-upholstery-cleaning/", "/service-areas/huntsville-al/carpet-upholstery-cleaning/", "/service-areas/meridianville-al/carpet-upholstery-cleaning/", "/service-areas/moores-mill-al/carpet-upholstery-cleaning/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/", "/service-areas/decatur-al/", "/service-areas/elkmont-al/", "/service-areas/gurley-al/", "/service-areas/hartselle-al/", "/service-areas/harvest-al/", "/service-areas/hazel-green-al/", "/service-areas/huntsville-al/", "/service-areas/meridianville-al/", "/service-areas/moores-mill-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Carpet & Upholstery Cleaning"}]
 faq: []
 service_slug: "carpet-upholstery-cleaning"

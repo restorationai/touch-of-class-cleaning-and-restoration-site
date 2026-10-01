@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "403e9dafa1a6e253"
 generated_at: "2026-09-30T19:28:50.980202+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/goodsprings-nv/", "/service-areas/goodsprings-nv/fire-damage-restoration/", "/service-areas/goodsprings-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/goodsprings-nv/", "/service-areas/blue-diamond-nv/water-damage-restoration/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Goodsprings", "url": "/service-areas/goodsprings-nv/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "goodsprings-nv"

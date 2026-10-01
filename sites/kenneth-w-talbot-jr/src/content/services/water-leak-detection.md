@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "175bc63e06368bdf"
 generated_at: "2026-09-30T19:28:49.210462+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/crestview-fl/water-leak-detection/", "/service-areas/defuniak-springs-fl/water-leak-detection/", "/service-areas/destin-fl/water-leak-detection/", "/service-areas/ebro-fl/water-leak-detection/", "/service-areas/eglin-afb-fl/water-leak-detection/", "/service-areas/fort-walton-beach-fl/water-leak-detection/", "/service-areas/harold-fl/water-leak-detection/", "/service-areas/hurlburt-field-fl/water-leak-detection/", "/service-areas/laurel-hill-fl/water-leak-detection/", "/service-areas/miramar-beach-fl/water-leak-detection/", "/service-areas/navarre-fl/water-leak-detection/", "/service-areas/niceville-fl/water-leak-detection/"]
+internal_links: ["/services/", "/contact/", "/service-areas/crestview-fl/", "/service-areas/defuniak-springs-fl/", "/service-areas/destin-fl/", "/service-areas/ebro-fl/", "/service-areas/eglin-afb-fl/", "/service-areas/fort-walton-beach-fl/", "/service-areas/harold-fl/", "/service-areas/hurlburt-field-fl/", "/service-areas/laurel-hill-fl/", "/service-areas/miramar-beach-fl/", "/service-areas/navarre-fl/", "/service-areas/niceville-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-leak-detection"}]
 faq: []
 service_slug: "water-leak-detection"

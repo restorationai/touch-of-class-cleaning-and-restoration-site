@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "a0c7ddd0fc13e477"
 generated_at: "2026-09-30T19:28:50.945202+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/las-vegas-nv/", "/service-areas/las-vegas-nv/fire-damage-restoration/", "/service-areas/las-vegas-nv/mold-remediation/", "/service-areas/blue-diamond-nv/emergency-water-removal/", "/service-areas/boulder-city-nv/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/las-vegas-nv/", "/service-areas/las-vegas-nv/fire-damage-restoration/", "/service-areas/las-vegas-nv/mold-remediation/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Las Vegas", "url": "/service-areas/las-vegas-nv/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "las-vegas-nv"

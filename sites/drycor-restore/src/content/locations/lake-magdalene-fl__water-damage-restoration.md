@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "00462802a0a0d027"
 generated_at: "2026-09-30T19:28:35.992468+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/lake-magdalene-fl/", "/service-areas/lake-magdalene-fl/fire-damage-restoration/", "/service-areas/lake-magdalene-fl/mold-remediation/", "/service-areas/anna-maria-fl/water-damage-restoration/", "/service-areas/apollo-beach-fl/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/lake-magdalene-fl/", "/service-areas/anna-maria-fl/water-damage-restoration/", "/service-areas/apollo-beach-fl/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Magdalene", "url": "/service-areas/lake-magdalene-fl/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "lake-magdalene-fl"

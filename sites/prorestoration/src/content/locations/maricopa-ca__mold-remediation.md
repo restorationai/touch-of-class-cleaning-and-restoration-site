@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "fefc4a55011aadee"
 generated_at: "2026-09-30T19:28:54.690563+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/maricopa-ca/", "/service-areas/maricopa-ca/fire-damage-restoration/", "/service-areas/maricopa-ca/home-remodeling/", "/service-areas/arvin-ca/mold-remediation/", "/service-areas/bear-valley-springs-ca/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/maricopa-ca/", "/service-areas/arvin-ca/mold-remediation/", "/service-areas/bear-valley-springs-ca/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Maricopa", "url": "/service-areas/maricopa-ca/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "maricopa-ca"

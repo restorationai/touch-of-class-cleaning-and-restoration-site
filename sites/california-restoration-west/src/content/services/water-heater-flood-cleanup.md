@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "93f4018bc59e487e"
 generated_at: "2026-09-30T19:28:23.367823+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/camarillo-ca/water-heater-flood-cleanup/", "/service-areas/carpinteria-ca/water-heater-flood-cleanup/", "/service-areas/castaic-ca/water-heater-flood-cleanup/", "/service-areas/fillmore-ca/water-heater-flood-cleanup/", "/service-areas/hasley-canyon-ca/water-heater-flood-cleanup/", "/service-areas/lake-sherwood-ca/water-heater-flood-cleanup/", "/service-areas/mira-monte-ca/water-heater-flood-cleanup/", "/service-areas/moorpark-ca/water-heater-flood-cleanup/", "/service-areas/oak-park-ca/water-heater-flood-cleanup/", "/service-areas/oak-view-ca/water-heater-flood-cleanup/", "/service-areas/ojai-ca/water-heater-flood-cleanup/", "/service-areas/oxnard-ca/water-heater-flood-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/camarillo-ca/", "/service-areas/carpinteria-ca/", "/service-areas/castaic-ca/", "/service-areas/fillmore-ca/", "/service-areas/hasley-canyon-ca/", "/service-areas/lake-sherwood-ca/", "/service-areas/mira-monte-ca/", "/service-areas/moorpark-ca/", "/service-areas/oak-park-ca/", "/service-areas/oak-view-ca/", "/service-areas/ojai-ca/", "/service-areas/oxnard-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-heater-flood-cleanup"}]
 faq: []
 service_slug: "water-heater-flood-cleanup"

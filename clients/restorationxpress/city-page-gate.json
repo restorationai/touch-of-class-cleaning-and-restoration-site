@@ -1,0 +1,40 @@
+{
+ "policy": "scripts/city_page_gate.py (Santino 2026-10-01)",
+ "thresholds": {
+  "combo_min": 10,
+  "head_metro_min": 1000
+ },
+ "decisions": {},
+ "offered": {
+  "emergency-water-removal": [
+   "GBP service in the client's words: 'Water Extraction'",
+   "GBP service in the client's words: 'Sanitation Disinfecting'",
+   "default with water damage restoration (Santino 09-30)"
+  ],
+  "fire-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Complete Fire Damage Restoration'"
+  ],
+  "flood-damage-restoration": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "mold-remediation": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "smoke-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "GBP service in the client's words: 'Smoke Damage'"
+  ],
+  "storm-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "water-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Water Damage Cleanup'"
+  ]
+ }
+}

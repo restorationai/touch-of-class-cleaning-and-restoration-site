@@ -465,3 +465,6 @@
 /service-areas/whitinsville-ma/water-cleanup/ /service-areas/whitinsville-ma/emergency-water-removal/ 301
 /service-areas/worcester-ma/water-cleanup /service-areas/worcester-ma/emergency-water-removal/ 301
 /service-areas/worcester-ma/water-cleanup/ /service-areas/worcester-ma/emergency-water-removal/ 301
+# plumbing gate 2026-10-01: emergency plumbing held until the plumbing name/DBA is confirmed (scripts/plumbing_gate.py)
+/services/emergency-plumbing /services/water-damage-restoration/ 301
+/services/emergency-plumbing/ /services/water-damage-restoration/ 301

@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "a8757eeb658ad7fb"
 generated_at: "2026-09-30T19:28:19.936263+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/albany-tx/burst-pipe-repair/", "/service-areas/anson-tx/burst-pipe-repair/", "/service-areas/baird-tx/burst-pipe-repair/", "/service-areas/ballinger-tx/burst-pipe-repair/", "/service-areas/bronte-tx/burst-pipe-repair/", "/service-areas/brownwood-tx/burst-pipe-repair/", "/service-areas/buffalo-gap-tx/burst-pipe-repair/", "/service-areas/clyde-tx/burst-pipe-repair/", "/service-areas/coleman-tx/burst-pipe-repair/", "/service-areas/colorado-city-tx/burst-pipe-repair/", "/service-areas/comanche-tx/burst-pipe-repair/", "/service-areas/early-tx/burst-pipe-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/albany-tx/", "/service-areas/anson-tx/", "/service-areas/baird-tx/", "/service-areas/ballinger-tx/", "/service-areas/bronte-tx/", "/service-areas/brownwood-tx/", "/service-areas/buffalo-gap-tx/", "/service-areas/clyde-tx/", "/service-areas/coleman-tx/", "/service-areas/colorado-city-tx/", "/service-areas/comanche-tx/", "/service-areas/early-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "burst-pipe-repair"}]
 faq: []
 service_slug: "burst-pipe-repair"

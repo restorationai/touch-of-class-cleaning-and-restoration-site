@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "26d3b54c02db1e1d"
 generated_at: "2026-09-30T19:28:58.483858+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/reconstruction/", "/service-areas/boulder-city-nv/reconstruction/", "/service-areas/enterprise-nv/reconstruction/", "/service-areas/henderson-nv/reconstruction/", "/service-areas/indian-springs-nv/reconstruction/", "/service-areas/las-vegas-nv/reconstruction/", "/service-areas/moapa-town-nv/reconstruction/", "/service-areas/moapa-valley-nv/reconstruction/", "/service-areas/mount-charleston-nv/reconstruction/", "/service-areas/nelson-nv/reconstruction/", "/service-areas/pahrump-nv/reconstruction/", "/service-areas/paradise-nv/reconstruction/"]
+internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/enterprise-nv/", "/service-areas/henderson-nv/", "/service-areas/indian-springs-nv/", "/service-areas/las-vegas-nv/", "/service-areas/moapa-town-nv/", "/service-areas/moapa-valley-nv/", "/service-areas/mount-charleston-nv/", "/service-areas/nelson-nv/", "/service-areas/pahrump-nv/", "/service-areas/paradise-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "reconstruction"}]
 faq: []
 service_slug: "reconstruction"

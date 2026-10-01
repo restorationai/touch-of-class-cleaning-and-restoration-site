@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "ee1b1d0d83018c1b"
 generated_at: "2026-09-30T19:28:32.684026+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/emergency-water-removal/", "/service-areas/chino-ca/emergency-water-removal/", "/service-areas/chino-hills-ca/emergency-water-removal/", "/service-areas/eastvale-ca/emergency-water-removal/", "/service-areas/fontana-ca/emergency-water-removal/", "/service-areas/fullerton-ca/emergency-water-removal/", "/service-areas/jurupa-valley-ca/emergency-water-removal/", "/service-areas/lake-mathews-ca/emergency-water-removal/", "/service-areas/montclair-ca/emergency-water-removal/", "/service-areas/norco-ca/emergency-water-removal/", "/service-areas/north-tustin-ca/emergency-water-removal/", "/service-areas/ontario-ca/emergency-water-removal/", "/services/water-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/", "/service-areas/eastvale-ca/", "/service-areas/fontana-ca/", "/service-areas/fullerton-ca/", "/service-areas/jurupa-valley-ca/", "/service-areas/lake-mathews-ca/", "/service-areas/montclair-ca/", "/service-areas/norco-ca/", "/service-areas/north-tustin-ca/", "/service-areas/ontario-ca/", "/services/water-damage-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "emergency-water-removal"}]
 faq: []
 service_slug: "emergency-water-removal"

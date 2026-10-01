@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "b43ca15ee68ae41c"
 generated_at: "2026-09-23T14:11:40.922558+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/monaca-pa/", "/service-areas/monaca-pa/fire-damage-restoration/", "/service-areas/monaca-pa/mold-remediation/", "/service-areas/aliquippa-pa/water-damage-restoration/", "/service-areas/allison-park-pa/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/monaca-pa/", "/service-areas/aliquippa-pa/water-damage-restoration/", "/service-areas/allison-park-pa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Monaca", "url": "/service-areas/monaca-pa/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "monaca-pa"

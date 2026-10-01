@@ -10,7 +10,7 @@ priority: 3.6
 plan_hash: "4f9eef6d447497df"
 generated_at: "2026-09-30T19:28:33.681442+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/post-construction-cleaning/", "/service-areas/carlsbad-ca/post-construction-cleaning/", "/service-areas/chula-vista-ca/post-construction-cleaning/", "/service-areas/concord-ca/post-construction-cleaning/", "/service-areas/el-cajon-ca/post-construction-cleaning/", "/service-areas/encinitas-ca/post-construction-cleaning/", "/service-areas/escondido-ca/post-construction-cleaning/", "/service-areas/fremont-ca/post-construction-cleaning/", "/service-areas/hayward-ca/post-construction-cleaning/", "/service-areas/oakland-ca/post-construction-cleaning/", "/service-areas/oceanside-ca/post-construction-cleaning/", "/service-areas/san-diego-ca/post-construction-cleaning/"]
+internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/", "/service-areas/carlsbad-ca/", "/service-areas/chula-vista-ca/", "/service-areas/concord-ca/", "/service-areas/el-cajon-ca/", "/service-areas/encinitas-ca/", "/service-areas/escondido-ca/", "/service-areas/fremont-ca/", "/service-areas/hayward-ca/", "/service-areas/oakland-ca/", "/service-areas/oceanside-ca/", "/service-areas/san-diego-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Post-Construction and Specialty Cleaning"}]
 faq: []
 service_slug: "post-construction-cleaning"

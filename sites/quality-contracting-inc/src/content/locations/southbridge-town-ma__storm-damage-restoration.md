@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "0386957f75e21acf"
 generated_at: "2026-09-30T19:28:57.197381+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/southbridge-town-ma/", "/service-areas/southbridge-town-ma/fire-damage-restoration/", "/service-areas/southbridge-town-ma/mold-remediation/", "/service-areas/bellingham-ma/storm-damage-restoration/", "/service-areas/east-douglas-ma/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/southbridge-town-ma/", "/service-areas/southbridge-town-ma/fire-damage-restoration/", "/service-areas/southbridge-town-ma/mold-remediation/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southbridge Town", "url": "/service-areas/southbridge-town-ma/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "southbridge-town-ma"

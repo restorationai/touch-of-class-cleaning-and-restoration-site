@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "1ec437f9f90fb1fc"
 generated_at: "2026-09-30T19:28:39.641002+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/wendell-nc/", "/service-areas/wendell-nc/mold-remediation/", "/service-areas/wendell-nc/water-damage-restoration/", "/service-areas/archer-lodge-nc/fire-damage-restoration/", "/service-areas/clayton-nc/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/wendell-nc/", "/service-areas/wendell-nc/water-damage-restoration/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wendell", "url": "/service-areas/wendell-nc/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "wendell-nc"

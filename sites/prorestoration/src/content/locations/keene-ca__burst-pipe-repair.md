@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "a72beec7586b8046"
 generated_at: "2026-09-30T19:28:54.676342+00:00"
 manual_override: false
-internal_links: ["/services/burst-pipe-repair/", "/service-areas/keene-ca/", "/service-areas/keene-ca/fire-damage-restoration/", "/service-areas/keene-ca/home-remodeling/", "/service-areas/arvin-ca/burst-pipe-repair/", "/service-areas/bear-valley-springs-ca/burst-pipe-repair/", "/contact/"]
+internal_links: ["/services/burst-pipe-repair/", "/service-areas/keene-ca/", "/service-areas/keene-ca/fire-damage-restoration/", "/service-areas/arvin-ca/burst-pipe-repair/", "/service-areas/bear-valley-springs-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Keene", "url": "/service-areas/keene-ca/"}, {"name": "Burst Pipe Cleanup and Repair"}]
 faq: []
 area_slug: "keene-ca"

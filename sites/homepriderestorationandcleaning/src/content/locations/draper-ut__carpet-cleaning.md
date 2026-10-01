@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "66f670f6365effac"
 generated_at: "2026-09-30T19:28:45.319750+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/draper-ut/", "/service-areas/draper-ut/fire-damage-restoration/", "/service-areas/draper-ut/mold-remediation/", "/service-areas/alpine-ut/carpet-cleaning/", "/service-areas/american-fork-ut/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/draper-ut/", "/service-areas/draper-ut/mold-remediation/", "/service-areas/alpine-ut/carpet-cleaning/", "/service-areas/american-fork-ut/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Draper", "url": "/service-areas/draper-ut/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "draper-ut"

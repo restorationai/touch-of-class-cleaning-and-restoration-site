@@ -1,0 +1,3933 @@
+{
+ "policy": "scripts/city_page_gate.py (Santino 2026-10-01)",
+ "thresholds": {
+  "combo_min": 10,
+  "head_metro_min": 1000
+ },
+ "decisions": {
+  "alpine-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning alpine' 30/mo",
+   "vol": 30,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "alpine-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning american fork' 110/mo",
+   "vol": 110,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: near Utah Lake flood-prone areas",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "american-fork-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: high water table, slab-built, basements rare",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "benjamin-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning benjamin' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: adjacent to Utah Lake flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__mold-inspection-testing": {
+   "pass": true,
+   "why": "local angle: near-lake humidity promotes mold growth",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "benjamin-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning bluffdale' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bluffdale-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning cedar fort' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-fort-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning cedar hills' 30/mo",
+   "vol": 30,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "cedar-hills-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__biohazard-cleanup": {
+   "pass": true,
+   "why": "local demand: 'biohazard cleanup draper' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning draper' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation draper' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning draper' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "draper-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning eagle mountain' 90/mo",
+   "vol": 90,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__post-construction-cleaning": {
+   "pass": true,
+   "why": "local angle: rapid new-home construction boom area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning fairfield' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__mold-inspection-testing": {
+   "pass": true,
+   "why": "local demand: 'mold inspection fairfield' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation fairfield' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__storm-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'storm damage restoration fairfield' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning fairfield' 30/mo",
+   "vol": 30,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "fairfield-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__frozen-pipe-restoration": {
+   "pass": true,
+   "why": "local angle: mountain valley with harsh hard freezes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__roof-leak-repair": {
+   "pass": true,
+   "why": "local angle: heavy snowfall causes roof leaks",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: exposed valley to severe winter storms",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "heber-city-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning herriman' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__post-construction-cleaning": {
+   "pass": true,
+   "why": "local angle: fast-growing suburb with heavy new builds",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "herriman-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning highland' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration highland' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation highland' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup highland' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "highland-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: high water table, slab-built, basements rare",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "lake-shore-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: low-lying lakefront flood exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__mold-inspection-testing": {
+   "pass": true,
+   "why": "local angle: proximity to Utah Lake raises moisture issues",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-shore-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning lehi' 140/mo",
+   "vol": 140,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation lehi' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__post-construction-cleaning": {
+   "pass": true,
+   "why": "local angle: booming tech-driven new construction growth",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning lehi' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lehi-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning lindon' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lindon-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__basement-flooding-cleanup": {
+   "pass": true,
+   "why": "local angle: established older neighborhoods with basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning orem' 320/mo",
+   "vol": 320,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation orem' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup orem' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "orem-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning park city' 210/mo",
+   "vol": 210,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__frozen-pipe-restoration": {
+   "pass": true,
+   "why": "local angle: high elevation, extreme winter freezes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__roof-leak-repair": {
+   "pass": true,
+   "why": "local angle: heavy mountain snow loads strain roofs",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: frequent heavy mountain snowstorms",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "park-city-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning pleasant grove' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation pleasant grove' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning pleasant grove' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup provo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__basement-flooding-cleanup": {
+   "pass": true,
+   "why": "local angle: older housing stock commonly has basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__biohazard-cleanup": {
+   "pass": true,
+   "why": "local demand: 'biohazard cleanup provo' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair provo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning provo' 260/mo",
+   "vol": 260,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation provo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up provo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal provo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection provo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration provo' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration provo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup provo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal provo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection provo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation provo' 30/mo",
+   "vol": 30,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal provo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning provo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair provo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup provo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__smoke-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'smoke damage restoration provo' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__storm-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'storm damage restoration provo' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning provo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning provo' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "provo-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection provo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning riverton' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__mold-inspection-testing": {
+   "pass": true,
+   "why": "local demand: 'mold inspection riverton' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation riverton' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning riverton' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverton-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning south jordan' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__post-construction-cleaning": {
+   "pass": true,
+   "why": "local angle: large-scale new residential development",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning south jordan' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "south-jordan-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: lakeside flat land, basements uncommon",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01",
+   "implausible": true
+  },
+  "vineyard-ut__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__crawl-space-encapsulation": {
+   "pass": false,
+   "why": "no local demand ('crawl space encapsulation vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: borders Utah Lake flood-prone shoreline",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__fabric-protection": {
+   "pass": false,
+   "why": "no local demand ('fabric protection vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__hoarding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('hoarding cleanup vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation vineyard' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__post-construction-cleaning": {
+   "pass": true,
+   "why": "local angle: entirely new master-planned community",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__roof-leak-repair": {
+   "pass": false,
+   "why": "no local demand ('roof leak cleanup and repair vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "vineyard-ut__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  }
+ },
+ "offered": {
+  "appliance-leak-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "basement-flooding-cleanup": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "biohazard-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "burst-pipe-repair": [
+   "plan-input before core floor (2026-09-24)",
+   "GBP service in the client's words: 'Burst Pipe Cleanup'"
+  ],
+  "carpet-cleaning": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "GBP service in the client's words: 'Commercial Carpet Cleaning'"
+  ],
+  "carpet-upholstery-cleaning": [
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "crawl-space-encapsulation": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "emergency-board-up-tarping": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Board-Up & Tarping Services'"
+  ],
+  "emergency-water-removal": [
+   "GBP service in the client's words: '24/7 Emergency Water Removal'",
+   "GBP service in the client's words: '24/7 Emergency Water Extraction'",
+   "GBP service in the client's words: 'Sump Pump Failure Cleanup'",
+   "GBP service in the client's words: 'Bathtub Overflow Cleanup'",
+   "GBP service in the client's words: 'Sink Overflow Cleanup'",
+   "GBP service in the client's words: 'Storm Damage Water Cleanup'",
+   "default with water damage restoration (Santino 09-30)"
+  ],
+  "fabric-protection": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "fire-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Comprehensive Fire Damage Restoration'",
+   "GBP service in the client's words: 'Commercial Fire Damage Restoration'"
+  ],
+  "frozen-pipe-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "hoarding-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "junk-debris-removal": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "mold-inspection-testing": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "mold-remediation": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "odor-removal": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Odor Control & Deodorization'"
+  ],
+  "post-construction-cleaning": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "roof-leak-repair": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "sewage-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Sewage Cleanup & Remediation'"
+  ],
+  "smoke-damage-restoration": [
+   "plan-input before core floor (2026-09-24)"
+  ],
+  "storm-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Storm Damage Repair'"
+  ],
+  "tile-grout-cleaning": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "upholstery-cleaning": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "GBP service in the client's words: 'Upholstery cleaning for residential and commercial'",
+   "GBP service in the client's words: 'Residential and commercial upholstery cleaning'"
+  ],
+  "water-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Crawl Space Water Removal'"
+  ],
+  "water-leak-detection": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Leak Detection'"
+  ]
+ },
+ "heads": {
+  "appliance-leak-cleanup": {
+   "term": "appliance leak cleanup",
+   "metro": null
+  },
+  "basement-flooding-cleanup": {
+   "term": "basement flooding cleanup",
+   "metro": null
+  },
+  "biohazard-cleanup": {
+   "term": "biohazard cleanup",
+   "metro": null
+  },
+  "burst-pipe-repair": {
+   "term": "burst pipe repair",
+   "metro": null
+  },
+  "carpet-cleaning": {
+   "term": "carpet cleaning",
+   "metro": null
+  },
+  "crawl-space-encapsulation": {
+   "term": "crawl space encapsulation",
+   "metro": null
+  },
+  "emergency-board-up-tarping": {
+   "term": "emergency board up",
+   "metro": null
+  },
+  "fabric-protection": {
+   "term": "fabric protection",
+   "metro": null
+  },
+  "fire-damage-restoration": {
+   "term": "fire damage restoration",
+   "metro": null
+  },
+  "frozen-pipe-restoration": {
+   "term": "frozen pipe restoration",
+   "metro": null
+  },
+  "hoarding-cleanup": {
+   "term": "hoarding cleanup",
+   "metro": null
+  },
+  "junk-debris-removal": {
+   "term": "junk debris removal",
+   "metro": null
+  },
+  "mold-inspection-testing": {
+   "term": "mold inspection",
+   "metro": null
+  },
+  "mold-remediation": {
+   "term": "mold remediation",
+   "metro": null
+  },
+  "odor-removal": {
+   "term": "odor removal",
+   "metro": null
+  },
+  "post-construction-cleaning": {
+   "term": "post construction cleaning",
+   "metro": null
+  },
+  "roof-leak-repair": {
+   "term": "roof leak cleanup and repair",
+   "metro": null
+  },
+  "sewage-cleanup": {
+   "term": "sewage cleanup",
+   "metro": null
+  },
+  "smoke-damage-restoration": {
+   "term": "smoke damage restoration",
+   "metro": null
+  },
+  "storm-damage-restoration": {
+   "term": "storm damage restoration",
+   "metro": null
+  },
+  "tile-grout-cleaning": {
+   "term": "tile grout cleaning",
+   "metro": null
+  },
+  "upholstery-cleaning": {
+   "term": "upholstery cleaning",
+   "metro": null
+  },
+  "water-leak-detection": {
+   "term": "water leak detection",
+   "metro": null
+  },
+  "emergency-water-removal": {
+   "term": "emergency water removal",
+   "metro": null
+  }
+ },
+ "updated_at": "2026-10-01T05:05:01+00:00"
+}

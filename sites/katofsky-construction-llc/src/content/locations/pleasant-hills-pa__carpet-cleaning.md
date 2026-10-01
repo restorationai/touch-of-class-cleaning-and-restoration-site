@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "02778c15931a69de"
 generated_at: "2026-09-30T19:28:48.290101+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/pleasant-hills-pa/", "/service-areas/pleasant-hills-pa/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/roofing/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/pleasant-hills-pa/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pleasant Hills", "url": "/service-areas/pleasant-hills-pa/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "pleasant-hills-pa"

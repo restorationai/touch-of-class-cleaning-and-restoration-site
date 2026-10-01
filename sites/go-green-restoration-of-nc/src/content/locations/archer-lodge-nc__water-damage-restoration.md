@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "ed654a8fbda2b17b"
 generated_at: "2026-09-30T19:28:39.656036+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/archer-lodge-nc/", "/service-areas/archer-lodge-nc/fire-damage-restoration/", "/service-areas/archer-lodge-nc/mold-remediation/", "/service-areas/clayton-nc/water-damage-restoration/", "/service-areas/durham-nc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/water-damage-restoration/", "/service-areas/durham-nc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Archer Lodge", "url": "/service-areas/archer-lodge-nc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "archer-lodge-nc"

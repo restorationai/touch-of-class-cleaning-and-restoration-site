@@ -1,19 +1,19 @@
 # Site Plan Report — Desert Valley Contracting Inc 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:28:57.613469+00:00
+- Generated: 2026-10-01T05:06:30.656455+00:00
 - Domain: `desertvalleycontracting.net`
 - Services selected: 23 of 91 catalog entries
 - Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **520**
-- Total internal links: 4263 (avg 8.2 per page)
+- Total URLs: **152**
+- Total internal links: 1105 (avg 7.3 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 460 |
+| `service-area-service` | 92 |
 | `service-landing` | 23 |
 | `service-area` | 20 |
 | `blog-post` | 8 |

@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "7d572d12e649ced3"
 generated_at: "2026-09-30T19:28:20.829034+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/large-loss-response/", "/service-areas/big-lake-tx/large-loss-response/", "/service-areas/big-spring-tx/large-loss-response/", "/service-areas/crane-tx/large-loss-response/", "/service-areas/garden-city-tx/large-loss-response/", "/service-areas/gardendale-tx/large-loss-response/", "/service-areas/goldsmith-tx/large-loss-response/", "/service-areas/greenwood-tx/large-loss-response/", "/service-areas/imperial-tx/large-loss-response/", "/service-areas/mccamey-tx/large-loss-response/", "/service-areas/monahans-tx/large-loss-response/", "/service-areas/odessa-tx/large-loss-response/"]
+internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/", "/service-areas/big-lake-tx/", "/service-areas/big-spring-tx/", "/service-areas/crane-tx/", "/service-areas/garden-city-tx/", "/service-areas/gardendale-tx/", "/service-areas/goldsmith-tx/", "/service-areas/greenwood-tx/", "/service-areas/imperial-tx/", "/service-areas/mccamey-tx/", "/service-areas/monahans-tx/", "/service-areas/odessa-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "large-loss-response"}]
 faq: []
 service_slug: "large-loss-response"

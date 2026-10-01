@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "dda3c0a5c3eee05c"
 generated_at: "2026-09-30T19:28:43.504347+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/gautier-ms/", "/service-areas/gautier-ms/fire-damage-restoration/", "/service-areas/gautier-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-water-removal/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/gautier-ms/", "/service-areas/gautier-ms/fire-damage-restoration/", "/service-areas/gautier-ms/mold-remediation/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gautier", "url": "/service-areas/gautier-ms/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "gautier-ms"

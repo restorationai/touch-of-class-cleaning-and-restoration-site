@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "add1ce6e181d5b36"
 generated_at: "2026-09-30T19:28:35.984984+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/palm-river-clair-mel-fl/", "/service-areas/palm-river-clair-mel-fl/fire-damage-restoration/", "/service-areas/palm-river-clair-mel-fl/mold-remediation/", "/service-areas/anna-maria-fl/water-damage-restoration/", "/service-areas/apollo-beach-fl/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/palm-river-clair-mel-fl/", "/service-areas/anna-maria-fl/water-damage-restoration/", "/service-areas/apollo-beach-fl/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Palm River-Clair Mel", "url": "/service-areas/palm-river-clair-mel-fl/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "palm-river-clair-mel-fl"

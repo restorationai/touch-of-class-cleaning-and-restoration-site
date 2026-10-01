@@ -161,5 +161,13 @@
       "requested_by": "Mike",
       "why": "client asked to replace Centerville with Visalia (their home base)"
     }
+  ],
+  "homepage_services": [
+    "indoor-air-quality-testing",
+    "asbestos-testing",
+    "clearance-testing",
+    "environmental-site-assessments",
+    "lead-paint-testing",
+    "mold-inspection-testing"
   ]
 }

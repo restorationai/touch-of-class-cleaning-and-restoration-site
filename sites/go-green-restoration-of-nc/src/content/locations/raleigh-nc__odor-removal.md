@@ -10,7 +10,7 @@ priority: 4.9
 plan_hash: "974aeba5e374561c"
 generated_at: "2026-09-30T19:28:39.589782+00:00"
 manual_override: false
-internal_links: ["/services/odor-removal/", "/service-areas/raleigh-nc/", "/service-areas/raleigh-nc/fire-damage-restoration/", "/service-areas/raleigh-nc/mold-remediation/", "/service-areas/archer-lodge-nc/odor-removal/", "/service-areas/clayton-nc/odor-removal/", "/contact/"]
+internal_links: ["/services/odor-removal/", "/service-areas/raleigh-nc/", "/service-areas/raleigh-nc/fire-damage-restoration/", "/service-areas/raleigh-nc/mold-remediation/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Raleigh", "url": "/service-areas/raleigh-nc/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 area_slug: "raleigh-nc"

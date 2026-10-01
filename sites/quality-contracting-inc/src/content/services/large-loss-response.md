@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "cc9bcd136b63e23e"
 generated_at: "2026-09-30T19:28:56.909523+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/large-loss-response/", "/service-areas/east-douglas-ma/large-loss-response/", "/service-areas/fiskdale-ma/large-loss-response/", "/service-areas/framingham-ma/large-loss-response/", "/service-areas/franklin-town-ma/large-loss-response/", "/service-areas/hopkinton-ma/large-loss-response/", "/service-areas/hudson-ma/large-loss-response/", "/service-areas/leominster-ma/large-loss-response/", "/service-areas/marlborough-ma/large-loss-response/", "/service-areas/maynard-ma/large-loss-response/", "/service-areas/milford-ma/large-loss-response/", "/service-areas/natick-ma/large-loss-response/"]
+internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/service-areas/framingham-ma/", "/service-areas/franklin-town-ma/", "/service-areas/hopkinton-ma/", "/service-areas/hudson-ma/", "/service-areas/leominster-ma/", "/service-areas/marlborough-ma/", "/service-areas/maynard-ma/", "/service-areas/milford-ma/", "/service-areas/natick-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "large-loss-response"}]
 faq: []
 service_slug: "large-loss-response"

@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "66b4fd9e6910fda7"
 generated_at: "2026-09-23T14:11:40.873529+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/aliquippa-pa/fire-damage-restoration/", "/service-areas/aliquippa-pa/mold-remediation/", "/service-areas/aliquippa-pa/water-damage-restoration/", "/service-areas/aliquippa-pa/commercial-restoration/", "/service-areas/aliquippa-pa/flood-damage-restoration/", "/service-areas/aliquippa-pa/reconstruction/", "/service-areas/aliquippa-pa/sewage-cleanup/", "/service-areas/aliquippa-pa/smoke-damage-restoration/", "/service-areas/aliquippa-pa/storm-damage-restoration/", "/service-areas/aliquippa-pa/emergency-water-removal/", "/service-areas/aliquippa-pa/basement-flooding-cleanup/", "/service-areas/aliquippa-pa/biohazard-cleanup/", "/service-areas/aliquippa-pa/burst-pipe-repair/", "/service-areas/aliquippa-pa/general-contracting/", "/service-areas/aliquippa-pa/mold-inspection-testing/", "/service-areas/aliquippa-pa/emergency-board-up-tarping/", "/service-areas/aliquippa-pa/frozen-pipe-restoration/", "/service-areas/aliquippa-pa/odor-removal/", "/service-areas/aliquippa-pa/contents-restoration-storage/", "/service-areas/allison-park-pa/", "/service-areas/baden-pa/", "/service-areas/beaver-falls-pa/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/aliquippa-pa/", "/service-areas/aliquippa-pa/water-damage-restoration/", "/service-areas/allison-park-pa/", "/service-areas/baden-pa/", "/service-areas/beaver-falls-pa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Aliquippa"}]
 faq: []
 area_slug: "aliquippa-pa"

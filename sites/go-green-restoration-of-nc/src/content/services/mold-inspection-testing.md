@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "27b14d50f05981c3"
 generated_at: "2026-09-30T19:28:39.578129+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/mold-inspection-testing/", "/service-areas/clayton-nc/mold-inspection-testing/", "/service-areas/durham-nc/mold-inspection-testing/", "/service-areas/elm-city-nc/mold-inspection-testing/", "/service-areas/kenly-nc/mold-inspection-testing/", "/service-areas/knightdale-nc/mold-inspection-testing/", "/service-areas/lake-royale-nc/mold-inspection-testing/", "/service-areas/louisburg-nc/mold-inspection-testing/", "/service-areas/nashville-nc/mold-inspection-testing/", "/service-areas/pine-level-nc/mold-inspection-testing/", "/service-areas/raleigh-nc/mold-inspection-testing/", "/service-areas/rocky-mount-nc/mold-inspection-testing/", "/blog/how-to-test-for-mold/"]
+internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/", "/service-areas/elm-city-nc/", "/service-areas/kenly-nc/", "/service-areas/knightdale-nc/", "/service-areas/lake-royale-nc/", "/service-areas/louisburg-nc/", "/service-areas/nashville-nc/", "/service-areas/pine-level-nc/", "/service-areas/raleigh-nc/", "/service-areas/rocky-mount-nc/", "/blog/how-to-test-for-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Mold Inspection and Testing"}]
 faq: []
 service_slug: "mold-inspection-testing"

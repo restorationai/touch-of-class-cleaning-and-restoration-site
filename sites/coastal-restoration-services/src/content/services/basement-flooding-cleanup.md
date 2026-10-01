@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "a7ee5a9a71c6e46c"
 generated_at: "2026-09-30T19:28:25.262139+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/basement-flooding-cleanup/", "/service-areas/atascadero-ca/basement-flooding-cleanup/", "/service-areas/avila-beach-ca/basement-flooding-cleanup/", "/service-areas/ballard-ca/basement-flooding-cleanup/", "/service-areas/blacklake-ca/basement-flooding-cleanup/", "/service-areas/buellton-ca/basement-flooding-cleanup/", "/service-areas/callender-ca/basement-flooding-cleanup/", "/service-areas/cambria-ca/basement-flooding-cleanup/", "/service-areas/edna-ca/basement-flooding-cleanup/", "/service-areas/el-paso-de-robles-ca/basement-flooding-cleanup/", "/service-areas/grover-beach-ca/basement-flooding-cleanup/", "/service-areas/guadalupe-ca/basement-flooding-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/", "/service-areas/atascadero-ca/", "/service-areas/avila-beach-ca/", "/service-areas/ballard-ca/", "/service-areas/blacklake-ca/", "/service-areas/buellton-ca/", "/service-areas/callender-ca/", "/service-areas/cambria-ca/", "/service-areas/edna-ca/", "/service-areas/el-paso-de-robles-ca/", "/service-areas/grover-beach-ca/", "/service-areas/guadalupe-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "basement-flooding-cleanup"}]
 faq: []
 service_slug: "basement-flooding-cleanup"

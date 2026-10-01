@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "1a109a13f8969fed"
 generated_at: "2026-09-23T14:11:40.910135+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/baden-pa/", "/service-areas/baden-pa/fire-damage-restoration/", "/service-areas/baden-pa/mold-remediation/", "/service-areas/aliquippa-pa/water-damage-restoration/", "/service-areas/allison-park-pa/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/baden-pa/", "/service-areas/aliquippa-pa/water-damage-restoration/", "/service-areas/allison-park-pa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baden", "url": "/service-areas/baden-pa/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "baden-pa"

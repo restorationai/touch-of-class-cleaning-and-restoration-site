@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "23cf0a140e2b6a4e"
 generated_at: "2026-09-30T19:28:33.683748+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/burst-pipe-repair/", "/service-areas/carlsbad-ca/burst-pipe-repair/", "/service-areas/chula-vista-ca/burst-pipe-repair/", "/service-areas/concord-ca/burst-pipe-repair/", "/service-areas/el-cajon-ca/burst-pipe-repair/", "/service-areas/encinitas-ca/burst-pipe-repair/", "/service-areas/escondido-ca/burst-pipe-repair/", "/service-areas/fremont-ca/burst-pipe-repair/", "/service-areas/hayward-ca/burst-pipe-repair/", "/service-areas/oakland-ca/burst-pipe-repair/", "/service-areas/oceanside-ca/burst-pipe-repair/", "/service-areas/san-diego-ca/burst-pipe-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/", "/service-areas/carlsbad-ca/", "/service-areas/chula-vista-ca/", "/service-areas/concord-ca/", "/service-areas/el-cajon-ca/", "/service-areas/encinitas-ca/", "/service-areas/escondido-ca/", "/service-areas/fremont-ca/", "/service-areas/hayward-ca/", "/service-areas/oakland-ca/", "/service-areas/oceanside-ca/", "/service-areas/san-diego-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "burst-pipe-repair"}]
 faq: []
 service_slug: "burst-pipe-repair"

@@ -1,0 +1,13 @@
+{
+  "slug": "puroclean-east-las-vegas",
+  "allowed": false,
+  "reason": "no plumbing name confirmed, no plumbing DBA, not a licensed plumber",
+  "evidence": {
+    "company_id": "CO-1784594708149",
+    "gbp_title": "PuroClean of East Las Vegas",
+    "rename_intent": {},
+    "chosen_names": []
+  },
+  "checked_at": "2026-10-01T04:49:01+00:00",
+  "source": "supabase"
+}

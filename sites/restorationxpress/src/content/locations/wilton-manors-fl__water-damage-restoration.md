@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "ec743972e12f124d"
 generated_at: "2026-09-21T14:13:49.123747+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/wilton-manors-fl/", "/service-areas/wilton-manors-fl/fire-damage-restoration/", "/service-areas/wilton-manors-fl/mold-remediation/", "/service-areas/aventura-fl/water-damage-restoration/", "/service-areas/cooper-city-fl/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/wilton-manors-fl/", "/service-areas/aventura-fl/water-damage-restoration/", "/service-areas/cooper-city-fl/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wilton Manors", "url": "/service-areas/wilton-manors-fl/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "wilton-manors-fl"

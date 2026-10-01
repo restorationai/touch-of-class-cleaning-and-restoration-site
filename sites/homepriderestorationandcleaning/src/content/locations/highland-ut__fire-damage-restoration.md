@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "abf01232ae1c2c52"
 generated_at: "2026-09-30T19:28:45.240717+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/highland-ut/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/highland-ut/water-damage-restoration/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/highland-ut/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/highland-ut/water-damage-restoration/", "/service-areas/alpine-ut/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Highland", "url": "/service-areas/highland-ut/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "highland-ut"

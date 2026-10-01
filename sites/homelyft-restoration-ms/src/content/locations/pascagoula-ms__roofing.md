@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "7d069520b383cff7"
 generated_at: "2026-09-30T19:28:43.542552+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/pascagoula-ms/", "/service-areas/pascagoula-ms/fire-damage-restoration/", "/service-areas/pascagoula-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/pascagoula-ms/", "/service-areas/pascagoula-ms/fire-damage-restoration/", "/service-areas/pascagoula-ms/mold-remediation/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pascagoula", "url": "/service-areas/pascagoula-ms/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "pascagoula-ms"

@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "9c238352d0e2a653"
 generated_at: "2026-09-30T19:28:45.101252+00:00"
 manual_override: false
-internal_links: ["/services/post-construction-cleaning/", "/service-areas/south-jordan-ut/", "/service-areas/south-jordan-ut/fire-damage-restoration/", "/service-areas/south-jordan-ut/mold-remediation/", "/service-areas/alpine-ut/post-construction-cleaning/", "/service-areas/american-fork-ut/post-construction-cleaning/", "/contact/"]
+internal_links: ["/services/post-construction-cleaning/", "/service-areas/south-jordan-ut/", "/service-areas/south-jordan-ut/fire-damage-restoration/", "/service-areas/south-jordan-ut/mold-remediation/", "/service-areas/alpine-ut/", "/service-areas/american-fork-ut/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "South Jordan", "url": "/service-areas/south-jordan-ut/"}, {"name": "Post-Construction and Specialty Cleaning"}]
 faq: []
 area_slug: "south-jordan-ut"

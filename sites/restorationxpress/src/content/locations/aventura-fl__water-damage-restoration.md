@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "639906e28185a25b"
 generated_at: "2026-09-20T20:42:23.546490+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/aventura-fl/", "/service-areas/aventura-fl/fire-damage-restoration/", "/service-areas/aventura-fl/mold-remediation/", "/service-areas/cooper-city-fl/water-damage-restoration/", "/service-areas/country-club-fl/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/aventura-fl/", "/service-areas/cooper-city-fl/water-damage-restoration/", "/service-areas/country-club-fl/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Aventura", "url": "/service-areas/aventura-fl/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "aventura-fl"

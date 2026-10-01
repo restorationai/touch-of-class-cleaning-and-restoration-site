@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "3b27a1d5ec48cf51"
 generated_at: "2026-09-30T19:28:49.210131+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/crestview-fl/industrial-restoration/", "/service-areas/defuniak-springs-fl/industrial-restoration/", "/service-areas/destin-fl/industrial-restoration/", "/service-areas/ebro-fl/industrial-restoration/", "/service-areas/eglin-afb-fl/industrial-restoration/", "/service-areas/fort-walton-beach-fl/industrial-restoration/", "/service-areas/harold-fl/industrial-restoration/", "/service-areas/hurlburt-field-fl/industrial-restoration/", "/service-areas/laurel-hill-fl/industrial-restoration/", "/service-areas/miramar-beach-fl/industrial-restoration/", "/service-areas/navarre-fl/industrial-restoration/", "/service-areas/niceville-fl/industrial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/crestview-fl/", "/service-areas/defuniak-springs-fl/", "/service-areas/destin-fl/", "/service-areas/ebro-fl/", "/service-areas/eglin-afb-fl/", "/service-areas/fort-walton-beach-fl/", "/service-areas/harold-fl/", "/service-areas/hurlburt-field-fl/", "/service-areas/laurel-hill-fl/", "/service-areas/miramar-beach-fl/", "/service-areas/navarre-fl/", "/service-areas/niceville-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "industrial-restoration"}]
 faq: []
 service_slug: "industrial-restoration"

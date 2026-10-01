@@ -93,4 +93,4 @@ For Massachusetts tenants dealing with water damage in a rental, Quality Contrac
 
 **About Quality Contracting, Inc.**
 
-Quality Contracting, Inc. is a full-service restoration and contracting company based in Auburn, MA, serving Worcester, Framingham, and surrounding Central Massachusetts communities. Their certified crews handle water damage restoration, mold remediation, fire damage restoration, sewage cleanup, emergency plumbing, and complete reconstruction, so property owners and tenants work with one company from the first call through the final walkthrough. Reach them at (508) 756-8800 or qualitycontracting.us.
+Quality Contracting, Inc. is a full-service restoration and contracting company based in Auburn, MA, serving Worcester, Framingham, and surrounding Central Massachusetts communities. Their certified crews handle water damage restoration, mold remediation, fire damage restoration, sewage cleanup, and complete reconstruction, so property owners and tenants work with one company from the first call through the final walkthrough. Reach them at (508) 756-8800 or qualitycontracting.us.

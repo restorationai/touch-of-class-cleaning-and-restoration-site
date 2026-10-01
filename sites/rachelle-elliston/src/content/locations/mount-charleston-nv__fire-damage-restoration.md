@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "95891f4ec617668e"
 generated_at: "2026-09-30T19:28:58.557549+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/mount-charleston-nv/", "/service-areas/mount-charleston-nv/mold-remediation/", "/service-areas/mount-charleston-nv/water-damage-restoration/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/boulder-city-nv/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/mount-charleston-nv/", "/service-areas/mount-charleston-nv/water-damage-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mount Charleston", "url": "/service-areas/mount-charleston-nv/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "mount-charleston-nv"

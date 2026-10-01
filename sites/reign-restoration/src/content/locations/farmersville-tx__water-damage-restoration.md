@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "53b7de7260ba942b"
 generated_at: "2026-09-30T19:29:00.378001+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/farmersville-tx/", "/service-areas/farmersville-tx/fire-damage-restoration/", "/service-areas/farmersville-tx/mold-remediation/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/caddo-mills-tx/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/farmersville-tx/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/caddo-mills-tx/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Farmersville", "url": "/service-areas/farmersville-tx/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "farmersville-tx"

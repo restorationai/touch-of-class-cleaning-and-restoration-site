@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "1be6fdde53a9c765"
 generated_at: "2026-09-20T14:13:46.902864+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/dania-beach-fl/", "/service-areas/dania-beach-fl/fire-damage-restoration/", "/service-areas/dania-beach-fl/mold-remediation/", "/service-areas/cooper-city-fl/water-damage-restoration/", "/service-areas/fort-lauderdale-fl/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/dania-beach-fl/", "/service-areas/cooper-city-fl/water-damage-restoration/", "/service-areas/fort-lauderdale-fl/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dania Beach", "url": "/service-areas/dania-beach-fl/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "dania-beach-fl"

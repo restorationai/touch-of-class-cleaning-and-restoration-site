@@ -10,7 +10,7 @@ priority: 4.2
 plan_hash: "c6c4883e46c0d8b0"
 generated_at: "2026-09-30T19:28:48.281697+00:00"
 manual_override: false
-internal_links: ["/services/asbestos-abatement/", "/service-areas/munhall-pa/", "/service-areas/munhall-pa/fire-damage-restoration/", "/service-areas/munhall-pa/roofing/", "/service-areas/allison-park-pa/asbestos-abatement/", "/service-areas/baldwin-pa/asbestos-abatement/", "/contact/"]
+internal_links: ["/services/asbestos-abatement/", "/service-areas/munhall-pa/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Munhall", "url": "/service-areas/munhall-pa/"}, {"name": "Asbestos Abatement"}]
 faq: []
 area_slug: "munhall-pa"

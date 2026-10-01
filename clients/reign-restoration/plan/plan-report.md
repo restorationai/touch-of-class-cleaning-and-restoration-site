@@ -1,21 +1,21 @@
 # Site Plan Report — Reign Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:28:58.785205+00:00
+- Generated: 2026-10-01T05:06:18.641179+00:00
 - Domain: `reign-restoration.com`
-- Services selected: 23 of 91 catalog entries
+- Services selected: 22 of 91 catalog entries
 - Service areas: 29
 - Cross-product enabled: True
-- Total URLs: **712**
-- Total internal links: 5791 (avg 8.1 per page)
+- Total URLs: **196**
+- Total internal links: 1445 (avg 7.4 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 644 |
+| `service-area-service` | 129 |
 | `service-area` | 28 |
-| `service-landing` | 23 |
+| `service-landing` | 22 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -49,7 +49,6 @@
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
 
@@ -92,11 +91,11 @@
 | `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement royse city |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration royse city |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration royse city |
-| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing royse city |
 | `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup royse city |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration royse city |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services royse city |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization royse city |
+| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration royse city |
 
 ## Validation
 

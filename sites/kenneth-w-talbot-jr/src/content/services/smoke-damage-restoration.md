@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "24209b23d46cde79"
 generated_at: "2026-09-30T19:28:49.209944+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/crestview-fl/smoke-damage-restoration/", "/service-areas/defuniak-springs-fl/smoke-damage-restoration/", "/service-areas/destin-fl/smoke-damage-restoration/", "/service-areas/ebro-fl/smoke-damage-restoration/", "/service-areas/eglin-afb-fl/smoke-damage-restoration/", "/service-areas/fort-walton-beach-fl/smoke-damage-restoration/", "/service-areas/harold-fl/smoke-damage-restoration/", "/service-areas/hurlburt-field-fl/smoke-damage-restoration/", "/service-areas/laurel-hill-fl/smoke-damage-restoration/", "/service-areas/miramar-beach-fl/smoke-damage-restoration/", "/service-areas/navarre-fl/smoke-damage-restoration/", "/service-areas/niceville-fl/smoke-damage-restoration/", "/blog/fire-damage-restoration-process/"]
+internal_links: ["/services/", "/contact/", "/service-areas/crestview-fl/", "/service-areas/defuniak-springs-fl/", "/service-areas/destin-fl/", "/service-areas/ebro-fl/", "/service-areas/eglin-afb-fl/", "/service-areas/fort-walton-beach-fl/", "/service-areas/harold-fl/", "/service-areas/hurlburt-field-fl/", "/service-areas/laurel-hill-fl/", "/service-areas/miramar-beach-fl/", "/service-areas/navarre-fl/", "/service-areas/niceville-fl/", "/blog/fire-damage-restoration-process/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "smoke-damage-restoration"}]
 faq: []
 service_slug: "smoke-damage-restoration"

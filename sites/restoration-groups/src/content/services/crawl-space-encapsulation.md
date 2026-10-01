@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "b6d527b9c858c4f8"
 generated_at: "2026-09-30T19:29:02.381876+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/avenel-nj/crawl-space-encapsulation/", "/service-areas/bayonne-nj/crawl-space-encapsulation/", "/service-areas/bloomfield-nj/crawl-space-encapsulation/", "/service-areas/bridgewater-nj/crawl-space-encapsulation/", "/service-areas/brooklyn-ny/crawl-space-encapsulation/", "/service-areas/carteret-nj/crawl-space-encapsulation/", "/service-areas/chatham-nj/crawl-space-encapsulation/", "/service-areas/clark-nj/crawl-space-encapsulation/", "/service-areas/clifton-nj/crawl-space-encapsulation/", "/service-areas/colonia-nj/crawl-space-encapsulation/", "/service-areas/cranford-nj/crawl-space-encapsulation/", "/service-areas/east-brunswick-nj/crawl-space-encapsulation/"]
+internal_links: ["/services/", "/contact/", "/service-areas/avenel-nj/", "/service-areas/bayonne-nj/", "/service-areas/bloomfield-nj/", "/service-areas/bridgewater-nj/", "/service-areas/brooklyn-ny/", "/service-areas/carteret-nj/", "/service-areas/chatham-nj/", "/service-areas/clark-nj/", "/service-areas/clifton-nj/", "/service-areas/colonia-nj/", "/service-areas/cranford-nj/", "/service-areas/east-brunswick-nj/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Crawl Space Encapsulation"}]
 faq: []
 service_slug: "crawl-space-encapsulation"

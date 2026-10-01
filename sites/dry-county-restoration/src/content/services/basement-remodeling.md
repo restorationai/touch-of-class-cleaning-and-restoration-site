@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "13ec93c5c600cf99"
 generated_at: "2026-09-30T19:28:32.678517+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/basement-remodeling/", "/service-areas/chino-ca/basement-remodeling/", "/service-areas/chino-hills-ca/basement-remodeling/", "/service-areas/eastvale-ca/basement-remodeling/", "/service-areas/fontana-ca/basement-remodeling/", "/service-areas/fullerton-ca/basement-remodeling/", "/service-areas/jurupa-valley-ca/basement-remodeling/", "/service-areas/lake-mathews-ca/basement-remodeling/", "/service-areas/montclair-ca/basement-remodeling/", "/service-areas/norco-ca/basement-remodeling/", "/service-areas/north-tustin-ca/basement-remodeling/", "/service-areas/ontario-ca/basement-remodeling/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/", "/service-areas/eastvale-ca/", "/service-areas/fontana-ca/", "/service-areas/fullerton-ca/", "/service-areas/jurupa-valley-ca/", "/service-areas/lake-mathews-ca/", "/service-areas/montclair-ca/", "/service-areas/norco-ca/", "/service-areas/north-tustin-ca/", "/service-areas/ontario-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Basement Remodeling"}]
 faq: []
 service_slug: "basement-remodeling"

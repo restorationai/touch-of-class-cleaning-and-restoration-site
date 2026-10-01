@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "774ce942912ee46e"
 generated_at: "2026-09-30T19:28:33.798353+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/hayward-ca/", "/service-areas/hayward-ca/fire-damage-restoration/", "/service-areas/hayward-ca/mold-remediation/", "/service-areas/berkeley-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/hayward-ca/", "/service-areas/berkeley-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hayward", "url": "/service-areas/hayward-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "hayward-ca"

@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "37bd730d644cfe26"
 generated_at: "2026-09-30T19:28:43.387006+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/d-iberville-ms/", "/service-areas/d-iberville-ms/fire-damage-restoration/", "/service-areas/d-iberville-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-water-removal/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/d-iberville-ms/", "/service-areas/d-iberville-ms/fire-damage-restoration/", "/service-areas/d-iberville-ms/mold-remediation/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "D'Iberville", "url": "/service-areas/d-iberville-ms/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "d-iberville-ms"

@@ -1,20 +1,20 @@
 # Site Plan Report — National Restoration Construction
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:28:51.436158+00:00
+- Generated: 2026-10-01T05:04:58.493967+00:00
 - Domain: `narestco.com`
-- Services selected: 35 of 91 catalog entries
+- Services selected: 34 of 91 catalog entries
 - Service areas: 30
 - Cross-product enabled: True
-- Total URLs: **1100**
-- Total internal links: 8986 (avg 8.2 per page)
+- Total URLs: **413**
+- Total internal links: 3324 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 1015 |
-| `service-landing` | 35 |
+| `service-area-service` | 329 |
+| `service-landing` | 34 |
 | `service-area` | 29 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -39,7 +39,6 @@
 - `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
 - `crime-scene-cleanup` — Crime Scene Cleanup (specialty, priority 6)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
-- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 - `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
@@ -105,11 +104,11 @@
 | `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement federal way |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration federal way |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration federal way |
-| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing federal way |
 | `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup federal way |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration federal way |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services federal way |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization federal way |
+| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration federal way |
 
 ## Validation
 

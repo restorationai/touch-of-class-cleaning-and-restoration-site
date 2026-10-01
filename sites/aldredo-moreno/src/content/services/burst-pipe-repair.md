@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "e839a77233db4d1d"
 generated_at: "2026-09-30T19:28:20.825844+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/burst-pipe-repair/", "/service-areas/big-lake-tx/burst-pipe-repair/", "/service-areas/big-spring-tx/burst-pipe-repair/", "/service-areas/crane-tx/burst-pipe-repair/", "/service-areas/garden-city-tx/burst-pipe-repair/", "/service-areas/gardendale-tx/burst-pipe-repair/", "/service-areas/goldsmith-tx/burst-pipe-repair/", "/service-areas/greenwood-tx/burst-pipe-repair/", "/service-areas/imperial-tx/burst-pipe-repair/", "/service-areas/mccamey-tx/burst-pipe-repair/", "/service-areas/monahans-tx/burst-pipe-repair/", "/service-areas/odessa-tx/burst-pipe-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/", "/service-areas/big-lake-tx/", "/service-areas/big-spring-tx/", "/service-areas/crane-tx/", "/service-areas/garden-city-tx/", "/service-areas/gardendale-tx/", "/service-areas/goldsmith-tx/", "/service-areas/greenwood-tx/", "/service-areas/imperial-tx/", "/service-areas/mccamey-tx/", "/service-areas/monahans-tx/", "/service-areas/odessa-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "burst-pipe-repair"}]
 faq: []
 service_slug: "burst-pipe-repair"

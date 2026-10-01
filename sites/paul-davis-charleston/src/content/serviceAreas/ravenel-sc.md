@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "3194e9fce70f49f3"
 generated_at: "2026-09-20T19:37:13.574949+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/ravenel-sc/fire-damage-restoration/", "/service-areas/ravenel-sc/mold-remediation/", "/service-areas/ravenel-sc/water-damage-restoration/", "/service-areas/ravenel-sc/emergency-water-removal/", "/service-areas/awendaw-sc/", "/service-areas/folly-beach-sc/", "/service-areas/goose-creek-sc/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/ravenel-sc/", "/service-areas/ravenel-sc/water-damage-restoration/", "/service-areas/awendaw-sc/", "/service-areas/folly-beach-sc/", "/service-areas/goose-creek-sc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ravenel"}]
 faq: []
 area_slug: "ravenel-sc"

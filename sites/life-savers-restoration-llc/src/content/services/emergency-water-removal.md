@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "cbc0cd3e6faff321"
 generated_at: "2026-09-30T19:28:50.939345+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/emergency-water-removal/", "/service-areas/boulder-city-nv/emergency-water-removal/", "/service-areas/cal-nev-ari-nv/emergency-water-removal/", "/service-areas/enterprise-nv/emergency-water-removal/", "/service-areas/goodsprings-nv/emergency-water-removal/", "/service-areas/indian-springs-nv/emergency-water-removal/", "/service-areas/las-vegas-nv/emergency-water-removal/", "/service-areas/laughlin-nv/emergency-water-removal/", "/service-areas/nellis-afb-nv/emergency-water-removal/", "/service-areas/nelson-nv/emergency-water-removal/", "/service-areas/north-las-vegas-nv/emergency-water-removal/", "/service-areas/paradise-nv/emergency-water-removal/", "/services/water-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/", "/service-areas/enterprise-nv/", "/service-areas/goodsprings-nv/", "/service-areas/indian-springs-nv/", "/service-areas/las-vegas-nv/emergency-water-removal/", "/service-areas/laughlin-nv/", "/service-areas/nellis-afb-nv/", "/service-areas/nelson-nv/", "/service-areas/north-las-vegas-nv/", "/service-areas/paradise-nv/", "/services/water-damage-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "emergency-water-removal"}]
 faq: []
 service_slug: "emergency-water-removal"

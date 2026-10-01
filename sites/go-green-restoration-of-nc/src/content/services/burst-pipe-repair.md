@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "13fb55bc28064177"
 generated_at: "2026-09-30T19:28:39.571115+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/burst-pipe-repair/", "/service-areas/clayton-nc/burst-pipe-repair/", "/service-areas/durham-nc/burst-pipe-repair/", "/service-areas/elm-city-nc/burst-pipe-repair/", "/service-areas/kenly-nc/burst-pipe-repair/", "/service-areas/knightdale-nc/burst-pipe-repair/", "/service-areas/lake-royale-nc/burst-pipe-repair/", "/service-areas/louisburg-nc/burst-pipe-repair/", "/service-areas/nashville-nc/burst-pipe-repair/", "/service-areas/pine-level-nc/burst-pipe-repair/", "/service-areas/raleigh-nc/burst-pipe-repair/", "/service-areas/rocky-mount-nc/burst-pipe-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/", "/service-areas/elm-city-nc/", "/service-areas/kenly-nc/", "/service-areas/knightdale-nc/", "/service-areas/lake-royale-nc/", "/service-areas/louisburg-nc/", "/service-areas/nashville-nc/", "/service-areas/pine-level-nc/", "/service-areas/raleigh-nc/", "/service-areas/rocky-mount-nc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Burst Pipe Cleanup and Repair"}]
 faq: []
 service_slug: "burst-pipe-repair"

@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "233bdb3ea5ad3058"
 generated_at: "2026-09-30T19:28:35.669572+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anna-maria-fl/industrial-restoration/", "/service-areas/apollo-beach-fl/industrial-restoration/", "/service-areas/auburndale-fl/industrial-restoration/", "/service-areas/bartow-fl/industrial-restoration/", "/service-areas/bradenton-fl/industrial-restoration/", "/service-areas/brandon-fl/industrial-restoration/", "/service-areas/clearwater-beach-fl/industrial-restoration/", "/service-areas/clearwater-fl/industrial-restoration/", "/service-areas/crystal-springs-fl/industrial-restoration/", "/service-areas/dade-city-fl/industrial-restoration/", "/service-areas/davenport-fl/industrial-restoration/", "/service-areas/dover-fl/industrial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anna-maria-fl/", "/service-areas/apollo-beach-fl/", "/service-areas/auburndale-fl/", "/service-areas/bartow-fl/", "/service-areas/bradenton-fl/", "/service-areas/brandon-fl/", "/service-areas/clearwater-beach-fl/", "/service-areas/clearwater-fl/", "/service-areas/crystal-springs-fl/", "/service-areas/dade-city-fl/", "/service-areas/davenport-fl/", "/service-areas/dover-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Industrial Restoration"}]
 faq: []
 service_slug: "industrial-restoration"

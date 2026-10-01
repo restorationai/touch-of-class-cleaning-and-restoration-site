@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "18702e894a2030b9"
 generated_at: "2026-09-30T19:28:50.997918+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/laughlin-nv/", "/service-areas/laughlin-nv/fire-damage-restoration/", "/service-areas/laughlin-nv/mold-remediation/", "/service-areas/blue-diamond-nv/storm-damage-restoration/", "/service-areas/boulder-city-nv/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/laughlin-nv/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Laughlin", "url": "/service-areas/laughlin-nv/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "laughlin-nv"

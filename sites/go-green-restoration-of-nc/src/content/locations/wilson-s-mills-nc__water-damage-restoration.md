@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "c4dfc75234ffdbc6"
 generated_at: "2026-09-30T19:28:39.719549+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/wilson-s-mills-nc/", "/service-areas/wilson-s-mills-nc/fire-damage-restoration/", "/service-areas/wilson-s-mills-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-damage-restoration/", "/service-areas/clayton-nc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/wilson-s-mills-nc/", "/service-areas/archer-lodge-nc/water-damage-restoration/", "/service-areas/clayton-nc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wilson's Mills", "url": "/service-areas/wilson-s-mills-nc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "wilson-s-mills-nc"

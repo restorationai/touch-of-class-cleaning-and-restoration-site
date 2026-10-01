@@ -10,10 +10,10 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 214,
-    "generated_at": "2026-09-30T19:28:36.097825+00:00"
+    "url_count": 212,
+    "generated_at": "2026-10-01T05:03:57.981557+00:00"
   },
-  "updated_at": "2026-09-30T22:44:58.815799+00:00",
+  "updated_at": "2026-10-01T05:03:57.981561+00:00",
   "indexnow_key": "33e959a9faa74e78b9608a24caa48989",
   "build": {
     "scaffolded_at": "2026-09-24T17:23:30.318291+00:00",

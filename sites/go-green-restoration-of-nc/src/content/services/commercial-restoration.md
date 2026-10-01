@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "51eae142b9839277"
 generated_at: "2026-09-30T19:28:39.571974+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/commercial-restoration/", "/service-areas/clayton-nc/commercial-restoration/", "/service-areas/durham-nc/commercial-restoration/", "/service-areas/elm-city-nc/commercial-restoration/", "/service-areas/kenly-nc/commercial-restoration/", "/service-areas/knightdale-nc/commercial-restoration/", "/service-areas/lake-royale-nc/commercial-restoration/", "/service-areas/louisburg-nc/commercial-restoration/", "/service-areas/nashville-nc/commercial-restoration/", "/service-areas/pine-level-nc/commercial-restoration/", "/service-areas/raleigh-nc/commercial-restoration/", "/service-areas/rocky-mount-nc/commercial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/", "/service-areas/elm-city-nc/", "/service-areas/kenly-nc/", "/service-areas/knightdale-nc/", "/service-areas/lake-royale-nc/", "/service-areas/louisburg-nc/", "/service-areas/nashville-nc/", "/service-areas/pine-level-nc/", "/service-areas/raleigh-nc/", "/service-areas/rocky-mount-nc/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Commercial Restoration"}]
 faq: []
 service_slug: "commercial-restoration"

@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "249bbd7e7e867f9f"
 generated_at: "2026-09-30T19:28:23.367875+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/camarillo-ca/water-leak-detection/", "/service-areas/carpinteria-ca/water-leak-detection/", "/service-areas/castaic-ca/water-leak-detection/", "/service-areas/fillmore-ca/water-leak-detection/", "/service-areas/hasley-canyon-ca/water-leak-detection/", "/service-areas/lake-sherwood-ca/water-leak-detection/", "/service-areas/mira-monte-ca/water-leak-detection/", "/service-areas/moorpark-ca/water-leak-detection/", "/service-areas/oak-park-ca/water-leak-detection/", "/service-areas/oak-view-ca/water-leak-detection/", "/service-areas/ojai-ca/water-leak-detection/", "/service-areas/oxnard-ca/water-leak-detection/"]
+internal_links: ["/services/", "/contact/", "/service-areas/camarillo-ca/", "/service-areas/carpinteria-ca/", "/service-areas/castaic-ca/", "/service-areas/fillmore-ca/", "/service-areas/hasley-canyon-ca/", "/service-areas/lake-sherwood-ca/", "/service-areas/mira-monte-ca/", "/service-areas/moorpark-ca/", "/service-areas/oak-park-ca/", "/service-areas/oak-view-ca/", "/service-areas/ojai-ca/", "/service-areas/oxnard-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-leak-detection"}]
 faq: []
 service_slug: "water-leak-detection"

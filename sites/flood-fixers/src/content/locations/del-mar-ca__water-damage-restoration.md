@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "cfb9129b349c284e"
 generated_at: "2026-09-24T17:22:06.420505+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/del-mar-ca/", "/service-areas/del-mar-ca/flood-damage-restoration/", "/service-areas/del-mar-ca/reconstruction/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/del-mar-ca/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Del Mar", "url": "/service-areas/del-mar-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "del-mar-ca"

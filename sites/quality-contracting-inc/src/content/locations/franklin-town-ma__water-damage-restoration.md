@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "6c781e27ab2012bd"
 generated_at: "2026-09-30T19:28:57.284900+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/franklin-town-ma/", "/service-areas/franklin-town-ma/fire-damage-restoration/", "/service-areas/franklin-town-ma/mold-remediation/", "/service-areas/bellingham-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/franklin-town-ma/", "/service-areas/bellingham-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Town", "url": "/service-areas/franklin-town-ma/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "franklin-town-ma"

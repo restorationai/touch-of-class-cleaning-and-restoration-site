@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "fddee4e945dffa5a"
 generated_at: "2026-09-30T19:28:38.032098+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/midland-wa/", "/service-areas/midland-wa/fire-damage-restoration/", "/service-areas/midland-wa/mold-remediation/", "/service-areas/anderson-island-wa/water-damage-restoration/", "/service-areas/auburn-wa/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/midland-wa/", "/service-areas/anderson-island-wa/water-damage-restoration/", "/service-areas/auburn-wa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Midland", "url": "/service-areas/midland-wa/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "midland-wa"

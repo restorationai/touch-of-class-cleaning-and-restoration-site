@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "2ad85dd867e54131"
 generated_at: "2026-09-21T14:13:36.633272+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/kiawah-island-sc/", "/service-areas/kiawah-island-sc/fire-damage-restoration/", "/service-areas/kiawah-island-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/folly-beach-sc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/kiawah-island-sc/", "/service-areas/kiawah-island-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/folly-beach-sc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kiawah Island", "url": "/service-areas/kiawah-island-sc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "kiawah-island-sc"

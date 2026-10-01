@@ -1,7 +1,7 @@
 # Site Plan Report — All Pro Plumbing Heating and Air
 
 - Template: `plumbing` v0.1.0
-- Generated: 2026-09-30T15:15:23.120362+00:00
+- Generated: 2026-10-01T05:03:36.712414+00:00
 - Domain: `allproplumbingheatingandair.com`
 - Services selected: 22 of 34 catalog entries
 - Service areas: 18

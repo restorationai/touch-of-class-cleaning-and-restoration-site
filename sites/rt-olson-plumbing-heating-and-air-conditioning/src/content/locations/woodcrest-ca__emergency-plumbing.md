@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "8c0136d801f85fcc"
 generated_at: "2026-09-20T14:13:48.602331+00:00"
 manual_override: false
-internal_links: ["/services/emergency-plumbing/", "/service-areas/woodcrest-ca/", "/service-areas/woodcrest-ca/ac-repair/", "/service-areas/woodcrest-ca/drain-cleaning/", "/service-areas/anaheim-ca/emergency-plumbing/", "/service-areas/bloomington-ca/emergency-plumbing/", "/contact/"]
+internal_links: ["/services/emergency-plumbing/", "/service-areas/woodcrest-ca/", "/service-areas/anaheim-ca/emergency-plumbing/", "/service-areas/bloomington-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woodcrest", "url": "/service-areas/woodcrest-ca/"}, {"name": "Emergency Plumbing"}]
 faq: []
 area_slug: "woodcrest-ca"

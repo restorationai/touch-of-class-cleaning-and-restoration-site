@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "385dbbc04eb5d2de"
 generated_at: "2026-09-24T17:27:58.230225+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/lincolnwood-il/fire-damage-restoration/", "/service-areas/lincolnwood-il/mold-remediation/", "/service-areas/lincolnwood-il/water-damage-restoration/", "/service-areas/lincolnwood-il/flood-damage-restoration/", "/service-areas/lincolnwood-il/sewage-cleanup/", "/service-areas/lincolnwood-il/smoke-damage-restoration/", "/service-areas/lincolnwood-il/storm-damage-restoration/", "/service-areas/lincolnwood-il/emergency-water-removal/", "/service-areas/lincolnwood-il/basement-flooding-cleanup/", "/service-areas/lincolnwood-il/burst-pipe-repair/", "/service-areas/lincolnwood-il/emergency-board-up-tarping/", "/service-areas/lincolnwood-il/odor-removal/", "/service-areas/lincolnwood-il/contents-restoration/", "/service-areas/bedford-park-il/", "/service-areas/berwyn-il/", "/service-areas/brookfield-il/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/lincolnwood-il/", "/service-areas/lincolnwood-il/mold-remediation/", "/service-areas/lincolnwood-il/water-damage-restoration/", "/service-areas/bedford-park-il/", "/service-areas/berwyn-il/", "/service-areas/brookfield-il/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lincolnwood"}]
 faq: []
 area_slug: "lincolnwood-il"

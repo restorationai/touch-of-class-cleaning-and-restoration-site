@@ -1,0 +1,17 @@
+{
+  "slug": "drycor-restore",
+  "allowed": false,
+  "reason": "plumbing name chosen but not confirmed (no DBA upload, GBP not renamed yet)",
+  "evidence": {
+    "company_id": "CO-1788205391336",
+    "gbp_title": "DRYCOR RESTORE",
+    "rename_intent": {
+      "decision": "rename"
+    },
+    "chosen_names": [
+      "DRYCOR RESTORE TAMPA - 24/7 Emergency Plumbing, Water Damage and Mold Remediation"
+    ]
+  },
+  "checked_at": "2026-10-01T04:48:54+00:00",
+  "source": "supabase"
+}

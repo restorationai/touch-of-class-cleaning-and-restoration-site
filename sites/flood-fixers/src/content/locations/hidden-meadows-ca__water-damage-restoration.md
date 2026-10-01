@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "ea8b8aba78f4ab9f"
 generated_at: "2026-09-24T17:22:06.413564+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/hidden-meadows-ca/", "/service-areas/hidden-meadows-ca/flood-damage-restoration/", "/service-areas/hidden-meadows-ca/reconstruction/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/hidden-meadows-ca/", "/service-areas/bonsall-ca/water-damage-restoration/", "/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hidden Meadows", "url": "/service-areas/hidden-meadows-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "hidden-meadows-ca"

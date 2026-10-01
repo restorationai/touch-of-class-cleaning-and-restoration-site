@@ -1,19 +1,19 @@
 # Site Plan Report — ProRestoration Services
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:28:53.509546+00:00
+- Generated: 2026-10-01T05:05:36.953361+00:00
 - Domain: `prorestorationca.com`
 - Services selected: 31 of 91 catalog entries
 - Service areas: 22
 - Cross-product enabled: True
-- Total URLs: **724**
-- Total internal links: 5956 (avg 8.2 per page)
+- Total URLs: **246**
+- Total internal links: 1902 (avg 7.7 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 651 |
+| `service-area-service` | 173 |
 | `service-landing` | 31 |
 | `service-area` | 21 |
 | `blog-post` | 12 |

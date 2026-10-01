@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "4be0026260ec9e1c"
 generated_at: "2026-09-30T19:28:25.262614+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/ceiling-water-damage-repair/", "/service-areas/atascadero-ca/ceiling-water-damage-repair/", "/service-areas/avila-beach-ca/ceiling-water-damage-repair/", "/service-areas/ballard-ca/ceiling-water-damage-repair/", "/service-areas/blacklake-ca/ceiling-water-damage-repair/", "/service-areas/buellton-ca/ceiling-water-damage-repair/", "/service-areas/callender-ca/ceiling-water-damage-repair/", "/service-areas/cambria-ca/ceiling-water-damage-repair/", "/service-areas/edna-ca/ceiling-water-damage-repair/", "/service-areas/el-paso-de-robles-ca/ceiling-water-damage-repair/", "/service-areas/grover-beach-ca/ceiling-water-damage-repair/", "/service-areas/guadalupe-ca/ceiling-water-damage-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/", "/service-areas/atascadero-ca/", "/service-areas/avila-beach-ca/", "/service-areas/ballard-ca/", "/service-areas/blacklake-ca/", "/service-areas/buellton-ca/", "/service-areas/callender-ca/", "/service-areas/cambria-ca/", "/service-areas/edna-ca/", "/service-areas/el-paso-de-robles-ca/", "/service-areas/grover-beach-ca/", "/service-areas/guadalupe-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "ceiling-water-damage-repair"}]
 faq: []
 service_slug: "ceiling-water-damage-repair"

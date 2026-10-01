@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "6ae2a038cafba4fc"
 generated_at: "2026-09-20T14:13:25.013661+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/goose-creek-sc/", "/service-areas/goose-creek-sc/fire-damage-restoration/", "/service-areas/goose-creek-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/hanahan-sc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/goose-creek-sc/", "/service-areas/goose-creek-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/hanahan-sc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Goose Creek", "url": "/service-areas/goose-creek-sc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "goose-creek-sc"

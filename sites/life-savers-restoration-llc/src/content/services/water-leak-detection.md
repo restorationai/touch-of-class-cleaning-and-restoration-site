@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "9a73fb6673e778af"
 generated_at: "2026-09-30T19:28:50.940549+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/water-leak-detection/", "/service-areas/boulder-city-nv/water-leak-detection/", "/service-areas/cal-nev-ari-nv/water-leak-detection/", "/service-areas/enterprise-nv/water-leak-detection/", "/service-areas/goodsprings-nv/water-leak-detection/", "/service-areas/indian-springs-nv/water-leak-detection/", "/service-areas/las-vegas-nv/water-leak-detection/", "/service-areas/laughlin-nv/water-leak-detection/", "/service-areas/nellis-afb-nv/water-leak-detection/", "/service-areas/nelson-nv/water-leak-detection/", "/service-areas/north-las-vegas-nv/water-leak-detection/", "/service-areas/paradise-nv/water-leak-detection/"]
+internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/", "/service-areas/enterprise-nv/", "/service-areas/goodsprings-nv/", "/service-areas/indian-springs-nv/", "/service-areas/las-vegas-nv/", "/service-areas/laughlin-nv/", "/service-areas/nellis-afb-nv/", "/service-areas/nelson-nv/", "/service-areas/north-las-vegas-nv/", "/service-areas/paradise-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-leak-detection"}]
 faq: []
 service_slug: "water-leak-detection"

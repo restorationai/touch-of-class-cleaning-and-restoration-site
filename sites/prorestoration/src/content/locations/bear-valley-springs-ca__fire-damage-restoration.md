@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "0fffdae842d69574"
 generated_at: "2026-09-30T19:28:54.668623+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/", "/service-areas/bear-valley-springs-ca/home-remodeling/", "/service-areas/bear-valley-springs-ca/mold-remediation/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bear Valley Springs", "url": "/service-areas/bear-valley-springs-ca/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "bear-valley-springs-ca"

@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "b878ab4f0d8c0caa"
 generated_at: "2026-09-30T19:28:19.944689+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/albany-tx/commercial-restoration/", "/service-areas/anson-tx/commercial-restoration/", "/service-areas/baird-tx/commercial-restoration/", "/service-areas/ballinger-tx/commercial-restoration/", "/service-areas/bronte-tx/commercial-restoration/", "/service-areas/brownwood-tx/commercial-restoration/", "/service-areas/buffalo-gap-tx/commercial-restoration/", "/service-areas/clyde-tx/commercial-restoration/", "/service-areas/coleman-tx/commercial-restoration/", "/service-areas/colorado-city-tx/commercial-restoration/", "/service-areas/comanche-tx/commercial-restoration/", "/service-areas/early-tx/commercial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/albany-tx/", "/service-areas/anson-tx/commercial-restoration/", "/service-areas/baird-tx/", "/service-areas/ballinger-tx/", "/service-areas/bronte-tx/", "/service-areas/brownwood-tx/", "/service-areas/buffalo-gap-tx/commercial-restoration/", "/service-areas/clyde-tx/commercial-restoration/", "/service-areas/coleman-tx/", "/service-areas/colorado-city-tx/", "/service-areas/comanche-tx/", "/service-areas/early-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "commercial-restoration"}]
 faq: []
 service_slug: "commercial-restoration"

@@ -1,613 +1,613 @@
 {
- "brand": {
-  "display_name": "Dry1 Out Restoration and Construction",
-  "short_name": "Dry1",
-  "phone": "(888) 379-1688",
-  "email": "Jason@dry1out.com",
-  "street_address": "1235 activity dr ",
-  "postal_code": "82081",
-  "place_id": "ChIJh3y1Q-iumqsRn1E-rGgHmcU",
-  "theme": "light",
-  "license_numbers": [
-   "#993442"
+  "brand": {
+    "display_name": "Dry1 Out Restoration and Construction",
+    "short_name": "Dry1",
+    "phone": "(888) 379-1688",
+    "email": "Jason@dry1out.com",
+    "street_address": "1235 activity dr ",
+    "postal_code": "82081",
+    "place_id": "ChIJh3y1Q-iumqsRn1E-rGgHmcU",
+    "theme": "light",
+    "license_numbers": [
+      "#993442"
+    ],
+    "certifications": [
+      "IICRC Certified Firm",
+      "IICRC WRT (Water)",
+      "IICRC ASD (Structural Drying)",
+      "IICRC AMRT (Mold)",
+      "IICRC FSRT (Fire & Smoke)"
+    ],
+    "insured": true,
+    "founded_year": "2026",
+    "logo_url": "/images/logo.png",
+    "city": "Vista",
+    "state": "CA",
+    "hours": "24/7",
+    "licensed_insured_attested": true,
+    "trust_badges": [
+      "IICRC Certified Firm",
+      "Licensed & Insured",
+      "24/7 Emergency Service",
+      "Locally Owned & Operated"
+    ],
+    "lat": 33.1428794,
+    "lng": -117.219342,
+    "address": "1235 Activity Dr"
+  },
+  "template": "restoration",
+  "services": [
+    "appliance-leak-cleanup",
+    "biohazard-cleanup",
+    "blood-cleanup",
+    "carpet-water-extraction",
+    "crime-scene-cleanup",
+    "emergency-board-up",
+    "emergency-water-removal",
+    "fire-damage-restoration",
+    "general-contracting",
+    "mold-inspection-testing",
+    "mold-remediation",
+    "odor-removal",
+    "post-construction-cleaning",
+    "sewage-cleanup",
+    "storm-damage-restoration",
+    "vandalism-damage-cleanup-and-repair",
+    "vehicle-impact-damage-repair",
+    "water-cleanup",
+    "water-damage-restoration"
   ],
-  "certifications": [
-   "IICRC Certified Firm",
-   "IICRC WRT (Water)",
-   "IICRC ASD (Structural Drying)",
-   "IICRC AMRT (Mold)",
-   "IICRC FSRT (Fire & Smoke)"
+  "blog_seed_count": 12,
+  "service_areas": [
+    {
+      "city": "Vista",
+      "state": "CA",
+      "slug": "vista-ca",
+      "neighborhoods": [
+        "Downtown Vista",
+        "Shadowridge",
+        "Buena Creek",
+        "Vista Business Park"
+      ],
+      "landmarks": [
+        "Moonlight Amphitheatre at Brengle Terrace Park",
+        "Rancho Guajome Adobe",
+        "Rancho Buena Vista Adobe",
+        "Antique Gas & Steam Engine Museum"
+      ],
+      "zip_codes": [
+        "92081",
+        "92083",
+        "92084"
+      ],
+      "local_notes": "Home base: our Vista crew is closest here, from Shadowridge to downtown.",
+      "primary": true
+    },
+    {
+      "city": "San Diego",
+      "state": "CA",
+      "slug": "san-diego-ca",
+      "neighborhoods": [
+        "North Park",
+        "Pacific Beach",
+        "La Jolla",
+        "Clairemont",
+        "Mira Mesa",
+        "Hillcrest",
+        "Rancho Bernardo"
+      ],
+      "landmarks": [
+        "Balboa Park",
+        "USS Midway Museum",
+        "Petco Park",
+        "Mission Bay Park"
+      ],
+      "zip_codes": [
+        "92101",
+        "92103",
+        "92104",
+        "92109",
+        "92117",
+        "92126",
+        "92037",
+        "92127",
+        "92128"
+      ],
+      "local_notes": "We handle water damage in older North Park Craftsman homes and coastal properties near Pacific Beach."
+    },
+    {
+      "city": "San Jose",
+      "state": "CA",
+      "slug": "san-jose-ca",
+      "neighborhoods": [
+        "Willow Glen",
+        "Almaden Valley",
+        "Evergreen",
+        "Berryessa",
+        "Rose Garden",
+        "Japantown",
+        "Cambrian Park"
+      ],
+      "landmarks": [
+        "SAP Center",
+        "Winchester Mystery House",
+        "San Jose Municipal Rose Garden",
+        "The Tech Interactive"
+      ],
+      "zip_codes": [
+        "95110",
+        "95112",
+        "95118",
+        "95120",
+        "95125",
+        "95126",
+        "95132",
+        "95148"
+      ],
+      "local_notes": "We restore water-damaged homes from Willow Glen bungalows to newer Evergreen tract homes."
+    },
+    {
+      "city": "San Francisco",
+      "state": "CA",
+      "slug": "san-francisco-ca",
+      "neighborhoods": [
+        "Mission District",
+        "Sunset District",
+        "Richmond District",
+        "Noe Valley",
+        "Pacific Heights",
+        "SoMa",
+        "Bernal Heights"
+      ],
+      "landmarks": [
+        "Golden Gate Park",
+        "Coit Tower",
+        "Ferry Building",
+        "Oracle Park"
+      ],
+      "zip_codes": [
+        "94103",
+        "94107",
+        "94110",
+        "94114",
+        "94115",
+        "94118",
+        "94121",
+        "94122"
+      ],
+      "local_notes": "Fog-belt moisture in the Sunset and Richmond makes prompt drying important for older homes."
+    },
+    {
+      "city": "Oakland",
+      "state": "CA",
+      "slug": "oakland-ca",
+      "neighborhoods": [
+        "Rockridge",
+        "Temescal",
+        "Montclair",
+        "Fruitvale",
+        "Grand Lake",
+        "Jack London Square"
+      ],
+      "landmarks": [
+        "Lake Merritt",
+        "Oakland Museum of California",
+        "Paramount Theatre",
+        "Chabot Space & Science Center"
+      ],
+      "zip_codes": [
+        "94601",
+        "94607",
+        "94609",
+        "94610",
+        "94611",
+        "94612",
+        "94618"
+      ],
+      "local_notes": "We work on older Oakland homes from Rockridge to the Montclair hills."
+    },
+    {
+      "city": "Chula Vista",
+      "state": "CA",
+      "slug": "chula-vista-ca",
+      "neighborhoods": [
+        "Eastlake",
+        "Otay Ranch",
+        "Rancho del Rey",
+        "Third Avenue Village",
+        "Rolling Hills Ranch"
+      ],
+      "landmarks": [
+        "North Island Credit Union Amphitheatre",
+        "Chula Vista Elite Athlete Training Center",
+        "Living Coast Discovery Center",
+        "Lower Otay Reservoir"
+      ],
+      "zip_codes": [
+        "91910",
+        "91911",
+        "91913",
+        "91914",
+        "91915"
+      ],
+      "local_notes": "We serve both established western Chula Vista and newer Eastlake and Otay Ranch homes."
+    },
+    {
+      "city": "Fremont",
+      "state": "CA",
+      "slug": "fremont-ca",
+      "neighborhoods": [
+        "Mission San Jose",
+        "Niles",
+        "Irvington",
+        "Centerville",
+        "Warm Springs",
+        "Ardenwood"
+      ],
+      "landmarks": [
+        "Mission San Jose",
+        "Central Park and Lake Elizabeth",
+        "Ardenwood Historic Farm",
+        "Coyote Hills Regional Park"
+      ],
+      "zip_codes": [
+        "94536",
+        "94538",
+        "94539",
+        "94555"
+      ],
+      "local_notes": "We handle water and mold cleanup from historic Niles to Warm Springs."
+    },
+    {
+      "city": "Oceanside",
+      "state": "CA",
+      "slug": "oceanside-ca",
+      "neighborhoods": [
+        "Downtown Oceanside",
+        "South Oceanside",
+        "Fire Mountain",
+        "Loma Alta",
+        "Rancho del Oro"
+      ],
+      "landmarks": [
+        "Oceanside Pier",
+        "Oceanside Harbor",
+        "Mission San Luis Rey",
+        "California Surf Museum"
+      ],
+      "zip_codes": [
+        "92054",
+        "92056",
+        "92057",
+        "92058"
+      ],
+      "local_notes": "Right next door to Vista via SR-78, so we can respond quickly to Oceanside calls."
+    },
+    {
+      "city": "Escondido",
+      "state": "CA",
+      "slug": "escondido-ca",
+      "neighborhoods": [
+        "Old Escondido Historic District",
+        "Downtown Grand Avenue",
+        "Felicita",
+        "San Pasqual Valley"
+      ],
+      "landmarks": [
+        "California Center for the Arts, Escondido",
+        "Kit Carson Park",
+        "Dixon Lake",
+        "Stone Brewing World Bistro & Gardens"
+      ],
+      "zip_codes": [
+        "92025",
+        "92026",
+        "92027",
+        "92029"
+      ],
+      "local_notes": "A short drive east on SR-78 from our Vista shop, including historic homes in Old Escondido."
+    },
+    {
+      "city": "Carlsbad",
+      "state": "CA",
+      "slug": "carlsbad-ca",
+      "neighborhoods": [
+        "Carlsbad Village",
+        "La Costa",
+        "Aviara",
+        "Bressi Ranch",
+        "Calavera Hills"
+      ],
+      "landmarks": [
+        "LEGOLAND California",
+        "The Flower Fields",
+        "Batiquitos Lagoon",
+        "Carlsbad Premium Outlets"
+      ],
+      "zip_codes": [
+        "92008",
+        "92009",
+        "92010",
+        "92011"
+      ],
+      "local_notes": "Minutes from Vista, serving coastal Carlsbad Village homes and La Costa properties alike."
+    },
+    {
+      "city": "San Marcos",
+      "state": "CA",
+      "slug": "san-marcos-ca",
+      "neighborhoods": [
+        "San Elijo Hills",
+        "Santa Fe Hills",
+        "Twin Oaks Valley",
+        "Richland"
+      ],
+      "landmarks": [
+        "Cal State San Marcos",
+        "Palomar College",
+        "Double Peak Park",
+        "Lake San Marcos"
+      ],
+      "zip_codes": [
+        "92069",
+        "92078"
+      ],
+      "local_notes": "Our neighbor just down SR-78, from San Elijo Hills to the CSUSM area."
+    },
+    {
+      "city": "Temecula",
+      "state": "CA",
+      "slug": "temecula-ca",
+      "neighborhoods": [
+        "Old Town Temecula",
+        "Redhawk",
+        "Paloma del Sol",
+        "Harveston",
+        "Temeku Hills"
+      ],
+      "landmarks": [
+        "Old Town Temecula",
+        "Temecula Valley Wine Country",
+        "Promenade Temecula",
+        "Temecula Duck Pond"
+      ],
+      "zip_codes": [
+        "92590",
+        "92591",
+        "92592"
+      ],
+      "local_notes": "Reachable up I-15 from North County, serving Redhawk, Harveston, and Wine Country homes."
+    },
+    {
+      "city": "Hayward",
+      "state": "CA",
+      "slug": "hayward-ca",
+      "neighborhoods": [
+        "Downtown Hayward",
+        "Hayward Highlands",
+        "Mt. Eden",
+        "Fairway Park",
+        "Tennyson-Alquire"
+      ],
+      "landmarks": [
+        "Cal State East Bay",
+        "Hayward Regional Shoreline",
+        "Hayward Japanese Gardens",
+        "Chabot College"
+      ],
+      "zip_codes": [
+        "94541",
+        "94542",
+        "94544",
+        "94545"
+      ],
+      "local_notes": "We serve Hayward homes from the Highlands down to the shoreline neighborhoods."
+    },
+    {
+      "city": "Sunnyvale",
+      "state": "CA",
+      "slug": "sunnyvale-ca",
+      "neighborhoods": [
+        "Heritage District",
+        "Cherry Chase",
+        "Ponderosa Park",
+        "Lakewood Village"
+      ],
+      "landmarks": [
+        "Murphy Avenue",
+        "Sunnyvale Baylands Park",
+        "Sunnyvale Heritage Park Museum",
+        "Las Palmas Park"
+      ],
+      "zip_codes": [
+        "94085",
+        "94086",
+        "94087",
+        "94089"
+      ],
+      "local_notes": "We restore Eichler-era and mid-century homes common across Sunnyvale neighborhoods."
+    },
+    {
+      "city": "Santa Clara",
+      "state": "CA",
+      "slug": "santa-clara-ca",
+      "neighborhoods": [
+        "Old Quad",
+        "Rivermark",
+        "El Camino Real corridor"
+      ],
+      "landmarks": [
+        "Levi's Stadium",
+        "California's Great America",
+        "Mission Santa Clara de As\u00eds",
+        "Santa Clara Central Park"
+      ],
+      "zip_codes": [
+        "95050",
+        "95051",
+        "95054"
+      ],
+      "local_notes": "We work on everything from Old Quad historic homes to Rivermark condos."
+    },
+    {
+      "city": "El Cajon",
+      "state": "CA",
+      "slug": "el-cajon-ca",
+      "neighborhoods": [
+        "Fletcher Hills",
+        "Downtown El Cajon",
+        "Bostonia"
+      ],
+      "landmarks": [
+        "Gillespie Field",
+        "Parkway Plaza",
+        "Grossmont College",
+        "Magnolia Performing Arts Center"
+      ],
+      "zip_codes": [
+        "92019",
+        "92020",
+        "92021"
+      ],
+      "local_notes": "We serve East County homes where inland heat and older plumbing can mean hidden leaks."
+    },
+    {
+      "city": "Concord",
+      "state": "CA",
+      "slug": "concord-ca",
+      "neighborhoods": [
+        "Downtown Concord",
+        "Ygnacio Valley",
+        "Dana Estates",
+        "Sun Terrace",
+        "Crystyl Ranch"
+      ],
+      "landmarks": [
+        "Todos Santos Plaza",
+        "Toyota Pavilion at Concord",
+        "Buchanan Field Airport",
+        "Sunvalley Shopping Center"
+      ],
+      "zip_codes": [
+        "94518",
+        "94519",
+        "94520",
+        "94521"
+      ],
+      "local_notes": "We handle water and fire restoration from Todos Santos Plaza to Ygnacio Valley."
+    },
+    {
+      "city": "Berkeley",
+      "state": "CA",
+      "slug": "berkeley-ca",
+      "neighborhoods": [
+        "North Berkeley",
+        "Elmwood",
+        "Claremont",
+        "Southside",
+        "West Berkeley",
+        "Berkeley Hills"
+      ],
+      "landmarks": [
+        "UC Berkeley Sather Tower",
+        "Tilden Regional Park",
+        "Fourth Street shopping district",
+        "Berkeley Marina"
+      ],
+      "zip_codes": [
+        "94702",
+        "94703",
+        "94704",
+        "94705",
+        "94707",
+        "94708",
+        "94709",
+        "94710"
+      ],
+      "local_notes": "Many Berkeley homes are pre-war builds, so we take care with older materials during restoration."
+    },
+    {
+      "city": "Encinitas",
+      "state": "CA",
+      "slug": "encinitas-ca",
+      "neighborhoods": [
+        "Leucadia",
+        "Olivenhain",
+        "Cardiff-by-the-Sea",
+        "Old Encinitas",
+        "New Encinitas"
+      ],
+      "landmarks": [
+        "San Diego Botanic Garden",
+        "Moonlight Beach",
+        "Swami's Beach",
+        "Self-Realization Fellowship Encinitas"
+      ],
+      "zip_codes": [
+        "92024",
+        "92007"
+      ],
+      "local_notes": "A quick trip from Vista, serving coastal Leucadia and Cardiff homes exposed to salt air."
+    },
+    {
+      "city": "Santa Cruz",
+      "state": "CA",
+      "slug": "santa-cruz-ca",
+      "neighborhoods": [
+        "Westside",
+        "Seabright",
+        "Downtown Santa Cruz",
+        "Eastside",
+        "Beach Flats"
+      ],
+      "landmarks": [
+        "Santa Cruz Beach Boardwalk",
+        "UC Santa Cruz",
+        "Natural Bridges State Beach",
+        "Santa Cruz Wharf"
+      ],
+      "zip_codes": [
+        "95060",
+        "95062",
+        "95064",
+        "95065"
+      ],
+      "local_notes": "Coastal fog and winter storms make moisture and mold control a priority in Santa Cruz homes."
+    }
   ],
-  "insured": true,
-  "founded_year": "2026",
-  "logo_url": "/images/logo.png",
-  "city": "Vista",
-  "state": "CA",
-  "hours": "24/7",
-  "licensed_insured_attested": true,
-  "trust_badges": [
-   "IICRC Certified Firm",
-   "Licensed & Insured",
-   "24/7 Emergency Service",
-   "Locally Owned & Operated"
+  "site_brief": {
+    "source": "Cole kickoff call 2026-09-28 (https://fathom.video/calls/840937586); recorded by dev agent 2026-09-29",
+    "goal": "Rebuild the website on Astro, optimized for mobile conversion and speed. Keep the current site live until the new one is ready.",
+    "conversion_requirements": [
+      "Make the phone number prominent site-wide",
+      "Strengthen the CTAs",
+      "Drop the obstructive chat pop-ups the current site has"
+    ],
+    "local_pages": "Large-scale local landing pages with unique, locality-specific content for the areas each location serves (two metros: San Diego/Vista and the Bay Area/Hayward).",
+    "build_sequence": "Build Vista/San Diego first, then Hayward/Bay Area.",
+    "nap_gap": "Intake left brand.city/state empty and postal_code 82081 is likely a typo (Vista CA is 92081). Confirm the real NAP for each of the two locations before scaffold."
+  },
+  "positioning": {
+    "vista_san_diego": "Restoration-first",
+    "hayward_bay_area": "Construction-first",
+    "sequence": "Start with Vista (San Diego) as restoration-first, then position Hayward (Bay Area) as construction-first.",
+    "source": "Cole call 2026-09-28"
+  },
+  "homepage_services": [
+    "water-damage-restoration",
+    "fire-damage-restoration",
+    "mold-remediation",
+    "sewage-cleanup",
+    "storm-damage-restoration",
+    "general-contracting"
   ],
-  "lat": 33.1428794,
-  "lng": -117.219342,
-  "address": "1235 Activity Dr"
- },
- "template": "restoration",
- "services": [
-  "appliance-leak-cleanup",
-  "biohazard-cleanup",
-  "blood-cleanup",
-  "carpet-water-extraction",
-  "crime-scene-cleanup",
-  "emergency-board-up",
-  "emergency-water-removal",
-  "fire-damage-restoration",
-  "general-contracting",
-  "mold-inspection-testing",
-  "mold-remediation",
-  "odor-removal",
-  "post-construction-cleaning",
-  "sewage-cleanup",
-  "storm-damage-restoration",
-  "vandalism-damage-cleanup-and-repair",
-  "vehicle-impact-damage-repair",
-  "water-cleanup",
-  "water-damage-restoration"
- ],
- "blog_seed_count": 12,
- "service_areas": [
-  {
-   "city": "Vista",
-   "state": "CA",
-   "slug": "vista-ca",
-   "neighborhoods": [
-    "Downtown Vista",
-    "Shadowridge",
-    "Buena Creek",
-    "Vista Business Park"
-   ],
-   "landmarks": [
-    "Moonlight Amphitheatre at Brengle Terrace Park",
-    "Rancho Guajome Adobe",
-    "Rancho Buena Vista Adobe",
-    "Antique Gas & Steam Engine Museum"
-   ],
-   "zip_codes": [
-    "92081",
-    "92083",
-    "92084"
-   ],
-   "local_notes": "Home base: our Vista crew is closest here, from Shadowridge to downtown.",
-   "primary": true
-  },
-  {
-   "city": "San Diego",
-   "state": "CA",
-   "slug": "san-diego-ca",
-   "neighborhoods": [
-    "North Park",
-    "Pacific Beach",
-    "La Jolla",
-    "Clairemont",
-    "Mira Mesa",
-    "Hillcrest",
-    "Rancho Bernardo"
-   ],
-   "landmarks": [
-    "Balboa Park",
-    "USS Midway Museum",
-    "Petco Park",
-    "Mission Bay Park"
-   ],
-   "zip_codes": [
-    "92101",
-    "92103",
-    "92104",
-    "92109",
-    "92117",
-    "92126",
-    "92037",
-    "92127",
-    "92128"
-   ],
-   "local_notes": "We handle water damage in older North Park Craftsman homes and coastal properties near Pacific Beach."
-  },
-  {
-   "city": "San Jose",
-   "state": "CA",
-   "slug": "san-jose-ca",
-   "neighborhoods": [
-    "Willow Glen",
-    "Almaden Valley",
-    "Evergreen",
-    "Berryessa",
-    "Rose Garden",
-    "Japantown",
-    "Cambrian Park"
-   ],
-   "landmarks": [
-    "SAP Center",
-    "Winchester Mystery House",
-    "San Jose Municipal Rose Garden",
-    "The Tech Interactive"
-   ],
-   "zip_codes": [
-    "95110",
-    "95112",
-    "95118",
-    "95120",
-    "95125",
-    "95126",
-    "95132",
-    "95148"
-   ],
-   "local_notes": "We restore water-damaged homes from Willow Glen bungalows to newer Evergreen tract homes."
-  },
-  {
-   "city": "San Francisco",
-   "state": "CA",
-   "slug": "san-francisco-ca",
-   "neighborhoods": [
-    "Mission District",
-    "Sunset District",
-    "Richmond District",
-    "Noe Valley",
-    "Pacific Heights",
-    "SoMa",
-    "Bernal Heights"
-   ],
-   "landmarks": [
-    "Golden Gate Park",
-    "Coit Tower",
-    "Ferry Building",
-    "Oracle Park"
-   ],
-   "zip_codes": [
-    "94103",
-    "94107",
-    "94110",
-    "94114",
-    "94115",
-    "94118",
-    "94121",
-    "94122"
-   ],
-   "local_notes": "Fog-belt moisture in the Sunset and Richmond makes prompt drying important for older homes."
-  },
-  {
-   "city": "Oakland",
-   "state": "CA",
-   "slug": "oakland-ca",
-   "neighborhoods": [
-    "Rockridge",
-    "Temescal",
-    "Montclair",
-    "Fruitvale",
-    "Grand Lake",
-    "Jack London Square"
-   ],
-   "landmarks": [
-    "Lake Merritt",
-    "Oakland Museum of California",
-    "Paramount Theatre",
-    "Chabot Space & Science Center"
-   ],
-   "zip_codes": [
-    "94601",
-    "94607",
-    "94609",
-    "94610",
-    "94611",
-    "94612",
-    "94618"
-   ],
-   "local_notes": "We work on older Oakland homes from Rockridge to the Montclair hills."
-  },
-  {
-   "city": "Chula Vista",
-   "state": "CA",
-   "slug": "chula-vista-ca",
-   "neighborhoods": [
-    "Eastlake",
-    "Otay Ranch",
-    "Rancho del Rey",
-    "Third Avenue Village",
-    "Rolling Hills Ranch"
-   ],
-   "landmarks": [
-    "North Island Credit Union Amphitheatre",
-    "Chula Vista Elite Athlete Training Center",
-    "Living Coast Discovery Center",
-    "Lower Otay Reservoir"
-   ],
-   "zip_codes": [
-    "91910",
-    "91911",
-    "91913",
-    "91914",
-    "91915"
-   ],
-   "local_notes": "We serve both established western Chula Vista and newer Eastlake and Otay Ranch homes."
-  },
-  {
-   "city": "Fremont",
-   "state": "CA",
-   "slug": "fremont-ca",
-   "neighborhoods": [
-    "Mission San Jose",
-    "Niles",
-    "Irvington",
-    "Centerville",
-    "Warm Springs",
-    "Ardenwood"
-   ],
-   "landmarks": [
-    "Mission San Jose",
-    "Central Park and Lake Elizabeth",
-    "Ardenwood Historic Farm",
-    "Coyote Hills Regional Park"
-   ],
-   "zip_codes": [
-    "94536",
-    "94538",
-    "94539",
-    "94555"
-   ],
-   "local_notes": "We handle water and mold cleanup from historic Niles to Warm Springs."
-  },
-  {
-   "city": "Oceanside",
-   "state": "CA",
-   "slug": "oceanside-ca",
-   "neighborhoods": [
-    "Downtown Oceanside",
-    "South Oceanside",
-    "Fire Mountain",
-    "Loma Alta",
-    "Rancho del Oro"
-   ],
-   "landmarks": [
-    "Oceanside Pier",
-    "Oceanside Harbor",
-    "Mission San Luis Rey",
-    "California Surf Museum"
-   ],
-   "zip_codes": [
-    "92054",
-    "92056",
-    "92057",
-    "92058"
-   ],
-   "local_notes": "Right next door to Vista via SR-78, so we can respond quickly to Oceanside calls."
-  },
-  {
-   "city": "Escondido",
-   "state": "CA",
-   "slug": "escondido-ca",
-   "neighborhoods": [
-    "Old Escondido Historic District",
-    "Downtown Grand Avenue",
-    "Felicita",
-    "San Pasqual Valley"
-   ],
-   "landmarks": [
-    "California Center for the Arts, Escondido",
-    "Kit Carson Park",
-    "Dixon Lake",
-    "Stone Brewing World Bistro & Gardens"
-   ],
-   "zip_codes": [
-    "92025",
-    "92026",
-    "92027",
-    "92029"
-   ],
-   "local_notes": "A short drive east on SR-78 from our Vista shop, including historic homes in Old Escondido."
-  },
-  {
-   "city": "Carlsbad",
-   "state": "CA",
-   "slug": "carlsbad-ca",
-   "neighborhoods": [
-    "Carlsbad Village",
-    "La Costa",
-    "Aviara",
-    "Bressi Ranch",
-    "Calavera Hills"
-   ],
-   "landmarks": [
-    "LEGOLAND California",
-    "The Flower Fields",
-    "Batiquitos Lagoon",
-    "Carlsbad Premium Outlets"
-   ],
-   "zip_codes": [
-    "92008",
-    "92009",
-    "92010",
-    "92011"
-   ],
-   "local_notes": "Minutes from Vista, serving coastal Carlsbad Village homes and La Costa properties alike."
-  },
-  {
-   "city": "San Marcos",
-   "state": "CA",
-   "slug": "san-marcos-ca",
-   "neighborhoods": [
-    "San Elijo Hills",
-    "Santa Fe Hills",
-    "Twin Oaks Valley",
-    "Richland"
-   ],
-   "landmarks": [
-    "Cal State San Marcos",
-    "Palomar College",
-    "Double Peak Park",
-    "Lake San Marcos"
-   ],
-   "zip_codes": [
-    "92069",
-    "92078"
-   ],
-   "local_notes": "Our neighbor just down SR-78, from San Elijo Hills to the CSUSM area."
-  },
-  {
-   "city": "Temecula",
-   "state": "CA",
-   "slug": "temecula-ca",
-   "neighborhoods": [
-    "Old Town Temecula",
-    "Redhawk",
-    "Paloma del Sol",
-    "Harveston",
-    "Temeku Hills"
-   ],
-   "landmarks": [
-    "Old Town Temecula",
-    "Temecula Valley Wine Country",
-    "Promenade Temecula",
-    "Temecula Duck Pond"
-   ],
-   "zip_codes": [
-    "92590",
-    "92591",
-    "92592"
-   ],
-   "local_notes": "Reachable up I-15 from North County, serving Redhawk, Harveston, and Wine Country homes."
-  },
-  {
-   "city": "Hayward",
-   "state": "CA",
-   "slug": "hayward-ca",
-   "neighborhoods": [
-    "Downtown Hayward",
-    "Hayward Highlands",
-    "Mt. Eden",
-    "Fairway Park",
-    "Tennyson-Alquire"
-   ],
-   "landmarks": [
-    "Cal State East Bay",
-    "Hayward Regional Shoreline",
-    "Hayward Japanese Gardens",
-    "Chabot College"
-   ],
-   "zip_codes": [
-    "94541",
-    "94542",
-    "94544",
-    "94545"
-   ],
-   "local_notes": "We serve Hayward homes from the Highlands down to the shoreline neighborhoods."
-  },
-  {
-   "city": "Sunnyvale",
-   "state": "CA",
-   "slug": "sunnyvale-ca",
-   "neighborhoods": [
-    "Heritage District",
-    "Cherry Chase",
-    "Ponderosa Park",
-    "Lakewood Village"
-   ],
-   "landmarks": [
-    "Murphy Avenue",
-    "Sunnyvale Baylands Park",
-    "Sunnyvale Heritage Park Museum",
-    "Las Palmas Park"
-   ],
-   "zip_codes": [
-    "94085",
-    "94086",
-    "94087",
-    "94089"
-   ],
-   "local_notes": "We restore Eichler-era and mid-century homes common across Sunnyvale neighborhoods."
-  },
-  {
-   "city": "Santa Clara",
-   "state": "CA",
-   "slug": "santa-clara-ca",
-   "neighborhoods": [
-    "Old Quad",
-    "Rivermark",
-    "El Camino Real corridor"
-   ],
-   "landmarks": [
-    "Levi's Stadium",
-    "California's Great America",
-    "Mission Santa Clara de As\u00eds",
-    "Santa Clara Central Park"
-   ],
-   "zip_codes": [
-    "95050",
-    "95051",
-    "95054"
-   ],
-   "local_notes": "We work on everything from Old Quad historic homes to Rivermark condos."
-  },
-  {
-   "city": "El Cajon",
-   "state": "CA",
-   "slug": "el-cajon-ca",
-   "neighborhoods": [
-    "Fletcher Hills",
-    "Downtown El Cajon",
-    "Bostonia"
-   ],
-   "landmarks": [
-    "Gillespie Field",
-    "Parkway Plaza",
-    "Grossmont College",
-    "Magnolia Performing Arts Center"
-   ],
-   "zip_codes": [
-    "92019",
-    "92020",
-    "92021"
-   ],
-   "local_notes": "We serve East County homes where inland heat and older plumbing can mean hidden leaks."
-  },
-  {
-   "city": "Concord",
-   "state": "CA",
-   "slug": "concord-ca",
-   "neighborhoods": [
-    "Downtown Concord",
-    "Ygnacio Valley",
-    "Dana Estates",
-    "Sun Terrace",
-    "Crystyl Ranch"
-   ],
-   "landmarks": [
-    "Todos Santos Plaza",
-    "Toyota Pavilion at Concord",
-    "Buchanan Field Airport",
-    "Sunvalley Shopping Center"
-   ],
-   "zip_codes": [
-    "94518",
-    "94519",
-    "94520",
-    "94521"
-   ],
-   "local_notes": "We handle water and fire restoration from Todos Santos Plaza to Ygnacio Valley."
-  },
-  {
-   "city": "Berkeley",
-   "state": "CA",
-   "slug": "berkeley-ca",
-   "neighborhoods": [
-    "North Berkeley",
-    "Elmwood",
-    "Claremont",
-    "Southside",
-    "West Berkeley",
-    "Berkeley Hills"
-   ],
-   "landmarks": [
-    "UC Berkeley Sather Tower",
-    "Tilden Regional Park",
-    "Fourth Street shopping district",
-    "Berkeley Marina"
-   ],
-   "zip_codes": [
-    "94702",
-    "94703",
-    "94704",
-    "94705",
-    "94707",
-    "94708",
-    "94709",
-    "94710"
-   ],
-   "local_notes": "Many Berkeley homes are pre-war builds, so we take care with older materials during restoration."
-  },
-  {
-   "city": "Encinitas",
-   "state": "CA",
-   "slug": "encinitas-ca",
-   "neighborhoods": [
-    "Leucadia",
-    "Olivenhain",
-    "Cardiff-by-the-Sea",
-    "Old Encinitas",
-    "New Encinitas"
-   ],
-   "landmarks": [
-    "San Diego Botanic Garden",
-    "Moonlight Beach",
-    "Swami's Beach",
-    "Self-Realization Fellowship Encinitas"
-   ],
-   "zip_codes": [
-    "92024",
-    "92007"
-   ],
-   "local_notes": "A quick trip from Vista, serving coastal Leucadia and Cardiff homes exposed to salt air."
-  },
-  {
-   "city": "Santa Cruz",
-   "state": "CA",
-   "slug": "santa-cruz-ca",
-   "neighborhoods": [
-    "Westside",
-    "Seabright",
-    "Downtown Santa Cruz",
-    "Eastside",
-    "Beach Flats"
-   ],
-   "landmarks": [
-    "Santa Cruz Beach Boardwalk",
-    "UC Santa Cruz",
-    "Natural Bridges State Beach",
-    "Santa Cruz Wharf"
-   ],
-   "zip_codes": [
-    "95060",
-    "95062",
-    "95064",
-    "95065"
-   ],
-   "local_notes": "Coastal fog and winter storms make moisture and mold control a priority in Santa Cruz homes."
+  "merged_services": {
+    "24-7-emergency-water-damage-restoration": "water-damage-restoration",
+    "basement-sewage-cleanup": "sewage-cleanup",
+    "burst-pipe-water-damage-cleanup": "burst-pipe-repair",
+    "category-3-water-cleanup": "sewage-cleanup",
+    "emergency-board-ups": "emergency-board-up",
+    "water-cleanup": "emergency-water-removal",
+    "water-heater-flood-cleanup": "appliance-leak-cleanup"
   }
- ],
- "site_brief": {
-  "source": "Cole kickoff call 2026-09-28 (https://fathom.video/calls/840937586); recorded by dev agent 2026-09-29",
-  "goal": "Rebuild the website on Astro, optimized for mobile conversion and speed. Keep the current site live until the new one is ready.",
-  "conversion_requirements": [
-   "Make the phone number prominent site-wide",
-   "Strengthen the CTAs",
-   "Drop the obstructive chat pop-ups the current site has"
-  ],
-  "local_pages": "Large-scale local landing pages with unique, locality-specific content for the areas each location serves (two metros: San Diego/Vista and the Bay Area/Hayward).",
-  "build_sequence": "Build Vista/San Diego first, then Hayward/Bay Area.",
-  "nap_gap": "Intake left brand.city/state empty and postal_code 82081 is likely a typo (Vista CA is 92081). Confirm the real NAP for each of the two locations before scaffold."
- },
- "positioning": {
-  "vista_san_diego": "Restoration-first",
-  "hayward_bay_area": "Construction-first",
-  "sequence": "Start with Vista (San Diego) as restoration-first, then position Hayward (Bay Area) as construction-first.",
-  "source": "Cole call 2026-09-28"
- },
- "homepage_services": [
-  "water-damage-restoration",
-  "fire-damage-restoration",
-  "mold-remediation",
-  "sewage-cleanup",
-  "storm-damage-restoration",
-  "general-contracting"
- ],
- "merged_services": {
-  "24-7-emergency-water-damage-restoration": "water-damage-restoration",
-  "basement-sewage-cleanup": "sewage-cleanup",
-  "burst-pipe-water-damage-cleanup": "burst-pipe-repair",
-  "category-3-water-cleanup": "sewage-cleanup",
-  "emergency-board-ups": "emergency-board-up",
-  "water-cleanup": "emergency-water-removal",
-  "water-heater-flood-cleanup": "appliance-leak-cleanup"
- }
 }

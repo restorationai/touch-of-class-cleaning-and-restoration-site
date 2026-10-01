@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "b19275d62dbf4e07"
 generated_at: "2026-09-30T19:29:00.299007+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/emergency-water-removal/", "/service-areas/caddo-mills-tx/emergency-water-removal/", "/service-areas/dallas-tx/emergency-water-removal/", "/service-areas/farmersville-tx/emergency-water-removal/", "/service-areas/fate-tx/emergency-water-removal/", "/service-areas/frisco-tx/emergency-water-removal/", "/service-areas/garland-tx/emergency-water-removal/", "/service-areas/greenville-tx/emergency-water-removal/", "/service-areas/heath-tx/emergency-water-removal/", "/service-areas/highland-park-tx/emergency-water-removal/", "/service-areas/josephine-tx/emergency-water-removal/", "/service-areas/lavon-tx/emergency-water-removal/", "/services/water-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/emergency-water-removal/", "/service-areas/farmersville-tx/", "/service-areas/fate-tx/", "/service-areas/frisco-tx/", "/service-areas/garland-tx/", "/service-areas/greenville-tx/", "/service-areas/heath-tx/", "/service-areas/highland-park-tx/", "/service-areas/josephine-tx/", "/service-areas/lavon-tx/", "/services/water-damage-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "emergency-water-removal"}]
 faq: []
 service_slug: "emergency-water-removal"

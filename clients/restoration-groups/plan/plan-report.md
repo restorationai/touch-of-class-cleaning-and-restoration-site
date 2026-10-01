@@ -1,21 +1,21 @@
 # Site Plan Report — The Restoration Group
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:29:01.033260+00:00
+- Generated: 2026-10-01T05:05:50.022853+00:00
 - Domain: `therestorationgroup.com`
-- Services selected: 26 of 91 catalog entries
+- Services selected: 24 of 91 catalog entries
 - Service areas: 61
 - Cross-product enabled: True
-- Total URLs: **1667**
-- Total internal links: 13416 (avg 8.0 per page)
+- Total URLs: **997**
+- Total internal links: 7940 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 1560 |
+| `service-area-service` | 892 |
 | `service-area` | 60 |
-| `service-landing` | 26 |
+| `service-landing` | 24 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -50,9 +50,7 @@
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
 - `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
-- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
 
@@ -126,12 +124,12 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation kenilworth |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration kenilworth |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration kenilworth |
-| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing kenilworth |
 | `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup kenilworth |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration kenilworth |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services kenilworth |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization kenilworth |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration kenilworth |
+| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration kenilworth |
 
 ## Validation
 

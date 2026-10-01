@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "47cda1456a2748b1"
 generated_at: "2026-09-30T19:28:45.337017+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/lake-shore-ut/", "/service-areas/lake-shore-ut/fire-damage-restoration/", "/service-areas/lake-shore-ut/mold-remediation/", "/service-areas/alpine-ut/emergency-water-removal/", "/service-areas/american-fork-ut/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/lake-shore-ut/", "/service-areas/alpine-ut/", "/service-areas/american-fork-ut/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Shore", "url": "/service-areas/lake-shore-ut/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "lake-shore-ut"

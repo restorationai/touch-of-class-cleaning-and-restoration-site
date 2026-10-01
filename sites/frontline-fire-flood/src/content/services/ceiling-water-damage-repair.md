@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "22ddefd072ea5118"
 generated_at: "2026-09-30T19:28:37.914966+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anderson-island-wa/ceiling-water-damage-repair/", "/service-areas/auburn-wa/ceiling-water-damage-repair/", "/service-areas/bonney-lake-wa/ceiling-water-damage-repair/", "/service-areas/bremerton-wa/ceiling-water-damage-repair/", "/service-areas/burien-wa/ceiling-water-damage-repair/", "/service-areas/centralia-wa/ceiling-water-damage-repair/", "/service-areas/dupont-wa/ceiling-water-damage-repair/", "/service-areas/federal-way-wa/ceiling-water-damage-repair/", "/service-areas/fife-wa/ceiling-water-damage-repair/", "/service-areas/fircrest-wa/ceiling-water-damage-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anderson-island-wa/", "/service-areas/auburn-wa/", "/service-areas/bonney-lake-wa/", "/service-areas/bremerton-wa/", "/service-areas/burien-wa/", "/service-areas/centralia-wa/", "/service-areas/dupont-wa/", "/service-areas/federal-way-wa/", "/service-areas/fife-wa/", "/service-areas/fircrest-wa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "ceiling-water-damage-repair"}]
 faq: []
 service_slug: "ceiling-water-damage-repair"

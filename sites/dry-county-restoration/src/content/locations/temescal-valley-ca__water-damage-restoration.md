@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "0469a215ceac1812"
 generated_at: "2026-09-30T19:28:32.770048+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/temescal-valley-ca/", "/service-areas/temescal-valley-ca/fire-damage-restoration/", "/service-areas/temescal-valley-ca/mold-remediation/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/temescal-valley-ca/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Temescal Valley", "url": "/service-areas/temescal-valley-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "temescal-valley-ca"

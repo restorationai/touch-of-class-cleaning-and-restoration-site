@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "3483e3eba91524f3"
 generated_at: "2026-09-30T19:28:39.697015+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/clayton-nc/", "/service-areas/clayton-nc/fire-damage-restoration/", "/service-areas/clayton-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-damage-restoration/", "/service-areas/durham-nc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/clayton-nc/", "/service-areas/clayton-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-damage-restoration/", "/service-areas/durham-nc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Clayton", "url": "/service-areas/clayton-nc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "clayton-nc"

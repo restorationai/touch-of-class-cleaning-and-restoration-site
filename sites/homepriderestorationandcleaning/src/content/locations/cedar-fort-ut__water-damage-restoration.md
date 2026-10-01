@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "fa2b8f30fe99494c"
 generated_at: "2026-09-30T19:28:45.290257+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-fort-ut/fire-damage-restoration/", "/service-areas/cedar-fort-ut/mold-remediation/", "/service-areas/alpine-ut/water-damage-restoration/", "/service-areas/american-fork-ut/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/cedar-fort-ut/", "/service-areas/alpine-ut/water-damage-restoration/", "/service-areas/american-fork-ut/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Fort", "url": "/service-areas/cedar-fort-ut/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "cedar-fort-ut"

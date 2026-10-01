@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "feb7d511e95323d4"
 generated_at: "2026-09-30T19:28:56.902771+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/odor-removal/", "/service-areas/east-douglas-ma/odor-removal/", "/service-areas/fiskdale-ma/odor-removal/", "/service-areas/framingham-ma/odor-removal/", "/service-areas/franklin-town-ma/odor-removal/", "/service-areas/hopkinton-ma/odor-removal/", "/service-areas/hudson-ma/odor-removal/", "/service-areas/leominster-ma/odor-removal/", "/service-areas/marlborough-ma/odor-removal/", "/service-areas/maynard-ma/odor-removal/", "/service-areas/milford-ma/odor-removal/", "/service-areas/natick-ma/odor-removal/"]
+internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/odor-removal/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/service-areas/framingham-ma/", "/service-areas/franklin-town-ma/", "/service-areas/hopkinton-ma/", "/service-areas/hudson-ma/", "/service-areas/leominster-ma/", "/service-areas/marlborough-ma/", "/service-areas/maynard-ma/", "/service-areas/milford-ma/", "/service-areas/natick-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Odor Removal and Deodorization"}]
 faq: []
 service_slug: "odor-removal"

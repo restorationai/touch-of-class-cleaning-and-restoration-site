@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "fc2bad775962c47d"
 generated_at: "2026-09-30T19:29:00.299472+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/flood-damage-restoration/", "/service-areas/caddo-mills-tx/flood-damage-restoration/", "/service-areas/dallas-tx/flood-damage-restoration/", "/service-areas/farmersville-tx/flood-damage-restoration/", "/service-areas/fate-tx/flood-damage-restoration/", "/service-areas/frisco-tx/flood-damage-restoration/", "/service-areas/garland-tx/flood-damage-restoration/", "/service-areas/greenville-tx/flood-damage-restoration/", "/service-areas/heath-tx/flood-damage-restoration/", "/service-areas/highland-park-tx/flood-damage-restoration/", "/service-areas/josephine-tx/flood-damage-restoration/", "/service-areas/lavon-tx/flood-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/", "/service-areas/farmersville-tx/", "/service-areas/fate-tx/", "/service-areas/frisco-tx/", "/service-areas/garland-tx/", "/service-areas/greenville-tx/", "/service-areas/heath-tx/", "/service-areas/highland-park-tx/", "/service-areas/josephine-tx/", "/service-areas/lavon-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "flood-damage-restoration"}]
 faq: []
 service_slug: "flood-damage-restoration"

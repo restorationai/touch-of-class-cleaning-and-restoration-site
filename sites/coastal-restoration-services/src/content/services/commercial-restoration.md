@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "c947fdc9eb5a4486"
 generated_at: "2026-09-30T19:28:25.262322+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/commercial-restoration/", "/service-areas/atascadero-ca/commercial-restoration/", "/service-areas/avila-beach-ca/commercial-restoration/", "/service-areas/ballard-ca/commercial-restoration/", "/service-areas/blacklake-ca/commercial-restoration/", "/service-areas/buellton-ca/commercial-restoration/", "/service-areas/callender-ca/commercial-restoration/", "/service-areas/cambria-ca/commercial-restoration/", "/service-areas/edna-ca/commercial-restoration/", "/service-areas/el-paso-de-robles-ca/commercial-restoration/", "/service-areas/grover-beach-ca/commercial-restoration/", "/service-areas/guadalupe-ca/commercial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arroyo-grande-ca/", "/service-areas/atascadero-ca/", "/service-areas/avila-beach-ca/", "/service-areas/ballard-ca/", "/service-areas/blacklake-ca/", "/service-areas/buellton-ca/", "/service-areas/callender-ca/", "/service-areas/cambria-ca/", "/service-areas/edna-ca/", "/service-areas/el-paso-de-robles-ca/", "/service-areas/grover-beach-ca/", "/service-areas/guadalupe-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "commercial-restoration"}]
 faq: []
 service_slug: "commercial-restoration"

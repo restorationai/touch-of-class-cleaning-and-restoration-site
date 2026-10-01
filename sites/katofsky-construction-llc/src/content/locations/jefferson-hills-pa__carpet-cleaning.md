@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "2ca35c97888f29d0"
 generated_at: "2026-09-30T19:28:48.317742+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/jefferson-hills-pa/", "/service-areas/jefferson-hills-pa/fire-damage-restoration/", "/service-areas/jefferson-hills-pa/roofing/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/jefferson-hills-pa/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Jefferson Hills", "url": "/service-areas/jefferson-hills-pa/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "jefferson-hills-pa"

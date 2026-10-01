@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "a1003c1c291045f8"
 generated_at: "2026-09-30T19:28:57.113504+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/natick-ma/", "/service-areas/natick-ma/fire-damage-restoration/", "/service-areas/natick-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/natick-ma/", "/service-areas/natick-ma/fire-damage-restoration/", "/service-areas/natick-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Natick", "url": "/service-areas/natick-ma/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "natick-ma"

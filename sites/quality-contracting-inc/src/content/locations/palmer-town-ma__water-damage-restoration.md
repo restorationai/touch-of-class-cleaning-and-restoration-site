@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "794ee8eb57ef7286"
 generated_at: "2026-09-30T19:28:57.294787+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/palmer-town-ma/", "/service-areas/palmer-town-ma/fire-damage-restoration/", "/service-areas/palmer-town-ma/mold-remediation/", "/service-areas/bellingham-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/palmer-town-ma/", "/service-areas/bellingham-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Palmer Town", "url": "/service-areas/palmer-town-ma/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "palmer-town-ma"

@@ -1,20 +1,20 @@
 # Site Plan Report — FIX Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:28:21.085587+00:00
+- Generated: 2026-10-01T05:03:38.859357+00:00
 - Domain: `fixofutah.com`
-- Services selected: 26 of 91 catalog entries
+- Services selected: 25 of 91 catalog entries
 - Service areas: 22
 - Cross-product enabled: True
-- Total URLs: **610**
-- Total internal links: 5006 (avg 8.2 per page)
+- Total URLs: **336**
+- Total internal links: 2662 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 546 |
-| `service-landing` | 26 |
+| `service-area-service` | 273 |
+| `service-landing` | 25 |
 | `service-area` | 21 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -52,7 +52,6 @@
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
 
@@ -88,11 +87,11 @@
 | `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement american fork |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration american fork |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration american fork |
-| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing american fork |
 | `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup american fork |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration american fork |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services american fork |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization american fork |
+| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration american fork |
 
 ## Validation
 

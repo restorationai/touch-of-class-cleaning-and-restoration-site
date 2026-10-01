@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "c9772ca92053da26"
 generated_at: "2026-09-30T19:28:57.275323+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/leominster-ma/", "/service-areas/leominster-ma/fire-damage-restoration/", "/service-areas/leominster-ma/mold-remediation/", "/service-areas/bellingham-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/leominster-ma/", "/service-areas/leominster-ma/mold-remediation/", "/service-areas/bellingham-ma/water-damage-restoration/", "/service-areas/east-douglas-ma/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Leominster", "url": "/service-areas/leominster-ma/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "leominster-ma"

@@ -278,5 +278,20 @@
 /service-areas/tuscola-tx/vandalism-cleanup/ /service-areas/tuscola-tx/vandalism-graffiti-removal/ 301
 /service-areas/tye-tx/vandalism-cleanup /service-areas/tye-tx/vandalism-graffiti-removal/ 301
 /service-areas/tye-tx/vandalism-cleanup/ /service-areas/tye-tx/vandalism-graffiti-removal/ 301
+# plumbing gate 2026-10-01: emergency plumbing held until the plumbing name/DBA is confirmed (scripts/plumbing_gate.py)
+/services/emergency-plumbing /services/water-damage-restoration/ 301
+/services/emergency-plumbing/ /services/water-damage-restoration/ 301
+/service-areas/anson-tx/emergency-plumbing /service-areas/anson-tx/water-damage-restoration/ 301
+/service-areas/anson-tx/emergency-plumbing/ /service-areas/anson-tx/water-damage-restoration/ 301
+/service-areas/buffalo-gap-tx/emergency-plumbing /service-areas/buffalo-gap-tx/water-damage-restoration/ 301
+/service-areas/buffalo-gap-tx/emergency-plumbing/ /service-areas/buffalo-gap-tx/water-damage-restoration/ 301
+/service-areas/clyde-tx/emergency-plumbing /service-areas/clyde-tx/water-damage-restoration/ 301
+/service-areas/clyde-tx/emergency-plumbing/ /service-areas/clyde-tx/water-damage-restoration/ 301
+/service-areas/merkel-tx/emergency-plumbing /service-areas/merkel-tx/water-damage-restoration/ 301
+/service-areas/merkel-tx/emergency-plumbing/ /service-areas/merkel-tx/water-damage-restoration/ 301
+/service-areas/sweetwater-tx/emergency-plumbing /service-areas/sweetwater-tx/water-damage-restoration/ 301
+/service-areas/sweetwater-tx/emergency-plumbing/ /service-areas/sweetwater-tx/water-damage-restoration/ 301
+/service-areas/tuscola-tx/emergency-plumbing /service-areas/tuscola-tx/water-damage-restoration/ 301
+/service-areas/tuscola-tx/emergency-plumbing/ /service-areas/tuscola-tx/water-damage-restoration/ 301
 /service-areas/:city/asbestos-abatement /services/ 301
 /service-areas/:city/asbestos-abatement/ /services/ 301

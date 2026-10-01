@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "d1efd6c30c349891"
 generated_at: "2026-09-30T19:28:43.441871+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/bay-st-louis-ms/", "/service-areas/bay-st-louis-ms/fire-damage-restoration/", "/service-areas/bay-st-louis-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/benndale-ms/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/bay-st-louis-ms/", "/service-areas/bay-st-louis-ms/fire-damage-restoration/", "/service-areas/bay-st-louis-ms/mold-remediation/", "/service-areas/agricola-ms/", "/service-areas/benndale-ms/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bay St. Louis", "url": "/service-areas/bay-st-louis-ms/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "bay-st-louis-ms"

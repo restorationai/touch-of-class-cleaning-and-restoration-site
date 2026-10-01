@@ -273,7 +273,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Fire Damage Restoration, Mold Remediation, Water Damage Restoration, Sewage Cleanup and Sanitization, Biohazard Cleanup, Burst & Frozen Pipes, Commercial Fire Restoration, Contents Restoration & Storage, Emergency Water Cleanup, Commercial Restoration, Contents Restoration & Pack-Out, Mold Inspection and Testing, Basement Flood Cleanup)
+- [ ] (continue for each of Fire Damage Restoration, Mold Remediation, Water Damage Restoration, Sewage Cleanup and Sanitization, Biohazard Cleanup, Burst & Frozen Pipes, Commercial Fire Restoration, Contents Restoration & Storage, Emergency Water Removal & Cleanup, Commercial Restoration, Mold Inspection and Testing, Basement Flood Cleanup, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Basement Flooding Cleanup, Smoke Damage Restoration, Storm Damage Restoration, Industrial Restoration, Reconstruction Services, Renovations, Remodels and General Contracting, Large Loss and Catastrophic Response, Ceiling Water Damage Repair, Water Heater Flood Cleanup, Water Leak Detection)
 
 ### Service area pages (one image per city served)
 - [ ] Las Vegas hero — exterior shot, regional housing stock, evocative of the city

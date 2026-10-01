@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "d1d0f5fb255dcd73"
 generated_at: "2026-09-30T19:28:50.992446+00:00"
 manual_override: false
-internal_links: ["/services/biohazard-cleanup/", "/service-areas/indian-springs-nv/", "/service-areas/indian-springs-nv/fire-damage-restoration/", "/service-areas/indian-springs-nv/mold-remediation/", "/service-areas/blue-diamond-nv/biohazard-cleanup/", "/service-areas/boulder-city-nv/biohazard-cleanup/", "/contact/"]
+internal_links: ["/services/biohazard-cleanup/", "/service-areas/indian-springs-nv/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Indian Springs", "url": "/service-areas/indian-springs-nv/"}, {"name": "Biohazard Cleanup"}]
 faq: []
 area_slug: "indian-springs-nv"

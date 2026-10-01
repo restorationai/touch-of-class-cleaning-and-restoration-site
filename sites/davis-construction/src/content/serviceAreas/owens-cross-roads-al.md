@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "0ed6125e348937f7"
 generated_at: "2026-09-30T14:12:04.046850+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/owens-cross-roads-al/home-remodeling/", "/service-areas/owens-cross-roads-al/roofing/", "/service-areas/owens-cross-roads-al/decks-pergolas-fences/", "/service-areas/owens-cross-roads-al/new-construction/", "/service-areas/owens-cross-roads-al/siding-gutters/", "/service-areas/owens-cross-roads-al/fire-smoke-rebuilding/", "/service-areas/owens-cross-roads-al/mold-remediation/", "/service-areas/owens-cross-roads-al/painting-trim/", "/service-areas/owens-cross-roads-al/storm-damage-restoration/", "/service-areas/owens-cross-roads-al/water-damage-restoration/", "/service-areas/owens-cross-roads-al/windows-doors/", "/service-areas/owens-cross-roads-al/basement-sewage-cleanup/", "/service-areas/owens-cross-roads-al/carpet-upholstery-cleaning/", "/service-areas/owens-cross-roads-al/post-construction-specialty-cleaning/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/owens-cross-roads-al/home-remodeling/", "/service-areas/owens-cross-roads-al/roofing/", "/service-areas/owens-cross-roads-al/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Owens Cross Roads"}]
 faq: []
 area_slug: "owens-cross-roads-al"

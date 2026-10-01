@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "0bcd8e2d0520ae23"
 generated_at: "2026-09-20T14:13:46.899958+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/miami-gardens-fl/fire-damage-restoration/", "/service-areas/miami-gardens-fl/mold-remediation/", "/service-areas/miami-gardens-fl/water-damage-restoration/", "/service-areas/miami-gardens-fl/flood-damage-restoration/", "/service-areas/miami-gardens-fl/smoke-damage-restoration/", "/service-areas/miami-gardens-fl/storm-damage-restoration/", "/service-areas/miami-gardens-fl/emergency-water-removal/", "/service-areas/cooper-city-fl/", "/service-areas/dania-beach-fl/", "/service-areas/fort-lauderdale-fl/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/miami-gardens-fl/", "/service-areas/miami-gardens-fl/water-damage-restoration/", "/service-areas/cooper-city-fl/", "/service-areas/dania-beach-fl/", "/service-areas/fort-lauderdale-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Miami Gardens"}]
 faq: []
 area_slug: "miami-gardens-fl"

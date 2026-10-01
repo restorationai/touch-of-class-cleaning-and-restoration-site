@@ -1,20 +1,20 @@
 # Site Plan Report — Life Savers Restoration LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:28:49.535991+00:00
+- Generated: 2026-10-01T05:05:15.684912+00:00
 - Domain: `lifesaversrestorationvegas.com`
-- Services selected: 23 of 91 catalog entries
+- Services selected: 22 of 91 catalog entries
 - Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **496**
-- Total internal links: 4072 (avg 8.2 per page)
+- Total URLs: **134**
+- Total internal links: 951 (avg 7.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 437 |
-| `service-landing` | 23 |
+| `service-area-service` | 76 |
+| `service-landing` | 22 |
 | `service-area` | 19 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -49,7 +49,6 @@
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
 
@@ -82,12 +81,12 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation henderson |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration henderson |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration henderson |
-| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing henderson |
 | `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup henderson |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration henderson |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services henderson |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization henderson |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration henderson |
+| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration henderson |
 
 ## Validation
 

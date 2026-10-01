@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "30fd7d17b6af0214"
 generated_at: "2026-09-30T19:28:45.048660+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/flood-damage-restoration/", "/service-areas/american-fork-ut/flood-damage-restoration/", "/service-areas/benjamin-ut/flood-damage-restoration/", "/service-areas/bluffdale-ut/flood-damage-restoration/", "/service-areas/cedar-fort-ut/flood-damage-restoration/", "/service-areas/cedar-hills-ut/flood-damage-restoration/", "/service-areas/draper-ut/flood-damage-restoration/", "/service-areas/eagle-mountain-ut/flood-damage-restoration/", "/service-areas/fairfield-ut/flood-damage-restoration/", "/service-areas/heber-city-ut/flood-damage-restoration/", "/service-areas/herriman-ut/flood-damage-restoration/", "/service-areas/highland-ut/flood-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/", "/service-areas/american-fork-ut/", "/service-areas/benjamin-ut/", "/service-areas/bluffdale-ut/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-hills-ut/", "/service-areas/draper-ut/", "/service-areas/eagle-mountain-ut/", "/service-areas/fairfield-ut/", "/service-areas/heber-city-ut/", "/service-areas/herriman-ut/", "/service-areas/highland-ut/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "flood-damage-restoration"}]
 faq: []
 service_slug: "flood-damage-restoration"

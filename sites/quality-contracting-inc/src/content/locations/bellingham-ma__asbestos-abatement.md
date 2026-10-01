@@ -10,7 +10,7 @@ priority: 4.2
 plan_hash: "a57d3a0c04a31f0c"
 generated_at: "2026-09-30T19:28:57.251443+00:00"
 manual_override: false
-internal_links: ["/services/asbestos-abatement/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/asbestos-abatement/", "/service-areas/fiskdale-ma/asbestos-abatement/", "/contact/"]
+internal_links: ["/services/asbestos-abatement/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellingham", "url": "/service-areas/bellingham-ma/"}, {"name": "Asbestos Abatement"}]
 faq: []
 area_slug: "bellingham-ma"

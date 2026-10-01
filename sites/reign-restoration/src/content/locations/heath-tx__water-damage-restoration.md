@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "041677d77d9cda87"
 generated_at: "2026-09-30T19:29:00.374521+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/heath-tx/", "/service-areas/heath-tx/fire-damage-restoration/", "/service-areas/heath-tx/mold-remediation/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/caddo-mills-tx/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/heath-tx/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/caddo-mills-tx/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Heath", "url": "/service-areas/heath-tx/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "heath-tx"

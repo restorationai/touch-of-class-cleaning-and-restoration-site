@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "4eab746be6ccaee1"
 generated_at: "2026-09-20T17:29:53.187218+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/folly-beach-sc/", "/service-areas/folly-beach-sc/fire-damage-restoration/", "/service-areas/folly-beach-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/goose-creek-sc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/folly-beach-sc/", "/service-areas/folly-beach-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/goose-creek-sc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Folly Beach", "url": "/service-areas/folly-beach-sc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "folly-beach-sc"

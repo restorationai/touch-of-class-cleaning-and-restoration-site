@@ -109,6 +109,7 @@
     "burst-frozen-pipes",
     "commercial-fire-restoration",
     "contents-restoration-storage",
+    "emergency-water-removal",
     "commercial-restoration",
     "mold-inspection-testing",
     "basement-flood-cleanup"
@@ -391,5 +392,16 @@
       "state": "NV",
       "slug": "searchlight-nv"
     }
-  ]
+  ],
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "sewage-cleanup",
+    "biohazard-cleanup"
+  ],
+  "merged_services": {
+    "contents-restoration-pack-out": "contents-restoration-storage",
+    "water-cleanup": "emergency-water-removal"
+  }
 }

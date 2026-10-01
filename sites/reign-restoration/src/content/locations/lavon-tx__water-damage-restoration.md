@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "56c92413ce38d800"
 generated_at: "2026-09-30T19:29:00.359895+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/lavon-tx/", "/service-areas/lavon-tx/fire-damage-restoration/", "/service-areas/lavon-tx/mold-remediation/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/caddo-mills-tx/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/lavon-tx/", "/service-areas/lavon-tx/mold-remediation/", "/service-areas/allen-tx/water-damage-restoration/", "/service-areas/caddo-mills-tx/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lavon", "url": "/service-areas/lavon-tx/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "lavon-tx"

@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "970cbae2db063686"
 generated_at: "2026-09-30T19:28:26.414100+00:00"
 manual_override: false
-internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/yankton-sd/", "/service-areas/yankton-sd/fire-damage-restoration/", "/service-areas/yankton-sd/mold-remediation/", "/service-areas/adrian-mn/basement-flooding-cleanup/", "/service-areas/akron-ia/basement-flooding-cleanup/", "/contact/"]
+internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/yankton-sd/", "/service-areas/yankton-sd/fire-damage-restoration/", "/service-areas/yankton-sd/mold-remediation/", "/service-areas/adrian-mn/", "/service-areas/akron-ia/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Yankton", "url": "/service-areas/yankton-sd/"}, {"name": "Basement Flooding Cleanup"}]
 faq: []
 area_slug: "yankton-sd"

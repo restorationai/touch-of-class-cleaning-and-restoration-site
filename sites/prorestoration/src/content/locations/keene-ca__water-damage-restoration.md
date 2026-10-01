@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "e6ad7ff91f9bdede"
 generated_at: "2026-09-30T19:28:54.682910+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/keene-ca/", "/service-areas/keene-ca/fire-damage-restoration/", "/service-areas/keene-ca/home-remodeling/", "/service-areas/arvin-ca/water-damage-restoration/", "/service-areas/bear-valley-springs-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/keene-ca/", "/service-areas/keene-ca/fire-damage-restoration/", "/service-areas/arvin-ca/water-damage-restoration/", "/service-areas/bear-valley-springs-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Keene", "url": "/service-areas/keene-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "keene-ca"

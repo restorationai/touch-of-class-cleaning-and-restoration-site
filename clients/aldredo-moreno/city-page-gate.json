@@ -1,0 +1,940 @@
+{
+ "policy": "scripts/city_page_gate.py (Santino 2026-10-01)",
+ "thresholds": {
+  "combo_min": 10,
+  "head_metro_min": 1000
+ },
+ "decisions": {
+  "andrews-tx__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning andrews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "andrews-tx__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning andrews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "andrews-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal andrews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "andrews-tx__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal andrews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "andrews-tx__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup andrews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "andrews-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration andrews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "andrews-tx__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning andrews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "andrews-tx__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning andrews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-lake-tx__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning big lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-lake-tx__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning big lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-lake-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal big lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-lake-tx__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal big lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-lake-tx__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup big lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-lake-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration big lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-lake-tx__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning big lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-lake-tx__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning big lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-spring-tx__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning big spring' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-spring-tx__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning big spring' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-spring-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal big spring' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-spring-tx__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal big spring' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-spring-tx__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup big spring' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-spring-tx__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: regional hub with notable tornado and hail history",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-spring-tx__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning big spring' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "big-spring-tx__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning big spring' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crane-tx__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning crane' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crane-tx__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning crane' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crane-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal crane' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crane-tx__junk-debris-removal": {
+   "pass": true,
+   "why": "local angle: oil and gas drilling debris common",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crane-tx__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup crane' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crane-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration crane' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crane-tx__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning crane' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crane-tx__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning crane' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "garden-city-tx__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning garden city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "garden-city-tx__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning garden city' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "garden-city-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal garden city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "garden-city-tx__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal garden city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "garden-city-tx__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup garden city' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "garden-city-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration garden city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "garden-city-tx__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning garden city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "garden-city-tx__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning garden city' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gardendale-tx__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning gardendale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gardendale-tx__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning gardendale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gardendale-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal gardendale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gardendale-tx__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal gardendale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gardendale-tx__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup gardendale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gardendale-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration gardendale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gardendale-tx__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning gardendale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gardendale-tx__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning gardendale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "goldsmith-tx__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning goldsmith' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "goldsmith-tx__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning goldsmith' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "goldsmith-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal goldsmith' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "goldsmith-tx__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal goldsmith' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "goldsmith-tx__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup goldsmith' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "goldsmith-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration goldsmith' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "goldsmith-tx__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning goldsmith' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "goldsmith-tx__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning goldsmith' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "greenwood-tx__air-duct-cleaning": {
+   "pass": true,
+   "why": "local demand: 'air duct cleaning greenwood' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "greenwood-tx__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning greenwood' 110/mo",
+   "vol": 110,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "greenwood-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal greenwood' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "greenwood-tx__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal greenwood' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "greenwood-tx__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup greenwood' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "greenwood-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration greenwood' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "greenwood-tx__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning greenwood' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "greenwood-tx__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning greenwood' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "imperial-tx__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning imperial' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "imperial-tx__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning imperial' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "imperial-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal imperial' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "imperial-tx__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal imperial' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "imperial-tx__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup imperial' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "imperial-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration imperial' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "imperial-tx__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning imperial' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "imperial-tx__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning imperial' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mccamey-tx__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning mccamey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mccamey-tx__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning mccamey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mccamey-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal mccamey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mccamey-tx__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal mccamey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mccamey-tx__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup mccamey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mccamey-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration mccamey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mccamey-tx__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning mccamey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mccamey-tx__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning mccamey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "monahans-tx__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning monahans' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "monahans-tx__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning monahans' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "monahans-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal monahans' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "monahans-tx__junk-debris-removal": {
+   "pass": true,
+   "why": "local angle: oilfield operations create frequent debris removal needs",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "monahans-tx__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup monahans' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "monahans-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration monahans' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "monahans-tx__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning monahans' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "monahans-tx__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning monahans' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "odessa-tx__air-duct-cleaning": {
+   "pass": true,
+   "why": "local demand: 'air duct cleaning odessa' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "odessa-tx__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning odessa' 170/mo",
+   "vol": 170,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "odessa-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "odessa-tx__junk-debris-removal": {
+   "pass": true,
+   "why": "local angle: major oilfield hub generates heavy debris",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "odessa-tx__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "odessa-tx__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: largest city, frequent hail and tornado damage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "odessa-tx__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "odessa-tx__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "southwest-sandhill-tx__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning southwest sandhill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "southwest-sandhill-tx__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning southwest sandhill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "southwest-sandhill-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal southwest sandhill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "southwest-sandhill-tx__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal southwest sandhill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "southwest-sandhill-tx__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup southwest sandhill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "southwest-sandhill-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration southwest sandhill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "southwest-sandhill-tx__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning southwest sandhill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "southwest-sandhill-tx__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning southwest sandhill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stanton-tx__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning stanton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stanton-tx__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning stanton' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stanton-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal stanton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stanton-tx__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal stanton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stanton-tx__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup stanton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stanton-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration stanton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stanton-tx__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning stanton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "stanton-tx__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning stanton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "west-odessa-tx__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning west odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "west-odessa-tx__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning west odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "west-odessa-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal west odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "west-odessa-tx__junk-debris-removal": {
+   "pass": false,
+   "why": "no local demand ('junk debris removal west odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "west-odessa-tx__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup west odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "west-odessa-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration west odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "west-odessa-tx__tile-grout-cleaning": {
+   "pass": false,
+   "why": "no local demand ('tile grout cleaning west odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "west-odessa-tx__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning west odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  }
+ },
+ "offered": {
+  "air-duct-cleaning": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service"
+  ],
+  "air-duct-hvac-cleaning": [
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "carpet-cleaning": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "GBP service in the client's words: 'Carpet Cleaning Method'"
+  ],
+  "carpet-upholstery-cleaning": [
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "emergency-water-removal": [
+   "default with water damage restoration (Santino 09-30)"
+  ],
+  "junk-debris-removal": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "sewage-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Sewage Cleanup & Remediation'"
+  ],
+  "storm-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)"
+  ],
+  "tile-grout-cleaning": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Grout Cleaning'"
+  ],
+  "upholstery-cleaning": [
+   "explicit non-core plan-input service"
+  ],
+  "water-cleanup": [
+   "plan-input before core floor (2026-09-24)",
+   "explicit non-core plan-input service",
+   "truth table (companies.services)"
+  ],
+  "water-damage-restoration": [
+   "plan-input before core floor (2026-09-24)",
+   "truth table (companies.services)",
+   "GBP service in the client's words: 'Water Damage Restoration & Cleanup Service'"
+  ]
+ },
+ "metro": "Garden City,Texas,United States",
+ "heads": {
+  "air-duct-cleaning": {
+   "term": "air duct cleaning",
+   "metro": 0
+  },
+  "carpet-cleaning": {
+   "term": "carpet cleaning",
+   "metro": 10
+  },
+  "emergency-water-removal": {
+   "term": "emergency water removal",
+   "metro": 0
+  },
+  "junk-debris-removal": {
+   "term": "junk debris removal",
+   "metro": 0
+  },
+  "sewage-cleanup": {
+   "term": "sewage cleanup",
+   "metro": 0
+  },
+  "storm-damage-restoration": {
+   "term": "storm damage restoration",
+   "metro": 0
+  },
+  "tile-grout-cleaning": {
+   "term": "tile grout cleaning",
+   "metro": 0
+  },
+  "upholstery-cleaning": {
+   "term": "upholstery cleaning",
+   "metro": 0
+  }
+ },
+ "updated_at": "2026-10-01T05:03:04+00:00"
+}

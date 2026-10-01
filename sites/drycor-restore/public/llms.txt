@@ -53,7 +53,7 @@ This file is intended for AI assistants and language models to efficiently inges
 ### Core service pages
 - [Contents Restoration & Storage](https://drycor.com/services/contents-restoration-storage/)
 - [Emergency Board-Up and Tarping](https://drycor.com/services/emergency-board-up-tarping/)
-- [Emergency Plumbing](https://drycor.com/services/emergency-plumbing/)
+- [Emergency Plumbing](https://drycor.com/services/water-damage-restoration/)
 - [Fire Damage Restoration](https://drycor.com/services/fire-damage-restoration/)
 - [Renovations, Remodels and General Contracting](https://drycor.com/services/general-contracting/)
 - [Mold Remediation](https://drycor.com/services/mold-remediation/)

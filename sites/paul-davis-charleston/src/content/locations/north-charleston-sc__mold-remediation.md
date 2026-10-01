@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "99b9327dabb689d1"
 generated_at: "2026-09-20T14:13:25.011326+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/north-charleston-sc/", "/service-areas/north-charleston-sc/fire-damage-restoration/", "/service-areas/north-charleston-sc/water-damage-restoration/", "/service-areas/awendaw-sc/mold-remediation/", "/service-areas/goose-creek-sc/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/north-charleston-sc/", "/service-areas/north-charleston-sc/fire-damage-restoration/", "/service-areas/north-charleston-sc/water-damage-restoration/", "/service-areas/awendaw-sc/", "/service-areas/goose-creek-sc/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Charleston", "url": "/service-areas/north-charleston-sc/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "north-charleston-sc"

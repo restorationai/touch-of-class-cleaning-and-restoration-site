@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "cb505e2e5c58e9c0"
 generated_at: "2026-09-30T19:28:19.935768+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/albany-tx/flood-damage-restoration/", "/service-areas/anson-tx/flood-damage-restoration/", "/service-areas/baird-tx/flood-damage-restoration/", "/service-areas/ballinger-tx/flood-damage-restoration/", "/service-areas/bronte-tx/flood-damage-restoration/", "/service-areas/brownwood-tx/flood-damage-restoration/", "/service-areas/buffalo-gap-tx/flood-damage-restoration/", "/service-areas/clyde-tx/flood-damage-restoration/", "/service-areas/coleman-tx/flood-damage-restoration/", "/service-areas/colorado-city-tx/flood-damage-restoration/", "/service-areas/comanche-tx/flood-damage-restoration/", "/service-areas/early-tx/flood-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/albany-tx/", "/service-areas/anson-tx/flood-damage-restoration/", "/service-areas/baird-tx/", "/service-areas/ballinger-tx/", "/service-areas/bronte-tx/", "/service-areas/brownwood-tx/flood-damage-restoration/", "/service-areas/buffalo-gap-tx/", "/service-areas/clyde-tx/flood-damage-restoration/", "/service-areas/coleman-tx/", "/service-areas/colorado-city-tx/", "/service-areas/comanche-tx/", "/service-areas/early-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "flood-damage-restoration"}]
 faq: []
 service_slug: "flood-damage-restoration"

@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "03666969b354490b"
 generated_at: "2026-09-30T19:28:58.557275+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/mount-charleston-nv/", "/service-areas/mount-charleston-nv/fire-damage-restoration/", "/service-areas/mount-charleston-nv/mold-remediation/", "/service-areas/blue-diamond-nv/emergency-water-removal/", "/service-areas/boulder-city-nv/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/mount-charleston-nv/", "/service-areas/mount-charleston-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mount Charleston", "url": "/service-areas/mount-charleston-nv/"}, {"name": "Emergency Water Removal & Cleanup"}]
 faq: []
 area_slug: "mount-charleston-nv"

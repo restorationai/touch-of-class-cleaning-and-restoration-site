@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "bc70b0b15129e45a"
 generated_at: "2026-09-30T19:28:45.056766+00:00"
 manual_override: false
-internal_links: ["/services/post-construction-cleaning/", "/service-areas/lehi-ut/", "/service-areas/lehi-ut/fire-damage-restoration/", "/service-areas/lehi-ut/mold-remediation/", "/service-areas/alpine-ut/post-construction-cleaning/", "/service-areas/american-fork-ut/post-construction-cleaning/", "/contact/"]
+internal_links: ["/services/post-construction-cleaning/", "/service-areas/lehi-ut/", "/service-areas/lehi-ut/fire-damage-restoration/", "/service-areas/lehi-ut/mold-remediation/", "/service-areas/alpine-ut/", "/service-areas/american-fork-ut/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lehi", "url": "/service-areas/lehi-ut/"}, {"name": "Post-Construction and Specialty Cleaning"}]
 faq: []
 area_slug: "lehi-ut"

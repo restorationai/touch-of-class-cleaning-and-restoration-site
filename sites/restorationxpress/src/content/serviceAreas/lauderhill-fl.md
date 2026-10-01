@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "778d4ee814551156"
 generated_at: "2026-09-20T14:13:46.900137+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/lauderhill-fl/fire-damage-restoration/", "/service-areas/lauderhill-fl/mold-remediation/", "/service-areas/lauderhill-fl/water-damage-restoration/", "/service-areas/lauderhill-fl/flood-damage-restoration/", "/service-areas/lauderhill-fl/smoke-damage-restoration/", "/service-areas/lauderhill-fl/storm-damage-restoration/", "/service-areas/lauderhill-fl/emergency-water-removal/", "/service-areas/cooper-city-fl/", "/service-areas/dania-beach-fl/", "/service-areas/fort-lauderdale-fl/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/lauderhill-fl/", "/service-areas/lauderhill-fl/water-damage-restoration/", "/service-areas/cooper-city-fl/", "/service-areas/dania-beach-fl/", "/service-areas/fort-lauderdale-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lauderhill"}]
 faq: []
 area_slug: "lauderhill-fl"

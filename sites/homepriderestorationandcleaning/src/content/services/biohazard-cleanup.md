@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "05c0fe8819c037b9"
 generated_at: "2026-09-30T19:28:45.044213+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/biohazard-cleanup/", "/service-areas/american-fork-ut/biohazard-cleanup/", "/service-areas/benjamin-ut/biohazard-cleanup/", "/service-areas/bluffdale-ut/biohazard-cleanup/", "/service-areas/cedar-fort-ut/biohazard-cleanup/", "/service-areas/cedar-hills-ut/biohazard-cleanup/", "/service-areas/draper-ut/biohazard-cleanup/", "/service-areas/eagle-mountain-ut/biohazard-cleanup/", "/service-areas/fairfield-ut/biohazard-cleanup/", "/service-areas/heber-city-ut/biohazard-cleanup/", "/service-areas/herriman-ut/biohazard-cleanup/", "/service-areas/highland-ut/biohazard-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/", "/service-areas/american-fork-ut/", "/service-areas/benjamin-ut/", "/service-areas/bluffdale-ut/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-hills-ut/", "/service-areas/draper-ut/biohazard-cleanup/", "/service-areas/eagle-mountain-ut/", "/service-areas/fairfield-ut/", "/service-areas/heber-city-ut/", "/service-areas/herriman-ut/", "/service-areas/highland-ut/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Biohazard Cleanup"}]
 faq: []
 service_slug: "biohazard-cleanup"

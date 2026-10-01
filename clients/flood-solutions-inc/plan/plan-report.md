@@ -1,19 +1,19 @@
 # Site Plan Report — Flood Solutions inc
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:28:36.097371+00:00
+- Generated: 2026-10-01T05:03:57.981283+00:00
 - Domain: `floodsolutionsinc.com`
 - Services selected: 21 of 91 catalog entries
 - Service areas: 9
 - Cross-product enabled: True
-- Total URLs: **214**
-- Total internal links: 1727 (avg 8.1 per page)
+- Total URLs: **212**
+- Total internal links: 1709 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 168 |
+| `service-area-service` | 166 |
 | `service-landing` | 21 |
 | `service-area` | 8 |
 | `blog-post` | 8 |

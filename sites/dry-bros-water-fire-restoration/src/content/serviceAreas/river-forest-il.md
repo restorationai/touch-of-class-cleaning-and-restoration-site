@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "88efa074ece0117b"
 generated_at: "2026-09-24T17:27:58.230371+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/river-forest-il/fire-damage-restoration/", "/service-areas/river-forest-il/mold-remediation/", "/service-areas/river-forest-il/water-damage-restoration/", "/service-areas/river-forest-il/flood-damage-restoration/", "/service-areas/river-forest-il/sewage-cleanup/", "/service-areas/river-forest-il/smoke-damage-restoration/", "/service-areas/river-forest-il/storm-damage-restoration/", "/service-areas/river-forest-il/emergency-water-removal/", "/service-areas/river-forest-il/basement-flooding-cleanup/", "/service-areas/river-forest-il/burst-pipe-repair/", "/service-areas/river-forest-il/emergency-board-up-tarping/", "/service-areas/river-forest-il/odor-removal/", "/service-areas/river-forest-il/contents-restoration/", "/service-areas/bedford-park-il/", "/service-areas/berwyn-il/", "/service-areas/brookfield-il/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/river-forest-il/", "/service-areas/river-forest-il/water-damage-restoration/", "/service-areas/river-forest-il/basement-flooding-cleanup/", "/service-areas/bedford-park-il/", "/service-areas/berwyn-il/", "/service-areas/brookfield-il/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "River Forest"}]
 faq: []
 area_slug: "river-forest-il"

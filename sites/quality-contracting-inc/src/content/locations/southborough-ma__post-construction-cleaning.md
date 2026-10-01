@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "c4a37d4a516f5a3b"
 generated_at: "2026-09-30T19:28:56.955003+00:00"
 manual_override: false
-internal_links: ["/services/post-construction-cleaning/", "/service-areas/southborough-ma/", "/service-areas/southborough-ma/fire-damage-restoration/", "/service-areas/southborough-ma/mold-remediation/", "/service-areas/bellingham-ma/post-construction-cleaning/", "/service-areas/east-douglas-ma/post-construction-cleaning/", "/contact/"]
+internal_links: ["/services/post-construction-cleaning/", "/service-areas/southborough-ma/", "/service-areas/southborough-ma/fire-damage-restoration/", "/service-areas/southborough-ma/mold-remediation/", "/service-areas/bellingham-ma/post-construction-cleaning/", "/service-areas/east-douglas-ma/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southborough", "url": "/service-areas/southborough-ma/"}, {"name": "Post-Construction and Specialty Cleaning"}]
 faq: []
 area_slug: "southborough-ma"

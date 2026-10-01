@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "a174a9af4fa34b03"
 generated_at: "2026-09-30T19:28:41.593158+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/basement-flooding-cleanup/", "/service-areas/avon-mn/basement-flooding-cleanup/", "/service-areas/baxter-mn/basement-flooding-cleanup/", "/service-areas/brainerd-mn/basement-flooding-cleanup/", "/service-areas/elmdale-mn/basement-flooding-cleanup/", "/service-areas/flensburg-mn/basement-flooding-cleanup/", "/service-areas/foley-mn/basement-flooding-cleanup/", "/service-areas/fort-ripley-mn/basement-flooding-cleanup/", "/service-areas/harding-mn/basement-flooding-cleanup/", "/service-areas/long-prairie-mn/basement-flooding-cleanup/", "/service-areas/pierz-mn/basement-flooding-cleanup/", "/service-areas/randall-mn/basement-flooding-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/", "/service-areas/avon-mn/", "/service-areas/baxter-mn/", "/service-areas/brainerd-mn/", "/service-areas/elmdale-mn/", "/service-areas/flensburg-mn/", "/service-areas/foley-mn/", "/service-areas/fort-ripley-mn/", "/service-areas/harding-mn/", "/service-areas/long-prairie-mn/", "/service-areas/pierz-mn/", "/service-areas/randall-mn/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Basement Flooding Cleanup"}]
 faq: []
 service_slug: "basement-flooding-cleanup"

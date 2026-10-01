@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "d112a52ea1caa0c7"
 generated_at: "2026-09-30T19:28:48.282378+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/munhall-pa/", "/service-areas/munhall-pa/fire-damage-restoration/", "/service-areas/munhall-pa/roofing/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/munhall-pa/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Munhall", "url": "/service-areas/munhall-pa/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "munhall-pa"

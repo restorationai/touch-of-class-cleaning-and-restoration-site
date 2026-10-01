@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "d70d2d467469bd68"
 generated_at: "2026-09-30T19:28:21.542350+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/ceiling-water-damage-repair/", "/service-areas/bluffdale-ut/ceiling-water-damage-repair/", "/service-areas/cedar-fort-ut/ceiling-water-damage-repair/", "/service-areas/cedar-hills-ut/ceiling-water-damage-repair/", "/service-areas/cottonwood-heights-ut/ceiling-water-damage-repair/", "/service-areas/draper-ut/ceiling-water-damage-repair/", "/service-areas/eagle-mountain-ut/ceiling-water-damage-repair/", "/service-areas/herriman-ut/ceiling-water-damage-repair/", "/service-areas/highland-ut/ceiling-water-damage-repair/", "/service-areas/lehi-ut/ceiling-water-damage-repair/", "/service-areas/lindon-ut/ceiling-water-damage-repair/", "/service-areas/orem-ut/ceiling-water-damage-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/", "/service-areas/bluffdale-ut/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-hills-ut/", "/service-areas/cottonwood-heights-ut/", "/service-areas/draper-ut/", "/service-areas/eagle-mountain-ut/", "/service-areas/herriman-ut/", "/service-areas/highland-ut/", "/service-areas/lehi-ut/", "/service-areas/lindon-ut/", "/service-areas/orem-ut/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "ceiling-water-damage-repair"}]
 faq: []
 service_slug: "ceiling-water-damage-repair"

@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "d881fc468b65747a"
 generated_at: "2026-09-30T19:28:30.045010+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/austintown-oh/basement-flooding-cleanup/", "/service-areas/boardman-oh/basement-flooding-cleanup/", "/service-areas/campbell-oh/basement-flooding-cleanup/", "/service-areas/canfield-oh/basement-flooding-cleanup/", "/service-areas/farrell-pa/basement-flooding-cleanup/", "/service-areas/girard-oh/basement-flooding-cleanup/", "/service-areas/greenville-pa/basement-flooding-cleanup/", "/service-areas/grove-city-pa/basement-flooding-cleanup/", "/service-areas/hermitage-pa/basement-flooding-cleanup/", "/service-areas/hubbard-oh/basement-flooding-cleanup/", "/service-areas/mercer-pa/basement-flooding-cleanup/", "/service-areas/mineral-ridge-oh/basement-flooding-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/austintown-oh/", "/service-areas/boardman-oh/", "/service-areas/campbell-oh/", "/service-areas/canfield-oh/", "/service-areas/farrell-pa/", "/service-areas/girard-oh/", "/service-areas/greenville-pa/", "/service-areas/grove-city-pa/", "/service-areas/hermitage-pa/", "/service-areas/hubbard-oh/", "/service-areas/mercer-pa/", "/service-areas/mineral-ridge-oh/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "basement-flooding-cleanup"}]
 faq: []
 service_slug: "basement-flooding-cleanup"

@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "d70125e93ab1b11b"
 generated_at: "2026-09-20T14:13:28.028815+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/service-areas/enterprise-nv/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/water-damage-restoration/", "/service-areas/enterprise-nv/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Blue Diamond", "url": "/service-areas/blue-diamond-nv/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "blue-diamond-nv"

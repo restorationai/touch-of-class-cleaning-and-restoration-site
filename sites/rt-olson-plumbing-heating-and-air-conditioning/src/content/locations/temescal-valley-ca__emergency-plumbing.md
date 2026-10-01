@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "feeba46ed3b716ad"
 generated_at: "2026-09-20T14:13:48.598280+00:00"
 manual_override: false
-internal_links: ["/services/emergency-plumbing/", "/service-areas/temescal-valley-ca/", "/service-areas/temescal-valley-ca/ac-repair/", "/service-areas/temescal-valley-ca/drain-cleaning/", "/service-areas/anaheim-ca/emergency-plumbing/", "/service-areas/bloomington-ca/emergency-plumbing/", "/contact/"]
+internal_links: ["/services/emergency-plumbing/", "/service-areas/temescal-valley-ca/", "/service-areas/anaheim-ca/emergency-plumbing/", "/service-areas/bloomington-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Temescal Valley", "url": "/service-areas/temescal-valley-ca/"}, {"name": "Emergency Plumbing"}]
 faq: []
 area_slug: "temescal-valley-ca"

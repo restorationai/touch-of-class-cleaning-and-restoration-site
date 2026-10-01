@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "ca2706cc179d8140"
 generated_at: "2026-09-30T19:28:50.940443+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/ceiling-water-damage-repair/", "/service-areas/boulder-city-nv/ceiling-water-damage-repair/", "/service-areas/cal-nev-ari-nv/ceiling-water-damage-repair/", "/service-areas/enterprise-nv/ceiling-water-damage-repair/", "/service-areas/goodsprings-nv/ceiling-water-damage-repair/", "/service-areas/indian-springs-nv/ceiling-water-damage-repair/", "/service-areas/las-vegas-nv/ceiling-water-damage-repair/", "/service-areas/laughlin-nv/ceiling-water-damage-repair/", "/service-areas/nellis-afb-nv/ceiling-water-damage-repair/", "/service-areas/nelson-nv/ceiling-water-damage-repair/", "/service-areas/north-las-vegas-nv/ceiling-water-damage-repair/", "/service-areas/paradise-nv/ceiling-water-damage-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/", "/service-areas/enterprise-nv/", "/service-areas/goodsprings-nv/", "/service-areas/indian-springs-nv/", "/service-areas/las-vegas-nv/", "/service-areas/laughlin-nv/", "/service-areas/nellis-afb-nv/", "/service-areas/nelson-nv/", "/service-areas/north-las-vegas-nv/", "/service-areas/paradise-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "ceiling-water-damage-repair"}]
 faq: []
 service_slug: "ceiling-water-damage-repair"

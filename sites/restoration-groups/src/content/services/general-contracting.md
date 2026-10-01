@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "8aa7e24dab337c93"
 generated_at: "2026-09-30T19:29:02.383084+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/avenel-nj/general-contracting/", "/service-areas/bayonne-nj/general-contracting/", "/service-areas/bloomfield-nj/general-contracting/", "/service-areas/bridgewater-nj/general-contracting/", "/service-areas/brooklyn-ny/general-contracting/", "/service-areas/carteret-nj/general-contracting/", "/service-areas/chatham-nj/general-contracting/", "/service-areas/clark-nj/general-contracting/", "/service-areas/clifton-nj/general-contracting/", "/service-areas/colonia-nj/general-contracting/", "/service-areas/cranford-nj/general-contracting/", "/service-areas/east-brunswick-nj/general-contracting/"]
+internal_links: ["/services/", "/contact/", "/service-areas/avenel-nj/", "/service-areas/bayonne-nj/", "/service-areas/bloomfield-nj/", "/service-areas/bridgewater-nj/", "/service-areas/brooklyn-ny/", "/service-areas/carteret-nj/", "/service-areas/chatham-nj/", "/service-areas/clark-nj/", "/service-areas/clifton-nj/", "/service-areas/colonia-nj/", "/service-areas/cranford-nj/", "/service-areas/east-brunswick-nj/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "general-contracting"}]
 faq: []
 service_slug: "general-contracting"

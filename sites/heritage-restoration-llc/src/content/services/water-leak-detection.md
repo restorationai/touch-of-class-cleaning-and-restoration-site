@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "5d68ba55e704d6f7"
 generated_at: "2026-09-30T19:28:41.599097+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/water-leak-detection/", "/service-areas/avon-mn/water-leak-detection/", "/service-areas/baxter-mn/water-leak-detection/", "/service-areas/brainerd-mn/water-leak-detection/", "/service-areas/elmdale-mn/water-leak-detection/", "/service-areas/flensburg-mn/water-leak-detection/", "/service-areas/foley-mn/water-leak-detection/", "/service-areas/fort-ripley-mn/water-leak-detection/", "/service-areas/harding-mn/water-leak-detection/", "/service-areas/long-prairie-mn/water-leak-detection/", "/service-areas/pierz-mn/water-leak-detection/", "/service-areas/randall-mn/water-leak-detection/"]
+internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/", "/service-areas/avon-mn/", "/service-areas/baxter-mn/", "/service-areas/brainerd-mn/", "/service-areas/elmdale-mn/", "/service-areas/flensburg-mn/", "/service-areas/foley-mn/", "/service-areas/fort-ripley-mn/", "/service-areas/harding-mn/", "/service-areas/long-prairie-mn/", "/service-areas/pierz-mn/", "/service-areas/randall-mn/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Water Leak Detection"}]
 faq: []
 service_slug: "water-leak-detection"

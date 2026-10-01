@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "02a73da5a0936423"
 generated_at: "2026-09-30T19:28:20.829603+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/water-heater-flood-cleanup/", "/service-areas/big-lake-tx/water-heater-flood-cleanup/", "/service-areas/big-spring-tx/water-heater-flood-cleanup/", "/service-areas/crane-tx/water-heater-flood-cleanup/", "/service-areas/garden-city-tx/water-heater-flood-cleanup/", "/service-areas/gardendale-tx/water-heater-flood-cleanup/", "/service-areas/goldsmith-tx/water-heater-flood-cleanup/", "/service-areas/greenwood-tx/water-heater-flood-cleanup/", "/service-areas/imperial-tx/water-heater-flood-cleanup/", "/service-areas/mccamey-tx/water-heater-flood-cleanup/", "/service-areas/monahans-tx/water-heater-flood-cleanup/", "/service-areas/odessa-tx/water-heater-flood-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/", "/service-areas/big-lake-tx/", "/service-areas/big-spring-tx/", "/service-areas/crane-tx/", "/service-areas/garden-city-tx/", "/service-areas/gardendale-tx/", "/service-areas/goldsmith-tx/", "/service-areas/greenwood-tx/", "/service-areas/imperial-tx/", "/service-areas/mccamey-tx/", "/service-areas/monahans-tx/", "/service-areas/odessa-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-heater-flood-cleanup"}]
 faq: []
 service_slug: "water-heater-flood-cleanup"

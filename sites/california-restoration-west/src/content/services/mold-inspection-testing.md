@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "9d934e9c23a941d7"
 generated_at: "2026-09-30T19:28:23.367430+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/camarillo-ca/mold-inspection-testing/", "/service-areas/carpinteria-ca/mold-inspection-testing/", "/service-areas/castaic-ca/mold-inspection-testing/", "/service-areas/fillmore-ca/mold-inspection-testing/", "/service-areas/hasley-canyon-ca/mold-inspection-testing/", "/service-areas/lake-sherwood-ca/mold-inspection-testing/", "/service-areas/mira-monte-ca/mold-inspection-testing/", "/service-areas/moorpark-ca/mold-inspection-testing/", "/service-areas/oak-park-ca/mold-inspection-testing/", "/service-areas/oak-view-ca/mold-inspection-testing/", "/service-areas/ojai-ca/mold-inspection-testing/", "/service-areas/oxnard-ca/mold-inspection-testing/", "/blog/how-to-test-for-mold/"]
+internal_links: ["/services/", "/contact/", "/service-areas/camarillo-ca/", "/service-areas/carpinteria-ca/", "/service-areas/castaic-ca/", "/service-areas/fillmore-ca/", "/service-areas/hasley-canyon-ca/", "/service-areas/lake-sherwood-ca/", "/service-areas/mira-monte-ca/", "/service-areas/moorpark-ca/", "/service-areas/oak-park-ca/", "/service-areas/oak-view-ca/", "/service-areas/ojai-ca/", "/service-areas/oxnard-ca/", "/blog/how-to-test-for-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "mold-inspection-testing"}]
 faq: []
 service_slug: "mold-inspection-testing"

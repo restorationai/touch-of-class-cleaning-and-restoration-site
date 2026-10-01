@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "503d91d98bbe79f0"
 generated_at: "2026-09-22T02:11:37.967172+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/ridgeville-sc/", "/service-areas/ridgeville-sc/fire-damage-restoration/", "/service-areas/ridgeville-sc/mold-remediation/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/folly-beach-sc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/ridgeville-sc/", "/service-areas/awendaw-sc/water-damage-restoration/", "/service-areas/folly-beach-sc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ridgeville", "url": "/service-areas/ridgeville-sc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "ridgeville-sc"

@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "78ef3243b2db8e98"
 generated_at: "2026-09-30T19:28:21.542407+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/water-heater-flood-cleanup/", "/service-areas/bluffdale-ut/water-heater-flood-cleanup/", "/service-areas/cedar-fort-ut/water-heater-flood-cleanup/", "/service-areas/cedar-hills-ut/water-heater-flood-cleanup/", "/service-areas/cottonwood-heights-ut/water-heater-flood-cleanup/", "/service-areas/draper-ut/water-heater-flood-cleanup/", "/service-areas/eagle-mountain-ut/water-heater-flood-cleanup/", "/service-areas/herriman-ut/water-heater-flood-cleanup/", "/service-areas/highland-ut/water-heater-flood-cleanup/", "/service-areas/lehi-ut/water-heater-flood-cleanup/", "/service-areas/lindon-ut/water-heater-flood-cleanup/", "/service-areas/orem-ut/water-heater-flood-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/", "/service-areas/bluffdale-ut/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-hills-ut/", "/service-areas/cottonwood-heights-ut/", "/service-areas/draper-ut/", "/service-areas/eagle-mountain-ut/", "/service-areas/herriman-ut/", "/service-areas/highland-ut/", "/service-areas/lehi-ut/", "/service-areas/lindon-ut/", "/service-areas/orem-ut/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-heater-flood-cleanup"}]
 faq: []
 service_slug: "water-heater-flood-cleanup"

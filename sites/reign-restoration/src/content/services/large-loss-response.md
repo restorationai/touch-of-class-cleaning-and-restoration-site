@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "5e9ab6c2e3162f24"
 generated_at: "2026-09-30T19:29:00.300107+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/large-loss-response/", "/service-areas/caddo-mills-tx/large-loss-response/", "/service-areas/dallas-tx/large-loss-response/", "/service-areas/farmersville-tx/large-loss-response/", "/service-areas/fate-tx/large-loss-response/", "/service-areas/frisco-tx/large-loss-response/", "/service-areas/garland-tx/large-loss-response/", "/service-areas/greenville-tx/large-loss-response/", "/service-areas/heath-tx/large-loss-response/", "/service-areas/highland-park-tx/large-loss-response/", "/service-areas/josephine-tx/large-loss-response/", "/service-areas/lavon-tx/large-loss-response/"]
+internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/", "/service-areas/farmersville-tx/", "/service-areas/fate-tx/", "/service-areas/frisco-tx/", "/service-areas/garland-tx/", "/service-areas/greenville-tx/", "/service-areas/heath-tx/", "/service-areas/highland-park-tx/", "/service-areas/josephine-tx/", "/service-areas/lavon-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "large-loss-response"}]
 faq: []
 service_slug: "large-loss-response"

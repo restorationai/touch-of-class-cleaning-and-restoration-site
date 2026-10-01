@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "b252d475f02d180e"
 generated_at: "2026-09-20T14:13:48.600311+00:00"
 manual_override: false
-internal_links: ["/services/emergency-plumbing/", "/service-areas/lake-mathews-ca/", "/service-areas/lake-mathews-ca/ac-repair/", "/service-areas/lake-mathews-ca/drain-cleaning/", "/service-areas/anaheim-ca/emergency-plumbing/", "/service-areas/bloomington-ca/emergency-plumbing/", "/contact/"]
+internal_links: ["/services/emergency-plumbing/", "/service-areas/lake-mathews-ca/", "/service-areas/anaheim-ca/emergency-plumbing/", "/service-areas/bloomington-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Mathews", "url": "/service-areas/lake-mathews-ca/"}, {"name": "Emergency Plumbing"}]
 faq: []
 area_slug: "lake-mathews-ca"

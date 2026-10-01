@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "bb08009346c59b3d"
 generated_at: "2026-09-20T17:29:53.187805+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/folly-beach-sc/", "/service-areas/folly-beach-sc/fire-damage-restoration/", "/service-areas/folly-beach-sc/mold-remediation/", "/service-areas/awendaw-sc/emergency-water-removal/", "/service-areas/goose-creek-sc/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/folly-beach-sc/", "/service-areas/folly-beach-sc/mold-remediation/", "/service-areas/awendaw-sc/emergency-water-removal/", "/service-areas/goose-creek-sc/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Folly Beach", "url": "/service-areas/folly-beach-sc/"}, {"name": "Emergency Water Removal & Cleanup"}]
 faq: []
 area_slug: "folly-beach-sc"

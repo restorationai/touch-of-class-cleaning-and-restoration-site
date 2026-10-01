@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "57426f1b7f05a54f"
 generated_at: "2026-09-30T19:29:00.359590+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/lavon-tx/", "/service-areas/lavon-tx/fire-damage-restoration/", "/service-areas/lavon-tx/mold-remediation/", "/service-areas/allen-tx/storm-damage-restoration/", "/service-areas/caddo-mills-tx/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/lavon-tx/", "/service-areas/lavon-tx/mold-remediation/", "/service-areas/allen-tx/storm-damage-restoration/", "/service-areas/caddo-mills-tx/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lavon", "url": "/service-areas/lavon-tx/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "lavon-tx"

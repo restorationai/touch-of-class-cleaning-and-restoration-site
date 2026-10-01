@@ -228,7 +228,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] drain-cleaning
 - [ ] ac-repair
 - [ ] furnace-repair
-- [ ] (continue for each of Emergency Plumbing, Leak Detection, Drain Cleaning, Water Heater Repair, Water Heater Installation and Replacement, Toilet, Faucet and Fixture Services, Garbage Disposal Repair and Installation, Water Softeners and Filtration Systems, Air Conditioning Repair, Furnace Repair, Indoor Air Quality Services, Whole-House Repiping, Air Duct Cleaning Service, All Plumbing Services, Attic Insulation, Camera Inspections of Drain and Sewer Line, Common Plumbing Emergencies, Drain & Sewer Repairs, Gas Line Inspections, Instant Hot Water System, Kitchen & Bathroom Remodeling, Reverse Osmosis, Sewer Camera Inspection, Slab Leak and Pipe Repair)
+- [ ] (continue for each of Emergency Plumbing, Leak Detection, Drain Cleaning, Water Heater Repair, Water Heater Installation and Replacement, Toilet, Faucet and Fixture Services, Garbage Disposal Repair and Installation, Water Softeners and Filtration Systems, Air Conditioning Repair, Furnace Repair, Indoor Air Quality Services, Whole-House Repiping, All Plumbing Services, Attic Insulation, Drain & Sewer Repairs, Gas Line Inspections, Instant Hot Water System, Kitchen & Bathroom Remodeling, Reverse Osmosis, Sewer Camera Inspection, Slab Leak and Pipe Repair)
 
 ### Service area pages (one image per city served)
 - [ ] Corona hero — exterior shot, regional housing stock, evocative of the city

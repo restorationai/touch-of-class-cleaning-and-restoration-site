@@ -10,7 +10,7 @@ priority: 4.5
 plan_hash: "04ee6d49caa31907"
 generated_at: "2026-09-30T14:12:04.043106+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arab-al/basement-sewage-cleanup/", "/service-areas/ardmore-al/basement-sewage-cleanup/", "/service-areas/athens-al/basement-sewage-cleanup/", "/service-areas/decatur-al/basement-sewage-cleanup/", "/service-areas/elkmont-al/basement-sewage-cleanup/", "/service-areas/gurley-al/basement-sewage-cleanup/", "/service-areas/hartselle-al/basement-sewage-cleanup/", "/service-areas/harvest-al/basement-sewage-cleanup/", "/service-areas/hazel-green-al/basement-sewage-cleanup/", "/service-areas/huntsville-al/basement-sewage-cleanup/", "/service-areas/meridianville-al/basement-sewage-cleanup/", "/service-areas/moores-mill-al/basement-sewage-cleanup/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/", "/service-areas/decatur-al/", "/service-areas/elkmont-al/", "/service-areas/gurley-al/", "/service-areas/hartselle-al/", "/service-areas/harvest-al/", "/service-areas/hazel-green-al/", "/service-areas/huntsville-al/", "/service-areas/meridianville-al/", "/service-areas/moores-mill-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Basement Sewage Cleanup"}]
 faq: []
 service_slug: "basement-sewage-cleanup"

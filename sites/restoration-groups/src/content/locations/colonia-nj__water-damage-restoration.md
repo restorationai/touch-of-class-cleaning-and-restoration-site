@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "6e9f8714838bcd67"
 generated_at: "2026-09-30T19:29:02.485218+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/colonia-nj/", "/service-areas/colonia-nj/fire-damage-restoration/", "/service-areas/colonia-nj/mold-remediation/", "/service-areas/avenel-nj/water-damage-restoration/", "/service-areas/bayonne-nj/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/colonia-nj/", "/service-areas/avenel-nj/water-damage-restoration/", "/service-areas/bayonne-nj/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Colonia", "url": "/service-areas/colonia-nj/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "colonia-nj"

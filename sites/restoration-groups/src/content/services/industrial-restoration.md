@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "79018f62ff07408d"
 generated_at: "2026-09-30T19:29:02.382868+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/avenel-nj/industrial-restoration/", "/service-areas/bayonne-nj/industrial-restoration/", "/service-areas/bloomfield-nj/industrial-restoration/", "/service-areas/bridgewater-nj/industrial-restoration/", "/service-areas/brooklyn-ny/industrial-restoration/", "/service-areas/carteret-nj/industrial-restoration/", "/service-areas/chatham-nj/industrial-restoration/", "/service-areas/clark-nj/industrial-restoration/", "/service-areas/clifton-nj/industrial-restoration/", "/service-areas/colonia-nj/industrial-restoration/", "/service-areas/cranford-nj/industrial-restoration/", "/service-areas/east-brunswick-nj/industrial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/avenel-nj/", "/service-areas/bayonne-nj/", "/service-areas/bloomfield-nj/", "/service-areas/bridgewater-nj/", "/service-areas/brooklyn-ny/", "/service-areas/carteret-nj/", "/service-areas/chatham-nj/", "/service-areas/clark-nj/", "/service-areas/clifton-nj/", "/service-areas/colonia-nj/", "/service-areas/cranford-nj/", "/service-areas/east-brunswick-nj/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "industrial-restoration"}]
 faq: []
 service_slug: "industrial-restoration"

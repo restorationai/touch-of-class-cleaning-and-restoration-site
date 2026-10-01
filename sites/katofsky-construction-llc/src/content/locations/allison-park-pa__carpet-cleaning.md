@@ -10,7 +10,7 @@ priority: 2.8
 plan_hash: "3bb96d0ef19d4f6d"
 generated_at: "2026-09-30T19:28:48.302056+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/allison-park-pa/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/allison-park-pa/roofing/", "/service-areas/baldwin-pa/carpet-cleaning/", "/service-areas/bethel-park-pa/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/carpet-cleaning/", "/service-areas/bethel-park-pa/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Allison Park", "url": "/service-areas/allison-park-pa/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "allison-park-pa"

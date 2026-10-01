@@ -1,21 +1,21 @@
 # Site Plan Report — Crew Restoration & Construction
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:28:25.906855+00:00
+- Generated: 2026-10-01T05:04:07.471519+00:00
 - Domain: `crew3r.com`
-- Services selected: 30 of 91 catalog entries
+- Services selected: 29 of 91 catalog entries
 - Service areas: 45
 - Cross-product enabled: True
-- Total URLs: **1415**
-- Total internal links: 11449 (avg 8.1 per page)
+- Total URLs: **725**
+- Total internal links: 5756 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 1320 |
+| `service-area-service` | 631 |
 | `service-area` | 44 |
-| `service-landing` | 30 |
+| `service-landing` | 29 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -36,7 +36,6 @@
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
 - `deck-construction` — Deck Construction (construction, priority 5)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
-- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 - `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 - `excavations` — Excavations (construction, priority 5)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
@@ -115,11 +114,11 @@
 | `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement sioux falls |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration sioux falls |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration sioux falls |
-| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing sioux falls |
 | `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup sioux falls |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration sioux falls |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services sioux falls |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization sioux falls |
+| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration sioux falls |
 
 ## Validation
 

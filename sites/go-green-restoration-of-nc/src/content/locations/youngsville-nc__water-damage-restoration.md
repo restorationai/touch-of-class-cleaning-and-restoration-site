@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "516ef340558ad258"
 generated_at: "2026-09-30T19:28:39.787511+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/youngsville-nc/", "/service-areas/youngsville-nc/fire-damage-restoration/", "/service-areas/youngsville-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-damage-restoration/", "/service-areas/clayton-nc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/youngsville-nc/", "/service-areas/youngsville-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-damage-restoration/", "/service-areas/clayton-nc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Youngsville", "url": "/service-areas/youngsville-nc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "youngsville-nc"

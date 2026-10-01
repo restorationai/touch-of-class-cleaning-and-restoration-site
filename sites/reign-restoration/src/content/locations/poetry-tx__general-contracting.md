@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "5649159f7bdfb3ac"
 generated_at: "2026-09-30T19:29:00.369452+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/poetry-tx/", "/service-areas/poetry-tx/fire-damage-restoration/", "/service-areas/poetry-tx/mold-remediation/", "/service-areas/allen-tx/general-contracting/", "/service-areas/caddo-mills-tx/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/poetry-tx/", "/service-areas/allen-tx/general-contracting/", "/service-areas/caddo-mills-tx/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Poetry", "url": "/service-areas/poetry-tx/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "poetry-tx"

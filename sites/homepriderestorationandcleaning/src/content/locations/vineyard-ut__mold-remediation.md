@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "bb6b0f188fe32558"
 generated_at: "2026-09-30T19:28:45.230801+00:00"
 manual_override: false
-internal_links: ["/services/mold-remediation/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/water-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/mold-remediation/", "/contact/"]
+internal_links: ["/services/mold-remediation/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/water-damage-restoration/", "/service-areas/alpine-ut/", "/service-areas/american-fork-ut/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vineyard", "url": "/service-areas/vineyard-ut/"}, {"name": "Mold Remediation"}]
 faq: []
 area_slug: "vineyard-ut"

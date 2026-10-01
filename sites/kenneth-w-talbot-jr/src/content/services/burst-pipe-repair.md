@@ -10,7 +10,7 @@ priority: 7.2
 plan_hash: "486d4cfc0d9ce408"
 generated_at: "2026-09-30T19:28:49.209724+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/crestview-fl/burst-pipe-repair/", "/service-areas/defuniak-springs-fl/burst-pipe-repair/", "/service-areas/destin-fl/burst-pipe-repair/", "/service-areas/ebro-fl/burst-pipe-repair/", "/service-areas/eglin-afb-fl/burst-pipe-repair/", "/service-areas/fort-walton-beach-fl/burst-pipe-repair/", "/service-areas/harold-fl/burst-pipe-repair/", "/service-areas/hurlburt-field-fl/burst-pipe-repair/", "/service-areas/laurel-hill-fl/burst-pipe-repair/", "/service-areas/miramar-beach-fl/burst-pipe-repair/", "/service-areas/navarre-fl/burst-pipe-repair/", "/service-areas/niceville-fl/burst-pipe-repair/"]
+internal_links: ["/services/", "/contact/", "/service-areas/crestview-fl/", "/service-areas/defuniak-springs-fl/", "/service-areas/destin-fl/", "/service-areas/ebro-fl/", "/service-areas/eglin-afb-fl/", "/service-areas/fort-walton-beach-fl/", "/service-areas/harold-fl/", "/service-areas/hurlburt-field-fl/", "/service-areas/laurel-hill-fl/", "/service-areas/miramar-beach-fl/", "/service-areas/navarre-fl/", "/service-areas/niceville-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "burst-pipe-repair"}]
 faq: []
 service_slug: "burst-pipe-repair"

@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "73391d3e3b3d7489"
 generated_at: "2026-09-30T19:28:43.515338+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/gulf-park-estates-ms/", "/service-areas/gulf-park-estates-ms/fire-damage-restoration/", "/service-areas/gulf-park-estates-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-water-removal/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/gulf-park-estates-ms/", "/service-areas/gulf-park-estates-ms/fire-damage-restoration/", "/service-areas/gulf-park-estates-ms/mold-remediation/", "/service-areas/agricola-ms/", "/service-areas/bay-st-louis-ms/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gulf Park Estates", "url": "/service-areas/gulf-park-estates-ms/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "gulf-park-estates-ms"

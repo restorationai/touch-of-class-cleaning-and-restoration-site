@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "fcdf199c5b00fa36"
 generated_at: "2026-09-30T19:28:54.513779+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/emergency-plumbing/", "/service-areas/bear-valley-springs-ca/emergency-plumbing/", "/service-areas/buttonwillow-ca/emergency-plumbing/", "/service-areas/delano-ca/emergency-plumbing/", "/service-areas/dustin-acres-ca/emergency-plumbing/", "/service-areas/east-niles-ca/emergency-plumbing/", "/service-areas/keene-ca/emergency-plumbing/", "/service-areas/lake-isabella-ca/emergency-plumbing/", "/service-areas/lamont-ca/emergency-plumbing/", "/service-areas/maricopa-ca/emergency-plumbing/", "/service-areas/mcfarland-ca/emergency-plumbing/", "/service-areas/oildale-ca/emergency-plumbing/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/", "/service-areas/bear-valley-springs-ca/", "/service-areas/buttonwillow-ca/", "/service-areas/delano-ca/", "/service-areas/dustin-acres-ca/", "/service-areas/east-niles-ca/", "/service-areas/keene-ca/", "/service-areas/lake-isabella-ca/", "/service-areas/lamont-ca/", "/service-areas/maricopa-ca/", "/service-areas/mcfarland-ca/", "/service-areas/oildale-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Emergency Plumbing"}]
 faq: []
 service_slug: "emergency-plumbing"

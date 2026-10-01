@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "0df2cb81ad158d48"
 generated_at: "2026-09-20T14:13:25.016800+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/awendaw-sc/", "/service-areas/awendaw-sc/fire-damage-restoration/", "/service-areas/awendaw-sc/mold-remediation/", "/service-areas/goose-creek-sc/emergency-water-removal/", "/service-areas/hanahan-sc/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/awendaw-sc/", "/service-areas/goose-creek-sc/", "/service-areas/hanahan-sc/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Awendaw", "url": "/service-areas/awendaw-sc/"}, {"name": "Emergency Water Removal & Cleanup"}]
 faq: []
 area_slug: "awendaw-sc"

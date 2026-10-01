@@ -1,13 +1,13 @@
 # Site Plan Report — AAA Water Damage Restoration & Carpet Care
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T18:09:45.282971+00:00
+- Generated: 2026-10-01T05:03:07.289892+00:00
 - Domain: `aaawaterdamagehawaii.com`
-- Services selected: 11 of 65 catalog entries
+- Services selected: 22 of 91 catalog entries
 - Service areas: 28
 - Cross-product enabled: True
-- Total URLs: **356**
-- Total internal links: 2838 (avg 8.0 per page)
+- Total URLs: **367**
+- Total internal links: 2886 (avg 7.9 per page)
 
 ## URLs by archetype
 
@@ -15,8 +15,8 @@
 | --- | --- |
 | `service-area-service` | 297 |
 | `service-area` | 27 |
+| `service-landing` | 22 |
 | `blog-post` | 12 |
-| `service-landing` | 11 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -37,7 +37,18 @@
 - `upholstery-cleaning` — Upholstery Cleaning (adjacent, priority 4)
 - `flood-equipment-rental` — Flood & Drying Equipment Rental (adjacent, priority 3)
 - `commercial-restoration` — Commercial Restoration (core, priority 9)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
+- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
+- `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
 
 ## Service areas
 
@@ -74,16 +85,16 @@
 
 | URL | Archetype | Priority | Primary keyword |
 | --- | --- | --- | --- |
+| `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration honolulu |
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation honolulu |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration honolulu |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration honolulu |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup honolulu |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration honolulu |
+| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services honolulu |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization honolulu |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup honolulu |
-| `/services/burst-pipe-repair/` | `service-landing` | 7.2 | burst pipe cleanup and repair honolulu |
-| `/services/mold-inspection-testing/` | `service-landing` | 7.2 | mold inspection and testing honolulu |
-| `/service-areas/aiea-hi/mold-remediation/` | `service-area-service` | 7.0 | mold remediation aiea |
-| `/service-areas/aiea-hi/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration aiea |
+| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration honolulu |
+| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration honolulu |
 
 ## Validation
 

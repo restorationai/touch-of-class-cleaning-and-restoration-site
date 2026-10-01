@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "9443a919c9b53d2b"
 generated_at: "2026-09-30T19:28:58.483555+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/industrial-restoration/", "/service-areas/boulder-city-nv/industrial-restoration/", "/service-areas/enterprise-nv/industrial-restoration/", "/service-areas/henderson-nv/industrial-restoration/", "/service-areas/indian-springs-nv/industrial-restoration/", "/service-areas/las-vegas-nv/industrial-restoration/", "/service-areas/moapa-town-nv/industrial-restoration/", "/service-areas/moapa-valley-nv/industrial-restoration/", "/service-areas/mount-charleston-nv/industrial-restoration/", "/service-areas/nelson-nv/industrial-restoration/", "/service-areas/pahrump-nv/industrial-restoration/", "/service-areas/paradise-nv/industrial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/enterprise-nv/", "/service-areas/henderson-nv/", "/service-areas/indian-springs-nv/", "/service-areas/las-vegas-nv/", "/service-areas/moapa-town-nv/", "/service-areas/moapa-valley-nv/", "/service-areas/mount-charleston-nv/", "/service-areas/nelson-nv/", "/service-areas/pahrump-nv/", "/service-areas/paradise-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "industrial-restoration"}]
 faq: []
 service_slug: "industrial-restoration"

@@ -10,7 +10,7 @@ priority: 3.5
 plan_hash: "63ee13e9adb9112f"
 generated_at: "2026-09-30T19:28:39.743206+00:00"
 manual_override: false
-internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/nashville-nc/", "/service-areas/nashville-nc/fire-damage-restoration/", "/service-areas/nashville-nc/mold-remediation/", "/service-areas/archer-lodge-nc/crawl-space-encapsulation/", "/service-areas/clayton-nc/crawl-space-encapsulation/", "/contact/"]
+internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/nashville-nc/", "/service-areas/nashville-nc/fire-damage-restoration/", "/service-areas/nashville-nc/mold-remediation/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nashville", "url": "/service-areas/nashville-nc/"}, {"name": "Crawl Space Encapsulation"}]
 faq: []
 area_slug: "nashville-nc"

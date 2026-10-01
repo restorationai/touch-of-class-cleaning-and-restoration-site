@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "0aaf932f9b9e743e"
 generated_at: "2026-09-23T14:11:40.953773+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/prospect-pa/", "/service-areas/prospect-pa/fire-damage-restoration/", "/service-areas/prospect-pa/mold-remediation/", "/service-areas/aliquippa-pa/water-damage-restoration/", "/service-areas/allison-park-pa/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/prospect-pa/", "/service-areas/aliquippa-pa/water-damage-restoration/", "/service-areas/allison-park-pa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Prospect", "url": "/service-areas/prospect-pa/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "prospect-pa"

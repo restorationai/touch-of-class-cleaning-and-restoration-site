@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "46e1e29a6545be9c"
 generated_at: "2026-09-30T19:28:50.940017+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/smoke-damage-restoration/", "/service-areas/boulder-city-nv/smoke-damage-restoration/", "/service-areas/cal-nev-ari-nv/smoke-damage-restoration/", "/service-areas/enterprise-nv/smoke-damage-restoration/", "/service-areas/goodsprings-nv/smoke-damage-restoration/", "/service-areas/indian-springs-nv/smoke-damage-restoration/", "/service-areas/las-vegas-nv/smoke-damage-restoration/", "/service-areas/laughlin-nv/smoke-damage-restoration/", "/service-areas/nellis-afb-nv/smoke-damage-restoration/", "/service-areas/nelson-nv/smoke-damage-restoration/", "/service-areas/north-las-vegas-nv/smoke-damage-restoration/", "/service-areas/paradise-nv/smoke-damage-restoration/", "/blog/fire-damage-restoration-process/"]
+internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/", "/service-areas/enterprise-nv/", "/service-areas/goodsprings-nv/", "/service-areas/indian-springs-nv/", "/service-areas/las-vegas-nv/", "/service-areas/laughlin-nv/", "/service-areas/nellis-afb-nv/", "/service-areas/nelson-nv/", "/service-areas/north-las-vegas-nv/", "/service-areas/paradise-nv/", "/blog/fire-damage-restoration-process/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "smoke-damage-restoration"}]
 faq: []
 service_slug: "smoke-damage-restoration"

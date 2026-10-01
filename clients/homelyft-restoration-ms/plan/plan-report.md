@@ -1,21 +1,21 @@
 # Site Plan Report — HomeLyft Restoration MS
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T21:36:58.367433+00:00
+- Generated: 2026-10-01T05:05:47.217335+00:00
 - Domain: `homelyft.net`
-- Services selected: 30 of 91 catalog entries
+- Services selected: 29 of 91 catalog entries
 - Service areas: 48
 - Cross-product enabled: True
-- Total URLs: **1504**
-- Total internal links: 12164 (avg 8.1 per page)
+- Total URLs: **777**
+- Total internal links: 6176 (avg 7.9 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 1410 |
+| `service-area-service` | 684 |
 | `service-area` | 47 |
-| `service-landing` | 30 |
+| `service-landing` | 29 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -56,7 +56,6 @@
 - `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
-- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
 
@@ -118,11 +117,11 @@
 | `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement gulfport |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration gulfport |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration gulfport |
-| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing gulfport |
 | `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup gulfport |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration gulfport |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services gulfport |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization gulfport |
+| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration gulfport |
 
 ## Validation
 

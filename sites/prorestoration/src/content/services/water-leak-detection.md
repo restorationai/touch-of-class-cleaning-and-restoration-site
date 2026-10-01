@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "5e2fb7a3521bc70c"
 generated_at: "2026-09-30T19:28:54.515606+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/water-leak-detection/", "/service-areas/bear-valley-springs-ca/water-leak-detection/", "/service-areas/buttonwillow-ca/water-leak-detection/", "/service-areas/delano-ca/water-leak-detection/", "/service-areas/dustin-acres-ca/water-leak-detection/", "/service-areas/east-niles-ca/water-leak-detection/", "/service-areas/keene-ca/water-leak-detection/", "/service-areas/lake-isabella-ca/water-leak-detection/", "/service-areas/lamont-ca/water-leak-detection/", "/service-areas/maricopa-ca/water-leak-detection/", "/service-areas/mcfarland-ca/water-leak-detection/", "/service-areas/oildale-ca/water-leak-detection/"]
+internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/", "/service-areas/bear-valley-springs-ca/", "/service-areas/buttonwillow-ca/", "/service-areas/delano-ca/", "/service-areas/dustin-acres-ca/", "/service-areas/east-niles-ca/", "/service-areas/keene-ca/", "/service-areas/lake-isabella-ca/", "/service-areas/lamont-ca/", "/service-areas/maricopa-ca/", "/service-areas/mcfarland-ca/", "/service-areas/oildale-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Water Leak Detection"}]
 faq: []
 service_slug: "water-leak-detection"

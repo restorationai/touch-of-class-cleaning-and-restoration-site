@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "0bde54bc86145345"
 generated_at: "2026-09-30T19:28:39.728002+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/rolesville-nc/", "/service-areas/rolesville-nc/fire-damage-restoration/", "/service-areas/rolesville-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-damage-restoration/", "/service-areas/clayton-nc/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/rolesville-nc/", "/service-areas/archer-lodge-nc/water-damage-restoration/", "/service-areas/clayton-nc/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rolesville", "url": "/service-areas/rolesville-nc/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "rolesville-nc"

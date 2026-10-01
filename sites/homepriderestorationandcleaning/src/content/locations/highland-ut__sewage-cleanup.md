@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "9b2ee9f255cf1485"
 generated_at: "2026-09-30T19:28:45.243817+00:00"
 manual_override: false
-internal_links: ["/services/sewage-cleanup/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/alpine-ut/sewage-cleanup/", "/service-areas/american-fork-ut/sewage-cleanup/", "/contact/"]
+internal_links: ["/services/sewage-cleanup/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/alpine-ut/", "/service-areas/american-fork-ut/sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Highland", "url": "/service-areas/highland-ut/"}, {"name": "Sewage Cleanup and Sanitization"}]
 faq: []
 area_slug: "highland-ut"

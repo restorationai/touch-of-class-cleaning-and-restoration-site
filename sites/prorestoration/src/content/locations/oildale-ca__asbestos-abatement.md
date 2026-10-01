@@ -10,7 +10,7 @@ priority: 4.2
 plan_hash: "a40244ddb5c01923"
 generated_at: "2026-09-30T19:28:54.524303+00:00"
 manual_override: false
-internal_links: ["/services/asbestos-abatement/", "/service-areas/oildale-ca/", "/service-areas/oildale-ca/fire-damage-restoration/", "/service-areas/oildale-ca/home-remodeling/", "/service-areas/arvin-ca/asbestos-abatement/", "/service-areas/bear-valley-springs-ca/asbestos-abatement/", "/contact/"]
+internal_links: ["/services/asbestos-abatement/", "/service-areas/oildale-ca/", "/service-areas/oildale-ca/fire-damage-restoration/", "/service-areas/oildale-ca/home-remodeling/", "/service-areas/arvin-ca/", "/service-areas/bear-valley-springs-ca/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oildale", "url": "/service-areas/oildale-ca/"}, {"name": "Asbestos Abatement"}]
 faq: []
 area_slug: "oildale-ca"

@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "4ccd1297890cf9a7"
 generated_at: "2026-09-30T19:28:39.579489+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/smoke-damage-restoration/", "/service-areas/clayton-nc/smoke-damage-restoration/", "/service-areas/durham-nc/smoke-damage-restoration/", "/service-areas/elm-city-nc/smoke-damage-restoration/", "/service-areas/kenly-nc/smoke-damage-restoration/", "/service-areas/knightdale-nc/smoke-damage-restoration/", "/service-areas/lake-royale-nc/smoke-damage-restoration/", "/service-areas/louisburg-nc/smoke-damage-restoration/", "/service-areas/nashville-nc/smoke-damage-restoration/", "/service-areas/pine-level-nc/smoke-damage-restoration/", "/service-areas/raleigh-nc/smoke-damage-restoration/", "/service-areas/rocky-mount-nc/smoke-damage-restoration/", "/blog/fire-damage-restoration-process/"]
+internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/", "/service-areas/clayton-nc/", "/service-areas/durham-nc/", "/service-areas/elm-city-nc/", "/service-areas/kenly-nc/", "/service-areas/knightdale-nc/", "/service-areas/lake-royale-nc/", "/service-areas/louisburg-nc/", "/service-areas/nashville-nc/", "/service-areas/pine-level-nc/", "/service-areas/raleigh-nc/", "/service-areas/rocky-mount-nc/", "/blog/fire-damage-restoration-process/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Smoke Damage Restoration"}]
 faq: []
 service_slug: "smoke-damage-restoration"

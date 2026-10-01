@@ -10,7 +10,7 @@ priority: 7.0
 plan_hash: "2ba24413aaa04774"
 generated_at: "2026-09-23T14:11:40.903875+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/franklin-park-pa/", "/service-areas/franklin-park-pa/fire-damage-restoration/", "/service-areas/franklin-park-pa/mold-remediation/", "/service-areas/aliquippa-pa/water-damage-restoration/", "/service-areas/allison-park-pa/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/franklin-park-pa/", "/service-areas/aliquippa-pa/water-damage-restoration/", "/service-areas/allison-park-pa/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Park", "url": "/service-areas/franklin-park-pa/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "franklin-park-pa"
