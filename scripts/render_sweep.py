@@ -276,15 +276,35 @@ def main() -> int:
           f"across {len(inventory)} site(s); cap {cap}")
     for slug, n in inventory:
         print(f"  {slug}: {n}")
+    # FAIR SHARE (Dry1 Out 2026-10-01): the budget used to charge each site
+    # its WHOLE backlog while render_one only writes site_cap pages a night,
+    # so after the first site (alphabetical) every site with more than the
+    # remaining budget was DEFERRED every single night. Dry1 Out (619
+    # pending) never got a page or an image during its 10-day soak. Now a
+    # site is charged what it actually renders tonight, sites with service
+    # images missing go first (they render the pass even with 0 pages), and
+    # the rest rotate least-recently-swept first.
+    site_cap = int(os.environ.get("RENDER_SWEEP_SITE_CAP", "50"))
+
+    def _last_swept(slug: str) -> str:
+        r = subprocess.run(["git", "log", "-1", "--format=%cI", "--grep",
+                            f"render sweep: {slug}", "--", f"sites/{slug}"],
+                           cwd=ROOT, capture_output=True, text=True)
+        return r.stdout.strip() or "0000"
+
+    inventory.sort(key=lambda sn: (not images_missing(sn[0]), _last_swept(sn[0])))
+    print("tonight's order: " + ", ".join(s for s, _ in inventory[:12])
+          + (" ..." if len(inventory) > 12 else ""))
     if args.dry_run:
         return 0
     spent, failures = 0, 0
     for slug, n in inventory:
-        if spent + n > cap:
-            print(f"[{slug}] DEFERRED — {n} pages would pass the {cap}-page "
-                  "cap; next sweep picks it up")
+        charge = min(n, site_cap)
+        if spent + charge > cap:
+            print(f"[{slug}] DEFERRED — tonight's {cap}-page budget is spent; "
+                  "it rotates to the front of the next sweep")
             continue
-        spent += n
+        spent += charge
         if not render_one(slug, args.workers):
             failures += 1
     print(f"render sweep done: {spent} page(s) attempted, {failures} site(s) "
