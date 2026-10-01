@@ -196,10 +196,19 @@ def scan_points_tasked(auth: str, keyword: str, pts: list[dict], biz: dict,
             for r in (t.get("result") or []):
                 if r.get("id") in pending:
                     ready_ids.append(r["id"])
-        for tid in ready_ids:
+        # DIRECT POLL (Restoration Resource / Dry1 Out 2026-09-30): the
+        # account-wide tasks_ready list is capped, and with the whole fleet
+        # scanning a new client's tasks never surfaced in it, so all 169
+        # points timed out as "not found" (0/169 scans that read as "ranks
+        # nowhere"). task_get is free; ask for a rotating slice of the
+        # pending ids directly every pass.
+        direct = [t for t in list(pending)[:40] if t not in ready_ids]
+        for tid in ready_ids + direct:
             try:
                 got = _dfs_get(DFS_TASK_GET + tid, auth)
                 task = (got.get("tasks") or [{}])[0]
+                if task.get("status_code") != 20000 or not task.get("result"):
+                    continue          # still queued / in progress
                 items = ((task.get("result") or [{}])[0] or {}).get("items") or []
                 pt = id_to_pt[tid]
                 rank = _match_rank(items, biz, max_rank)
@@ -211,9 +220,12 @@ def scan_points_tasked(auth: str, keyword: str, pts: list[dict], biz: dict,
     if pending:
         sys.stderr.write(f"  WARN {len(pending)} task(s) never completed inside "
                          f"{timeout_s}s — those points read as not-found\n")
+        # cost 0.0 marks them as FAILED calls, not "not ranking here", so
+        # geogrid_store retries them live and refuses to persist the scan
+        # when too many stay unknown (never write a fake all-red grid)
         for tid in pending:
             pt = id_to_pt[tid]
-            results[tid] = {**pt, "rank": None, "found": False, "cost": per_pt_cost}
+            results[tid] = {**pt, "rank": None, "found": False, "cost": 0.0}
     return list(results.values())
 
 
