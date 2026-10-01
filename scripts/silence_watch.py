@@ -233,7 +233,7 @@ def probe_citation_queue(days: float):
 
 
 def probe_geogrid(days: float):
-    """Bi-weekly map-rank scans (1st + 15th, Railway geogrid-cron)."""
+    """Monthly map-rank scans (geogrid-scan.yml per-client matrix; the 1st + daily catch-up)."""
     configured = [s for s in _active_clients()
                   if (ROOT / "clients" / s / "geogrid-keywords.txt").exists()
                   and (ROOT / "clients" / s / "geogrid-cities.json").exists()]
@@ -346,11 +346,11 @@ SYSTEMS: list[dict] = [
      "fix": "python3 scripts/authority_targets.py --all --write --mode all "
             "(Railway service authority-cron, 1st of month)"},
     {"key": "geogrid", "label": "geo-grid map-rank scans",
-     "probe": probe_geogrid, "window": 20, "quiet_days": 20,
+     "probe": probe_geogrid, "window": 35, "quiet_days": 35,  # monthly cadence
      "why": "the map-rank grid is what the client dashboard shows for local "
             "rankings; a missed pair of runs leaves it frozen",
-     "fix": "python3 scripts/geogrid_cron.py   (Railway service "
-            "geogrid-cron, 08:00 UTC on the 1st and 15th)"},
+     "fix": "gh workflow run geogrid-scan.yml -f mode=due   (GitHub "
+            "per-client matrix, daily 10:25 UTC; monthly pass on the 1st)"},
     {"key": "bing-sweep", "label": "nightly Bing / browser-agent sweep",
      "probe": probe_bing_sweep, "window": 3, "quiet_days": 3,
      "why": "the sweep is what advances Bing Places listings and catches "
