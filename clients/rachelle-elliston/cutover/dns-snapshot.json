@@ -1,6 +1,6 @@
 {
  "domain": "desertvalleycontracting.net",
- "captured_at": "2026-10-01T22:55:08+00:00",
+ "captured_at": "2026-10-01T23:20:52+00:00",
  "authoritative": {
   "ns": [
    "ns67.domaincontrol.com",
@@ -13,8 +13,8 @@
   ],
   "dkim": {},
   "apex_a": [
-   "35.172.94.1",
-   "100.24.208.97"
+   "100.24.208.97",
+   "35.172.94.1"
   ],
   "apex_cname": [],
   "www_cname": [
@@ -27,6 +27,15 @@
    "amos.ns.cloudflare.com",
    "anastasia.ns.cloudflare.com"
   ],
-  "records": []
+  "records": [
+   {
+    "id": "5db4f05bf267250dbdba05fc4dcdddbf",
+    "type": "TXT",
+    "name": "_dmarc.desertvalleycontracting.net",
+    "content": "v=DMARC1; p=quarantine; adkim=r; aspf=r; rua=mailto:dmarc_rua@onsecureserver.net;",
+    "priority": null,
+    "proxied": false
+   }
+  ]
  }
 }
