@@ -7,7 +7,7 @@ on:
   workflow_dispatch:         # manual trigger for testing
     inputs:
       content_only:
-        description: "Fast lane: run ONLY the content engine + commits (skip audits/scans/GBP). For draining the content backlog."
+        description: "Fast lane: run ONLY the System 1 queue refill + commits (skip audits/scans/GBP). Posts are written ONLY by content-daily."
         type: boolean
         default: false
       only_slug:
@@ -134,10 +134,20 @@ jobs:
           DATAFORSEO_USERNAME:          ${{ secrets.DATAFORSEO_USERNAME }}
           DATAFORSEO_PASSWORD:          ${{ secrets.DATAFORSEO_PASSWORD }}
         run: |
+          # Systems 0 + 2 (seeding + writing posts) belong to content-daily's
+          # per-client matrix ONLY (2026-10-01 audit). Running them here too
+          # raced the same client's writer in two workflows: 09-24 puroclean
+          # got the same post written twice (add/add conflict on
+          # unattended-death-cleanup.md), and conflicted queue rebases left
+          # the <<<<<<< markers in tdi-builders' content-queue.json that
+          # stalled content-daily fleet-wide for 4 days. This lane keeps
+          # S1 (queue refill) + S3/S4; content_only = S1 refill only.
+          SYSTEMS="1,3,4"
+          if [ "${{ inputs.content_only }}" = "true" ]; then SYSTEMS="1"; fi
           if [ -n "${{ inputs.only_slug }}" ]; then
-            python3 scripts/master_scheduler.py run-due --slug "${{ inputs.only_slug }}" --headless
+            python3 scripts/master_scheduler.py run-due --slug "${{ inputs.only_slug }}" --headless --systems "$SYSTEMS"
           else
-            python3 scripts/master_scheduler.py run-due --all --headless
+            python3 scripts/master_scheduler.py run-due --all --headless --systems "$SYSTEMS"
           fi
 
       - name: Checkpoint-commit content (survives any later hang or job-cap kill)
@@ -156,6 +166,12 @@ jobs:
             # was THIS step hitting the stamp-conflict rebase)
             git symbolic-ref -q HEAD >/dev/null || git checkout -B main
             git commit -m "chore: content checkpoint $(date +%Y-%m-%d) [automated]"
+            # Park uncommitted leftovers so the rebase can start: `git rebase
+            # --autostash` still died with "cannot rebase: You have unstaged
+            # changes" on 10 runs 09-24..09-29 (then "no rebase in progress",
+            # exit 128, run red). Restored after the push.
+            git stash push --include-untracked -q -m "wm-checkpoint-leftovers" || true
+            git diff --quiet || git reset -q --hard HEAD
             # retry LOOP (09-25: single retry lost a race — another bot
             # pushed in the 1s window after a successful rebase)
             for attempt in 1 2 3 4; do
@@ -170,6 +186,9 @@ jobs:
               [ "$attempt" = "4" ] && exit 1
               sleep $((attempt * 5))
             done
+            if git stash list | grep -q wm-checkpoint-leftovers; then
+              git stash pop -q || { git checkout -q -- . ; git stash drop -q || true; }
+            fi
           fi
 
       - name: NAP consistency audit (monthly — first Monday; results feed the coverage gate)
@@ -385,6 +404,11 @@ jobs:
             # stamps refresh on the next sync either way).
             git symbolic-ref -q HEAD >/dev/null || git checkout -B main
             git commit -m "chore: weekly maintenance run $(date +%Y-%m-%d) [automated]"
+            # Last write step: park uncommitted leftovers so the rebase can
+            # start ("cannot rebase: You have unstaged changes" despite
+            # --autostash failed this step on 10 runs 09-24..09-29).
+            git stash push --include-untracked -q -m "wm-final-leftovers" || true
+            git diff --quiet || git reset -q --hard HEAD
             for attempt in 1 2 3 4; do
               git push origin HEAD:main && break
               git fetch origin main

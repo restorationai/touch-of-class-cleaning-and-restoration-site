@@ -177,7 +177,13 @@ def variant_fanout(service: str, place: str, slug: str | None = None) -> list[st
         path = (verticals.resolve_template(slug, "keyword-variants.json")
                 if slug else ROOT / "templates" / "restoration" / "keyword-variants.json")
         vmap = json.loads(pathlib.Path(path).read_text())
-    except Exception:
+    except (Exception, SystemExit) as e:  # noqa: BLE001
+        # resolve_template() sys.exit()s when the vertical lacks the asset
+        # (templates/plumbing has no keyword-variants.json). SystemExit is not
+        # an Exception, so it killed the WHOLE seeder: All Pro + RT Olson got
+        # no System 0 post since 07-27 / ever (2026-10-01 audit). Variants are
+        # optional enrichment; canonical phrasing ships without them.
+        sys.stderr.write(f"  variant fan-out skipped for {slug}: {str(e)[:160]}\n")
         return []
     variants = [v for v in vmap.get(service, []) if isinstance(v, str)][:7]
     if not variants:

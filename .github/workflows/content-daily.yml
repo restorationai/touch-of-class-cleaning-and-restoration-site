@@ -64,8 +64,23 @@ jobs:
           if [ -n "$SLUG" ]; then
             echo "slugs=[\"$SLUG\"]" >> "$GITHUB_OUTPUT"
           else
-            echo "slugs=$(python3 scripts/master_scheduler.py list-due --systems 0,2)" >> "$GITHUB_OUTPUT"
+            # Never hand the matrix a silent empty list (2026-10-01 audit:
+            # list-due crashed on one corrupt queue 09-24..09-28 and `echo
+            # "slugs=$(...)"` swallowed the error, so 15 runs went green with
+            # zero writer jobs). A crash fails the plan job, which alerts.
+            SLUGS=$(python3 scripts/master_scheduler.py list-due --systems 0,2)
+            echo "$SLUGS" | python3 -c "import json,sys; v=json.load(sys.stdin); assert isinstance(v, list)"
+            echo "due: $SLUGS"
+            echo "slugs=$SLUGS" >> "$GITHUB_OUTPUT"
           fi
+      - name: Alert on plan failure
+        if: failure()
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+        run: |
+          python3 scripts/notify_failure.py \
+            --subject "[Rank AI] content-daily PLAN failed: no client posts this slot" \
+            --run-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
 
   write:
     needs: plan
@@ -109,6 +124,8 @@ jobs:
           python3 scripts/master_scheduler.py run-due --slug "${{ matrix.slug }}" --headless --systems 0,2
       - name: Checkpoint push (never lose a written post)
         if: always()
+        # (the step above now exits non-zero when the writer fails, so this
+        # always() step is what keeps a partially-written run's files)
         run: |
           # Per-client scope: this job only commits its own client's paths,
           # and the rebase-retry loop absorbs races with sibling jobs.

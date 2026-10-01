@@ -158,7 +158,12 @@ QUEUE_ALERT_THRESHOLD = 2
 # local file, so the DB is authoritative for departure and the local status is
 # only a hint. Fail OPEN on the DB read — never stop a paying client's systems
 # because of an API hiccup.
-DEPARTED = {"archived", "churned", "paused", "cancelled", "canceled", "inactive", "suspended"}
+# "departed"/"dead" (2026-10-01 content audit): procraft-exteriors carries
+# status "departed" and was still fanned out to a content-daily writer job
+# twice a day (System 2 failing on its deleted blog dir, System 0 still
+# seeding its queue).
+DEPARTED = {"archived", "churned", "paused", "cancelled", "canceled", "inactive",
+            "suspended", "departed", "dead"}
 
 
 def _db_departed_ids() -> set:
@@ -192,7 +197,12 @@ def load_clients(slug_filter: str | None = None) -> list[dict]:
     for path in sorted((ROOT / "clients").glob("*.json")):
         if path.stem == "company_map":
             continue
-        c = json.loads(path.read_text())
+        try:
+            c = json.loads(path.read_text())
+        except (json.JSONDecodeError, OSError) as e:
+            # One unreadable record must never take the fleet down with it.
+            sys.stderr.write(f"  SKIP {path.name}: unreadable client record ({e})\n")
+            continue
         if str(c.get("status") or "").strip().lower() in DEPARTED:
             continue
         if (c.get("company_id") or cmap.get(path.stem)) in db_departed:
@@ -293,8 +303,16 @@ def can_run_directly(client: dict, system: int) -> bool:
     """System 3 and System 4 prefer apex (cutover complete). System 2 needs queue."""
     if system == 3:
         return client.get("audit") is not None or client.get("build_status") in ("pushed_main", "pushed_staging", "live")
+    if system == 0:
+        # System 0 seeds posts System 2 can only write into a scaffolded blog.
+        # Without this gate every siteless onboarding client (daved, loopple,
+        # xtreme-clean...) got a content-daily matrix job twice a day that
+        # could never produce anything (2026-10-01 audit).
+        return (ROOT / "sites" / client["slug"] / "src" / "content" / "blog").is_dir()
     if system == 2:
-        # System 2 needs queued items
+        # System 2 needs a scaffolded blog AND queued items
+        if not (ROOT / "sites" / client["slug"] / "src" / "content" / "blog").is_dir():
+            return False
         q_path = ROOT / "clients" / client["slug"] / "content-queue.json"
         if not q_path.exists():
             return False
@@ -517,11 +535,23 @@ def cmd_list_due(args) -> int:
                    if x.strip().isdigit()) or (0, 2)
     out = []
     for c in load_clients(None):
-        for sys_id in wanted:
-            due, _ = is_due(c, sys_id)
-            if due and can_run_directly(c, sys_id):
-                out.append(c["slug"])
-                break
+        # PER-CLIENT ISOLATION (2026-10-01 audit): 09-24 22:23 -> 09-28 18:12
+        # tdi-builders' content-queue.json carried git conflict markers, the
+        # json.loads in is_due raised, list-due crashed, the plan step printed
+        # an EMPTY matrix and every content-daily run went green with zero
+        # writer jobs: a 4-day fleet-wide content stall nobody was told about.
+        # A client whose state can't be read is now dispatched anyway, so its
+        # own writer job fails loudly (and alerts) while everyone else posts.
+        try:
+            for sys_id in wanted:
+                due, _ = is_due(c, sys_id)
+                if due and can_run_directly(c, sys_id):
+                    out.append(c["slug"])
+                    break
+        except Exception as e:  # noqa: BLE001
+            sys.stderr.write(f"  list-due: {c.get('slug')} state unreadable "
+                             f"({str(e)[:160]}) — dispatching so its job fails loudly\n")
+            out.append(c["slug"])
     print(_json.dumps(sorted(set(out))))
     return 0
 
@@ -549,13 +579,23 @@ def cmd_run_due(args) -> int:
         print("run-due order (staleness-first): "
               + ", ".join(c["slug"] for c in clients[:8]) + ", ...")
     any_action = False
+    # Failures are collected and turned into a non-zero exit at the end
+    # (2026-10-01 audit): run-due used to print "FAILED with rc=1" and return
+    # 0, so the 09-28 `temperature`-400 day ran 42 green writer jobs that
+    # published nothing, and no failure alert ever fired.
+    failures: list[str] = []
     for c in clients:
         slug = c["slug"]
         print(f"\n=== {slug} ===")
         wanted = tuple(int(x) for x in str(getattr(args, "systems", "") or "").split(",")
                        if x.strip().isdigit()) or (0, 1, 2, 3, 4)
         for sys_id in wanted:
-            due, reason = is_due(c, sys_id)
+            try:
+                due, reason = is_due(c, sys_id)
+            except Exception as e:  # noqa: BLE001 — corrupt state file
+                print(f"  System {sys_id}: FAILED reading state — {str(e)[:200]}")
+                failures.append(f"{slug}/S{sys_id}: unreadable state")
+                continue
             if not due:
                 print(f"  System {sys_id}: {reason}")
                 continue
@@ -573,11 +613,13 @@ def cmd_run_due(args) -> int:
                                      "--slug", slug])
                     if rc != 0:
                         print(f"    FAILED with rc={rc}")
+                        failures.append(f"{slug}/S{sys_id}: rc={rc}")
             elif sys_id == 1:
                 if args.headless:
                     rc = run_agent_headless(1, slug)
                     if rc != 0:
                         print(f"    FAILED with rc={rc}")
+                        failures.append(f"{slug}/S{sys_id}: rc={rc}")
                 else:
                     print(f"    Agent-driven. Paste into Claude Code:")
                     print(f"      {emit_agent_prompt(1, slug)}")
@@ -589,11 +631,13 @@ def cmd_run_due(args) -> int:
                                      "next-post", "--slug", slug, "--branch", "main"])
                     if rc != 0:
                         print(f"    FAILED with rc={rc}")
+                        failures.append(f"{slug}/S{sys_id}: rc={rc}")
             elif sys_id == 3:
                 if args.headless:
                     rc = run_agent_headless(3, slug)
                     if rc != 0:
                         print(f"    FAILED with rc={rc}")
+                        failures.append(f"{slug}/S{sys_id}: rc={rc}")
                 else:
                     print(f"    Agent-driven. Paste into Claude Code:")
                     print(f"      {emit_agent_prompt(3, slug)}")
@@ -615,12 +659,14 @@ def cmd_run_due(args) -> int:
                                      "--slug", slug])
                     if rc != 0:
                         print(f"    Layer 1 FAILED with rc={rc} — skipping Layer 2 prompt")
+                        failures.append(f"{slug}/S4-L1: rc={rc}")
                         continue
                 # Layer 2 (agent)
                 if args.headless:
                     rc2 = run_agent_headless(4, slug)
                     if rc2 != 0:
                         print(f"    Layer 2 FAILED with rc={rc2}")
+                        failures.append(f"{slug}/S4-L2: rc={rc2}")
                 else:
                     print(f"    Layer 2 is agent-driven. Paste into Claude Code:")
                     print(f"      {emit_agent_prompt(4, slug)}")
@@ -630,6 +676,9 @@ def cmd_run_due(args) -> int:
     # (CI) runs so local/interactive invocations don't send mail.
     if getattr(args, "headless", False):
         alert_starved_queues(clients)
+    if failures:
+        print(f"\n{len(failures)} system run(s) FAILED: " + "; ".join(failures))
+        return 1
     return 0
 
 

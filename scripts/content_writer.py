@@ -131,6 +131,7 @@ def anthropic_call(system: str, user: str, *, model: str = ANTHROPIC_MODEL,
                                      })
         chunks: list[str] = []
         usage = {"input_tokens": 0, "output_tokens": 0}
+        stop_reason = None
         try:
             with urllib.request.urlopen(req, timeout=300) as resp:
                 # Read SSE line-by-line
@@ -157,6 +158,7 @@ def anthropic_call(system: str, user: str, *, model: str = ANTHROPIC_MODEL,
                             if delta.get("type") == "text_delta":
                                 chunks.append(delta.get("text", ""))
                         elif etype == "message_delta":
+                            stop_reason = (evt.get("delta") or {}).get("stop_reason") or stop_reason
                             u = evt.get("usage") or {}
                             for k in ("input_tokens", "output_tokens", "cache_creation_input_tokens", "cache_read_input_tokens"):
                                 if k in u:
@@ -175,8 +177,20 @@ def anthropic_call(system: str, user: str, *, model: str = ANTHROPIC_MODEL,
                                 raise urllib.error.URLError(last)
                             raise RuntimeError(f"Anthropic stream error: {err_type}: {err_msg}")
                 content = "".join(chunks)
+                if stop_reason == "max_tokens" and attempt < max_retries:
+                    # 5-series models share max_tokens between thinking and
+                    # text: a reply cut off at the cap is truncated JSON
+                    # ("Unterminated string", 26 failed writer runs 09-29..
+                    # 10-01). Same fix as build_site cbfe143da: double, retry.
+                    body["max_tokens"] = min(body["max_tokens"] * 2, 32000)
+                    data = json.dumps(body).encode()
+                    last = "truncated reply (max_tokens)"
+                    print(f"      retry {attempt}/{max_retries}: reply hit max_tokens, "
+                          f"raising to {body['max_tokens']}")
+                    continue
                 if not content:
                     raise urllib.error.URLError("empty stream output")
+                usage["stop_reason"] = stop_reason
                 return content, usage
         except urllib.error.HTTPError as e:
             err = e.read().decode(errors="replace")
@@ -197,12 +211,19 @@ def anthropic_call(system: str, user: str, *, model: str = ANTHROPIC_MODEL,
 
 
 def parse_llm_json(text: str) -> dict:
-    """Robust JSON parse — strip code fences if present."""
+    """Robust JSON parse — strip code fences / stray prose around the object,
+    and accept raw control characters (literal newlines/tabs) inside strings,
+    which the model emits in long markdown bodies ("Invalid control character"
+    failed real posts 09-30)."""
     text = text.strip()
     if text.startswith("```"):
         text = re.sub(r"^```[a-z]*\n", "", text)
         text = re.sub(r"\n```\s*$", "", text)
-    return json.loads(text)
+    if not text.startswith("{"):
+        i, j = text.find("{"), text.rfind("}")
+        if i != -1 and j > i:
+            text = text[i:j + 1]
+    return json.loads(text, strict=False)
 
 
 def sanitize_content(obj):
@@ -632,9 +653,21 @@ def generate_and_upload_hero(slug: str, item: dict, image_prompt: str, *, use_pr
     webp_bytes = image_utils.png_to_webp_bytes(png_bytes, quality=90)
     print(f"      WebP size: {len(webp_bytes) / 1024:.1f} KB ({len(webp_bytes)/len(png_bytes)*100:.1f}% of PNG)")
 
+    def _serve_locally(why: str) -> str:
+        local = SITES_DIR / slug / "public" / "images" / r2_key
+        local.parent.mkdir(parents=True, exist_ok=True)
+        local.write_bytes(webp_bytes)
+        print(f"      {why} — serving locally: /images/{r2_key}")
+        return f"/images/{r2_key}"
+
     print(f"      Uploading to r2://{bucket}/{r2_key}...")
     if not image_utils.upload_bytes_to_r2(bucket, r2_key, webp_bytes, content_type="image/webp"):
-        raise RuntimeError(f"R2 upload failed for {r2_key}")
+        # 2026-10-01 audit: 27 of 37 site clients have NO rankai-{slug} R2
+        # bucket ("The specified bucket does not exist"), so every generated
+        # hero was thrown away and their posts shipped with an empty hero
+        # (the template's generic hero-bg.webp). The image is already paid
+        # for: serve it from the site like the unreachable-URL case below.
+        return _serve_locally("R2 upload failed")
 
     public_url = f"https://images.{domain}/{r2_key}"
     # LOCAL-FIRST GUARD (queue 18, Santino 2026-09-26): images.{domain}
@@ -652,12 +685,7 @@ def generate_and_upload_hero(slug: str, item: dict, image_prompt: str, *, use_pr
     except Exception:  # noqa: BLE001 — unreachable == not ok
         ok = False
     if not ok:
-        local = SITES_DIR / slug / "public" / "images" / r2_key
-        local.parent.mkdir(parents=True, exist_ok=True)
-        local.write_bytes(webp_bytes)
-        print(f"      Public URL unreachable — serving locally: "
-              f"/images/{r2_key} (R2 copy kept for cutover)")
-        return f"/images/{r2_key}"
+        return _serve_locally("Public URL unreachable (R2 copy kept for cutover)")
     print(f"      Public URL: {public_url}")
     return public_url
 
@@ -718,9 +746,16 @@ def commit_and_sync(slug: str, item: dict, post_path: Path, branch: str) -> None
         return out.stdout.strip()
 
     print(f"      Committing to monorepo...")
-    run(["git", "add",
-         f"sites/{slug}/src/content/blog/{post_path.name}",
-         f"clients/{slug}/content-queue.json"], REPO_ROOT)
+    paths = [f"sites/{slug}/src/content/blog/{post_path.name}",
+             f"clients/{slug}/content-queue.json"]
+    # Locally-served hero/section images (no R2 bucket, or images.{domain}
+    # not resolving yet) live in public/images/blog/YYYY/MM/{post}/. They MUST
+    # ride this commit: sync-deploy ships committed HEAD, so an untracked
+    # image deployed as a 404 hero (all-pro 10-01) until some later deploy.
+    img_dirs = sorted((SITES_DIR / slug / "public" / "images" / "blog")
+                      .glob(f"*/*/{post_path.stem}"))
+    paths += [str(d.relative_to(REPO_ROOT)) for d in img_dirs if d.is_dir()]
+    run(["git", "add", *paths], REPO_ROOT)
     try:
         run(["git", "commit", "-m",
              f"Content writer: publish {item['primary_keyword'] or post_path.stem} for {slug}"],
@@ -810,8 +845,20 @@ def cmd_next_post(args) -> int:
     try:
         content = parse_llm_json(raw)
     except json.JSONDecodeError as e:
-        print(f"      LLM returned non-JSON (first 300 chars):\n{raw[:300]}")
-        raise RuntimeError(f"Content writer LLM output failed JSON parse: {e}")
+        # One regeneration before giving up: a malformed reply (unescaped
+        # quote, cut-off string) is a sampling accident, not a bad item, and
+        # failing here costs the client its whole cadence slot.
+        print(f"      LLM returned invalid JSON ({e}); regenerating once "
+              f"(stop_reason={usage.get('stop_reason')})")
+        raw, usage = anthropic_call(
+            system, user + "\n\nReturn ONLY the JSON object, valid and complete: "
+            "escape every double quote inside string values.",
+            max_tokens=12000, model=args.model or ANTHROPIC_MODEL)
+        try:
+            content = parse_llm_json(raw)
+        except json.JSONDecodeError as e2:
+            print(f"      LLM returned non-JSON (first 300 chars):\n{raw[:300]}")
+            raise RuntimeError(f"Content writer LLM output failed JSON parse: {e2}")
     content = sanitize_content(content)  # enforce no-em-dash rule deterministically
     # Pin the slug now (title fallback for keywordless case-study items) so
     # the hero/section image keys and the markdown filename all match.

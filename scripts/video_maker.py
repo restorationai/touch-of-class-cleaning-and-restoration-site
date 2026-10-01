@@ -172,11 +172,24 @@ def load_post(slug: str, post_slug: str) -> dict:
     return {"path": path, "frontmatter": fm, "body": body.strip()}
 
 
+def _no_em_dashes(text: str) -> str:
+    """LAW (Santino 08-05): no em dashes in anything we publish. The narration
+    script is model-written and keeps them; before 10-01 they rode the
+    transcript straight into ~45 published blog posts (frontmatter +
+    "## Video Transcript" section) and the YouTube description."""
+    if not text:
+        return text
+    text = re.sub(r"\s*[\u2014\u2015]\s*", ", ", text)
+    text = re.sub(r"\s+,", ",", text)
+    return re.sub(r",\s*,", ", ", text)
+
+
 def update_post_youtube_id(
     post_path: Path, youtube_id: str, transcript: str | None = None
 ) -> None:
     """Patch youtube_id + video_transcript into frontmatter and append transcript section."""
     text = post_path.read_text()
+    transcript = _no_em_dashes(transcript) if transcript else transcript
 
     # Patch youtube_id
     if "youtube_id:" in text:
@@ -190,7 +203,7 @@ def update_post_youtube_id(
         if "video_transcript:" in text:
             text = re.sub(
                 r"video_transcript:.*",
-                f'video_transcript: "{safe_transcript}"',
+                lambda _m: f'video_transcript: "{safe_transcript}"',
                 text,
             )
         else:
@@ -1862,8 +1875,8 @@ def upload_to_youtube(
     print("  [youtube] uploading video...")
     body = {
         "snippet": {
-            "title": metadata["youtube_title"],
-            "description": metadata["youtube_description"],
+            "title": _no_em_dashes(metadata["youtube_title"]),
+            "description": _no_em_dashes(metadata["youtube_description"]),
             "tags": _sanitize_tags(metadata.get("tags", [])),
             "categoryId": YOUTUBE_CATEGORY_HOWTO,
         },

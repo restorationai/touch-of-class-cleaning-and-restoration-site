@@ -446,8 +446,11 @@ def check_lsa_leads() -> list[str]:
 def check_coverage() -> list[str]:
     issues = []
     inv = {s: c for c, s in slug_map().items()}
+    # ilike, not eq.Active (2026-10-01 audit): DISS Restoration's row says
+    # 'active' (lowercase) and was invisible to every SLA below while the
+    # scheduler (case-insensitive) kept posting for it.
     comps = {c["id"]: c for c in _sb(
-        "GET", "/rest/v1/companies?status=eq.Active&select=id,name,created_at") or []}
+        "GET", "/rest/v1/companies?status=ilike.active&select=id,name,created_at") or []}
     profs = {p["company_id"] for p in _sb(
         "GET", "/rest/v1/marketing_gbp_profiles?select=company_id") or []}
     bank_rows = _sb("GET", "/rest/v1/marketing_gbp_suggestions"
@@ -530,6 +533,8 @@ def check_coverage() -> list[str]:
     # material to post (queued or banked items) must show >= 2 posts in the
     # trailing 8 days. No fleet averages — growth can never dilute one
     # client's promise invisibly.
+    fleet_last = None      # newest published_at across every judged client
+    fleet_judged = 0
     for mp_dir in glob.glob(str(ROOT / "sites/*/src/content/blog")):
         slugc = Path(mp_dir).parent.parent.parent.name
         # Active clients only (2026-09-29: dead mcc-restoration kept filing
@@ -538,23 +543,45 @@ def check_coverage() -> list[str]:
             continue
         qf2 = ROOT / "clients" / slugc / "content-queue.json"
         if not qf2.exists():
+            issues.append(f"cadence SLA: {slugc} has a blog but NO content-queue.json "
+                          "- the writer can never post for it")
             continue
         try:
             q2 = json.loads(qf2.read_text())
-        except Exception:
+        except Exception as e:  # noqa: BLE001
+            # 2026-10-01 audit: a conflict-marked queue (tdi-builders 09-24)
+            # used to be skipped here in silence while it crashed the whole
+            # content-daily plan. Unreadable state is itself the alert.
+            issues.append(f"cadence SLA: {slugc} content-queue.json is unreadable "
+                          f"({str(e)[:80]}); fix the JSON (conflict markers?)")
             continue
-        material = any(i.get("status") in ("queued", "banked")
-                       for i in (q2.get("items") or []))
-        if not material:
-            continue
+        items2 = q2.get("items") or []
+        material = any(i.get("status") in ("queued", "banked") for i in items2)
         recent = 0
         for mp in glob.glob(mp_dir + "/*.md"):
             m = re.search(r'published_at:\s*"?(\d{4}-\d{2}-\d{2})', Path(mp).read_text())
-            if m and (NOW.date() - datetime.fromisoformat(m.group(1)).date()).days <= 8:
+            if not m:
+                continue
+            if fleet_last is None or m.group(1) > fleet_last:
+                fleet_last = m.group(1)
+            if (NOW.date() - datetime.fromisoformat(m.group(1)).date()).days <= 8:
                 recent += 1
+        fleet_judged += 1
         if recent < 2:
             issues.append(f"cadence SLA: {slugc} published {recent}/2 posts "
-                          "in the last 8 days (promise: 2 per week)")
+                          "in the last 8 days (promise: 2 per week)"
+                          + ("" if material else "; queue is EMPTY, System 1 refill is not landing"))
+    # FLEET STALL (2026-10-01 audit): the per-client 8-day window needs ~6
+    # days to notice an engine that stopped for EVERYONE (09-24..09-28: the
+    # content-daily plan crashed and every run still went green). The engine
+    # posts each client every 2 days, so a fleet with no post in 3 days is
+    # down, whatever the workflow conclusions say.
+    if fleet_judged >= 3 and fleet_last:
+        gap = (NOW.date() - datetime.fromisoformat(fleet_last).date()).days
+        if gap >= 3:
+            issues.append(f"content engine stalled fleet-wide: no blog post published for "
+                          f"ANY client in {gap} days (last {fleet_last}); check the "
+                          "content-daily plan/write jobs")
 
     # CONTENT SLA (C1)
     for qf in glob.glob(str(ROOT / "clients/*/content-queue.json")):
@@ -564,7 +591,7 @@ def check_coverage() -> list[str]:
         try:
             q = json.loads(Path(qf).read_text())
         except Exception:
-            continue
+            continue  # already reported by the cadence SLA above
         queued = [i for i in (q.get("items") or []) if i.get("status") == "queued"]
         if not queued:
             continue
