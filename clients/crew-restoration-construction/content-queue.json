@@ -1144,7 +1144,7 @@
     },
     {
       "id": "2026-09-18-what-is-considered-a-biohazard-in-a-home",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-18T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -1177,8 +1177,7 @@
         "https://www.osha.gov/bloodborne-pathogens",
         "https://www.cdc.gov/rodents/cleaning/index.html"
       ],
-      "notes": "Definition-stage GEO page. The ChatGPT answer listed the qualifying situations (blood and bodily fluids, sewage or infectious contamination, animal waste) so build the post around a scannable qualifies / does not qualify list. Anchored to Brookings to spread city coverage off the primary; SDSU rental turnovers are a natural local hook.",
-      "banked_at": "2026-09-19T10:23:53.718924+00:00"
+      "notes": "Definition-stage GEO page. The ChatGPT answer listed the qualifying situations (blood and bodily fluids, sewage or infectious contamination, animal waste) so build the post around a scannable qualifies / does not qualify list. Anchored to Brookings to spread city coverage off the primary; SDSU rental turnovers are a natural local hook."
     },
     {
       "id": "2026-09-18-servpro-biohazard-cleanup-cost-vs-local-sioux-falls",

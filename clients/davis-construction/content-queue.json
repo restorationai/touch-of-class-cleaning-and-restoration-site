@@ -1164,7 +1164,7 @@
     },
     {
       "id": "2026-08-26-can-you-live-in-your-house-during-a-home-addition",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-26T22:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -1196,8 +1196,7 @@
       "external_authority_candidates": [
         "https://www.nahb.org/"
       ],
-      "notes": "Sourced from the ChatGPT decomposition, not Google volume: this is AI-retrieval fuel and no competitor in the market has a page on it. Answer the question directly in the first 60 words so AI engines can lift the passage. Cover dust containment, utility shutoffs, which weeks are worst (roof tie-in, HVAC cut-over), and the summer heat and humidity angle for North Alabama.",
-      "banked_at": "2026-09-19T10:23:53.719970+00:00"
+      "notes": "Sourced from the ChatGPT decomposition, not Google volume: this is AI-retrieval fuel and no competitor in the market has a page on it. Answer the question directly in the first 60 words so AI engines can lift the passage. Cover dust containment, utility shutoffs, which weeks are worst (roof tie-in, HVAC cut-over), and the summer heat and humidity angle for North Alabama."
     },
     {
       "id": "2026-09-15-home-remodeling-madison-al",

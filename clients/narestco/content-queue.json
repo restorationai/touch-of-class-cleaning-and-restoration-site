@@ -1345,7 +1345,7 @@
     },
     {
       "id": "2026-09-17-do-you-need-a-license-for-biohazard-cleanup-washington",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-17T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -1381,8 +1381,7 @@
         "https://lni.wa.gov/licensing-permits/contractors/verify-a-contractor",
         "https://www.iicrc.org/page/IICRCS540"
       ],
-      "notes": "Zero measured Google volume but the ChatGPT scraper surfaced the Washington authorized-contractor rule (RCW 64.44.050) unprompted and cited leg.wa.gov, which means AI answers about WA biohazard cleanup already turn on this statute. This is the single strongest local-authority passage available in the seed family and nothing on the site covers it. Cover: what RCW 64.44 actually regulates (contaminated property decontamination), where OSHA bloodborne-pathogen rules apply instead, why no standalone 'biohazard license' exists in WA, and how a homeowner verifies a contractor through L&I. Include NARESTCO's L&I registration NATIORC792M6 and the IICRC certification as proof.",
-      "banked_at": "2026-10-01T17:05:05.265599+00:00"
+      "notes": "Zero measured Google volume but the ChatGPT scraper surfaced the Washington authorized-contractor rule (RCW 64.44.050) unprompted and cited leg.wa.gov, which means AI answers about WA biohazard cleanup already turn on this statute. This is the single strongest local-authority passage available in the seed family and nothing on the site covers it. Cover: what RCW 64.44 actually regulates (contaminated property decontamination), where OSHA bloodborne-pathogen rules apply instead, why no standalone 'biohazard license' exists in WA, and how a homeowner verifies a contractor through L&I. Include NARESTCO's L&I registration NATIORC792M6 and the IICRC certification as proof."
     },
     {
       "id": "2026-09-17-is-urine-a-biohazard",

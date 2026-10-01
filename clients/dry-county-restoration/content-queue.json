@@ -401,7 +401,7 @@
     },
     {
       "id": "2026-09-17-what-to-do-after-a-house-fire",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-17T20:30:00Z",
       "written_at": null,
       "post_url": null,
@@ -437,8 +437,7 @@
         "https://www.redcross.org/get-help/disaster-relief-and-recovery-services/recovering-from-a-home-fire.html",
         "https://www.iicrc.org/page/IICRCS700"
       ],
-      "notes": "KD 0 with 260/mo: easiest win in this seed family. Lead with the safety/re-entry sequence, then board-up and tarping to stop secondary damage, then documenting for the claim. Distinct from the existing /blog/what-to-do-first-24-hours-water-damage/ post: that one is water, this one is fire. Cross-link the two. Mention 24/7 dispatch and the (951) 667-9910 line early.",
-      "banked_at": "2026-10-01T17:05:05.261446+00:00"
+      "notes": "KD 0 with 260/mo: easiest win in this seed family. Lead with the safety/re-entry sequence, then board-up and tarping to stop secondary damage, then documenting for the claim. Distinct from the existing /blog/what-to-do-first-24-hours-water-damage/ post: that one is water, this one is fire. Cross-link the two. Mention 24/7 dispatch and the (951) 667-9910 line early."
     },
     {
       "id": "2026-09-17-does-homeowners-insurance-cover-fire-damage",
