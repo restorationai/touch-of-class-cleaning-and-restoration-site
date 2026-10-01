@@ -1,7 +1,11 @@
 {
  "brand": {
   "display_name": "BIONIC Emergency Services LLC",
-  "lat": 29.7589382,
-  "lng": -95.3676974
+  "lat": 29.863982,
+  "lng": -95.53306,
+  "place_id": "ChIJDy5x1I7PQIYRe-CvUTGxj3g",
+  "gbp_title": "BIONIC Water Damage Restoration of Houston",
+  "address": "14300 Northwest Freeway",
+  "city": "Houston"
  }
 }

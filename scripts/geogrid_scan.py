@@ -31,6 +31,7 @@ import base64
 import concurrent.futures as cf
 import datetime as dt
 import json
+import os
 import math
 import re
 import sys
@@ -114,12 +115,41 @@ def load_center(slug: str) -> dict:
             b["lat"], b["lng"] = ll[0], ll[1]
             data["brand"] = b
             p.write_text(json.dumps(data, indent=1) + "\n")
+    # IDENTITY SELF-HEAL (BIONIC 2026-10-01): with no place_id the matcher
+    # fell back to the LEGAL name ("BIONIC Emergency Services LLC") while the
+    # listing is titled "BIONIC Water Damage Restoration of Houston", so all
+    # 7 first scans read 0/169 "not ranking". Pull place_id + the live GBP
+    # title from marketing_gbp_profiles and persist the place_id.
+    if not b.get("place_id"):
+        try:
+            import requests as _rq
+            _u = os.environ["SUPABASE_URL"].rstrip("/")
+            _k = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+            _cid = (json.loads((ROOT / "clients" / f"{slug}.json").read_text()).get("company_id")
+                    if (ROOT / "clients" / f"{slug}.json").exists() else None)
+            if not _cid:
+                _cid = json.loads((ROOT / "clients" / "company_map.json").read_text()).get(slug)
+            if _cid:
+                _rows = _rq.get(f"{_u}/rest/v1/marketing_gbp_profiles?company_id=eq.{_cid}"
+                                "&select=place_id,title", timeout=15,
+                                headers={"apikey": _k, "Authorization": f"Bearer {_k}"}).json() or []
+                if _rows and _rows[0].get("place_id"):
+                    b["place_id"] = _rows[0]["place_id"]
+                    b.setdefault("gbp_title", _rows[0].get("title"))
+                    data["brand"] = b
+                    p.write_text(json.dumps(data, indent=1) + "\n")
+        except Exception:  # noqa: BLE001 — identity heal never blocks a scan
+            pass
     for k in ("lat", "lng", "display_name"):
         if not b.get(k):
             raise ValueError(
                 f"brand.{k} missing in {slug}/plan-input.json — can't center the grid.")
+    _legal = re.compile(r"[,\s]+(inc\.?|llc|l\.l\.c\.?|corp\.?|co\.?|ltd\.?|pllc)\s*$", re.I)
+    names = [n for n in dict.fromkeys([
+        b.get("gbp_title"), b["display_name"], _legal.sub("", b["display_name"]).strip()]) if n]
     return {
         "name": b["display_name"],
+        "names": names,
         "lat": float(b["lat"]),
         "lng": float(b["lng"]),
         "place_id": b.get("place_id"),
@@ -152,7 +182,7 @@ def _match_rank(items: list, biz: dict, max_rank: int):
         match = (
             (biz["cid"] and cid == biz["cid"]) or
             (biz["place_id"] and it.get("place_id") == biz["place_id"]) or
-            (biz["name"].lower() in title)
+            any(n.lower() in title for n in (biz.get("names") or [biz["name"]]))
         )
         if match:
             rank = it.get("rank_absolute") or it.get("rank_group")
