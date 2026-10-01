@@ -140,7 +140,7 @@
     },
     {
       "id": "2026-09-09-storm-wind-damage-restoration",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-09T14:41:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -171,7 +171,8 @@
           "context": "rs to dry framing and insulation to the IICRC [S500 standard](https://www.iicrc.org)",
           "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
         }
-      ]
+      ],
+      "published_verified_at": "2026-10-01T21:41:15Z"
     },
     {
       "id": "2026-09-09-best-water-damage-restoration-in-midland-tx",

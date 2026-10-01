@@ -118,7 +118,7 @@
     },
     {
       "id": "2026-09-06-leak-detection",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-06T10:23:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -129,7 +129,8 @@
       "city_anchor": "anaheim-ca",
       "source": "app target-term (onboarding-backfill)",
       "written_at": "2026-10-01T21:28:28Z",
-      "post_url": "https://drycountyrestoration.com/blog/leak-detection/"
+      "post_url": "https://drycountyrestoration.com/blog/leak-detection/",
+      "published_verified_at": "2026-10-01T21:30:13Z"
     },
     {
       "id": "2026-08-26-best-water-damage-restoration-in-corona-ca",

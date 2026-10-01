@@ -1,0 +1,245 @@
+{
+ "items": [
+  {
+   "id": "2026-10-01-best-water-damage-restoration-in-houston-tx",
+   "status": "queued",
+   "queued_at": "2026-10-01T20:57:56Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-water-damage-restoration-in-houston-tx",
+   "primary_keyword": "best water damage restoration company in Houston, TX",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "houston-tx",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Houston",
+    "state": "TX",
+    "competitors": [
+     {
+      "name": "Water Damage Restoration Houston",
+      "google_rating": 5,
+      "review_count": 13
+     },
+     {
+      "name": "Dry Force - Houston Water Damage Restoration",
+      "google_rating": 4.8,
+      "review_count": 337
+     },
+     {
+      "name": "United Water Restoration Group of Houston",
+      "google_rating": 4.8,
+      "review_count": 64
+     },
+     {
+      "name": "DryMore",
+      "google_rating": 5,
+      "review_count": 138
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best water damage restoration companies Houston",
+    "top rated water damage restoration Houston TX",
+    "who is the best water damage restoration company in Houston",
+    "water damage cleanup Houston",
+    "water removal Houston",
+    "water cleanup Houston"
+   ],
+   "source": "best-of-seeder"
+  },
+  {
+   "id": "2026-10-01-flood-damage-restoration-houston",
+   "status": "queued",
+   "queued_at": "2026-10-01T21:02:15Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "flood damage restoration",
+   "intent": "transactional",
+   "volume": 90500,
+   "kd": 9,
+   "fan_out_cluster": [
+    "flood damage restoration houston",
+    "flood damage restoration companies",
+    "does homeowners insurance cover flood damage in texas",
+    "what is the difference between water mitigation and water damage restoration",
+    "how do i know if my house is fully dry after water damage",
+    "category 3 flood water cleanup"
+   ],
+   "suggested_slug": "flood-damage-restoration-houston",
+   "suggested_title": "Flood damage restoration in Houston: what happens after the water rises",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/storm-damage-restoration/",
+    "/services/contents-restoration-storage/",
+    "/service-areas/houston-tx/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "storm-damage-restoration",
+    "contents-restoration-storage"
+   ],
+   "city_anchor": "houston-tx",
+   "external_authority_candidates": [
+    "https://tdi.texas.gov/tips/when-are-water-damage-and-mold-covered-by-insurance.html",
+    "https://www.floodsmart.gov/"
+   ],
+   "notes": "Highest-volume uncovered term in the seed (90,500/mo, KD 9). BIONIC has no flood-damage service page, so this post is the flood landing for now. Separate flood (NFIP policy) from sudden water damage (homeowners policy) per TDI. Use Houston bayou context from plan-input (Meyerland, the Heights, Buffalo Bayou) without claiming response times.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-10-01-water-damage-restoration-cost-houston",
+   "status": "queued",
+   "queued_at": "2026-10-01T21:02:15Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "water damage restoration cost",
+   "intent": "commercial",
+   "volume": 720,
+   "kd": 0,
+   "fan_out_cluster": [
+    "how much does water damage restoration cost",
+    "water damage restoration cost per square foot",
+    "water damage restoration prices",
+    "what is not included in a water damage estimate",
+    "will i owe more than my insurance deductible",
+    "water damage restoration cost calculator"
+   ],
+   "suggested_slug": "water-damage-restoration-cost-houston",
+   "suggested_title": "Water damage restoration cost in Houston: what drives the price",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/water-cleanup/",
+    "/service-areas/houston-tx/water-damage-restoration/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "water-cleanup"
+   ],
+   "city_anchor": "houston-tx",
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "Commercial-intent cost guide, KD 0. Explain cost drivers (water category, square footage, drying days, equipment, materials removed) rather than quoting BIONIC prices, which are not in the brand block. ChatGPT answer stressed asking about scope changes after demolition and out-of-pocket beyond the deductible: cover both.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-10-01-emergency-water-damage-restoration-houston",
+   "status": "queued",
+   "queued_at": "2026-10-01T21:02:15Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "emergency water damage restoration",
+   "intent": "transactional",
+   "volume": 2900,
+   "kd": 19,
+   "fan_out_cluster": [
+    "emergency water damage restoration houston",
+    "24 hour water damage restoration",
+    "emergency water damage restoration near me",
+    "what needs to be done immediately to prevent additional damage",
+    "how long does it take for mold to grow after water damage",
+    "water damage mitigation services"
+   ],
+   "suggested_slug": "emergency-water-damage-restoration-houston",
+   "suggested_title": "Emergency water damage restoration in Houston: the first hours, step by step",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-cleanup/",
+    "/services/water-damage-restoration/",
+    "/services/sewage-cleanup/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-cleanup",
+    "water-damage-restoration"
+   ],
+   "city_anchor": "houston-tx",
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://tdi.texas.gov/tips/when-are-water-damage-and-mold-covered-by-insurance.html"
+   ],
+   "notes": "2,900/mo, KD 19, CPC 59. Do NOT claim 24/7 or a 45-minute response: the site brief says those are unconfirmed. Focus on what the homeowner and crew do in the first hours, and the TDI note that mold can start within about a day.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-10-01-ceiling-water-damage-repair-sugar-land",
+   "status": "queued",
+   "queued_at": "2026-10-01T21:02:15Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "ceiling water damage repair",
+   "intent": "transactional",
+   "volume": 1900,
+   "kd": 0,
+   "fan_out_cluster": [
+    "ceiling water damage",
+    "ceiling water leak",
+    "drywall water damage repair",
+    "is my ceiling going to collapse from water damage",
+    "does insurance cover ceiling water damage",
+    "water damage inspection"
+   ],
+   "suggested_slug": "ceiling-water-damage-repair-sugar-land",
+   "suggested_title": "Ceiling water damage repair in Sugar Land: dry first, then rebuild",
+   "target_word_count": 1300,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/storm-damage-restoration/",
+    "/service-areas/sugar-land-tx/water-damage-restoration/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "storm-damage-restoration"
+   ],
+   "city_anchor": "sugar-land-tx",
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "1,900/mo plus 2,900/mo for ceiling water damage, both KD 0 and no planned page targets ceilings. Anchor to Sugar Land (aging plumbing in First Colony homes, per plan-input). Lead with structural drying and moisture readings before drywall replacement.",
+   "source": "keyword-researcher"
+  },
+  {
+   "id": "2026-10-01-water-mitigation-vs-water-damage-restoration",
+   "status": "queued",
+   "queued_at": "2026-10-01T21:02:15Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "what is the difference between water mitigation and water damage restoration",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "water damage mitigation services",
+    "what is water damage restoration",
+    "water damage restoration process",
+    "can i choose my own water damage restoration company",
+    "should i sign an assignment of benefits for water damage restoration",
+    "how do i know if my house is fully dry after water damage"
+   ],
+   "suggested_slug": "water-mitigation-vs-water-damage-restoration",
+   "suggested_title": "What is the difference between water mitigation and water damage restoration?",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/water-cleanup/",
+    "/blog/how-long-does-water-damage-restoration-take/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "water-cleanup"
+   ],
+   "city_anchor": "houston-tx",
+   "external_authority_candidates": [
+    "https://tdi.texas.gov/tips/when-are-water-damage-and-mold-covered-by-insurance.html",
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "Question-format GEO target that the ChatGPT scraper led with for Houston ('separate mitigation from reconstruction'). No Google volume measured; queued on AI-retrieval intent. Answer in the first 2 sentences so the passage can be lifted verbatim. Texas angle: TDI regulates insurers, not contractors (complaints go to the Texas Attorney General).",
+   "source": "keyword-researcher"
+  }
+ ]
+}

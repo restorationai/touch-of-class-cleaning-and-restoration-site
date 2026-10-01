@@ -2,9 +2,9 @@
   "slug": "restoration-resource",
   "assets": {
     "crew:job_1790805993294": {
-      "source": "crew",
-      "storage": "job-photos/job_1790805993294.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/job_1790805993294.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/job_1790805993294.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/job_1790805993294.jpg",
       "width": 1920,
       "height": 1440,
       "bytes": 750114,
@@ -27,9 +27,9 @@
       "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790805994306": {
-      "source": "crew",
-      "storage": "job-photos/job_1790805994306.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/job_1790805994306.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/job_1790805994306.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/job_1790805994306.jpg",
       "width": 828,
       "height": 1104,
       "bytes": 141648,
@@ -50,9 +50,9 @@
       "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790805994716": {
-      "source": "crew",
-      "storage": "job-photos/job_1790805994716.jpg",
-      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/job_1790805994716.jpg",
+      "source": "gbp",
+      "storage": "job-photos/posted/job_1790805994716.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/job_1790805994716.jpg",
       "width": 1104,
       "height": 1104,
       "bytes": 133496,
@@ -6535,7 +6535,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold growth covering closet ceiling and walls",
+      "quality": 55,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Clear mold damage documentation, useful for services but not a hero shot.",
+      "triaged_at": "2026-10-01T20:48:33Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806536657": {
       "source": "crew",
@@ -6548,7 +6563,20 @@
       "exif": {
         "taken_at": "2017:06:24 11:05:32",
         "camera": "motorola XT1650"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Fire-damaged apartment building exterior with burnt roof",
+      "quality": 65,
+      "slots": {
+        "hero": 40,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Fire damage visible on building exterior, decent wide shot.",
+      "triaged_at": "2026-10-01T20:48:33Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806541983": {
       "source": "crew",
@@ -6561,7 +6589,22 @@
       "exif": {
         "taken_at": "2017:06:24 14:03:35",
         "camera": "motorola XT1650"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Firefighter spraying water hose near red truck",
+      "quality": 60,
+      "slots": {
+        "hero": 30,
+        "team": 10,
+        "services": 20
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Fire department training scene, not restoration crew or work.",
+      "triaged_at": "2026-10-01T20:48:33Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806545386": {
       "source": "crew",
@@ -6574,7 +6617,22 @@
       "exif": {
         "taken_at": "2013:12:19 01:50:15",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Fire-charred bathroom interior with burnt fixtures",
+      "quality": 55,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Severe fire damage in bathroom, good documentation of job scope.",
+      "triaged_at": "2026-10-01T20:48:33Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806547214": {
       "source": "crew",
@@ -6587,7 +6645,22 @@
       "exif": {
         "taken_at": "2013:12:19 02:27:07",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Burnt ceiling tiles and charred ceiling fan",
+      "quality": 45,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Dark fire damage photo, usable for services page only.",
+      "triaged_at": "2026-10-01T20:48:33Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806548847": {
       "source": "crew",
@@ -6600,7 +6673,23 @@
       "exif": {
         "taken_at": "2013:12:19 01:57:26",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Dark soot-covered hallway after fire damage",
+      "quality": 35,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter",
+        "blurry"
+      ],
+      "reason": "Very dark, low visibility fire damage hallway shot.",
+      "triaged_at": "2026-10-01T20:48:33Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806550061": {
       "source": "crew",
@@ -6613,7 +6702,23 @@
       "exif": {
         "taken_at": "2013:12:19 01:54:20",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Fire-damaged closet with charred coat hanging inside",
+      "quality": 30,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [],
+      "flags": [
+        "low_res",
+        "indoor_clutter"
+      ],
+      "reason": "Dark, poorly lit fire damage interior shot, low usability",
+      "triaged_at": "2026-10-01T20:48:50Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806551230": {
       "source": "crew",
@@ -6626,7 +6731,23 @@
       "exif": {
         "taken_at": "2013:12:19 01:51:54",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Close-up of charred soot-covered door and wall",
+      "quality": 25,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "low_res",
+        "blurry"
+      ],
+      "reason": "Very dark, low detail, generic charred surface close-up",
+      "triaged_at": "2026-10-01T20:48:50Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806553150": {
       "source": "crew",
@@ -6639,7 +6760,20 @@
       "exif": {
         "taken_at": "2016:05:05 12:43:14",
         "camera": "samsung SAMSUNG-SM-G870A"
-      }
+      },
+      "category": "building",
+      "subject": "Exterior loading dock wall with fire smoke damage",
+      "quality": 40,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Commercial building exterior showing fire scorch marks, upside-down orientation",
+      "triaged_at": "2026-10-01T20:48:50Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806556025": {
       "source": "crew",
@@ -6652,7 +6786,22 @@
       "exif": {
         "taken_at": "2008:01:25 20:15:32",
         "camera": "NIKON CORPORATION NIKON D70s"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Fire-gutted kitchen with charred cabinets and debris",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Clear fire damage documentation photo, decent exposure and detail",
+      "triaged_at": "2026-10-01T20:48:50Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806556792": {
       "source": "crew",
@@ -6662,7 +6811,23 @@
       "height": 1525,
       "bytes": 5439957,
       "sha1": "0bbe88cf3e003797",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Same charred kitchen with timestamp overlay July 2017",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "indoor_clutter"
+      ],
+      "reason": "Duplicate kitchen fire damage shot with date stamp added",
+      "triaged_at": "2026-10-01T20:48:50Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806559565": {
       "source": "crew",
@@ -6675,7 +6840,20 @@
       "exif": {
         "taken_at": "2016:05:06 12:49:09",
         "camera": "samsung SAMSUNG-SM-G870A"
-      }
+      },
+      "category": "building",
+      "subject": "Warehouse exterior with boarded loading dock doors",
+      "quality": 55,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clean daylight exterior shot of damaged commercial building dock",
+      "triaged_at": "2026-10-01T20:48:50Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806563479": {
       "source": "crew",
@@ -6688,7 +6866,22 @@
       "exif": {
         "taken_at": "2013:12:19 01:59:24",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Fire-damaged interior doorway with charred ceiling beams",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Severe fire damage interior, no crew present, shows scope of damage.",
+      "triaged_at": "2026-10-01T20:49:06Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806565660": {
       "source": "crew",
@@ -6701,7 +6894,22 @@
       "exif": {
         "taken_at": "2013:12:19 02:31:57",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Collapsed charred ceiling and burned room debris",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Dark fire-damaged room with debris, demonstrates damage severity.",
+      "triaged_at": "2026-10-01T20:49:06Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806567455": {
       "source": "crew",
@@ -6714,7 +6922,20 @@
       "exif": {
         "taken_at": "2013:12:19 02:13:20",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Burned exterior door with melted glass and gas can",
+      "quality": 55,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Fire-damaged doorway, clear exterior shot of damage extent.",
+      "triaged_at": "2026-10-01T20:49:06Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806569513": {
       "source": "crew",
@@ -6727,7 +6948,20 @@
       "exif": {
         "taken_at": "2013:12:19 02:12:27",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "building",
+      "subject": "House exterior with boarded fire-damaged upper windows",
+      "quality": 60,
+      "slots": {
+        "hero": 45,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Exterior view of fire damage and boarded windows on house.",
+      "triaged_at": "2026-10-01T20:49:06Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806571041": {
       "source": "crew",
@@ -6740,7 +6974,22 @@
       "exif": {
         "taken_at": "2013:12:19 02:33:16",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Fire-charred living room with soot-covered ceiling fan",
+      "quality": 50,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Interior fire damage scene, no people, shows soot and char.",
+      "triaged_at": "2026-10-01T20:49:06Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806573170": {
       "source": "crew",
@@ -6753,7 +7002,22 @@
       "exif": {
         "taken_at": "2013:12:19 02:32:27",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Burned kitchen with charred cabinets and debris",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Severely fire-damaged kitchen interior, documents destruction scope.",
+      "triaged_at": "2026-10-01T20:49:06Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806574854": {
       "source": "crew",
@@ -6766,7 +7030,22 @@
       "exif": {
         "taken_at": "2013:12:19 01:48:04",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Fire-damaged room interior with charred walls and ceiling debris",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Dark fire damage scene, shows job scope but poor lighting.",
+      "triaged_at": "2026-10-01T20:49:22Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806579990": {
       "source": "crew",
@@ -6779,7 +7058,23 @@
       "exif": {
         "taken_at": "2013:12:19 01:48:53",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Fire-damaged hallway with burned door and scattered debris",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter",
+        "low_res"
+      ],
+      "reason": "Very dark, cluttered fire damage shot, limited marketing use.",
+      "triaged_at": "2026-10-01T20:49:22Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806583602": {
       "source": "crew",
@@ -6792,7 +7087,20 @@
       "exif": {
         "taken_at": "2013:12:19 02:11:59",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "building",
+      "subject": "House exterior siding with fire-damaged window frames",
+      "quality": 65,
+      "slots": {
+        "hero": 45,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clear exterior shot showing fire damage to siding and windows.",
+      "triaged_at": "2026-10-01T20:49:22Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806584833": {
       "source": "crew",
@@ -6805,7 +7113,22 @@
       "exif": {
         "taken_at": "2013:12:19 01:47:16",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Burned kitchen interior with charred cabinets and ceiling collapse",
+      "quality": 40,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Severe fire damage scene, dark and cluttered but shows scope.",
+      "triaged_at": "2026-10-01T20:49:22Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806586068": {
       "source": "crew",
@@ -6818,7 +7141,22 @@
       "exif": {
         "taken_at": "2013:12:19 01:46:53",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Destroyed kitchen with fire debris and collapsed ceiling material",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Dark, chaotic fire damage interior, minimal composition quality.",
+      "triaged_at": "2026-10-01T20:49:22Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806587488": {
       "source": "crew",
@@ -6835,7 +7173,23 @@
           "lat": 46.300337,
           "lng": -119.27821
         }
-      }
+      },
+      "category": "equipment",
+      "subject": "Air mover drying equipment placed on tile floor indoors",
+      "quality": 40,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter",
+        "low_res"
+      ],
+      "reason": "Sideways equipment photo, cluttered room, shows drying process.",
+      "triaged_at": "2026-10-01T20:49:22Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806590216": {
       "source": "crew",
@@ -6848,7 +7202,22 @@
       "exif": {
         "taken_at": "2013:12:19 01:55:47",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Fire damaged room with soot stained walls and debris",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Dark soot-damaged interior shows fire damage scope, no crew present.",
+      "triaged_at": "2026-10-01T20:49:39Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806591521": {
       "source": "crew",
@@ -6861,7 +7230,23 @@
       "exif": {
         "taken_at": "2013:12:19 01:54:57",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Dark cluttered room with water-stained floor and belongings",
+      "quality": 30,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter",
+        "low_res"
+      ],
+      "reason": "Dim interior with scattered items, poor lighting limits usability.",
+      "triaged_at": "2026-10-01T20:49:39Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806593065": {
       "source": "crew",
@@ -6874,7 +7259,22 @@
       "exif": {
         "taken_at": "2013:12:19 02:16:24",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Room with mold streaked blue walls and stored items",
+      "quality": 40,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Clear mold/water staining on walls documents damage condition.",
+      "triaged_at": "2026-10-01T20:49:39Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806594698": {
       "source": "crew",
@@ -6887,7 +7287,22 @@
       "exif": {
         "taken_at": "2013:12:19 02:16:56",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Pink room with soot damaged walls and piled belongings",
+      "quality": 38,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Fire/smoke damaged room with cluttered personal items visible.",
+      "triaged_at": "2026-10-01T20:49:39Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806596079": {
       "source": "crew",
@@ -6900,7 +7315,23 @@
       "exif": {
         "taken_at": "2013:12:19 02:14:44",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Soot covered hallway and staircase with dog present",
+      "quality": 35,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter",
+        "people_faces"
+      ],
+      "reason": "Fire-damaged hallway shows extensive soot, dog is incidental subject.",
+      "triaged_at": "2026-10-01T20:49:39Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806598052": {
       "source": "crew",
@@ -6913,7 +7344,22 @@
       "exif": {
         "taken_at": "2013:12:19 02:16:44",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Water stained wall with curtains and stored furniture",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Water damage streaking visible on wall behind stored items.",
+      "triaged_at": "2026-10-01T20:49:39Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806599795": {
       "source": "crew",
@@ -6926,7 +7372,22 @@
       "exif": {
         "taken_at": "2013:12:19 02:15:49",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Fire-damaged hallway and room with soot-covered walls",
+      "quality": 45,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Fire damage scene showing soot staining, no crew or equipment present.",
+      "triaged_at": "2026-10-01T20:49:54Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806601713": {
       "source": "crew",
@@ -6939,7 +7400,22 @@
       "exif": {
         "taken_at": "2013:12:19 02:31:21",
         "camera": "NIKON CORPORATION NIKON D700"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Close-up of cracked charred wall and ceiling damage",
+      "quality": 35,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [],
+      "flags": [
+        "blurry"
+      ],
+      "reason": "Dark, low-detail shot of fire damage cracks, poor lighting.",
+      "triaged_at": "2026-10-01T20:49:54Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806655260": {
       "source": "crew",
@@ -6949,7 +7425,23 @@
       "height": 292,
       "bytes": 126411,
       "sha1": "3694ac57a28eb241",
-      "exif": {}
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in branded jacket posing with equipment",
+      "quality": 70,
+      "slots": {
+        "hero": 30,
+        "team": 75,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces",
+        "logo_card"
+      ],
+      "reason": "Portrait of uniformed technician, company logo visible on jacket.",
+      "triaged_at": "2026-10-01T20:49:54Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806655778": {
       "source": "crew",
@@ -6962,7 +7454,22 @@
       "exif": {
         "taken_at": "2014:02:11 15:56:23",
         "camera": "NIKON CORPORATION NIKON D5100"
-      }
+      },
+      "category": "equipment",
+      "subject": "Rows of blue air movers and dehumidifiers on shelves",
+      "quality": 65,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Warehouse storage of drying equipment, clean organized display.",
+      "triaged_at": "2026-10-01T20:49:54Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806658442": {
       "source": "crew",
@@ -6975,7 +7482,22 @@
       "exif": {
         "taken_at": "2014:02:11 15:56:25",
         "camera": "NIKON CORPORATION NIKON D5100"
-      }
+      },
+      "category": "equipment",
+      "subject": "Stacked dehumidifiers and air movers in storage area",
+      "quality": 60,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Cluttered storage of restoration equipment, moderate composition.",
+      "triaged_at": "2026-10-01T20:49:54Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806661509": {
       "source": "crew",
@@ -6988,7 +7510,22 @@
       "exif": {
         "taken_at": "2014:02:11 15:56:28",
         "camera": "NIKON CORPORATION NIKON D5100"
-      }
+      },
+      "category": "equipment",
+      "subject": "Close grouping of air movers and dehumidifiers",
+      "quality": 55,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Tight cluster shot of drying equipment, less organized framing.",
+      "triaged_at": "2026-10-01T20:49:54Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806664028": {
       "source": "crew",
@@ -7001,7 +7538,22 @@
       "exif": {
         "taken_at": "2014:02:14 14:31:39",
         "camera": "NIKON CORPORATION NIKON D5100"
-      }
+      },
+      "category": "equipment",
+      "subject": "Warehouse storage of air movers and dehumidifiers on shelves",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Cluttered equipment storage room, shows inventory not active work.",
+      "triaged_at": "2026-10-01T20:50:11Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806667391": {
       "source": "crew",
@@ -7014,7 +7566,22 @@
       "exif": {
         "taken_at": "2014:02:14 14:33:36",
         "camera": "NIKON CORPORATION NIKON D5100"
-      }
+      },
+      "category": "equipment",
+      "subject": "Stacked air movers and dehumidifiers in storage area",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Similar cluttered equipment storage shot, good for services gallery.",
+      "triaged_at": "2026-10-01T20:50:11Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806670072": {
       "source": "crew",
@@ -7027,7 +7594,22 @@
       "exif": {
         "taken_at": "2014:02:14 14:33:46",
         "camera": "NIKON CORPORATION NIKON D5100"
-      }
+      },
+      "category": "equipment",
+      "subject": "Rows of blue air movers and LGR dehumidifiers stored",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Warehouse equipment staging, cluttered but shows capacity.",
+      "triaged_at": "2026-10-01T20:50:11Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806672521": {
       "source": "crew",
@@ -7040,7 +7622,22 @@
       "exif": {
         "taken_at": "2014:02:14 14:34:06",
         "camera": "NIKON CORPORATION NIKON D5100"
-      }
+      },
+      "category": "equipment",
+      "subject": "Air movers and dehumidifiers staged in garage warehouse",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Equipment inventory shot, cluttered background reduces hero potential.",
+      "triaged_at": "2026-10-01T20:50:11Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806675087": {
       "source": "crew",
@@ -7053,7 +7650,22 @@
       "exif": {
         "taken_at": "2014:02:14 14:34:19",
         "camera": "NIKON CORPORATION NIKON D5100"
-      }
+      },
+      "category": "equipment",
+      "subject": "Large collection of drying equipment stored indoors",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Equipment storage photo, repetitive of other images in set.",
+      "triaged_at": "2026-10-01T20:50:11Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806678002": {
       "source": "crew",
@@ -7066,7 +7678,22 @@
       "exif": {
         "taken_at": "2014:02:14 14:36:32",
         "camera": "NIKON CORPORATION NIKON D5100"
-      }
+      },
+      "category": "equipment",
+      "subject": "Blue air movers and dehumidifiers racked in workshop",
+      "quality": 50,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Smaller cluttered storage image, lower resolution and detail.",
+      "triaged_at": "2026-10-01T20:50:11Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806680755": {
       "source": "crew",
@@ -7079,7 +7706,22 @@
       "exif": {
         "taken_at": "2014:02:14 14:36:32",
         "camera": "NIKON CORPORATION NIKON D5100"
-      }
+      },
+      "category": "equipment",
+      "subject": "Warehouse storage of air movers and dehumidifiers",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Cluttered storage shot of restoration equipment, useful for services page.",
+      "triaged_at": "2026-10-01T20:50:27Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806684000": {
       "source": "crew",
@@ -7092,7 +7734,22 @@
       "exif": {
         "taken_at": "2014:02:14 14:36:37",
         "camera": "NIKON CORPORATION NIKON D5100"
-      }
+      },
+      "category": "equipment",
+      "subject": "Stacked blue air movers and dehumidifiers in storage",
+      "quality": 50,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Similar cluttered equipment storage image, not hero-worthy.",
+      "triaged_at": "2026-10-01T20:50:27Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806686699": {
       "source": "crew",
@@ -7105,7 +7762,22 @@
       "exif": {
         "taken_at": "2014:02:14 14:36:54",
         "camera": "NIKON CORPORATION NIKON D5100"
-      }
+      },
+      "category": "equipment",
+      "subject": "Rows of air movers and dehumidifiers on shelving",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Equipment inventory shot, decent for showing restoration capability.",
+      "triaged_at": "2026-10-01T20:50:27Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806689215": {
       "source": "crew",
@@ -7118,7 +7790,22 @@
       "exif": {
         "taken_at": "2014:02:14 14:36:56",
         "camera": "NIKON CORPORATION NIKON D5100"
-      }
+      },
+      "category": "equipment",
+      "subject": "Garage full of restoration drying equipment",
+      "quality": 50,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Repetitive equipment storage photo, cluttered but informative.",
+      "triaged_at": "2026-10-01T20:50:27Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806691832": {
       "source": "crew",
@@ -7131,7 +7818,22 @@
       "exif": {
         "taken_at": "2014:02:14 14:39:26",
         "camera": "NIKON CORPORATION NIKON D5100"
-      }
+      },
+      "category": "equipment",
+      "subject": "Warehouse shelves stocked with air movers and dehumidifiers",
+      "quality": 65,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Wider, cleaner view of organized equipment stock, usable for services.",
+      "triaged_at": "2026-10-01T20:50:27Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806694347": {
       "source": "crew",
@@ -7144,7 +7846,22 @@
       "exif": {
         "taken_at": "2014:02:14 14:39:30",
         "camera": "NIKON CORPORATION NIKON D5100"
-      }
+      },
+      "category": "equipment",
+      "subject": "Shelves of blue air movers and dehumidifiers in shop",
+      "quality": 65,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Similar organized equipment display, good for services page.",
+      "triaged_at": "2026-10-01T20:50:27Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806697817": {
       "source": "crew",
@@ -7157,7 +7874,22 @@
       "exif": {
         "taken_at": "2014:02:14 14:39:37",
         "camera": "NIKON CORPORATION NIKON D5100"
-      }
+      },
+      "category": "equipment",
+      "subject": "warehouse shelves of air movers and dehumidifiers",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Clear equipment inventory shot, cluttered warehouse setting.",
+      "triaged_at": "2026-10-01T20:50:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806701364": {
       "source": "crew",
@@ -7170,7 +7902,22 @@
       "exif": {
         "taken_at": "2014:02:14 14:39:58",
         "camera": "NIKON CORPORATION NIKON D5100"
-      }
+      },
+      "category": "equipment",
+      "subject": "warehouse shelves of air movers and dehumidifiers",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Duplicate equipment inventory shot, cluttered warehouse setting.",
+      "triaged_at": "2026-10-01T20:50:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806703780": {
       "source": "crew",
@@ -7183,7 +7930,22 @@
       "exif": {
         "taken_at": "2014:02:14 14:40:23",
         "camera": "NIKON CORPORATION NIKON D5100"
-      }
+      },
+      "category": "equipment",
+      "subject": "warehouse shelves of air movers and dehumidifiers",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Duplicate equipment inventory shot, cluttered warehouse setting.",
+      "triaged_at": "2026-10-01T20:50:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806706443": {
       "source": "crew",
@@ -7196,7 +7958,22 @@
       "exif": {
         "taken_at": "2014:02:14 14:40:30",
         "camera": "NIKON CORPORATION NIKON D5100"
-      }
+      },
+      "category": "equipment",
+      "subject": "warehouse shelves of air movers and dehumidifiers",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Duplicate equipment inventory shot, cluttered warehouse setting.",
+      "triaged_at": "2026-10-01T20:50:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806708977": {
       "source": "crew",
@@ -7209,7 +7986,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:08:57",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "technician standing amid stacked restoration equipment outdoors",
+      "quality": 70,
+      "slots": {
+        "hero": 45,
+        "team": 65,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Single technician posed with equipment outside shop, decent composition.",
+      "triaged_at": "2026-10-01T20:50:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806718110": {
       "source": "crew",
@@ -7222,7 +8014,23 @@
       "exif": {
         "taken_at": "2024:02:03 19:08:55",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "technician smiling in front of stacked drying equipment",
+      "quality": 72,
+      "slots": {
+        "hero": 40,
+        "team": 70,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces",
+        "logo_card"
+      ],
+      "reason": "Technician portrait with branded jacket logo and equipment backdrop.",
+      "triaged_at": "2026-10-01T20:50:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806727586": {
       "source": "crew",
@@ -7235,7 +8043,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:08:51",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician posing with stacked air movers and dehumidifiers outside shop",
+      "quality": 65,
+      "slots": {
+        "hero": 40,
+        "team": 55,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clear equipment display with single technician, real signage, decent lighting",
+      "triaged_at": "2026-10-01T20:51:09Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806736185": {
       "source": "crew",
@@ -7248,7 +8071,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:07:50",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician standing among smaller stack of drying equipment",
+      "quality": 62,
+      "slots": {
+        "hero": 35,
+        "team": 55,
+        "services": 68
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Similar equipment shot, slightly less gear visible, portrait crop limits hero use",
+      "triaged_at": "2026-10-01T20:51:09Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806747479": {
       "source": "crew",
@@ -7261,7 +8099,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:07:53",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician smiling beside full equipment lineup at garage door",
+      "quality": 68,
+      "slots": {
+        "hero": 42,
+        "team": 58,
+        "services": 72
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Good natural pose, full gear display, usable for services page",
+      "triaged_at": "2026-10-01T20:51:09Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806755544": {
       "source": "crew",
@@ -7274,7 +8127,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:07:27",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician standing centered with full array of restoration equipment",
+      "quality": 68,
+      "slots": {
+        "hero": 42,
+        "team": 58,
+        "services": 72
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clean composition showing equipment range with company logo jacket",
+      "triaged_at": "2026-10-01T20:51:09Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806761041": {
       "source": "crew",
@@ -7287,7 +8155,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:06:55",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician holding moisture meter gesturing toward camera with equipment",
+      "quality": 66,
+      "slots": {
+        "hero": 40,
+        "team": 60,
+        "services": 73
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Action pose with equipment, slightly more dynamic but still posed",
+      "triaged_at": "2026-10-01T20:51:09Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806765873": {
       "source": "crew",
@@ -7300,7 +8183,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:07:22",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician standing still holding device amid stacked drying equipment",
+      "quality": 64,
+      "slots": {
+        "hero": 38,
+        "team": 55,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Standard posed equipment photo, real branding visible on machines",
+      "triaged_at": "2026-10-01T20:51:09Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806770421": {
       "source": "crew",
@@ -7313,7 +8211,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:08:59",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "technician posing with stacked air movers and dehumidifiers",
+      "quality": 80,
+      "slots": {
+        "hero": 55,
+        "team": 45,
+        "services": 78
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Wide, clear equipment display with technician, usable for services or hero.",
+      "triaged_at": "2026-10-01T20:51:32Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806781384": {
       "source": "crew",
@@ -7326,7 +8239,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:09:07",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "technician seated amid restoration equipment stack, portrait crop",
+      "quality": 72,
+      "slots": {
+        "hero": 30,
+        "team": 40,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Portrait crop limits hero use; equipment still clearly visible.",
+      "triaged_at": "2026-10-01T20:51:32Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806788200": {
       "source": "crew",
@@ -7339,7 +8267,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:09:08",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "technician posed on equipment pile, portrait orientation",
+      "quality": 72,
+      "slots": {
+        "hero": 30,
+        "team": 40,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Similar portrait shot, good equipment detail, weak hero fit.",
+      "triaged_at": "2026-10-01T20:51:32Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806793630": {
       "source": "crew",
@@ -7352,7 +8295,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:07:39",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "technician standing among air movers and drying units, wide shot",
+      "quality": 82,
+      "slots": {
+        "hero": 58,
+        "team": 48,
+        "services": 80
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clean wide composition, strong equipment showcase, decent hero candidate.",
+      "triaged_at": "2026-10-01T20:51:32Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806799578": {
       "source": "crew",
@@ -7365,7 +8323,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:06:44",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "technician with branded jacket beside equipment stack",
+      "quality": 83,
+      "slots": {
+        "hero": 60,
+        "team": 50,
+        "services": 82
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Sharp, well-lit, good balance of person and gear for services page.",
+      "triaged_at": "2026-10-01T20:51:32Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806804161": {
       "source": "crew",
@@ -7378,7 +8351,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:06:46",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "technician posed with full equipment lineup, tall vertical crop",
+      "quality": 80,
+      "slots": {
+        "hero": 52,
+        "team": 48,
+        "services": 80
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Good detail and lighting, slightly tall crop limits hero flexibility.",
+      "triaged_at": "2026-10-01T20:51:32Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806808447": {
       "source": "crew",
@@ -7391,7 +8379,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:09:21",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "Technician posing with restoration equipment lineup",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 70,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Single tech posed with equipment, portrait crop limits hero use.",
+      "triaged_at": "2026-10-01T20:51:53Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806818422": {
       "source": "crew",
@@ -7404,7 +8407,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:09:26",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "Technician posing with restoration equipment lineup",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 70,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Near-duplicate posed shot with air movers and dehumidifiers.",
+      "triaged_at": "2026-10-01T20:51:53Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806828651": {
       "source": "crew",
@@ -7417,7 +8435,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:09:27",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "Technician posing with restoration equipment lineup",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 70,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Similar posed photo, technician smiling with gear.",
+      "triaged_at": "2026-10-01T20:51:53Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806842663": {
       "source": "crew",
@@ -7430,7 +8463,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:09:28",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "Technician posing with restoration equipment lineup",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 70,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Repeated posed shot, same scene different framing.",
+      "triaged_at": "2026-10-01T20:51:53Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806854777": {
       "source": "crew",
@@ -7443,7 +8491,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:09:33",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician standing among stacked air movers and dehumidifiers",
+      "quality": 70,
+      "slots": {
+        "hero": 45,
+        "team": 65,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Wider shot showing more equipment, usable for services slot.",
+      "triaged_at": "2026-10-01T20:51:53Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806864208": {
       "source": "crew",
@@ -7456,7 +8519,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:09:36",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician among stacked air movers and dehumidifiers",
+      "quality": 70,
+      "slots": {
+        "hero": 45,
+        "team": 65,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Wide equipment display with technician, good services candidate.",
+      "triaged_at": "2026-10-01T20:51:53Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806872020": {
       "source": "crew",
@@ -7469,7 +8547,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:09:50",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician posed with stacked air movers and dehumidifiers",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 55,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clear equipment showcase but static posed shot, not hero-clean.",
+      "triaged_at": "2026-10-01T20:52:19Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806881235": {
       "source": "crew",
@@ -7482,7 +8575,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:09:53",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician standing among restoration equipment at shop dock",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 55,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Duplicate posed equipment shot with wider angle.",
+      "triaged_at": "2026-10-01T20:52:19Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806886448": {
       "source": "crew",
@@ -7495,7 +8603,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:09:59",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician kneeling with air movers and FLIR gear stacked",
+      "quality": 60,
+      "slots": {
+        "hero": 25,
+        "team": 55,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Tight crop version of same posed equipment photo.",
+      "triaged_at": "2026-10-01T20:52:19Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806897047": {
       "source": "crew",
@@ -7508,7 +8631,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:11:05",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician crouched among restoration equipment collection",
+      "quality": 65,
+      "slots": {
+        "hero": 35,
+        "team": 55,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Wider landscape crop showing full equipment lineup with technician.",
+      "triaged_at": "2026-10-01T20:52:19Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806906876": {
       "source": "crew",
@@ -7521,7 +8659,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:11:18",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician seated amid stacked air movers and dehumidifiers",
+      "quality": 65,
+      "slots": {
+        "hero": 35,
+        "team": 55,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Another angle of same equipment display, decent composition.",
+      "triaged_at": "2026-10-01T20:52:19Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806916990": {
       "source": "crew",
@@ -7534,7 +8687,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:11:18",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician seated among full equipment array on loading dock",
+      "quality": 68,
+      "slots": {
+        "hero": 40,
+        "team": 55,
+        "services": 68
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Cleanest, most symmetrical version of repeated equipment shot.",
+      "triaged_at": "2026-10-01T20:52:19Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806948289": {
       "source": "crew",
@@ -7547,7 +8715,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:11:36",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician kneeling amid stacked air movers and dehumidifiers",
+      "quality": 70,
+      "slots": {
+        "hero": 40,
+        "team": 60,
+        "services": 75
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clear equipment display with single technician, wide composition works as hero or services.",
+      "triaged_at": "2026-10-01T20:52:39Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806976420": {
       "source": "crew",
@@ -7560,7 +8743,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:12:34",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician posed with air movers and dehumidifiers stacked behind",
+      "quality": 65,
+      "slots": {
+        "hero": 25,
+        "team": 55,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Portrait crop limits hero use but shows equipment and crew member clearly.",
+      "triaged_at": "2026-10-01T20:52:39Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807011443": {
       "source": "crew",
@@ -7573,7 +8771,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:12:40",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician posed with air movers and dehumidifiers stacked behind",
+      "quality": 65,
+      "slots": {
+        "hero": 25,
+        "team": 55,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Portrait crop limits hero use but shows equipment and crew member clearly.",
+      "triaged_at": "2026-10-01T20:52:39Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807054748": {
       "source": "crew",
@@ -7586,7 +8799,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:12:45",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician posed with air movers and dehumidifiers stacked behind",
+      "quality": 65,
+      "slots": {
+        "hero": 25,
+        "team": 55,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Portrait crop limits hero use but shows equipment and crew member clearly.",
+      "triaged_at": "2026-10-01T20:52:39Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807085069": {
       "source": "crew",
@@ -7599,7 +8827,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:13:20",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician posed with air movers and dehumidifiers stacked behind",
+      "quality": 65,
+      "slots": {
+        "hero": 25,
+        "team": 55,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Portrait crop limits hero use but shows equipment and crew member clearly.",
+      "triaged_at": "2026-10-01T20:52:39Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807147933": {
       "source": "crew",
@@ -7612,7 +8855,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:13:30",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician posed with air movers and dehumidifiers stacked behind",
+      "quality": 65,
+      "slots": {
+        "hero": 25,
+        "team": 55,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Portrait crop limits hero use but shows equipment and crew member clearly.",
+      "triaged_at": "2026-10-01T20:52:39Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807174569": {
       "source": "crew",
@@ -7625,7 +8883,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:13:32",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician posing with air movers and dehumidifier equipment",
+      "quality": 62,
+      "slots": {
+        "hero": 30,
+        "team": 60,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Staged equipment display with technician, slightly cluttered but usable for services.",
+      "triaged_at": "2026-10-01T20:52:59Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807201803": {
       "source": "crew",
@@ -7638,7 +8911,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:13:40",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician posing with air movers and dehumidifier equipment",
+      "quality": 62,
+      "slots": {
+        "hero": 30,
+        "team": 60,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Nearly identical staged equipment shot with technician.",
+      "triaged_at": "2026-10-01T20:52:59Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807218872": {
       "source": "crew",
@@ -7651,7 +8939,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:13:44",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician posing with air movers and dehumidifier equipment",
+      "quality": 62,
+      "slots": {
+        "hero": 30,
+        "team": 60,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Duplicate staged equipment photo, same setup and pose.",
+      "triaged_at": "2026-10-01T20:52:59Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807237562": {
       "source": "crew",
@@ -7664,7 +8967,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:13:49",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician posing with air movers and dehumidifier equipment",
+      "quality": 60,
+      "slots": {
+        "hero": 28,
+        "team": 58,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Wider angle of same staged equipment and technician scene.",
+      "triaged_at": "2026-10-01T20:52:59Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807253225": {
       "source": "crew",
@@ -7677,7 +8995,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:13:52",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician posing with air movers and dehumidifier equipment",
+      "quality": 58,
+      "slots": {
+        "hero": 28,
+        "team": 55,
+        "services": 62
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Similar staged shot, slightly more cluttered background items.",
+      "triaged_at": "2026-10-01T20:52:59Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807270129": {
       "source": "crew",
@@ -7690,7 +9023,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:14:27",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician posing with air mover equipment stack",
+      "quality": 55,
+      "slots": {
+        "hero": 25,
+        "team": 55,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Closer crop of technician with equipment, less context shown.",
+      "triaged_at": "2026-10-01T20:52:59Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807307493": {
       "source": "crew",
@@ -7703,7 +9051,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:14:28",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "technician posed with air movers and dehumidifiers",
+      "quality": 65,
+      "slots": {
+        "hero": 20,
+        "team": 75,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Tight portrait crop of single technician with equipment, good team candidate.",
+      "triaged_at": "2026-10-01T20:53:20Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807327333": {
       "source": "crew",
@@ -7716,7 +9079,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:14:33",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "technician posed with air movers and dehumidifiers",
+      "quality": 65,
+      "slots": {
+        "hero": 20,
+        "team": 75,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Near-duplicate posed shot of technician with restoration equipment.",
+      "triaged_at": "2026-10-01T20:53:20Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807343956": {
       "source": "crew",
@@ -7729,7 +9107,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:14:35",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "technician posed with air movers and dehumidifiers",
+      "quality": 60,
+      "slots": {
+        "hero": 18,
+        "team": 70,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Similar posed portrait, slightly less sharp focus on face.",
+      "triaged_at": "2026-10-01T20:53:20Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807368723": {
       "source": "crew",
@@ -7742,7 +9135,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:14:38",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "technician posed with air movers and dehumidifiers",
+      "quality": 65,
+      "slots": {
+        "hero": 20,
+        "team": 75,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clean posed shot, good lighting, equipment visible behind.",
+      "triaged_at": "2026-10-01T20:53:20Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807396779": {
       "source": "crew",
@@ -7755,7 +9163,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:14:51",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "technician posed with air movers and dehumidifiers",
+      "quality": 60,
+      "slots": {
+        "hero": 18,
+        "team": 70,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Similar pose, slightly awkward angle and expression.",
+      "triaged_at": "2026-10-01T20:53:20Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807414999": {
       "source": "crew",
@@ -7768,7 +9191,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:15:01",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "technician kneeling by equipment stack outside building",
+      "quality": 70,
+      "slots": {
+        "hero": 35,
+        "team": 78,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Wider context shot with building exterior, best hero potential of set.",
+      "triaged_at": "2026-10-01T20:53:20Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807436518": {
       "source": "crew",
@@ -7781,7 +9219,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:15:04",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "Technician kneeling among stacked air movers and dehumidifiers",
+      "quality": 70,
+      "slots": {
+        "hero": 40,
+        "team": 70,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clear uniformed tech with equipment, good for team or services slot.",
+      "triaged_at": "2026-10-01T20:53:39Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807450796": {
       "source": "crew",
@@ -7794,7 +9247,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:15:31",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician holding FLIR thermal camera near air movers",
+      "quality": 75,
+      "slots": {
+        "hero": 30,
+        "team": 50,
+        "services": 75
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Close-up of inspection tool in use, strong services image.",
+      "triaged_at": "2026-10-01T20:53:39Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807459492": {
       "source": "crew",
@@ -7807,7 +9275,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:15:32",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician holding FLIR thermal camera near air movers",
+      "quality": 75,
+      "slots": {
+        "hero": 30,
+        "team": 50,
+        "services": 75
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Duplicate close-up of moisture inspection camera in use.",
+      "triaged_at": "2026-10-01T20:53:39Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807473787": {
       "source": "crew",
@@ -7820,7 +9303,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:15:34",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician holding FLIR thermal camera near air movers",
+      "quality": 75,
+      "slots": {
+        "hero": 30,
+        "team": 50,
+        "services": 75
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Another near-identical inspection camera close-up shot.",
+      "triaged_at": "2026-10-01T20:53:39Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807486899": {
       "source": "crew",
@@ -7833,7 +9331,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:16:03",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "Technician writing on tablet beside stacked equipment",
+      "quality": 72,
+      "slots": {
+        "hero": 35,
+        "team": 65,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Tech documenting job on tablet, good for team or services slot.",
+      "triaged_at": "2026-10-01T20:53:39Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807513359": {
       "source": "crew",
@@ -7846,7 +9359,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:16:06",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "Technician writing on tablet beside stacked equipment",
+      "quality": 72,
+      "slots": {
+        "hero": 35,
+        "team": 65,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Nearly identical tablet documentation shot, solid team/services use.",
+      "triaged_at": "2026-10-01T20:53:39Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807533601": {
       "source": "crew",
@@ -7859,7 +9387,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:16:08",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician with tablet beside stacked dehumidifiers and air movers",
+      "quality": 70,
+      "slots": {
+        "hero": 40,
+        "team": 55,
+        "services": 75
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Tech using tablet amid restoration equipment, real branded gear visible.",
+      "triaged_at": "2026-10-01T20:53:59Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807554276": {
       "source": "crew",
@@ -7872,7 +9415,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:16:11",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician writing on tablet near Phoenix dehumidifiers",
+      "quality": 68,
+      "slots": {
+        "hero": 35,
+        "team": 55,
+        "services": 75
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Close crop of technician documenting job with equipment stacked behind.",
+      "triaged_at": "2026-10-01T20:53:59Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807575819": {
       "source": "crew",
@@ -7885,7 +9443,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:16:18",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician in branded jacket writing on tablet by equipment",
+      "quality": 72,
+      "slots": {
+        "hero": 35,
+        "team": 60,
+        "services": 78
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Logo visible on jacket, technician logging data near drying equipment.",
+      "triaged_at": "2026-10-01T20:53:59Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807599009": {
       "source": "crew",
@@ -7898,7 +9471,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:16:19",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician in company jacket inspecting tablet near equipment stacks",
+      "quality": 72,
+      "slots": {
+        "hero": 35,
+        "team": 60,
+        "services": 78
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clear branded jacket, technician with tablet amid restoration gear.",
+      "triaged_at": "2026-10-01T20:53:59Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807619189": {
       "source": "crew",
@@ -7911,7 +9499,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:16:27",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician kneeling with tablet, smiling, equipment stacked behind",
+      "quality": 75,
+      "slots": {
+        "hero": 45,
+        "team": 70,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Posed technician with gear, good eye contact, usable for team or services.",
+      "triaged_at": "2026-10-01T20:53:59Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807649927": {
       "source": "crew",
@@ -7924,7 +9527,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:16:35",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician kneeling with tablet smiling among air movers and dehumidifiers",
+      "quality": 75,
+      "slots": {
+        "hero": 45,
+        "team": 70,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Similar posed shot, technician smiling with equipment stacked behind.",
+      "triaged_at": "2026-10-01T20:53:59Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807670404": {
       "source": "crew",
@@ -7937,7 +9555,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:16:38",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "technician kneeling with tablet among restoration equipment",
+      "quality": 75,
+      "slots": {
+        "hero": 35,
+        "team": 70,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Single uniformed tech with gear, smiling at camera, good for team or services.",
+      "triaged_at": "2026-10-01T20:54:18Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807691714": {
       "source": "crew",
@@ -7950,7 +9583,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:17:02",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "technician writing on tablet surrounded by air movers",
+      "quality": 78,
+      "slots": {
+        "hero": 30,
+        "team": 60,
+        "services": 75
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Candid working pose with equipment, strong services/documentation shot.",
+      "triaged_at": "2026-10-01T20:54:18Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807712590": {
       "source": "crew",
@@ -7963,7 +9611,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:17:06",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "technician kneeling with tablet among restoration equipment",
+      "quality": 74,
+      "slots": {
+        "hero": 35,
+        "team": 68,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Near-duplicate posed shot with gear, usable for team page.",
+      "triaged_at": "2026-10-01T20:54:18Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807722418": {
       "source": "crew",
@@ -7976,7 +9639,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:17:07",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "technician smiling with tablet among restoration equipment",
+      "quality": 76,
+      "slots": {
+        "hero": 35,
+        "team": 70,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Posed technician with equipment, clean smile, good team candidate.",
+      "triaged_at": "2026-10-01T20:54:18Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807731851": {
       "source": "crew",
@@ -7989,7 +9667,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:17:16",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "technician smiling with tablet among restoration equipment",
+      "quality": 75,
+      "slots": {
+        "hero": 35,
+        "team": 70,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Near-duplicate posed shot, solid team or services use.",
+      "triaged_at": "2026-10-01T20:54:18Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807741267": {
       "source": "crew",
@@ -8002,7 +9695,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:17:21",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "technician smiling with tablet among restoration equipment",
+      "quality": 76,
+      "slots": {
+        "hero": 35,
+        "team": 70,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Posed technician with equipment, consistent branding visible on jacket.",
+      "triaged_at": "2026-10-01T20:54:18Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807749029": {
       "source": "crew",
@@ -8015,7 +9723,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:18:47",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "technician seated among air movers and dehumidifiers outside shop",
+      "quality": 70,
+      "slots": {
+        "hero": 45,
+        "team": 60,
+        "services": 75
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Wide shot of equipment lineup with technician, good services/hero use",
+      "triaged_at": "2026-10-01T20:54:36Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807756827": {
       "source": "crew",
@@ -8028,7 +9751,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:18:50",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "technician seated among air movers and dehumidifiers outside shop",
+      "quality": 68,
+      "slots": {
+        "hero": 40,
+        "team": 58,
+        "services": 72
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Portrait crop of equipment display with technician, slightly tighter framing",
+      "triaged_at": "2026-10-01T20:54:36Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807763389": {
       "source": "crew",
@@ -8041,7 +9779,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:18:59",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "technician seated among air movers and dehumidifiers outside shop",
+      "quality": 68,
+      "slots": {
+        "hero": 40,
+        "team": 58,
+        "services": 72
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Portrait crop of equipment display with technician, slightly tighter framing",
+      "triaged_at": "2026-10-01T20:54:36Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807769602": {
       "source": "crew",
@@ -8054,7 +9807,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:19:00",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "technician seated among air movers and dehumidifiers outside shop",
+      "quality": 68,
+      "slots": {
+        "hero": 40,
+        "team": 58,
+        "services": 72
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Portrait crop of equipment display with technician, slightly tighter framing",
+      "triaged_at": "2026-10-01T20:54:36Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807776836": {
       "source": "crew",
@@ -8067,7 +9835,22 @@
       "exif": {
         "taken_at": "2024:02:03 19:19:04",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "equipment",
+      "subject": "technician seated among air movers and dehumidifiers outside shop",
+      "quality": 68,
+      "slots": {
+        "hero": 40,
+        "team": 58,
+        "services": 72
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Portrait crop of equipment display with technician, slightly tighter framing",
+      "triaged_at": "2026-10-01T20:54:36Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807784266": {
       "source": "crew",
@@ -8080,7 +9863,23 @@
       "exif": {
         "taken_at": "2024:02:03 19:20:34",
         "camera": "NIKON CORPORATION NIKON D3200"
-      }
+      },
+      "category": "crew",
+      "subject": "technician portrait smiling in company branded jacket",
+      "quality": 80,
+      "slots": {
+        "hero": 35,
+        "team": 80,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces",
+        "logo_card"
+      ],
+      "reason": "Clean headshot-style portrait with visible company logo on jacket",
+      "triaged_at": "2026-10-01T20:54:36Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790807787949": {
       "source": "crew",
@@ -9294,6 +11093,16 @@
       "sha1": "2050069afb1bde03",
       "exif": {}
     },
+    "gbp:gbp-AF1QipNWzgebaK--KuB9WbKLHrxjLMuDGovs7GhgVKz7": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNWzgebaK--KuB9WbKLHrxjLMuDGovs7GhgVKz7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipNWzgebaK--KuB9WbKLHrxjLMuDGovs7GhgVKz7.jpg",
+      "width": 1067,
+      "height": 1560,
+      "bytes": 1612387,
+      "sha1": "6b1897c159ff56b4",
+      "exif": {}
+    },
     "gbp:gbp-AF1QipNZW1mrec5oc3kT4L5bMseT-O2y0fRO2tKJc8TV": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNZW1mrec5oc3kT4L5bMseT-O2y0fRO2tKJc8TV.jpg",
@@ -9438,6 +11247,16 @@
       "exif": {
         "taken_at": "2013:12:19 01:59:24"
       }
+    },
+    "gbp:gbp-AF1QipO0BQFjzkEMmovXfj8HSp-TMxJ1_ev1MzeWxvVi": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO0BQFjzkEMmovXfj8HSp-TMxJ1_ev1MzeWxvVi.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipO0BQFjzkEMmovXfj8HSp-TMxJ1_ev1MzeWxvVi.jpg",
+      "width": 2540,
+      "height": 1540,
+      "bytes": 2567315,
+      "sha1": "7c0a35b02b3fb104",
+      "exif": {}
     },
     "gbp:gbp-AF1QipO0zIjzrIDDYf9e5tvUZXUmS-90-rH_jrtRGWO8": {
       "source": "gbp",
@@ -9759,6 +11578,16 @@
       "height": 1440,
       "bytes": 334112,
       "sha1": "23350aae444b38c0",
+      "exif": {}
+    },
+    "gbp:gbp-AF1QipOVrZSopC5EYL5yJQUz9FyL9t4BiAe25hEX1Mzi": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOVrZSopC5EYL5yJQUz9FyL9t4BiAe25hEX1Mzi.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipOVrZSopC5EYL5yJQUz9FyL9t4BiAe25hEX1Mzi.jpg",
+      "width": 2560,
+      "height": 1376,
+      "bytes": 3024675,
+      "sha1": "59cef6b231c72ae4",
       "exif": {}
     },
     "gbp:gbp-AF1QipOWCxBjTmCaQPJMYdwRTamPVGHvjNJkLH61tqMt": {
@@ -10674,5 +12503,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-10-01T16:13:56Z"
+  "triaged_at": "2026-10-01T20:54:36Z"
 }

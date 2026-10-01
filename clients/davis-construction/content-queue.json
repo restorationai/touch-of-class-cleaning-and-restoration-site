@@ -1400,7 +1400,7 @@
     },
     {
       "id": "2026-09-19-how-much-value-does-a-kitchen-remodel-add",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-19T00:05:00Z",
       "written_at": "2026-10-01T21:22:54Z",
       "post_url": "https://davisconstructioncontractors.com/blog/how-much-value-does-a-kitchen-remodel-add/",
@@ -1438,7 +1438,8 @@
         "https://www.nkba.org/"
       ],
       "source": "keyword-researcher s1 seed=kitchen remodel",
-      "notes": "ROI angle for the Huntsville market, where the defense and aerospace job base keeps resale demand steady. Use Cost vs Value style framing but keep the numbers regional and attributed. Make the honest point that a minor kitchen refresh typically returns more than a full gut, which builds trust and still routes to a quote."
+      "notes": "ROI angle for the Huntsville market, where the defense and aerospace job base keeps resale demand steady. Use Cost vs Value style framing but keep the numbers regional and attributed. Make the honest point that a minor kitchen refresh typically returns more than a full gut, which builds trust and still routes to a quote.",
+      "published_verified_at": "2026-10-01T21:25:35Z"
     }
   ]
 }

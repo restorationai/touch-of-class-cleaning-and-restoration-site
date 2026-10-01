@@ -4478,6 +4478,36 @@
       "triaged_at": "2026-08-05T06:19:10Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipP1ADHLMai2Cl8eMES6TEXL809lUe6jYJvDsmFi": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP1ADHLMai2Cl8eMES6TEXL809lUe6jYJvDsmFi.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1779551010975/job-photos/posted/gbp-AF1QipP1ADHLMai2Cl8eMES6TEXL809lUe6jYJvDsmFi.jpg",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 202089,
+      "sha1": "f580621d1792a75b",
+      "exif": {
+        "taken_at": "2026:09:26 16:47:36"
+      },
+      "category": "job_progress",
+      "subject": "Hallway with air mover drying flood-cut drywall",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "emergency-water-removal"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "In-progress water damage drying with equipment, no crew visible",
+      "triaged_at": "2026-10-01T20:44:49Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "gbp:gbp-AF1QipP1OCXMU7AnOcga9aGLEOsdcu8c8d2MQkGSW6Cj": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipP1OCXMU7AnOcga9aGLEOsdcu8c8d2MQkGSW6Cj.jpg",
@@ -5036,6 +5066,35 @@
       "reason": "Third-party branded infographic; no original photography; not usable.",
       "triaged_at": "2026-08-05T06:20:18Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipPUnHudj2rGkIgoDoSdzxIZBKxmavrT06oZ_9cG": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPUnHudj2rGkIgoDoSdzxIZBKxmavrT06oZ_9cG.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1779551010975/job-photos/posted/gbp-AF1QipPUnHudj2rGkIgoDoSdzxIZBKxmavrT06oZ_9cG.jpg",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 265034,
+      "sha1": "38942be34c3a594c",
+      "exif": {
+        "taken_at": "2026:09:26 16:47:45"
+      },
+      "category": "job_progress",
+      "subject": "Hallway with flood cuts exposing studs, no equipment",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Flood-cut drywall hallway showing water damage remediation progress",
+      "triaged_at": "2026-10-01T20:44:49Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipPVMGX7MDAfTnP_PHv3kE-3DrCGzQdASuRMY-qO": {
       "source": "gbp",
@@ -6581,7 +6640,7 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-30T19:31:57Z",
+  "triaged_at": "2026-10-01T20:44:49Z",
   "slots_retired": {
     "hero": {
       "asset": "web:8c032e383cb4ec8f",

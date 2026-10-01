@@ -2535,6 +2535,36 @@
       "triaged_at": "2026-08-05T05:50:37Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "web:bb663918ca5e42fa": {
+      "source": "website",
+      "storage": "site-assets/web/web-bb663918ca5e42fa.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784594708149/site-assets/web/web-bb663918ca5e42fa.jpg",
+      "origin_url": "https://www.puroclean.com/las-vegas-nv-puroclean-east-las-vegas/wp-content/themes/puroclean-tw/assets/img/hero-default.png",
+      "found_on": "https://www.puroclean.com/las-vegas-nv-puroclean-east-las-vegas/",
+      "width": 812,
+      "height": 500,
+      "bytes": 365000,
+      "sha1": "bb663918ca5e42fa",
+      "exif": {},
+      "category": "equipment",
+      "subject": "PuroClean air mover in foreground with technician working behind",
+      "quality": 78,
+      "slots": {
+        "hero": 55,
+        "team": 30,
+        "services": 80
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "emergency-water-removal"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Sharp branded equipment shot with technician mid-task, good services image.",
+      "triaged_at": "2026-10-01T20:45:09Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "web:c37575ed0cf7219b": {
       "source": "website",
       "storage": "site-assets/web/web-c37575ed0cf7219b.png",
@@ -2738,5 +2768,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-09-21T16:05:23Z"
+  "triaged_at": "2026-10-01T20:45:09Z"
 }

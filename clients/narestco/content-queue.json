@@ -1305,7 +1305,7 @@
     },
     {
       "id": "2026-09-17-how-much-does-biohazard-cleanup-cost",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-17T00:00:00Z",
       "written_at": "2026-10-01T21:36:09Z",
       "post_url": "https://narestco.com/blog/how-much-does-biohazard-cleanup-cost/",
@@ -1340,7 +1340,8 @@
         "https://ecology.wa.gov/regulations-permits/guidance-technical-assistance/guidance-for-residential-cleanups",
         "https://www.iicrc.org/page/IICRCS540"
       ],
-      "notes": "Highest-CPC term in the whole seed family (biohazard cleanup cost carries $84.96 CPC), so treat this as the money page for the biohazard cluster. Give real dollar bands (roughly $1,000 to $5,000 for typical residential jobs, $10,000+ for decomposition, hoarding or structural contamination) and explain the cost drivers: scene type, porous material removal, containment, regulated disposal, and documentation. Do NOT re-explain insurance: link to the already published /blog/does-homeowners-insurance-cover-biohazard-cleanup/ instead. Sensitive-content guardrails apply: no graphic description, no photos of scenes, lead with the fact that we handle the insurer and the paperwork."
+      "notes": "Highest-CPC term in the whole seed family (biohazard cleanup cost carries $84.96 CPC), so treat this as the money page for the biohazard cluster. Give real dollar bands (roughly $1,000 to $5,000 for typical residential jobs, $10,000+ for decomposition, hoarding or structural contamination) and explain the cost drivers: scene type, porous material removal, containment, regulated disposal, and documentation. Do NOT re-explain insurance: link to the already published /blog/does-homeowners-insurance-cover-biohazard-cleanup/ instead. Sensitive-content guardrails apply: no graphic description, no photos of scenes, lead with the fact that we handle the insurer and the paperwork.",
+      "published_verified_at": "2026-10-01T21:37:55Z"
     },
     {
       "id": "2026-09-17-do-you-need-a-license-for-biohazard-cleanup-washington",

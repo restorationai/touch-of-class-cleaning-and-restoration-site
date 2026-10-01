@@ -1,5 +1,2128 @@
 {
   "slug": "bionic-emergency-services-llc",
-  "assets": {},
-  "slots": {}
+  "assets": {
+    "gbp:gbp-AF1QipM15O9vYQCCuduTQ6PVIos0rtr3fsdKASHDh3LC": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM15O9vYQCCuduTQ6PVIos0rtr3fsdKASHDh3LC.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipM15O9vYQCCuduTQ6PVIos0rtr3fsdKASHDh3LC.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 55463,
+      "sha1": "848726b3f4089479",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Gutted room with dehumidifiers and text overlay",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "indoor_clutter"
+      ],
+      "reason": "Marketing caption burned over equipment photo, not a clean real shot.",
+      "triaged_at": "2026-10-01T20:56:49Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipM1D-3qhyewvgl0NjdDOxCTusI4WNAX5KE1cmoY": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM1D-3qhyewvgl0NjdDOxCTusI4WNAX5KE1cmoY.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipM1D-3qhyewvgl0NjdDOxCTusI4WNAX5KE1cmoY.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 74981,
+      "sha1": "f9db904db339ce9a",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Burned building interior with fire line tape and caption",
+      "quality": 35,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Fire damage scene with marketing text overlay added.",
+      "triaged_at": "2026-10-01T20:56:49Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipM1LjTWYhCHe_t4rW5346T7PmOMlf6TB9aZajU1": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM1LjTWYhCHe_t4rW5346T7PmOMlf6TB9aZajU1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipM1LjTWYhCHe_t4rW5346T7PmOMlf6TB9aZajU1.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 76013,
+      "sha1": "9597663bb24600e8",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Water-damaged living room with collapsed ceiling and caption",
+      "quality": 35,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "indoor_clutter"
+      ],
+      "reason": "Damage scene with marketing headline text overlaid on photo.",
+      "triaged_at": "2026-10-01T20:56:49Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipM3fcxscOH8uWPfF6ZuGDU32RWaT1OhHPICXPCC": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM3fcxscOH8uWPfF6ZuGDU32RWaT1OhHPICXPCC.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipM3fcxscOH8uWPfF6ZuGDU32RWaT1OhHPICXPCC.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 69383,
+      "sha1": "6bc586bd80133375",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Worker's hands feeding hose into sewer access with caption",
+      "quality": 40,
+      "slots": {
+        "hero": 0,
+        "team": 10,
+        "services": 25
+      },
+      "service_slugs": [
+        "sewage-cleanup"
+      ],
+      "flags": [
+        "text_overlay",
+        "people_faces"
+      ],
+      "reason": "Sewage cleanup work shot with marketing text overlay added.",
+      "triaged_at": "2026-10-01T20:56:49Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipM5L8buQstdB-lhfhZ2_ccaXEBk2Zs2L5CiINBj": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM5L8buQstdB-lhfhZ2_ccaXEBk2Zs2L5CiINBj.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipM5L8buQstdB-lhfhZ2_ccaXEBk2Zs2L5CiINBj.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 44728,
+      "sha1": "d797d51ea4bba56d",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Flooded floor with extraction equipment and caption",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Water extraction scene with marketing headline overlaid on image.",
+      "triaged_at": "2026-10-01T20:56:49Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipM5SBnqjr_6Vk_8HA3t2lYBOIng-Ucf5FCQj4C5": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM5SBnqjr_6Vk_8HA3t2lYBOIng-Ucf5FCQj4C5.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipM5SBnqjr_6Vk_8HA3t2lYBOIng-Ucf5FCQj4C5.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 72249,
+      "sha1": "7d8814440be19ad4",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Close-up of thumb pointing at ceiling sprinkler head with caption",
+      "quality": 30,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "people_faces"
+      ],
+      "reason": "Generic close-up with marketing text overlay, low informational value.",
+      "triaged_at": "2026-10-01T20:56:49Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipM8cEXX7O5NwcJypgsnG9w5_Vv704h8geVNsynG": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM8cEXX7O5NwcJypgsnG9w5_Vv704h8geVNsynG.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipM8cEXX7O5NwcJypgsnG9w5_Vv704h8geVNsynG.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 70911,
+      "sha1": "4fdc4f27a614301b",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Mold-damaged ceiling joists with text overlay",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Caption bar overlaid promoting mold services, not offered by client",
+      "triaged_at": "2026-10-01T20:56:57Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipMESpXCanC7PFMCcBhIpwLDFX7XMdAOGWN0s2Py": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMESpXCanC7PFMCcBhIpwLDFX7XMdAOGWN0s2Py.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipMESpXCanC7PFMCcBhIpwLDFX7XMdAOGWN0s2Py.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 44319,
+      "sha1": "c461cfedefe4068c",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Water-damaged moldy wall with text overlay",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 25
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Overlaid caption text turns photo into marketing graphic",
+      "triaged_at": "2026-10-01T20:56:57Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipMEc7KNUXxNlUMOi8dczvpw3FyZgGovjLNau0Li": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMEc7KNUXxNlUMOi8dczvpw3FyZgGovjLNau0Li.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipMEc7KNUXxNlUMOi8dczvpw3FyZgGovjLNau0Li.jpg",
+      "width": 720,
+      "height": 540,
+      "bytes": 55601,
+      "sha1": "aa21882f64ec3a52",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Corroded leaking pipe above water-damaged subfloor",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Close-up of leaking pipe causing water damage, real documentation",
+      "triaged_at": "2026-10-01T20:56:57Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipMEviDkRseGqJdTTAF3Nuo56zAKwHWqgplEEfZC": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMEviDkRseGqJdTTAF3Nuo56zAKwHWqgplEEfZC.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipMEviDkRseGqJdTTAF3Nuo56zAKwHWqgplEEfZC.jpg",
+      "width": 940,
+      "height": 788,
+      "bytes": 1178963,
+      "sha1": "bf330acc6af3ba76",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Bathroom floor demolition exposing subfloor and pipes",
+      "quality": 55,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Demo work in progress showing restoration job site",
+      "triaged_at": "2026-10-01T20:56:57Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipMNd6srSZB_6Mddp40aRXh_g8rB0hnX-GYCIi-g": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMNd6srSZB_6Mddp40aRXh_g8rB0hnX-GYCIi-g.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipMNd6srSZB_6Mddp40aRXh_g8rB0hnX-GYCIi-g.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 40077,
+      "sha1": "1fb49456191b9e0e",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Smoky window scene with text overlay",
+      "quality": 30,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo"
+      ],
+      "reason": "Artificial smoke effect with marketing caption, looks staged",
+      "triaged_at": "2026-10-01T20:56:57Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipMObYrv_SgLjhH98AcgLGfMoqWRAgEC05T69e-S": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMObYrv_SgLjhH98AcgLGfMoqWRAgEC05T69e-S.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipMObYrv_SgLjhH98AcgLGfMoqWRAgEC05T69e-S.jpg",
+      "width": 1440,
+      "height": 1440,
+      "bytes": 202641,
+      "sha1": "8c81a69d246806dc",
+      "exif": {},
+      "category": "fleet",
+      "subject": "Two views of BIONIC branded orange service van",
+      "quality": 80,
+      "slots": {
+        "hero": 75,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clean branded company van wrap, real fleet photo collage",
+      "triaged_at": "2026-10-01T20:56:57Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipMSP5T51_VJeGUe_DKzjf-Ds14Eadgt6m88FpO5": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMSP5T51_VJeGUe_DKzjf-Ds14Eadgt6m88FpO5.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipMSP5T51_VJeGUe_DKzjf-Ds14Eadgt6m88FpO5.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 58681,
+      "sha1": "d17cf221c383c882",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Water damaged pillars with caption text overlay",
+      "quality": 30,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Burnt-in headline text over damage photo, marketing graphic.",
+      "triaged_at": "2026-10-01T20:57:05Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipMcBdxI8dszzrXRP6A3vHB5EhLDsVypCvtxurZw": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMcBdxI8dszzrXRP6A3vHB5EhLDsVypCvtxurZw.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipMcBdxI8dszzrXRP6A3vHB5EhLDsVypCvtxurZw.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 57337,
+      "sha1": "6c704c0421fea2ab",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Soot damaged wall with caption text overlay",
+      "quality": 30,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Caption text burnt into fire damage photo, marketing graphic.",
+      "triaged_at": "2026-10-01T20:57:05Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipMfLYO17ztuoSVO5qZH38JZIIhARrCn_ggC-251": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMfLYO17ztuoSVO5qZH38JZIIhARrCn_ggC-251.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipMfLYO17ztuoSVO5qZH38JZIIhARrCn_ggC-251.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 46427,
+      "sha1": "4cf46da379330ef0",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Air mover drying carpet with caption text overlay",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Equipment photo with overlaid marketing headline text.",
+      "triaged_at": "2026-10-01T20:57:05Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipMgKlnTKW_nqAiaC2Gx0MHqERuq8wREOXH0ADGK": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMgKlnTKW_nqAiaC2Gx0MHqERuq8wREOXH0ADGK.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipMgKlnTKW_nqAiaC2Gx0MHqERuq8wREOXH0ADGK.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 49410,
+      "sha1": "9c323ce91d5c834a",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Flooded commercial hallway with caption text overlay",
+      "quality": 30,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "sewage-cleanup"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Flood scene with burnt-in marketing caption for businesses.",
+      "triaged_at": "2026-10-01T20:57:05Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipMnwvErYVpqz-ysUxgBXpfNKDpsHKUXtmBKl0_N": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMnwvErYVpqz-ysUxgBXpfNKDpsHKUXtmBKl0_N.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipMnwvErYVpqz-ysUxgBXpfNKDpsHKUXtmBKl0_N.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 102257,
+      "sha1": "744513511ca1e50b",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Moldy wall surface with caption text overlay",
+      "quality": 25,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 5
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Mold texture photo with marketing text, no matching service slug.",
+      "triaged_at": "2026-10-01T20:57:05Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipMoExMqLGUMEDh24VwilMmyrDXOmsGk9_3QAcFJ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMoExMqLGUMEDh24VwilMmyrDXOmsGk9_3QAcFJ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipMoExMqLGUMEDh24VwilMmyrDXOmsGk9_3QAcFJ.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 38396,
+      "sha1": "ede2a3499d693d60",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Flooded wood floor with caption text overlay",
+      "quality": 30,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "storm-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Flood damage floor with burnt-in marketing headline text.",
+      "triaged_at": "2026-10-01T20:57:05Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipMxTL3R7MNJDEkYiaFf0L0fy3acqMWhVksmeDKO": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMxTL3R7MNJDEkYiaFf0L0fy3acqMWhVksmeDKO.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipMxTL3R7MNJDEkYiaFf0L0fy3acqMWhVksmeDKO.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 34066,
+      "sha1": "e00d62b6b3e4949d",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Stock photo of woman on phone with leaking sink, text overlay",
+      "quality": 30,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo",
+        "people_faces"
+      ],
+      "reason": "Stock photo with marketing text overlay, not a real job photo.",
+      "triaged_at": "2026-10-01T20:57:13Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipN0f0Ri64NJ4C046168nIcDxn8ypcvdZufyixqM": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN0f0Ri64NJ4C046168nIcDxn8ypcvdZufyixqM.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipN0f0Ri64NJ4C046168nIcDxn8ypcvdZufyixqM.jpg",
+      "width": 940,
+      "height": 788,
+      "bytes": 769203,
+      "sha1": "e5b20575dbc810a9",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Air mover fan on wood floor near refrigerator",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Clean equipment shot, possibly stock but usable for services.",
+      "triaged_at": "2026-10-01T20:57:13Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipN4NQQCZEEBEioljcauc7YbR8YIVE6DyWahD71V": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN4NQQCZEEBEioljcauc7YbR8YIVE6DyWahD71V.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipN4NQQCZEEBEioljcauc7YbR8YIVE6DyWahD71V.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 44933,
+      "sha1": "3be2b62ee3339faa",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Stock photo of person in hazmat suit with text overlay about mold",
+      "quality": 30,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "stock_photo",
+        "people_faces"
+      ],
+      "reason": "Stock image with marketing caption burnt in, not real job.",
+      "triaged_at": "2026-10-01T20:57:13Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipN8qZ74NlNqxzXOBoC5jpQOJ3DDhteOyShkMYfs": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN8qZ74NlNqxzXOBoC5jpQOJ3DDhteOyShkMYfs.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipN8qZ74NlNqxzXOBoC5jpQOJ3DDhteOyShkMYfs.jpg",
+      "width": 1500,
+      "height": 1000,
+      "bytes": 1323892,
+      "sha1": "946a13f3f51d4512",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Kitchen renovation in progress with unfinished cabinets",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 5
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Generic remodel photo unrelated to restoration trade services.",
+      "triaged_at": "2026-10-01T20:57:13Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipND4Dz6XG8xcouTwyjazilmEv5NMkR5V0wzVWbv": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipND4Dz6XG8xcouTwyjazilmEv5NMkR5V0wzVWbv.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipND4Dz6XG8xcouTwyjazilmEv5NMkR5V0wzVWbv.jpg",
+      "width": 940,
+      "height": 788,
+      "bytes": 1000657,
+      "sha1": "e6becb701d1c3421",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Gloved hands cleaning mold off wall with spray bottle",
+      "quality": 60,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo",
+        "people_faces"
+      ],
+      "reason": "Close-up mold cleaning, looks stock but fits service imagery.",
+      "triaged_at": "2026-10-01T20:57:13Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipNHo5pbUzM0vZqEMaqMCQJxx-_p9ekOBKwFCGeN": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNHo5pbUzM0vZqEMaqMCQJxx-_p9ekOBKwFCGeN.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipNHo5pbUzM0vZqEMaqMCQJxx-_p9ekOBKwFCGeN.jpg",
+      "width": 720,
+      "height": 540,
+      "bytes": 58815,
+      "sha1": "739fafaf54891d3e",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Exposed wall studs with air mover drying water damage",
+      "quality": 60,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Real water damage drying job showing exposed framing and equipment.",
+      "triaged_at": "2026-10-01T20:57:13Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipNJC1NaG5k9WVifAhewlwZ9dJ5VUxtaZDIA8d2t": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNJC1NaG5k9WVifAhewlwZ9dJ5VUxtaZDIA8d2t.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipNJC1NaG5k9WVifAhewlwZ9dJ5VUxtaZDIA8d2t.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 21319,
+      "sha1": "34ec4ad09e15e52e",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Stock bathtub and bucket with text overlay about leak detection",
+      "quality": 40,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo"
+      ],
+      "reason": "Stock photo with marketing text overlay, not a real job site.",
+      "triaged_at": "2026-10-01T20:57:21Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipNOl13TXRG34oL7uH9xd6V3YvdEeb0fb9iWgQ-h": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNOl13TXRG34oL7uH9xd6V3YvdEeb0fb9iWgQ-h.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipNOl13TXRG34oL7uH9xd6V3YvdEeb0fb9iWgQ-h.jpg",
+      "width": 1000,
+      "height": 1000,
+      "bytes": 1747643,
+      "sha1": "8f6a6e455a09a4b6",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Crane truck lifting concrete slab at residential construction site",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 5
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Generic construction/crane scene unrelated to water/fire restoration trade.",
+      "triaged_at": "2026-10-01T20:57:21Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipNQECyA9Tym_OKuHH8x_HRVx1ZaQcfjqndyS038": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNQECyA9Tym_OKuHH8x_HRVx1ZaQcfjqndyS038.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipNQECyA9Tym_OKuHH8x_HRVx1ZaQcfjqndyS038.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 36962,
+      "sha1": "2e23afc31b2afeb5",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Mold in corner of ceiling with text overlay about mold removal",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "stock_photo"
+      ],
+      "reason": "Stock mold image with marketing caption, mold service not in client list.",
+      "triaged_at": "2026-10-01T20:57:21Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipNQL4DyBpq2N3oZqetL8WD86aaIPyDGj6vfauHf": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNQL4DyBpq2N3oZqetL8WD86aaIPyDGj6vfauHf.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipNQL4DyBpq2N3oZqetL8WD86aaIPyDGj6vfauHf.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 35329,
+      "sha1": "bc7d31e2c280866e",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Air mover on wood floor with text overlay about water mitigation",
+      "quality": 40,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 25
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo"
+      ],
+      "reason": "Stock equipment photo with marketing caption, not an authentic job photo.",
+      "triaged_at": "2026-10-01T20:57:21Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipNVT0XdsHV45rwbjvxA3w9-7EI5tFvwAZcQla8R": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNVT0XdsHV45rwbjvxA3w9-7EI5tFvwAZcQla8R.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipNVT0XdsHV45rwbjvxA3w9-7EI5tFvwAZcQla8R.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 39418,
+      "sha1": "4be51835e3244005",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Stock photo of two people inspecting water-damaged ceiling with text overlay",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 10,
+        "services": 20
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo",
+        "people_faces"
+      ],
+      "reason": "Staged stock photo with caption, not real company crew.",
+      "triaged_at": "2026-10-01T20:57:21Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipNW4SzgDWOToAGk-PZLMLFjvFi6wKrBfejzMk7I": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNW4SzgDWOToAGk-PZLMLFjvFi6wKrBfejzMk7I.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipNW4SzgDWOToAGk-PZLMLFjvFi6wKrBfejzMk7I.jpg",
+      "width": 2000,
+      "height": 1335,
+      "bytes": 239925,
+      "sha1": "61b35b7293f98d89",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Stock photo of worker surveying gutted construction interior",
+      "quality": 40,
+      "slots": {
+        "hero": 10,
+        "team": 15,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo",
+        "people_faces"
+      ],
+      "reason": "Generic construction stock photo unrelated to restoration services listed.",
+      "triaged_at": "2026-10-01T20:57:21Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipNZhdRyHyQ9yAj3nw5mEGivtEnd9UJHDsxhtbVc": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNZhdRyHyQ9yAj3nw5mEGivtEnd9UJHDsxhtbVc.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipNZhdRyHyQ9yAj3nw5mEGivtEnd9UJHDsxhtbVc.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 67048,
+      "sha1": "c6f814fa3c2438b0",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Water-stained wood floor with text overlay caption",
+      "quality": 40,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Marketing graphic with burnt-in headline text over damaged floor photo.",
+      "triaged_at": "2026-10-01T20:57:30Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipN_HoGXlVDYJbe0mzZdfNU-6CBkjx-KmgazeCed": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN_HoGXlVDYJbe0mzZdfNU-6CBkjx-KmgazeCed.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipN_HoGXlVDYJbe0mzZdfNU-6CBkjx-KmgazeCed.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 83981,
+      "sha1": "f0adcf54604dd136",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Gutted interior room with exposed studs and ladder",
+      "quality": 60,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "storm-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Demolition/renovation stage of a water or storm damaged structure, no crew visible.",
+      "triaged_at": "2026-10-01T20:57:30Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipNgidWp3Nuo4GOMrep0HPuGeWWsuM9hCEx4xr73": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNgidWp3Nuo4GOMrep0HPuGeWWsuM9hCEx4xr73.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipNgidWp3Nuo4GOMrep0HPuGeWWsuM9hCEx4xr73.jpg",
+      "width": 2000,
+      "height": 1325,
+      "bytes": 285999,
+      "sha1": "cbe9e18ba223a487",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Buckled wood parquet flooring damage close-up",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clean close-up of water-damaged buckled flooring, useful for services page.",
+      "triaged_at": "2026-10-01T20:57:30Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipNmkt4RLR9NUQ8Sph0X21qtzZD-lREcanOGPSWk": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNmkt4RLR9NUQ8Sph0X21qtzZD-lREcanOGPSWk.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipNmkt4RLR9NUQ8Sph0X21qtzZD-lREcanOGPSWk.jpg",
+      "width": 720,
+      "height": 540,
+      "bytes": 40503,
+      "sha1": "a63cf2e590208687",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Air mover fan drying kitchen floor",
+      "quality": 70,
+      "slots": {
+        "hero": 40,
+        "team": 0,
+        "services": 75
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Drying equipment deployed on wood floor, clear service-in-action photo.",
+      "triaged_at": "2026-10-01T20:57:30Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipNqiaqzR-OB7mexEvMNP3JpK29MkpybHlVF1ll0": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNqiaqzR-OB7mexEvMNP3JpK29MkpybHlVF1ll0.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipNqiaqzR-OB7mexEvMNP3JpK29MkpybHlVF1ll0.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 286483,
+      "sha1": "51e8b9ead4df6503",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Wall hole with pipes, bucket, and text overlay",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Marketing graphic with burnt-in caption over damage photo.",
+      "triaged_at": "2026-10-01T20:57:30Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipNuKBDLl_W15RU7MqlcySUTvmDjnOzn4mn2mScN": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNuKBDLl_W15RU7MqlcySUTvmDjnOzn4mn2mScN.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipNuKBDLl_W15RU7MqlcySUTvmDjnOzn4mn2mScN.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 36327,
+      "sha1": "2c5c9dc0fbe707e7",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Water-stained ceiling corner with overlaid headline text",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Promotional graphic with large stylized text over stained ceiling photo.",
+      "triaged_at": "2026-10-01T20:57:30Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipNvBOUSUCIS-jf2edKP3BXaPOogWHj8PgGY2bB_": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNvBOUSUCIS-jf2edKP3BXaPOogWHj8PgGY2bB_.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipNvBOUSUCIS-jf2edKP3BXaPOogWHj8PgGY2bB_.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 56002,
+      "sha1": "b8925fce1932d5e6",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Burned house roof with text overlay caption",
+      "quality": 40,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo"
+      ],
+      "reason": "Marketing graphic with burnt-in headline text over damage photo.",
+      "triaged_at": "2026-10-01T20:57:38Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipNvGWZVQiL60z7i2vM-rYgB21jbd7DsGQw-05E0": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNvGWZVQiL60z7i2vM-rYgB21jbd7DsGQw-05E0.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipNvGWZVQiL60z7i2vM-rYgB21jbd7DsGQw-05E0.jpg",
+      "width": 940,
+      "height": 788,
+      "bytes": 704829,
+      "sha1": "b90506c2268e3c8e",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Water-damaged ceiling with mold and exposed framing",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear real damage photo showing mold and ceiling collapse.",
+      "triaged_at": "2026-10-01T20:57:38Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipNwdzsk1piws_pqtBVIxJQyyQ60-2u_y1OpE5dW": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNwdzsk1piws_pqtBVIxJQyyQ60-2u_y1OpE5dW.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipNwdzsk1piws_pqtBVIxJQyyQ60-2u_y1OpE5dW.jpg",
+      "width": 720,
+      "height": 540,
+      "bytes": 53409,
+      "sha1": "49ae94b9b3fe2584",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Flooded hallway with water-damaged wood flooring",
+      "quality": 60,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Real interior flooding scene with standing water and debris.",
+      "triaged_at": "2026-10-01T20:57:38Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipO0oyXKg3Gu7sjeoUIonK94GRUm5_okNI9DA1Ay": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO0oyXKg3Gu7sjeoUIonK94GRUm5_okNI9DA1Ay.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipO0oyXKg3Gu7sjeoUIonK94GRUm5_okNI9DA1Ay.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 75005,
+      "sha1": "0b5fd0b95eb39458",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Sewer access pipe with text overlay caption",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 25
+      },
+      "service_slugs": [
+        "sewage-cleanup"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo"
+      ],
+      "reason": "Stock-style photo with burnt-in marketing headline text.",
+      "triaged_at": "2026-10-01T20:57:38Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipO18jr9XT2ek2bH6eez-C_ntgHjCeTCyfyJzhYN": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO18jr9XT2ek2bH6eez-C_ntgHjCeTCyfyJzhYN.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipO18jr9XT2ek2bH6eez-C_ntgHjCeTCyfyJzhYN.jpg",
+      "width": 940,
+      "height": 788,
+      "bytes": 1000215,
+      "sha1": "e8948534d4f57c7f",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Air mover and dehumidifier on wood floor indoors",
+      "quality": 70,
+      "slots": {
+        "hero": 40,
+        "team": 0,
+        "services": 80
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Clean real equipment photo showing drying gear deployed in home.",
+      "triaged_at": "2026-10-01T20:57:38Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipO3HvR5OROJdFbHthOExUH5UHBnahJqkxQkNClA": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO3HvR5OROJdFbHthOExUH5UHBnahJqkxQkNClA.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipO3HvR5OROJdFbHthOExUH5UHBnahJqkxQkNClA.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 38615,
+      "sha1": "c779e7a810a5064b",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Woman with umbrella and bucket, staged indoor scene",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo",
+        "people_faces"
+      ],
+      "reason": "Staged stock photo with overlaid marketing text, not real job.",
+      "triaged_at": "2026-10-01T20:57:38Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipO4xfBm36_HnAYyIhyZC-yeoPQj3zeU4oyJKmn5": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO4xfBm36_HnAYyIhyZC-yeoPQj3zeU4oyJKmn5.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipO4xfBm36_HnAYyIhyZC-yeoPQj3zeU4oyJKmn5.jpg",
+      "width": 1000,
+      "height": 1000,
+      "bytes": 1067946,
+      "sha1": "84323aacc1e249fd",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Hole in wall exposing insulation and framing, debris on floor",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Real damage photo showing exposed wall structure and insulation.",
+      "triaged_at": "2026-10-01T20:57:46Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipO5h0h-vZ3KsspUJ7uDEm6-WGJ0kCTZMySabR1g": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO5h0h-vZ3KsspUJ7uDEm6-WGJ0kCTZMySabR1g.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipO5h0h-vZ3KsspUJ7uDEm6-WGJ0kCTZMySabR1g.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 49001,
+      "sha1": "46cdf8e9917ce163",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Workers mopping flooded room with caption overlay",
+      "quality": 40,
+      "slots": {
+        "hero": 0,
+        "team": 10,
+        "services": 20
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo"
+      ],
+      "reason": "Stock-style image with marketing caption burnt into photo.",
+      "triaged_at": "2026-10-01T20:57:46Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipOAdP_YiWrrDOweVupDPbNYW_-snV-zSCFPr0mr": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOAdP_YiWrrDOweVupDPbNYW_-snV-zSCFPr0mr.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipOAdP_YiWrrDOweVupDPbNYW_-snV-zSCFPr0mr.jpg",
+      "width": 940,
+      "height": 788,
+      "bytes": 913065,
+      "sha1": "8ae22d0ad0fae36c",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Air mover and dehumidifier set up in damaged room",
+      "quality": 60,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Real drying equipment staged in water-damaged room.",
+      "triaged_at": "2026-10-01T20:57:46Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipODknKquXu5R7eBgfjrcwLCbsCvR6GcOZVOUkdu": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipODknKquXu5R7eBgfjrcwLCbsCvR6GcOZVOUkdu.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipODknKquXu5R7eBgfjrcwLCbsCvR6GcOZVOUkdu.jpg",
+      "width": 940,
+      "height": 788,
+      "bytes": 1021845,
+      "sha1": "bcabee6b4ecd007c",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Blue air mover fan close-up on wet floor",
+      "quality": 60,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear equipment shot of drying fan used on jobsite.",
+      "triaged_at": "2026-10-01T20:57:46Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipOLDbXel8Wu6Cd91fZuqh6VGm5KMOeOl3x4A1-d": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOLDbXel8Wu6Cd91fZuqh6VGm5KMOeOl3x4A1-d.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipOLDbXel8Wu6Cd91fZuqh6VGm5KMOeOl3x4A1-d.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 27404,
+      "sha1": "844512b186204496",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Smoke detector with smoke and text overlay caption",
+      "quality": 35,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo"
+      ],
+      "reason": "Stock smoke detector image with marketing text added.",
+      "triaged_at": "2026-10-01T20:57:46Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipONOOtBhQ2wEfBBENAWCAUE2UgVV5ouAr1nWhGL": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipONOOtBhQ2wEfBBENAWCAUE2UgVV5ouAr1nWhGL.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipONOOtBhQ2wEfBBENAWCAUE2UgVV5ouAr1nWhGL.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 40242,
+      "sha1": "384cda9f5217f4a1",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Workers in flooded area with caption text overlay",
+      "quality": 35,
+      "slots": {
+        "hero": 0,
+        "team": 10,
+        "services": 20
+      },
+      "service_slugs": [
+        "storm-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo"
+      ],
+      "reason": "Stock-style flood photo with marketing caption burnt in.",
+      "triaged_at": "2026-10-01T20:57:46Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipOOHLhMHmqUUkhff6dj9O0qiW2Ai3H0tXLZnubl": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOOHLhMHmqUUkhff6dj9O0qiW2Ai3H0tXLZnubl.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipOOHLhMHmqUUkhff6dj9O0qiW2Ai3H0tXLZnubl.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 34756,
+      "sha1": "66327e57a80f3945",
+      "exif": {},
+      "category": "graphic",
+      "subject": "ceiling water stain with dripping water and caption text",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo"
+      ],
+      "reason": "Marketing graphic with burnt-in headline text over stock-like water damage image.",
+      "triaged_at": "2026-10-01T20:57:54Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipOQs6u2sm6psM9Pkr2Nh1bWFeJJejx-nZx-wPE7": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOQs6u2sm6psM9Pkr2Nh1bWFeJJejx-nZx-wPE7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipOQs6u2sm6psM9Pkr2Nh1bWFeJJejx-nZx-wPE7.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 44264,
+      "sha1": "86154e8bcb5721c4",
+      "exif": {},
+      "category": "graphic",
+      "subject": "flooded floor with extraction hose and caption text",
+      "quality": 40,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [
+        "water-cleanup",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Real equipment photo but overlaid marketing caption text added afterward.",
+      "triaged_at": "2026-10-01T20:57:54Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipOUd2R7szYds-fXn48IEgOYvgCggs158EUFyuea": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOUd2R7szYds-fXn48IEgOYvgCggs158EUFyuea.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipOUd2R7szYds-fXn48IEgOYvgCggs158EUFyuea.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 72110,
+      "sha1": "d6f85646ab70df9f",
+      "exif": {},
+      "category": "graphic",
+      "subject": "burned bedroom interior with caption text",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo"
+      ],
+      "reason": "Fire damage scene overlaid with marketing headline, looks stock-sourced.",
+      "triaged_at": "2026-10-01T20:57:54Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipOWiNfS3GOSS75q3c0KS-JfynvCDzX7G9yStE1n": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOWiNfS3GOSS75q3c0KS-JfynvCDzX7G9yStE1n.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipOWiNfS3GOSS75q3c0KS-JfynvCDzX7G9yStE1n.jpg",
+      "width": 720,
+      "height": 540,
+      "bytes": 58875,
+      "sha1": "6f20e05401e7330f",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "water stain around toilet flange on subfloor",
+      "quality": 55,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "sewage-cleanup"
+      ],
+      "flags": [],
+      "reason": "Clean real photo of subfloor water damage, no overlays.",
+      "triaged_at": "2026-10-01T20:57:54Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipOZ9rXpu5s0fgGl2E3U7dxjnu4Byyc5Lj1w8xor": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOZ9rXpu5s0fgGl2E3U7dxjnu4Byyc5Lj1w8xor.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipOZ9rXpu5s0fgGl2E3U7dxjnu4Byyc5Lj1w8xor.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 48808,
+      "sha1": "99fd4c54e094b8fd",
+      "exif": {},
+      "category": "graphic",
+      "subject": "burned kitchen stove and counter with caption text",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo"
+      ],
+      "reason": "Fire damage image with overlaid marketing text, likely stock photo.",
+      "triaged_at": "2026-10-01T20:57:54Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipO_NDGlZ0SKKvP9FOZXrVk4e9DdCQmR7j0GK8fb": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO_NDGlZ0SKKvP9FOZXrVk4e9DdCQmR7j0GK8fb.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipO_NDGlZ0SKKvP9FOZXrVk4e9DdCQmR7j0GK8fb.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 57337,
+      "sha1": "6c704c0421fea2ab",
+      "exif": {},
+      "duplicate_of": "gbp:gbp-AF1QipMcBdxI8dszzrXRP6A3vHB5EhLDsVypCvtxurZw"
+    },
+    "gbp:gbp-AF1QipOdlRl1LLKzWSE5XQeFlxhFoQ9Mm4T5ddP2oywT": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOdlRl1LLKzWSE5XQeFlxhFoQ9Mm4T5ddP2oywT.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipOdlRl1LLKzWSE5XQeFlxhFoQ9Mm4T5ddP2oywT.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 55284,
+      "sha1": "fbe463af95414d7d",
+      "exif": {},
+      "category": "graphic",
+      "subject": "house roof fire with smoke and caption text",
+      "quality": 30,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo"
+      ],
+      "reason": "Dramatic stock-style fire image with marketing headline overlaid.",
+      "triaged_at": "2026-10-01T20:57:54Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipOk5rQLsOINcBwuLEAU9FWgWguwHSE-PQcZdyMe": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOk5rQLsOINcBwuLEAU9FWgWguwHSE-PQcZdyMe.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipOk5rQLsOINcBwuLEAU9FWgWguwHSE-PQcZdyMe.jpg",
+      "width": 720,
+      "height": 540,
+      "bytes": 96369,
+      "sha1": "aafd2c6cc5efcad8",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Fire-gutted room with charred debris and burnt furniture",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [
+        "graphic_content"
+      ],
+      "reason": "Severe fire damage scene, authentic job site photo.",
+      "triaged_at": "2026-10-01T20:58:02Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipOkk1RyOKKUZhZ982f_usdmeb-ZErnC1vrn6fAb": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOkk1RyOKKUZhZ982f_usdmeb-ZErnC1vrn6fAb.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipOkk1RyOKKUZhZ982f_usdmeb-ZErnC1vrn6fAb.jpg",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2270608,
+      "sha1": "6f8e5c3badf64894",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Happy New Year 2026 holiday marketing graphic with logo",
+      "quality": 40,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "graphic_content"
+      ],
+      "reason": "Designed seasonal promo graphic, not a real job photo.",
+      "triaged_at": "2026-10-01T20:58:02Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipOmqT0kRSRMDrzKxmEY8mUtKzgj0OHbXYWzSq0J": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOmqT0kRSRMDrzKxmEY8mUtKzgj0OHbXYWzSq0J.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipOmqT0kRSRMDrzKxmEY8mUtKzgj0OHbXYWzSq0J.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 52001,
+      "sha1": "102f99b8260e7fa6",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Close-up of fire-scorched wall and baseboard near window",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Authentic close-up of fire damage on interior wall.",
+      "triaged_at": "2026-10-01T20:58:02Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipOocw6seH7h2jrKUYmINI2Vh48zfcCKxP-2ITn7": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOocw6seH7h2jrKUYmINI2Vh48zfcCKxP-2ITn7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipOocw6seH7h2jrKUYmINI2Vh48zfcCKxP-2ITn7.jpg",
+      "width": 720,
+      "height": 540,
+      "bytes": 57349,
+      "sha1": "a535ca578e66e543",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Hand holding thermal imaging camera inspecting wall moisture",
+      "quality": 60,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Polished stock-style image of thermal imaging device, likely licensed.",
+      "triaged_at": "2026-10-01T20:58:02Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipOqZ0jA2db1EyX2DtO5dSHeKVaM0PjnbAPuC9Gk": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOqZ0jA2db1EyX2DtO5dSHeKVaM0PjnbAPuC9Gk.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipOqZ0jA2db1EyX2DtO5dSHeKVaM0PjnbAPuC9Gk.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 59819,
+      "sha1": "bfe9a5681a51c4da",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Air movers in crawlspace with overlaid Houston water damage text",
+      "quality": 40,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Real equipment photo but captioned with marketing text overlay.",
+      "triaged_at": "2026-10-01T20:58:02Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipOw6167UVeii29OO_v2gcSZ03oVPsxe7oslPdIo": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOw6167UVeii29OO_v2gcSZ03oVPsxe7oslPdIo.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipOw6167UVeii29OO_v2gcSZ03oVPsxe7oslPdIo.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 23707,
+      "sha1": "87f77313f8b56133",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Ceiling water stain with leak detection marketing text overlay",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Water stain photo captioned with promotional leak detection text.",
+      "triaged_at": "2026-10-01T20:58:02Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipOwzPXyKIsMt9piGON-iRWcGNh4FmVZeQk0JDrO": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOwzPXyKIsMt9piGON-iRWcGNh4FmVZeQk0JDrO.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipOwzPXyKIsMt9piGON-iRWcGNh4FmVZeQk0JDrO.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 54510,
+      "sha1": "2610b4002e700c5f",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Air movers on floor with text overlay caption",
+      "quality": 45,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Equipment photo with marketing caption text burnt in.",
+      "triaged_at": "2026-10-01T20:58:09Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipOzQTmW-Jb7TCA1VtiRUB2O3IB004iWZYzKGthh": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOzQTmW-Jb7TCA1VtiRUB2O3IB004iWZYzKGthh.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipOzQTmW-Jb7TCA1VtiRUB2O3IB004iWZYzKGthh.jpg",
+      "width": 720,
+      "height": 540,
+      "bytes": 71883,
+      "sha1": "70a337e3ce84c483",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Water-damaged subfloor with rust and staining",
+      "quality": 40,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Raw damage photo, no overlay, usable for services.",
+      "triaged_at": "2026-10-01T20:58:09Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipP6nHe2HjCvXa-Jx_RCTB2St6jBfPexbXp-WYox": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP6nHe2HjCvXa-Jx_RCTB2St6jBfPexbXp-WYox.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipP6nHe2HjCvXa-Jx_RCTB2St6jBfPexbXp-WYox.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 24870,
+      "sha1": "eea6c9ab8a44f4ca",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Water drip on tile with leak detection caption",
+      "quality": 35,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Staged drip photo with marketing text overlay.",
+      "triaged_at": "2026-10-01T20:58:09Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipP9Mk5lXqUWLUTTq-znGL29Z-43mdkgrp4Y_zxd": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP9Mk5lXqUWLUTTq-znGL29Z-43mdkgrp4Y_zxd.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipP9Mk5lXqUWLUTTq-znGL29Z-43mdkgrp4Y_zxd.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 49693,
+      "sha1": "ee0f5c2195874662",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Leaking pipe over damaged wood with text overlay",
+      "quality": 35,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Pipe leak image captioned with marketing headline.",
+      "triaged_at": "2026-10-01T20:58:09Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipP9MmwD59eyGiTxzY8sFmZk5_NSox52XKB2sPxb": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP9MmwD59eyGiTxzY8sFmZk5_NSox52XKB2sPxb.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipP9MmwD59eyGiTxzY8sFmZk5_NSox52XKB2sPxb.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 45281,
+      "sha1": "63da0fc3bfc2d364",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Air mover near opened wall with text overlay",
+      "quality": 35,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 25
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Equipment and damage photo with headline text added.",
+      "triaged_at": "2026-10-01T20:58:09Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipPAEMNmT7YipjN72UJ7hMG5r4mclbduP_Wi08hS": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPAEMNmT7YipjN72UJ7hMG5r4mclbduP_Wi08hS.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipPAEMNmT7YipjN72UJ7hMG5r4mclbduP_Wi08hS.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 40574,
+      "sha1": "c00bd1385c6ac55b",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Collapsed ceiling with pipes and text overlay",
+      "quality": 35,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 25
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Ceiling damage photo captioned with marketing text.",
+      "triaged_at": "2026-10-01T20:58:09Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipPELUQgbt484-7aMUAK9LLlUfAYtodvKmp05Z7I": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPELUQgbt484-7aMUAK9LLlUfAYtodvKmp05Z7I.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipPELUQgbt484-7aMUAK9LLlUfAYtodvKmp05Z7I.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 57170,
+      "sha1": "d9a00e81c0f5a5f4",
+      "exif": {},
+      "category": "graphic",
+      "subject": "wall water damage with dehumidifier and text caption",
+      "quality": 40,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo"
+      ],
+      "reason": "Caption text overlaid across photo, stock-style framing",
+      "triaged_at": "2026-10-01T20:58:18Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipPSqKthD7SROoQIsOhBE5U1mvA-7uD9KclaX4S0": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPSqKthD7SROoQIsOhBE5U1mvA-7uD9KclaX4S0.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipPSqKthD7SROoQIsOhBE5U1mvA-7uD9KclaX4S0.jpg",
+      "width": 1500,
+      "height": 1000,
+      "bytes": 843229,
+      "sha1": "3859b1b8d9e51214",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "ceiling hole exposing pipes from water leak",
+      "quality": 60,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Clean stock-like damage photo, no crew or branding",
+      "triaged_at": "2026-10-01T20:58:18Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipPUQaykKqBSeZ2mtZVpTrnkC7kQeqHbTslZK_nM": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPUQaykKqBSeZ2mtZVpTrnkC7kQeqHbTslZK_nM.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipPUQaykKqBSeZ2mtZVpTrnkC7kQeqHbTslZK_nM.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 61337,
+      "sha1": "ebcc6755b49f626b",
+      "exif": {},
+      "category": "graphic",
+      "subject": "flooded street and house with caption text",
+      "quality": 35,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "storm-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo"
+      ],
+      "reason": "Marketing caption overlaid on generic flood stock photo",
+      "triaged_at": "2026-10-01T20:58:18Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipPb6P0iR4KmZHiHXQnbFz15BdD0DiBzOx1SxbVb": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPb6P0iR4KmZHiHXQnbFz15BdD0DiBzOx1SxbVb.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipPb6P0iR4KmZHiHXQnbFz15BdD0DiBzOx1SxbVb.jpg",
+      "width": 1000,
+      "height": 1000,
+      "bytes": 1481070,
+      "sha1": "f631ba45848b939c",
+      "exif": {},
+      "category": "crew",
+      "subject": "two workers in hazmat suits cleaning debris outdoors",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 75,
+        "services": 60
+      },
+      "service_slugs": [
+        "contents-restoration-storage"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Real crew in PPE doing cleanup work, usable team photo",
+      "triaged_at": "2026-10-01T20:58:18Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipPbizs9Xssj_PUO1727hFBKL4X3tOvf6micUeGs": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPbizs9Xssj_PUO1727hFBKL4X3tOvf6micUeGs.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipPbizs9Xssj_PUO1727hFBKL4X3tOvf6micUeGs.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 37259,
+      "sha1": "1d99ab7546db2da5",
+      "exif": {},
+      "category": "graphic",
+      "subject": "leaking copper pipe with caption text",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo"
+      ],
+      "reason": "Stock pipe leak image with marketing text overlay",
+      "triaged_at": "2026-10-01T20:58:18Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipPdNnFDIlEQapxDcC7bLHAVbT2UERA1z0PU6s6y": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPdNnFDIlEQapxDcC7bLHAVbT2UERA1z0PU6s6y.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipPdNnFDIlEQapxDcC7bLHAVbT2UERA1z0PU6s6y.jpg",
+      "width": 720,
+      "height": 540,
+      "bytes": 72670,
+      "sha1": "5e284b0ae7e62e04",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "fire-damaged kitchen with scorched walls and pots",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Generic fire damage stock photo, no crew or branding",
+      "triaged_at": "2026-10-01T20:58:18Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipPgUV9dA5NzkdufVlI8X0-pxJ5SP_EWy0SDbmFu": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPgUV9dA5NzkdufVlI8X0-pxJ5SP_EWy0SDbmFu.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipPgUV9dA5NzkdufVlI8X0-pxJ5SP_EWy0SDbmFu.jpg",
+      "width": 720,
+      "height": 540,
+      "bytes": 92051,
+      "sha1": "2b5723a71675b8b4",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Water-damaged hardwood floor with staining and debris",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear damage documentation photo, no crew or branding present.",
+      "triaged_at": "2026-10-01T20:58:28Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipPgaW5qvc0v1FfdDYCMy9IR2zDEUU__c-DYGUXJ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPgaW5qvc0v1FfdDYCMy9IR2zDEUU__c-DYGUXJ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipPgaW5qvc0v1FfdDYCMy9IR2zDEUU__c-DYGUXJ.jpg",
+      "width": 500,
+      "height": 500,
+      "bytes": 70939,
+      "sha1": "2d12ab20fef946e9",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Sewer drain hose with promotional text overlay",
+      "quality": 40,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "sewage-cleanup"
+      ],
+      "flags": [
+        "text_overlay",
+        "stock_photo"
+      ],
+      "reason": "Marketing caption burned into stock-style sewer drain image.",
+      "triaged_at": "2026-10-01T20:58:28Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipPhq3Pfel5-9MqbceInk5zyI1k1RDhHwIvEkZjm": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPhq3Pfel5-9MqbceInk5zyI1k1RDhHwIvEkZjm.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipPhq3Pfel5-9MqbceInk5zyI1k1RDhHwIvEkZjm.jpg",
+      "width": 940,
+      "height": 788,
+      "bytes": 955456,
+      "sha1": "95cbc10d0e366bae",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Two air movers drying hardwood floor interior",
+      "quality": 65,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clean equipment shot showing drying work in progress.",
+      "triaged_at": "2026-10-01T20:58:28Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipPjEzvvdPisZMOU1sj-SnBWpN0kMVBhJc9-KpB7": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPjEzvvdPisZMOU1sj-SnBWpN0kMVBhJc9-KpB7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipPjEzvvdPisZMOU1sj-SnBWpN0kMVBhJc9-KpB7.jpg",
+      "width": 1500,
+      "height": 1000,
+      "bytes": 1904292,
+      "sha1": "2b09b7e6636e82a0",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Dehumidifiers and hoses set up on taped floor",
+      "quality": 70,
+      "slots": {
+        "hero": 40,
+        "team": 0,
+        "services": 75
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [],
+      "reason": "Detailed drying equipment setup showing professional water mitigation work.",
+      "triaged_at": "2026-10-01T20:58:28Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipPn18uxDs8OZsy1Zj-XJa7TiYk9WnltQJIE49EF": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPn18uxDs8OZsy1Zj-XJa7TiYk9WnltQJIE49EF.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipPn18uxDs8OZsy1Zj-XJa7TiYk9WnltQJIE49EF.jpg",
+      "width": 1000,
+      "height": 1000,
+      "bytes": 1447754,
+      "sha1": "a5df1f836d24c95a",
+      "exif": {},
+      "category": "crew",
+      "subject": "Two workers in blue hazmat suits on roof lift",
+      "quality": 60,
+      "slots": {
+        "hero": 30,
+        "team": 65,
+        "services": 55
+      },
+      "service_slugs": [
+        "storm-damage-restoration"
+      ],
+      "flags": [
+        "people_faces",
+        "stock_photo"
+      ],
+      "reason": "Generic stock-style hazmat crew image, possibly licensed not company-specific.",
+      "triaged_at": "2026-10-01T20:58:28Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipPwCOASzTH2crYIIewBOhav8HJTn6UVK6DpOwAL": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPwCOASzTH2crYIIewBOhav8HJTn6UVK6DpOwAL.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipPwCOASzTH2crYIIewBOhav8HJTn6UVK6DpOwAL.jpg",
+      "width": 720,
+      "height": 540,
+      "bytes": 135545,
+      "sha1": "bae8781066c96cce",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Fire-damaged charred staircase with soot and debris",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Dramatic fire damage documentation, no crew or branding visible.",
+      "triaged_at": "2026-10-01T20:58:28Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipPwv8ii3T8hbGjS2gDryhJ-sG-SQD7gQn0cYesJ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPwv8ii3T8hbGjS2gDryhJ-sG-SQD7gQn0cYesJ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790106596226/job-photos/posted/gbp-AF1QipPwv8ii3T8hbGjS2gDryhJ-sG-SQD7gQn0cYesJ.jpg",
+      "width": 1000,
+      "height": 1000,
+      "bytes": 2147760,
+      "sha1": "591ed5407bce09bd",
+      "exif": {}
+    }
+  },
+  "slots": {},
+  "triaged_at": "2026-10-01T20:58:58Z"
 }

@@ -56,7 +56,7 @@
     },
     {
       "id": "2026-09-06-remodel",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-06T10:23:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -67,7 +67,8 @@
       "city_anchor": "struthers-oh",
       "source": "app target-term (onboarding-backfill)",
       "written_at": "2026-10-01T21:32:02Z",
-      "post_url": "https://dissrestoration.com/blog/remodel/"
+      "post_url": "https://dissrestoration.com/blog/remodel/",
+      "published_verified_at": "2026-10-01T21:33:44Z"
     },
     {
       "id": "2026-09-06-lead-abatement",

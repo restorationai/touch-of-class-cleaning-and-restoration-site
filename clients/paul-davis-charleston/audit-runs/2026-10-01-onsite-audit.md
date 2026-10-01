@@ -42,5 +42,6 @@ Note: all three service-landing pages share priority 9.0, so the first two in pl
 
 ## Notes / caveats
 
+- Re-checked at 2026-10-01T21:21Z (second invocation today). Nothing has changed: `status` is still `onboarding` and `domain` is still `null`. Both `staging.rankai-paul-davis-charleston.pages.dev` and `rankai-paul-davis-charleston.pages.dev` still return HTTP 000, while the control `staging.rankai-tdi-builders.pages.dev` returns 200. No DataForSEO calls were made and no state or client-record writes happened.
 - Once the audit runs, Lighthouse will be desktop-only through the DataForSEO wrapper. Expect mobile performance scores to be 10-20 points lower.
 - A staging audit will leave SEO out of the verdict because of the Pages noindex header. SEO stays inconclusive until apex cutover.
