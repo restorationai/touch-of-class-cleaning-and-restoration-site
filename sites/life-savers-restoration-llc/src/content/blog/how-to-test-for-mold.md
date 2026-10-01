@@ -52,9 +52,9 @@ In Henderson and the broader Las Vegas Valley, the desert climate creates a spec
 
 ## How Much Does Home Mold Testing Cost, and How Long Does It Take?
 
-For homeowners weighing home mold testing, the practical questions are usually cost and timeline. A DIY kit runs roughly $10–$50 up front, plus a separate lab fee (often $30–$40 per sample) if analysis isn't included — and you wait about 48 hours for air exposure and a week or more for lab results. A professional inspection across Henderson and the Las Vegas Valley is a larger up-front cost, but it bundles the visual assessment, moisture mapping, multi-point air sampling, and an accredited-lab report into one documented answer, usually within a few business days.
+For homeowners weighing home mold testing, the practical questions are usually cost and timeline. A DIY kit runs roughly $10–$50 up front, plus a separate lab fee (often $30–$40 per sample) if analysis isn't included, and you wait about 48 hours for air exposure and a week or more for lab results. A professional inspection across Henderson and the Las Vegas Valley is a larger up-front cost, but it bundles the visual assessment, moisture mapping, multi-point air sampling, and an accredited-lab report into one documented answer, usually within a few business days.
 
-The more useful way to frame the decision isn't cheapest-first — it's which result you can actually act on. If a leak, a flood, or a persistent musty smell has already made you fairly certain something is wrong, paying for a DIY screen that can't locate the colony or compare it to a baseline often just adds a week to the timeline. If you're genuinely unsure anything is wrong at all, a kit is a defensible first step. Either way, home mold testing is only worth the spend when the result changes what you do next.
+The more useful way to frame the decision isn't cheapest-first, it's which result you can actually act on. If a leak, a flood, or a persistent musty smell has already made you fairly certain something is wrong, paying for a DIY screen that can't locate the colony or compare it to a baseline often just adds a week to the timeline. If you're genuinely unsure anything is wrong at all, a kit is a defensible first step. Either way, home mold testing is only worth the spend when the result changes what you do next.
 
 ## Signs That Skip the DIY Step Entirely
 

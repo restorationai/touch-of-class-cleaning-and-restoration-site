@@ -2,7 +2,7 @@
 archetype: "blog-post"
 title: "Water Damage Restoration Cost: What Drives the Price in 2026"
 h1: "Water Damage Restoration Cost: What Drives the Price in 2026"
-meta_description: "What actually drives the cost of water damage restoration in California — water category, square footage, affected materials, and response time — plus what insurance covers and how to protect your claim."
+meta_description: "What actually drives the cost of water damage restoration in California, water category, square footage, affected materials, and response time, plus what insurance covers and how to protect your claim."
 primary_keyword: "water damage restoration cost"
 secondary_keywords: ["how much does water damage restoration cost", "water damage restoration cost per square foot", "average cost of water damage restoration", "water damage restoration cost with insurance", "cost to dry out a flooded room", "water damage restoration cost California"]
 search_intent: "commercial"
@@ -34,7 +34,7 @@ Note that Category 1 water becomes Category 2 after 24-48 hours, and Category 2 
 
 ## Is Water Damage Priced Per Square Foot?
 
-Some of the scope scales with the affected area — extraction and structural drying cover a defined footprint — but square footage alone doesn't set the price. Whether demolition is needed to access wet framing or insulation matters more, and finishing work (drywall, flooring, paint) is scoped separately once the structure is dry. This is why a technician measures moisture and maps the affected area before writing a scope, rather than multiplying a rate by the room size.
+Some of the scope scales with the affected area, extraction and structural drying cover a defined footprint, but square footage alone doesn't set the price. Whether demolition is needed to access wet framing or insulation matters more, and finishing work (drywall, flooring, paint) is scoped separately once the structure is dry. This is why a technician measures moisture and maps the affected area before writing a scope, rather than multiplying a rate by the room size.
 
 ## What Factors Move the Number Up or Down?
 
