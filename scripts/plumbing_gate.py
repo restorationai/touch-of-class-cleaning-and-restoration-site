@@ -145,9 +145,13 @@ def decide(ev: dict) -> tuple[bool, str]:
     if (ri.get("dba_filed") or ri.get("dba_verified")) and PLUMB_RE.search(name):
         return True, (f"(b) DBA on file ({ri.get('dba_verified') or 'filed'}"
                       f"{', ' + str(ri.get('dba_filed_at')) if ri.get('dba_filed_at') else ''}): {name!r}")
-    if any(PLUMB_RE.search(n) for n in ev.get("chosen_names") or []):
-        return False, ("plumbing name chosen but not confirmed (no DBA upload, GBP not "
-                       "renamed yet)")
+    # CHOSEN IS ENOUGH (Santino 2026-10-01: "if they even choose a plumbing
+    # name, we can queue them to have the page built in an overnight sweep").
+    if any(PLUMB_RE.search(n) for n in ev.get("chosen_names") or []) or (
+            ri.get("decision") not in (None, "", "keep") and PLUMB_RE.search(ri.get("dba_name") or "")):
+        picked = next((n for n in ev.get("chosen_names") or [] if PLUMB_RE.search(n)),
+                      ri.get("dba_name"))
+        return True, f"(a') client chose a plumbing name: {picked!r}"
     return False, "no plumbing name confirmed, no plumbing DBA, not a licensed plumber"
 
 

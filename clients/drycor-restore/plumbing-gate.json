@@ -1,7 +1,7 @@
 {
   "slug": "drycor-restore",
-  "allowed": false,
-  "reason": "plumbing name chosen but not confirmed (no DBA upload, GBP not renamed yet)",
+  "allowed": true,
+  "reason": "(a') client chose a plumbing name: 'DRYCOR RESTORE TAMPA - 24/7 Emergency Plumbing, Water Damage and Mold Remediation'",
   "evidence": {
     "company_id": "CO-1788205391336",
     "gbp_title": "DRYCOR RESTORE",
@@ -12,6 +12,6 @@
       "DRYCOR RESTORE TAMPA - 24/7 Emergency Plumbing, Water Damage and Mold Remediation"
     ]
   },
-  "checked_at": "2026-10-01T04:48:54+00:00",
+  "checked_at": "2026-10-01T14:29:45+00:00",
   "source": "supabase"
 }

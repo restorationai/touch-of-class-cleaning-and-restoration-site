@@ -4,7 +4,5167 @@
   "combo_min": 10,
   "head_metro_min": 1000
  },
- "decisions": {},
+ "decisions": {
+  "anna-maria-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration anna maria' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "anna-maria-fl__emergency-board-up-tarping": {
+   "pass": true,
+   "why": "local angle: Barrier island exposed to hurricane winds",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "anna-maria-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber anna maria' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "anna-maria-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal anna maria' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "anna-maria-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration anna maria' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "anna-maria-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor anna maria' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "anna-maria-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation anna maria' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "anna-maria-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction anna maria' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "anna-maria-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup anna maria' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "anna-maria-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration anna maria' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "anna-maria-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Barrier island highly exposed to hurricanes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "apollo-beach-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration apollo beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "apollo-beach-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up apollo beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "apollo-beach-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber apollo beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "apollo-beach-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal apollo beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "apollo-beach-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration apollo beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "apollo-beach-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor apollo beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "apollo-beach-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation apollo beach' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "apollo-beach-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction apollo beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "apollo-beach-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup apollo beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "apollo-beach-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration apollo beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "apollo-beach-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Waterfront community exposed to storm surge",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "auburndale-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration auburndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "auburndale-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up auburndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "auburndale-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber auburndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "auburndale-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal auburndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "auburndale-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration auburndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "auburndale-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor auburndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "auburndale-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation auburndale' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "auburndale-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction auburndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "auburndale-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup auburndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "auburndale-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration auburndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "auburndale-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration auburndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bartow-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration bartow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bartow-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up bartow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bartow-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber bartow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bartow-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal bartow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bartow-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration bartow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bartow-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor bartow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bartow-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation bartow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bartow-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction bartow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bartow-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup bartow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bartow-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration bartow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bartow-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration bartow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bradenton-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration bradenton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bradenton-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up bradenton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bradenton-fl__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber bradenton' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bradenton-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal bradenton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bradenton-fl__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration bradenton' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bradenton-fl__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor bradenton' 170/mo",
+   "vol": 170,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bradenton-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation bradenton' 140/mo",
+   "vol": 140,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bradenton-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction bradenton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bradenton-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup bradenton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bradenton-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration bradenton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "bradenton-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Riverfront coastal city hurricane flood risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "brandon-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration brandon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "brandon-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up brandon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "brandon-fl__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber brandon' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "brandon-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal brandon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "brandon-fl__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration brandon' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "brandon-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor brandon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "brandon-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation brandon' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "brandon-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction brandon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "brandon-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup brandon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "brandon-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration brandon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "brandon-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration brandon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-beach-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration clearwater beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-beach-fl__emergency-board-up-tarping": {
+   "pass": true,
+   "why": "local angle: Barrier island, frequent hurricane wind damage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-beach-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber clearwater beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-beach-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal clearwater beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-beach-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration clearwater beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-beach-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor clearwater beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-beach-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation clearwater beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-beach-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction clearwater beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-beach-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup clearwater beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-beach-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration clearwater beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-beach-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Barrier island with direct hurricane exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration clearwater' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up clearwater' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-fl__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber clearwater' 90/mo",
+   "vol": 90,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal clearwater' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-fl__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration clearwater' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-fl__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor clearwater' 140/mo",
+   "vol": 140,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation clearwater' 170/mo",
+   "vol": 170,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction clearwater' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-fl__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup clearwater' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration clearwater' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "clearwater-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Gulf coastal city facing hurricane exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crystal-springs-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration crystal springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crystal-springs-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up crystal springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crystal-springs-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber crystal springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crystal-springs-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal crystal springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crystal-springs-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration crystal springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crystal-springs-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor crystal springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crystal-springs-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation crystal springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crystal-springs-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction crystal springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crystal-springs-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup crystal springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crystal-springs-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration crystal springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "crystal-springs-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration crystal springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dade-city-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration dade city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dade-city-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up dade city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dade-city-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber dade city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dade-city-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal dade city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dade-city-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration dade city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dade-city-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor dade city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dade-city-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation dade city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dade-city-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction dade city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dade-city-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup dade city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dade-city-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration dade city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dade-city-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration dade city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "davenport-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration davenport' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "davenport-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up davenport' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "davenport-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber davenport' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "davenport-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal davenport' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "davenport-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration davenport' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "davenport-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor davenport' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "davenport-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation davenport' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "davenport-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction davenport' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "davenport-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup davenport' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "davenport-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration davenport' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "davenport-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration davenport' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dover-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration dover' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dover-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up dover' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dover-fl__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber dover' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dover-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal dover' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dover-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration dover' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dover-fl__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor dover' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dover-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation dover' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dover-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction dover' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dover-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup dover' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dover-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration dover' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dover-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration dover' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dundee-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration dundee' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dundee-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up dundee' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dundee-fl__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber dundee' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dundee-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal dundee' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dundee-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration dundee' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dundee-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor dundee' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dundee-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation dundee' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dundee-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction dundee' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dundee-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup dundee' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dundee-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration dundee' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dundee-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration dundee' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dunedin-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration dunedin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dunedin-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up dunedin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dunedin-fl__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber dunedin' 30/mo",
+   "vol": 30,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dunedin-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal dunedin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dunedin-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration dunedin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dunedin-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor dunedin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dunedin-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation dunedin' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dunedin-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction dunedin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dunedin-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup dunedin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dunedin-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration dunedin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "dunedin-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration dunedin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "east-lake-orient-park-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration east lake-orient park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "east-lake-orient-park-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up east lake-orient park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "east-lake-orient-park-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber east lake-orient park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "east-lake-orient-park-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal east lake-orient park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "east-lake-orient-park-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration east lake-orient park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "east-lake-orient-park-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor east lake-orient park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "east-lake-orient-park-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation east lake-orient park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "east-lake-orient-park-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction east lake-orient park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "east-lake-orient-park-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup east lake-orient park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "east-lake-orient-park-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration east lake-orient park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "east-lake-orient-park-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration east lake-orient park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellenton-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration ellenton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellenton-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up ellenton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellenton-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber ellenton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellenton-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal ellenton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellenton-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration ellenton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellenton-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor ellenton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellenton-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation ellenton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellenton-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction ellenton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellenton-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup ellenton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellenton-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration ellenton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ellenton-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration ellenton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "englewood-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration englewood' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "englewood-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up englewood' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "englewood-fl__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber englewood' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "englewood-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal englewood' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "englewood-fl__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration englewood' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "englewood-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor englewood' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "englewood-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation englewood' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "englewood-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction englewood' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "englewood-fl__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup englewood' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "englewood-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration englewood' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "englewood-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Coastal community facing hurricane storm surge",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gibsonton-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration gibsonton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gibsonton-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up gibsonton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gibsonton-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber gibsonton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gibsonton-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal gibsonton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gibsonton-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration gibsonton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gibsonton-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor gibsonton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gibsonton-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation gibsonton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gibsonton-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction gibsonton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gibsonton-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup gibsonton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gibsonton-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration gibsonton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "gibsonton-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration gibsonton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "haines-city-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration haines city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "haines-city-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up haines city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "haines-city-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber haines city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "haines-city-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal haines city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "haines-city-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration haines city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "haines-city-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor haines city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "haines-city-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation haines city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "haines-city-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction haines city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "haines-city-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup haines city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "haines-city-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration haines city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "haines-city-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration haines city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holiday-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration holiday' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holiday-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up holiday' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holiday-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber holiday' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holiday-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal holiday' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holiday-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration holiday' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holiday-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor holiday' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holiday-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation holiday' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holiday-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction holiday' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holiday-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup holiday' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holiday-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration holiday' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holiday-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration holiday' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holmes-beach-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration holmes beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holmes-beach-fl__emergency-board-up-tarping": {
+   "pass": true,
+   "why": "local angle: Barrier island storm exposure needs tarping",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holmes-beach-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber holmes beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holmes-beach-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal holmes beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holmes-beach-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration holmes beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holmes-beach-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor holmes beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holmes-beach-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation holmes beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holmes-beach-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction holmes beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holmes-beach-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup holmes beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holmes-beach-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration holmes beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "holmes-beach-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Barrier island highly exposed to hurricanes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-magdalene-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration lake magdalene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-magdalene-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up lake magdalene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-magdalene-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber lake magdalene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-magdalene-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal lake magdalene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-magdalene-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration lake magdalene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-magdalene-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor lake magdalene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-magdalene-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation lake magdalene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-magdalene-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction lake magdalene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-magdalene-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup lake magdalene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-magdalene-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration lake magdalene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-magdalene-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration lake magdalene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-wales-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration lake wales' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-wales-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up lake wales' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-wales-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber lake wales' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-wales-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal lake wales' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-wales-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration lake wales' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-wales-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor lake wales' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-wales-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation lake wales' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-wales-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction lake wales' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-wales-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup lake wales' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-wales-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration lake wales' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lake-wales-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration lake wales' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakeland-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration lakeland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakeland-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up lakeland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakeland-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber lakeland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakeland-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal lakeland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakeland-fl__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration lakeland' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakeland-fl__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor lakeland' 140/mo",
+   "vol": 140,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakeland-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation lakeland' 140/mo",
+   "vol": 140,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakeland-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction lakeland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakeland-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup lakeland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakeland-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration lakeland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakeland-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration lakeland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakewood-ranch-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration lakewood ranch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakewood-ranch-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up lakewood ranch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakewood-ranch-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber lakewood ranch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakewood-ranch-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal lakewood ranch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakewood-ranch-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration lakewood ranch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakewood-ranch-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor lakewood ranch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakewood-ranch-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation lakewood ranch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakewood-ranch-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction lakewood ranch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakewood-ranch-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup lakewood ranch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakewood-ranch-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration lakewood ranch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lakewood-ranch-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration lakewood ranch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "land-o-lakes-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration land o' lakes' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "land-o-lakes-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up land o' lakes' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "land-o-lakes-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber land o' lakes' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "land-o-lakes-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal land o' lakes' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "land-o-lakes-fl__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration land o' lakes' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "land-o-lakes-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor land o' lakes' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "land-o-lakes-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation land o' lakes' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "land-o-lakes-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction land o' lakes' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "land-o-lakes-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup land o' lakes' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "land-o-lakes-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration land o' lakes' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "land-o-lakes-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration land o' lakes' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "largo-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration largo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "largo-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up largo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "largo-fl__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber largo' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "largo-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal largo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "largo-fl__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration largo' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "largo-fl__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor largo' 30/mo",
+   "vol": 30,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "largo-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation largo' 40/mo",
+   "vol": 40,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "largo-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction largo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "largo-fl__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup largo' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "largo-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration largo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "largo-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration largo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lithia-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration lithia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lithia-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up lithia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lithia-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber lithia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lithia-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal lithia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lithia-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration lithia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lithia-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor lithia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lithia-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation lithia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lithia-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction lithia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lithia-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup lithia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lithia-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration lithia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lithia-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration lithia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "longboat-key-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration longboat key' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "longboat-key-fl__emergency-board-up-tarping": {
+   "pass": true,
+   "why": "local angle: Coastal key vulnerable to hurricane damage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "longboat-key-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber longboat key' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "longboat-key-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal longboat key' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "longboat-key-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration longboat key' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "longboat-key-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor longboat key' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "longboat-key-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation longboat key' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "longboat-key-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction longboat key' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "longboat-key-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup longboat key' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "longboat-key-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration longboat key' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "longboat-key-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Coastal key exposed to hurricane surge",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lutz-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration lutz' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lutz-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up lutz' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lutz-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber lutz' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lutz-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal lutz' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lutz-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration lutz' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lutz-fl__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor lutz' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lutz-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation lutz' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lutz-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction lutz' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lutz-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup lutz' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lutz-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration lutz' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "lutz-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration lutz' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mango-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration mango' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mango-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up mango' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mango-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber mango' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mango-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal mango' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mango-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration mango' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mango-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor mango' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mango-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation mango' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mango-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction mango' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mango-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup mango' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mango-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration mango' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mango-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration mango' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mulberry-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration mulberry' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mulberry-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up mulberry' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mulberry-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber mulberry' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mulberry-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal mulberry' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mulberry-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration mulberry' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mulberry-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor mulberry' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mulberry-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation mulberry' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mulberry-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction mulberry' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mulberry-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup mulberry' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mulberry-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration mulberry' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "mulberry-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration mulberry' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-port-richey-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration new port richey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-port-richey-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up new port richey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-port-richey-fl__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber new port richey' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-port-richey-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal new port richey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-port-richey-fl__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration new port richey' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-port-richey-fl__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor new port richey' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-port-richey-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation new port richey' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-port-richey-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction new port richey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-port-richey-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup new port richey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-port-richey-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration new port richey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "new-port-richey-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration new port richey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nokomis-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration nokomis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nokomis-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up nokomis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nokomis-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber nokomis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nokomis-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal nokomis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nokomis-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration nokomis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nokomis-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor nokomis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nokomis-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation nokomis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nokomis-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction nokomis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nokomis-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup nokomis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nokomis-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration nokomis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "nokomis-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Gulf coast town hurricane storm exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "north-port-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration north port' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "north-port-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up north port' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "north-port-fl__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber north port' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "north-port-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal north port' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "north-port-fl__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration north port' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "north-port-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor north port' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "north-port-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation north port' 110/mo",
+   "vol": 110,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "north-port-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction north port' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "north-port-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup north port' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "north-port-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration north port' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "north-port-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Near coast, hurricane and flood exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "odessa-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "odessa-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "odessa-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "odessa-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "odessa-fl__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration odessa' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "odessa-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "odessa-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation odessa' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "odessa-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "odessa-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "odessa-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "odessa-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oldsmar-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration oldsmar' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oldsmar-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up oldsmar' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oldsmar-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber oldsmar' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oldsmar-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal oldsmar' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oldsmar-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration oldsmar' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oldsmar-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor oldsmar' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oldsmar-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation oldsmar' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oldsmar-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction oldsmar' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oldsmar-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup oldsmar' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oldsmar-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration oldsmar' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "oldsmar-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration oldsmar' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "osprey-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration osprey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "osprey-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up osprey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "osprey-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber osprey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "osprey-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal osprey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "osprey-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration osprey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "osprey-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor osprey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "osprey-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation osprey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "osprey-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction osprey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "osprey-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup osprey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "osprey-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration osprey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "osprey-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Coastal town exposed to hurricane surge",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-harbor-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration palm harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-harbor-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up palm harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-harbor-fl__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber palm harbor' 40/mo",
+   "vol": 40,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-harbor-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal palm harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-harbor-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration palm harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-harbor-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor palm harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-harbor-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation palm harbor' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-harbor-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction palm harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-harbor-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup palm harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-harbor-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration palm harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-harbor-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration palm harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-river-clair-mel-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration palm river-clair mel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-river-clair-mel-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up palm river-clair mel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-river-clair-mel-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber palm river-clair mel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-river-clair-mel-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal palm river-clair mel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-river-clair-mel-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration palm river-clair mel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-river-clair-mel-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor palm river-clair mel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-river-clair-mel-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation palm river-clair mel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-river-clair-mel-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction palm river-clair mel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-river-clair-mel-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup palm river-clair mel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-river-clair-mel-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration palm river-clair mel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palm-river-clair-mel-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration palm river-clair mel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palmetto-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration palmetto' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palmetto-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up palmetto' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palmetto-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber palmetto' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palmetto-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal palmetto' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palmetto-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration palmetto' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palmetto-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor palmetto' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palmetto-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation palmetto' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palmetto-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction palmetto' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palmetto-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup palmetto' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palmetto-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration palmetto' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "palmetto-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Riverfront coastal town hurricane flood risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parrish-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration parrish' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parrish-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up parrish' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parrish-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber parrish' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parrish-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal parrish' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parrish-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration parrish' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parrish-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor parrish' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parrish-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation parrish' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parrish-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction parrish' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parrish-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup parrish' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parrish-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration parrish' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "parrish-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration parrish' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pebble-creek-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration pebble creek' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pebble-creek-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up pebble creek' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pebble-creek-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber pebble creek' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pebble-creek-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal pebble creek' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pebble-creek-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration pebble creek' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pebble-creek-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor pebble creek' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pebble-creek-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation pebble creek' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pebble-creek-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction pebble creek' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pebble-creek-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup pebble creek' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pebble-creek-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration pebble creek' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pebble-creek-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration pebble creek' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pinellas-park-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration pinellas park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pinellas-park-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up pinellas park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pinellas-park-fl__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber pinellas park' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pinellas-park-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal pinellas park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pinellas-park-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration pinellas park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pinellas-park-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor pinellas park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pinellas-park-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation pinellas park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pinellas-park-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction pinellas park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pinellas-park-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup pinellas park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pinellas-park-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration pinellas park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "pinellas-park-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration pinellas park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "plant-city-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration plant city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "plant-city-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up plant city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "plant-city-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber plant city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "plant-city-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal plant city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "plant-city-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration plant city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "plant-city-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor plant city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "plant-city-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation plant city' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "plant-city-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction plant city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "plant-city-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup plant city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "plant-city-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration plant city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "plant-city-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration plant city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "polk-city-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration polk city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "polk-city-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up polk city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "polk-city-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber polk city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "polk-city-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal polk city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "polk-city-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration polk city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "polk-city-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor polk city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "polk-city-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation polk city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "polk-city-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction polk city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "polk-city-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup polk city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "polk-city-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration polk city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "polk-city-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration polk city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "port-richey-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration port richey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "port-richey-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up port richey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "port-richey-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber port richey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "port-richey-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal port richey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "port-richey-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration port richey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "port-richey-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor port richey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "port-richey-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation port richey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "port-richey-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction port richey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "port-richey-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup port richey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "port-richey-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration port richey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "port-richey-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration port richey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverview-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration riverview' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverview-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up riverview' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverview-fl__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber riverview' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverview-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal riverview' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverview-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration riverview' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverview-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor riverview' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverview-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation riverview' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverview-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction riverview' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverview-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup riverview' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverview-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration riverview' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "riverview-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration riverview' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ruskin-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration ruskin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ruskin-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up ruskin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ruskin-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber ruskin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ruskin-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal ruskin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ruskin-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration ruskin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ruskin-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor ruskin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ruskin-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation ruskin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ruskin-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction ruskin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ruskin-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup ruskin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ruskin-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration ruskin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "ruskin-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Bayfront community exposed to storm surge",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "safety-harbor-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration safety harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "safety-harbor-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up safety harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "safety-harbor-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber safety harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "safety-harbor-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal safety harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "safety-harbor-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration safety harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "safety-harbor-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor safety harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "safety-harbor-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation safety harbor' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "safety-harbor-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction safety harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "safety-harbor-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup safety harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "safety-harbor-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration safety harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "safety-harbor-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration safety harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sarasota-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration sarasota' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sarasota-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up sarasota' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sarasota-fl__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber sarasota' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sarasota-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal sarasota' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sarasota-fl__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration sarasota' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sarasota-fl__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor sarasota' 720/mo",
+   "vol": 720,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sarasota-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation sarasota' 390/mo",
+   "vol": 390,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sarasota-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction sarasota' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sarasota-fl__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup sarasota' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sarasota-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration sarasota' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sarasota-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'storm damage restoration sarasota' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seffner-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration seffner' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seffner-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up seffner' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seffner-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber seffner' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seffner-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal seffner' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seffner-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration seffner' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seffner-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor seffner' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seffner-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation seffner' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seffner-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction seffner' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seffner-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup seffner' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seffner-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration seffner' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seffner-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration seffner' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seminole-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration seminole' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seminole-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up seminole' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seminole-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber seminole' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seminole-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal seminole' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seminole-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration seminole' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seminole-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor seminole' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seminole-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation seminole' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seminole-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction seminole' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seminole-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup seminole' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seminole-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration seminole' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "seminole-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration seminole' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "siesta-key-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration siesta key' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "siesta-key-fl__emergency-board-up-tarping": {
+   "pass": true,
+   "why": "local angle: Barrier island exposed to hurricane winds",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "siesta-key-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber siesta key' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "siesta-key-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal siesta key' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "siesta-key-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration siesta key' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "siesta-key-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor siesta key' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "siesta-key-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation siesta key' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "siesta-key-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction siesta key' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "siesta-key-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup siesta key' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "siesta-key-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration siesta key' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "siesta-key-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Barrier island exposed to hurricane surge",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-pete-beach-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration st. pete beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-pete-beach-fl__emergency-board-up-tarping": {
+   "pass": true,
+   "why": "local angle: Exposed beach homes need storm board-up",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-pete-beach-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber st. pete beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-pete-beach-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal st. pete beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-pete-beach-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration st. pete beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-pete-beach-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor st. pete beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-pete-beach-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation st. pete beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-pete-beach-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction st. pete beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-pete-beach-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup st. pete beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-pete-beach-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration st. pete beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-pete-beach-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Coastal beach town hurricane surge risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-petersburg-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration st. petersburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-petersburg-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up st. petersburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-petersburg-fl__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber st. petersburg' 140/mo",
+   "vol": 140,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-petersburg-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal st. petersburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-petersburg-fl__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration st. petersburg' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-petersburg-fl__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor st. petersburg' 480/mo",
+   "vol": 480,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-petersburg-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation st. petersburg' 110/mo",
+   "vol": 110,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-petersburg-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction st. petersburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-petersburg-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup st. petersburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-petersburg-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration st. petersburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "st-petersburg-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Peninsula city exposed to hurricane surge",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sun-city-center-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration sun city center' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sun-city-center-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up sun city center' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sun-city-center-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber sun city center' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sun-city-center-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal sun city center' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sun-city-center-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration sun city center' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sun-city-center-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor sun city center' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sun-city-center-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation sun city center' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sun-city-center-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction sun city center' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sun-city-center-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup sun city center' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sun-city-center-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration sun city center' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "sun-city-center-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration sun city center' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tampa-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration tampa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tampa-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up tampa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tampa-fl__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber tampa' 260/mo",
+   "vol": 260,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tampa-fl__emergency-water-removal": {
+   "pass": true,
+   "why": "local demand: 'emergency water removal tampa' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tampa-fl__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration tampa' 210/mo",
+   "vol": 210,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tampa-fl__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor tampa' 320/mo",
+   "vol": 320,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tampa-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation tampa' 1300/mo",
+   "vol": 1300,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tampa-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction tampa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tampa-fl__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup tampa' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tampa-fl__smoke-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'smoke damage restoration tampa' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tampa-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'storm damage restoration tampa' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tarpon-springs-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration tarpon springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tarpon-springs-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up tarpon springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tarpon-springs-fl__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber tarpon springs' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tarpon-springs-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal tarpon springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tarpon-springs-fl__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration tarpon springs' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tarpon-springs-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor tarpon springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tarpon-springs-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation tarpon springs' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tarpon-springs-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction tarpon springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tarpon-springs-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup tarpon springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tarpon-springs-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration tarpon springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "tarpon-springs-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Coastal fishing town hurricane flood risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "temple-terrace-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration temple terrace' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "temple-terrace-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up temple terrace' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "temple-terrace-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber temple terrace' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "temple-terrace-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal temple terrace' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "temple-terrace-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration temple terrace' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "temple-terrace-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor temple terrace' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "temple-terrace-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation temple terrace' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "temple-terrace-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction temple terrace' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "temple-terrace-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup temple terrace' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "temple-terrace-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration temple terrace' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "temple-terrace-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration temple terrace' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "trinity-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration trinity' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "trinity-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up trinity' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "trinity-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber trinity' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "trinity-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal trinity' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "trinity-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration trinity' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "trinity-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor trinity' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "trinity-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation trinity' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "trinity-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction trinity' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "trinity-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup trinity' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "trinity-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration trinity' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "trinity-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration trinity' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "university-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration university' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "university-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up university' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "university-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber university' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "university-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal university' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "university-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration university' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "university-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor university' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "university-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation university' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "university-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction university' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "university-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup university' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "university-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration university' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "university-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration university' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valrico-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration valrico' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valrico-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up valrico' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valrico-fl__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber valrico' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valrico-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal valrico' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valrico-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration valrico' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valrico-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor valrico' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valrico-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation valrico' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valrico-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction valrico' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valrico-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup valrico' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valrico-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration valrico' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "valrico-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration valrico' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "venice-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration venice' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "venice-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up venice' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "venice-fl__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber venice' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "venice-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal venice' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "venice-fl__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration venice' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "venice-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor venice' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "venice-fl__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation venice' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "venice-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction venice' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "venice-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup venice' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "venice-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration venice' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "venice-fl__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Gulf coast city with hurricane exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wesley-chapel-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration wesley chapel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wesley-chapel-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up wesley chapel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wesley-chapel-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber wesley chapel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wesley-chapel-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal wesley chapel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wesley-chapel-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration wesley chapel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wesley-chapel-fl__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor wesley chapel' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wesley-chapel-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation wesley chapel' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wesley-chapel-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction wesley chapel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wesley-chapel-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup wesley chapel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wesley-chapel-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration wesley chapel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "wesley-chapel-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration wesley chapel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "winter-haven-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration winter haven' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "winter-haven-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up winter haven' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "winter-haven-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber winter haven' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "winter-haven-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal winter haven' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "winter-haven-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration winter haven' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "winter-haven-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor winter haven' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "winter-haven-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation winter haven' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "winter-haven-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction winter haven' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "winter-haven-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup winter haven' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "winter-haven-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration winter haven' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "winter-haven-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration winter haven' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zephyrhills-fl__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration zephyrhills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zephyrhills-fl__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up zephyrhills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zephyrhills-fl__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber zephyrhills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zephyrhills-fl__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal zephyrhills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zephyrhills-fl__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration zephyrhills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zephyrhills-fl__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor zephyrhills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zephyrhills-fl__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation zephyrhills' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zephyrhills-fl__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction zephyrhills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zephyrhills-fl__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup zephyrhills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zephyrhills-fl__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration zephyrhills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  },
+  "zephyrhills-fl__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration zephyrhills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-01"
+  }
+ },
  "offered": {
   "contents-restoration-storage": [
    "plan-input before core floor (2026-09-24)",
@@ -74,5 +5234,53 @@
    "GBP service in the client's words: 'Water Damage Cleanup & Restoration'",
    "GBP service in the client's words: 'Storm Water Damage Restoration'"
   ]
- }
+ },
+ "metro": "Tampa,Florida,United States",
+ "heads": {
+  "contents-restoration-storage": {
+   "term": "contents restoration",
+   "metro": 20
+  },
+  "emergency-board-up-tarping": {
+   "term": "emergency board up",
+   "metro": 10
+  },
+  "emergency-water-removal": {
+   "term": "emergency water removal",
+   "metro": 30
+  },
+  "fire-damage-restoration": {
+   "term": "fire damage restoration",
+   "metro": 60
+  },
+  "general-contracting": {
+   "term": "general contractor",
+   "metro": 740
+  },
+  "mold-remediation": {
+   "term": "mold remediation",
+   "metro": 580
+  },
+  "reconstruction": {
+   "term": "restoration reconstruction",
+   "metro": 10
+  },
+  "sewage-cleanup": {
+   "term": "sewage cleanup",
+   "metro": 20
+  },
+  "smoke-damage-restoration": {
+   "term": "smoke damage restoration",
+   "metro": 20
+  },
+  "storm-damage-restoration": {
+   "term": "storm damage restoration",
+   "metro": 30
+  },
+  "emergency-plumbing": {
+   "term": "emergency plumber",
+   "metro": 380
+  }
+ },
+ "updated_at": "2026-10-01T14:30:44+00:00"
 }

@@ -268,6 +268,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/emergency-plumbing/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/tampa-fl/": {
     "archetype": "service-area",
     "stubs": [
@@ -941,6 +951,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/tampa-fl/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/tampa-fl/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -952,6 +972,16 @@
     "missing_stubs": []
   },
   "/service-areas/tampa-fl/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/tampa-fl/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1042,6 +1072,16 @@
     "missing_stubs": []
   },
   "/service-areas/brandon-fl/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/brandon-fl/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1591,6 +1631,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/dover-fl/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/st-petersburg-fl/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1672,6 +1722,16 @@
     "missing_stubs": []
   },
   "/service-areas/st-petersburg-fl/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/st-petersburg-fl/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1771,6 +1831,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/clearwater-fl/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/largo-fl/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1852,6 +1922,16 @@
     "missing_stubs": []
   },
   "/service-areas/largo-fl/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/largo-fl/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1951,6 +2031,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/pinellas-park-fl/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/palm-harbor-fl/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2032,6 +2122,16 @@
     "missing_stubs": []
   },
   "/service-areas/palm-harbor-fl/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/palm-harbor-fl/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2131,6 +2231,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/dunedin-fl/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/riverview-fl/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2221,6 +2331,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/riverview-fl/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/valrico-fl/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2302,6 +2422,16 @@
     "missing_stubs": []
   },
   "/service-areas/valrico-fl/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/valrico-fl/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2851,6 +2981,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/new-port-richey-fl/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/bradenton-fl/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2932,6 +3072,16 @@
     "missing_stubs": []
   },
   "/service-areas/bradenton-fl/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/bradenton-fl/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3751,6 +3901,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/dundee-fl/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/ellenton-fl/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3922,6 +4082,16 @@
     "missing_stubs": []
   },
   "/service-areas/englewood-fl/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/englewood-fl/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4921,6 +5091,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/north-port-fl/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/odessa-fl/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5641,6 +5821,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/sarasota-fl/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/seminole-fl/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6091,6 +6281,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/tarpon-springs-fl/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/trinity-fl/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6262,6 +6462,16 @@
     "missing_stubs": []
   },
   "/service-areas/venice-fl/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/venice-fl/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

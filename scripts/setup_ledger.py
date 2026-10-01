@@ -82,8 +82,16 @@ def _site_unfinished_bits(slug: str) -> list[str]:
         pass
     pend = 0
     base = SITES_DIR / slug / "src" / "content"
+    # CORE PAGES ONLY (Santino 2026-10-01: "on the 10th day reveal their new
+    # site preview"). City x service location pages and blog posts drip in
+    # after the reveal; counting them held finished sites back for weeks
+    # (FireDEX 84 days and Dry County 53 days never revealed because a long
+    # tail of city pages was still rendering under the starved sweep).
+    _DRIP = {"locations", "blog"}
     if base.is_dir():
         for _md in base.rglob("*.md"):
+            if _md.relative_to(base).parts[0] in _DRIP:
+                continue
             try:
                 _raw = _md.read_text(errors="ignore")
             except OSError:
