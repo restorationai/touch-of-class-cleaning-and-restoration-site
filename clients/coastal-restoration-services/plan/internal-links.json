@@ -8,6 +8,7 @@
     "/services/mold-remediation/",
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
+    "/services/emergency-plumbing/",
     "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
@@ -66,6 +67,7 @@
     "/services/mold-remediation/",
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
+    "/services/emergency-plumbing/",
     "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
@@ -395,6 +397,10 @@
     "/contact/"
   ],
   "/services/water-leak-detection/": [
+    "/services/",
+    "/contact/"
+  ],
+  "/services/emergency-plumbing/": [
     "/services/",
     "/contact/"
   ],

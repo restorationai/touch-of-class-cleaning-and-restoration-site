@@ -1,13 +1,13 @@
 # Site Plan Report — Coastal Restoration Services Inc
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-10-01T05:03:45.836999+00:00
+- Generated: 2026-10-01T16:27:11.994609+00:00
 - Domain: `callcrs.com`
-- Services selected: 25 of 91 catalog entries
+- Services selected: 26 of 91 catalog entries
 - Service areas: 31
 - Cross-product enabled: True
-- Total URLs: **432**
-- Total internal links: 3409 (avg 7.9 per page)
+- Total URLs: **433**
+- Total internal links: 3413 (avg 7.9 per page)
 
 ## URLs by archetype
 
@@ -15,7 +15,7 @@
 | --- | --- |
 | `service-area-service` | 360 |
 | `service-area` | 30 |
-| `service-landing` | 25 |
+| `service-landing` | 26 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -52,6 +52,7 @@
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
 
@@ -95,12 +96,12 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation santa maria |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration santa maria |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration santa maria |
+| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing santa maria |
 | `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup santa maria |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration santa maria |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services santa maria |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization santa maria |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration santa maria |
-| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration santa maria |
 
 ## Validation
 

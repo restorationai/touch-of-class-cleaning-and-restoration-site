@@ -81,6 +81,23 @@ def _base(cid: str, company_name: str) -> str:
     return str(prof.get("title") or company_name).strip()
 
 
+_LEGAL = re.compile(r"[,\s]+(inc\.?|incorporated|llc|l\.l\.c\.?|corp\.?|corporation|"
+                    r"co\.?|company|ltd\.?|pllc|lp|llp)\s*$", re.I)
+_GENERIC_TAIL = re.compile(r"\s+(services|service|group)\s*$", re.I)
+
+
+def brand_stems(base: str) -> tuple[str, str]:
+    """(stem, short_stem). Legal suffixes never ride a GBP name (Santino
+    2026-10-01, Coastal: 'Coastal Restoration Services Inc - ...' kept the
+    Inc). short_stem also drops a trailing generic word ('Services') when
+    a shorter identity buys a keyword lane under the 90-char cap."""
+    stem = base.strip()
+    while _LEGAL.search(stem):
+        stem = _LEGAL.sub("", stem).strip()
+    short = _GENERIC_TAIL.sub("", stem).strip() or stem
+    return stem, short
+
+
 def research(slug: str, dry: bool) -> int:
     inv = {s: c for c, s in slug_map().items()}
     cid = inv.get(slug)
@@ -97,7 +114,18 @@ def research(slug: str, dry: bool) -> int:
     if vertical not in VERTICAL_TERMS:
         print(f"ERROR: vertical {vertical!r} has no term set")
         return 1
-    base = _base(cid, co.get("name") or slug)
+    base_raw = _base(cid, co.get("name") or slug)
+    base, short_base = brand_stems(base_raw)
+    # 24/7 is REQUIRED for restoration unless the truth table says the
+    # client keeps business hours (Davis). The doctrine line alone was a
+    # suggestion the model dropped under the 90-char cap (Coastal 10-01).
+    lead_247 = False
+    if vertical in ("restoration", "plumbing"):
+        try:
+            import emergency_naming as _en
+            lead_247 = not _en.truth(slug).get("business_hours_only")
+        except Exception:  # noqa: BLE001
+            lead_247 = True
     services: list[str] = []
     pi_p = ROOT / "clients" / slug / "plan-input.json"
     if pi_p.exists():
@@ -114,7 +142,7 @@ def research(slug: str, dry: bool) -> int:
                           sorted(vols.items(), key=lambda kv: -kv[1]))
     prompt = f"""You are naming a Google Business Profile for local search visibility.
 
-Business identity (the name candidates MUST start with this, verbatim): "{base}"
+Business identity: start every name with "{base}" or the shorter "{short_base}" (verbatim; NEVER add Inc, LLC or any legal suffix)
 Vertical: {vertical}
 City/State: {co.get('city')}, {co.get('state')}
 Services they sell: {', '.join(services) or 'unknown'}
@@ -137,7 +165,11 @@ cap. If a name still runs over 90 with "&", shorten or drop a lane.
 
 Return STRICT JSON only:
 {{"candidates": [{{"name": str, "confidence": float 0.5-0.95, "reason": str (one sentence naming the volumes/pattern that justify it)}}]}}
-3 or 4 candidates, each a DIFFERENT strategic focus (volume leader, alternate lane mix, conservative short)."""
+3 or 4 candidates, each a DIFFERENT strategic focus (volume leader, alternate lane mix, conservative short).""" + (
+        "\nREQUIRED: every candidate's service phrase starts with \"24/7 Emergency\" "
+        "(e.g. \"{0} - 24/7 Emergency Water Damage & Mold Remediation\"). Use the "
+        "shorter identity when that is what fits 24/7 Emergency under 90 characters."
+        .format(short_base) if lead_247 else "")
     r = requests.post(ANTHROPIC_API, timeout=120, headers={
         "x-api-key": os.environ["ANTHROPIC_API_KEY"],
         "anthropic-version": "2023-06-01", "content-type": "application/json"},
@@ -163,7 +195,16 @@ Return STRICT JSON only:
     wrote = 0
     for c in cands[:4]:
         name = re.sub(r"\s*[—–]\s*", " - ", str(c.get("name", ""))).strip()
-        if not name.lower().startswith(base.lower()[:12]) or name.lower() in existing:
+        if " - " in name:
+            _bp, _, _tl = name.partition(" - ")
+            _bp = brand_stems(_bp)[0]          # strip any Inc/LLC the model kept
+            if lead_247 and not re.match(r"24/7|24 hour", _tl, re.I):
+                _tl = ("24/7 " + _tl) if _tl.lower().startswith("emergency") \
+                    else ("24/7 Emergency " + _tl)
+            name = f"{_bp} - {_tl}"
+            if len(name) > 90 and _bp.lower() == base.lower() and short_base != base:
+                name = f"{short_base} - {_tl}"
+        if not name.lower().startswith(short_base.lower()[:12]) or name.lower() in existing:
             continue
         # House standard 2026-09-19: "&" is the default joiner — normalize
         # any "and" the model produced between service phrases (the brand

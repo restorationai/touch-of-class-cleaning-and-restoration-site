@@ -1,9 +1,9 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-10-01T05:03:45.825751+00:00",
+  "generated_at": "2026-10-01T16:27:11.980083+00:00",
   "input_summary": {
-    "service_count": 25,
+    "service_count": 26,
     "service_area_count": 31,
     "cross_product": true,
     "blog_seed_count": 8
@@ -46,6 +46,7 @@
         "/services/mold-remediation/",
         "/services/water-damage-restoration/",
         "/services/commercial-restoration/",
+        "/services/emergency-plumbing/",
         "/services/emergency-water-removal/",
         "/services/flood-damage-restoration/",
         "/services/reconstruction/",
@@ -133,6 +134,7 @@
         "/services/mold-remediation/",
         "/services/water-damage-restoration/",
         "/services/commercial-restoration/",
+        "/services/emergency-plumbing/",
         "/services/emergency-water-removal/",
         "/services/flood-damage-restoration/",
         "/services/reconstruction/",
@@ -1408,6 +1410,41 @@
         "breadcrumb-list"
       ],
       "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/emergency-plumbing/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Plumbing in Santa Maria | Coastal Restoration Services Inc",
+      "h1": "Plumbing in Santa Maria",
+      "meta_description": "Plumbing in Santa Maria and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
+      "primary_keyword": "emergency plumbing santa maria",
+      "secondary_keywords": [
+        "24 hour plumber",
+        "burst pipe plumber"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
       "status": "planned",
       "internal_links_out": [
         "/services/",

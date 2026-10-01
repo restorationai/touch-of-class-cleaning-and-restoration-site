@@ -10,10 +10,10 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 432,
-    "generated_at": "2026-10-01T05:03:45.837334+00:00"
+    "url_count": 433,
+    "generated_at": "2026-10-01T16:27:11.995042+00:00"
   },
-  "updated_at": "2026-10-01T05:29:47.438563+00:00",
+  "updated_at": "2026-10-01T16:27:11.995046+00:00",
   "build": {
     "scaffolded_at": "2026-07-30T16:30:42.265700+00:00",
     "github_repo": "restorationai/coastal-restoration-services-site",
