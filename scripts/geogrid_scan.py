@@ -90,7 +90,30 @@ def load_center(slug: str) -> dict:
     p = ROOT / "clients" / slug / "plan-input.json"
     if not p.exists():
         raise ValueError(f"{p} not found.")
-    b = json.loads(p.read_text()).get("brand", {})
+    data = json.loads(p.read_text())
+    b = data.get("brand", {})
+    if not (b.get("lat") and b.get("lng")):
+        # SELF-HEAL (Dry1 Out 2026-10-01: no brand.lat ever, so every scan
+        # either died here or matched nothing). Geocode the business
+        # address/city once and write it back; else center on the first
+        # configured geogrid city so the scan still runs.
+        ll = None
+        try:
+            import location_scout as la
+            q = ", ".join(x for x in (b.get("address"), b.get("city")) if x)
+            ll = la.geocode(q or b.get("city") or "", b.get("state") or "") if (q or b.get("city")) else None
+        except Exception:  # noqa: BLE001
+            ll = None
+        if not ll:
+            try:
+                c0 = json.loads((p.parent / "geogrid-cities.json").read_text())[0]
+                ll = (c0["lat"], c0["lng"])
+            except Exception:  # noqa: BLE001
+                ll = None
+        if ll:
+            b["lat"], b["lng"] = ll[0], ll[1]
+            data["brand"] = b
+            p.write_text(json.dumps(data, indent=1) + "\n")
     for k in ("lat", "lng", "display_name"):
         if not b.get(k):
             raise ValueError(
