@@ -2411,6 +2411,34 @@
       "triaged_at": "2026-09-29T14:54:49Z",
       "triage_model": "claude-sonnet-5"
     },
+    "web:df18aa3a1fd0cc4c": {
+      "source": "website",
+      "storage": "site-assets/web/web-df18aa3a1fd0cc4c.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1766829460317/site-assets/web/web-df18aa3a1fd0cc4c.jpg",
+      "origin_url": "https://cdn.dry1out.com/wp-content/uploads/1744723.jpg",
+      "found_on": "https://www.dry1out.com/blog/",
+      "width": 1280,
+      "height": 857,
+      "bytes": 192202,
+      "sha1": "df18aa3a1fd0cc4c",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Burned out brick building ruins behind security fence",
+      "quality": 65,
+      "slots": {
+        "hero": 40,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "fire-damage-restoration",
+        "storm-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Severe fire damage to commercial building, no crew or equipment visible.",
+      "triaged_at": "2026-10-01T16:08:38Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "web:e05b683c60791f8a": {
       "source": "website",
       "storage": "site-assets/web/web-e05b683c60791f8a.jpg",
@@ -2502,6 +2530,34 @@
       "triaged_at": "2026-09-29T14:54:55Z",
       "triage_model": "claude-sonnet-5"
     },
+    "web:e6c4dd510be8e523": {
+      "source": "website",
+      "storage": "site-assets/web/web-e6c4dd510be8e523.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1766829460317/site-assets/web/web-e6c4dd510be8e523.jpg",
+      "origin_url": "https://cdn.dry1out.com/wp-content/uploads/unnamed-71.webp",
+      "found_on": "https://www.dry1out.com/blog/",
+      "width": 1360,
+      "height": 1020,
+      "bytes": 240130,
+      "sha1": "e6c4dd510be8e523",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Roof covered with large tarp after damage",
+      "quality": 60,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "storm-damage-restoration",
+        "emergency-board-up"
+      ],
+      "flags": [],
+      "reason": "Aerial view of tarped roof, emergency protective covering in place.",
+      "triaged_at": "2026-10-01T16:08:38Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "web:ea6ccbb422476c00": {
       "source": "website",
       "storage": "site-assets/web/web-ea6ccbb422476c00.jpg",
@@ -2563,5 +2619,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-09-30T19:34:47Z"
+  "triaged_at": "2026-10-01T16:08:38Z"
 }

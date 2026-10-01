@@ -3,7 +3,7 @@
   "slug": "all-pro-plumbing",
   "site": "allproplumbingheatingandair.com",
   "origin": "https://allproplumbingheatingandair.com",
-  "generated_at": "2026-08-31T22:00:34Z",
+  "generated_at": "2026-10-01T17:00:43Z",
   "gsc_enabled": false,
   "totals": {
     "total_actions": 0,
@@ -22,13 +22,11 @@
   },
   "items": [],
   "notes": [
-    "URLs skipped because already in content-queue: none. Seven candidate URLs match content-queue items, but none carry a status in the active set {queued, in_progress, needs_review}: /blog/best-emergency-plumbing-company-in-bakersfield-ca/, /blog/how-to-find-a-good-plumber/, /blog/toilet-replacement-cost/ and /blog/does-homeowners-insurance-cover-slab-leak-repair/ are status=written, and /blog/how-much-does-a-plumber-cost-per-hour/, /blog/how-much-does-a-plumber-cost-to-unclog-a-drain/ and /blog/air-conditioner-not-cooling/ are status=published. All seven are fresh (age 0 to 35 days), so there was nothing to dedupe. The remaining 12 content-queue items are still queued with post_url=null and have no live URL yet.",
-    "URLs where date extraction failed: none. All 192 inspected URLs resolved a date (151 via json_ld_date_modified, 41 via sitemap_lastmod) with zero HTML fetch failures.",
-    "v1 limitations: no GSC indexing flags. request_indexing and fix_canonical are unreachable this run because not_indexed and index_warning coverage states require the v2 GSC layer.",
-    "All 192 candidates are fresh: zero layer-1 flags and a maximum age of 82 days against a 305-day aging threshold and a 365-day stale threshold. No refresh or audit action is warranted this cycle.",
-    "Layer 1 coverage: the candidates file found in place had inspected_count=120, the scorer's default --max-urls cap (scripts/refresh_scorer.py:527), against a 192-URL sitemap. The scorer was re-run at --max-urls 300 for this report so the numbers above cover the full sitemap. This is the same truncation reported on 2026-07-30 and it has recurred.",
-    "Sitemap change since 2026-07-30: 209 URLs then, 192 now. The entire 23-URL /service-areas/bakersfield-ca/ cluster was removed from the sitemap and now 301-redirects (each service page to its /services/{service}/ equivalent, the city hub to /). Bakersfield is the primary service area in plan-input.json, so the primary city is covered by the 22 /services/ service-landing pages and the duplicate city cluster has been consolidated correctly. Six new URLs were added: five blog posts published by System 2 and /services/plasma-guard-pro/.",
-    "Archetype mapping: 11 sitemap URLs are absent from plan/url-plan.json (/certifications/, /emergency/, /reviews/, /services/plasma-guard-pro/, and 7 System 2 blog posts) and were treated as non-money pages by default. /emergency/ and /services/plasma-guard-pro/ are commercial pages that would score as money pages once mapped.",
-    "Money-page rule scope: the rule matches archetypes {home, contact, services-hub, service-landing, service-area}, which covers 31 of 192 candidates. The 132 service-area-service URLs (for example /service-areas/shafter-ca/water-heater-repair/) are commercial conversion pages but fall outside the rule as written, so they would score at priority 4 rather than priority 1 or 3 when they age."
+    "URLs skipped because already in content-queue: none. 14 candidate URLs match content-queue items (5 written, 9 published), none in {queued, in_progress, needs_review}; all are fresh. The 6 queued items have post_url=null.",
+    "URLs where date extraction failed: none. All 453 URLs resolved a date (400 json_ld_date_modified, 53 sitemap_lastmod), zero HTML fetch failures.",
+    "v1 limitations: no GSC indexing flags. request_indexing and fix_canonical are unreachable because not_indexed and index_warning require the v2 GSC layer.",
+    "All 453 candidates carry empty flags and are under 305 days old; oldest is /blog/drain-cleaning-diy-vs-pro/ at 113 days (json_ld_date_modified 2026-06-10).",
+    "Layer 1 truncation recurred: the candidates file in place had inspected_count=120 (scorer default --max-urls). Re-run at --max-urls 3000 covered the full 453-URL sitemap (up from 192 on 2026-08-31, driven by 242 new service-area-service pages published 2026-09-21 to 2026-09-27).",
+    "Prior queue had 0 items; nothing in_progress or completed to preserve."
   ]
 }

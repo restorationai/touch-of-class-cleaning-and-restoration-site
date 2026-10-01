@@ -1455,6 +1455,200 @@
         "https://www.iicrc.org/page/IICRCS540"
       ],
       "notes": "590/mo at KD 0 and completely uncovered. Frame it as the DIY-versus-pro decision line, which is the passage AI assistants lift: small fresh spill on a hard surface is a homeowner job with the right PPE and disinfectant contact time, while anything soaked into carpet pad, upholstery, subfloor, or HVAC, plus norovirus exposure and anything involving blood, is a professional call. Tacoma angle: the municipal HEPA filtration ordinance for work that produces airborne particulate. Use the blood and death cluster terms only as a short 'when it is more than vomit' section that links out to the trauma pages, do not turn the post into a death-cleanup article."
+    },
+    {
+      "id": "2026-10-01-water-damage-on-ceiling",
+      "status": "queued",
+      "queued_at": "2026-10-01T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage on ceiling",
+      "intent": "informational",
+      "volume": 2900,
+      "kd": 0,
+      "fan_out_cluster": [
+        "ceiling damage from water",
+        "water stain on ceiling",
+        "sagging ceiling from water leak",
+        "ceiling water damage repair",
+        "do you have to replace drywall after water damage",
+        "how to tell if water damage is permanent"
+      ],
+      "suggested_slug": "water-damage-on-ceiling",
+      "suggested_title": "Water Damage on Ceiling: What the Stain Means and What to Do Next in Federal Way, WA",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/ceiling-water-damage-repair/",
+        "/services/roof-leak-repair/",
+        "/services/water-leak-detection/",
+        "/blog/what-to-do-first-24-hours-water-damage/"
+      ],
+      "service_tags": [
+        "ceiling-water-damage-repair",
+        "roof-leak-repair",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "federal-way-wa",
+      "external_authority_candidates": [
+        "https://doh.wa.gov/community-and-environment/contaminants/mold",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+      ],
+      "notes": "Largest-volume informational term in the seed family (2,900/mo, KD 0). Write for the homeowner staring at a brown ring or bulge: what each sign means (stain vs sag vs drip), how to find the source (roof, bathroom above, HVAC condensate, supply line), and the sagging-ceiling safety warning (puncture a small drain hole under a bucket, stay out from under it). Lead with the fall/winter rain angle for South King County. The transactional 'ceiling water damage repair' intent belongs to /services/ceiling-water-damage-repair/, so link there as the CTA rather than re-targeting repair terms. Answer the PAA 'do you have to replace drywall after water damage' in its own H2."
+    },
+    {
+      "id": "2026-10-01-water-damage-to-hardwood-floors",
+      "status": "queued",
+      "queued_at": "2026-10-01T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage to hardwood floors",
+      "intent": "informational",
+      "volume": 1600,
+      "kd": 0,
+      "fan_out_cluster": [
+        "water damaged hardwood floors cupping vs crowning",
+        "can water damaged hardwood floors be saved",
+        "how long does it take for a floor to rot from water damage",
+        "water damage to wood floors repair",
+        "subfloor water damage",
+        "water damage restoration process"
+      ],
+      "suggested_slug": "water-damage-to-hardwood-floors",
+      "suggested_title": "Water Damage to Hardwood Floors: Can They Be Saved? (Tacoma, WA Homeowner Guide)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/emergency-water-removal/",
+        "/services/reconstruction/",
+        "/services/appliance-leak-cleanup/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "emergency-water-removal",
+        "reconstruction"
+      ],
+      "city_anchor": "tacoma-wa",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.nwfa.org/"
+      ],
+      "notes": "1,600/mo, KD 0, no blog coverage. Explain cupping vs crowning vs buckling and what each says about moisture under the boards; save vs replace criteria (moisture readings, how long the wood sat wet, solid vs engineered). Cover drying in place with floor mats and dehumidification and why sanding too early ruins the floor. Answer the PAA 'how long does it take for a floor to rot from water damage' and send subfloor and replacement work to the reconstruction service. Anchor to Tacoma (client priority area)."
+    },
+    {
+      "id": "2026-10-01-water-damage-baseboards",
+      "status": "queued",
+      "queued_at": "2026-10-01T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage baseboards",
+      "intent": "informational",
+      "volume": 1300,
+      "kd": 0,
+      "fan_out_cluster": [
+        "water damaged baseboards signs",
+        "swollen baseboards from water",
+        "mold behind baseboards",
+        "signs of water damage in walls",
+        "do you have to replace drywall after water damage",
+        "how to dry out walls after water damage"
+      ],
+      "suggested_slug": "water-damage-baseboards",
+      "suggested_title": "Water Damage Baseboards: Swelling, Mold Behind the Trim and When to Call a Pro in Federal Way, WA",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-leak-detection/",
+        "/blog/signs-of-hidden-mold/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation",
+        "water-leak-detection"
+      ],
+      "city_anchor": "federal-way-wa",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "1,300/mo, KD 0, high CPC ($77.69), so the audience is close to hiring. Baseboards are where most homeowners first see a slow leak. Explain why pros pull baseboards and drill weep holes to dry the wall cavity instead of tearing out drywall, the 24 to 48 hour mold window, and MDF vs solid wood trim (MDF swells and gets replaced). Link the existing /blog/signs-of-hidden-mold/ rather than repeating mold signs."
+    },
+    {
+      "id": "2026-10-01-signs-of-water-damage-in-walls",
+      "status": "queued",
+      "queued_at": "2026-10-01T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "signs of water damage in walls",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 8,
+      "fan_out_cluster": [
+        "water damage behind wall",
+        "bubbling paint water damage",
+        "soft drywall from water",
+        "musty smell in wall",
+        "how to tell if water damage is permanent",
+        "what is considered minor water damage"
+      ],
+      "suggested_slug": "signs-of-water-damage-in-walls",
+      "suggested_title": "Signs of Water Damage in Walls: 8 Warning Signs Federal Way Homeowners Miss",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-leak-detection/",
+        "/services/water-damage-restoration/",
+        "/services/burst-pipe-repair/",
+        "/services/mold-inspection-testing/"
+      ],
+      "service_tags": [
+        "water-leak-detection",
+        "water-damage-restoration",
+        "burst-pipe-repair"
+      ],
+      "city_anchor": "federal-way-wa",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://doh.wa.gov/community-and-environment/contaminants/mold"
+      ],
+      "notes": "Question-style informational page built for AI answer lift: open with a direct numbered list of signs (stains, bubbling or peeling paint, soft or warped drywall, musty odor, rising water bill, baseboard swelling), then explain how moisture meters and thermal imaging confirm a hidden leak. Answer the PAA 'what is considered minor water damage' and 'how to tell if water damage is permanent' as H2s. Push to the water leak detection service as the CTA."
+    },
+    {
+      "id": "2026-10-01-water-damage-restoration-process",
+      "status": "queued",
+      "queued_at": "2026-10-01T00:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage restoration process",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 1,
+      "fan_out_cluster": [
+        "water damage restoration checklist",
+        "water mitigation vs restoration",
+        "how long does water damage take to dry",
+        "can you live in a house with water damage",
+        "what to do immediately after water damage",
+        "how to document water damage for insurance"
+      ],
+      "suggested_slug": "water-damage-restoration-process",
+      "suggested_title": "The Water Damage Restoration Process, Step by Step: What Happens at Your Tacoma Home",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/emergency-water-removal/",
+        "/services/reconstruction/",
+        "/blog/how-long-does-water-damage-restoration-take/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "emergency-water-removal",
+        "reconstruction"
+      ],
+      "city_anchor": "tacoma-wa",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "110/mo, KD 1, $88 CPC (highest CPC in the family). Walk the IICRC S500 sequence: inspection and water category, extraction, moisture mapping, controlled demo, drying and daily readings, antimicrobial, reconstruction. Answer 'water mitigation vs restoration' and 'can you live in a house with water damage' in their own sections. Do NOT duplicate timelines: link /blog/how-long-does-water-damage-restoration-take/ for durations and /blog/what-to-do-first-24-hours-water-damage/ for homeowner first steps. Anchor to Tacoma (client priority area)."
     }
   ]
 }

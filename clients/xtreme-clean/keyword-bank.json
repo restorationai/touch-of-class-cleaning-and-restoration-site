@@ -12,7 +12,7 @@
    "plan-input.services[]",
    "plan-input.service_areas[]",
    "plan/url-plan.json",
-   "Supabase integration_settings.goals (no companies row for Xtreme Clean as of 2026-09-29)"
+   "Supabase integration_settings.goals (no companies row for Xtreme Clean as of 2026-10-01)"
   ],
   "effect": [
    "0 items queued to content-queue.json",
@@ -21,7 +21,7 @@
    "no coverage check performed",
    "seed NOT marked researched (no cooldown)"
   ],
-  "last_blocked_run": "2026-09-29",
+  "last_blocked_run": "2026-10-01",
   "seeds_researched_pending_rescore": [
    {
     "seed": "water damage restoration",

@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+bathroom water damage repair,transactional,90,0,25.39,1,what to do after water damage,,,no
+dehumidifier for water damage,transactional,6600,0,13.13,3,what to do after water damage,,,no
+ceiling water damage repair,transactional,1900,0,31.06,3,what to do after water damage,,/services/ceiling-water-damage-repair/,no
+water damage repair Tacoma,transactional,40,0,22.39,3,what to do after water damage,Tacoma,/service-areas/tacoma-wa/water-damage-restoration/,no
+water damage repair Seattle,transactional,40,8,52.16,3,what to do after water damage,Seattle,/service-areas/seattle-wa/water-damage-restoration/,no
+water damage repair Bellevue,transactional,20,0,,3,what to do after water damage,Bellevue,/service-areas/bellevue-wa/water-damage-restoration/,no
+water damage repair Federal Way,transactional,10,,,3,what to do after water damage,Federal Way,/service-areas/federal-way-wa/water-damage-restoration/,no
+water damage cleanup Tacoma,transactional,10,,,3,what to do after water damage,Tacoma,/service-areas/tacoma-wa/water-damage-restoration/,no
+water damage cleanup Seattle,transactional,10,,,3,what to do after water damage,Seattle,/service-areas/seattle-wa/water-damage-restoration/,no
+water damage restoration cost,commercial,720,0,43.02,2,what to do after water damage,,,no
+water damage repair cost calculator,commercial,320,0,19.13,2,what to do after water damage,,,no
+water damage house repair costs,commercial,70,5,38.97,2,what to do after water damage,,,no
+how much does it cost to fix a house with water damage,commercial,,,,2,what to do after water damage,,,no
+water damage restoration cost Seattle,commercial,,,,2,what to do after water damage,Seattle,,no
+water damage on ceiling,informational,2900,0,59.84,1,what to do after water damage,,,yes
+water damage to hardwood floors,informational,1600,0,23.17,1,what to do after water damage,,,yes
+water damage baseboards,informational,1300,0,77.69,1,what to do after water damage,,,yes
+water damage restoration process,informational,110,1,88.27,1,what to do after water damage,,,yes
+signs of water damage in walls,informational,110,8,,1,what to do after water damage,,,yes
+what to do if your house floods,informational,110,3,40.98,1,what to do after water damage,,,no
+water damage restoration checklist,informational,50,3,79.59,2,what to do after water damage,,,no
+how to dry out walls after water damage,informational,20,34,11.59,2,what to do after water damage,,,no
+can carpet be saved after water damage,informational,20,,141.6,2,what to do after water damage,,,no
+will water damage go away on its own,informational,10,,,2,what to do after water damage,,,no
+what is considered minor water damage,informational,,,,2,what to do after water damage,,,no
+how to tell if water damage is permanent,informational,,,,2,what to do after water damage,,,no
+how long does it take for a floor to rot from water damage,informational,,,,2,what to do after water damage,,,no
+can you live in a house with water damage,informational,,,,2,what to do after water damage,,,no
+do you have to replace drywall after water damage,informational,,,,2,what to do after water damage,,,no
+how to document water damage for insurance,informational,,,,2,what to do after water damage,,,no
+water mitigation vs restoration,informational,,,,2,what to do after water damage,,,no
+how to dry water damaged drywall,informational,,,,2,what to do after water damage,,,no
+what to do after water damage,informational,20,9,21.79,3,what to do after water damage,,/blog/what-to-do-first-24-hours-water-damage/,no
+what to do after water damage in house,informational,10,,20.4,3,what to do after water damage,,/blog/what-to-do-first-24-hours-water-damage/,no
+how long does water damage take to dry,informational,10,,,3,what to do after water damage,,/blog/how-long-does-water-damage-restoration-take/,no
+water damage restoration timeline,informational,10,3,,3,what to do after water damage,,/blog/how-long-does-water-damage-restoration-take/,no
+what to do immediately after water damage,informational,,,,3,what to do after water damage,,/blog/what-to-do-first-24-hours-water-damage/,no
+what to do after water damage Federal Way,informational,,,,3,what to do after water damage,Federal Way,/blog/what-to-do-first-24-hours-water-damage/,no
+does insurance pay for water restoration,informational,,,,3,what to do after water damage,,/blog/does-homeowners-insurance-cover-water-damage/,no
+how long does it take for mold to grow after water damage,informational,,,,3,what to do after water damage,,/blog/mold-after-water-damage/,no

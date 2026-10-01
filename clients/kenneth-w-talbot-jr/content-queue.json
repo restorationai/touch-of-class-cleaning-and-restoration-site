@@ -440,6 +440,187 @@
         "https://www.nwfa.org/"
       ],
       "notes": "Volume 1,600/mo, KD 0. Explain specialized floor-drying mats and moisture readings; honest about when boards must be replaced."
+    },
+    {
+      "id": "2026-10-01-does-homeowners-insurance-cover-mold-remediation",
+      "status": "queued",
+      "queued_at": "2026-10-01T12:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover mold remediation",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 17,
+      "fan_out_cluster": [
+        "does insurance cover mold remediation",
+        "Florida mold sublimits and the $10,000 cap",
+        "sudden leak vs long-term humidity: what adjusters look for",
+        "documenting mold for a claim",
+        "who pays for mold remediation when insurance says no"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-mold-remediation",
+      "suggested_title": "Does Homeowners Insurance Cover Mold Remediation in Freeport, FL?",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/mold-remediation-cost-fl/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "freeport-fl",
+      "external_authority_candidates": [
+        "https://www.floridahealth.gov/community-environmental-public-health/environmental-public-health/air-quality/mold/",
+        "https://www.floir.com/"
+      ],
+      "notes": "Owner-named goal service (mold listed first). Volume 1,000/mo (rising: 1,900 in Aug), KD 17, CPC $9.74. Lead with covered peril vs neglect; explain mold sublimits common in Florida policies without quoting a specific carrier. Freeport is the primary city (no city service page; link /services/mold-remediation/)."
+    },
+    {
+      "id": "2026-10-01-mold-in-air-conditioner",
+      "status": "queued",
+      "queued_at": "2026-10-01T12:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "mold in air conditioner",
+      "intent": "informational",
+      "volume": 5400,
+      "kd": 7,
+      "fan_out_cluster": [
+        "mold in ac vents",
+        "ac mold remediation",
+        "hvac mold remediation cost",
+        "signs of mold in your AC (musty smell when it kicks on)",
+        "condensate drain lines and drain pans in Gulf Coast humidity",
+        "when to call a remediator vs an HVAC tech"
+      ],
+      "suggested_slug": "mold-in-air-conditioner",
+      "suggested_title": "Mold in Air Conditioner Systems: A Panama City Beach Homeowner Guide",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/panama-city-beach-fl/mold-remediation/",
+        "/blog/signs-of-hidden-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "panama-city-beach-fl",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.floridahealth.gov/community-environmental-public-health/environmental-public-health/air-quality/mold/"
+      ],
+      "notes": "Volume 5,400/mo, KD 7; cluster adds mold in ac vents (1,300, KD 0). AC condensation is a top Panhandle mold source (ChatGPT fan-out names it). EPA flags suspected HVAC contamination as a pro job; be honest that duct cleaning alone does not fix the moisture source."
+    },
+    {
+      "id": "2026-10-01-mold-remediation-process",
+      "status": "queued",
+      "queued_at": "2026-10-01T12:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "mold remediation process",
+      "intent": "informational",
+      "volume": 720,
+      "kd": 16,
+      "fan_out_cluster": [
+        "how long does mold remediation take",
+        "mold remediation steps",
+        "can i stay in my house during mold remediation",
+        "containment and negative air pressure",
+        "what gets removed vs cleaned (porous vs nonporous)",
+        "can mold come back after remediation"
+      ],
+      "suggested_slug": "mold-remediation-process",
+      "suggested_title": "The Mold Remediation Process in Santa Rosa Beach: Steps and How Long It Takes",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/santa-rosa-beach-fl/mold-remediation/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "santa-rosa-beach-fl",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS520",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Volume 720/mo, KD 16; cluster carries how long does mold remediation take (720, KD 0). Sequence from ChatGPT fan-out: stop the water, dry, determine extent, remove/clean, prevent recurrence. Mention Florida DBPR remediator licensing for jobs over 10 sq ft."
+    },
+    {
+      "id": "2026-10-01-who-pays-for-mold-remediation",
+      "status": "queued",
+      "queued_at": "2026-10-01T12:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "who pays for mold remediation",
+      "intent": "informational",
+      "volume": 880,
+      "kd": 9,
+      "fan_out_cluster": [
+        "who pays for mold remediation in florida",
+        "landlord vs tenant responsibility under Florida law",
+        "condo association vs unit owner mold responsibility",
+        "mold found during a home sale or inspection",
+        "when homeowners insurance pays"
+      ],
+      "suggested_slug": "who-pays-for-mold-remediation",
+      "suggested_title": "Who Pays for Mold Remediation in Destin? Owners, Landlords, HOAs, and Insurance",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/destin-fl/mold-remediation/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "destin-fl",
+      "external_authority_candidates": [
+        "https://www.flsenate.gov/Laws/Statutes/2024/83.51",
+        "https://www.epa.gov/mold"
+      ],
+      "notes": "Volume 880/mo, KD 9, CPC $14.28. Destin is condo and vacation-rental heavy, so the HOA and landlord angles land locally. Not legal advice; point to the statute and the lease/declaration."
+    },
+    {
+      "id": "2026-10-01-bathroom-mold-remediation",
+      "status": "queued",
+      "queued_at": "2026-10-01T12:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "bathroom mold remediation",
+      "intent": "transactional",
+      "volume": 5400,
+      "kd": 12,
+      "fan_out_cluster": [
+        "mold behind shower tile and under the tub",
+        "bathroom exhaust fans and Florida humidity",
+        "EPA 10 square foot rule for DIY cleanup",
+        "mold under the sink from slow leaks",
+        "preventing bathroom mold after remediation"
+      ],
+      "suggested_slug": "bathroom-mold-remediation",
+      "suggested_title": "Bathroom Mold Remediation in Fort Walton Beach: When Cleaning Is Not Enough",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/fort-walton-beach-fl/mold-remediation/",
+        "/blog/signs-of-hidden-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "fort-walton-beach-fl",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Volume 5,400/mo, KD 12. Transactional-leaning; no bathroom-specific commercial page exists. Be honest that small surface spots are DIY (under 10 sq ft per EPA); sell the job when mold is in drywall, subfloor, or behind tile."
     }
   ]
 }

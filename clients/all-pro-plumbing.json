@@ -22,7 +22,7 @@
   },
   "status": "active",
   "created_at": "2026-07-08T16:12:20.849362+00:00",
-  "updated_at": "2026-10-01T05:03:36.712789+00:00",
+  "updated_at": "2026-10-01T17:00:43Z",
   "company_id": "CO-1783380243102",
   "nap": {
     "name": "All Pro Plumbing Heating and Air",
@@ -73,15 +73,15 @@
   },
   "cut_over_at": "2026-07-23T06:30:00+00:00",
   "audit": {
-    "last_audit_at": "2026-08-31T21:52:35Z",
+    "last_audit_at": "2026-10-01T17:00:00Z",
     "last_audit_verdict": "amber",
-    "last_audit_report_path": "audit-runs/2026-08-31-onsite-audit.md"
+    "last_audit_report_path": "audit-runs/2026-10-01-onsite-audit.md"
   },
   "refresh": {
-    "last_run_at": "2026-08-31T22:01:10Z",
+    "last_run_at": "2026-10-01T17:00:43Z",
     "last_run_total_actions": 0,
     "last_run_top_action": null,
-    "last_run_report_path": "clients/all-pro-plumbing/refresh-runs/2026-08-31-refresh-recommender.md"
+    "last_run_report_path": "clients/all-pro-plumbing/refresh-runs/2026-10-01-refresh-recommender.md"
   },
   "cutover_prep": {
     "domain": "allproplumbingheatingandair.com",

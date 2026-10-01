@@ -594,6 +594,203 @@
         "https://www.iicrc.org/page/IICRCS700"
       ],
       "notes": "CPC 18.92 on a 210/mo question: strong AI-retrieval fuel, and the keep-vs-toss list is exactly the passage format ChatGPT lifts verbatim. Build it as a room-by-room and material-by-material list (food, medication, cosmetics, mattresses, porous vs non-porous). Tie the save side to contents-restoration, which IS in plan. KD unknown (not in the Labs DB); queued on volume plus intent."
+    },
+    {
+      "id": "2026-10-01-mold-remediation-cost-corona-ca",
+      "status": "queued",
+      "queued_at": "2026-10-01T12:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "mold remediation cost",
+      "intent": "commercial",
+      "volume": 9900,
+      "kd": 3,
+      "fan_out_cluster": [
+        "mold remediation cost per square foot",
+        "whole-house mold remediation cost",
+        "how much does mold remediation cost in california",
+        "mold remediation cost basement",
+        "mold remediation cost calculator",
+        "mold remediation vs removal"
+      ],
+      "suggested_slug": "mold-remediation-cost-corona-ca",
+      "suggested_title": "Mold remediation cost in Corona, CA (2026 price ranges by job size)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/mold-inspection-testing/",
+        "/services/water-leak-detection/",
+        "/services/reconstruction/",
+        "/blog/water-damage-restoration-cost-ca/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "mold-inspection-testing",
+        "water-leak-detection",
+        "reconstruction"
+      ],
+      "city_anchor": "corona-ca",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx"
+      ],
+      "notes": "KD 3, 9,900/mo, CPC $20. Mold is an owner-stated goal service (wizard). Break cost into the three line items homeowners get surprised by: inspection/testing, remediation (containment, removal, HEPA, drying), and rebuild. Lead the hidden-cost section with leak detection (also a wizard goal): remediation without fixing the moisture source fails. ChatGPT's answer for Corona cites Angi national and Riverside-San Bernardino-Ontario ranges; use our own ranges or attribute any third-party figures. Fold the per-square-foot and whole-house variants into H2s. Match the table format of /blog/water-damage-restoration-cost-ca/ without repeating its copy. SoCal homes rarely have basements: mention crawl spaces and slab-on-grade instead."
+    },
+    {
+      "id": "2026-10-01-does-homeowners-insurance-cover-mold-remediation-riverside-ca",
+      "status": "queued",
+      "queued_at": "2026-10-01T12:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover mold remediation",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 17,
+      "fan_out_cluster": [
+        "mold from a sudden leak vs long-term seepage",
+        "mold exclusions and coverage caps in California policies",
+        "how to document mold for an insurance claim",
+        "who pays for mold remediation",
+        "mold remediation cost"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-mold-remediation-riverside-ca",
+      "suggested_title": "Does homeowners insurance cover mold remediation? A Riverside, CA homeowner's guide",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/riverside-ca/mold-remediation/",
+        "/services/water-leak-detection/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/mold/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-leak-detection",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "riverside-ca",
+      "external_authority_candidates": [
+        "https://www.insurance.ca.gov/",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "KD 17, 1,000/mo and rising (1,900 in Aug 2026). Insurance decision-stage: high value. /blog/mold/ has one short H2 on insurance; this post is the deep version and should link back to it, not repeat it. Core answer: coverage usually follows the cause (sudden, accidental water event vs gradual leak, neglect, humidity). Do not quote specific dollar caps unless you source them to a policy or CDI page. Cross-link the water damage insurance post."
+    },
+    {
+      "id": "2026-10-01-how-long-does-mold-remediation-take-anaheim-ca",
+      "status": "queued",
+      "queued_at": "2026-10-01T12:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how long does mold remediation take",
+      "intent": "informational",
+      "volume": 720,
+      "kd": 0,
+      "fan_out_cluster": [
+        "mold remediation process",
+        "black mold remediation process",
+        "is it safe to stay in house during mold remediation",
+        "do i need mold testing before remediation",
+        "does mold come back after remediation"
+      ],
+      "suggested_slug": "how-long-does-mold-remediation-take-anaheim-ca",
+      "suggested_title": "How long does mold remediation take? A day-by-day timeline for Anaheim homes",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/anaheim-ca/mold-remediation/",
+        "/services/mold-inspection-testing/",
+        "/services/reconstruction/",
+        "/blog/how-to-test-for-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "mold-inspection-testing",
+        "reconstruction"
+      ],
+      "city_anchor": "anaheim-ca",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-course-chapter-6",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "KD 0, 720/mo, CPC $12. Question-format GEO target. Give a timeline by job size (small patch, one room, multiple rooms or HVAC) and walk through the phases: inspection, moisture source fix, containment, removal, HEPA cleaning, drying, clearance testing, rebuild. Answer whether the family can stay home during the work (containment and negative air), and why clearance testing must pass before drywall goes back. Several of these cluster questions have no Google volume but came from the ChatGPT decomposition."
+    },
+    {
+      "id": "2026-10-01-who-pays-for-mold-remediation-ontario-ca",
+      "status": "queued",
+      "queued_at": "2026-10-01T12:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "who pays for mold remediation",
+      "intent": "informational",
+      "volume": 880,
+      "kd": 9,
+      "fan_out_cluster": [
+        "who pays for mold remediation in a rental",
+        "landlord responsibility for mold in California",
+        "does homeowners insurance cover mold remediation",
+        "who pays when mold comes from a neighbor's leak",
+        "does the seller pay for mold remediation"
+      ],
+      "suggested_slug": "who-pays-for-mold-remediation-ontario-ca",
+      "suggested_title": "Who pays for mold remediation in Ontario, CA? Owners, landlords, insurers, and sellers",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/ontario-ca/mold-remediation/",
+        "/services/mold-inspection-testing/",
+        "/services/water-leak-detection/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "mold-inspection-testing",
+        "water-leak-detection"
+      ],
+      "city_anchor": "ontario-ca",
+      "external_authority_candidates": [
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx",
+        "https://www.insurance.ca.gov/"
+      ],
+      "notes": "KD 9, 880/mo, CPC $14. Separate from the insurance post: this one covers the parties (owner, landlord, tenant, HOA, neighbor, seller) and links to the insurance post for the policy detail. California treats visible mold as a substandard-housing condition (SB 655, Health and Safety Code 17920.3); verify the citation before publishing and do not give legal advice. Ontario has many rentals, so lead with the landlord-tenant case."
+    },
+    {
+      "id": "2026-10-01-best-mold-remediation-companies-yorba-linda",
+      "status": "queued",
+      "queued_at": "2026-10-01T12:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "best mold remediation companies",
+      "intent": "commercial",
+      "volume": 210,
+      "kd": 18,
+      "fan_out_cluster": [
+        "mold remediation companies",
+        "mold remediation experts",
+        "residential mold remediation companies",
+        "professional mold remediation",
+        "mold remediation vs removal"
+      ],
+      "suggested_slug": "best-mold-remediation-companies-yorba-linda",
+      "suggested_title": "Best mold remediation companies near Yorba Linda: 11 questions to ask before you hire",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/mold-inspection-testing/",
+        "/service-areas/yorba-linda-ca/",
+        "/blog/choosing-a-restoration-company/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "mold-inspection-testing"
+      ],
+      "city_anchor": "yorba-linda-ca",
+      "external_authority_candidates": [
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx",
+        "https://www.iicrc.org/page/IICRCS520"
+      ],
+      "notes": "KD 18, 210/mo, CPC $21. Yorba Linda is an owner-stated priority area with no mold service-area page yet, so this post carries mold intent there. Use a hiring checklist: moisture source, scope of removal, containment, HEPA/PPE, dry verification, what the price includes, change orders, independent clearance testing. California has no state mold license, but $500+ construction work needs a CSLB license (CDPH): show Dry County's IICRC AMRT and CSLB #1083555. Do not name or disparage competitors. Do not repeat /blog/choosing-a-restoration-company/: that post is general, this one is mold-specific."
     }
   ]
 }

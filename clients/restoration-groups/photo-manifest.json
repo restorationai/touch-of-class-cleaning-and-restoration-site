@@ -2473,7 +2473,24 @@
       "height": 575,
       "bytes": 114047,
       "sha1": "7f8b8db45f34b382",
-      "exif": {}
+      "exif": {},
+      "category": "graphic",
+      "subject": "Marketing graphic with crew, van, phone number, service list overlay",
+      "quality": 40,
+      "slots": {
+        "hero": 0,
+        "team": 10,
+        "services": 5
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "phone_number",
+        "logo_card"
+      ],
+      "reason": "Designed promotional card with heavy text overlay and contact info burnt in.",
+      "triaged_at": "2026-10-01T16:05:57Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipPwMieEq7QjviJHlm_VqAHOsvivGrhoB4PmAHtV": {
       "source": "gbp",
@@ -2573,5 +2590,5 @@
       "note": "client-correction override (Michael 2026-08-31): real branded van; below auto hero gate on GBP resolution only"
     }
   },
-  "triaged_at": "2026-09-30T22:44:44Z"
+  "triaged_at": "2026-10-01T16:05:57Z"
 }

@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+bathroom mold remediation,transactional,5400,12,4.45,1,mold remediation,Fort Walton Beach,,true
+attic mold remediation,transactional,2900,0,24.07,1,mold remediation,,,false
+crawl space mold remediation,transactional,1900,0,23.55,1,mold remediation,,,false
+mold remediation,transactional,165000,35,39.69,3,mold remediation,,/services/mold-remediation/,false
+mold removal,transactional,135000,21,30.14,3,mold remediation,,/services/mold-remediation/,false
+mold remediation near me,transactional,33100,25,32.97,3,mold remediation,,/services/mold-remediation/,false
+mold remediation companies near me,transactional,33100,2,32.97,3,mold remediation,,/services/mold-remediation/,false
+professional mold remediation,transactional,33100,26,20.6,3,mold remediation,,/services/mold-remediation/,false
+mold remediation companies,transactional,22200,14,39.78,3,mold remediation,,/services/mold-remediation/,false
+mold removal near me,transactional,18100,4,37.95,3,mold remediation,,/services/mold-remediation/,false
+black mold removal,transactional,12100,17,17.63,3,mold remediation,,/services/mold-remediation/,false
+emergency mold remediation,transactional,590,9,76.51,3,mold remediation,,/services/mold-remediation/,false
+mold remediation destin fl,transactional,20,0,17.11,3,mold remediation,Destin,/service-areas/destin-fl/mold-remediation/,false
+mold remediation fort walton beach,transactional,10,17,73.57,3,mold remediation,Fort Walton Beach,/service-areas/fort-walton-beach-fl/mold-remediation/,false
+mold remediation santa rosa beach fl,transactional,10,,76.38,3,mold remediation,Santa Rosa Beach,/service-areas/santa-rosa-beach-fl/mold-remediation/,false
+mold remediation panama city beach fl,transactional,10,40,,3,mold remediation,Panama City Beach,/service-areas/panama-city-beach-fl/mold-remediation/,false
+mold remediation freeport fl,transactional,10,,,3,mold remediation,Freeport,/services/mold-remediation/,false
+mold removal cost,commercial,9900,18,20.04,2,mold remediation cost,,,false
+mold remediation cost per square foot,commercial,720,6,21.15,2,mold remediation cost,,,false
+best mold remediation companies,commercial,210,18,21.25,2,mold remediation,,,false
+mold in air conditioner,informational,5400,7,9.33,1,mold remediation,Panama City Beach,,true
+does homeowners insurance cover mold remediation,informational,1000,17,9.74,1,mold remediation,Freeport,,true
+what is mold remediation,informational,1000,18,8.21,1,mold remediation,,,false
+who pays for mold remediation,informational,880,9,14.28,1,mold remediation,Destin,,true
+mold remediation process,informational,720,16,16.01,1,mold remediation,Santa Rosa Beach,,true
+mold under sink,informational,720,0,16.23,1,mold remediation,,,false
+epa mold remediation guidelines,informational,320,42,21.8,1,mold remediation,,,false
+florida mold remediation license,informational,110,0,5.22,1,mold remediation,,,false
+mold after flood,informational,50,7,5.91,1,mold remediation,,,false
+what kills mold permanently,informational,3600,23,3.26,2,mold remediation,,,false
+mold in ac vents,informational,1300,0,10.95,2,mold in air conditioner,,,false
+does insurance cover mold remediation,informational,880,20,19,2,does homeowners insurance cover mold remediation,,,false
+how long does mold remediation take,informational,720,0,12.3,2,mold remediation process,,,false
+when is mold remediation required,informational,390,27,14.81,2,what is mold remediation,,,false
+is mold remediation worth it,informational,40,18,,2,what is mold remediation,,,false
+how to prevent mold in florida homes,informational,30,0,0.11,2,mold remediation,,,false
+can mold come back after remediation,informational,20,0,,2,mold remediation process,,,false
+can i stay in my house during mold remediation,informational,,,,2,mold remediation process,,,false
+how to get rid of mold after hurricane,informational,,,,2,mold remediation,,,false
+do i need a mold test before remediation,informational,,,,3,mold remediation,,/blog/how-to-test-for-mold/,false

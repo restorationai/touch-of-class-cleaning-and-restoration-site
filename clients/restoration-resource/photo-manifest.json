@@ -3234,7 +3234,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician using moisture meter on baseboard trim",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 15,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Close-up moisture reading tool in use, shows inspection work.",
+      "triaged_at": "2026-10-01T16:11:11Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806168559": {
       "source": "crew",
@@ -3244,7 +3259,22 @@
       "height": 1104,
       "bytes": 129996,
       "sha1": "f7fc8bd5c7760bb4",
-      "exif": {}
+      "exif": {},
+      "category": "equipment",
+      "subject": "Moisture meter testing exterior wall siding near window",
+      "quality": 60,
+      "slots": {
+        "hero": 15,
+        "team": 10,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clear exterior moisture inspection photo, decent lighting.",
+      "triaged_at": "2026-10-01T16:11:11Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806168933": {
       "source": "crew",
@@ -3254,7 +3284,22 @@
       "height": 1104,
       "bytes": 47847,
       "sha1": "a0a0cde492633f00",
-      "exif": {}
+      "exif": {},
+      "category": "equipment",
+      "subject": "Moisture meter reading on plywood surface",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Cropped vertical shot, low detail, poor framing.",
+      "triaged_at": "2026-10-01T16:11:11Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806169223": {
       "source": "crew",
@@ -3264,7 +3309,23 @@
       "height": 1104,
       "bytes": 54123,
       "sha1": "61c572289899a3d8",
-      "exif": {}
+      "exif": {},
+      "category": "equipment",
+      "subject": "Moisture meter probe testing wood framing under subfloor",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 10,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces",
+        "low_res"
+      ],
+      "reason": "Dark cramped crawlspace moisture test, limited clarity.",
+      "triaged_at": "2026-10-01T16:11:11Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806169587": {
       "source": "crew",
@@ -3281,7 +3342,20 @@
           "lat": 46.280834,
           "lng": -119.366811
         }
-      }
+      },
+      "category": "equipment",
+      "subject": "Pin-type moisture meter with probe testing wall stud",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clear equipment shot showing moisture testing on framing.",
+      "triaged_at": "2026-10-01T16:11:11Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806171592": {
       "source": "crew",
@@ -3298,7 +3372,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "equipment",
+      "subject": "Technician testing moisture at carpet baseboard with meter",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 15,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Shows moisture inspection tool in use near water-damaged trim.",
+      "triaged_at": "2026-10-01T16:11:11Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806174190": {
       "source": "crew",
@@ -3308,7 +3397,22 @@
       "height": 1104,
       "bytes": 56840,
       "sha1": "0fac8c0eacfdea6f",
-      "exif": {}
+      "exif": {},
+      "category": "equipment",
+      "subject": "moisture meter reading on wood subfloor",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Moisture meter tool shot, useful as services image showing inspection work.",
+      "triaged_at": "2026-10-01T16:11:19Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806174490": {
       "source": "crew",
@@ -3318,7 +3422,23 @@
       "height": 1104,
       "bytes": 88468,
       "sha1": "1ca04d51a8a38254",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "hand holding removed moldy insulation material",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "graphic_content",
+        "people_faces"
+      ],
+      "reason": "Close-up of mold-damaged insulation, graphic but shows remediation work.",
+      "triaged_at": "2026-10-01T16:11:19Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806174831": {
       "source": "crew",
@@ -3328,7 +3448,22 @@
       "height": 1104,
       "bytes": 135996,
       "sha1": "5014c91c3f4b306e",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "discarded cabinets in dumpster facility",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Debris and cabinets at disposal site, low visual appeal.",
+      "triaged_at": "2026-10-01T16:11:19Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806175203": {
       "source": "crew",
@@ -3338,7 +3473,20 @@
       "height": 1104,
       "bytes": 125982,
       "sha1": "091d5b741918f49f",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "kitchen subfloor removed exposing joists",
+      "quality": 60,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Water-damaged kitchen floor demolition mid-restoration, clear work-in-progress shot.",
+      "triaged_at": "2026-10-01T16:11:19Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806175641": {
       "source": "crew",
@@ -3348,7 +3496,23 @@
       "height": 1104,
       "bytes": 76686,
       "sha1": "2c22c263bd5d40ac",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "glass shower door panel in bedroom",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter",
+        "low_res"
+      ],
+      "reason": "Unclear subject, glass panel stored in bedroom, not restoration-relevant.",
+      "triaged_at": "2026-10-01T16:11:19Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806175952": {
       "source": "crew",
@@ -3358,7 +3522,22 @@
       "height": 1104,
       "bytes": 85980,
       "sha1": "ba12b18b0c53e207",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "completed tiled shower installation bathroom",
+      "quality": 65,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Finished bathroom renovation shot, shows quality workmanship result.",
+      "triaged_at": "2026-10-01T16:11:19Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806176255": {
       "source": "crew",
@@ -3368,7 +3547,22 @@
       "height": 958,
       "bytes": 89847,
       "sha1": "8e49a594f33961a7",
-      "exif": {}
+      "exif": {},
+      "category": "equipment",
+      "subject": "Commercial water heater with exposed wiring outdoors",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Close-up of water heater unit, relevant to damage/remediation work.",
+      "triaged_at": "2026-10-01T16:11:27Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806176592": {
       "source": "crew",
@@ -3378,7 +3572,22 @@
       "height": 720,
       "bytes": 35858,
       "sha1": "e021c36861527dec",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Storm cloud and rain over open landscape",
+      "quality": 60,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Weather photo unrelated to restoration work itself.",
+      "triaged_at": "2026-10-01T16:11:27Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806176863": {
       "source": "crew",
@@ -3388,7 +3597,22 @@
       "height": 958,
       "bytes": 116718,
       "sha1": "b58f78f35066e8c6",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Kitchen with dehumidifier and cluttered dining table",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Cluttered interior shot with equipment, weak composition.",
+      "triaged_at": "2026-10-01T16:11:27Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806177207": {
       "source": "crew",
@@ -3398,7 +3622,20 @@
       "height": 1104,
       "bytes": 89088,
       "sha1": "863b099528a4b2f8",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Newly installed toilet on wood-look tile floor",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Bathroom fixture install, shows completed restoration work.",
+      "triaged_at": "2026-10-01T16:11:27Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806177512": {
       "source": "crew",
@@ -3408,7 +3645,22 @@
       "height": 659,
       "bytes": 84828,
       "sha1": "09b0286156ab4c2f",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Bathroom vanity covered in plastic during renovation",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Protective plastic sheeting over vanity during active remodel work.",
+      "triaged_at": "2026-10-01T16:11:27Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806177777": {
       "source": "crew",
@@ -3418,7 +3670,22 @@
       "height": 1104,
       "bytes": 65595,
       "sha1": "335e2546fd3e0e08",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Containment barrier with tape sealing doorway in bedroom",
+      "quality": 50,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Containment setup for mold/dust control during remediation job.",
+      "triaged_at": "2026-10-01T16:11:27Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806178101": {
       "source": "crew",
@@ -3428,7 +3695,20 @@
       "height": 1200,
       "bytes": 418044,
       "sha1": "904598311a15bd8a",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "roof heat cables melting snow on residential home",
+      "quality": 55,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Exterior roof ice/snow mitigation, no crew or clear job scope shown.",
+      "triaged_at": "2026-10-01T16:11:36Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806178595": {
       "source": "crew",
@@ -3445,7 +3725,22 @@
           "lat": 46.224007,
           "lng": -119.27624
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "air mover drying water-damaged closet and hallway",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Sideways angle, cluttered closet with drying equipment visible.",
+      "triaged_at": "2026-10-01T16:11:36Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806180870": {
       "source": "crew",
@@ -3458,7 +3753,20 @@
       "exif": {
         "taken_at": "2026:08:28 12:58:10",
         "camera": "samsung Galaxy S26 Ultra"
-      }
+      },
+      "category": "job_progress",
+      "subject": "gutted room with exposed studs and water stains",
+      "quality": 60,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clear water damage demolition showing remediation work in progress.",
+      "triaged_at": "2026-10-01T16:11:36Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806182267": {
       "source": "crew",
@@ -3468,7 +3776,22 @@
       "height": 1104,
       "bytes": 150383,
       "sha1": "49700176edcc634e",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "rotted subfloor exposed during restoration repair",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "graphic_content"
+      ],
+      "reason": "Close-up of decayed wood flooring, clear damage documentation shot.",
+      "triaged_at": "2026-10-01T16:11:36Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806182737": {
       "source": "crew",
@@ -3485,7 +3808,20 @@
           "lat": 46.566184,
           "lng": -120.474213
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "dehumidifier placed in retail shoe store aisle",
+      "quality": 60,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Commercial drying equipment set up in a retail store environment.",
+      "triaged_at": "2026-10-01T16:11:36Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806184344": {
       "source": "crew",
@@ -3498,7 +3834,23 @@
       "exif": {
         "taken_at": "2024:02:29 14:19:20",
         "camera": "samsung Galaxy S23 Ultra"
-      }
+      },
+      "category": "equipment",
+      "subject": "close-up of plumbing fixture part held in hand",
+      "quality": 30,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter",
+        "blurry"
+      ],
+      "reason": "Cluttered background, unclear subject, not a usable marketing image.",
+      "triaged_at": "2026-10-01T16:11:36Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806185672": {
       "source": "crew",
@@ -3515,7 +3867,20 @@
           "lat": 46.224273,
           "lng": -119.276279
         }
-      }
+      },
+      "category": "equipment",
+      "subject": "Air movers and dehumidifier drying stripped room with exposed studs",
+      "quality": 65,
+      "slots": {
+        "hero": 40,
+        "team": 0,
+        "services": 80
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clear drying equipment setup showing water damage mitigation work in progress",
+      "triaged_at": "2026-10-01T16:11:44Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806188019": {
       "source": "crew",
@@ -3532,7 +3897,22 @@
           "lat": 46.566113,
           "lng": -120.474455
         }
-      }
+      },
+      "category": "unusable",
+      "subject": "Retail fitness store interior with bikes and dehumidifier unit",
+      "quality": 30,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Unrelated retail store scene, not a restoration job site",
+      "triaged_at": "2026-10-01T16:11:44Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806190521": {
       "source": "crew",
@@ -3542,7 +3922,20 @@
       "height": 958,
       "bytes": 66715,
       "sha1": "9986f1042afdbd3a",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Bedroom with mattresses and chair, no visible damage or work",
+      "quality": 40,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Ordinary bedroom photo showing no restoration activity or damage",
+      "triaged_at": "2026-10-01T16:11:44Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806190868": {
       "source": "crew",
@@ -3552,7 +3945,20 @@
       "height": 1277,
       "bytes": 142669,
       "sha1": "9774735b07f4d4c2",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Bedroom with bed and hardwood floor, no visible damage",
+      "quality": 40,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Ordinary bedroom photo lacking any restoration context or work",
+      "triaged_at": "2026-10-01T16:11:44Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806191275": {
       "source": "crew",
@@ -3562,7 +3968,20 @@
       "height": 1277,
       "bytes": 122195,
       "sha1": "6fad33e9f39b6fe2",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Bedroom with bare mattress and wall art, no damage visible",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 5
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Generic bedroom shot with no evidence of restoration work",
+      "triaged_at": "2026-10-01T16:11:44Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806191620": {
       "source": "crew",
@@ -3572,7 +3991,20 @@
       "height": 958,
       "bytes": 83575,
       "sha1": "d2de181158053c77",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Hallway with hardwood floor and bedroom mattress visible",
+      "quality": 40,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Hallway and floor view showing no clear damage or repair work",
+      "triaged_at": "2026-10-01T16:11:44Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806191930": {
       "source": "crew",
@@ -3589,7 +4021,22 @@
           "lat": 46.224481,
           "lng": -119.276265
         }
-      }
+      },
+      "category": "equipment",
+      "subject": "Air movers drying water-damaged carpet in hallway room",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Equipment deployed on damaged carpet, cluttered but genuine job scene.",
+      "triaged_at": "2026-10-01T16:11:53Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806194287": {
       "source": "crew",
@@ -3599,7 +4046,22 @@
       "height": 1440,
       "bytes": 541464,
       "sha1": "3baf1cf7e72879e1",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Collapsed ceiling exposing insulation and wood framing",
+      "quality": 50,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Clear ceiling damage shot, useful for before/after documentation.",
+      "triaged_at": "2026-10-01T16:11:53Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806194806": {
       "source": "crew",
@@ -3609,7 +4071,22 @@
       "height": 1440,
       "bytes": 574266,
       "sha1": "a955106f343a4970",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Collapsed ceiling exposing insulation and wood framing",
+      "quality": 48,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Near-duplicate ceiling damage angle, cluttered room.",
+      "triaged_at": "2026-10-01T16:11:53Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806195303": {
       "source": "crew",
@@ -3622,7 +4099,22 @@
       "exif": {
         "taken_at": "2026:08:27 13:40:07",
         "camera": "samsung Galaxy S26 Ultra"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Gloved hand wiping mold-stained wood framing",
+      "quality": 52,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Close-up of mold remediation work, shows hands-on process.",
+      "triaged_at": "2026-10-01T16:11:53Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806196771": {
       "source": "crew",
@@ -3632,7 +4124,23 @@
       "height": 405,
       "bytes": 70207,
       "sha1": "da25ff6cab6ee136",
-      "exif": {}
+      "exif": {},
+      "category": "graphic",
+      "subject": "Collage of living room, thermal scan, and drying equipment with caption",
+      "quality": 60,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "logo_card"
+      ],
+      "reason": "Three-panel marketing collage with overlaid headline and company logo.",
+      "triaged_at": "2026-10-01T16:11:53Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806197044": {
       "source": "crew",
@@ -3645,7 +4153,20 @@
       "exif": {
         "taken_at": "2013:06:19 16:18:48",
         "camera": "FLIR Systems AB FLIR E8"
-      }
+      },
+      "category": "equipment",
+      "subject": "Thermal imaging camera reading on door showing moisture",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Thermal imaging tool readout used for moisture detection inspection.",
+      "triaged_at": "2026-10-01T16:11:53Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806197368": {
       "source": "crew",
@@ -3658,7 +4179,22 @@
       "exif": {
         "taken_at": "2010:12:20 20:14:24",
         "camera": "FLIR Systems AB FLIR T400"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Thermal imaging scan of crawlspace insulation and pipe",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "FLIR thermal diagnostic image, not a standard marketing photo.",
+      "triaged_at": "2026-10-01T16:12:00Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806197684": {
       "source": "crew",
@@ -3671,7 +4207,22 @@
       "exif": {
         "taken_at": "2010:12:20 20:14:31",
         "camera": "FLIR Systems AB FLIR T400"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Thermal imaging scan of crawlspace support beam",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Thermal diagnostic image of crawlspace area.",
+      "triaged_at": "2026-10-01T16:12:00Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806198130": {
       "source": "crew",
@@ -3684,7 +4235,22 @@
       "exif": {
         "taken_at": "2010:12:20 20:14:38",
         "camera": "FLIR Systems AB FLIR T400"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Thermal imaging scan of wall cavity insulation",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Thermal diagnostic image showing moisture/temperature patterns.",
+      "triaged_at": "2026-10-01T16:12:00Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806198534": {
       "source": "crew",
@@ -3697,7 +4263,22 @@
       "exif": {
         "taken_at": "2013:06:19 16:16:19",
         "camera": "FLIR Systems AB FLIR E8"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Thermal imaging close-up of pipe or duct fitting",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Thermal diagnostic close-up of equipment or pipework.",
+      "triaged_at": "2026-10-01T16:12:00Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806199948": {
       "source": "crew",
@@ -3710,7 +4291,22 @@
       "exif": {
         "taken_at": "0001:01:01 00:00:00",
         "camera": "FLIR Systems AB P60 PAL"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Thermal imaging scan of building exterior windows",
+      "quality": 35,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Thermal diagnostic image of building facade heat loss.",
+      "triaged_at": "2026-10-01T16:12:00Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806200598": {
       "source": "crew",
@@ -3723,7 +4319,22 @@
       "exif": {
         "taken_at": "2013:07:18 15:46:31",
         "camera": "FLIR Systems AB FLIR E6"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Thermal imaging scan of ceiling water damage area",
+      "quality": 40,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Thermal diagnostic image showing ceiling moisture/damage pattern.",
+      "triaged_at": "2026-10-01T16:12:00Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806201137": {
       "source": "crew",
@@ -3736,7 +4347,22 @@
       "exif": {
         "taken_at": "2026:08:28 09:09:05",
         "camera": "samsung Galaxy S26 Ultra"
-      }
+      },
+      "category": "equipment",
+      "subject": "thermal imaging camera screen showing moisture scan",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Dark diagnostic photo of thermal camera display, not polished enough for hero.",
+      "triaged_at": "2026-10-01T16:12:09Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806202626": {
       "source": "crew",
@@ -3749,7 +4375,22 @@
       "exif": {
         "taken_at": "2013:07:18 15:24:12",
         "camera": "FLIR Systems AB FLIR E8"
-      }
+      },
+      "category": "job_progress",
+      "subject": "thermal image of wall showing heat/moisture variance near clock",
+      "quality": 30,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 25
+      },
+      "service_slugs": [],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Thermal diagnostic image, useful for documentation not marketing.",
+      "triaged_at": "2026-10-01T16:12:09Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806203115": {
       "source": "crew",
@@ -3759,7 +4400,22 @@
       "height": 1540,
       "bytes": 4066189,
       "sha1": "f2ae51e3dcbcffc4",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "thermal image of office showing water damage on floor",
+      "quality": 30,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 25
+      },
+      "service_slugs": [],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Thermal scan of flooded office floor, technical not marketing quality.",
+      "triaged_at": "2026-10-01T16:12:09Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806205860": {
       "source": "crew",
@@ -3772,7 +4428,22 @@
       "exif": {
         "taken_at": "2013:06:19 16:16:24",
         "camera": "FLIR Systems AB FLIR E8"
-      }
+      },
+      "category": "equipment",
+      "subject": "thermal image of toilet base showing moisture leak",
+      "quality": 28,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Thermal scan of plumbing fixture leak, diagnostic documentation only.",
+      "triaged_at": "2026-10-01T16:12:09Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806206985": {
       "source": "crew",
@@ -3785,7 +4456,23 @@
       "exif": {
         "taken_at": "2009:05:14 21:42:49",
         "camera": "FLIR Systems AB ThermaCAM P660 West"
-      }
+      },
+      "category": "job_progress",
+      "subject": "blurry thermal image of wall corner with moisture stain",
+      "quality": 15,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "blurry",
+        "low_res"
+      ],
+      "reason": "Blurry thermal scan, too low quality for any marketing use.",
+      "triaged_at": "2026-10-01T16:12:09Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806208310": {
       "source": "crew",
@@ -3798,7 +4485,23 @@
       "exif": {
         "taken_at": "2009:05:14 21:43:14",
         "camera": "FLIR Systems AB ThermaCAM P660 West"
-      }
+      },
+      "category": "unusable",
+      "subject": "blurry thermal image of door and wall, unclear subject",
+      "quality": 10,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "blurry",
+        "low_res"
+      ],
+      "reason": "Severely blurry thermal image with no clear informative content.",
+      "triaged_at": "2026-10-01T16:12:09Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806209924": {
       "source": "crew",
@@ -3808,7 +4511,22 @@
       "height": 512,
       "bytes": 76978,
       "sha1": "503d7a09f855726c",
-      "exif": {}
+      "exif": {},
+      "category": "equipment",
+      "subject": "Thermal imaging camera view of wet flooring",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "screenshot"
+      ],
+      "reason": "Thermal camera readout image showing moisture detection on floor.",
+      "triaged_at": "2026-10-01T16:12:17Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806210359": {
       "source": "crew",
@@ -3818,7 +4536,22 @@
       "height": 1440,
       "bytes": 801119,
       "sha1": "06c27caf1ce4f50e",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "House exterior with storm debris and damaged deck",
+      "quality": 45,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Sideways exterior shot of damaged home with deck and debris.",
+      "triaged_at": "2026-10-01T16:12:17Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806211180": {
       "source": "crew",
@@ -3828,7 +4561,22 @@
       "height": 1440,
       "bytes": 599623,
       "sha1": "1febaeee1a47fda4",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Damaged porch structure with tree branch overhead",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Sideways shot of damaged porch framing near fallen tree limb.",
+      "triaged_at": "2026-10-01T16:12:17Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806211997": {
       "source": "crew",
@@ -3838,7 +4586,20 @@
       "height": 1440,
       "bytes": 481917,
       "sha1": "0db4e39abfb3bc56",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Large fallen tree resting on house roof",
+      "quality": 75,
+      "slots": {
+        "hero": 40,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clear image of storm tree damage crushing roofline.",
+      "triaged_at": "2026-10-01T16:12:17Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806212799": {
       "source": "crew",
@@ -3848,7 +4609,20 @@
       "height": 1440,
       "bytes": 581185,
       "sha1": "e9322793aa3fd657",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Close-up of tree damage breaking through roof eave",
+      "quality": 78,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Detailed shot of tree limb breaking roof structure and eave.",
+      "triaged_at": "2026-10-01T16:12:17Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806213344": {
       "source": "crew",
@@ -3861,7 +4635,22 @@
       "exif": {
         "taken_at": "2026:08:27 13:50:52",
         "camera": "samsung Galaxy S26 Ultra"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Interior wall cavity showing mold and exposed framing",
+      "quality": 60,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Interior demolition revealing mold-stained wall and plumbing.",
+      "triaged_at": "2026-10-01T16:12:17Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806214841": {
       "source": "crew",
@@ -3874,7 +4663,22 @@
       "exif": {
         "taken_at": "2021:02:27 11:42:43",
         "camera": "samsung SM-G973U"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Laundry room demolition with exposed studs and insulation",
+      "quality": 35,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Messy demo scene, disorienting angle, shows remediation work in progress.",
+      "triaged_at": "2026-10-01T16:12:26Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806217144": {
       "source": "crew",
@@ -3891,7 +4695,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "unusable",
+      "subject": "Blank ceiling corner with smoke detector",
+      "quality": 15,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Nearly featureless ceiling shot, no useful subject or damage visible.",
+      "triaged_at": "2026-10-01T16:12:26Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806219073": {
       "source": "crew",
@@ -3908,7 +4727,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Damaged drywall with metal strip and L'Or\u00e9al label on table",
+      "quality": 25,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Unclear close-up of debris and unrelated product packaging, poor framing.",
+      "triaged_at": "2026-10-01T16:12:26Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806221041": {
       "source": "crew",
@@ -3918,7 +4752,22 @@
       "height": 1104,
       "bytes": 155956,
       "sha1": "6d3f5b9003b6dc9d",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Water-damaged wall cavity with mold and exposed wood framing",
+      "quality": 40,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Clear close-up of mold and water damage, useful for services illustration.",
+      "triaged_at": "2026-10-01T16:12:26Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806221459": {
       "source": "crew",
@@ -3935,7 +4784,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold growth at carpet and baseboard corner",
+      "quality": 40,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Visible mold damage at wall-carpet junction, decent service documentation shot.",
+      "triaged_at": "2026-10-01T16:12:26Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806223525": {
       "source": "crew",
@@ -3945,7 +4809,20 @@
       "height": 3264,
       "bytes": 895578,
       "sha1": "571036c21e5684d0",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Flooded living room with standing water reflecting furniture",
+      "quality": 55,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Dramatic flood damage scene, usable for water damage service illustration.",
+      "triaged_at": "2026-10-01T16:12:26Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806224521": {
       "source": "crew",
@@ -3958,7 +4835,20 @@
       "exif": {
         "taken_at": "2026:08:27 10:16:14",
         "camera": "samsung Galaxy S26 Ultra"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Water damaged baseboard and trim removed from wall",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Close-up of mold/water-damaged trim and carpet, shows damage not work",
+      "triaged_at": "2026-10-01T16:12:34Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806226787": {
       "source": "crew",
@@ -3968,7 +4858,22 @@
       "height": 225,
       "bytes": 24182,
       "sha1": "543b34cce332858a",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Flooded basement window well with debris and water",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Low resolution photo of water-filled window well",
+      "triaged_at": "2026-10-01T16:12:34Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806227061": {
       "source": "crew",
@@ -3981,7 +4886,20 @@
       "exif": {
         "taken_at": "2021:03:01 16:32:17",
         "camera": "samsung SM-G973U"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Water stains on ceiling and wall near window",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Visible water damage stains on interior ceiling and wall",
+      "triaged_at": "2026-10-01T16:12:34Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806330223": {
       "source": "crew",
@@ -3994,7 +4912,20 @@
       "exif": {
         "taken_at": "2021:03:17 12:12:44",
         "camera": "samsung SM-G973U"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold growth on ceiling and wall corner",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Heavy mold contamination on ceiling corner of room",
+      "triaged_at": "2026-10-01T16:12:34Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806333092": {
       "source": "crew",
@@ -4007,7 +4938,22 @@
       "exif": {
         "taken_at": "2026:08:21 13:40:52",
         "camera": "samsung Galaxy S26 Ultra"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold and debris under wooden cabinet corner",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Dirty cabinet base interior with mold, low visual appeal",
+      "triaged_at": "2026-10-01T16:12:34Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806335184": {
       "source": "crew",
@@ -4024,7 +4970,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Technician using moisture meter on damaged wall",
+      "quality": 65,
+      "slots": {
+        "hero": 15,
+        "team": 20,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Hand holding moisture meter testing mold-damaged wall area",
+      "triaged_at": "2026-10-01T16:12:34Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806337133": {
       "source": "crew",
@@ -4041,7 +5002,20 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Heavy mold covering closet walls and ceiling with pipes",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clear mold damage documentation, no crew or branding visible.",
+      "triaged_at": "2026-10-01T16:12:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806339982": {
       "source": "crew",
@@ -4058,7 +5032,20 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Black mold growth on wall near door frame",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Mold damage shot showing contamination extent on wall.",
+      "triaged_at": "2026-10-01T16:12:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806342224": {
       "source": "crew",
@@ -4075,7 +5062,20 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold patches on closet wall with pipe",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Mold contamination documentation in small interior space.",
+      "triaged_at": "2026-10-01T16:12:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806344247": {
       "source": "crew",
@@ -4088,7 +5088,20 @@
       "exif": {
         "taken_at": "2026:08:21 13:31:45",
         "camera": "samsung Galaxy S26 Ultra"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Extensive mold under cabinet with insulation exposed",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Heavy mold damage under cabinetry, documentation style photo.",
+      "triaged_at": "2026-10-01T16:12:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806346634": {
       "source": "crew",
@@ -4101,7 +5114,20 @@
       "exif": {
         "taken_at": "2026:08:21 13:32:25",
         "camera": "samsung Galaxy S26 Ultra"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold covering cabinet underside and wiring",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clear mold damage shot showing extent of contamination.",
+      "triaged_at": "2026-10-01T16:12:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806350029": {
       "source": "crew",
@@ -4111,7 +5137,20 @@
       "height": 1104,
       "bytes": 70599,
       "sha1": "2cdc5452891be5b5",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Mold staining on closet walls and shelf",
+      "quality": 55,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Mold damage documentation in closet space, no crew present.",
+      "triaged_at": "2026-10-01T16:12:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806350329": {
       "source": "crew",
@@ -4128,7 +5167,20 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "heavy black mold growth on wall corner",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Mold damage documentation, no crew or equipment visible.",
+      "triaged_at": "2026-10-01T16:12:52Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806352336": {
       "source": "crew",
@@ -4145,7 +5197,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "mold and water damage on cabinet top",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Cluttered close-up of mold damage on cabinet surface.",
+      "triaged_at": "2026-10-01T16:12:52Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806355178": {
       "source": "crew",
@@ -4162,7 +5229,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "extensive black mold on ceiling",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [],
+      "flags": [
+        "blurry"
+      ],
+      "reason": "Blurry ceiling mold damage shot, poor focus.",
+      "triaged_at": "2026-10-01T16:12:52Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806356898": {
       "source": "crew",
@@ -4175,7 +5257,20 @@
       "exif": {
         "taken_at": "2026:08:21 13:39:21",
         "camera": "samsung Galaxy S26 Ultra"
-      }
+      },
+      "category": "job_progress",
+      "subject": "water-stained cabinet base and tile floor",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Close-up of water damage at cabinet base and flooring.",
+      "triaged_at": "2026-10-01T16:12:52Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806359018": {
       "source": "crew",
@@ -4192,7 +5287,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "mold spots on ceiling near wood trim",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Mold growth near ceiling corner with paint cans visible.",
+      "triaged_at": "2026-10-01T16:12:52Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806360918": {
       "source": "crew",
@@ -4209,7 +5319,20 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "equipment",
+      "subject": "moisture meter reading on moldy wall",
+      "quality": 65,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Technician's moisture meter device documenting mold-affected surface.",
+      "triaged_at": "2026-10-01T16:12:52Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806362832": {
       "source": "crew",
@@ -4219,7 +5342,22 @@
       "height": 1104,
       "bytes": 85864,
       "sha1": "bb1c53cc607cf0aa",
-      "exif": {}
+      "exif": {},
+      "category": "building",
+      "subject": "Exterior walkway to front door with cleaning supplies",
+      "quality": 45,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Residential exterior walkway, cluttered with equipment, no job activity shown",
+      "triaged_at": "2026-10-01T16:13:02Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806363159": {
       "source": "crew",
@@ -4232,7 +5370,23 @@
       "exif": {
         "taken_at": "2026:08:21 14:01:28",
         "camera": "samsung Galaxy S26 Ultra"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Attic insulation with mold and water staining on beam",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "low_res",
+        "blurry"
+      ],
+      "reason": "Dark close-up of attic mold damage, poor lighting and focus",
+      "triaged_at": "2026-10-01T16:13:02Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806364465": {
       "source": "crew",
@@ -4245,7 +5399,20 @@
       "exif": {
         "taken_at": "2026:08:21 13:59:01",
         "camera": "samsung Galaxy S26 Ultra"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Attic beam with visible mold damage along insulation",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clear shot of mold damage on attic framing, documents the issue",
+      "triaged_at": "2026-10-01T16:13:02Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806365878": {
       "source": "crew",
@@ -4262,7 +5429,20 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Water-damaged wood trim and rotted siding corner",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Close-up of rotted wood damage from water intrusion, clear documentation",
+      "triaged_at": "2026-10-01T16:13:02Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806368394": {
       "source": "crew",
@@ -4272,7 +5452,20 @@
       "height": 1104,
       "bytes": 222472,
       "sha1": "bb7f49026eb23b5a",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Demolished subfloor with insulation exposed and power saw",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Active demolition scene showing subfloor damage and tools, no crew visible",
+      "triaged_at": "2026-10-01T16:13:02Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806368775": {
       "source": "crew",
@@ -4282,7 +5475,20 @@
       "height": 828,
       "bytes": 199247,
       "sha1": "31784cb4a7da3929",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Severely decayed wood framing and debris in crawlspace",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Extensive rot and structural damage documentation, cluttered debris scene",
+      "triaged_at": "2026-10-01T16:13:02Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806369123": {
       "source": "crew",
@@ -4299,7 +5505,20 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold growth on wall cavity behind wood framing",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clear mold damage detail shot, useful for service page.",
+      "triaged_at": "2026-10-01T16:13:12Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806371441": {
       "source": "crew",
@@ -4312,7 +5531,22 @@
       "exif": {
         "taken_at": "2026:08:25 15:38:53",
         "camera": "samsung Galaxy S26 Ultra"
-      }
+      },
+      "category": "building",
+      "subject": "Exterior of house with stone accents, sideways orientation",
+      "quality": 30,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Sideways house exterior photo, poor composition for marketing.",
+      "triaged_at": "2026-10-01T16:13:12Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806373777": {
       "source": "crew",
@@ -4329,7 +5563,20 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "equipment",
+      "subject": "Moisture meter reading mold-stained wall corner",
+      "quality": 60,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Technician tool measuring moisture, good service documentation shot.",
+      "triaged_at": "2026-10-01T16:13:12Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806375670": {
       "source": "crew",
@@ -4342,7 +5589,20 @@
       "exif": {
         "taken_at": "2026:08:21 08:28:05",
         "camera": "samsung Galaxy S26 Ultra"
-      }
+      },
+      "category": "equipment",
+      "subject": "Drying equipment and hoses set up on porch",
+      "quality": 50,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Restoration equipment deployed at job site, decent service image.",
+      "triaged_at": "2026-10-01T16:13:12Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806379038": {
       "source": "crew",
@@ -4359,7 +5619,20 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Water-stained and mold-damaged wall interior",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Clear water/mold damage, useful for before/after or services.",
+      "triaged_at": "2026-10-01T16:13:12Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806380735": {
       "source": "crew",
@@ -4369,7 +5642,20 @@
       "height": 828,
       "bytes": 213094,
       "sha1": "53dfdaea5be7aa55",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Severe mold damage on wall corner with debris",
+      "quality": 55,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Heavy mold damage, strong documentation of remediation need.",
+      "triaged_at": "2026-10-01T16:13:12Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806381189": {
       "source": "crew",
@@ -4386,7 +5672,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Heavy mold growth on bathroom wall near toilet",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Clear mold damage documentation, useful for services but not polished",
+      "triaged_at": "2026-10-01T16:13:21Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806384034": {
       "source": "crew",
@@ -4403,7 +5704,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold growth near toilet base and tile floor",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Mold damage shot at odd angle, documentation style",
+      "triaged_at": "2026-10-01T16:13:21Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806386122": {
       "source": "crew",
@@ -4416,7 +5732,22 @@
       "exif": {
         "taken_at": "2026:08:27 14:02:37",
         "camera": "samsung Galaxy S26 Ultra"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold and rot on wood baseboard trim",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Close-up damage shot, low lighting, documentation only",
+      "triaged_at": "2026-10-01T16:13:21Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806387483": {
       "source": "crew",
@@ -4433,7 +5764,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold staining at carpet and baseboard corner",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Clear mold damage on trim and carpet, documentation photo",
+      "triaged_at": "2026-10-01T16:13:21Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806390151": {
       "source": "crew",
@@ -4450,7 +5796,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold spotting on ceiling and wall corner",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Mold damage documentation, flat lighting, no action",
+      "triaged_at": "2026-10-01T16:13:21Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806391882": {
       "source": "crew",
@@ -4467,7 +5828,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold stain behind curtain on wall corner",
+      "quality": 35,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Dim poorly composed mold damage photo",
+      "triaged_at": "2026-10-01T16:13:21Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806394316": {
       "source": "crew",
@@ -4480,7 +5856,22 @@
       "exif": {
         "taken_at": "2021:09:14 18:53:20",
         "camera": "samsung SM-G973U"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold on wall with exposed pipes and conduit mounts",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Close-up mold/water damage with piping, no crew or branding.",
+      "triaged_at": "2026-10-01T16:13:30Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806396966": {
       "source": "crew",
@@ -4497,7 +5888,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Water-damaged subfloor and baseboard removal in room corner",
+      "quality": 42,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Damaged flooring and wall exposed, documenting job site condition.",
+      "triaged_at": "2026-10-01T16:13:30Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806398889": {
       "source": "crew",
@@ -4507,7 +5913,22 @@
       "height": 1104,
       "bytes": 140040,
       "sha1": "f5b2186862de5825",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Mold-stained subfloor with exposed wall studs during demo",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Subfloor mold damage shown mid-demolition, no people visible.",
+      "triaged_at": "2026-10-01T16:13:30Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806399298": {
       "source": "crew",
@@ -4520,7 +5941,22 @@
       "exif": {
         "taken_at": "2026:08:21 13:34:22",
         "camera": "samsung Galaxy S26 Ultra"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Heavy mold coverage on crawlspace or basement wall corner",
+      "quality": 38,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Extensive black mold on concrete surfaces, tight close-up shot.",
+      "triaged_at": "2026-10-01T16:13:30Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806402763": {
       "source": "crew",
@@ -4530,7 +5966,22 @@
       "height": 1104,
       "bytes": 140498,
       "sha1": "9308a80612e934a7",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Severe water-damaged plywood ceiling with rot and wiring",
+      "quality": 40,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Rotted ceiling plywood with exposed plumbing shows damage extent.",
+      "triaged_at": "2026-10-01T16:13:30Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806403163": {
       "source": "crew",
@@ -4540,7 +5991,22 @@
       "height": 1020,
       "bytes": 115356,
       "sha1": "fcebd34aa9cc0e24",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Water-stained ceiling and mold spots in living room",
+      "quality": 48,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Residential room with ceiling water stains and wall mold growth.",
+      "triaged_at": "2026-10-01T16:13:30Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806403504": {
       "source": "crew",
@@ -4550,7 +6016,20 @@
       "height": 828,
       "bytes": 172117,
       "sha1": "d19b8c41dea1d6f5",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Mold growth on ceiling and wall corner above flooring",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Documents mold damage, no crew or equipment visible.",
+      "triaged_at": "2026-10-01T16:13:38Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806403816": {
       "source": "crew",
@@ -4567,7 +6046,20 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold spotting spreading across wall near floor",
+      "quality": 50,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Mold damage documentation shot, no action shown.",
+      "triaged_at": "2026-10-01T16:13:38Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806405032": {
       "source": "crew",
@@ -4584,7 +6076,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold speckling on closet shelf wall above items",
+      "quality": 40,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Cluttered closet mold shot, low marketing value.",
+      "triaged_at": "2026-10-01T16:13:38Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806407746": {
       "source": "crew",
@@ -4594,7 +6101,20 @@
       "height": 1104,
       "bytes": 132799,
       "sha1": "de3b539ef633d9ae",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Water-stained attic sheathing and framing with mold",
+      "quality": 50,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Attic water damage documentation, no crew present.",
+      "triaged_at": "2026-10-01T16:13:38Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806408066": {
       "source": "crew",
@@ -4611,7 +6131,20 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold staining along wall and ceiling corner",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Documentation of mold stain spread on interior wall.",
+      "triaged_at": "2026-10-01T16:13:38Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806410482": {
       "source": "crew",
@@ -4621,7 +6154,20 @@
       "height": 828,
       "bytes": 160047,
       "sha1": "17d6e380ff0bd05f",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Water-damaged crawlspace subfloor with mold growth",
+      "quality": 50,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 35
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Crawlspace structural damage photo, no people or gear.",
+      "triaged_at": "2026-10-01T16:13:38Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806410901": {
       "source": "crew",
@@ -4638,7 +6184,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold on wall with moisture meter testing device",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "graphic_content"
+      ],
+      "reason": "Close-up mold damage with meter, shows diagnostic work.",
+      "triaged_at": "2026-10-01T16:13:47Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806412749": {
       "source": "crew",
@@ -4655,7 +6216,23 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold growth along baseboard in dark room",
+      "quality": 40,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "graphic_content",
+        "low_res"
+      ],
+      "reason": "Dim, cluttered shot of mold damage on floor/wall.",
+      "triaged_at": "2026-10-01T16:13:47Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806414525": {
       "source": "crew",
@@ -4672,7 +6249,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Exposed pipe with mold on wood framing",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "graphic_content"
+      ],
+      "reason": "Close-up of plumbing and mold damage inside wall cavity.",
+      "triaged_at": "2026-10-01T16:13:47Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806417060": {
       "source": "crew",
@@ -4685,7 +6277,22 @@
       "exif": {
         "taken_at": "2026:08:25 15:40:23",
         "camera": "samsung Galaxy S26 Ultra"
-      }
+      },
+      "category": "equipment",
+      "subject": "Air mover and dehumidifier equipment outside house",
+      "quality": 45,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [],
+      "flags": [
+        "blurry"
+      ],
+      "reason": "Equipment staged outdoors, odd angle and shadow of photographer.",
+      "triaged_at": "2026-10-01T16:13:47Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806419398": {
       "source": "crew",
@@ -4695,7 +6302,23 @@
       "height": 405,
       "bytes": 74022,
       "sha1": "07067a23f86318ea",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "Petri dish culture of mold colonies shaped like hand",
+      "quality": 60,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo",
+        "graphic_content"
+      ],
+      "reason": "Likely stock lab image, not an actual job photo.",
+      "triaged_at": "2026-10-01T16:13:47Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806419722": {
       "source": "crew",
@@ -4707,7 +6330,23 @@
       "sha1": "1904a98766d0d64b",
       "exif": {
         "taken_at": "2024:01:26 12:20:38"
-      }
+      },
+      "category": "crew",
+      "subject": "Technician in hazmat suit removing moldy drywall",
+      "quality": 65,
+      "slots": {
+        "hero": 20,
+        "team": 65,
+        "services": 70
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces",
+        "graphic_content"
+      ],
+      "reason": "Worker in PPE actively remediating mold damage in closet.",
+      "triaged_at": "2026-10-01T16:13:47Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806420141": {
       "source": "crew",
@@ -4724,7 +6363,22 @@
           "lat": 0.0,
           "lng": 0.0
         }
-      }
+      },
+      "category": "job_progress",
+      "subject": "Severe mold coverage on ceiling and walls of room",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Clear mold damage documentation, no crew or branding visible",
+      "triaged_at": "2026-10-01T16:13:56Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806421821": {
       "source": "crew",
@@ -4737,7 +6391,22 @@
       "exif": {
         "taken_at": "2021:03:17 15:41:53",
         "camera": "samsung SM-G973U"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold contamination on ceiling and wall near stairway",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Mold damage shot, slightly cluttered angle",
+      "triaged_at": "2026-10-01T16:13:56Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806424154": {
       "source": "crew",
@@ -4750,7 +6419,22 @@
       "exif": {
         "taken_at": "2021:09:14 18:54:17",
         "camera": "samsung SM-G973U"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold growth on wooden cabinet under countertop",
+      "quality": 50,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Close-up of mold on cabinetry, documentation style",
+      "triaged_at": "2026-10-01T16:13:56Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806426446": {
       "source": "crew",
@@ -4763,7 +6447,22 @@
       "exif": {
         "taken_at": "2026:08:21 13:26:37",
         "camera": "samsung Galaxy S26 Ultra"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Water-damaged plywood under sink cabinet",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Under-sink damage inspection photo, cluttered framing",
+      "triaged_at": "2026-10-01T16:13:56Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806428157": {
       "source": "crew",
@@ -4776,7 +6475,22 @@
       "exif": {
         "taken_at": "2026:08:21 14:03:45",
         "camera": "samsung Galaxy S26 Ultra"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Cleaning supplies and paper towels on job site floor",
+      "quality": 30,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 15
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Mundane supply photo, not a damage or work shot",
+      "triaged_at": "2026-10-01T16:13:56Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806430439": {
       "source": "crew",
@@ -4789,7 +6503,22 @@
       "exif": {
         "taken_at": "2026:08:21 13:33:58",
         "camera": "samsung Galaxy S26 Ultra"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold and debris under flooring near pipe conduit",
+      "quality": 45,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Close-up of subfloor mold and debris damage",
+      "triaged_at": "2026-10-01T16:13:56Z",
+      "triage_model": "claude-sonnet-5"
     },
     "crew:job_1790806432619": {
       "source": "crew",
@@ -6799,6 +8528,18 @@
         "taken_at": "2024:04:15 10:06:07"
       }
     },
+    "gbp:gbp-AF1QipM2JYTswpnmA24LW5tTotJjU1IBQAC0ISdeqB_n": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM2JYTswpnmA24LW5tTotJjU1IBQAC0ISdeqB_n.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipM2JYTswpnmA24LW5tTotJjU1IBQAC0ISdeqB_n.jpg",
+      "width": 2560,
+      "height": 2560,
+      "bytes": 888870,
+      "sha1": "084ebf35b0407677",
+      "exif": {
+        "taken_at": "2024:09:13 11:52:01"
+      }
+    },
     "gbp:gbp-AF1QipM3NWM-3_M9CAuvLf_V1cCcY5tpHSmj1ZPc7zng": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM3NWM-3_M9CAuvLf_V1cCcY5tpHSmj1ZPc7zng.jpg",
@@ -6809,6 +8550,18 @@
       "sha1": "71b0903b88056510",
       "exif": {
         "taken_at": "2024:01:26 12:38:11"
+      }
+    },
+    "gbp:gbp-AF1QipM4EY06PYACdoJ-Yn9d-u_BH6__gOVKsYdjykZP": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM4EY06PYACdoJ-Yn9d-u_BH6__gOVKsYdjykZP.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipM4EY06PYACdoJ-Yn9d-u_BH6__gOVKsYdjykZP.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 1307128,
+      "sha1": "1a419a347f8e9cdd",
+      "exif": {
+        "taken_at": "2025:04:06 09:11:47"
       }
     },
     "gbp:gbp-AF1QipM4YmPZKqMTVasqZ5LoXRYatCcax6tbLdqFwn-3": {
@@ -6833,6 +8586,18 @@
       "sha1": "bfda3b7820fbd780",
       "exif": {
         "taken_at": "2019:12:16 23:52:56"
+      }
+    },
+    "gbp:gbp-AF1QipMAX-F54GZ5qCVDD2ZOuK1y_Z0RuiqmOmKRxvbu": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMAX-F54GZ5qCVDD2ZOuK1y_Z0RuiqmOmKRxvbu.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipMAX-F54GZ5qCVDD2ZOuK1y_Z0RuiqmOmKRxvbu.jpg",
+      "width": 2560,
+      "height": 1702,
+      "bytes": 558008,
+      "sha1": "7dbb21e32547af8b",
+      "exif": {
+        "taken_at": "2024:02:03 19:23:10"
       }
     },
     "gbp:gbp-AF1QipMCkKUeRKyfBK-w3bT8itixh11YRNu6yyktYQK-": {
@@ -6895,6 +8660,18 @@
         "taken_at": "2021:03:17 15:41:53"
       }
     },
+    "gbp:gbp-AF1QipMKEvuPuzD2sMSeWiRYrOlJMvaF6UA9-byjuKJu": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMKEvuPuzD2sMSeWiRYrOlJMvaF6UA9-byjuKJu.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipMKEvuPuzD2sMSeWiRYrOlJMvaF6UA9-byjuKJu.jpg",
+      "width": 2560,
+      "height": 2560,
+      "bytes": 662858,
+      "sha1": "e5150944095890b6",
+      "exif": {
+        "taken_at": "2024:09:12 10:01:36"
+      }
+    },
     "gbp:gbp-AF1QipMKjUOvOHiz44qBxMhX0JnJeuomoemKJFlDQN4f": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMKjUOvOHiz44qBxMhX0JnJeuomoemKJFlDQN4f.jpg",
@@ -6905,6 +8682,18 @@
       "sha1": "04a46c4271688061",
       "exif": {
         "taken_at": "2019:12:18 19:39:47"
+      }
+    },
+    "gbp:gbp-AF1QipMKxKqu9_rz_xXH4EGb_kLSBw51Sgsf2NWHh7Bx": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMKxKqu9_rz_xXH4EGb_kLSBw51Sgsf2NWHh7Bx.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipMKxKqu9_rz_xXH4EGb_kLSBw51Sgsf2NWHh7Bx.jpg",
+      "width": 1702,
+      "height": 2560,
+      "bytes": 569565,
+      "sha1": "8aa01c285b6f1dcb",
+      "exif": {
+        "taken_at": "2024:02:03 19:42:37"
       }
     },
     "gbp:gbp-AF1QipMOMr_2E3sueTmCbbSEbincNe168h3OjpCaVTuK": {
@@ -6992,6 +8781,18 @@
         "taken_at": "2021:03:01 16:32:17"
       }
     },
+    "gbp:gbp-AF1QipMaIamfGm-WRRzxHD3xQQM6qJNY_fDhXsLuREkM": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMaIamfGm-WRRzxHD3xQQM6qJNY_fDhXsLuREkM.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipMaIamfGm-WRRzxHD3xQQM6qJNY_fDhXsLuREkM.jpg",
+      "width": 1702,
+      "height": 2560,
+      "bytes": 1600615,
+      "sha1": "88c73f9246aff03e",
+      "exif": {
+        "taken_at": "2024:02:03 19:34:36"
+      }
+    },
     "gbp:gbp-AF1QipMcHANpvYHEhQCwXEhmPT6qjjvppQveC-1Ga8qU": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMcHANpvYHEhQCwXEhmPT6qjjvppQveC-1Ga8qU.jpg",
@@ -7026,6 +8827,30 @@
       "sha1": "f4e874a2db36f49a",
       "exif": {
         "taken_at": "2013:12:19 01:55:47"
+      }
+    },
+    "gbp:gbp-AF1QipMh1a50i7s5fjS1sgm7AQ5f_wXn2yWrIud2dBh4": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMh1a50i7s5fjS1sgm7AQ5f_wXn2yWrIud2dBh4.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipMh1a50i7s5fjS1sgm7AQ5f_wXn2yWrIud2dBh4.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 486250,
+      "sha1": "ae0c11dc105ccd7f",
+      "exif": {
+        "taken_at": "2021:03:17 15:41:27"
+      }
+    },
+    "gbp:gbp-AF1QipMiq9_lBZB_z0mPBakq5N_Ci7Y7yLgdm_1kNz8N": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMiq9_lBZB_z0mPBakq5N_Ci7Y7yLgdm_1kNz8N.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipMiq9_lBZB_z0mPBakq5N_Ci7Y7yLgdm_1kNz8N.jpg",
+      "width": 1702,
+      "height": 2560,
+      "bytes": 493741,
+      "sha1": "a54cc7cfa8946369",
+      "exif": {
+        "taken_at": "2024:02:03 19:42:05"
       }
     },
     "gbp:gbp-AF1QipMjOZqftxatqrd_Wtm3EqdyT7xcP68tPkYGeNVn": {
@@ -7109,6 +8934,30 @@
       "sha1": "17801c4f0421e2e7",
       "exif": {
         "taken_at": "2021:03:30 11:39:20"
+      }
+    },
+    "gbp:gbp-AF1QipMpzh2FEe9A7cx66lpMsQ8Zf4XIK9E37VzAoJYS": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMpzh2FEe9A7cx66lpMsQ8Zf4XIK9E37VzAoJYS.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipMpzh2FEe9A7cx66lpMsQ8Zf4XIK9E37VzAoJYS.jpg",
+      "width": 2560,
+      "height": 1702,
+      "bytes": 916618,
+      "sha1": "3eb80c71202a4f7e",
+      "exif": {
+        "taken_at": "2024:02:03 19:11:36"
+      }
+    },
+    "gbp:gbp-AF1QipMto8AR8yQZxy6C3KkJjFUv7t0amFuOzZDDHPdW": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMto8AR8yQZxy6C3KkJjFUv7t0amFuOzZDDHPdW.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipMto8AR8yQZxy6C3KkJjFUv7t0amFuOzZDDHPdW.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1508531,
+      "sha1": "dc7fee22ca240988",
+      "exif": {
+        "taken_at": "2025:04:06 09:08:22"
       }
     },
     "gbp:gbp-AF1QipMwBYbfxxJAX9kaxvQOEGDuVfb-1ZvG0ZUi-kZA": {
@@ -7205,6 +9054,18 @@
         "taken_at": "2021:03:01 09:59:33"
       }
     },
+    "gbp:gbp-AF1QipN1vae0BTgpVnQHlCRwfc1TZXTzJAgOrOTuJF7q": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN1vae0BTgpVnQHlCRwfc1TZXTzJAgOrOTuJF7q.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipN1vae0BTgpVnQHlCRwfc1TZXTzJAgOrOTuJF7q.jpg",
+      "width": 2560,
+      "height": 2560,
+      "bytes": 963708,
+      "sha1": "5c3f7b3025d959aa",
+      "exif": {
+        "taken_at": "2024:07:26 14:14:25"
+      }
+    },
     "gbp:gbp-AF1QipN2Yi45w92WH5eoJQzbEsxDAru79_Ep7y2ofzos": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipN2Yi45w92WH5eoJQzbEsxDAru79_Ep7y2ofzos.jpg",
@@ -7238,6 +9099,16 @@
       "exif": {
         "taken_at": "2025:12:01 10:36:39"
       }
+    },
+    "gbp:gbp-AF1QipN7AzUI-jeCXF07wU_u33neqRaF27ZPND2MsCG3": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN7AzUI-jeCXF07wU_u33neqRaF27ZPND2MsCG3.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipN7AzUI-jeCXF07wU_u33neqRaF27ZPND2MsCG3.jpg",
+      "width": 960,
+      "height": 1280,
+      "bytes": 455640,
+      "sha1": "7f1be3e210dac22a",
+      "exif": {}
     },
     "gbp:gbp-AF1QipN7q7xy4kgwCuvF1N9NX6eym9kzBqao9ibAXoym": {
       "source": "gbp",
@@ -7313,6 +9184,26 @@
         "taken_at": "2024:01:26 12:21:24"
       }
     },
+    "gbp:gbp-AF1QipNFhEnvJgzU6EV1o1akttpVkdsJVZRivaUqFql9": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNFhEnvJgzU6EV1o1akttpVkdsJVZRivaUqFql9.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipNFhEnvJgzU6EV1o1akttpVkdsJVZRivaUqFql9.jpg",
+      "width": 2545,
+      "height": 1540,
+      "bytes": 3039238,
+      "sha1": "445264c349d12c4e",
+      "exif": {}
+    },
+    "gbp:gbp-AF1QipNGTBmlSCphPCzUHh9vrjfLWo4fN_X4zLLWoFhh": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNGTBmlSCphPCzUHh9vrjfLWo4fN_X4zLLWoFhh.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipNGTBmlSCphPCzUHh9vrjfLWo4fN_X4zLLWoFhh.jpg",
+      "width": 767,
+      "height": 1020,
+      "bytes": 103986,
+      "sha1": "9d094e42c63d2311",
+      "exif": {}
+    },
     "gbp:gbp-AF1QipNJa7aEzOcMhUdD_TNe6lyyJSKO6EewZ615LQs_": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNJa7aEzOcMhUdD_TNe6lyyJSKO6EewZ615LQs_.jpg",
@@ -7325,6 +9216,18 @@
         "taken_at": "2013:12:19 01:50:15"
       }
     },
+    "gbp:gbp-AF1QipNLjNt3rxOq5VdywvOmhnV5MYo_avxv8Qn9_WF_": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNLjNt3rxOq5VdywvOmhnV5MYo_avxv8Qn9_WF_.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipNLjNt3rxOq5VdywvOmhnV5MYo_avxv8Qn9_WF_.jpg",
+      "width": 1359,
+      "height": 2560,
+      "bytes": 328066,
+      "sha1": "7dc52312f219a611",
+      "exif": {
+        "taken_at": "2024:02:03 19:43:23"
+      }
+    },
     "gbp:gbp-AF1QipNMtcbwtiPsUxSB3ehFIW8JAj-eZGxR4UtyknuT": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNMtcbwtiPsUxSB3ehFIW8JAj-eZGxR4UtyknuT.jpg",
@@ -7335,7 +9238,8 @@
       "sha1": "5c3f7b3025d959aa",
       "exif": {
         "taken_at": "2024:07:26 14:14:25"
-      }
+      },
+      "duplicate_of": "gbp:gbp-AF1QipN1vae0BTgpVnQHlCRwfc1TZXTzJAgOrOTuJF7q"
     },
     "gbp:gbp-AF1QipNPfft-Fa7_O7l4iquSdj3ZZm8hpfKP_WHdGc-R": {
       "source": "gbp",
@@ -7357,7 +9261,8 @@
       "height": 1280,
       "bytes": 455640,
       "sha1": "7f1be3e210dac22a",
-      "exif": {}
+      "exif": {},
+      "duplicate_of": "gbp:gbp-AF1QipN7AzUI-jeCXF07wU_u33neqRaF27ZPND2MsCG3"
     },
     "gbp:gbp-AF1QipNUhgVRXLRdHf0u9TF0OYg1DuiracYvhvjZZosw": {
       "source": "gbp",
@@ -7389,6 +9294,18 @@
       "sha1": "2050069afb1bde03",
       "exif": {}
     },
+    "gbp:gbp-AF1QipNZW1mrec5oc3kT4L5bMseT-O2y0fRO2tKJc8TV": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNZW1mrec5oc3kT4L5bMseT-O2y0fRO2tKJc8TV.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipNZW1mrec5oc3kT4L5bMseT-O2y0fRO2tKJc8TV.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 857863,
+      "sha1": "5e3754863d0ed066",
+      "exif": {
+        "taken_at": "2025:04:06 09:26:41"
+      }
+    },
     "gbp:gbp-AF1QipN_UnTy3GgyMmYnb6Bf-dZfxxbwSAnJBBh5DB1v": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipN_UnTy3GgyMmYnb6Bf-dZfxxbwSAnJBBh5DB1v.jpg",
@@ -7411,7 +9328,8 @@
       "sha1": "ae0c11dc105ccd7f",
       "exif": {
         "taken_at": "2021:03:17 15:41:27"
-      }
+      },
+      "duplicate_of": "gbp:gbp-AF1QipMh1a50i7s5fjS1sgm7AQ5f_wXn2yWrIud2dBh4"
     },
     "gbp:gbp-AF1QipNdyCiMMGCCTot1YHgKW6VHRNtwAOZiIFsQtOTw": {
       "source": "gbp",
@@ -7487,6 +9405,16 @@
         "taken_at": "2025:09:16 10:18:49"
       }
     },
+    "gbp:gbp-AF1QipNmGNC7uyO1OWHPl1HcHGSzk53G4j4WHT1uBKwj": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNmGNC7uyO1OWHPl1HcHGSzk53G4j4WHT1uBKwj.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipNmGNC7uyO1OWHPl1HcHGSzk53G4j4WHT1uBKwj.jpg",
+      "width": 765,
+      "height": 1020,
+      "bytes": 97274,
+      "sha1": "5cd6e5525989f954",
+      "exif": {}
+    },
     "gbp:gbp-AF1QipNoy_UFg9KbhmWGkV4N278rHuI8mwcSNhrUv3ox": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNoy_UFg9KbhmWGkV4N278rHuI8mwcSNhrUv3ox.jpg",
@@ -7524,6 +9452,18 @@
       },
       "duplicate_of": "gbp:gbp-AF1QipMU1YXsRX4SHcb9ogiJjt3_qzAstMm8ConuH-m1"
     },
+    "gbp:gbp-AF1QipO1-IcabBTXbzWGYHRjFJAywojhv1p9JNMbuCGm": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO1-IcabBTXbzWGYHRjFJAywojhv1p9JNMbuCGm.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipO1-IcabBTXbzWGYHRjFJAywojhv1p9JNMbuCGm.jpg",
+      "width": 2560,
+      "height": 2560,
+      "bytes": 1021544,
+      "sha1": "d78a9302a07885c6",
+      "exif": {
+        "taken_at": "2024:09:17 13:43:07"
+      }
+    },
     "gbp:gbp-AF1QipO4_ZrAoMj3MTTnsmKTEtqBbAfwNigMqhhx_djZ": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipO4_ZrAoMj3MTTnsmKTEtqBbAfwNigMqhhx_djZ.jpg",
@@ -7536,6 +9476,18 @@
         "taken_at": "2025:09:16 13:37:22"
       }
     },
+    "gbp:gbp-AF1QipO4rUmqq4AyfeSSTASNQfniBXZtgHZMZXxmb9oW": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO4rUmqq4AyfeSSTASNQfniBXZtgHZMZXxmb9oW.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipO4rUmqq4AyfeSSTASNQfniBXZtgHZMZXxmb9oW.jpg",
+      "width": 1793,
+      "height": 2560,
+      "bytes": 936341,
+      "sha1": "640a3e5b6aaf72fe",
+      "exif": {
+        "taken_at": "2024:02:03 19:18:59"
+      }
+    },
     "gbp:gbp-AF1QipO63wVQeWUqcqcLBqRFZlAX5_tjLvppNqS-fS21": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipO63wVQeWUqcqcLBqRFZlAX5_tjLvppNqS-fS21.jpg",
@@ -7546,6 +9498,18 @@
       "sha1": "c26d2450c99359e6",
       "exif": {
         "taken_at": "2024:03:05 19:36:20"
+      }
+    },
+    "gbp:gbp-AF1QipO6_kJP8bvqg5uF8lMUcmZf4VITWVaQJ5Jt8NVT": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO6_kJP8bvqg5uF8lMUcmZf4VITWVaQJ5Jt8NVT.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipO6_kJP8bvqg5uF8lMUcmZf4VITWVaQJ5Jt8NVT.jpg",
+      "width": 2560,
+      "height": 2560,
+      "bytes": 1203360,
+      "sha1": "f4027a2736b09807",
+      "exif": {
+        "taken_at": "2024:09:13 11:51:26"
       }
     },
     "gbp:gbp-AF1QipOBU6jovXDh5FHZvopX57lUpbyaaXhU1NpTRDDx": {
@@ -7607,6 +9571,18 @@
         "taken_at": "2021:03:01 09:15:37"
       }
     },
+    "gbp:gbp-AF1QipOIK0cjQjpqy6_RK3BsAIiZk5n_-Gh5Xq5JO_l8": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOIK0cjQjpqy6_RK3BsAIiZk5n_-Gh5Xq5JO_l8.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipOIK0cjQjpqy6_RK3BsAIiZk5n_-Gh5Xq5JO_l8.jpg",
+      "width": 2560,
+      "height": 1935,
+      "bytes": 963316,
+      "sha1": "499800ec993c2754",
+      "exif": {
+        "taken_at": "2024:02:03 19:08:59"
+      }
+    },
     "gbp:gbp-AF1QipOJStkjoS1YPOJxYdsmHMSHEm0K9g3kYlvTBqKf": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOJStkjoS1YPOJxYdsmHMSHEm0K9g3kYlvTBqKf.jpg",
@@ -7619,6 +9595,18 @@
         "taken_at": "2024:01:26 12:38:11"
       },
       "duplicate_of": "gbp:gbp-AF1QipM3NWM-3_M9CAuvLf_V1cCcY5tpHSmj1ZPc7zng"
+    },
+    "gbp:gbp-AF1QipOKTGF1kFH63ChMWitBHoO6qI4A5fzF6f1TBQvo": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOKTGF1kFH63ChMWitBHoO6qI4A5fzF6f1TBQvo.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipOKTGF1kFH63ChMWitBHoO6qI4A5fzF6f1TBQvo.jpg",
+      "width": 2560,
+      "height": 2560,
+      "bytes": 1192693,
+      "sha1": "3d4f607beae5d77f",
+      "exif": {
+        "taken_at": "2024:09:17 13:42:43"
+      }
     },
     "gbp:gbp-AF1QipOL99aeKnZhThGZscZbTJH-l7xqkXj19O1sTd6i": {
       "source": "gbp",
@@ -7669,6 +9657,18 @@
         "taken_at": "2024:03:05 19:53:35"
       }
     },
+    "gbp:gbp-AF1QipOPF5__EphhKln7t-EejPWih7kQ7kri772yh7Cl": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOPF5__EphhKln7t-EejPWih7kQ7kri772yh7Cl.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipOPF5__EphhKln7t-EejPWih7kQ7kri772yh7Cl.jpg",
+      "width": 2560,
+      "height": 2560,
+      "bytes": 1027841,
+      "sha1": "8e7824d247ffa444",
+      "exif": {
+        "taken_at": "2024:09:17 13:41:23"
+      }
+    },
     "gbp:gbp-AF1QipOPOvzcIwZQsWfK7nV56mkRFynFlDdosD8JEejE": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOPOvzcIwZQsWfK7nV56mkRFynFlDdosD8JEejE.jpg",
@@ -7680,6 +9680,26 @@
       "exif": {
         "taken_at": "2016:05:05 12:43:14"
       }
+    },
+    "gbp:gbp-AF1QipOQWJKpmBCo2rLZBDC8S-OhvjVWg_QXzQ1sZqe1": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOQWJKpmBCo2rLZBDC8S-OhvjVWg_QXzQ1sZqe1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipOQWJKpmBCo2rLZBDC8S-OhvjVWg_QXzQ1sZqe1.jpg",
+      "width": 1087,
+      "height": 1547,
+      "bytes": 1179614,
+      "sha1": "8651fb11ba3a96d1",
+      "exif": {}
+    },
+    "gbp:gbp-AF1QipOQtP2VAjYWMPJknD_kcgrhCmAhkLbZdegfb54h": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOQtP2VAjYWMPJknD_kcgrhCmAhkLbZdegfb54h.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipOQtP2VAjYWMPJknD_kcgrhCmAhkLbZdegfb54h.jpg",
+      "width": 2510,
+      "height": 1630,
+      "bytes": 2392330,
+      "sha1": "8b462c1721dd7ee2",
+      "exif": {}
     },
     "gbp:gbp-AF1QipOSdXWTl30Rp2ifps4mPxdppF3docBdAX_1IgRu": {
       "source": "gbp",
@@ -7814,6 +9834,16 @@
         "taken_at": "2021:02:25 12:45:12"
       }
     },
+    "gbp:gbp-AF1QipOkwSVcuPfv8Mbo5dDkOcH17oDUPFNOzA5fD0sL": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOkwSVcuPfv8Mbo5dDkOcH17oDUPFNOzA5fD0sL.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipOkwSVcuPfv8Mbo5dDkOcH17oDUPFNOzA5fD0sL.jpg",
+      "width": 763,
+      "height": 1020,
+      "bytes": 279692,
+      "sha1": "a27297299c4023b9",
+      "exif": {}
+    },
     "gbp:gbp-AF1QipOl82n7S3mLMzEFddl7zXpka3ABy8bhqY2OFYF-": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOl82n7S3mLMzEFddl7zXpka3ABy8bhqY2OFYF-.jpg",
@@ -7827,6 +9857,18 @@
       },
       "duplicate_of": "gbp:gbp-AF1QipMFBEWn-JPczh-pR21baSJNpco3HXt4jmo7otd8"
     },
+    "gbp:gbp-AF1QipOmKalIpODFSEiW1nmQmMPA0HtZ3cXWrMfBoE2G": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOmKalIpODFSEiW1nmQmMPA0HtZ3cXWrMfBoE2G.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipOmKalIpODFSEiW1nmQmMPA0HtZ3cXWrMfBoE2G.jpg",
+      "width": 2560,
+      "height": 1761,
+      "bytes": 892867,
+      "sha1": "05ef4ec784612c2e",
+      "exif": {
+        "taken_at": "2024:02:03 19:07:50"
+      }
+    },
     "gbp:gbp-AF1QipOmNQp48FUTf8cfFP4zS7siQmjbNvEjNiksC6DG": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOmNQp48FUTf8cfFP4zS7siQmjbNvEjNiksC6DG.jpg",
@@ -7837,7 +9879,8 @@
       "sha1": "e5150944095890b6",
       "exif": {
         "taken_at": "2024:09:12 10:01:36"
-      }
+      },
+      "duplicate_of": "gbp:gbp-AF1QipMKEvuPuzD2sMSeWiRYrOlJMvaF6UA9-byjuKJu"
     },
     "gbp:gbp-AF1QipOptNn3nY2QSkchl5adGIhKCPM4wa7dR1Bt8oz3": {
       "source": "gbp",
@@ -7861,6 +9904,16 @@
       "sha1": "2050069afb1bde03",
       "exif": {},
       "duplicate_of": "gbp:gbp-AF1QipNWYTQ6T_TOOsYcx3Mcz1c2o7xWg3uJCl5Omigd"
+    },
+    "gbp:gbp-AF1QipOqvvIQB1FoJm0GwgOCkQnyF_qHfcSFdcxzUHou": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOqvvIQB1FoJm0GwgOCkQnyF_qHfcSFdcxzUHou.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipOqvvIQB1FoJm0GwgOCkQnyF_qHfcSFdcxzUHou.jpg",
+      "width": 960,
+      "height": 1280,
+      "bytes": 205096,
+      "sha1": "b5e3a3126edf1378",
+      "exif": {}
     },
     "gbp:gbp-AF1QipOu7yHrmWoRSjLU_4t3syHUSsBtlB4ySSEHwRY-": {
       "source": "gbp",
@@ -7898,6 +9951,18 @@
         "taken_at": "2021:03:09 16:10:54"
       }
     },
+    "gbp:gbp-AF1QipOxUBn870VvGgLglKSZi6m91KBDySWhcXsUzp6x": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOxUBn870VvGgLglKSZi6m91KBDySWhcXsUzp6x.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipOxUBn870VvGgLglKSZi6m91KBDySWhcXsUzp6x.jpg",
+      "width": 2560,
+      "height": 2560,
+      "bytes": 1176997,
+      "sha1": "30f0938d4844e8bb",
+      "exif": {
+        "taken_at": "2024:09:17 08:10:30"
+      }
+    },
     "gbp:gbp-AF1QipOxdnICa6e10fRfNfqTzmPSedEu-xGNa8WjxnLy": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOxdnICa6e10fRfNfqTzmPSedEu-xGNa8WjxnLy.jpg",
@@ -7933,6 +9998,26 @@
       "exif": {
         "taken_at": "2021:09:14 18:54:17"
       }
+    },
+    "gbp:gbp-AF1QipP49I0WtWljQNPdJ1mU7xq8yfWqLti2nnC989Cw": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP49I0WtWljQNPdJ1mU7xq8yfWqLti2nnC989Cw.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipP49I0WtWljQNPdJ1mU7xq8yfWqLti2nnC989Cw.jpg",
+      "width": 1080,
+      "height": 810,
+      "bytes": 151591,
+      "sha1": "1d7da016949b9af8",
+      "exif": {}
+    },
+    "gbp:gbp-AF1QipP4gpcbALyYLD-HAWTEu7Wod6f-UkYmdJHEPUeH": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP4gpcbALyYLD-HAWTEu7Wod6f-UkYmdJHEPUeH.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipP4gpcbALyYLD-HAWTEu7Wod6f-UkYmdJHEPUeH.jpg",
+      "width": 2560,
+      "height": 1373,
+      "bytes": 3949965,
+      "sha1": "4019a59465f12f4a",
+      "exif": {}
     },
     "gbp:gbp-AF1QipP8j62-ax0nDl-ziofcm3b94ZqmsvNiGNNbn4tv": {
       "source": "gbp",
@@ -8007,6 +10092,18 @@
         "taken_at": "2021:03:11 16:01:47"
       }
     },
+    "gbp:gbp-AF1QipPJFK3UVCgs01L0hwM3jixOu18GnVT9ZL7fOCii": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPJFK3UVCgs01L0hwM3jixOu18GnVT9ZL7fOCii.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipPJFK3UVCgs01L0hwM3jixOu18GnVT9ZL7fOCii.jpg",
+      "width": 2560,
+      "height": 2560,
+      "bytes": 764882,
+      "sha1": "508deb4d25b1b1f0",
+      "exif": {
+        "taken_at": "2024:09:13 11:50:21"
+      }
+    },
     "gbp:gbp-AF1QipPLVTl5x8lc3g4UPE_ESFYyLCOzbizscVvuCCZY": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPLVTl5x8lc3g4UPE_ESFYyLCOzbizscVvuCCZY.jpg",
@@ -8018,6 +10115,16 @@
       "exif": {
         "taken_at": "2024:01:26 12:20:30"
       }
+    },
+    "gbp:gbp-AF1QipPLv171Vyd00lIQkzXuaMDCotVfK1tSeZYz2NbI": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPLv171Vyd00lIQkzXuaMDCotVfK1tSeZYz2NbI.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipPLv171Vyd00lIQkzXuaMDCotVfK1tSeZYz2NbI.jpg",
+      "width": 574,
+      "height": 1020,
+      "bytes": 96062,
+      "sha1": "1c1707091a412d9a",
+      "exif": {}
     },
     "gbp:gbp-AF1QipPO7nH4tiYu2BRDUmNoF0OCfdoMUveOA5X4ETii": {
       "source": "gbp",
@@ -8053,7 +10160,8 @@
       "sha1": "f4027a2736b09807",
       "exif": {
         "taken_at": "2024:09:13 11:51:26"
-      }
+      },
+      "duplicate_of": "gbp:gbp-AF1QipO6_kJP8bvqg5uF8lMUcmZf4VITWVaQJ5Jt8NVT"
     },
     "gbp:gbp-AF1QipPRll1i9VKelXFCSEqDlt63D0LSW_hl_RG9riNz": {
       "source": "gbp",
@@ -8104,6 +10212,19 @@
         "taken_at": "2025:09:16 11:23:48"
       }
     },
+    "gbp:gbp-AF1QipP_Gl_ov7yWimADnaw-d74jj5TmU6XLbImokMwS": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP_Gl_ov7yWimADnaw-d74jj5TmU6XLbImokMwS.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipP_Gl_ov7yWimADnaw-d74jj5TmU6XLbImokMwS.jpg",
+      "width": 2560,
+      "height": 2560,
+      "bytes": 1316826,
+      "sha1": "3f1a9cc372d1250a",
+      "exif": {
+        "taken_at": "2024:09:14 10:51:47"
+      },
+      "duplicate_of": "gbp:gbp-AF1QipOXFd9fP_y2xLLqgiOEhaiad8aHm0HMK26Okmd5"
+    },
     "gbp:gbp-AF1QipP__P7I7dPMn0_z48RAQ6ELIHIMs73Dq40_OIpb": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipP__P7I7dPMn0_z48RAQ6ELIHIMs73Dq40_OIpb.jpg",
@@ -8113,6 +10234,30 @@
       "bytes": 4233951,
       "sha1": "08a0965a80872ecb",
       "exif": {}
+    },
+    "gbp:gbp-AF1QipP_xWEKdrIGuIBRiVOWT_5pA9xx_yrcZt4NkqgO": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP_xWEKdrIGuIBRiVOWT_5pA9xx_yrcZt4NkqgO.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipP_xWEKdrIGuIBRiVOWT_5pA9xx_yrcZt4NkqgO.jpg",
+      "width": 2560,
+      "height": 2560,
+      "bytes": 1051750,
+      "sha1": "b3ead9765e1c2500",
+      "exif": {
+        "taken_at": "2024:09:17 08:01:41"
+      }
+    },
+    "gbp:gbp-AF1QipPa6fHDvpwDV6SYCzPGNlGQezAWd40GgOrqNVZT": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPa6fHDvpwDV6SYCzPGNlGQezAWd40GgOrqNVZT.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipPa6fHDvpwDV6SYCzPGNlGQezAWd40GgOrqNVZT.jpg",
+      "width": 2560,
+      "height": 2560,
+      "bytes": 891270,
+      "sha1": "8899a4454fd01cd9",
+      "exif": {
+        "taken_at": "2024:09:13 11:51:42"
+      }
     },
     "gbp:gbp-AF1QipPc7Hr7PJdNqo8TuNfNkEu4GNGkYWiNRLhx3TIG": {
       "source": "gbp",
@@ -8126,6 +10271,30 @@
         "taken_at": "2021:03:01 16:32:17"
       },
       "duplicate_of": "gbp:gbp-AF1QipMXAdhsMn4wH8Vg_qXrfYrGkK06iA9XvsT3i2zN"
+    },
+    "gbp:gbp-AF1QipPeY6AoabxgggxdZYmY2AS8XxFhVDIO1B-CaLs7": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPeY6AoabxgggxdZYmY2AS8XxFhVDIO1B-CaLs7.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipPeY6AoabxgggxdZYmY2AS8XxFhVDIO1B-CaLs7.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1371319,
+      "sha1": "b93bb7087410cb08",
+      "exif": {
+        "taken_at": "2025:04:06 09:01:09"
+      }
+    },
+    "gbp:gbp-AF1QipPig-UQT0aVKKaw6Yx91ScG7HaG75aj_aou8lRO": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPig-UQT0aVKKaw6Yx91ScG7HaG75aj_aou8lRO.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipPig-UQT0aVKKaw6Yx91ScG7HaG75aj_aou8lRO.jpg",
+      "width": 2560,
+      "height": 2560,
+      "bytes": 990385,
+      "sha1": "fbfb333fa9705ad3",
+      "exif": {
+        "taken_at": "2024:09:17 13:45:24"
+      }
     },
     "gbp:gbp-AF1QipPk-nOwQ-afVhHC_SuBmSMV4oDXjkG9UvB6RRJ3": {
       "source": "gbp",
@@ -8187,6 +10356,18 @@
         "taken_at": "2024:01:26 12:39:04"
       }
     },
+    "gbp:gbp-AF1QipPoByDMTemEYeGB8Yx8HipfaN2mKIjIkCNi0GR1": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPoByDMTemEYeGB8Yx8HipfaN2mKIjIkCNi0GR1.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipPoByDMTemEYeGB8Yx8HipfaN2mKIjIkCNi0GR1.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 1585260,
+      "sha1": "fb94a8231b57ddf3",
+      "exif": {
+        "taken_at": "2025:04:06 09:08:33"
+      }
+    },
     "gbp:gbp-AF1QipPoZ3o0g3XJFgcdlFushd5AiBSFisty506aoOLS": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPoZ3o0g3XJFgcdlFushd5AiBSFisty506aoOLS.jpg",
@@ -8211,6 +10392,19 @@
       "exif": {
         "taken_at": "2021:03:16 17:56:35"
       }
+    },
+    "gbp:gbp-AF1QipPpKzxi82B5oZ7wa3NROTuoG2ymVHLOnKasVStP": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPpKzxi82B5oZ7wa3NROTuoG2ymVHLOnKasVStP.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipPpKzxi82B5oZ7wa3NROTuoG2ymVHLOnKasVStP.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 346248,
+      "sha1": "fedfce632b022f1f",
+      "exif": {
+        "taken_at": "2021:02:25 12:28:16"
+      },
+      "duplicate_of": "gbp:gbp-AF1QipPlwXnnvUZZhvl6vgwEXMV8rW7vYTshCMpcrxwl"
     },
     "gbp:gbp-AF1QipPpPsOYaIfNlR8KhsB3FMlI3fdaFB4pL9t1mS9C": {
       "source": "gbp",
@@ -8480,5 +10674,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-10-01T02:38:31Z"
+  "triaged_at": "2026-10-01T16:13:56Z"
 }

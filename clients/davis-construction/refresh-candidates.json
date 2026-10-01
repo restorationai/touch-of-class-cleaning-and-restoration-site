@@ -3,7 +3,7 @@
   "slug": "davis-construction",
   "origin": "https://davisconstructioncontractors.com",
   "origin_source": "apex",
-  "generated_at": "2026-08-31T22:44:51+00:00",
+  "generated_at": "2026-10-01T16:30:34+00:00",
   "stale_threshold_days": 365,
   "aging_threshold_days": 305,
   "gsc_enabled": false,
@@ -11,8 +11,8 @@
     "v1 = sitemap + page-level date extraction. No GSC indexing flags.",
     "See docs/system-4-v2-activation.md for GSC v2 setup."
   ],
-  "inspected_count": 71,
-  "fetched_html_count": 71,
+  "inspected_count": 120,
+  "fetched_html_count": 120,
   "failed_html_count": 0,
   "flag_counts": {},
   "candidates": [
@@ -20,7 +20,7 @@
       "url": "https://davisconstructioncontractors.com/",
       "date": "2026-05-21",
       "date_source": "sitemap_lastmod",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:57:47.662Z",
       "html_dates": {
@@ -37,7 +37,7 @@
       "url": "https://davisconstructioncontractors.com/about/",
       "date": "2026-05-21",
       "date_source": "sitemap_lastmod",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T23:01:32.706Z",
       "html_dates": {
@@ -54,7 +54,7 @@
       "url": "https://davisconstructioncontractors.com/accessibility/",
       "date": "2026-05-21",
       "date_source": "sitemap_lastmod",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T23:02:05.388Z",
       "html_dates": {
@@ -71,7 +71,7 @@
       "url": "https://davisconstructioncontractors.com/blog/",
       "date": "2026-05-21",
       "date_source": "sitemap_lastmod",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T23:01:10.771Z",
       "html_dates": {
@@ -88,7 +88,7 @@
       "url": "https://davisconstructioncontractors.com/blog/attic-mold-removal-athens/",
       "date": "2026-07-09",
       "date_source": "json_ld_date_modified",
-      "age_days": 53,
+      "age_days": 84,
       "flags": [],
       "sitemap_lastmod": "2026-07-09T00:00:00.000Z",
       "html_dates": {
@@ -105,7 +105,7 @@
       "url": "https://davisconstructioncontractors.com/blog/basement-flooding-prevention/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T00:00:00.000Z",
       "html_dates": {
@@ -122,7 +122,7 @@
       "url": "https://davisconstructioncontractors.com/blog/best-home-remodeling-company-in-madison-al/",
       "date": "2026-08-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 28,
+      "age_days": 59,
       "flags": [],
       "sitemap_lastmod": "2026-08-03T00:00:00.000Z",
       "html_dates": {
@@ -139,7 +139,7 @@
       "url": "https://davisconstructioncontractors.com/blog/black-mold-vs-regular-mold/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T00:00:00.000Z",
       "html_dates": {
@@ -156,7 +156,7 @@
       "url": "https://davisconstructioncontractors.com/blog/burst-pipe-emergency-checklist/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T00:00:00.000Z",
       "html_dates": {
@@ -170,10 +170,27 @@
       "search_signals": null
     },
     {
+      "url": "https://davisconstructioncontractors.com/blog/choosing-a-general-contractor/",
+      "date": "2026-09-02",
+      "date_source": "json_ld_date_modified",
+      "age_days": 29,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-02T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-02",
+        "json_ld_date_modified": "2026-09-02",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://davisconstructioncontractors.com/blog/choosing-a-restoration-company/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T00:00:00.000Z",
       "html_dates": {
@@ -190,7 +207,7 @@
       "url": "https://davisconstructioncontractors.com/blog/commercial-water-damage-business-continuity/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T00:00:00.000Z",
       "html_dates": {
@@ -207,7 +224,7 @@
       "url": "https://davisconstructioncontractors.com/blog/crawl-space-mold-removal-madison/",
       "date": "2026-07-13",
       "date_source": "json_ld_date_modified",
-      "age_days": 49,
+      "age_days": 80,
       "flags": [],
       "sitemap_lastmod": "2026-07-13T00:00:00.000Z",
       "html_dates": {
@@ -224,7 +241,7 @@
       "url": "https://davisconstructioncontractors.com/blog/do-i-need-a-general-contractor-for-a-remodel/",
       "date": "2026-07-30",
       "date_source": "json_ld_date_modified",
-      "age_days": 32,
+      "age_days": 63,
       "flags": [],
       "sitemap_lastmod": "2026-07-30T00:00:00.000Z",
       "html_dates": {
@@ -238,10 +255,44 @@
       "search_signals": null
     },
     {
+      "url": "https://davisconstructioncontractors.com/blog/do-i-need-a-permit-to-remodel-a-kitchen/",
+      "date": "2026-09-29",
+      "date_source": "json_ld_date_modified",
+      "age_days": 2,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-29T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-29",
+        "json_ld_date_modified": "2026-09-29",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/blog/do-you-need-a-permit/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-27",
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://davisconstructioncontractors.com/blog/does-homeowners-insurance-cover-fire-damage/",
       "date": "2026-06-08",
       "date_source": "json_ld_date_modified",
-      "age_days": 84,
+      "age_days": 115,
       "flags": [],
       "sitemap_lastmod": "2026-06-08T00:00:00.000Z",
       "html_dates": {
@@ -258,7 +309,7 @@
       "url": "https://davisconstructioncontractors.com/blog/does-homeowners-insurance-cover-water-damage/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T00:00:00.000Z",
       "html_dates": {
@@ -275,7 +326,7 @@
       "url": "https://davisconstructioncontractors.com/blog/does-insurance-cover-mold-remediation-huntsville/",
       "date": "2026-07-16",
       "date_source": "json_ld_date_modified",
-      "age_days": 46,
+      "age_days": 77,
       "flags": [],
       "sitemap_lastmod": "2026-07-16T00:00:00.000Z",
       "html_dates": {
@@ -292,7 +343,7 @@
       "url": "https://davisconstructioncontractors.com/blog/fire-damage-restoration-cost/",
       "date": "2026-06-15",
       "date_source": "json_ld_date_modified",
-      "age_days": 77,
+      "age_days": 108,
       "flags": [],
       "sitemap_lastmod": "2026-06-15T00:00:00.000Z",
       "html_dates": {
@@ -309,7 +360,7 @@
       "url": "https://davisconstructioncontractors.com/blog/fire-damage-restoration-process/",
       "date": "2026-06-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 81,
+      "age_days": 112,
       "flags": [],
       "sitemap_lastmod": "2026-06-11T00:00:00.000Z",
       "html_dates": {
@@ -323,10 +374,27 @@
       "search_signals": null
     },
     {
+      "url": "https://davisconstructioncontractors.com/blog/home-remodeling-madison-al/",
+      "date": "2026-09-17",
+      "date_source": "json_ld_date_modified",
+      "age_days": 14,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-17T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-17",
+        "json_ld_date_modified": "2026-09-17",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://davisconstructioncontractors.com/blog/how-long-does-a-home-remodel-take/",
       "date": "2026-08-26",
       "date_source": "json_ld_date_modified",
-      "age_days": 5,
+      "age_days": 36,
       "flags": [],
       "sitemap_lastmod": "2026-08-26T00:00:00.000Z",
       "html_dates": {
@@ -340,10 +408,44 @@
       "search_signals": null
     },
     {
+      "url": "https://davisconstructioncontractors.com/blog/how-long-does-a-kitchen-remodel-take/",
+      "date": "2026-09-21",
+      "date_source": "json_ld_date_modified",
+      "age_days": 10,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-21T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-21",
+        "json_ld_date_modified": "2026-09-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/blog/how-long-does-roof-replacement-take/",
+      "date": "2026-09-28",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-28T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-28",
+        "json_ld_date_modified": "2026-09-28",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://davisconstructioncontractors.com/blog/how-long-does-water-damage-restoration-take/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T00:00:00.000Z",
       "html_dates": {
@@ -357,10 +459,27 @@
       "search_signals": null
     },
     {
+      "url": "https://davisconstructioncontractors.com/blog/how-long-to-build-a-house/",
+      "date": "2026-09-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 13,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-18T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-18",
+        "json_ld_date_modified": "2026-09-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://davisconstructioncontractors.com/blog/how-much-does-a-general-contractor-cost/",
       "date": "2026-07-20",
       "date_source": "json_ld_date_modified",
-      "age_days": 42,
+      "age_days": 73,
       "flags": [],
       "sitemap_lastmod": "2026-07-20T00:00:00.000Z",
       "html_dates": {
@@ -377,7 +496,7 @@
       "url": "https://davisconstructioncontractors.com/blog/how-much-does-a-home-remodel-cost/",
       "date": "2026-08-10",
       "date_source": "json_ld_date_modified",
-      "age_days": 21,
+      "age_days": 52,
       "flags": [],
       "sitemap_lastmod": "2026-08-10T00:00:00.000Z",
       "html_dates": {
@@ -391,10 +510,27 @@
       "search_signals": null
     },
     {
+      "url": "https://davisconstructioncontractors.com/blog/how-much-does-a-kitchen-remodel-cost/",
+      "date": "2026-09-19",
+      "date_source": "json_ld_date_modified",
+      "age_days": 12,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-19T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-19",
+        "json_ld_date_modified": "2026-09-19",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://davisconstructioncontractors.com/blog/how-to-choose-a-general-contractor/",
       "date": "2026-07-23",
       "date_source": "json_ld_date_modified",
-      "age_days": 39,
+      "age_days": 70,
       "flags": [],
       "sitemap_lastmod": "2026-07-23T00:00:00.000Z",
       "html_dates": {
@@ -408,10 +544,27 @@
       "search_signals": null
     },
     {
+      "url": "https://davisconstructioncontractors.com/blog/how-to-plan-a-home-remodel/",
+      "date": "2026-09-03",
+      "date_source": "json_ld_date_modified",
+      "age_days": 28,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-03T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-03",
+        "json_ld_date_modified": "2026-09-03",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://davisconstructioncontractors.com/blog/iicrc-certification-explained/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T00:00:00.000Z",
       "html_dates": {
@@ -425,10 +578,27 @@
       "search_signals": null
     },
     {
+      "url": "https://davisconstructioncontractors.com/blog/kitchen-remodel-cost-breakdown/",
+      "date": "2026-09-06",
+      "date_source": "json_ld_date_modified",
+      "age_days": 25,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-06T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-06",
+        "json_ld_date_modified": "2026-09-06",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://davisconstructioncontractors.com/blog/licensed-vs-unlicensed-contractor-alabama/",
       "date": "2026-07-27",
       "date_source": "json_ld_date_modified",
-      "age_days": 35,
+      "age_days": 66,
       "flags": [],
       "sitemap_lastmod": "2026-07-27T00:00:00.000Z",
       "html_dates": {
@@ -445,7 +615,7 @@
       "url": "https://davisconstructioncontractors.com/blog/mold-after-water-damage/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T00:00:00.000Z",
       "html_dates": {
@@ -459,10 +629,27 @@
       "search_signals": null
     },
     {
+      "url": "https://davisconstructioncontractors.com/blog/mold-found-during-renovation/",
+      "date": "2026-09-05",
+      "date_source": "json_ld_date_modified",
+      "age_days": 26,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-05T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-05",
+        "json_ld_date_modified": "2026-09-05",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://davisconstructioncontractors.com/blog/mold-inspection-cost-huntsville/",
       "date": "2026-07-06",
       "date_source": "json_ld_date_modified",
-      "age_days": 56,
+      "age_days": 87,
       "flags": [],
       "sitemap_lastmod": "2026-07-06T00:00:00.000Z",
       "html_dates": {
@@ -479,7 +666,7 @@
       "url": "https://davisconstructioncontractors.com/blog/mold-remediation-cost-madison/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 63,
+      "age_days": 94,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T00:00:00.000Z",
       "html_dates": {
@@ -496,7 +683,7 @@
       "url": "https://davisconstructioncontractors.com/blog/remodeling-contractor-vs-general-contractor/",
       "date": "2026-08-31",
       "date_source": "json_ld_date_modified",
-      "age_days": 0,
+      "age_days": 31,
       "flags": [],
       "sitemap_lastmod": "2026-08-31T00:00:00.000Z",
       "html_dates": {
@@ -513,7 +700,7 @@
       "url": "https://davisconstructioncontractors.com/blog/residential-fire-damage-restoration/",
       "date": "2026-06-22",
       "date_source": "json_ld_date_modified",
-      "age_days": 70,
+      "age_days": 101,
       "flags": [],
       "sitemap_lastmod": "2026-06-22T00:00:00.000Z",
       "html_dates": {
@@ -527,15 +714,66 @@
       "search_signals": null
     },
     {
+      "url": "https://davisconstructioncontractors.com/blog/roofing-material-comparison/",
+      "date": "2026-09-25",
+      "date_source": "json_ld_date_modified",
+      "age_days": 6,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-25T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-25",
+        "json_ld_date_modified": "2026-09-25",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/blog/siding-options-compared/",
+      "date": "2026-09-02",
+      "date_source": "json_ld_date_modified",
+      "age_days": 29,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-02T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-02",
+        "json_ld_date_modified": "2026-09-02",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://davisconstructioncontractors.com/blog/signs-of-hidden-mold/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T00:00:00.000Z",
       "html_dates": {
         "json_ld_date_published": "2026-05-21",
         "json_ld_date_modified": "2026-05-21",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/blog/small-kitchen-remodel-cost/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-23",
+        "json_ld_date_modified": "2026-09-23",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -547,7 +785,7 @@
       "url": "https://davisconstructioncontractors.com/blog/storm-damage-insurance-claim-checklist/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T00:00:00.000Z",
       "html_dates": {
@@ -561,10 +799,27 @@
       "search_signals": null
     },
     {
+      "url": "https://davisconstructioncontractors.com/blog/storm-damage-repair-process/",
+      "date": "2026-09-28",
+      "date_source": "json_ld_date_modified",
+      "age_days": 3,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-28T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-28",
+        "json_ld_date_modified": "2026-09-28",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://davisconstructioncontractors.com/blog/water-damage-restoration-cost-guide/",
       "date": "2026-05-30",
       "date_source": "json_ld_date_modified",
-      "age_days": 93,
+      "age_days": 124,
       "flags": [],
       "sitemap_lastmod": "2026-05-30T00:00:00.000Z",
       "html_dates": {
@@ -581,7 +836,7 @@
       "url": "https://davisconstructioncontractors.com/blog/what-to-do-after-a-house-fire/",
       "date": "2026-06-04",
       "date_source": "json_ld_date_modified",
-      "age_days": 88,
+      "age_days": 119,
       "flags": [],
       "sitemap_lastmod": "2026-06-04T00:00:00.000Z",
       "html_dates": {
@@ -598,7 +853,7 @@
       "url": "https://davisconstructioncontractors.com/blog/what-to-do-first-24-hours-water-damage/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T00:00:00.000Z",
       "html_dates": {
@@ -612,12 +867,46 @@
       "search_signals": null
     },
     {
-      "url": "https://davisconstructioncontractors.com/certifications/",
-      "date": "2026-08-31",
+      "url": "https://davisconstructioncontractors.com/blog/wood-vs-composite-decking/",
+      "date": "2026-09-08",
+      "date_source": "json_ld_date_modified",
+      "age_days": 23,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-08T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-08",
+        "json_ld_date_modified": "2026-09-08",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/case-studies/",
+      "date": "2026-10-01",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-08-31T22:44:01.138Z",
+      "sitemap_lastmod": "2026-10-01T05:38:29.375Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/certifications/",
+      "date": "2026-10-01",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-10-01T05:38:29.375Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -632,9 +921,43 @@
       "url": "https://davisconstructioncontractors.com/contact/",
       "date": "2026-05-21",
       "date_source": "sitemap_lastmod",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T23:01:47.848Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/embed/estimate/",
+      "date": "2026-10-01",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-10-01T05:38:29.375Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/emergency/",
+      "date": "2026-10-01",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-10-01T05:38:29.375Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -649,7 +972,7 @@
       "url": "https://davisconstructioncontractors.com/privacy/",
       "date": "2026-05-21",
       "date_source": "sitemap_lastmod",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T23:01:50.247Z",
       "html_dates": {
@@ -664,11 +987,11 @@
     },
     {
       "url": "https://davisconstructioncontractors.com/reviews/",
-      "date": "2026-08-31",
+      "date": "2026-10-01",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-08-31T22:44:01.138Z",
+      "sitemap_lastmod": "2026-10-01T05:38:29.375Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -683,7 +1006,7 @@
       "url": "https://davisconstructioncontractors.com/service-areas/",
       "date": "2026-05-21",
       "date_source": "sitemap_lastmod",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T23:01:02.850Z",
       "html_dates": {
@@ -697,10 +1020,146 @@
       "search_signals": null
     },
     {
+      "url": "https://davisconstructioncontractors.com/service-areas/arab-al/",
+      "date": "2026-09-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-30T14:12:04.049Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/arab-al/home-remodeling/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:32:54.887Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/arab-al/roofing/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:33:15.462Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/ardmore-al/",
+      "date": "2026-09-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-30T14:12:04.047Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/ardmore-al/home-remodeling/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:31:13.374Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/ardmore-al/mold-remediation/",
+      "date": "2026-09-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-30T14:12:04.084Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/ardmore-al/roofing/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:31:36.480Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/ardmore-al/water-damage-restoration/",
+      "date": "2026-09-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-30T14:12:04.086Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://davisconstructioncontractors.com/service-areas/athens-al/",
       "date": "2026-05-21",
       "date_source": "sitemap_lastmod",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:59:19.329Z",
       "html_dates": {
@@ -717,7 +1176,7 @@
       "url": "https://davisconstructioncontractors.com/service-areas/athens-al/decks-pergolas-fences/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:56:08.384Z",
       "html_dates": {
@@ -734,7 +1193,7 @@
       "url": "https://davisconstructioncontractors.com/service-areas/athens-al/home-remodeling/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:53:42.052Z",
       "html_dates": {
@@ -751,7 +1210,7 @@
       "url": "https://davisconstructioncontractors.com/service-areas/athens-al/mold-remediation/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:54:22.577Z",
       "html_dates": {
@@ -768,7 +1227,7 @@
       "url": "https://davisconstructioncontractors.com/service-areas/athens-al/new-construction/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:55:54.727Z",
       "html_dates": {
@@ -785,7 +1244,7 @@
       "url": "https://davisconstructioncontractors.com/service-areas/athens-al/painting-trim/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:58:48.200Z",
       "html_dates": {
@@ -799,10 +1258,27 @@
       "search_signals": null
     },
     {
+      "url": "https://davisconstructioncontractors.com/service-areas/athens-al/post-construction-specialty-cleaning/",
+      "date": "2026-09-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-30T14:12:04.052Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://davisconstructioncontractors.com/service-areas/athens-al/roofing/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:53:51.027Z",
       "html_dates": {
@@ -819,7 +1295,7 @@
       "url": "https://davisconstructioncontractors.com/service-areas/athens-al/siding-gutters/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:57:16.607Z",
       "html_dates": {
@@ -836,7 +1312,7 @@
       "url": "https://davisconstructioncontractors.com/service-areas/athens-al/storm-damage-restoration/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:56:15.860Z",
       "html_dates": {
@@ -853,7 +1329,7 @@
       "url": "https://davisconstructioncontractors.com/service-areas/athens-al/water-damage-restoration/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:53:50.371Z",
       "html_dates": {
@@ -867,10 +1343,469 @@
       "search_signals": null
     },
     {
+      "url": "https://davisconstructioncontractors.com/service-areas/decatur-al/",
+      "date": "2026-09-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-30T14:12:04.048Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/decatur-al/home-remodeling/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:32:33.234Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/decatur-al/mold-remediation/",
+      "date": "2026-09-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-30T14:12:04.097Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/decatur-al/roofing/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:32:57.748Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/decatur-al/storm-damage-restoration/",
+      "date": "2026-09-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-30T14:12:04.099Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/decatur-al/water-damage-restoration/",
+      "date": "2026-09-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-30T14:12:04.099Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/elkmont-al/",
+      "date": "2026-09-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-30T14:12:04.048Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/elkmont-al/home-remodeling/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:32:14.192Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/elkmont-al/roofing/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:32:26.878Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/gurley-al/",
+      "date": "2026-09-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-30T14:12:04.046Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/gurley-al/decks-pergolas-fences/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:36:09.495Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/gurley-al/home-remodeling/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:29:56.650Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/gurley-al/new-construction/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:36:14.823Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/gurley-al/roofing/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:30:11.091Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/hartselle-al/",
+      "date": "2026-09-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-30T14:12:04.049Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/hartselle-al/home-remodeling/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:33:11.532Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/hartselle-al/roofing/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:33:37.611Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/harvest-al/",
+      "date": "2026-09-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-30T14:12:04.046Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/harvest-al/decks-pergolas-fences/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:35:56.678Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/harvest-al/home-remodeling/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:29:25.915Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/harvest-al/new-construction/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:36:07.378Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/harvest-al/roofing/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:29:33.375Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/hazel-green-al/",
+      "date": "2026-09-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-30T14:12:04.045Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/hazel-green-al/decks-pergolas-fences/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:35:14.705Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/hazel-green-al/home-remodeling/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:28:39.733Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/hazel-green-al/new-construction/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:35:26.035Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/hazel-green-al/roofing/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-27T15:28:46.005Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-27",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/",
       "date": "2026-05-21",
       "date_source": "sitemap_lastmod",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:59:18.624Z",
       "html_dates": {
@@ -887,7 +1822,7 @@
       "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/decks-pergolas-fences/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:55:25.803Z",
       "html_dates": {
@@ -904,7 +1839,7 @@
       "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/home-remodeling/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:52:55.885Z",
       "html_dates": {
@@ -921,7 +1856,7 @@
       "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/mold-remediation/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:53:36.992Z",
       "html_dates": {
@@ -938,7 +1873,7 @@
       "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/new-construction/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:55:17.568Z",
       "html_dates": {
@@ -955,7 +1890,7 @@
       "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/painting-trim/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:58:38.255Z",
       "html_dates": {
@@ -972,7 +1907,7 @@
       "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/roofing/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:53:01.383Z",
       "html_dates": {
@@ -989,7 +1924,7 @@
       "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/siding-gutters/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:57:03.171Z",
       "html_dates": {
@@ -1006,7 +1941,7 @@
       "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/storm-damage-restoration/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:55:31.035Z",
       "html_dates": {
@@ -1023,7 +1958,7 @@
       "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/water-damage-restoration/",
       "date": "2026-05-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 102,
+      "age_days": 133,
       "flags": [],
       "sitemap_lastmod": "2026-05-21T22:53:07.575Z",
       "html_dates": {
@@ -1037,12 +1972,29 @@
       "search_signals": null
     },
     {
-      "url": "https://davisconstructioncontractors.com/services/",
-      "date": "2026-05-21",
-      "date_source": "sitemap_lastmod",
-      "age_days": 102,
+      "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/windows-doors/",
+      "date": "2026-09-30",
+      "date_source": "json_ld_date_modified",
+      "age_days": 1,
       "flags": [],
-      "sitemap_lastmod": "2026-05-21T23:00:40.682Z",
+      "sitemap_lastmod": "2026-09-30T14:12:04.051Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-30",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/meridianville-al/",
+      "date": "2026-09-30",
+      "date_source": "sitemap_lastmod",
+      "age_days": 1,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-30T14:12:04.045Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -1054,15 +2006,15 @@
       "search_signals": null
     },
     {
-      "url": "https://davisconstructioncontractors.com/services/decks-pergolas-fences/",
-      "date": "2026-05-21",
-      "date_source": "sitemap_lastmod",
-      "age_days": 102,
+      "url": "https://davisconstructioncontractors.com/service-areas/meridianville-al/decks-pergolas-fences/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
       "flags": [],
-      "sitemap_lastmod": "2026-05-21T22:51:22.785Z",
+      "sitemap_lastmod": "2026-09-27T15:34:48.038Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-09-27",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1071,15 +2023,15 @@
       "search_signals": null
     },
     {
-      "url": "https://davisconstructioncontractors.com/services/home-remodeling/",
-      "date": "2026-05-21",
-      "date_source": "sitemap_lastmod",
-      "age_days": 102,
+      "url": "https://davisconstructioncontractors.com/service-areas/meridianville-al/home-remodeling/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
       "flags": [],
-      "sitemap_lastmod": "2026-05-21T22:50:29.589Z",
+      "sitemap_lastmod": "2026-09-27T15:28:40.252Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-09-27",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1088,134 +2040,15 @@
       "search_signals": null
     },
     {
-      "url": "https://davisconstructioncontractors.com/services/mold-remediation/",
-      "date": "2026-05-21",
-      "date_source": "sitemap_lastmod",
-      "age_days": 102,
+      "url": "https://davisconstructioncontractors.com/service-areas/meridianville-al/new-construction/",
+      "date": "2026-09-27",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
       "flags": [],
-      "sitemap_lastmod": "2026-05-21T22:50:29.588Z",
+      "sitemap_lastmod": "2026-09-27T15:34:55.717Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://davisconstructioncontractors.com/services/new-construction/",
-      "date": "2026-05-21",
-      "date_source": "sitemap_lastmod",
-      "age_days": 102,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-21T22:51:21.529Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://davisconstructioncontractors.com/services/painting-trim/",
-      "date": "2026-05-21",
-      "date_source": "sitemap_lastmod",
-      "age_days": 102,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-21T22:54:41.972Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://davisconstructioncontractors.com/services/roofing/",
-      "date": "2026-05-21",
-      "date_source": "sitemap_lastmod",
-      "age_days": 102,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-21T22:50:25.715Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://davisconstructioncontractors.com/services/siding-gutters/",
-      "date": "2026-05-21",
-      "date_source": "sitemap_lastmod",
-      "age_days": 102,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-21T22:51:32.041Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://davisconstructioncontractors.com/services/storm-damage-restoration/",
-      "date": "2026-05-21",
-      "date_source": "sitemap_lastmod",
-      "age_days": 102,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-21T22:51:23.626Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://davisconstructioncontractors.com/services/water-damage-restoration/",
-      "date": "2026-05-21",
-      "date_source": "sitemap_lastmod",
-      "age_days": 102,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-21T22:50:31.699Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://davisconstructioncontractors.com/terms/",
-      "date": "2026-05-21",
-      "date_source": "sitemap_lastmod",
-      "age_days": 102,
-      "flags": [],
-      "sitemap_lastmod": "2026-05-21T23:02:07.249Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-09-27",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
