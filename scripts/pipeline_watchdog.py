@@ -52,6 +52,7 @@ WATCHED_WORKFLOWS = [
     "weekly-maintenance.yml", "call-intel.yml", "gbp-maintenance.yml",
     "monthly-reports.yml", "dev-agent.yml", "site-render.yml",
     "lsa-lead-review.yml", "site-regression-watch.yml",
+    "index-watch.yml",
 ]
 HEARTBEATS = {"heartbeat:parity": 8, "heartbeat:service-bank": 8,
               "heartbeat:ai-scan": 5, "heartbeat:lsa-lead-review": 2}
@@ -146,6 +147,60 @@ def check_heartbeats() -> list[str]:
             if key == "heartbeat:ai-scan":
                 note = f"; self-heal: {_self_heal_ai_scan()}"
             issues.append(f"{key}: last beat {age}d ago (max {max_days}) — engine dead{note}")
+    return issues
+
+
+INDEX_WATCH_MAX_DAYS = 8
+
+
+def _age_days(iso) -> float | None:
+    try:
+        d = datetime.fromisoformat(str(iso).replace("Z", "+00:00"))
+        if d.tzinfo is None:
+            d = d.replace(tzinfo=timezone.utc)
+        return (NOW - d).total_seconds() / 86400
+    except (ValueError, TypeError):
+        return None
+
+
+def check_index_watch() -> list[str]:
+    """Per-site heartbeat for the weekly Google index check (2026-10-01).
+    The old bulk step timed out alphabetically for seven weeks and six live
+    sites went unchecked with no alert. index_watchdog stamps ops_kv
+    'index-watch:{slug}' on every attempt (attempted_at / attempt_note) and
+    on every success (checked_at). Any live site whose last SUCCESSFUL check
+    is older than 8 days alerts, with the last attempt's reason. A site that
+    went live under 8 days ago and was never checked yet gets grace."""
+    try:
+        from index_watchdog import live_slugs  # noqa: PLC0415
+        slugs = live_slugs()
+    except Exception as e:  # noqa: BLE001
+        return [f"index-watch: live-site list failed ({str(e)[:80]}), heartbeat unchecked"]
+    sites = {r.get("rank_ai_slug"): r for r in (_sb(
+        "GET", "/rest/v1/marketing_sites?select=rank_ai_slug,apex_completed_at,"
+        "domain_ns_live_at,gsc_property_url") or [])}
+    kv = {r["k"]: (r.get("v") or {}) for r in (_sb(
+        "GET", "/rest/v1/ops_kv?k=like.index-watch:*&select=k,v") or [])}
+    issues = []
+    for slug in slugs:
+        v = kv.get("index-watch:" + slug) or {}
+        age = _age_days(v.get("checked_at"))
+        if age is not None and age <= INDEX_WATCH_MAX_DAYS:
+            continue
+        if age is None:
+            ms = sites.get(slug) or {}
+            live_age = _age_days(ms.get("apex_completed_at") or ms.get("domain_ns_live_at"))
+            if live_age is not None and live_age <= INDEX_WATCH_MAX_DAYS:
+                continue
+        why = v.get("attempt_note") or (
+            "no attempt recorded (index-watch.yml did not reach it)"
+            if not v.get("attempted_at") else "last attempt sampled nothing")
+        if not (sites.get(slug) or {}).get("gsc_property_url"):
+            why += "; no gsc_property_url in marketing_sites (run gsc_register.py --slug)"
+        issues.append(
+            f"index-watch {slug}: Google index check stale "
+            + ("(never succeeded)" if age is None else f"({int(age)}d since last success)")
+            + f" - {why}")
     return issues
 
 
@@ -545,6 +600,9 @@ def alert_key(issue: str) -> str:
     m = re.match(r"^(heartbeat:[\w-]+):", head)
     if m:
         return "wd-alert:" + m.group(1)
+    m = re.match(r"^index-watch ([\w-]+):", head)  # one card per site (10-01)
+    if m:
+        return "wd-alert:index-watch:" + m.group(1)
     return "wd-alert:" + re.sub(r"[^a-z]+", "-", head.lower())[:60]
 
 
@@ -694,6 +752,7 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
     issues = (check_workflows() + check_conflict_markers() + check_heartbeats() + check_coverage()
+              + check_index_watch()
               + check_site_area_gap() + check_citation_stall()
               + check_lsa_leads()
               + check_stuck_lead_audits()

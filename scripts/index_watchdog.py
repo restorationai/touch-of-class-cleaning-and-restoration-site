@@ -59,9 +59,16 @@ indexed (the rescue worked; a later relapse earns a fresh rescue).
 Ledger: one client-readable marketing_work_log line per client per run
 (category 'routine') — feeds the monthly report automatically.
 
+Cadence (2026-10-01): .github/workflows/index-watch.yml, Mondays, ONE job per
+live site (LAW 09-19 per-client fan-out; the old bulk step in
+weekly-maintenance timed out alphabetically and starved every site after
+"H" for seven weeks). Every run re-submits the sitemap and stamps a
+heartbeat (attempted_at / checked_at) that pipeline_watchdog alerts on.
+
 Usage:
     python3 scripts/index_watchdog.py --slug narestco
     python3 scripts/index_watchdog.py --all --apply
+    python3 scripts/index_watchdog.py --list      # matrix input, stalest first
 Env: SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, .gsc-agency-token.json in repo
 root (CI writes it from the GSC_AGENCY_TOKEN secret).
 """
@@ -154,10 +161,30 @@ def load_record(slug: str) -> dict:
     return json.loads((CLIENTS_DIR / f"{slug}.json").read_text())
 
 
+DEAD_SLUGS = {"mcc-restoration", "mold-solutionz"}
+DEPARTED = {"archived", "churned", "paused", "cancelled", "canceled",
+            "inactive", "suspended"}
+
+
+def _departed_slugs() -> set[str]:
+    """Slugs whose app company status is departed (paused/suspended/...).
+    Fail-open to an empty set: a DB blip must not silently drop the fleet."""
+    try:
+        from client_ops_sync import slug_map  # noqa: PLC0415
+        cos = _sb("GET", "/rest/v1/companies?select=id,status") or []
+        bad = {c["id"] for c in cos
+               if str(c.get("status") or "").strip().lower() in DEPARTED}
+        return {s for cid, s in slug_map().items() if cid in bad}
+    except Exception as e:  # noqa: BLE001
+        print(f"  warn: company status read failed ({str(e)[:80]})")
+        return set()
+
+
 def live_slugs() -> list[str]:
     """LIVE = client record has cut_over_at / apex_cutover.completed_at, OR
     marketing_sites.apex_live is true (the flag alone is known-unreliable in
-    BOTH directions — client_ops_sync 2026-08 — so we union the two)."""
+    BOTH directions — client_ops_sync 2026-08 — so we union the two).
+    Dead and departed (paused/suspended/cancelled) clients are excluded."""
     apex: set[str] = set()
     try:
         rows = _sb("GET", "/rest/v1/marketing_sites?apex_live=eq.true"
@@ -165,9 +192,10 @@ def live_slugs() -> list[str]:
         apex = {r["rank_ai_slug"] for r in rows if r.get("rank_ai_slug")}
     except Exception as e:  # noqa: BLE001 — repo records still decide
         print(f"  warn: marketing_sites read failed ({str(e)[:80]})")
+    skip = DEAD_SLUGS | _departed_slugs()
     out = []
     for f in sorted(CLIENTS_DIR.glob("*.json")):
-        if f.name == "company_map.json":
+        if f.name == "company_map.json" or f.stem in skip:
             continue
         try:
             rec = json.loads(f.read_text())
@@ -368,6 +396,45 @@ def store_run(slug: str, sampled: int, indexed: int, not_indexed: list[dict],
     return prior, value
 
 
+def stamp_attempt(slug: str, r: dict, apply: bool) -> None:
+    """Heartbeat (2026-10-01): stamp EVERY attempt into 'index-watch:{slug}',
+    successful or not. The 25-min bulk step timed out alphabetically for
+    seven weeks and nothing noticed because a client that is never reached
+    writes nothing. pipeline_watchdog.check_index_watch() alerts on any live
+    site whose checked_at (last SUCCESSFUL check) is older than 8 days and
+    quotes attempt_note so the card says why (no GSC access, site down...)."""
+    key = KV_PREFIX + slug
+    try:
+        cur = kv_get(key) or {}
+    except Exception:  # noqa: BLE001
+        return
+    cur.update({
+        "attempted_at": _now_iso(),
+        "attempt_ok": bool(r.get("sampled")),
+        "attempt_note": r.get("note"),
+        "attempt_mode": "apply" if apply else "dry-run",
+        "sitemap_resubmitted": "sitemap re-submitted" in (r.get("remediation") or []),
+    })
+    if r.get("sitemap_urls") is not None:
+        cur["sitemap_urls"] = r["sitemap_urls"]
+    try:
+        kv_put(key, cur)
+    except Exception as e:  # noqa: BLE001
+        print(f"  warn: heartbeat stamp failed ({str(e)[:80]})")
+
+
+def list_order(slugs: list[str]) -> list[str]:
+    """Least-recently-checked first (never-checked at the very front), so a
+    partial run always spends its budget on the stalest sites."""
+    def last(s: str) -> str:
+        try:
+            v = kv_get(KV_PREFIX + s) or {}
+        except Exception:  # noqa: BLE001
+            return ""
+        return str(v.get("checked_at") or "")
+    return sorted(slugs, key=lambda s: (last(s), s))
+
+
 def chronic_urls(current: list[dict], prior_runs: list[dict]) -> list[str]:
     """URLs 'Crawled - currently not indexed' this run AND in the immediately
     previous run (>= 2 consecutive runs) — the content-quality signal."""
@@ -556,6 +623,7 @@ def run_client(slug: str, apply: bool, cap: int) -> dict:
            "errors": 0, "note": None, "remediation": []}
 
     urls, sitemap_n = gather_candidates(slug, rec, cid, cap)
+    out["sitemap_urls"] = sitemap_n
     if not urls:
         out["note"] = "no candidate URLs (site unreachable?)"
         return out
@@ -585,9 +653,12 @@ def run_client(slug: str, apply: bool, cap: int) -> dict:
     # excluded-by-design states like noindex/redirect are not re-pushed)
     actionable = [r["url"] for r in not_indexed
                   if r["verdict"] in (CRAWLED, DISCOVERED, UNKNOWN)]
+    # Weekly sitemap re-submission for EVERY live site (2026-10-01, Santino:
+    # "are we still submitting to search console once a week?"). It is one
+    # cheap, always-safe call, so it no longer waits for a not-indexed hit.
+    if apply and resubmit_sitemap(slug, rec):
+        out["remediation"].append("sitemap re-submitted")
     if apply and actionable:
-        if resubmit_sitemap(slug, rec):
-            out["remediation"].append("sitemap re-submitted")
         status, n = indexnow_ping_urls(slug, rec, actionable)
         if status in (200, 202):
             out["remediation"].append(f"IndexNow pinged {n} URL(s)")
@@ -640,9 +711,11 @@ def run_client(slug: str, apply: bool, cap: int) -> dict:
     if cid and out["sampled"]:
         detail = (f"Checked Google's index coverage: {out['indexed']} of "
                   f"{out['sampled']} sampled pages indexed")
+        if "sitemap re-submitted" in out["remediation"]:
+            detail += "; re-submitted the sitemap to Google"
         if apply and actionable:
-            detail += (f"; re-submitted the sitemap and asked search engines "
-                       f"to re-crawl {len(actionable)} page(s)")
+            detail += (f"; asked search engines to re-crawl "
+                       f"{len(actionable)} page(s)")
         if apply and queued:
             detail += (f"; {len(queued)} stubborn page(s) queued for "
                        "automatic content enrichment")
@@ -669,12 +742,20 @@ def main() -> int:
     g = ap.add_mutually_exclusive_group(required=True)
     g.add_argument("--slug")
     g.add_argument("--all", action="store_true")
+    g.add_argument("--list", action="store_true",
+                   help="print the live slugs as one JSON line, least-recently "
+                        "checked first (the index-watch.yml matrix input)")
     ap.add_argument("--apply", action="store_true",
                     help="fire remediation (sitemap resubmit + IndexNow + "
                          "[DEV] rescue tasks + last-resort cards)")
-    ap.add_argument("--cap", type=int, default=DEFAULT_CAP,
-                    help=f"max URL inspections per client (default {DEFAULT_CAP})")
+    ap.add_argument("--cap", type=int, default=None,
+                    help=f"max URL inspections per client (default {DEFAULT_CAP}; "
+                         "1500 in the first week of the month unless given)")
     args = ap.parse_args()
+
+    if args.list:
+        print(json.dumps(list_order(live_slugs())))
+        return 0
 
     # MONTHLY FULL SWEEP (Santino 2026-08-15, "why only 50?"): the Inspection
     # API is strictly one-call-per-URL — there is no bulk endpoint — so a full
@@ -682,11 +763,13 @@ def main() -> int:
     # keeps Monday runs fast and focused on fresh pages; on the FIRST Monday
     # of each month the cap rises to 1500 (still under the 2,000/day
     # per-property quota) so every page gets inspected at least monthly.
-    if args.cap == DEFAULT_CAP and datetime.now(timezone.utc).day <= 7:
-        args.cap = 1500
-        print("first-week-of-month run: full-sweep cap 1500/client")
+    if args.cap is None:
+        args.cap = DEFAULT_CAP
+        if datetime.now(timezone.utc).day <= 7:
+            args.cap = 1500
+            print("first-week-of-month run: full-sweep cap 1500/client")
 
-    slugs = live_slugs() if args.all else [args.slug]
+    slugs = list_order(live_slugs()) if args.all else [args.slug]
     print(f"index watchdog — {len(slugs)} live client(s), cap {args.cap}/client, "
           f"apply={args.apply}")
     rows = []
@@ -699,6 +782,7 @@ def main() -> int:
                  "crawled": 0, "discovered": 0, "unknown": 0, "excluded": 0,
                  "errors": 0, "chronic": 0, "remediation": [],
                  "note": f"ERROR {type(e).__name__}: {str(e)[:100]}"}
+        stamp_attempt(slug, r, args.apply)
         rows.append(r)
         rate = f"{r['rate']:.0%}" if r.get("rate") is not None else "—"
         line = (f"   {r['sampled']} sampled, {r['indexed']} indexed ({rate}); "

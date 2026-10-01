@@ -189,3 +189,17 @@ recolors of people: skin shares red's hue, so it turns blue (ProRestoration,
 11 images). New service pages get their own image through the nightly render
 sweep (`gen_site_images --services`, which only adds), never the shared
 `services.webp` fallback.
+
+### Search engines every week: Google + Bing (10-01)
+Every Monday `.github/workflows/index-watch.yml` runs one job per live site
+(stalest first). Google: `gsc_register.py` makes sure the site is a verified
+Search Console property (TXT through our Cloudflare zone), submits
+`sitemap-index.xml` and writes `gsc_property_url` / `gsc_sitemap_url` back to
+marketing_sites; then `index_watchdog.py` samples URL Inspection (50 pages,
+1500 in the first week of the month), re-submits the sitemap, IndexNow-pings
+pages Google has not indexed, and runs the rescue ladder. Bing:
+`bing_webmaster.py` submits the sitemap and a URL batch and records crawl and
+index stats in ops_kv bing-watch:{slug}; it does nothing until the
+`BING_WEBMASTER_API_KEY` secret exists. IndexNow on every deploy continues.
+Heartbeat: any live site whose last successful Google check is older than 8
+days raises one System Errors card per site (`pipeline_watchdog.check_index_watch`).

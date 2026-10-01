@@ -1,0 +1,102 @@
+# Weekly search-engine upkeep, ONE job per live site (LAW 09-19 per-client
+# fan-out). Santino 2026-10-01: "Are we still submitting to search console /
+# checking once a week? Same thing for bing search console?"
+#
+# Replaces the bulk index_watchdog step in weekly-maintenance.yml, which
+# walked the fleet alphabetically inside a 25-minute cap and timed out
+# every Monday: sites after about "H" (narestco, prorestoration, puroclean,
+# reign, TRG, RX) went unchecked from 08-14 to 09-29, and newer sites were
+# never checked at all. Here every site gets its own isolated job:
+#   1. Google: gsc_register (idempotent: already-owned property = sitemap
+#      submit + marketing_sites write-back; missing = TXT-verify via our
+#      Cloudflare zone), then index_watchdog (URL Inspection sample, sitemap
+#      re-submit, IndexNow for not-indexed URLs, rescue ladder, heartbeat).
+#   2. Bing: bing_webmaster weekly (sitemap + URL batch + crawl/index stats),
+#      a clean no-op until the BING_WEBMASTER_API_KEY secret exists.
+# Stalest-first ordering comes from `index_watchdog.py --list`.
+# pipeline_watchdog.check_index_watch() alerts on any live site whose last
+# successful Google check is older than 8 days.
+name: Index Watch (GSC + Bing weekly)
+
+on:
+  schedule:
+    - cron: '30 15 * * 1'   # Mondays 15:30 UTC (8:30 am PDT), before weekly-maintenance
+  workflow_dispatch:
+    inputs:
+      only_slug:
+        description: "Run ONE client slug (empty = every live site)"
+        required: false
+        default: ""
+
+concurrency:
+  group: index-watch
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      slugs: ${{ steps.list.outputs.slugs }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Live sites, least-recently-checked first
+        id: list
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          if [ -n "${{ github.event.inputs.only_slug }}" ]; then
+            echo "slugs=[\"${{ github.event.inputs.only_slug }}\"]" >> "$GITHUB_OUTPUT"
+          else
+            echo "slugs=$(python3 scripts/index_watchdog.py --list | tail -1)" >> "$GITHUB_OUTPUT"
+          fi
+
+  watch:
+    needs: plan
+    if: needs.plan.outputs.slugs != '[]'
+    runs-on: ubuntu-latest
+    # first-week-of-month full sweep inspects up to 1500 URLs (~15 min)
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        slug: ${{ fromJson(needs.plan.outputs.slugs) }}
+    env:
+      SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      CLOUDFLARE_API_TOKEN:      ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      BING_WEBMASTER_API_KEY:    ${{ secrets.BING_WEBMASTER_API_KEY }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Write the agency GSC token
+        env:
+          GSC_AGENCY_TOKEN: ${{ secrets.GSC_AGENCY_TOKEN }}
+        run: |
+          if [ -z "$GSC_AGENCY_TOKEN" ]; then
+            echo "GSC_AGENCY_TOKEN secret not set"; exit 1
+          fi
+          printf '%s' "$GSC_AGENCY_TOKEN" > .gsc-agency-token.json
+      - name: Google - ensure property + sitemap (${{ matrix.slug }})
+        continue-on-error: true
+        timeout-minutes: 10
+        run: python3 scripts/gsc_register.py --slug "${{ matrix.slug }}"
+      - name: Google - index coverage watchdog (${{ matrix.slug }})
+        timeout-minutes: 35
+        run: python3 scripts/index_watchdog.py --slug "${{ matrix.slug }}" --apply
+      - name: Bing - Webmaster Tools upkeep (${{ matrix.slug }})
+        continue-on-error: true
+        timeout-minutes: 10
+        run: python3 scripts/bing_webmaster.py weekly --slug "${{ matrix.slug }}" --provision

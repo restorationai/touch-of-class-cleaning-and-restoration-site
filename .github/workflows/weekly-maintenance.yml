@@ -340,28 +340,9 @@ jobs:
             echo "GSC_AGENCY_TOKEN secret not set — skipping GSC sync (strategist uses last-synced data)."
           fi
 
-      - name: Indexing watchdog (weekly — Monday + manual; GSC index coverage + remediation)
-        if: ${{ !inputs.content_only && (github.event.schedule == '0 16 * * 1' || github.event_name == 'workflow_dispatch') }}
-        timeout-minutes: 25
-        continue-on-error: true
-        env:
-          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-          GSC_AGENCY_TOKEN:           ${{ secrets.GSC_AGENCY_TOKEN }}
-        run: |
-          # Samples each live client's newest + money pages through the GSC
-          # URL Inspection API (cap 50/client — 2.5% of the 2,000/day
-          # per-property quota), stores the coverage trend in ops_kv, then
-          # remediates: sitemap re-submit + IndexNow ping for not-indexed
-          # URLs, one consolidated SUGGESTION card for pages Google refuses
-          # to index on 2+ consecutive runs. Never uses the Indexing API
-          # (job-postings-only — off-label use risks the property).
-          if [ -n "$GSC_AGENCY_TOKEN" ]; then
-            printf '%s' "$GSC_AGENCY_TOKEN" > .gsc-agency-token.json
-            python3 scripts/index_watchdog.py --all --apply || echo "index watchdog errored (non-fatal — next Monday's run rechecks)."
-          else
-            echo "GSC_AGENCY_TOKEN secret not set — skipping index watchdog."
-          fi
+      # Indexing watchdog MOVED 2026-10-01 to .github/workflows/index-watch.yml
+      # (one job per live site, GSC + Bing). The bulk step here timed out at
+      # 25 min every Monday and never reached sites after about "H".
 
       - name: Location Scout (weekly — where a second office would have to go)
         if: ${{ !inputs.content_only }}

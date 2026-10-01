@@ -1997,8 +1997,11 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                            prefer="return=representation") or []
             if not existing or existing[0].get("status") != "done":
                 note = "dry-run" if dry_run else _gsc_heal(domain, slug)
+                # done ONLY when GSC actually verified (2026-10-01: six live
+                # sites were marked done on "gsc:check" and never registered;
+                # an open row retries on the next run)
                 rows.append({"company_id": cid, "item_key": "gsc-indexnow", "kind": "auto",
-                             "status": "done" if not dry_run else "open",
+                             "status": "done" if "gsc:ok" in note else "open",
                              "title": "Registered the live site with Google Search Console",
                              "detail": note, "evidence": {"domain": domain}})
                 attention.append(f"{slug}: gsc/indexnow auto-heal -> {note}")
