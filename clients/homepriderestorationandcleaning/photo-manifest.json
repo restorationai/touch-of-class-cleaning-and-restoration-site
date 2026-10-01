@@ -5457,6 +5457,16 @@
       "triage_model": "claude-sonnet-4-6"
     }
   },
-  "slots": {},
+  "slots": {
+    "services": {
+      "asset": "gbp:1785181688217-e58f92da",
+      "source": "gbp",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1780333664867/job-photos/posted/1785181688217-e58f92da.jpg",
+      "category": "crew",
+      "subject": "Technician in full Tyvek suit spraying open ceiling on ladder",
+      "installed_at": "2026-10-01T17:20:53Z",
+      "file": "/images/services.webp"
+    }
+  },
   "triaged_at": "2026-10-01T16:04:40Z"
 }
