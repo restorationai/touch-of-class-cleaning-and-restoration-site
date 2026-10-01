@@ -505,10 +505,10 @@
     },
     {
       "id": "2026-09-21-sump-pump-failure-insurance-macomb",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-21T16:50:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-10-01T22:28:49Z",
+      "post_url": "https://floodsolutionsinc.com/blog/does-homeowners-insurance-cover-sump-pump-failure-macomb/",
       "primary_keyword": "does homeowners insurance cover sump pump failure",
       "intent": "informational",
       "volume": 50,
@@ -537,7 +537,18 @@
         "https://www.michigan.gov/difs",
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Distinct from the existing general insurance post: a standard Michigan homeowners policy excludes sump pump overflow and sewer backup unless the owner bought a water backup endorsement. Cite Michigan DIFS on that split. Macomb County is sump pump country with a clay-soil water table, so this is the single most locally relevant insurance question. Answer the coverage question in the first 60 words so AI engines can lift it, then cover endorsement cost, claim steps, and documentation."
+      "notes": "Distinct from the existing general insurance post: a standard Michigan homeowners policy excludes sump pump overflow and sewer backup unless the owner bought a water backup endorsement. Cite Michigan DIFS on that split. Macomb County is sump pump country with a clay-soil water table, so this is the single most locally relevant insurance question. Answer the coverage question in the first 60 words so AI engines can lift it, then cover endorsement cost, claim steps, and documentation.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/does-homeowners-insurance-cover-sump-pump-failure-macomb.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "cumentation protocols aligned with the [IICRC S500 standard](https://www.iicrc.org/pa",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-09-21-what-causes-basement-flooding-michigan",
