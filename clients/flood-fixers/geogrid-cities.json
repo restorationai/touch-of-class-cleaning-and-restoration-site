@@ -1,8 +1,52 @@
 [
-  { "label": "San Marcos, CA", "lat": 33.1434, "lng": -117.1661 },
-  { "label": "Escondido, CA", "lat": 33.1192, "lng": -117.0864 },
-  { "label": "Vista, CA", "lat": 33.2000, "lng": -117.2425 },
-  { "label": "Carlsbad, CA", "lat": 33.1581, "lng": -117.3506 },
-  { "label": "Encinitas, CA", "lat": 33.0370, "lng": -117.2920 },
-  { "label": "Oceanside, CA", "lat": 33.1959, "lng": -117.3795 }
+ {
+  "label": "San Marcos, CA",
+  "lat": 33.1434,
+  "lng": -117.1661,
+  "miles_list": [
+   6.5,
+   9.5,
+   15
+  ]
+ },
+ {
+  "label": "Escondido, CA",
+  "lat": 33.1192,
+  "lng": -117.0864,
+  "miles_list": [
+   9.5
+  ]
+ },
+ {
+  "label": "Vista, CA",
+  "lat": 33.2,
+  "lng": -117.2425,
+  "miles_list": [
+   9.5
+  ]
+ },
+ {
+  "label": "Carlsbad, CA",
+  "lat": 33.1581,
+  "lng": -117.3506,
+  "miles_list": [
+   9.5
+  ]
+ },
+ {
+  "label": "Encinitas, CA",
+  "lat": 33.037,
+  "lng": -117.292,
+  "miles_list": [
+   9.5
+  ]
+ },
+ {
+  "label": "Oceanside, CA",
+  "lat": 33.1959,
+  "lng": -117.3795,
+  "miles_list": [
+   9.5
+  ]
+ }
 ]

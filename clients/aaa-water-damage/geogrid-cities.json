@@ -1,22 +1,36 @@
 [
-  {
-    "label": "Honolulu, HI",
-    "lat": 21.3045,
-    "lng": -157.8557
-  },
-  {
-    "label": "Hawaii Kai, HI",
-    "lat": 21.303,
-    "lng": -157.6984
-  },
-  {
-    "label": "Kailua, HI",
-    "lat": 19.6419,
-    "lng": -155.9969
-  },
-  {
-    "label": "Pearl City, HI",
-    "lat": 21.4001,
-    "lng": -157.9694
-  }
+ {
+  "label": "Honolulu, HI",
+  "lat": 21.3045,
+  "lng": -157.8557,
+  "miles_list": [
+   6.5,
+   9.5,
+   15
+  ]
+ },
+ {
+  "label": "Hawaii Kai, HI",
+  "lat": 21.303,
+  "lng": -157.6984,
+  "miles_list": [
+   9.5
+  ]
+ },
+ {
+  "label": "Kailua, HI",
+  "lat": 19.6419,
+  "lng": -155.9969,
+  "miles_list": [
+   9.5
+  ]
+ },
+ {
+  "label": "Pearl City, HI",
+  "lat": 21.4001,
+  "lng": -157.9694,
+  "miles_list": [
+   9.5
+  ]
+ }
 ]

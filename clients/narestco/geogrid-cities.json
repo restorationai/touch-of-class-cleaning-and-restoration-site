@@ -1,8 +1,52 @@
 [
-  { "label": "Federal Way, WA", "lat": 47.337, "lng": -122.314 },
-  { "label": "Tacoma, WA", "lat": 47.2529, "lng": -122.4443 },
-  { "label": "Gig Harbor, WA", "lat": 47.3293, "lng": -122.5817 },
-  { "label": "Bremerton, WA", "lat": 47.5673, "lng": -122.6329 },
-  { "label": "Port Orchard, WA", "lat": 47.5404, "lng": -122.6363 },
-  { "label": "University Place, WA", "lat": 47.2357, "lng": -122.5501 }
+ {
+  "label": "Federal Way, WA",
+  "lat": 47.337,
+  "lng": -122.314,
+  "miles_list": [
+   6.5,
+   9.5,
+   15
+  ]
+ },
+ {
+  "label": "Tacoma, WA",
+  "lat": 47.2529,
+  "lng": -122.4443,
+  "miles_list": [
+   9.5
+  ]
+ },
+ {
+  "label": "Gig Harbor, WA",
+  "lat": 47.3293,
+  "lng": -122.5817,
+  "miles_list": [
+   9.5
+  ]
+ },
+ {
+  "label": "Bremerton, WA",
+  "lat": 47.5673,
+  "lng": -122.6329,
+  "miles_list": [
+   9.5
+  ]
+ },
+ {
+  "label": "Port Orchard, WA",
+  "lat": 47.5404,
+  "lng": -122.6363,
+  "miles_list": [
+   9.5
+  ]
+ },
+ {
+  "label": "University Place, WA",
+  "lat": 47.2357,
+  "lng": -122.5501,
+  "miles_list": [
+   9.5
+  ]
+ }
 ]

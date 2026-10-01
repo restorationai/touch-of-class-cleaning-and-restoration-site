@@ -1,17 +1,28 @@
 [
-  {
-    "label": "Royse City, TX",
-    "lat": 32.9761045,
-    "lng": -96.331334
-  },
-  {
-    "label": "Rockwall, TX",
-    "lat": 32.9312,
-    "lng": -96.4597
-  },
-  {
-    "label": "Dallas, TX",
-    "lat": 32.7763,
-    "lng": -96.7969
-  }
+ {
+  "label": "Royse City, TX",
+  "lat": 32.9761045,
+  "lng": -96.331334,
+  "miles_list": [
+   6.5,
+   9.5,
+   15
+  ]
+ },
+ {
+  "label": "Rockwall, TX",
+  "lat": 32.9312,
+  "lng": -96.4597,
+  "miles_list": [
+   9.5
+  ]
+ },
+ {
+  "label": "Dallas, TX",
+  "lat": 32.7763,
+  "lng": -96.7969,
+  "miles_list": [
+   9.5
+  ]
+ }
 ]
