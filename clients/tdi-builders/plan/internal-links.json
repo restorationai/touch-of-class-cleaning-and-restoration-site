@@ -45,6 +45,7 @@
     "/service-areas/rocklin-ca/",
     "/service-areas/rosemont-ca/",
     "/service-areas/roseville-ca/",
+    "/service-areas/stockton-ca/",
     "/service-areas/turlock-ca/",
     "/service-areas/west-sacramento-ca/",
     "/service-areas/woodland-ca/"
@@ -95,6 +96,7 @@
     "/service-areas/rocklin-ca/",
     "/service-areas/rosemont-ca/",
     "/service-areas/roseville-ca/",
+    "/service-areas/stockton-ca/",
     "/service-areas/turlock-ca/",
     "/service-areas/west-sacramento-ca/",
     "/service-areas/woodland-ca/"
@@ -729,6 +731,29 @@
     "/service-areas/manteca-ca/carpet-upholstery-cleaning/",
     "/service-areas/manteca-ca/carpet-water-extraction/",
     "/service-areas/manteca-ca/post-construction-specialty-cleaning/",
+    "/service-areas/antelope-ca/",
+    "/service-areas/arden-arcade-ca/",
+    "/service-areas/carmichael-ca/"
+  ],
+  "/service-areas/stockton-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/stockton-ca/home-remodeling/",
+    "/service-areas/stockton-ca/bathroom-remodeling/",
+    "/service-areas/stockton-ca/kitchen-remodeling/",
+    "/service-areas/stockton-ca/new-construction/",
+    "/service-areas/stockton-ca/general-contracting/",
+    "/service-areas/stockton-ca/room-addition/",
+    "/service-areas/stockton-ca/commercial-construction/",
+    "/service-areas/stockton-ca/fire-smoke-rebuilding/",
+    "/service-areas/stockton-ca/mold-remediation/",
+    "/service-areas/stockton-ca/storm-damage-restoration/",
+    "/service-areas/stockton-ca/water-damage-restoration/",
+    "/service-areas/stockton-ca/garage-construction/",
+    "/service-areas/stockton-ca/basement-sewage-cleanup/",
+    "/service-areas/stockton-ca/carpet-upholstery-cleaning/",
+    "/service-areas/stockton-ca/carpet-water-extraction/",
+    "/service-areas/stockton-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
     "/service-areas/carmichael-ca/"
@@ -3188,6 +3213,150 @@
     "/service-areas/manteca-ca/",
     "/service-areas/manteca-ca/home-remodeling/",
     "/service-areas/manteca-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/water-damage-restoration/",
+    "/service-areas/arden-arcade-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/stockton-ca/basement-sewage-cleanup/": [
+    "/services/basement-sewage-cleanup/",
+    "/service-areas/stockton-ca/",
+    "/service-areas/stockton-ca/home-remodeling/",
+    "/service-areas/stockton-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/basement-sewage-cleanup/",
+    "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
+    "/contact/"
+  ],
+  "/service-areas/stockton-ca/bathroom-remodeling/": [
+    "/services/bathroom-remodeling/",
+    "/service-areas/stockton-ca/",
+    "/service-areas/stockton-ca/home-remodeling/",
+    "/service-areas/stockton-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/bathroom-remodeling/",
+    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/stockton-ca/carpet-upholstery-cleaning/": [
+    "/services/carpet-upholstery-cleaning/",
+    "/service-areas/stockton-ca/",
+    "/service-areas/stockton-ca/home-remodeling/",
+    "/service-areas/stockton-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/carpet-upholstery-cleaning/",
+    "/service-areas/arden-arcade-ca/carpet-upholstery-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/stockton-ca/carpet-water-extraction/": [
+    "/services/carpet-water-extraction/",
+    "/service-areas/stockton-ca/",
+    "/service-areas/stockton-ca/home-remodeling/",
+    "/service-areas/stockton-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/carpet-water-extraction/",
+    "/service-areas/arden-arcade-ca/carpet-water-extraction/",
+    "/contact/"
+  ],
+  "/service-areas/stockton-ca/commercial-construction/": [
+    "/services/commercial-construction/",
+    "/service-areas/stockton-ca/",
+    "/service-areas/stockton-ca/home-remodeling/",
+    "/service-areas/stockton-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/commercial-construction/",
+    "/service-areas/arden-arcade-ca/commercial-construction/",
+    "/contact/"
+  ],
+  "/service-areas/stockton-ca/fire-smoke-rebuilding/": [
+    "/services/fire-smoke-rebuilding/",
+    "/service-areas/stockton-ca/",
+    "/service-areas/stockton-ca/home-remodeling/",
+    "/service-areas/stockton-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/fire-smoke-rebuilding/",
+    "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/",
+    "/contact/"
+  ],
+  "/service-areas/stockton-ca/garage-construction/": [
+    "/services/garage-construction/",
+    "/service-areas/stockton-ca/",
+    "/service-areas/stockton-ca/home-remodeling/",
+    "/service-areas/stockton-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/garage-construction/",
+    "/service-areas/arden-arcade-ca/garage-construction/",
+    "/contact/"
+  ],
+  "/service-areas/stockton-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/stockton-ca/",
+    "/service-areas/stockton-ca/home-remodeling/",
+    "/service-areas/stockton-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/general-contracting/",
+    "/service-areas/arden-arcade-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/stockton-ca/home-remodeling/": [
+    "/services/home-remodeling/",
+    "/service-areas/stockton-ca/",
+    "/service-areas/stockton-ca/bathroom-remodeling/",
+    "/service-areas/stockton-ca/kitchen-remodeling/",
+    "/service-areas/antelope-ca/home-remodeling/",
+    "/service-areas/arden-arcade-ca/home-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/stockton-ca/kitchen-remodeling/": [
+    "/services/kitchen-remodeling/",
+    "/service-areas/stockton-ca/",
+    "/service-areas/stockton-ca/home-remodeling/",
+    "/service-areas/stockton-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/kitchen-remodeling/",
+    "/service-areas/arden-arcade-ca/kitchen-remodeling/",
+    "/contact/"
+  ],
+  "/service-areas/stockton-ca/mold-remediation/": [
+    "/services/mold-remediation/",
+    "/service-areas/stockton-ca/",
+    "/service-areas/stockton-ca/home-remodeling/",
+    "/service-areas/stockton-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/mold-remediation/",
+    "/service-areas/arden-arcade-ca/mold-remediation/",
+    "/contact/"
+  ],
+  "/service-areas/stockton-ca/new-construction/": [
+    "/services/new-construction/",
+    "/service-areas/stockton-ca/",
+    "/service-areas/stockton-ca/home-remodeling/",
+    "/service-areas/stockton-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/new-construction/",
+    "/service-areas/arden-arcade-ca/new-construction/",
+    "/contact/"
+  ],
+  "/service-areas/stockton-ca/post-construction-specialty-cleaning/": [
+    "/services/post-construction-specialty-cleaning/",
+    "/service-areas/stockton-ca/",
+    "/service-areas/stockton-ca/home-remodeling/",
+    "/service-areas/stockton-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/post-construction-specialty-cleaning/",
+    "/service-areas/arden-arcade-ca/post-construction-specialty-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/stockton-ca/room-addition/": [
+    "/services/room-addition/",
+    "/service-areas/stockton-ca/",
+    "/service-areas/stockton-ca/home-remodeling/",
+    "/service-areas/stockton-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/room-addition/",
+    "/service-areas/arden-arcade-ca/room-addition/",
+    "/contact/"
+  ],
+  "/service-areas/stockton-ca/storm-damage-restoration/": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/stockton-ca/",
+    "/service-areas/stockton-ca/home-remodeling/",
+    "/service-areas/stockton-ca/bathroom-remodeling/",
+    "/service-areas/antelope-ca/storm-damage-restoration/",
+    "/service-areas/arden-arcade-ca/storm-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/stockton-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/stockton-ca/",
+    "/service-areas/stockton-ca/home-remodeling/",
+    "/service-areas/stockton-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/water-damage-restoration/",
     "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/contact/"

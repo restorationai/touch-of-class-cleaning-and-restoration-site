@@ -182,6 +182,12 @@
       "metro_area_code": "209"
     },
     {
+      "city": "Stockton",
+      "state": "CA",
+      "slug": "stockton-ca",
+      "metro_area_code": "209"
+    },
+    {
       "city": "Turlock",
       "state": "CA",
       "slug": "turlock-ca",

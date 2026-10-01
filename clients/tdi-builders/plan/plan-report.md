@@ -1,20 +1,20 @@
 # Site Plan Report — TDI Builders
 
 - Template: `construction` v0.1.0
-- Generated: 2026-09-30T19:29:03.006444+00:00
+- Generated: 2026-10-01T23:54:25.963104+00:00
 - Domain: `tdiusa.com`
 - Services selected: 16 of 30 catalog entries
-- Service areas: 29
+- Service areas: 30
 - Cross-product enabled: True
-- Total URLs: **509**
-- Total internal links: 4112 (avg 8.1 per page)
+- Total URLs: **526**
+- Total internal links: 4247 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 448 |
-| `service-area` | 28 |
+| `service-area-service` | 464 |
+| `service-area` | 29 |
 | `service-landing` | 16 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -62,6 +62,7 @@
 - `el-dorado-hills-ca` — El Dorado Hills, CA
 - `loomis-ca` — Loomis, CA
 - `manteca-ca` — Manteca, CA
+- `stockton-ca` — Stockton, CA
 - `turlock-ca` — Turlock, CA
 - `rio-linda-ca` — Rio Linda, CA
 - `elverta-ca` — Elverta, CA
