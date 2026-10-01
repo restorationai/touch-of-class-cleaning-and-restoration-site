@@ -131,7 +131,7 @@
     },
     {
       "id": "2026-09-06-trauma-crime-scene-biohazard",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-06T10:23:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -171,7 +171,8 @@
           "context": "estoration services. Their crews follow IICRC-recognized procedures for trauma and cr",
           "reason": "names a certification not present in brand.certifications"
         }
-      ]
+      ],
+      "published_verified_at": "2026-10-01T22:28:12Z"
     },
     {
       "id": "2026-08-28-fire-damage-restoration-cost-nv",
