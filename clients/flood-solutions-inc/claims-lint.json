@@ -1,0 +1,1415 @@
+{
+  "slug": "flood-solutions-inc",
+  "generated_at": "2026-09-25T00:18:08Z",
+  "truth": {
+    "hours": "",
+    "is_247": false,
+    "certifications": [],
+    "license_numbers": [],
+    "licensed_ok": true,
+    "response_minutes": null,
+    "family_owned": false,
+    "founded_year": "1996",
+    "gbp_review_count": 35,
+    "vertical": "restoration"
+  },
+  "errors": 19,
+  "review_flags": 136,
+  "violations": [
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "and insured in Michigan and follow the IICRC S500 standard for structural drying and",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ogress. Legitimate companies follow the IICRC S500 standard and provide daily drying",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "later. The company's work follows the [IICRC S500 Standard for Professional Water Da",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ting | Reviews | Licensed and Insured | IICRC Standard | |---|---|---|---|---| | **Fl",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "laim holds up, dry the structure to the IICRC S500 standard so mold does not follow,",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "arget moisture content specified by the IICRC S500 standard. Ask how they track and d",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "on the category and class of loss. The IICRC classifies water losses by contaminatio",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "eld. Their restoration work follows the IICRC S500 standard for professional water da",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "184 reviews",
+      "context": "tion Inc **Google Rating:** 5.0 stars (184 reviews) Action Extraction Inc carries the hig",
+      "reason": "listicle review-count 184 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "184 Google reviews",
+      "context": "ighest review volume on this list, with 184 Google reviews at a 5.0 average, which is a meaningful",
+      "reason": "listicle review-count 184 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "57 reviews",
+      "context": "Township **Google Rating:** 5.0 stars (57 reviews) SERVPRO of Northeast Macomb Township",
+      "reason": "listicle review-count 57 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "57 reviews",
+      "context": "etwork, with a 5.0 Google rating across 57 reviews. National franchise networks offer stan",
+      "reason": "listicle review-count 57 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "44 reviews",
+      "context": "n Macomb **Google Rating:** 4.9 stars (44 reviews) Metro Water Damage Restoration Macomb",
+      "reason": "listicle review-count 44 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "44 reviews",
+      "context": "Macomb holds a 4.9 Google rating across 44 reviews. They are a local restoration company s",
+      "reason": "listicle review-count 44 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "86 reviews",
+      "context": "tion LLC **Google Rating:** 4.5 stars (86 reviews) All Weather Restoration LLC has 86 Go",
+      "reason": "listicle review-count 86 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+      "part": "body",
+      "family": "reviews",
+      "severity": "review",
+      "matched": "86 Google reviews",
+      "context": "views) All Weather Restoration LLC has 86 Google reviews at a 4.5 average, giving them one of th",
+      "reason": "listicle review-count 86 (competitor stat \u2014 verify it is not presented as ours)"
+    },
+    {
+      "file": "src/content/blog/black-mold-vs-regular-mold.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "l the difference\" secondary_keywords: [\"mold remediation\"] search_intent: \"informational_health\"",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/blog/black-mold-vs-regular-mold.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold Remediation",
+      "context": "tent of the problem. ## When to Call a Mold Remediation Professional Some mold situations are",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/blog/burst-pipe-emergency-checklist.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "moisture readings, equipment logs, and IICRC-standard drying documentation before th",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ires professional cleanup, and what the IICRC S500 standard says about porous materia",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "error",
+      "matched": "iicrc",
+      "context": "ater\", \"sewage water damage category\", \"iicrc water damage categories\", \"category 3 w",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "taminated class of water loss under the IICRC S500 standard. It includes sewage backu",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "materials that contacted the water. The IICRC S500 standard requires porous materials",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "inate the biological contamination. The IICRC S500 standard requires removal and disp",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "aminated class of water loss under the [IICRC S500 standard](https://www.iicrc.org/pa",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "nup needs to be. ## What Are the Three IICRC Water Damage Categories? The IICRC div",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "ree IICRC Water Damage Categories? The IICRC divides water losses into three categor",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ckly. **Porous material removal.** The IICRC S500 standard is explicit: porous mater",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/choosing-a-restoration-company.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "storation\", \"fire damage restoration\", \"mold remediation\"] search_intent: \"commercial_decision\"",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/blog/choosing-a-restoration-company.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "water damage drying; their S520 covers mold remediation. A company whose technicians hold IICRC",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/blog/choosing-a-restoration-company.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "y's professional standard-setter is the IICRC (Institute of Inspection, Cleaning and",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/choosing-a-restoration-company.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "ation. A company whose technicians hold IICRC certification has been trained to dry a",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/choosing-a-restoration-company.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "ry. Ask directly: \"Are your technicians IICRC-certified?\" A yes should come with a cr",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/choosing-a-restoration-company.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "iicrc",
+      "context": "h a credential number you can verify at iicrc.org. **Equipment tells you a lot.** Le",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/choosing-a-restoration-company.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "r license is active. 2. **Ask for their IICRC firm number** and verify it at iicrc.or",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/choosing-a-restoration-company.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "iicrc",
+      "context": "ir IICRC firm number** and verify it at iicrc.org. This takes two minutes. 3. **Check",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/commercial-water-damage-business-continuity.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "2, and 3 water damage?\", \"answer\": \"The IICRC S500 standard classifies water by conta",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/commercial-water-damage-business-continuity.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "water (Category 3, or \"black water\" in IICRC classification) carries contamination r",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/commercial-water-damage-business-continuity.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ll establish a drying goal based on the IICRC S500 standard for water damage, monitor",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/does-homeowners-insurance-cover-water-damage.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold remediation",
+      "context": "shingles were visibly deteriorating - **Mold remediation**, if mold is present because the under",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/blog/how-long-does-water-damage-restoration-take.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold remediation",
+      "context": "has to happen before any repairs begin. Mold remediation adds its own timeline depending on the",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/blog/how-to-test-for-mold.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "a pro inspection\" secondary_keywords: [\"mold remediation\", \"mold inspection and testing\"] search",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/blog/how-to-test-for-mold.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "ned. That work falls under professional mold remediation, which involves containment barriers, n",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/blog/mold-after-water-damage.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "ter water damage\" secondary_keywords: [\"mold remediation\", \"water damage restoration\"] search_in",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/blog/mold-after-water-damage.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "ndles both water damage restoration and mold remediation for homes throughout Macomb and the sur",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/blog/signs-of-hidden-mold.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "what to do next\" secondary_keywords: [\"mold remediation\"] search_intent: \"informational_health\"",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/blog/signs-of-hidden-mold.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "e content. The IICRC S520 standard for mold remediation and the S500 standard for water damage",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/blog/signs-of-hidden-mold.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "to an acceptable moisture content. The IICRC S520 standard for mold remediation and",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/water-damage-of-any-kind.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "idifiers and air movers, positioned per IICRC drying science, are required for a prop",
+      "reason": "certification mention looks like a regulatory reference \u2014 verify it is not a self-claim"
+    },
+    {
+      "file": "src/content/blog/water-damage-of-any-kind.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "sit, the more likely you are to face a mold remediation cost on top of the water damage bill.",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/blog/water-damage-of-any-kind.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "utions, and the restoration scope. The [IICRC S500 standard](https://www.iicrc.org),",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/water-damage-of-any-kind.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "protocols. Beyond water category, the IICRC also classifies losses by how far water",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/water-damage-of-any-kind.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "s positioned at specific angles per the IICRC drying science) combined with LGR dehum",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/blog/water-damage-restoration-cost-macomb-mi.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "ndetected for more than 48 to 72 hours, mold remediation may be required in addition to water mi",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/blog/water-damage-restoration-cost-macomb-mi.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "finitions behind these categories, the [IICRC S500 Standard for Professional Water Da",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/water-damage-restoration-cost-macomb-mi.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "is required by most insurers and by the IICRC S500 protocol for Category 2 and Catego",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/blog/water-damage-restoration-cost-macomb-mi.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ed block walls. **Class of loss.** The IICRC S500 defines four classes of water intr",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/chesterfield-mi__mold-remediation.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold Remediation",
+      "context": "chetype: \"service-area-service\" title: \"Mold Remediation in Chesterfield, MI | Flood Solutions i",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/chesterfield-mi__mold-remediation.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold Remediation",
+      "context": "not mechanically dehumidified. ## Our Mold Remediation Process in Chesterfield Remediation be",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/chesterfield-mi__storm-damage-restoration.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Storm Damage Restoration",
+      "context": "chetype: \"service-area-service\" title: \"Storm Damage Restoration in Chesterfield, MI | Flood Solutions i",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/chesterfield-mi__storm-damage-restoration.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Storm Damage Restoration",
+      "context": "repeatedly across the township. ## Our Storm Damage Restoration Process in Chesterfield The first prio",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/clinton-township-mi__mold-remediation.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold Remediation",
+      "context": "chetype: \"service-area-service\" title: \"Mold Remediation in Clinton Township, MI | Flood Solutio",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/clinton-township-mi__mold-remediation.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "nce 1996, and the team understands what mold remediation in Clinton Township actually requires,",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/clinton-township-mi__storm-damage-restoration.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Storm Damage Restoration",
+      "context": "chetype: \"service-area-service\" title: \"Storm Damage Restoration in Clinton Township, MI | Flood Solutio",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/clinton-township-mi__storm-damage-restoration.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Storm damage restoration",
+      "context": "dow well, the clock starts immediately. Storm damage restoration clinton township properties need isn't",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/rochester-hills-mi__mold-inspection-testing.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "I need a separate clearance test after mold remediation is completed in Rochester Hills?\", \"ans",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/rochester-hills-mi__mold-remediation.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold Remediation",
+      "context": "chetype: \"service-area-service\" title: \"Mold Remediation in Rochester Hills, MI | Flood Solution",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/rochester-hills-mi__mold-remediation.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ractor you consider whether they follow IICRC S520 protocols, which is the industry s",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/rochester-hills-mi__mold-remediation.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "through these scenarios since 1996, and mold remediation in Rochester Hills demands a different",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/rochester-hills-mi__storm-damage-restoration.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Storm Damage Restoration",
+      "context": "chetype: \"service-area-service\" title: \"Storm Damage Restoration in Rochester Hills, MI | Flood Solution",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/rochester-hills-mi__storm-damage-restoration.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Storm Damage Restoration",
+      "context": "ining or efflorescence indoors. ## Our Storm Damage Restoration Process in Rochester Hills The first p",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/shelby-township-mi__ceiling-water-damage-repair.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "ted ceiling cavity wet and dealing with mold remediation a month later.",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/shelby-township-mi__mold-remediation.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold Remediation",
+      "context": "chetype: \"service-area-service\" title: \"Mold Remediation in Shelby Township, MI | Flood Solution",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/shelby-township-mi__mold-remediation.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "t of southeast Michigan since 1996, and mold remediation in Shelby Township comes with condition",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/shelby-township-mi__storm-damage-restoration.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Storm Damage Restoration",
+      "context": "chetype: \"service-area-service\" title: \"Storm Damage Restoration in Shelby Township, MI | Flood Solution",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/shelby-township-mi__storm-damage-restoration.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Storm damage restoration",
+      "context": "ited to what you can see from the curb. Storm damage restoration here means working through a layered pr",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/sterling-heights-mi__burst-pipe-repair.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ed to dry the structural framing to the IICRC S500 standard. In Macomb County winters",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/sterling-heights-mi__ceiling-water-damage-repair.md",
+      "part": "body",
+      "family": "24/7",
+      "severity": "error",
+      "matched": "24-hour",
+      "context": "cavity return to ambient. This is not a 24-hour process in most cases; insulated ceilin",
+      "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
+    },
+    {
+      "file": "src/content/locations/sterling-heights-mi__mold-remediation.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold Remediation",
+      "context": "chetype: \"service-area-service\" title: \"Mold Remediation in Sterling Heights, MI | Flood Solutio",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/sterling-heights-mi__mold-remediation.md",
+      "part": "body",
+      "family": "24/7",
+      "severity": "error",
+      "matched": "24 hours",
+      "context": "n't wait, every day of delay is another 24 hours for colonies to spread deeper into wall",
+      "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
+    },
+    {
+      "file": "src/content/locations/sterling-heights-mi__mold-remediation.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold Remediation",
+      "context": "ng misses and mold spores love. ## Our Mold Remediation Process in Sterling Heights Every reme",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/sterling-heights-mi__storm-damage-restoration.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Storm Damage Restoration",
+      "context": "chetype: \"service-area-service\" title: \"Storm Damage Restoration in Sterling Heights, MI | Flood Solutio",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/sterling-heights-mi__storm-damage-restoration.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Storm Damage Restoration",
+      "context": "a single obvious entry point. ## What Storm Damage Restoration Looks Like in Sterling Heights Every s",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/troy-mi__large-loss-response.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ess in a format that satisfies both the IICRC S500 standard and carrier documentation",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/troy-mi__mold-remediation.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold Remediation",
+      "context": "chetype: \"service-area-service\" title: \"Mold Remediation in Troy, MI | Flood Solutions inc\" h1:",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/troy-mi__mold-remediation.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold remediation",
+      "context": "drywall or under subflooring for weeks. Mold remediation in Troy is not a simple wipe-down job,",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/troy-mi__storm-damage-restoration.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Storm Damage Restoration",
+      "context": "chetype: \"service-area-service\" title: \"Storm Damage Restoration in Troy, MI | Flood Solutions inc\" h1:",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/troy-mi__storm-damage-restoration.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "s. Flood Solutions inc has been working storm damage restoration in Troy and the surrounding Oakland Cou",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/troy-mi__water-damage-restoration.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ic; it's the standard referenced in the IICRC S520 and is why water extraction and st",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/utica-mi__commercial-restoration.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ing in a commercial setting follows the IICRC S500 standard, and documentation at eac",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/utica-mi__mold-remediation.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold Remediation",
+      "context": "chetype: \"service-area-service\" title: \"Mold Remediation in Utica, MI | Flood Solutions inc\" h1:",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/utica-mi__mold-remediation.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "xplained allergy symptoms in your home, mold remediation is not something to schedule for next m",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/utica-mi__storm-damage-restoration.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Storm Damage Restoration",
+      "context": "chetype: \"service-area-service\" title: \"Storm Damage Restoration in Utica, MI | Flood Solutions inc\" h1:",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/utica-mi__storm-damage-restoration.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Storm Damage Restoration",
+      "context": "sorbing moisture within hours. ## What Storm Damage Restoration Looks Like in Utica Every storm loss i",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/utica-mi__water-cleanup.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "s far less disruptive than dealing with mold remediation later.\"}, {\"question\": \"Utica's clay so",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/utica-mi__water-cleanup.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "vent mold colonization behind them. The IICRC S500 standard that guides our drying pr",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/warren-mi__ceiling-water-damage-repair.md",
+      "part": "body",
+      "family": "24/7",
+      "severity": "error",
+      "matched": "24-hour",
+      "context": "h stable moisture levels. This is not a 24-hour process in most cases. - **Reconstructi",
+      "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
+    },
+    {
+      "file": "src/content/locations/warren-mi__commercial-restoration.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "r water losses, the process follows the IICRC S500 framework: moisture mapping with t",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/warren-mi__flood-damage-restoration.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "oned to create the airflow patterns the IICRC S500 standard calls for. Readings are l",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/locations/warren-mi__mold-remediation.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold Remediation",
+      "context": "chetype: \"service-area-service\" title: \"Mold Remediation in Warren, MI | Flood Solutions inc\" h1",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/warren-mi__mold-remediation.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold Remediation",
+      "context": "ntil the damage is substantial. ## Our Mold Remediation Process in Warren Every remediation st",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/warren-mi__storm-damage-restoration.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Storm Damage Restoration",
+      "context": "chetype: \"service-area-service\" title: \"Storm Damage Restoration in Warren, MI | Flood Solutions inc\" h1",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/locations/warren-mi__storm-damage-restoration.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Storm Damage Restoration",
+      "context": "hides interior water intrusion. ## Our Storm Damage Restoration Process in Warren The first step after",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/pages/about.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "error",
+      "matched": "iicrc",
+      "context": "eywords: [\"local restoration company\", \"iicrc certified restoration\", \"licensed resto",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/pages/about.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "error",
+      "matched": "certified restoration",
+      "context": "s: [\"local restoration company\", \"iicrc certified restoration\", \"licensed restoration contractor\"] se",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/pages/about.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "restoration industry has standards, the IICRC (Institute of Inspection, Cleaning and",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/pages/blog-index.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "ire Solutions on water, fire, mold, and storm damage restoration.\" primary_keyword: \"restoration blog ma",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/pages/home.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "lutions provides water, fire, mold, and storm damage restoration across Macomb and surrounding areas. Li",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/pages/home.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Storm damage restoration",
+      "context": "source, not just the visible growth. **Storm damage restoration**, High winds, ice dams, and the floodi",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/pages/home.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold remediation",
+      "context": "d contents and structural materials. **Mold remediation**, Michigan's humidity and the region's",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/pages/service-areas.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "es, extensive water damage, large-scale mold remediation, fire and smoke damage, we'll often dis",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/chesterfield-mi.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "erfield, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197.",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/chesterfield-mi.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "amage extraction and structural drying, mold remediation, fire and smoke damage cleanup, sewage",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/chesterfield-mi.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "& Fire Solutions handles water damage, mold remediation, fire and smoke cleanup, and structural",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/clinton-township-mi.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "ownship, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197.",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/clinton-township-mi.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "amage mitigation and structural drying, mold remediation, and fire and smoke damage restoration.",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/clinton-township-mi.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "es water damage, fire and smoke damage, mold remediation, and structural drying for homeowners a",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/rochester-hills-mi.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "r Hills, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197.",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/rochester-hills-mi.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "dle water damage mitigation and drying, mold remediation, fire and smoke damage restoration, sto",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/rochester-hills-mi.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold remediation",
+      "context": "a mold problem three weeks later. ### Mold remediation The combination of Oakland County's hu",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/shelby-township-mi.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "ownship, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197.",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/shelby-township-mi.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "dle water damage extraction and drying, mold remediation, fire and smoke damage restoration, and",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/shelby-township-mi.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold remediation",
+      "context": "ds before any rebuild work begins. ### Mold remediation Mold colonization can begin within 24",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/shelby-township-mi.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "tanding water, and dry the structure to IICRC S500 standards before any rebuild work",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/serviceAreas/sterling-heights-mi.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "Heights, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197.",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/sterling-heights-mi.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "drying, fire and smoke damage cleanup, mold remediation, and storm damage response. Reconstruct",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/sterling-heights-mi.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold remediation",
+      "context": "s, not just replacing what burned. ### Mold remediation The combination of clay soil, basement",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/troy-mi.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "ng Troy, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197.",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/troy-mi.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "amage extraction and structural drying, mold remediation, fire and smoke damage restoration, and",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/troy-mi.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold remediation",
+      "context": "and in writing for your adjuster. ### Mold remediation Troy's clay soils hold moisture agains",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/troy-mi.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ters, and structural drying follows the IICRC S500 standard. We document everything p",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/serviceAreas/utica-mi.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "g Utica, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197.",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/utica-mi.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "ide water damage mitigation and drying, mold remediation, fire and smoke damage restoration, and",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/utica-mi.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold remediation",
+      "context": "s before drying equipment goes in. ### Mold remediation Utica's humid summers and the frequenc",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/warren-mi.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "storm damage restoration",
+      "context": "Warren, MI with water, fire, mold, and storm damage restoration. Experienced team. Call (586) 580-0197.",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/warren-mi.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "amage extraction and structural drying, mold remediation, and fire and smoke damage restoration.",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/warren-mi.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "handling water damage, fire damage, and mold remediation for Warren property owners since 1996,",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/serviceAreas/warren-mi.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "monitors until the structure meets the IICRC S500 drying standard. We document every",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/services/burst-pipe-repair.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "om finished materials within hours, and IICRC protocols reclassify standing water tha",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/services/burst-pipe-repair.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "sses with contained water damage dry to IICRC S500 standard in three to five days of",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/services/burst-pipe-repair.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "error",
+      "matched": "IICRC",
+      "context": "ment steps that insurance adjusters and IICRC protocols both require. Insurance adju",
+      "reason": "names a certification not present in brand.certifications"
+    },
+    {
+      "file": "src/content/services/commercial-restoration.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold remediation",
+      "context": "e tenant space | $15,000 to $60,000 | | Mold remediation, commercial HVAC or server room | $5,00",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/services/emergency-water-removal.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "| $7,000 - $20,000+ | | Water loss with mold remediation required | $8,000 - $25,000+ | Homeown",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/services/fire-damage-restoration.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "o the timeline but prevents a secondary mold remediation project weeks later.\"}, {\"question\": \"W",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/services/fire-damage-restoration.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "structural reconstruction",
+      "context": "e type of materials burned, and whether structural reconstruction is required. Most homeowners pay somewh",
+      "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/services/industrial-restoration.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold remediation",
+      "context": "remediation | $150,000 - $500,000+ | | Mold remediation, warehouse with HVAC spread | $20,000 -",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/services/mold-remediation.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold Remediation",
+      "context": "archetype: \"service-landing\" title: \"Mold Remediation in Macomb | Flood Solutions inc\" h1: \"M",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/services/mold-remediation.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "fessional containment?\", \"answer\": \"The IICRC S520 standard and EPA guidance both dis",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/services/mold-remediation.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "mold remediation",
+      "context": "ial removal to resolve safely. ## What mold remediation actually involves Mold remediation is",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/services/storm-damage-restoration.md",
+      "part": "frontmatter",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Storm Damage Restoration",
+      "context": "archetype: \"service-landing\" title: \"Storm Damage Restoration in Macomb | Flood Solutions inc\" h1: \"S",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/services/storm-damage-restoration.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Storm damage restoration",
+      "context": "ible damage is rarely the whole story. Storm damage restoration covers the full scope of what severe we",
+      "reason": "names the 'storm' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    },
+    {
+      "file": "src/content/services/water-cleanup.md",
+      "part": "frontmatter",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ed to the affected square footage using IICRC S500 guidelines. Running an undersized",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/services/water-cleanup.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "ute whether drying was completed to the IICRC S500 standard, which can delay or reduc",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/services/water-cleanup.md",
+      "part": "body",
+      "family": "certification",
+      "severity": "review",
+      "matched": "IICRC",
+      "context": "e probability of mold colonization. The IICRC S500 provides equipment placement guide",
+      "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+    },
+    {
+      "file": "src/content/services/water-heater-flood-cleanup.md",
+      "part": "body",
+      "family": "service-scope",
+      "severity": "review",
+      "matched": "Mold remediation",
+      "context": "placement needed | $5,500 - $12,000 | | Mold remediation required due to delayed discovery | $2,",
+      "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, sewage-cleanup, water-cleanup, fire-damage-restoration"
+    }
+  ]
+}
