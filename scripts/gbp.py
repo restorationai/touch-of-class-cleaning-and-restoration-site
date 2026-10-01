@@ -610,6 +610,14 @@ def set_phone(slug: str) -> str:
         ints = json.loads(ints)
     tracking = ((ints.get("call_tracking") or {}).get("gbp") or {}).get("number")
     real = co[0].get("phone") or ""
+    # PER-CLIENT HOLD (Santino 2026-10-01, ACS/Alfredo): the real number stays
+    # the GBP primary while LSA is being re-linked to a MATCHING profile. Set
+    # call_tracking.gbp.hold_real_primary = {"reason", "set_at"}; every flip
+    # path (provision, approval executor, sync backstop) goes through here.
+    _hold = ((ints.get("call_tracking") or {}).get("gbp") or {}).get("hold_real_primary")
+    if _hold:
+        return (f"{slug}: phone swap HELD (real number stays primary): "
+                f"{(_hold or {}).get('reason', 'hold set') if isinstance(_hold, dict) else _hold}")
     if not tracking:
         return f"{slug}: no gbp tracking number provisioned — run call_tracking.py first"
     brand = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text()).get("brand", {})
