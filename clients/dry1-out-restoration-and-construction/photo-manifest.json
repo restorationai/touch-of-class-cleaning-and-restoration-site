@@ -2534,6 +2534,34 @@
       "triage_model": "claude-sonnet-5"
     }
   },
-  "slots": {},
+  "slots": {
+    "hero": {
+      "asset": "gbp:gbp-AF1QipPC0H9Eooy3YR1RB7ssKWVrcUn7nKBUuyRqF3sq",
+      "source": "gbp",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1766829460317/job-photos/posted/gbp-AF1QipPC0H9Eooy3YR1RB7ssKWVrcUn7nKBUuyRqF3sq.jpg",
+      "category": "fleet",
+      "subject": "Dry1Out box truck with logo parked outdoors",
+      "installed_at": "2026-10-01T04:19:52Z",
+      "file": "/images/hero-bg.webp"
+    },
+    "team": {
+      "asset": "web:1c117f4d18165515",
+      "source": "website",
+      "origin_url": "https://cdn.dry1out.com/wp-content/uploads/120742728_3401145043255780_8794802212235264320_n.webp",
+      "category": "crew",
+      "subject": "Five crew members in PPE and vests posed on street",
+      "installed_at": "2026-10-01T04:19:53Z",
+      "file": "/images/team.webp"
+    },
+    "services": {
+      "asset": "gbp:gbp-AF1QipOOwKNzwtiyw6moCqVNL1PQ0_DxN3dVWcgBXow8",
+      "source": "gbp",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1766829460317/job-photos/posted/gbp-AF1QipOOwKNzwtiyw6moCqVNL1PQ0_DxN3dVWcgBXow8.jpg",
+      "category": "equipment",
+      "subject": "bedroom with air movers, dehumidifier and plastic containment barrier",
+      "installed_at": "2026-10-01T04:19:55Z",
+      "file": "/images/services.webp"
+    }
+  },
   "triaged_at": "2026-09-30T19:34:47Z"
 }
