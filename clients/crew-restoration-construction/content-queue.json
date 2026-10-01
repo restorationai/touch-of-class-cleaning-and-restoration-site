@@ -72,7 +72,7 @@
     },
     {
       "id": "2026-09-06-mold-restoration-reconstruction-services-of-all-types",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-06T10:23:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -81,7 +81,9 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "alton-ia",
-      "source": "app target-term (onboarding-backfill)"
+      "source": "app target-term (onboarding-backfill)",
+      "written_at": "2026-10-01T21:16:52Z",
+      "post_url": "https://crew3r.com/blog/mold-restoration-reconstruction-services-of-all-types/"
     },
     {
       "id": "2026-09-06-fire-restoration",
