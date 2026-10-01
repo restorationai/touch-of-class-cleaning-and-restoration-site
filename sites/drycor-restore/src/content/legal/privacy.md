@@ -38,6 +38,12 @@ When you authorize us to work directly with your insurance carrier, which many p
 
 We do not sell, rent, or trade your personal information to any third party. The only circumstances under which your information leaves our team are: (1) you have authorized us to communicate with your insurance carrier or adjuster, or (2) we are required to disclose it by law.
 
+**SMS and mobile information is never shared.** No mobile information, phone numbers collected for SMS, or text messaging originator opt-in data and consent will be shared with, sold to, or transferred to any third parties, affiliates, or partner companies for marketing or promotional purposes under any circumstances. SMS opt-in consent is used solely by DryCor Restore to communicate with you.
+
+## Text Messaging
+
+If you give us your mobile number and agree to receive texts, DryCor Restore may text you about your project: appointment and service updates, follow-ups after the job, and a request to review our work. Message frequency varies. Message and data rates may apply. Reply STOP at any time to stop receiving texts, or HELP for help. You can also reach us at (813) 829-1091. Consent to receive texts is not a condition of any purchase or service.
+
 ## Data Retention
 
 We retain contact and project records for as long as is reasonably necessary to fulfill the services you requested and to comply with applicable Florida contractor recordkeeping requirements. If you would like your information removed from our records and no active service relationship or legal obligation requires us to keep it, contact us and we will honor that request.

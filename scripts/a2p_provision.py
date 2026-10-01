@@ -74,7 +74,20 @@ def _post(url: str, data: dict, auth=MASTER) -> dict:
     return body
 
 
+# Twilio (ISV onboarding guide): "After submitting, you can proceed to the
+# next step ... does not need to have an approved status in order to
+# continue." Waiting for twilio-approved parked CRW at a2p_trust for 12 days
+# (bundle sat in-review, brand never submitted). Proceed on these; stop
+# only on a rejection.
+PROCEED = ("pending-review", "in-review", "twilio-approved")
+STUCK_DAYS = 5
+
+
 def _save(cid: str, st: dict) -> None:
+    from datetime import datetime, timezone
+    if st.get("_stage_seen") != st.get("stage"):
+        st["_stage_seen"] = st.get("stage")
+        st["stage_at"] = datetime.now(timezone.utc).isoformat()
     _sb("PATCH", f"/rest/v1/company_phone_setup?id=eq.{cid}", {"a2p_state": st})
 
 
@@ -96,9 +109,19 @@ def run(cid: str) -> int:
     owner = str(co.get("account_owner_name") or "Owner").split()
     first, last = owner[0], (owner[-1] if len(owner) > 1 else "Owner")
     print(f"== {co['name'].strip()} | stage: {stage}")
+    # EVERY TrustHub object (secondary profile, end users, address, docs,
+    # A2P bundle) lives in the CLIENT'S SUBACCOUNT, because the brand is
+    # registered there and Twilio resolves the bundles from the brand's own
+    # account (2026-10-01: master-created bundles -> "Unable to fetch A2P
+    # Profile Bundle details" on all three brands). Only our approved ISV
+    # primary profile stays in the master; a subaccount profile may link it.
+    sub = (row["twilio_subaccount_sid"], row["twilio_auth_token"])
+
+    def _sub_post(url: str, data: dict) -> dict:
+        return _post(url, data, auth=sub)
 
     if stage == "subaccount_created":
-        cp = _post(f"{TRUSTHUB}/CustomerProfiles", {
+        cp = _sub_post(f"{TRUSTHUB}/CustomerProfiles", {
             "FriendlyName": legal, "Email": NOTIFY_EMAIL,
             "PolicySid": SECONDARY_POLICY})
         st.update(stage="customer_profile", customer_profile_sid=cp["sid"])
@@ -107,7 +130,7 @@ def run(cid: str) -> int:
 
     elif stage == "customer_profile":
         cp_sid = st["customer_profile_sid"]
-        biz = _post(f"{TRUSTHUB}/EndUsers", {
+        biz = _sub_post(f"{TRUSTHUB}/EndUsers", {
             "FriendlyName": f"{legal} business info",
             "Type": "customer_profile_business_information",
             "Attributes": json.dumps({
@@ -122,7 +145,7 @@ def run(cid: str) -> int:
                 "business_regions_of_operation": "USA_AND_CANADA",
                 "website_url": website,
             })})
-        rep = _post(f"{TRUSTHUB}/EndUsers", {
+        rep = _sub_post(f"{TRUSTHUB}/EndUsers", {
             "FriendlyName": f"{legal} rep",
             "Type": "authorized_representative_1",
             "Attributes": json.dumps({
@@ -131,24 +154,24 @@ def run(cid: str) -> int:
                 "phone_number": _e164(co.get("phone") or ""),
                 "business_title": "Owner", "job_position": "CEO",
             })})
-        ad = _post(f"https://api.twilio.com/2010-04-01/Accounts/{MASTER[0]}/Addresses.json", {
+        ad = _sub_post(f"https://api.twilio.com/2010-04-01/Accounts/{sub[0]}/Addresses.json", {
             "CustomerName": legal, "Street": addr["line1"], "City": addr["city"],
             "Region": addr["state"], "PostalCode": addr["zip"],
             "IsoCountry": addr.get("country", "US"), "FriendlyName": legal})
-        doc = _post(f"{TRUSTHUB}/SupportingDocuments", {
+        doc = _sub_post(f"{TRUSTHUB}/SupportingDocuments", {
             "FriendlyName": f"{legal} address", "Type": "customer_profile_address",
             "Attributes": json.dumps({"address_sids": ad["sid"]})})
         for ent in (biz["sid"], rep["sid"], doc["sid"], _primary_profile_sid()):
-            _post(f"{TRUSTHUB}/CustomerProfiles/{cp_sid}/EntityAssignments",
+            _sub_post(f"{TRUSTHUB}/CustomerProfiles/{cp_sid}/EntityAssignments",
                   {"ObjectSid": ent})
-        ev = _post(f"{TRUSTHUB}/CustomerProfiles/{cp_sid}/Evaluations",
+        ev = _sub_post(f"{TRUSTHUB}/CustomerProfiles/{cp_sid}/Evaluations",
                    {"PolicySid": SECONDARY_POLICY})
         if ev.get("status") != "compliant":
             fails = [r2 for r2 in ev.get("results") or []
                      if not r2.get("passed")]
             raise RuntimeError("profile not compliant: "
                                + json.dumps(fails)[:400])
-        _post(f"{TRUSTHUB}/CustomerProfiles/{cp_sid}",
+        _sub_post(f"{TRUSTHUB}/CustomerProfiles/{cp_sid}",
               {"Status": "pending-review"})
         st.update(stage="profile_submitted")
         _save(cid, st)
@@ -157,9 +180,12 @@ def run(cid: str) -> int:
     elif stage == "profile_submitted":
         cp_sid = st["customer_profile_sid"]
         r = requests.get(f"{TRUSTHUB}/CustomerProfiles/{cp_sid}",
-                         auth=MASTER, timeout=30).json()
+                         auth=sub, timeout=30).json()
         print("  profile status:", r.get("status"))
-        if r.get("status") != "twilio-approved":
+        if r.get("status") == "twilio-rejected":
+            raise RuntimeError("customer profile REJECTED: "
+                               + json.dumps(r.get("errors"))[:300])
+        if r.get("status") not in PROCEED:
             return 0
         st.update(stage="profile_approved")
         _save(cid, st)
@@ -168,23 +194,23 @@ def run(cid: str) -> int:
 
     elif stage == "profile_approved":
         cp_sid = st["customer_profile_sid"]
-        tp = _post(f"{TRUSTHUB}/TrustProducts", {
+        tp = _sub_post(f"{TRUSTHUB}/TrustProducts", {
             "FriendlyName": f"{legal} A2P", "Email": NOTIFY_EMAIL,
             "PolicySid": A2P_POLICY})
-        eu = _post(f"{TRUSTHUB}/EndUsers", {
+        eu = _sub_post(f"{TRUSTHUB}/EndUsers", {
             "FriendlyName": f"{legal} a2p info",
             "Type": "us_a2p_messaging_profile_information",
             "Attributes": json.dumps({"company_type": "private"})})
-        _post(f"{TRUSTHUB}/TrustProducts/{tp['sid']}/EntityAssignments",
+        _sub_post(f"{TRUSTHUB}/TrustProducts/{tp['sid']}/EntityAssignments",
               {"ObjectSid": eu["sid"]})
-        _post(f"{TRUSTHUB}/TrustProducts/{tp['sid']}/EntityAssignments",
+        _sub_post(f"{TRUSTHUB}/TrustProducts/{tp['sid']}/EntityAssignments",
               {"ObjectSid": cp_sid})
-        ev = _post(f"{TRUSTHUB}/TrustProducts/{tp['sid']}/Evaluations",
+        ev = _sub_post(f"{TRUSTHUB}/TrustProducts/{tp['sid']}/Evaluations",
                    {"PolicySid": A2P_POLICY})
         if ev.get("status") != "compliant":
             raise RuntimeError("a2p bundle not compliant: "
                                + json.dumps(ev.get("results"))[:300])
-        _post(f"{TRUSTHUB}/TrustProducts/{tp['sid']}", {"Status": "pending-review"})
+        _sub_post(f"{TRUSTHUB}/TrustProducts/{tp['sid']}", {"Status": "pending-review"})
         st.update(stage="a2p_trust", trust_product_sid=tp["sid"])
         _save(cid, st)
         print("  a2p trust bundle submitted:", tp["sid"])
@@ -192,9 +218,12 @@ def run(cid: str) -> int:
     elif stage == "a2p_trust":
         sub = (row["twilio_subaccount_sid"], row["twilio_auth_token"])
         tp = requests.get(f"{TRUSTHUB}/TrustProducts/{st['trust_product_sid']}",
-                          auth=MASTER, timeout=30).json()
+                          auth=sub, timeout=30).json()
         print("  trust bundle status:", tp.get("status"))
-        if tp.get("status") != "twilio-approved":
+        if tp.get("status") == "twilio-rejected":
+            raise RuntimeError("a2p trust bundle REJECTED: "
+                               + json.dumps(tp.get("errors"))[:300])
+        if tp.get("status") not in PROCEED:
             return 0
         br = _post("https://messaging.twilio.com/v1/a2p/BrandRegistrations", {
             "CustomerProfileBundleSid": st["customer_profile_sid"],
@@ -280,11 +309,40 @@ def advance_all() -> int:
         stg = (m.get("a2p_state") or {}).get("stage")
         if stg in (None, "approved"):
             continue
+        err = None
         try:
             run(m["id"])
         except Exception as e:  # noqa: BLE001 — one client never stops the loop
-            print(f"  {m['id']}: {str(e)[:120]}")
+            err = str(e)[:300]
+            print(f"  {m['id']}: {err[:120]}")
+        _flag_if_stuck(m["id"], err)
     return 0
+
+
+def _flag_if_stuck(cid: str, err: str | None) -> None:
+    """One [TODO-SANTINO] note per client per stage when the chain errors or
+    sits on one stage past STUCK_DAYS (the 09-18..10-01 silence: every run
+    crashed on a missing env var and nobody heard)."""
+    from datetime import datetime, timezone
+    st = (_sb("GET", f"/rest/v1/company_phone_setup?id=eq.{cid}&select=a2p_state")
+          or [{}])[0].get("a2p_state") or {}
+    stage, at = st.get("stage"), st.get("stage_at")
+    days = ((datetime.now(timezone.utc) - datetime.fromisoformat(at)).days
+            if at else 0)
+    if not err and days < STUCK_DAYS:
+        return
+    key = f"{stage}:{'err' if err else 'stuck'}"
+    if st.get("_flagged") == key:
+        return
+    name = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}&select=name") or [{}])[0].get("name", cid)
+    why = f"errored: {err}" if err else f"has sat at '{stage}' for {days} days"
+    _sb("POST", "/rest/v1/marketing_ops_notes", {
+        "company_id": cid, "author": "a2p-provision", "status": "open",
+        "body": f"[TODO-SANTINO] A2P registration for {str(name).strip()} {why}. "
+                "Check Twilio TrustHub / brand status."[:1900]},
+        prefer="return=minimal")
+    st["_flagged"] = key
+    _sb("PATCH", f"/rest/v1/company_phone_setup?id=eq.{cid}", {"a2p_state": st})
 
 
 def main() -> int:

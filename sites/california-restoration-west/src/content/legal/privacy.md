@@ -50,6 +50,12 @@ We may be required to disclose information if compelled by law, court order, or 
 
 ---
 
+**SMS and mobile information is never shared.** No mobile information, phone numbers collected for SMS, or text messaging originator opt-in data and consent will be shared with, sold to, or transferred to any third parties, affiliates, or partner companies for marketing or promotional purposes under any circumstances. SMS opt-in consent is used solely by California Restoration West to communicate with you.
+
+## Text Messaging
+
+If you give us your mobile number and agree to receive texts, California Restoration West may text you about your project: appointment and service updates, follow-ups after the job, and a request to review our work. Message frequency varies. Message and data rates may apply. Reply STOP at any time to stop receiving texts, or HELP for help. You can also reach us at (805) 290-7292. Consent to receive texts is not a condition of any purchase or service.
+
 ## Data Retention
 
 We retain job-related records, including contact information, estimates, and insurance documentation, for as long as is reasonably necessary to fulfill the service relationship and comply with California contractor record-keeping requirements. Inquiry records from contacts that did not result in a job are retained for a shorter period and are not used for ongoing outreach.
