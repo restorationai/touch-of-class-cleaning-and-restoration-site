@@ -561,6 +561,31 @@ def email_records_needed(domain: str, outside: dict, zrecs: list[dict]) -> list[
     return todo
 
 
+def m365_tenant(domain: str) -> bool:
+    """Microsoft 365 knows the domain (Managed or Federated, e.g. GoDaddy's
+    'Microsoft 365 from GoDaddy'). Independent of DNS, so it still answers
+    after the nameservers moved. ACS 2026-09-30: the NS flipped to our empty
+    zone BEFORE the snapshot, the capture saw no MX, and am@theacsenterprises
+    .com silently stopped receiving mail."""
+    try:
+        r = requests.get("https://login.microsoftonline.com/getuserrealm.srf",
+                         params={"login": f"probe@{domain}", "json": 1}, timeout=15)
+        return r.ok and r.json().get("NameSpaceType") in ("Managed", "Federated")
+    except Exception:  # noqa: BLE001
+        return False
+
+
+def m365_records(domain: str) -> list[dict]:
+    mx_host = domain.replace(".", "-") + ".mail.protection.outlook.com"
+    return [
+        {"type": "MX", "name": domain, "content": mx_host, "priority": 0, "ttl": 1},
+        {"type": "TXT", "name": domain, "ttl": 1,
+         "content": "v=spf1 include:spf.protection.outlook.com include:secureserver.net -all"},
+        {"type": "CNAME", "name": f"autodiscover.{domain}",
+         "content": "autodiscover.outlook.com", "proxied": False, "ttl": 1},
+    ]
+
+
 def phase_zone_email(slug: str, domain: str, apply: bool) -> tuple[Phase, dict | None]:
     ph = Phase("ZONE + EMAIL SAFETY")
     zone = None
@@ -611,10 +636,26 @@ def phase_zone_email(slug: str, domain: str, apply: bool) -> tuple[Phase, dict |
     if doh_errors >= 4 and not outside["mx"] and not outside["apex_txt"]:
         ph.fail("DoH capture mostly failed — refusing to certify email safety blind")
         return ph, zone
-    if not outside["mx"]:
-        ph.note("no MX on authoritative DNS — domain carries no email; nothing to preserve")
-
     todo = email_records_needed(domain, outside, zrecs)
+    if not outside["mx"]:
+        zone_ns = sorted(strip_dot(n).lower() for n in (zone or {}).get("name_servers") or [])
+        seen_ns = sorted(strip_dot(n).lower() for n in outside.get("ns") or [])
+        self_ref = bool(zone_ns) and seen_ns == zone_ns
+        zone_mx = [r for r in zrecs if r.get("type") == "MX"]
+        if m365_tenant(domain) and not zone_mx:
+            ph.note("NO MX visible but Microsoft 365 knows this domain: adding the "
+                    "M365 MX/SPF/autodiscover records so its mail keeps flowing")
+            todo += m365_records(domain)
+        elif self_ref and not zone_mx:
+            # Reading our own (empty) zone proves nothing about the client's
+            # mail. Not fatal (some domains truly have none) but never silent.
+            ph.note("WARNING: nameservers ALREADY point at our zone, so this capture "
+                    "cannot see the client's real email records. No Microsoft 365 "
+                    "tenant found; confirm with the client/old DNS host that the "
+                    "domain has no email (Google Workspace, GoDaddy mail, etc.)")
+        else:
+            ph.note("no MX on authoritative DNS — domain carries no email; nothing to preserve")
+
     if not todo:
         ph.note("CF zone already holds every email record the outside world serves")
     elif apply and zone:
