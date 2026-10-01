@@ -180,6 +180,9 @@ def _departed_slugs() -> set[str]:
         return set()
 
 
+HOLD_SLUGS = {"tdi-builders"}
+
+
 def live_slugs() -> list[str]:
     """LIVE = client record has cut_over_at / apex_cutover.completed_at, OR
     marketing_sites.apex_live is true (the flag alone is known-unreliable in
@@ -192,7 +195,9 @@ def live_slugs() -> list[str]:
         apex = {r["rank_ai_slug"] for r in rows if r.get("rank_ai_slug")}
     except Exception as e:  # noqa: BLE001 — repo records still decide
         print(f"  warn: marketing_sites read failed ({str(e)[:80]})")
-    skip = DEAD_SLUGS | _departed_slugs()
+    # HOLD (Santino 2026-10-01: "For TDI I don't touch anything right now"):
+    # no GSC registration, inspections or Bing submits until he lifts it.
+    skip = DEAD_SLUGS | _departed_slugs() | HOLD_SLUGS
     out = []
     for f in sorted(CLIENTS_DIR.glob("*.json")):
         if f.name == "company_map.json" or f.stem in skip:
