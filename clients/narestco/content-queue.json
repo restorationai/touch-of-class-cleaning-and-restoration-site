@@ -1305,10 +1305,10 @@
     },
     {
       "id": "2026-09-17-how-much-does-biohazard-cleanup-cost",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-17T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-10-01T21:36:09Z",
+      "post_url": "https://narestco.com/blog/how-much-does-biohazard-cleanup-cost/",
       "primary_keyword": "how much does biohazard cleanup cost",
       "intent": "commercial",
       "volume": 70,
