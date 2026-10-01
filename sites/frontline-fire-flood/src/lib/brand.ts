@@ -65,7 +65,7 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "136",
+  gbpReviewCount: "137",
   gbpReviews: [
     { author: "Sarah", rating: 5, text: "I cannot say enough good things about Frontline Fire & Flood! I’m a Realtor and was originally referred to them by a plumber when one of my clients had a break in her waterline and needed water damage restoration. From the very first call, they were SO responsive, calm, personable, and helpful…", when: "September 2026" },
     { author: "Reason", rating: 5, text: "Best restoration company in the area! Great prices. Amazing ppl that truly want to help the customer in times of dire need.", when: "September 2026" },

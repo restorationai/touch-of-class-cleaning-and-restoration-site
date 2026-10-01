@@ -69,7 +69,7 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",
-  gbpReviewCount: "61",
+  gbpReviewCount: "62",
   gbpReviews: [
     { author: "Tara", rating: 5, text: "HomeLyft was professional and courteous with each interaction, every step of my rebuild and tear out was explained and executed. The gentleman that installed my flooring was impressive especially because he had to match ceramic tiles that was damaged by the previous contractor. The craftsman ship…", when: "September 2026" },
     { author: "Joshua", rating: 5, text: "Very knowledgeable and professional.", when: "September 2026" },

@@ -69,7 +69,7 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.8",
-  gbpReviewCount: "115",
+  gbpReviewCount: "114",
   gbpReviews: [
     { author: "Angela", rating: 5, text: "Our house flood on Christmas Eve, I called them first thing the morning after Christmas and they showed up within 2 hours and got to work. It took several days to get things cleaned up and dried out. Jack (the owner) stopped by everyday to make sure things were being taken care of. They did a great…", when: "September 2026" },
     { author: "David", rating: 5, text: "Great service, great communication", when: "September 2026" },

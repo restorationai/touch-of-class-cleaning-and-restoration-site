@@ -65,14 +65,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "603",
+  gbpReviewCount: "643",
   gbpReviews: [
-    { author: "Alissa", rating: 5, text: "Zach was efficient, professional and very knowledgeable. Thank you Zach!", when: "September 2026" },
-    { author: "Cole", rating: 5, text: "You can always count on Zach to follow through, communicate clearly, and treat every interaction with professionalism and respect. 5-starts", when: "September 2026" },
-    { author: "Haylee", rating: 5, text: "We love Sy! Will definitely be utilizing Crew if the need ever arises!", when: "September 2026" },
-    { author: "Rameezy", rating: 5, text: "Big thank you to syionte for being such a helpful and easy person to work with! I would definitely work with him again!", when: "September 2026" },
-    { author: "Jeff", rating: 5, text: "Zach Wiseman was very good to work with. He kept things rolling and really seemed to care about our end project.", when: "September 2026" },
-    { author: "Chris", rating: 5, text: "Zach and the Crew team go above and beyond making sure everything meet your standards.", when: "September 2026" },
+    { author: "Mr.", rating: 5, text: "Zack is seriously a 1000/10! I cannot say enough good things about him. He was incredibly friendly, helpful, and made the entire experience so easy. His customer service is next level and you can tell he genuinely cares about the people he’s helping. It’s hard to find people who go above and beyond…", when: "October 2026" },
+    { author: "Jessica", rating: 5, text: "Zach was so incredibly helpful during our process. It came incredibly natural. His helpfulness and compassion shone through. I’d recommend him 1000 times if I could! Hit up Zach, you won’t regret it!", when: "October 2026" },
+    { author: "Kaleb", rating: 5, text: "Zach Wiseman was great to work and communicate with! Great people skills and accomplished everything we talked about!", when: "October 2026" },
+    { author: "Lacey", rating: 5, text: "Zach Wiseman! He is the best!!!", when: "October 2026" },
+    { author: "C", rating: 5, text: "Zach was very helpful, I appreciate the communication during the process would recommend!", when: "October 2026" },
+    { author: "Austin", rating: 5, text: "Zach is the MAN! Always pulls through. We had a sump issue and Zach and the CREW did great work!", when: "October 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Sioux Falls, SD.",
   ctaLabel: "24/7 Emergency Line",
