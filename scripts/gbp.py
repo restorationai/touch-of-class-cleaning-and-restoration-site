@@ -2143,6 +2143,38 @@ def _geogrid_summary(cid: str) -> list:
     return out
 
 
+# RESTORATION CATEGORY STANDARD (Santino 2026-10-01: "we don't want to be
+# suggesting fire protection service or graffiti removal service to Coastal
+# or any restoration client"). Google's REAL taxonomy has no mold category
+# ("Mold maker" is manufacturing) and "Fire protection service" means
+# sprinklers/alarms. A restoration client is only ever offered categories
+# from this list; Plumber only once the plumbing gate passes (chosen
+# plumbing name / plumbing DBA / licensed plumber).
+RESTORATION_CATEGORIES_ALWAYS = (
+    "Water damage restoration service", "Fire damage restoration service",
+    "Building restoration service")
+RESTORATION_CATEGORIES_IF_OFFERED = (
+    "Carpet cleaning service", "Upholstery cleaning service",
+    "Air duct cleaning service", "Tile cleaning service",
+    "Asbestos testing service", "Waterproofing service", "Drainage service",
+    "Roofing contractor", "General contractor", "Remodeler",
+    "Demolition contractor")
+
+
+def _restoration_slug(cid: str) -> str | None:
+    """slug when this company is on the restoration vertical, else None."""
+    try:
+        from client_ops_sync import slug_map
+        slug = slug_map().get(cid)
+        if not slug:
+            return None
+        rec = ROOT / "clients" / f"{slug}.json"
+        vert = (json.loads(rec.read_text()).get("vertical") if rec.exists() else None) or "restoration"
+        return slug if str(vert).lower() == "restoration" else None
+    except Exception:  # noqa: BLE001
+        return None
+
+
 def _propose_new_categories(cid: str, token: str, g: dict, do: list,
                             dont: list, geo: list) -> list:
     """Propose NEW GBP categories (the audit only classifies ones already on
@@ -2182,6 +2214,32 @@ def _propose_new_categories(cid: str, token: str, g: dict, do: list,
                     pool[dn] = c["name"]
         except Exception:  # noqa: BLE001 — one bad token never kills the pool
             continue
+    _rslug = _restoration_slug(cid)
+    if _rslug:
+        allowed = set(RESTORATION_CATEGORIES_ALWAYS) | set(RESTORATION_CATEGORIES_IF_OFFERED)
+        try:
+            import plumbing_gate
+            if plumbing_gate.allowed(_rslug):
+                allowed.add("Plumber")
+        except Exception:  # noqa: BLE001
+            pass
+        # the standard set is always IN the pool (looked up by exact name),
+        # and nothing outside it can ever be offered
+        for dn in sorted(allowed):
+            if dn in pool or dn.lower() in existing:
+                continue
+            try:
+                r = requests.get(f"{INFO_API}/categories",
+                                 params={"regionCode": "US", "languageCode": "en-US",
+                                         "view": "BASIC", "pageSize": 50,
+                                         "filter": f"displayName={dn}"},
+                                 headers={"Authorization": f"Bearer {token}"}, timeout=30)
+                for c in r.json().get("categories", []):
+                    if c.get("displayName") == dn:
+                        pool[dn] = c["name"]
+            except Exception:  # noqa: BLE001
+                continue
+        pool = {k: v for k, v in pool.items() if k in allowed}
     if not pool:
         return []
     sysmsg = (
@@ -2212,6 +2270,21 @@ def _propose_new_categories(cid: str, token: str, g: dict, do: list,
             "confidence": min(float(cand.get("confidence") or 0.7), 0.9),
             "canonical": pool[name],  # categories/gcid:... — one-click apply
             "auto_safe": False, "status": "open"})
+    if _rslug:
+        # the standard core is proposed deterministically, not left to the model
+        must = list(RESTORATION_CATEGORIES_ALWAYS) + (["Plumber"] if "Plumber" in pool else [])
+        have = {r["item"] for r in rows}
+        for dn in must:
+            if dn in pool and dn.lower() not in existing and dn not in have:
+                rows.append({
+                    "company_id": cid, "item": dn, "item_type": "category",
+                    "source": "confirmed", "verdict": "ADD",
+                    "reason": ("Plumbing name chosen: Plumber backs the name on Google."
+                               if dn == "Plumber" else
+                               "Restoration category standard (every restoration profile carries it).")
+                              + " Verified against Google's category list.",
+                    "confidence": 0.85, "canonical": pool[dn],
+                    "auto_safe": False, "status": "open"})
     return rows
 
 
