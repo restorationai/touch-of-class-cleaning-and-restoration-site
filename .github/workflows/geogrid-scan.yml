@@ -28,7 +28,10 @@ on:
         required: false
 
 concurrency:
-  group: geogrid-scan
+  # one lane PER SLUG (10-01): a shared group keeps only one pending run, so
+  # each new dispatch cancelled the queued one (Dry1 Out + RestoPros first
+  # scans were silently cancelled by the next client's bootstrap dispatch)
+  group: geogrid-scan-${{ github.event.inputs.slug || 'fleet' }}
   cancel-in-progress: false
 
 jobs:
