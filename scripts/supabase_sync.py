@@ -279,8 +279,19 @@ def sync_content(client, slug: str, company_id: str, dry_run: bool) -> None:
     to_insert, to_update = [], []
     for item in items:
         raw_status = item.get("status", "queued")
-        # "written" in our JSON means published to the blog
-        status = "published" if raw_status == "written" else raw_status
+        # "written" in our JSON means published to the blog. The DB check
+        # constraint only knows queued/published-style states: "banked" (the
+        # C3 overflow reserve, 09-17) is still upcoming work -> queued, and
+        # archived/other local-only states are not mirrored. Before 10-01 one
+        # banked row raised marketing_content_items_status_check and aborted
+        # the WHOLE sync, so the app's Content view stopped updating for
+        # every client with a bank.
+        if raw_status in ("written", "published"):
+            status = "published"
+        elif raw_status in ("queued", "banked"):
+            status = "queued"
+        else:
+            continue
 
         row = {
             "company_id":       company_id,
@@ -302,7 +313,8 @@ def sync_content(client, slug: str, company_id: str, dry_run: bool) -> None:
             "notes":            item.get("notes"),
             "queued_at":        ts(item.get("queued_at")),
             "written_at":       ts(item.get("written_at")),
-            "scheduled_for":    schedule_map.get(item.get("suggested_slug")) if status == "queued" else None,
+            "scheduled_for":    (schedule_map.get(item.get("suggested_slug"))
+                                 if raw_status == "queued" else None),
         }
 
         suggested_slug = item.get("suggested_slug")

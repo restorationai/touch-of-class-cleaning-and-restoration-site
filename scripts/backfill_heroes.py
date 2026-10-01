@@ -356,8 +356,58 @@ def insert_hero(path: Path, hero_url: str) -> None:
 # ----------------------------------------------------------------------------
 
 
+def generic_prompt(client_slug: str, title: str, body: str) -> str:
+    """Any client (2026-10-01): write the hero prompt the way content_writer
+    does, from the client's own image-style-guide.md, instead of the
+    hand-curated CLIENT_STYLE/SCENES tables that only cover two clients."""
+    guide_path = REPO_ROOT / "clients" / client_slug / "image-style-guide.md"
+    guide = guide_path.read_text()[:12000] if guide_path.exists() else ""
+    system = (
+        "You write ONE image-generation prompt for the hero image of a blog post, "
+        "following the client's image style guide below exactly (uniform, palette, "
+        "framing, faces obscured, no text or logos). The image is illustrative "
+        "editorial imagery: never depict a specific customer's property and never "
+        "stage fake 'job photos'. Reply with the prompt text only, one paragraph, "
+        "no preamble.\n\n=== IMAGE STYLE GUIDE ===\n" + guide)
+    user = f"Post title: {title}\n\nPost opening:\n{body[:1500]}"
+    out, _ = cw.anthropic_call(system, user, max_tokens=4000)
+    return " ".join(out.strip().strip('"').split())
+
+
+def backfill_generic(client_slug: str, path: Path, *, use_pro: bool, dry_run: bool) -> tuple[str, str]:
+    """Generic path: prompt from the style guide, image via content_writer's
+    generate_and_upload_hero (R2 when the bucket + images.{domain} serve,
+    otherwise committed under the site's public/images, served by the site)."""
+    text = path.read_text()
+    fm = parse_frontmatter(text)
+    if fm is None:
+        return "fail", "no frontmatter block"
+    if has_hero(fm):
+        return "skip", "already has hero"
+    title = fm_field(fm, "title") or path.stem.replace("-", " ")
+    body = text[FM_RE.match(text).end():]
+    prompt = generic_prompt(client_slug, title, body)
+    if dry_run:
+        print(f"  [dry-run] {path.stem}\n    prompt: {prompt[:260]}...")
+        return "dry", prompt[:80]
+    item = {"suggested_slug": path.stem, "primary_keyword": title}
+    try:
+        url = cw.generate_and_upload_hero(client_slug, item, prompt, use_pro=use_pro)
+    except Exception as e:  # noqa: BLE001
+        if not use_pro:
+            return "fail", f"image gen failed: {str(e)[:200]}"
+        try:
+            url = cw.generate_and_upload_hero(client_slug, item, prompt, use_pro=False)
+        except Exception as e2:  # noqa: BLE001
+            return "fail", f"image gen failed: {str(e2)[:200]}"
+    insert_hero(path, url)
+    return "ok", url
+
+
 def backfill_post(client_slug: str, path: Path, *, use_pro: bool, dry_run: bool) -> tuple[str, str]:
     """Returns (status, detail). status is 'ok' | 'skip' | 'fail' | 'dry'."""
+    if client_slug not in CLIENT_STYLE:
+        return backfill_generic(client_slug, path, use_pro=use_pro, dry_run=dry_run)
     text = path.read_text()
     fm = parse_frontmatter(text)
     if fm is None:
@@ -419,6 +469,8 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true", help="print prompts/URLs, no generation")
     ap.add_argument("--flash", action="store_true", help="use the Flash image model")
     ap.add_argument("--sleep", type=float, default=4.0, help="seconds between generations")
+    ap.add_argument("--since", default="",
+                    help="only posts with published_at >= YYYY-MM-DD")
     args = ap.parse_args()
 
     slugs = args.slugs or DEFAULT_SLUGS
@@ -426,14 +478,17 @@ def main() -> int:
 
     for slug in slugs:
         if slug not in CLIENT_STYLE:
-            print(f"WARNING: no style constants for '{slug}' — add to CLIENT_STYLE. Skipping.")
-            continue
+            print(f"(no curated style for '{slug}': generic style-guide mode)")
         blog_dir = SITES_DIR / slug / "src" / "content" / "blog"
         if not blog_dir.exists():
             print(f"WARNING: {blog_dir} missing. Skipping {slug}.")
             continue
         print(f"\n== {slug} ==")
         for md in sorted(blog_dir.glob("*.md")):
+            if args.since:
+                fm0 = parse_frontmatter(md.read_text()) or ""
+                if (fm_field(fm0, "published_at") or "") < args.since:
+                    continue
             try:
                 status, detail = backfill_post(slug, md, use_pro=not args.flash,
                                                dry_run=args.dry_run)
