@@ -679,10 +679,10 @@
     },
     {
       "id": "2026-08-26-how-to-hire-a-licensed-plumber",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-26T13:45:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-10-01T01:23:58Z",
+      "post_url": "https://allproplumbingheatingandair.com/blog/how-to-hire-a-licensed-plumber/",
       "primary_keyword": "licensed plumber",
       "intent": "transactional",
       "volume": 8100,
