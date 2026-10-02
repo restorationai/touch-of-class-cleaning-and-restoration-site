@@ -727,11 +727,24 @@ def main() -> int:
     # the client's real logo is on disk it rides along as a reference image so
     # the wraps carry the REAL mark; without a logo the fleet stays unmarked.
     logo_png = None
-    for cand in ("logo-dark-bg.png", "logo.png"):
+    # any raster logo counts (10-02, Touch of Class: the client's upload was
+    # logo.jpg, so every image generated "unbranded" with a logo on disk)
+    for cand in ("logo-dark-bg.png", "logo.png", "logo.jpg", "logo.jpeg", "logo.webp"):
         p = img_dir / cand
         if p.exists():
-            logo_png = p.read_bytes()
-            break
+            if p.suffix == ".png":
+                logo_png = p.read_bytes()
+            else:
+                try:
+                    import io
+                    from PIL import Image
+                    buf = io.BytesIO()
+                    Image.open(p).convert("RGBA").save(buf, "PNG")
+                    logo_png = buf.getvalue()
+                except Exception:  # noqa: BLE001
+                    logo_png = None
+            if logo_png:
+                break
 
     # LIVERY-REFERENCE (2026-08-05, Reign): a real photograph of the client's
     # own wrapped vehicle, declared in the style guide as
@@ -800,7 +813,11 @@ def main() -> int:
                f"faithfully at vehicle-wrap scale, with a {color} accent stripe")
         logo_rule = ("The ONLY text allowed anywhere is the logo mark itself, "
                      "exactly as in the reference image — no phone numbers, no "
-                     "URLs, no other lettering.")
+                     "URLs, no other lettering. BRANDED CREW (Santino 2026-10-02): "
+                     "every technician's work shirt carries the same logo as a small "
+                     "embroidered left-chest mark, and protective gear (coveralls, "
+                     "hard hats) carries the same small logo patch where it would "
+                     "naturally sit; reproduce the mark faithfully, never invent lettering.")
     else:
         van = (f"a fleet of two-three matching clean service vans (solid "
                f"{color} and white livery, NO readable text or logos)")

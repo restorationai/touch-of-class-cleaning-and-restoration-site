@@ -22,60 +22,75 @@
   ],
   "service_areas": [
     {
-      "city": "Richardson",
-      "state": "TX",
-      "slug": "richardson-tx",
-      "primary": true
-    },
-    {
-      "city": "Dallas",
-      "state": "TX",
-      "slug": "dallas-tx"
-    },
-    {
-      "city": "Plano",
-      "state": "TX",
-      "slug": "plano-tx"
-    },
-    {
-      "city": "Garland",
-      "state": "TX",
-      "slug": "garland-tx"
-    },
-    {
-      "city": "McKinney",
-      "state": "TX",
-      "slug": "mckinney-tx"
-    },
-    {
-      "city": "Carrollton",
-      "state": "TX",
-      "slug": "carrollton-tx"
-    },
-    {
-      "city": "Allen",
-      "state": "TX",
-      "slug": "allen-tx"
-    },
-    {
-      "city": "Rowlett",
-      "state": "TX",
-      "slug": "rowlett-tx"
-    },
-    {
-      "city": "Wylie",
-      "state": "TX",
-      "slug": "wylie-tx"
-    },
-    {
       "city": "Richwood",
       "state": "TX",
-      "slug": "richwood-tx"
+      "slug": "richwood-tx",
+      "primary": true
     },
     {
       "city": "Clute",
       "state": "TX",
       "slug": "clute-tx"
+    },
+    {
+      "city": "Lake Jackson",
+      "state": "TX",
+      "slug": "lake-jackson-tx"
+    },
+    {
+      "city": "Freeport",
+      "state": "TX",
+      "slug": "freeport-tx"
+    },
+    {
+      "city": "Angleton",
+      "state": "TX",
+      "slug": "angleton-tx"
+    },
+    {
+      "city": "Jones Creek",
+      "state": "TX",
+      "slug": "jones-creek-tx"
+    },
+    {
+      "city": "Brazoria",
+      "state": "TX",
+      "slug": "brazoria-tx"
+    },
+    {
+      "city": "West Columbia",
+      "state": "TX",
+      "slug": "west-columbia-tx"
+    },
+    {
+      "city": "Danbury",
+      "state": "TX",
+      "slug": "danbury-tx"
+    },
+    {
+      "city": "Sweeny",
+      "state": "TX",
+      "slug": "sweeny-tx"
+    },
+    {
+      "city": "Alvin",
+      "state": "TX",
+      "slug": "alvin-tx"
+    },
+    {
+      "city": "Manvel",
+      "state": "TX",
+      "slug": "manvel-tx"
+    },
+    {
+      "city": "Iowa Colony",
+      "state": "TX",
+      "slug": "iowa-colony-tx"
+    },
+    {
+      "city": "Pearland",
+      "state": "TX",
+      "slug": "pearland-tx"
     }
   ],
   "template": "restoration",
