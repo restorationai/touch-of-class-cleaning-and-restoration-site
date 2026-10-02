@@ -7,10 +7,10 @@ primary_keyword: "restoration services mango"
 secondary_keywords: ["mango restoration company", "damage restoration mango", "mango disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "fdfc64f110d58efb"
-generated_at: "2026-09-30T19:28:35.673730+00:00"
+plan_hash: "78ebf7fd3a52afd5"
+generated_at: "2026-10-02T04:40:26.359572+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/mango-fl/", "/service-areas/mango-fl/water-damage-restoration/", "/service-areas/anna-maria-fl/", "/service-areas/apollo-beach-fl/", "/service-areas/auburndale-fl/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/mango-fl/water-damage-restoration/", "/service-areas/anna-maria-fl/", "/service-areas/apollo-beach-fl/", "/service-areas/auburndale-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mango"}]
 faq: []
 area_slug: "mango-fl"

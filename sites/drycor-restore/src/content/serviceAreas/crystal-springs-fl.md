@@ -7,10 +7,10 @@ primary_keyword: "restoration services crystal springs"
 secondary_keywords: ["crystal springs restoration company", "damage restoration crystal springs", "crystal springs disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "6f30684a2f15b2ea"
-generated_at: "2026-09-30T19:28:35.675805+00:00"
+plan_hash: "dc310c954d016c29"
+generated_at: "2026-10-02T04:40:26.360923+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/crystal-springs-fl/", "/service-areas/crystal-springs-fl/water-damage-restoration/", "/service-areas/anna-maria-fl/", "/service-areas/apollo-beach-fl/", "/service-areas/auburndale-fl/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/crystal-springs-fl/water-damage-restoration/", "/service-areas/anna-maria-fl/", "/service-areas/apollo-beach-fl/", "/service-areas/auburndale-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Crystal Springs"}]
 faq: []
 area_slug: "crystal-springs-fl"

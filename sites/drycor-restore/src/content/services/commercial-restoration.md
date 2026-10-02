@@ -7,10 +7,10 @@ primary_keyword: "commercial restoration thonotosassa"
 secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
 search_intent: "local_b2b"
 priority: 8.1
-plan_hash: "28f20157327f8eae"
-generated_at: "2026-09-30T19:28:35.668393+00:00"
+plan_hash: "cf7782b7e5ae1ec5"
+generated_at: "2026-10-02T04:40:26.354123+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anna-maria-fl/", "/service-areas/apollo-beach-fl/", "/service-areas/auburndale-fl/", "/service-areas/bartow-fl/", "/service-areas/bradenton-fl/", "/service-areas/brandon-fl/", "/service-areas/clearwater-beach-fl/", "/service-areas/clearwater-fl/", "/service-areas/crystal-springs-fl/", "/service-areas/dade-city-fl/", "/service-areas/davenport-fl/", "/service-areas/dover-fl/"]
+internal_links: ["/services/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Commercial Restoration"}]
 faq: []
 service_slug: "commercial-restoration"

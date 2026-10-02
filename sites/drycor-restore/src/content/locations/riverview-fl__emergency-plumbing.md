@@ -8,16 +8,16 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "29ea8e2ac13c5e44"
-generated_at: "2026-10-01T14:30:44.791351+00:00"
+generated_at: "2026-10-02T04:40:26.369260+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/riverview-fl/", "/service-areas/riverview-fl/fire-damage-restoration/", "/service-areas/riverview-fl/mold-remediation/", "/service-areas/bradenton-fl/emergency-plumbing/", "/service-areas/brandon-fl/emergency-plumbing/", "/contact/"]
-breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Riverview", "url": "/service-areas/riverview-fl/"}, {"name": "emergency-plumbing"}]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Riverview", "url": "/service-areas/riverview-fl/"}, {"name": "Emergency Plumbing"}]
 faq: []
 area_slug: "riverview-fl"
 service_slug: "emergency-plumbing"
 city: "Riverview"
 state: "FL"
-service_display: "emergency-plumbing"
+service_display: "Emergency Plumbing"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug drycor-restore` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 

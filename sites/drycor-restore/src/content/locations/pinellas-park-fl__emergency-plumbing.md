@@ -8,16 +8,16 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "4a19bccbd99eb55e"
-generated_at: "2026-10-01T14:30:44.790513+00:00"
+generated_at: "2026-10-02T04:40:26.367382+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/pinellas-park-fl/", "/service-areas/pinellas-park-fl/fire-damage-restoration/", "/service-areas/pinellas-park-fl/mold-remediation/", "/service-areas/bradenton-fl/emergency-plumbing/", "/service-areas/brandon-fl/emergency-plumbing/", "/contact/"]
-breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pinellas Park", "url": "/service-areas/pinellas-park-fl/"}, {"name": "emergency-plumbing"}]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pinellas Park", "url": "/service-areas/pinellas-park-fl/"}, {"name": "Emergency Plumbing"}]
 faq: []
 area_slug: "pinellas-park-fl"
 service_slug: "emergency-plumbing"
 city: "Pinellas Park"
 state: "FL"
-service_display: "emergency-plumbing"
+service_display: "Emergency Plumbing"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug drycor-restore` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 

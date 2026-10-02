@@ -7,10 +7,10 @@ primary_keyword: "restoration services lake magdalene"
 secondary_keywords: ["lake magdalene restoration company", "damage restoration lake magdalene", "lake magdalene disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "24bcf0e3b1a9502d"
-generated_at: "2026-09-30T19:28:35.675501+00:00"
+plan_hash: "5c6b67cfa5f363b1"
+generated_at: "2026-10-02T04:40:26.360726+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/lake-magdalene-fl/", "/service-areas/lake-magdalene-fl/water-damage-restoration/", "/service-areas/anna-maria-fl/", "/service-areas/apollo-beach-fl/", "/service-areas/auburndale-fl/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/lake-magdalene-fl/water-damage-restoration/", "/service-areas/anna-maria-fl/", "/service-areas/apollo-beach-fl/", "/service-areas/auburndale-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Magdalene"}]
 faq: []
 area_slug: "lake-magdalene-fl"

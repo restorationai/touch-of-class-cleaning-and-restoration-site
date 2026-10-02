@@ -7,10 +7,10 @@ primary_keyword: "restoration services university"
 secondary_keywords: ["university restoration company", "damage restoration university", "university disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "c4dc4ce2d2d9d5c2"
-generated_at: "2026-09-30T19:28:35.674805+00:00"
+plan_hash: "6f0a9325a1d1dd1c"
+generated_at: "2026-10-02T04:40:26.360282+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/university-fl/", "/service-areas/university-fl/water-damage-restoration/", "/service-areas/anna-maria-fl/", "/service-areas/apollo-beach-fl/", "/service-areas/auburndale-fl/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/university-fl/water-damage-restoration/", "/service-areas/anna-maria-fl/", "/service-areas/apollo-beach-fl/", "/service-areas/auburndale-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "University"}]
 faq: []
 area_slug: "university-fl"

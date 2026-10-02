@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration lake magdalene"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "00462802a0a0d027"
-generated_at: "2026-09-30T19:28:35.992468+00:00"
+plan_hash: "560793803e4e31eb"
+generated_at: "2026-10-02T04:40:26.390221+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/lake-magdalene-fl/", "/service-areas/anna-maria-fl/water-damage-restoration/", "/service-areas/apollo-beach-fl/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Magdalene", "url": "/service-areas/lake-magdalene-fl/"}, {"name": "Water Damage Restoration"}]
@@ -21,4 +21,4 @@ service_display: "Water Damage Restoration"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug drycor-restore` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 
-Placeholder content for Water Damage Restoration in Lake Magdalene.
+Placeholder content for 24/7 Emergency Water Damage Restoration in Lake Magdalene.

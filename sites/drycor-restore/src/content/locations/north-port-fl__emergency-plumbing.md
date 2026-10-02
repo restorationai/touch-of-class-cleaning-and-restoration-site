@@ -8,16 +8,16 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "cd66ee1aee9a4d7a"
-generated_at: "2026-10-01T14:30:44.795571+00:00"
+generated_at: "2026-10-02T04:40:26.382088+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/north-port-fl/", "/service-areas/north-port-fl/fire-damage-restoration/", "/service-areas/north-port-fl/mold-remediation/", "/service-areas/bradenton-fl/emergency-plumbing/", "/service-areas/brandon-fl/emergency-plumbing/", "/contact/"]
-breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Port", "url": "/service-areas/north-port-fl/"}, {"name": "emergency-plumbing"}]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Port", "url": "/service-areas/north-port-fl/"}, {"name": "Emergency Plumbing"}]
 faq: []
 area_slug: "north-port-fl"
 service_slug: "emergency-plumbing"
 city: "North Port"
 state: "FL"
-service_display: "emergency-plumbing"
+service_display: "Emergency Plumbing"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug drycor-restore` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 
