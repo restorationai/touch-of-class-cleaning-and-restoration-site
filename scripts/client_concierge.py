@@ -4538,6 +4538,13 @@ def file_request_violation(body: str) -> str | None:
     if m and re.search(r"\b(invite|delegate|access)\b",
                        (body or "")[max(0, m.start() - 40):m.end() + 40], re.I):
         m = None
+    # OUR INBOX ONLY (Amin 2026-10-02): "you get it three ways: an email to
+    # amin.mashouf@gmail.com" describes where HIS leads go; it asks for no
+    # file. A file request always points at us, so the address must be ours
+    # (or the words say "us").
+    if m and not re.search(r"restorationai\.io|getrestorationai\.com|\bus\b",
+                           m.group(0), re.I):
+        m = None
     if m:
         return (f"draft tells the client to email us a file ({m.group(0)!r}). "
                 "File requests are HUB-LINK-ONLY: an emailed attachment lands "
