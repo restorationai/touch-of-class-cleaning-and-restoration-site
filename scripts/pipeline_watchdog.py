@@ -789,9 +789,20 @@ def check_onboarding() -> list[str]:
         try:
             _pi = _json.loads((ROOT / "clients" / slug / "plan-input.json").read_text())
             _prim = next((a for a in _pi.get("service_areas") or [] if a.get("primary")), {})
-            _reg = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}&select=city") or [{}])[0].get("city") or ""
-            if _prim and _reg and _prim.get("city", "").strip().lower() != _reg.strip().lower():
-                flag("areas", f"{slug} site home city '{_prim.get('city')}' but registered address city '{_reg.strip()}'")
+            # Santino 10-02: the home city should match the Google profile;
+            # service-area profiles hide the address, so fall back to the
+            # registered business address.
+            _ga = ((_sb("GET", f"/rest/v1/marketing_gbp_profiles?company_id=eq.{cid}&select=address")
+                    or [{}])[0].get("address") or "")
+            _parts = [x.strip() for x in str(_ga).split(",")]
+            _want = _parts[-3] if len(_parts) >= 4 else ""
+            _src = "Google profile"
+            if not _want:
+                _want = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}&select=city") or [{}])[0].get("city") or ""
+                _src = "registered address"
+            _n = lambda c: re.sub(r"\btwp\b", "township", str(c).strip().lower())  # noqa: E731
+            if _prim and _want and _n(_prim.get("city", "")) != _n(_want):
+                flag("areas", f"{slug} site home city '{_prim.get('city')}' but {_src} city '{_want.strip()}'")
         except (OSError, ValueError):
             pass
         if (k_age or 0) > 3 and cid not in grants and not ints.get("gbp_plan"):
@@ -801,7 +812,7 @@ def check_onboarding() -> list[str]:
         "site": "new client has no site built: check site-build.yml runs / ops_kv auto-site-build:*",
         "reveal": "site preview overdue: past the reveal day and never shown to the client",
         "rename": "profile-rename outreach stalled: pitch not sent or stuck in rename-pitch-queue",
-        "areas": "site home city does not match the registered business address (fix the address or rebuild the city list from the wizard territory)",
+        "areas": "site home city does not match the Google profile city (or the registered address when the profile hides it)",
         "google": "new client with no way to get a Google profile: connect their Google or draft a Profile Planner plan",
     }
     for kind, items in rows.items():
