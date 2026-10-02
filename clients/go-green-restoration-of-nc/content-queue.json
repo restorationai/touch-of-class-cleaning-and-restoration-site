@@ -232,7 +232,7 @@
     },
     {
       "id": "2026-09-06-crawlspace-encapsulation",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-06T10:23:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -243,7 +243,8 @@
       "city_anchor": "smithfield-nc",
       "source": "app target-term (onboarding-backfill)",
       "written_at": "2026-10-02T16:24:50Z",
-      "post_url": "https://gogreenrestorationofnc.com/blog/crawlspace-encapsulation/"
+      "post_url": "https://gogreenrestorationofnc.com/blog/crawlspace-encapsulation/",
+      "published_verified_at": "2026-10-02T16:26:31Z"
     },
     {
       "id": "2026-09-06-water-damage",
