@@ -1106,7 +1106,7 @@
     },
     {
       "id": "2026-09-10-does-commercial-property-insurance-cover-water-damage",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-10T20:15:00Z",
       "written_at": "2026-10-02T01:55:08Z",
       "post_url": "https://flood-fixers.com/blog/does-commercial-property-insurance-cover-water-damage/",
@@ -1150,7 +1150,8 @@
           "context": "nswer\": \"Most commercial policies cover mold remediation only when it results directly from a co",
           "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting"
         }
-      ]
+      ],
+      "published_verified_at": "2026-10-02T01:56:50Z"
     },
     {
       "id": "2026-09-10-who-is-responsible-for-water-damage-in-a-rental-property",
