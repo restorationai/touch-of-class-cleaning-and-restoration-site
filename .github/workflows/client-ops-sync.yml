@@ -30,6 +30,8 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    env:
+      PYTHONUNBUFFERED: '1'   # cancelled runs keep their logs (10-01)
     timeout-minutes: 60   # auto site-builds (seed->scaffold->render) blow the old 20m budget — HomeLyft's build got cancelled mid-render 2026-08-01
 
     steps:
@@ -519,6 +521,7 @@ jobs:
         run: python3 scripts/build_site.py autocolor --apply || echo "autocolor failed (non-fatal)"
 
       - name: Commit refreshed client data
+        if: always()   # a timed-out run still saves its work (10-01)
         run: |
           # sites/ too: the auto-build path (setup_ledger.ensure_auto_site_build)
           # scaffolds + renders sites/{slug} in this job — committing only
@@ -540,7 +543,7 @@ jobs:
           fi
 
       - name: Alert on failure
-        if: failure()
+        if: failure() || cancelled()
         env:
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
         run: |

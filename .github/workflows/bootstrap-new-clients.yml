@@ -26,6 +26,8 @@ jobs:
     # ~19 hours because the build only ever ran in the once-daily ops sync.
     # Same budget the ops-sync job uses for the same work.
     timeout-minutes: 60
+    env:
+      PYTHONUNBUFFERED: '1'   # cancelled runs keep their logs
 
     steps:
       - name: Checkout repo
@@ -74,6 +76,9 @@ jobs:
             ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '--send' }}
 
       - name: Commit new client files
+        # always(): a run cancelled at the job limit must still save what
+        # it built (2026-10-01: 15+ cancelled runs, every one thrown away)
+        if: always()
         run: |
           # sites/ too — the day-one blitz's auto build scaffolds + renders
           # sites/{slug} in this job; committing only clients/ would throw the
@@ -100,7 +105,7 @@ jobs:
           fi
 
       - name: Alert on failure
-        if: failure()
+        if: failure() || cancelled()
         env:
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
         run: |
