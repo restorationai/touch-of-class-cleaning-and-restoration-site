@@ -23,13 +23,13 @@
   "status": "active",
   "video_publish_mode": "public",
   "created_at": "2026-06-29T20:08:03.446673+00:00",
-  "updated_at": "2026-10-02T01:55:45.703611+00:00",
+  "updated_at": "2026-10-02T19:33:19.700003+00:00",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 162,
-    "generated_at": "2026-10-01T05:03:56.435999+00:00"
+    "url_count": 179,
+    "generated_at": "2026-10-02T19:33:19.700000+00:00"
   },
   "build": {
     "scaffolded_at": "2026-09-24T17:22:07.400892+00:00",
@@ -38,11 +38,11 @@
     "starter_version": "0.1.0",
     "url_count": 233,
     "pages_status": "exists",
-    "last_rendered_at": "2026-10-02T17:21:03.906013+00:00",
+    "last_rendered_at": "2026-10-02T19:33:53.948328+00:00",
     "last_pushed_staging_at": "2026-09-24T23:16:31.913794+00:00",
-    "last_pushed_main_at": "2026-10-02T01:55:45.703591+00:00"
+    "last_pushed_main_at": "2026-10-02T04:53:02.724060+00:00"
   },
-  "build_status": "content_partial",
+  "build_status": "content_rendered",
   "indexnow_key": "7ba7475fb4a24ee48bb843392ddc71a8",
   "cloudflare": {
     "zone_id": "0e9dec42e9729ffd6424b2472144d4b4"
@@ -78,5 +78,10 @@
   "brightlocal": {
     "location_id": 4152726,
     "campaign_id": 999574
+  },
+  "home_city_confirmed": {
+    "at": "2026-10-02",
+    "by": "Santino",
+    "why": "existing client: site home city intentionally left as is (watchdog home-city check skips it)"
   }
 }

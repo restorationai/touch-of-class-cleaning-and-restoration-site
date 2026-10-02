@@ -130,5 +130,10 @@
   "brand": {
     "iicrc_firm_number": "210213",
     "iicrc_firm_valid_through": "2026-12-31"
+  },
+  "home_city_confirmed": {
+    "at": "2026-10-02",
+    "by": "Santino",
+    "why": "existing client: site home city intentionally left as is (watchdog home-city check skips it)"
   }
 }

@@ -801,7 +801,8 @@ def check_onboarding() -> list[str]:
                 _want = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}&select=city") or [{}])[0].get("city") or ""
                 _src = "registered address"
             _n = lambda c: re.sub(r"\btwp\b", "township", str(c).strip().lower())  # noqa: E731
-            if _prim and _want and _n(_prim.get("city", "")) != _n(_want):
+            _ok = _json.loads((ROOT / "clients" / f"{slug}.json").read_text()).get("home_city_confirmed")
+            if _prim and _want and not _ok and _n(_prim.get("city", "")) != _n(_want):
                 flag("areas", f"{slug} site home city '{_prim.get('city')}' but {_src} city '{_want.strip()}'")
         except (OSError, ValueError):
             pass
