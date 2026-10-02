@@ -197,10 +197,10 @@
     },
     {
       "id": "2026-09-21-attic-mold-remediation",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-21T17:32:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-10-02T02:03:57Z",
+      "post_url": "https://desertvalleycontracting.net/blog/attic-mold-remediation-las-vegas/",
       "primary_keyword": "attic mold remediation",
       "intent": "transactional",
       "volume": 2900,
