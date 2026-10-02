@@ -2,13 +2,18 @@
 import { ArrowRightCircle } from '@lucide/astro';
 import { brand } from '~/lib/brand';
 import { serviceImage, srcsetFor } from '~/lib/images';
-import type { CollectionEntry } from 'astro:content';
+import { getCollection, type CollectionEntry } from 'astro:content';
 
 type Props = {
   services: CollectionEntry<'services'>[];
 };
 
 const { services } = Astro.props;
+
+// every rendered service, highest priority first (home-city link list below)
+const homeCityServices = (await getCollection('services'))
+  .filter((s) => s.data.service_slug && (s.data as any).rendered !== false)
+  .sort((a, b) => ((b.data as any).priority || 0) - ((a.data as any).priority || 0));
 ---
 
 <section class="bg-dark py-16 text-white">
@@ -61,5 +66,19 @@ const { services } = Astro.props;
         );
       })}
     </div>
+      {/* ALL SERVICES IN THE HOME CITY (Santino 2026-10-02): every service page
+        is the "{service} in {home city}" page; the cards above only feature
+        the pinned core set, so this list gives each one a city-anchored link
+        from the homepage. Inherits the section's text colour (light + dark). */}
+    {homeCityServices.length > 0 && (
+      <div class="mt-12">
+        <h3 class="text-sm font-black uppercase tracking-widest mb-4" style="color: inherit; opacity: .8">All our services in {brand.primaryCity}</h3>
+        <ul class="flex flex-wrap gap-x-6 gap-y-2 list-none p-0 m-0">
+          {homeCityServices.map((s) => (
+            <li><a href={`/services/${s.data.service_slug}/`} class="underline decoration-1 underline-offset-4 hover:opacity-100" style="color: inherit; opacity: .85">{s.data.service_display} in {brand.primaryCity}</a></li>
+          ))}
+        </ul>
+      </div>
+    )}
   </div>
 </section>

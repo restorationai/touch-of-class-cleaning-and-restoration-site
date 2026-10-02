@@ -20,7 +20,21 @@ const data = entry.data;
 const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
 
 // Sister cross-product pages for this area, sorted by priority
-const locations = (await getCollection("locations"))
+// HOME CITY (Santino 2026-10-02): the home city has no city x service
+// pages (each /services/{slug}/ page IS "{service} in {home city}"), so its
+// hub lists EVERY service, linked to the main service page.
+const homeServices = data.primary
+  ? (await getCollection("services"))
+      .filter((s) => s.data.service_slug && (s.data as any).rendered !== false)
+      .sort((a, b) => ((b.data as any).priority || 0) - ((a.data as any).priority || 0))
+      .map((s) => ({ href: `/services/${s.data.service_slug}/`,
+                     data: { area_slug: data.area_slug, service_slug: s.data.service_slug,
+                             service_display: s.data.service_display || s.data.h1,
+                             city: data.city, state: data.state,
+                             meta_description: s.data.meta_description || "",
+                             priority: (s.data as any).priority || 0 } }))
+  : [];
+const locations: any[] = data.primary ? homeServices : (await getCollection("locations"))
   .filter((l) => l.data.area_slug === data.area_slug)
   .sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0));
 
@@ -86,7 +100,7 @@ const otherLocs = locations.filter((l) => l !== primaryLoc);
         </div>
         {primaryLoc && (
           <a
-            href={`/service-areas/${primaryLoc.data.area_slug}/${primaryLoc.data.service_slug}/`}
+            href={primaryLoc.href ?? `/service-areas/${primaryLoc.data.area_slug}/${primaryLoc.data.service_slug}/`}
             class="group block max-w-3xl mx-auto mb-10 p-8 rounded-lg border-2 border-accent/60 bg-white/5 hover:bg-white/10 hover:border-accent transition-all no-underline text-center"
           >
             <div class="eyebrow">Most Requested</div>
@@ -101,7 +115,7 @@ const otherLocs = locations.filter((l) => l !== primaryLoc);
         )}
         <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {otherLocs.map((l) => (
-            <a href={`/service-areas/${l.data.area_slug}/${l.data.service_slug}/`} class="group block p-6 rounded-lg border border-white/10 bg-white/5 hover:bg-white/10 hover:border-primary/40 transition-all no-underline">
+            <a href={l.href ?? `/service-areas/${l.data.area_slug}/${l.data.service_slug}/`} class="group block p-6 rounded-lg border border-white/10 bg-white/5 hover:bg-white/10 hover:border-primary/40 transition-all no-underline">
               <div class="text-lg font-bold text-white mb-2">{l.data.service_display}</div>
               <p class="text-sm text-white/65 mb-4">{l.data.meta_description.slice(0, 100)}…</p>
               <span class="text-xs font-black uppercase tracking-widest text-primary-200 group-hover:text-white transition-colors">
