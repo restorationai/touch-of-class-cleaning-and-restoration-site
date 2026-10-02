@@ -53,7 +53,8 @@ def cmd_add(a) -> int:
            "status": "queued", "created_by": "claude-macbook",
            "created_at": _now().isoformat(),
            "allow_extra_recipient": bool(a.allow_extra_recipient),
-           "arm_rename": bool(a.arm_rename)}
+           "arm_rename": bool(a.arm_rename),
+           "cc": list(a.cc or [])}
     cc.kv_set(PREFIX + sid, row)
     print(f"queued {sid} for {row['send_at']} -> {a.company}/{a.contact_id}")
     return 0
@@ -92,9 +93,10 @@ def _send(v: dict) -> dict:
         cur = os.environ.get("CONCIERGE_ALLOWLIST", "")
         os.environ["CONCIERGE_ALLOWLIST"] = f"{cur},{num}" if cur else num
         cc._ALLOW_CACHE.clear()
+    _extra = {"cc": v["cc"]} if v.get("cc") else {}
     r = cc.send_message(contact, v.get("channel") or "sms", v["body"],
                         subject=v.get("subject"), company=comp,
-                        human_hold_exempt=True)
+                        human_hold_exempt=True, **_extra)
     state = cc.load_state()
     cc.record_sent_message(state, r)
     cc.save_state(state, dry_run=False)
@@ -158,6 +160,8 @@ def main() -> int:
     ad.add_argument("--subject")
     ad.add_argument("--channel", default="sms", choices=("sms", "email"))
     ad.add_argument("--allow-extra-recipient", action="store_true")
+    ad.add_argument("--cc", action="append", default=[],
+                    help="email CC address (repeatable; owner on vendor threads)")
     ad.add_argument("--arm-rename", action="store_true",
                     help="this message offers name options: arm Monica's rename "
                          "conversation (stage=options) when it sends")
