@@ -589,7 +589,7 @@
     },
     {
       "id": "2026-09-10-what-to-throw-away-after-smoke-damage",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-10T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -622,8 +622,7 @@
         "https://www.epa.gov/indoor-air-quality-iaq"
       ],
       "notes": "KD 0 at 210/mo and the single most list-shaped query in the family, which makes it strong AI-retrieval fuel. Organise as keep-versus-discard by category: food and medication and cosmetics (always discard), porous soft goods, mattresses, electronics, and hard non-porous surfaces (usually cleanable). Critical claim-protection message: photograph and inventory everything BEFORE discarding, because an insurer will not reimburse what was never documented. Tie to contents pack-out and note that professional cleaning saves more than homeowners expect.",
-      "source": "keyword-researcher",
-      "banked_at": "2026-09-24T22:24:15.045813+00:00"
+      "source": "keyword-researcher"
     },
     {
       "id": "2026-09-10-fire-damage-restoration-cost",

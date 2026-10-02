@@ -1076,7 +1076,7 @@
     },
     {
       "id": "2026-08-27-homeowners-insurance-for-storm-damage",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-27T05:45:00Z",
       "written_at": null,
       "post_url": null,
@@ -1111,8 +1111,7 @@
         "https://www.iii.org/article/understanding-your-insurance-deductible",
         "https://www.floodsmart.gov/"
       ],
-      "notes": "Highest-volume in-scope keyword this seed produced (590/mo, KD 22). Companion piece to the existing /blog/does-homeowners-insurance-cover-water-damage/ post: that one covers water specifically, this one covers the storm/monsoon claim path end to end (wind-driven rain vs flood exclusion, ACV vs replacement cost, mitigation duty). Nevada angle: standard HO-3 policies exclude flood, and Clark County monsoon flash flooding is the exact scenario homeowners assume is covered but is not. Link the mitigation-duty section straight to the water damage restoration service page: insurers require prompt mitigation, which is the client's actual product.",
-      "banked_at": "2026-09-24T22:24:15.048305+00:00"
+      "notes": "Highest-volume in-scope keyword this seed produced (590/mo, KD 22). Companion piece to the existing /blog/does-homeowners-insurance-cover-water-damage/ post: that one covers water specifically, this one covers the storm/monsoon claim path end to end (wind-driven rain vs flood exclusion, ACV vs replacement cost, mitigation duty). Nevada angle: standard HO-3 policies exclude flood, and Clark County monsoon flash flooding is the exact scenario homeowners assume is covered but is not. Link the mitigation-duty section straight to the water damage restoration service page: insurers require prompt mitigation, which is the client's actual product."
     },
     {
       "id": "2026-08-27-does-homeowners-insurance-cover-wind-damage",

@@ -553,7 +553,7 @@
     },
     {
       "id": "2026-09-21-what-causes-basement-flooding-michigan",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-21T16:50:00Z",
       "written_at": null,
       "post_url": null,
@@ -585,8 +585,7 @@
         "https://www.michigan.gov/difs",
         "https://www.epa.gov/mold"
       ],
-      "notes": "No measured Google volume, surfaced by the ChatGPT decomposition and scored intent-first per the GEO rule. Southeast Michigan has a specific causal stack worth naming: heavy clay soil that sheds water toward foundations, combined storm and sanitary sewers that surcharge in summer downpours, spring thaw over still-frozen ground, and sump pump failure during the power cuts that come with the same storms. Pair causes with fixes, and link to the existing prevention post rather than repeating it.",
-      "banked_at": "2026-09-24T22:24:15.038805+00:00"
+      "notes": "No measured Google volume, surfaced by the ChatGPT decomposition and scored intent-first per the GEO rule. Southeast Michigan has a specific causal stack worth naming: heavy clay soil that sheds water toward foundations, combined storm and sanitary sewers that surcharge in summer downpours, spring thaw over still-frozen ground, and sump pump failure during the power cuts that come with the same storms. Pair causes with fixes, and link to the existing prevention post rather than repeating it."
     },
     {
       "id": "2026-09-21-water-damage-restoration-process-steps",
