@@ -596,6 +596,15 @@
     "/service-areas/highland-wa/fire-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/basin-city-wa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/basin-city-wa/",
+    "/service-areas/basin-city-wa/water-damage-restoration/",
+    "/service-areas/basin-city-wa/water-cleanup/",
+    "/service-areas/connell-wa/fire-damage-restoration/",
+    "/service-areas/highland-wa/fire-damage-restoration/",
+    "/contact/"
+  ],
   "/service-areas/basin-city-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/basin-city-wa/",

@@ -25,4 +25,8 @@ The rules below live as code in `scripts/sms_compliance.py`, which both pipeline
 6. **Entity type** must match the IRS record (LLC vs Corporation vs sole proprietor). `a2p_state.business_type` overrides the LLC default. Davis was a corporation.
 7. **A2P objects live in the client's subaccount.** The secondary profile, end users, address and A2P bundle are created in the client's Twilio subaccount and linked to our approved ISV primary profile in the master. Built in the master, every brand failed with "Unable to fetch A2P Profile Bundle".
 8. **Don't wait on Twilio approvals mid-chain.** Twilio's ISV guide says the next step can proceed while a profile is in review. Stop only on a rejection.
-9. **Never register the client's toll-free number into a 10DLC campaign.** A2P uses the local number bought for it (`a2p_state.number_sid`).
+9. **Business email on the business domain.** Dry Bros was rejected 2026-09-10 ("Business Email Address Must Use an Official Domain") and Flood Fixers 2026-08-04 ("Business Information Could Not Be Verified").
+   - The contact email must be @their-domain, never Gmail or another free mail service. Preflight holds the submission otherwise.
+   - Never put "DBA" inside the business name ("Good Home Construction LLC DBA Flood Fixers"). The legal entity goes in BusinessName and the brand goes in DoingBusinessAs.
+10. **Rejections have an edit window** (about 2 weeks). Inside it, fix and resubmit the same verification. After it closes, delete it and submit a new one. DISS sat rejected for a week because the retry didn't know the 30488 wording; it does now.
+11. **Never register the client's toll-free number into a 10DLC campaign.** A2P uses the local number bought for it (`a2p_state.number_sid`).

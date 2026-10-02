@@ -17,7 +17,8 @@
   "build": {
     "scaffolded_at": "2026-10-01T14:22:38.781682+00:00",
     "github_repo": "restorationai/restoration-resource-site",
-    "note": "restored 2026-10-01 from the staging deploy repo after ops-sync timeouts lost the monorepo copy"
+    "note": "restored 2026-10-01 from the staging deploy repo after ops-sync timeouts lost the monorepo copy",
+    "last_rendered_at": "2026-10-02T04:20:43.312917+00:00"
   },
   "build_status": "pushed_staging",
   "cutover_prep": {

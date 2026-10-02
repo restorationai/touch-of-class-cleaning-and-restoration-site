@@ -2787,6 +2787,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/basin-city-wa/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Fire Damage Restoration in Basin City, WA | Restoration Resource ",
+      "h1": "24/7 Emergency Fire Damage Restoration in Basin City",
+      "meta_description": "24/7 emergency fire damage restoration in Basin City, WA. IICRC-certified, insurance billing accepted. Call +15095281166.",
+      "primary_keyword": "fire damage restoration basin city",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/basin-city-wa/",
+        "/service-areas/basin-city-wa/water-damage-restoration/",
+        "/service-areas/basin-city-wa/water-cleanup/",
+        "/service-areas/connell-wa/fire-damage-restoration/",
+        "/service-areas/highland-wa/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/basin-city-wa/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [

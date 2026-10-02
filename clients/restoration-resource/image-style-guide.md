@@ -100,7 +100,7 @@ Every image that depicts a person must show a worker in branded company uniform.
 ### Uniform specifications
 - **Top**: Polo or work shirt in the client's primary brand color (`#0d1b3e`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
-- **Branding**: Restoration Resource  or Restoration Resource  embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
+- **Branding**: Restoration Resource  or Restoration embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
 - **PPE**: Match the service context (see service-specific notes below) — gloves always, respirators / face shields / Tyvek suits when the service warrants it.
 - **Footwear**: Sturdy work boots, never sneakers.
 
