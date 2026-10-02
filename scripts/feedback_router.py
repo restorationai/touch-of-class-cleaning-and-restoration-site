@@ -349,6 +349,14 @@ def parse_origin(body: str) -> dict | None:
             if label.lower() == h.group(1).strip().lower():
                 out["cat"] = key
                 break
+    # The company name rides the header line on every card; the group
+    # close-out (dev_inbox) names each sister site from it.
+    h = _HEADER_RE.search(body)
+    if h:
+        out.setdefault("company", h.group(3).strip())
+    w = body.split("\n", 2)
+    if len(w) > 1 and w[1].strip() and not w[1].startswith("WHERE:"):
+        out.setdefault("what", w[1].strip()[:240])
     # The client's verbatim words live on their own labelled line.
     q = re.search(r'THEY SAID:\s*"(.+?)"\s*$', body, re.M | re.S)
     if q:
@@ -360,9 +368,18 @@ def compose_task_note(fb: dict, *, tag: str, company_name: str, slug: str,
                       who: str, site_live: bool, site_url: str | None,
                       verdict_why: str, when: str,
                       origin_channel: str = "sms",
-                      email_ref: dict | None = None) -> str:
+                      email_ref: dict | None = None,
+                      group: str | None = None,
+                      also_for: list[str] | None = None) -> str:
     """The queued note. Written for a human to read at a glance and for the
-    dev agent to execute from, with one machine-readable trailer."""
+    dev agent to execute from, with one machine-readable trailer.
+
+    `group` ties together every card filed off ONE client message (several
+    asks, and/or the same ask fanned out to sister companies that share the
+    contact). dev_inbox holds the client's "done" until every card in the
+    group is verified live, so one message never claims a sister site that
+    nobody touched (All Pro / ProRestoration 2026-09-29). `also_for` names
+    the sister cards in plain words for the agent."""
     cat = str(fb.get("category") or "other").lower()
     label, _, tool = CATEGORIES.get(cat, CATEGORIES["other"])
     where = str(fb.get("where") or "").strip() or "not specified"
@@ -376,10 +393,17 @@ def compose_task_note(fb: dict, *, tag: str, company_name: str, slug: str,
         + (f" ({site_url})" if site_url else ""),
         f"LIKELY TOOL: {tool}",
     ]
+    if also_for:
+        lines.append("ALSO FILED FOR: " + "; ".join(also_for) + ". The client "
+                     "shares one phone with these sister companies and this "
+                     "ask covers them too; each sister has its own card. The "
+                     "client hears ONE message, after every card is verified "
+                     "on its own live site.")
     if tag == "[DEV]":
-        lines.append("WHEN DONE: dev_inbox.py done files the [FROM SANTINO] "
-                     "note automatically, so Monica tells them it is fixed "
-                     "with the link. Do not text the client yourself.")
+        lines.append("WHEN DONE: verify on the LIVE site, then dev_inbox.py "
+                     "done (with --area-add/--area-remove or --verify) files "
+                     "the [FROM SANTINO] note, so Monica tells them it is "
+                     "fixed with the link. Do not text the client yourself.")
     else:
         lines.append(f"WHY THIS NEEDS YOUR OK: {verdict_why}. Approve and it "
                      "becomes a [DEV] task on tonight's run; dismiss and "
@@ -396,7 +420,8 @@ def compose_task_note(fb: dict, *, tag: str, company_name: str, slug: str,
         f"{ORIGIN_MARK} | who={who} | cat={cat} | conf="
         f"{str(fb.get('confidence') or 'low').lower()} | slug={slug}"
         + (" | live=1" if site_live else "")
-        + f" | ch={origin_channel}" + em)
+        + f" | ch={origin_channel}" + em
+        + (f" | grp={group}" if group else ""))
     return "\n".join(lines)
 
 
@@ -426,6 +451,342 @@ def compose_done_directive(origin: dict, summary: str,
                 "them anything else in this message, no other item rides "
                 "along.")
     return "\n".join(body)
+
+
+def compose_group_directive(who: str, quote: str, done: list[str],
+                            pending: list[str], links: list[str],
+                            verified: bool = True) -> str:
+    """The client update for a whole GROUP of cards (one message's asks,
+    across every sister site it covered), or for a card whose live check
+    only partly passed.
+
+    `done` lines are VERIFIED on the live site; `pending` lines are not.
+    With nothing pending this is the normal DONE directive. With anything
+    pending it is a PROGRESS directive that forbids the word done for the
+    open part (Shana/Angie 2026-09-29..10-02: Monica said "Done, Bakersfield
+    is at the top of your service areas" when one of three lists had it and
+    the sister site had nothing)."""
+    q = (quote or "").strip().rstrip(".!, ")
+    head = (f'{who} asked us: "{q[:180]}". ' if q else f"{who} asked us for "
+            "a website change. ")
+    if not pending:
+        body = [
+            "[FROM SANTINO] " + head + "It is DONE now"
+            + (" and verified on the live site" + ("s" if len(links) > 1
+                                                    else "")
+               if verified else "") + ".",
+            "Tell them in one or two short lines what changed ("
+            + "; ".join(d[:200] for d in done)[:600]
+            + ") and that they can take another look.",
+        ]
+        if links:
+            body.append("Include " + ("these links: " if len(links) > 1
+                                      else "this link: ") + " ".join(links))
+        body.append("Past tense is correct here, the work is "
+                    + ("verified" if verified else "recorded") + ". Do "
+                    "not ask them anything else in this message, no other "
+                    "item rides along.")
+        return "\n".join(body)
+    body = [
+        "[FROM SANTINO] PROGRESS UPDATE, NOT DONE YET. " + head,
+        "VERIFIED FINISHED on the live site: "
+        + ("; ".join(d[:200] for d in done)[:600] if done else "nothing yet")
+        + ".",
+        "STILL IN PROGRESS (not finished, not verified): "
+        + "; ".join(p[:200] for p in pending)[:600] + ".",
+        "Tell them both halves in one or two short lines: what is finished"
+        + (" (with the link)" if links and done else "")
+        + " and what we are still working on. Never say done, fixed, all "
+        "set, complete or 'take another look' about the in-progress part, "
+        "and never imply everything is finished.",
+    ]
+    if links and done:
+        body.append("Link for the finished part: " + " ".join(links))
+    body.append("Do not ask them anything else in this message.")
+    return "\n".join(body)
+
+
+# ---------------------------------------------------------------- shared owners
+# ONE PHONE, TWO COMPANIES (Santino 2026-10-02, All Pro + ProRestoration).
+# Jack Bispo owns both; his office manager texts from one shared number, so
+# both companies resolve to ONE GHL contact and the inbound poll hands every
+# message to whichever company the tracked map happened to keep. On 09-29
+# she asked for East Niles out and Bakersfield first "on both websites";
+# the work went to All Pro only, Monica said "Done", and ProRestoration was
+# never touched. Same shape: Dry County + RT Olson (Bob).
+#
+# The rule: a site change from a shared contact is filed for EVERY company
+# it plausibly covers. "Both" said anywhere, or a generic change (service
+# areas, hours/phone/address, social links) with no company named, fans out
+# to all of them. A change that names one company goes to that one. What is
+# left (a design or image tweak with no company named and no clue in the
+# conversation) is genuinely ambiguous: Monica asks which site.
+SHARED_GENERIC_CATS = frozenset({"service_area", "facts", "site_links"})
+# Trailing words that describe the trade, not the brand: "All Pro Plumbing
+# Heating and Air" is "All Pro" when a person says it out loud.
+_TRADE_WORDS = frozenset({
+    "plumbing", "heating", "air", "and", "&", "hvac", "cooling",
+    "conditioning", "services", "service", "restoration", "inc", "inc.",
+    "llc", "co", "co.", "company", "corp", "the", "of", "construction",
+    "cleaning", "water", "damage", "mitigation", "group", ","})
+_BOTH_RE = re.compile(
+    r"\bboth\s+(?:of\s+(?:the|our|my)\s+)?(?:web\s*)?(?:sites?|pages|"
+    r"companies|businesses|accounts|listings|of\s+them)\b"
+    r"|\b(?:on|for|to|in|at|with)\s+both\b"
+    r"|\b(?:all|each|every)\s+(?:of\s+)?(?:our|the|my)?\s*(?:web\s*)?sites\b"
+    r"|\beach\s+(?:web\s*)?site\b|\bboth\s+(?:co|biz)\b", re.I)
+
+
+def company_short_name(name: str) -> str:
+    """'All Pro Plumbing Heating and Air' -> 'All Pro';
+    'ProRestoration Services' -> 'ProRestoration'. Strips trade words off
+    the END only, so a brand that starts with one keeps it."""
+    words = re.sub(r"[,]", " ", str(name or "")).split()
+    while len(words) > 1 and words[-1].lower() in _TRADE_WORDS:
+        words.pop()
+    return " ".join(words) or str(name or "").strip()
+
+
+def _squash(s: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", (s or "").lower())
+
+
+def companies_named(text: str, companies: list[dict]) -> list[dict]:
+    """Which of `companies` the text names: by short brand name ('All Pro',
+    'ProRestoration', 'RT Olson'), by domain stem, or by trade when only one
+    company carries that trade word ('the plumbing site')."""
+    t = " " + re.sub(r"[^a-z0-9]+", " ", (text or "").lower()) + " "
+    sq = _squash(text)
+    hits = []
+    for co in companies:
+        short = company_short_name(co.get("name") or "")
+        keys = {short.lower()}
+        dom = str(co.get("domain") or "").lower()
+        dom = re.sub(r"^https?://|^www\.|/.*$", "", dom).split(".")[0]
+        if len(dom) >= 6:
+            keys.add(dom)
+        named = False
+        for k in keys:
+            kn = re.sub(r"[^a-z0-9]+", " ", k).strip()
+            if len(_squash(kn)) < 4:
+                continue
+            if f" {kn} " in t or (len(_squash(kn)) >= 7 and _squash(kn) in sq):
+                named = True
+        if not named:
+            for trade in ("plumbing", "restoration", "roofing", "hvac"):
+                owners = [c for c in companies
+                          if trade in (c.get("name") or "").lower()]
+                if (len(owners) == 1 and owners[0] is co and re.search(
+                        rf"\b{trade}\s+(?:web\s*)?(?:site|page|one|company)\b",
+                        t)):
+                    named = True
+        if named:
+            hits.append(co)
+    return hits
+
+
+def resolve_company_targets(fb: dict, text: str, primary: dict,
+                            sisters: list[dict]) -> tuple[list[dict], str]:
+    """Which companies one feedback item is filed for. Pure.
+
+    Returns (companies, mode). mode is one of:
+      single  no sister companies share this contact (the normal case)
+      both    the client said both / each site (in this message or the
+              recent thread `text` carries)
+      named   the message names a subset of the companies
+      generic a service-area / business-fact / link change with no company
+              named: true of every site the owner runs, so all of them
+      model   the classifier attributed it from the conversation
+      ask     genuinely ambiguous: file nothing, Monica asks which site
+    """
+    if not sisters:
+        return [primary], "single"
+    allc = [primary] + [s for s in sisters if s.get("id") != primary.get("id")]
+    if _BOTH_RE.search(text or "") or _BOTH_RE.search(str(fb.get("quote") or "")):
+        return allc, "both"
+    named = companies_named(" ".join([str(fb.get("quote") or ""), text or ""]),
+                            allc)
+    if named and len(named) < len(allc):
+        return named, "named"
+    if named and len(named) == len(allc):
+        return allc, "both"
+    applies = [str(x).strip().lower() for x in (fb.get("applies_to") or [])
+               if str(x).strip()]
+    if "all" in applies or "both" in applies:
+        return allc, "both"
+    if str(fb.get("category") or "").lower() in SHARED_GENERIC_CATS:
+        return allc, "generic"
+    by_slug = [c for c in allc if str(c.get("slug") or "").lower() in applies]
+    if by_slug:
+        return by_slug, "model"
+    return [], "ask"
+
+
+def which_site_question(companies: list[dict]) -> str:
+    names = [company_short_name(c.get("name") or "") for c in companies]
+    if len(names) == 2:
+        opts = f"the {names[0]} site, the {names[1]} site, or both"
+    else:
+        opts = ", ".join(f"the {n} site" for n in names) + ", or all of them"
+    return f"Quick check so we change the right one: is that for {opts}?"
+
+
+# ---------------------------------------------------------------- live proof
+# NEVER "DONE" BEFORE IT IS VERIFIED EVERYWHERE (Santino 2026-10-02). The
+# dev agent's 09-29 handbacks said "Verified live" and they were true for the
+# one surface it looked at: Bakersfield was the first tile on /service-areas/
+# while the homepage area list and the footer list (the two places the
+# client actually looked) still did not have it. A client-feedback card for
+# a website change now closes only when these checks pass against the LIVE
+# HTML, on every list surface, for every company card in the group.
+WEB_CATS = frozenset({"imagery", "design", "brand", "service_area", "copy",
+                      "facts", "site_links"})
+# "Bakersfield, CA" as an area label: a city name, comma, two-letter state.
+_AREA_LABEL_RE = re.compile(r"^([A-Z][A-Za-z.'\- ]{1,40}?),\s*([A-Z]{2})\b")
+_SPEC_RE = re.compile(r"^\s*(\S+?)(?:#(\w+))?\s+(has|lacks|status)\s+(.+?)\s*$",
+                      re.I)
+
+
+def scope_html(html: str, scope: str | None) -> str:
+    """The part of a page one check looks at. main = the page body proper
+    (falls back to everything minus header/nav/footer); footer; header (the
+    header plus every nav, where area dropdowns live); page = everything."""
+    html = html or ""
+    sc = (scope or "page").lower()
+    if sc == "footer":
+        return "\n".join(re.findall(r"<footer\b.*?</footer>", html, re.S | re.I))
+    if sc in ("header", "nav"):
+        return "\n".join(re.findall(r"<header\b.*?</header>|<nav\b.*?</nav>",
+                                    html, re.S | re.I))
+    if sc == "main":
+        m = re.findall(r"<main\b.*?</main>", html, re.S | re.I)
+        if m:
+            return "\n".join(m)
+        return re.sub(r"<header\b.*?</header>|<nav\b.*?</nav>|"
+                      r"<footer\b.*?</footer>", " ", html, flags=re.S | re.I)
+    return html
+
+
+def visible_text(html: str) -> str:
+    import html as _html
+    t = re.sub(r"<script\b.*?</script>|<style\b.*?</style>|<svg\b.*?</svg>",
+               " ", html or "", flags=re.S | re.I)
+    t = _html.unescape(re.sub(r"<[^>]+>", " ", t))
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def _city_key(s: str) -> str:
+    s = re.sub(r",\s*[A-Za-z]{2}\.?$", "", str(s or "").strip())
+    return re.sub(r"[^a-z]+", " ", s.lower()).strip()
+
+
+def area_labels(html: str) -> list[str]:
+    """Ordered, de-duplicated city labels ('Bakersfield, CA') found in link
+    and list-item text — the clickable area lists, NOT prose. Prose is the
+    trap: 'Proudly serving Bakersfield' and the footer's address both say
+    Bakersfield on a page whose area list does not have it."""
+    out: list[str] = []
+    seen: set[str] = set()
+    for m in re.finditer(r"<(a|li)\b[^>]*>(.*?)</\1>", html or "", re.S | re.I):
+        txt = visible_text(m.group(2))
+        lm = _AREA_LABEL_RE.match(txt)
+        if not lm:
+            continue
+        k = _city_key(lm.group(1))
+        if k and k not in seen:
+            seen.add(k)
+            out.append(f"{lm.group(1).strip()}, {lm.group(2)}")
+    return out
+
+
+def service_area_surfaces(base: str) -> list[tuple[str, str, str, bool]]:
+    """Every place a site lists its service areas, as (label, url, scope,
+    required). The /service-areas/ page must carry a list; the homepage
+    body, footer and header menu are checked whenever they carry one."""
+    b = base.rstrip("/")
+    return [("service areas page", b + "/service-areas/", "main", True),
+            ("homepage area list", b + "/", "main", False),
+            ("footer area list", b + "/", "footer", False),
+            ("header menu area list", b + "/", "header", False)]
+
+
+def check_area_lists(pages: dict[str, str], surfaces, *, add=(), remove=(),
+                     first=None, na: dict | None = None) -> list[dict]:
+    """Pure: run the service-area checks over fetched pages.
+
+    pages: url -> html ('' when the fetch failed). A surface counts as an
+    area list when it carries 3+ city labels. Returns one row per check:
+    {"surface", "url", "ok", "detail", "human"}; `human` is the phrase the
+    client update uses ("Bakersfield shows on the footer area list")."""
+    na = {str(k).lower(): v for k, v in (na or {}).items()}
+    rows: list[dict] = []
+    for label, url, scope, required in surfaces:
+        key = label.split()[0].lower()
+        if key in na or label.lower() in na:
+            rows.append({"surface": label, "url": url, "ok": True,
+                         "detail": f"n/a by agent: {na.get(key) or na.get(label.lower())}",
+                         "human": None})
+            continue
+        html = pages.get(url)
+        if not html:
+            rows.append({"surface": label, "url": url, "ok": False,
+                         "detail": "could not fetch the live page",
+                         "human": f"the {label}"})
+            continue
+        labels = area_labels(scope_html(html, scope))
+        keys = [_city_key(x) for x in labels]
+        if len(labels) < 3:
+            if required:
+                rows.append({"surface": label, "url": url, "ok": False,
+                             "detail": "no area list found on this page",
+                             "human": f"the {label}"})
+            continue
+        for city in add:
+            ok = _city_key(city) in keys
+            rows.append({"surface": label, "url": url, "ok": ok,
+                         "detail": (f"{city} listed" if ok else
+                                    f"{city} NOT in the list ({', '.join(labels[:6])}...)"),
+                         "human": f"{city} on the {label}"})
+        if first:
+            ok = bool(keys) and keys[0] == _city_key(first)
+            rows.append({"surface": label, "url": url, "ok": ok,
+                         "detail": (f"{first} is first" if ok else
+                                    f"first is {labels[0] if labels else '?'}, "
+                                    f"not {first}"),
+                         "human": f"{first} listed first on the {label}"})
+        for city in remove:
+            ok = _city_key(city) not in keys
+            rows.append({"surface": label, "url": url, "ok": ok,
+                         "detail": (f"{city} gone" if ok else
+                                    f"{city} STILL listed"),
+                         "human": f"{city} off the {label}"})
+    return rows
+
+
+def parse_verify_spec(spec: str) -> tuple[str, str | None, str, str] | None:
+    """'URL[#scope] has|lacks TEXT' or 'URL status CODE'. URL may be a path
+    ('/about/'), joined to the site's base by the caller."""
+    m = _SPEC_RE.match(spec or "")
+    if not m:
+        return None
+    return m.group(1), m.group(2), m.group(3).lower(), m.group(4).strip("\"' ")
+
+
+def check_spec(html: str | None, status: int | None, scope: str | None,
+               op: str, arg: str) -> tuple[bool, str]:
+    """Pure: one generic --verify check against a fetched page."""
+    if op == "status":
+        ok = str(status) == arg.strip()
+        return ok, f"HTTP {status} (want {arg})"
+    if not html:
+        return False, "could not fetch the live page"
+    text = visible_text(scope_html(html, scope)).lower()
+    needle = re.sub(r"\s+", " ", arg).strip().lower()
+    present = needle in text
+    if op == "has":
+        return present, (f"found {arg!r}" if present else f"{arg!r} NOT found")
+    return (not present), (f"{arg!r} absent" if not present
+                           else f"{arg!r} STILL present")
 
 
 # ---------------------------------------------------------------- supabase
@@ -571,7 +932,9 @@ def route_feedback(company: dict, feedback: list[dict], *, who: str,
                    when: str | None = None, dry_run: bool = False,
                    escalate=None, limit: int = 4,
                    origin_channel: str = "sms",
-                   email_ref: dict | None = None) -> list[dict]:
+                   email_ref: dict | None = None,
+                   group: str | None = None,
+                   also_for: list[str] | None = None) -> list[dict]:
     """Turn a classifier `client_feedback` block into queued work.
 
     One note per feedback item: [DEV] when the gate says auto (the nightly
@@ -644,7 +1007,8 @@ def route_feedback(company: dict, feedback: list[dict], *, who: str,
                 fb, tag=tag, company_name=company.get("name") or "the client",
                 slug=slug or "?", who=who, site_live=live, site_url=url,
                 verdict_why=why, when=when,
-                origin_channel=origin_channel, email_ref=email_ref)
+                origin_channel=origin_channel, email_ref=email_ref,
+                group=group, also_for=also_for)
             print(f"  [feedback] {verdict.upper()} ({fb.get('category')}): "
                   f"{str(fb.get('what'))[:70]!r} — {why}")
             if dry_run:
@@ -998,8 +1362,140 @@ def _selftest() -> int:
     fails += not ok
     print(f"  {'ok  ' if ok else 'FAIL'} {d[:100]!r}")
 
+    fails += _selftest_shared_and_proof()
     print(f"\n{'ALL GREEN' if not fails else str(fails) + ' FAILURE(S)'}")
     return 1 if fails else 0
+
+
+def _selftest_shared_and_proof() -> int:
+    """Regression set for the 2026-09-29 All Pro / ProRestoration failure:
+    one shared phone, a "both websites" ask filed for one company, and a
+    "Done" that was true on one of three area lists."""
+    fails = 0
+
+    def check(ok: bool, label: str) -> None:
+        nonlocal fails
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {label}")
+
+    allpro = {"id": "CO-1783380243102", "slug": "all-pro-plumbing",
+              "name": "All Pro Plumbing Heating and Air",
+              "domain": "allproplumbingheatingandair.com"}
+    prores = {"id": "CO-1779551010975", "slug": "prorestoration",
+              "name": "ProRestoration Services", "domain": "prorestorationca.com"}
+    print("\nshared-contact requests reach EVERY sister company:")
+    sa = {"category": "service_area", "confidence": "high",
+          "what": "remove East Niles", "quote": "take off East Niles"}
+    t, m = resolve_company_targets(sa, "can you take off East Niles on both "
+                                   "websites", allpro, [prores])
+    check(m == "both" and len(t) == 2, f"'on both websites' -> both ({m})")
+    t, m = resolve_company_targets(sa, "Also on the Service areas can you "
+                                   "takeoff East Niles", allpro, [prores])
+    check(m == "generic" and len(t) == 2,
+          f"service-area ask naming no company -> all sites ({m})")
+    t, m = resolve_company_targets(
+        dict(sa, applies_to=["all-pro-plumbing"]),
+        "I looked on All Pro plumbing there is no Bakersfield listed at all",
+        allpro, [prores])
+    check(m == "named" and [c["id"] for c in t] == [allpro["id"]],
+          f"names All Pro -> All Pro only ({m})")
+    t, m = resolve_company_targets(sa, "the ProRestoration site still shows "
+                                   "Woody", allpro, [prores])
+    check(m == "named" and [c["id"] for c in t] == [prores["id"]],
+          f"names ProRestoration -> ProRestoration only ({m})")
+    img = {"category": "imagery", "confidence": "high",
+           "what": "swap the hero photo", "quote": "change the top picture"}
+    t, m = resolve_company_targets(img, "change the top picture", allpro,
+                                   [prores])
+    check(m == "ask" and not t, f"image tweak, no company named -> ask ({m})")
+    t, m = resolve_company_targets(dict(img, applies_to=["prorestoration"]),
+                                   "change the top picture", allpro, [prores])
+    check(m == "model" and [c["id"] for c in t] == [prores["id"]],
+          f"classifier attribution from the thread is used ({m})")
+    t, m = resolve_company_targets(img, "change the top picture", allpro, [])
+    check(m == "single" and t == [allpro], "no sisters -> unchanged path")
+    q = which_site_question([allpro, prores])
+    check("All Pro" in q and "ProRestoration" in q and "both" in q
+          and "\u2014" not in q, f"which-site question: {q!r}")
+
+    print("\ngrouped cards carry the group in the trailer:")
+    body = compose_task_note(sa, tag="[DEV]", company_name=prores["name"],
+                             slug="prorestoration", who="Angie",
+                             site_live=True, site_url="https://prorestorationca.com",
+                             verdict_why="ok", when="2026-09-29T00:00:00Z",
+                             group="ab12cd34ef",
+                             also_for=["All Pro Plumbing Heating and Air "
+                                       "(all-pro-plumbing)"])
+    o = parse_origin(body) or {}
+    check(o.get("grp") == "ab12cd34ef" and o.get("company") == prores["name"]
+          and o.get("what") == "remove East Niles" and "ALSO FILED FOR" in body,
+          f"grp/company/what parsed: {o.get('grp')}, {o.get('company')}")
+
+    print("\nlive proof: an area change is checked on EVERY list surface:")
+    tile = '<a href="/service-areas/{s}/">{c}, CA</a>'
+    def page(cities, footer_cities, prose=""):
+        lis = "".join(tile.format(s=c.lower().replace(" ", "-"), c=c)
+                      for c in cities)
+        fl = "".join(tile.format(s=c.lower().replace(" ", "-"), c=c)
+                     for c in footer_cities)
+        return (f"<html><header><nav>Home</nav></header><main><p>{prose}</p>"
+                f"<ul>{lis}</ul></main><footer><p>Bakersfield, CA 93308</p>"
+                f"{fl}</footer></html>")
+    base = "https://allpro.test"
+    surf = service_area_surfaces(base)
+    cities = ["Arvin", "Delano", "Lamont", "Taft"]
+    # The real 09-29 state: the /service-areas/ page got the tile, the
+    # homepage body and the footer did not, and the homepage PROSE plus the
+    # footer ADDRESS both say "Bakersfield" (the trap a text search falls in).
+    pages = {base + "/service-areas/": page(["Bakersfield"] + cities, cities),
+             base + "/": page(cities, cities,
+                              prose="Proudly serving Bakersfield, CA")}
+    rows = check_area_lists(pages, surf, add=["Bakersfield"],
+                            first="Bakersfield")
+    bad = sorted({r["surface"] for r in rows if not r["ok"]})
+    check(bad == ["footer area list", "homepage area list"],
+          f"09-29 state FAILS on homepage + footer: {bad}")
+    pages[base + "/"] = page(["Bakersfield"] + cities, ["Bakersfield"] + cities)
+    rows = check_area_lists(pages, surf, add=["Bakersfield"],
+                            first="Bakersfield", remove=["East Niles"])
+    check(rows and all(r["ok"] for r in rows),
+          "fixed everywhere -> every check passes")
+    pages[base + "/service-areas/"] = page(cities + ["East Niles"], cities)
+    rows = check_area_lists(pages, surf, remove=["East Niles"])
+    check(any(not r["ok"] and "STILL" in r["detail"] for r in rows),
+          "a removed city still on a list fails")
+    rows = check_area_lists({}, surf, add=["Bakersfield"])
+    check(rows and not any(r["ok"] for r in rows),
+          "an unreachable site never verifies")
+    rows = check_area_lists(pages, surf, add=["Arvin"],
+                            na={"footer": "lists the top 10 only"})
+    check(all(r["ok"] for r in rows) and any("n/a by agent" in r["detail"]
+                                             for r in rows),
+          "an agent-declared n/a surface is recorded, not silently skipped")
+
+    print("\ngeneric --verify specs:")
+    spec = parse_verify_spec("/about/#footer lacks East Niles")
+    check(spec == ("/about/", "footer", "lacks", "East Niles"), f"parse {spec}")
+    html = page(cities, cities)
+    check(check_spec(html, 200, "footer", "has", "Taft, CA")[0]
+          and not check_spec(html, 200, "footer", "has", "Woody")[0]
+          and check_spec(None, 301, None, "status", "301")[0],
+          "has / lacks / status")
+
+    print("\nthe client update never says done for an open part:")
+    d = compose_group_directive("Angie", "take off East Niles on both sites",
+                                ["All Pro: East Niles is off every list"],
+                                [], ["https://a.test", "https://b.test"])
+    check(d.startswith("[FROM SANTINO]") and "DONE" in d and "b.test" in d,
+          "all verified -> one DONE message with both links")
+    p = compose_group_directive("Angie", "take off East Niles on both sites",
+                                ["All Pro: East Niles is off every list"],
+                                ["ProRestoration: remove East Niles"],
+                                ["https://a.test"])
+    check("NOT DONE YET" in p and "STILL IN PROGRESS" in p
+          and "Never say done" in p and "\u2014" not in p,
+          "partial -> PROGRESS message that forbids 'done'")
+    return fails
 
 
 def _replay() -> int:

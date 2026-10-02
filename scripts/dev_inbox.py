@@ -41,7 +41,27 @@ Commands:
                             [FROM SANTINO] note that tells the client
     punt --id X --reason "why it could not be done safely"
                             resolve the note + file a question row instead
-                            (a waiting client is named in the row)
+                            (a waiting client is named in the row; anything
+                            already VERIFIED in its group goes to the client
+                            as a progress update, never as "done")
+
+LIVE PROOF BEFORE "DONE" (Santino 2026-10-02, All Pro / ProRestoration).
+A client-feedback card for a website change (cat in WEB_CATS) closes ONLY
+when its live checks pass. `done` fetches the LIVE site and checks:
+    --area-add CITY / --area-remove CITY / --area-first CITY   (repeatable)
+        service-area changes, checked on EVERY area list: the
+        /service-areas/ page, the homepage list, the footer list and a
+        header menu list when present. Required for cat=service_area.
+    --verify "URL[#main|#footer|#header] has|lacks TEXT" / "URL status 301"
+        generic checks (URL may be a path). At least one is required for
+        every other website category.
+    --surface-na "footer=lists the top 10 only"   (rare, recorded verbatim)
+On ANY failure nothing is resolved and nobody is told anything: the card
+stays open, its body records the check results, and the command exits 3.
+Fix it and re-run, or punt (which tells the client what IS verified and
+what is still in progress). Cards filed off one message share a `grp=`;
+the client hears ONE message, after the last open card in the group
+closes, naming what is verified and (if anything was punted) what is not.
 """
 from __future__ import annotations
 
@@ -63,8 +83,11 @@ except ImportError:
     pass
 
 from client_ops_sync import _sb, slug_map  # noqa: E402
-from feedback_router import (compose_done_directive, parse_origin,  # noqa: E402
-                             site_status)
+from feedback_router import (WEB_CATS, check_area_lists,  # noqa: E402
+                             check_spec, company_short_name,
+                             compose_done_directive, compose_group_directive,
+                             parse_origin, parse_verify_spec,
+                             service_area_surfaces, site_status)
 
 
 INBOX_PAGE = 1000
@@ -168,7 +191,8 @@ def _log(company_id: str, action: str, detail: str, evidence: dict) -> None:
 
 
 def close_the_loop(company_id: str, origin: dict, summary: str,
-                   link: str | None) -> None:
+                   link: str | None, directive: str | None = None,
+                   action: str = "client-feedback-notified") -> None:
     """File the [FROM SANTINO] note that sends the client their answer.
 
     Best-effort by design: the work is already done and already reviewable,
@@ -200,17 +224,197 @@ def close_the_loop(company_id: str, origin: dict, summary: str,
             print(f"loop closed: EMAIL reply queued — {who} hears it on "
                   "their own thread on the next mail pass")
         else:
-            body = compose_done_directive(origin, summary, link)
+            body = directive or compose_done_directive(origin, summary, link)
             _note(company_id, body)
             print(f"loop closed: [FROM SANTINO] filed — Monica tells {who} "
-                  f"it is done{' with ' + link if link else ''}")
-        _log(company_id, "client-feedback-notified",
-             f"Told {who} their website change was done: {summary[:140]}",
+                  + ("what is verified and what is still in progress"
+                     if "NOT DONE YET" in body else "it is done")
+                  + (f" with {link}" if link else ""))
+        _log(company_id, action,
+             (f"Told {who} which parts of their website change are finished "
+              f"and which are still in progress: {summary[:140]}"
+              if action != "client-feedback-notified" else
+              f"Told {who} their website change was done: {summary[:140]}"),
              {"who": who, "quote": (origin.get("quote") or "")[:300],
               "link": link, "category": origin.get("cat")})
     except Exception as e:  # noqa: BLE001
         print(f"WARNING: could not file the client notification ({e}). The "
               "review row is filed, so tell them by hand.", file=sys.stderr)
+
+
+# ---------------------------------------------------------------- live proof
+_UA = "Mozilla/5.0 (RankAI dev_inbox live-check)"
+
+
+def _http_get(url: str, follow: bool = True) -> tuple[int | None, str]:
+    """(status, html) for a LIVE url, cache-busted so a stale edge copy can
+    never pass a check. Never raises."""
+    import urllib.error
+    import urllib.request
+    import time as _t
+    sep = "&" if "?" in url else "?"
+    full = f"{url}{sep}_lc={int(_t.time())}"
+
+    class _NoRedirect(urllib.request.HTTPRedirectHandler):
+        def redirect_request(self, *a, **k):  # noqa: D401
+            return None
+    opener = (urllib.request.build_opener() if follow
+              else urllib.request.build_opener(_NoRedirect))
+    try:
+        req = urllib.request.Request(full, headers={
+            "User-Agent": _UA, "Cache-Control": "no-cache"})
+        with opener.open(req, timeout=25) as r:
+            return r.status, r.read().decode("utf-8", "replace")
+    except urllib.error.HTTPError as e:
+        return e.code, ""
+    except Exception as e:  # noqa: BLE001
+        print(f"  [live-check] fetch failed {url}: {str(e)[:90]}")
+        return None, ""
+
+
+def _abs(base: str, url: str) -> str:
+    if url.startswith("http"):
+        return url
+    return base.rstrip("/") + "/" + url.lstrip("/")
+
+
+def live_checks(base: str, *, area_add=(), area_remove=(), area_first=None,
+                verify=(), surface_na=()) -> list[dict]:
+    """Run every requested check against the LIVE site. Each row:
+    {surface, url, ok, detail, human}."""
+    rows: list[dict] = []
+    na = {}
+    for item in surface_na or ():
+        k, _, why = str(item).partition("=")
+        na[k.strip().lower()] = why.strip() or "declared n/a"
+    if area_add or area_remove or area_first:
+        surfaces = service_area_surfaces(base)
+        pages = {}
+        for _, url, _, _ in surfaces:
+            if url not in pages:
+                pages[url] = _http_get(url)[1]
+        rows += check_area_lists(pages, surfaces, add=list(area_add),
+                                 remove=list(area_remove), first=area_first,
+                                 na=na)
+    for spec in verify or ():
+        parsed = parse_verify_spec(spec)
+        if not parsed:
+            rows.append({"surface": spec, "url": "", "ok": False,
+                         "detail": "unparseable --verify spec (use 'URL[#scope] "
+                                   "has|lacks TEXT' or 'URL status CODE')",
+                         "human": None})
+            continue
+        url, scope, op, arg = parsed
+        url = _abs(base, url)
+        status, html = _http_get(url, follow=(op != "status"))
+        ok, detail = check_spec(html, status, scope, op, arg)
+        rows.append({"surface": f"{url}{'#' + scope if scope else ''}",
+                     "url": url, "ok": ok, "detail": detail,
+                     "human": f"{arg} {'on' if op == 'has' else 'off'} "
+                              f"{url.split('://', 1)[-1]}"
+                     if op != "status" else None})
+    return rows
+
+
+_CHECK_BLOCK_RE = re.compile(r"\nLIVE CHECK [^\n]*(?:\n  [^\n]*)*", re.M)
+
+
+def _record_checks(note: dict, rows: list[dict], verdict: str) -> str:
+    """Replace the card's LIVE CHECK block with this run's results (one
+    block, newest wins) and return the new body."""
+    stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%MZ")
+    block = (f"\nLIVE CHECK {stamp}: {verdict}\n"
+             + "\n".join(f"  {'OK  ' if r['ok'] else 'FAIL'} {r['surface']}: "
+                         f"{r['detail'][:140]}" for r in rows))
+    body = _CHECK_BLOCK_RE.sub("", note["body"]) + block
+    _sb("PATCH", f"/rest/v1/marketing_ops_notes?id=eq.{note['id']}",
+        {"body": body})
+    note["body"] = body
+    return body
+
+
+def _append_marker(note: dict, line: str) -> None:
+    body = note["body"].rstrip() + "\n" + line
+    _sb("PATCH", f"/rest/v1/marketing_ops_notes?id=eq.{note['id']}",
+        {"body": body})
+    note["body"] = body
+
+
+def _group_notes(grp: str) -> list[dict]:
+    """Every card filed off the same client message (any company)."""
+    try:
+        return _sb("GET", "/rest/v1/marketing_ops_notes?body=like."
+                   + quote(f"*grp={grp}*")
+                   + "&select=id,company_id,body,status,created_at"
+                   "&order=created_at.asc&limit=50") or []
+    except Exception as e:  # noqa: BLE001
+        print(f"  [group] lookup failed ({str(e)[:90]}) — treating as single")
+        return []
+
+
+_VERIFIED_RE = re.compile(r"^DONE-VERIFIED [^|]*\| (.*?) \| link=(\S*)", re.M)
+
+
+def _short(origin: dict | None, fallback: str = "") -> str:
+    return company_short_name((origin or {}).get("company") or fallback)
+
+
+def notify_group(note: dict, origin: dict, *, punted: bool = False) -> str:
+    """Tell the client about a group once nothing in it is still being
+    worked tonight. Returns what happened (for the review row)."""
+    grp = origin.get("grp")
+    members = _group_notes(grp) if grp else []
+    if not any(m["id"] == note["id"] for m in members):
+        members.append(note)
+    # A sibling the agent can still finish keeps the message on hold: the
+    # client hears ONE truthful message, not "done" for half the ask.
+    waiting = [m for m in members if m["id"] != note["id"]
+               and m.get("status") == "open"
+               and (m.get("body") or "").startswith("[DEV]")]
+    if waiting:
+        names = ", ".join(sorted({_short(parse_origin(m["body"]), "?")
+                                  for m in waiting}))
+        print(f"client update HELD: {len(waiting)} card(s) in this request "
+              f"are still open ({names}); the last one to close sends ONE "
+              "message covering all of them")
+        return "held until the rest of the request is verified"
+    multi = len({m.get("company_id") for m in members}) > 1
+    done, pending, links, told = [], [], [], []
+    for m in members:
+        b = m.get("body") or ""
+        if "\nCLIENT-TOLD-DONE" in b:
+            continue
+        o = parse_origin(b) or {}
+        tag = (_short(o) + ": ") if multi else ""
+        v = _VERIFIED_RE.search(b)
+        if v:
+            done.append(tag + v.group(1).strip())
+            if v.group(2) and v.group(2) not in links:
+                links.append(v.group(2))
+            told.append(m)
+        else:
+            pending.append(tag + (o.get("what") or "the rest of the request"))
+    if not done:
+        print("client update: nothing verified yet, nothing to tell")
+        return "nothing verified, client not told"
+    directive = compose_group_directive(
+        origin.get("who") or "the client", origin.get("quote") or "",
+        done, pending, links,
+        verified=all("LIVE CHECK" in (m.get("body") or "") for m in told))
+    # `summary` is what an EMAIL-channel reply says verbatim (email_intake
+    # has no LLM pass), so it never quotes our internal task wording.
+    summary = "; ".join(done)[:300] + (
+        ". We are still finishing the rest of this request and will let you "
+        "know as soon as that part is live too" if pending else "")
+    close_the_loop(note["company_id"], origin, summary,
+                   links[0] if links else None, directive=directive,
+                   action=("client-feedback-progress" if pending
+                           else "client-feedback-notified"))
+    for m in told:
+        _append_marker(m, "CLIENT-TOLD-DONE "
+                       + datetime.now(timezone.utc).strftime("%Y-%m-%d"))
+    return ("client told what is verified and what is still in progress"
+            if pending else "client told it is done (verified live)")
 
 
 def main() -> int:
@@ -232,6 +436,25 @@ def main() -> int:
     pd.add_argument("--no-notify", action="store_true",
                     help="skip the client notification — use ONLY when the "
                          "change is not yet visible to them")
+    # LIVE PROOF (2026-10-02): required for client-feedback website cards.
+    pd.add_argument("--area-add", action="append", default=[],
+                    metavar="CITY", help="city that must now be on EVERY "
+                    "live area list (repeatable)")
+    pd.add_argument("--area-remove", action="append", default=[],
+                    metavar="CITY", help="city that must be gone from EVERY "
+                    "live area list (repeatable)")
+    pd.add_argument("--area-first", default=None, metavar="CITY",
+                    help="city that must be FIRST on every live area list")
+    pd.add_argument("--verify", action="append", default=[], metavar="SPEC",
+                    help="'URL[#main|#footer|#header] has|lacks TEXT' or "
+                         "'URL status CODE' (repeatable; URL may be a path)")
+    pd.add_argument("--surface-na", action="append", default=[],
+                    metavar="SURFACE=WHY", help="declare an area-list surface "
+                    "not applicable, e.g. 'footer=lists the top 10 only' "
+                    "(recorded on the card and in Santino's review row)")
+    pd.add_argument("--base", default="",
+                    help="site base URL to verify against (defaults to the "
+                         "live apex, else the preview URL on file)")
     pp = sub.add_parser("punt")
     pp.add_argument("--id", required=True)
     pp.add_argument("--reason", required=True)
@@ -245,45 +468,118 @@ def main() -> int:
         return 0
 
     rows = _sb("GET", f"/rest/v1/marketing_ops_notes?id=eq.{a.id}"
-               "&select=id,company_id,body") or []
+               "&select=id,company_id,body,status") or []
     if not rows:
         print(f"ERROR: note {a.id} not found", file=sys.stderr)
         return 1
     note = rows[0]
     origin = parse_origin(note["body"])
+    task_text = note["body"][:120]
+    cat = str((origin or {}).get("cat") or "other").lower()
+    base = ""
+    proof_line = ""
+    # NEVER "DONE" BEFORE IT IS VERIFIED EVERYWHERE (Santino 2026-10-02).
+    # The card is checked against the LIVE site BEFORE anything is resolved;
+    # a failure leaves it open and tells nobody anything.
+    # Checks the agent passes always run (a meeting card is cat=other but
+    # may still be a site change); WEB_CATS cards cannot close without them.
+    has_area = a.cmd == "done" and bool(a.area_add or a.area_remove
+                                        or a.area_first)
+    has_checks = a.cmd == "done" and (has_area or bool(a.verify))
+    needs_proof = (a.cmd == "done" and bool(origin) and not a.no_notify
+                   and (cat in WEB_CATS or has_checks))
+    if needs_proof:
+        if cat == "service_area" and not has_area:
+            print("REFUSED: a service-area card closes only with live proof "
+                  "on every area list. Re-run with --area-add / "
+                  "--area-remove / --area-first CITY (the card stays open).",
+                  file=sys.stderr)
+            return 2
+        if not has_area and not a.verify:
+            print("REFUSED: a client-feedback website card closes only with "
+                  "live proof. Re-run with --verify 'URL[#scope] has|lacks "
+                  "TEXT' for every page/list the change appears on (the "
+                  "card stays open).", file=sys.stderr)
+            return 2
+        base = a.base.strip()
+        if not base:
+            _, _, base = site_status(note["company_id"], origin.get("slug"))
+        if not base:
+            print("REFUSED: no live or preview URL on file to verify against; "
+                  "pass --base URL (the card stays open).", file=sys.stderr)
+            return 2
+        checks = live_checks(base, area_add=a.area_add,
+                             area_remove=a.area_remove,
+                             area_first=a.area_first, verify=a.verify,
+                             surface_na=a.surface_na)
+        failed = [r for r in checks if not r["ok"]]
+        for r in checks:
+            print(f"  {'OK  ' if r['ok'] else 'FAIL'} {r['surface']}: "
+                  f"{r['detail'][:120]}")
+        if not checks or failed:
+            _record_checks(note, checks, "FAILED, card stays open, client "
+                           "NOT told")
+            print(f"LIVE CHECK FAILED on {len(failed) or 'all'} check(s) at "
+                  f"{base}. Nothing resolved and the client was told nothing. "
+                  "Fix every failing surface (deploy, wait for it to go live) "
+                  "and re-run done, or punt with what is still open.",
+                  file=sys.stderr)
+            return 3
+        _record_checks(note, checks, "PASSED")
+        nas = [r["detail"] for r in checks if "n/a by agent" in r["detail"]]
+        proof_line = (f" Live-verified at {base} ({len(checks)} checks"
+                      + (f"; {'; '.join(nas)}" if nas else "") + ").")
+
     now = datetime.now(timezone.utc).isoformat()
     _sb("PATCH", f"/rest/v1/marketing_ops_notes?id=eq.{a.id}",
         {"status": "resolved", "resolved_at": now})
-    task_text = note["body"][:120]
+    note["status"] = "resolved"
     if a.cmd == "done" and not origin and _handback_on_file(
             note["company_id"], "[TODO-SANTINO] Review: dev agent finished",
             task_text):
         print("resolved (identical review row already open, not re-filed)")
     elif a.cmd == "done":
+        client_line = a.client_line.strip() or _plainify(a.summary)
+        outcome = ""
+        if origin and not a.no_notify:
+            if needs_proof or origin.get("grp"):
+                link = a.link.strip() or (
+                    base.rstrip("/") + "/service-areas/"
+                    if base and cat == "service_area" else base) or ""
+                if not link:
+                    _, _, link = site_status(note["company_id"],
+                                             origin.get("slug"))
+                _append_marker(note, "DONE-VERIFIED "
+                               + now[:10] + " | "
+                               + client_line.replace("|", ",")[:220]
+                               + f" | link={link or ''}")
+                outcome = notify_group(note, origin)
+            else:
+                close_the_loop(note["company_id"], origin, client_line,
+                               a.link.strip() or None)
+                outcome = "client told it is done"
         _note(note["company_id"],
-              f"[TODO-SANTINO] Review: dev agent finished — {a.summary} "
+              f"[TODO-SANTINO] Review: dev agent finished — {a.summary}"
+              f"{proof_line} "
               f"(task was: {note['body'][:120]}) Hit Done after you eyeball it."
-              + (f" CLIENT WAITING: {origin.get('who')} asked for this, and "
-                 "Monica has been told to tell them it is done." if origin
-                 else ""))
+              + (f" CLIENT WAITING: {origin.get('who')} asked for this; "
+                 f"{outcome or 'client NOT notified (--no-notify)'}."
+                 if origin else ""))
         print("resolved + review row filed")
         # One client-readable ledger line per completed task — this is what
         # the app's Monthly Summary tab shows the client (monthly_summary.py
         # prefers evidence.client_line over the technical detail).
-        client_line = a.client_line.strip() or _plainify(a.summary)
         if origin:
             _log(note["company_id"], "client-feedback-done",
                  f"Made the website change {origin.get('who') or 'the client'} "
                  f"asked for: {client_line[:140]}",
                  {"quote": (origin.get("quote") or "")[:300],
                   "category": origin.get("cat"), "note_id": a.id,
-                  "summary": a.summary[:200], "client_line": client_line})
+                  "summary": a.summary[:200], "client_line": client_line,
+                  "live_verified": bool(needs_proof)})
             if a.no_notify:
                 print("client notification SKIPPED (--no-notify) — the "
                       "review row still names them as waiting")
-            else:
-                close_the_loop(note["company_id"], origin, client_line,
-                               a.link.strip() or None)
         else:
             _log(note["company_id"], "dev-task-done",
                  f"Website work completed: {client_line[:150]}",
@@ -293,12 +589,20 @@ def main() -> int:
                            "[TODO-SANTINO] Dev agent NEEDS INPUT", task_text):
         print("resolved (identical NEEDS INPUT row already open, not re-filed)")
     else:
+        # A punted card in a multi-card request: whatever the rest of the
+        # request already VERIFIED goes to the client as a progress update
+        # (never "done"), and this card is named as still in progress.
+        told = ""
+        if origin and origin.get("grp"):
+            told = notify_group(note, origin, punted=True)
         _note(note["company_id"],
               f"[TODO-SANTINO] Dev agent NEEDS INPUT: {a.reason} "
               f"(task was: {note['body'][:120]})"
               + (f" A CLIENT IS WAITING ON THIS: {origin.get('who')} said "
-                 f"\"{(origin.get('quote') or '')[:120]}\" — they have not "
-                 "been told anything yet." if origin else ""))
+                 f"\"{(origin.get('quote') or '')[:120]}\" — "
+                 + (f"{told}." if told and "told" in told and "not told"
+                    not in told else "they have not been told anything yet.")
+                 if origin else ""))
         print("resolved + needs-input row filed")
     return 0
 

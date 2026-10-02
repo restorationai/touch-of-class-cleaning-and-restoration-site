@@ -36,8 +36,11 @@ person is waiting on the other end of each one. See "Client-feedback tasks".
      [TODO-SANTINO] Review row carrying the answer) or, if the findings
      demand a human decision, punt with the answer in the reason.
 3. For each machine-doable task, decide: is it a concrete site change you can verify?
-   - YES → execute it (rules below), then
-     `python3 scripts/dev_inbox.py done --id <id> --summary "<one sentence of what changed>" --client-line "<the same fact in words the CLIENT reads>"`
+   - YES → execute it (rules below), deploy, wait until it is LIVE, then
+     `python3 scripts/dev_inbox.py done --id <id> --summary "<one sentence of what changed>" --client-line "<the same fact in words the CLIENT reads>" <live checks>`
+     For a client-feedback website card the live checks are REQUIRED (see
+     "Live proof before done"); `done` refuses (exit 2) without them and
+     refuses (exit 3, card stays open, client told nothing) when any fails.
    - NO / ambiguous / risky → do NOT guess:
      `python3 scripts/dev_inbox.py punt --id <id> --reason "<what's unclear or why it's unsafe>"`
    ALWAYS pass `--client-line`. It lands verbatim in the client's Monthly
@@ -77,6 +80,14 @@ Rules specific to these:
 - **The client is waiting.** Prefer punting with a real question over
   guessing, but do not punt to avoid work: `conf=high` items were already
   screened as unambiguous by the router and by Santino's own gate.
+- **Sister sites (ALSO FILED FOR).** Some owners run two of our clients from
+  one phone (All Pro + ProRestoration = Jack/Angie/Shana; Dry County + RT
+  Olson = Bob). A request that covers both arrives as one card PER company,
+  sharing a `grp=` in the ORIGIN trailer and naming the sister on an
+  `ALSO FILED FOR:` line. Do every card. The client hears ONE message, sent
+  automatically when the last card of the group closes, so closing one
+  sister and leaving the other is never "done" to them. If a sister card is
+  not in your bucket, do yours; the other agent does its own.
 - **You never text the client.** `dev_inbox.py done` files the [FROM SANTINO]
   note and Monica sends it in her voice. Pass `--link <url>` when the right
   link is not the site's default (a specific page they should look at), and
@@ -88,6 +99,51 @@ Rules specific to these:
   `clients/{slug}/plan-input.json` (brand / service_areas). Both are
   regeneration-safe: `plan_site.py generate` preserves the CLIENT DIRECTION
   block, and plan-input is what a rebuild re-reads.
+
+## Live proof before done (Santino 2026-10-02)
+
+On 09-29 Angie asked for East Niles off and Bakersfield first "on both
+websites". The agent fixed All Pro's /service-areas/ page, wrote "Verified
+live" (true for that one page), and Monica texted "Done, Bakersfield is at
+the top of your service areas". The homepage area list and the footer list
+still lacked it, and ProRestoration was never touched. Shana texted Santino
+that nothing gets fixed. So `done` now checks the LIVE site itself:
+
+- **Service areas** (cat=service_area): pass every city you changed.
+  `--area-add Bakersfield --area-first Bakersfield --area-remove "East Niles"`
+  is checked on EVERY area list the site shows: the /service-areas/ page,
+  the homepage area list, the footer area list, and a header/nav menu list
+  when there is one. "Listed" means a `City, ST` link or list item in that
+  list; prose like "Proudly serving Bakersfield" and the footer address do
+  NOT count. So before you call done, make the change on every one of
+  those surfaces (they are usually separate components fed by plan-input
+  or brand.ts; the home city is often excluded from the grids by the
+  home-city consolidation, so a client asking for their home city to be
+  listed means adding it to EACH list, linked to the homepage if there is
+  no area page).
+- **Everything else** (imagery, design, brand, copy, facts, site_links):
+  one `--verify` per page or list the change appears on:
+  `--verify "/#footer has 916-966-2601"`, `--verify "/about/ lacks Since 1998"`,
+  `--verify "/service-areas/woody-ca/ status 301"`. Scopes: `#main`,
+  `#footer`, `#header` (header + nav); no scope = whole page. Think about
+  EVERY place the fact shows (header, footer, contact page, schema-facing
+  pages), not just the one the client mentioned.
+- `--surface-na "footer=lists the top 10 areas only"` declares one area
+  surface not applicable. It is printed in Santino's review row; use it
+  only when the surface genuinely does not show that kind of list.
+- **Failed check = not done.** Nothing is resolved and nobody is told. The
+  card keeps a LIVE CHECK block with what failed. Fix the failing surface,
+  redeploy, wait for it to be live (Pages deploys take a minute or two;
+  checks are cache-busted), and run `done` again. If you cannot finish it
+  this run, `punt` with what is still open: the client then gets an honest
+  progress update (what IS verified, what is still in progress), never
+  "done".
+- Never write "Verified live" in a summary yourself; the LIVE CHECK block
+  `done` records is the verification.
+- `--no-notify` skips the checks and the client message. Use it only when
+  the change is genuinely not visible yet (pages queued in the cloud
+  renderer, site not built); prefer leaving the card OPEN so the next run
+  verifies and closes it with proof.
 
 ## Fulfilment competencies
 
@@ -290,6 +346,12 @@ logo/livery corrections.
    - rebuild the sitemap, run claims-lint, deploy per the SITE line.
    Punt ONLY a removal nobody asked for, or one whose redirect target you
    genuinely cannot determine.
+7. EVERY LIST SURFACE, EVERY SISTER SITE. A city added or removed must be
+   right on the /service-areas/ page, the homepage area list, the footer
+   area list and any nav menu list, on THIS site and on the sister card's
+   site when the card says ALSO FILED FOR. Close with
+   `done ... --area-add/--area-remove/--area-first CITY` (see "Live proof
+   before done"); that is what checks all of them against the live HTML.
 
 ### Copy and facts
 

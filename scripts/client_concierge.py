@@ -8171,6 +8171,27 @@ on how they arrived (Google, Bing, an ad, their metro). So:
     its own category, and "what" must end with "(do not change which
     number is displayed)". This is the case that once overwrote a tracking
     line (Frontline 2026-09-12); saying so in "what" keeps it from repeating.
+SHARED-OWNER CONTACTS (Santino 2026-10-02, All Pro + ProRestoration): when a
+"Sister companies" block is provided, this ONE phone/email thread belongs to
+an owner who runs MORE THAN ONE of our client companies, each with its own
+website (Jack Bispo: All Pro Plumbing Heating and Air AND ProRestoration
+Services, texted by his office manager Angie or Shana from one shared
+number; Bob Olson: Dry County Restoration AND RT Olson Plumbing). A change
+request then applies to whichever sites it names, and the default is NOT
+"the company this thread is filed under". For EVERY client_feedback entry
+add "applies_to": a list of the company slugs from that block it covers.
+  - They say "both", "both websites", "each site", or the change is true of
+    the business everywhere (service areas, hours, address, phone, social
+    links) and they name no single site -> ["all"]
+  - They name one company or its site ("on All Pro", "the restoration
+    site", a link or screenshot of one site) -> that slug only
+  - A look/image/wording tweak that names no site and nothing in the
+    thread says which -> ["ask"], and suggested_reply asks exactly one
+    short question: which site, or both. Never guess.
+On 09-29 the office manager asked to take East Niles off and put
+Bakersfield first "on both websites"; it was filed for All Pro only and
+ProRestoration was never touched. That is the failure this rule prevents.
+Without a "Sister companies" block, omit applies_to.
 NOT feedback: compliments, approvals ("go ahead and launch it"), questions
 about how something works, anything about their Google listing / reviews /
 ads / billing (EXCEPT where a tracking number forwards: that is
@@ -8296,6 +8317,8 @@ Return ONLY JSON:
                                 "reason": string}],
  "client_feedback": [{"category": "imagery|design|brand|service_area|copy|
                                    facts|site_links|call_routing|rejection|other",
+                      "applies_to": ["<slug>"|"all"|"ask"] (only with a
+                                    Sister companies block),
                       "source": string|null, "forward_to": string|null,
                       "what": string, "where": string,
                       "quote": "<their words, verbatim>",
@@ -8413,6 +8436,49 @@ def _tracked_contacts(state: dict) -> dict[str, str]:
         if cs.get("ghl_contact_id"):
             out[cs["ghl_contact_id"]] = cid
     return out
+
+
+def sister_companies(company: dict, contact_id: str | None,
+                     state: dict) -> list[dict]:
+    """Other ACTIVE client companies that share this company's GHL contact.
+
+    Same-owner pairs (All Pro + ProRestoration share Jack's office phone;
+    Dry County + RT Olson share Bob) resolve to ONE GHL contact, and the
+    tracked map keeps only one company per contact, so every inbound from
+    that phone is processed under whichever company won the map. A change
+    request then reached one company only (2026-09-29: "both websites"
+    went to All Pro, ProRestoration was never touched). Returns
+    [{"id","name","slug","domain"}] for the OTHER companies; [] normally.
+    Never raises."""
+    try:
+        cid = company.get("id")
+        comps = (state or {}).get("companies") or {}
+        key = contact_id or (comps.get(cid) or {}).get("ghl_contact_id")
+        if not key:
+            return []
+        ids = sorted(o for o, cs in comps.items()
+                     if o != cid and (cs or {}).get("ghl_contact_id") == key)
+        if not ids:
+            return []
+        rows = fetch_companies(ids)
+        out = []
+        for o in ids:
+            co = rows.get(o)
+            if not co or company_inactive(co):
+                continue
+            slug = company_slug(o)
+            dom = ""
+            try:
+                from feedback_router import site_status
+                dom = site_status(o, slug)[2] or ""
+            except Exception:  # noqa: BLE001
+                pass
+            out.append({"id": o, "name": (co.get("name") or o).strip(),
+                        "slug": slug, "domain": dom, "_row": co})
+        return out
+    except Exception as e:  # noqa: BLE001 — never break the poll
+        print(f"    [sisters] lookup failed: {str(e)[:90]}")
+        return []
 
 
 def _company_for_contact(contact_id: str, state: dict) -> str | None:
@@ -12138,6 +12204,156 @@ def _maybe_execute_optout(company: dict, msgs: list[dict],
         print(f"  [optout] failed: {str(e)[:120]}")
 
 
+
+# ---------------------------------------------------------------- shared owner
+_PENDING_SITE_CHOICE_H = 72
+_BARE_BOTH_RE = re.compile(
+    r"^\W*(?:both|all|all of them|both of them|both please|both sites|"
+    r"both websites|each|either)\b", re.I)
+
+
+def _company_ref(company: dict) -> dict:
+    """{"id","name","slug","domain","_row"} for the shared-owner resolver."""
+    slug = company_slug(company.get("id") or "")
+    dom = ""
+    try:
+        from feedback_router import site_status
+        dom = site_status(company["id"], slug)[2] or ""
+    except Exception:  # noqa: BLE001
+        pass
+    return {"id": company.get("id"), "name": (company.get("name") or "").strip(),
+            "slug": slug, "domain": dom, "_row": company}
+
+
+def _which_site_directive(company: dict, grp: str, question: str,
+                          fbs: list[dict], dry_run: bool) -> None:
+    """[FOR MONICA] directive that makes the which-site question survive
+    every reply path (the webhook compose never sees the classifier's draft).
+    Marker-deduped like the opt-out directives."""
+    marker = f"WHICH-SITE-{grp}"
+    asks = "; ".join(str(f.get("what") or "")[:90] for f in fbs)[:300]
+    body = (f"[FOR MONICA] {marker} The client asked for a website change "
+            f"that could be for either of their companies ({asks}). Ask "
+            f"exactly this, nothing else: \"{question}\" If the latest "
+            "outbound in the thread already asked which site, do not ask "
+            "again. Do NOT say it is being done or done until they answer; "
+            "their answer routes the work automatically.")
+    try:
+        if _sb("GET", "/rest/v1/marketing_ops_notes?"
+               f"company_id=eq.{company['id']}&body=like.*{marker}*"
+               "&select=id&limit=1"):
+            return
+        if dry_run:
+            print(f"    [dry-run] would file directive {marker}")
+            return
+        _sb("POST", "/rest/v1/marketing_ops_notes",
+            {"company_id": company["id"], "body": body,
+             "author": "monica", "status": "open"})
+    except Exception as e:  # noqa: BLE001
+        print(f"    [which-site] directive failed: {str(e)[:90]}")
+
+
+def route_inbound_feedback(company: dict, fbs: list[dict], *, msg: dict,
+                           who: str, sisters: list[dict],
+                           primary_ref: dict | None, thread_text: str,
+                           cs: dict, dry_run: bool, escalate,
+                           group: str | None = None) -> tuple[int, str | None]:
+    """Route one message's client_feedback blocks into [DEV] work, across
+    EVERY company the ask covers (Santino 2026-10-02, All Pro +
+    ProRestoration: one shared phone, "both websites", one company served).
+
+    No sisters: exactly the old single-company route (a multi-item message
+    is grouped so the client hears one "done" for the whole message).
+    Sisters: each item resolves to its companies (feedback_router.
+    resolve_company_targets); all cards off this message share a group, so
+    dev_inbox holds the client's "done" until every site is verified. An
+    item that is genuinely ambiguous files nothing: it is parked in company
+    state and Monica asks which site. Returns (cards_queued, question)."""
+    from feedback_router import (company_short_name, resolve_company_targets,
+                                 route_feedback, which_site_question)
+    when = msg["ts"].isoformat() if msg.get("ts") else None
+    grp = group or (hashlib.sha1(f"{company.get('id')}|{msg.get('id')}"
+                                 .encode()).hexdigest()[:10]
+                    if (sisters or len(fbs) > 1) else None)
+    if not sisters:
+        routed = route_feedback(company, fbs, who=who, when=when,
+                                dry_run=dry_run, escalate=escalate, group=grp)
+        return len(routed), None
+    primary_ref = primary_ref or _company_ref(company)
+    refs = {r["id"]: r for r in [primary_ref] + sisters}
+    per: dict[str, list[dict]] = {}
+    asks: list[dict] = []
+    for fb in fbs:
+        targets, mode = resolve_company_targets(fb, thread_text, primary_ref,
+                                                sisters)
+        names = ", ".join(company_short_name(t["name"]) for t in targets)
+        print(f"    [shared-contact] {str(fb.get('what'))[:60]!r} -> {mode}"
+              + (f": {names}" if names else " (asking which site)"))
+        if mode == "ask":
+            asks.append(fb)
+            continue
+        for t in targets:
+            per.setdefault(t["id"], []).append(fb)
+    n = 0
+    for cid, items in per.items():
+        co = company if cid == company.get("id") else refs[cid]["_row"]
+        also = [f"{refs[o]['name']} ({refs[o]['slug']})" for o in per
+                if o != cid]
+        routed = route_feedback(co, items, who=who, when=when,
+                                dry_run=dry_run, escalate=escalate,
+                                group=grp, also_for=also or None)
+        n += len(routed)
+    question = None
+    if asks:
+        question = which_site_question([primary_ref] + sisters)
+        cs["pending_site_choice"] = {
+            "at": datetime.now(timezone.utc).isoformat(), "fbs": asks,
+            "who": who, "grp": grp, "msg_id": msg.get("id")}
+        _which_site_directive(company, grp or "x", question, asks, dry_run)
+    return n, question
+
+
+def resolve_pending_site_choice(company: dict, msg: dict, *, who: str,
+                                sisters: list[dict], primary_ref: dict | None,
+                                cs: dict, dry_run: bool, escalate) -> int:
+    """The client answered "which site?": route the parked asks now. A bare
+    "both" counts; a company name counts. Anything else leaves them parked
+    (the question is still open) until the 72h window drops them, loudly."""
+    pend = cs.get("pending_site_choice")
+    if not pend or not sisters:
+        return 0
+    at = _as_utc(pend.get("at"))
+    if not at or datetime.now(timezone.utc) - at > timedelta(
+            hours=_PENDING_SITE_CHOICE_H):
+        cs.pop("pending_site_choice", None)
+        escalate("client never said which site a website change was for "
+                 "(asked 72h ago), nothing was filed: "
+                 + "; ".join(str(f.get("what"))[:80]
+                             for f in pend.get("fbs") or [])[:300])
+        return 0
+    from feedback_router import resolve_company_targets
+    primary_ref = primary_ref or _company_ref(company)
+    body = msg.get("body") or ""
+    probe = {"category": "design", "quote": body}
+    targets, mode = resolve_company_targets(probe, body, primary_ref, sisters)
+    if _BARE_BOTH_RE.match(body):
+        mode = "both"
+    if mode not in ("both", "named"):
+        return 0
+    fbs = [dict(f, applies_to=(["all"] if mode == "both"
+                               else [t.get("slug") for t in targets]))
+           for f in pend.get("fbs") or []]
+    cs.pop("pending_site_choice", None)
+    print(f"    [which-site] answered ({mode}) — routing "
+          f"{len(fbs)} parked ask(s)")
+    n, _ = route_inbound_feedback(
+        company, fbs, msg=msg, who=who, sisters=sisters,
+        primary_ref=primary_ref,
+        thread_text=("on both websites" if mode == "both" else body),
+        cs=cs, dry_run=dry_run, escalate=escalate, group=pend.get("grp"))
+    return n
+
+
 def process_inbound_messages(state: dict, company: dict, contact_id: str,
                              msgs: list[dict], do_send: bool, dry_run: bool,
                              compose_next: bool = False) -> dict:
@@ -12191,6 +12407,21 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
     intel_block = (
         f"\n\nMeeting intel (INTERNAL team notes — context only, never "
         f"quote to the client):\n{intel}" if intel else "")
+    # SHARED-OWNER CONTACT (2026-10-02): one phone, several companies. The
+    # classifier must know every site this thread can be talking about.
+    sisters = sister_companies(company, contact_id, state)
+    primary_ref = _company_ref(company) if sisters else None
+    sister_block = ""
+    if sisters:
+        sister_block = (
+            "\n\nSister companies (this ONE contact/thread belongs to an owner "
+            "who runs ALL of these, each with its own website; see "
+            "SHARED-OWNER CONTACTS):\n" + "\n".join(
+                f"- {r['name']} (slug {r['slug']}, site "
+                f"{r['domain'] or 'not live yet'})"
+                for r in [primary_ref] + sisters))
+        print(f"  [shared-contact] {company.get('name')} shares this contact "
+              "with: " + ", ".join(r["name"] for r in sisters))
     # Business-hours enforcement needs the contact's own timezone field.
     contact_payload = None
     if do_send:
@@ -12408,7 +12639,7 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
         result = anthropic_json(
             CLASSIFY_SYSTEM,
             f"Open items for {company['name']}:\n{item_list}"
-            f"{history_block}{intel_block}\n\n"
+            f"{history_block}{intel_block}{sister_block}\n\n"
             f"Inbound reply:\n{msg['body'][:1200]}",
             images=vision or None)
         # FULL ANALYSIS (every message): the single classify call also says
@@ -12500,17 +12731,42 @@ def process_inbound_messages(state: dict, company: dict, contact_id: str,
             pass
         fbs = result.get("client_feedback") or []
         out["feedback_seen"] = out.get("feedback_seen", 0) + len(fbs)
+        _who = contact_first_name(contact_payload, company)
+        _esc = (lambda r, _m=msg: append_escalation(
+            company, _m, r, dry_run, ping=False))
+        if sisters and cs_reset.get("pending_site_choice"):
+            # They may be answering our "which site?" question.
+            try:
+                n_p = resolve_pending_site_choice(
+                    company, msg, who=_who, sisters=sisters,
+                    primary_ref=primary_ref, cs=cs_reset, dry_run=dry_run,
+                    escalate=_esc)
+                out["queued"] = out.get("queued", 0) + n_p
+            except Exception as e:  # noqa: BLE001
+                print(f"    [which-site] resolve failed: {str(e)[:90]}")
         if fbs:
             try:
-                from feedback_router import route_feedback
-                routed = route_feedback(
-                    company, fbs,
-                    who=contact_first_name(contact_payload, company),
-                    when=msg["ts"].isoformat(), dry_run=dry_run,
-                    escalate=lambda r: append_escalation(
-                        company, msg, r, dry_run, ping=False))
-                if routed:
-                    out["queued"] = out.get("queued", 0) + len(routed)
+                # "Both" is often said in the message BEFORE the ask, so the
+                # resolver reads the client's recent burst, not one bubble.
+                _cut = datetime.now(timezone.utc) - timedelta(hours=12)
+                _thread = " / ".join(
+                    [msg.get("body") or ""]
+                    + [h.get("body") or "" for h in (history or [])
+                       if h.get("direction") == "in" and h.get("when")
+                       and _as_utc(h["when"]) and _as_utc(h["when"]) >= _cut])
+                n_q, which_q = route_inbound_feedback(
+                    company, fbs, msg=msg, who=_who, sisters=sisters,
+                    primary_ref=primary_ref, thread_text=_thread,
+                    cs=cs_reset, dry_run=dry_run, escalate=_esc)
+                if n_q:
+                    out["queued"] = out.get("queued", 0) + n_q
+                if which_q:
+                    # Never "on it" for work that went nowhere: the reply
+                    # IS the which-site question.
+                    suggested = which_q
+                    resp_need = "answer"
+                    result["needs_answer"] = True
+                    result["ack"] = False
             except Exception as e:  # noqa: BLE001 — queuing never kills a poll
                 print(f"    [feedback] router unavailable ({str(e)[:90]}) — "
                       "escalating so it is not lost")
@@ -14959,6 +15215,64 @@ def cmd_selfcheck(_args) -> int:
     ]:
         fails += not ok
         print(f"  {'ok  ' if ok else 'FAIL'} {label}")
+
+    # ---- shared-owner contact: one phone, two companies (2026-10-02) ------
+    # All Pro + ProRestoration: "on both websites" was filed for All Pro
+    # only. Offline: route_feedback and the directive write are stubbed.
+    print("\nshared-owner contact: a site change reaches every sister:")
+    import feedback_router as _fr
+    _calls: list = []
+    _orig_rf = _fr.route_feedback
+    _orig_dir = globals()["_which_site_directive"]
+    _fr.route_feedback = (lambda co, fbs, **k: _calls.append(
+        (co["id"], len(fbs), k.get("group"))) or [{}] * len(fbs))
+    globals()["_which_site_directive"] = lambda *a, **k: None
+    try:
+        _ap = {"id": "CO-ap", "name": "All Pro Plumbing Heating and Air",
+               "slug": "all-pro-plumbing", "domain": "", "_row": {"id": "CO-ap"}}
+        _pr = {"id": "CO-pr", "name": "ProRestoration Services",
+               "slug": "prorestoration", "domain": "", "_row": {"id": "CO-pr"}}
+        _m = {"id": "m1", "ts": datetime.now(timezone.utc),
+              "body": "take off East Niles on both websites"}
+        _sa = {"category": "service_area", "what": "remove East Niles",
+               "quote": "take off East Niles", "confidence": "high",
+               "applies_to": ["all-pro-plumbing"]}
+        _n, _q = route_inbound_feedback(
+            {"id": "CO-ap", "name": _ap["name"]}, [_sa], msg=_m, who="Angie",
+            sisters=[_pr], primary_ref=_ap, thread_text=_m["body"], cs={},
+            dry_run=True, escalate=lambda r: None)
+        _ids = sorted(c[0] for c in _calls)
+        _grps = {c[2] for c in _calls}
+        _calls.clear()
+        _cs: dict = {}
+        _img = {"category": "imagery", "what": "swap the hero photo",
+                "quote": "change the top picture", "confidence": "high"}
+        _n2, _q2 = route_inbound_feedback(
+            {"id": "CO-ap", "name": _ap["name"]}, [_img],
+            msg=dict(_m, id="m2", body="change the top picture"), who="Angie",
+            sisters=[_pr], primary_ref=_ap, thread_text="change the top picture",
+            cs=_cs, dry_run=True, escalate=lambda r: None)
+        _filed_on_ask = list(_calls)
+        _parked = "pending_site_choice" in _cs
+        _n3 = resolve_pending_site_choice(
+            {"id": "CO-ap", "name": _ap["name"]},
+            dict(_m, id="m3", body="Both"), who="Angie", sisters=[_pr],
+            primary_ref=_ap, cs=_cs, dry_run=True, escalate=lambda r: None)
+        for label, ok in [
+            ("'both websites' files a card for EACH company, one group",
+             _n == 2 and _ids == ["CO-ap", "CO-pr"] and len(_grps) == 1
+             and None not in _grps),
+            ("ambiguous image tweak files nothing and asks which site",
+             _n2 == 0 and not _filed_on_ask and bool(_q2)
+             and "both" in (_q2 or "") and _parked),
+            ("a bare 'Both' answer routes the parked ask to both sites",
+             _n3 == 2 and "pending_site_choice" not in _cs),
+        ]:
+            fails += not ok
+            print(f"  {'ok  ' if ok else 'FAIL'} {label}")
+    finally:
+        _fr.route_feedback = _orig_rf
+        globals()["_which_site_directive"] = _orig_dir
 
     print(f"\n{'ALL GREEN' if not fails else str(fails) + ' FAILURE(S)'}")
     return 1 if fails else 0
