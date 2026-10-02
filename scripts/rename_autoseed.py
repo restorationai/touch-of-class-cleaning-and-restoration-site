@@ -42,6 +42,19 @@ from connect to populated card):
           invoked once (best-effort) so the Locations panel isn't empty
           until the weekly run.
 
+  PITCH   (Santino 2026-10-01, Logan/Restoration Resource kickoff: "Monica
+          is going to contact you in the next day or so regarding your
+          profile rename" and nothing did; the dev agent parked it as
+          "email needs a human"). A NEW client (company <= 21 days old)
+          whose kickoff call has been mined (a CALL COMMITMENT note exists)
+          and whose slate is fully OPEN (no chosen/dismissed row, no
+          rename conversation, no rename_intent, never queued) gets the
+          pitch queued in ops_kv rename-pitch-queue AUTOPITCH_HOURS after
+          the later of call and slate. rename_pitch_worker then sends it
+          through the one lawful chokepoint (quiet hours hold it for their
+          morning, coverage gate, canary, hold placeholders refuse).
+          Kill switch: ops_kv rename-autopitch {"enabled": false}.
+
 Idempotent: a company with ANY name suggestion rows (open, chosen or
 dismissed) is never re-seeded — dismissals are decisions, not gaps.
 
@@ -51,6 +64,7 @@ from __future__ import annotations
 
 import argparse
 import re
+from datetime import datetime, timedelta, timezone
 import subprocess
 import sys
 from pathlib import Path
@@ -325,7 +339,87 @@ def main() -> int:
         except Exception as e:  # noqa: BLE001 — one client never kills the sweep
             print(f"  [{cid}] seed failed: {str(e)[:120]}")
     print(f"rename autoseed: {n} client(s) seeded")
+    try:
+        autopitch(comps, inv, a.slug, a.dry_run)
+    except Exception as e:  # noqa: BLE001 — pitch lane never kills the seed lane
+        print(f"rename autopitch failed: {str(e)[:160]}")
     return 0
+
+
+AUTOPITCH_HOURS = 20       # "the next day or so" after the kickoff call
+AUTOPITCH_MAX_AGE_D = 21   # new clients only; older slates stay app-initiated
+AUTOPITCH_SKIP = {"tdi-builders", "mcc-restoration", "mold-solutionz-24-7-llc"}
+
+
+def _ts(v) -> datetime | None:
+    try:
+        return datetime.fromisoformat(str(v).replace("Z", "+00:00"))
+    except (TypeError, ValueError):
+        return None
+
+
+def autopitch(comps: list[dict], inv: dict, only_slug: str | None,
+              dry_run: bool) -> int:
+    kv = _sb("GET", "/rest/v1/ops_kv?k=eq.rename-autopitch&select=v") or []
+    if kv and (kv[0].get("v") or {}).get("enabled") is False:
+        print("rename autopitch: disabled (ops_kv rename-autopitch)")
+        return 0
+    now = datetime.now(timezone.utc)
+    qrows = _sb("GET", "/rest/v1/ops_kv?k=eq.rename-pitch-queue&select=v") or []
+    queue = (qrows[0].get("v") if qrows else {}) or {}
+    ids = [c["id"] for c in comps]
+    if not ids:
+        return 0
+    meta = {r["id"]: r for r in _sb(
+        "GET", "/rest/v1/companies?id=in.(" + ",".join(ids) + ")"
+        "&select=id,created_at,integration_settings") or []}
+    n = 0
+    for co in comps:
+        cid, slug = co["id"], inv.get(co["id"])
+        if only_slug and slug != only_slug:
+            continue
+        if not slug or slug in AUTOPITCH_SKIP or cid in queue:
+            continue
+        m = meta.get(cid) or {}
+        born = _ts(m.get("created_at"))
+        if not born or (now - born).days > AUTOPITCH_MAX_AGE_D:
+            continue
+        if (m.get("integration_settings") or {}).get("rename_intent"):
+            continue
+        rows = _sb("GET", "/rest/v1/marketing_gbp_suggestions?item_type=eq.name"
+                   f"&company_id=eq.{cid}&select=status,created_at") or []
+        if not rows or any(r.get("status") != "open" for r in rows):
+            continue           # no slate, or a decision already exists
+        if _sb("GET", f"/rest/v1/ops_kv?k=eq.rename-convo:{cid}&select=k") or []:
+            continue
+        calls = _sb("GET", "/rest/v1/marketing_ops_notes"
+                    f"?company_id=eq.{cid}&body=ilike.*CALL%20COMMITMENT*"
+                    "&select=created_at&order=created_at.asc&limit=1") or []
+        if not calls:
+            continue           # kickoff not held / not mined yet
+        anchor = max(_ts(calls[0]["created_at"]),
+                     max(_ts(r["created_at"]) for r in rows))
+        due = anchor + timedelta(hours=AUTOPITCH_HOURS)
+        if now < due:
+            print(f"  autopitch {slug}: due {due.isoformat()[:16]}Z")
+            continue
+        entry = {"slug": slug, "company_id": cid, "channel": "sms",
+                 "note": [], "status": "queued", "attempts": 0,
+                 "at": now.isoformat(), "requested_by": "rename_autoseed "
+                 "(auto: day after kickoff)", "detail": ""}
+        print(f"  autopitch {slug}: QUEUE (kickoff {anchor.isoformat()[:16]}Z)")
+        if not dry_run:
+            fresh = _sb("GET", "/rest/v1/ops_kv?k=eq.rename-pitch-queue&select=v") or []
+            q = (fresh[0].get("v") if fresh else {}) or {}
+            if cid in q:
+                continue
+            q[cid] = entry
+            _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
+                {"k": "rename-pitch-queue", "v": q},
+                prefer="resolution=merge-duplicates")
+        n += 1
+    print(f"rename autopitch: {n} pitch(es) queued")
+    return n
 
 
 if __name__ == "__main__":
