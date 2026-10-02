@@ -352,4 +352,41 @@
   → PARKED-FOR-MORNING (mini, 2026-09-27): supervised + daytime; whole batch untouched — nothing logged into tonight.
   → RESULT (mini 2026-09-27): RECON DONE 09-27 (read-only to first gate, narestco): Nextdoor US-BUILDABLE; Yelp US-BUILDABLE pending phone-code test; Angi NEEDS-CLIENT-STEP; Facebook NEEDS-CLIENT-STEP / agency-profile decision; Thumbtack HARD-BLOCKED; HomeAdvisor HARD-BLOCKED (paid). Full table in 2026-09-27-0748 run report.
 
+- [ ] **GROUP B RE-TEST: OUR NUMBER FOR THE CODE (Santino 2026-10-01, daytime PT,
+  supervision delegated to MacBook Claude via your report; UNATTENDED OK within these rules).**
+  Goal: prove which client-identity platforms can be verified with a number WE receive
+  texts on, so the client never has to relay a code. Only clients whose rename gate is
+  CLEAR (`brightlocal.rename_gate`): today rachelle-elliston, crew-restoration-construction,
+  diss-restoration, puroclean-east-las-vegas, restorationxpress, tdi-builders,
+  frontline-fire-flood, kenneth-w-talbot-jr, dry-bros-water-fire-restoration,
+  heritage-restoration-llc. Name = settled name (`sweep._settled_name`), public phone =
+  REAL line (`sweep._real_phone`).
+  **The "our number":** the client's `[bing]` tracking line from
+  `client_concierge.tracking_lines(company)` (a Twilio number; machine-sender texts to it
+  are caught into ops_kv `verification-codes:{company_id}`). Fetch the code with
+  `python3 scripts/verification_code.py wait --since <epoch> --timeout 180`.
+  Per platform, ONE client each, in this order:
+  1. **Yelp (diss-restoration; no Yelp found):** biz.yelp.com add/claim (dedupe in the
+     form first). If Yelp offers TEXT verification, put the [bing] tracking line in the
+     phone field for the code, verify, THEN edit the phone to the REAL line in the same
+     session and read back whether the page stays verified. If it only offers a CALL,
+     stop (a call to a tracking line rings the client) and record that.
+  2. **Nextdoor (dry-bros-water-fire-restoration; page live, UNVERIFIED):** "Verify your
+     business": prefer a text to a number we choose; same tracking-line-then-real-line
+     test. If it insists on the number already on the page (the real line) or a call,
+     stop and record. Documents (EIN/license) are NOT ours to upload, stop there too.
+  3. **Angi (crew-restoration-construction):** directory search for an EXISTING Crew
+     listing; free claim only. At any phone step use the tracking line for the code.
+     Any leads/ads/paid contract screen = stop.
+  4. **Facebook Page, Thumbtack, HomeAdvisor: DO NOT RUN.** Facebook waits on Santino's
+     agency-profile decision; Thumbtack (SSN background check + card) and HomeAdvisor
+     (paid only) stay blocked by policy.
+  Per platform record in the run report + ledger: phone fields offered (contact vs
+  displayed), code channel (text/call/email/docs), whether our tracking line received it,
+  whether the swap to the real line kept verification, final public NAP, and the verdict:
+  OUR-NUMBER-WORKS / NEEDS-CLIENT-CODE / HARD-BLOCKED. If a text was sent to the tracking
+  line but no code reached ops_kv within 3 min, file a Need with the exact time + number
+  (MacBook Claude will read Twilio directly). Never pay, never accept a paid tier, never
+  impersonate the owner, never leave a tracking number as the public phone at the end.
+
 <!-- completed items get [x] + a one-line result; MacBook Claude prunes -->
