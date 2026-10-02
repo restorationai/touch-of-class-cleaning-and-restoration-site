@@ -12502,6 +12502,25 @@
       "exif": {}
     }
   },
-  "slots": {},
+  "slots": {
+    "team": {
+      "asset": "crew:job_1790807414999",
+      "source": "crew",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/job_1790807414999.jpg",
+      "category": "crew",
+      "subject": "technician kneeling by equipment stack outside building",
+      "installed_at": "2026-10-02T04:16:39Z",
+      "file": "/images/team.webp"
+    },
+    "services": {
+      "asset": "crew:job_1790806799578",
+      "source": "crew",
+      "origin_url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/job_1790806799578.jpg",
+      "category": "equipment",
+      "subject": "technician with branded jacket beside equipment stack",
+      "installed_at": "2026-10-02T04:16:41Z",
+      "file": "/images/services.webp"
+    }
+  },
   "triaged_at": "2026-10-01T20:54:36Z"
 }

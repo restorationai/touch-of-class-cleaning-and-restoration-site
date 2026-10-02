@@ -29,7 +29,10 @@
    "Licensed & Insured",
    "24/7 Emergency Service",
    "Locally Owned & Operated"
-  ]
+  ],
+  "short_name": "Restoration",
+  "insured": true,
+  "logo_url": "/images/logo.png"
  },
  "services": [
   "water-damage-restoration",

@@ -135,8 +135,12 @@
   "/services/fire-damage-restoration/": [
     "/services/",
     "/contact/",
+    "/service-areas/basin-city-wa/fire-damage-restoration/",
+    "/service-areas/connell-wa/fire-damage-restoration/",
     "/service-areas/highland-wa/fire-damage-restoration/",
+    "/service-areas/kahlotus-wa/fire-damage-restoration/",
     "/service-areas/mesa-wa/fire-damage-restoration/",
+    "/service-areas/prosser-wa/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/"
   ],
@@ -270,6 +274,7 @@
   "/service-areas/prosser-wa/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/prosser-wa/fire-damage-restoration/",
     "/service-areas/prosser-wa/water-damage-restoration/",
     "/service-areas/prosser-wa/storm-damage-restoration/",
     "/service-areas/basin-city-wa/",
@@ -308,6 +313,7 @@
   "/service-areas/connell-wa/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/connell-wa/fire-damage-restoration/",
     "/service-areas/connell-wa/water-damage-restoration/",
     "/service-areas/connell-wa/water-cleanup/",
     "/service-areas/basin-city-wa/",
@@ -317,6 +323,7 @@
   "/service-areas/basin-city-wa/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/basin-city-wa/fire-damage-restoration/",
     "/service-areas/basin-city-wa/water-damage-restoration/",
     "/service-areas/basin-city-wa/water-cleanup/",
     "/service-areas/benton-city-wa/",
@@ -358,6 +365,7 @@
   "/service-areas/kahlotus-wa/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/kahlotus-wa/fire-damage-restoration/",
     "/service-areas/kahlotus-wa/water-damage-restoration/",
     "/service-areas/kahlotus-wa/storm-damage-restoration/",
     "/service-areas/basin-city-wa/",
@@ -442,14 +450,25 @@
   "/service-areas/prosser-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/prosser-wa/",
+    "/service-areas/prosser-wa/fire-damage-restoration/",
     "/service-areas/prosser-wa/storm-damage-restoration/",
     "/service-areas/basin-city-wa/water-damage-restoration/",
     "/service-areas/benton-city-wa/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/prosser-wa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/prosser-wa/",
+    "/service-areas/prosser-wa/water-damage-restoration/",
+    "/service-areas/prosser-wa/storm-damage-restoration/",
+    "/service-areas/basin-city-wa/fire-damage-restoration/",
+    "/service-areas/connell-wa/fire-damage-restoration/",
+    "/contact/"
+  ],
   "/service-areas/prosser-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/prosser-wa/",
+    "/service-areas/prosser-wa/fire-damage-restoration/",
     "/service-areas/prosser-wa/water-damage-restoration/",
     "/service-areas/benton-city-wa/storm-damage-restoration/",
     "/service-areas/finley-wa/storm-damage-restoration/",
@@ -494,7 +513,8 @@
     "/service-areas/highland-wa/",
     "/service-areas/highland-wa/mold-remediation/",
     "/service-areas/highland-wa/water-damage-restoration/",
-    "/service-areas/mesa-wa/fire-damage-restoration/",
+    "/service-areas/basin-city-wa/fire-damage-restoration/",
+    "/service-areas/connell-wa/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/highland-wa/sewage-cleanup/": [
@@ -524,14 +544,25 @@
   "/service-areas/connell-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/connell-wa/",
+    "/service-areas/connell-wa/fire-damage-restoration/",
     "/service-areas/connell-wa/water-cleanup/",
     "/service-areas/basin-city-wa/water-damage-restoration/",
     "/service-areas/benton-city-wa/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/connell-wa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/connell-wa/",
+    "/service-areas/connell-wa/water-damage-restoration/",
+    "/service-areas/connell-wa/water-cleanup/",
+    "/service-areas/basin-city-wa/fire-damage-restoration/",
+    "/service-areas/highland-wa/fire-damage-restoration/",
+    "/contact/"
+  ],
   "/service-areas/connell-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/connell-wa/",
+    "/service-areas/connell-wa/fire-damage-restoration/",
     "/service-areas/connell-wa/water-damage-restoration/",
     "/service-areas/basin-city-wa/water-cleanup/",
     "/service-areas/mesa-wa/water-cleanup/",
@@ -540,14 +571,25 @@
   "/service-areas/basin-city-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/basin-city-wa/",
+    "/service-areas/basin-city-wa/fire-damage-restoration/",
     "/service-areas/basin-city-wa/water-cleanup/",
     "/service-areas/benton-city-wa/water-damage-restoration/",
     "/service-areas/connell-wa/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/basin-city-wa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/basin-city-wa/",
+    "/service-areas/basin-city-wa/water-damage-restoration/",
+    "/service-areas/basin-city-wa/water-cleanup/",
+    "/service-areas/connell-wa/fire-damage-restoration/",
+    "/service-areas/highland-wa/fire-damage-restoration/",
+    "/contact/"
+  ],
   "/service-areas/basin-city-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/basin-city-wa/",
+    "/service-areas/basin-city-wa/fire-damage-restoration/",
     "/service-areas/basin-city-wa/water-damage-restoration/",
     "/service-areas/connell-wa/water-cleanup/",
     "/service-areas/mesa-wa/water-cleanup/",
@@ -576,7 +618,8 @@
     "/service-areas/mesa-wa/",
     "/service-areas/mesa-wa/mold-remediation/",
     "/service-areas/mesa-wa/water-damage-restoration/",
-    "/service-areas/highland-wa/fire-damage-restoration/",
+    "/service-areas/basin-city-wa/fire-damage-restoration/",
+    "/service-areas/connell-wa/fire-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/mesa-wa/storm-damage-restoration/": [
@@ -651,14 +694,25 @@
   "/service-areas/kahlotus-wa/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/kahlotus-wa/",
+    "/service-areas/kahlotus-wa/fire-damage-restoration/",
     "/service-areas/kahlotus-wa/storm-damage-restoration/",
     "/service-areas/basin-city-wa/water-damage-restoration/",
     "/service-areas/benton-city-wa/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/kahlotus-wa/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/kahlotus-wa/",
+    "/service-areas/kahlotus-wa/water-damage-restoration/",
+    "/service-areas/kahlotus-wa/storm-damage-restoration/",
+    "/service-areas/basin-city-wa/fire-damage-restoration/",
+    "/service-areas/connell-wa/fire-damage-restoration/",
+    "/contact/"
+  ],
   "/service-areas/kahlotus-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/kahlotus-wa/",
+    "/service-areas/kahlotus-wa/fire-damage-restoration/",
     "/service-areas/kahlotus-wa/water-damage-restoration/",
     "/service-areas/benton-city-wa/storm-damage-restoration/",
     "/service-areas/finley-wa/storm-damage-restoration/",

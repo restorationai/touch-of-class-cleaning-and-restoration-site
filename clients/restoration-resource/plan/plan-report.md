@@ -1,19 +1,19 @@
 # Site Plan Report — Restoration Resource 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-10-02T04:03:07.861893+00:00
+- Generated: 2026-10-02T04:16:36.354884+00:00
 - Domain: `restorationresource365.com`
 - Services selected: 20 of 91 catalog entries
 - Service areas: 15
 - Cross-product enabled: True
-- Total URLs: **87**
-- Total internal links: 555 (avg 6.4 per page)
+- Total URLs: **91**
+- Total internal links: 601 (avg 6.6 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 36 |
+| `service-area-service` | 40 |
 | `service-landing` | 20 |
 | `service-area` | 14 |
 | `blog-post` | 8 |

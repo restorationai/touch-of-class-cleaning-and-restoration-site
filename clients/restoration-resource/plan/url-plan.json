@@ -1,7 +1,7 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-10-02T04:03:07.858814+00:00",
+  "generated_at": "2026-10-02T04:16:36.348694+00:00",
   "input_summary": {
     "service_count": 20,
     "service_area_count": 15,
@@ -418,8 +418,12 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/basin-city-wa/fire-damage-restoration/",
+        "/service-areas/connell-wa/fire-damage-restoration/",
         "/service-areas/highland-wa/fire-damage-restoration/",
+        "/service-areas/kahlotus-wa/fire-damage-restoration/",
         "/service-areas/mesa-wa/fire-damage-restoration/",
+        "/service-areas/prosser-wa/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/"
       ]
@@ -1283,6 +1287,7 @@
       "internal_links_out": [
         "/service-areas/",
         "/contact/",
+        "/service-areas/prosser-wa/fire-damage-restoration/",
         "/service-areas/prosser-wa/water-damage-restoration/",
         "/service-areas/prosser-wa/storm-damage-restoration/",
         "/service-areas/basin-city-wa/",
@@ -1441,6 +1446,7 @@
       "internal_links_out": [
         "/service-areas/",
         "/contact/",
+        "/service-areas/connell-wa/fire-damage-restoration/",
         "/service-areas/connell-wa/water-damage-restoration/",
         "/service-areas/connell-wa/water-cleanup/",
         "/service-areas/basin-city-wa/",
@@ -1480,6 +1486,7 @@
       "internal_links_out": [
         "/service-areas/",
         "/contact/",
+        "/service-areas/basin-city-wa/fire-damage-restoration/",
         "/service-areas/basin-city-wa/water-damage-restoration/",
         "/service-areas/basin-city-wa/water-cleanup/",
         "/service-areas/benton-city-wa/",
@@ -1641,6 +1648,7 @@
       "internal_links_out": [
         "/service-areas/",
         "/contact/",
+        "/service-areas/kahlotus-wa/fire-damage-restoration/",
         "/service-areas/kahlotus-wa/water-damage-restoration/",
         "/service-areas/kahlotus-wa/storm-damage-restoration/",
         "/service-areas/basin-city-wa/",
@@ -2075,9 +2083,54 @@
       "internal_links_out": [
         "/services/water-damage-restoration/",
         "/service-areas/prosser-wa/",
+        "/service-areas/prosser-wa/fire-damage-restoration/",
         "/service-areas/prosser-wa/storm-damage-restoration/",
         "/service-areas/basin-city-wa/water-damage-restoration/",
         "/service-areas/benton-city-wa/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/prosser-wa/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Fire Damage Restoration in Prosser, WA | Restoration Resource ",
+      "h1": "24/7 Emergency Fire Damage Restoration in Prosser",
+      "meta_description": "24/7 emergency fire damage restoration in Prosser, WA. IICRC-certified, insurance billing accepted. Call +15095281166.",
+      "primary_keyword": "fire damage restoration prosser",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/prosser-wa/",
+        "/service-areas/prosser-wa/water-damage-restoration/",
+        "/service-areas/prosser-wa/storm-damage-restoration/",
+        "/service-areas/basin-city-wa/fire-damage-restoration/",
+        "/service-areas/connell-wa/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2118,6 +2171,7 @@
       "internal_links_out": [
         "/services/storm-damage-restoration/",
         "/service-areas/prosser-wa/",
+        "/service-areas/prosser-wa/fire-damage-restoration/",
         "/service-areas/prosser-wa/water-damage-restoration/",
         "/service-areas/benton-city-wa/storm-damage-restoration/",
         "/service-areas/finley-wa/storm-damage-restoration/",
@@ -2337,7 +2391,8 @@
         "/service-areas/highland-wa/",
         "/service-areas/highland-wa/mold-remediation/",
         "/service-areas/highland-wa/water-damage-restoration/",
-        "/service-areas/mesa-wa/fire-damage-restoration/",
+        "/service-areas/basin-city-wa/fire-damage-restoration/",
+        "/service-areas/connell-wa/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2507,9 +2562,54 @@
       "internal_links_out": [
         "/services/water-damage-restoration/",
         "/service-areas/connell-wa/",
+        "/service-areas/connell-wa/fire-damage-restoration/",
         "/service-areas/connell-wa/water-cleanup/",
         "/service-areas/basin-city-wa/water-damage-restoration/",
         "/service-areas/benton-city-wa/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/connell-wa/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Fire Damage Restoration in Connell, WA | Restoration Resource ",
+      "h1": "24/7 Emergency Fire Damage Restoration in Connell",
+      "meta_description": "24/7 emergency fire damage restoration in Connell, WA. IICRC-certified, insurance billing accepted. Call +15095281166.",
+      "primary_keyword": "fire damage restoration connell",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/connell-wa/",
+        "/service-areas/connell-wa/water-damage-restoration/",
+        "/service-areas/connell-wa/water-cleanup/",
+        "/service-areas/basin-city-wa/fire-damage-restoration/",
+        "/service-areas/highland-wa/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2551,6 +2651,7 @@
       "internal_links_out": [
         "/services/water-cleanup/",
         "/service-areas/connell-wa/",
+        "/service-areas/connell-wa/fire-damage-restoration/",
         "/service-areas/connell-wa/water-damage-restoration/",
         "/service-areas/basin-city-wa/water-cleanup/",
         "/service-areas/mesa-wa/water-cleanup/",
@@ -2594,9 +2695,54 @@
       "internal_links_out": [
         "/services/water-damage-restoration/",
         "/service-areas/basin-city-wa/",
+        "/service-areas/basin-city-wa/fire-damage-restoration/",
         "/service-areas/basin-city-wa/water-cleanup/",
         "/service-areas/benton-city-wa/water-damage-restoration/",
         "/service-areas/connell-wa/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/basin-city-wa/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Fire Damage Restoration in Basin City, WA | Restoration Resource ",
+      "h1": "24/7 Emergency Fire Damage Restoration in Basin City",
+      "meta_description": "24/7 emergency fire damage restoration in Basin City, WA. IICRC-certified, insurance billing accepted. Call +15095281166.",
+      "primary_keyword": "fire damage restoration basin city",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/basin-city-wa/",
+        "/service-areas/basin-city-wa/water-damage-restoration/",
+        "/service-areas/basin-city-wa/water-cleanup/",
+        "/service-areas/connell-wa/fire-damage-restoration/",
+        "/service-areas/highland-wa/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2638,6 +2784,7 @@
       "internal_links_out": [
         "/services/water-cleanup/",
         "/service-areas/basin-city-wa/",
+        "/service-areas/basin-city-wa/fire-damage-restoration/",
         "/service-areas/basin-city-wa/water-damage-restoration/",
         "/service-areas/connell-wa/water-cleanup/",
         "/service-areas/mesa-wa/water-cleanup/",
@@ -2771,7 +2918,8 @@
         "/service-areas/mesa-wa/",
         "/service-areas/mesa-wa/mold-remediation/",
         "/service-areas/mesa-wa/water-damage-restoration/",
-        "/service-areas/highland-wa/fire-damage-restoration/",
+        "/service-areas/basin-city-wa/fire-damage-restoration/",
+        "/service-areas/connell-wa/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3162,9 +3310,54 @@
       "internal_links_out": [
         "/services/water-damage-restoration/",
         "/service-areas/kahlotus-wa/",
+        "/service-areas/kahlotus-wa/fire-damage-restoration/",
         "/service-areas/kahlotus-wa/storm-damage-restoration/",
         "/service-areas/basin-city-wa/water-damage-restoration/",
         "/service-areas/benton-city-wa/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kahlotus-wa/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Fire Damage Restoration in Kahlotus, WA | Restoration Resource ",
+      "h1": "24/7 Emergency Fire Damage Restoration in Kahlotus",
+      "meta_description": "24/7 emergency fire damage restoration in Kahlotus, WA. IICRC-certified, insurance billing accepted. Call +15095281166.",
+      "primary_keyword": "fire damage restoration kahlotus",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/kahlotus-wa/",
+        "/service-areas/kahlotus-wa/water-damage-restoration/",
+        "/service-areas/kahlotus-wa/storm-damage-restoration/",
+        "/service-areas/basin-city-wa/fire-damage-restoration/",
+        "/service-areas/connell-wa/fire-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3205,6 +3398,7 @@
       "internal_links_out": [
         "/services/storm-damage-restoration/",
         "/service-areas/kahlotus-wa/",
+        "/service-areas/kahlotus-wa/fire-damage-restoration/",
         "/service-areas/kahlotus-wa/water-damage-restoration/",
         "/service-areas/benton-city-wa/storm-damage-restoration/",
         "/service-areas/finley-wa/storm-damage-restoration/",
