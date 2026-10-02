@@ -1,1213 +1,1239 @@
 {
-  "items": [
+ "items": [
+  {
+   "id": "2026-10-02-who-to-call-for-appliance-leak-cleanup-in-saratoga-springs-ut",
+   "status": "queued",
+   "queued_at": "2026-10-02T16:20:34Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "who_to_call",
+   "combo_key": "who-to-call-for-appliance-leak-cleanup-in-saratoga-springs-ut",
+   "primary_keyword": "who to call for appliance leak cleanup in Saratoga Springs, UT",
+   "intent": "transactional",
+   "target_word_count": 1200,
+   "city_anchor": "saratoga-springs-ut",
+   "best_of": {
+    "service": "appliance-leak-cleanup",
+    "service_pretty": "Appliance Leak Cleanup",
+    "city": "Saratoga Springs",
+    "state": "UT",
+    "competitors": []
+   },
+   "fan_out_cluster": [
+    "who do you call for appliance leak cleanup Saratoga Springs",
+    "who do I call for appliance leak cleanup in Saratoga Springs",
+    "appliance leak cleanup emergency number Saratoga Springs UT"
+   ],
+   "source": "best-of-seeder"
+  },
+  {
+   "id": "2026-09-18-water-damage-restoration-cost-ut",
+   "status": "published",
+   "queued_at": "2026-09-18T14:38:24Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "cost_guide",
+   "combo_key": "water-damage-restoration-cost-ut",
+   "primary_keyword": "water damage restoration cost UT",
+   "intent": "transactional",
+   "target_word_count": 1500,
+   "city_anchor": "saratoga-springs-ut",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Saratoga Springs",
+    "state": "UT",
+    "competitors": []
+   },
+   "fan_out_cluster": [
+    "how much does water damage restoration cost in UT",
+    "water damage restoration price UT",
+    "average cost of water damage restoration UT",
+    "water damage cleanup UT",
+    "water cleanup UT",
+    "water removal UT"
+   ],
+   "source": "best-of-seeder",
+   "written_at": "2026-09-20T14:37:12Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/water-damage-restoration-cost-ut/",
+   "published_verified_at": "2026-09-20T14:39:08Z"
+  },
+  {
+   "id": "2026-07-23-best-water-damage-restoration-in-saratoga-springs-ut",
+   "status": "published",
+   "queued_at": "2026-07-23T17:26:08Z",
+   "priority": 1,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-water-damage-restoration-in-saratoga-springs-ut",
+   "primary_keyword": "best water damage restoration company in Saratoga Springs, UT",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "saratoga-springs-ut",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Saratoga Springs",
+    "state": "UT",
+    "competitors": [
+     {
+      "name": "Utah Flood Guys of Eagle Mountain - Saratoga springs",
+      "google_rating": 5,
+      "review_count": 11
+     },
+     {
+      "name": "FIX Flood & Water Damage Pros",
+      "google_rating": 4.9,
+      "review_count": 555
+     },
+     {
+      "name": "ServiceMaster Restore by A3 Disaster Services",
+      "google_rating": 4.9,
+      "review_count": 482
+     },
+     {
+      "name": "Water Damage Specialists",
+      "google_rating": 4.9,
+      "review_count": 68
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best water damage restoration companies Saratoga Springs",
+    "top rated water damage restoration Saratoga Springs UT",
+    "who is the best water damage restoration company in Saratoga Springs"
+   ],
+   "source": "best-of-seeder",
+   "written_at": "2026-09-18T11:55:43Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/best-water-damage-restoration-company-in-saratoga-springs-ut/",
+   "claims_flags": [
     {
-      "id": "2026-09-18-water-damage-restoration-cost-ut",
-      "status": "published",
-      "queued_at": "2026-09-18T14:38:24Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "cost_guide",
-      "combo_key": "water-damage-restoration-cost-ut",
-      "primary_keyword": "water damage restoration cost UT",
-      "intent": "transactional",
-      "target_word_count": 1500,
-      "city_anchor": "saratoga-springs-ut",
-      "best_of": {
-        "service": "water-damage-restoration",
-        "service_pretty": "Water Damage Restoration",
-        "city": "Saratoga Springs",
-        "state": "UT",
-        "competitors": []
-      },
-      "fan_out_cluster": [
-        "how much does water damage restoration cost in UT",
-        "water damage restoration price UT",
-        "average cost of water damage restoration UT",
-        "water damage cleanup UT",
-        "water cleanup UT",
-        "water removal UT"
-      ],
-      "source": "best-of-seeder",
-      "written_at": "2026-09-20T14:37:12Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/water-damage-restoration-cost-ut/",
-      "published_verified_at": "2026-09-20T14:39:08Z"
+     "file": "src/content/blog/best-water-damage-restoration-company-in-saratoga-springs-ut.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "11 reviews",
+     "context": "olds a perfect 5.0 Google rating across 11 reviews. They are an established local option s",
+     "reason": "listicle review-count 11 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
-      "id": "2026-07-23-best-water-damage-restoration-in-saratoga-springs-ut",
-      "status": "published",
-      "queued_at": "2026-07-23T17:26:08Z",
-      "priority": 1,
-      "content_type": "best_of_comparison",
-      "combo_key": "best-water-damage-restoration-in-saratoga-springs-ut",
-      "primary_keyword": "best water damage restoration company in Saratoga Springs, UT",
-      "intent": "commercial",
-      "target_word_count": 1600,
-      "city_anchor": "saratoga-springs-ut",
-      "best_of": {
-        "service": "water-damage-restoration",
-        "service_pretty": "Water Damage Restoration",
-        "city": "Saratoga Springs",
-        "state": "UT",
-        "competitors": [
-          {
-            "name": "Utah Flood Guys of Eagle Mountain - Saratoga springs",
-            "google_rating": 5,
-            "review_count": 11
-          },
-          {
-            "name": "FIX Flood & Water Damage Pros",
-            "google_rating": 4.9,
-            "review_count": 555
-          },
-          {
-            "name": "ServiceMaster Restore by A3 Disaster Services",
-            "google_rating": 4.9,
-            "review_count": 482
-          },
-          {
-            "name": "Water Damage Specialists",
-            "google_rating": 4.9,
-            "review_count": 68
-          }
-        ]
-      },
-      "fan_out_cluster": [
-        "best water damage restoration companies Saratoga Springs",
-        "top rated water damage restoration Saratoga Springs UT",
-        "who is the best water damage restoration company in Saratoga Springs"
-      ],
-      "source": "best-of-seeder",
-      "written_at": "2026-09-18T11:55:43Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/best-water-damage-restoration-company-in-saratoga-springs-ut/",
-      "claims_flags": [
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-saratoga-springs-ut.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "11 reviews",
-          "context": "olds a perfect 5.0 Google rating across 11 reviews. They are an established local option s",
-          "reason": "listicle review-count 11 (competitor stat \u2014 verify it is not presented as ours)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-saratoga-springs-ut.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "555 reviews",
-          "context": "Pros carries a 4.9 Google rating across 555 reviews, one of the highest review volumes on t",
-          "reason": "listicle review-count 555 (competitor stat \u2014 verify it is not presented as ours)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-saratoga-springs-ut.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "482 reviews",
-          "context": "rvices holds a 4.9 Google rating across 482 reviews. ServiceMaster Restore is a nationally",
-          "reason": "listicle review-count 482 (competitor stat \u2014 verify it is not presented as ours)"
-        },
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-saratoga-springs-ut.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "68 reviews",
-          "context": "alists holds a 4.9 Google rating across 68 reviews. They are an established local restorat",
-          "reason": "listicle review-count 68 (competitor stat \u2014 verify it is not presented as ours)"
-        }
-      ],
-      "published_verified_at": "2026-09-18T11:55:59Z"
+     "file": "src/content/blog/best-water-damage-restoration-company-in-saratoga-springs-ut.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "555 reviews",
+     "context": "Pros carries a 4.9 Google rating across 555 reviews, one of the highest review volumes on t",
+     "reason": "listicle review-count 555 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
-      "id": "2026-06-23-ice-dam-removal-park-city",
-      "status": "written",
-      "queued_at": "2026-06-24T00:29:58Z",
-      "written_at": "2026-06-24T05:26:45Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/ice-dam-removal-park-city/",
-      "primary_keyword": "ice dam removal",
-      "intent": "informational",
-      "volume": 4400,
-      "kd": 15,
-      "fan_out_cluster": [
-        "how to remove an ice dam",
-        "ice dam roof leak",
-        "ice dam removal cost",
-        "are ice dams covered by insurance",
-        "ice dam steam removal",
-        "why ice dams form on Park City roofs"
-      ],
-      "suggested_slug": "ice-dam-removal-park-city",
-      "suggested_title": "Ice Dam Removal in Park City: How to Stop Roof Leaks Before They Flood Your Home",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/roof-leak-repair/",
-        "/services/water-damage-restoration/",
-        "/service-areas/park-city-ut/"
-      ],
-      "service_tags": [
-        "roof-leak-repair",
-        "storm-damage-restoration",
-        "water-damage-restoration"
-      ],
-      "city_anchor": "park-city-ut",
-      "external_authority_candidates": [],
-      "notes": "Strongest uncovered opportunity (4400 vol, KD 15). Park City's elevation and snow load make ice dams a top winter cause of interior water damage. Localize to Park City roofs/altitude; CTA to emergency roof-leak + water-damage service."
+     "file": "src/content/blog/best-water-damage-restoration-company-in-saratoga-springs-ut.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "482 reviews",
+     "context": "rvices holds a 4.9 Google rating across 482 reviews. ServiceMaster Restore is a nationally",
+     "reason": "listicle review-count 482 (competitor stat \u2014 verify it is not presented as ours)"
     },
     {
-      "id": "2026-06-23-how-to-prevent-ice-dams-heber-city",
-      "status": "written",
-      "queued_at": "2026-06-24T00:29:58Z",
-      "written_at": "2026-06-29T18:11:25Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/how-to-prevent-ice-dams-heber-city/",
-      "primary_keyword": "how to prevent ice dams",
-      "intent": "informational",
-      "volume": 1300,
-      "kd": 9,
-      "fan_out_cluster": [
-        "what causes ice dams",
-        "ice dam prevention tips",
-        "attic insulation and ice dams",
-        "roof rake for ice dams",
-        "heat cable ice dam",
-        "ice dams and Heber City winters"
-      ],
-      "suggested_slug": "how-to-prevent-ice-dams-heber-city",
-      "suggested_title": "How to Prevent Ice Dams on Your Heber City Home This Winter",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/roof-leak-repair/",
-        "/services/storm-damage-restoration/",
-        "/service-areas/heber-city-ut/"
-      ],
-      "service_tags": [
-        "roof-leak-repair",
-        "storm-damage-restoration"
-      ],
-      "city_anchor": "heber-city-ut",
-      "external_authority_candidates": [],
-      "notes": "Preventive companion to the Park City ice-dam removal post (different intent: DIY prevention vs emergency removal). KD 9, very winnable. Assigned to Heber City to avoid same-SERP cannibalization."
-    },
-    {
-      "id": "2026-06-23-does-homeowners-insurance-cover-frozen-pipes-park-city",
-      "status": "published",
-      "queued_at": "2026-06-24T00:29:58Z",
-      "written_at": "2026-07-06T18:36:52Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-frozen-pipes-park-city/",
-      "primary_keyword": "does homeowners insurance cover frozen pipes",
-      "intent": "informational",
-      "volume": 320,
-      "kd": null,
-      "fan_out_cluster": [
-        "frozen pipe insurance claim",
-        "is a burst pipe covered by insurance",
-        "sudden and accidental water damage",
-        "unoccupied home frozen pipe coverage",
-        "filing a frozen pipe claim",
-        "does insurance cover frozen pipe damage"
-      ],
-      "suggested_slug": "does-homeowners-insurance-cover-frozen-pipes-park-city",
-      "suggested_title": "Does Homeowners Insurance Cover Frozen Pipes? A Park City Homeowner's Guide",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/frozen-pipe-restoration/",
-        "/services/water-damage-restoration/",
-        "/service-areas/park-city-ut/",
-        "/blog/does-homeowners-insurance-cover-water-damage/"
-      ],
-      "service_tags": [
-        "frozen-pipe-restoration",
-        "burst-pipe-repair",
-        "water-damage-restoration"
-      ],
-      "city_anchor": "park-city-ut",
-      "external_authority_candidates": [
-        "https://www.iii.org/article/what-covered-standard-homeowners-policy"
-      ],
-      "notes": "Frozen-pipe-specific insurance angle (distinct from the existing general water-damage insurance post). High relevance for Park City second homes/vacant ski properties where unattended freezes are common. KD null but competition LOW.",
-      "published_verified_at": "2026-07-06T18:38:28Z"
-    },
-    {
-      "id": "2026-06-23-frozen-pipe-damage-heber-city",
-      "status": "published",
-      "queued_at": "2026-06-24T00:29:58Z",
-      "written_at": "2026-07-09T18:03:18Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/frozen-pipe-damage-heber-city/",
-      "primary_keyword": "frozen pipe damage",
-      "intent": "informational",
-      "volume": 110,
-      "kd": null,
-      "fan_out_cluster": [
-        "burst frozen pipe",
-        "frozen pipe burst what to do",
-        "how to thaw a frozen pipe",
-        "frozen pipe water damage cleanup",
-        "frozen pipe repair cost",
-        "preventing frozen pipes in cold climates"
-      ],
-      "suggested_slug": "frozen-pipe-damage-heber-city",
-      "suggested_title": "Frozen Pipe Damage in Heber City: What to Do First and What Repairs Cost",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/frozen-pipe-restoration/",
-        "/services/burst-pipe-repair/",
-        "/service-areas/heber-city-ut/"
-      ],
-      "service_tags": [
-        "frozen-pipe-restoration",
-        "burst-pipe-repair",
-        "water-damage-restoration"
-      ],
-      "city_anchor": "heber-city-ut",
-      "external_authority_candidates": [],
-      "notes": "Emergency + cost framing. CPC $57 signals strong commercial pull behind the informational query. Heber City's sub-zero valley nights make this seasonally evergreen.",
-      "published_verified_at": "2026-07-09T18:04:55Z"
-    },
-    {
-      "id": "2026-06-23-water-damage-restoration-cost-park-city",
-      "status": "written",
-      "queued_at": "2026-06-24T00:29:58Z",
-      "written_at": "2026-07-13T18:07:27Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/water-damage-restoration-cost-park-city/",
-      "primary_keyword": "water damage restoration cost",
-      "intent": "informational",
-      "volume": 880,
-      "kd": null,
-      "fan_out_cluster": [
-        "water damage restoration cost per square foot",
-        "cost to repair water damage",
-        "water damage cleanup cost",
-        "category 3 water damage cost",
-        "does insurance pay for water damage restoration",
-        "emergency water extraction cost"
-      ],
-      "suggested_slug": "water-damage-restoration-cost-park-city",
-      "suggested_title": "Water Damage Restoration Cost in Park City: 2026 Price Guide",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/service-areas/park-city-ut/",
-        "/blog/does-homeowners-insurance-cover-water-damage/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "basement-flooding-cleanup"
-      ],
-      "city_anchor": "park-city-ut",
-      "external_authority_candidates": [],
-      "notes": "No cost guide exists on the site. Decision-stage query (vol 880, CPC $23) that attracts homeowners hours before they hire. Localize price ranges to the Park City/Wasatch Back market."
-    },
-    {
-      "id": "2026-07-02-how-to-clean-soot-off-walls",
-      "status": "written",
-      "queued_at": "2026-07-02T17:37:35Z",
-      "written_at": "2026-07-16T17:23:12Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/how-to-clean-soot-off-walls/",
-      "primary_keyword": "how to clean soot off walls",
-      "intent": "informational",
-      "volume": 590,
-      "kd": 0,
-      "fan_out_cluster": [
-        "how to remove soot from walls",
-        "cleaning soot off painted walls",
-        "soot on walls after a fire",
-        "chemical dry sponge for soot",
-        "does soot wipe off walls",
-        "how to clean soot from ceilings",
-        "why professional soot removal matters"
-      ],
-      "suggested_slug": "how-to-clean-soot-off-walls",
-      "suggested_title": "How to Clean Soot Off Walls After a Fire (and When to Call a Pro)",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/smoke-damage-restoration/",
-        "/services/fire-damage-restoration/",
-        "/services/odor-removal/"
-      ],
-      "service_tags": [
-        "smoke-damage-restoration",
-        "fire-damage-restoration",
-        "odor-removal"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.epa.gov/indoor-air-quality-iaq/protect-your-home-cleaning-after-fire"
-      ],
-      "notes": "Uncovered DIY query (KD 0, 590/mo). Explain the safe DIY steps (dry chemical sponge, TSP, ventilation) but be clear about when soot residue is acidic/health-hazardous and needs pro smoke-damage restoration. Localize lightly to the Saratoga Springs / Utah County market. CTA to smoke-damage-restoration service."
-    },
-    {
-      "id": "2026-07-02-fire-damage-restoration-cost",
-      "status": "published",
-      "queued_at": "2026-07-02T17:37:35Z",
-      "written_at": "2026-07-20T18:25:11Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/fire-damage-restoration-cost/",
-      "primary_keyword": "fire damage restoration cost",
-      "intent": "informational",
-      "volume": 320,
-      "kd": 0,
-      "fan_out_cluster": [
-        "average fire damage restoration cost",
-        "cost to repair fire damage",
-        "house fire cleanup cost",
-        "smoke damage repair cost",
-        "does insurance pay for fire restoration",
-        "fire damage restoration cost per square foot",
-        "house fire debris removal cost"
-      ],
-      "suggested_slug": "fire-damage-restoration-cost",
-      "suggested_title": "Fire Damage Restoration Cost: 2026 Price Guide for Utah Homeowners",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/fire-damage-restoration/",
-        "/services/smoke-damage-restoration/",
-        "/blog/fire-damage-restoration-process/"
-      ],
-      "service_tags": [
-        "fire-damage-restoration",
-        "smoke-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iii.org/article/what-covered-standard-homeowners-policy"
-      ],
-      "notes": "No fire cost guide exists on site (process blog covers steps, not price). Decision-stage query, CPC $24. Break down cost by damage severity (soot/smoke only vs structural), square footage, and insurance. Localize price ranges to the Utah County / Wasatch market.",
-      "published_verified_at": "2026-07-20T18:27:50Z"
-    },
-    {
-      "id": "2026-07-02-what-to-do-after-a-house-fire",
-      "status": "published",
-      "queued_at": "2026-07-02T17:37:35Z",
-      "written_at": "2026-07-23T17:28:15Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/what-to-do-after-a-house-fire/",
-      "primary_keyword": "what to do after a house fire",
-      "intent": "informational",
-      "volume": 260,
-      "kd": 12,
-      "fan_out_cluster": [
-        "first steps after a house fire",
-        "house fire recovery checklist",
-        "who to call after a house fire",
-        "board up after a house fire",
-        "filing a fire insurance claim",
-        "is my house safe after a fire",
-        "returning home after a house fire",
-        "debris removal after house fire"
-      ],
-      "suggested_slug": "what-to-do-after-a-house-fire",
-      "suggested_title": "What to Do After a House Fire: A Step-by-Step Recovery Guide",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/fire-damage-restoration/",
-        "/services/smoke-damage-restoration/",
-        "/blog/fire-damage-restoration-process/"
-      ],
-      "service_tags": [
-        "fire-damage-restoration",
-        "smoke-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-from-a-fire.html"
-      ],
-      "notes": "SENSITIVE / emotional query (a homeowner who just had a fire). Apply sensitive-content guardrails: lead with safety and empathy, not a sales pitch. Cover the first 24-48 hours: safety, contacting insurer, securing/boarding up, what not to touch. Soft CTA to 24/7 fire restoration.",
-      "published_verified_at": "2026-07-23T17:29:24Z"
-    },
-    {
-      "id": "2026-07-02-does-homeowners-insurance-cover-fire-damage",
-      "status": "written",
-      "queued_at": "2026-07-02T17:37:35Z",
-      "written_at": "2026-07-27T18:17:18Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-fire-damage/",
-      "primary_keyword": "does homeowners insurance cover fire damage",
-      "intent": "informational",
-      "volume": 210,
-      "kd": 29,
-      "fan_out_cluster": [
-        "what does fire insurance cover",
-        "fire insurance claim process",
-        "smoke damage insurance claim",
-        "does insurance cover smoke damage",
-        "how to file a fire insurance claim",
-        "additional living expenses after a fire",
-        "personal property fire claim"
-      ],
-      "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
-      "suggested_title": "Does Homeowners Insurance Cover Fire Damage? A Plain-English Guide",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/fire-damage-restoration/",
-        "/blog/does-homeowners-insurance-cover-water-damage/",
-        "/blog/storm-damage-insurance-claim-checklist/"
-      ],
-      "service_tags": [
-        "fire-damage-restoration",
-        "smoke-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iii.org/article/what-covered-standard-homeowners-policy"
-      ],
-      "notes": "Distinct from the existing water-damage insurance post (different peril). Cover dwelling vs personal property vs ALE, smoke/soot coverage, documentation, and working with a restoration company on the claim. Cross-link the sibling water insurance post."
-    },
-    {
-      "id": "2026-07-16-mold-remediation-cost",
-      "status": "published",
-      "queued_at": "2026-07-16T20:20:00Z",
-      "written_at": "2026-07-30T17:55:42Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/mold-remediation-cost/",
-      "primary_keyword": "mold remediation cost",
-      "intent": "informational",
-      "volume": 9900,
-      "kd": 8,
-      "fan_out_cluster": [
-        "how much does mold remediation cost",
-        "mold remediation cost per square foot",
-        "black mold removal cost",
-        "mold remediation cost calculator",
-        "who pays for mold remediation",
-        "servpro mold remediation cost",
-        "does insurance pay for mold remediation"
-      ],
-      "suggested_slug": "mold-remediation-cost",
-      "suggested_title": "Mold Remediation Cost: 2026 Price Guide for Utah Homeowners",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/services/mold-inspection-testing/",
-        "/blog/does-homeowners-insurance-cover-water-damage/"
-      ],
-      "service_tags": [
-        "mold-remediation",
-        "mold-inspection-testing"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "No mold cost guide exists on site (vol 9900, CPC $23, KD 8). Break cost down by affected area size, mold type, and location (crawl space/attic/HVAC/drywall), plus what insurance covers. Localize price ranges to the Utah County / Wasatch market. Mirrors the queued water- and fire-damage cost guides.",
-      "published_verified_at": "2026-07-30T17:57:52Z"
-    },
-    {
-      "id": "2026-07-16-does-homeowners-insurance-cover-mold",
-      "status": "written",
-      "queued_at": "2026-07-16T20:20:00Z",
-      "written_at": "2026-08-03T18:19:16Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-mold/",
-      "primary_keyword": "does homeowners insurance cover mold",
-      "intent": "informational",
-      "volume": 5400,
-      "kd": 7,
-      "fan_out_cluster": [
-        "does homeowners insurance cover mold damage",
-        "what insurance companies cover mold damage",
-        "does home insurance cover mold from water damage",
-        "does homeowners insurance cover mold from roof leak",
-        "who pays for mold remediation",
-        "mold insurance claim tips",
-        "is black mold covered by insurance"
-      ],
-      "suggested_slug": "does-homeowners-insurance-cover-mold",
-      "suggested_title": "Does Homeowners Insurance Cover Mold? A Plain-English Guide for Utah Homeowners",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/blog/does-homeowners-insurance-cover-water-damage/",
-        "/blog/mold-after-water-damage/"
-      ],
-      "service_tags": [
-        "mold-remediation",
-        "mold-inspection-testing"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iii.org/article/what-covered-standard-homeowners-policy"
-      ],
-      "notes": "Distinct peril from the existing water-damage insurance blog: mold is usually excluded unless it results from a covered sudden-and-accidental water event, and policies often carry mold sublimits/riders. Cover covered-vs-excluded, documenting a claim, and mold riders. Cross-link the sibling water insurance post. KD 7, LOW competition."
-    },
-    {
-      "id": "2026-07-16-what-kills-mold-permanently",
-      "status": "published",
-      "queued_at": "2026-07-16T20:20:00Z",
-      "written_at": "2026-08-27T03:08:07Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/what-kills-mold-permanently/",
-      "primary_keyword": "what kills mold permanently",
-      "intent": "informational",
-      "volume": 3600,
-      "kd": 18,
-      "fan_out_cluster": [
-        "how to get rid of mold on walls",
-        "best mold remover for walls",
-        "does bleach kill mold",
-        "mold killer spray for walls",
-        "why mold keeps coming back",
-        "mold remediation diy",
-        "when to call a mold remediation pro"
-      ],
-      "suggested_slug": "what-kills-mold-permanently",
-      "suggested_title": "What Kills Mold Permanently? DIY Removal vs When to Call a Pro",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/blog/black-mold-vs-regular-mold/",
-        "/blog/signs-of-hidden-mold/"
-      ],
-      "service_tags": [
-        "mold-remediation"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "DIY query (vol 3600, KD 18). Apply the EPA 10 sq ft threshold: small non-porous areas can be DIY (detergent + water, dry fully, fix the moisture source), but bleach does not penetrate porous materials so mold returns unless the moisture source is fixed. CTA to professional remediation for larger, porous, or HVAC contamination.",
-      "published_verified_at": "2026-08-27T03:09:18Z"
-    },
-    {
-      "id": "2026-07-16-when-is-mold-remediation-required",
-      "status": "published",
-      "queued_at": "2026-07-16T20:20:00Z",
-      "written_at": "2026-08-31T23:25:47Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/when-is-mold-remediation-required/",
-      "primary_keyword": "when is mold remediation required",
-      "intent": "informational",
-      "volume": 480,
-      "kd": 16,
-      "fan_out_cluster": [
-        "how much mold is too much",
-        "epa mold remediation guidelines",
-        "mold remediation vs removal",
-        "when to call a mold remediation company",
-        "does mold always need remediation",
-        "signs you need mold remediation",
-        "the 10 square feet mold rule"
-      ],
-      "suggested_slug": "when-is-mold-remediation-required",
-      "suggested_title": "When Is Mold Remediation Required? How to Know If You Need a Pro",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/services/mold-inspection-testing/",
-        "/blog/signs-of-hidden-mold/"
-      ],
-      "service_tags": [
-        "mold-remediation",
-        "mold-inspection-testing"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-remediation-schools-and-commercial-buildings-guide"
-      ],
-      "notes": "Decision-stage threshold query. Cover the EPA 10 sq ft guideline, HVAC/sewage/health triggers, and the remediation-vs-removal terminology. Pairs with the mold cost guide and the inspection service. Localize lightly to Utah County.",
-      "published_verified_at": "2026-08-31T23:27:00Z"
-    },
-    {
-      "id": "2026-07-20-what-is-mold-remediation",
-      "status": "written",
-      "queued_at": "2026-07-20T18:21:00Z",
-      "written_at": "2026-09-11T14:38:01Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/what-is-mold-remediation/",
-      "primary_keyword": "what is mold remediation",
-      "intent": "informational",
-      "volume": null,
-      "kd": 11,
-      "fan_out_cluster": [
-        "how does mold remediation work",
-        "mold remediation process step by step",
-        "how long does mold remediation take",
-        "can you stay in your house during mold remediation",
-        "what to do after mold remediation",
-        "mold remediation vs removal",
-        "when to call a mold remediation company"
-      ],
-      "suggested_slug": "what-is-mold-remediation",
-      "suggested_title": "What Is Mold Remediation? The Process Explained Step by Step",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/services/mold-inspection-testing/",
-        "/blog/signs-of-hidden-mold/"
-      ],
-      "service_tags": [
-        "mold-remediation",
-        "mold-inspection-testing"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "GEO/AI-retrieval pillar. No mold-process blog exists (parity gap: fire has /blog/fire-damage-restoration-process/, mold does not). Null Google volume but the ChatGPT scraper decomposed the seed into exactly this six-step process (inspection, containment, HEPA air filtration, removal, drying, restoration); question-format process pages are what AI engines lift verbatim. KD 11, very winnable. Cover the six remediation steps, the EPA 10 sq ft threshold, containment/negative-air, whether occupants can stay, and remediation-vs-removal terminology. Cross-link the mold-remediation service page and the queued when-is-mold-remediation-required and mold-remediation-cost posts."
-    },
-    {
-      "id": "2026-08-03-does-homeowners-insurance-cover-storm-damage",
-      "status": "published",
-      "queued_at": "2026-08-03T00:00:00Z",
-      "written_at": "2026-09-22T15:26:53Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-storm-damage/",
-      "primary_keyword": "does homeowners insurance cover storm damage",
-      "intent": "informational",
-      "volume": 70,
-      "kd": 2,
-      "fan_out_cluster": [
-        "does insurance cover roof damage from storm",
-        "storm damage insurance",
-        "what storm damage is not covered by homeowners insurance",
-        "does homeowners insurance cover ice storm damage",
-        "additional living expenses after storm damage",
-        "does homeowners insurance cover flood damage"
-      ],
-      "suggested_slug": "does-homeowners-insurance-cover-storm-damage",
-      "suggested_title": "Does homeowners insurance cover storm damage? A Utah homeowner guide",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/storm-damage-restoration/",
-        "/services/roof-leak-repair/",
-        "/services/water-damage-restoration/"
-      ],
-      "service_tags": [
-        "storm-damage-restoration",
-        "roof-leak-repair",
-        "water-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.allstate.com/resources/home-insurance/storm-and-wind-damage",
-        "https://content.naic.org/article/consumer_insight_after_storm_read_fine_print_avoid_signing_away_your_insurance_benefits.htm",
-        "https://insurance.utah.gov/"
-      ],
-      "notes": "Flagship storm-insurance pillar: KD 2 with an $18.39 CPC, so this is cheap organic real estate for a term with real commercial value. Lead with the covered-vs-excluded split (wind, hail, lightning, weight of snow/ice covered; rising-water flooding and wear-and-tear excluded) because that is the distinction Utah homeowners get wrong. Link out to the planned /blog/storm-damage-insurance-claim-checklist/ post rather than repeating claim-filing steps.",
-      "published_verified_at": "2026-09-22T15:28:59Z"
-    },
-    {
-      "id": "2026-08-03-does-homeowners-insurance-cover-wind-damage",
-      "status": "published",
-      "queued_at": "2026-08-03T00:00:00Z",
-      "written_at": "2026-09-24T16:45:50Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-wind-damage/",
-      "primary_keyword": "does homeowners insurance cover wind damage",
-      "intent": "informational",
-      "volume": 170,
-      "kd": 19,
-      "fan_out_cluster": [
-        "does homeowners insurance cover wind damage to roof",
-        "wind damage to fence covered by insurance",
-        "does state farm homeowners insurance cover wind damage",
-        "does home insurance cover wind damage to fences",
-        "windstorm insurance",
-        "hail and wind insurance"
-      ],
-      "suggested_slug": "does-homeowners-insurance-cover-wind-damage",
-      "suggested_title": "Does homeowners insurance cover wind damage? Roofs, fences, and siding",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/storm-damage-restoration/",
-        "/services/roof-leak-repair/"
-      ],
-      "service_tags": [
-        "storm-damage-restoration",
-        "roof-leak-repair"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.allstate.com/resources/home-insurance/storm-and-wind-damage",
-        "https://www.insurance.com/home-and-renters-insurance/claims/storm-damage-insurance-claims",
-        "https://insurance.utah.gov/"
-      ],
-      "notes": "Absorbs the \"wind damage to roof\" (140/mo, KD 11) and \"wind damage to fence\" (70/mo, CPC 28.69) variants as H2 sections so we do not cannibalise with three near-identical posts. Wasatch Front canyon winds are the local hook: reference real wind events rather than hurricane framing.",
-      "published_verified_at": "2026-09-24T16:47:48Z"
-    },
-    {
-      "id": "2026-08-03-does-homeowners-insurance-cover-roof-leaks-from-rain",
-      "status": "banked",
-      "queued_at": "2026-08-03T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "does homeowners insurance cover roof leaks from rain",
-      "intent": "informational",
-      "volume": 170,
-      "kd": 20,
-      "fan_out_cluster": [
-        "roof leak should i call insurance",
-        "how do i make a successful roof leak insurance claim",
-        "does homeowners insurance cover roof leaks from snow",
-        "does homeowners insurance cover roof leaks from ice dams",
-        "does homeowners insurance cover roof leaks state farm",
-        "roof leak insurance claim denied"
-      ],
-      "suggested_slug": "does-homeowners-insurance-cover-roof-leaks-from-rain",
-      "suggested_title": "Does homeowners insurance cover roof leaks from rain? What adjusters look for",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/roof-leak-repair/",
-        "/services/storm-damage-restoration/",
-        "/services/water-damage-restoration/",
-        "/services/mold-remediation/"
-      ],
-      "service_tags": [
-        "roof-leak-repair",
-        "storm-damage-restoration",
-        "water-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.insurance.com/home-and-renters-insurance/claims/storm-damage-insurance-claims",
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.allstate.com/resources/home-insurance/storm-and-wind-damage"
-      ],
-      "notes": "The sudden-and-accidental vs deferred-maintenance distinction is the whole article: that is why these claims get denied. Ties to the existing ice-dam content (bank already has \"does homeowners insurance cover roof leaks from ice dams\" territory) so cross-link to the Park City ice dam posts. Mention the 24-48 hour mold window to justify the mold-remediation link.",
-      "banked_at": "2026-09-17T22:13:26.020066+00:00"
-    },
-    {
-      "id": "2026-08-03-does-homeowners-insurance-cover-tornado-damage",
-      "status": "banked",
-      "queued_at": "2026-08-03T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "does homeowners insurance cover tornado damage",
-      "intent": "informational",
-      "volume": 590,
-      "kd": null,
-      "fan_out_cluster": [
-        "what type of insurance covers damage from a tornado",
-        "does renters insurance cover tornado damage",
-        "tornado insurance cost",
-        "is there tornado insurance",
-        "does insurance cover tornado damage house",
-        "does state farm homeowners insurance cover tornado damage"
-      ],
-      "suggested_slug": "does-homeowners-insurance-cover-tornado-damage",
-      "suggested_title": "Does homeowners insurance cover tornado damage? Coverage and exclusions",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/storm-damage-restoration/",
-        "/services/junk-debris-removal/",
-        "/services/roof-leak-repair/"
-      ],
-      "service_tags": [
-        "storm-damage-restoration",
-        "junk-debris-removal",
-        "roof-leak-repair"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.allstate.com/resources/home-insurance/storm-and-wind-damage",
-        "https://www.insurance.com/home-and-renters-insurance/claims/storm-damage-insurance-claims",
-        "https://insurance.utah.gov/"
-      ],
-      "notes": "Highest volume in this run at 590/mo. Tornadoes are rare in Utah, so keep the local angle honest: frame it as high-wind and microburst events (Utah does get them) and do not imply a tornado-prone service area. Renters-insurance angle (140/mo) is a clean H2.",
-      "banked_at": "2026-09-17T22:13:26.020067+00:00"
-    },
-    {
-      "id": "2026-08-03-what-to-do-after-storm-damage-to-your-house",
-      "status": "banked",
-      "queued_at": "2026-08-03T00:00:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "what to do after storm damage to your house",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "storm damage cleanup checklist",
-        "how to tarp a roof after storm damage",
-        "how to document storm damage for insurance",
-        "should i wait for the adjuster before making repairs",
-        "emergency board up after storm",
-        "how long does storm damage restoration take"
-      ],
-      "suggested_slug": "what-to-do-after-storm-damage-to-your-house",
-      "suggested_title": "What to do after storm damage to your house (the first 24 hours)",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/storm-damage-restoration/",
-        "/services/water-damage-restoration/",
-        "/services/roof-leak-repair/",
-        "/services/junk-debris-removal/"
-      ],
-      "service_tags": [
-        "storm-damage-restoration",
-        "water-damage-restoration",
-        "roof-leak-repair"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://content.naic.org/article/consumer_insight_after_storm_read_fine_print_avoid_signing_away_your_insurance_benefits.htm",
-        "https://yourhome.fanniemae.com/get-relief/disaster/insurance-after-disaster",
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "Zero measured Google volume but surfaced directly by the ChatGPT decomposition, so it is AI-retrieval fuel: write it as a numbered, liftable passage (safety, document, mitigate, call insurer, keep records). Must stay mitigation-focused and defer claim mechanics to /blog/storm-damage-insurance-claim-checklist/ to avoid duplicate content.",
-      "banked_at": "2026-09-17T22:13:26.020068+00:00"
-    },
-    {
-      "id": "2026-08-27-hail-damage-roof-signs-utah",
-      "status": "published",
-      "queued_at": "2026-08-27T03:05:00Z",
-      "written_at": "2026-09-29T22:39:25Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/hail-damage-roof-signs-utah/",
-      "primary_keyword": "hail damage roof",
-      "intent": "informational",
-      "volume": 5400,
-      "kd": 7,
-      "fan_out_cluster": [
-        "signs of hail damage",
-        "hail damage roof repair cost",
-        "wind damage to roof",
-        "how to tell if water is behind your walls",
-        "what does storm damage restoration include"
-      ],
-      "suggested_slug": "hail-damage-roof-signs-utah",
-      "suggested_title": "Hail damage roof inspection: how to spot it after a Utah storm",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/storm-damage-restoration/",
-        "/services/roof-leak-repair/"
-      ],
-      "service_tags": [
-        "storm-damage-restoration",
-        "roof-leak-repair"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.ready.gov/severe-weather"
-      ],
-      "notes": "Wasatch Back hail is the local hook: lean on Heber City and Park City examples per the client's stated ranking targets. Show the difference between cosmetic granule loss and a breach that lets water into the decking, and set the expectation that interior moisture work starts within 24 to 48 hours.",
-      "published_verified_at": "2026-09-29T22:41:58Z"
-    },
-    {
-      "id": "2026-08-27-wind-damage-to-roof-what-to-do",
-      "status": "published",
-      "queued_at": "2026-08-27T03:05:00Z",
-      "written_at": "2026-10-02T01:59:12Z",
-      "post_url": "https://homepriderestorationandcleaning.com/blog/wind-damage-to-roof-what-to-do/",
-      "primary_keyword": "wind damage to roof",
-      "intent": "informational",
-      "volume": 1000,
-      "kd": 0,
-      "fan_out_cluster": [
-        "storm damage roof repair",
-        "emergency roof tarping",
-        "how to tarp a roof after storm damage",
-        "does homeowners insurance cover wind damage",
-        "who to call for storm damage"
-      ],
-      "suggested_slug": "wind-damage-to-roof-what-to-do",
-      "suggested_title": "Wind damage to roof: what Utah homeowners should do in the first 48 hours",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/storm-damage-restoration/",
-        "/services/roof-leak-repair/"
-      ],
-      "service_tags": [
-        "storm-damage-restoration",
-        "roof-leak-repair"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.ready.gov/severe-weather"
-      ],
-      "notes": "Canyon winds off the Wasatch Front are the local angle (Saratoga Springs, Eagle Mountain, Lehi). Cover safe temporary tarping versus calling a crew, and link the insurance-claim checklist post rather than repeating it.",
-      "published_verified_at": "2026-10-02T02:01:02Z"
-    },
-    {
-      "id": "2026-08-27-basement-flooded-after-heavy-rain",
-      "status": "queued",
-      "queued_at": "2026-08-27T03:05:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "basement flooded after heavy rain",
-      "intent": "informational",
-      "volume": 90,
-      "kd": 1,
-      "fan_out_cluster": [
-        "what to do if your basement floods after heavy rain",
-        "storm damage cleanup",
-        "how long after a storm does mold start growing",
-        "how long does storm damage restoration take",
-        "does homeowners insurance cover storm damage"
-      ],
-      "suggested_slug": "basement-flooded-after-heavy-rain",
-      "suggested_title": "Basement flooded after heavy rain: the first 24 hours, step by step",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/basement-flooding-cleanup/",
-        "/services/storm-damage-restoration/",
-        "/services/water-damage-restoration/"
-      ],
-      "service_tags": [
-        "basement-flooding-cleanup",
-        "storm-damage-restoration",
-        "water-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.ready.gov/severe-weather"
-      ],
-      "notes": "Utah County clay soil plus fast spring runoff is the local cause. Separate clean rainwater intrusion (category 1) from ground-water and sewer backup (category 3) early, because the category drives what gets saved versus removed."
-    },
-    {
-      "id": "2026-08-27-what-does-storm-damage-restoration-include",
-      "status": "banked",
-      "queued_at": "2026-08-27T03:05:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "what does storm damage restoration include",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "storm damage restoration process",
-        "emergency roof tarping",
-        "storm damage cleanup",
-        "storm damage restoration cost",
-        "how long does storm damage restoration take"
-      ],
-      "suggested_slug": "what-does-storm-damage-restoration-include",
-      "suggested_title": "What does storm damage restoration include? The full scope, phase by phase",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/storm-damage-restoration/",
-        "/services/water-damage-restoration/",
-        "/services/roof-leak-repair/"
-      ],
-      "service_tags": [
-        "storm-damage-restoration",
-        "water-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.ready.gov/severe-weather"
-      ],
-      "notes": "Straight answer-format page built for AI retrieval: emergency stabilization, assessment and documentation, water extraction and structural drying, then repairs. ChatGPT already cites the storm service page for this client, so mirror that phrasing and link back to it.",
-      "banked_at": "2026-09-24T22:24:15.043093+00:00"
-    },
-    {
-      "id": "2026-08-27-how-long-does-storm-damage-restoration-take",
-      "status": "banked",
-      "queued_at": "2026-08-27T03:05:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how long does storm damage restoration take",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "what does storm damage restoration include",
-        "storm damage restoration cost",
-        "how long after a storm does mold start growing",
-        "how long to file a storm damage claim",
-        "storm damage roof repair"
-      ],
-      "suggested_slug": "how-long-does-storm-damage-restoration-take",
-      "suggested_title": "How long does storm damage restoration take? Realistic timelines by damage type",
-      "target_word_count": 1300,
-      "internal_link_targets": [
-        "/services/storm-damage-restoration/",
-        "/services/water-damage-restoration/"
-      ],
-      "service_tags": [
-        "storm-damage-restoration",
-        "water-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.ready.gov/severe-weather"
-      ],
-      "notes": "Give ranges, not promises: tarping and board-up same day, structural drying three to five days, repairs measured in weeks and gated by the insurance approval. Note that the drying clock does not start until the roof or window breach is closed.",
-      "banked_at": "2026-09-24T22:24:15.043095+00:00"
-    },
-    {
-      "id": "2026-09-24-what-damage-can-a-flood-cause-saratoga-springs",
-      "status": "queued",
-      "queued_at": "2026-09-24T16:45:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "what damage can a flood cause",
-      "intent": "informational",
-      "volume": 320,
-      "kd": 26,
-      "fan_out_cluster": [
-        "flood damage to house",
-        "flood damage in basement",
-        "what damage does a flood cause",
-        "mold cleanup after flood",
-        "is flood water category 3",
-        "flood damage repair"
-      ],
-      "suggested_slug": "what-damage-can-a-flood-cause-saratoga-springs",
-      "suggested_title": "What damage can a flood cause to a Saratoga Springs home?",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/basement-flooding-cleanup/",
-        "/services/mold-remediation/",
-        "/services/sewage-cleanup/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "basement-flooding-cleanup",
-        "mold-remediation",
-        "sewage-cleanup"
-      ],
-      "city_anchor": "saratoga-springs-ut",
-      "external_authority_candidates": [
-        "https://www.epa.gov/emergencies-iaq/flooded-home",
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "Walk the damage layer by layer: drywall wicking, subfloor and hardwood cupping, insulation, electrical, HVAC ducts, contents, then mold at 24-48 hours. Tie to Utah flash flooding and snowmelt runoff. Utah search volume is seasonal (peaks spring)."
-    },
-    {
-      "id": "2026-09-24-basement-flood-cleanup-cost-lehi",
-      "status": "queued",
-      "queued_at": "2026-09-24T16:45:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "basement flood cleanup cost",
-      "intent": "commercial",
-      "volume": 210,
-      "kd": 0,
-      "fan_out_cluster": [
-        "cost of basement flood cleanup",
-        "flood cleanup cost",
-        "how much does flood cleanup cost",
-        "basement flood cleanup near me",
-        "does insurance pay for basement flood cleanup"
-      ],
-      "suggested_slug": "basement-flood-cleanup-cost-lehi",
-      "suggested_title": "Basement flood cleanup cost in Lehi, UT: what drives the price",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/basement-flooding-cleanup/",
-        "/service-areas/lehi-ut/basement-flooding-cleanup/",
-        "/services/water-damage-restoration/",
-        "/services/sewage-cleanup/"
-      ],
-      "service_tags": [
-        "basement-flooding-cleanup",
-        "water-damage-restoration",
-        "sewage-cleanup"
-      ],
-      "city_anchor": "lehi-ut",
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "Give ranges by square footage and water category, not quotes. Separate extraction and drying from rebuild (drywall, carpet, pad). Clean water vs sewage backup changes the price most. CPC 31 confirms buyer intent."
-    },
-    {
-      "id": "2026-09-24-what-to-do-if-your-house-is-flooded-eagle-mountain",
-      "status": "queued",
-      "queued_at": "2026-09-24T16:45:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "what to do if your house is flooded",
-      "intent": "informational",
-      "volume": 110,
-      "kd": 16,
-      "fan_out_cluster": [
-        "house flooded what to do",
-        "my house is flooded what do i do",
-        "is it safe to stay in a flooded house",
-        "how to clean up after a flood",
-        "what to throw away after a flood",
-        "how to document flood damage for insurance"
-      ],
-      "suggested_slug": "what-to-do-if-your-house-is-flooded-eagle-mountain",
-      "suggested_title": "What to do if your house is flooded: a first-day guide for Eagle Mountain homeowners",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/service-areas/eagle-mountain-ut/water-damage-restoration/",
-        "/services/basement-flooding-cleanup/",
-        "/services/sewage-cleanup/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "basement-flooding-cleanup",
-        "sewage-cleanup"
-      ],
-      "city_anchor": "eagle-mountain-ut",
-      "external_authority_candidates": [
-        "https://www.floodsmart.gov/recover/checklist",
-        "https://beready.utah.gov/utah-hazards/flood/",
-        "https://www.epa.gov/emergencies-iaq/flooded-home"
-      ],
-      "notes": "Must differentiate from /blog/what-to-do-first-24-hours-water-damage/ (pipe leaks): this one is whole-house flooding, so lead with safety (power, gas, structural), treat water as contaminated, document before removal, and call insurers early. Link to the first-24-hours post. Order: safety, documentation, drying, repair."
-    },
-    {
-      "id": "2026-09-24-water-mitigation-cost-american-fork",
-      "status": "queued",
-      "queued_at": "2026-09-24T16:45:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "water mitigation cost",
-      "intent": "commercial",
-      "volume": 110,
-      "kd": 0,
-      "fan_out_cluster": [
-        "water mitigation vs remediation",
-        "how much does water extraction cost",
-        "dehumidifier and air mover rental cost",
-        "who pays for flood cleanup",
-        "flood damage restoration cost"
-      ],
-      "suggested_slug": "water-mitigation-cost-american-fork",
-      "suggested_title": "Water mitigation cost in American Fork: what the dry-out phase really costs",
-      "target_word_count": 1300,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/service-areas/american-fork-ut/water-damage-restoration/",
-        "/services/water-cleanup/",
-        "/services/water-leak-detection/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "water-cleanup",
-        "water-leak-detection"
-      ],
-      "city_anchor": "american-fork-ut",
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500"
-      ],
-      "notes": "Scope is mitigation only (extraction, drying equipment, monitoring, demo of wet materials), not rebuild. Link to the published water damage restoration cost post for the full-job view and avoid repeating its numbers. CPC 64 is high."
-    },
-    {
-      "id": "2026-09-24-water-mitigation-vs-remediation-saratoga-springs",
-      "status": "queued",
-      "queued_at": "2026-09-24T16:45:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "water mitigation vs remediation",
-      "intent": "informational",
-      "volume": 70,
-      "kd": 0,
-      "fan_out_cluster": [
-        "remediation vs mitigation",
-        "mitigation vs remediation vs restoration",
-        "what is water mitigation",
-        "what does water remediation include",
-        "water mitigation cost"
-      ],
-      "suggested_slug": "water-mitigation-vs-remediation-saratoga-springs",
-      "suggested_title": "Water mitigation vs remediation: what Saratoga Springs homeowners are actually paying for",
-      "target_word_count": 1200,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/mold-remediation/",
-        "/services/water-cleanup/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "mold-remediation",
-        "water-cleanup"
-      ],
-      "city_anchor": "saratoga-springs-ut",
-      "external_authority_candidates": [
-        "https://www.iicrc.org/page/IICRCS500",
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "Define the three phases plainly (mitigation stops the damage, remediation removes contamination such as mold or sewage, restoration rebuilds) and show how each shows up on an insurance estimate. Short definitions near the top for AI answer lift."
+     "file": "src/content/blog/best-water-damage-restoration-company-in-saratoga-springs-ut.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "68 reviews",
+     "context": "alists holds a 4.9 Google rating across 68 reviews. They are an established local restorat",
+     "reason": "listicle review-count 68 (competitor stat \u2014 verify it is not presented as ours)"
     }
-  ]
+   ],
+   "published_verified_at": "2026-09-18T11:55:59Z"
+  },
+  {
+   "id": "2026-06-23-ice-dam-removal-park-city",
+   "status": "written",
+   "queued_at": "2026-06-24T00:29:58Z",
+   "written_at": "2026-06-24T05:26:45Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/ice-dam-removal-park-city/",
+   "primary_keyword": "ice dam removal",
+   "intent": "informational",
+   "volume": 4400,
+   "kd": 15,
+   "fan_out_cluster": [
+    "how to remove an ice dam",
+    "ice dam roof leak",
+    "ice dam removal cost",
+    "are ice dams covered by insurance",
+    "ice dam steam removal",
+    "why ice dams form on Park City roofs"
+   ],
+   "suggested_slug": "ice-dam-removal-park-city",
+   "suggested_title": "Ice Dam Removal in Park City: How to Stop Roof Leaks Before They Flood Your Home",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/roof-leak-repair/",
+    "/services/water-damage-restoration/",
+    "/service-areas/park-city-ut/"
+   ],
+   "service_tags": [
+    "roof-leak-repair",
+    "storm-damage-restoration",
+    "water-damage-restoration"
+   ],
+   "city_anchor": "park-city-ut",
+   "external_authority_candidates": [],
+   "notes": "Strongest uncovered opportunity (4400 vol, KD 15). Park City's elevation and snow load make ice dams a top winter cause of interior water damage. Localize to Park City roofs/altitude; CTA to emergency roof-leak + water-damage service."
+  },
+  {
+   "id": "2026-06-23-how-to-prevent-ice-dams-heber-city",
+   "status": "written",
+   "queued_at": "2026-06-24T00:29:58Z",
+   "written_at": "2026-06-29T18:11:25Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/how-to-prevent-ice-dams-heber-city/",
+   "primary_keyword": "how to prevent ice dams",
+   "intent": "informational",
+   "volume": 1300,
+   "kd": 9,
+   "fan_out_cluster": [
+    "what causes ice dams",
+    "ice dam prevention tips",
+    "attic insulation and ice dams",
+    "roof rake for ice dams",
+    "heat cable ice dam",
+    "ice dams and Heber City winters"
+   ],
+   "suggested_slug": "how-to-prevent-ice-dams-heber-city",
+   "suggested_title": "How to Prevent Ice Dams on Your Heber City Home This Winter",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/roof-leak-repair/",
+    "/services/storm-damage-restoration/",
+    "/service-areas/heber-city-ut/"
+   ],
+   "service_tags": [
+    "roof-leak-repair",
+    "storm-damage-restoration"
+   ],
+   "city_anchor": "heber-city-ut",
+   "external_authority_candidates": [],
+   "notes": "Preventive companion to the Park City ice-dam removal post (different intent: DIY prevention vs emergency removal). KD 9, very winnable. Assigned to Heber City to avoid same-SERP cannibalization."
+  },
+  {
+   "id": "2026-06-23-does-homeowners-insurance-cover-frozen-pipes-park-city",
+   "status": "published",
+   "queued_at": "2026-06-24T00:29:58Z",
+   "written_at": "2026-07-06T18:36:52Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-frozen-pipes-park-city/",
+   "primary_keyword": "does homeowners insurance cover frozen pipes",
+   "intent": "informational",
+   "volume": 320,
+   "kd": null,
+   "fan_out_cluster": [
+    "frozen pipe insurance claim",
+    "is a burst pipe covered by insurance",
+    "sudden and accidental water damage",
+    "unoccupied home frozen pipe coverage",
+    "filing a frozen pipe claim",
+    "does insurance cover frozen pipe damage"
+   ],
+   "suggested_slug": "does-homeowners-insurance-cover-frozen-pipes-park-city",
+   "suggested_title": "Does Homeowners Insurance Cover Frozen Pipes? A Park City Homeowner's Guide",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/frozen-pipe-restoration/",
+    "/services/water-damage-restoration/",
+    "/service-areas/park-city-ut/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+   ],
+   "service_tags": [
+    "frozen-pipe-restoration",
+    "burst-pipe-repair",
+    "water-damage-restoration"
+   ],
+   "city_anchor": "park-city-ut",
+   "external_authority_candidates": [
+    "https://www.iii.org/article/what-covered-standard-homeowners-policy"
+   ],
+   "notes": "Frozen-pipe-specific insurance angle (distinct from the existing general water-damage insurance post). High relevance for Park City second homes/vacant ski properties where unattended freezes are common. KD null but competition LOW.",
+   "published_verified_at": "2026-07-06T18:38:28Z"
+  },
+  {
+   "id": "2026-06-23-frozen-pipe-damage-heber-city",
+   "status": "published",
+   "queued_at": "2026-06-24T00:29:58Z",
+   "written_at": "2026-07-09T18:03:18Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/frozen-pipe-damage-heber-city/",
+   "primary_keyword": "frozen pipe damage",
+   "intent": "informational",
+   "volume": 110,
+   "kd": null,
+   "fan_out_cluster": [
+    "burst frozen pipe",
+    "frozen pipe burst what to do",
+    "how to thaw a frozen pipe",
+    "frozen pipe water damage cleanup",
+    "frozen pipe repair cost",
+    "preventing frozen pipes in cold climates"
+   ],
+   "suggested_slug": "frozen-pipe-damage-heber-city",
+   "suggested_title": "Frozen Pipe Damage in Heber City: What to Do First and What Repairs Cost",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/frozen-pipe-restoration/",
+    "/services/burst-pipe-repair/",
+    "/service-areas/heber-city-ut/"
+   ],
+   "service_tags": [
+    "frozen-pipe-restoration",
+    "burst-pipe-repair",
+    "water-damage-restoration"
+   ],
+   "city_anchor": "heber-city-ut",
+   "external_authority_candidates": [],
+   "notes": "Emergency + cost framing. CPC $57 signals strong commercial pull behind the informational query. Heber City's sub-zero valley nights make this seasonally evergreen.",
+   "published_verified_at": "2026-07-09T18:04:55Z"
+  },
+  {
+   "id": "2026-06-23-water-damage-restoration-cost-park-city",
+   "status": "written",
+   "queued_at": "2026-06-24T00:29:58Z",
+   "written_at": "2026-07-13T18:07:27Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/water-damage-restoration-cost-park-city/",
+   "primary_keyword": "water damage restoration cost",
+   "intent": "informational",
+   "volume": 880,
+   "kd": null,
+   "fan_out_cluster": [
+    "water damage restoration cost per square foot",
+    "cost to repair water damage",
+    "water damage cleanup cost",
+    "category 3 water damage cost",
+    "does insurance pay for water damage restoration",
+    "emergency water extraction cost"
+   ],
+   "suggested_slug": "water-damage-restoration-cost-park-city",
+   "suggested_title": "Water Damage Restoration Cost in Park City: 2026 Price Guide",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/service-areas/park-city-ut/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "basement-flooding-cleanup"
+   ],
+   "city_anchor": "park-city-ut",
+   "external_authority_candidates": [],
+   "notes": "No cost guide exists on the site. Decision-stage query (vol 880, CPC $23) that attracts homeowners hours before they hire. Localize price ranges to the Park City/Wasatch Back market."
+  },
+  {
+   "id": "2026-07-02-how-to-clean-soot-off-walls",
+   "status": "written",
+   "queued_at": "2026-07-02T17:37:35Z",
+   "written_at": "2026-07-16T17:23:12Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/how-to-clean-soot-off-walls/",
+   "primary_keyword": "how to clean soot off walls",
+   "intent": "informational",
+   "volume": 590,
+   "kd": 0,
+   "fan_out_cluster": [
+    "how to remove soot from walls",
+    "cleaning soot off painted walls",
+    "soot on walls after a fire",
+    "chemical dry sponge for soot",
+    "does soot wipe off walls",
+    "how to clean soot from ceilings",
+    "why professional soot removal matters"
+   ],
+   "suggested_slug": "how-to-clean-soot-off-walls",
+   "suggested_title": "How to Clean Soot Off Walls After a Fire (and When to Call a Pro)",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/smoke-damage-restoration/",
+    "/services/fire-damage-restoration/",
+    "/services/odor-removal/"
+   ],
+   "service_tags": [
+    "smoke-damage-restoration",
+    "fire-damage-restoration",
+    "odor-removal"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.epa.gov/indoor-air-quality-iaq/protect-your-home-cleaning-after-fire"
+   ],
+   "notes": "Uncovered DIY query (KD 0, 590/mo). Explain the safe DIY steps (dry chemical sponge, TSP, ventilation) but be clear about when soot residue is acidic/health-hazardous and needs pro smoke-damage restoration. Localize lightly to the Saratoga Springs / Utah County market. CTA to smoke-damage-restoration service."
+  },
+  {
+   "id": "2026-07-02-fire-damage-restoration-cost",
+   "status": "published",
+   "queued_at": "2026-07-02T17:37:35Z",
+   "written_at": "2026-07-20T18:25:11Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/fire-damage-restoration-cost/",
+   "primary_keyword": "fire damage restoration cost",
+   "intent": "informational",
+   "volume": 320,
+   "kd": 0,
+   "fan_out_cluster": [
+    "average fire damage restoration cost",
+    "cost to repair fire damage",
+    "house fire cleanup cost",
+    "smoke damage repair cost",
+    "does insurance pay for fire restoration",
+    "fire damage restoration cost per square foot",
+    "house fire debris removal cost"
+   ],
+   "suggested_slug": "fire-damage-restoration-cost",
+   "suggested_title": "Fire Damage Restoration Cost: 2026 Price Guide for Utah Homeowners",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/fire-damage-restoration/",
+    "/services/smoke-damage-restoration/",
+    "/blog/fire-damage-restoration-process/"
+   ],
+   "service_tags": [
+    "fire-damage-restoration",
+    "smoke-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iii.org/article/what-covered-standard-homeowners-policy"
+   ],
+   "notes": "No fire cost guide exists on site (process blog covers steps, not price). Decision-stage query, CPC $24. Break down cost by damage severity (soot/smoke only vs structural), square footage, and insurance. Localize price ranges to the Utah County / Wasatch market.",
+   "published_verified_at": "2026-07-20T18:27:50Z"
+  },
+  {
+   "id": "2026-07-02-what-to-do-after-a-house-fire",
+   "status": "published",
+   "queued_at": "2026-07-02T17:37:35Z",
+   "written_at": "2026-07-23T17:28:15Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/what-to-do-after-a-house-fire/",
+   "primary_keyword": "what to do after a house fire",
+   "intent": "informational",
+   "volume": 260,
+   "kd": 12,
+   "fan_out_cluster": [
+    "first steps after a house fire",
+    "house fire recovery checklist",
+    "who to call after a house fire",
+    "board up after a house fire",
+    "filing a fire insurance claim",
+    "is my house safe after a fire",
+    "returning home after a house fire",
+    "debris removal after house fire"
+   ],
+   "suggested_slug": "what-to-do-after-a-house-fire",
+   "suggested_title": "What to Do After a House Fire: A Step-by-Step Recovery Guide",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/fire-damage-restoration/",
+    "/services/smoke-damage-restoration/",
+    "/blog/fire-damage-restoration-process/"
+   ],
+   "service_tags": [
+    "fire-damage-restoration",
+    "smoke-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-from-a-fire.html"
+   ],
+   "notes": "SENSITIVE / emotional query (a homeowner who just had a fire). Apply sensitive-content guardrails: lead with safety and empathy, not a sales pitch. Cover the first 24-48 hours: safety, contacting insurer, securing/boarding up, what not to touch. Soft CTA to 24/7 fire restoration.",
+   "published_verified_at": "2026-07-23T17:29:24Z"
+  },
+  {
+   "id": "2026-07-02-does-homeowners-insurance-cover-fire-damage",
+   "status": "written",
+   "queued_at": "2026-07-02T17:37:35Z",
+   "written_at": "2026-07-27T18:17:18Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-fire-damage/",
+   "primary_keyword": "does homeowners insurance cover fire damage",
+   "intent": "informational",
+   "volume": 210,
+   "kd": 29,
+   "fan_out_cluster": [
+    "what does fire insurance cover",
+    "fire insurance claim process",
+    "smoke damage insurance claim",
+    "does insurance cover smoke damage",
+    "how to file a fire insurance claim",
+    "additional living expenses after a fire",
+    "personal property fire claim"
+   ],
+   "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
+   "suggested_title": "Does Homeowners Insurance Cover Fire Damage? A Plain-English Guide",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/fire-damage-restoration/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/blog/storm-damage-insurance-claim-checklist/"
+   ],
+   "service_tags": [
+    "fire-damage-restoration",
+    "smoke-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iii.org/article/what-covered-standard-homeowners-policy"
+   ],
+   "notes": "Distinct from the existing water-damage insurance post (different peril). Cover dwelling vs personal property vs ALE, smoke/soot coverage, documentation, and working with a restoration company on the claim. Cross-link the sibling water insurance post."
+  },
+  {
+   "id": "2026-07-16-mold-remediation-cost",
+   "status": "published",
+   "queued_at": "2026-07-16T20:20:00Z",
+   "written_at": "2026-07-30T17:55:42Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/mold-remediation-cost/",
+   "primary_keyword": "mold remediation cost",
+   "intent": "informational",
+   "volume": 9900,
+   "kd": 8,
+   "fan_out_cluster": [
+    "how much does mold remediation cost",
+    "mold remediation cost per square foot",
+    "black mold removal cost",
+    "mold remediation cost calculator",
+    "who pays for mold remediation",
+    "servpro mold remediation cost",
+    "does insurance pay for mold remediation"
+   ],
+   "suggested_slug": "mold-remediation-cost",
+   "suggested_title": "Mold Remediation Cost: 2026 Price Guide for Utah Homeowners",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/services/mold-inspection-testing/",
+    "/blog/does-homeowners-insurance-cover-water-damage/"
+   ],
+   "service_tags": [
+    "mold-remediation",
+    "mold-inspection-testing"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "No mold cost guide exists on site (vol 9900, CPC $23, KD 8). Break cost down by affected area size, mold type, and location (crawl space/attic/HVAC/drywall), plus what insurance covers. Localize price ranges to the Utah County / Wasatch market. Mirrors the queued water- and fire-damage cost guides.",
+   "published_verified_at": "2026-07-30T17:57:52Z"
+  },
+  {
+   "id": "2026-07-16-does-homeowners-insurance-cover-mold",
+   "status": "written",
+   "queued_at": "2026-07-16T20:20:00Z",
+   "written_at": "2026-08-03T18:19:16Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-mold/",
+   "primary_keyword": "does homeowners insurance cover mold",
+   "intent": "informational",
+   "volume": 5400,
+   "kd": 7,
+   "fan_out_cluster": [
+    "does homeowners insurance cover mold damage",
+    "what insurance companies cover mold damage",
+    "does home insurance cover mold from water damage",
+    "does homeowners insurance cover mold from roof leak",
+    "who pays for mold remediation",
+    "mold insurance claim tips",
+    "is black mold covered by insurance"
+   ],
+   "suggested_slug": "does-homeowners-insurance-cover-mold",
+   "suggested_title": "Does Homeowners Insurance Cover Mold? A Plain-English Guide for Utah Homeowners",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/blog/mold-after-water-damage/"
+   ],
+   "service_tags": [
+    "mold-remediation",
+    "mold-inspection-testing"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iii.org/article/what-covered-standard-homeowners-policy"
+   ],
+   "notes": "Distinct peril from the existing water-damage insurance blog: mold is usually excluded unless it results from a covered sudden-and-accidental water event, and policies often carry mold sublimits/riders. Cover covered-vs-excluded, documenting a claim, and mold riders. Cross-link the sibling water insurance post. KD 7, LOW competition."
+  },
+  {
+   "id": "2026-07-16-what-kills-mold-permanently",
+   "status": "published",
+   "queued_at": "2026-07-16T20:20:00Z",
+   "written_at": "2026-08-27T03:08:07Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/what-kills-mold-permanently/",
+   "primary_keyword": "what kills mold permanently",
+   "intent": "informational",
+   "volume": 3600,
+   "kd": 18,
+   "fan_out_cluster": [
+    "how to get rid of mold on walls",
+    "best mold remover for walls",
+    "does bleach kill mold",
+    "mold killer spray for walls",
+    "why mold keeps coming back",
+    "mold remediation diy",
+    "when to call a mold remediation pro"
+   ],
+   "suggested_slug": "what-kills-mold-permanently",
+   "suggested_title": "What Kills Mold Permanently? DIY Removal vs When to Call a Pro",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/blog/black-mold-vs-regular-mold/",
+    "/blog/signs-of-hidden-mold/"
+   ],
+   "service_tags": [
+    "mold-remediation"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "DIY query (vol 3600, KD 18). Apply the EPA 10 sq ft threshold: small non-porous areas can be DIY (detergent + water, dry fully, fix the moisture source), but bleach does not penetrate porous materials so mold returns unless the moisture source is fixed. CTA to professional remediation for larger, porous, or HVAC contamination.",
+   "published_verified_at": "2026-08-27T03:09:18Z"
+  },
+  {
+   "id": "2026-07-16-when-is-mold-remediation-required",
+   "status": "published",
+   "queued_at": "2026-07-16T20:20:00Z",
+   "written_at": "2026-08-31T23:25:47Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/when-is-mold-remediation-required/",
+   "primary_keyword": "when is mold remediation required",
+   "intent": "informational",
+   "volume": 480,
+   "kd": 16,
+   "fan_out_cluster": [
+    "how much mold is too much",
+    "epa mold remediation guidelines",
+    "mold remediation vs removal",
+    "when to call a mold remediation company",
+    "does mold always need remediation",
+    "signs you need mold remediation",
+    "the 10 square feet mold rule"
+   ],
+   "suggested_slug": "when-is-mold-remediation-required",
+   "suggested_title": "When Is Mold Remediation Required? How to Know If You Need a Pro",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/services/mold-inspection-testing/",
+    "/blog/signs-of-hidden-mold/"
+   ],
+   "service_tags": [
+    "mold-remediation",
+    "mold-inspection-testing"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-remediation-schools-and-commercial-buildings-guide"
+   ],
+   "notes": "Decision-stage threshold query. Cover the EPA 10 sq ft guideline, HVAC/sewage/health triggers, and the remediation-vs-removal terminology. Pairs with the mold cost guide and the inspection service. Localize lightly to Utah County.",
+   "published_verified_at": "2026-08-31T23:27:00Z"
+  },
+  {
+   "id": "2026-07-20-what-is-mold-remediation",
+   "status": "written",
+   "queued_at": "2026-07-20T18:21:00Z",
+   "written_at": "2026-09-11T14:38:01Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/what-is-mold-remediation/",
+   "primary_keyword": "what is mold remediation",
+   "intent": "informational",
+   "volume": null,
+   "kd": 11,
+   "fan_out_cluster": [
+    "how does mold remediation work",
+    "mold remediation process step by step",
+    "how long does mold remediation take",
+    "can you stay in your house during mold remediation",
+    "what to do after mold remediation",
+    "mold remediation vs removal",
+    "when to call a mold remediation company"
+   ],
+   "suggested_slug": "what-is-mold-remediation",
+   "suggested_title": "What Is Mold Remediation? The Process Explained Step by Step",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/services/mold-inspection-testing/",
+    "/blog/signs-of-hidden-mold/"
+   ],
+   "service_tags": [
+    "mold-remediation",
+    "mold-inspection-testing"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "GEO/AI-retrieval pillar. No mold-process blog exists (parity gap: fire has /blog/fire-damage-restoration-process/, mold does not). Null Google volume but the ChatGPT scraper decomposed the seed into exactly this six-step process (inspection, containment, HEPA air filtration, removal, drying, restoration); question-format process pages are what AI engines lift verbatim. KD 11, very winnable. Cover the six remediation steps, the EPA 10 sq ft threshold, containment/negative-air, whether occupants can stay, and remediation-vs-removal terminology. Cross-link the mold-remediation service page and the queued when-is-mold-remediation-required and mold-remediation-cost posts."
+  },
+  {
+   "id": "2026-08-03-does-homeowners-insurance-cover-storm-damage",
+   "status": "published",
+   "queued_at": "2026-08-03T00:00:00Z",
+   "written_at": "2026-09-22T15:26:53Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-storm-damage/",
+   "primary_keyword": "does homeowners insurance cover storm damage",
+   "intent": "informational",
+   "volume": 70,
+   "kd": 2,
+   "fan_out_cluster": [
+    "does insurance cover roof damage from storm",
+    "storm damage insurance",
+    "what storm damage is not covered by homeowners insurance",
+    "does homeowners insurance cover ice storm damage",
+    "additional living expenses after storm damage",
+    "does homeowners insurance cover flood damage"
+   ],
+   "suggested_slug": "does-homeowners-insurance-cover-storm-damage",
+   "suggested_title": "Does homeowners insurance cover storm damage? A Utah homeowner guide",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/storm-damage-restoration/",
+    "/services/roof-leak-repair/",
+    "/services/water-damage-restoration/"
+   ],
+   "service_tags": [
+    "storm-damage-restoration",
+    "roof-leak-repair",
+    "water-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.allstate.com/resources/home-insurance/storm-and-wind-damage",
+    "https://content.naic.org/article/consumer_insight_after_storm_read_fine_print_avoid_signing_away_your_insurance_benefits.htm",
+    "https://insurance.utah.gov/"
+   ],
+   "notes": "Flagship storm-insurance pillar: KD 2 with an $18.39 CPC, so this is cheap organic real estate for a term with real commercial value. Lead with the covered-vs-excluded split (wind, hail, lightning, weight of snow/ice covered; rising-water flooding and wear-and-tear excluded) because that is the distinction Utah homeowners get wrong. Link out to the planned /blog/storm-damage-insurance-claim-checklist/ post rather than repeating claim-filing steps.",
+   "published_verified_at": "2026-09-22T15:28:59Z"
+  },
+  {
+   "id": "2026-08-03-does-homeowners-insurance-cover-wind-damage",
+   "status": "published",
+   "queued_at": "2026-08-03T00:00:00Z",
+   "written_at": "2026-09-24T16:45:50Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/does-homeowners-insurance-cover-wind-damage/",
+   "primary_keyword": "does homeowners insurance cover wind damage",
+   "intent": "informational",
+   "volume": 170,
+   "kd": 19,
+   "fan_out_cluster": [
+    "does homeowners insurance cover wind damage to roof",
+    "wind damage to fence covered by insurance",
+    "does state farm homeowners insurance cover wind damage",
+    "does home insurance cover wind damage to fences",
+    "windstorm insurance",
+    "hail and wind insurance"
+   ],
+   "suggested_slug": "does-homeowners-insurance-cover-wind-damage",
+   "suggested_title": "Does homeowners insurance cover wind damage? Roofs, fences, and siding",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/storm-damage-restoration/",
+    "/services/roof-leak-repair/"
+   ],
+   "service_tags": [
+    "storm-damage-restoration",
+    "roof-leak-repair"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.allstate.com/resources/home-insurance/storm-and-wind-damage",
+    "https://www.insurance.com/home-and-renters-insurance/claims/storm-damage-insurance-claims",
+    "https://insurance.utah.gov/"
+   ],
+   "notes": "Absorbs the \"wind damage to roof\" (140/mo, KD 11) and \"wind damage to fence\" (70/mo, CPC 28.69) variants as H2 sections so we do not cannibalise with three near-identical posts. Wasatch Front canyon winds are the local hook: reference real wind events rather than hurricane framing.",
+   "published_verified_at": "2026-09-24T16:47:48Z"
+  },
+  {
+   "id": "2026-08-03-does-homeowners-insurance-cover-roof-leaks-from-rain",
+   "status": "banked",
+   "queued_at": "2026-08-03T00:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "does homeowners insurance cover roof leaks from rain",
+   "intent": "informational",
+   "volume": 170,
+   "kd": 20,
+   "fan_out_cluster": [
+    "roof leak should i call insurance",
+    "how do i make a successful roof leak insurance claim",
+    "does homeowners insurance cover roof leaks from snow",
+    "does homeowners insurance cover roof leaks from ice dams",
+    "does homeowners insurance cover roof leaks state farm",
+    "roof leak insurance claim denied"
+   ],
+   "suggested_slug": "does-homeowners-insurance-cover-roof-leaks-from-rain",
+   "suggested_title": "Does homeowners insurance cover roof leaks from rain? What adjusters look for",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/roof-leak-repair/",
+    "/services/storm-damage-restoration/",
+    "/services/water-damage-restoration/",
+    "/services/mold-remediation/"
+   ],
+   "service_tags": [
+    "roof-leak-repair",
+    "storm-damage-restoration",
+    "water-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.insurance.com/home-and-renters-insurance/claims/storm-damage-insurance-claims",
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.allstate.com/resources/home-insurance/storm-and-wind-damage"
+   ],
+   "notes": "The sudden-and-accidental vs deferred-maintenance distinction is the whole article: that is why these claims get denied. Ties to the existing ice-dam content (bank already has \"does homeowners insurance cover roof leaks from ice dams\" territory) so cross-link to the Park City ice dam posts. Mention the 24-48 hour mold window to justify the mold-remediation link.",
+   "banked_at": "2026-09-17T22:13:26.020066+00:00"
+  },
+  {
+   "id": "2026-08-03-does-homeowners-insurance-cover-tornado-damage",
+   "status": "banked",
+   "queued_at": "2026-08-03T00:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "does homeowners insurance cover tornado damage",
+   "intent": "informational",
+   "volume": 590,
+   "kd": null,
+   "fan_out_cluster": [
+    "what type of insurance covers damage from a tornado",
+    "does renters insurance cover tornado damage",
+    "tornado insurance cost",
+    "is there tornado insurance",
+    "does insurance cover tornado damage house",
+    "does state farm homeowners insurance cover tornado damage"
+   ],
+   "suggested_slug": "does-homeowners-insurance-cover-tornado-damage",
+   "suggested_title": "Does homeowners insurance cover tornado damage? Coverage and exclusions",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/storm-damage-restoration/",
+    "/services/junk-debris-removal/",
+    "/services/roof-leak-repair/"
+   ],
+   "service_tags": [
+    "storm-damage-restoration",
+    "junk-debris-removal",
+    "roof-leak-repair"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.allstate.com/resources/home-insurance/storm-and-wind-damage",
+    "https://www.insurance.com/home-and-renters-insurance/claims/storm-damage-insurance-claims",
+    "https://insurance.utah.gov/"
+   ],
+   "notes": "Highest volume in this run at 590/mo. Tornadoes are rare in Utah, so keep the local angle honest: frame it as high-wind and microburst events (Utah does get them) and do not imply a tornado-prone service area. Renters-insurance angle (140/mo) is a clean H2.",
+   "banked_at": "2026-09-17T22:13:26.020067+00:00"
+  },
+  {
+   "id": "2026-08-03-what-to-do-after-storm-damage-to-your-house",
+   "status": "banked",
+   "queued_at": "2026-08-03T00:00:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "what to do after storm damage to your house",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "storm damage cleanup checklist",
+    "how to tarp a roof after storm damage",
+    "how to document storm damage for insurance",
+    "should i wait for the adjuster before making repairs",
+    "emergency board up after storm",
+    "how long does storm damage restoration take"
+   ],
+   "suggested_slug": "what-to-do-after-storm-damage-to-your-house",
+   "suggested_title": "What to do after storm damage to your house (the first 24 hours)",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/storm-damage-restoration/",
+    "/services/water-damage-restoration/",
+    "/services/roof-leak-repair/",
+    "/services/junk-debris-removal/"
+   ],
+   "service_tags": [
+    "storm-damage-restoration",
+    "water-damage-restoration",
+    "roof-leak-repair"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://content.naic.org/article/consumer_insight_after_storm_read_fine_print_avoid_signing_away_your_insurance_benefits.htm",
+    "https://yourhome.fanniemae.com/get-relief/disaster/insurance-after-disaster",
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "Zero measured Google volume but surfaced directly by the ChatGPT decomposition, so it is AI-retrieval fuel: write it as a numbered, liftable passage (safety, document, mitigate, call insurer, keep records). Must stay mitigation-focused and defer claim mechanics to /blog/storm-damage-insurance-claim-checklist/ to avoid duplicate content.",
+   "banked_at": "2026-09-17T22:13:26.020068+00:00"
+  },
+  {
+   "id": "2026-08-27-hail-damage-roof-signs-utah",
+   "status": "published",
+   "queued_at": "2026-08-27T03:05:00Z",
+   "written_at": "2026-09-29T22:39:25Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/hail-damage-roof-signs-utah/",
+   "primary_keyword": "hail damage roof",
+   "intent": "informational",
+   "volume": 5400,
+   "kd": 7,
+   "fan_out_cluster": [
+    "signs of hail damage",
+    "hail damage roof repair cost",
+    "wind damage to roof",
+    "how to tell if water is behind your walls",
+    "what does storm damage restoration include"
+   ],
+   "suggested_slug": "hail-damage-roof-signs-utah",
+   "suggested_title": "Hail damage roof inspection: how to spot it after a Utah storm",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/storm-damage-restoration/",
+    "/services/roof-leak-repair/"
+   ],
+   "service_tags": [
+    "storm-damage-restoration",
+    "roof-leak-repair"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.ready.gov/severe-weather"
+   ],
+   "notes": "Wasatch Back hail is the local hook: lean on Heber City and Park City examples per the client's stated ranking targets. Show the difference between cosmetic granule loss and a breach that lets water into the decking, and set the expectation that interior moisture work starts within 24 to 48 hours.",
+   "published_verified_at": "2026-09-29T22:41:58Z"
+  },
+  {
+   "id": "2026-08-27-wind-damage-to-roof-what-to-do",
+   "status": "published",
+   "queued_at": "2026-08-27T03:05:00Z",
+   "written_at": "2026-10-02T01:59:12Z",
+   "post_url": "https://homepriderestorationandcleaning.com/blog/wind-damage-to-roof-what-to-do/",
+   "primary_keyword": "wind damage to roof",
+   "intent": "informational",
+   "volume": 1000,
+   "kd": 0,
+   "fan_out_cluster": [
+    "storm damage roof repair",
+    "emergency roof tarping",
+    "how to tarp a roof after storm damage",
+    "does homeowners insurance cover wind damage",
+    "who to call for storm damage"
+   ],
+   "suggested_slug": "wind-damage-to-roof-what-to-do",
+   "suggested_title": "Wind damage to roof: what Utah homeowners should do in the first 48 hours",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/storm-damage-restoration/",
+    "/services/roof-leak-repair/"
+   ],
+   "service_tags": [
+    "storm-damage-restoration",
+    "roof-leak-repair"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.ready.gov/severe-weather"
+   ],
+   "notes": "Canyon winds off the Wasatch Front are the local angle (Saratoga Springs, Eagle Mountain, Lehi). Cover safe temporary tarping versus calling a crew, and link the insurance-claim checklist post rather than repeating it.",
+   "published_verified_at": "2026-10-02T02:01:02Z"
+  },
+  {
+   "id": "2026-08-27-basement-flooded-after-heavy-rain",
+   "status": "queued",
+   "queued_at": "2026-08-27T03:05:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "basement flooded after heavy rain",
+   "intent": "informational",
+   "volume": 90,
+   "kd": 1,
+   "fan_out_cluster": [
+    "what to do if your basement floods after heavy rain",
+    "storm damage cleanup",
+    "how long after a storm does mold start growing",
+    "how long does storm damage restoration take",
+    "does homeowners insurance cover storm damage"
+   ],
+   "suggested_slug": "basement-flooded-after-heavy-rain",
+   "suggested_title": "Basement flooded after heavy rain: the first 24 hours, step by step",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/basement-flooding-cleanup/",
+    "/services/storm-damage-restoration/",
+    "/services/water-damage-restoration/"
+   ],
+   "service_tags": [
+    "basement-flooding-cleanup",
+    "storm-damage-restoration",
+    "water-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.ready.gov/severe-weather"
+   ],
+   "notes": "Utah County clay soil plus fast spring runoff is the local cause. Separate clean rainwater intrusion (category 1) from ground-water and sewer backup (category 3) early, because the category drives what gets saved versus removed."
+  },
+  {
+   "id": "2026-08-27-what-does-storm-damage-restoration-include",
+   "status": "banked",
+   "queued_at": "2026-08-27T03:05:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "what does storm damage restoration include",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "storm damage restoration process",
+    "emergency roof tarping",
+    "storm damage cleanup",
+    "storm damage restoration cost",
+    "how long does storm damage restoration take"
+   ],
+   "suggested_slug": "what-does-storm-damage-restoration-include",
+   "suggested_title": "What does storm damage restoration include? The full scope, phase by phase",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/storm-damage-restoration/",
+    "/services/water-damage-restoration/",
+    "/services/roof-leak-repair/"
+   ],
+   "service_tags": [
+    "storm-damage-restoration",
+    "water-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.ready.gov/severe-weather"
+   ],
+   "notes": "Straight answer-format page built for AI retrieval: emergency stabilization, assessment and documentation, water extraction and structural drying, then repairs. ChatGPT already cites the storm service page for this client, so mirror that phrasing and link back to it.",
+   "banked_at": "2026-09-24T22:24:15.043093+00:00"
+  },
+  {
+   "id": "2026-08-27-how-long-does-storm-damage-restoration-take",
+   "status": "banked",
+   "queued_at": "2026-08-27T03:05:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how long does storm damage restoration take",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "what does storm damage restoration include",
+    "storm damage restoration cost",
+    "how long after a storm does mold start growing",
+    "how long to file a storm damage claim",
+    "storm damage roof repair"
+   ],
+   "suggested_slug": "how-long-does-storm-damage-restoration-take",
+   "suggested_title": "How long does storm damage restoration take? Realistic timelines by damage type",
+   "target_word_count": 1300,
+   "internal_link_targets": [
+    "/services/storm-damage-restoration/",
+    "/services/water-damage-restoration/"
+   ],
+   "service_tags": [
+    "storm-damage-restoration",
+    "water-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.ready.gov/severe-weather"
+   ],
+   "notes": "Give ranges, not promises: tarping and board-up same day, structural drying three to five days, repairs measured in weeks and gated by the insurance approval. Note that the drying clock does not start until the roof or window breach is closed.",
+   "banked_at": "2026-09-24T22:24:15.043095+00:00"
+  },
+  {
+   "id": "2026-09-24-what-damage-can-a-flood-cause-saratoga-springs",
+   "status": "queued",
+   "queued_at": "2026-09-24T16:45:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "what damage can a flood cause",
+   "intent": "informational",
+   "volume": 320,
+   "kd": 26,
+   "fan_out_cluster": [
+    "flood damage to house",
+    "flood damage in basement",
+    "what damage does a flood cause",
+    "mold cleanup after flood",
+    "is flood water category 3",
+    "flood damage repair"
+   ],
+   "suggested_slug": "what-damage-can-a-flood-cause-saratoga-springs",
+   "suggested_title": "What damage can a flood cause to a Saratoga Springs home?",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/basement-flooding-cleanup/",
+    "/services/mold-remediation/",
+    "/services/sewage-cleanup/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "basement-flooding-cleanup",
+    "mold-remediation",
+    "sewage-cleanup"
+   ],
+   "city_anchor": "saratoga-springs-ut",
+   "external_authority_candidates": [
+    "https://www.epa.gov/emergencies-iaq/flooded-home",
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "Walk the damage layer by layer: drywall wicking, subfloor and hardwood cupping, insulation, electrical, HVAC ducts, contents, then mold at 24-48 hours. Tie to Utah flash flooding and snowmelt runoff. Utah search volume is seasonal (peaks spring)."
+  },
+  {
+   "id": "2026-09-24-basement-flood-cleanup-cost-lehi",
+   "status": "queued",
+   "queued_at": "2026-09-24T16:45:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "basement flood cleanup cost",
+   "intent": "commercial",
+   "volume": 210,
+   "kd": 0,
+   "fan_out_cluster": [
+    "cost of basement flood cleanup",
+    "flood cleanup cost",
+    "how much does flood cleanup cost",
+    "basement flood cleanup near me",
+    "does insurance pay for basement flood cleanup"
+   ],
+   "suggested_slug": "basement-flood-cleanup-cost-lehi",
+   "suggested_title": "Basement flood cleanup cost in Lehi, UT: what drives the price",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/basement-flooding-cleanup/",
+    "/service-areas/lehi-ut/basement-flooding-cleanup/",
+    "/services/water-damage-restoration/",
+    "/services/sewage-cleanup/"
+   ],
+   "service_tags": [
+    "basement-flooding-cleanup",
+    "water-damage-restoration",
+    "sewage-cleanup"
+   ],
+   "city_anchor": "lehi-ut",
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "Give ranges by square footage and water category, not quotes. Separate extraction and drying from rebuild (drywall, carpet, pad). Clean water vs sewage backup changes the price most. CPC 31 confirms buyer intent."
+  },
+  {
+   "id": "2026-09-24-what-to-do-if-your-house-is-flooded-eagle-mountain",
+   "status": "queued",
+   "queued_at": "2026-09-24T16:45:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "what to do if your house is flooded",
+   "intent": "informational",
+   "volume": 110,
+   "kd": 16,
+   "fan_out_cluster": [
+    "house flooded what to do",
+    "my house is flooded what do i do",
+    "is it safe to stay in a flooded house",
+    "how to clean up after a flood",
+    "what to throw away after a flood",
+    "how to document flood damage for insurance"
+   ],
+   "suggested_slug": "what-to-do-if-your-house-is-flooded-eagle-mountain",
+   "suggested_title": "What to do if your house is flooded: a first-day guide for Eagle Mountain homeowners",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/service-areas/eagle-mountain-ut/water-damage-restoration/",
+    "/services/basement-flooding-cleanup/",
+    "/services/sewage-cleanup/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "basement-flooding-cleanup",
+    "sewage-cleanup"
+   ],
+   "city_anchor": "eagle-mountain-ut",
+   "external_authority_candidates": [
+    "https://www.floodsmart.gov/recover/checklist",
+    "https://beready.utah.gov/utah-hazards/flood/",
+    "https://www.epa.gov/emergencies-iaq/flooded-home"
+   ],
+   "notes": "Must differentiate from /blog/what-to-do-first-24-hours-water-damage/ (pipe leaks): this one is whole-house flooding, so lead with safety (power, gas, structural), treat water as contaminated, document before removal, and call insurers early. Link to the first-24-hours post. Order: safety, documentation, drying, repair."
+  },
+  {
+   "id": "2026-09-24-water-mitigation-cost-american-fork",
+   "status": "queued",
+   "queued_at": "2026-09-24T16:45:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "water mitigation cost",
+   "intent": "commercial",
+   "volume": 110,
+   "kd": 0,
+   "fan_out_cluster": [
+    "water mitigation vs remediation",
+    "how much does water extraction cost",
+    "dehumidifier and air mover rental cost",
+    "who pays for flood cleanup",
+    "flood damage restoration cost"
+   ],
+   "suggested_slug": "water-mitigation-cost-american-fork",
+   "suggested_title": "Water mitigation cost in American Fork: what the dry-out phase really costs",
+   "target_word_count": 1300,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/service-areas/american-fork-ut/water-damage-restoration/",
+    "/services/water-cleanup/",
+    "/services/water-leak-detection/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "water-cleanup",
+    "water-leak-detection"
+   ],
+   "city_anchor": "american-fork-ut",
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500"
+   ],
+   "notes": "Scope is mitigation only (extraction, drying equipment, monitoring, demo of wet materials), not rebuild. Link to the published water damage restoration cost post for the full-job view and avoid repeating its numbers. CPC 64 is high."
+  },
+  {
+   "id": "2026-09-24-water-mitigation-vs-remediation-saratoga-springs",
+   "status": "queued",
+   "queued_at": "2026-09-24T16:45:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "water mitigation vs remediation",
+   "intent": "informational",
+   "volume": 70,
+   "kd": 0,
+   "fan_out_cluster": [
+    "remediation vs mitigation",
+    "mitigation vs remediation vs restoration",
+    "what is water mitigation",
+    "what does water remediation include",
+    "water mitigation cost"
+   ],
+   "suggested_slug": "water-mitigation-vs-remediation-saratoga-springs",
+   "suggested_title": "Water mitigation vs remediation: what Saratoga Springs homeowners are actually paying for",
+   "target_word_count": 1200,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/water-cleanup/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "mold-remediation",
+    "water-cleanup"
+   ],
+   "city_anchor": "saratoga-springs-ut",
+   "external_authority_candidates": [
+    "https://www.iicrc.org/page/IICRCS500",
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "Define the three phases plainly (mitigation stops the damage, remediation removes contamination such as mold or sewage, restoration rebuilds) and show how each shows up on an insurance estimate. Short definitions near the top for AI answer lift."
+  }
+ ]
 }
