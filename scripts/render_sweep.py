@@ -216,12 +216,11 @@ def render_one(slug: str, workers: int) -> bool:
     # and an unstaged manifest left the tree dirty -> sync-deploy refused
     # (2026-09-05 sweep failure)
     subprocess.run([sys.executable, str(ROOT / "scripts" / "conflict_marker_guard.py")])
-    run(["git", "add", f"sites/{slug}/", f"clients/{slug}.json", f"clients/{slug}/"])
-    if subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode != 0:
-        run(["git", "commit", "-m",
-             f"render sweep: {slug} pending pages [automated]"])
-        run(["git", "pull", "--rebase", "--autostash"])
-        run(["git", "push"])
+    # safe_push (2026-10-02): a rebase conflict on clients/{slug}.json lost
+    # four nights of renders; it now merges per key and always pushes
+    from safe_push import commit_and_push
+    commit_and_push([f"sites/{slug}/", f"clients/{slug}.json", f"clients/{slug}/"],
+                    f"render sweep: {slug} pending pages [automated]")
     branch = deploy_branch(slug)
     # --allow-dirty: the subtree split reads COMMITTED state, and this
     # site's changes were just committed. Residual dirt is other sites'

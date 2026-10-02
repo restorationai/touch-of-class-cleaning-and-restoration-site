@@ -157,9 +157,8 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nothing to commit."
           else
-            git commit -m "site-build: ${{ github.event.inputs.slug }} $(date +%Y-%m-%d) [automated]"
-            git pull --rebase --autostash
-            git push
+            git reset -q
+            python3 scripts/safe_push.py -m "site-build: ${{ github.event.inputs.slug }} $(date +%Y-%m-%d) [automated]" clients/ sites/
           fi
 
       - name: Deploy to staging
