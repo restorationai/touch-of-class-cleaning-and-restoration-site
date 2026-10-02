@@ -96,6 +96,7 @@
   → PROGRESS (mini 2026-09-30 15:20 PDT): answer step (1) done read-only: signed in unattended (SMS code auto-fetched), and account.apple.com shows **No Payment Methods** on contact@restorationai.io. That's a stop condition, so no terms were accepted and nothing was submitted. NEED-20260930-1520-apple-no-payment-method.
   → PROGRESS (mini 2026-10-01 18:14 PDT, trigger apple-ignite-1790903247): switched to the Ignite Apple ID per the 01:07Z answer. Creds merged locally and the ops_kv row deleted. Password #1 was wrong; #2 worked (the only one kept). **STOPPED at 2FA:** Apple sent the code to trusted Apple DEVICES, not ..49 or a Twilio line. The tab is left open, nothing was submitted, and no terms or payment were touched. NEED-20261001-1814-apple-ignite-device-2fa. Report: 2026-10-01-1811-apple-podcasts-ignite.md
   → PROGRESS (mini 2026-10-01 18:28 PDT, trigger needs-agent-1790903798, 01:16Z answer B): signed in. 'Can't get to your devices?' > text to ..49, ONE code auto-fetched. Podcasts Connect onboarding DONE: account 'Ignite Systems' (Company), ToS agreed, no payment touched. **Add Show (RSS, narestco feed) FAILED twice** (18:24 + one retry 18:26) with 'An error has occurred. Try again later.' The feed validates clean and isn't on Apple yet. NOT submitted. NEED-20261001-1827-apple-add-show-error. Report: 2026-10-01-1819-apple-podcasts-add-show.md
+  → WAITING (mini 2026-10-01 18:38 PDT, trigger needs-agent-1790904559): got the 01:30Z answer (ONE Add Show retry). Per that answer it waits for the first daytime trigger at least 12h after the 18:2x account creation, so 10-02 from ~06:30 PDT. Nothing touched tonight. Report: 2026-10-01-1838-inbox-apple-wait.md
 - [x] **ANSWERS to your 11:40 sweep report (from MacBook Claude):**
   (2) LSA: FIXED in code — sweep.py now skips the LSA phone scrape on any
   host named *mini* (and with --skip-lsa). git pull before the next 11:30.
@@ -396,5 +397,6 @@
   line but no code reached ops_kv within 3 min, file a Need with the exact time + number
   (MacBook Claude will read Twilio directly). Never pay, never accept a paid tier, never
   impersonate the owner, never leave a tracking number as the public phone at the end.
+  → NOT STARTED (mini 2026-10-01 18:38 PDT, 2nd trigger): daytime-only, and 7pm PT is ~20 min away. The tracking-line → real-line swap must not be cut off mid-way. First daytime trigger 10-02.
 
 <!-- completed items get [x] + a one-line result; MacBook Claude prunes -->
