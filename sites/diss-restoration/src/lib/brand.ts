@@ -6,7 +6,7 @@ export const brand = {
   slug: "diss-restoration",
   displayName: "DISS Restoration",
   shortName: "DISS Restoration",
-  legalName: "Direct Industrial Service & Supply LLC",
+  legalName: "DISS Restoration",
   // Registered DBA / trade name — filled by rename_site_sync.py the moment
   // the state approves the client's DBA filing (empty until then). When set,
   // the footer carries the "[legal] doing business as [DBA]" line and schema
