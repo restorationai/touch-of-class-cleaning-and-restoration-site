@@ -519,7 +519,7 @@
     },
     {
       "id": "2026-09-24-what-to-do-after-a-house-fire-biloxi-ms",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-24T16:31:03Z",
       "written_at": null,
       "post_url": null,
@@ -557,8 +557,7 @@
         "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-from-fire.html"
       ],
       "notes": "Client goal: Fire; Biloxi is a stated priority area. ChatGPT answer for this query cites Mississippi Insurance Department guidance (report loss, ALE, emergency repairs only, beware storm-chaser contractors): cover all of those. Emotional topic, keep tone calm and practical. HomeLyft is currently the first local business ChatGPT lists for this query.",
-      "source": "keyword-researcher 2026-09-24 seed=fire damage restoration",
-      "banked_at": "2026-09-24T22:24:15.042183+00:00"
+      "source": "keyword-researcher 2026-09-24 seed=fire damage restoration"
     },
     {
       "id": "2026-09-24-does-homeowners-insurance-cover-fire-damage",

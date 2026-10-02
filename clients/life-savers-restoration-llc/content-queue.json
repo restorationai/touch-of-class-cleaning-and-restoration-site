@@ -516,7 +516,7 @@
     },
     {
       "id": "2026-09-24-does-homeowners-insurance-cover-fire-damage-nevada",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-24T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -550,8 +550,7 @@
         "https://doi.nv.gov/Consumers/Wildfire_Recovery/",
         "https://www.iii.org/article/what-covered-standard-homeowners-policy"
       ],
-      "notes": "260/mo, KD 30. Decision-stage insurance topic, 24 to 48 hours before hire. Sister post to the existing water damage insurance guide. ChatGPT cited the Nevada Division of Insurance guidance (document damage, keep receipts, do not discard property before inspection): lift those points and cite doi.nv.gov. No policy promises: frame as typical coverage, advise reading the policy.",
-      "banked_at": "2026-09-24T22:24:15.044520+00:00"
+      "notes": "260/mo, KD 30. Decision-stage insurance topic, 24 to 48 hours before hire. Sister post to the existing water damage insurance guide. ChatGPT cited the Nevada Division of Insurance guidance (document damage, keep receipts, do not discard property before inspection): lift those points and cite doi.nv.gov. No policy promises: frame as typical coverage, advise reading the policy."
     },
     {
       "id": "2026-09-24-fire-damage-restoration-cost-henderson-nv",

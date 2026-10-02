@@ -1017,7 +1017,7 @@
     },
     {
       "id": "2026-08-28-does-homeowners-insurance-cover-plumbing-leaks",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-28T01:12:00Z",
       "written_at": null,
       "post_url": null,
@@ -1050,8 +1050,7 @@
         "https://www.iii.org/article/what-does-standard-homeowners-policy-cover",
         "https://www.floir.com/consumers/homeowners-insurance"
       ],
-      "notes": "590/mo, KD 13, CPC 30.93. Decision-stage insurance content, which the methodology flags as the highest-value informational tier. Must be clearly differentiated from the planned /blog/does-homeowners-insurance-cover-water-damage/ post: that one is the general water damage guide, this one is specifically the sudden-and-accidental vs gradual-seepage line that decides most denied plumbing claims. Add a Florida note on the 14-day and 35-day repeated-seepage limits that many FL carriers now write into policies. Do not give legal or coverage advice: describe how carriers typically treat these claims and tell the reader to read their own policy.",
-      "banked_at": "2026-09-24T22:24:15.052649+00:00"
+      "notes": "590/mo, KD 13, CPC 30.93. Decision-stage insurance content, which the methodology flags as the highest-value informational tier. Must be clearly differentiated from the planned /blog/does-homeowners-insurance-cover-water-damage/ post: that one is the general water damage guide, this one is specifically the sudden-and-accidental vs gradual-seepage line that decides most denied plumbing claims. Add a Florida note on the 14-day and 35-day repeated-seepage limits that many FL carriers now write into policies. Do not give legal or coverage advice: describe how carriers typically treat these claims and tell the reader to read their own policy."
     },
     {
       "id": "2026-08-28-pipe-burst-in-wall",

@@ -635,7 +635,7 @@
     },
     {
       "id": "2026-08-26-call-insurance-or-restoration-company-first",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-26T14:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -669,8 +669,7 @@
       ],
       "notes": "Decision-stage: this gets asked in the 24-48 hours before anyone hires. The existing insurance blog answers what is covered, not the sequencing. Key point to lead with: the policy's duty-to-mitigate means calling a mitigation crew immediately does not void a claim, and the homeowner picks the contractor, not the carrier. Link to the CDI page.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-24T22:24:15.032482+00:00"
+      "seed": "water damage restoration"
     },
     {
       "id": "2026-08-26-water-damage-categories-and-classes",

@@ -312,7 +312,7 @@
     },
     {
       "id": "2026-08-26-water-damage-insurance-claim",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-26T22:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -349,8 +349,7 @@
       ],
       "notes": "590/mo, KD 27, $45.19 CPC. IMPORTANT boundary: the site already has /blog/does-homeowners-insurance-cover-water-damage/, which answers whether a loss is covered. This post must NOT re-answer that. It is the process post: documenting the loss, what an adjuster looks for, mitigation duty (the policy obligation to stop ongoing damage, which is why calling a restoration firm before the adjuster arrives does not void a claim), typical Texas timelines, and when a public adjuster is worth it. Link back to the coverage post rather than restating it. Cite TDI for Texas-specific timelines.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-24T22:24:15.050741+00:00"
+      "seed": "water damage restoration"
     },
     {
       "id": "2026-09-24-mold-remediation-cost-dallas-tx",

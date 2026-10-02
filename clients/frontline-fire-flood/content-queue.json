@@ -268,7 +268,7 @@
     },
     {
       "id": "2026-09-24-water-damage-in-ceiling-tacoma",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-24T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -303,8 +303,7 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
       ],
-      "notes": "Highest-volume uncovered term this run (2,900 US, 70/mo in WA, KD 0). Pacific Northwest rain season angle: roof and attic leaks, upstairs bathroom and supply-line leaks. Cover sagging drywall collapse risk, when DIY patching is fine vs when wet insulation and mold mean a pro. Absorbs 'ceiling water damage repair' (1,900) and 'how to repair water damaged ceiling' (1,000) as H2s.",
-      "banked_at": "2026-09-28T10:24:07.256869+00:00"
+      "notes": "Highest-volume uncovered term this run (2,900 US, 70/mo in WA, KD 0). Pacific Northwest rain season angle: roof and attic leaks, upstairs bathroom and supply-line leaks. Cover sagging drywall collapse risk, when DIY patching is fine vs when wet insulation and mold mean a pro. Absorbs 'ceiling water damage repair' (1,900) and 'how to repair water damaged ceiling' (1,000) as H2s."
     },
     {
       "id": "2026-09-24-what-is-water-mitigation",

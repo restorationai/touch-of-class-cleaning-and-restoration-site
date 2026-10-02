@@ -667,7 +667,7 @@
     },
     {
       "id": "2026-09-24-how-to-fix-water-damage-on-ceiling-evanston",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-24T20:28:17Z",
       "written_at": null,
       "post_url": null,
@@ -703,8 +703,7 @@
       ],
       "notes": "Lead with finding and stopping the source (roof, upstairs bath, pipe), sagging-ceiling safety, and moisture readings before any patching. Stain-only DIY vs saturated drywall that must come down. Evanston's older housing stock (plaster and lath) is a good local angle.",
       "source": "keyword-researcher",
-      "seed": "what to do after water damage",
-      "banked_at": "2026-09-28T10:24:07.253714+00:00"
+      "seed": "what to do after water damage"
     },
     {
       "id": "2026-09-24-drywall-repair-after-water-damage-naperville",

@@ -1155,7 +1155,7 @@
     },
     {
       "id": "2026-09-10-who-is-responsible-for-water-damage-in-a-rental-property",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-10T20:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -1188,8 +1188,7 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Landlord and property-manager query with no coverage on the site. Both audiences convert: the landlord books the job, the tenant refers the landlord. Split the piece by who pays for the structure vs the contents, habitability and relocation timelines, and why a documented IICRC S500 dry log protects the landlord in a dispute. Chula Vista anchor because the multifamily stock there is the natural reader. Keep it descriptive, not legal advice: point readers to their lease and their carrier.",
-      "banked_at": "2026-09-24T22:24:15.037414+00:00"
+      "notes": "Landlord and property-manager query with no coverage on the site. Both audiences convert: the landlord books the job, the tenant refers the landlord. Split the piece by who pays for the structure vs the contents, habitability and relocation timelines, and why a documented IICRC S500 dry log protects the landlord in a dispute. Chula Vista anchor because the multifamily stock there is the natural reader. Keep it descriptive, not legal advice: point readers to their lease and their carrier."
     },
     {
       "id": "2026-09-10-how-to-prevent-water-damage-in-a-commercial-building",

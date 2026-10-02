@@ -848,7 +848,7 @@
     },
     {
       "id": "2026-09-24-fire-damage-restoration-cost",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-24T21:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -886,8 +886,7 @@
       ],
       "notes": "KD 1, 260/mo, commercial intent with no commercial-partition page. Explain cost drivers (affected square footage, soot type, water from firefighting, contents pack-out, odor treatment, rebuild) rather than inventing price quotes. Any number cited must be sourced. Mirror the structure of the live water cost TX post and cross-link it.",
       "source": "keyword-researcher",
-      "seed": "fire damage restoration",
-      "banked_at": "2026-09-24T22:24:15.027223+00:00"
+      "seed": "fire damage restoration"
     },
     {
       "id": "2026-09-24-should-i-clean-air-ducts-after-a-fire",

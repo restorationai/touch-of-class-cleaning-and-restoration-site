@@ -837,7 +837,7 @@
     },
     {
       "id": "2026-08-27-wind-damage-on-roofs",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-27T05:22:00Z",
       "written_at": null,
       "post_url": null,
@@ -870,8 +870,7 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "KD 0 with 1300 a month is the easiest win in this seed family. Show homeowners what lifted, creased and missing shingles look like from the ground so they can document before calling. Local hook: Bakersfield and the Tehachapi pass get sustained wind events that peel shingles without a named storm, and insurers often push back on wear and tear.",
-      "banked_at": "2026-09-24T22:24:15.047105+00:00"
+      "notes": "KD 0 with 1300 a month is the easiest win in this seed family. Show homeowners what lifted, creased and missing shingles look like from the ground so they can document before calling. Local hook: Bakersfield and the Tehachapi pass get sustained wind events that peel shingles without a named storm, and insurers often push back on wear and tear."
     },
     {
       "id": "2026-08-27-how-to-tarp-a-roof",

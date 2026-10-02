@@ -600,7 +600,7 @@
     },
     {
       "id": "2026-08-27-does-homeowners-insurance-cover-fire-damage",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-27T06:37:05Z",
       "written_at": null,
       "post_url": null,
@@ -633,8 +633,7 @@
         "https://www.iii.org/article/what-covered-standard-homeowners-policy",
         "https://www.nj.gov/dobi/"
       ],
-      "notes": "Decision-stage insurance content, the highest-converting informational family in this vertical (the water-damage version of this post already exists, so cross-link the two and keep the structure parallel). Cover dwelling vs contents vs loss-of-use, smoke and soot damage without flame contact, arson and vacancy exclusions, and the NJ FAIR Plan for hard-to-insure homes. Do not give legal or coverage advice: frame as 'what policies typically say, read yours'.",
-      "banked_at": "2026-09-24T22:24:15.051572+00:00"
+      "notes": "Decision-stage insurance content, the highest-converting informational family in this vertical (the water-damage version of this post already exists, so cross-link the two and keep the structure parallel). Cover dwelling vs contents vs loss-of-use, smoke and soot damage without flame contact, arson and vacancy exclusions, and the NJ FAIR Plan for hard-to-insure homes. Do not give legal or coverage advice: frame as 'what policies typically say, read yours'."
     },
     {
       "id": "2026-08-27-fire-damage-insurance-claim",

@@ -549,7 +549,7 @@
     },
     {
       "id": "2026-08-27-water-damage-mitigation-vs-restoration",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-27T06:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -580,8 +580,7 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "CPC of 67.75 on this term: adjusters and homeowners both use the word mitigation, and nothing on the site explains it. Map the two phases to what appears on an insurance estimate, since that is the question behind the query.",
-      "banked_at": "2026-09-24T22:24:15.049746+00:00"
+      "notes": "CPC of 67.75 on this term: adjusters and homeowners both use the word mitigation, and nothing on the site explains it. Map the two phases to what appears on an insurance estimate, since that is the question behind the query."
     },
     {
       "id": "2026-09-24-fire-damage-restoration-cost-auburn-ma",

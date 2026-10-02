@@ -910,7 +910,7 @@
     },
     {
       "id": "2026-08-27-basement-flooded-after-heavy-rain",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-27T03:05:00Z",
       "written_at": null,
       "post_url": null,
@@ -943,8 +943,7 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.ready.gov/severe-weather"
       ],
-      "notes": "Utah County clay soil plus fast spring runoff is the local cause. Separate clean rainwater intrusion (category 1) from ground-water and sewer backup (category 3) early, because the category drives what gets saved versus removed.",
-      "banked_at": "2026-09-24T22:24:15.043091+00:00"
+      "notes": "Utah County clay soil plus fast spring runoff is the local cause. Separate clean rainwater intrusion (category 1) from ground-water and sewer backup (category 3) early, because the category drives what gets saved versus removed."
     },
     {
       "id": "2026-08-27-what-does-storm-damage-restoration-include",
