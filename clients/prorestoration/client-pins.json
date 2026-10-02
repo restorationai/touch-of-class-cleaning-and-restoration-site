@@ -1,0 +1,49 @@
+{
+  "pins": [
+    {
+      "id": "east-niles-ca-removed",
+      "request": "Angie/Shana 2026-10-02: East Niles removed (client asked to remove it on both websites (East Niles is a Bakersfield neighborhood))",
+      "url": "/service-areas/",
+      "forbid": [
+        "East Niles"
+      ]
+    },
+    {
+      "id": "east-niles-ca-redirect",
+      "request": "East Niles page forwards to the service areas page",
+      "url": "/service-areas/east-niles-ca/",
+      "status": 301,
+      "location": "/service-areas/"
+    },
+    {
+      "id": "woody-ca-removed",
+      "request": "Angie/Shana 2026-10-02: Woody removed (client asked to remove it on both websites (East Niles is a Bakersfield neighborhood))",
+      "url": "/service-areas/",
+      "forbid": [
+        "Woody"
+      ]
+    },
+    {
+      "id": "woody-ca-redirect",
+      "request": "Woody page forwards to the service areas page",
+      "url": "/service-areas/woody-ca/",
+      "status": 301,
+      "location": "/service-areas/"
+    },
+    {
+      "id": "tarina-ca-removed",
+      "request": "Angie/Shana 2026-10-02: Tarina removed (client asked to remove it on both websites (East Niles is a Bakersfield neighborhood))",
+      "url": "/service-areas/",
+      "forbid": [
+        "Tarina"
+      ]
+    },
+    {
+      "id": "tarina-ca-redirect",
+      "request": "Tarina page forwards to the service areas page",
+      "url": "/service-areas/tarina-ca/",
+      "status": 301,
+      "location": "/service-areas/"
+    }
+  ]
+}

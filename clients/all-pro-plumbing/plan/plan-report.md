@@ -1,13 +1,13 @@
 # Site Plan Report — All Pro Plumbing Heating and Air
 
 - Template: `plumbing` v0.1.0
-- Generated: 2026-10-01T05:03:36.712414+00:00
+- Generated: 2026-10-02T19:13:24.794449+00:00
 - Domain: `allproplumbingheatingandair.com`
 - Services selected: 22 of 34 catalog entries
 - Service areas: 18
 - Cross-product enabled: True
-- Total URLs: **434**
-- Total internal links: 3548 (avg 8.2 per page)
+- Total URLs: **435**
+- Total internal links: 3555 (avg 8.2 per page)
 
 ## URLs by archetype
 
@@ -15,7 +15,7 @@
 | --- | --- |
 | `service-area-service` | 374 |
 | `service-landing` | 22 |
-| `service-area` | 17 |
+| `service-area` | 18 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -84,7 +84,7 @@
 | `/services/furnace-repair/` | `service-landing` | 8.1 | furnace repair bakersfield |
 | `/services/sewer-line-repair/` | `service-landing` | 8.1 | sewer line repair and replacement bakersfield |
 | `/services/water-heater-installation/` | `service-landing` | 8.1 | water heater installation and replacement bakersfield |
-| `/services/furnace-installation/` | `service-landing` | 7.2 | furnace installation and replacement bakersfield |
+| `/service-areas/bakersfield-ca/` | `service-area` | 7.2 | bakersfield service area |
 
 ## Validation
 

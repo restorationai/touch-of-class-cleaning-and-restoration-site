@@ -2,8 +2,6 @@
 /cs/Satellite / 301
 /cs/Satellite/ / 301
 # home-city consolidation 2026-08-18 — home-city pages folded into home + main service pages (scripts/home_city_migrate.py)
-/service-areas/bakersfield-ca / 301
-/service-areas/bakersfield-ca/ / 301
 /service-areas/bakersfield-ca/ac-installation /services/ac-installation/ 301
 /service-areas/bakersfield-ca/ac-installation/ /services/ac-installation/ 301
 /service-areas/bakersfield-ca/ac-repair /services/ac-repair/ 301

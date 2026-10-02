@@ -368,6 +368,15 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/bakersfield-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/oildale-ca/": {
     "archetype": "service-area",
     "stubs": [
@@ -458,24 +467,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/east-niles-ca/": {
-    "archetype": "service-area",
-    "stubs": [
-      "local-business",
-      "service",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/tarina-ca/": {
-    "archetype": "service-area",
-    "stubs": [
-      "local-business",
-      "service",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/weedpatch-ca/": {
     "archetype": "service-area",
     "stubs": [
@@ -513,15 +504,6 @@
     "missing_stubs": []
   },
   "/service-areas/valley-acres-ca/": {
-    "archetype": "service-area",
-    "stubs": [
-      "local-business",
-      "service",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/woody-ca/": {
     "archetype": "service-area",
     "stubs": [
       "local-business",
@@ -2087,26 +2069,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/east-niles-ca/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/tarina-ca/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/weedpatch-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2148,16 +2110,6 @@
     "missing_stubs": []
   },
   "/service-areas/valley-acres-ca/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/woody-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

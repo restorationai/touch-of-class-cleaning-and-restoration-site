@@ -278,6 +278,15 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/bakersfield-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/oildale-ca/": {
     "archetype": "service-area",
     "stubs": [

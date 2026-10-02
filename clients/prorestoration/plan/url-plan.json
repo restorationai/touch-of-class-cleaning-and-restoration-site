@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-10-01T05:05:36.946581+00:00",
+  "generated_at": "2026-10-02T19:13:52.028481+00:00",
   "input_summary": {
     "service_count": 31,
-    "service_area_count": 22,
+    "service_area_count": 19,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -75,12 +75,12 @@
         "/services/crawl-space-encapsulation/",
         "/services/carpet-cleaning/",
         "/services/post-construction-cleaning/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
         "/service-areas/bear-valley-springs-ca/",
         "/service-areas/buttonwillow-ca/",
         "/service-areas/delano-ca/",
         "/service-areas/dustin-acres-ca/",
-        "/service-areas/east-niles-ca/",
         "/service-areas/keene-ca/",
         "/service-areas/lake-isabella-ca/",
         "/service-areas/lamont-ca/",
@@ -90,12 +90,10 @@
         "/service-areas/rosedale-ca/",
         "/service-areas/shafter-ca/",
         "/service-areas/taft-ca/",
-        "/service-areas/tarina-ca/",
         "/service-areas/tehachapi-ca/",
         "/service-areas/valley-acres-ca/",
         "/service-areas/wasco-ca/",
-        "/service-areas/weedpatch-ca/",
-        "/service-areas/woody-ca/"
+        "/service-areas/weedpatch-ca/"
       ]
     },
     {
@@ -190,12 +188,12 @@
       "status": "planned",
       "internal_links_out": [
         "/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
         "/service-areas/bear-valley-springs-ca/",
         "/service-areas/buttonwillow-ca/",
         "/service-areas/delano-ca/",
         "/service-areas/dustin-acres-ca/",
-        "/service-areas/east-niles-ca/",
         "/service-areas/keene-ca/",
         "/service-areas/lake-isabella-ca/",
         "/service-areas/lamont-ca/",
@@ -205,12 +203,10 @@
         "/service-areas/rosedale-ca/",
         "/service-areas/shafter-ca/",
         "/service-areas/taft-ca/",
-        "/service-areas/tarina-ca/",
         "/service-areas/tehachapi-ca/",
         "/service-areas/valley-acres-ca/",
         "/service-areas/wasco-ca/",
-        "/service-areas/weedpatch-ca/",
-        "/service-areas/woody-ca/"
+        "/service-areas/weedpatch-ca/"
       ]
     },
     {
@@ -1430,13 +1426,13 @@
         "/service-areas/buttonwillow-ca/water-damage-restoration/",
         "/service-areas/delano-ca/water-damage-restoration/",
         "/service-areas/dustin-acres-ca/water-damage-restoration/",
-        "/service-areas/east-niles-ca/water-damage-restoration/",
         "/service-areas/keene-ca/water-damage-restoration/",
         "/service-areas/lake-isabella-ca/water-damage-restoration/",
         "/service-areas/lamont-ca/water-damage-restoration/",
         "/service-areas/maricopa-ca/water-damage-restoration/",
         "/service-areas/mcfarland-ca/water-damage-restoration/",
         "/service-areas/oildale-ca/water-damage-restoration/",
+        "/service-areas/rosedale-ca/water-damage-restoration/",
         "/services/emergency-water-removal/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -1672,6 +1668,41 @@
       ]
     },
     {
+      "url_path": "/service-areas/bakersfield-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Serving All of Bakersfield, CA | ProRestoration Services",
+      "h1": "Serving All of Bakersfield",
+      "meta_description": "ProRestoration Services is based in Bakersfield, CA. See the parts of Bakersfield we cover and every service we offer here. Call (661) 393-9306.",
+      "primary_keyword": "bakersfield service area",
+      "secondary_keywords": [
+        "bakersfield neighborhoods we serve"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/arvin-ca/",
+        "/service-areas/bear-valley-springs-ca/",
+        "/service-areas/buttonwillow-ca/"
+      ]
+    },
+    {
       "url_path": "/service-areas/oildale-ca/",
       "archetype": "service-area",
       "vars_keys": [
@@ -1719,9 +1750,9 @@
         "/service-areas/oildale-ca/appliance-leak-cleanup/",
         "/service-areas/oildale-ca/asbestos-abatement/",
         "/service-areas/oildale-ca/carpet-cleaning/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -1772,9 +1803,9 @@
         "/service-areas/rosedale-ca/appliance-leak-cleanup/",
         "/service-areas/rosedale-ca/air-duct-cleaning/",
         "/service-areas/rosedale-ca/carpet-cleaning/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -1824,9 +1855,9 @@
         "/service-areas/delano-ca/odor-removal/",
         "/service-areas/delano-ca/appliance-leak-cleanup/",
         "/service-areas/delano-ca/carpet-cleaning/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -1877,9 +1908,9 @@
         "/service-areas/shafter-ca/appliance-leak-cleanup/",
         "/service-areas/shafter-ca/air-duct-cleaning/",
         "/service-areas/shafter-ca/carpet-cleaning/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -1929,9 +1960,9 @@
         "/service-areas/wasco-ca/odor-removal/",
         "/service-areas/wasco-ca/appliance-leak-cleanup/",
         "/service-areas/wasco-ca/carpet-cleaning/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -1981,9 +2012,9 @@
         "/service-areas/taft-ca/odor-removal/",
         "/service-areas/taft-ca/appliance-leak-cleanup/",
         "/service-areas/taft-ca/carpet-cleaning/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -2033,9 +2064,9 @@
         "/service-areas/tehachapi-ca/odor-removal/",
         "/service-areas/tehachapi-ca/appliance-leak-cleanup/",
         "/service-areas/tehachapi-ca/carpet-cleaning/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -2085,9 +2116,9 @@
         "/service-areas/arvin-ca/odor-removal/",
         "/service-areas/arvin-ca/appliance-leak-cleanup/",
         "/service-areas/arvin-ca/carpet-cleaning/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/",
-        "/service-areas/delano-ca/"
+        "/service-areas/buttonwillow-ca/"
       ]
     },
     {
@@ -2137,9 +2168,9 @@
         "/service-areas/lamont-ca/odor-removal/",
         "/service-areas/lamont-ca/appliance-leak-cleanup/",
         "/service-areas/lamont-ca/carpet-cleaning/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -2189,85 +2220,9 @@
         "/service-areas/lake-isabella-ca/odor-removal/",
         "/service-areas/lake-isabella-ca/appliance-leak-cleanup/",
         "/service-areas/lake-isabella-ca/carpet-cleaning/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/east-niles-ca/",
-      "archetype": "service-area",
-      "vars_keys": [
-        "area"
-      ],
-      "title": "Restoration Services in East Niles, CA | ProRestoration Services",
-      "h1": "Restoration Services in East Niles",
-      "meta_description": "Serving East Niles, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (661) 393-9306.",
-      "primary_keyword": "restoration services east niles",
-      "secondary_keywords": [
-        "east niles restoration company",
-        "damage restoration east niles",
-        "east niles disaster restoration"
-      ],
-      "search_intent": "local_commercial",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1"
-      ],
-      "schema_stubs": [
-        "local-business",
-        "service",
-        "breadcrumb-list"
-      ],
-      "priority": 4.8,
-      "status": "planned",
-      "internal_links_out": [
-        "/service-areas/",
-        "/contact/",
-        "/service-areas/east-niles-ca/water-damage-restoration/",
-        "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/tarina-ca/",
-      "archetype": "service-area",
-      "vars_keys": [
-        "area"
-      ],
-      "title": "Restoration Services in Tarina, CA | ProRestoration Services",
-      "h1": "Restoration Services in Tarina",
-      "meta_description": "Serving Tarina, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (661) 393-9306.",
-      "primary_keyword": "restoration services tarina",
-      "secondary_keywords": [
-        "tarina restoration company",
-        "damage restoration tarina",
-        "tarina disaster restoration"
-      ],
-      "search_intent": "local_commercial",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1"
-      ],
-      "schema_stubs": [
-        "local-business",
-        "service",
-        "breadcrumb-list"
-      ],
-      "priority": 4.8,
-      "status": "planned",
-      "internal_links_out": [
-        "/service-areas/",
-        "/contact/",
-        "/service-areas/tarina-ca/water-damage-restoration/",
-        "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -2303,9 +2258,9 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/weedpatch-ca/water-damage-restoration/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -2341,9 +2296,9 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/buttonwillow-ca/water-damage-restoration/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/delano-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -2379,9 +2334,9 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/dustin-acres-ca/water-damage-restoration/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -2417,9 +2372,9 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/mcfarland-ca/water-damage-restoration/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -2455,47 +2410,9 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/valley-acres-ca/water-damage-restoration/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/woody-ca/",
-      "archetype": "service-area",
-      "vars_keys": [
-        "area"
-      ],
-      "title": "Restoration Services in Woody, CA | ProRestoration Services",
-      "h1": "Restoration Services in Woody",
-      "meta_description": "Serving Woody, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (661) 393-9306.",
-      "primary_keyword": "restoration services woody",
-      "secondary_keywords": [
-        "woody restoration company",
-        "damage restoration woody",
-        "woody disaster restoration"
-      ],
-      "search_intent": "local_commercial",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1"
-      ],
-      "schema_stubs": [
-        "local-business",
-        "service",
-        "breadcrumb-list"
-      ],
-      "priority": 4.8,
-      "status": "planned",
-      "internal_links_out": [
-        "/service-areas/",
-        "/contact/",
-        "/service-areas/woody-ca/water-damage-restoration/",
-        "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -2534,9 +2451,9 @@
         "/service-areas/bear-valley-springs-ca/water-damage-restoration/",
         "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
         "/service-areas/bear-valley-springs-ca/burst-pipe-repair/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/buttonwillow-ca/",
-        "/service-areas/delano-ca/"
+        "/service-areas/buttonwillow-ca/"
       ]
     },
     {
@@ -2575,9 +2492,9 @@
         "/service-areas/keene-ca/water-damage-restoration/",
         "/service-areas/keene-ca/smoke-damage-restoration/",
         "/service-areas/keene-ca/burst-pipe-repair/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -2616,9 +2533,9 @@
         "/service-areas/maricopa-ca/water-damage-restoration/",
         "/service-areas/maricopa-ca/biohazard-cleanup/",
         "/service-areas/maricopa-ca/carpet-cleaning/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -9360,90 +9277,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/east-niles-ca/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Damage Restoration in East Niles, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Damage Restoration in East Niles",
-      "meta_description": "24/7 emergency water damage restoration in East Niles, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water damage restoration east niles",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/east-niles-ca/",
-        "/service-areas/arvin-ca/water-damage-restoration/",
-        "/service-areas/bear-valley-springs-ca/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/tarina-ca/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Damage Restoration in Tarina, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Damage Restoration in Tarina",
-      "meta_description": "24/7 emergency water damage restoration in Tarina, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water damage restoration tarina",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/tarina-ca/",
-        "/service-areas/arvin-ca/water-damage-restoration/",
-        "/service-areas/bear-valley-springs-ca/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/weedpatch-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9648,48 +9481,6 @@
       "internal_links_out": [
         "/services/water-damage-restoration/",
         "/service-areas/valley-acres-ca/",
-        "/service-areas/arvin-ca/water-damage-restoration/",
-        "/service-areas/bear-valley-springs-ca/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/woody-ca/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Damage Restoration in Woody, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Damage Restoration in Woody",
-      "meta_description": "24/7 emergency water damage restoration in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water damage restoration woody",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/woody-ca/",
         "/service-areas/arvin-ca/water-damage-restoration/",
         "/service-areas/bear-valley-springs-ca/water-damage-restoration/",
         "/contact/"

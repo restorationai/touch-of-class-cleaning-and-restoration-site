@@ -1,7 +1,7 @@
 {
   "template": "plumbing",
   "template_version": "0.1.0",
-  "generated_at": "2026-10-01T05:03:36.701192+00:00",
+  "generated_at": "2026-10-02T19:13:24.779173+00:00",
   "input_summary": {
     "service_count": 22,
     "service_area_count": 18,
@@ -66,6 +66,7 @@
         "/services/sump-pumps/",
         "/services/water-softeners-filtration/",
         "/services/garbage-disposal/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
         "/service-areas/bear-valley-springs-ca/",
         "/service-areas/buttonwillow-ca/",
@@ -168,6 +169,7 @@
       "status": "planned",
       "internal_links_out": [
         "/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
         "/service-areas/bear-valley-springs-ca/",
         "/service-areas/buttonwillow-ca/",
@@ -1416,6 +1418,41 @@
       ]
     },
     {
+      "url_path": "/service-areas/bakersfield-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Serving All of Bakersfield, CA | All Pro Plumbing Heating and Air",
+      "h1": "Serving All of Bakersfield",
+      "meta_description": "All Pro Plumbing Heating and Air is based in Bakersfield, CA. See the parts of Bakersfield we cover and every service we offer here. Call (661) 863-9242.",
+      "primary_keyword": "bakersfield service area",
+      "secondary_keywords": [
+        "bakersfield neighborhoods we serve"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/arvin-ca/",
+        "/service-areas/bear-valley-springs-ca/",
+        "/service-areas/buttonwillow-ca/"
+      ]
+    },
+    {
       "url_path": "/service-areas/oildale-ca/",
       "archetype": "service-area",
       "vars_keys": [
@@ -1469,9 +1506,9 @@
         "/service-areas/oildale-ca/sump-pumps/",
         "/service-areas/oildale-ca/water-softeners-filtration/",
         "/service-areas/oildale-ca/garbage-disposal/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -1528,9 +1565,9 @@
         "/service-areas/rosedale-ca/sump-pumps/",
         "/service-areas/rosedale-ca/water-softeners-filtration/",
         "/service-areas/rosedale-ca/garbage-disposal/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -1587,9 +1624,9 @@
         "/service-areas/shafter-ca/sump-pumps/",
         "/service-areas/shafter-ca/water-softeners-filtration/",
         "/service-areas/shafter-ca/garbage-disposal/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -1646,9 +1683,9 @@
         "/service-areas/delano-ca/sump-pumps/",
         "/service-areas/delano-ca/water-softeners-filtration/",
         "/service-areas/delano-ca/garbage-disposal/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -1705,9 +1742,9 @@
         "/service-areas/taft-ca/sump-pumps/",
         "/service-areas/taft-ca/water-softeners-filtration/",
         "/service-areas/taft-ca/garbage-disposal/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -1764,9 +1801,9 @@
         "/service-areas/tehachapi-ca/sump-pumps/",
         "/service-areas/tehachapi-ca/water-softeners-filtration/",
         "/service-areas/tehachapi-ca/garbage-disposal/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -1823,9 +1860,9 @@
         "/service-areas/lamont-ca/sump-pumps/",
         "/service-areas/lamont-ca/water-softeners-filtration/",
         "/service-areas/lamont-ca/garbage-disposal/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -1882,9 +1919,9 @@
         "/service-areas/weedpatch-ca/sump-pumps/",
         "/service-areas/weedpatch-ca/water-softeners-filtration/",
         "/service-areas/weedpatch-ca/garbage-disposal/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -1941,9 +1978,9 @@
         "/service-areas/arvin-ca/sump-pumps/",
         "/service-areas/arvin-ca/water-softeners-filtration/",
         "/service-areas/arvin-ca/garbage-disposal/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/",
-        "/service-areas/delano-ca/"
+        "/service-areas/buttonwillow-ca/"
       ]
     },
     {
@@ -2000,9 +2037,9 @@
         "/service-areas/dustin-acres-ca/sump-pumps/",
         "/service-areas/dustin-acres-ca/water-softeners-filtration/",
         "/service-areas/dustin-acres-ca/garbage-disposal/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -2059,9 +2096,9 @@
         "/service-areas/bear-valley-springs-ca/sump-pumps/",
         "/service-areas/bear-valley-springs-ca/water-softeners-filtration/",
         "/service-areas/bear-valley-springs-ca/garbage-disposal/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/buttonwillow-ca/",
-        "/service-areas/delano-ca/"
+        "/service-areas/buttonwillow-ca/"
       ]
     },
     {
@@ -2118,9 +2155,9 @@
         "/service-areas/buttonwillow-ca/sump-pumps/",
         "/service-areas/buttonwillow-ca/water-softeners-filtration/",
         "/service-areas/buttonwillow-ca/garbage-disposal/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/delano-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -2177,9 +2214,9 @@
         "/service-areas/mcfarland-ca/sump-pumps/",
         "/service-areas/mcfarland-ca/water-softeners-filtration/",
         "/service-areas/mcfarland-ca/garbage-disposal/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -2236,9 +2273,9 @@
         "/service-areas/keene-ca/sump-pumps/",
         "/service-areas/keene-ca/water-softeners-filtration/",
         "/service-areas/keene-ca/garbage-disposal/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -2295,9 +2332,9 @@
         "/service-areas/wasco-ca/sump-pumps/",
         "/service-areas/wasco-ca/water-softeners-filtration/",
         "/service-areas/wasco-ca/garbage-disposal/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -2354,9 +2391,9 @@
         "/service-areas/valley-acres-ca/sump-pumps/",
         "/service-areas/valley-acres-ca/water-softeners-filtration/",
         "/service-areas/valley-acres-ca/garbage-disposal/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {
@@ -2413,9 +2450,9 @@
         "/service-areas/stallion-springs-ca/sump-pumps/",
         "/service-areas/stallion-springs-ca/water-softeners-filtration/",
         "/service-areas/stallion-springs-ca/garbage-disposal/",
+        "/service-areas/bakersfield-ca/",
         "/service-areas/arvin-ca/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/buttonwillow-ca/"
+        "/service-areas/bear-valley-springs-ca/"
       ]
     },
     {

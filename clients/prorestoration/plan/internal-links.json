@@ -35,12 +35,12 @@
     "/services/crawl-space-encapsulation/",
     "/services/carpet-cleaning/",
     "/services/post-construction-cleaning/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
     "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/",
     "/service-areas/dustin-acres-ca/",
-    "/service-areas/east-niles-ca/",
     "/service-areas/keene-ca/",
     "/service-areas/lake-isabella-ca/",
     "/service-areas/lamont-ca/",
@@ -50,12 +50,10 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/shafter-ca/",
     "/service-areas/taft-ca/",
-    "/service-areas/tarina-ca/",
     "/service-areas/tehachapi-ca/",
     "/service-areas/valley-acres-ca/",
     "/service-areas/wasco-ca/",
-    "/service-areas/weedpatch-ca/",
-    "/service-areas/woody-ca/"
+    "/service-areas/weedpatch-ca/"
   ],
   "/services/": [
     "/",
@@ -93,12 +91,12 @@
   ],
   "/service-areas/": [
     "/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
     "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/",
     "/service-areas/dustin-acres-ca/",
-    "/service-areas/east-niles-ca/",
     "/service-areas/keene-ca/",
     "/service-areas/lake-isabella-ca/",
     "/service-areas/lamont-ca/",
@@ -108,12 +106,10 @@
     "/service-areas/rosedale-ca/",
     "/service-areas/shafter-ca/",
     "/service-areas/taft-ca/",
-    "/service-areas/tarina-ca/",
     "/service-areas/tehachapi-ca/",
     "/service-areas/valley-acres-ca/",
     "/service-areas/wasco-ca/",
-    "/service-areas/weedpatch-ca/",
-    "/service-areas/woody-ca/"
+    "/service-areas/weedpatch-ca/"
   ],
   "/blog/": [
     "/",
@@ -410,13 +406,13 @@
     "/service-areas/buttonwillow-ca/water-damage-restoration/",
     "/service-areas/delano-ca/water-damage-restoration/",
     "/service-areas/dustin-acres-ca/water-damage-restoration/",
-    "/service-areas/east-niles-ca/water-damage-restoration/",
     "/service-areas/keene-ca/water-damage-restoration/",
     "/service-areas/lake-isabella-ca/water-damage-restoration/",
     "/service-areas/lamont-ca/water-damage-restoration/",
     "/service-areas/maricopa-ca/water-damage-restoration/",
     "/service-areas/mcfarland-ca/water-damage-restoration/",
     "/service-areas/oildale-ca/water-damage-restoration/",
+    "/service-areas/rosedale-ca/water-damage-restoration/",
     "/services/emergency-water-removal/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -446,6 +442,13 @@
     "/services/",
     "/contact/"
   ],
+  "/service-areas/bakersfield-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/arvin-ca/",
+    "/service-areas/bear-valley-springs-ca/",
+    "/service-areas/buttonwillow-ca/"
+  ],
   "/service-areas/oildale-ca/": [
     "/service-areas/",
     "/contact/",
@@ -465,9 +468,9 @@
     "/service-areas/oildale-ca/appliance-leak-cleanup/",
     "/service-areas/oildale-ca/asbestos-abatement/",
     "/service-areas/oildale-ca/carpet-cleaning/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/"
+    "/service-areas/bear-valley-springs-ca/"
   ],
   "/service-areas/rosedale-ca/": [
     "/service-areas/",
@@ -488,9 +491,9 @@
     "/service-areas/rosedale-ca/appliance-leak-cleanup/",
     "/service-areas/rosedale-ca/air-duct-cleaning/",
     "/service-areas/rosedale-ca/carpet-cleaning/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/"
+    "/service-areas/bear-valley-springs-ca/"
   ],
   "/service-areas/delano-ca/": [
     "/service-areas/",
@@ -510,9 +513,9 @@
     "/service-areas/delano-ca/odor-removal/",
     "/service-areas/delano-ca/appliance-leak-cleanup/",
     "/service-areas/delano-ca/carpet-cleaning/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/"
+    "/service-areas/bear-valley-springs-ca/"
   ],
   "/service-areas/shafter-ca/": [
     "/service-areas/",
@@ -533,9 +536,9 @@
     "/service-areas/shafter-ca/appliance-leak-cleanup/",
     "/service-areas/shafter-ca/air-duct-cleaning/",
     "/service-areas/shafter-ca/carpet-cleaning/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/"
+    "/service-areas/bear-valley-springs-ca/"
   ],
   "/service-areas/wasco-ca/": [
     "/service-areas/",
@@ -555,9 +558,9 @@
     "/service-areas/wasco-ca/odor-removal/",
     "/service-areas/wasco-ca/appliance-leak-cleanup/",
     "/service-areas/wasco-ca/carpet-cleaning/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/"
+    "/service-areas/bear-valley-springs-ca/"
   ],
   "/service-areas/taft-ca/": [
     "/service-areas/",
@@ -577,9 +580,9 @@
     "/service-areas/taft-ca/odor-removal/",
     "/service-areas/taft-ca/appliance-leak-cleanup/",
     "/service-areas/taft-ca/carpet-cleaning/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/"
+    "/service-areas/bear-valley-springs-ca/"
   ],
   "/service-areas/tehachapi-ca/": [
     "/service-areas/",
@@ -599,9 +602,9 @@
     "/service-areas/tehachapi-ca/odor-removal/",
     "/service-areas/tehachapi-ca/appliance-leak-cleanup/",
     "/service-areas/tehachapi-ca/carpet-cleaning/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/"
+    "/service-areas/bear-valley-springs-ca/"
   ],
   "/service-areas/arvin-ca/": [
     "/service-areas/",
@@ -621,9 +624,9 @@
     "/service-areas/arvin-ca/odor-removal/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
     "/service-areas/arvin-ca/carpet-cleaning/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/",
-    "/service-areas/delano-ca/"
+    "/service-areas/buttonwillow-ca/"
   ],
   "/service-areas/lamont-ca/": [
     "/service-areas/",
@@ -643,9 +646,9 @@
     "/service-areas/lamont-ca/odor-removal/",
     "/service-areas/lamont-ca/appliance-leak-cleanup/",
     "/service-areas/lamont-ca/carpet-cleaning/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/"
+    "/service-areas/bear-valley-springs-ca/"
   ],
   "/service-areas/lake-isabella-ca/": [
     "/service-areas/",
@@ -665,73 +668,49 @@
     "/service-areas/lake-isabella-ca/odor-removal/",
     "/service-areas/lake-isabella-ca/appliance-leak-cleanup/",
     "/service-areas/lake-isabella-ca/carpet-cleaning/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/"
-  ],
-  "/service-areas/east-niles-ca/": [
-    "/service-areas/",
-    "/contact/",
-    "/service-areas/east-niles-ca/water-damage-restoration/",
-    "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/"
-  ],
-  "/service-areas/tarina-ca/": [
-    "/service-areas/",
-    "/contact/",
-    "/service-areas/tarina-ca/water-damage-restoration/",
-    "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/"
+    "/service-areas/bear-valley-springs-ca/"
   ],
   "/service-areas/weedpatch-ca/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/weedpatch-ca/water-damage-restoration/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/"
+    "/service-areas/bear-valley-springs-ca/"
   ],
   "/service-areas/buttonwillow-ca/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/buttonwillow-ca/water-damage-restoration/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/delano-ca/"
+    "/service-areas/bear-valley-springs-ca/"
   ],
   "/service-areas/dustin-acres-ca/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/dustin-acres-ca/water-damage-restoration/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/"
+    "/service-areas/bear-valley-springs-ca/"
   ],
   "/service-areas/mcfarland-ca/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/mcfarland-ca/water-damage-restoration/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/"
+    "/service-areas/bear-valley-springs-ca/"
   ],
   "/service-areas/valley-acres-ca/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/valley-acres-ca/water-damage-restoration/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/"
-  ],
-  "/service-areas/woody-ca/": [
-    "/service-areas/",
-    "/contact/",
-    "/service-areas/woody-ca/water-damage-restoration/",
-    "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/"
+    "/service-areas/bear-valley-springs-ca/"
   ],
   "/service-areas/bear-valley-springs-ca/": [
     "/service-areas/",
@@ -740,9 +719,9 @@
     "/service-areas/bear-valley-springs-ca/water-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/burst-pipe-repair/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
-    "/service-areas/buttonwillow-ca/",
-    "/service-areas/delano-ca/"
+    "/service-areas/buttonwillow-ca/"
   ],
   "/service-areas/keene-ca/": [
     "/service-areas/",
@@ -751,9 +730,9 @@
     "/service-areas/keene-ca/water-damage-restoration/",
     "/service-areas/keene-ca/smoke-damage-restoration/",
     "/service-areas/keene-ca/burst-pipe-repair/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/"
+    "/service-areas/bear-valley-springs-ca/"
   ],
   "/service-areas/maricopa-ca/": [
     "/service-areas/",
@@ -762,9 +741,9 @@
     "/service-areas/maricopa-ca/water-damage-restoration/",
     "/service-areas/maricopa-ca/biohazard-cleanup/",
     "/service-areas/maricopa-ca/carpet-cleaning/",
+    "/service-areas/bakersfield-ca/",
     "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/"
+    "/service-areas/bear-valley-springs-ca/"
   ],
   "/service-areas/oildale-ca/appliance-leak-cleanup/": [
     "/services/appliance-leak-cleanup/",
@@ -2139,20 +2118,6 @@
     "/service-areas/bear-valley-springs-ca/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/east-niles-ca/water-damage-restoration/": [
-    "/services/water-damage-restoration/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/arvin-ca/water-damage-restoration/",
-    "/service-areas/bear-valley-springs-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/tarina-ca/water-damage-restoration/": [
-    "/services/water-damage-restoration/",
-    "/service-areas/tarina-ca/",
-    "/service-areas/arvin-ca/water-damage-restoration/",
-    "/service-areas/bear-valley-springs-ca/water-damage-restoration/",
-    "/contact/"
-  ],
   "/service-areas/weedpatch-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/weedpatch-ca/",
@@ -2184,13 +2149,6 @@
   "/service-areas/valley-acres-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/valley-acres-ca/",
-    "/service-areas/arvin-ca/water-damage-restoration/",
-    "/service-areas/bear-valley-springs-ca/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/woody-ca/water-damage-restoration/": [
-    "/services/water-damage-restoration/",
-    "/service-areas/woody-ca/",
     "/service-areas/arvin-ca/water-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/water-damage-restoration/",
     "/contact/"

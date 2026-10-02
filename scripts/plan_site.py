@@ -516,8 +516,13 @@ def expand_ia(template: Template, inputs: dict) -> list[Page]:
     # migrated with 301s the same day). Area pages are for the OTHER towns.
     # The primary area stays in service_areas — schema areaServed, prose and
     # brand fields still use it — it just never gets pages of its own.
+    # 2026-10-02 (Santino, Shana/All Pro: "Bakersfield isn't listed"): the
+    # home city DOES get its own area page now, as the city hub. Its
+    # city x service children stay off (those are the real cannibals), and
+    # the page targets the city itself, not "restoration services {city}"
+    # (see the primary branch in Pass 2 and build_site's HOME CITY block).
     def _ring(areas):
-        return [a for a in areas if not a.get("primary")]
+        return list(areas)
 
     arc = template.archetypes.get("service-area")
     if arc:
@@ -538,7 +543,7 @@ def expand_ia(template: Template, inputs: dict) -> list[Page]:
     if inputs.get("cross_product"):
         arc = template.archetypes.get("service-area-service")
         if arc:
-            for area in _ring(inputs["service_areas"]):
+            for area in [a for a in inputs["service_areas"] if not a.get("primary")]:
                 for service in inputs["services"]:
                     if gate is not None and (area["slug"], service["slug"]) not in gate:
                         continue
@@ -649,9 +654,26 @@ def enrich_page(page: Page, template: Template, inputs: dict) -> None:
         except Exception as _e:  # noqa: BLE001 -- naming never breaks a plan
             print(f"    WARN: emergency naming skipped ({str(_e)[:100]})")
 
+    # HOME-CITY HUB: distinct title/keyword from the homepage + service pages
+    if page.archetype == "service-area" and (page.vars.get("area") or {}).get("primary"):
+        _a = page.vars["area"]
+        _bn = inputs["brand"].get("display_name", "")
+        page.title = f"Serving All of {_a['city']}, {_a['state']} | {_bn}"
+        page.h1 = f"Serving All of {_a['city']}"
+        page.meta_description = (f"{_bn} is based in {_a['city']}, {_a['state']}. See the parts of "
+                                 f"{_a['city']} we cover and every service we offer here. Call "
+                                 f"{inputs['brand'].get('phone', '')}.")
+        page.primary_keyword = f"{_a['city'].lower()} service area"
+        page.secondary_keywords = [f"{_a['city'].lower()} neighborhoods we serve"]
+        page.search_intent = "local_navigational"
+        return_early = True
+    else:
+        return_early = False
     # Primary keyword
     pk_tpl = arc.get("primary_keyword_template", "")
-    if pk_tpl:
+    if return_early:
+        pass   # home-city hub keeps its own keyword (set above)
+    elif pk_tpl:
         page.primary_keyword = render(pk_tpl, ctx)
     elif page.archetype == "blog-post":
         # Derive from post title (lowercased, no punctuation), as a sane MVP fallback
@@ -682,7 +704,8 @@ def enrich_page(page: Page, template: Template, inputs: dict) -> None:
     sec_keys = [k for k in sec_keys if keyword_is_safe(k, truth)]
     # Dedupe preserving order
     seen = set()
-    page.secondary_keywords = [k for k in sec_keys if not (k in seen or seen.add(k))]
+    if not return_early:
+        page.secondary_keywords = [k for k in sec_keys if not (k in seen or seen.add(k))]
 
     # Intent
     intent_ref = arc.get("search_intent_default_ref")

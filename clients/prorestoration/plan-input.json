@@ -310,16 +310,6 @@
       "local_notes": "Kern River Valley hub an hour up the canyon from Bakersfield. Older cabins and manufactured homes freeze in winter \u2014 burst pipes in seasonal properties often run for days before discovery, producing severe water and mold damage. The 2016 Erskine Fire destroyed ~280 homes here, and wildfire remains the valley's defining risk (smoke, ash, total-loss rebuilds). Isabella Dam's completed safety modifications eased flood fears, but storm runoff still hits low-lying Bodfish and South Lake parcels. Few if any restoration contractors are based in the valley."
     },
     {
-      "city": "East Niles",
-      "state": "CA",
-      "slug": "east-niles-ca"
-    },
-    {
-      "city": "Tarina",
-      "state": "CA",
-      "slug": "tarina-ca"
-    },
-    {
       "city": "Weedpatch",
       "state": "CA",
       "slug": "weedpatch-ca"
@@ -343,11 +333,6 @@
       "city": "Valley Acres",
       "state": "CA",
       "slug": "valley-acres-ca"
-    },
-    {
-      "city": "Woody",
-      "state": "CA",
-      "slug": "woody-ca"
     },
     {
       "city": "Bear Valley Springs",
@@ -414,5 +399,31 @@
     "soot-removal": "smoke-damage-restoration",
     "water-cleanup": "emergency-water-removal",
     "water-heater-flood-cleanup": "appliance-leak-cleanup"
-  }
+  },
+  "client_removed_areas": [
+    {
+      "city": "East Niles",
+      "state": "CA",
+      "slug": "east-niles-ca",
+      "removed_at": "2026-10-02",
+      "requested_by": "Angie/Shana",
+      "why": "client asked to remove it on both websites (East Niles is a Bakersfield neighborhood)"
+    },
+    {
+      "city": "Woody",
+      "state": "CA",
+      "slug": "woody-ca",
+      "removed_at": "2026-10-02",
+      "requested_by": "Angie/Shana",
+      "why": "client asked to remove it on both websites (East Niles is a Bakersfield neighborhood)"
+    },
+    {
+      "city": "Tarina",
+      "state": "CA",
+      "slug": "tarina-ca",
+      "removed_at": "2026-10-02",
+      "requested_by": "Angie/Shana",
+      "why": "client asked to remove it on both websites (East Niles is a Bakersfield neighborhood)"
+    }
+  ]
 }

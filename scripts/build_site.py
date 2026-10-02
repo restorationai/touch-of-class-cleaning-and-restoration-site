@@ -1809,6 +1809,22 @@ def cmd_render(args) -> int:
         ctx = build_prompt_context(page, plan_input, client, services_lookup,
                                    areas_lookup, blog_topics_lookup, prompt_fm)
         user_prompt = prompt_render(user_template, ctx)
+        # HOME-CITY AREA PAGE (Santino 2026-10-02: the home city gets its own
+        # service-area page). It must not copy the homepage or the service
+        # pages, which already target "{service} in {city}": this page is
+        # about the city itself, its neighborhoods/districts, and routes to
+        # every service. Excluded areas (never-list) are never named.
+        if arc == "service-area" and (page.get("vars", {}).get("area") or {}).get("primary"):
+            _ex = ", ".join(r.get("city", "") for r in plan_input.get("client_removed_areas") or [])
+            user_prompt += (
+                "\n\n# HOME CITY PAGE (overrides any instruction above about travel from HQ)\n"
+                "This area IS the company's home city, where the business is located. "
+                "Do NOT describe travel or distance from HQ. Write it as the hub for the "
+                "whole city: the parts of town and districts the crew covers day to day, "
+                "local building stock and seasonal risks, how fast help arrives inside the "
+                "city, and a short paragraph per main service linking to that service page. "
+                "Do not repeat the homepage's opening or the service pages' copy."
+                + (f" Never mention these places (the client asked us to remove them): {_ex}." if _ex else ""))
         try:
             raw, usage = anthropic_call(system_prompt, user_prompt,
                                         model=args.model,

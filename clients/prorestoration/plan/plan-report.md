@@ -1,21 +1,21 @@
 # Site Plan Report — ProRestoration Services
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-10-01T05:05:36.953361+00:00
+- Generated: 2026-10-02T19:13:52.035971+00:00
 - Domain: `prorestorationca.com`
 - Services selected: 31 of 91 catalog entries
-- Service areas: 22
+- Service areas: 19
 - Cross-product enabled: True
-- Total URLs: **246**
-- Total internal links: 1902 (avg 7.7 per page)
+- Total URLs: **241**
+- Total internal links: 1870 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 173 |
+| `service-area-service` | 170 |
 | `service-landing` | 31 |
-| `service-area` | 21 |
+| `service-area` | 19 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -72,14 +72,11 @@
 - `arvin-ca` — Arvin, CA
 - `lamont-ca` — Lamont, CA
 - `lake-isabella-ca` — Lake Isabella, CA
-- `east-niles-ca` — East Niles, CA
-- `tarina-ca` — Tarina, CA
 - `weedpatch-ca` — Weedpatch, CA
 - `buttonwillow-ca` — Buttonwillow, CA
 - `dustin-acres-ca` — Dustin Acres, CA
 - `mcfarland-ca` — McFarland, CA
 - `valley-acres-ca` — Valley Acres, CA
-- `woody-ca` — Woody, CA
 - `bear-valley-springs-ca` — Bear Valley Springs, CA
 - `keene-ca` — Keene, CA
 - `maricopa-ca` — Maricopa, CA

@@ -111,6 +111,10 @@ def gazetteer_state(state: str) -> list[dict]:
 
 
 def _city_key(c: str) -> str:
+    # "Arvin, CA 93203" and "Arvin" are one city (10-02: the ZIP form made
+    # every nightly run drop + re-add the same towns on the profile)
+    c = re.sub(r",?\s*\d{5}(-\d{4})?$", "", str(c or "").strip())
+    c = re.sub(r",?\s*(USA|United States)$", "", c)
     return _norm(re.sub(r",\s*[A-Z]{2}$", "", c))
 
 
@@ -165,11 +169,65 @@ def wizard_boundary(cid: str) -> tuple[set, set] | None:
         return None
     counties, cities = set(), set()
     for a in raw:
-        if a.get("county"):
-            counties.add(_norm_county(a["county"]))
+        cn = _norm_county(a.get("county") or "")
+        # "Entire State" (ProRestoration's wizard answer) is not a county:
+        # treating it as one rejected every gazetteer place (10-02)
+        if cn and not cn.startswith("entire") and cn not in ("all", "statewide"):
+            counties.add(cn)
         for c in (a.get("cities") or []):
             cities.add(_norm(str(c)))
     return (counties, cities) if (counties or cities) else None
+
+
+def excluded_areas(cid: str, pi: dict | None = None) -> set[str]:
+    """NEVER-LIST (Santino 2026-10-02, Shana/Angie: East Niles kept coming
+    back). City keys the client asked us not to serve or list: the Marketing
+    tab's companies.integration_settings.service_area_excluded (master) plus
+    the older plan-input client_removed_areas. Applied to the Google
+    profile AND the site; nothing automated may re-add them."""
+    keys = {_city_key(r.get("city", "")) for r in ((pi or {}).get("client_removed_areas") or [])}
+    try:
+        row = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}&select=integration_settings")
+               or [{}])[0]
+        for r in ((row.get("integration_settings") or {}).get("service_area_excluded") or []):
+            if r.get("city"):
+                keys.add(_city_key(r["city"]))
+    except Exception:  # noqa: BLE001 — fall back to the repo list
+        pass
+    keys.discard("")
+    return keys
+
+
+def wizard_cities(cid: str) -> list[tuple[str, str]]:
+    """Cities the client explicitly named in the wizard / Marketing tab."""
+    co = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}&select=service_areas") or [{}])[0]
+    raw = co.get("service_areas")
+    if isinstance(raw, str):
+        try:
+            raw = json.loads(raw)
+        except ValueError:
+            raw = None
+    out = []
+    for a in raw or []:
+        st = str(a.get("state") or "")
+        st = _STATE_ABBR.get(st.lower(), st[:2].upper())
+        for c in a.get("cities") or []:
+            out.append((str(c), st))
+    return out
+
+
+_STATE_ABBR = {n.lower(): a for n, a in {
+    "Alabama": "AL", "Alaska": "AK", "Arizona": "AZ", "Arkansas": "AR", "California": "CA",
+    "Colorado": "CO", "Connecticut": "CT", "Delaware": "DE", "Florida": "FL", "Georgia": "GA",
+    "Hawaii": "HI", "Idaho": "ID", "Illinois": "IL", "Indiana": "IN", "Iowa": "IA",
+    "Kansas": "KS", "Kentucky": "KY", "Louisiana": "LA", "Maine": "ME", "Maryland": "MD",
+    "Massachusetts": "MA", "Michigan": "MI", "Minnesota": "MN", "Mississippi": "MS",
+    "Missouri": "MO", "Montana": "MT", "Nebraska": "NE", "Nevada": "NV", "New Hampshire": "NH",
+    "New Jersey": "NJ", "New Mexico": "NM", "New York": "NY", "North Carolina": "NC",
+    "North Dakota": "ND", "Ohio": "OH", "Oklahoma": "OK", "Oregon": "OR", "Pennsylvania": "PA",
+    "Rhode Island": "RI", "South Carolina": "SC", "South Dakota": "SD", "Tennessee": "TN",
+    "Texas": "TX", "Utah": "UT", "Vermont": "VT", "Virginia": "VA", "Washington": "WA",
+    "West Virginia": "WV", "Wisconsin": "WI", "Wyoming": "WY"}.items()}
 
 
 def location_plan(slug: str, cid: str) -> dict | None:
@@ -237,8 +295,13 @@ def location_plan(slug: str, cid: str) -> dict | None:
         cands[k] = {"city": g["name"], "state": st or g["state"],
                     "mi": round(d, 1), "sources": {source}}
 
+    excluded = excluded_areas(cid, pi)
     for c, st in site_cities:
         add(c, st, "site")
+    # the client's own named cities are facts, never discovery
+    for c, st in wizard_cities(cid):
+        if not st or st.upper() == state.upper():
+            add(c, st or state, "wizard")
     for area in gbp_areas:
         m = re.match(r"(.+?),\s*([A-Z]{2})", area)
         if m and m.group(2).upper() == state.upper():
@@ -307,6 +370,27 @@ def location_plan(slug: str, cid: str) -> dict | None:
             pinned.append({"city": f"{m.group(1)} County", "state": m.group(2),
                            "mi": 0.0, "sources": {"gbp", "home-county"}})
             cands.pop(_city_key(area), None)
+    # NEVER-LIST wins over every source (site, GBP, wizard, gazetteer)
+    for k in list(cands):
+        if k in excluded:
+            cands.pop(k)
+    # HOME CITY = the registered business address city, always on the
+    # profile, right after the home county (Santino 2026-10-02: "their main
+    # location ... should be pulling from their business registered address")
+    try:
+        home = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}&select=city,state")
+                or [{}])[0]
+        hk = _city_key(home.get("city") or "")
+        hc = cands.pop(hk, None)
+        if hc is None and hk and hk not in excluded:
+            g = by_name.get(hk)
+            if g:
+                hc = {"city": g["name"], "state": state, "mi": 0.0, "sources": {"home"}}
+        if hc:
+            hc["sources"] = set(hc.get("sources") or ()) | {"home"}
+            pinned.append(hc)
+    except Exception:  # noqa: BLE001
+        pass
     # DEMAND-WEIGHTED TIEBREAK (Santino 2026-09-17, "suggestion A"):
     # distance stays primary, but within the same ~1.5-mile band the BIGGER
     # place wins the slot (land area as the size proxy — instant, no API).
@@ -328,7 +412,7 @@ def location_plan(slug: str, cid: str) -> dict | None:
     # "missing" — the 09-30 ops sync re-appended East Niles + Centerville from
     # the GBP list and add-pages rebuilt their 40 stubs a day after we told
     # both clients they were gone.
-    removed = {_city_key(r.get("city", "")) for r in pi.get("client_removed_areas") or []}
+    removed = excluded
     return {
         "target": target,
         "gbp_areas": gbp_areas,
