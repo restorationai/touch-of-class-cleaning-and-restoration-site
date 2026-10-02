@@ -162,7 +162,7 @@
     },
     {
       "id": "2026-09-07-fire-smoke-restoration",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-07T10:24:01Z",
       "priority": 1,
       "content_type": "target_term",
@@ -171,7 +171,9 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "dupont-wa",
-      "source": "app target-term (onboarding-backfill)"
+      "source": "app target-term (onboarding-backfill)",
+      "written_at": "2026-10-02T01:53:55Z",
+      "post_url": "https://frontlinefireflood.com/blog/fire-smoke-restoration/"
     },
     {
       "id": "2026-09-06-best-water-damage-restoration-in-lakewood-wa",
