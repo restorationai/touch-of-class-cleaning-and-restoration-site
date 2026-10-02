@@ -1,9 +1,0 @@
-{
-  "_comment": "Vertical trade-identity copy — single source of truth. Consumed by build_site.py resolve_tokens() via verticals.resolve_template(slug, 'vertical-tokens.json'). {display_name}/{city}/{state} are formatted at scaffold time. Per-client overrides: plan-input.json brand.{trade_noun,specialist_phrase,announcement_suffix,tagline,cta_label,home_about_blurb}. Never hardcode a trade phrase in templates/astro-starter*/ (industry-bleed audit 2026-07-31: the light starter shipped All Pro's plumbing About copy on restoration sites).",
-  "trade_noun": "restoration",
-  "specialist_phrase": "Damage Restoration Specialists",
-  "announcement_suffix": "24/7 Emergency Response",
-  "tagline": "24/7 restoration services in {city}, {state}.",
-  "cta_label": "24/7 Emergency Line",
-  "home_about_blurb": "{display_name} serves {city} and the surrounding {state} area with professional damage restoration for homes and businesses. From the first emergency call to the final walkthrough, our team manages the entire recovery — and we answer the phone 24/7, so help is on the way the moment something goes wrong."
-}

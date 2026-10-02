@@ -1,9 +1,0 @@
-{
-  "_comment": "Vertical trade-identity copy — see templates/restoration/vertical-tokens.json for the contract.",
-  "trade_noun": "construction",
-  "specialist_phrase": "Construction & Remodeling Specialists",
-  "announcement_suffix": "Free Estimates",
-  "tagline": "Construction and remodeling services in {city}, {state}.",
-  "cta_label": "Call for a Free Estimate",
-  "home_about_blurb": "{display_name} serves {city} and the surrounding {state} area with full-service construction and remodeling. From new construction and additions to roofing, siding, decks, and painting, our team manages every project from the first estimate to the final walkthrough."
-}

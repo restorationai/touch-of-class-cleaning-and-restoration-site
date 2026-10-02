@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://desertvalleyrestoration.com/sitemap-index.xml

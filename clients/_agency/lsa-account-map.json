@@ -1,4 +1,0 @@
-{
-  "_comment": "Manual Ads-customer-id -> company_id overrides for lsa_detect.py. 2407662739 = ProRestoration Services Inc (Bakersfield CA, Bowman Ct \u2014 confirmed via Santino's portal screenshot 2026-08-01; earlier geo-target inference wrongly assigned it to Home Pride, who are Saratoga Springs UT).",
-  "2407662739": "CO-1779551010975"
-}

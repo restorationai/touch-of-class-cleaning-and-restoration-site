@@ -1,9 +1,0 @@
-{
-  "_comment": "Vertical trade-identity copy — see templates/restoration/vertical-tokens.json for the contract. 24/7 phrasing here is a default only; plan_site's claims sanitizer + per-client brand overrides gate it for non-24/7 shops (see template.json notes).",
-  "trade_noun": "plumbing",
-  "specialist_phrase": "Plumbing, Heating & Air Specialists",
-  "announcement_suffix": "24/7 Emergency Service",
-  "tagline": "Plumbing, heating & air services in {city}, {state}.",
-  "cta_label": "24/7 Emergency Line",
-  "home_about_blurb": "{display_name} serves {city} and the surrounding {state} area with full-service plumbing, heating, and air conditioning. From emergency plumbing repairs, drain cleaning, and water heater service to complete AC and furnace installation, our technicians handle it all — and we answer the phone 24/7, so help is on the way the moment something goes wrong."
-}

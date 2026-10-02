@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://restopros-of-central-maryland.invalid/sitemap-index.xml

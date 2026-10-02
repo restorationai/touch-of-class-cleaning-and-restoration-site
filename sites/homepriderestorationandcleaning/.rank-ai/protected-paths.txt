@@ -1,2 +1,0 @@
-public/images/logo.png
-src/components/ui/Hero.astro

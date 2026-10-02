@@ -1,43 +1,10 @@
-.DS_Store
+node_modules
+dist
+.astro
 .env
 .env.*
 !.env.example
-*.pyc
-__pycache__/
-
-# System 5 — background music (royalty-free MP3, not redistributed)
-assets/background_music.mp3
-
-# System 4 v2 — GSC OAuth secrets (never commit)
-.gsc-oauth-client.json
-.gsc-agency-token.json
-clients/*/.gsc-token.json
-
-# System 5 — YouTube OAuth secrets (never commit)
-.youtube-oauth-client.json
-clients/*/.youtube-token.json
-
-# Google Ads OAuth token cache (never commit — live credential)
-clients/*/.ads-token.json
-.ads-token.json
-
-# System 5 — local draft video renders (large working artifacts, not source)
-*-draft.mp4
-
-# Ads dashboard snapshots (live client data, regenerate on demand)
-ads-dashboard/*.html
-
-# Service-account keys (never commit)
-.secrets/
-clients/_ops/email-intake/
-clients/*/gbp-photos/
-clients/*/customers/
-
-# local tooling / heavy deps
-node_modules/
-.wrangler/
-landing-page/dist/
-kpi-dashboard/*.log
-landing-page/
-clients/*/podcast-work/
-*.wpress
+.DS_Store
+*.log
+.rank-ai/cache/
+.rank-ai/cost-log.jsonl

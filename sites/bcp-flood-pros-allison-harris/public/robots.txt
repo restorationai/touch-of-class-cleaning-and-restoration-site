@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://fixofutah.com/sitemap-index.xml

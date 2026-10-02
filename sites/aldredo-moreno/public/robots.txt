@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://theacsenterprises.com/sitemap-index.xml

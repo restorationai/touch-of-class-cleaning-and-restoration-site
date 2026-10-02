@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: {{BRAND_CANONICAL_URL}}/sitemap-index.xml

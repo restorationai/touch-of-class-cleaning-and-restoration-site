@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://reign-restoration.com/sitemap-index.xml

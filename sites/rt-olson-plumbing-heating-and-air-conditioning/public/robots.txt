@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://rtolsonplumbing.com/sitemap-index.xml

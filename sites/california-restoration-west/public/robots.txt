@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://californiarestorationwest.com/sitemap-index.xml

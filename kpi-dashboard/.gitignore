@@ -1,3 +1,0 @@
-# Secrets never get committed or deployed — only computed aggregates in data/ ship.
-config.env
-*.local

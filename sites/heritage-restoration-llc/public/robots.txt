@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://heritagermn.com/sitemap-index.xml

@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://prorestorationca.com/sitemap-index.xml

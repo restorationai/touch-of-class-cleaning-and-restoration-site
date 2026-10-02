@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://mccrestoration.com/sitemap-index.xml
