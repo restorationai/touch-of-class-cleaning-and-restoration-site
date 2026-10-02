@@ -221,6 +221,8 @@ def main() -> int:
                 print("  OWES    " + f)
         except Exception as e:  # noqa: BLE001 — one client never stops the sweep
             print(f"  [{slug or co['id']}] failed: {str(e)[:140]}")
+    if not dry and not a.slug:
+        kv_set("heartbeat:client-followups", {"at": datetime.now(timezone.utc).isoformat()})
     return 0
 
 

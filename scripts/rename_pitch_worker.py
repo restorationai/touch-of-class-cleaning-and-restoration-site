@@ -79,6 +79,11 @@ def _run_pitch(entry: dict) -> tuple[str, str]:
         return "sent", ""
     if "HELD (quiet hours)" in out:
         return "held", "their quiet hours — retrying until morning"
+    if "no name candidates on record" in out:
+        # 2026-10-02 (Logan): a slate refresh deletes then re-seeds the
+        # open names; a pitch that lands in that gap must wait, not fail.
+        # pipeline_watchdog flags any entry still held after 24h.
+        return "held", "name options are being refreshed — retrying"
     if "RENAME ON HOLD" in out:
         why = next((ln.strip() for ln in out.splitlines()
                     if "RENAME ON HOLD" in ln), "rename on hold")

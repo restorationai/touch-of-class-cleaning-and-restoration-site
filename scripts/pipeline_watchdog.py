@@ -53,9 +53,12 @@ WATCHED_WORKFLOWS = [
     "monthly-reports.yml", "dev-agent.yml", "site-render.yml",
     "lsa-lead-review.yml", "site-regression-watch.yml",
     "index-watch.yml", "geogrid-scan.yml",
+    # onboarding lanes (2026-10-01: both died silently for days)
+    "bootstrap-new-clients.yml", "site-build.yml",
 ]
 HEARTBEATS = {"heartbeat:parity": 8, "heartbeat:service-bank": 8,
-              "heartbeat:ai-scan": 5, "heartbeat:lsa-lead-review": 2}
+              "heartbeat:ai-scan": 5, "heartbeat:lsa-lead-review": 2,
+              "heartbeat:client-followups": 2}
 NOW = datetime.now(timezone.utc)
 
 
@@ -681,6 +684,120 @@ def check_geogrid() -> list[str]:
     return issues
 
 
+ONBOARD_WINDOW_DAYS = 30
+
+
+def check_onboarding() -> list[str]:
+    """NEW-CLIENT JOURNEY (Santino 2026-10-01: "is your watcher watching all
+    of our systems, especially for the newer clients: new site builds and
+    automatic outreach regarding the profile renames?"). Every lane below
+    failed silently that week: bootstrap cancelled for days, sites built
+    then lost, the rename pitch parked on a dev card, a hand-sent preview
+    unrecorded. One card per stalled step, per client, for clients in
+    their first 30 days (Active, Rank AI plan, paid):
+
+      bootstrap   paid > 6h with no rank-ai slug (no client files)
+      site        bootstrapped > 2d with no built site in the repo
+      reveal      past the reveal day (10d, or preview_reveal_on) with no
+                  preview shown (not apex-live, no site-preview-feedback row)
+      rename      kickoff mined > 2d, name options exist, no pitch sent /
+                  no rename conversation / no decision; or a pitch entry
+                  stuck (queued/held > 24h, failed, refused)
+      google      kickoff mined > 3d and no Google grant AND no Profile
+                  Planner plan (nothing will ever create or manage the GBP)
+    """
+    import json as _json
+    issues: list[str] = []
+    since = (NOW - timedelta(days=ONBOARD_WINDOW_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    try:
+        comps = _sb("GET", "/rest/v1/companies?status=ilike.active&plan=eq.Rank%20AI"
+                    f"&created_at=gte.{since}&select=id,name,created_at,integration_settings") or []
+    except Exception as e:  # noqa: BLE001
+        return [f"onboarding watchdog failed — {str(e)[:100]}"]
+    if not comps:
+        return []
+    ids = ",".join(c["id"] for c in comps)
+    paid = {r["company_id"] for r in _sb(
+        "GET", f"/rest/v1/billing_invoices?company_id=in.({ids})&select=company_id") or []}
+    sites = {r["company_id"]: r for r in _sb(
+        "GET", f"/rest/v1/marketing_sites?company_id=in.({ids})"
+        "&select=company_id,rank_ai_slug,apex_live,scaffolded_at") or []}
+    previews = {r["company_id"] for r in _sb(
+        "GET", f"/rest/v1/marketing_action_plan?company_id=in.({ids})"
+        "&action_key=like.site-preview-feedback-*&select=company_id") or []}
+    grants = {r["client_id"] for r in _sb(
+        "GET", f"/rest/v1/user_integrations?client_id=in.({ids})&provider=eq.google"
+        "&select=client_id") or []}
+    kick = {}
+    for r in _sb("GET", f"/rest/v1/marketing_ops_notes?company_id=in.({ids})"
+                 "&body=ilike.*CALL%20COMMITMENT*&select=company_id,created_at"
+                 "&order=created_at.asc") or []:
+        kick.setdefault(r["company_id"], r["created_at"])
+    names = {}
+    for r in _sb("GET", f"/rest/v1/marketing_gbp_suggestions?company_id=in.({ids})"
+                 "&item_type=eq.name&select=company_id,status") or []:
+        names.setdefault(r["company_id"], set()).add(r.get("status"))
+    queue = ((_sb("GET", "/rest/v1/ops_kv?k=eq.rename-pitch-queue&select=v") or [{}])[0]
+             .get("v") or {})
+    convos = {r["k"].split(":", 1)[1] for r in _sb(
+        "GET", "/rest/v1/ops_kv?k=like.rename-convo:*&select=k") or []}
+    inv = slug_map()
+    rows: dict[str, list[str]] = {}
+
+    def flag(kind: str, text: str) -> None:
+        rows.setdefault(kind, []).append(text)
+
+    for co in comps:
+        cid, nm = co["id"], (co.get("name") or co["id"]).strip()
+        age_h = (_age_days(co.get("created_at")) or 0) * 24
+        slug = inv.get(cid)
+        ints = co.get("integration_settings") or {}
+        if cid in paid and not slug and age_h > 6:
+            flag("bootstrap", f"{nm} ({age_h / 24:.1f}d, paid, no client files)")
+            continue
+        if not slug:
+            continue
+        if age_h > 48 and not (ROOT / "sites" / slug / "src").is_dir():
+            flag("site", f"{slug} ({age_h / 24:.0f}d old, no site in the repo)")
+        site = sites.get(cid) or {}
+        if site and not site.get("apex_live") and cid not in previews:
+            reveal = None
+            try:
+                rec = _json.loads((ROOT / "clients" / f"{slug}.json").read_text())
+                if rec.get("preview_reveal_on"):
+                    reveal = datetime.fromisoformat(str(rec["preview_reveal_on"])[:10]
+                                                    + "T23:59:00+00:00")
+            except (OSError, ValueError):
+                pass
+            sc = site.get("scaffolded_at")
+            if not reveal and sc:
+                reveal = datetime.fromisoformat(str(sc).replace("Z", "+00:00")) + timedelta(days=11)
+            if reveal and NOW > reveal:
+                flag("reveal", f"{slug} (reveal was due {reveal:%m-%d})")
+        k_at = kick.get(cid)
+        k_age = _age_days(k_at) if k_at else None
+        q = queue.get(cid) or {}
+        if q.get("status") in ("failed", "refused", "error"):
+            flag("rename", f"{slug} pitch {q.get('status')}: {str(q.get('detail'))[:80]}")
+        elif q.get("status") in ("queued", "held") and (_age_days(q.get("at")) or 0) > 1:
+            flag("rename", f"{slug} pitch stuck '{q.get('status')}' since {str(q.get('at'))[:10]} (ops worker down?)")
+        elif (k_age or 0) > 2 and names.get(cid) == {"open"} and cid not in convos \
+                and not q and not ints.get("rename_intent"):
+            flag("rename", f"{slug} kickoff {str(k_at)[:10]}, name options ready, no pitch sent")
+        if (k_age or 0) > 3 and cid not in grants and not ints.get("gbp_plan"):
+            flag("google", f"{slug} (no Google connection and no Profile Planner plan)")
+    labels = {
+        "bootstrap": "paid client never bootstrapped (no slug/files): run bootstrap-new-clients or client_ops_sync --bootstrap-only",
+        "site": "new client has no site built: check site-build.yml runs / ops_kv auto-site-build:*",
+        "reveal": "site preview overdue: past the reveal day and never shown to the client",
+        "rename": "profile-rename outreach stalled: pitch not sent or stuck in rename-pitch-queue",
+        "google": "new client with no way to get a Google profile: connect their Google or draft a Profile Planner plan",
+    }
+    for kind, items in rows.items():
+        issues.append(f"onboarding {kind} — {labels[kind]}: " + "; ".join(items[:12]))
+    return issues
+
+
 def alert_key(issue: str) -> str:
     """Stable identity of an alert condition, independent of the numbers in
     it. Digits stripped (2026-09-19: '0/2 posts' -> '1/2 posts' minted a NEW
@@ -853,7 +970,8 @@ def main() -> int:
               + check_email_claims()
               + check_nap_parity()
               + check_site_guards()
-              + check_geogrid())
+              + check_geogrid()
+              + check_onboarding())
     if not issues:
         print("pipeline watchdog: ALL SYSTEMS ALIVE")
     fresh = [] if a.dry_run else reconcile_notes(issues)
