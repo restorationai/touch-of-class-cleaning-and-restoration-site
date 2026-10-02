@@ -1,0 +1,175 @@
+{
+ "generated_at": "2026-10-02T03:28:12+00:00",
+ "domain": "desertvalleycontracting.net",
+ "routes": 160,
+ "map": {
+  "/about-us": {
+   "target": "/about/",
+   "how": "heuristic"
+  },
+  "/affordable-home-renovation-ideas-for-las-vegas-homeowners": {
+   "target": "/blog/general-contracting-reconstruction-renovation/",
+   "how": "claude"
+  },
+  "/commercial": {
+   "target": "/services/commercial-restoration/",
+   "how": "claude"
+  },
+  "/contact-las-vegas-contractor": {
+   "target": "/contact/",
+   "how": "claude"
+  },
+  "/customer-reviews-las-vegas": {
+   "target": "/reviews/",
+   "how": "claude"
+  },
+  "/desert-valley-contracting-premier-las-vegas-fire-restoration-company": {
+   "target": "/services/fire-damage-restoration/",
+   "how": "claude"
+  },
+  "/esprta-soft-contents": {
+   "target": "/services/contents-restoration-storage/",
+   "how": "claude"
+  },
+  "/experienced-bathroom-remodeling-contractors-in-las-vegas-2": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/expert-bathroom-contractor-in-las-vegas": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/expert-renovation-contractors-in-las-vegas-build-your-dream-home-today": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/finding-the-best-home-improvement-contractor": {
+   "target": "/blog/choosing-a-restoration-company/",
+   "how": "claude"
+  },
+  "/fire-restoration-las-vegas": {
+   "target": "/service-areas/las-vegas-nv/fire-damage-restoration/",
+   "how": "claude"
+  },
+  "/from-drab-to-dream-inspiring-las-vegas-home-renovation-ideas": {
+   "target": "/blog/general-contracting-reconstruction-renovation/",
+   "how": "claude"
+  },
+  "/how-to-plan-a-successful-home-renovation-in-las-vegas": {
+   "target": "/blog/general-contracting-reconstruction-renovation/",
+   "how": "claude"
+  },
+  "/in-house-construction-and-remodeling-service": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/kitchen-remodeling-contractor-services-in-las-vegas": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/las-vegas-commercial-builders": {
+   "target": "/services/commercial-restoration/",
+   "how": "claude"
+  },
+  "/las-vegas-commercial-renovations-transform-your-space-with-desert-valley-contracting": {
+   "target": "/services/commercial-restoration/",
+   "how": "claude"
+  },
+  "/las-vegas-construction-blog": {
+   "target": "/blog/",
+   "how": "claude"
+  },
+  "/las-vegas-construction-team": {
+   "target": "/about/",
+   "how": "claude"
+  },
+  "/las-vegas-custom-home-remodeling-experience-the-desert-valley-contracting-difference": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/las-vegas-home-construction-services": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/las-vegas-kitchen-renovation-services": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/products/kitchen": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/products/plank-tile-flooring": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/professional-home-remodeling-in-las-vegas-stylish-functional-upgrades": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/residential": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/residential-home-construction-services-in-las-vegas": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/residential-remodeling-las-vegas": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/residential-remodeling-services-in-las-vegas-nv": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/restoration": {
+   "target": "/services/",
+   "how": "claude"
+  },
+  "/services/bathroom-kitchen-remodeling": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/services/new-construction": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/the-roi-of-kitchen-and-bathroom-renovations-in-las-vegas": {
+   "target": "/blog/general-contracting-reconstruction-renovation/",
+   "how": "claude"
+  },
+  "/the-ultimate-guide-to-kitchen-and-bathroom-renovations-in-las-vegas": {
+   "target": "/blog/general-contracting-reconstruction-renovation/",
+   "how": "claude"
+  },
+  "/top-general-contractor-in-las-vegas-why-desert-valley-contracting-leads-the-way": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/top-quality-residential-construction-services-in-las-vegas": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/top-rated-bathroom-remodel-services-las-vegas-2": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/trusted-construction-experts-near-me-desert-valley-contracting-inc": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/trusted-home-contractors-in-las-vegas-desert-valley-contracting-inc": {
+   "target": "/services/general-contracting/",
+   "how": "claude"
+  },
+  "/upgrade-your-living-space-with-premier-home-remodeling-in-las-vegas": {
+   "target": "/blog/general-contracting-reconstruction-renovation/",
+   "how": "claude"
+  },
+  "/water-damage-restoration": {
+   "target": "/services/water-damage-restoration/",
+   "how": "claude"
+  }
+ }
+}

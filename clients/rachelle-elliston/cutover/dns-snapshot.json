@@ -1,41 +1,22 @@
 {
- "domain": "desertvalleycontracting.net",
- "captured_at": "2026-10-01T23:24:19+00:00",
+ "domain": "desertvalleyrestoration.com",
+ "captured_at": "2026-10-02T03:44:06+00:00",
  "authoritative": {
-  "ns": [
-   "ns67.domaincontrol.com",
-   "ns68.domaincontrol.com"
-  ],
+  "ns": [],
   "mx": [],
   "apex_txt": [],
-  "dmarc_txt": [
-   "v=DMARC1; p=quarantine; adkim=r; aspf=r; rua=mailto:dmarc_rua@onsecureserver.net;"
-  ],
+  "dmarc_txt": [],
   "dkim": {},
-  "apex_a": [
-   "35.172.94.1",
-   "100.24.208.97"
-  ],
+  "apex_a": [],
   "apex_cname": [],
-  "www_cname": [
-   "s.website.thryv.com"
-  ]
+  "www_cname": []
  },
  "cf_zone": {
-  "zone_id": "b17aca6ac272fa4d568f561961d1d05d",
+  "zone_id": "3a154d4bae4b21262e414bc9f909ddee",
   "name_servers": [
-   "amos.ns.cloudflare.com",
-   "anastasia.ns.cloudflare.com"
+   "daisy.ns.cloudflare.com",
+   "henry.ns.cloudflare.com"
   ],
-  "records": [
-   {
-    "id": "5db4f05bf267250dbdba05fc4dcdddbf",
-    "type": "TXT",
-    "name": "_dmarc.desertvalleycontracting.net",
-    "content": "v=DMARC1; p=quarantine; adkim=r; aspf=r; rua=mailto:dmarc_rua@onsecureserver.net;",
-    "priority": null,
-    "proxied": false
-   }
-  ]
+  "records": []
  }
 }
