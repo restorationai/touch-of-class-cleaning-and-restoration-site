@@ -1,6 +1,45 @@
 {
   "items": [
     {
+      "id": "2026-10-02-odor-control-deodorization",
+      "status": "queued",
+      "queued_at": "2026-10-02T16:19:23Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "odor-control-deodorization",
+      "primary_keyword": "Odor Control & Deodorization",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "bethesda-md",
+      "source": "app target-term (onboarding)"
+    },
+    {
+      "id": "2026-10-02-sewage-cleanup-remediation",
+      "status": "queued",
+      "queued_at": "2026-10-02T16:19:23Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "sewage-cleanup-remediation",
+      "primary_keyword": "Sewage Cleanup & Remediation",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "aspen-hill-md",
+      "source": "app target-term (onboarding)"
+    },
+    {
+      "id": "2026-10-02-storm-wind-damage-restoration",
+      "status": "queued",
+      "queued_at": "2026-10-02T16:19:23Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "storm-wind-damage-restoration",
+      "primary_keyword": "Storm & Wind Damage Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "annapolis-md",
+      "source": "app target-term (onboarding)"
+    },
+    {
       "id": "2026-10-02-best-mold-remediation-in-baldwin-md",
       "status": "written",
       "queued_at": "2026-10-02T10:25:32Z",
