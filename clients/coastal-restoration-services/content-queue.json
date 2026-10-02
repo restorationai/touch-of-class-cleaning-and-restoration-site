@@ -57,7 +57,7 @@
     },
     {
       "id": "2026-09-06-water-damage-and-mold-and-fire",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-06T10:23:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -68,7 +68,8 @@
       "city_anchor": "arroyo-grande-ca",
       "source": "app target-term (onboarding-backfill)",
       "written_at": "2026-10-02T01:47:15Z",
-      "post_url": "https://callcrs.com/blog/water-damage-and-mold-and-fire/"
+      "post_url": "https://callcrs.com/blog/water-damage-and-mold-and-fire/",
+      "published_verified_at": "2026-10-02T01:49:56Z"
     },
     {
       "id": "2026-08-26-water-damage-restoration-cost-ca",
