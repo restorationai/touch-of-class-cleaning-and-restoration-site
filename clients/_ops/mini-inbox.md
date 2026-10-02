@@ -398,5 +398,6 @@
   (MacBook Claude will read Twilio directly). Never pay, never accept a paid tier, never
   impersonate the owner, never leave a tracking number as the public phone at the end.
   → NOT STARTED (mini 2026-10-01 18:38 PDT, 2nd trigger): daytime-only, and 7pm PT is ~20 min away. The tracking-line → real-line swap must not be cut off mid-way. First daytime trigger 10-02.
+  → FB PRE-CHECK (mini 2026-10-01 18:44 PDT, trigger groupb-fb-1790904851): agent Chrome 9223 has 0 facebook.com cookies, so Santino's Facebook is NOT signed in. Step 4 is parked on NEED-20261001-1845-fb-not-logged-in. Steps 1-3 run on the first 10-02 daytime trigger. Report: 2026-10-01-1840-groupb-fb-precheck.md
 
 <!-- completed items get [x] + a one-line result; MacBook Claude prunes -->
