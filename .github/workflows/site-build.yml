@@ -58,7 +58,17 @@ jobs:
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python3 scripts/site_brief_build.py --slug "${{ github.event.inputs.slug }}"
+        # Auto-builds (setup_ledger, 2026-10-01) arrive with plan-input
+        # already seeded from the truth table and no app brief: keep it.
+        run: |
+          SLUG="${{ github.event.inputs.slug }}"
+          python3 scripts/site_brief_build.py --slug "$SLUG" || {
+            if [ -f "clients/$SLUG/plan-input.json" ]; then
+              echo "no app brief; building from the seeded plan-input"
+            else
+              exit 1
+            fi
+          }
 
       - name: Plan site
         env:

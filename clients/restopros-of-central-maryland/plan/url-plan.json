@@ -1,0 +1,4934 @@
+{
+  "template": "restoration",
+  "template_version": "0.3.0",
+  "generated_at": "2026-10-02T04:03:39.712981+00:00",
+  "input_summary": {
+    "service_count": 21,
+    "service_area_count": 20,
+    "cross_product": true,
+    "blog_seed_count": 8
+  },
+  "pages": [
+    {
+      "url_path": "/",
+      "archetype": "home",
+      "vars_keys": [],
+      "title": "RestoPros of Central Maryland | Restoration Services in Baldwin, MD",
+      "h1": "24/7 Restoration Services in Baldwin",
+      "meta_description": "RestoPros of Central Maryland provides 24/7 water, fire, mold, and storm damage restoration across Baldwin and surrounding areas. Licensed, insured, IICRC-certified. Call (240) 261-1639.",
+      "primary_keyword": "restoration services baldwin",
+      "secondary_keywords": [
+        "restoration company near me",
+        "24/7 damage restoration",
+        "emergency restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1200,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2",
+        "inline-3"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating"
+      ],
+      "priority": 5.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/service-areas/",
+        "/contact/",
+        "/about/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/commercial-restoration/",
+        "/services/emergency-water-removal/",
+        "/services/flood-damage-restoration/",
+        "/services/reconstruction/",
+        "/services/sewage-cleanup/",
+        "/services/smoke-damage-restoration/",
+        "/services/storm-damage-restoration/",
+        "/services/water-cleanup/",
+        "/services/basement-flooding-cleanup/",
+        "/services/burst-pipe-repair/",
+        "/services/ceiling-water-damage-repair/",
+        "/services/general-contracting/",
+        "/services/large-loss-response/",
+        "/services/mold-inspection-testing/",
+        "/services/industrial-restoration/",
+        "/services/water-heater-flood-cleanup/",
+        "/services/water-leak-detection/",
+        "/services/contents-restoration-storage/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/",
+        "/service-areas/bowie-md/",
+        "/service-areas/catonsville-md/",
+        "/service-areas/columbia-md/",
+        "/service-areas/dundalk-md/",
+        "/service-areas/ellicott-city-md/",
+        "/service-areas/essex-md/",
+        "/service-areas/gaithersburg-md/",
+        "/service-areas/germantown-md/",
+        "/service-areas/glen-burnie-md/",
+        "/service-areas/owings-mills-md/",
+        "/service-areas/potomac-md/",
+        "/service-areas/rockville-md/",
+        "/service-areas/severn-md/",
+        "/service-areas/silver-spring-md/",
+        "/service-areas/towson-md/",
+        "/service-areas/wheaton-md/"
+      ]
+    },
+    {
+      "url_path": "/services/",
+      "archetype": "services-hub",
+      "vars_keys": [],
+      "title": "Restoration Services in Baldwin | RestoPros of Central Maryland",
+      "h1": "Our Restoration Services",
+      "meta_description": "Full-service restoration in Baldwin: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call (240) 261-1639.",
+      "primary_keyword": "restoration services baldwin",
+      "secondary_keywords": [
+        "damage restoration services",
+        "property restoration services",
+        "disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 800,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 4.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/commercial-restoration/",
+        "/services/emergency-water-removal/",
+        "/services/flood-damage-restoration/",
+        "/services/reconstruction/",
+        "/services/sewage-cleanup/",
+        "/services/smoke-damage-restoration/",
+        "/services/storm-damage-restoration/",
+        "/services/water-cleanup/",
+        "/services/basement-flooding-cleanup/",
+        "/services/burst-pipe-repair/",
+        "/services/ceiling-water-damage-repair/",
+        "/services/general-contracting/",
+        "/services/large-loss-response/",
+        "/services/mold-inspection-testing/",
+        "/services/industrial-restoration/",
+        "/services/water-heater-flood-cleanup/",
+        "/services/water-leak-detection/",
+        "/services/contents-restoration-storage/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/",
+      "archetype": "service-areas-hub",
+      "vars_keys": [],
+      "title": "Service Areas | RestoPros of Central Maryland Restoration",
+      "h1": "Areas We Serve",
+      "meta_description": "RestoPros of Central Maryland provides 24/7 restoration services across Baldwin and the surrounding region. Find your city.",
+      "primary_keyword": "restopros of central maryland service areas",
+      "secondary_keywords": [
+        "restoration service area",
+        "cities we serve",
+        "local restoration coverage"
+      ],
+      "search_intent": "navigational_local",
+      "target_word_count": 500,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/",
+        "/service-areas/bowie-md/",
+        "/service-areas/catonsville-md/",
+        "/service-areas/columbia-md/",
+        "/service-areas/dundalk-md/",
+        "/service-areas/ellicott-city-md/",
+        "/service-areas/essex-md/",
+        "/service-areas/gaithersburg-md/",
+        "/service-areas/germantown-md/",
+        "/service-areas/glen-burnie-md/",
+        "/service-areas/owings-mills-md/",
+        "/service-areas/potomac-md/",
+        "/service-areas/rockville-md/",
+        "/service-areas/severn-md/",
+        "/service-areas/silver-spring-md/",
+        "/service-areas/towson-md/",
+        "/service-areas/wheaton-md/"
+      ]
+    },
+    {
+      "url_path": "/blog/",
+      "archetype": "blog-index",
+      "vars_keys": [],
+      "title": "Restoration Blog | RestoPros of Central Maryland",
+      "h1": "Restoration Resources and Insights",
+      "meta_description": "Guides, checklists, and explainers from RestoPros of Central Maryland on water, fire, mold, and storm damage restoration.",
+      "primary_keyword": "restoration blog baldwin",
+      "secondary_keywords": [
+        "restoration guides",
+        "damage restoration tips",
+        "restoration insights"
+      ],
+      "search_intent": "informational_browse",
+      "target_word_count": 300,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "website",
+        "breadcrumb-list"
+      ],
+      "priority": 3.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/fire-damage-restoration-process/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/about/",
+      "archetype": "about",
+      "vars_keys": [],
+      "title": "About RestoPros of Central Maryland | Baldwin Restoration Company",
+      "h1": "About RestoPros of Central Maryland",
+      "meta_description": "RestoPros of Central Maryland has served Baldwin since . Meet our IICRC-certified restoration team. Licensed, insured, locally owned.",
+      "primary_keyword": "restopros of central maryland baldwin",
+      "secondary_keywords": [
+        "local restoration company",
+        "iicrc certified restoration",
+        "licensed restoration contractor"
+      ],
+      "search_intent": "navigational_trust",
+      "target_word_count": 700,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "aggregate-rating",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "vars_keys": [],
+      "title": "Contact RestoPros of Central Maryland | 24/7 Restoration in Baldwin",
+      "h1": "Contact RestoPros of Central Maryland",
+      "meta_description": "Call (240) 261-1639 for 24/7 emergency restoration in Baldwin and surrounding areas. Free estimates. Direct insurance billing.",
+      "primary_keyword": "restopros of central maryland contact",
+      "secondary_keywords": [
+        "restoration company contact",
+        "24/7 restoration phone",
+        "emergency restoration near me"
+      ],
+      "search_intent": "navigational_action",
+      "target_word_count": 400,
+      "image_roles": [
+        "hero",
+        "og"
+      ],
+      "schema_stubs": [
+        "organization",
+        "website",
+        "local-business",
+        "breadcrumb-list"
+      ],
+      "priority": 2.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/",
+        "/services/",
+        "/service-areas/"
+      ]
+    },
+    {
+      "url_path": "/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Baldwin | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Baldwin",
+      "meta_description": "24/7 emergency water damage restoration in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration baldwin",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/service-areas/bethesda-md/water-damage-restoration/",
+        "/service-areas/bowie-md/water-damage-restoration/",
+        "/service-areas/catonsville-md/water-damage-restoration/",
+        "/service-areas/columbia-md/water-damage-restoration/",
+        "/service-areas/dundalk-md/water-damage-restoration/",
+        "/service-areas/ellicott-city-md/water-damage-restoration/",
+        "/service-areas/essex-md/water-damage-restoration/",
+        "/service-areas/gaithersburg-md/water-damage-restoration/",
+        "/service-areas/germantown-md/water-damage-restoration/",
+        "/service-areas/glen-burnie-md/water-damage-restoration/",
+        "/services/emergency-water-removal/",
+        "/services/water-cleanup/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "24/7 Emergency Fire Damage Restoration in Baldwin | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Fire Damage Restoration in Baldwin",
+      "meta_description": "24/7 emergency fire damage restoration in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "fire damage restoration baldwin",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/annapolis-md/fire-damage-restoration/",
+        "/service-areas/bowie-md/fire-damage-restoration/",
+        "/service-areas/columbia-md/fire-damage-restoration/",
+        "/service-areas/ellicott-city-md/fire-damage-restoration/",
+        "/service-areas/owings-mills-md/fire-damage-restoration/",
+        "/service-areas/severn-md/fire-damage-restoration/",
+        "/service-areas/towson-md/fire-damage-restoration/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/fire-damage-restoration-process/"
+      ]
+    },
+    {
+      "url_path": "/services/mold-remediation/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Mold Remediation in Baldwin | RestoPros of Central Maryland",
+      "h1": "Mold Remediation in Baldwin",
+      "meta_description": "24/7 mold remediation in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "mold remediation baldwin",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/bethesda-md/mold-remediation/",
+        "/service-areas/bowie-md/mold-remediation/",
+        "/service-areas/columbia-md/mold-remediation/",
+        "/service-areas/ellicott-city-md/mold-remediation/",
+        "/service-areas/essex-md/mold-remediation/",
+        "/service-areas/gaithersburg-md/mold-remediation/",
+        "/service-areas/glen-burnie-md/mold-remediation/",
+        "/service-areas/owings-mills-md/mold-remediation/",
+        "/service-areas/potomac-md/mold-remediation/",
+        "/service-areas/rockville-md/mold-remediation/",
+        "/service-areas/severn-md/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/services/sewage-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "24/7 Emergency Sewage Cleanup and Sanitization in Baldwin | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Baldwin",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "sewage cleanup and sanitization baldwin",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/annapolis-md/sewage-cleanup/",
+        "/service-areas/bowie-md/sewage-cleanup/",
+        "/service-areas/columbia-md/sewage-cleanup/",
+        "/service-areas/ellicott-city-md/sewage-cleanup/",
+        "/service-areas/owings-mills-md/sewage-cleanup/",
+        "/service-areas/towson-md/sewage-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/services/contents-restoration-storage/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Baldwin | RestoPros of Central Maryland",
+      "h1": "Contents Restoration & Storage in Baldwin",
+      "meta_description": "24/7 contents restoration & storage in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "contents restoration & storage baldwin",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/bethesda-md/contents-restoration-storage/",
+        "/service-areas/columbia-md/contents-restoration-storage/",
+        "/service-areas/gaithersburg-md/contents-restoration-storage/",
+        "/service-areas/towson-md/contents-restoration-storage/"
+      ]
+    },
+    {
+      "url_path": "/services/water-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "24/7 Emergency Water Cleanup in Baldwin | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Cleanup in Baldwin",
+      "meta_description": "24/7 emergency water cleanup in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "emergency water cleanup baldwin",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/bethesda-md/water-cleanup/",
+        "/service-areas/catonsville-md/water-cleanup/",
+        "/service-areas/potomac-md/water-cleanup/",
+        "/service-areas/rockville-md/water-cleanup/",
+        "/service-areas/silver-spring-md/water-cleanup/",
+        "/services/water-damage-restoration/",
+        "/services/emergency-water-removal/"
+      ]
+    },
+    {
+      "url_path": "/services/storm-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "24/7 Emergency Storm Damage Restoration in Baldwin | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Storm Damage Restoration in Baldwin",
+      "meta_description": "24/7 emergency storm damage restoration in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "storm damage restoration baldwin",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/annapolis-md/storm-damage-restoration/",
+        "/service-areas/dundalk-md/storm-damage-restoration/",
+        "/service-areas/ellicott-city-md/storm-damage-restoration/",
+        "/service-areas/essex-md/storm-damage-restoration/",
+        "/service-areas/severn-md/storm-damage-restoration/"
+      ]
+    },
+    {
+      "url_path": "/services/emergency-water-removal/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Baldwin | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Baldwin",
+      "meta_description": "24/7 emergency water removal & cleanup in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "emergency water removal & cleanup baldwin",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/services/flood-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "24/7 Emergency Flood Damage Restoration in Baldwin | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Flood Damage Restoration in Baldwin",
+      "meta_description": "24/7 emergency flood damage restoration in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "flood damage restoration baldwin",
+      "secondary_keywords": [
+        "flood cleanup",
+        "flood restoration",
+        "post-flood restoration",
+        "residential flood damage",
+        "flood damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/burst-pipe-repair/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "24/7 Emergency Burst Pipe Cleanup and Repair in Baldwin | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Burst Pipe Cleanup and Repair in Baldwin",
+      "meta_description": "24/7 emergency burst pipe cleanup and repair in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "burst pipe cleanup and repair baldwin",
+      "secondary_keywords": [
+        "burst pipe cleanup",
+        "pipe burst emergency",
+        "pipe break water damage",
+        "water line break",
+        "emergency pipe repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/basement-flooding-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "24/7 Emergency Basement Flooding Cleanup in Baldwin | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Basement Flooding Cleanup in Baldwin",
+      "meta_description": "24/7 emergency basement flooding cleanup in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "basement flooding cleanup baldwin",
+      "secondary_keywords": [
+        "flooded basement cleanup",
+        "basement water removal",
+        "wet basement restoration",
+        "basement water damage",
+        "basement drying"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/smoke-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "24/7 Emergency Smoke Damage Restoration in Baldwin | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Smoke Damage Restoration in Baldwin",
+      "meta_description": "24/7 emergency smoke damage restoration in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "smoke damage restoration baldwin",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/blog/fire-damage-restoration-process/"
+      ]
+    },
+    {
+      "url_path": "/services/mold-inspection-testing/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Mold Inspection and Testing in Baldwin | RestoPros of Central Maryland",
+      "h1": "Mold Inspection and Testing in Baldwin",
+      "meta_description": "24/7 mold inspection and testing in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "mold inspection and testing baldwin",
+      "secondary_keywords": [
+        "mold inspection",
+        "mold testing",
+        "indoor air quality testing",
+        "mold spore testing",
+        "mold assessment"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/blog/how-to-test-for-mold/"
+      ]
+    },
+    {
+      "url_path": "/services/commercial-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Commercial Restoration in Baldwin | RestoPros of Central Maryland",
+      "h1": "Commercial Restoration in Baldwin",
+      "meta_description": "24/7 commercial restoration in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "commercial restoration baldwin",
+      "secondary_keywords": [
+        "commercial water damage",
+        "commercial fire damage",
+        "business restoration",
+        "office restoration",
+        "retail restoration"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/industrial-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Industrial Restoration in Baldwin | RestoPros of Central Maryland",
+      "h1": "Industrial Restoration in Baldwin",
+      "meta_description": "24/7 industrial restoration in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "industrial restoration baldwin",
+      "secondary_keywords": [
+        "industrial water damage",
+        "warehouse restoration",
+        "manufacturing facility restoration",
+        "industrial fire damage",
+        "plant restoration services"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/reconstruction/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Reconstruction Services in Baldwin | RestoPros of Central Maryland",
+      "h1": "Reconstruction Services in Baldwin",
+      "meta_description": "24/7 reconstruction services in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "reconstruction services baldwin",
+      "secondary_keywords": [
+        "post-damage reconstruction",
+        "rebuild services",
+        "structural reconstruction",
+        "post-disaster rebuilding",
+        "fire damage reconstruction"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/general-contracting/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Baldwin | RestoPros of Central Maryland",
+      "h1": "Renovations, Remodels and General Contracting in Baldwin",
+      "meta_description": "24/7 renovations, remodels and general contracting in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "renovations, remodels and general contracting baldwin",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/large-loss-response/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Large Loss and Catastrophic Response in Baldwin | RestoPros of Central Maryland",
+      "h1": "Large Loss and Catastrophic Response in Baldwin",
+      "meta_description": "24/7 large loss and catastrophic response in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "large loss and catastrophic response baldwin",
+      "secondary_keywords": [
+        "large loss restoration",
+        "catastrophic loss response",
+        "commercial catastrophic restoration",
+        "multi-million dollar restoration",
+        "large loss adjusters"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/ceiling-water-damage-repair/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "24/7 Emergency Ceiling Water Damage Repair in Baldwin | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Ceiling Water Damage Repair in Baldwin",
+      "meta_description": "24/7 emergency ceiling water damage repair in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "ceiling water damage repair baldwin",
+      "secondary_keywords": [
+        "ceiling leaking",
+        "water coming through ceiling",
+        "ceiling leak repair",
+        "sagging ceiling water damage",
+        "water stain ceiling"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/water-heater-flood-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "24/7 Emergency Water Heater Flood Cleanup in Baldwin | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Heater Flood Cleanup in Baldwin",
+      "meta_description": "24/7 emergency water heater flood cleanup in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water heater flood cleanup baldwin",
+      "secondary_keywords": [
+        "water heater leaking",
+        "water heater burst",
+        "flooded water heater",
+        "water heater leak damage"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/services/water-leak-detection/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Leak Detection in Baldwin | RestoPros of Central Maryland",
+      "h1": "Water Leak Detection in Baldwin",
+      "meta_description": "24/7 water leak detection in Baldwin and surrounding areas. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water leak detection baldwin",
+      "secondary_keywords": [
+        "leak detection",
+        "hidden water leak",
+        "slab leak detection",
+        "water leak in wall",
+        "leak detection service"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/columbia-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Columbia, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Columbia",
+      "meta_description": "Serving Columbia, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services columbia",
+      "secondary_keywords": [
+        "columbia restoration company",
+        "damage restoration columbia",
+        "columbia disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/columbia-md/fire-damage-restoration/",
+        "/service-areas/columbia-md/mold-remediation/",
+        "/service-areas/columbia-md/water-damage-restoration/",
+        "/service-areas/columbia-md/sewage-cleanup/",
+        "/service-areas/columbia-md/contents-restoration-storage/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/silver-spring-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Silver Spring, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Silver Spring",
+      "meta_description": "Serving Silver Spring, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services silver spring",
+      "secondary_keywords": [
+        "silver spring restoration company",
+        "damage restoration silver spring",
+        "silver spring disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/silver-spring-md/mold-remediation/",
+        "/service-areas/silver-spring-md/water-damage-restoration/",
+        "/service-areas/silver-spring-md/water-cleanup/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rockville-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Rockville, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Rockville",
+      "meta_description": "Serving Rockville, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services rockville",
+      "secondary_keywords": [
+        "rockville restoration company",
+        "damage restoration rockville",
+        "rockville disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/rockville-md/mold-remediation/",
+        "/service-areas/rockville-md/water-damage-restoration/",
+        "/service-areas/rockville-md/water-cleanup/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bethesda-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Bethesda, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Bethesda",
+      "meta_description": "Serving Bethesda, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services bethesda",
+      "secondary_keywords": [
+        "bethesda restoration company",
+        "damage restoration bethesda",
+        "bethesda disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/bethesda-md/mold-remediation/",
+        "/service-areas/bethesda-md/water-damage-restoration/",
+        "/service-areas/bethesda-md/water-cleanup/",
+        "/service-areas/bethesda-md/contents-restoration-storage/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bowie-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gaithersburg-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Gaithersburg, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Gaithersburg",
+      "meta_description": "Serving Gaithersburg, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services gaithersburg",
+      "secondary_keywords": [
+        "gaithersburg restoration company",
+        "damage restoration gaithersburg",
+        "gaithersburg disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/gaithersburg-md/mold-remediation/",
+        "/service-areas/gaithersburg-md/water-damage-restoration/",
+        "/service-areas/gaithersburg-md/contents-restoration-storage/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/germantown-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Germantown, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Germantown",
+      "meta_description": "Serving Germantown, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services germantown",
+      "secondary_keywords": [
+        "germantown restoration company",
+        "damage restoration germantown",
+        "germantown disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/germantown-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ellicott-city-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Ellicott City, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Ellicott City",
+      "meta_description": "Serving Ellicott City, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services ellicott city",
+      "secondary_keywords": [
+        "ellicott city restoration company",
+        "damage restoration ellicott city",
+        "ellicott city disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/ellicott-city-md/fire-damage-restoration/",
+        "/service-areas/ellicott-city-md/mold-remediation/",
+        "/service-areas/ellicott-city-md/water-damage-restoration/",
+        "/service-areas/ellicott-city-md/sewage-cleanup/",
+        "/service-areas/ellicott-city-md/storm-damage-restoration/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/glen-burnie-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Glen Burnie, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Glen Burnie",
+      "meta_description": "Serving Glen Burnie, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services glen burnie",
+      "secondary_keywords": [
+        "glen burnie restoration company",
+        "damage restoration glen burnie",
+        "glen burnie disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/glen-burnie-md/mold-remediation/",
+        "/service-areas/glen-burnie-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dundalk-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Dundalk, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Dundalk",
+      "meta_description": "Serving Dundalk, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services dundalk",
+      "secondary_keywords": [
+        "dundalk restoration company",
+        "damage restoration dundalk",
+        "dundalk disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/dundalk-md/water-damage-restoration/",
+        "/service-areas/dundalk-md/storm-damage-restoration/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bowie-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Bowie, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Bowie",
+      "meta_description": "Serving Bowie, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services bowie",
+      "secondary_keywords": [
+        "bowie restoration company",
+        "damage restoration bowie",
+        "bowie disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/bowie-md/fire-damage-restoration/",
+        "/service-areas/bowie-md/mold-remediation/",
+        "/service-areas/bowie-md/water-damage-restoration/",
+        "/service-areas/bowie-md/sewage-cleanup/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/towson-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Towson, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Towson",
+      "meta_description": "Serving Towson, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services towson",
+      "secondary_keywords": [
+        "towson restoration company",
+        "damage restoration towson",
+        "towson disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/towson-md/fire-damage-restoration/",
+        "/service-areas/towson-md/mold-remediation/",
+        "/service-areas/towson-md/water-damage-restoration/",
+        "/service-areas/towson-md/sewage-cleanup/",
+        "/service-areas/towson-md/contents-restoration-storage/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/annapolis-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Annapolis, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Annapolis",
+      "meta_description": "Serving Annapolis, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services annapolis",
+      "secondary_keywords": [
+        "annapolis restoration company",
+        "damage restoration annapolis",
+        "annapolis disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/annapolis-md/fire-damage-restoration/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/sewage-cleanup/",
+        "/service-areas/annapolis-md/storm-damage-restoration/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/",
+        "/service-areas/bowie-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/catonsville-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Catonsville, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Catonsville",
+      "meta_description": "Serving Catonsville, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services catonsville",
+      "secondary_keywords": [
+        "catonsville restoration company",
+        "damage restoration catonsville",
+        "catonsville disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/catonsville-md/water-damage-restoration/",
+        "/service-areas/catonsville-md/water-cleanup/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wheaton-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Wheaton, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Wheaton",
+      "meta_description": "Serving Wheaton, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services wheaton",
+      "secondary_keywords": [
+        "wheaton restoration company",
+        "damage restoration wheaton",
+        "wheaton disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/wheaton-md/mold-remediation/",
+        "/service-areas/wheaton-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/aspen-hill-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Aspen Hill, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Aspen Hill",
+      "meta_description": "Serving Aspen Hill, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services aspen hill",
+      "secondary_keywords": [
+        "aspen hill restoration company",
+        "damage restoration aspen hill",
+        "aspen hill disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/bethesda-md/",
+        "/service-areas/bowie-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/essex-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Essex, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Essex",
+      "meta_description": "Serving Essex, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services essex",
+      "secondary_keywords": [
+        "essex restoration company",
+        "damage restoration essex",
+        "essex disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/essex-md/mold-remediation/",
+        "/service-areas/essex-md/water-damage-restoration/",
+        "/service-areas/essex-md/storm-damage-restoration/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/potomac-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Potomac, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Potomac",
+      "meta_description": "Serving Potomac, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services potomac",
+      "secondary_keywords": [
+        "potomac restoration company",
+        "damage restoration potomac",
+        "potomac disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/potomac-md/mold-remediation/",
+        "/service-areas/potomac-md/water-damage-restoration/",
+        "/service-areas/potomac-md/water-cleanup/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/severn-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Severn, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Severn",
+      "meta_description": "Serving Severn, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services severn",
+      "secondary_keywords": [
+        "severn restoration company",
+        "damage restoration severn",
+        "severn disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/severn-md/fire-damage-restoration/",
+        "/service-areas/severn-md/mold-remediation/",
+        "/service-areas/severn-md/water-damage-restoration/",
+        "/service-areas/severn-md/storm-damage-restoration/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/owings-mills-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Owings Mills, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Owings Mills",
+      "meta_description": "Serving Owings Mills, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services owings mills",
+      "secondary_keywords": [
+        "owings mills restoration company",
+        "damage restoration owings mills",
+        "owings mills disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/owings-mills-md/fire-damage-restoration/",
+        "/service-areas/owings-mills-md/mold-remediation/",
+        "/service-areas/owings-mills-md/water-damage-restoration/",
+        "/service-areas/owings-mills-md/sewage-cleanup/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/columbia-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Columbia, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Columbia",
+      "meta_description": "24/7 emergency water damage restoration in Columbia, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration columbia",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/columbia-md/",
+        "/service-areas/columbia-md/fire-damage-restoration/",
+        "/service-areas/columbia-md/mold-remediation/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/columbia-md/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Fire Damage Restoration in Columbia, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Fire Damage Restoration in Columbia",
+      "meta_description": "24/7 emergency fire damage restoration in Columbia, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "fire damage restoration columbia",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/columbia-md/",
+        "/service-areas/columbia-md/mold-remediation/",
+        "/service-areas/columbia-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/fire-damage-restoration/",
+        "/service-areas/bowie-md/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/columbia-md/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Columbia, MD | RestoPros of Central Maryland",
+      "h1": "Mold Remediation in Columbia",
+      "meta_description": "24/7 mold remediation in Columbia, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "mold remediation columbia",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/columbia-md/",
+        "/service-areas/columbia-md/fire-damage-restoration/",
+        "/service-areas/columbia-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/bethesda-md/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/columbia-md/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Sewage Cleanup and Sanitization in Columbia, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Columbia",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Columbia, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "sewage cleanup and sanitization columbia",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/columbia-md/",
+        "/service-areas/columbia-md/fire-damage-restoration/",
+        "/service-areas/columbia-md/mold-remediation/",
+        "/service-areas/annapolis-md/sewage-cleanup/",
+        "/service-areas/bowie-md/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/columbia-md/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Columbia, MD | RestoPros of Central Maryland",
+      "h1": "Contents Restoration & Storage in Columbia",
+      "meta_description": "24/7 contents restoration & storage in Columbia, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "contents restoration & storage columbia",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/columbia-md/",
+        "/service-areas/columbia-md/fire-damage-restoration/",
+        "/service-areas/columbia-md/mold-remediation/",
+        "/service-areas/bethesda-md/contents-restoration-storage/",
+        "/service-areas/gaithersburg-md/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/silver-spring-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Silver Spring, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Silver Spring",
+      "meta_description": "24/7 emergency water damage restoration in Silver Spring, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration silver spring",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/silver-spring-md/",
+        "/service-areas/silver-spring-md/mold-remediation/",
+        "/service-areas/silver-spring-md/water-cleanup/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/silver-spring-md/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Silver Spring, MD | RestoPros of Central Maryland",
+      "h1": "Mold Remediation in Silver Spring",
+      "meta_description": "24/7 mold remediation in Silver Spring, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "mold remediation silver spring",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/silver-spring-md/",
+        "/service-areas/silver-spring-md/water-damage-restoration/",
+        "/service-areas/silver-spring-md/water-cleanup/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/bethesda-md/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/silver-spring-md/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Cleanup in Silver Spring, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Cleanup in Silver Spring",
+      "meta_description": "24/7 emergency water cleanup in Silver Spring, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "emergency water cleanup silver spring",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/silver-spring-md/",
+        "/service-areas/silver-spring-md/mold-remediation/",
+        "/service-areas/silver-spring-md/water-damage-restoration/",
+        "/service-areas/bethesda-md/water-cleanup/",
+        "/service-areas/catonsville-md/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rockville-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Rockville, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Rockville",
+      "meta_description": "24/7 emergency water damage restoration in Rockville, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration rockville",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/rockville-md/",
+        "/service-areas/rockville-md/mold-remediation/",
+        "/service-areas/rockville-md/water-cleanup/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rockville-md/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Rockville, MD | RestoPros of Central Maryland",
+      "h1": "Mold Remediation in Rockville",
+      "meta_description": "24/7 mold remediation in Rockville, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "mold remediation rockville",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/rockville-md/",
+        "/service-areas/rockville-md/water-damage-restoration/",
+        "/service-areas/rockville-md/water-cleanup/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/bethesda-md/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rockville-md/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Cleanup in Rockville, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Cleanup in Rockville",
+      "meta_description": "24/7 emergency water cleanup in Rockville, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "emergency water cleanup rockville",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/rockville-md/",
+        "/service-areas/rockville-md/mold-remediation/",
+        "/service-areas/rockville-md/water-damage-restoration/",
+        "/service-areas/bethesda-md/water-cleanup/",
+        "/service-areas/catonsville-md/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bethesda-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Bethesda, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Bethesda",
+      "meta_description": "24/7 emergency water damage restoration in Bethesda, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration bethesda",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/bethesda-md/",
+        "/service-areas/bethesda-md/mold-remediation/",
+        "/service-areas/bethesda-md/water-cleanup/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bethesda-md/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Bethesda, MD | RestoPros of Central Maryland",
+      "h1": "Mold Remediation in Bethesda",
+      "meta_description": "24/7 mold remediation in Bethesda, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "mold remediation bethesda",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/bethesda-md/",
+        "/service-areas/bethesda-md/water-damage-restoration/",
+        "/service-areas/bethesda-md/water-cleanup/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/bowie-md/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bethesda-md/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Bethesda, MD | RestoPros of Central Maryland",
+      "h1": "Contents Restoration & Storage in Bethesda",
+      "meta_description": "24/7 contents restoration & storage in Bethesda, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "contents restoration & storage bethesda",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/bethesda-md/",
+        "/service-areas/bethesda-md/mold-remediation/",
+        "/service-areas/bethesda-md/water-damage-restoration/",
+        "/service-areas/columbia-md/contents-restoration-storage/",
+        "/service-areas/gaithersburg-md/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bethesda-md/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Cleanup in Bethesda, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Cleanup in Bethesda",
+      "meta_description": "24/7 emergency water cleanup in Bethesda, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "emergency water cleanup bethesda",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/bethesda-md/",
+        "/service-areas/bethesda-md/mold-remediation/",
+        "/service-areas/bethesda-md/water-damage-restoration/",
+        "/service-areas/catonsville-md/water-cleanup/",
+        "/service-areas/potomac-md/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gaithersburg-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Gaithersburg, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Gaithersburg",
+      "meta_description": "24/7 emergency water damage restoration in Gaithersburg, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration gaithersburg",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/gaithersburg-md/",
+        "/service-areas/gaithersburg-md/mold-remediation/",
+        "/service-areas/gaithersburg-md/contents-restoration-storage/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gaithersburg-md/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Gaithersburg, MD | RestoPros of Central Maryland",
+      "h1": "Mold Remediation in Gaithersburg",
+      "meta_description": "24/7 mold remediation in Gaithersburg, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "mold remediation gaithersburg",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/gaithersburg-md/",
+        "/service-areas/gaithersburg-md/water-damage-restoration/",
+        "/service-areas/gaithersburg-md/contents-restoration-storage/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/bethesda-md/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gaithersburg-md/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Gaithersburg, MD | RestoPros of Central Maryland",
+      "h1": "Contents Restoration & Storage in Gaithersburg",
+      "meta_description": "24/7 contents restoration & storage in Gaithersburg, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "contents restoration & storage gaithersburg",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/gaithersburg-md/",
+        "/service-areas/gaithersburg-md/mold-remediation/",
+        "/service-areas/gaithersburg-md/water-damage-restoration/",
+        "/service-areas/bethesda-md/contents-restoration-storage/",
+        "/service-areas/columbia-md/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/germantown-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Germantown, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Germantown",
+      "meta_description": "24/7 emergency water damage restoration in Germantown, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration germantown",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/germantown-md/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ellicott-city-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Ellicott City, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Ellicott City",
+      "meta_description": "24/7 emergency water damage restoration in Ellicott City, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration ellicott city",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/ellicott-city-md/",
+        "/service-areas/ellicott-city-md/fire-damage-restoration/",
+        "/service-areas/ellicott-city-md/mold-remediation/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ellicott-city-md/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Fire Damage Restoration in Ellicott City, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Fire Damage Restoration in Ellicott City",
+      "meta_description": "24/7 emergency fire damage restoration in Ellicott City, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "fire damage restoration ellicott city",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/ellicott-city-md/",
+        "/service-areas/ellicott-city-md/mold-remediation/",
+        "/service-areas/ellicott-city-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/fire-damage-restoration/",
+        "/service-areas/bowie-md/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ellicott-city-md/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Ellicott City, MD | RestoPros of Central Maryland",
+      "h1": "Mold Remediation in Ellicott City",
+      "meta_description": "24/7 mold remediation in Ellicott City, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "mold remediation ellicott city",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/ellicott-city-md/",
+        "/service-areas/ellicott-city-md/fire-damage-restoration/",
+        "/service-areas/ellicott-city-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/bethesda-md/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ellicott-city-md/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Sewage Cleanup and Sanitization in Ellicott City | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Ellicott City",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Ellicott City, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "sewage cleanup and sanitization ellicott city",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/ellicott-city-md/",
+        "/service-areas/ellicott-city-md/fire-damage-restoration/",
+        "/service-areas/ellicott-city-md/mold-remediation/",
+        "/service-areas/annapolis-md/sewage-cleanup/",
+        "/service-areas/bowie-md/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ellicott-city-md/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Storm Damage Restoration in Ellicott City, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Storm Damage Restoration in Ellicott City",
+      "meta_description": "24/7 emergency storm damage restoration in Ellicott City, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "storm damage restoration ellicott city",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/ellicott-city-md/",
+        "/service-areas/ellicott-city-md/fire-damage-restoration/",
+        "/service-areas/ellicott-city-md/mold-remediation/",
+        "/service-areas/annapolis-md/storm-damage-restoration/",
+        "/service-areas/dundalk-md/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/glen-burnie-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Glen Burnie, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Glen Burnie",
+      "meta_description": "24/7 emergency water damage restoration in Glen Burnie, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration glen burnie",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/glen-burnie-md/",
+        "/service-areas/glen-burnie-md/mold-remediation/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/glen-burnie-md/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Glen Burnie, MD | RestoPros of Central Maryland",
+      "h1": "Mold Remediation in Glen Burnie",
+      "meta_description": "24/7 mold remediation in Glen Burnie, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "mold remediation glen burnie",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/glen-burnie-md/",
+        "/service-areas/glen-burnie-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/bethesda-md/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dundalk-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Dundalk, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Dundalk",
+      "meta_description": "24/7 emergency water damage restoration in Dundalk, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration dundalk",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/dundalk-md/",
+        "/service-areas/dundalk-md/storm-damage-restoration/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dundalk-md/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Storm Damage Restoration in Dundalk, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Storm Damage Restoration in Dundalk",
+      "meta_description": "24/7 emergency storm damage restoration in Dundalk, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "storm damage restoration dundalk",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/dundalk-md/",
+        "/service-areas/dundalk-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/storm-damage-restoration/",
+        "/service-areas/ellicott-city-md/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bowie-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Bowie, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Bowie",
+      "meta_description": "24/7 emergency water damage restoration in Bowie, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration bowie",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/bowie-md/",
+        "/service-areas/bowie-md/fire-damage-restoration/",
+        "/service-areas/bowie-md/mold-remediation/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bowie-md/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Fire Damage Restoration in Bowie, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Fire Damage Restoration in Bowie",
+      "meta_description": "24/7 emergency fire damage restoration in Bowie, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "fire damage restoration bowie",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/bowie-md/",
+        "/service-areas/bowie-md/mold-remediation/",
+        "/service-areas/bowie-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/fire-damage-restoration/",
+        "/service-areas/columbia-md/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bowie-md/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Bowie, MD | RestoPros of Central Maryland",
+      "h1": "Mold Remediation in Bowie",
+      "meta_description": "24/7 mold remediation in Bowie, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "mold remediation bowie",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/bowie-md/",
+        "/service-areas/bowie-md/fire-damage-restoration/",
+        "/service-areas/bowie-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/bethesda-md/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bowie-md/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Sewage Cleanup and Sanitization in Bowie, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Bowie",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Bowie, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "sewage cleanup and sanitization bowie",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/bowie-md/",
+        "/service-areas/bowie-md/fire-damage-restoration/",
+        "/service-areas/bowie-md/mold-remediation/",
+        "/service-areas/annapolis-md/sewage-cleanup/",
+        "/service-areas/columbia-md/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/towson-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Towson, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Towson",
+      "meta_description": "24/7 emergency water damage restoration in Towson, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration towson",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/towson-md/",
+        "/service-areas/towson-md/fire-damage-restoration/",
+        "/service-areas/towson-md/mold-remediation/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/towson-md/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Fire Damage Restoration in Towson, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Fire Damage Restoration in Towson",
+      "meta_description": "24/7 emergency fire damage restoration in Towson, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "fire damage restoration towson",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/towson-md/",
+        "/service-areas/towson-md/mold-remediation/",
+        "/service-areas/towson-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/fire-damage-restoration/",
+        "/service-areas/bowie-md/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/towson-md/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Towson, MD | RestoPros of Central Maryland",
+      "h1": "Mold Remediation in Towson",
+      "meta_description": "24/7 mold remediation in Towson, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "mold remediation towson",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/towson-md/",
+        "/service-areas/towson-md/fire-damage-restoration/",
+        "/service-areas/towson-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/bethesda-md/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/towson-md/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Sewage Cleanup and Sanitization in Towson, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Towson",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Towson, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "sewage cleanup and sanitization towson",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/towson-md/",
+        "/service-areas/towson-md/fire-damage-restoration/",
+        "/service-areas/towson-md/mold-remediation/",
+        "/service-areas/annapolis-md/sewage-cleanup/",
+        "/service-areas/bowie-md/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/towson-md/contents-restoration-storage/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Contents Restoration & Storage in Towson, MD | RestoPros of Central Maryland",
+      "h1": "Contents Restoration & Storage in Towson",
+      "meta_description": "24/7 contents restoration & storage in Towson, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "contents restoration & storage towson",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/contents-restoration-storage/",
+        "/service-areas/towson-md/",
+        "/service-areas/towson-md/fire-damage-restoration/",
+        "/service-areas/towson-md/mold-remediation/",
+        "/service-areas/bethesda-md/contents-restoration-storage/",
+        "/service-areas/columbia-md/contents-restoration-storage/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/annapolis-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Annapolis, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Annapolis",
+      "meta_description": "24/7 emergency water damage restoration in Annapolis, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration annapolis",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/annapolis-md/fire-damage-restoration/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/service-areas/bethesda-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/annapolis-md/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Fire Damage Restoration in Annapolis, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Fire Damage Restoration in Annapolis",
+      "meta_description": "24/7 emergency fire damage restoration in Annapolis, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "fire damage restoration annapolis",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/bowie-md/fire-damage-restoration/",
+        "/service-areas/columbia-md/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/annapolis-md/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Annapolis, MD | RestoPros of Central Maryland",
+      "h1": "Mold Remediation in Annapolis",
+      "meta_description": "24/7 mold remediation in Annapolis, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "mold remediation annapolis",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/annapolis-md/fire-damage-restoration/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/bethesda-md/mold-remediation/",
+        "/service-areas/bowie-md/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/annapolis-md/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Sewage Cleanup and Sanitization in Annapolis, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Annapolis",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Annapolis, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "sewage cleanup and sanitization annapolis",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/annapolis-md/fire-damage-restoration/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/bowie-md/sewage-cleanup/",
+        "/service-areas/columbia-md/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/annapolis-md/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Storm Damage Restoration in Annapolis, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Storm Damage Restoration in Annapolis",
+      "meta_description": "24/7 emergency storm damage restoration in Annapolis, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "storm damage restoration annapolis",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/annapolis-md/fire-damage-restoration/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/dundalk-md/storm-damage-restoration/",
+        "/service-areas/ellicott-city-md/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/catonsville-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Catonsville, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Catonsville",
+      "meta_description": "24/7 emergency water damage restoration in Catonsville, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration catonsville",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/catonsville-md/",
+        "/service-areas/catonsville-md/water-cleanup/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/catonsville-md/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Cleanup in Catonsville, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Cleanup in Catonsville",
+      "meta_description": "24/7 emergency water cleanup in Catonsville, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "emergency water cleanup catonsville",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/catonsville-md/",
+        "/service-areas/catonsville-md/water-damage-restoration/",
+        "/service-areas/bethesda-md/water-cleanup/",
+        "/service-areas/potomac-md/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wheaton-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Wheaton, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Wheaton",
+      "meta_description": "24/7 emergency water damage restoration in Wheaton, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration wheaton",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/wheaton-md/",
+        "/service-areas/wheaton-md/mold-remediation/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wheaton-md/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Wheaton, MD | RestoPros of Central Maryland",
+      "h1": "Mold Remediation in Wheaton",
+      "meta_description": "24/7 mold remediation in Wheaton, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "mold remediation wheaton",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/wheaton-md/",
+        "/service-areas/wheaton-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/bethesda-md/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/aspen-hill-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Aspen Hill, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Aspen Hill",
+      "meta_description": "24/7 emergency water damage restoration in Aspen Hill, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration aspen hill",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/bethesda-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/essex-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Essex, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Essex",
+      "meta_description": "24/7 emergency water damage restoration in Essex, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration essex",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/essex-md/",
+        "/service-areas/essex-md/mold-remediation/",
+        "/service-areas/essex-md/storm-damage-restoration/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/essex-md/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Essex, MD | RestoPros of Central Maryland",
+      "h1": "Mold Remediation in Essex",
+      "meta_description": "24/7 mold remediation in Essex, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "mold remediation essex",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/essex-md/",
+        "/service-areas/essex-md/water-damage-restoration/",
+        "/service-areas/essex-md/storm-damage-restoration/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/bethesda-md/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/essex-md/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Storm Damage Restoration in Essex, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Storm Damage Restoration in Essex",
+      "meta_description": "24/7 emergency storm damage restoration in Essex, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "storm damage restoration essex",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/essex-md/",
+        "/service-areas/essex-md/mold-remediation/",
+        "/service-areas/essex-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/storm-damage-restoration/",
+        "/service-areas/dundalk-md/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/potomac-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Potomac, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Potomac",
+      "meta_description": "24/7 emergency water damage restoration in Potomac, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration potomac",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/potomac-md/",
+        "/service-areas/potomac-md/mold-remediation/",
+        "/service-areas/potomac-md/water-cleanup/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/potomac-md/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Potomac, MD | RestoPros of Central Maryland",
+      "h1": "Mold Remediation in Potomac",
+      "meta_description": "24/7 mold remediation in Potomac, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "mold remediation potomac",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/potomac-md/",
+        "/service-areas/potomac-md/water-damage-restoration/",
+        "/service-areas/potomac-md/water-cleanup/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/bethesda-md/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/potomac-md/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Cleanup in Potomac, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Cleanup in Potomac",
+      "meta_description": "24/7 emergency water cleanup in Potomac, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "emergency water cleanup potomac",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "emergency water cleanup",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/potomac-md/",
+        "/service-areas/potomac-md/mold-remediation/",
+        "/service-areas/potomac-md/water-damage-restoration/",
+        "/service-areas/bethesda-md/water-cleanup/",
+        "/service-areas/catonsville-md/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/severn-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Severn, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Severn",
+      "meta_description": "24/7 emergency water damage restoration in Severn, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration severn",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/severn-md/",
+        "/service-areas/severn-md/fire-damage-restoration/",
+        "/service-areas/severn-md/mold-remediation/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/severn-md/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Fire Damage Restoration in Severn, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Fire Damage Restoration in Severn",
+      "meta_description": "24/7 emergency fire damage restoration in Severn, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "fire damage restoration severn",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/severn-md/",
+        "/service-areas/severn-md/mold-remediation/",
+        "/service-areas/severn-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/fire-damage-restoration/",
+        "/service-areas/bowie-md/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/severn-md/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Severn, MD | RestoPros of Central Maryland",
+      "h1": "Mold Remediation in Severn",
+      "meta_description": "24/7 mold remediation in Severn, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "mold remediation severn",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/severn-md/",
+        "/service-areas/severn-md/fire-damage-restoration/",
+        "/service-areas/severn-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/bethesda-md/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/severn-md/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Storm Damage Restoration in Severn, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Storm Damage Restoration in Severn",
+      "meta_description": "24/7 emergency storm damage restoration in Severn, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "storm damage restoration severn",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/severn-md/",
+        "/service-areas/severn-md/fire-damage-restoration/",
+        "/service-areas/severn-md/mold-remediation/",
+        "/service-areas/annapolis-md/storm-damage-restoration/",
+        "/service-areas/dundalk-md/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/owings-mills-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Owings Mills, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Owings Mills",
+      "meta_description": "24/7 emergency water damage restoration in Owings Mills, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration owings mills",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/owings-mills-md/",
+        "/service-areas/owings-mills-md/fire-damage-restoration/",
+        "/service-areas/owings-mills-md/mold-remediation/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/owings-mills-md/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Fire Damage Restoration in Owings Mills, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Fire Damage Restoration in Owings Mills",
+      "meta_description": "24/7 emergency fire damage restoration in Owings Mills, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "fire damage restoration owings mills",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/owings-mills-md/",
+        "/service-areas/owings-mills-md/mold-remediation/",
+        "/service-areas/owings-mills-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/fire-damage-restoration/",
+        "/service-areas/bowie-md/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/owings-mills-md/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Owings Mills, MD | RestoPros of Central Maryland",
+      "h1": "Mold Remediation in Owings Mills",
+      "meta_description": "24/7 mold remediation in Owings Mills, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "mold remediation owings mills",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/owings-mills-md/",
+        "/service-areas/owings-mills-md/fire-damage-restoration/",
+        "/service-areas/owings-mills-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/mold-remediation/",
+        "/service-areas/bethesda-md/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/owings-mills-md/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Sewage Cleanup and Sanitization in Owings Mills | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Sewage Cleanup and Sanitization in Owings Mills",
+      "meta_description": "24/7 emergency sewage cleanup and sanitization in Owings Mills, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "sewage cleanup and sanitization owings mills",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/owings-mills-md/",
+        "/service-areas/owings-mills-md/fire-damage-restoration/",
+        "/service-areas/owings-mills-md/mold-remediation/",
+        "/service-areas/annapolis-md/sewage-cleanup/",
+        "/service-areas/bowie-md/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/blog/what-to-do-first-24-hours-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "What To Do in the First 24 Hours After Water Damage",
+      "h1": "What To Do in the First 24 Hours After Water Damage",
+      "meta_description": "",
+      "primary_keyword": "what to do in the first 24 hours after water damage",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/burst-pipe-emergency-checklist/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Burst Pipe Emergency Checklist: Step-by-Step Response",
+      "h1": "Burst Pipe Emergency Checklist: Step-by-Step Response",
+      "meta_description": "",
+      "primary_keyword": "burst pipe emergency checklist stepbystep response",
+      "secondary_keywords": [
+        "water damage restoration",
+        "appliance leak cleanup"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/does-homeowners-insurance-cover-water-damage/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "h1": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide",
+      "meta_description": "",
+      "primary_keyword": "does homeowners insurance cover water damage a plainenglish guide",
+      "secondary_keywords": [
+        "water damage restoration"
+      ],
+      "search_intent": "informational_insurance",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/signs-of-hidden-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "7 Signs You Have Hidden Mold (and What To Do Next)",
+      "h1": "7 Signs You Have Hidden Mold (and What To Do Next)",
+      "meta_description": "",
+      "primary_keyword": "7 signs you have hidden mold and what to do next",
+      "secondary_keywords": [
+        "mold remediation"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/how-to-test-for-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "h1": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)",
+      "meta_description": "",
+      "primary_keyword": "how to test for mold in your home diy kits vs a pro inspection",
+      "secondary_keywords": [
+        "mold remediation",
+        "mold inspection and testing"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/services/mold-inspection-testing/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/signs-of-hidden-mold/",
+        "/blog/black-mold-vs-regular-mold/"
+      ]
+    },
+    {
+      "url_path": "/blog/fire-damage-restoration-process/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "The Fire Damage Restoration Process, Explained",
+      "h1": "The Fire Damage Restoration Process, Explained",
+      "meta_description": "",
+      "primary_keyword": "the fire damage restoration process explained",
+      "secondary_keywords": [
+        "fire damage restoration",
+        "smoke damage restoration"
+      ],
+      "search_intent": "informational_emergency",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/services/smoke-damage-restoration/",
+        "/blog/choosing-a-restoration-company/"
+      ]
+    },
+    {
+      "url_path": "/blog/choosing-a-restoration-company/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "h1": "How To Choose a Restoration Company in  (Without Getting Burned)",
+      "meta_description": "",
+      "primary_keyword": "how to choose a restoration company in  without getting burned",
+      "secondary_keywords": [
+        "water damage restoration",
+        "fire damage restoration",
+        "mold remediation"
+      ],
+      "search_intent": "commercial_decision",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.4,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/fire-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ]
+    },
+    {
+      "url_path": "/blog/black-mold-vs-regular-mold/",
+      "archetype": "blog-post",
+      "vars_keys": [
+        "post"
+      ],
+      "title": "Black Mold vs Regular Mold: How To Tell the Difference",
+      "h1": "Black Mold vs Regular Mold: How To Tell the Difference",
+      "meta_description": "",
+      "primary_keyword": "black mold vs regular mold how to tell the difference",
+      "secondary_keywords": [
+        "mold remediation"
+      ],
+      "search_intent": "informational_health",
+      "target_word_count": 1400,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "blog-posting",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/blog/",
+        "/services/mold-remediation/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/"
+      ]
+    },
+    {
+      "url_path": "/privacy/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Privacy Policy | RestoPros of Central Maryland",
+      "h1": "Privacy Policy",
+      "meta_description": "Privacy Policy | {brand.display_name}.",
+      "primary_keyword": "restopros of central maryland privacy",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/terms/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Terms of Service | RestoPros of Central Maryland",
+      "h1": "Terms of Service",
+      "meta_description": "Terms of Service | {brand.display_name}.",
+      "primary_keyword": "restopros of central maryland terms",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 600,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    },
+    {
+      "url_path": "/accessibility/",
+      "archetype": "legal",
+      "vars_keys": [
+        "instance"
+      ],
+      "title": "Accessibility Statement | RestoPros of Central Maryland",
+      "h1": "Accessibility Statement",
+      "meta_description": "Accessibility Statement | {brand.display_name}.",
+      "primary_keyword": "restopros of central maryland accessibility",
+      "secondary_keywords": [],
+      "search_intent": "navigational_legal",
+      "target_word_count": 400,
+      "image_roles": [
+        "og"
+      ],
+      "schema_stubs": [],
+      "priority": 1.0,
+      "status": "planned",
+      "internal_links_out": []
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://restorationresource365.com/sitemap-index.xml

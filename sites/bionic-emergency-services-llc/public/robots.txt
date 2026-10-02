@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bionic24365.com/sitemap-index.xml

@@ -1,0 +1,542 @@
+{
+ "policy": "scripts/city_page_gate.py (Santino 2026-10-01)",
+ "thresholds": {
+  "combo_min": 10,
+  "head_metro_min": 1000
+ },
+ "decisions": {
+  "basin-city-wa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration basin city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "basin-city-wa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation basin city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "basin-city-wa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup basin city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "basin-city-wa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration basin city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "basin-city-wa__water-cleanup": {
+   "pass": true,
+   "why": "local angle: irrigation canal network raises flooding risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "benton-city-wa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration benton city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "benton-city-wa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation benton city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "benton-city-wa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup benton city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "benton-city-wa__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: along Yakima River flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "benton-city-wa__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup benton city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "connell-wa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration connell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "connell-wa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation connell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "connell-wa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup connell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "connell-wa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration connell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "connell-wa__water-cleanup": {
+   "pass": true,
+   "why": "local angle: surrounded by irrigation canals, ditch overflow risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "finley-wa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration finley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "finley-wa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation finley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "finley-wa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup finley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "finley-wa__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: borders Columbia River flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "finley-wa__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup finley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "highland-wa__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration highland' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "highland-wa__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation highland' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "highland-wa__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup highland' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "highland-wa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "highland-wa__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "kahlotus-wa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration kahlotus' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "kahlotus-wa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation kahlotus' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "kahlotus-wa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup kahlotus' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "kahlotus-wa__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: near Snake River reservoir flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "kahlotus-wa__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup kahlotus' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "kennewick-wa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration kennewick' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "kennewick-wa__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation kennewick' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "kennewick-wa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup kennewick' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "kennewick-wa__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Columbia/Snake river confluence flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "kennewick-wa__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup kennewick' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mesa-wa__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration mesa' 320/mo",
+   "vol": 320,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mesa-wa__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation mesa' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mesa-wa__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup mesa' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mesa-wa__storm-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'storm damage restoration mesa' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mesa-wa__water-cleanup": {
+   "pass": true,
+   "why": "local angle: extensive irrigation canals raise water-damage risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "paterson-wa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration paterson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "paterson-wa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation paterson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "paterson-wa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup paterson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "paterson-wa__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Columbia River waterfront flood exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "paterson-wa__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup paterson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "plymouth-wa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration plymouth' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "plymouth-wa__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation plymouth' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "plymouth-wa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup plymouth' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "plymouth-wa__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Columbia River waterfront flood exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "plymouth-wa__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup plymouth' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prosser-wa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration prosser' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prosser-wa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation prosser' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prosser-wa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup prosser' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prosser-wa__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: along Yakima River flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prosser-wa__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup prosser' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "richland-wa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration richland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "richland-wa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation richland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "richland-wa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup richland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "richland-wa__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Columbia and Yakima river confluence flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "richland-wa__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup richland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "west-pasco-wa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration west pasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "west-pasco-wa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation west pasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "west-pasco-wa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup west pasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "west-pasco-wa__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: near Columbia/Snake river confluence",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "west-pasco-wa__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup west pasco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "west-richland-wa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration west richland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "west-richland-wa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation west richland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "west-richland-wa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup west richland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "west-richland-wa__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: sits along Yakima River flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "west-richland-wa__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup west richland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  }
+ },
+ "offered": {
+  "fire-damage-restoration": [
+   "explicit plan-input service at gate creation"
+  ],
+  "mold-remediation": [
+   "explicit plan-input service at gate creation"
+  ],
+  "sewage-cleanup": [
+   "explicit plan-input service at gate creation"
+  ],
+  "storm-damage-restoration": [
+   "explicit plan-input service at gate creation"
+  ],
+  "water-cleanup": [
+   "explicit plan-input service at gate creation"
+  ],
+  "water-damage-restoration": [
+   "explicit plan-input service at gate creation"
+  ]
+ },
+ "heads": {
+  "mold-remediation": {
+   "term": "mold remediation",
+   "metro": null
+  },
+  "fire-damage-restoration": {
+   "term": "fire damage restoration",
+   "metro": null
+  },
+  "storm-damage-restoration": {
+   "term": "storm damage restoration",
+   "metro": null
+  },
+  "sewage-cleanup": {
+   "term": "sewage cleanup",
+   "metro": null
+  },
+  "water-cleanup": {
+   "term": "water cleanup",
+   "metro": null
+  }
+ },
+ "updated_at": "2026-10-02T04:03:07+00:00"
+}

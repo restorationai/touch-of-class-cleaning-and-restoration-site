@@ -3,6 +3,120 @@
   "display_name": "Restoration Resource ",
   "place_id": "ChIJK2yX91k7z4YR5GrxBvlpClU",
   "lat": 46.2306739,
-  "lng": -119.0921
- }
+  "lng": -119.0921,
+  "phone": "+15095281166",
+  "email": "logan@restorationresource365.com",
+  "street_address": "3003 N Capital Ave Pasco",
+  "city": "Pasco",
+  "state": "Wa",
+  "postal_code": "99301",
+  "theme": "dark",
+  "certifications": [
+   "IICRC CERTIFIED FIRM",
+   "IICRC WRT (WATER)",
+   "IICRC ASD (STRUCTURAL DRYING)",
+   "IICRC AMRT (MOLD)",
+   "IICRC FSRT (FIRE & SMOKE)"
+  ],
+  "license_numbers": [
+   "RESTORL764CE"
+  ],
+  "hours": "24/7",
+  "licensed_insured_attested": true,
+  "founded_year": "2022",
+  "trust_badges": [
+   "IICRC Certified Firm",
+   "Licensed & Insured",
+   "24/7 Emergency Service",
+   "Locally Owned & Operated"
+  ]
+ },
+ "services": [
+  "water-damage-restoration",
+  "mold-remediation",
+  "fire-damage-restoration",
+  "storm-damage-restoration",
+  "sewage-cleanup",
+  "water-cleanup"
+ ],
+ "service_areas": [
+  {
+   "city": "Pasco",
+   "state": "WA",
+   "slug": "pasco-wa",
+   "primary": true
+  },
+  {
+   "city": "Kennewick",
+   "state": "WA",
+   "slug": "kennewick-wa"
+  },
+  {
+   "city": "Richland",
+   "state": "WA",
+   "slug": "richland-wa"
+  },
+  {
+   "city": "West Richland",
+   "state": "WA",
+   "slug": "west-richland-wa"
+  },
+  {
+   "city": "West Pasco",
+   "state": "WA",
+   "slug": "west-pasco-wa"
+  },
+  {
+   "city": "Prosser",
+   "state": "WA",
+   "slug": "prosser-wa"
+  },
+  {
+   "city": "Finley",
+   "state": "WA",
+   "slug": "finley-wa"
+  },
+  {
+   "city": "Highland",
+   "state": "WA",
+   "slug": "highland-wa"
+  },
+  {
+   "city": "Benton City",
+   "state": "WA",
+   "slug": "benton-city-wa"
+  },
+  {
+   "city": "Connell",
+   "state": "WA",
+   "slug": "connell-wa"
+  },
+  {
+   "city": "Basin City",
+   "state": "WA",
+   "slug": "basin-city-wa"
+  },
+  {
+   "city": "Mesa",
+   "state": "WA",
+   "slug": "mesa-wa"
+  },
+  {
+   "city": "Plymouth",
+   "state": "WA",
+   "slug": "plymouth-wa"
+  },
+  {
+   "city": "Paterson",
+   "state": "WA",
+   "slug": "paterson-wa"
+  },
+  {
+   "city": "Kahlotus",
+   "state": "WA",
+   "slug": "kahlotus-wa"
+  }
+ ],
+ "template": "restoration",
+ "blog_seed_count": 8
 }

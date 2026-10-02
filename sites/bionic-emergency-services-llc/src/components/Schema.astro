@@ -1,0 +1,15 @@
+---
+import { renderSchema, type PageSchemaContext } from "~/lib/schema";
+
+type Props = {
+  stubs: string[];
+  ctx: PageSchemaContext;
+};
+
+const { stubs, ctx } = Astro.props;
+const blocks = renderSchema(stubs, ctx);
+---
+
+{blocks.map((block) => (
+  <script type="application/ld+json" set:html={JSON.stringify(block)}></script>
+))}

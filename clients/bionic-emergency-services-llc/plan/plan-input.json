@@ -1,0 +1,274 @@
+{
+  "brand": {
+    "display_name": "BIONIC Emergency Services LLC",
+    "lat": 29.863982,
+    "lng": -95.53306,
+    "place_id": "ChIJDy5x1I7PQIYRe-CvUTGxj3g",
+    "gbp_title": "BIONIC Water Damage Restoration of Houston",
+    "address": "14300 Northwest Freeway",
+    "city": "Houston",
+    "short_name": "BIONIC",
+    "phone": "(713) 338-2424",
+    "email": "shane@bionic24365.com",
+    "street_address": "14300 Northwest Freeway, Suite A9",
+    "postal_code": "77040",
+    "theme": "light",
+    "certifications": [
+      "IICRC WRT (Water)",
+      "IICRC ASD (Structural Drying)"
+    ],
+    "insured": true,
+    "founded_year": "2011",
+    "logo_url": "/images/logo.jpg"
+  },
+  "template": "restoration",
+  "services": [
+    "water-damage-restoration",
+    "fire-damage-restoration",
+    "storm-damage-restoration",
+    "sewage-cleanup",
+    "contents-restoration-storage",
+    "water-cleanup"
+  ],
+  "blog_seed_count": 12,
+  "service_areas": [
+    {
+      "city": "Houston",
+      "state": "TX",
+      "slug": "houston-tx",
+      "neighborhoods": [
+        "The Heights",
+        "Montrose",
+        "Midtown",
+        "River Oaks",
+        "Meyerland",
+        "Third Ward",
+        "EaDo"
+      ],
+      "landmarks": [
+        "Buffalo Bayou Park",
+        "Texas Medical Center",
+        "Hermann Park",
+        "NRG Stadium",
+        "Discovery Green"
+      ],
+      "zip_codes": [
+        "77002",
+        "77006",
+        "77007",
+        "77008",
+        "77019",
+        "77096",
+        "77098"
+      ],
+      "local_notes": "Home base. We know which bayou-side streets flood first, from Meyerland to the Heights, and can be on site fast when the rain won't quit.",
+      "primary": true
+    },
+    {
+      "city": "Pasadena",
+      "state": "TX",
+      "slug": "pasadena-tx",
+      "neighborhoods": [
+        "Downtown Pasadena",
+        "Red Bluff",
+        "Spencer Highway corridor",
+        "Fairmont Parkway area"
+      ],
+      "landmarks": [
+        "Armand Bayou Nature Center",
+        "San Jacinto College Central Campus",
+        "Pasadena Convention Center",
+        "Houston Ship Channel"
+      ],
+      "zip_codes": [
+        "77502",
+        "77503",
+        "77504",
+        "77505",
+        "77506",
+        "77507"
+      ],
+      "local_notes": "Ship Channel neighbors know how quickly Gulf storms and heavy downpours can push water into older slab homes along Spencer and Red Bluff."
+    },
+    {
+      "city": "Pearland",
+      "state": "TX",
+      "slug": "pearland-tx",
+      "neighborhoods": [
+        "Shadow Creek Ranch",
+        "Silverlake",
+        "Old Townsite",
+        "Southdown",
+        "Country Place"
+      ],
+      "landmarks": [
+        "Pearland Town Center",
+        "Independence Park",
+        "Clear Creek",
+        "SH 288 corridor"
+      ],
+      "zip_codes": [
+        "77581",
+        "77584",
+        "77588"
+      ],
+      "local_notes": "A quick run down SH 288 from Houston. We are familiar with Clear Creek overflow risks and the fast-growing subdivisions on the west side."
+    },
+    {
+      "city": "Sugar Land",
+      "state": "TX",
+      "slug": "sugar-land-tx",
+      "neighborhoods": [
+        "First Colony",
+        "Sugar Creek",
+        "Telfair",
+        "New Territory",
+        "Riverstone"
+      ],
+      "landmarks": [
+        "Sugar Land Town Square",
+        "Imperial Market (historic Imperial Sugar refinery)",
+        "Smart Financial Centre",
+        "Constellation Field",
+        "Brazos River"
+      ],
+      "zip_codes": [
+        "77478",
+        "77479",
+        "77498"
+      ],
+      "local_notes": "From aging plumbing in established First Colony homes to Brazos River flood watches, we handle Sugar Land's water damage calls."
+    },
+    {
+      "city": "The Woodlands",
+      "state": "TX",
+      "slug": "the-woodlands-tx",
+      "neighborhoods": [
+        "Panther Creek",
+        "Grogan's Mill",
+        "Cochran's Crossing",
+        "Alden Bridge",
+        "Sterling Ridge",
+        "Creekside Park",
+        "Indian Springs",
+        "College Park"
+      ],
+      "landmarks": [
+        "The Woodlands Waterway",
+        "Cynthia Woods Mitchell Pavilion",
+        "Market Street",
+        "Lake Woodlands",
+        "The Woodlands Mall"
+      ],
+      "zip_codes": [
+        "77380",
+        "77381",
+        "77382",
+        "77384",
+        "77385",
+        "77389"
+      ],
+      "local_notes": "With homes tucked under tall pines, storm-downed trees and roof leaks are a common call across every village from Grogan's Mill to Creekside Park."
+    },
+    {
+      "city": "Baytown",
+      "state": "TX",
+      "slug": "baytown-tx",
+      "neighborhoods": [
+        "Goose Creek",
+        "Pelly",
+        "Wooster",
+        "Texas Avenue historic district"
+      ],
+      "landmarks": [
+        "Baytown Nature Center",
+        "Fred Hartman Bridge",
+        "ExxonMobil Baytown Refinery",
+        "Pirates Bay Water Park",
+        "Lee College"
+      ],
+      "zip_codes": [
+        "77520",
+        "77521",
+        "77523"
+      ],
+      "local_notes": "Low-lying bayfront areas near Goose Creek and Galveston Bay face real hurricane surge risk, and we are ready when tropical weather rolls in."
+    },
+    {
+      "city": "Missouri City",
+      "state": "TX",
+      "slug": "missouri-city-tx",
+      "neighborhoods": [
+        "Quail Valley",
+        "Sienna",
+        "Lake Olympia",
+        "Riverstone",
+        "Hunters Glen"
+      ],
+      "landmarks": [
+        "City Centre at Quail Valley",
+        "Buffalo Run Park",
+        "Fort Bend Parkway",
+        "Lake Olympia"
+      ],
+      "zip_codes": [
+        "77459",
+        "77489"
+      ],
+      "local_notes": "Fort Bend's shifting clay soils mean slab leaks and hidden water damage are common in older Quail Valley and Hunters Glen homes."
+    },
+    {
+      "city": "Spring",
+      "state": "TX",
+      "slug": "spring-tx",
+      "neighborhoods": [
+        "Old Town Spring",
+        "Champion Forest",
+        "Gleannloch Farms",
+        "Klein",
+        "Northgate Forest"
+      ],
+      "landmarks": [
+        "Old Town Spring",
+        "Pundt Park",
+        "Spring Creek",
+        "Cypress Creek"
+      ],
+      "zip_codes": [
+        "77373",
+        "77379",
+        "77386",
+        "77388",
+        "77389"
+      ],
+      "local_notes": "Neighborhoods along Cypress Creek and Spring Creek know flash flooding well, and we're a straight shot up I-45 or 249 when it hits."
+    },
+    {
+      "city": "Katy",
+      "state": "TX",
+      "slug": "katy-tx",
+      "neighborhoods": [
+        "Cinco Ranch",
+        "Old Katy",
+        "Seven Meadows",
+        "Grand Lakes",
+        "Firethorne"
+      ],
+      "landmarks": [
+        "Katy Mills",
+        "Typhoon Texas",
+        "Katy Heritage Park",
+        "LaCenterra at Cinco Ranch",
+        "Mary Jo Peckham Park"
+      ],
+      "zip_codes": [
+        "77449",
+        "77450",
+        "77493",
+        "77494"
+      ],
+      "local_notes": "Many Katy families still remember the Addicks and Barker reservoir releases after Harvey. We respond fast along the I-10 corridor when water gets in."
+    }
+  ],
+  "site_brief": "Kickoff call 2026-10-01 (Shane): send the website draft within about 5 days (target 2026-10-08) and continue site scaffolding. OPEN BEFORE SCAFFOLD: (1) Shane is filing a DBA; the GBP will be renamed to the DBA name once filed, so confirm whether the site brand should launch under the DBA, the GBP title 'BIONIC Water Damage Restoration of Houston', or the legal name 'BIONIC Emergency Services LLC'. (2) Brand colors not captured in the brief (primary/accent empty); sample from logo via build_site.py autocolor. (3) Current site bionic24365.com advertises 24/7, a 45-minute average response, and '150+ Google reviews'; none is in this brand block yet, so the draft must not claim them until confirmed."
+}

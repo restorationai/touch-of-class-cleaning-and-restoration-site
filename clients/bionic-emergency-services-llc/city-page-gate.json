@@ -1,0 +1,333 @@
+{
+ "policy": "scripts/city_page_gate.py (Santino 2026-10-01)",
+ "thresholds": {
+  "combo_min": 10,
+  "head_metro_min": 1000
+ },
+ "decisions": {
+  "baytown-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration baytown' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baytown-tx__fire-damage-restoration": {
+   "pass": true,
+   "why": "local angle: large refinery and industrial complex fire risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baytown-tx__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup baytown' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baytown-tx__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: coastal location with hurricane storm surge exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baytown-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup baytown' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "katy-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration katy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "katy-tx__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration katy' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "katy-tx__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup katy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "katy-tx__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: known flood zone from reservoir release flooding",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "katy-tx__water-cleanup": {
+   "pass": true,
+   "why": "local demand: 'water cleanup katy' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "missouri-city-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration missouri city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "missouri-city-tx__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration missouri city' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "missouri-city-tx__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup missouri city' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "missouri-city-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration missouri city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "missouri-city-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup missouri city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pasadena-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration pasadena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pasadena-tx__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration pasadena' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pasadena-tx__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup pasadena' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pasadena-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration pasadena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pasadena-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup pasadena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pearland-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration pearland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pearland-tx__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration pearland' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pearland-tx__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup pearland' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pearland-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration pearland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pearland-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup pearland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "spring-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration spring' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "spring-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration spring' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "spring-tx__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup spring' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "spring-tx__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Cypress Creek flood zone prone to storm flooding",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "spring-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup spring' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sugar-land-tx__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: large corporate office base needing contents storage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sugar-land-tx__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration sugar land' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sugar-land-tx__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup sugar land' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sugar-land-tx__storm-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'storm damage restoration sugar land' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sugar-land-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup sugar land' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "the-woodlands-tx__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: major corporate campus hub for contents moves",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "the-woodlands-tx__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration the woodlands' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "the-woodlands-tx__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup the woodlands' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "the-woodlands-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration the woodlands' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "the-woodlands-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup the woodlands' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  }
+ },
+ "offered": {
+  "contents-restoration-storage": [
+   "explicit plan-input service at gate creation"
+  ],
+  "fire-damage-restoration": [
+   "explicit plan-input service at gate creation"
+  ],
+  "sewage-cleanup": [
+   "explicit plan-input service at gate creation"
+  ],
+  "storm-damage-restoration": [
+   "explicit plan-input service at gate creation"
+  ],
+  "water-cleanup": [
+   "explicit plan-input service at gate creation"
+  ],
+  "water-damage-restoration": [
+   "explicit plan-input service at gate creation"
+  ]
+ },
+ "metro": "Houston,Texas,United States",
+ "heads": {
+  "fire-damage-restoration": {
+   "term": "fire damage restoration",
+   "metro": 280
+  },
+  "storm-damage-restoration": {
+   "term": "storm damage restoration",
+   "metro": 50
+  },
+  "sewage-cleanup": {
+   "term": "sewage cleanup",
+   "metro": 20
+  },
+  "contents-restoration-storage": {
+   "term": "contents restoration",
+   "metro": 20
+  },
+  "water-cleanup": {
+   "term": "water cleanup",
+   "metro": 120
+  }
+ },
+ "updated_at": "2026-10-02T04:02:11+00:00"
+}

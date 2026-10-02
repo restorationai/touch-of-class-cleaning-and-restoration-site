@@ -2841,6 +2841,40 @@ def _seed_build_blocker_ask(cid: str, slug: str, dry_run: bool, key: str,
         pass
 
 
+def _dispatch_site_build(slug: str) -> bool:
+    tok = (os.environ.get("GITHUB_PERSONAL_ACCESS_TOKEN") or os.environ.get("GH_PAT")
+           or os.environ.get("GITHUB_TOKEN") or "")
+    if not tok:
+        return False
+    r = requests.post("https://api.github.com/repos/restorationai/Rank-AI-Pipeline/"
+                      "actions/workflows/site-build.yml/dispatches",
+                      json={"ref": "main", "inputs": {"slug": slug}},
+                      headers={"Authorization": f"token {tok}",
+                               "Accept": "application/vnd.github+json"}, timeout=30)
+    return r.status_code == 204
+
+
+def _commit_paths(paths: list[str], msg: str) -> None:
+    """Commit + push just these paths NOW (the dispatched job checks out main
+    and must see them). Best-effort outside CI: a local run leaves them for
+    the human's own commit."""
+    if not os.environ.get("CI"):
+        return
+    def g(*a):
+        return subprocess.run(["git", *a], cwd=ROOT, capture_output=True, text=True)
+    g("add", "--", *paths)
+    if g("diff", "--cached", "--quiet").returncode == 0:
+        return
+    g("commit", "-m", msg, "--", *paths)
+    for _ in range(3):
+        g("pull", "--rebase", "--autostash")
+        subprocess.run([sys.executable, str(ROOT / "scripts" / "conflict_marker_guard.py")],
+                       cwd=ROOT, capture_output=True)
+        if g("push").returncode == 0:
+            return
+    raise RuntimeError("could not push the build inputs")
+
+
 def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
                            cap: int = 4) -> list[str]:
     """Auto-build preview sites — site builds never wait on approval (Santino
@@ -2866,6 +2900,17 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
         cid, slug = co["id"], cid_to_slug.get(co["id"])
         if not slug or (SITES_DIR / slug / "src").exists():
             continue
+        # a dispatched site-build is still running (or failed and alerted):
+        # never re-dispatch inside 8h
+        _d = _sb("GET", f"/rest/v1/ops_kv?k=eq.auto-site-build:{slug}&select=v") or []
+        _at = ((_d[0].get("v") or {}).get("dispatched_at") if _d else None)
+        if _at:
+            try:
+                if datetime.now(timezone.utc) - datetime.fromisoformat(_at) < timedelta(hours=8):
+                    out.append(f"{slug}: site-build dispatched {_at[:16]}Z, waiting on it")
+                    continue
+            except ValueError:
+                pass
         # PAYMENT GATE (Santino 2026-08-28, after the "Loopple" junk signup
         # landed as Active): no card, no website. Evidence of payment = at
         # least one billing_invoices row (the Stripe webhook writes these for
@@ -3166,83 +3211,51 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
                         a.pop("primary", None)
                     hit["primary"] = True
             pi_path.write_text(json.dumps(pi, indent=1) + "\n")
-            for cmdline, tmo in [
-                ([sys.executable, str(ROOT / "scripts" / "plan_site.py"),
-                  "generate", "--slug", slug], 300),
-                ([sys.executable, str(ROOT / "scripts" / "build_site.py"),
-                  "scaffold", "--slug", slug], 900),
-                ([sys.executable, str(ROOT / "scripts" / "build_site.py"),
-                  "render", "--slug", slug, "--workers", "4", "--push"], 5400),
-            ]:
-                r = subprocess.run(cmdline, capture_output=True, text=True, timeout=tmo)
-                if r.returncode != 0:
-                    tail = (r.stderr or r.stdout or "").strip().splitlines()[-1:]
-                    raise RuntimeError(f"{cmdline[2]} failed: {tail}")
-            # scaffold/render leave a nested .git in the site dir — committing
-            # it to the monorepo creates an empty gitlink (2026-07-28)
-            nested = SITES_DIR / slug / ".git"
-            if nested.exists():
-                import shutil
-                shutil.rmtree(nested, ignore_errors=True)
-            # Re-pull the logo: the ledger drops the branding-bucket logo into
-            # sites/{slug}/public/images/ on the FIRST sweep, and the scaffold
-            # above then replaces public/ wholesale — so by the time anyone
-            # runs the imagery pass the client's real mark is gone and every
-            # generated van wears nothing (DISS 2026-08-04). Cheap and
-            # idempotent; ordering is the whole fix.
-            try:
-                if _pull_bucket_logo(cid, slug):
-                    out.append(f"{slug}: brand logo restored after scaffold")
-            except Exception:
-                pass
+            # BUILD OUT OF BAND (2026-10-01, Bionic/Restoration Resource/
+            # RestoPros): scaffold + render ran INLINE here (render timeout
+            # 90 min) inside the 60-min ops-sync job. Every run since 10-01
+            # was cancelled mid-render, AFTER the staging push but BEFORE the
+            # job's commit step, so sites/{slug} never reached the monorepo
+            # and the next run started the same builds again (and nothing
+            # else in ops-sync ever finished). Now: plan inline (cheap,
+            # deterministic), commit the build inputs, and dispatch
+            # site-build.yml, which has its own 300-min budget, scaffolds,
+            # generates images, renders, COMMITS, deploys staging and marks
+            # preview_ready + seeds the preview-feedback row.
+            r = subprocess.run([sys.executable, str(ROOT / "scripts" / "plan_site.py"),
+                                "generate", "--slug", slug],
+                               capture_output=True, text=True, timeout=300)
+            if r.returncode != 0:
+                tail = (r.stderr or r.stdout or "").strip().splitlines()[-1:]
+                raise RuntimeError(f"plan_site.py failed: {tail}")
+            if dry_run:
+                out.append(f"{slug}: [dry-run] would commit plan + dispatch site-build")
+                continue
+            _commit_paths([f"clients/{slug}", f"clients/{slug}.json"],
+                          f"auto-build: plan {slug} (site-build dispatched) [automated]")
+            if not _dispatch_site_build(slug):
+                raise RuntimeError("site-build.yml dispatch failed (no GitHub token?)")
+            _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
+                {"k": f"auto-site-build:{slug}",
+                 "v": {"dispatched_at": datetime.now(timezone.utc).isoformat()}},
+                prefer="resolution=merge-duplicates")
             built += 1
-            # WRITE-BACK (2026-08-03, second occurrence: HomeLyft 08-01, Reign
-            # 08-03): builds that run OUTSIDE the site-build CI never patched
-            # marketing_sites, so the app's Site tab stayed blank. Mirror
-            # site-build.yml's "Mark preview ready" step: flip the row to
-            # preview_ready + staging URL, and seed Monica's preview-feedback
-            # plan row so the client gets shown their new site.
             preview = f"https://staging.rankai-{slug}.pages.dev"
             try:
                 rec_ = json.loads((CLIENTS_DIR / f"{slug}.json").read_text())
-                # upsert, not PATCH: a missing row would make PATCH a silent
-                # 0-row no-op and the tab would stay blank anyway
+                # upsert so site-build's "Mark building" PATCH has a row to hit
                 _sb("POST", "/rest/v1/marketing_sites?on_conflict=rank_ai_slug",
                     {"rank_ai_slug": slug, "company_id": cid,
-                     "build_status": "preview_ready",
+                     "build_status": "building",
                      "cloudflare_pages_url": preview,
-                     "github_repo": (rec_.get("build") or {}).get("github_repo"),
                      "plan_status": rec_.get("plan_status"),
                      "plan_template": (rec_.get("plan") or {}).get("template"),
                      "plan_url_count": (rec_.get("plan") or {}).get("url_count"),
-                     "plan_generated_at": (rec_.get("plan") or {}).get("generated_at"),
-                     "scaffolded_at": (rec_.get("build") or {}).get("scaffolded_at"),
-                     "last_pushed_staging_at": (rec_.get("build") or {}).get("last_rendered_at"),
-                     "updated_at": rec_.get("updated_at")},
+                     "plan_generated_at": (rec_.get("plan") or {}).get("generated_at")},
                     prefer="resolution=merge-duplicates,return=minimal")
-                fb_row = {"company_id": cid, "rank_ai_slug": slug,
-                          "action_key": f"site-preview-feedback-{slug}",
-                          "action_type": "client_input", "status": "planned",
-                          "priority": 1, "impact": "high", "effort": "low",
-                          "title": "Take a look at your new website preview and "
-                                   "tell us your thoughts",
-                          "target": preview,
-                          "rationale": "New site build finished at " + preview +
-                                       " — SHOW IT TO THEM. Send that exact link, ask "
-                                       "what they think, collect change requests. A "
-                                       "client who has never seen their finished site "
-                                       "gets this BEFORE any other ask (Santino "
-                                       "2026-08-04, Reign)."}
-                # manual dedupe (table has no unique constraint on action_key)
-                dup_ = _sb("GET", "/rest/v1/marketing_action_plan"
-                           f"?company_id=eq.{cid}&action_key=eq.{fb_row['action_key']}"
-                           "&select=id", prefer="return=representation") or []
-                if not dup_:
-                    _sb("POST", "/rest/v1/marketing_action_plan", [fb_row])
             except Exception as e_:
-                out.append(f"{slug}: built OK but marketing_sites write-back "
-                           f"FAILED — {str(e_)[:120]} (app Site tab will look "
-                           "blank until patched by hand)")
+                out.append(f"{slug}: site-build dispatched but marketing_sites "
+                           f"write-back FAILED — {str(e_)[:120]}")
             has_brand_asset = False
             try:
                 sb_url = os.environ.get("SUPABASE_URL", "").rstrip("/")
@@ -3266,9 +3279,10 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
             # Monica's logo ask as the fallback.
             try:
                 _brand_card = (
-                    f"[DEV] AUTO brand pass for the freshly built {slug} site: "
-                    "run gen_site_images (hero + per-service set + team) per "
-                    "the image style guide"
+                    f"[DEV] AUTO brand pass for the freshly built {slug} site "
+                    "(site-build.yml already runs gen_site_images; check the "
+                    "hero + per-service set landed and fill any gaps per the "
+                    "image style guide)"
                     + ("; client brand upload EXISTS in branding/" + cid +
                        "/brand — apply logo (favicon_sync) + derive palette "
                        "(brand_colors_sync)" if has_brand_asset else
@@ -3284,7 +3298,7 @@ def ensure_auto_site_build(dry_run: bool, cid_to_slug: dict | None = None,
                     {"company_id": cid, "body": _brand_card, "status": "open"})
             except Exception:  # noqa: BLE001 — card filing must not fail the build report
                 pass
-            out.append(f"{slug}: AUTO-BUILT preview site ({len(svc_slugs)} services) — "
+            out.append(f"{slug}: AUTO-BUILD dispatched to site-build.yml ({len(svc_slugs)} services) — "
                        "brand-pass card auto-filed for the next agent run"
                        + (f"; client brand upload EXISTS (branding/{cid}/brand)"
                           if has_brand_asset else

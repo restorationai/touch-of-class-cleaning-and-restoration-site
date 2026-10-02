@@ -1,9 +1,23 @@
 {
- "slug": "bionic-emergency-services-llc",
- "display_name": "BIONIC Emergency Services LLC",
- "domain": "bionic24365.com",
- "tier": "standard",
- "vertical": "restoration",
- "contact": "shane@bionic24365.com",
- "status": "onboarding"
+  "slug": "bionic-emergency-services-llc",
+  "display_name": "BIONIC Emergency Services LLC",
+  "domain": "bionic24365.com",
+  "tier": "standard",
+  "vertical": "restoration",
+  "contact": "shane@bionic24365.com",
+  "status": "onboarding",
+  "plan_status": "planned",
+  "plan": {
+    "template": "restoration",
+    "template_version": "0.3.0",
+    "url_count": 75,
+    "generated_at": "2026-10-02T04:02:11.814683+00:00"
+  },
+  "updated_at": "2026-10-02T04:02:11.814686+00:00",
+  "build": {
+    "scaffolded_at": "2026-10-01T14:09:53.199826+00:00",
+    "github_repo": "restorationai/bionic-emergency-services-llc-site",
+    "note": "restored 2026-10-01 from the staging deploy repo after ops-sync timeouts lost the monorepo copy"
+  },
+  "build_status": "pushed_staging"
 }
