@@ -1,0 +1,48 @@
+name: Mini watchdog
+
+# Keeps the Mac Mini working without a human noticing (Santino 2026-10-02).
+# Re-queues answered-but-never-done Needs, wakes an idle Mini in the daytime
+# window when work is outstanding, alarms when a trigger goes unanswered, and
+# flags inbox items stuck > 48h. See scripts/mini_watchdog.py.
+on:
+  schedule:
+    - cron: '5,35 * * * *'
+  workflow_dispatch: {}
+
+concurrency:
+  group: mini-watchdog
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Watch the Mini
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GHL_API_KEY:               ${{ secrets.GHL_API_KEY }}
+          GHL_LOCATION_ID:           ${{ secrets.GHL_LOCATION_ID }}
+          CONCIERGE_ALLOWLIST:       ${{ secrets.CONCIERGE_ALLOWLIST }}
+        run: python3 scripts/mini_watchdog.py
+      - name: Commit requeues + trigger
+        run: |
+          git config user.name "Rank AI Bot"
+          git config user.email "ops@restorationai.io"
+          python3 scripts/conflict_marker_guard.py || true
+          git add clients/_ops/mini-inbox.md clients/_ops/mini-trigger
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -q -m "mini watchdog: requeue/wake [mini-watchdog] [automated]"
+          for i in 1 2 3 4; do
+            git pull -q --rebase --autostash origin main && git push -q origin main && exit 0
+            sleep $((i*5))
+          done
+          exit 1
