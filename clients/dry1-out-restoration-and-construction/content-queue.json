@@ -84,7 +84,7 @@
     },
     {
       "id": "2026-09-29-does-homeowners-insurance-cover-water-damage",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-29T15:05:00Z",
       "written_at": "2026-10-02T01:47:08Z",
       "post_url": "https://dry1out.com/blog/does-homeowners-insurance-cover-water-damage/",
@@ -129,7 +129,8 @@
           "context": "ge restoration, and related cleanup and reconstruction services across the areas they serve.",
           "reason": "names the 'reconstruction' service family but plan-input services are only: appliance-leak-cleanup, biohazard-cleanup, blood-cleanup, carpet-water-extraction, crime-scene-cleanup, emergency-board-up"
         }
-      ]
+      ],
+      "published_verified_at": "2026-10-02T01:48:42Z"
     },
     {
       "id": "2026-09-29-how-to-fix-water-damage-on-ceiling",
