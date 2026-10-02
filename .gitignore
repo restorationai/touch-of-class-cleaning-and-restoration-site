@@ -1,0 +1,10 @@
+node_modules
+dist
+.astro
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+.rank-ai/cache/
+.rank-ai/cost-log.jsonl
