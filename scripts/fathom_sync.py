@@ -561,6 +561,31 @@ def route_meeting_work(company: dict, slug: str, m: dict, *, title: str,
         if not what:
             tally["skipped"] += 1
             continue
+        # RENAME ITEMS START THE RENAME SEQUENCE (Santino 2026-10-01, Logan):
+        # never a [DEV] card that parks as "email needs a human". Every
+        # rename-family commitment (pitch, DBA, citations, the GBP change)
+        # collapses into one trigger; the rename pipeline runs the later
+        # stages itself.
+        try:
+            from rename_autoseed import RENAME_ITEM_RE, trigger_from_call
+            if RENAME_ITEM_RE.search(what + " " + str(item.get("quote") or "")):
+                if not tally.get("_rename_done"):
+                    outcome = trigger_from_call(company, slug, dry_run)
+                    tally["_rename_done"] = outcome
+                    print(f"    rename item -> {outcome}")
+                    if not dry_run:
+                        try:
+                            from work_log import work_log
+                            work_log(company["id"], "citations", "rename-sequence-triggered",
+                                     f"Profile rename discussed on the {when} call: {outcome}.",
+                                     evidence={"item": what[:200], "call": m.get("url")},
+                                     actor="fathom-sync", source="fathom_sync.route_meeting_work")
+                        except Exception:  # noqa: BLE001
+                            pass
+                tally["skipped"] += 1
+                continue
+        except Exception as e:  # noqa: BLE001 — fall through to normal filing
+            print(f"    rename trigger failed ({str(e)[:80]}); filing normally")
         if item.get("route") == "skip":
             print(f"    skipping (already handled): {what[:70]} "
                   f"— {item.get('route_reason', '')[:60]}")

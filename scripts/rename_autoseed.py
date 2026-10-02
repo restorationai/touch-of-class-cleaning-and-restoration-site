@@ -358,6 +358,55 @@ def _ts(v) -> datetime | None:
         return None
 
 
+def _enqueue(cid: str, slug: str, requested_by: str, dry_run: bool) -> bool:
+    """Write the same rename-pitch-queue entry the app's Send-pitch click
+    writes; rename_pitch_worker sends it within a minute (quiet hours hold
+    it for the client's morning)."""
+    if dry_run:
+        return True
+    fresh = _sb("GET", "/rest/v1/ops_kv?k=eq.rename-pitch-queue&select=v") or []
+    q = (fresh[0].get("v") if fresh else {}) or {}
+    if cid in q:
+        return False
+    q[cid] = {"slug": slug, "company_id": cid, "channel": "sms", "note": [],
+              "status": "queued", "attempts": 0,
+              "at": datetime.now(timezone.utc).isoformat(),
+              "requested_by": requested_by, "detail": ""}
+    _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
+        {"k": "rename-pitch-queue", "v": q}, prefer="resolution=merge-duplicates")
+    return True
+
+
+RENAME_ITEM_RE = re.compile(
+    r"\brenam|profile name|business name|name change|\bDBA\b", re.I)
+
+
+def trigger_from_call(company: dict, slug: str, dry_run: bool) -> str:
+    """A rename item came out of a client call (Santino 2026-10-01: "I want
+    that to trigger the rename sequence just as if somebody had clicked it",
+    not a [DEV] card parked as needs-a-human). Seeds the slate if none
+    exists, then queues the pitch unless a rename is already in motion.
+    Returns a one-line outcome for the caller's log."""
+    cid = company["id"]
+    ints = company.get("integration_settings") or {}
+    if (ints.get("rename_intent") or {}):
+        return "rename already decided/in progress — sequence continues on its own"
+    if _sb("GET", f"/rest/v1/ops_kv?k=eq.rename-convo:{cid}&select=k") or []:
+        return "rename conversation already open"
+    rows = _sb("GET", "/rest/v1/marketing_gbp_suggestions?item_type=eq.name"
+               f"&company_id=eq.{cid}&select=status") or []
+    if any(r.get("status") != "open" for r in rows):
+        return "a name is already chosen/dismissed — no new pitch"
+    if not rows:
+        co = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}"
+                  "&select=id,name,state,services") or [company])[0]
+        if not seed_company(co, dry_run):
+            return "no name options could be seeded (manual research needed)"
+    if _enqueue(cid, slug, "fathom_sync (call commitment: rename)", dry_run):
+        return "rename pitch QUEUED (same as the app's Send pitch click)"
+    return "rename pitch already queued"
+
+
 def autopitch(comps: list[dict], inv: dict, only_slug: str | None,
               dry_run: bool) -> int:
     kv = _sb("GET", "/rest/v1/ops_kv?k=eq.rename-autopitch&select=v") or []
@@ -403,21 +452,9 @@ def autopitch(comps: list[dict], inv: dict, only_slug: str | None,
         if now < due:
             print(f"  autopitch {slug}: due {due.isoformat()[:16]}Z")
             continue
-        entry = {"slug": slug, "company_id": cid, "channel": "sms",
-                 "note": [], "status": "queued", "attempts": 0,
-                 "at": now.isoformat(), "requested_by": "rename_autoseed "
-                 "(auto: day after kickoff)", "detail": ""}
         print(f"  autopitch {slug}: QUEUE (kickoff {anchor.isoformat()[:16]}Z)")
-        if not dry_run:
-            fresh = _sb("GET", "/rest/v1/ops_kv?k=eq.rename-pitch-queue&select=v") or []
-            q = (fresh[0].get("v") if fresh else {}) or {}
-            if cid in q:
-                continue
-            q[cid] = entry
-            _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
-                {"k": "rename-pitch-queue", "v": q},
-                prefer="resolution=merge-duplicates")
-        n += 1
+        if _enqueue(cid, slug, "rename_autoseed (auto: day after kickoff)", dry_run):
+            n += 1
     print(f"rename autopitch: {n} pitch(es) queued")
     return n
 
