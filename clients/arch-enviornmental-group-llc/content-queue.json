@@ -1,6 +1,37 @@
 {
   "items": [
     {
+      "id": "2026-10-02-who-to-call-for-asbestos-testing-in-kingsburg-ca",
+      "status": "written",
+      "queued_at": "2026-10-02T16:20:42Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "who_to_call",
+      "combo_key": "who-to-call-for-asbestos-testing-in-kingsburg-ca",
+      "primary_keyword": "who to call for asbestos testing in Kingsburg, CA",
+      "intent": "transactional",
+      "target_word_count": 1200,
+      "city_anchor": "kingsburg-ca",
+      "best_of": {
+        "service": "asbestos-testing",
+        "service_pretty": "Asbestos Testing",
+        "city": "Kingsburg",
+        "state": "CA",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "who do you call for asbestos testing Kingsburg",
+        "who do I call for asbestos testing in Kingsburg",
+        "asbestos testing emergency number Kingsburg CA",
+        "asbestos test Kingsburg",
+        "asbestos testing near me Kingsburg",
+        "asbestos check Kingsburg"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-10-02T16:22:39Z",
+      "post_url": "https://archenviroservice.com/blog/who-to-call-for-asbestos-testing-in-kingsburg-ca/"
+    },
+    {
       "id": "2026-09-18-asbestos-testing-cost-ca",
       "status": "published",
       "queued_at": "2026-09-18T12:16:41Z",
