@@ -752,8 +752,17 @@ def notify_client(co: dict, url: str, period: str) -> str:
     quiet windows. Called only with --notify (the monthly cron), never on
     manual regenerations."""
     month = dt.datetime.strptime(period, "%Y-%m").strftime("%B")
-    name = (co.get("name") or "").strip()
-    first = (name.split()[0] if name else "there")
+    # GREETING NAME LAW (Santino 2026-10-01): the September emails opened
+    # "Hi California," / "Hi DRYCOR," because this took the first word of the
+    # COMPANY name. Greet the person, via the same resolver Monica uses
+    # (preferred contact -> owner -> "there"), never the business name.
+    try:
+        import client_concierge as _cc
+        full = _cc.fetch_companies([co["id"]]).get(co["id"]) or co
+        first = _cc.contact_first_name(None, full)
+    except Exception:  # noqa: BLE001
+        owner = (co.get("account_owner_name") or "").strip()
+        first = owner.split()[0].title() if owner else "there"
     sent = []
     email = (co.get("email") or "").strip()
     sg = os.environ.get("SENDGRID_API_KEY") or ""
