@@ -334,7 +334,7 @@
     },
     {
       "id": "2026-09-24-how-to-fix-water-damage-on-ceiling",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-24T16:55:00Z",
       "written_at": "2026-10-02T16:25:34Z",
       "post_url": "https://veteransremediation.com/blog/how-to-fix-water-damage-on-ceiling/",
@@ -387,7 +387,8 @@
           "context": "the drying principles laid out in the [IICRC S500 water damage restoration standard]",
           "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
         }
-      ]
+      ],
+      "published_verified_at": "2026-10-02T16:27:43Z"
     },
     {
       "id": "2026-09-24-signs-of-water-damage-in-walls",
