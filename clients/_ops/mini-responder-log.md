@@ -56,3 +56,6 @@
 
 ## 2026-10-02 01:28 UTC — 0 fulfilled, 1 routed
 - NEED-20261001-1827-apple-add-show-error [~] human narestco: routed to Claude (judgment call)
+
+## 2026-10-02 01:42 UTC — 0 fulfilled, 1 routed
+- NEED-20261001-1845-fb-not-logged-in [~] human heritage-restoration-llc: routed to Claude (judgment call)
