@@ -53,3 +53,6 @@
 
 ## 2026-10-02 01:15 UTC — 0 fulfilled, 1 routed
 - NEED-20261001-1814-apple-ignite-device-2fa [~] human narestco: routed to Claude (judgment call)
+
+## 2026-10-02 01:28 UTC — 0 fulfilled, 1 routed
+- NEED-20261001-1827-apple-add-show-error [~] human narestco: routed to Claude (judgment call)
