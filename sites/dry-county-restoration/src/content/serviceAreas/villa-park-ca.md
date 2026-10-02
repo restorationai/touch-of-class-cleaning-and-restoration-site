@@ -7,10 +7,10 @@ primary_keyword: "restoration services villa park"
 secondary_keywords: ["villa park restoration company", "damage restoration villa park", "villa park disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "0ef7415d9be35df6"
-generated_at: "2026-09-30T19:28:32.687983+00:00"
+plan_hash: "29b898d4b23c89cb"
+generated_at: "2026-10-02T04:40:23.993615+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/villa-park-ca/", "/service-areas/villa-park-ca/water-damage-restoration/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/villa-park-ca/fire-damage-restoration/", "/service-areas/villa-park-ca/water-damage-restoration/", "/service-areas/villa-park-ca/carpet-cleaning/", "/service-areas/villa-park-ca/upholstery-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Villa Park"}]
 faq: []
 area_slug: "villa-park-ca"

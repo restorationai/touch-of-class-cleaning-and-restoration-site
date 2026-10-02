@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "24/7 Emergency Smoke Damage Restoration in Silverado, CA | Dry County Restoration"
+h1: "24/7 Emergency Smoke Damage Restoration in Silverado"
+meta_description: "24/7 emergency smoke damage restoration in Silverado, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+primary_keyword: "smoke damage restoration silverado"
+secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
+search_intent: "local_emergency"
+priority: 6.3
+plan_hash: "8985f8c7b0ce9df6"
+generated_at: "2026-10-02T04:40:23.999961+00:00"
+manual_override: false
+internal_links: ["/services/smoke-damage-restoration/", "/service-areas/silverado-ca/", "/service-areas/silverado-ca/fire-damage-restoration/", "/service-areas/silverado-ca/water-damage-restoration/", "/service-areas/riverside-ca/smoke-damage-restoration/", "/service-areas/temescal-valley-ca/smoke-damage-restoration/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Silverado", "url": "/service-areas/silverado-ca/"}, {"name": "Smoke Damage Restoration"}]
+faq: []
+area_slug: "silverado-ca"
+service_slug: "smoke-damage-restoration"
+city: "Silverado"
+state: "CA"
+service_display: "Smoke Damage Restoration"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug dry-county-restoration` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for 24/7 Emergency Smoke Damage Restoration in Silverado.

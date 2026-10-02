@@ -7,10 +7,10 @@ primary_keyword: "restoration services montclair"
 secondary_keywords: ["montclair restoration company", "damage restoration montclair", "montclair disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "3bc711ae89eef96f"
-generated_at: "2026-09-30T19:28:32.687639+00:00"
+plan_hash: "3de3e11ae2b3d297"
+generated_at: "2026-10-02T04:40:23.993402+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/montclair-ca/", "/service-areas/montclair-ca/water-damage-restoration/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/montclair-ca/fire-damage-restoration/", "/service-areas/montclair-ca/water-damage-restoration/", "/service-areas/montclair-ca/carpet-cleaning/", "/service-areas/montclair-ca/upholstery-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Montclair"}]
 faq: []
 area_slug: "montclair-ca"

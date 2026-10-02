@@ -7,10 +7,10 @@ primary_keyword: "restoration services fontana"
 secondary_keywords: ["fontana restoration company", "damage restoration fontana", "fontana disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "28ed1852edd2cf02"
-generated_at: "2026-09-30T19:28:32.688360+00:00"
+plan_hash: "00b2aa1eae09b298"
+generated_at: "2026-10-02T04:40:23.993839+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/fontana-ca/", "/service-areas/fontana-ca/water-damage-restoration/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/fontana-ca/fire-damage-restoration/", "/service-areas/fontana-ca/water-damage-restoration/", "/service-areas/fontana-ca/reconstruction/", "/service-areas/fontana-ca/general-contracting/", "/service-areas/fontana-ca/carpet-cleaning/", "/service-areas/fontana-ca/upholstery-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fontana"}]
 faq: []
 area_slug: "fontana-ca"

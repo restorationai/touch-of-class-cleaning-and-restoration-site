@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration temescal valley"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "0469a215ceac1812"
-generated_at: "2026-09-30T19:28:32.770048+00:00"
+plan_hash: "1acf5b51124b2d0b"
+generated_at: "2026-10-02T04:40:24.001265+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/temescal-valley-ca/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/temescal-valley-ca/", "/service-areas/temescal-valley-ca/fire-damage-restoration/", "/service-areas/temescal-valley-ca/smoke-damage-restoration/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Temescal Valley", "url": "/service-areas/temescal-valley-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "temescal-valley-ca"
@@ -21,4 +21,4 @@ service_display: "Water Damage Restoration"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug dry-county-restoration` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 
-Placeholder content for Water Damage Restoration in Temescal Valley.
+Placeholder content for 24/7 Emergency Water Damage Restoration in Temescal Valley.

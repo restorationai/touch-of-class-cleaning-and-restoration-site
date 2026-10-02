@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration jurupa valley"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "ae8d7cf2f8090088"
-generated_at: "2026-09-30T19:28:32.761562+00:00"
+plan_hash: "4611b20dadc41f24"
+generated_at: "2026-10-02T04:40:24.000732+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/jurupa-valley-ca/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/jurupa-valley-ca/", "/service-areas/jurupa-valley-ca/reconstruction/", "/service-areas/jurupa-valley-ca/storm-damage-restoration/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Jurupa Valley", "url": "/service-areas/jurupa-valley-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "jurupa-valley-ca"
@@ -21,4 +21,4 @@ service_display: "Water Damage Restoration"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug dry-county-restoration` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 
-Placeholder content for Water Damage Restoration in Jurupa Valley.
+Placeholder content for 24/7 Emergency Water Damage Restoration in Jurupa Valley.

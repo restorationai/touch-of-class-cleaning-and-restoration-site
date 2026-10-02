@@ -45,6 +45,7 @@
     "contents-restoration",
     "contents-restoration-storage",
     "emergency-board-up-tarping",
+    "emergency-plumbing",
     "fire-damage-restoration",
     "flood-damage-restoration",
     "general-contracting",
@@ -59,10 +60,10 @@
     "sewage-cleanup",
     "smoke-damage-restoration",
     "storm-damage-restoration",
+    "upholstery-cleaning",
     "water-damage-restoration",
     "water-heater-flood-cleanup",
-    "water-leak-detection",
-    "upholstery-cleaning"
+    "water-leak-detection"
   ],
   "service_areas": [
     {

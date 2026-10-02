@@ -7,10 +7,10 @@ primary_keyword: "restoration services woodcrest"
 secondary_keywords: ["woodcrest restoration company", "damage restoration woodcrest", "woodcrest disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "8117257d5ce968ec"
-generated_at: "2026-09-30T19:28:32.686702+00:00"
+plan_hash: "9f4376e3e43e1d5a"
+generated_at: "2026-10-02T04:40:23.992753+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/woodcrest-ca/", "/service-areas/woodcrest-ca/water-damage-restoration/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/woodcrest-ca/fire-damage-restoration/", "/service-areas/woodcrest-ca/water-damage-restoration/", "/service-areas/woodcrest-ca/carpet-cleaning/", "/service-areas/woodcrest-ca/upholstery-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woodcrest"}]
 faq: []
 area_slug: "woodcrest-ca"

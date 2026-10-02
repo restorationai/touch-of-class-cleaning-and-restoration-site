@@ -7,10 +7,10 @@ primary_keyword: "commercial restoration corona"
 secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
 search_intent: "local_b2b"
 priority: 8.1
-plan_hash: "db63d8ad1a88e10d"
-generated_at: "2026-09-30T19:28:32.679551+00:00"
+plan_hash: "99e047fa7bbb7197"
+generated_at: "2026-10-02T04:40:23.987659+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/", "/service-areas/eastvale-ca/", "/service-areas/fontana-ca/", "/service-areas/fullerton-ca/", "/service-areas/jurupa-valley-ca/", "/service-areas/lake-mathews-ca/", "/service-areas/montclair-ca/", "/service-areas/norco-ca/", "/service-areas/north-tustin-ca/", "/service-areas/ontario-ca/"]
+internal_links: ["/services/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Commercial Restoration"}]
 faq: []
 service_slug: "commercial-restoration"

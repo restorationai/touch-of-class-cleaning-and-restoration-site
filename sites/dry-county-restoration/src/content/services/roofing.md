@@ -7,10 +7,10 @@ primary_keyword: "roofing installation and replacement corona"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"
 priority: 9.0
-plan_hash: "4f0d659d34958449"
-generated_at: "2026-09-30T19:28:32.682604+00:00"
+plan_hash: "75ebb74b79cea37e"
+generated_at: "2026-10-02T04:40:23.989699+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/", "/service-areas/eastvale-ca/", "/service-areas/fontana-ca/", "/service-areas/fullerton-ca/", "/service-areas/jurupa-valley-ca/", "/service-areas/lake-mathews-ca/", "/service-areas/montclair-ca/", "/service-areas/norco-ca/", "/service-areas/north-tustin-ca/", "/service-areas/ontario-ca/"]
+internal_links: ["/services/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 service_slug: "roofing"

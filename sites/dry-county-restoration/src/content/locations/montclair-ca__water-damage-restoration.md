@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration montclair"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "c09c2739ed4adb69"
-generated_at: "2026-09-30T19:28:32.829659+00:00"
+plan_hash: "7e6e5b12af9c42ed"
+generated_at: "2026-10-02T04:40:24.003917+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/montclair-ca/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/montclair-ca/", "/service-areas/montclair-ca/fire-damage-restoration/", "/service-areas/montclair-ca/carpet-cleaning/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Montclair", "url": "/service-areas/montclair-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "montclair-ca"
@@ -21,4 +21,4 @@ service_display: "Water Damage Restoration"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug dry-county-restoration` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 
-Placeholder content for Water Damage Restoration in Montclair.
+Placeholder content for 24/7 Emergency Water Damage Restoration in Montclair.

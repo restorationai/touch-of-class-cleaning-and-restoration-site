@@ -7,10 +7,10 @@ primary_keyword: "basement remodeling corona"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 4.5
-plan_hash: "13ec93c5c600cf99"
-generated_at: "2026-09-30T19:28:32.678517+00:00"
+plan_hash: "55792bf1a3d155f6"
+generated_at: "2026-10-02T04:40:23.986851+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/", "/service-areas/eastvale-ca/", "/service-areas/fontana-ca/", "/service-areas/fullerton-ca/", "/service-areas/jurupa-valley-ca/", "/service-areas/lake-mathews-ca/", "/service-areas/montclair-ca/", "/service-areas/norco-ca/", "/service-areas/north-tustin-ca/", "/service-areas/ontario-ca/"]
+internal_links: ["/services/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Basement Remodeling"}]
 faq: []
 service_slug: "basement-remodeling"

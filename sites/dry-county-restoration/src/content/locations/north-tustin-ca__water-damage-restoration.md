@@ -7,10 +7,10 @@ primary_keyword: "water damage restoration north tustin"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "4fb19f71f9631565"
-generated_at: "2026-09-30T19:28:32.820797+00:00"
+plan_hash: "a84aca06bc660676"
+generated_at: "2026-10-02T04:40:24.003424+00:00"
 manual_override: false
-internal_links: ["/services/water-damage-restoration/", "/service-areas/north-tustin-ca/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
+internal_links: ["/services/water-damage-restoration/", "/service-areas/north-tustin-ca/", "/service-areas/north-tustin-ca/upholstery-cleaning/", "/service-areas/anaheim-ca/water-damage-restoration/", "/service-areas/chino-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Tustin", "url": "/service-areas/north-tustin-ca/"}, {"name": "Water Damage Restoration"}]
 faq: []
 area_slug: "north-tustin-ca"
@@ -21,4 +21,4 @@ service_display: "Water Damage Restoration"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug dry-county-restoration` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 
-Placeholder content for Water Damage Restoration in North Tustin.
+Placeholder content for 24/7 Emergency Water Damage Restoration in North Tustin.

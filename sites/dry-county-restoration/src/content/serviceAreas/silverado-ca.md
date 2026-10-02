@@ -7,10 +7,10 @@ primary_keyword: "restoration services silverado"
 secondary_keywords: ["silverado restoration company", "damage restoration silverado", "silverado disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "eb0e2b73c8c10035"
-generated_at: "2026-09-30T19:28:32.685008+00:00"
+plan_hash: "c7beca0c18d18502"
+generated_at: "2026-10-02T04:40:23.991625+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/silverado-ca/", "/service-areas/silverado-ca/water-damage-restoration/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/silverado-ca/fire-damage-restoration/", "/service-areas/silverado-ca/water-damage-restoration/", "/service-areas/silverado-ca/smoke-damage-restoration/", "/service-areas/silverado-ca/carpet-cleaning/", "/service-areas/silverado-ca/upholstery-cleaning/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Silverado"}]
 faq: []
 area_slug: "silverado-ca"

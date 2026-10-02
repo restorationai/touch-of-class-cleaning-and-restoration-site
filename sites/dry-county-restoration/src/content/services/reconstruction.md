@@ -7,10 +7,10 @@ primary_keyword: "reconstruction services corona"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"
 priority: 8.1
-plan_hash: "e108258f6753b8f1"
-generated_at: "2026-09-30T19:28:32.682269+00:00"
+plan_hash: "66386404f751a5ad"
+generated_at: "2026-10-02T04:40:23.989469+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/", "/service-areas/chino-ca/", "/service-areas/chino-hills-ca/", "/service-areas/eastvale-ca/", "/service-areas/fontana-ca/", "/service-areas/fullerton-ca/", "/service-areas/jurupa-valley-ca/", "/service-areas/lake-mathews-ca/", "/service-areas/montclair-ca/", "/service-areas/norco-ca/", "/service-areas/north-tustin-ca/", "/service-areas/ontario-ca/"]
+internal_links: ["/services/", "/contact/", "/service-areas/chino-ca/reconstruction/", "/service-areas/eastvale-ca/reconstruction/", "/service-areas/fontana-ca/reconstruction/", "/service-areas/jurupa-valley-ca/reconstruction/", "/service-areas/ontario-ca/reconstruction/", "/service-areas/pomona-ca/reconstruction/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Reconstruction Services"}]
 faq: []
 service_slug: "reconstruction"
