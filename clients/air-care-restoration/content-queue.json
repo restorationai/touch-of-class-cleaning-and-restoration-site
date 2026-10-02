@@ -34,7 +34,7 @@
     },
     {
       "id": "2026-09-06-deodorization",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-06T10:23:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -43,7 +43,20 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "ballinger-tx",
-      "source": "app target-term (onboarding-backfill)"
+      "source": "app target-term (onboarding-backfill)",
+      "written_at": "2026-10-02T01:47:15Z",
+      "post_url": "https://aircarerestoration.com/blog/deodorization/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/deodorization.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "reconstruction services",
+          "context": "removal and deodorization, and related reconstruction services for residential and commercial properti",
+          "reason": "names the 'reconstruction' service family but plan-input services are only: air-duct-cleaning, air-duct-hvac-cleaning, asbestos-abatement, biohazard-cleanup, contents-restoration, contents-restoration-storage"
+        }
+      ]
     },
     {
       "id": "2026-09-06-bio-hazard-and-trauma-clean-up",
