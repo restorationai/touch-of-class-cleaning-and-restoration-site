@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PYTHONUNBUFFERED: '1'   # cancelled runs keep their logs (10-01)
-    timeout-minutes: 60   # auto site-builds (seed->scaffold->render) blow the old 20m budget — HomeLyft's build got cancelled mid-render 2026-08-01
+    timeout-minutes: 120  # 10-01: site builds moved to site-build.yml; the tail steps (citations sameAs ~23m, city-page gate ~9m, photo harvest ~10m) still outgrew 60m and starved Stripe recon, GSC, summaries, autocolor
 
     steps:
       - name: Checkout repo
