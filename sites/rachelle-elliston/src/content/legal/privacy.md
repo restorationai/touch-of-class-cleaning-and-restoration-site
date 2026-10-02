@@ -18,7 +18,7 @@ rendered: true
 ---
 ## What This Policy Covers
 
-This privacy policy explains how Desert Valley Contracting Inc collects, uses, and protects information you share when you visit desertvalleycontracting.net or contact us directly. It applies to visitors from any location, including California residents whose rights are addressed below.
+This privacy policy explains how Desert Valley Contracting Inc collects, uses, and protects information you share when you visit desertvalleyrestoration.com or contact us directly. It applies to visitors from any location, including California residents whose rights are addressed below.
 
 ## Information We Collect
 

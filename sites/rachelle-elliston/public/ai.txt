@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: https://desertvalleycontracting.net/
+# Site: https://desertvalleyrestoration.com/
 # Maintainer: Desert Valley Contracting Inc 
 # Contact: relliston@desertvalleyco.com
-# Sitemap: https://desertvalleycontracting.net/sitemap-index.xml
-# LLM index: https://desertvalleycontracting.net/llms.txt
+# Sitemap: https://desertvalleyrestoration.com/sitemap-index.xml
+# LLM index: https://desertvalleyrestoration.com/llms.txt

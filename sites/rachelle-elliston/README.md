@@ -28,8 +28,8 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `Desert Valley Contracting Inc ` | plan-input `brand.display_name` | `National Restoration Construction` |
 | `Desert Valley Contracting Inc ` | plan-input `brand.short_name` | `NARESTCO` |
 | `Desert Valley Contracting Inc ` | plan-input `brand.legal_name` | `National Restoration Construction LLC` |
-| `desertvalleycontracting.net` | client record `domain` | `narestco.com` |
-| `https://desertvalleycontracting.net` | derived | `https://narestco.com` |
+| `desertvalleyrestoration.com` | client record `domain` | `narestco.com` |
+| `https://desertvalleyrestoration.com` | derived | `https://narestco.com` |
 | `(702) 633-5033` / `+17026335033` | brand.phone | `(206) 883-0333` / `+12068830333` |
 | `relliston@desertvalleyco.com` | brand.email | `info@narestco.com` |
 | `24/7` | brand.hours | `24/7` |
@@ -47,36 +47,36 @@ These `{{TOKEN}}` strings are substituted by `build_site.py scaffold` from `plan
 | `#171717` etc. | brand.colors (set per client or default to restoration palette) | `#0b3a7a` |
 | `Inter` / `Inter` | brand.fonts | `Inter` / `Inter` |
 | `/images/logo.png` / `DV` | derived; logo lives on the per-client R2 bucket | |
-| `https://images.desertvalleycontracting.net` | `https://images.{domain}` | |
-| `- [Biohazard Cleanup](https://desertvalleycontracting.net/services/biohazard-cleanup/)
-- [Contents Restoration & Storage](https://desertvalleycontracting.net/services/contents-restoration-storage/)
-- [Fire Damage Restoration](https://desertvalleycontracting.net/services/fire-damage-restoration/)
-- [Renovations, Remodels and General Contracting](https://desertvalleycontracting.net/services/general-contracting/)
-- [Mold Remediation](https://desertvalleycontracting.net/services/mold-remediation/)
-- [Odor Removal and Deodorization](https://desertvalleycontracting.net/services/odor-removal/)
-- [Sewage Cleanup and Sanitization](https://desertvalleycontracting.net/services/sewage-cleanup/)
-- [Storm Damage Restoration](https://desertvalleycontracting.net/services/storm-damage-restoration/)
-- [Emergency Water Cleanup](https://desertvalleycontracting.net/services/water-cleanup/)
-- [Water Damage Restoration](https://desertvalleycontracting.net/services/water-damage-restoration/)` / `- [North Las Vegas, NV](https://desertvalleycontracting.net/service-areas/north-las-vegas-nv/)
-- [Las Vegas, NV](https://desertvalleycontracting.net/service-areas/las-vegas-nv/)
-- [Henderson, NV](https://desertvalleycontracting.net/service-areas/henderson-nv/)
-- [Paradise, NV](https://desertvalleycontracting.net/service-areas/paradise-nv/)
-- [Spring Valley, NV](https://desertvalleycontracting.net/service-areas/spring-valley-nv/)
-- [Sunrise Manor, NV](https://desertvalleycontracting.net/service-areas/sunrise-manor-nv/)
-- [Enterprise, NV](https://desertvalleycontracting.net/service-areas/enterprise-nv/)
-- [Summerlin, NV](https://desertvalleycontracting.net/service-areas/summerlin-nv/)
-- [Boulder City, NV](https://desertvalleycontracting.net/service-areas/boulder-city-nv/)
-- [Winchester, NV](https://desertvalleycontracting.net/service-areas/winchester-nv/)
-- [Whitney, NV](https://desertvalleycontracting.net/service-areas/whitney-nv/)
-- [Summerlin South, NV](https://desertvalleycontracting.net/service-areas/summerlin-south-nv/)
-- [Blue Diamond, NV](https://desertvalleycontracting.net/service-areas/blue-diamond-nv/)
-- [Mount Charleston, NV](https://desertvalleycontracting.net/service-areas/mount-charleston-nv/)
-- [Sandy Valley, NV](https://desertvalleycontracting.net/service-areas/sandy-valley-nv/)
-- [Nelson, NV](https://desertvalleycontracting.net/service-areas/nelson-nv/)
-- [Indian Springs, NV](https://desertvalleycontracting.net/service-areas/indian-springs-nv/)
-- [Moapa Town, NV](https://desertvalleycontracting.net/service-areas/moapa-town-nv/)
-- [Moapa Valley, NV](https://desertvalleycontracting.net/service-areas/moapa-valley-nv/)
-- [Searchlight, NV](https://desertvalleycontracting.net/service-areas/searchlight-nv/)` / `IICRC CERTIFIED FIRM, IICRC AMRT (MOLD), OSHA TRAINED, IICRC FSRT (FIRE & SMOKE), IICRC WRT (WATER), IICRC ASD (STRUCTURAL DRYING), EPA LEAD-SAFE CERTIFIED` / `Greater North Las Vegas region` | computed at scaffold from plan + brand | |
+| `https://images.desertvalleyrestoration.com` | `https://images.{domain}` | |
+| `- [Biohazard Cleanup](https://desertvalleyrestoration.com/services/biohazard-cleanup/)
+- [Contents Restoration & Storage](https://desertvalleyrestoration.com/services/contents-restoration-storage/)
+- [Fire Damage Restoration](https://desertvalleyrestoration.com/services/fire-damage-restoration/)
+- [Renovations, Remodels and General Contracting](https://desertvalleyrestoration.com/services/general-contracting/)
+- [Mold Remediation](https://desertvalleyrestoration.com/services/mold-remediation/)
+- [Odor Removal and Deodorization](https://desertvalleyrestoration.com/services/odor-removal/)
+- [Sewage Cleanup and Sanitization](https://desertvalleyrestoration.com/services/sewage-cleanup/)
+- [Storm Damage Restoration](https://desertvalleyrestoration.com/services/storm-damage-restoration/)
+- [Emergency Water Cleanup](https://desertvalleyrestoration.com/services/water-cleanup/)
+- [Water Damage Restoration](https://desertvalleyrestoration.com/services/water-damage-restoration/)` / `- [North Las Vegas, NV](https://desertvalleyrestoration.com/service-areas/north-las-vegas-nv/)
+- [Las Vegas, NV](https://desertvalleyrestoration.com/service-areas/las-vegas-nv/)
+- [Henderson, NV](https://desertvalleyrestoration.com/service-areas/henderson-nv/)
+- [Paradise, NV](https://desertvalleyrestoration.com/service-areas/paradise-nv/)
+- [Spring Valley, NV](https://desertvalleyrestoration.com/service-areas/spring-valley-nv/)
+- [Sunrise Manor, NV](https://desertvalleyrestoration.com/service-areas/sunrise-manor-nv/)
+- [Enterprise, NV](https://desertvalleyrestoration.com/service-areas/enterprise-nv/)
+- [Summerlin, NV](https://desertvalleyrestoration.com/service-areas/summerlin-nv/)
+- [Boulder City, NV](https://desertvalleyrestoration.com/service-areas/boulder-city-nv/)
+- [Winchester, NV](https://desertvalleyrestoration.com/service-areas/winchester-nv/)
+- [Whitney, NV](https://desertvalleyrestoration.com/service-areas/whitney-nv/)
+- [Summerlin South, NV](https://desertvalleyrestoration.com/service-areas/summerlin-south-nv/)
+- [Blue Diamond, NV](https://desertvalleyrestoration.com/service-areas/blue-diamond-nv/)
+- [Mount Charleston, NV](https://desertvalleyrestoration.com/service-areas/mount-charleston-nv/)
+- [Sandy Valley, NV](https://desertvalleyrestoration.com/service-areas/sandy-valley-nv/)
+- [Nelson, NV](https://desertvalleyrestoration.com/service-areas/nelson-nv/)
+- [Indian Springs, NV](https://desertvalleyrestoration.com/service-areas/indian-springs-nv/)
+- [Moapa Town, NV](https://desertvalleyrestoration.com/service-areas/moapa-town-nv/)
+- [Moapa Valley, NV](https://desertvalleyrestoration.com/service-areas/moapa-valley-nv/)
+- [Searchlight, NV](https://desertvalleyrestoration.com/service-areas/searchlight-nv/)` / `IICRC CERTIFIED FIRM, IICRC AMRT (MOLD), OSHA TRAINED, IICRC FSRT (FIRE & SMOKE), IICRC WRT (WATER), IICRC ASD (STRUCTURAL DRYING), EPA LEAD-SAFE CERTIFIED` / `Greater North Las Vegas region` | computed at scaffold from plan + brand | |
 
 ## File layout
 

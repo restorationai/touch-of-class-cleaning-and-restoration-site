@@ -13,8 +13,8 @@ export const brand = {
   // declares it as the business name, so Google/BrightLocal find the new
   // name corroborated on the site before and during the GBP rename.
   dbaName: "Desert Valley Restoration-24/7 Emergency Plumbing, Water and Fire Damage Restoration",
-  domain: "desertvalleycontracting.net",
-  canonicalUrl: "https://desertvalleycontracting.net",
+  domain: "desertvalleyrestoration.com",
+  canonicalUrl: "https://desertvalleyrestoration.com",
   phone: "(702) 633-5033",
   phoneRaw: "+17026335033",
   hideMobileHeaderCall: false,
@@ -44,7 +44,7 @@ export const brand = {
   lng: "-115.1214745",
   placeId: "ChIJHe5ukQHCyIARitorWulYy8U",
   googleCid: "",
-  imagesBase: "https://images.desertvalleycontracting.net",
+  imagesBase: "https://images.desertvalleyrestoration.com",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "",

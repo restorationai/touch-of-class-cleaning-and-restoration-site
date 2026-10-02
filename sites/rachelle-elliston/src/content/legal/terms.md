@@ -18,7 +18,7 @@ rendered: true
 ---
 ## Who These Terms Apply To
 
-By visiting desertvalleycontracting.net or contacting Desert Valley Contracting Inc, you agree to the terms described on this page. These terms apply to anyone who requests an estimate, submits a contact form, or enters into a service agreement with us. The address of record for Desert Valley Contracting Inc is 3808 N Octagon Rd, North Las Vegas, NV 89030.
+By visiting desertvalleyrestoration.com or contacting Desert Valley Contracting Inc, you agree to the terms described on this page. These terms apply to anyone who requests an estimate, submits a contact form, or enters into a service agreement with us. The address of record for Desert Valley Contracting Inc is 3808 N Octagon Rd, North Las Vegas, NV 89030.
 
 ## Estimates and Service Agreements
 
@@ -46,4 +46,4 @@ If a dispute arises from a service we have performed, the parties agree to first
 
 ## Changes to These Terms
 
-We may update these terms from time to time. The current version will always be available at desertvalleycontracting.net. Continued use of the site or our services after an update constitutes acceptance of the revised terms. For questions about anything on this page, contact us at relliston@desertvalleyco.com or call (702) 633-5033.
+We may update these terms from time to time. The current version will always be available at desertvalleyrestoration.com. Continued use of the site or our services after an update constitutes acceptance of the revised terms. For questions about anything on this page, contact us at relliston@desertvalleyco.com or call (702) 633-5033.

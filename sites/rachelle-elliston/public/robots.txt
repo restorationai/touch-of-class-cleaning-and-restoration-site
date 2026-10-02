@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://desertvalleycontracting.net/sitemap-index.xml
+Sitemap: https://desertvalleyrestoration.com/sitemap-index.xml
