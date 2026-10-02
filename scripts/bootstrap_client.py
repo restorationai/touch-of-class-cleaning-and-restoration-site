@@ -260,7 +260,7 @@ def main():
     # the 8 towns a truck actually drives to", not a single lonely city.
     # Only fills an EMPTY list; anything a human saved always wins.
     try:
-        rows3 = sb("GET", "/rest/v1/companies?id=eq.{}&select=city,state,integration_settings".format(co["id"]))
+        rows3 = sb("GET", "/rest/v1/companies?id=eq.{}&select=city,state,address,postal_code,integration_settings".format(co["id"]))
         co3 = (rows3 or [{}])[0]
         ints3 = co3.get("integration_settings") or {}
         if isinstance(ints3, str):
@@ -353,6 +353,7 @@ def main():
             if top:
                 chosen = {(c["label"].lower(), c["state"]) for c in top}
                 brief["cities"] = top
+                brief["source"] = "wizard"
                 brief["expansion_cities"] = [
                     c for c in wiz_cities
                     if (c["label"].lower(), c["state"]) not in chosen]
@@ -379,11 +380,19 @@ def main():
                 "actually drive to, ordered by population/search demand. Real places "
                 "only, never invented. state = 2-letter abbreviation. "
                 'Return ONLY JSON: {"cities": [{"label": "...", "state": "XX"}]}',
-                "Company city: {}, {}".format(co3["city"], co3.get("state") or ""),
+                # FULL ADDRESS, not the city field alone (Touch of Class
+                # 10-01: city="Ri" + state TX -> "Richardson" and a whole
+                # Dallas-metro site for a Richwood/Brazoria County company)
+                "Company address: {}, {}, {} {}\nThe company's own city is the "
+                "city of that street address and ZIP code (if the city field "
+                "looks abbreviated, resolve it from the ZIP).".format(
+                    co3.get("address") or "", co3["city"], co3.get("state") or "",
+                    co3.get("postal_code") or ""),
                 max_tokens=1000, schema=ring_schema)
             ring = (out.get("cities") or [])[:9]
             if ring:
                 brief["cities"] = ring
+                brief["source"] = "ring (no wizard territory at setup)"
                 ints3["site_brief"] = brief
                 sb("PATCH", "/rest/v1/companies?id=eq." + co["id"],
                    body={"integration_settings": ints3}, prefer="return=minimal")

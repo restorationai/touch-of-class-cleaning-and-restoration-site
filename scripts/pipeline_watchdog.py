@@ -784,6 +784,16 @@ def check_onboarding() -> list[str]:
         elif (k_age or 0) > 2 and names.get(cid) == {"open"} and cid not in convos \
                 and not q and not ints.get("rename_intent"):
             flag("rename", f"{slug} kickoff {str(k_at)[:10]}, name options ready, no pitch sent")
+        # HOME CITY = REGISTERED ADDRESS (Santino 2026-10-02; Touch of Class
+        # was built for Richardson TX from a city field reading "Ri")
+        try:
+            _pi = _json.loads((ROOT / "clients" / slug / "plan-input.json").read_text())
+            _prim = next((a for a in _pi.get("service_areas") or [] if a.get("primary")), {})
+            _reg = (_sb("GET", f"/rest/v1/companies?id=eq.{cid}&select=city") or [{}])[0].get("city") or ""
+            if _prim and _reg and _prim.get("city", "").strip().lower() != _reg.strip().lower():
+                flag("areas", f"{slug} site home city '{_prim.get('city')}' but registered address city '{_reg.strip()}'")
+        except (OSError, ValueError):
+            pass
         if (k_age or 0) > 3 and cid not in grants and not ints.get("gbp_plan"):
             flag("google", f"{slug} (no Google connection and no Profile Planner plan)")
     labels = {
@@ -791,6 +801,7 @@ def check_onboarding() -> list[str]:
         "site": "new client has no site built: check site-build.yml runs / ops_kv auto-site-build:*",
         "reveal": "site preview overdue: past the reveal day and never shown to the client",
         "rename": "profile-rename outreach stalled: pitch not sent or stuck in rename-pitch-queue",
+        "areas": "site home city does not match the registered business address (fix the address or rebuild the city list from the wizard territory)",
         "google": "new client with no way to get a Google profile: connect their Google or draft a Profile Planner plan",
     }
     for kind, items in rows.items():
