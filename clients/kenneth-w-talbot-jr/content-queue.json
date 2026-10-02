@@ -334,10 +334,10 @@
     },
     {
       "id": "2026-09-24-how-to-fix-water-damage-on-ceiling",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-24T16:55:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-10-02T16:25:34Z",
+      "post_url": "https://veteransremediation.com/blog/how-to-fix-water-damage-on-ceiling/",
       "primary_keyword": "how to fix water damage on ceiling",
       "intent": "informational",
       "volume": 1000,
@@ -367,7 +367,27 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
       ],
-      "notes": "Tie ceiling leaks to Destin condo units below and storm-driven roof leaks. Clear line between cosmetic patching and cases needing moisture mapping and drying."
+      "notes": "Tie ceiling leaks to Destin condo units below and storm-driven roof leaks. Clear line between cosmetic patching and cases needing moisture mapping and drying.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/how-to-fix-water-damage-on-ceiling.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "nning can dry in 2 to 4 days, following IICRC S500 drying guidelines. Larger areas, s",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/how-to-fix-water-damage-on-ceiling.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "the drying principles laid out in the [IICRC S500 water damage restoration standard]",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-09-24-signs-of-water-damage-in-walls",
