@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "id": "2026-10-02-best-mold-remediation-in-baldwin-md",
+      "status": "written",
+      "queued_at": "2026-10-02T10:25:32Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-mold-remediation-in-baldwin-md",
+      "primary_keyword": "best mold remediation company in Baldwin, MD",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "baldwin-md",
+      "best_of": {
+        "service": "mold-remediation",
+        "service_pretty": "Mold Remediation",
+        "city": "Baldwin",
+        "state": "MD",
+        "competitors": [
+          {
+            "name": "Green Clean Restoration",
+            "google_rating": 5,
+            "review_count": 13
+          },
+          {
+            "name": "Raven Mold Remediation Services LLC",
+            "google_rating": 5,
+            "review_count": 2
+          },
+          {
+            "name": "SERVPRO of Hunt Valley and Towson East",
+            "google_rating": 4.9,
+            "review_count": 860
+          },
+          {
+            "name": "Elegant Restoration, Inc.",
+            "google_rating": 4.9,
+            "review_count": 112
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best mold remediation companies Baldwin",
+        "top rated mold remediation Baldwin MD",
+        "who is the best mold remediation company in Baldwin",
+        "mold removal Baldwin",
+        "mold cleanup Baldwin",
+        "black mold removal Baldwin"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-10-02T10:30:39Z",
+      "post_url": "https://None/blog/best-mold-remediation-company-in-baldwin-md/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-baldwin-md.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "13 reviews",
+          "context": "ration holds a 5.0 Google rating across 13 reviews, placing it among the highest-rated mol",
+          "reason": "listicle review-count 13 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-baldwin-md.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "2 reviews",
+          "context": "ices LLC shows a 5.0 Google rating from 2 reviews. It's a smaller, mold-focused local pro",
+          "reason": "listicle review-count 2 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-baldwin-md.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "860 reviews",
+          "context": "East carries a 4.9 Google rating across 860 reviews, by far the largest review volume of an",
+          "reason": "listicle review-count 860 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-baldwin-md.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "112 reviews",
+          "context": "on, Inc. holds a 4.9 Google rating from 112 reviews, a solid review volume for a mid-sized",
+          "reason": "listicle review-count 112 (competitor stat \u2014 verify it is not presented as ours)"
+        }
+      ]
+    }
+  ]
+}
