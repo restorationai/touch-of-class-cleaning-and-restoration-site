@@ -513,10 +513,10 @@
     },
     {
       "id": "2026-08-27-how-to-fix-water-damage-on-ceiling",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-27T06:15:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-10-02T02:04:06Z",
+      "post_url": "https://qualitycontracting.us/blog/how-to-fix-water-damage-on-ceiling/",
       "primary_keyword": "how to fix water damage on ceiling",
       "intent": "informational",
       "volume": 1000,
