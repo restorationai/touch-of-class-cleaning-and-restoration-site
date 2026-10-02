@@ -339,6 +339,73 @@ def publish_config(slug: str) -> bool:
                   json.dumps(doc, indent=1).encode(), "application/json")
 
 
+def miles_between(a_lat, a_lng, b_lat, b_lng) -> float:
+    import math
+    return 69.0 * math.hypot(a_lat - b_lat,
+                             (a_lng - b_lng) * math.cos(math.radians((a_lat + b_lat) / 2)))
+
+
+def locate_listing(slug: str) -> dict:
+    """Find the client's own listing on Google Maps (one live DataForSEO
+    query for its name around the home city, ~$0.002) and return its REAL
+    Maps pin. Match: place_id, then cid, then normalised name.
+
+    {"found": bool, "lat", "lng", "address", "storefront": bool, "title",
+     "place_id", "cid", "dist_mi": pin <-> home-city center}
+
+    storefront=False (no address shown) = service-area business with a
+    hidden address: its pin is an approximate area point (ACS's sat on a
+    county road 20 mi SW of Midland), so it must NOT be used as a grid
+    center; the configured service-area city stays the center.
+
+    Santino 10-01: ACS and RestoPros read "not visible" because their home
+    grids were centered on a mis-geocoded address / the wrong town while
+    the listings rank #7 / #2 where they really are."""
+    import base64
+    import urllib.request
+    import geogrid_scan as gs
+    kws, cities = load_config(slug)
+    if not cities:
+        return {"found": False, "reason": "no geogrid cities configured"}
+    home = cities[0]
+    biz = gs.load_center(slug)
+    u, p = gs.load_dfs_creds()
+    auth = base64.b64encode(f"{u}:{p}".encode()).decode()
+    seen = []
+    for name in (biz.get("names") or [biz["name"]])[:2]:
+        body = json.dumps([{"keyword": name, "language_code": "en", "device": "desktop",
+                            "location_coordinate": f"{home['lat']},{home['lng']},11z",
+                            "depth": 20}]).encode()
+        req = urllib.request.Request(gs.DFS_URL, data=body, method="POST", headers={
+            "Authorization": f"Basic {auth}", "Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=120) as r:
+            resp = json.loads(r.read())
+        items = ((resp.get("tasks") or [{}])[0].get("result") or [{}])[0] or {}
+        items = items.get("items") or []
+        seen += [i.get("title") for i in items[:3]]
+        hit = None
+        for it in items:
+            if biz.get("place_id") and it.get("place_id") == biz["place_id"]:
+                hit = it
+                break
+            if biz.get("cid") and str(it.get("cid")) == biz["cid"]:
+                hit = it
+                break
+        if not hit:   # place_id on file can be a stale/suspended listing (Go Green)
+            names = [gs._squash(n) for n in (biz.get("names") or [biz["name"]])]
+            hit = next((it for it in items if any(
+                n and len(n) >= 6 and n in gs._squash(it.get("title") or "") for n in names)), None)
+        if hit and hit.get("latitude") is not None:
+            la, ln = float(hit["latitude"]), float(hit["longitude"])
+            return {"found": True, "lat": la, "lng": ln, "address": hit.get("address"),
+                    "storefront": bool(hit.get("address")), "title": hit.get("title"),
+                    "place_id": hit.get("place_id"), "cid": str(hit.get("cid") or ""),
+                    "reviews": (hit.get("rating") or {}).get("votes_count"),
+                    "dist_mi": round(miles_between(home["lat"], home["lng"], la, ln), 1)}
+    return {"found": False, "reason": f"not in Maps results for its own name near "
+                                      f"{home['label']} (top: {', '.join(t for t in seen if t)[:120]})"}
+
+
 def dispatch_scan(slug: str, mode: str = "due") -> bool:
     """Queue one client's geogrid job (geogrid-scan.yml) instead of scanning
     inline: the job runs in the client's own concurrency lane with its own

@@ -197,8 +197,23 @@ def run_client(slug: str, mode: str, dry_run: bool = False,
             return
         errs = [str(r["error"] or "") for r in results]
         if errs and all(e.startswith(("listing not visible", "implausible")) for e in errs):
-            gc.set_visibility(slug, False, errs[0])
-            gc.publish_config(slug)
+            # Before calling a listing invisible, look for it by NAME near
+            # the home city (ACS/RestoPros 10-01: "invisible" was really a
+            # grid centered in the wrong place). Found = a centering or
+            # matching problem for a human, never "not verified".
+            try:
+                loc = gc.locate_listing(slug)
+            except Exception as e:  # noqa: BLE001
+                loc = {"found": None, "reason": f"locate failed: {str(e)[:80]}"}
+            if loc.get("found"):
+                note = (f"listing IS on Maps ({loc.get('title')}, pin {loc['dist_mi']} mi from "
+                        f"the home-grid center, {'storefront' if loc.get('storefront') else 'service-area'})"
+                        "; home grid reads 0: re-center the home city or check keywords")
+                gc.set_visibility(slug, True, note)
+                raise _Invisible(note)
+            if loc.get("found") is False:
+                gc.set_visibility(slug, False, f"{errs[0][:120]}; {loc.get('reason', '')}")
+                gc.publish_config(slug)
             raise _Invisible(errs[0])
 
     batches = ([home] if home else []) + [rest[i:i + 40] for i in range(0, len(rest), 40)]
