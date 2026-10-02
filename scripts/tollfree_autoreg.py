@@ -323,6 +323,20 @@ def submit_one(r: dict, apply: bool) -> bool:
         print(f"  ERROR: could not resolve PhoneNumber SID for {tf} in "
               "subaccount — SKIPPING")
         return False
+    # Carrier-review preflight (scripts/sms_compliance.py lessons 1-2): a
+    # registration whose website does not name the legal entity bounces with
+    # 30484. Hold it and say exactly what to fix instead of burning a review.
+    import sms_compliance as smc
+    legal = (r.get("legal_business_name") or "").strip()
+    problems = smc.preflight(name, legal, website)
+    if problems:
+        print("  HOLD (would be rejected): " + "; ".join(problems))
+        if apply:
+            _sb("POST", "/rest/v1/marketing_ops_notes", {
+                "company_id": cid, "author": "tollfree-autoreg", "status": "open",
+                "body": ("[TODO-SANTINO] Toll-free registration HELD before submit: "
+                         + "; ".join(problems))[:1900]}, prefer="return=minimal")
+        return False
     if not apply:
         print("  [dry-run] would generate opt-in card + submit TFV")
         return True
@@ -336,7 +350,7 @@ def submit_one(r: dict, apply: bool) -> bool:
         f"{r['twilio_subaccount_sid']}:{r['twilio_auth_token']}"
         .encode()).decode()
     params = {
-        "BusinessName": name,
+        **smc.tf_identity_fields(name, legal, website),
         "BusinessWebsite": website or "",
         "NotificationEmail": card.get("email") or "",
         "UseCaseCategories": "CUSTOMER_CARE",
@@ -520,7 +534,7 @@ _STRATEGIES = [
     (("registration", "ein", "tax", "30527"),
      "ein-identifier", "re-stamp EIN as BusinessRegistrationNumber with "
                        "Identifier=EIN (the 30527 fix)"),
-    (("business name", "legal", "invalid"),
+    (("business name", "legal", "invalid", "official records", "30484"),
      "legal-name", "swap to the vaulted legal business name (invalid-EIN "
                    "class is usually an EIN/legal-name mismatch)"),
 ]
@@ -639,7 +653,10 @@ def attempt_auto_resubmit(r: dict, ver: dict, apply: bool) -> bool:
             print("  legal-name: no distinct legal name in vault or docs — "
                   "escalating")
             return False
-        fields["BusinessName"] = legal
+        # DryCor 2026-10-01: legal name ALONE was rejected again (30484). The
+        # brand must ride along as DoingBusinessAs with the trade-name note.
+        import sms_compliance as smc
+        fields.update(smc.tf_identity_fields(name, legal, c.get("website") or ""))
 
     auth = base64.b64encode(
         f"{r['twilio_subaccount_sid']}:{r['twilio_auth_token']}"

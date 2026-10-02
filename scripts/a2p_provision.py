@@ -129,6 +129,12 @@ def run(cid: str) -> int:
         print("  customer profile:", cp["sid"])
 
     elif stage == "customer_profile":
+        # Carrier-review preflight (sms_compliance lessons 1-2, DryCor 30484):
+        # the site must name the legal entity before the profile goes in.
+        import sms_compliance as smc
+        probs = smc.preflight(co["name"].strip(), legal, website)
+        if probs:
+            raise RuntimeError("HOLD before profile submit: " + "; ".join(probs))
         cp_sid = st["customer_profile_sid"]
         biz = _sub_post(f"{TRUSTHUB}/EndUsers", {
             "FriendlyName": f"{legal} business info",
@@ -240,6 +246,12 @@ def run(cid: str) -> int:
               "| failure:", br.get("failure_reason"))
         if br.get("status") != "APPROVED":
             return 0
+        # Campaign vetting reads the privacy page (lesson 4; the Davis
+        # campaign FAILED 2026-10-01). Hold until the SMS clause is live.
+        import sms_compliance as smc
+        probs = smc.preflight(co["name"].strip(), legal, website, need_sms_clause=True)
+        if probs:
+            raise RuntimeError("HOLD before campaign submit: " + "; ".join(probs))
         svc = _post("https://messaging.twilio.com/v1/Services", {
             "FriendlyName": f"{legal} Review Campaign",
             "InboundRequestUrl": os.environ["SUPABASE_URL"].rstrip("/")
