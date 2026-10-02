@@ -27,6 +27,12 @@ LESSONS (keep this list current; docs/SMS-COMPLIANCE.md mirrors it):
      street address on file.
   6. ENTITY TYPE must match the IRS record (LLC vs Corporation vs sole
      prop); a2p_state.business_type overrides the LLC default.
+  8. BUSINESS EMAIL ON THE BUSINESS DOMAIN (Dry Bros 2026-09-10 "Business
+     Email Address Must Use an Official Domain"; Flood Fixers 2026-08-04
+     "Business Information Could Not Be Verified"): BusinessContactEmail
+     must be @their-domain, never Gmail/Yahoo/Outlook. Also never put "DBA"
+     inside BusinessName ("Good Home Construction LLC DBA Flood Fixers");
+     legal goes in BusinessName, brand in DoingBusinessAs.
   7. A2P TRUSTHUB OBJECTS LIVE IN THE CLIENT SUBACCOUNT, linked to our
      approved ISV primary profile in the master (brands failed "Unable to
      fetch A2P Profile Bundle" when built in the master).
@@ -102,10 +108,24 @@ def tf_identity_fields(brand: str, legal: str, website: str) -> dict:
     }
 
 
+FREE_MAIL = ("gmail.", "yahoo.", "hotmail.", "outlook.", "aol.", "icloud.",
+             "live.", "msn.", "proton", "me.com")
+
+
 def preflight(brand: str, legal: str, website: str,
-              need_sms_clause: bool = False) -> list[str]:
+              need_sms_clause: bool = False,
+              contact_email: str | None = None) -> list[str]:
     """Blocking problems a reviewer would reject on; [] means go."""
     problems = []
+    if contact_email is not None:
+        dom = contact_email.split("@")[-1].lower() if "@" in contact_email else ""
+        if not dom or any(dom.startswith(f) or f in dom for f in FREE_MAIL):
+            problems.append(f"business contact email '{contact_email}' is not on "
+                            "the business's own domain (lesson 8: use an "
+                            "@their-domain address)")
+    if " dba " in f" {str(legal).lower()} ":
+        problems.append("legal name contains 'DBA'; put only the legal entity in "
+                        "BusinessName and the brand in DoingBusinessAs")
     if distinct_legal(legal, brand) and not site_names_legal(website, legal):
         problems.append(
             f"website does not name the legal entity '{legal}' (footer should "

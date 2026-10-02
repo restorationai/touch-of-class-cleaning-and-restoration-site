@@ -339,7 +339,8 @@ def submit_one(r: dict, apply: bool) -> bool:
     # 30484. Hold it and say exactly what to fix instead of burning a review.
     import sms_compliance as smc
     legal = (r.get("legal_business_name") or "").strip()
-    problems = smc.preflight(name, legal, website)
+    problems = smc.preflight(name, legal, website,
+                             contact_email=card.get("email") or "")
     if problems:
         print("  HOLD (would be rejected): " + "; ".join(problems))
         if apply:
