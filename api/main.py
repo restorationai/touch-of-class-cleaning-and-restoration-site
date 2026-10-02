@@ -2177,6 +2177,21 @@ async def call_tracking_twiml(company_id: str, source: str, request: Request,
                 }, on_conflict="call_sid").execute()
         except Exception as e:  # noqa: BLE001 — logging must never break the call
             print("[call-tracking] log failed:", str(e)[:120])
+        # STIR/SHAKEN evidence for EVERY call (2026-10-02, Tony/Coastal spam
+        # study): the "Google listing verification" robocalls rotate local
+        # VoIP/landline numbers, and line type + carrier overlap real callers
+        # (insurance agents, property managers), so the next block rule must
+        # be evidence-based. Kept in ops_kv (call_intel rewrites `analysis`).
+        try:
+            if call_sid:
+                sb().table("ops_kv").upsert({
+                    "k": f"call-stir:{call_sid}",
+                    "v": {"stir": _stir or None, "from": from_num,
+                          "company_id": company_id, "source": source,
+                          "at": datetime.now(timezone.utc).isoformat()},
+                }, on_conflict="k").execute()
+        except Exception as e:  # noqa: BLE001
+            print("[call-tracking] stir log failed:", str(e)[:120])
     background_tasks.add_task(_log_ringing)
     base = "https://rank-ai-api-production.up.railway.app"
     say = ('<Say voice="Polly.Joanna">This call may be recorded.</Say>'
