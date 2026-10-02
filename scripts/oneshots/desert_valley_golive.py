@@ -32,15 +32,22 @@ CID = "CO-1789170047342"
 NEW = "desertvalleyrestoration.com"
 OLD = "desertvalleycontracting.net"
 DAY = "2026-10-02"
+# her 10-01 email "THE LINK DIDN'T OPEN": the SendGrid click-tracked link is
+# plain http (url4155 has no TLS), so HTTPS-first browsers / Safe Links fail;
+# send the direct https report URL instead
+REPORT = ("https://rank-ai-api-production.up.railway.app/report/"
+          "CO-1789170047342/2026-09-7bdac808ed.html")
 
 BODY_BOTH = ("Hi Rachelle, your new Desert Valley Restoration website is live "
              "at desertvalleyrestoration.com. Your old desertvalleycontracting.net "
              "address forwards to it automatically, so existing links and "
-             "listings keep working. Nothing needed from your side.")
+             "listings keep working. Also, sorry the September results link "
+             "didn't open for you, here it is again: " + REPORT)
 BODY_NEW_ONLY = ("Hi Rachelle, your new Desert Valley Restoration website is "
                  "live at desertvalleyrestoration.com. We're also pointing your "
                  "old desertvalleycontracting.net address to it so existing "
-                 "links and listings keep working. Nothing needed from your side.")
+                 "links and listings keep working. Also, sorry the September "
+                 "results link didn't open for you, here it is again: " + REPORT)
 CONTEXT = (
     "Answers Rachelle's 10-01 text 'When will that be live' (Monica replied she "
     "was checking with Santino). Santino 10-01: the site launches on the DBA "
@@ -50,9 +57,11 @@ CONTEXT = (
     "over time. desertvalleycontracting.com (Namecheap) gets pointed at the new "
     "site too. The Google profile rename to the DBA and its website-field update "
     "are separate steps still in progress; do not promise a date for those. "
-    "Their email (desertvalleyco.com) is untouched by any of this. If she asks "
-    "about the business cards QR code or the September report link, pass it "
-    "along to Santino.")
+    "Their email (desertvalleyco.com) is untouched by any of this. The same "
+    "text re-sends her September results page (her 10-01 email said the "
+    "emailed link didn't open; this is the direct link). If it still won't "
+    "open for her, ask what she sees and pass it along to Santino. If she "
+    "asks about the business cards QR code, pass it along to Santino.")
 
 
 def doh_a(name: str) -> list[str]:
