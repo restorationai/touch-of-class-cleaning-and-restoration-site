@@ -15,4 +15,4 @@
 
 **Queue next (first daytime trigger 10-02):**
 1. Apple Add Show retry: once, per the 01:30Z answer. On the same error: screenshot, park, Need "Add Show failed on day 2".
-2. Group B re-test, in order: Yelp (diss-restoration) → Nextdoor (dry-bros) → Angi (crew).
+2. Group B re-test, in order: Yelp (diss-restoration) → Nextdoor (dry-bros) → Angi (crew) → Facebook Page (heritage, added by MacBook a11168787: first check the agent Chrome is logged into Santino's Facebook, else post a Need). Thumbtack/HomeAdvisor are removed.
