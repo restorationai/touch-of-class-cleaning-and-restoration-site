@@ -64,3 +64,23 @@ re-open; the vendor decision comes from the 7-vendor outreach above.
   (the rename-2026 drafts, published the week the GBP name changes), then
   check indexing at 7/30 days + AI-answer scan before/after. Default
   package decided from that data.
+
+## 2026-10-02 ACCESS Newswire — researched, NOT adopted
+
+- No reply to either inquiry (09-15 partnerinquiry@, 09-19 digitalsales@ cc
+  cx@ + partnerinquiry@); neither bounced.
+- API: partner-only ("contact us"); no public docs, no api subdomain.
+  Agency program = sub-accounts per client, unpublished pricing.
+- Pricing: $475 Budget / $865 National (adds Yahoo Finance, AP) / $1,205
+  US Premium per release; subscriptions $920-1,525/mo for 1 release
+  (3/mo with Plus). Cheapest realistic ~$347/release.
+- Quality (4 real contractor releases, A: Anchor Plumbing Dallas,
+  B: Beyond Wow Plumbing Austin, C: SERVPRO Team Spinner NJ, D: Abacus
+  Plumbing Houston): cleaner network than PRNow (Yahoo Finance, Morningstar,
+  Globe and Mail, Digital Journal, TradingView) but every client link is a
+  pr.report tracking redirect that sends X-Robots-Tag noindex, nearly all
+  rel=nofollow; Morningstar copies expire ~90d, local papers 30d (canonical
+  back to accessnewswire); AP / Business Insider noindex. Google indexing
+  0-2 copies per release, same as PRNow.
+- Verdict: 12-30x PRNow Standard per release for no measurable SEO/AI
+  edge. Stay on PRNow. Only revisit if they quote <$150/release with API.
