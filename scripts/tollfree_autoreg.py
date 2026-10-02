@@ -303,6 +303,17 @@ def resolve_pn_sid(r: dict) -> str | None:
         return None
 
 
+def _dba_for(c: dict) -> str:
+    """The trade name to send as DoingBusinessAs: the client's FILED, verified
+    DBA when we hold one (rename_intent.dba_name), else the business name.
+    DISS 2026-09-25 (30488 'DBA Name Must Be Accurately Provided'): legal name
+    went in with no DBA at all, and nothing retried it for a week."""
+    ri = ((c.get("integration_settings") or {}).get("rename_intent") or {})
+    if ri.get("dba_name") and ri.get("dba_verified"):
+        return str(ri["dba_name"]).strip()
+    return (c.get("name") or "").strip()
+
+
 def submit_one(r: dict, apply: bool) -> bool:
     c = r["company"]
     cid, name = r["id"], (c.get("name") or "").strip()
@@ -350,7 +361,7 @@ def submit_one(r: dict, apply: bool) -> bool:
         f"{r['twilio_subaccount_sid']}:{r['twilio_auth_token']}"
         .encode()).decode()
     params = {
-        **smc.tf_identity_fields(name, legal, website),
+        **smc.tf_identity_fields(_dba_for(c), legal, website),
         "BusinessWebsite": website or "",
         "NotificationEmail": card.get("email") or "",
         "UseCaseCategories": "CUSTOMER_CARE",
@@ -534,7 +545,8 @@ _STRATEGIES = [
     (("registration", "ein", "tax", "30527"),
      "ein-identifier", "re-stamp EIN as BusinessRegistrationNumber with "
                        "Identifier=EIN (the 30527 fix)"),
-    (("business name", "legal", "invalid", "official records", "30484"),
+    (("business name", "legal", "invalid", "official records", "30484",
+      "doing business as", "dba", "30488"),
      "legal-name", "swap to the vaulted legal business name (invalid-EIN "
                    "class is usually an EIN/legal-name mismatch)"),
 ]
@@ -656,7 +668,7 @@ def attempt_auto_resubmit(r: dict, ver: dict, apply: bool) -> bool:
         # DryCor 2026-10-01: legal name ALONE was rejected again (30484). The
         # brand must ride along as DoingBusinessAs with the trade-name note.
         import sms_compliance as smc
-        fields.update(smc.tf_identity_fields(name, legal, c.get("website") or ""))
+        fields.update(smc.tf_identity_fields(_dba_for(c), legal, c.get("website") or ""))
 
     auth = base64.b64encode(
         f"{r['twilio_subaccount_sid']}:{r['twilio_auth_token']}"
