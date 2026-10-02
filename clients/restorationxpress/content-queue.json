@@ -922,10 +922,10 @@
     },
     {
       "id": "2026-08-28-what-is-a-slab-leak",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-28T01:12:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-10-02T02:06:41Z",
+      "post_url": "https://restorationxpress.com/blog/what-is-a-slab-leak/",
       "primary_keyword": "what is a slab leak",
       "intent": "informational",
       "volume": 880,
@@ -955,7 +955,27 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.epa.gov/mold/mold-cleanup-your-home"
       ],
-      "notes": "Highest-volume in-scope term from the burst pipe seed family (880/mo, KD 4). Broward County homes are almost all slab-on-grade with aging cast iron and copper under the slab, so this is a year-round local topic, not a seasonal one. Stay on the restoration side: RestorationXpress dries and remediates the damage a slab leak causes, it does not repair or reroute the pipe. Say that plainly and hand the plumbing step to a licensed plumber. Lead with the detection signs (warm floor spots, running water sound with everything off, unexplained water bill jump, baseboard staining) and close on the 24-48 hour mold window."
+      "notes": "Highest-volume in-scope term from the burst pipe seed family (880/mo, KD 4). Broward County homes are almost all slab-on-grade with aging cast iron and copper under the slab, so this is a year-round local topic, not a seasonal one. Stay on the restoration side: RestorationXpress dries and remediates the damage a slab leak causes, it does not repair or reroute the pipe. Say that plainly and hand the plumbing step to a licensed plumber. Lead with the detection signs (warm floor spots, running water sound with everything off, unexplained water bill jump, baseboard staining) and close on the 24-48 hour mold window.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/what-is-a-slab-leak.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "air movers and dehumidifiers run to the IICRC [S500 standard](https://www.iicrc.org/p",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/what-is-a-slab-leak.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "e restoration, drying structures to the IICRC S500 standard and documenting every job",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-08-28-burst-pipe-cleanup",
