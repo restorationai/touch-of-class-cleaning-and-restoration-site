@@ -7,10 +7,10 @@ primary_keyword: "contents restoration and storage marlborough"
 secondary_keywords: ["contents pack-out", "contents cleaning", "belongings restoration", "furniture restoration after fire", "contents storage"]
 search_intent: "local_service"
 priority: 3.5
-plan_hash: "5b43db51a16c8b86"
-generated_at: "2026-09-30T19:28:57.232459+00:00"
+plan_hash: "0b31a4f9c0a5f220"
+generated_at: "2026-10-02T04:40:31.083726+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration/", "/service-areas/marlborough-ma/", "/service-areas/marlborough-ma/fire-damage-restoration/", "/service-areas/marlborough-ma/mold-remediation/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/contact/"]
+internal_links: ["/services/contents-restoration/", "/service-areas/marlborough-ma/", "/service-areas/marlborough-ma/fire-damage-restoration/", "/service-areas/marlborough-ma/mold-remediation/", "/service-areas/framingham-ma/contents-restoration/", "/service-areas/hopkinton-ma/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Marlborough", "url": "/service-areas/marlborough-ma/"}, {"name": "Contents Restoration and Storage"}]
 faq: []
 area_slug: "marlborough-ma"

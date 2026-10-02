@@ -7,10 +7,10 @@ primary_keyword: "restoration services franklin town"
 secondary_keywords: ["franklin town restoration company", "damage restoration franklin town", "franklin town disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "6380b6755de14c62"
-generated_at: "2026-09-30T19:28:56.917081+00:00"
+plan_hash: "de89ca85cd0a4cf8"
+generated_at: "2026-10-02T04:40:31.068687+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/franklin-town-ma/", "/service-areas/franklin-town-ma/water-damage-restoration/", "/service-areas/franklin-town-ma/post-construction-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/franklin-town-ma/water-damage-restoration/", "/service-areas/franklin-town-ma/post-construction-cleaning/", "/service-areas/franklin-town-ma/upholstery-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Town"}]
 faq: []
 area_slug: "franklin-town-ma"

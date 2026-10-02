@@ -4,7 +4,3410 @@
   "combo_min": 10,
   "head_metro_min": 1000
  },
- "decisions": {},
+ "decisions": {
+  "anaheim-ca__air-duct-cleaning": {
+   "pass": true,
+   "why": "local demand: 'air duct cleaning anaheim' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning anaheim' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "anaheim-ca__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning anaheim' 90/mo",
+   "vol": 90,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning anaheim' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration anaheim' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration anaheim' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up anaheim' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber anaheim' 110/mo",
+   "vol": 110,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal anaheim' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration anaheim' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor anaheim' 90/mo",
+   "vol": 90,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation anaheim' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal anaheim' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning anaheim' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction anaheim' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement anaheim' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__sewage-cleanup": {
+   "pass": true,
+   "why": "local demand: 'sewage cleanup anaheim' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration anaheim' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration anaheim' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning anaheim' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup anaheim' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "anaheim-ca__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection anaheim' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning chino' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning chino' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "chino-ca__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning chino' 30/mo",
+   "vol": 30,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning chino' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration chino' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration chino' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up chino' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber chino' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal chino' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration chino' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__general-contracting": {
+   "pass": true,
+   "why": "local angle: large industrial and warehouse district",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation chino' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal chino' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning chino' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__reconstruction": {
+   "pass": true,
+   "why": "local angle: industrial and commercial building stock",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement chino' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup chino' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration chino' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration chino' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning chino' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup chino' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-ca__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection chino' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning chino hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning chino hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "chino-hills-ca__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning chino hills' 30/mo",
+   "vol": 30,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning chino hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration chino hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration chino hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up chino hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber chino hills' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal chino hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration chino hills' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor chino hills' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation chino hills' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal chino hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning chino hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction chino hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement chino hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup chino hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration chino hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration chino hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning chino hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup chino hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chino-hills-ca__water-leak-detection": {
+   "pass": true,
+   "why": "local demand: 'water leak detection chino hills' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning eastvale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning eastvale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "eastvale-ca__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning eastvale' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning eastvale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration eastvale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration eastvale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up eastvale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber eastvale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal eastvale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration eastvale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__general-contracting": {
+   "pass": true,
+   "why": "local angle: growing logistics warehouse development",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation eastvale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal eastvale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning eastvale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__reconstruction": {
+   "pass": true,
+   "why": "local angle: expanding warehouse commercial development",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement eastvale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup eastvale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration eastvale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration eastvale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning eastvale' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup eastvale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "eastvale-ca__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection eastvale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning fontana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning fontana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "fontana-ca__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning fontana' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning fontana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration fontana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration fontana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up fontana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber fontana' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal fontana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration fontana' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__general-contracting": {
+   "pass": true,
+   "why": "local angle: major industrial warehouse corridor",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation fontana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal fontana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning fontana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__reconstruction": {
+   "pass": true,
+   "why": "local angle: large industrial warehouse base",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement fontana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup fontana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration fontana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration fontana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning fontana' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup fontana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fontana-ca__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection fontana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__air-duct-cleaning": {
+   "pass": true,
+   "why": "local demand: 'air duct cleaning fullerton' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning fullerton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "fullerton-ca__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning fullerton' 90/mo",
+   "vol": 90,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning fullerton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration fullerton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration fullerton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up fullerton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber fullerton' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal fullerton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration fullerton' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor fullerton' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation fullerton' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal fullerton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning fullerton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction fullerton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement fullerton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup fullerton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration fullerton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration fullerton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning fullerton' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup fullerton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fullerton-ca__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection fullerton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning jurupa valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning jurupa valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "jurupa-valley-ca__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning jurupa valley' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning jurupa valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration jurupa valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration jurupa valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up jurupa valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber jurupa valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal jurupa valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration jurupa valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__general-contracting": {
+   "pass": true,
+   "why": "local angle: sprawling warehouse and distribution district",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation jurupa valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal jurupa valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning jurupa valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__reconstruction": {
+   "pass": true,
+   "why": "local angle: extensive warehouse distribution facilities",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement jurupa valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup jurupa valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration jurupa valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: near Santa Ana River flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning jurupa valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup jurupa valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jurupa-valley-ca__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection jurupa valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "lake-mathews-ca__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "lake-mathews-ca__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection lake mathews' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning montclair' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning montclair' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "montclair-ca__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning montclair' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning montclair' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration montclair' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration montclair' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up montclair' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber montclair' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal montclair' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration montclair' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor montclair' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation montclair' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal montclair' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning montclair' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction montclair' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement montclair' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup montclair' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration montclair' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration montclair' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning montclair' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup montclair' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "montclair-ca__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection montclair' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "norco-ca__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning norco' 30/mo",
+   "vol": 30,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: near Santa Ana River flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "norco-ca__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection norco' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "north-tustin-ca__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "north-tustin-ca__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection north tustin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__air-duct-cleaning": {
+   "pass": true,
+   "why": "local demand: 'air duct cleaning ontario' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning ontario' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "ontario-ca__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning ontario' 30/mo",
+   "vol": 30,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning ontario' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration ontario' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration ontario' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up ontario' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber ontario' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal ontario' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration ontario' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor ontario' 40/mo",
+   "vol": 40,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation ontario' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__odor-removal": {
+   "pass": true,
+   "why": "local demand: 'odor removal ontario' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning ontario' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__reconstruction": {
+   "pass": true,
+   "why": "local angle: major commercial airport and logistics hub",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement ontario' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup ontario' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration ontario' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration ontario' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning ontario' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup ontario' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ontario-ca__water-leak-detection": {
+   "pass": true,
+   "why": "local demand: 'water leak detection ontario' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__air-duct-cleaning": {
+   "pass": true,
+   "why": "local demand: 'air duct cleaning pomona' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning pomona' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "pomona-ca__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning pomona' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning pomona' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration pomona' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration pomona' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up pomona' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber pomona' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal pomona' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration pomona' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor pomona' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation pomona' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal pomona' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning pomona' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__reconstruction": {
+   "pass": true,
+   "why": "local angle: older commercial and industrial buildings",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement pomona' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup pomona' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration pomona' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration pomona' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning pomona' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup pomona' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pomona-ca__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection pomona' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__air-duct-cleaning": {
+   "pass": true,
+   "why": "local demand: 'air duct cleaning riverside' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning riverside' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "riverside-ca__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning riverside' 480/mo",
+   "vol": 480,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning riverside' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration riverside' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration riverside' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up riverside' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber riverside' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal riverside' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration riverside' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor riverside' 390/mo",
+   "vol": 390,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation riverside' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal riverside' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning riverside' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction riverside' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement riverside' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup riverside' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__smoke-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'smoke damage restoration riverside' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__storm-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'storm damage restoration riverside' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning riverside' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup riverside' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "riverside-ca__water-leak-detection": {
+   "pass": true,
+   "why": "local demand: 'water leak detection riverside' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__air-duct-cleaning": {
+   "pass": true,
+   "why": "local demand: 'air duct cleaning santa ana' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning santa ana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "santa-ana-ca__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning santa ana' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning santa ana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration santa ana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration santa ana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up santa ana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber santa ana' 50/mo",
+   "vol": 50,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal santa ana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration santa ana' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor santa ana' 40/mo",
+   "vol": 40,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation santa ana' 40/mo",
+   "vol": 40,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal santa ana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning santa ana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction santa ana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement santa ana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup santa ana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration santa ana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration santa ana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning santa ana' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup santa ana' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santa-ana-ca__water-leak-detection": {
+   "pass": true,
+   "why": "local demand: 'water leak detection santa ana' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning silverado' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning silverado' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "silverado-ca__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning silverado' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning silverado' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration silverado' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration silverado' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up silverado' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber silverado' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal silverado' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__fire-damage-restoration": {
+   "pass": true,
+   "why": "local angle: canyon wildfire urban-interface community",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor silverado' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation silverado' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal silverado' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning silverado' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction silverado' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement silverado' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup silverado' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__smoke-damage-restoration": {
+   "pass": true,
+   "why": "local angle: canyon wildfire urban-interface community",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration silverado' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning silverado' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup silverado' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "silverado-ca__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection silverado' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning temescal valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning temescal valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "temescal-valley-ca__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning temescal valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning temescal valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration temescal valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration temescal valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up temescal valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber temescal valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal temescal valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__fire-damage-restoration": {
+   "pass": true,
+   "why": "local angle: foothill wildfire-prone terrain",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor temescal valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation temescal valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal temescal valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning temescal valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction temescal valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement temescal valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup temescal valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__smoke-damage-restoration": {
+   "pass": true,
+   "why": "local angle: foothill wildfire-prone terrain",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: near flood control basin terrain",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning temescal valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup temescal valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temescal-valley-ca__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection temescal valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "trabuco-canyon-ca__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__fire-damage-restoration": {
+   "pass": true,
+   "why": "local angle: canyon wildfire urban-interface community",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__smoke-damage-restoration": {
+   "pass": true,
+   "why": "local angle: canyon wildfire urban-interface community",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "trabuco-canyon-ca__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection trabuco canyon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "villa-park-ca__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning villa park' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration villa park' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "villa-park-ca__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection villa park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "woodcrest-ca__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning woodcrest' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__emergency-plumbing": {
+   "pass": false,
+   "why": "no local demand ('emergency plumber woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration woodcrest' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "woodcrest-ca__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection woodcrest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__air-duct-cleaning": {
+   "pass": true,
+   "why": "local demand: 'air duct cleaning yorba linda' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning yorba linda' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__basement-remodeling": {
+   "pass": false,
+   "why": "implausible here: CA homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "yorba-linda-ca__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning yorba linda' 30/mo",
+   "vol": 30,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning yorba linda' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration yorba linda' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration yorba linda' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up yorba linda' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__emergency-plumbing": {
+   "pass": true,
+   "why": "local demand: 'emergency plumber yorba linda' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal yorba linda' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration yorba linda' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor yorba linda' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation yorba linda' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal yorba linda' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning yorba linda' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction yorba linda' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__roofing": {
+   "pass": false,
+   "why": "no local demand ('roofing installation and replacement yorba linda' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup yorba linda' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration yorba linda' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration yorba linda' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'upholstery cleaning yorba linda' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__water-heater-flood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water heater flood cleanup yorba linda' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "yorba-linda-ca__water-leak-detection": {
+   "pass": false,
+   "why": "no local demand ('water leak detection yorba linda' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  }
+ },
  "offered": {
   "air-duct-cleaning": [
    "plan-input before core floor (2026-09-24)",
@@ -114,5 +3517,101 @@
    "GBP service in the client's words: 'Water Leak'",
    "GBP service in the client's words: 'Leak Detection'"
   ]
- }
+ },
+ "metro": "Anaheim,California,United States",
+ "heads": {
+  "air-duct-cleaning": {
+   "term": "air duct cleaning",
+   "metro": 90
+  },
+  "air-duct-hvac-cleaning": {
+   "term": "air duct and hvac cleaning",
+   "metro": 10
+  },
+  "basement-remodeling": {
+   "term": "basement remodeling",
+   "metro": 20
+  },
+  "carpet-cleaning": {
+   "term": "carpet cleaning",
+   "metro": 460
+  },
+  "carpet-upholstery-cleaning": {
+   "term": "carpet and upholstery cleaning",
+   "metro": 20
+  },
+  "contents-restoration": {
+   "term": "contents restoration",
+   "metro": 10
+  },
+  "contents-restoration-storage": {
+   "term": "contents restoration",
+   "metro": 10
+  },
+  "emergency-board-up-tarping": {
+   "term": "emergency board up",
+   "metro": 10
+  },
+  "emergency-plumbing": {
+   "term": "emergency plumber",
+   "metro": 140
+  },
+  "emergency-water-removal": {
+   "term": "emergency water removal",
+   "metro": 30
+  },
+  "fire-damage-restoration": {
+   "term": "fire damage restoration",
+   "metro": 20
+  },
+  "general-contracting": {
+   "term": "general contractor",
+   "metro": 250
+  },
+  "mold-remediation": {
+   "term": "mold remediation",
+   "metro": 120
+  },
+  "odor-removal": {
+   "term": "odor removal",
+   "metro": 20
+  },
+  "post-construction-cleaning": {
+   "term": "post construction cleaning",
+   "metro": 60
+  },
+  "reconstruction": {
+   "term": "restoration reconstruction",
+   "metro": 0
+  },
+  "roofing": {
+   "term": "roofing installation and replacement",
+   "metro": 0
+  },
+  "sewage-cleanup": {
+   "term": "sewage cleanup",
+   "metro": 20
+  },
+  "smoke-damage-restoration": {
+   "term": "smoke damage restoration",
+   "metro": 20
+  },
+  "storm-damage-restoration": {
+   "term": "storm damage restoration",
+   "metro": 20
+  },
+  "upholstery-cleaning": {
+   "term": "upholstery cleaning",
+   "metro": 20
+  },
+  "water-heater-flood-cleanup": {
+   "term": "water heater flood cleanup",
+   "metro": 0
+  },
+  "water-leak-detection": {
+   "term": "water leak detection",
+   "metro": 40
+  }
+ },
+ "updated_at": "2026-10-02T04:32:43+00:00"
 }

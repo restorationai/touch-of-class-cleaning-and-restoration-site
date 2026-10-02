@@ -42,6 +42,7 @@
     "/service-areas/grove-city-pa/",
     "/service-areas/hermitage-pa/",
     "/service-areas/hubbard-oh/",
+    "/service-areas/mcdonald-oh/",
     "/service-areas/mercer-pa/",
     "/service-areas/mineral-ridge-oh/",
     "/service-areas/new-castle-pa/",
@@ -96,6 +97,7 @@
     "/service-areas/grove-city-pa/",
     "/service-areas/hermitage-pa/",
     "/service-areas/hubbard-oh/",
+    "/service-areas/mcdonald-oh/",
     "/service-areas/mercer-pa/",
     "/service-areas/mineral-ridge-oh/",
     "/service-areas/new-castle-pa/",
@@ -336,8 +338,8 @@
     "/service-areas/grove-city-pa/water-damage-restoration/",
     "/service-areas/hermitage-pa/water-damage-restoration/",
     "/service-areas/hubbard-oh/water-damage-restoration/",
+    "/service-areas/mcdonald-oh/water-damage-restoration/",
     "/service-areas/mercer-pa/water-damage-restoration/",
-    "/service-areas/mineral-ridge-oh/water-damage-restoration/",
     "/services/emergency-water-removal/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -740,6 +742,14 @@
     "/service-areas/farrell-pa/",
     "/service-areas/greenville-pa/",
     "/service-areas/grove-city-pa/"
+  ],
+  "/service-areas/mcdonald-oh/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/mcdonald-oh/water-damage-restoration/",
+    "/service-areas/austintown-oh/",
+    "/service-areas/boardman-oh/",
+    "/service-areas/campbell-oh/"
   ],
   "/service-areas/warren-oh/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
@@ -2467,6 +2477,13 @@
     "/service-areas/new-castle-pa/mold-remediation/",
     "/service-areas/austintown-oh/upholstery-cleaning/",
     "/service-areas/boardman-oh/upholstery-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/mcdonald-oh/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/mcdonald-oh/",
+    "/service-areas/austintown-oh/water-damage-restoration/",
+    "/service-areas/boardman-oh/water-damage-restoration/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

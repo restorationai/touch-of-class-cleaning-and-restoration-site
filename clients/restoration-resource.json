@@ -10,14 +10,22 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 87,
-    "generated_at": "2026-10-02T04:03:07.862106+00:00"
+    "url_count": 93,
+    "generated_at": "2026-10-02T05:02:44.430861+00:00"
   },
-  "updated_at": "2026-10-02T04:03:07.862109+00:00",
+  "updated_at": "2026-10-02T05:02:44.430865+00:00",
   "build": {
     "scaffolded_at": "2026-10-01T14:22:38.781682+00:00",
     "github_repo": "restorationai/restoration-resource-site",
     "note": "restored 2026-10-01 from the staging deploy repo after ops-sync timeouts lost the monorepo copy"
   },
-  "build_status": "pushed_staging"
+  "build_status": "pushed_staging",
+  "cutover_prep": {
+    "domain": "restorationresource365.com",
+    "harvested_at": "2026-10-02T05:16:34+00:00",
+    "url_count": 17,
+    "backlinked_count": 4,
+    "redirects_added": 12,
+    "mapped_at": "2026-10-02T05:16:41+00:00"
+  }
 }

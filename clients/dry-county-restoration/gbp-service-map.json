@@ -712,8 +712,8 @@
       "verdict": "mapped",
       "page": "water-damage-restoration",
       "source": "plumbing-gate",
-      "reason": "plumbing gate not met: maps to water damage restoration",
-      "at": "2026-10-01"
+      "reason": "plumbing gate not met (no confirmed plumbing name/DBA, not a licensed plumber)",
+      "at": "2026-10-02"
     },
     "Plumbing Leaks": {
       "verdict": "mapped",

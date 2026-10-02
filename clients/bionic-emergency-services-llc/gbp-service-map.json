@@ -1,0 +1,81 @@
+{
+  "slug": "bionic-emergency-services-llc",
+  "policy": "scripts/site_structure.py (Santino 2026-09-30)",
+  "gbp_services": {
+    "Broken, Frozen, & Burst Pipe Repair": {
+      "verdict": "mapped",
+      "page": "burst-pipe-repair",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-10-02"
+    },
+    "Complete Reconstruction Services": {
+      "verdict": "mapped",
+      "page": "reconstruction",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-10-02"
+    },
+    "Damage Reconstruction": {
+      "verdict": "mapped",
+      "page": "reconstruction",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-10-02"
+    },
+    "Flood Restoration": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-10-02"
+    },
+    "General Construction Services": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-10-02"
+    },
+    "Helping With Insurance Claims": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-10-02"
+    },
+    "Home Reconstruction": {
+      "verdict": "mapped",
+      "page": "reconstruction",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-10-02"
+    },
+    "Mold Remediation": {
+      "verdict": "mapped",
+      "page": "mold-remediation",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-10-02"
+    },
+    "Mold Removal": {
+      "verdict": "mapped",
+      "page": "mold-remediation",
+      "reason": "house alias",
+      "source": "alias",
+      "at": "2026-10-02"
+    },
+    "Residential & Commercial Restoration Services": {
+      "verdict": "mapped",
+      "page": "commercial-restoration",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-10-02"
+    },
+    "Roof Leaks": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-10-02"
+    }
+  },
+  "merged": {},
+  "kept_pairs": []
+}

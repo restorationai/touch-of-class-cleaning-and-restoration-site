@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning shrewsbury"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "e46333a8d2cc786d"
-generated_at: "2026-09-30T19:28:56.929577+00:00"
+plan_hash: "115651c8bbc7ae98"
+generated_at: "2026-10-02T04:40:31.070736+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/shrewsbury-ma/", "/service-areas/shrewsbury-ma/fire-damage-restoration/", "/service-areas/shrewsbury-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/shrewsbury-ma/", "/service-areas/shrewsbury-ma/fire-damage-restoration/", "/service-areas/shrewsbury-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/framingham-ma/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Shrewsbury", "url": "/service-areas/shrewsbury-ma/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "shrewsbury-ma"

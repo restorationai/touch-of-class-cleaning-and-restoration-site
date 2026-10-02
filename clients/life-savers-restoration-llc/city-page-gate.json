@@ -19,6 +19,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "blue-diamond-nv__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration blue diamond' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "blue-diamond-nv__emergency-water-removal": {
    "pass": false,
    "why": "no local demand ('emergency water removal blue diamond' 0/mo) and no local angle",
@@ -74,6 +81,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "boulder-city-nv__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration boulder city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "boulder-city-nv__emergency-water-removal": {
    "pass": false,
@@ -131,6 +145,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "cal-nev-ari-nv__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration cal-nev-ari' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "cal-nev-ari-nv__emergency-water-removal": {
    "pass": false,
    "why": "no local demand ('emergency water removal cal-nev-ari' 0/mo) and no local angle",
@@ -186,6 +207,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "enterprise-nv__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration enterprise' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "enterprise-nv__emergency-water-removal": {
    "pass": false,
@@ -243,6 +271,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "goodsprings-nv__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration goodsprings' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "goodsprings-nv__emergency-water-removal": {
    "pass": false,
    "why": "no local demand ('emergency water removal goodsprings' 0/mo) and no local angle",
@@ -298,6 +333,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "indian-springs-nv__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration indian springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "indian-springs-nv__emergency-water-removal": {
    "pass": false,
@@ -355,6 +397,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "las-vegas-nv__contents-restoration-storage": {
+   "pass": true,
+   "why": "local demand: 'contents restoration las vegas' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "las-vegas-nv__emergency-water-removal": {
    "pass": true,
    "why": "local demand: 'emergency water removal las vegas' 10/mo",
@@ -410,6 +459,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "laughlin-nv__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration laughlin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "laughlin-nv__emergency-water-removal": {
    "pass": false,
@@ -467,6 +523,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "nellis-afb-nv__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration nellis afb' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "nellis-afb-nv__emergency-water-removal": {
    "pass": false,
    "why": "no local demand ('emergency water removal nellis afb' 0/mo) and no local angle",
@@ -522,6 +585,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "nelson-nv__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration nelson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "nelson-nv__emergency-water-removal": {
    "pass": false,
@@ -579,6 +649,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "north-las-vegas-nv__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration north las vegas' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "north-las-vegas-nv__emergency-water-removal": {
    "pass": false,
    "why": "no local demand ('emergency water removal north las vegas' 0/mo) and no local angle",
@@ -634,6 +711,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "paradise-nv__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration paradise' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "paradise-nv__emergency-water-removal": {
    "pass": false,
@@ -691,6 +775,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "sandy-valley-nv__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration sandy valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "sandy-valley-nv__emergency-water-removal": {
    "pass": false,
    "why": "no local demand ('emergency water removal sandy valley' 0/mo) and no local angle",
@@ -746,6 +837,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "searchlight-nv__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration searchlight' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "searchlight-nv__emergency-water-removal": {
    "pass": false,
@@ -803,6 +901,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "spring-valley-nv__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration spring valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "spring-valley-nv__emergency-water-removal": {
    "pass": false,
    "why": "no local demand ('emergency water removal spring valley' 0/mo) and no local angle",
@@ -858,6 +963,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "summerlin-south-nv__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration summerlin south' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "summerlin-south-nv__emergency-water-removal": {
    "pass": false,
@@ -915,6 +1027,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "sunrise-manor-nv__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration sunrise manor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "sunrise-manor-nv__emergency-water-removal": {
    "pass": false,
    "why": "no local demand ('emergency water removal sunrise manor' 0/mo) and no local angle",
@@ -971,6 +1090,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "whitney-nv__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration whitney' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "whitney-nv__emergency-water-removal": {
    "pass": false,
    "why": "no local demand ('emergency water removal whitney' 0/mo) and no local angle",
@@ -1026,6 +1152,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "winchester-nv__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration winchester' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "winchester-nv__emergency-water-removal": {
    "pass": false,
@@ -1150,7 +1283,12 @@
   "emergency-water-removal": {
    "term": "emergency water removal",
    "metro": null
+  },
+  "contents-restoration-storage": {
+   "term": "contents restoration",
+   "metro": 20
   }
  },
- "updated_at": "2026-10-01T05:05:15+00:00"
+ "updated_at": "2026-10-02T04:37:06+00:00",
+ "metro": "Las Vegas,Nevada,United States"
 }

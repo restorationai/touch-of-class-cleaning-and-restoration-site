@@ -1,7 +1,7 @@
 # Site Plan Report — DRYCOR RESTORE
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-10-01T14:30:44.632926+00:00
+- Generated: 2026-10-02T04:40:24.759055+00:00
 - Domain: `drycor.com`
 - Services selected: 22 of 91 catalog entries
 - Service areas: 68
@@ -33,6 +33,7 @@
 - `commercial-restoration` — Commercial Restoration (core, priority 9)
 - `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 - `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
@@ -48,7 +49,6 @@
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
 

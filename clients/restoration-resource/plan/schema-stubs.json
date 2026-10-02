@@ -384,6 +384,15 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/burbank-wa/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/kennewick-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -475,6 +484,16 @@
     "missing_stubs": []
   },
   "/service-areas/prosser-wa/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/prosser-wa/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -584,6 +603,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/connell-wa/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/connell-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -595,6 +624,16 @@
     "missing_stubs": []
   },
   "/service-areas/basin-city-wa/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/basin-city-wa/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -734,7 +773,27 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/kahlotus-wa/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/kahlotus-wa/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/burbank-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

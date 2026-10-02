@@ -19,6 +19,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "arroyo-grande-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration arroyo grande' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "arroyo-grande-ca__crawl-space-encapsulation": {
    "pass": false,
    "why": "no local demand ('crawl space encapsulation arroyo grande' 0/mo) and no local angle",
@@ -82,6 +89,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "arroyo-grande-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup arroyo grande' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "atascadero-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup atascadero' 0/mo) and no local angle",
@@ -95,6 +109,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "atascadero-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration atascadero' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "atascadero-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -159,6 +180,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "atascadero-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup atascadero' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "avila-beach-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup avila beach' 0/mo) and no local angle",
@@ -172,6 +200,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "avila-beach-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration avila beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "avila-beach-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -236,6 +271,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "avila-beach-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup avila beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "ballard-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup ballard' 0/mo) and no local angle",
@@ -249,6 +291,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "ballard-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration ballard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "ballard-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -313,6 +362,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "ballard-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup ballard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "blacklake-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup blacklake' 0/mo) and no local angle",
@@ -326,6 +382,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "blacklake-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration blacklake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "blacklake-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -390,6 +453,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "blacklake-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup blacklake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "buellton-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup buellton' 0/mo) and no local angle",
@@ -403,6 +473,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "buellton-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration buellton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "buellton-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -467,6 +544,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "buellton-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup buellton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "callender-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup callender' 0/mo) and no local angle",
@@ -480,6 +564,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "callender-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration callender' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "callender-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -544,6 +635,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "callender-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup callender' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "cambria-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup cambria' 0/mo) and no local angle",
@@ -557,6 +655,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "cambria-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration cambria' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "cambria-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -621,6 +726,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "cambria-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup cambria' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "edna-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup edna' 0/mo) and no local angle",
@@ -634,6 +746,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "edna-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration edna' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "edna-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -698,6 +817,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "edna-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup edna' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "el-paso-de-robles-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup el paso de robles' 0/mo) and no local angle",
@@ -711,6 +837,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "el-paso-de-robles-ca__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: wine industry warehouses need contents storage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "el-paso-de-robles-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -775,6 +908,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "el-paso-de-robles-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup el paso de robles' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "grover-beach-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup grover beach' 0/mo) and no local angle",
@@ -788,6 +928,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "grover-beach-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration grover beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "grover-beach-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -852,6 +999,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "grover-beach-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup grover beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "guadalupe-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup guadalupe' 0/mo) and no local angle",
@@ -865,6 +1019,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "guadalupe-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration guadalupe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "guadalupe-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -929,6 +1090,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "guadalupe-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup guadalupe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "lompoc-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup lompoc' 0/mo) and no local angle",
@@ -942,6 +1110,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "lompoc-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration lompoc' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "lompoc-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -1006,6 +1181,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "lompoc-ca__vandalism-cleanup": {
+   "pass": true,
+   "why": "local angle: urban core with recurring graffiti vandalism",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "los-alamos-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup los alamos' 0/mo) and no local angle",
@@ -1019,6 +1201,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "los-alamos-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration los alamos' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "los-alamos-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -1083,6 +1272,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "los-alamos-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup los alamos' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "los-berros-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup los berros' 0/mo) and no local angle",
@@ -1096,6 +1292,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "los-berros-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration los berros' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "los-berros-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -1160,6 +1363,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "los-berros-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup los berros' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "los-olivos-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup los olivos' 0/mo) and no local angle",
@@ -1173,6 +1383,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "los-olivos-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration los olivos' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "los-olivos-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -1237,6 +1454,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "los-olivos-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup los olivos' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "los-osos-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup los osos' 0/mo) and no local angle",
@@ -1250,6 +1474,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "los-osos-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration los osos' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "los-osos-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -1314,6 +1545,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "los-osos-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup los osos' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "mission-hills-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup mission hills' 0/mo) and no local angle",
@@ -1327,6 +1565,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "mission-hills-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration mission hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "mission-hills-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -1391,6 +1636,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "mission-hills-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup mission hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "morro-bay-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup morro bay' 0/mo) and no local angle",
@@ -1404,6 +1656,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "morro-bay-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration morro bay' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "morro-bay-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -1468,6 +1727,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "morro-bay-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup morro bay' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "nipomo-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup nipomo' 0/mo) and no local angle",
@@ -1481,6 +1747,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "nipomo-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration nipomo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "nipomo-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -1545,6 +1818,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "nipomo-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup nipomo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "oceano-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup oceano' 0/mo) and no local angle",
@@ -1558,6 +1838,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "oceano-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration oceano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "oceano-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -1622,6 +1909,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "oceano-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup oceano' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "orcutt-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup orcutt' 0/mo) and no local angle",
@@ -1635,6 +1929,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "orcutt-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration orcutt' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "orcutt-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -1699,6 +2000,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "orcutt-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup orcutt' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "pismo-beach-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup pismo beach' 0/mo) and no local angle",
@@ -1712,6 +2020,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "pismo-beach-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration pismo beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "pismo-beach-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -1776,6 +2091,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "pismo-beach-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup pismo beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "san-luis-obispo-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup san luis obispo' 0/mo) and no local angle",
@@ -1789,6 +2111,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "san-luis-obispo-ca__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: regional commercial hub, large content inventories",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "san-luis-obispo-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -1853,6 +2182,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "san-luis-obispo-ca__vandalism-cleanup": {
+   "pass": true,
+   "why": "local angle: college town nightlife drives vandalism",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "santa-margarita-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup santa margarita' 0/mo) and no local angle",
@@ -1866,6 +2202,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "santa-margarita-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration santa margarita' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "santa-margarita-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -1930,6 +2273,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "santa-margarita-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup santa margarita' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "santa-ynez-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup santa ynez' 0/mo) and no local angle",
@@ -1943,6 +2293,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "santa-ynez-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration santa ynez' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "santa-ynez-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -2007,6 +2364,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "santa-ynez-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup santa ynez' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "solvang-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup solvang' 0/mo) and no local angle",
@@ -2020,6 +2384,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "solvang-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration solvang' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "solvang-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -2084,6 +2455,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "solvang-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup solvang' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "templeton-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup templeton' 0/mo) and no local angle",
@@ -2097,6 +2475,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "templeton-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration templeton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "templeton-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -2161,6 +2546,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "templeton-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup templeton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "vandenberg-afb-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup vandenberg afb' 0/mo) and no local angle",
@@ -2174,6 +2566,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "vandenberg-afb-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration vandenberg afb' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "vandenberg-afb-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -2238,6 +2637,14 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "vandenberg-afb-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "implausible here: secure military base, limited public vandalism",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
   "vandenberg-village-ca__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup vandenberg village' 0/mo) and no local angle",
@@ -2251,6 +2658,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "vandenberg-village-ca__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration vandenberg village' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "vandenberg-village-ca__crawl-space-encapsulation": {
    "pass": false,
@@ -2314,6 +2728,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "vandenberg-village-ca__vandalism-cleanup": {
+   "pass": false,
+   "why": "no local demand ('vandalism cleanup vandenberg village' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   }
  },
  "offered": {
@@ -2423,7 +2844,15 @@
   "emergency-water-removal": {
    "term": "emergency water removal",
    "metro": 0
+  },
+  "contents-restoration-storage": {
+   "term": "contents restoration",
+   "metro": 0
+  },
+  "vandalism-cleanup": {
+   "term": "vandalism cleanup",
+   "metro": 0
   }
  },
- "updated_at": "2026-10-01T05:03:45+00:00"
+ "updated_at": "2026-10-02T04:31:07+00:00"
 }

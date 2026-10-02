@@ -30,6 +30,7 @@
     "contents-restoration-storage",
     "crawl-space-encapsulation",
     "emergency-board-up-tarping",
+    "emergency-plumbing",
     "fire-damage-restoration",
     "general-contracting",
     "mold-remediation",
@@ -38,9 +39,9 @@
     "roofing",
     "sewage-cleanup",
     "storm-damage-restoration",
+    "upholstery-cleaning",
     "water-damage-restoration",
-    "water-leak-detection",
-    "upholstery-cleaning"
+    "water-leak-detection"
   ],
   "template": "restoration",
   "blog_seed_count": 8,

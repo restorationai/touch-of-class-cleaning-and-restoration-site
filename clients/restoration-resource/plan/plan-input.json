@@ -115,6 +115,11 @@
       "city": "Kahlotus",
       "state": "WA",
       "slug": "kahlotus-wa"
+    },
+    {
+      "city": "Burbank",
+      "state": "WA",
+      "slug": "burbank-wa"
     }
   ],
   "template": "restoration",

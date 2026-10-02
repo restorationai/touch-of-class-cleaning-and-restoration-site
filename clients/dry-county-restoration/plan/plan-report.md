@@ -1,19 +1,19 @@
 # Site Plan Report — Dry County Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-10-01T05:03:47.905731+00:00
+- Generated: 2026-10-02T04:40:22.596456+00:00
 - Domain: `drycountyrestoration.com`
 - Services selected: 28 of 91 catalog entries
 - Service areas: 22
 - Cross-product enabled: True
-- Total URLs: **188**
-- Total internal links: 1388 (avg 7.4 per page)
+- Total URLs: **231**
+- Total internal links: 1784 (avg 7.7 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 122 |
+| `service-area-service` | 165 |
 | `service-landing` | 28 |
 | `service-area` | 21 |
 | `blog-post` | 8 |
@@ -50,10 +50,10 @@
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `upholstery-cleaning` — Upholstery Cleaning (adjacent, priority 4)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `upholstery-cleaning` — Upholstery Cleaning (adjacent, priority 4)
 - `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 
 ## Service areas

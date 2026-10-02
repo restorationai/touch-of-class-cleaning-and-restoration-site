@@ -26,12 +26,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "agricola-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "agricola-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration agricola' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "agricola-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration agricola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "agricola-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -152,12 +166,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "bay-st-louis-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning bay st. louis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "bay-st-louis-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration bay st. louis' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "bay-st-louis-ms__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: Hurricane-exposed coastal city needing pack-out storage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "bay-st-louis-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -278,12 +306,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "benndale-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "benndale-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration benndale' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "benndale-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration benndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "benndale-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -404,12 +446,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "big-point-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning big point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "big-point-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration big point' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "big-point-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration big point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "big-point-ms__crawl-space-encapsulation": {
    "pass": true,
@@ -530,12 +586,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "biloxi-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning biloxi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "biloxi-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration biloxi' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "biloxi-ms__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: Hurricane-exposed coastal city needing pack-out storage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "biloxi-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -656,12 +726,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "d-iberville-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning d'iberville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "d-iberville-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration d'iberville' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "d-iberville-ms__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: Hurricane-exposed coastal city needing pack-out storage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "d-iberville-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -782,12 +866,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "delisle-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning delisle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "delisle-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration delisle' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "delisle-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration delisle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "delisle-ms__crawl-space-encapsulation": {
    "pass": true,
@@ -908,12 +1006,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "diamondhead-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning diamondhead' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "diamondhead-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration diamondhead' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "diamondhead-ms__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: Hurricane-exposed coastal city needing pack-out storage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "diamondhead-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -1034,12 +1146,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "eastabuchie-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "eastabuchie-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration eastabuchie' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "eastabuchie-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration eastabuchie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "eastabuchie-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -1160,12 +1286,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "ellisville-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "ellisville-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration ellisville' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "ellisville-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration ellisville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "ellisville-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -1286,12 +1426,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "escatawpa-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning escatawpa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "escatawpa-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration escatawpa' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "escatawpa-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration escatawpa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "escatawpa-ms__crawl-space-encapsulation": {
    "pass": true,
@@ -1412,12 +1566,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "gautier-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning gautier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "gautier-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration gautier' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "gautier-ms__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: Hurricane-exposed coastal city needing pack-out storage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "gautier-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -1538,12 +1706,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "gulf-hills-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning gulf hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "gulf-hills-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration gulf hills' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "gulf-hills-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration gulf hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "gulf-hills-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -1664,12 +1846,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "gulf-park-estates-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning gulf park estates' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "gulf-park-estates-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration gulf park estates' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "gulf-park-estates-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration gulf park estates' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "gulf-park-estates-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -1790,12 +1986,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "hattiesburg-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning hattiesburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "hattiesburg-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration hattiesburg' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "hattiesburg-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration hattiesburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "hattiesburg-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -1916,12 +2126,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "helena-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning helena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "helena-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration helena' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "helena-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration helena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "helena-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -2042,12 +2266,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "henderson-point-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning henderson point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "henderson-point-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration henderson point' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "henderson-point-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration henderson point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "henderson-point-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -2168,12 +2406,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "hide-a-way-lake-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "hide-a-way-lake-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration hide-a-way lake' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "hide-a-way-lake-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration hide-a-way lake' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "hide-a-way-lake-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -2294,12 +2546,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "hurley-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "hurley-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration hurley' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "hurley-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration hurley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "hurley-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -2420,12 +2686,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "kiln-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning kiln' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "kiln-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration kiln' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "kiln-ms__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: Near coast, hurricane flood risk needs storage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "kiln-ms__crawl-space-encapsulation": {
    "pass": true,
@@ -2546,12 +2826,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "latimer-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "latimer-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration latimer' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "latimer-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration latimer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "latimer-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -2672,12 +2966,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "laurel-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning laurel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "laurel-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration laurel' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "laurel-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration laurel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "laurel-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -2798,12 +3106,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "leakesville-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "leakesville-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration leakesville' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "leakesville-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration leakesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "leakesville-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -2924,12 +3246,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "long-beach-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning long beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "long-beach-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration long beach' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "long-beach-ms__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: Hurricane-exposed coastal city needing pack-out storage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "long-beach-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -3050,12 +3386,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "lucedale-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "lucedale-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration lucedale' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "lucedale-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration lucedale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "lucedale-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -3176,12 +3526,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "lumberton-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning lumberton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "lumberton-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration lumberton' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "lumberton-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration lumberton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "lumberton-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -3302,12 +3666,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "lyman-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "lyman-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration lyman' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "lyman-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration lyman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "lyman-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -3428,12 +3806,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "mclain-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "mclain-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration mclain' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "mclain-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration mclain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "mclain-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -3554,12 +3946,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "moselle-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "moselle-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration moselle' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "moselle-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration moselle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "moselle-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -3680,12 +4086,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "moss-point-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning moss point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "moss-point-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration moss point' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "moss-point-ms__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: Hurricane-exposed coastal city needing pack-out storage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "moss-point-ms__crawl-space-encapsulation": {
    "pass": true,
@@ -3806,12 +4226,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "ocean-springs-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning ocean springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "ocean-springs-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration ocean springs' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "ocean-springs-ms__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: Hurricane-exposed coastal city needing pack-out storage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "ocean-springs-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -3932,12 +4366,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "ovett-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "ovett-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration ovett' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "ovett-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration ovett' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "ovett-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -4058,12 +4506,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "pascagoula-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning pascagoula' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "pascagoula-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration pascagoula' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "pascagoula-ms__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: Hurricane-exposed coastal city needing pack-out storage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "pascagoula-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -4184,12 +4646,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "pass-christian-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning pass christian' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "pass-christian-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration pass christian' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "pass-christian-ms__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: Hurricane-exposed coastal city needing pack-out storage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "pass-christian-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -4310,12 +4786,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "pearlington-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning pearlington' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "pearlington-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration pearlington' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "pearlington-ms__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: Hurricane-exposed low-lying flood zone needing storage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "pearlington-ms__crawl-space-encapsulation": {
    "pass": true,
@@ -4436,12 +4926,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "petal-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "petal-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration petal' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "petal-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration petal' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "petal-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -4562,12 +5066,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "picayune-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "picayune-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration picayune' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "picayune-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration picayune' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "picayune-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -4688,12 +5206,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "poplarville-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "poplarville-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration poplarville' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "poplarville-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration poplarville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "poplarville-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -4814,12 +5346,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "rawls-springs-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "rawls-springs-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration rawls springs' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "rawls-springs-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration rawls springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "rawls-springs-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -4940,12 +5486,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "sandersville-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "sandersville-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration sandersville' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "sandersville-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration sandersville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "sandersville-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -5066,12 +5626,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "saucier-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "saucier-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration saucier' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "saucier-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration saucier' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "saucier-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -5192,12 +5766,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "st-martin-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning st. martin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "st-martin-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration st. martin' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "st-martin-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration st. martin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "st-martin-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -5318,12 +5906,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "state-line-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "state-line-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration state line' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "state-line-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration state line' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "state-line-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -5444,12 +6046,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "vancleave-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning vancleave' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "vancleave-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration vancleave' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "vancleave-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration vancleave' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "vancleave-ms__crawl-space-encapsulation": {
    "pass": true,
@@ -5570,12 +6186,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "wade-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning wade' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "wade-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration wade' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "wade-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration wade' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "wade-ms__crawl-space-encapsulation": {
    "pass": true,
@@ -5696,12 +6326,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "waveland-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning waveland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "waveland-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration waveland' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "waveland-ms__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: Hurricane-exposed coastal city needing pack-out storage",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "waveland-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -5822,12 +6466,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "wiggins-ms__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "wiggins-ms__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration wiggins' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "wiggins-ms__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration wiggins' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "wiggins-ms__crawl-space-encapsulation": {
    "pass": false,
@@ -6017,9 +6675,6 @@
   "upholstery-cleaning": [
    "explicit non-core plan-input service"
   ],
-  "vandalism-cleanup": [
-   "plan-input before core floor (2026-09-24)"
-  ],
   "water-damage-restoration": [
    "plan-input before core floor (2026-09-24)",
    "truth table (companies.services)"
@@ -6102,7 +6757,15 @@
   "smoke-damage-restoration": {
    "term": "smoke damage restoration",
    "metro": 0
+  },
+  "carpet-upholstery-cleaning": {
+   "term": "carpet and upholstery cleaning",
+   "metro": 20
+  },
+  "contents-restoration-storage": {
+   "term": "contents restoration",
+   "metro": 0
   }
  },
- "updated_at": "2026-10-01T05:05:47+00:00"
+ "updated_at": "2026-10-02T04:36:14+00:00"
 }

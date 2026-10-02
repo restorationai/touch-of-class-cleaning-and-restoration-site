@@ -1,21 +1,21 @@
 # Site Plan Report — DISS Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-10-01T05:04:26.768438+00:00
+- Generated: 2026-10-02T05:01:14.755233+00:00
 - Domain: `dissrestoration.com`
 - Services selected: 28 of 91 catalog entries
-- Service areas: 21
+- Service areas: 22
 - Cross-product enabled: True
-- Total URLs: **257**
-- Total internal links: 2020 (avg 7.9 per page)
+- Total URLs: **259**
+- Total internal links: 2033 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 192 |
+| `service-area-service` | 193 |
 | `service-landing` | 28 |
-| `service-area` | 20 |
+| `service-area` | 21 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -79,6 +79,7 @@
 - `grove-city-pa` — Grove City, PA
 - `mercer-pa` — Mercer, PA
 - `new-castle-pa` — New Castle, PA
+- `mcdonald-oh` — McDonald, OH
 
 ## Top 10 priority pages
 

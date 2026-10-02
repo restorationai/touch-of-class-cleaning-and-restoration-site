@@ -4,7 +4,2940 @@
   "combo_min": 10,
   "head_metro_min": 1000
  },
- "decisions": {},
+ "decisions": {
+  "aliquippa-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup aliquippa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "aliquippa-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup aliquippa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "aliquippa-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair aliquippa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "aliquippa-pa__commercial-restoration": {
+   "pass": true,
+   "why": "local angle: former steel town with commercial redevelopment",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "aliquippa-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration aliquippa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "aliquippa-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up aliquippa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "aliquippa-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal aliquippa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "aliquippa-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration aliquippa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "aliquippa-pa__flood-damage-restoration": {
+   "pass": true,
+   "why": "local angle: riverside town on Ohio River flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "aliquippa-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration aliquippa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "aliquippa-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor aliquippa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "aliquippa-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection aliquippa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "aliquippa-pa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation aliquippa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "aliquippa-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal aliquippa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "aliquippa-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction aliquippa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "aliquippa-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup aliquippa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "aliquippa-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration aliquippa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "aliquippa-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal aliquippa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "aliquippa-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration aliquippa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "allison-park-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "allison-park-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "allison-park-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "allison-park-pa__commercial-restoration": {
+   "pass": false,
+   "why": "no local demand ('commercial restoration allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "allison-park-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "allison-park-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "allison-park-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "allison-park-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "allison-park-pa__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "allison-park-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "allison-park-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "allison-park-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "allison-park-pa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "allison-park-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "allison-park-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "allison-park-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "allison-park-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "allison-park-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "allison-park-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baden-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup baden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baden-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup baden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baden-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair baden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baden-pa__commercial-restoration": {
+   "pass": false,
+   "why": "no local demand ('commercial restoration baden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baden-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration baden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baden-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up baden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baden-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal baden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baden-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration baden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baden-pa__flood-damage-restoration": {
+   "pass": true,
+   "why": "local angle: borders Ohio River flood-prone area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baden-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration baden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baden-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor baden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baden-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection baden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baden-pa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation baden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baden-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal baden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baden-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction baden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baden-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup baden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baden-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration baden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baden-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal baden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baden-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration baden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "beaver-falls-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup beaver falls' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "beaver-falls-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup beaver falls' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "beaver-falls-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair beaver falls' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "beaver-falls-pa__commercial-restoration": {
+   "pass": false,
+   "why": "no local demand ('commercial restoration beaver falls' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "beaver-falls-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration beaver falls' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "beaver-falls-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up beaver falls' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "beaver-falls-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal beaver falls' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "beaver-falls-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration beaver falls' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "beaver-falls-pa__flood-damage-restoration": {
+   "pass": true,
+   "why": "local angle: sits along Beaver River flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "beaver-falls-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration beaver falls' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "beaver-falls-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor beaver falls' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "beaver-falls-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection beaver falls' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "beaver-falls-pa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation beaver falls' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "beaver-falls-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal beaver falls' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "beaver-falls-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction beaver falls' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "beaver-falls-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup beaver falls' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "beaver-falls-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration beaver falls' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "beaver-falls-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal beaver falls' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "beaver-falls-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration beaver falls' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bell-acres-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup bell acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bell-acres-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup bell acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bell-acres-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair bell acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bell-acres-pa__commercial-restoration": {
+   "pass": false,
+   "why": "implausible here: tiny residential borough, no commercial base",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "bell-acres-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration bell acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bell-acres-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up bell acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bell-acres-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal bell acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bell-acres-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration bell acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bell-acres-pa__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration bell acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bell-acres-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration bell acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bell-acres-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor bell acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bell-acres-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection bell acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bell-acres-pa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation bell acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bell-acres-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal bell acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bell-acres-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction bell acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bell-acres-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup bell acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bell-acres-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration bell acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bell-acres-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal bell acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bell-acres-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration bell acres' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "big-beaver-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup big beaver' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "big-beaver-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup big beaver' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "big-beaver-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair big beaver' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "big-beaver-pa__commercial-restoration": {
+   "pass": false,
+   "why": "implausible here: tiny borough with no commercial district",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "big-beaver-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration big beaver' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "big-beaver-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up big beaver' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "big-beaver-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal big beaver' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "big-beaver-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration big beaver' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "big-beaver-pa__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration big beaver' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "big-beaver-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration big beaver' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "big-beaver-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor big beaver' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "big-beaver-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection big beaver' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "big-beaver-pa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation big beaver' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "big-beaver-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal big beaver' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "big-beaver-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction big beaver' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "big-beaver-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup big beaver' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "big-beaver-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration big beaver' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "big-beaver-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal big beaver' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "big-beaver-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration big beaver' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "butler-pa__basement-flooding-cleanup": {
+   "pass": true,
+   "why": "local angle: older housing stock with basements common",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "butler-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup butler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "butler-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair butler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "butler-pa__commercial-restoration": {
+   "pass": true,
+   "why": "local angle: county seat with established commercial district",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "butler-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration butler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "butler-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up butler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "butler-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal butler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "butler-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration butler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "butler-pa__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration butler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "butler-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration butler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "butler-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor butler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "butler-pa__mold-inspection-testing": {
+   "pass": true,
+   "why": "local demand: 'mold inspection butler' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "butler-pa__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation butler' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "butler-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal butler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "butler-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction butler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "butler-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup butler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "butler-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration butler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "butler-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal butler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "butler-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration butler' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "economy-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup economy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "economy-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup economy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "economy-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair economy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "economy-pa__commercial-restoration": {
+   "pass": false,
+   "why": "implausible here: small residential borough, minimal commercial base",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "economy-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration economy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "economy-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up economy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "economy-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal economy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "economy-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration economy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "economy-pa__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration economy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "economy-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration economy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "economy-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor economy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "economy-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection economy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "economy-pa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation economy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "economy-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal economy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "economy-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction economy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "economy-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup economy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "economy-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration economy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "economy-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal economy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "economy-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration economy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ellwood-city-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup ellwood city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ellwood-city-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup ellwood city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ellwood-city-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair ellwood city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ellwood-city-pa__commercial-restoration": {
+   "pass": false,
+   "why": "no local demand ('commercial restoration ellwood city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ellwood-city-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration ellwood city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ellwood-city-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up ellwood city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ellwood-city-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal ellwood city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ellwood-city-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration ellwood city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ellwood-city-pa__flood-damage-restoration": {
+   "pass": true,
+   "why": "local angle: along Beaver River flood-prone area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ellwood-city-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration ellwood city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ellwood-city-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor ellwood city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ellwood-city-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection ellwood city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ellwood-city-pa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation ellwood city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ellwood-city-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal ellwood city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ellwood-city-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction ellwood city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ellwood-city-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup ellwood city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ellwood-city-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration ellwood city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ellwood-city-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal ellwood city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "ellwood-city-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration ellwood city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "evans-city-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup evans city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "evans-city-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup evans city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "evans-city-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair evans city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "evans-city-pa__commercial-restoration": {
+   "pass": false,
+   "why": "no local demand ('commercial restoration evans city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "evans-city-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration evans city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "evans-city-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up evans city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "evans-city-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal evans city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "evans-city-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration evans city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "evans-city-pa__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration evans city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "evans-city-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration evans city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "evans-city-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor evans city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "evans-city-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection evans city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "evans-city-pa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation evans city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "evans-city-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal evans city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "evans-city-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction evans city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "evans-city-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup evans city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "evans-city-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration evans city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "evans-city-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal evans city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "evans-city-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration evans city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "franklin-park-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup franklin park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "franklin-park-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup franklin park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "franklin-park-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair franklin park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "franklin-park-pa__commercial-restoration": {
+   "pass": true,
+   "why": "local angle: large retail and office corridor nearby",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "franklin-park-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration franklin park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "franklin-park-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up franklin park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "franklin-park-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal franklin park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "franklin-park-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration franklin park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "franklin-park-pa__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration franklin park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "franklin-park-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration franklin park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "franklin-park-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor franklin park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "franklin-park-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection franklin park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "franklin-park-pa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation franklin park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "franklin-park-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal franklin park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "franklin-park-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction franklin park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "franklin-park-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup franklin park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "franklin-park-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration franklin park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "franklin-park-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal franklin park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "franklin-park-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration franklin park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "gibsonia-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup gibsonia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "gibsonia-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup gibsonia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "gibsonia-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair gibsonia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "gibsonia-pa__commercial-restoration": {
+   "pass": false,
+   "why": "no local demand ('commercial restoration gibsonia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "gibsonia-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration gibsonia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "gibsonia-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up gibsonia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "gibsonia-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal gibsonia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "gibsonia-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration gibsonia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "gibsonia-pa__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration gibsonia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "gibsonia-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration gibsonia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "gibsonia-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor gibsonia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "gibsonia-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection gibsonia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "gibsonia-pa__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation gibsonia' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "gibsonia-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal gibsonia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "gibsonia-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction gibsonia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "gibsonia-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup gibsonia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "gibsonia-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration gibsonia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "gibsonia-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal gibsonia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "gibsonia-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration gibsonia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "glenshaw-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "glenshaw-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "glenshaw-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "glenshaw-pa__commercial-restoration": {
+   "pass": false,
+   "why": "no local demand ('commercial restoration glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "glenshaw-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "glenshaw-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "glenshaw-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "glenshaw-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "glenshaw-pa__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "glenshaw-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "glenshaw-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "glenshaw-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "glenshaw-pa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "glenshaw-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "glenshaw-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "glenshaw-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "glenshaw-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "glenshaw-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "glenshaw-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mars-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mars-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mars-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mars-pa__commercial-restoration": {
+   "pass": false,
+   "why": "no local demand ('commercial restoration mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mars-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mars-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mars-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mars-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mars-pa__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mars-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mars-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mars-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mars-pa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mars-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mars-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mars-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mars-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mars-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mars-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "monaca-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup monaca' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "monaca-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup monaca' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "monaca-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair monaca' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "monaca-pa__commercial-restoration": {
+   "pass": true,
+   "why": "local angle: industrial and petrochemical commercial base",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "monaca-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration monaca' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "monaca-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up monaca' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "monaca-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal monaca' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "monaca-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration monaca' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "monaca-pa__flood-damage-restoration": {
+   "pass": true,
+   "why": "local angle: along Ohio River mapped flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "monaca-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration monaca' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "monaca-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor monaca' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "monaca-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection monaca' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "monaca-pa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation monaca' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "monaca-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal monaca' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "monaca-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction monaca' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "monaca-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup monaca' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "monaca-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration monaca' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "monaca-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal monaca' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "monaca-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration monaca' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oak-hills-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup oak hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oak-hills-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup oak hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oak-hills-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair oak hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oak-hills-pa__commercial-restoration": {
+   "pass": false,
+   "why": "implausible here: small residential area, lacks commercial base",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "oak-hills-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration oak hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oak-hills-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up oak hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oak-hills-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal oak hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oak-hills-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration oak hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oak-hills-pa__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration oak hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oak-hills-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration oak hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oak-hills-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor oak hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oak-hills-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection oak hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oak-hills-pa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation oak hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oak-hills-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal oak hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oak-hills-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction oak hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oak-hills-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup oak hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oak-hills-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration oak hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oak-hills-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal oak hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oak-hills-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration oak hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prospect-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup prospect' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prospect-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup prospect' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prospect-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair prospect' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prospect-pa__commercial-restoration": {
+   "pass": false,
+   "why": "implausible here: small rural borough, no commercial base",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "prospect-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration prospect' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prospect-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up prospect' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prospect-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal prospect' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prospect-pa__fire-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'fire damage restoration prospect' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prospect-pa__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration prospect' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prospect-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration prospect' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prospect-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor prospect' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prospect-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection prospect' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prospect-pa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation prospect' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prospect-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal prospect' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prospect-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction prospect' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prospect-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup prospect' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prospect-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration prospect' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prospect-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal prospect' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "prospect-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration prospect' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "seven-fields-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup seven fields' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "seven-fields-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup seven fields' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "seven-fields-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair seven fields' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "seven-fields-pa__commercial-restoration": {
+   "pass": false,
+   "why": "no local demand ('commercial restoration seven fields' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "seven-fields-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration seven fields' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "seven-fields-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up seven fields' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "seven-fields-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal seven fields' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "seven-fields-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration seven fields' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "seven-fields-pa__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration seven fields' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "seven-fields-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration seven fields' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "seven-fields-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor seven fields' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "seven-fields-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection seven fields' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "seven-fields-pa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation seven fields' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "seven-fields-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal seven fields' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "seven-fields-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction seven fields' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "seven-fields-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup seven fields' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "seven-fields-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration seven fields' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "seven-fields-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal seven fields' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "seven-fields-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration seven fields' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-heights-pa__basement-flooding-cleanup": {
+   "pass": true,
+   "why": "local angle: large estate homes with deep basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-heights-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup sewickley heights' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-heights-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair sewickley heights' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-heights-pa__commercial-restoration": {
+   "pass": false,
+   "why": "no local demand ('commercial restoration sewickley heights' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-heights-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration sewickley heights' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-heights-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up sewickley heights' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-heights-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal sewickley heights' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-heights-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration sewickley heights' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-heights-pa__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration sewickley heights' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-heights-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration sewickley heights' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-heights-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor sewickley heights' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-heights-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection sewickley heights' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-heights-pa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation sewickley heights' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-heights-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal sewickley heights' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-heights-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction sewickley heights' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-heights-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup sewickley heights' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-heights-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration sewickley heights' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-heights-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal sewickley heights' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-heights-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration sewickley heights' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-hills-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-hills-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-hills-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-hills-pa__commercial-restoration": {
+   "pass": false,
+   "why": "implausible here: small residential community, no commercial base",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "sewickley-hills-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-hills-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-hills-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-hills-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-hills-pa__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-hills-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-hills-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-hills-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-hills-pa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-hills-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-hills-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-hills-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-hills-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-hills-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sewickley-hills-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "wexford-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup wexford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "wexford-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup wexford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "wexford-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair wexford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "wexford-pa__commercial-restoration": {
+   "pass": false,
+   "why": "no local demand ('commercial restoration wexford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "wexford-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration wexford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "wexford-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up wexford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "wexford-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal wexford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "wexford-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration wexford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "wexford-pa__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration wexford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "wexford-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration wexford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "wexford-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor wexford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "wexford-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection wexford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "wexford-pa__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation wexford' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "wexford-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal wexford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "wexford-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction wexford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "wexford-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup wexford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "wexford-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration wexford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "wexford-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal wexford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "wexford-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration wexford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "zelienople-pa__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "no local demand ('basement flooding cleanup zelienople' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "zelienople-pa__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup zelienople' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "zelienople-pa__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair zelienople' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "zelienople-pa__commercial-restoration": {
+   "pass": false,
+   "why": "no local demand ('commercial restoration zelienople' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "zelienople-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration zelienople' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "zelienople-pa__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up zelienople' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "zelienople-pa__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal zelienople' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "zelienople-pa__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration zelienople' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "zelienople-pa__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration zelienople' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "zelienople-pa__frozen-pipe-restoration": {
+   "pass": false,
+   "why": "no local demand ('frozen pipe restoration zelienople' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "zelienople-pa__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor zelienople' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "zelienople-pa__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection zelienople' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "zelienople-pa__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation zelienople' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "zelienople-pa__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal zelienople' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "zelienople-pa__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction zelienople' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "zelienople-pa__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup zelienople' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "zelienople-pa__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration zelienople' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "zelienople-pa__soot-removal": {
+   "pass": false,
+   "why": "no local demand ('soot removal zelienople' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "zelienople-pa__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration zelienople' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  }
+ },
  "offered": {
   "basement-flooding-cleanup": [
    "plan-input before core floor (2026-09-24)"
@@ -94,5 +3027,85 @@
    "truth table (companies.services)",
    "GBP service in the client's words: 'Complete Water Extraction'"
   ]
- }
+ },
+ "metro": "Wexford,Pennsylvania,United States",
+ "heads": {
+  "basement-flooding-cleanup": {
+   "term": "basement flooding cleanup",
+   "metro": 0
+  },
+  "biohazard-cleanup": {
+   "term": "biohazard cleanup",
+   "metro": 10
+  },
+  "burst-pipe-repair": {
+   "term": "burst pipe repair",
+   "metro": 10
+  },
+  "commercial-restoration": {
+   "term": "commercial restoration",
+   "metro": 0
+  },
+  "contents-restoration-storage": {
+   "term": "contents restoration",
+   "metro": 0
+  },
+  "emergency-board-up-tarping": {
+   "term": "emergency board up",
+   "metro": 0
+  },
+  "emergency-water-removal": {
+   "term": "emergency water removal",
+   "metro": 20
+  },
+  "fire-damage-restoration": {
+   "term": "fire damage restoration",
+   "metro": 10
+  },
+  "flood-damage-restoration": {
+   "term": "flood damage restoration",
+   "metro": 20
+  },
+  "frozen-pipe-restoration": {
+   "term": "frozen pipe restoration",
+   "metro": 0
+  },
+  "general-contracting": {
+   "term": "general contractor",
+   "metro": 20
+  },
+  "mold-inspection-testing": {
+   "term": "mold inspection",
+   "metro": 20
+  },
+  "mold-remediation": {
+   "term": "mold remediation",
+   "metro": 20
+  },
+  "odor-removal": {
+   "term": "odor removal",
+   "metro": 0
+  },
+  "reconstruction": {
+   "term": "restoration reconstruction",
+   "metro": 0
+  },
+  "sewage-cleanup": {
+   "term": "sewage cleanup",
+   "metro": 0
+  },
+  "smoke-damage-restoration": {
+   "term": "smoke damage restoration",
+   "metro": 10
+  },
+  "soot-removal": {
+   "term": "soot removal",
+   "metro": 0
+  },
+  "storm-damage-restoration": {
+   "term": "storm damage restoration",
+   "metro": 0
+  }
+ },
+ "updated_at": "2026-10-02T04:34:08+00:00"
 }

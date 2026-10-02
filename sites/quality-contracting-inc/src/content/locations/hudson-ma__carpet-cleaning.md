@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning hudson"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "92ab21e68b7af60e"
-generated_at: "2026-09-30T19:28:57.242338+00:00"
+plan_hash: "b4c4cba5c5e92298"
+generated_at: "2026-10-02T04:40:31.084217+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/hudson-ma/", "/service-areas/hudson-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/hudson-ma/", "/service-areas/hudson-ma/mold-remediation/", "/service-areas/hudson-ma/water-damage-restoration/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/framingham-ma/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hudson", "url": "/service-areas/hudson-ma/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "hudson-ma"

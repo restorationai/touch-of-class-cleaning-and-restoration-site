@@ -58,7 +58,7 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-damage-restoration/": {
+  "/services/contents-restoration-storage/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -88,6 +88,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/odor-removal/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/sewage-cleanup/": {
     "archetype": "service-landing",
     "stubs": [
@@ -98,7 +108,7 @@
     ],
     "missing_stubs": []
   },
-  "/services/contents-restoration-storage/": {
+  "/services/storm-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -118,7 +128,7 @@
     ],
     "missing_stubs": []
   },
-  "/services/storm-damage-restoration/": {
+  "/services/water-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -439,7 +449,16 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/columbia-md/water-damage-restoration/": {
+  "/service-areas/kingsville-md/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/columbia-md/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -479,17 +498,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/columbia-md/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/silver-spring-md/water-damage-restoration/": {
+  "/service-areas/columbia-md/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -519,17 +528,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rockville-md/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rockville-md/mold-remediation/": {
+  "/service-areas/silver-spring-md/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -549,6 +548,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/rockville-md/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/rockville-md/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -559,17 +568,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bethesda-md/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bethesda-md/mold-remediation/": {
+  "/service-areas/rockville-md/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -589,6 +588,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/bethesda-md/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/bethesda-md/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -599,17 +608,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gaithersburg-md/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gaithersburg-md/mold-remediation/": {
+  "/service-areas/bethesda-md/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -629,7 +628,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/germantown-md/water-damage-restoration/": {
+  "/service-areas/gaithersburg-md/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -639,7 +638,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ellicott-city-md/water-damage-restoration/": {
+  "/service-areas/gaithersburg-md/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/germantown-md/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -679,16 +688,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ellicott-city-md/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ellicott-city-md/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -699,7 +698,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/glen-burnie-md/water-damage-restoration/": {
+  "/service-areas/ellicott-city-md/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/ellicott-city-md/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -729,7 +738,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/dundalk-md/water-damage-restoration/": {
+  "/service-areas/glen-burnie-md/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -759,7 +768,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bowie-md/water-damage-restoration/": {
+  "/service-areas/dundalk-md/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -799,7 +808,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/towson-md/water-damage-restoration/": {
+  "/service-areas/bowie-md/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/towson-md/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -839,17 +858,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/towson-md/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/annapolis-md/water-damage-restoration/": {
+  "/service-areas/towson-md/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -889,16 +898,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/annapolis-md/water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/annapolis-md/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -909,7 +908,17 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/catonsville-md/water-damage-restoration/": {
+  "/service-areas/annapolis-md/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/annapolis-md/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -929,7 +938,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wheaton-md/water-damage-restoration/": {
+  "/service-areas/catonsville-md/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -949,7 +958,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/aspen-hill-md/water-damage-restoration/": {
+  "/service-areas/wheaton-md/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -959,7 +968,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/essex-md/water-damage-restoration/": {
+  "/service-areas/aspen-hill-md/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -989,7 +998,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/potomac-md/water-damage-restoration/": {
+  "/service-areas/essex-md/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1019,7 +1028,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/severn-md/water-damage-restoration/": {
+  "/service-areas/potomac-md/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1059,7 +1068,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/owings-mills-md/water-damage-restoration/": {
+  "/service-areas/severn-md/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1090,6 +1099,26 @@
     "missing_stubs": []
   },
   "/service-areas/owings-mills-md/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/owings-mills-md/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/kingsville-md/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

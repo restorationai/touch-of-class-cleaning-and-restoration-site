@@ -7,10 +7,10 @@ primary_keyword: "restoration services ware"
 secondary_keywords: ["ware restoration company", "damage restoration ware", "ware disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "de30fcb49549e90a"
-generated_at: "2026-09-30T19:28:56.916098+00:00"
+plan_hash: "9812b73174887825"
+generated_at: "2026-10-02T04:40:31.068149+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/ware-ma/", "/service-areas/ware-ma/water-damage-restoration/", "/service-areas/ware-ma/emergency-water-removal/", "/service-areas/ware-ma/storm-damage-restoration/", "/service-areas/ware-ma/carpet-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/ware-ma/water-damage-restoration/", "/service-areas/ware-ma/emergency-water-removal/", "/service-areas/ware-ma/storm-damage-restoration/", "/service-areas/ware-ma/carpet-cleaning/", "/service-areas/ware-ma/upholstery-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ware"}]
 faq: []
 area_slug: "ware-ma"

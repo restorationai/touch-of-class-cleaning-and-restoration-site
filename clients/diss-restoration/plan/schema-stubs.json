@@ -518,6 +518,15 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/mcdonald-oh/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/warren-oh/air-duct-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2429,6 +2438,16 @@
     "missing_stubs": []
   },
   "/service-areas/new-castle-pa/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/mcdonald-oh/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

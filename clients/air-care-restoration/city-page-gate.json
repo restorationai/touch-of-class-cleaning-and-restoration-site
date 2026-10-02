@@ -12,6 +12,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "albany-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning albany' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "albany-tx__asbestos-abatement": {
    "pass": true,
    "why": "local demand: 'asbestos abatement albany' 70/mo",
@@ -32,6 +39,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "albany-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration albany' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "albany-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -96,12 +110,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "albany-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup albany' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "anson-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning anson' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "anson-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning anson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "anson-tx__asbestos-abatement": {
    "pass": false,
@@ -123,6 +151,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "anson-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration anson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "anson-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -187,12 +222,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "anson-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup anson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "baird-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning baird' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "baird-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning baird' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "baird-tx__asbestos-abatement": {
    "pass": false,
@@ -214,6 +263,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "baird-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration baird' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "baird-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -278,12 +334,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "baird-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup baird' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "ballinger-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning ballinger' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "ballinger-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning ballinger' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "ballinger-tx__asbestos-abatement": {
    "pass": false,
@@ -305,6 +375,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "ballinger-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration ballinger' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "ballinger-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -369,12 +446,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "ballinger-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup ballinger' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "bronte-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning bronte' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "bronte-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning bronte' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "bronte-tx__asbestos-abatement": {
    "pass": false,
@@ -396,6 +487,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "bronte-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration bronte' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "bronte-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -460,12 +558,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "bronte-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup bronte' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "brownwood-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning brownwood' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "brownwood-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning brownwood' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "brownwood-tx__asbestos-abatement": {
    "pass": false,
@@ -487,6 +599,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "brownwood-tx__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: regional hub with business base",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "brownwood-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -551,12 +670,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "brownwood-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup brownwood' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "buffalo-gap-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning buffalo gap' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "buffalo-gap-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning buffalo gap' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "buffalo-gap-tx__asbestos-abatement": {
    "pass": false,
@@ -578,6 +711,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "buffalo-gap-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration buffalo gap' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "buffalo-gap-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -642,12 +782,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "buffalo-gap-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup buffalo gap' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "clyde-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning clyde' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "clyde-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning clyde' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "clyde-tx__asbestos-abatement": {
    "pass": false,
@@ -669,6 +823,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "clyde-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration clyde' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "clyde-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -733,12 +894,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "clyde-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup clyde' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "coleman-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning coleman' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "coleman-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning coleman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "coleman-tx__asbestos-abatement": {
    "pass": false,
@@ -760,6 +935,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "coleman-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration coleman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "coleman-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -824,12 +1006,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "coleman-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup coleman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "colorado-city-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning colorado city' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "colorado-city-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning colorado city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "colorado-city-tx__asbestos-abatement": {
    "pass": false,
@@ -851,6 +1047,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "colorado-city-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration colorado city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "colorado-city-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -915,12 +1118,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "colorado-city-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup colorado city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "comanche-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning comanche' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "comanche-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning comanche' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "comanche-tx__asbestos-abatement": {
    "pass": false,
@@ -942,6 +1159,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "comanche-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration comanche' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "comanche-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -1006,12 +1230,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "comanche-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup comanche' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "early-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning early' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "early-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning early' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "early-tx__asbestos-abatement": {
    "pass": false,
@@ -1033,6 +1271,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "early-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration early' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "early-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -1097,12 +1342,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "early-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup early' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "eastland-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning eastland' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "eastland-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning eastland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "eastland-tx__asbestos-abatement": {
    "pass": false,
@@ -1124,6 +1383,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "eastland-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration eastland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "eastland-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -1188,12 +1454,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "eastland-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup eastland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "eden-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning eden' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "eden-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning eden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "eden-tx__asbestos-abatement": {
    "pass": false,
@@ -1215,6 +1495,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "eden-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration eden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "eden-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -1279,12 +1566,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "eden-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup eden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "haskell-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning haskell' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "haskell-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning haskell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "haskell-tx__asbestos-abatement": {
    "pass": false,
@@ -1306,6 +1607,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "haskell-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration haskell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "haskell-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -1370,12 +1678,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "haskell-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup haskell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "hawley-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning hawley' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "hawley-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning hawley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "hawley-tx__asbestos-abatement": {
    "pass": false,
@@ -1397,6 +1719,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "hawley-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration hawley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "hawley-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -1461,12 +1790,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "hawley-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup hawley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "merkel-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning merkel' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "merkel-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning merkel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "merkel-tx__asbestos-abatement": {
    "pass": false,
@@ -1488,6 +1831,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "merkel-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration merkel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "merkel-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -1552,12 +1902,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "merkel-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup merkel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "paint-rock-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning paint rock' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "paint-rock-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning paint rock' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "paint-rock-tx__asbestos-abatement": {
    "pass": false,
@@ -1579,6 +1943,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "paint-rock-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration paint rock' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "paint-rock-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -1643,12 +2014,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "paint-rock-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup paint rock' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "potosi-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning potosi' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "potosi-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning potosi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "potosi-tx__asbestos-abatement": {
    "pass": false,
@@ -1670,6 +2055,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "potosi-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration potosi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "potosi-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -1734,12 +2126,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "potosi-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup potosi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "robert-lee-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning robert lee' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "robert-lee-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning robert lee' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "robert-lee-tx__asbestos-abatement": {
    "pass": false,
@@ -1761,6 +2167,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "robert-lee-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration robert lee' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "robert-lee-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -1825,12 +2238,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "robert-lee-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup robert lee' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "roby-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning roby' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "roby-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning roby' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "roby-tx__asbestos-abatement": {
    "pass": false,
@@ -1852,6 +2279,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "roby-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration roby' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "roby-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -1916,12 +2350,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "roby-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup roby' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "rotan-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning rotan' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "rotan-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning rotan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "rotan-tx__asbestos-abatement": {
    "pass": false,
@@ -1943,6 +2391,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "rotan-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration rotan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "rotan-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -2007,12 +2462,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "rotan-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup rotan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "san-angelo-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning san angelo' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "san-angelo-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning san angelo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "san-angelo-tx__asbestos-abatement": {
    "pass": true,
@@ -2034,6 +2503,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "san-angelo-tx__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: larger city with ample storage facilities",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "san-angelo-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -2098,12 +2574,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "san-angelo-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup san angelo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "snyder-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning snyder' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "snyder-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning snyder' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "snyder-tx__asbestos-abatement": {
    "pass": true,
@@ -2125,6 +2615,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "snyder-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration snyder' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "snyder-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -2189,12 +2686,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "snyder-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup snyder' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "sweetwater-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning sweetwater' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "sweetwater-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning sweetwater' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "sweetwater-tx__asbestos-abatement": {
    "pass": false,
@@ -2216,6 +2727,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "sweetwater-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration sweetwater' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "sweetwater-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -2280,12 +2798,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "sweetwater-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup sweetwater' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "tuscola-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning tuscola' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "tuscola-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning tuscola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "tuscola-tx__asbestos-abatement": {
    "pass": false,
@@ -2307,6 +2839,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "tuscola-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration tuscola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "tuscola-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -2371,12 +2910,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "tuscola-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup tuscola' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "tye-tx__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning tye' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "tye-tx__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning tye' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "tye-tx__asbestos-abatement": {
    "pass": false,
@@ -2398,6 +2951,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "tye-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration tye' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "tye-tx__emergency-board-up-tarping": {
    "pass": false,
@@ -2461,6 +3021,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "tye-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup tye' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   }
  },
  "offered": {
@@ -2533,9 +3100,6 @@
    "plan-input before core floor (2026-09-24)",
    "truth table (companies.services)"
   ],
-  "vandalism-cleanup": [
-   "plan-input before core floor (2026-09-24)"
-  ],
   "water-cleanup": [
    "plan-input before core floor (2026-09-24)",
    "explicit non-core plan-input service",
@@ -2599,7 +3163,19 @@
   "storm-damage-restoration": {
    "term": "storm damage restoration",
    "metro": 0
+  },
+  "air-duct-hvac-cleaning": {
+   "term": "air duct and hvac cleaning",
+   "metro": 0
+  },
+  "contents-restoration-storage": {
+   "term": "contents restoration",
+   "metro": 0
+  },
+  "water-cleanup": {
+   "term": "water cleanup",
+   "metro": 0
   }
  },
- "updated_at": "2026-10-01T05:03:01+00:00"
+ "updated_at": "2026-10-02T04:29:58+00:00"
 }

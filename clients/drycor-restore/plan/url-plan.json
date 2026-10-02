@@ -1,7 +1,7 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-10-01T14:30:44.615457+00:00",
+  "generated_at": "2026-10-02T04:40:24.735388+00:00",
   "input_summary": {
     "service_count": 22,
     "service_area_count": 68,
@@ -636,6 +636,56 @@
         "/service-areas/davenport-fl/emergency-board-up-tarping/",
         "/service-areas/dover-fl/emergency-board-up-tarping/",
         "/service-areas/dundee-fl/emergency-board-up-tarping/"
+      ]
+    },
+    {
+      "url_path": "/services/emergency-plumbing/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Plumbing in Thonotosassa | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in Thonotosassa",
+      "meta_description": "24/7 emergency plumbing in Thonotosassa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing thonotosassa",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/bradenton-fl/emergency-plumbing/",
+        "/service-areas/brandon-fl/emergency-plumbing/",
+        "/service-areas/clearwater-fl/emergency-plumbing/",
+        "/service-areas/dover-fl/emergency-plumbing/",
+        "/service-areas/dundee-fl/emergency-plumbing/",
+        "/service-areas/dunedin-fl/emergency-plumbing/",
+        "/service-areas/englewood-fl/emergency-plumbing/",
+        "/service-areas/largo-fl/emergency-plumbing/",
+        "/service-areas/new-port-richey-fl/emergency-plumbing/",
+        "/service-areas/north-port-fl/emergency-plumbing/",
+        "/service-areas/palm-harbor-fl/emergency-plumbing/",
+        "/service-areas/pinellas-park-fl/emergency-plumbing/"
       ]
     },
     {
@@ -1304,56 +1354,6 @@
       "internal_links_out": [
         "/services/",
         "/contact/"
-      ]
-    },
-    {
-      "url_path": "/services/emergency-plumbing/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Emergency Plumbing in Thonotosassa | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in Thonotosassa",
-      "meta_description": "24/7 emergency plumbing in Thonotosassa and surrounding areas. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing thonotosassa",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/bradenton-fl/emergency-plumbing/",
-        "/service-areas/brandon-fl/emergency-plumbing/",
-        "/service-areas/clearwater-fl/emergency-plumbing/",
-        "/service-areas/dover-fl/emergency-plumbing/",
-        "/service-areas/dundee-fl/emergency-plumbing/",
-        "/service-areas/dunedin-fl/emergency-plumbing/",
-        "/service-areas/englewood-fl/emergency-plumbing/",
-        "/service-areas/largo-fl/emergency-plumbing/",
-        "/service-areas/new-port-richey-fl/emergency-plumbing/",
-        "/service-areas/north-port-fl/emergency-plumbing/",
-        "/service-areas/palm-harbor-fl/emergency-plumbing/",
-        "/service-areas/pinellas-park-fl/emergency-plumbing/"
       ]
     },
     {
@@ -4485,6 +4485,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/tampa-fl/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Tampa, FL | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in Tampa",
+      "meta_description": "24/7 emergency plumbing in Tampa, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing tampa",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/tampa-fl/",
+        "/service-areas/tampa-fl/fire-damage-restoration/",
+        "/service-areas/tampa-fl/mold-remediation/",
+        "/service-areas/bradenton-fl/emergency-plumbing/",
+        "/service-areas/brandon-fl/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/tampa-fl/emergency-water-removal/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4837,50 +4881,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/tampa-fl/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in Tampa, FL | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in Tampa",
-      "meta_description": "24/7 emergency plumbing in Tampa, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing tampa",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/tampa-fl/",
-        "/service-areas/tampa-fl/fire-damage-restoration/",
-        "/service-areas/tampa-fl/mold-remediation/",
-        "/service-areas/bradenton-fl/emergency-plumbing/",
-        "/service-areas/brandon-fl/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/brandon-fl/contents-restoration-storage/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4959,6 +4959,50 @@
         "/service-areas/brandon-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/emergency-board-up-tarping/",
         "/service-areas/apollo-beach-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/brandon-fl/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Brandon, FL | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in Brandon",
+      "meta_description": "24/7 emergency plumbing in Brandon, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing brandon",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/brandon-fl/",
+        "/service-areas/brandon-fl/fire-damage-restoration/",
+        "/service-areas/brandon-fl/mold-remediation/",
+        "/service-areas/bradenton-fl/emergency-plumbing/",
+        "/service-areas/clearwater-fl/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -5269,50 +5313,6 @@
         "/service-areas/brandon-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/water-damage-restoration/",
         "/service-areas/apollo-beach-fl/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/brandon-fl/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in Brandon, FL | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in Brandon",
-      "meta_description": "24/7 emergency plumbing in Brandon, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing brandon",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/brandon-fl/",
-        "/service-areas/brandon-fl/fire-damage-restoration/",
-        "/service-areas/brandon-fl/mold-remediation/",
-        "/service-areas/bradenton-fl/emergency-plumbing/",
-        "/service-areas/clearwater-fl/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -7359,6 +7359,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/dover-fl/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Dover, FL | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in Dover",
+      "meta_description": "24/7 emergency plumbing in Dover, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing dover",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/dover-fl/",
+        "/service-areas/dover-fl/fire-damage-restoration/",
+        "/service-areas/dover-fl/mold-remediation/",
+        "/service-areas/bradenton-fl/emergency-plumbing/",
+        "/service-areas/brandon-fl/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/dover-fl/emergency-water-removal/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7669,50 +7713,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/dover-fl/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in Dover, FL | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in Dover",
-      "meta_description": "24/7 emergency plumbing in Dover, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing dover",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/dover-fl/",
-        "/service-areas/dover-fl/fire-damage-restoration/",
-        "/service-areas/dover-fl/mold-remediation/",
-        "/service-areas/bradenton-fl/emergency-plumbing/",
-        "/service-areas/brandon-fl/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/st-petersburg-fl/contents-restoration-storage/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7791,6 +7791,50 @@
         "/service-areas/st-petersburg-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/emergency-board-up-tarping/",
         "/service-areas/apollo-beach-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/st-petersburg-fl/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in St. Petersburg, FL | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in St. Petersburg",
+      "meta_description": "24/7 emergency plumbing in St. Petersburg, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing st. petersburg",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/st-petersburg-fl/",
+        "/service-areas/st-petersburg-fl/fire-damage-restoration/",
+        "/service-areas/st-petersburg-fl/mold-remediation/",
+        "/service-areas/bradenton-fl/emergency-plumbing/",
+        "/service-areas/brandon-fl/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -8105,50 +8149,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/st-petersburg-fl/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in St. Petersburg, FL | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in St. Petersburg",
-      "meta_description": "24/7 emergency plumbing in St. Petersburg, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing st. petersburg",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/st-petersburg-fl/",
-        "/service-areas/st-petersburg-fl/fire-damage-restoration/",
-        "/service-areas/st-petersburg-fl/mold-remediation/",
-        "/service-areas/bradenton-fl/emergency-plumbing/",
-        "/service-areas/brandon-fl/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/clearwater-fl/contents-restoration-storage/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8227,6 +8227,50 @@
         "/service-areas/clearwater-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/emergency-board-up-tarping/",
         "/service-areas/apollo-beach-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clearwater-fl/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Clearwater, FL | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in Clearwater",
+      "meta_description": "24/7 emergency plumbing in Clearwater, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing clearwater",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/clearwater-fl/",
+        "/service-areas/clearwater-fl/fire-damage-restoration/",
+        "/service-areas/clearwater-fl/mold-remediation/",
+        "/service-areas/bradenton-fl/emergency-plumbing/",
+        "/service-areas/brandon-fl/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -8541,50 +8585,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/clearwater-fl/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in Clearwater, FL | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in Clearwater",
-      "meta_description": "24/7 emergency plumbing in Clearwater, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing clearwater",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/clearwater-fl/",
-        "/service-areas/clearwater-fl/fire-damage-restoration/",
-        "/service-areas/clearwater-fl/mold-remediation/",
-        "/service-areas/bradenton-fl/emergency-plumbing/",
-        "/service-areas/brandon-fl/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/largo-fl/contents-restoration-storage/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8663,6 +8663,50 @@
         "/service-areas/largo-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/emergency-board-up-tarping/",
         "/service-areas/apollo-beach-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/largo-fl/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Largo, FL | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in Largo",
+      "meta_description": "24/7 emergency plumbing in Largo, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing largo",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/largo-fl/",
+        "/service-areas/largo-fl/fire-damage-restoration/",
+        "/service-areas/largo-fl/mold-remediation/",
+        "/service-areas/bradenton-fl/emergency-plumbing/",
+        "/service-areas/brandon-fl/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -8977,50 +9021,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/largo-fl/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in Largo, FL | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in Largo",
-      "meta_description": "24/7 emergency plumbing in Largo, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing largo",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/largo-fl/",
-        "/service-areas/largo-fl/fire-damage-restoration/",
-        "/service-areas/largo-fl/mold-remediation/",
-        "/service-areas/bradenton-fl/emergency-plumbing/",
-        "/service-areas/brandon-fl/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/pinellas-park-fl/contents-restoration-storage/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9099,6 +9099,50 @@
         "/service-areas/pinellas-park-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/emergency-board-up-tarping/",
         "/service-areas/apollo-beach-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pinellas-park-fl/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Pinellas Park, FL | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in Pinellas Park",
+      "meta_description": "24/7 emergency plumbing in Pinellas Park, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing pinellas park",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/pinellas-park-fl/",
+        "/service-areas/pinellas-park-fl/fire-damage-restoration/",
+        "/service-areas/pinellas-park-fl/mold-remediation/",
+        "/service-areas/bradenton-fl/emergency-plumbing/",
+        "/service-areas/brandon-fl/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -9413,50 +9457,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/pinellas-park-fl/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in Pinellas Park, FL | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in Pinellas Park",
-      "meta_description": "24/7 emergency plumbing in Pinellas Park, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing pinellas park",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/pinellas-park-fl/",
-        "/service-areas/pinellas-park-fl/fire-damage-restoration/",
-        "/service-areas/pinellas-park-fl/mold-remediation/",
-        "/service-areas/bradenton-fl/emergency-plumbing/",
-        "/service-areas/brandon-fl/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/palm-harbor-fl/contents-restoration-storage/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9535,6 +9535,50 @@
         "/service-areas/palm-harbor-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/emergency-board-up-tarping/",
         "/service-areas/apollo-beach-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/palm-harbor-fl/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Palm Harbor, FL | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in Palm Harbor",
+      "meta_description": "24/7 emergency plumbing in Palm Harbor, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing palm harbor",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/palm-harbor-fl/",
+        "/service-areas/palm-harbor-fl/fire-damage-restoration/",
+        "/service-areas/palm-harbor-fl/mold-remediation/",
+        "/service-areas/bradenton-fl/emergency-plumbing/",
+        "/service-areas/brandon-fl/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -9849,50 +9893,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/palm-harbor-fl/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in Palm Harbor, FL | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in Palm Harbor",
-      "meta_description": "24/7 emergency plumbing in Palm Harbor, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing palm harbor",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/palm-harbor-fl/",
-        "/service-areas/palm-harbor-fl/fire-damage-restoration/",
-        "/service-areas/palm-harbor-fl/mold-remediation/",
-        "/service-areas/bradenton-fl/emergency-plumbing/",
-        "/service-areas/brandon-fl/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/dunedin-fl/contents-restoration-storage/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9971,6 +9971,50 @@
         "/service-areas/dunedin-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/emergency-board-up-tarping/",
         "/service-areas/apollo-beach-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/dunedin-fl/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Dunedin, FL | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in Dunedin",
+      "meta_description": "24/7 emergency plumbing in Dunedin, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing dunedin",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/dunedin-fl/",
+        "/service-areas/dunedin-fl/fire-damage-restoration/",
+        "/service-areas/dunedin-fl/mold-remediation/",
+        "/service-areas/bradenton-fl/emergency-plumbing/",
+        "/service-areas/brandon-fl/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -10285,50 +10329,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/dunedin-fl/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in Dunedin, FL | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in Dunedin",
-      "meta_description": "24/7 emergency plumbing in Dunedin, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing dunedin",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/dunedin-fl/",
-        "/service-areas/dunedin-fl/fire-damage-restoration/",
-        "/service-areas/dunedin-fl/mold-remediation/",
-        "/service-areas/bradenton-fl/emergency-plumbing/",
-        "/service-areas/brandon-fl/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/riverview-fl/contents-restoration-storage/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10407,6 +10407,50 @@
         "/service-areas/riverview-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/emergency-board-up-tarping/",
         "/service-areas/apollo-beach-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/riverview-fl/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Riverview, FL | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in Riverview",
+      "meta_description": "24/7 emergency plumbing in Riverview, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing riverview",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/riverview-fl/",
+        "/service-areas/riverview-fl/fire-damage-restoration/",
+        "/service-areas/riverview-fl/mold-remediation/",
+        "/service-areas/bradenton-fl/emergency-plumbing/",
+        "/service-areas/brandon-fl/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -10721,50 +10765,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/riverview-fl/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in Riverview, FL | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in Riverview",
-      "meta_description": "24/7 emergency plumbing in Riverview, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing riverview",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/riverview-fl/",
-        "/service-areas/riverview-fl/fire-damage-restoration/",
-        "/service-areas/riverview-fl/mold-remediation/",
-        "/service-areas/bradenton-fl/emergency-plumbing/",
-        "/service-areas/brandon-fl/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/valrico-fl/contents-restoration-storage/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10843,6 +10843,50 @@
         "/service-areas/valrico-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/emergency-board-up-tarping/",
         "/service-areas/apollo-beach-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/valrico-fl/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Valrico, FL | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in Valrico",
+      "meta_description": "24/7 emergency plumbing in Valrico, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing valrico",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/valrico-fl/",
+        "/service-areas/valrico-fl/fire-damage-restoration/",
+        "/service-areas/valrico-fl/mold-remediation/",
+        "/service-areas/bradenton-fl/emergency-plumbing/",
+        "/service-areas/brandon-fl/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -11153,50 +11197,6 @@
         "/service-areas/valrico-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/water-damage-restoration/",
         "/service-areas/apollo-beach-fl/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/valrico-fl/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in Valrico, FL | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in Valrico",
-      "meta_description": "24/7 emergency plumbing in Valrico, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing valrico",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/valrico-fl/",
-        "/service-areas/valrico-fl/fire-damage-restoration/",
-        "/service-areas/valrico-fl/mold-remediation/",
-        "/service-areas/bradenton-fl/emergency-plumbing/",
-        "/service-areas/brandon-fl/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -13243,6 +13243,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/new-port-richey-fl/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in New Port Richey, FL | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in New Port Richey",
+      "meta_description": "24/7 emergency plumbing in New Port Richey, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing new port richey",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/new-port-richey-fl/",
+        "/service-areas/new-port-richey-fl/fire-damage-restoration/",
+        "/service-areas/new-port-richey-fl/mold-remediation/",
+        "/service-areas/bradenton-fl/emergency-plumbing/",
+        "/service-areas/brandon-fl/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/new-port-richey-fl/emergency-water-removal/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13553,50 +13597,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/new-port-richey-fl/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in New Port Richey, FL | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in New Port Richey",
-      "meta_description": "24/7 emergency plumbing in New Port Richey, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing new port richey",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/new-port-richey-fl/",
-        "/service-areas/new-port-richey-fl/fire-damage-restoration/",
-        "/service-areas/new-port-richey-fl/mold-remediation/",
-        "/service-areas/bradenton-fl/emergency-plumbing/",
-        "/service-areas/brandon-fl/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/bradenton-fl/contents-restoration-storage/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13675,6 +13675,50 @@
         "/service-areas/bradenton-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/emergency-board-up-tarping/",
         "/service-areas/apollo-beach-fl/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bradenton-fl/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Bradenton, FL | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in Bradenton",
+      "meta_description": "24/7 emergency plumbing in Bradenton, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing bradenton",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/bradenton-fl/",
+        "/service-areas/bradenton-fl/fire-damage-restoration/",
+        "/service-areas/bradenton-fl/mold-remediation/",
+        "/service-areas/brandon-fl/emergency-plumbing/",
+        "/service-areas/clearwater-fl/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -13985,50 +14029,6 @@
         "/service-areas/bradenton-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/water-damage-restoration/",
         "/service-areas/apollo-beach-fl/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/bradenton-fl/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in Bradenton, FL | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in Bradenton",
-      "meta_description": "24/7 emergency plumbing in Bradenton, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing bradenton",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/bradenton-fl/",
-        "/service-areas/bradenton-fl/fire-damage-restoration/",
-        "/service-areas/bradenton-fl/mold-remediation/",
-        "/service-areas/brandon-fl/emergency-plumbing/",
-        "/service-areas/clearwater-fl/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -17251,6 +17251,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/dundee-fl/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Dundee, FL | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in Dundee",
+      "meta_description": "24/7 emergency plumbing in Dundee, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing dundee",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/dundee-fl/",
+        "/service-areas/dundee-fl/fire-damage-restoration/",
+        "/service-areas/dundee-fl/mold-remediation/",
+        "/service-areas/bradenton-fl/emergency-plumbing/",
+        "/service-areas/brandon-fl/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/dundee-fl/emergency-water-removal/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17557,50 +17601,6 @@
         "/service-areas/dundee-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/water-damage-restoration/",
         "/service-areas/apollo-beach-fl/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/dundee-fl/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in Dundee, FL | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in Dundee",
-      "meta_description": "24/7 emergency plumbing in Dundee, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing dundee",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/dundee-fl/",
-        "/service-areas/dundee-fl/fire-damage-restoration/",
-        "/service-areas/dundee-fl/mold-remediation/",
-        "/service-areas/bradenton-fl/emergency-plumbing/",
-        "/service-areas/brandon-fl/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -18079,6 +18079,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/englewood-fl/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Englewood, FL | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in Englewood",
+      "meta_description": "24/7 emergency plumbing in Englewood, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing englewood",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/englewood-fl/",
+        "/service-areas/englewood-fl/fire-damage-restoration/",
+        "/service-areas/englewood-fl/mold-remediation/",
+        "/service-areas/bradenton-fl/emergency-plumbing/",
+        "/service-areas/brandon-fl/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/englewood-fl/emergency-water-removal/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18385,50 +18429,6 @@
         "/service-areas/englewood-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/water-damage-restoration/",
         "/service-areas/apollo-beach-fl/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/englewood-fl/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in Englewood, FL | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in Englewood",
-      "meta_description": "24/7 emergency plumbing in Englewood, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing englewood",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/englewood-fl/",
-        "/service-areas/englewood-fl/fire-damage-restoration/",
-        "/service-areas/englewood-fl/mold-remediation/",
-        "/service-areas/bradenton-fl/emergency-plumbing/",
-        "/service-areas/brandon-fl/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -22435,6 +22435,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/north-port-fl/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in North Port, FL | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in North Port",
+      "meta_description": "24/7 emergency plumbing in North Port, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing north port",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/north-port-fl/",
+        "/service-areas/north-port-fl/fire-damage-restoration/",
+        "/service-areas/north-port-fl/mold-remediation/",
+        "/service-areas/bradenton-fl/emergency-plumbing/",
+        "/service-areas/brandon-fl/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/north-port-fl/emergency-water-removal/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22741,50 +22785,6 @@
         "/service-areas/north-port-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/water-damage-restoration/",
         "/service-areas/apollo-beach-fl/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/north-port-fl/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in North Port, FL | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in North Port",
-      "meta_description": "24/7 emergency plumbing in North Port, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing north port",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/north-port-fl/",
-        "/service-areas/north-port-fl/fire-damage-restoration/",
-        "/service-areas/north-port-fl/mold-remediation/",
-        "/service-areas/bradenton-fl/emergency-plumbing/",
-        "/service-areas/brandon-fl/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -25615,6 +25615,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/sarasota-fl/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Sarasota, FL | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in Sarasota",
+      "meta_description": "24/7 emergency plumbing in Sarasota, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing sarasota",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/sarasota-fl/",
+        "/service-areas/sarasota-fl/fire-damage-restoration/",
+        "/service-areas/sarasota-fl/mold-remediation/",
+        "/service-areas/bradenton-fl/emergency-plumbing/",
+        "/service-areas/brandon-fl/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/sarasota-fl/emergency-water-removal/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -25921,50 +25965,6 @@
         "/service-areas/sarasota-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/water-damage-restoration/",
         "/service-areas/apollo-beach-fl/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sarasota-fl/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in Sarasota, FL | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in Sarasota",
-      "meta_description": "24/7 emergency plumbing in Sarasota, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing sarasota",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/sarasota-fl/",
-        "/service-areas/sarasota-fl/fire-damage-restoration/",
-        "/service-areas/sarasota-fl/mold-remediation/",
-        "/service-areas/bradenton-fl/emergency-plumbing/",
-        "/service-areas/brandon-fl/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -27619,6 +27619,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/tarpon-springs-fl/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Tarpon Springs, FL | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in Tarpon Springs",
+      "meta_description": "24/7 emergency plumbing in Tarpon Springs, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing tarpon springs",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/tarpon-springs-fl/",
+        "/service-areas/tarpon-springs-fl/fire-damage-restoration/",
+        "/service-areas/tarpon-springs-fl/mold-remediation/",
+        "/service-areas/bradenton-fl/emergency-plumbing/",
+        "/service-areas/brandon-fl/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/tarpon-springs-fl/emergency-water-removal/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -27925,50 +27969,6 @@
         "/service-areas/tarpon-springs-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/water-damage-restoration/",
         "/service-areas/apollo-beach-fl/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/tarpon-springs-fl/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in Tarpon Springs, FL | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in Tarpon Springs",
-      "meta_description": "24/7 emergency plumbing in Tarpon Springs, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing tarpon springs",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/tarpon-springs-fl/",
-        "/service-areas/tarpon-springs-fl/fire-damage-restoration/",
-        "/service-areas/tarpon-springs-fl/mold-remediation/",
-        "/service-areas/bradenton-fl/emergency-plumbing/",
-        "/service-areas/brandon-fl/emergency-plumbing/",
         "/contact/"
       ]
     },
@@ -28447,6 +28447,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/venice-fl/emergency-plumbing/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Plumbing in Venice, FL | DRYCOR RESTORE",
+      "h1": "Emergency Plumbing in Venice",
+      "meta_description": "24/7 emergency plumbing in Venice, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
+      "primary_keyword": "emergency plumbing venice",
+      "secondary_keywords": [
+        "emergency plumber",
+        "24 hour plumber",
+        "burst pipe plumber",
+        "emergency plumbing repair",
+        "24/7 plumbing"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-plumbing/",
+        "/service-areas/venice-fl/",
+        "/service-areas/venice-fl/fire-damage-restoration/",
+        "/service-areas/venice-fl/mold-remediation/",
+        "/service-areas/bradenton-fl/emergency-plumbing/",
+        "/service-areas/brandon-fl/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/venice-fl/emergency-water-removal/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -28753,50 +28797,6 @@
         "/service-areas/venice-fl/mold-remediation/",
         "/service-areas/anna-maria-fl/water-damage-restoration/",
         "/service-areas/apollo-beach-fl/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/venice-fl/emergency-plumbing/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Plumbing in Venice, FL | DRYCOR RESTORE",
-      "h1": "Emergency Plumbing in Venice",
-      "meta_description": "24/7 emergency plumbing in Venice, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091.",
-      "primary_keyword": "emergency plumbing venice",
-      "secondary_keywords": [
-        "emergency plumber",
-        "24 hour plumber",
-        "burst pipe plumber",
-        "emergency plumbing repair",
-        "24/7 plumbing"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-plumbing/",
-        "/service-areas/venice-fl/",
-        "/service-areas/venice-fl/fire-damage-restoration/",
-        "/service-areas/venice-fl/mold-remediation/",
-        "/service-areas/bradenton-fl/emergency-plumbing/",
-        "/service-areas/brandon-fl/emergency-plumbing/",
         "/contact/"
       ]
     },

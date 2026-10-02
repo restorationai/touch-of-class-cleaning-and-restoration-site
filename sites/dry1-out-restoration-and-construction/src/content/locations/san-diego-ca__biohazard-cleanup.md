@@ -1,0 +1,25 @@
+---
+archetype: "service-area-service"
+title: "24/7 Emergency Biohazard Cleanup in San Diego, CA | Dry1 Out Restoration and Construction"
+h1: "24/7 Emergency Biohazard Cleanup in San Diego"
+meta_description: "24/7 emergency biohazard cleanup in San Diego, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+primary_keyword: "biohazard cleanup san diego"
+secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
+search_intent: "local_sensitive"
+priority: 5.6
+plan_hash: "cb13728e16473ef8"
+generated_at: "2026-10-02T05:01:25.400855+00:00"
+manual_override: false
+internal_links: ["/services/biohazard-cleanup/", "/service-areas/san-diego-ca/", "/service-areas/san-diego-ca/fire-damage-restoration/", "/service-areas/san-diego-ca/mold-remediation/", "/service-areas/hayward-ca/biohazard-cleanup/", "/service-areas/oceanside-ca/biohazard-cleanup/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Diego", "url": "/service-areas/san-diego-ca/"}, {"name": "Biohazard Cleanup"}]
+faq: []
+area_slug: "san-diego-ca"
+service_slug: "biohazard-cleanup"
+city: "San Diego"
+state: "CA"
+service_display: "Biohazard Cleanup"
+content_guardrails: "sensitive"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug dry1-out-restoration-and-construction` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for 24/7 Emergency Biohazard Cleanup in San Diego.

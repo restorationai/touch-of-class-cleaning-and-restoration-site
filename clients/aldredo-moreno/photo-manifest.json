@@ -1,6 +1,31 @@
 {
   "slug": "aldredo-moreno",
   "assets": {
+    "crew:sms-1790896521580-37dbf990": {
+      "source": "crew",
+      "storage": "job-photos/sms-1790896521580-37dbf990.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788916409529/job-photos/sms-1790896521580-37dbf990.jpg",
+      "width": 1200,
+      "height": 1600,
+      "bytes": 399843,
+      "sha1": "c74cb2fc9e51977c",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Motorcycle parked in garage with tools",
+      "quality": 30,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Personal motorcycle in storage shed, unrelated to restoration trade",
+      "triaged_at": "2026-10-02T04:42:47Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "gbp:gbp-AF1QipM17HKitpXLYluDF_BiDe0sW5ZGsfXAaIl_JkBH": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM17HKitpXLYluDF_BiDe0sW5ZGsfXAaIl_JkBH.jpg",
@@ -306,7 +331,29 @@
       "height": 1440,
       "bytes": 1667645,
       "sha1": "d964069c953d886c",
-      "exif": {}
+      "exif": {},
+      "category": "graphic",
+      "subject": "Marketing graphic with phone number and carpet cleaning wand",
+      "quality": 40,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "carpet-cleaning",
+        "water-damage-restoration",
+        "air-duct-cleaning",
+        "tile-grout-cleaning"
+      ],
+      "flags": [
+        "text_overlay",
+        "phone_number",
+        "graphic_content"
+      ],
+      "reason": "Designed promo card with headline text and phone number overlay",
+      "triaged_at": "2026-10-02T04:42:47Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMcovNJhHZDKFr0LxJOtHo-JuXs08ktiT77Xkzm": {
       "source": "gbp",
@@ -1715,5 +1762,5 @@
       "note": "client's own GBP before/after (stacked) re-laid side by side, before | after (09-30)"
     }
   },
-  "triaged_at": "2026-10-01T20:46:26Z"
+  "triaged_at": "2026-10-02T04:42:47Z"
 }

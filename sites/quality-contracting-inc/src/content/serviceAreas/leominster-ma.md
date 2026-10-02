@@ -7,10 +7,10 @@ primary_keyword: "restoration services leominster"
 secondary_keywords: ["leominster restoration company", "damage restoration leominster", "leominster disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "c3c2e8dc237e8c2e"
-generated_at: "2026-09-30T19:28:56.916551+00:00"
+plan_hash: "467fd768aa304c96"
+generated_at: "2026-10-02T04:40:31.068399+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/leominster-ma/", "/service-areas/leominster-ma/mold-remediation/", "/service-areas/leominster-ma/water-damage-restoration/", "/service-areas/leominster-ma/carpet-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/leominster-ma/mold-remediation/", "/service-areas/leominster-ma/water-damage-restoration/", "/service-areas/leominster-ma/carpet-cleaning/", "/service-areas/leominster-ma/upholstery-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Leominster"}]
 faq: []
 area_slug: "leominster-ma"

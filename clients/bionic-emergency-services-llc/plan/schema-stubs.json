@@ -340,6 +340,15 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/jersey-village-tx/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/pasadena-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -360,7 +369,27 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/pasadena-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/pasadena-tx/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/pasadena-tx/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -390,7 +419,27 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/pearland-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/pearland-tx/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/pearland-tx/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -440,6 +489,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/sugar-land-tx/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/the-woodlands-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -460,7 +519,27 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/the-woodlands-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/the-woodlands-tx/contents-restoration-storage/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/the-woodlands-tx/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -500,6 +579,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/baytown-tx/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/missouri-city-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -520,7 +609,27 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/missouri-city-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/missouri-city-tx/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/missouri-city-tx/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -541,6 +650,16 @@
     "missing_stubs": []
   },
   "/service-areas/spring-tx/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/spring-tx/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -581,6 +700,26 @@
     "missing_stubs": []
   },
   "/service-areas/katy-tx/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/katy-tx/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/jersey-village-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

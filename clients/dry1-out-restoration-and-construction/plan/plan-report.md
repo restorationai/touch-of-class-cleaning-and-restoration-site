@@ -1,21 +1,21 @@
 # Site Plan Report — Dry1 Out Restoration and Construction
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-10-01T05:03:50.036107+00:00
+- Generated: 2026-10-02T05:01:25.295855+00:00
 - Domain: `dry1out.com`
 - Services selected: 28 of 91 catalog entries
-- Service areas: 20
+- Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **87**
-- Total internal links: 474 (avg 5.4 per page)
+- Total URLs: **205**
+- Total internal links: 1540 (avg 7.5 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
+| `service-area-service` | 136 |
 | `service-landing` | 28 |
-| `service-area` | 19 |
-| `service-area-service` | 19 |
+| `service-area` | 20 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -78,6 +78,7 @@
 - `berkeley-ca` — Berkeley, CA
 - `encinitas-ca` — Encinitas, CA
 - `santa-cruz-ca` — Santa Cruz, CA
+- `harmony-grove-ca` — Harmony Grove, CA
 
 ## Top 10 priority pages
 

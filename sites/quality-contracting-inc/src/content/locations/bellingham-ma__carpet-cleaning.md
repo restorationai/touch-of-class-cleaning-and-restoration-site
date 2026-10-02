@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning bellingham"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "4916ee285df725c5"
-generated_at: "2026-09-30T19:28:57.252113+00:00"
+plan_hash: "078bdf7d69fd38bf"
+generated_at: "2026-10-02T04:40:31.085075+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/bellingham-ma/water-damage-restoration/", "/service-areas/framingham-ma/carpet-cleaning/", "/service-areas/hopkinton-ma/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellingham", "url": "/service-areas/bellingham-ma/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "bellingham-ma"

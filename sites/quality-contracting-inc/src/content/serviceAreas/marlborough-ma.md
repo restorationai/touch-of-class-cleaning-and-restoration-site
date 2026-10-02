@@ -7,10 +7,10 @@ primary_keyword: "restoration services marlborough"
 secondary_keywords: ["marlborough restoration company", "damage restoration marlborough", "marlborough disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "e11030ee13b5fe57"
-generated_at: "2026-09-30T19:28:56.913996+00:00"
+plan_hash: "969ac58f8442a541"
+generated_at: "2026-10-02T04:40:31.067408+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/marlborough-ma/fire-damage-restoration/", "/service-areas/marlborough-ma/mold-remediation/", "/service-areas/marlborough-ma/roofing/", "/service-areas/marlborough-ma/water-damage-restoration/", "/service-areas/marlborough-ma/", "/service-areas/marlborough-ma/contents-restoration/", "/service-areas/marlborough-ma/carpet-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/marlborough-ma/fire-damage-restoration/", "/service-areas/marlborough-ma/mold-remediation/", "/service-areas/marlborough-ma/roofing/", "/service-areas/marlborough-ma/water-damage-restoration/", "/service-areas/marlborough-ma/contents-restoration/", "/service-areas/marlborough-ma/carpet-cleaning/", "/service-areas/marlborough-ma/upholstery-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Marlborough"}]
 faq: []
 area_slug: "marlborough-ma"

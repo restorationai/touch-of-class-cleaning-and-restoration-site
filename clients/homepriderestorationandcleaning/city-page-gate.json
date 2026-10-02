@@ -40,6 +40,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "alpine-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "alpine-ut__crawl-space-encapsulation": {
    "pass": false,
    "why": "no local demand ('crawl space encapsulation alpine' 0/mo) and no local angle",
@@ -207,6 +214,13 @@
    "vol": 110,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "american-fork-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning american fork' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "american-fork-ut__crawl-space-encapsulation": {
    "pass": false,
@@ -377,6 +391,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "benjamin-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning benjamin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "benjamin-ut__crawl-space-encapsulation": {
    "pass": false,
    "why": "no local demand ('crawl space encapsulation benjamin' 0/mo) and no local angle",
@@ -544,6 +565,13 @@
    "vol": 10,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "bluffdale-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "bluffdale-ut__crawl-space-encapsulation": {
    "pass": false,
@@ -713,6 +741,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "cedar-fort-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "cedar-fort-ut__crawl-space-encapsulation": {
    "pass": false,
    "why": "no local demand ('crawl space encapsulation cedar fort' 0/mo) and no local angle",
@@ -880,6 +915,13 @@
    "vol": 30,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "cedar-hills-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "cedar-hills-ut__crawl-space-encapsulation": {
    "pass": false,
@@ -1049,6 +1091,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "draper-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning draper' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "draper-ut__crawl-space-encapsulation": {
    "pass": false,
    "why": "no local demand ('crawl space encapsulation draper' 0/mo) and no local angle",
@@ -1216,6 +1265,13 @@
    "vol": 90,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "eagle-mountain-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "eagle-mountain-ut__crawl-space-encapsulation": {
    "pass": false,
@@ -1385,6 +1441,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "fairfield-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning fairfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "fairfield-ut__crawl-space-encapsulation": {
    "pass": false,
    "why": "no local demand ('crawl space encapsulation fairfield' 0/mo) and no local angle",
@@ -1552,6 +1615,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "heber-city-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning heber city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "heber-city-ut__crawl-space-encapsulation": {
    "pass": false,
@@ -1721,6 +1791,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "herriman-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "herriman-ut__crawl-space-encapsulation": {
    "pass": false,
    "why": "no local demand ('crawl space encapsulation herriman' 0/mo) and no local angle",
@@ -1888,6 +1965,13 @@
    "vol": 70,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "highland-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "highland-ut__crawl-space-encapsulation": {
    "pass": false,
@@ -2058,6 +2142,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "lake-shore-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning lake shore' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "lake-shore-ut__crawl-space-encapsulation": {
    "pass": false,
    "why": "no local demand ('crawl space encapsulation lake shore' 0/mo) and no local angle",
@@ -2225,6 +2316,13 @@
    "vol": 140,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "lehi-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "lehi-ut__crawl-space-encapsulation": {
    "pass": false,
@@ -2394,6 +2492,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "lindon-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "lindon-ut__crawl-space-encapsulation": {
    "pass": false,
    "why": "no local demand ('crawl space encapsulation lindon' 0/mo) and no local angle",
@@ -2561,6 +2666,13 @@
    "vol": 320,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "orem-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning orem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "orem-ut__crawl-space-encapsulation": {
    "pass": false,
@@ -2730,6 +2842,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "park-city-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning park city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "park-city-ut__crawl-space-encapsulation": {
    "pass": false,
    "why": "no local demand ('crawl space encapsulation park city' 0/mo) and no local angle",
@@ -2897,6 +3016,13 @@
    "vol": 50,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "pleasant-grove-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "pleasant-grove-ut__crawl-space-encapsulation": {
    "pass": false,
@@ -3066,6 +3192,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "provo-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning provo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "provo-ut__crawl-space-encapsulation": {
    "pass": false,
    "why": "no local demand ('crawl space encapsulation provo' 0/mo) and no local angle",
@@ -3233,6 +3366,13 @@
    "vol": 20,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "riverton-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "riverton-ut__crawl-space-encapsulation": {
    "pass": false,
@@ -3402,6 +3542,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "south-jordan-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "south-jordan-ut__crawl-space-encapsulation": {
    "pass": false,
    "why": "no local demand ('crawl space encapsulation south jordan' 0/mo) and no local angle",
@@ -3570,6 +3717,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "vineyard-ut__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning vineyard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "vineyard-ut__crawl-space-encapsulation": {
    "pass": false,
@@ -3927,7 +4081,11 @@
   "emergency-water-removal": {
    "term": "emergency water removal",
    "metro": null
+  },
+  "carpet-upholstery-cleaning": {
+   "term": "carpet and upholstery cleaning",
+   "metro": null
   }
  },
- "updated_at": "2026-10-01T05:05:01+00:00"
+ "updated_at": "2026-10-02T04:36:23+00:00"
 }

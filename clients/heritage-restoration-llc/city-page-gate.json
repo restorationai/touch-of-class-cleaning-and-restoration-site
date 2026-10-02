@@ -61,6 +61,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "albany-mn__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup albany' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "avon-mn__emergency-water-removal": {
    "pass": false,
    "why": "no local demand ('emergency water removal avon' 0/mo) and no local angle",
@@ -116,6 +123,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "avon-mn__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup avon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "baxter-mn__emergency-water-removal": {
    "pass": false,
@@ -173,6 +187,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "baxter-mn__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Near Mississippi River flood-prone areas",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "brainerd-mn__emergency-water-removal": {
    "pass": true,
    "why": "local angle: lake region prone to spring flooding",
@@ -228,6 +249,13 @@
    "vol": 10,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "brainerd-mn__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Mississippi River and lake country flooding",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "elmdale-mn__emergency-water-removal": {
    "pass": false,
@@ -285,6 +313,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "elmdale-mn__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup elmdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "flensburg-mn__emergency-water-removal": {
    "pass": false,
    "why": "no local demand ('emergency water removal flensburg' 0/mo) and no local angle",
@@ -340,6 +375,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "flensburg-mn__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup flensburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "foley-mn__emergency-water-removal": {
    "pass": false,
@@ -397,6 +439,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "foley-mn__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup foley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "fort-ripley-mn__emergency-water-removal": {
    "pass": false,
    "why": "no local demand ('emergency water removal fort ripley' 0/mo) and no local angle",
@@ -452,6 +501,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "fort-ripley-mn__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup fort ripley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "harding-mn__emergency-water-removal": {
    "pass": false,
@@ -509,6 +565,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "harding-mn__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup harding' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "long-prairie-mn__emergency-water-removal": {
    "pass": false,
    "why": "no local demand ('emergency water removal long prairie' 0/mo) and no local angle",
@@ -564,6 +627,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "long-prairie-mn__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup long prairie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "pierz-mn__emergency-water-removal": {
    "pass": false,
@@ -621,6 +691,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "pierz-mn__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup pierz' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "randall-mn__emergency-water-removal": {
    "pass": false,
    "why": "no local demand ('emergency water removal randall' 0/mo) and no local angle",
@@ -676,6 +753,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "randall-mn__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup randall' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "rice-mn__emergency-water-removal": {
    "pass": false,
@@ -733,6 +817,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "rice-mn__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Mississippi River floodplain location",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "royalton-mn__emergency-water-removal": {
    "pass": false,
    "why": "no local demand ('emergency water removal royalton' 0/mo) and no local angle",
@@ -788,6 +879,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "royalton-mn__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup royalton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "sartell-mn__emergency-water-removal": {
    "pass": true,
@@ -845,6 +943,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "sartell-mn__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Along Mississippi River flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "sauk-rapids-mn__emergency-water-removal": {
    "pass": true,
    "why": "local angle: river town with flood-prone low areas",
@@ -900,6 +1005,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "sauk-rapids-mn__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Mississippi River crossing flood risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "sobieski-mn__emergency-water-removal": {
    "pass": false,
@@ -957,6 +1069,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "sobieski-mn__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup sobieski' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "st-cloud-mn__emergency-water-removal": {
    "pass": true,
    "why": "local angle: Mississippi River flood zone through city center",
@@ -1012,6 +1131,13 @@
    "vol": 10,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "st-cloud-mn__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Mississippi River adjacent flood-prone neighborhoods",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "st-joseph-mn__emergency-water-removal": {
    "pass": false,
@@ -1069,6 +1195,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "st-joseph-mn__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup st. joseph' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "st-stephen-mn__emergency-water-removal": {
    "pass": false,
    "why": "no local demand ('emergency water removal st. stephen' 0/mo) and no local angle",
@@ -1124,6 +1257,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "st-stephen-mn__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup st. stephen' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "swanville-mn__emergency-water-removal": {
    "pass": false,
@@ -1181,6 +1321,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "swanville-mn__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup swanville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "upsala-mn__emergency-water-removal": {
    "pass": false,
    "why": "no local demand ('emergency water removal upsala' 0/mo) and no local angle",
@@ -1236,6 +1383,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "upsala-mn__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup upsala' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   }
  },
  "offered": {
@@ -1311,7 +1465,11 @@
   "storm-damage-restoration": {
    "term": "storm damage restoration",
    "metro": 0
+  },
+  "water-cleanup": {
+   "term": "water cleanup",
+   "metro": 0
   }
  },
- "updated_at": "2026-10-01T05:04:42+00:00"
+ "updated_at": "2026-10-02T04:35:57+00:00"
 }

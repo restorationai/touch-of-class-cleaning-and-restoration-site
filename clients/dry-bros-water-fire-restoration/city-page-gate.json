@@ -89,6 +89,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "bedford-park-il__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup bedford park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "berwyn-il__basement-flooding-cleanup": {
    "pass": true,
    "why": "local angle: aging combined sewers often flood basements",
@@ -172,6 +179,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "berwyn-il__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup berwyn' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "brookfield-il__basement-flooding-cleanup": {
    "pass": false,
@@ -257,6 +271,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "brookfield-il__water-cleanup": {
+   "pass": true,
+   "why": "local angle: near Salt Creek/Des Plaines River flooding",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "burbank-il__basement-flooding-cleanup": {
    "pass": false,
    "why": "no local demand ('basement flooding cleanup burbank' 0/mo) and no local angle",
@@ -340,6 +361,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "burbank-il__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup burbank' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "cicero-il__basement-flooding-cleanup": {
    "pass": true,
@@ -425,6 +453,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "cicero-il__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup cicero' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "des-plaines-il__basement-flooding-cleanup": {
    "pass": false,
    "why": "no local demand ('basement flooding cleanup des plaines' 0/mo) and no local angle",
@@ -508,6 +543,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "des-plaines-il__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Des Plaines River flood-prone area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "elmwood-park-il__basement-flooding-cleanup": {
    "pass": false,
@@ -593,6 +635,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "elmwood-park-il__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup elmwood park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "evanston-il__basement-flooding-cleanup": {
    "pass": false,
    "why": "no local demand ('basement flooding cleanup evanston' 0/mo) and no local angle",
@@ -676,6 +725,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "evanston-il__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup evanston' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "evergreen-park-il__basement-flooding-cleanup": {
    "pass": false,
@@ -761,6 +817,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "evergreen-park-il__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup evergreen park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "forest-park-il__basement-flooding-cleanup": {
    "pass": false,
    "why": "no local demand ('basement flooding cleanup forest park' 0/mo) and no local angle",
@@ -844,6 +907,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "forest-park-il__water-cleanup": {
+   "pass": true,
+   "why": "local angle: adjacent to Des Plaines River floodplain",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "lincolnwood-il__basement-flooding-cleanup": {
    "pass": false,
@@ -929,6 +999,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "lincolnwood-il__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup lincolnwood' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "lyons-il__basement-flooding-cleanup": {
    "pass": false,
    "why": "no local demand ('basement flooding cleanup lyons' 0/mo) and no local angle",
@@ -1012,6 +1089,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "lyons-il__water-cleanup": {
+   "pass": true,
+   "why": "local angle: sits along Des Plaines River flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "maywood-il__basement-flooding-cleanup": {
    "pass": false,
@@ -1097,6 +1181,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "maywood-il__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup maywood' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "melrose-park-il__basement-flooding-cleanup": {
    "pass": false,
    "why": "no local demand ('basement flooding cleanup melrose park' 0/mo) and no local angle",
@@ -1180,6 +1271,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "melrose-park-il__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup melrose park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "naperville-il__basement-flooding-cleanup": {
    "pass": false,
@@ -1265,6 +1363,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "naperville-il__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup naperville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "north-riverside-il__basement-flooding-cleanup": {
    "pass": false,
    "why": "no local demand ('basement flooding cleanup north riverside' 0/mo) and no local angle",
@@ -1348,6 +1453,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "north-riverside-il__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup north riverside' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "oak-park-il__basement-flooding-cleanup": {
    "pass": true,
@@ -1433,6 +1545,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "oak-park-il__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup oak park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "river-forest-il__basement-flooding-cleanup": {
    "pass": true,
    "why": "local angle: historic homes with flood-prone basements",
@@ -1516,6 +1635,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "river-forest-il__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup river forest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "riverside-il__basement-flooding-cleanup": {
    "pass": false,
@@ -1601,6 +1727,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "riverside-il__water-cleanup": {
+   "pass": true,
+   "why": "local demand: 'water cleanup riverside' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "skokie-il__basement-flooding-cleanup": {
    "pass": false,
    "why": "no local demand ('basement flooding cleanup skokie' 0/mo) and no local angle",
@@ -1685,6 +1818,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "skokie-il__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup skokie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "stickney-il__basement-flooding-cleanup": {
    "pass": false,
    "why": "no local demand ('basement flooding cleanup stickney' 0/mo) and no local angle",
@@ -1768,6 +1908,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "stickney-il__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup stickney' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   }
  },
  "offered": {
@@ -1870,7 +2017,12 @@
   "contents-restoration": {
    "term": "contents restoration",
    "metro": null
+  },
+  "water-cleanup": {
+   "term": "water cleanup",
+   "metro": 80
   }
  },
- "updated_at": "2026-10-01T05:04:34+00:00"
+ "updated_at": "2026-10-02T04:32:00+00:00",
+ "metro": "Chicago,Illinois,United States"
 }

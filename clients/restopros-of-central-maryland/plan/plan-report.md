@@ -1,21 +1,21 @@
 # Site Plan Report — RestoPros of Central Maryland
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-10-02T04:05:33.720775+00:00
+- Generated: 2026-10-02T05:02:31.406293+00:00
 - Domain: `None`
-- Services selected: 21 of 91 catalog entries
-- Service areas: 20
+- Services selected: 22 of 91 catalog entries
+- Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **123**
-- Total internal links: 872 (avg 7.1 per page)
+- Total URLs: **126**
+- Total internal links: 889 (avg 7.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 66 |
-| `service-landing` | 21 |
-| `service-area` | 19 |
+| `service-area-service` | 67 |
+| `service-landing` | 22 |
+| `service-area` | 20 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -27,13 +27,14 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `mold-remediation` — Mold Remediation (core, priority 10)
+- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
-- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
-- `water-cleanup` — Emergency Water Cleanup (adjacent, priority 9)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `water-cleanup` — Emergency Water Cleanup (adjacent, priority 9)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
@@ -71,6 +72,7 @@
 - `potomac-md` — Potomac, MD
 - `severn-md` — Severn, MD
 - `owings-mills-md` — Owings Mills, MD
+- `kingsville-md` — Kingsville, MD
 
 ## Top 10 priority pages
 

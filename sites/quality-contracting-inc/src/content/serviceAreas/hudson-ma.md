@@ -7,10 +7,10 @@ primary_keyword: "restoration services hudson"
 secondary_keywords: ["hudson restoration company", "damage restoration hudson", "hudson disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "a326bb5ea70ed943"
-generated_at: "2026-09-30T19:28:56.915091+00:00"
+plan_hash: "edc755f62c900fc0"
+generated_at: "2026-10-02T04:40:31.067663+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/hudson-ma/", "/service-areas/hudson-ma/mold-remediation/", "/service-areas/hudson-ma/water-damage-restoration/", "/service-areas/hudson-ma/general-contracting/", "/service-areas/hudson-ma/carpet-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/hudson-ma/mold-remediation/", "/service-areas/hudson-ma/water-damage-restoration/", "/service-areas/hudson-ma/general-contracting/", "/service-areas/hudson-ma/carpet-cleaning/", "/service-areas/hudson-ma/upholstery-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hudson"}]
 faq: []
 area_slug: "hudson-ma"

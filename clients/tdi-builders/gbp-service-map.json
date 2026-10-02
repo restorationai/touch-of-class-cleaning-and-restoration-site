@@ -345,11 +345,11 @@
       "at": "2026-09-30"
     },
     "Plumbing": {
-      "verdict": "declined",
-      "page": null,
-      "source": "claude",
-      "reason": "not a real service: Different trade, no plumbing pages exist",
-      "at": "2026-09-30"
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "source": "plumbing-gate",
+      "reason": "plumbing gate not met (no confirmed plumbing name/DBA, not a licensed plumber)",
+      "at": "2026-10-02"
     },
     "Post-Construction & Specialty Cleaning": {
       "verdict": "mapped",

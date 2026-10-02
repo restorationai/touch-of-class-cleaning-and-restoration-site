@@ -1,7 +1,7 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-10-01T05:05:58.827126+00:00",
+  "generated_at": "2026-10-02T04:40:27.726864+00:00",
   "input_summary": {
     "service_count": 30,
     "service_area_count": 28,
@@ -1040,6 +1040,56 @@
       ]
     },
     {
+      "url_path": "/services/upholstery-cleaning/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Upholstery Cleaning in Auburn | Quality Contracting, Inc.",
+      "h1": "Upholstery Cleaning in Auburn",
+      "meta_description": "Upholstery cleaning in Auburn and surrounding areas. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "upholstery cleaning auburn",
+      "secondary_keywords": [
+        "sofa cleaning",
+        "couch cleaning",
+        "furniture steam cleaning",
+        "leather upholstery cleaning",
+        "fabric upholstery cleaning"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/bellingham-ma/upholstery-cleaning/",
+        "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/service-areas/fiskdale-ma/upholstery-cleaning/",
+        "/service-areas/framingham-ma/upholstery-cleaning/",
+        "/service-areas/franklin-town-ma/upholstery-cleaning/",
+        "/service-areas/hopkinton-ma/upholstery-cleaning/",
+        "/service-areas/hudson-ma/upholstery-cleaning/",
+        "/service-areas/leominster-ma/upholstery-cleaning/",
+        "/service-areas/marlborough-ma/upholstery-cleaning/",
+        "/service-areas/maynard-ma/upholstery-cleaning/",
+        "/service-areas/milford-ma/upholstery-cleaning/",
+        "/service-areas/natick-ma/upholstery-cleaning/"
+      ]
+    },
+    {
       "url_path": "/services/water-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -1129,56 +1179,6 @@
       "internal_links_out": [
         "/services/",
         "/contact/"
-      ]
-    },
-    {
-      "url_path": "/services/upholstery-cleaning/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Upholstery Cleaning in Auburn | Quality Contracting, Inc.",
-      "h1": "Upholstery Cleaning in Auburn",
-      "meta_description": "Upholstery cleaning in Auburn and surrounding areas. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "upholstery cleaning auburn",
-      "secondary_keywords": [
-        "sofa cleaning",
-        "couch cleaning",
-        "furniture steam cleaning",
-        "leather upholstery cleaning",
-        "fabric upholstery cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.6,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/bellingham-ma/upholstery-cleaning/",
-        "/service-areas/east-douglas-ma/upholstery-cleaning/",
-        "/service-areas/fiskdale-ma/upholstery-cleaning/",
-        "/service-areas/framingham-ma/upholstery-cleaning/",
-        "/service-areas/franklin-town-ma/upholstery-cleaning/",
-        "/service-areas/hopkinton-ma/upholstery-cleaning/",
-        "/service-areas/hudson-ma/upholstery-cleaning/",
-        "/service-areas/leominster-ma/upholstery-cleaning/",
-        "/service-areas/marlborough-ma/upholstery-cleaning/",
-        "/service-areas/maynard-ma/upholstery-cleaning/",
-        "/service-areas/milford-ma/upholstery-cleaning/",
-        "/service-areas/natick-ma/upholstery-cleaning/"
       ]
     },
     {
@@ -3448,50 +3448,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/worcester-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Worcester, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Worcester",
-      "meta_description": "Emergency water damage restoration in Worcester, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration worcester",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/worcester-ma/",
-        "/service-areas/worcester-ma/fire-damage-restoration/",
-        "/service-areas/worcester-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/worcester-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3532,6 +3488,50 @@
         "/service-areas/worcester-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/worcester-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Worcester, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Worcester",
+      "meta_description": "Emergency water damage restoration in Worcester, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration worcester",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/worcester-ma/",
+        "/service-areas/worcester-ma/fire-damage-restoration/",
+        "/service-areas/worcester-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4012,50 +4012,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/shrewsbury-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Shrewsbury, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Shrewsbury",
-      "meta_description": "Emergency water damage restoration in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration shrewsbury",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/shrewsbury-ma/",
-        "/service-areas/shrewsbury-ma/fire-damage-restoration/",
-        "/service-areas/shrewsbury-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/shrewsbury-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4096,6 +4052,50 @@
         "/service-areas/shrewsbury-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shrewsbury-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Shrewsbury, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Shrewsbury",
+      "meta_description": "Emergency water damage restoration in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration shrewsbury",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/shrewsbury-ma/",
+        "/service-areas/shrewsbury-ma/fire-damage-restoration/",
+        "/service-areas/shrewsbury-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4576,50 +4576,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/westborough-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Westborough, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Westborough",
-      "meta_description": "Emergency water damage restoration in Westborough, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration westborough",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/westborough-ma/",
-        "/service-areas/westborough-ma/fire-damage-restoration/",
-        "/service-areas/westborough-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/westborough-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4660,6 +4616,50 @@
         "/service-areas/westborough-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/westborough-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Westborough, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Westborough",
+      "meta_description": "Emergency water damage restoration in Westborough, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration westborough",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/westborough-ma/",
+        "/service-areas/westborough-ma/fire-damage-restoration/",
+        "/service-areas/westborough-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5139,50 +5139,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/southborough-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Southborough, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Southborough",
-      "meta_description": "Emergency water damage restoration in Southborough, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration southborough",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/southborough-ma/",
-        "/service-areas/southborough-ma/fire-damage-restoration/",
-        "/service-areas/southborough-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/southborough-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5223,6 +5179,50 @@
         "/service-areas/southborough-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/southborough-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Southborough, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Southborough",
+      "meta_description": "Emergency water damage restoration in Southborough, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration southborough",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/southborough-ma/",
+        "/service-areas/southborough-ma/fire-damage-restoration/",
+        "/service-areas/southborough-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5746,50 +5746,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/hopkinton-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Hopkinton, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Hopkinton",
-      "meta_description": "Emergency water damage restoration in Hopkinton, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration hopkinton",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/hopkinton-ma/",
-        "/service-areas/hopkinton-ma/fire-damage-restoration/",
-        "/service-areas/hopkinton-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hopkinton-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5830,6 +5786,50 @@
         "/service-areas/hopkinton-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hopkinton-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Hopkinton, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Hopkinton",
+      "meta_description": "Emergency water damage restoration in Hopkinton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration hopkinton",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/hopkinton-ma/",
+        "/service-areas/hopkinton-ma/fire-damage-restoration/",
+        "/service-areas/hopkinton-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -6355,50 +6355,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/framingham-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Framingham, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Framingham",
-      "meta_description": "Emergency water damage restoration in Framingham, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration framingham",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/framingham-ma/",
-        "/service-areas/framingham-ma/fire-damage-restoration/",
-        "/service-areas/framingham-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/framingham-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6439,6 +6395,50 @@
         "/service-areas/framingham-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/framingham-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Framingham, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Framingham",
+      "meta_description": "Emergency water damage restoration in Framingham, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration framingham",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/framingham-ma/",
+        "/service-areas/framingham-ma/fire-damage-restoration/",
+        "/service-areas/framingham-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -6919,50 +6919,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/natick-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Natick, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Natick",
-      "meta_description": "Emergency water damage restoration in Natick, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration natick",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/natick-ma/",
-        "/service-areas/natick-ma/fire-damage-restoration/",
-        "/service-areas/natick-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/natick-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7003,6 +6959,50 @@
         "/service-areas/natick-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/natick-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Natick, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Natick",
+      "meta_description": "Emergency water damage restoration in Natick, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration natick",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/natick-ma/",
+        "/service-areas/natick-ma/fire-damage-restoration/",
+        "/service-areas/natick-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -7483,50 +7483,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/wellesley-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Wellesley, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Wellesley",
-      "meta_description": "Emergency water damage restoration in Wellesley, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration wellesley",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/wellesley-ma/",
-        "/service-areas/wellesley-ma/fire-damage-restoration/",
-        "/service-areas/wellesley-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/wellesley-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7567,6 +7523,50 @@
         "/service-areas/wellesley-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wellesley-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Wellesley, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Wellesley",
+      "meta_description": "Emergency water damage restoration in Wellesley, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration wellesley",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/wellesley-ma/",
+        "/service-areas/wellesley-ma/fire-damage-restoration/",
+        "/service-areas/wellesley-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -8092,50 +8092,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/needham-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Needham, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Needham",
-      "meta_description": "Emergency water damage restoration in Needham, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration needham",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/needham-ma/",
-        "/service-areas/needham-ma/fire-damage-restoration/",
-        "/service-areas/needham-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/needham-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8176,6 +8132,50 @@
         "/service-areas/needham-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/needham-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Needham, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Needham",
+      "meta_description": "Emergency water damage restoration in Needham, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration needham",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/needham-ma/",
+        "/service-areas/needham-ma/fire-damage-restoration/",
+        "/service-areas/needham-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -8701,50 +8701,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/newton-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Newton, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Newton",
-      "meta_description": "Emergency water damage restoration in Newton, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration newton",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/newton-ma/",
-        "/service-areas/newton-ma/fire-damage-restoration/",
-        "/service-areas/newton-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/newton-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8785,6 +8741,50 @@
         "/service-areas/newton-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/newton-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Newton, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Newton",
+      "meta_description": "Emergency water damage restoration in Newton, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration newton",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/newton-ma/",
+        "/service-areas/newton-ma/fire-damage-restoration/",
+        "/service-areas/newton-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -9310,50 +9310,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/weston-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Weston, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Weston",
-      "meta_description": "Emergency water damage restoration in Weston, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration weston",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/weston-ma/",
-        "/service-areas/weston-ma/fire-damage-restoration/",
-        "/service-areas/weston-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/weston-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9394,6 +9350,50 @@
         "/service-areas/weston-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/weston-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Weston, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Weston",
+      "meta_description": "Emergency water damage restoration in Weston, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration weston",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/weston-ma/",
+        "/service-areas/weston-ma/fire-damage-restoration/",
+        "/service-areas/weston-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -9619,50 +9619,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/oxford-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Oxford, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Oxford",
-      "meta_description": "Emergency water damage restoration in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration oxford",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/oxford-ma/",
-        "/service-areas/oxford-ma/fire-damage-restoration/",
-        "/service-areas/oxford-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/oxford-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9703,6 +9659,50 @@
         "/service-areas/oxford-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/oxford-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Oxford, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Oxford",
+      "meta_description": "Emergency water damage restoration in Oxford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration oxford",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/oxford-ma/",
+        "/service-areas/oxford-ma/fire-damage-restoration/",
+        "/service-areas/oxford-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -9883,50 +9883,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/whitinsville-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Whitinsville, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Whitinsville",
-      "meta_description": "Emergency water damage restoration in Whitinsville, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration whitinsville",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/whitinsville-ma/",
-        "/service-areas/whitinsville-ma/fire-damage-restoration/",
-        "/service-areas/whitinsville-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/whitinsville-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9967,6 +9923,50 @@
         "/service-areas/whitinsville-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/whitinsville-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Whitinsville, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Whitinsville",
+      "meta_description": "Emergency water damage restoration in Whitinsville, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration whitinsville",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/whitinsville-ma/",
+        "/service-areas/whitinsville-ma/fire-damage-restoration/",
+        "/service-areas/whitinsville-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -10103,50 +10103,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/east-douglas-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in East Douglas, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in East Douglas",
-      "meta_description": "Emergency water damage restoration in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration east douglas",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/",
-        "/service-areas/east-douglas-ma/fire-damage-restoration/",
-        "/service-areas/east-douglas-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/fiskdale-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/east-douglas-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10187,6 +10143,50 @@
         "/service-areas/east-douglas-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/fiskdale-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/east-douglas-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in East Douglas, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in East Douglas",
+      "meta_description": "Emergency water damage restoration in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration east douglas",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/",
+        "/service-areas/east-douglas-ma/fire-damage-restoration/",
+        "/service-areas/east-douglas-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/fiskdale-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -10367,50 +10367,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/northborough-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Northborough, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Northborough",
-      "meta_description": "Emergency water damage restoration in Northborough, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration northborough",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/northborough-ma/",
-        "/service-areas/northborough-ma/fire-damage-restoration/",
-        "/service-areas/northborough-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/northborough-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10451,6 +10407,50 @@
         "/service-areas/northborough-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/northborough-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Northborough, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Northborough",
+      "meta_description": "Emergency water damage restoration in Northborough, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration northborough",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/northborough-ma/",
+        "/service-areas/northborough-ma/fire-damage-restoration/",
+        "/service-areas/northborough-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -10675,50 +10675,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/southbridge-town-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Southbridge Town, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Southbridge Town",
-      "meta_description": "Emergency water damage restoration in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration southbridge town",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/southbridge-town-ma/",
-        "/service-areas/southbridge-town-ma/fire-damage-restoration/",
-        "/service-areas/southbridge-town-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/southbridge-town-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10759,6 +10715,50 @@
         "/service-areas/southbridge-town-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/southbridge-town-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Southbridge Town, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Southbridge Town",
+      "meta_description": "Emergency water damage restoration in Southbridge Town, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration southbridge town",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/southbridge-town-ma/",
+        "/service-areas/southbridge-town-ma/fire-damage-restoration/",
+        "/service-areas/southbridge-town-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -10938,50 +10938,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sturbridge-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Sturbridge, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Sturbridge",
-      "meta_description": "Emergency water damage restoration in Sturbridge, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration sturbridge",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/sturbridge-ma/",
-        "/service-areas/sturbridge-ma/fire-damage-restoration/",
-        "/service-areas/sturbridge-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sturbridge-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11022,6 +10978,50 @@
         "/service-areas/sturbridge-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sturbridge-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Sturbridge, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Sturbridge",
+      "meta_description": "Emergency water damage restoration in Sturbridge, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration sturbridge",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/sturbridge-ma/",
+        "/service-areas/sturbridge-ma/fire-damage-restoration/",
+        "/service-areas/sturbridge-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -11158,50 +11158,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fiskdale-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Fiskdale, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Fiskdale",
-      "meta_description": "Emergency water damage restoration in Fiskdale, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration fiskdale",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/fiskdale-ma/",
-        "/service-areas/fiskdale-ma/fire-damage-restoration/",
-        "/service-areas/fiskdale-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fiskdale-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11242,6 +11198,50 @@
         "/service-areas/fiskdale-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/fiskdale-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Fiskdale, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Fiskdale",
+      "meta_description": "Emergency water damage restoration in Fiskdale, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration fiskdale",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/fiskdale-ma/",
+        "/service-areas/fiskdale-ma/fire-damage-restoration/",
+        "/service-areas/fiskdale-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -11642,50 +11642,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/milford-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Milford, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Milford",
-      "meta_description": "Emergency water damage restoration in Milford, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration milford",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/milford-ma/",
-        "/service-areas/milford-ma/fire-damage-restoration/",
-        "/service-areas/milford-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/milford-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11726,6 +11682,50 @@
         "/service-areas/milford-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/milford-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Milford, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Milford",
+      "meta_description": "Emergency water damage restoration in Milford, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration milford",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/milford-ma/",
+        "/service-areas/milford-ma/fire-damage-restoration/",
+        "/service-areas/milford-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -11950,50 +11950,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/marlborough-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Marlborough, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Marlborough",
-      "meta_description": "Emergency water damage restoration in Marlborough, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration marlborough",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/marlborough-ma/",
-        "/service-areas/marlborough-ma/fire-damage-restoration/",
-        "/service-areas/marlborough-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/marlborough-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12034,6 +11990,50 @@
         "/service-areas/marlborough-ma/mold-remediation/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/marlborough-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Marlborough, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Marlborough",
+      "meta_description": "Emergency water damage restoration in Marlborough, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration marlborough",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/marlborough-ma/",
+        "/service-areas/marlborough-ma/fire-damage-restoration/",
+        "/service-areas/marlborough-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -12171,50 +12171,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/hudson-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Hudson, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Hudson",
-      "meta_description": "Emergency water damage restoration in Hudson, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration hudson",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/hudson-ma/",
-        "/service-areas/hudson-ma/mold-remediation/",
-        "/service-areas/hudson-ma/general-contracting/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hudson-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12255,6 +12211,50 @@
         "/service-areas/hudson-ma/water-damage-restoration/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hudson-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Hudson, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Hudson",
+      "meta_description": "Emergency water damage restoration in Hudson, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration hudson",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/hudson-ma/",
+        "/service-areas/hudson-ma/mold-remediation/",
+        "/service-areas/hudson-ma/general-contracting/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -12565,50 +12565,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/bellingham-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Bellingham, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Bellingham",
-      "meta_description": "Emergency water damage restoration in Bellingham, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration bellingham",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/bellingham-ma/",
-        "/service-areas/bellingham-ma/mold-remediation/",
-        "/service-areas/bellingham-ma/emergency-water-removal/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/service-areas/fiskdale-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/bellingham-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12649,6 +12605,50 @@
         "/service-areas/bellingham-ma/water-damage-restoration/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
         "/service-areas/fiskdale-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bellingham-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Bellingham, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Bellingham",
+      "meta_description": "Emergency water damage restoration in Bellingham, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration bellingham",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/bellingham-ma/",
+        "/service-areas/bellingham-ma/mold-remediation/",
+        "/service-areas/bellingham-ma/emergency-water-removal/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
+        "/service-areas/fiskdale-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -12784,50 +12784,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ware-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Ware, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Ware",
-      "meta_description": "Emergency water damage restoration in Ware, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration ware",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/ware-ma/",
-        "/service-areas/ware-ma/emergency-water-removal/",
-        "/service-areas/ware-ma/storm-damage-restoration/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ware-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12868,6 +12824,50 @@
         "/service-areas/ware-ma/emergency-water-removal/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ware-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Ware, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Ware",
+      "meta_description": "Emergency water damage restoration in Ware, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration ware",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/ware-ma/",
+        "/service-areas/ware-ma/emergency-water-removal/",
+        "/service-areas/ware-ma/storm-damage-restoration/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -13003,50 +13003,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/leominster-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Leominster, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Leominster",
-      "meta_description": "Emergency water damage restoration in Leominster, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration leominster",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/leominster-ma/",
-        "/service-areas/leominster-ma/mold-remediation/",
-        "/service-areas/leominster-ma/carpet-cleaning/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/leominster-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13091,6 +13047,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/leominster-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Leominster, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Leominster",
+      "meta_description": "Emergency water damage restoration in Leominster, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration leominster",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/leominster-ma/",
+        "/service-areas/leominster-ma/mold-remediation/",
+        "/service-areas/leominster-ma/carpet-cleaning/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/franklin-town-ma/post-construction-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13130,50 +13130,6 @@
         "/service-areas/franklin-town-ma/upholstery-cleaning/",
         "/service-areas/bellingham-ma/post-construction-cleaning/",
         "/service-areas/hopkinton-ma/post-construction-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/franklin-town-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Franklin Town, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Franklin Town",
-      "meta_description": "Emergency water damage restoration in Franklin Town, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration franklin town",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/franklin-town-ma/",
-        "/service-areas/franklin-town-ma/post-construction-cleaning/",
-        "/service-areas/franklin-town-ma/upholstery-cleaning/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -13222,6 +13178,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/franklin-town-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Franklin Town, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Franklin Town",
+      "meta_description": "Emergency water damage restoration in Franklin Town, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration franklin town",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/franklin-town-ma/",
+        "/service-areas/franklin-town-ma/post-construction-cleaning/",
+        "/service-areas/franklin-town-ma/upholstery-cleaning/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/palmer-town-ma/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13262,50 +13262,6 @@
         "/service-areas/palmer-town-ma/emergency-water-removal/",
         "/service-areas/framingham-ma/storm-damage-restoration/",
         "/service-areas/hopkinton-ma/storm-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/palmer-town-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Palmer Town, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Palmer Town",
-      "meta_description": "Emergency water damage restoration in Palmer Town, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration palmer town",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/palmer-town-ma/",
-        "/service-areas/palmer-town-ma/emergency-water-removal/",
-        "/service-areas/palmer-town-ma/storm-damage-restoration/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -13354,6 +13310,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/palmer-town-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Palmer Town, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Palmer Town",
+      "meta_description": "Emergency water damage restoration in Palmer Town, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration palmer town",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/palmer-town-ma/",
+        "/service-areas/palmer-town-ma/emergency-water-removal/",
+        "/service-areas/palmer-town-ma/storm-damage-restoration/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/palmer-town-ma/emergency-water-removal/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13397,49 +13397,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/maynard-ma/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Emergency Water Damage Restoration in Maynard, MA | Quality Contracting, Inc.",
-      "h1": "Emergency Water Damage Restoration in Maynard",
-      "meta_description": "Emergency water damage restoration in Maynard, MA. Insurance billing accepted. Call (508) 756-8800.",
-      "primary_keyword": "water damage restoration maynard",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/maynard-ma/",
-        "/service-areas/maynard-ma/upholstery-cleaning/",
-        "/service-areas/bellingham-ma/water-damage-restoration/",
-        "/service-areas/east-douglas-ma/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/maynard-ma/upholstery-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13479,6 +13436,49 @@
         "/service-areas/maynard-ma/water-damage-restoration/",
         "/service-areas/bellingham-ma/upholstery-cleaning/",
         "/service-areas/east-douglas-ma/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/maynard-ma/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Maynard, MA | Quality Contracting, Inc.",
+      "h1": "Emergency Water Damage Restoration in Maynard",
+      "meta_description": "Emergency water damage restoration in Maynard, MA. Insurance billing accepted. Call (508) 756-8800.",
+      "primary_keyword": "water damage restoration maynard",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/maynard-ma/",
+        "/service-areas/maynard-ma/upholstery-cleaning/",
+        "/service-areas/bellingham-ma/water-damage-restoration/",
+        "/service-areas/east-douglas-ma/water-damage-restoration/",
         "/contact/"
       ]
     },

@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning oxford"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "656f995229c81c7e"
-generated_at: "2026-09-30T19:28:57.148006+00:00"
+plan_hash: "fb08cc7ecde0496b"
+generated_at: "2026-10-02T04:40:31.079348+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/oxford-ma/", "/service-areas/oxford-ma/fire-damage-restoration/", "/service-areas/oxford-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/oxford-ma/", "/service-areas/oxford-ma/fire-damage-restoration/", "/service-areas/oxford-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/framingham-ma/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oxford", "url": "/service-areas/oxford-ma/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "oxford-ma"

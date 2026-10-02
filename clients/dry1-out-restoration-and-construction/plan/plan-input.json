@@ -33,7 +33,11 @@
     ],
     "lat": 33.1428794,
     "lng": -117.219342,
-    "address": "1235 Activity Dr"
+    "address": "1235 Activity Dr",
+    "primary_color": "#1b2e6d",
+    "dark_color": "#161618",
+    "accent_color": "#c2423f",
+    "color_source": "autocolor: existing site + logo"
   },
   "template": "restoration",
   "services": [
@@ -573,6 +577,11 @@
         "95065"
       ],
       "local_notes": "Coastal fog and winter storms make moisture and mold control a priority in Santa Cruz homes."
+    },
+    {
+      "city": "Harmony Grove",
+      "state": "CA",
+      "slug": "harmony-grove-ca"
     }
   ],
   "site_brief": {

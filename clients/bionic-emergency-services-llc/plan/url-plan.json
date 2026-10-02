@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-10-02T04:02:11.811183+00:00",
+  "generated_at": "2026-10-02T05:01:02.404148+00:00",
   "input_summary": {
     "service_count": 21,
-    "service_area_count": 9,
+    "service_area_count": 10,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -64,6 +64,7 @@
         "/services/water-leak-detection/",
         "/services/contents-restoration-storage/",
         "/service-areas/baytown-tx/",
+        "/service-areas/jersey-village-tx/",
         "/service-areas/katy-tx/",
         "/service-areas/missouri-city-tx/",
         "/service-areas/pasadena-tx/",
@@ -156,6 +157,7 @@
       "internal_links_out": [
         "/",
         "/service-areas/baytown-tx/",
+        "/service-areas/jersey-village-tx/",
         "/service-areas/katy-tx/",
         "/service-areas/missouri-city-tx/",
         "/service-areas/pasadena-tx/",
@@ -309,6 +311,7 @@
         "/services/",
         "/contact/",
         "/service-areas/baytown-tx/water-damage-restoration/",
+        "/service-areas/jersey-village-tx/water-damage-restoration/",
         "/service-areas/katy-tx/water-damage-restoration/",
         "/service-areas/missouri-city-tx/water-damage-restoration/",
         "/service-areas/pasadena-tx/water-damage-restoration/",
@@ -409,8 +412,12 @@
         "/contact/",
         "/service-areas/baytown-tx/storm-damage-restoration/",
         "/service-areas/katy-tx/storm-damage-restoration/",
+        "/service-areas/missouri-city-tx/storm-damage-restoration/",
+        "/service-areas/pasadena-tx/storm-damage-restoration/",
+        "/service-areas/pearland-tx/storm-damage-restoration/",
         "/service-areas/spring-tx/storm-damage-restoration/",
         "/service-areas/sugar-land-tx/storm-damage-restoration/",
+        "/service-areas/the-woodlands-tx/storm-damage-restoration/",
         "/blog/storm-damage-insurance-claim-checklist/"
       ]
     },
@@ -565,6 +572,14 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/baytown-tx/emergency-water-removal/",
+        "/service-areas/katy-tx/emergency-water-removal/",
+        "/service-areas/missouri-city-tx/emergency-water-removal/",
+        "/service-areas/pasadena-tx/emergency-water-removal/",
+        "/service-areas/pearland-tx/emergency-water-removal/",
+        "/service-areas/spring-tx/emergency-water-removal/",
+        "/service-areas/sugar-land-tx/emergency-water-removal/",
+        "/service-areas/the-woodlands-tx/emergency-water-removal/",
         "/services/water-damage-restoration/",
         "/services/water-cleanup/"
       ]
@@ -1139,10 +1154,12 @@
         "/contact/",
         "/service-areas/pasadena-tx/fire-damage-restoration/",
         "/service-areas/pasadena-tx/water-damage-restoration/",
+        "/service-areas/pasadena-tx/emergency-water-removal/",
         "/service-areas/pasadena-tx/sewage-cleanup/",
+        "/service-areas/pasadena-tx/storm-damage-restoration/",
         "/service-areas/baytown-tx/",
-        "/service-areas/katy-tx/",
-        "/service-areas/missouri-city-tx/"
+        "/service-areas/jersey-village-tx/",
+        "/service-areas/katy-tx/"
       ]
     },
     {
@@ -1179,10 +1196,12 @@
         "/contact/",
         "/service-areas/pearland-tx/fire-damage-restoration/",
         "/service-areas/pearland-tx/water-damage-restoration/",
+        "/service-areas/pearland-tx/emergency-water-removal/",
         "/service-areas/pearland-tx/sewage-cleanup/",
+        "/service-areas/pearland-tx/storm-damage-restoration/",
         "/service-areas/baytown-tx/",
-        "/service-areas/katy-tx/",
-        "/service-areas/missouri-city-tx/"
+        "/service-areas/jersey-village-tx/",
+        "/service-areas/katy-tx/"
       ]
     },
     {
@@ -1219,11 +1238,12 @@
         "/contact/",
         "/service-areas/sugar-land-tx/fire-damage-restoration/",
         "/service-areas/sugar-land-tx/water-damage-restoration/",
+        "/service-areas/sugar-land-tx/emergency-water-removal/",
         "/service-areas/sugar-land-tx/storm-damage-restoration/",
         "/service-areas/sugar-land-tx/contents-restoration-storage/",
         "/service-areas/baytown-tx/",
-        "/service-areas/katy-tx/",
-        "/service-areas/missouri-city-tx/"
+        "/service-areas/jersey-village-tx/",
+        "/service-areas/katy-tx/"
       ]
     },
     {
@@ -1260,10 +1280,12 @@
         "/contact/",
         "/service-areas/the-woodlands-tx/fire-damage-restoration/",
         "/service-areas/the-woodlands-tx/water-damage-restoration/",
+        "/service-areas/the-woodlands-tx/emergency-water-removal/",
+        "/service-areas/the-woodlands-tx/storm-damage-restoration/",
         "/service-areas/the-woodlands-tx/contents-restoration-storage/",
         "/service-areas/baytown-tx/",
-        "/service-areas/katy-tx/",
-        "/service-areas/missouri-city-tx/"
+        "/service-areas/jersey-village-tx/",
+        "/service-areas/katy-tx/"
       ]
     },
     {
@@ -1300,10 +1322,11 @@
         "/contact/",
         "/service-areas/baytown-tx/fire-damage-restoration/",
         "/service-areas/baytown-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/storm-damage-restoration/",
+        "/service-areas/jersey-village-tx/",
         "/service-areas/katy-tx/",
-        "/service-areas/missouri-city-tx/",
-        "/service-areas/pasadena-tx/"
+        "/service-areas/missouri-city-tx/"
       ]
     },
     {
@@ -1340,10 +1363,12 @@
         "/contact/",
         "/service-areas/missouri-city-tx/fire-damage-restoration/",
         "/service-areas/missouri-city-tx/water-damage-restoration/",
+        "/service-areas/missouri-city-tx/emergency-water-removal/",
         "/service-areas/missouri-city-tx/sewage-cleanup/",
+        "/service-areas/missouri-city-tx/storm-damage-restoration/",
         "/service-areas/baytown-tx/",
-        "/service-areas/katy-tx/",
-        "/service-areas/pasadena-tx/"
+        "/service-areas/jersey-village-tx/",
+        "/service-areas/katy-tx/"
       ]
     },
     {
@@ -1379,10 +1404,11 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/spring-tx/water-damage-restoration/",
+        "/service-areas/spring-tx/emergency-water-removal/",
         "/service-areas/spring-tx/storm-damage-restoration/",
         "/service-areas/baytown-tx/",
-        "/service-areas/katy-tx/",
-        "/service-areas/missouri-city-tx/"
+        "/service-areas/jersey-village-tx/",
+        "/service-areas/katy-tx/"
       ]
     },
     {
@@ -1419,11 +1445,50 @@
         "/contact/",
         "/service-areas/katy-tx/fire-damage-restoration/",
         "/service-areas/katy-tx/water-damage-restoration/",
+        "/service-areas/katy-tx/emergency-water-removal/",
         "/service-areas/katy-tx/storm-damage-restoration/",
         "/service-areas/katy-tx/water-cleanup/",
         "/service-areas/baytown-tx/",
-        "/service-areas/missouri-city-tx/",
-        "/service-areas/pasadena-tx/"
+        "/service-areas/jersey-village-tx/",
+        "/service-areas/missouri-city-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/jersey-village-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Jersey Village, TX | BIONIC Services LLC",
+      "h1": "Restoration Services in Jersey Village",
+      "meta_description": "Serving Jersey Village, TX with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (713) 338-2424.",
+      "primary_keyword": "restoration services jersey village",
+      "secondary_keywords": [
+        "jersey village restoration company",
+        "damage restoration jersey village",
+        "jersey village disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/jersey-village-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/",
+        "/service-areas/katy-tx/",
+        "/service-areas/missouri-city-tx/"
       ]
     },
     {
@@ -1464,9 +1529,9 @@
         "/services/water-damage-restoration/",
         "/service-areas/pasadena-tx/",
         "/service-areas/pasadena-tx/fire-damage-restoration/",
-        "/service-areas/pasadena-tx/sewage-cleanup/",
+        "/service-areas/pasadena-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/water-damage-restoration/",
-        "/service-areas/katy-tx/water-damage-restoration/",
+        "/service-areas/jersey-village-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1508,9 +1573,53 @@
         "/services/fire-damage-restoration/",
         "/service-areas/pasadena-tx/",
         "/service-areas/pasadena-tx/water-damage-restoration/",
-        "/service-areas/pasadena-tx/sewage-cleanup/",
+        "/service-areas/pasadena-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/fire-damage-restoration/",
         "/service-areas/katy-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pasadena-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Storm Damage Restoration in Pasadena, TX | BIONIC Services LLC",
+      "h1": "Emergency Storm Damage Restoration in Pasadena",
+      "meta_description": "Emergency storm damage restoration in Pasadena, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "storm damage restoration pasadena",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/pasadena-tx/",
+        "/service-areas/pasadena-tx/fire-damage-restoration/",
+        "/service-areas/pasadena-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/storm-damage-restoration/",
+        "/service-areas/katy-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1559,6 +1668,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/pasadena-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Pasadena, TX | BIONIC Services LLC",
+      "h1": "Emergency Water Removal & Cleanup in Pasadena",
+      "meta_description": "Emergency water removal & cleanup in Pasadena, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "emergency water removal & cleanup pasadena",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/pasadena-tx/",
+        "/service-areas/pasadena-tx/fire-damage-restoration/",
+        "/service-areas/pasadena-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/emergency-water-removal/",
+        "/service-areas/katy-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/pearland-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1596,9 +1748,9 @@
         "/services/water-damage-restoration/",
         "/service-areas/pearland-tx/",
         "/service-areas/pearland-tx/fire-damage-restoration/",
-        "/service-areas/pearland-tx/sewage-cleanup/",
+        "/service-areas/pearland-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/water-damage-restoration/",
-        "/service-areas/katy-tx/water-damage-restoration/",
+        "/service-areas/jersey-village-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1640,9 +1792,53 @@
         "/services/fire-damage-restoration/",
         "/service-areas/pearland-tx/",
         "/service-areas/pearland-tx/water-damage-restoration/",
-        "/service-areas/pearland-tx/sewage-cleanup/",
+        "/service-areas/pearland-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/fire-damage-restoration/",
         "/service-areas/katy-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pearland-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Storm Damage Restoration in Pearland, TX | BIONIC Services LLC",
+      "h1": "Emergency Storm Damage Restoration in Pearland",
+      "meta_description": "Emergency storm damage restoration in Pearland, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "storm damage restoration pearland",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/pearland-tx/",
+        "/service-areas/pearland-tx/fire-damage-restoration/",
+        "/service-areas/pearland-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/storm-damage-restoration/",
+        "/service-areas/katy-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1691,6 +1887,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/pearland-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Pearland, TX | BIONIC Services LLC",
+      "h1": "Emergency Water Removal & Cleanup in Pearland",
+      "meta_description": "Emergency water removal & cleanup in Pearland, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "emergency water removal & cleanup pearland",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/pearland-tx/",
+        "/service-areas/pearland-tx/fire-damage-restoration/",
+        "/service-areas/pearland-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/emergency-water-removal/",
+        "/service-areas/katy-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/sugar-land-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1728,9 +1967,9 @@
         "/services/water-damage-restoration/",
         "/service-areas/sugar-land-tx/",
         "/service-areas/sugar-land-tx/fire-damage-restoration/",
-        "/service-areas/sugar-land-tx/storm-damage-restoration/",
+        "/service-areas/sugar-land-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/water-damage-restoration/",
-        "/service-areas/katy-tx/water-damage-restoration/",
+        "/service-areas/jersey-village-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1772,7 +2011,7 @@
         "/services/fire-damage-restoration/",
         "/service-areas/sugar-land-tx/",
         "/service-areas/sugar-land-tx/water-damage-restoration/",
-        "/service-areas/sugar-land-tx/storm-damage-restoration/",
+        "/service-areas/sugar-land-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/fire-damage-restoration/",
         "/service-areas/katy-tx/fire-damage-restoration/",
         "/contact/"
@@ -1860,6 +2099,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/sugar-land-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Sugar Land, TX | BIONIC Services LLC",
+      "h1": "Emergency Water Removal & Cleanup in Sugar Land",
+      "meta_description": "Emergency water removal & cleanup in Sugar Land, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "emergency water removal & cleanup sugar land",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/sugar-land-tx/",
+        "/service-areas/sugar-land-tx/fire-damage-restoration/",
+        "/service-areas/sugar-land-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/emergency-water-removal/",
+        "/service-areas/katy-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/the-woodlands-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1897,9 +2179,9 @@
         "/services/water-damage-restoration/",
         "/service-areas/the-woodlands-tx/",
         "/service-areas/the-woodlands-tx/fire-damage-restoration/",
-        "/service-areas/the-woodlands-tx/contents-restoration-storage/",
+        "/service-areas/the-woodlands-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/water-damage-restoration/",
-        "/service-areas/katy-tx/water-damage-restoration/",
+        "/service-areas/jersey-village-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1941,9 +2223,53 @@
         "/services/fire-damage-restoration/",
         "/service-areas/the-woodlands-tx/",
         "/service-areas/the-woodlands-tx/water-damage-restoration/",
-        "/service-areas/the-woodlands-tx/contents-restoration-storage/",
+        "/service-areas/the-woodlands-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/fire-damage-restoration/",
         "/service-areas/katy-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/the-woodlands-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Storm Damage Restoration in The Woodlands, TX | BIONIC Services LLC",
+      "h1": "Emergency Storm Damage Restoration in The Woodlands",
+      "meta_description": "Emergency storm damage restoration in The Woodlands, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "storm damage restoration the woodlands",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/the-woodlands-tx/",
+        "/service-areas/the-woodlands-tx/fire-damage-restoration/",
+        "/service-areas/the-woodlands-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/storm-damage-restoration/",
+        "/service-areas/katy-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1985,6 +2311,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/the-woodlands-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in The Woodlands, TX | BIONIC Services LLC",
+      "h1": "Emergency Water Removal & Cleanup in The Woodlands",
+      "meta_description": "Emergency water removal & cleanup in The Woodlands, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "emergency water removal & cleanup the woodlands",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/the-woodlands-tx/",
+        "/service-areas/the-woodlands-tx/fire-damage-restoration/",
+        "/service-areas/the-woodlands-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/emergency-water-removal/",
+        "/service-areas/katy-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/baytown-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2022,9 +2391,9 @@
         "/services/water-damage-restoration/",
         "/service-areas/baytown-tx/",
         "/service-areas/baytown-tx/fire-damage-restoration/",
-        "/service-areas/baytown-tx/storm-damage-restoration/",
+        "/service-areas/baytown-tx/emergency-water-removal/",
+        "/service-areas/jersey-village-tx/water-damage-restoration/",
         "/service-areas/katy-tx/water-damage-restoration/",
-        "/service-areas/missouri-city-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2066,7 +2435,7 @@
         "/services/fire-damage-restoration/",
         "/service-areas/baytown-tx/",
         "/service-areas/baytown-tx/water-damage-restoration/",
-        "/service-areas/baytown-tx/storm-damage-restoration/",
+        "/service-areas/baytown-tx/emergency-water-removal/",
         "/service-areas/katy-tx/fire-damage-restoration/",
         "/service-areas/missouri-city-tx/fire-damage-restoration/",
         "/contact/"
@@ -2112,7 +2481,50 @@
         "/service-areas/baytown-tx/fire-damage-restoration/",
         "/service-areas/baytown-tx/water-damage-restoration/",
         "/service-areas/katy-tx/storm-damage-restoration/",
-        "/service-areas/spring-tx/storm-damage-restoration/",
+        "/service-areas/missouri-city-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/baytown-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Baytown, TX | BIONIC Services LLC",
+      "h1": "Emergency Water Removal & Cleanup in Baytown",
+      "meta_description": "Emergency water removal & cleanup in Baytown, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "emergency water removal & cleanup baytown",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/baytown-tx/",
+        "/service-areas/baytown-tx/fire-damage-restoration/",
+        "/service-areas/baytown-tx/water-damage-restoration/",
+        "/service-areas/katy-tx/emergency-water-removal/",
+        "/service-areas/missouri-city-tx/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -2154,9 +2566,9 @@
         "/services/water-damage-restoration/",
         "/service-areas/missouri-city-tx/",
         "/service-areas/missouri-city-tx/fire-damage-restoration/",
-        "/service-areas/missouri-city-tx/sewage-cleanup/",
+        "/service-areas/missouri-city-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/water-damage-restoration/",
-        "/service-areas/katy-tx/water-damage-restoration/",
+        "/service-areas/jersey-village-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2198,9 +2610,53 @@
         "/services/fire-damage-restoration/",
         "/service-areas/missouri-city-tx/",
         "/service-areas/missouri-city-tx/water-damage-restoration/",
-        "/service-areas/missouri-city-tx/sewage-cleanup/",
+        "/service-areas/missouri-city-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/fire-damage-restoration/",
         "/service-areas/katy-tx/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/missouri-city-tx/storm-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Storm Damage Restoration in Missouri City, TX | BIONIC Services LLC",
+      "h1": "Emergency Storm Damage Restoration in Missouri City",
+      "meta_description": "Emergency storm damage restoration in Missouri City, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "storm damage restoration missouri city",
+      "secondary_keywords": [
+        "hurricane damage cleanup",
+        "tornado damage cleanup",
+        "tree damage cleanup",
+        "storm cleanup services",
+        "severe weather damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/storm-damage-restoration/",
+        "/service-areas/missouri-city-tx/",
+        "/service-areas/missouri-city-tx/fire-damage-restoration/",
+        "/service-areas/missouri-city-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/storm-damage-restoration/",
+        "/service-areas/katy-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2249,6 +2705,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/missouri-city-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Missouri City, TX | BIONIC Services LLC",
+      "h1": "Emergency Water Removal & Cleanup in Missouri City",
+      "meta_description": "Emergency water removal & cleanup in Missouri City, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "emergency water removal & cleanup missouri city",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/missouri-city-tx/",
+        "/service-areas/missouri-city-tx/fire-damage-restoration/",
+        "/service-areas/missouri-city-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/emergency-water-removal/",
+        "/service-areas/katy-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/spring-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2285,9 +2784,10 @@
       "internal_links_out": [
         "/services/water-damage-restoration/",
         "/service-areas/spring-tx/",
+        "/service-areas/spring-tx/emergency-water-removal/",
         "/service-areas/spring-tx/storm-damage-restoration/",
         "/service-areas/baytown-tx/water-damage-restoration/",
-        "/service-areas/katy-tx/water-damage-restoration/",
+        "/service-areas/jersey-village-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2329,8 +2829,52 @@
         "/services/storm-damage-restoration/",
         "/service-areas/spring-tx/",
         "/service-areas/spring-tx/water-damage-restoration/",
+        "/service-areas/spring-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/storm-damage-restoration/",
         "/service-areas/katy-tx/storm-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Spring, TX | BIONIC Services LLC",
+      "h1": "Emergency Water Removal & Cleanup in Spring",
+      "meta_description": "Emergency water removal & cleanup in Spring, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "emergency water removal & cleanup spring",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/spring-tx/",
+        "/service-areas/spring-tx/water-damage-restoration/",
+        "/service-areas/spring-tx/storm-damage-restoration/",
+        "/service-areas/baytown-tx/emergency-water-removal/",
+        "/service-areas/katy-tx/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -2372,9 +2916,9 @@
         "/services/water-damage-restoration/",
         "/service-areas/katy-tx/",
         "/service-areas/katy-tx/fire-damage-restoration/",
-        "/service-areas/katy-tx/storm-damage-restoration/",
+        "/service-areas/katy-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/water-damage-restoration/",
-        "/service-areas/missouri-city-tx/water-damage-restoration/",
+        "/service-areas/jersey-village-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2416,7 +2960,7 @@
         "/services/fire-damage-restoration/",
         "/service-areas/katy-tx/",
         "/service-areas/katy-tx/water-damage-restoration/",
-        "/service-areas/katy-tx/storm-damage-restoration/",
+        "/service-areas/katy-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/fire-damage-restoration/",
         "/service-areas/missouri-city-tx/fire-damage-restoration/",
         "/contact/"
@@ -2462,7 +3006,7 @@
         "/service-areas/katy-tx/fire-damage-restoration/",
         "/service-areas/katy-tx/water-damage-restoration/",
         "/service-areas/baytown-tx/storm-damage-restoration/",
-        "/service-areas/spring-tx/storm-damage-restoration/",
+        "/service-areas/missouri-city-tx/storm-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2504,6 +3048,91 @@
         "/services/water-cleanup/",
         "/service-areas/katy-tx/",
         "/service-areas/katy-tx/fire-damage-restoration/",
+        "/service-areas/katy-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/katy-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Katy, TX | BIONIC Services LLC",
+      "h1": "Emergency Water Removal & Cleanup in Katy",
+      "meta_description": "Emergency water removal & cleanup in Katy, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "emergency water removal & cleanup katy",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/katy-tx/",
+        "/service-areas/katy-tx/fire-damage-restoration/",
+        "/service-areas/katy-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/emergency-water-removal/",
+        "/service-areas/missouri-city-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/jersey-village-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Jersey Village, TX | BIONIC Services LLC",
+      "h1": "Emergency Water Damage Restoration in Jersey Village",
+      "meta_description": "Emergency water damage restoration in Jersey Village, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "water damage restoration jersey village",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/jersey-village-tx/",
+        "/service-areas/baytown-tx/water-damage-restoration/",
         "/service-areas/katy-tx/water-damage-restoration/",
         "/contact/"
       ]

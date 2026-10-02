@@ -33,7 +33,9 @@
     "primary_color": "#e11f2c",
     "accent_color": "#f3663e",
     "dark_color": "#16181d",
-    "insurance_trust_line": "Managed Repair Preferred Vendor for 34 Insurance Carriers in the State of Florida"
+    "insurance_trust_line": "Managed Repair Preferred Vendor for 34 Insurance Carriers in the State of Florida",
+    "legal_name": "Showalter Construction & Restoration, LLC",
+    "dba_name": "DryCor Restore"
   },
   "services": [
     "basement-flooding-cleanup",
@@ -42,6 +44,7 @@
     "commercial-restoration",
     "contents-restoration-storage",
     "emergency-board-up-tarping",
+    "emergency-plumbing",
     "emergency-water-removal",
     "fire-damage-restoration",
     "flood-damage-restoration",

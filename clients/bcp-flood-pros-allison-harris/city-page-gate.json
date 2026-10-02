@@ -89,6 +89,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "alpine-ut__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup alpine' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "bluffdale-ut__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup bluffdale' 0/mo) and no local angle",
@@ -172,6 +179,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "bluffdale-ut__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup bluffdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "cedar-fort-ut__biohazard-cleanup": {
    "pass": false,
@@ -257,6 +271,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "cedar-fort-ut__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup cedar fort' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "cedar-hills-ut__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup cedar hills' 0/mo) and no local angle",
@@ -340,6 +361,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "cedar-hills-ut__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup cedar hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "cottonwood-heights-ut__biohazard-cleanup": {
    "pass": false,
@@ -425,6 +453,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "cottonwood-heights-ut__water-cleanup": {
+   "pass": true,
+   "why": "local angle: canyon snowmelt runoff flood risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "draper-ut__biohazard-cleanup": {
    "pass": true,
    "why": "local demand: 'biohazard cleanup draper' 10/mo",
@@ -508,6 +543,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "draper-ut__water-cleanup": {
+   "pass": true,
+   "why": "local angle: canyon snowmelt runoff flood risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "eagle-mountain-ut__biohazard-cleanup": {
    "pass": false,
@@ -593,6 +635,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "eagle-mountain-ut__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup eagle mountain' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "herriman-ut__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup herriman' 0/mo) and no local angle",
@@ -676,6 +725,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "herriman-ut__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup herriman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "highland-ut__biohazard-cleanup": {
    "pass": false,
@@ -761,6 +817,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "highland-ut__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup highland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "lehi-ut__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup lehi' 0/mo) and no local angle",
@@ -844,6 +907,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "lehi-ut__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup lehi' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "lindon-ut__biohazard-cleanup": {
    "pass": false,
@@ -929,6 +999,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "lindon-ut__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup lindon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "orem-ut__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup orem' 0/mo) and no local angle",
@@ -1012,6 +1089,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "orem-ut__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Utah Lake adjacent flood zone exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "pleasant-grove-ut__biohazard-cleanup": {
    "pass": false,
@@ -1097,6 +1181,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "pleasant-grove-ut__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup pleasant grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "provo-ut__biohazard-cleanup": {
    "pass": true,
    "why": "local demand: 'biohazard cleanup provo' 10/mo",
@@ -1180,6 +1271,13 @@
    "vol": 10,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "provo-ut__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Utah Lake shoreline flood-prone zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "riverton-ut__biohazard-cleanup": {
    "pass": false,
@@ -1265,6 +1363,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "riverton-ut__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup riverton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "sandy-ut__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup sandy' 0/mo) and no local angle",
@@ -1348,6 +1453,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "sandy-ut__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup sandy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "saratoga-springs-ut__biohazard-cleanup": {
    "pass": false,
@@ -1433,6 +1545,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "saratoga-springs-ut__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Utah Lake shoreline flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "south-jordan-ut__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup south jordan' 0/mo) and no local angle",
@@ -1516,6 +1635,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "south-jordan-ut__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup south jordan' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "spanish-fork-ut__biohazard-cleanup": {
    "pass": false,
@@ -1601,6 +1727,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "spanish-fork-ut__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Spanish Fork River flood zone risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "springville-ut__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup springville' 0/mo) and no local angle",
@@ -1685,6 +1818,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "springville-ut__water-cleanup": {
+   "pass": true,
+   "why": "local angle: near river flood zone exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "vineyard-ut__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup vineyard' 0/mo) and no local angle",
@@ -1768,6 +1908,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "vineyard-ut__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Utah Lake shoreline flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   }
  },
  "offered": {
@@ -1883,7 +2030,11 @@
   "storm-damage-restoration": {
    "term": "storm damage restoration",
    "metro": 20
+  },
+  "water-cleanup": {
+   "term": "water cleanup",
+   "metro": 20
   }
  },
- "updated_at": "2026-10-01T05:03:38+00:00"
+ "updated_at": "2026-10-02T04:30:33+00:00"
 }

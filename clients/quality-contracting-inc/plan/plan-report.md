@@ -1,7 +1,7 @@
 # Site Plan Report — Quality Contracting, Inc.
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-10-01T05:05:58.837228+00:00
+- Generated: 2026-10-02T04:40:27.738727+00:00
 - Domain: `qualitycontracting.us`
 - Services selected: 30 of 91 catalog entries
 - Service areas: 28
@@ -42,9 +42,9 @@
 - `roofing` — Roofing Installation and Replacement (construction, priority 10)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `upholstery-cleaning` — Upholstery Cleaning (adjacent, priority 4)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `upholstery-cleaning` — Upholstery Cleaning (adjacent, priority 4)
 - `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)

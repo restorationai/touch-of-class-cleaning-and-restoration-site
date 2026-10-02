@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Odor Removal and Deodorization in San Jose, CA | Dry1 Out Restoration and Construction"
+h1: "Odor Removal and Deodorization in San Jose"
+meta_description: "24/7 odor removal and deodorization in San Jose, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
+primary_keyword: "odor removal and deodorization san jose"
+secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
+search_intent: "local_specialty"
+priority: 4.9
+plan_hash: "d688638a1d40384b"
+generated_at: "2026-10-02T05:01:25.402023+00:00"
+manual_override: false
+internal_links: ["/services/odor-removal/", "/service-areas/san-jose-ca/", "/service-areas/san-jose-ca/fire-damage-restoration/", "/service-areas/san-jose-ca/mold-remediation/", "/service-areas/san-diego-ca/odor-removal/", "/service-areas/san-francisco-ca/odor-removal/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Jose", "url": "/service-areas/san-jose-ca/"}, {"name": "Odor Removal and Deodorization"}]
+faq: []
+area_slug: "san-jose-ca"
+service_slug: "odor-removal"
+city: "San Jose"
+state: "CA"
+service_display: "Odor Removal and Deodorization"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug dry1-out-restoration-and-construction` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Odor Removal and Deodorization in San Jose.

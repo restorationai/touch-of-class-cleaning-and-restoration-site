@@ -7,10 +7,10 @@ primary_keyword: "restoration services palmer town"
 secondary_keywords: ["palmer town restoration company", "damage restoration palmer town", "palmer town disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "f103033dc4d4f58f"
-generated_at: "2026-09-30T19:28:56.917444+00:00"
+plan_hash: "ab46e1f1d80437ca"
+generated_at: "2026-10-02T04:40:31.068952+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/palmer-town-ma/", "/service-areas/palmer-town-ma/water-damage-restoration/", "/service-areas/palmer-town-ma/emergency-water-removal/", "/service-areas/palmer-town-ma/storm-damage-restoration/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/palmer-town-ma/water-damage-restoration/", "/service-areas/palmer-town-ma/emergency-water-removal/", "/service-areas/palmer-town-ma/storm-damage-restoration/", "/service-areas/palmer-town-ma/upholstery-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Palmer Town"}]
 faq: []
 area_slug: "palmer-town-ma"

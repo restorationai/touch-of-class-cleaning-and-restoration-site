@@ -27,13 +27,14 @@
     "logo_url": "/images/logo.png"
   },
   "services": [
-    "water-damage-restoration",
+    "contents-restoration-storage",
     "fire-damage-restoration",
     "mold-remediation",
+    "odor-removal",
     "sewage-cleanup",
-    "contents-restoration-storage",
+    "storm-damage-restoration",
     "water-cleanup",
-    "storm-damage-restoration"
+    "water-damage-restoration"
   ],
   "service_areas": [
     {
@@ -136,8 +137,21 @@
       "city": "Owings Mills",
       "state": "MD",
       "slug": "owings-mills-md"
+    },
+    {
+      "city": "Kingsville",
+      "state": "MD",
+      "slug": "kingsville-md"
     }
   ],
   "template": "restoration",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "commercial-restoration",
+    "emergency-water-removal",
+    "flood-damage-restoration"
+  ]
 }

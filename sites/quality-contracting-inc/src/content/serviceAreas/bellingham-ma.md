@@ -7,10 +7,10 @@ primary_keyword: "restoration services bellingham"
 secondary_keywords: ["bellingham restoration company", "damage restoration bellingham", "bellingham disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "edc6261c5007a7c3"
-generated_at: "2026-09-30T19:28:56.915754+00:00"
+plan_hash: "d5c670f55bb17374"
+generated_at: "2026-10-02T04:40:31.067903+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/bellingham-ma/water-damage-restoration/", "/service-areas/bellingham-ma/emergency-water-removal/", "/service-areas/bellingham-ma/general-contracting/", "/service-areas/bellingham-ma/odor-removal/", "/service-areas/bellingham-ma/asbestos-abatement/", "/service-areas/bellingham-ma/air-duct-cleaning/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/bellingham-ma/post-construction-cleaning/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/service-areas/framingham-ma/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/bellingham-ma/water-damage-restoration/", "/service-areas/bellingham-ma/emergency-water-removal/", "/service-areas/bellingham-ma/general-contracting/", "/service-areas/bellingham-ma/odor-removal/", "/service-areas/bellingham-ma/asbestos-abatement/", "/service-areas/bellingham-ma/air-duct-cleaning/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/bellingham-ma/post-construction-cleaning/", "/service-areas/bellingham-ma/upholstery-cleaning/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/service-areas/framingham-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellingham"}]
 faq: []
 area_slug: "bellingham-ma"

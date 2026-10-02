@@ -12,6 +12,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "allison-park-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "allison-park-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement allison park' 0/mo) and no local angle",
@@ -32,6 +39,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "allison-park-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning allison park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "allison-park-pa__contents-restoration-storage": {
    "pass": false,
@@ -96,6 +110,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "baldwin-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning baldwin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "baldwin-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement baldwin' 0/mo) and no local angle",
@@ -116,6 +137,13 @@
    "vol": 10,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "baldwin-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning baldwin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "baldwin-pa__contents-restoration-storage": {
    "pass": false,
@@ -180,6 +208,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "bethel-park-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning bethel park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "bethel-park-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement bethel park' 0/mo) and no local angle",
@@ -200,6 +235,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "bethel-park-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning bethel park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "bethel-park-pa__contents-restoration-storage": {
    "pass": false,
@@ -264,6 +306,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "carnegie-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning carnegie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "carnegie-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement carnegie' 0/mo) and no local angle",
@@ -284,6 +333,13 @@
    "vol": 10,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "carnegie-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning carnegie' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "carnegie-pa__contents-restoration-storage": {
    "pass": false,
@@ -348,6 +404,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "castle-shannon-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning castle shannon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "castle-shannon-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement castle shannon' 0/mo) and no local angle",
@@ -368,6 +431,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "castle-shannon-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning castle shannon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "castle-shannon-pa__contents-restoration-storage": {
    "pass": false,
@@ -432,6 +502,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "churchill-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning churchill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "churchill-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement churchill' 0/mo) and no local angle",
@@ -452,6 +529,13 @@
    "vol": 10,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "churchill-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning churchill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "churchill-pa__contents-restoration-storage": {
    "pass": false,
@@ -516,6 +600,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "duquesne-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning duquesne' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "duquesne-pa__asbestos-abatement": {
    "pass": true,
    "why": "local angle: former steel mill town, aging building stock",
@@ -536,6 +627,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "duquesne-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning duquesne' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "duquesne-pa__contents-restoration-storage": {
    "pass": false,
@@ -600,6 +698,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "forest-hills-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning forest hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "forest-hills-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement forest hills' 0/mo) and no local angle",
@@ -620,6 +725,13 @@
    "vol": 10,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "forest-hills-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning forest hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "forest-hills-pa__contents-restoration-storage": {
    "pass": false,
@@ -684,6 +796,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "fox-chapel-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning fox chapel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "fox-chapel-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement fox chapel' 0/mo) and no local angle",
@@ -704,6 +823,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "fox-chapel-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning fox chapel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "fox-chapel-pa__contents-restoration-storage": {
    "pass": false,
@@ -768,6 +894,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "glenshaw-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "glenshaw-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement glenshaw' 0/mo) and no local angle",
@@ -788,6 +921,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "glenshaw-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning glenshaw' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "glenshaw-pa__contents-restoration-storage": {
    "pass": false,
@@ -852,6 +992,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "green-tree-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning green tree' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "green-tree-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement green tree' 0/mo) and no local angle",
@@ -872,6 +1019,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "green-tree-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning green tree' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "green-tree-pa__contents-restoration-storage": {
    "pass": false,
@@ -936,6 +1090,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "greensburg-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning greensburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "greensburg-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement greensburg' 0/mo) and no local angle",
@@ -956,6 +1117,13 @@
    "vol": 90,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "greensburg-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning greensburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "greensburg-pa__contents-restoration-storage": {
    "pass": false,
@@ -1020,6 +1188,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "hempfield-township-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning hempfield township' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "hempfield-township-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement hempfield township' 0/mo) and no local angle",
@@ -1040,6 +1215,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "hempfield-township-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning hempfield township' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "hempfield-township-pa__contents-restoration-storage": {
    "pass": false,
@@ -1104,6 +1286,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "jeannette-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning jeannette' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "jeannette-pa__asbestos-abatement": {
    "pass": true,
    "why": "local angle: old glass-industry town with aging structures",
@@ -1124,6 +1313,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "jeannette-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning jeannette' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "jeannette-pa__contents-restoration-storage": {
    "pass": false,
@@ -1188,6 +1384,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "jefferson-hills-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning jefferson hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "jefferson-hills-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement jefferson hills' 0/mo) and no local angle",
@@ -1208,6 +1411,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "jefferson-hills-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning jefferson hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "jefferson-hills-pa__contents-restoration-storage": {
    "pass": false,
@@ -1272,6 +1482,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "latrobe-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning latrobe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "latrobe-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement latrobe' 0/mo) and no local angle",
@@ -1292,6 +1509,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "latrobe-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning latrobe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "latrobe-pa__contents-restoration-storage": {
    "pass": false,
@@ -1356,6 +1580,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "lower-burrell-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning lower burrell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "lower-burrell-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement lower burrell' 0/mo) and no local angle",
@@ -1376,6 +1607,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "lower-burrell-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning lower burrell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "lower-burrell-pa__contents-restoration-storage": {
    "pass": false,
@@ -1440,6 +1678,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "mccandless-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning mccandless' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "mccandless-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement mccandless' 0/mo) and no local angle",
@@ -1460,6 +1705,13 @@
    "vol": 10,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "mccandless-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning mccandless' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "mccandless-pa__contents-restoration-storage": {
    "pass": false,
@@ -1524,6 +1776,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "mckeesport-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning mckeesport' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "mckeesport-pa__asbestos-abatement": {
    "pass": true,
    "why": "local angle: historic steel-era housing with older building materials",
@@ -1544,6 +1803,13 @@
    "vol": 10,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "mckeesport-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning mckeesport' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "mckeesport-pa__contents-restoration-storage": {
    "pass": false,
@@ -1608,6 +1874,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "monroeville-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning monroeville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "monroeville-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement monroeville' 0/mo) and no local angle",
@@ -1628,6 +1901,13 @@
    "vol": 20,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "monroeville-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning monroeville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "monroeville-pa__contents-restoration-storage": {
    "pass": false,
@@ -1692,6 +1972,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "mount-lebanon-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning mount lebanon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "mount-lebanon-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement mount lebanon' 0/mo) and no local angle",
@@ -1712,6 +1999,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "mount-lebanon-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning mount lebanon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "mount-lebanon-pa__contents-restoration-storage": {
    "pass": false,
@@ -1776,6 +2070,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "munhall-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning munhall' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "munhall-pa__asbestos-abatement": {
    "pass": true,
    "why": "local angle: historic Homestead Works-era homes and buildings",
@@ -1796,6 +2097,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "munhall-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning munhall' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "munhall-pa__contents-restoration-storage": {
    "pass": false,
@@ -1860,6 +2168,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "murrysville-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning murrysville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "murrysville-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement murrysville' 0/mo) and no local angle",
@@ -1880,6 +2195,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "murrysville-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning murrysville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "murrysville-pa__contents-restoration-storage": {
    "pass": false,
@@ -1945,6 +2267,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "new-kensington-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning new kensington' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "new-kensington-pa__asbestos-abatement": {
    "pass": true,
    "why": "local angle: former aluminum industry town, older buildings",
@@ -1965,6 +2294,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "new-kensington-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning new kensington' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "new-kensington-pa__contents-restoration-storage": {
    "pass": false,
@@ -2029,6 +2365,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "north-huntingdon-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning north huntingdon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "north-huntingdon-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement north huntingdon' 0/mo) and no local angle",
@@ -2049,6 +2392,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "north-huntingdon-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning north huntingdon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "north-huntingdon-pa__contents-restoration-storage": {
    "pass": false,
@@ -2113,6 +2463,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "penn-hills-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning penn hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "penn-hills-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement penn hills' 0/mo) and no local angle",
@@ -2133,6 +2490,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "penn-hills-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning penn hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "penn-hills-pa__contents-restoration-storage": {
    "pass": false,
@@ -2197,6 +2561,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "pleasant-hills-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning pleasant hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "pleasant-hills-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement pleasant hills' 0/mo) and no local angle",
@@ -2217,6 +2588,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "pleasant-hills-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning pleasant hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "pleasant-hills-pa__contents-restoration-storage": {
    "pass": false,
@@ -2281,6 +2659,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "plum-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning plum' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "plum-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement plum' 0/mo) and no local angle",
@@ -2301,6 +2686,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "plum-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning plum' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "plum-pa__contents-restoration-storage": {
    "pass": false,
@@ -2365,6 +2757,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "ross-township-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning ross township' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "ross-township-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement ross township' 0/mo) and no local angle",
@@ -2385,6 +2784,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "ross-township-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning ross township' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "ross-township-pa__contents-restoration-storage": {
    "pass": false,
@@ -2449,6 +2855,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "sewickley-hills-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "sewickley-hills-pa__asbestos-abatement": {
    "pass": false,
    "why": "implausible here: newer development, minimal pre-1980s housing stock",
@@ -2470,6 +2883,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "sewickley-hills-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning sewickley hills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "sewickley-hills-pa__contents-restoration-storage": {
    "pass": false,
@@ -2535,6 +2955,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "shaler-township-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning shaler township' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "shaler-township-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement shaler township' 0/mo) and no local angle",
@@ -2555,6 +2982,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "shaler-township-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning shaler township' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "shaler-township-pa__contents-restoration-storage": {
    "pass": false,
@@ -2619,6 +3053,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "west-mifflin-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning west mifflin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "west-mifflin-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement west mifflin' 0/mo) and no local angle",
@@ -2639,6 +3080,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "west-mifflin-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning west mifflin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "west-mifflin-pa__contents-restoration-storage": {
    "pass": false,
@@ -2703,6 +3151,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "whitehall-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning whitehall' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "whitehall-pa__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement whitehall' 0/mo) and no local angle",
@@ -2723,6 +3178,13 @@
    "vol": 10,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "whitehall-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning whitehall' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "whitehall-pa__contents-restoration-storage": {
    "pass": false,
@@ -2787,6 +3249,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "wilkinsburg-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning wilkinsburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "wilkinsburg-pa__asbestos-abatement": {
    "pass": true,
    "why": "local angle: dense older housing stock from early 1900s",
@@ -2807,6 +3276,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "wilkinsburg-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning wilkinsburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "wilkinsburg-pa__contents-restoration-storage": {
    "pass": false,
@@ -2977,7 +3453,15 @@
   "upholstery-cleaning": {
    "term": "upholstery cleaning",
    "metro": 50
+  },
+  "air-duct-hvac-cleaning": {
+   "term": "air duct and hvac cleaning",
+   "metro": 10
+  },
+  "carpet-upholstery-cleaning": {
+   "term": "carpet and upholstery cleaning",
+   "metro": 20
   }
  },
- "updated_at": "2026-10-01T05:05:05+00:00"
+ "updated_at": "2026-10-02T04:36:37+00:00"
 }

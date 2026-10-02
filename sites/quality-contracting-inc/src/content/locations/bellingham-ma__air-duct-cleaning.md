@@ -7,10 +7,10 @@ primary_keyword: "air duct cleaning bellingham"
 secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitization", "dryer vent cleaning", "residential duct cleaning"]
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "b99d361ffb003a08"
-generated_at: "2026-09-30T19:28:57.251168+00:00"
+plan_hash: "e0fd063d9c7b7b81"
+generated_at: "2026-10-02T04:40:31.084645+00:00"
 manual_override: false
-internal_links: ["/services/air-duct-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/contact/"]
+internal_links: ["/services/air-duct-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/bellingham-ma/water-damage-restoration/", "/service-areas/framingham-ma/air-duct-cleaning/", "/service-areas/hopkinton-ma/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellingham", "url": "/service-areas/bellingham-ma/"}, {"name": "Air Duct Cleaning"}]
 faq: []
 area_slug: "bellingham-ma"

@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning auburn"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 3.6
-plan_hash: "b1a223e12a40bd56"
-generated_at: "2026-09-30T19:28:56.902149+00:00"
+plan_hash: "294107354afb475b"
+generated_at: "2026-10-02T04:40:31.063345+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/", "/service-areas/fiskdale-ma/", "/service-areas/framingham-ma/carpet-cleaning/", "/service-areas/franklin-town-ma/", "/service-areas/hopkinton-ma/carpet-cleaning/", "/service-areas/hudson-ma/carpet-cleaning/", "/service-areas/leominster-ma/carpet-cleaning/", "/service-areas/marlborough-ma/carpet-cleaning/", "/service-areas/maynard-ma/", "/service-areas/milford-ma/carpet-cleaning/", "/service-areas/natick-ma/carpet-cleaning/"]
+internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/framingham-ma/carpet-cleaning/", "/service-areas/hopkinton-ma/carpet-cleaning/", "/service-areas/hudson-ma/carpet-cleaning/", "/service-areas/leominster-ma/carpet-cleaning/", "/service-areas/marlborough-ma/carpet-cleaning/", "/service-areas/milford-ma/carpet-cleaning/", "/service-areas/natick-ma/carpet-cleaning/", "/service-areas/needham-ma/carpet-cleaning/", "/service-areas/newton-ma/carpet-cleaning/", "/service-areas/northborough-ma/carpet-cleaning/", "/service-areas/oxford-ma/carpet-cleaning/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Carpet Cleaning"}]
 faq: []
 service_slug: "carpet-cleaning"

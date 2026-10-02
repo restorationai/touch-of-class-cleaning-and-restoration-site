@@ -162,6 +162,11 @@
       "city": "New Castle",
       "state": "PA",
       "slug": "new-castle-pa"
+    },
+    {
+      "city": "McDonald",
+      "state": "OH",
+      "slug": "mcdonald-oh"
     }
   ],
   "template": "restoration",

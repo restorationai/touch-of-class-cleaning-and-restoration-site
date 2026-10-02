@@ -1,13 +1,15 @@
 {
   "slug": "tdi-builders",
   "allowed": false,
-  "reason": "no plumbing name confirmed, no plumbing DBA, not a licensed plumber",
+  "reason": "client kept their current name (rename_intent decision=keep)",
   "evidence": {
     "company_id": "CO-1787586121477",
     "gbp_title": "TDI Builders",
-    "rename_intent": {},
+    "rename_intent": {
+      "decision": "keep"
+    },
     "chosen_names": []
   },
-  "checked_at": "2026-10-01T17:30:49+00:00",
+  "checked_at": "2026-10-02T05:02:48+00:00",
   "source": "supabase"
 }

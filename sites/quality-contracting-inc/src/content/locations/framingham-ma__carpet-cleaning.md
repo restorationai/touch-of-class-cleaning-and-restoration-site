@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning framingham"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "a7db5474f9aaf127"
-generated_at: "2026-09-30T19:28:56.970287+00:00"
+plan_hash: "ebd333737e41fa6b"
+generated_at: "2026-10-02T04:40:31.074393+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/framingham-ma/", "/service-areas/framingham-ma/fire-damage-restoration/", "/service-areas/framingham-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/framingham-ma/", "/service-areas/framingham-ma/fire-damage-restoration/", "/service-areas/framingham-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/hopkinton-ma/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Framingham", "url": "/service-areas/framingham-ma/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "framingham-ma"

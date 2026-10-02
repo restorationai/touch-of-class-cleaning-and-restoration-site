@@ -208,6 +208,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/upholstery-cleaning/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/water-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -219,16 +229,6 @@
     "missing_stubs": []
   },
   "/services/water-leak-detection/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/upholstery-cleaning/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -731,7 +731,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/worcester-ma/water-damage-restoration/": {
+  "/service-areas/worcester-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -741,7 +741,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/worcester-ma/upholstery-cleaning/": {
+  "/service-areas/worcester-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -861,7 +861,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/shrewsbury-ma/water-damage-restoration/": {
+  "/service-areas/shrewsbury-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -871,7 +871,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/shrewsbury-ma/upholstery-cleaning/": {
+  "/service-areas/shrewsbury-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -991,7 +991,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/westborough-ma/water-damage-restoration/": {
+  "/service-areas/westborough-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1001,7 +1001,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/westborough-ma/upholstery-cleaning/": {
+  "/service-areas/westborough-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1121,7 +1121,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/southborough-ma/water-damage-restoration/": {
+  "/service-areas/southborough-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1131,7 +1131,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/southborough-ma/upholstery-cleaning/": {
+  "/service-areas/southborough-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1261,7 +1261,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hopkinton-ma/water-damage-restoration/": {
+  "/service-areas/hopkinton-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1271,7 +1271,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hopkinton-ma/upholstery-cleaning/": {
+  "/service-areas/hopkinton-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1401,7 +1401,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/framingham-ma/water-damage-restoration/": {
+  "/service-areas/framingham-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1411,7 +1411,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/framingham-ma/upholstery-cleaning/": {
+  "/service-areas/framingham-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1531,7 +1531,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/natick-ma/water-damage-restoration/": {
+  "/service-areas/natick-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1541,7 +1541,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/natick-ma/upholstery-cleaning/": {
+  "/service-areas/natick-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1661,7 +1661,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wellesley-ma/water-damage-restoration/": {
+  "/service-areas/wellesley-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1671,7 +1671,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wellesley-ma/upholstery-cleaning/": {
+  "/service-areas/wellesley-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1801,7 +1801,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/needham-ma/water-damage-restoration/": {
+  "/service-areas/needham-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1811,7 +1811,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/needham-ma/upholstery-cleaning/": {
+  "/service-areas/needham-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1941,7 +1941,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/newton-ma/water-damage-restoration/": {
+  "/service-areas/newton-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1951,7 +1951,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/newton-ma/upholstery-cleaning/": {
+  "/service-areas/newton-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2081,7 +2081,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/weston-ma/water-damage-restoration/": {
+  "/service-areas/weston-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2091,7 +2091,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/weston-ma/upholstery-cleaning/": {
+  "/service-areas/weston-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2151,7 +2151,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/oxford-ma/water-damage-restoration/": {
+  "/service-areas/oxford-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2161,7 +2161,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/oxford-ma/upholstery-cleaning/": {
+  "/service-areas/oxford-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2211,7 +2211,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/whitinsville-ma/water-damage-restoration/": {
+  "/service-areas/whitinsville-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2221,7 +2221,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/whitinsville-ma/upholstery-cleaning/": {
+  "/service-areas/whitinsville-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2261,7 +2261,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/east-douglas-ma/water-damage-restoration/": {
+  "/service-areas/east-douglas-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2271,7 +2271,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/east-douglas-ma/upholstery-cleaning/": {
+  "/service-areas/east-douglas-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2321,7 +2321,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/northborough-ma/water-damage-restoration/": {
+  "/service-areas/northborough-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2331,7 +2331,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/northborough-ma/upholstery-cleaning/": {
+  "/service-areas/northborough-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2391,7 +2391,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/southbridge-town-ma/water-damage-restoration/": {
+  "/service-areas/southbridge-town-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2401,7 +2401,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/southbridge-town-ma/upholstery-cleaning/": {
+  "/service-areas/southbridge-town-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2451,7 +2451,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sturbridge-ma/water-damage-restoration/": {
+  "/service-areas/sturbridge-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2461,7 +2461,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sturbridge-ma/upholstery-cleaning/": {
+  "/service-areas/sturbridge-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2501,7 +2501,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fiskdale-ma/water-damage-restoration/": {
+  "/service-areas/fiskdale-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2511,7 +2511,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fiskdale-ma/upholstery-cleaning/": {
+  "/service-areas/fiskdale-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2611,7 +2611,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/milford-ma/water-damage-restoration/": {
+  "/service-areas/milford-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2621,7 +2621,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/milford-ma/upholstery-cleaning/": {
+  "/service-areas/milford-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2681,7 +2681,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/marlborough-ma/water-damage-restoration/": {
+  "/service-areas/marlborough-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2691,7 +2691,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/marlborough-ma/upholstery-cleaning/": {
+  "/service-areas/marlborough-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2731,7 +2731,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hudson-ma/water-damage-restoration/": {
+  "/service-areas/hudson-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2741,7 +2741,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hudson-ma/upholstery-cleaning/": {
+  "/service-areas/hudson-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2821,7 +2821,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bellingham-ma/water-damage-restoration/": {
+  "/service-areas/bellingham-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2831,7 +2831,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bellingham-ma/upholstery-cleaning/": {
+  "/service-areas/bellingham-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2871,7 +2871,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ware-ma/water-damage-restoration/": {
+  "/service-areas/ware-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2881,7 +2881,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ware-ma/upholstery-cleaning/": {
+  "/service-areas/ware-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2921,7 +2921,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/leominster-ma/water-damage-restoration/": {
+  "/service-areas/leominster-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2931,7 +2931,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/leominster-ma/upholstery-cleaning/": {
+  "/service-areas/leominster-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2951,7 +2951,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/franklin-town-ma/water-damage-restoration/": {
+  "/service-areas/franklin-town-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2961,7 +2961,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/franklin-town-ma/upholstery-cleaning/": {
+  "/service-areas/franklin-town-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2981,7 +2981,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/palmer-town-ma/water-damage-restoration/": {
+  "/service-areas/palmer-town-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2991,7 +2991,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/palmer-town-ma/upholstery-cleaning/": {
+  "/service-areas/palmer-town-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3011,7 +3011,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/maynard-ma/water-damage-restoration/": {
+  "/service-areas/maynard-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3021,7 +3021,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/maynard-ma/upholstery-cleaning/": {
+  "/service-areas/maynard-ma/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

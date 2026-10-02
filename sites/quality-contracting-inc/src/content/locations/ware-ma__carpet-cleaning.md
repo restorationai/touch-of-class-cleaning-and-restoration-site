@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning ware"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "20fe30116fd863cb"
-generated_at: "2026-09-30T19:28:57.261674+00:00"
+plan_hash: "b96293712187f13d"
+generated_at: "2026-10-02T04:40:31.085879+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/ware-ma/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/ware-ma/", "/service-areas/ware-ma/water-damage-restoration/", "/service-areas/ware-ma/emergency-water-removal/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/framingham-ma/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ware", "url": "/service-areas/ware-ma/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "ware-ma"

@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-10-01T05:04:26.760350+00:00",
+  "generated_at": "2026-10-02T05:01:14.745329+00:00",
   "input_summary": {
     "service_count": 28,
-    "service_area_count": 21,
+    "service_area_count": 22,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -82,6 +82,7 @@
         "/service-areas/grove-city-pa/",
         "/service-areas/hermitage-pa/",
         "/service-areas/hubbard-oh/",
+        "/service-areas/mcdonald-oh/",
         "/service-areas/mercer-pa/",
         "/service-areas/mineral-ridge-oh/",
         "/service-areas/new-castle-pa/",
@@ -193,6 +194,7 @@
         "/service-areas/grove-city-pa/",
         "/service-areas/hermitage-pa/",
         "/service-areas/hubbard-oh/",
+        "/service-areas/mcdonald-oh/",
         "/service-areas/mercer-pa/",
         "/service-areas/mineral-ridge-oh/",
         "/service-areas/new-castle-pa/",
@@ -1028,8 +1030,8 @@
         "/service-areas/grove-city-pa/water-damage-restoration/",
         "/service-areas/hermitage-pa/water-damage-restoration/",
         "/service-areas/hubbard-oh/water-damage-restoration/",
+        "/service-areas/mcdonald-oh/water-damage-restoration/",
         "/service-areas/mercer-pa/water-damage-restoration/",
-        "/service-areas/mineral-ridge-oh/water-damage-restoration/",
         "/services/emergency-water-removal/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -2473,6 +2475,44 @@
         "/service-areas/farrell-pa/",
         "/service-areas/greenville-pa/",
         "/service-areas/grove-city-pa/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mcdonald-oh/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in McDonald, OH | DISS Restoration",
+      "h1": "Restoration Services in McDonald",
+      "meta_description": "Serving McDonald, OH with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (724) 981-1441.",
+      "primary_keyword": "restoration services mcdonald",
+      "secondary_keywords": [
+        "mcdonald restoration company",
+        "damage restoration mcdonald",
+        "mcdonald disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/mcdonald-oh/water-damage-restoration/",
+        "/service-areas/austintown-oh/",
+        "/service-areas/boardman-oh/",
+        "/service-areas/campbell-oh/"
       ]
     },
     {
@@ -10933,6 +10973,48 @@
         "/service-areas/new-castle-pa/mold-remediation/",
         "/service-areas/austintown-oh/upholstery-cleaning/",
         "/service-areas/boardman-oh/upholstery-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/mcdonald-oh/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in McDonald, OH | DISS Restoration",
+      "h1": "24/7 Emergency Water Damage Restoration in McDonald",
+      "meta_description": "24/7 emergency water damage restoration in McDonald, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "water damage restoration mcdonald",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/mcdonald-oh/",
+        "/service-areas/austintown-oh/water-damage-restoration/",
+        "/service-areas/boardman-oh/water-damage-restoration/",
         "/contact/"
       ]
     },

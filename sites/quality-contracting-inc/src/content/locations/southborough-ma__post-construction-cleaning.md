@@ -7,10 +7,10 @@ primary_keyword: "post-construction and specialty cleaning southborough"
 secondary_keywords: ["post construction cleanup", "construction debris cleaning", "final clean", "deep cleaning after renovation"]
 search_intent: "local_service"
 priority: 2.8
-plan_hash: "c4a37d4a516f5a3b"
-generated_at: "2026-09-30T19:28:56.955003+00:00"
+plan_hash: "81c9327be5867b74"
+generated_at: "2026-10-02T04:40:31.072650+00:00"
 manual_override: false
-internal_links: ["/services/post-construction-cleaning/", "/service-areas/southborough-ma/", "/service-areas/southborough-ma/fire-damage-restoration/", "/service-areas/southborough-ma/mold-remediation/", "/service-areas/bellingham-ma/post-construction-cleaning/", "/service-areas/east-douglas-ma/", "/contact/"]
+internal_links: ["/services/post-construction-cleaning/", "/service-areas/southborough-ma/", "/service-areas/southborough-ma/fire-damage-restoration/", "/service-areas/southborough-ma/mold-remediation/", "/service-areas/bellingham-ma/post-construction-cleaning/", "/service-areas/franklin-town-ma/post-construction-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southborough", "url": "/service-areas/southborough-ma/"}, {"name": "Post-Construction and Specialty Cleaning"}]
 faq: []
 area_slug: "southborough-ma"

@@ -1,0 +1,15 @@
+{
+  "slug": "bionic-emergency-services-llc",
+  "allowed": false,
+  "reason": "no plumbing name confirmed, no plumbing DBA, not a licensed plumber",
+  "evidence": {
+    "company_id": "CO-1790106596226",
+    "gbp_title": "BIONIC Water Damage Restoration of Houston",
+    "rename_intent": {},
+    "chosen_names": [
+      "BIONIC Emergency Services - 24/7 Emergency Water & Fire Damage Restoration"
+    ]
+  },
+  "checked_at": "2026-10-02T04:38:33+00:00",
+  "source": "supabase"
+}

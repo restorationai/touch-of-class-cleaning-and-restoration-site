@@ -12,6 +12,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "austintown-oh__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning austintown' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "austintown-oh__asbestos-abatement": {
    "pass": false,
    "why": "no local demand ('asbestos abatement austintown' 0/mo) and no local angle",
@@ -33,12 +40,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "austintown-oh__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning austintown' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "austintown-oh__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration austintown' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "austintown-oh__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration austintown' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "austintown-oh__emergency-board-up-tarping": {
    "pass": false,
@@ -110,12 +131,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "austintown-oh__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup austintown' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "boardman-oh__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning boardman' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "boardman-oh__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning boardman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "boardman-oh__asbestos-abatement": {
    "pass": false,
@@ -138,12 +173,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "boardman-oh__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning boardman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "boardman-oh__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration boardman' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "boardman-oh__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration boardman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "boardman-oh__emergency-board-up-tarping": {
    "pass": false,
@@ -215,12 +264,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "boardman-oh__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup boardman' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "campbell-oh__air-duct-cleaning": {
    "pass": true,
    "why": "local demand: 'air duct cleaning campbell' 20/mo",
    "vol": 20,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "campbell-oh__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning campbell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "campbell-oh__asbestos-abatement": {
    "pass": true,
@@ -243,12 +306,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "campbell-oh__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning campbell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "campbell-oh__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration campbell' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "campbell-oh__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration campbell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "campbell-oh__emergency-board-up-tarping": {
    "pass": false,
@@ -320,12 +397,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "campbell-oh__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup campbell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "canfield-oh__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning canfield' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "canfield-oh__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning canfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "canfield-oh__asbestos-abatement": {
    "pass": false,
@@ -348,12 +439,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "canfield-oh__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning canfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "canfield-oh__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration canfield' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "canfield-oh__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration canfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "canfield-oh__emergency-board-up-tarping": {
    "pass": false,
@@ -425,12 +530,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "canfield-oh__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup canfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "farrell-pa__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning farrell' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "farrell-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning farrell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "farrell-pa__asbestos-abatement": {
    "pass": true,
@@ -453,12 +572,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "farrell-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning farrell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "farrell-pa__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration farrell' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "farrell-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration farrell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "farrell-pa__emergency-board-up-tarping": {
    "pass": false,
@@ -530,12 +663,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "farrell-pa__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Shenango River flood-prone area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "girard-oh__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning girard' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "girard-oh__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning girard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "girard-oh__asbestos-abatement": {
    "pass": false,
@@ -558,12 +705,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "girard-oh__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning girard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "girard-oh__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration girard' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "girard-oh__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration girard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "girard-oh__emergency-board-up-tarping": {
    "pass": false,
@@ -635,12 +796,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "girard-oh__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Mahoning River flood zone city",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "greenville-pa__air-duct-cleaning": {
    "pass": true,
    "why": "local demand: 'air duct cleaning greenville' 260/mo",
    "vol": 260,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "greenville-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning greenville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "greenville-pa__asbestos-abatement": {
    "pass": false,
@@ -663,12 +838,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "greenville-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning greenville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "greenville-pa__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration greenville' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "greenville-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration greenville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "greenville-pa__emergency-board-up-tarping": {
    "pass": false,
@@ -740,12 +929,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "greenville-pa__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup greenville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "grove-city-pa__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning grove city' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "grove-city-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning grove city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "grove-city-pa__asbestos-abatement": {
    "pass": false,
@@ -768,12 +971,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "grove-city-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning grove city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "grove-city-pa__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration grove city' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "grove-city-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration grove city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "grove-city-pa__emergency-board-up-tarping": {
    "pass": false,
@@ -845,12 +1062,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "grove-city-pa__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup grove city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "hermitage-pa__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning hermitage' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "hermitage-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning hermitage' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "hermitage-pa__asbestos-abatement": {
    "pass": false,
@@ -873,12 +1104,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "hermitage-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning hermitage' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "hermitage-pa__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration hermitage' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "hermitage-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration hermitage' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "hermitage-pa__emergency-board-up-tarping": {
    "pass": false,
@@ -950,12 +1195,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "hermitage-pa__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup hermitage' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "hubbard-oh__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning hubbard' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "hubbard-oh__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning hubbard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "hubbard-oh__asbestos-abatement": {
    "pass": false,
@@ -978,12 +1237,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "hubbard-oh__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning hubbard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "hubbard-oh__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration hubbard' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "hubbard-oh__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration hubbard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "hubbard-oh__emergency-board-up-tarping": {
    "pass": false,
@@ -1055,12 +1328,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "hubbard-oh__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup hubbard' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "mercer-pa__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning mercer' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "mercer-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning mercer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "mercer-pa__asbestos-abatement": {
    "pass": false,
@@ -1083,12 +1370,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "mercer-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning mercer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "mercer-pa__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration mercer' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "mercer-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration mercer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "mercer-pa__emergency-board-up-tarping": {
    "pass": false,
@@ -1160,12 +1461,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "mercer-pa__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup mercer' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "mineral-ridge-oh__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning mineral ridge' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "mineral-ridge-oh__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning mineral ridge' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "mineral-ridge-oh__asbestos-abatement": {
    "pass": false,
@@ -1188,12 +1503,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "mineral-ridge-oh__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning mineral ridge' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "mineral-ridge-oh__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration mineral ridge' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "mineral-ridge-oh__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration mineral ridge' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "mineral-ridge-oh__emergency-board-up-tarping": {
    "pass": false,
@@ -1265,12 +1594,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "mineral-ridge-oh__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup mineral ridge' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "new-castle-pa__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning new castle' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "new-castle-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning new castle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "new-castle-pa__asbestos-abatement": {
    "pass": true,
@@ -1293,12 +1636,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "new-castle-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning new castle' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "new-castle-pa__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration new castle' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "new-castle-pa__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: industrial legacy with commercial building stock",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "new-castle-pa__emergency-board-up-tarping": {
    "pass": false,
@@ -1370,12 +1727,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "new-castle-pa__water-cleanup": {
+   "pass": true,
+   "why": "local angle: rivers converge, history of flooding",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "niles-oh__air-duct-cleaning": {
    "pass": true,
    "why": "local demand: 'air duct cleaning niles' 10/mo",
    "vol": 10,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "niles-oh__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning niles' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "niles-oh__asbestos-abatement": {
    "pass": true,
@@ -1398,12 +1769,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "niles-oh__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning niles' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "niles-oh__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration niles' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "niles-oh__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration niles' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "niles-oh__emergency-board-up-tarping": {
    "pass": false,
@@ -1475,12 +1860,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "niles-oh__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Mahoning River flood-prone area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "sharon-pa__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning sharon' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "sharon-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning sharon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "sharon-pa__asbestos-abatement": {
    "pass": false,
@@ -1503,12 +1902,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "sharon-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning sharon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "sharon-pa__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration sharon' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "sharon-pa__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: historic steel industry and commercial district",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "sharon-pa__emergency-board-up-tarping": {
    "pass": false,
@@ -1580,12 +1993,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "sharon-pa__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Shenango River flood zone city",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "sharpsville-pa__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning sharpsville' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "sharpsville-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning sharpsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "sharpsville-pa__asbestos-abatement": {
    "pass": false,
@@ -1608,12 +2035,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "sharpsville-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning sharpsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "sharpsville-pa__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration sharpsville' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "sharpsville-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration sharpsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "sharpsville-pa__emergency-board-up-tarping": {
    "pass": false,
@@ -1685,12 +2126,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "sharpsville-pa__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup sharpsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "struthers-oh__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning struthers' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "struthers-oh__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning struthers' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "struthers-oh__asbestos-abatement": {
    "pass": false,
@@ -1713,12 +2168,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "struthers-oh__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning struthers' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "struthers-oh__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration struthers' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "struthers-oh__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration struthers' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "struthers-oh__emergency-board-up-tarping": {
    "pass": false,
@@ -1790,12 +2259,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "struthers-oh__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Mahoning River flood-prone location",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "warren-oh__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning warren' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "warren-oh__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning warren' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "warren-oh__asbestos-abatement": {
    "pass": true,
@@ -1818,12 +2301,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "warren-oh__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning warren' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "warren-oh__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration warren' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "warren-oh__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: former steel-mill industrial and commercial base",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "warren-oh__emergency-board-up-tarping": {
    "pass": false,
@@ -1895,12 +2392,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "warren-oh__water-cleanup": {
+   "pass": true,
+   "why": "local angle: sits along Mahoning River flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "west-middlesex-pa__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning west middlesex' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "west-middlesex-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning west middlesex' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "west-middlesex-pa__asbestos-abatement": {
    "pass": false,
@@ -1923,12 +2434,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "west-middlesex-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning west middlesex' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "west-middlesex-pa__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration west middlesex' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "west-middlesex-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration west middlesex' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "west-middlesex-pa__emergency-board-up-tarping": {
    "pass": false,
@@ -2000,12 +2525,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "west-middlesex-pa__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup west middlesex' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "wheatland-pa__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning wheatland' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "wheatland-pa__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning wheatland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "wheatland-pa__asbestos-abatement": {
    "pass": true,
@@ -2028,12 +2567,26 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "wheatland-pa__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning wheatland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "wheatland-pa__contents-restoration": {
    "pass": false,
    "why": "no local demand ('contents restoration wheatland' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "wheatland-pa__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration wheatland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "wheatland-pa__emergency-board-up-tarping": {
    "pass": false,
@@ -2104,6 +2657,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "wheatland-pa__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup wheatland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   }
  },
  "offered": {
@@ -2260,7 +2820,24 @@
   "upholstery-cleaning": {
    "term": "upholstery cleaning",
    "metro": null
+  },
+  "air-duct-hvac-cleaning": {
+   "term": "air duct and hvac cleaning",
+   "metro": 10
+  },
+  "carpet-upholstery-cleaning": {
+   "term": "carpet and upholstery cleaning",
+   "metro": 20
+  },
+  "contents-restoration-storage": {
+   "term": "contents restoration",
+   "metro": 0
+  },
+  "water-cleanup": {
+   "term": "water cleanup",
+   "metro": 10
   }
  },
- "updated_at": "2026-10-01T05:04:26+00:00"
+ "updated_at": "2026-10-02T04:31:44+00:00",
+ "metro": "Greenville,Pennsylvania,United States"
 }

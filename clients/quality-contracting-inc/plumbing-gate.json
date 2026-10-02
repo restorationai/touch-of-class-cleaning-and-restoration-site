@@ -5,9 +5,13 @@
   "evidence": {
     "company_id": "CO-1785180744028",
     "gbp_title": "Quality Contracting, Inc.",
-    "rename_intent": {},
-    "chosen_names": []
+    "rename_intent": {
+      "decision": "rename"
+    },
+    "chosen_names": [
+      "QCI Restoration - 24/7 Emergency Water & Fire Damage Restoration, Mold Remediation"
+    ]
   },
-  "checked_at": "2026-10-01T04:49:02+00:00",
+  "checked_at": "2026-10-02T04:38:42+00:00",
   "source": "supabase"
 }

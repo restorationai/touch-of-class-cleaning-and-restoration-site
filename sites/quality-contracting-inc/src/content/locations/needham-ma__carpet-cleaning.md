@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning needham"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "70c5d3476ba781da"
-generated_at: "2026-09-30T19:28:57.126406+00:00"
+plan_hash: "2c0287abde8f1697"
+generated_at: "2026-10-02T04:40:31.076872+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/needham-ma/", "/service-areas/needham-ma/fire-damage-restoration/", "/service-areas/needham-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/needham-ma/", "/service-areas/needham-ma/fire-damage-restoration/", "/service-areas/needham-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/framingham-ma/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Needham", "url": "/service-areas/needham-ma/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "needham-ma"

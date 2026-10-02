@@ -7,10 +7,10 @@ primary_keyword: "restoration services fiskdale"
 secondary_keywords: ["fiskdale restoration company", "damage restoration fiskdale", "fiskdale disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "cfb3c9960a603d1f"
-generated_at: "2026-09-30T19:28:56.913195+00:00"
+plan_hash: "2f51749a7dbee51e"
+generated_at: "2026-10-02T04:40:31.066862+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/fiskdale-ma/fire-damage-restoration/", "/service-areas/fiskdale-ma/mold-remediation/", "/service-areas/fiskdale-ma/roofing/", "/service-areas/fiskdale-ma/water-damage-restoration/", "/service-areas/fiskdale-ma/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/framingham-ma/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/fiskdale-ma/fire-damage-restoration/", "/service-areas/fiskdale-ma/mold-remediation/", "/service-areas/fiskdale-ma/roofing/", "/service-areas/fiskdale-ma/water-damage-restoration/", "/service-areas/fiskdale-ma/upholstery-cleaning/", "/service-areas/bellingham-ma/", "/service-areas/east-douglas-ma/", "/service-areas/framingham-ma/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fiskdale"}]
 faq: []
 area_slug: "fiskdale-ma"

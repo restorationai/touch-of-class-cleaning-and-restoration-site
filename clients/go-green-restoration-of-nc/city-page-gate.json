@@ -12,6 +12,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "archer-lodge-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning archer lodge' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "archer-lodge-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup archer lodge' 0/mo) and no local angle",
@@ -25,6 +32,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "archer-lodge-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning archer lodge' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "archer-lodge-nc__crawl-space-encapsulation": {
    "pass": false,
@@ -82,6 +96,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "clayton-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning clayton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "clayton-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup clayton' 0/mo) and no local angle",
@@ -95,6 +116,13 @@
    "vol": 20,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "clayton-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning clayton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "clayton-nc__crawl-space-encapsulation": {
    "pass": false,
@@ -152,6 +180,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "durham-nc__air-duct-hvac-cleaning": {
+   "pass": true,
+   "why": "local angle: sizable commercial and office building stock",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "durham-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup durham' 0/mo) and no local angle",
@@ -165,6 +200,13 @@
    "vol": 110,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "durham-nc__carpet-upholstery-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet and upholstery cleaning durham' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "durham-nc__crawl-space-encapsulation": {
    "pass": true,
@@ -222,6 +264,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "elm-city-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning elm city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "elm-city-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup elm city' 0/mo) and no local angle",
@@ -235,6 +284,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "elm-city-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning elm city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "elm-city-nc__crawl-space-encapsulation": {
    "pass": false,
@@ -292,6 +348,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "kenly-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning kenly' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "kenly-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup kenly' 0/mo) and no local angle",
@@ -305,6 +368,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "kenly-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning kenly' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "kenly-nc__crawl-space-encapsulation": {
    "pass": false,
@@ -362,6 +432,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "knightdale-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning knightdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "knightdale-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup knightdale' 0/mo) and no local angle",
@@ -375,6 +452,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "knightdale-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning knightdale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "knightdale-nc__crawl-space-encapsulation": {
    "pass": false,
@@ -432,6 +516,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "lake-royale-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning lake royale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "lake-royale-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup lake royale' 0/mo) and no local angle",
@@ -445,6 +536,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "lake-royale-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning lake royale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "lake-royale-nc__crawl-space-encapsulation": {
    "pass": false,
@@ -502,6 +600,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "louisburg-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning louisburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "louisburg-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup louisburg' 0/mo) and no local angle",
@@ -515,6 +620,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "louisburg-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning louisburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "louisburg-nc__crawl-space-encapsulation": {
    "pass": false,
@@ -572,6 +684,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "nashville-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning nashville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "nashville-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup nashville' 0/mo) and no local angle",
@@ -585,6 +704,13 @@
    "vol": 480,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "nashville-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning nashville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "nashville-nc__crawl-space-encapsulation": {
    "pass": true,
@@ -642,6 +768,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "pine-level-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning pine level' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "pine-level-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup pine level' 0/mo) and no local angle",
@@ -655,6 +788,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "pine-level-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning pine level' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "pine-level-nc__crawl-space-encapsulation": {
    "pass": false,
@@ -712,6 +852,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "raleigh-nc__air-duct-hvac-cleaning": {
+   "pass": true,
+   "why": "local angle: large commercial office base needs duct service",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "raleigh-nc__biohazard-cleanup": {
    "pass": true,
    "why": "local demand: 'biohazard cleanup raleigh' 10/mo",
@@ -725,6 +872,13 @@
    "vol": 1900,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "raleigh-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning raleigh' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "raleigh-nc__crawl-space-encapsulation": {
    "pass": true,
@@ -782,6 +936,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "rocky-mount-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning rocky mount' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "rocky-mount-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup rocky mount' 0/mo) and no local angle",
@@ -795,6 +956,13 @@
    "vol": 70,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "rocky-mount-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning rocky mount' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "rocky-mount-nc__crawl-space-encapsulation": {
    "pass": false,
@@ -852,6 +1020,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "rolesville-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning rolesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "rolesville-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup rolesville' 0/mo) and no local angle",
@@ -865,6 +1040,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "rolesville-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning rolesville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "rolesville-nc__crawl-space-encapsulation": {
    "pass": false,
@@ -922,6 +1104,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "selma-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "selma-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup selma' 0/mo) and no local angle",
@@ -935,6 +1124,13 @@
    "vol": 10,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "selma-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning selma' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "selma-nc__crawl-space-encapsulation": {
    "pass": false,
@@ -992,6 +1188,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "smithfield-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning smithfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "smithfield-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup smithfield' 0/mo) and no local angle",
@@ -1005,6 +1208,13 @@
    "vol": 20,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "smithfield-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning smithfield' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "smithfield-nc__crawl-space-encapsulation": {
    "pass": true,
@@ -1062,6 +1272,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "spring-hope-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning spring hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "spring-hope-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup spring hope' 0/mo) and no local angle",
@@ -1075,6 +1292,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "spring-hope-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning spring hope' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "spring-hope-nc__crawl-space-encapsulation": {
    "pass": false,
@@ -1132,6 +1356,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "wake-forest-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning wake forest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "wake-forest-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup wake forest' 0/mo) and no local angle",
@@ -1145,6 +1376,13 @@
    "vol": 170,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "wake-forest-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning wake forest' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "wake-forest-nc__crawl-space-encapsulation": {
    "pass": true,
@@ -1202,6 +1440,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "wendell-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning wendell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "wendell-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup wendell' 0/mo) and no local angle",
@@ -1215,6 +1460,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "wendell-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning wendell' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "wendell-nc__crawl-space-encapsulation": {
    "pass": false,
@@ -1272,6 +1524,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "wilson-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning wilson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "wilson-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup wilson' 0/mo) and no local angle",
@@ -1285,6 +1544,13 @@
    "vol": 40,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "wilson-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning wilson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "wilson-nc__crawl-space-encapsulation": {
    "pass": false,
@@ -1342,6 +1608,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "wilson-s-mills-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning wilson's mills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "wilson-s-mills-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup wilson's mills' 0/mo) and no local angle",
@@ -1355,6 +1628,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "wilson-s-mills-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning wilson's mills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "wilson-s-mills-nc__crawl-space-encapsulation": {
    "pass": false,
@@ -1412,6 +1692,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "youngsville-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning youngsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "youngsville-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup youngsville' 0/mo) and no local angle",
@@ -1425,6 +1712,13 @@
    "vol": 10,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "youngsville-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning youngsville' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "youngsville-nc__crawl-space-encapsulation": {
    "pass": false,
@@ -1482,6 +1776,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "zebulon-nc__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning zebulon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "zebulon-nc__biohazard-cleanup": {
    "pass": false,
    "why": "no local demand ('biohazard cleanup zebulon' 0/mo) and no local angle",
@@ -1495,6 +1796,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "zebulon-nc__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning zebulon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "zebulon-nc__crawl-space-encapsulation": {
    "pass": false,
@@ -1642,7 +1950,15 @@
   "emergency-water-removal": {
    "term": "emergency water removal",
    "metro": 0
+  },
+  "air-duct-hvac-cleaning": {
+   "term": "air duct and hvac cleaning",
+   "metro": 10
+  },
+  "carpet-upholstery-cleaning": {
+   "term": "carpet and upholstery cleaning",
+   "metro": 20
   }
  },
- "updated_at": "2026-10-01T05:04:41+00:00"
+ "updated_at": "2026-10-02T04:35:43+00:00"
 }

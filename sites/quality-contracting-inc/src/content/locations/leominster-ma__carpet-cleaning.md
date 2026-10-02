@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning leominster"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "708b27de9e2687aa"
-generated_at: "2026-09-30T19:28:57.271201+00:00"
+plan_hash: "76627ae193c41503"
+generated_at: "2026-10-02T04:40:31.086298+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/leominster-ma/", "/service-areas/leominster-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/leominster-ma/", "/service-areas/leominster-ma/mold-remediation/", "/service-areas/leominster-ma/water-damage-restoration/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/framingham-ma/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Leominster", "url": "/service-areas/leominster-ma/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "leominster-ma"

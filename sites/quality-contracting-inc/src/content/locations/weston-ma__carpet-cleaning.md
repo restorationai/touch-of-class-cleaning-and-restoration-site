@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning weston"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "34328f06c38844eb"
-generated_at: "2026-09-30T19:28:57.140697+00:00"
+plan_hash: "589c8c2d0a037c6b"
+generated_at: "2026-10-02T04:40:31.078597+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/weston-ma/", "/service-areas/weston-ma/fire-damage-restoration/", "/service-areas/weston-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/weston-ma/", "/service-areas/weston-ma/fire-damage-restoration/", "/service-areas/weston-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/framingham-ma/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weston", "url": "/service-areas/weston-ma/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "weston-ma"

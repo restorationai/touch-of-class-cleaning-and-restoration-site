@@ -82,6 +82,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "anna-maria-fl__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Barrier island, severe hurricane flood exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "apollo-beach-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration apollo beach' 0/mo) and no local angle",
@@ -158,6 +165,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "apollo-beach-fl__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Waterfront community, storm surge flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "auburndale-fl__contents-restoration-storage": {
    "pass": false,
@@ -236,6 +250,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "auburndale-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup auburndale' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "bartow-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration bartow' 0/mo) and no local angle",
@@ -312,6 +333,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "bartow-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup bartow' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "bradenton-fl__contents-restoration-storage": {
    "pass": false,
@@ -390,6 +418,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "bradenton-fl__water-cleanup": {
+   "pass": true,
+   "why": "local demand: 'water cleanup bradenton' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "brandon-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration brandon' 0/mo) and no local angle",
@@ -466,6 +501,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "brandon-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup brandon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "clearwater-beach-fl__contents-restoration-storage": {
    "pass": false,
@@ -544,6 +586,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "clearwater-beach-fl__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Barrier island, high hurricane storm surge risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "clearwater-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration clearwater' 0/mo) and no local angle",
@@ -620,6 +669,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "clearwater-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup clearwater' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "crystal-springs-fl__contents-restoration-storage": {
    "pass": false,
@@ -698,6 +754,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "crystal-springs-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup crystal springs' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "dade-city-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration dade city' 0/mo) and no local angle",
@@ -774,6 +837,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "dade-city-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup dade city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "davenport-fl__contents-restoration-storage": {
    "pass": false,
@@ -852,6 +922,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "davenport-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup davenport' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "dover-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration dover' 0/mo) and no local angle",
@@ -928,6 +1005,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "dover-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup dover' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "dundee-fl__contents-restoration-storage": {
    "pass": false,
@@ -1006,6 +1090,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "dundee-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup dundee' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "dunedin-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration dunedin' 0/mo) and no local angle",
@@ -1082,6 +1173,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "dunedin-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup dunedin' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "east-lake-orient-park-fl__contents-restoration-storage": {
    "pass": false,
@@ -1160,6 +1258,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "east-lake-orient-park-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup east lake-orient park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "ellenton-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration ellenton' 0/mo) and no local angle",
@@ -1236,6 +1341,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "ellenton-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup ellenton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "englewood-fl__contents-restoration-storage": {
    "pass": false,
@@ -1314,6 +1426,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "englewood-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup englewood' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "gibsonton-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration gibsonton' 0/mo) and no local angle",
@@ -1390,6 +1509,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "gibsonton-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup gibsonton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "haines-city-fl__contents-restoration-storage": {
    "pass": false,
@@ -1468,6 +1594,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "haines-city-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup haines city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "holiday-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration holiday' 0/mo) and no local angle",
@@ -1544,6 +1677,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "holiday-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup holiday' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "holmes-beach-fl__contents-restoration-storage": {
    "pass": false,
@@ -1622,6 +1762,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "holmes-beach-fl__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Barrier island, hurricane storm surge exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "lake-magdalene-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration lake magdalene' 0/mo) and no local angle",
@@ -1698,6 +1845,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "lake-magdalene-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup lake magdalene' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "lake-wales-fl__contents-restoration-storage": {
    "pass": false,
@@ -1776,6 +1930,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "lake-wales-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup lake wales' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "lakeland-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration lakeland' 0/mo) and no local angle",
@@ -1852,6 +2013,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "lakeland-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup lakeland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "lakewood-ranch-fl__contents-restoration-storage": {
    "pass": false,
@@ -1930,6 +2098,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "lakewood-ranch-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup lakewood ranch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "land-o-lakes-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration land o' lakes' 0/mo) and no local angle",
@@ -2006,6 +2181,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "land-o-lakes-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup land o' lakes' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "largo-fl__contents-restoration-storage": {
    "pass": false,
@@ -2084,6 +2266,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "largo-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup largo' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "lithia-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration lithia' 0/mo) and no local angle",
@@ -2160,6 +2349,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "lithia-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup lithia' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "longboat-key-fl__contents-restoration-storage": {
    "pass": false,
@@ -2238,6 +2434,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "longboat-key-fl__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Barrier island, high hurricane flood exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "lutz-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration lutz' 0/mo) and no local angle",
@@ -2314,6 +2517,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "lutz-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup lutz' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "mango-fl__contents-restoration-storage": {
    "pass": false,
@@ -2392,6 +2602,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "mango-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup mango' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "mulberry-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration mulberry' 0/mo) and no local angle",
@@ -2468,6 +2685,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "mulberry-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup mulberry' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "new-port-richey-fl__contents-restoration-storage": {
    "pass": false,
@@ -2546,6 +2770,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "new-port-richey-fl__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Pithlachascotee River flooding history",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "nokomis-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration nokomis' 0/mo) and no local angle",
@@ -2622,6 +2853,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "nokomis-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup nokomis' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "north-port-fl__contents-restoration-storage": {
    "pass": false,
@@ -2700,6 +2938,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "north-port-fl__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Myakka River floodplain, flooding risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "odessa-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration odessa' 0/mo) and no local angle",
@@ -2776,6 +3021,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "odessa-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup odessa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "oldsmar-fl__contents-restoration-storage": {
    "pass": false,
@@ -2854,6 +3106,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "oldsmar-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup oldsmar' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "osprey-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration osprey' 0/mo) and no local angle",
@@ -2930,6 +3189,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "osprey-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup osprey' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "palm-harbor-fl__contents-restoration-storage": {
    "pass": false,
@@ -3008,6 +3274,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "palm-harbor-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup palm harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "palm-river-clair-mel-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration palm river-clair mel' 0/mo) and no local angle",
@@ -3084,6 +3357,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "palm-river-clair-mel-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup palm river-clair mel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "palmetto-fl__contents-restoration-storage": {
    "pass": false,
@@ -3162,6 +3442,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "palmetto-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup palmetto' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "parrish-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration parrish' 0/mo) and no local angle",
@@ -3238,6 +3525,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "parrish-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup parrish' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "pebble-creek-fl__contents-restoration-storage": {
    "pass": false,
@@ -3316,6 +3610,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "pebble-creek-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup pebble creek' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "pinellas-park-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration pinellas park' 0/mo) and no local angle",
@@ -3392,6 +3693,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "pinellas-park-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup pinellas park' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "plant-city-fl__contents-restoration-storage": {
    "pass": false,
@@ -3470,6 +3778,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "plant-city-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup plant city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "polk-city-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration polk city' 0/mo) and no local angle",
@@ -3546,6 +3861,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "polk-city-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup polk city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "port-richey-fl__contents-restoration-storage": {
    "pass": false,
@@ -3624,6 +3946,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "port-richey-fl__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Riverfront town, frequent flooding risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "riverview-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration riverview' 0/mo) and no local angle",
@@ -3700,6 +4029,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "riverview-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup riverview' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "ruskin-fl__contents-restoration-storage": {
    "pass": false,
@@ -3778,6 +4114,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "ruskin-fl__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Waterfront area, coastal flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "safety-harbor-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration safety harbor' 0/mo) and no local angle",
@@ -3854,6 +4197,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "safety-harbor-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup safety harbor' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "sarasota-fl__contents-restoration-storage": {
    "pass": false,
@@ -3932,6 +4282,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "sarasota-fl__water-cleanup": {
+   "pass": true,
+   "why": "local demand: 'water cleanup sarasota' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "seffner-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration seffner' 0/mo) and no local angle",
@@ -4008,6 +4365,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "seffner-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup seffner' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "seminole-fl__contents-restoration-storage": {
    "pass": false,
@@ -4086,6 +4450,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "seminole-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup seminole' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "siesta-key-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration siesta key' 0/mo) and no local angle",
@@ -4162,6 +4533,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "siesta-key-fl__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Barrier island, hurricane storm surge exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "st-pete-beach-fl__contents-restoration-storage": {
    "pass": false,
@@ -4240,6 +4618,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "st-pete-beach-fl__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Barrier island, hurricane storm surge exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "st-petersburg-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration st. petersburg' 0/mo) and no local angle",
@@ -4316,6 +4701,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "st-petersburg-fl__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Coastal city in mapped flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "sun-city-center-fl__contents-restoration-storage": {
    "pass": false,
@@ -4394,6 +4786,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "sun-city-center-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup sun city center' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "tampa-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration tampa' 0/mo) and no local angle",
@@ -4470,6 +4869,13 @@
    "vol": 10,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "tampa-fl__water-cleanup": {
+   "pass": true,
+   "why": "local demand: 'water cleanup tampa' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "tarpon-springs-fl__contents-restoration-storage": {
    "pass": false,
@@ -4548,6 +4954,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "tarpon-springs-fl__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Coastal city, hurricane storm surge zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "temple-terrace-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration temple terrace' 0/mo) and no local angle",
@@ -4624,6 +5037,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "temple-terrace-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup temple terrace' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "trinity-fl__contents-restoration-storage": {
    "pass": false,
@@ -4702,6 +5122,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "trinity-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup trinity' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "university-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration university' 0/mo) and no local angle",
@@ -4778,6 +5205,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "university-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup university' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "valrico-fl__contents-restoration-storage": {
    "pass": false,
@@ -4856,6 +5290,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "valrico-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup valrico' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "venice-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration venice' 0/mo) and no local angle",
@@ -4932,6 +5373,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "venice-fl__water-cleanup": {
+   "pass": true,
+   "why": "local angle: Coastal city in mapped hurricane flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "wesley-chapel-fl__contents-restoration-storage": {
    "pass": false,
@@ -5010,6 +5458,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "wesley-chapel-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup wesley chapel' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "winter-haven-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration winter haven' 0/mo) and no local angle",
@@ -5087,6 +5542,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "winter-haven-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup winter haven' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "zephyrhills-fl__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration zephyrhills' 0/mo) and no local angle",
@@ -5163,6 +5625,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "zephyrhills-fl__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup zephyrhills' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   }
  },
  "offered": {
@@ -5280,7 +5749,11 @@
   "emergency-plumbing": {
    "term": "emergency plumber",
    "metro": 380
+  },
+  "water-cleanup": {
+   "term": "water cleanup",
+   "metro": 80
   }
  },
- "updated_at": "2026-10-01T14:30:44+00:00"
+ "updated_at": "2026-10-02T04:33:40+00:00"
 }

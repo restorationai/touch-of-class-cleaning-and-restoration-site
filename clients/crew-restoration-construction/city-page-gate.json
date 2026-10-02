@@ -40,6 +40,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "adrian-mn__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration adrian' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "adrian-mn__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction adrian' 0/mo) and no local angle",
@@ -186,6 +193,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "akron-ia__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration akron' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "akron-ia__deck-construction": {
    "pass": false,
@@ -334,6 +348,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "alton-ia__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration alton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "alton-ia__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction alton' 0/mo) and no local angle",
@@ -480,6 +501,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "baltic-sd__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration baltic' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "baltic-sd__deck-construction": {
    "pass": false,
@@ -628,6 +656,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "beresford-sd__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration beresford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "beresford-sd__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction beresford' 0/mo) and no local angle",
@@ -774,6 +809,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "brandon-sd__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration brandon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "brandon-sd__deck-construction": {
    "pass": false,
@@ -922,6 +964,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "brookings-sd__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: College town with large rental housing stock",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "brookings-sd__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction brookings' 0/mo) and no local angle",
@@ -1068,6 +1117,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "canton-sd__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration canton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "canton-sd__deck-construction": {
    "pass": false,
@@ -1216,6 +1272,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "crooks-sd__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration crooks' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "crooks-sd__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction crooks' 0/mo) and no local angle",
@@ -1362,6 +1425,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "dakota-dunes-sd__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: Upscale homes and corporate office contents needs",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "dakota-dunes-sd__deck-construction": {
    "pass": false,
@@ -1510,6 +1580,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "dell-rapids-sd__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration dell rapids' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "dell-rapids-sd__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction dell rapids' 0/mo) and no local angle",
@@ -1656,6 +1733,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "edgerton-mn__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration edgerton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "edgerton-mn__deck-construction": {
    "pass": false,
@@ -1804,6 +1888,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "elk-point-sd__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration elk point' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "elk-point-sd__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction elk point' 0/mo) and no local angle",
@@ -1950,6 +2041,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "flandreau-sd__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration flandreau' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "flandreau-sd__deck-construction": {
    "pass": false,
@@ -2098,6 +2196,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "fulda-mn__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration fulda' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "fulda-mn__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction fulda' 0/mo) and no local angle",
@@ -2244,6 +2349,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "garretson-sd__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration garretson' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "garretson-sd__deck-construction": {
    "pass": false,
@@ -2392,6 +2504,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "george-ia__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration george' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "george-ia__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction george' 0/mo) and no local angle",
@@ -2538,6 +2657,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "harrisburg-sd__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration harrisburg' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "harrisburg-sd__deck-construction": {
    "pass": false,
@@ -2686,6 +2812,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "hartford-sd__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration hartford' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "hartford-sd__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction hartford' 0/mo) and no local angle",
@@ -2832,6 +2965,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "hawarden-ia__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration hawarden' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "hawarden-ia__deck-construction": {
    "pass": false,
@@ -2980,6 +3120,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "hinton-ia__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration hinton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "hinton-ia__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction hinton' 0/mo) and no local angle",
@@ -3126,6 +3273,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "hull-ia__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration hull' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "hull-ia__deck-construction": {
    "pass": false,
@@ -3274,6 +3428,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "kingsley-ia__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration kingsley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "kingsley-ia__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction kingsley' 0/mo) and no local angle",
@@ -3420,6 +3581,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "le-mars-ia__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration le mars' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "le-mars-ia__deck-construction": {
    "pass": false,
@@ -3568,6 +3736,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "lennox-sd__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration lennox' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "lennox-sd__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction lennox' 0/mo) and no local angle",
@@ -3714,6 +3889,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "luverne-mn__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration luverne' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "luverne-mn__deck-construction": {
    "pass": false,
@@ -3862,6 +4044,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "madison-sd__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration madison' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "madison-sd__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction madison' 0/mo) and no local angle",
@@ -4008,6 +4197,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "merrill-ia__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration merrill' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "merrill-ia__deck-construction": {
    "pass": false,
@@ -4156,6 +4352,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "north-sioux-city-sd__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration north sioux city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "north-sioux-city-sd__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction north sioux city' 0/mo) and no local angle",
@@ -4302,6 +4505,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "orange-city-ia__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration orange city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "orange-city-ia__deck-construction": {
    "pass": false,
@@ -4450,6 +4660,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "parker-sd__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration parker' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "parker-sd__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction parker' 0/mo) and no local angle",
@@ -4596,6 +4813,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "pipestone-mn__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration pipestone' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "pipestone-mn__deck-construction": {
    "pass": false,
@@ -4744,6 +4968,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "remsen-ia__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration remsen' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "remsen-ia__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction remsen' 0/mo) and no local angle",
@@ -4890,6 +5121,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "rock-rapids-ia__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration rock rapids' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "rock-rapids-ia__deck-construction": {
    "pass": false,
@@ -5038,6 +5276,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "rock-valley-ia__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration rock valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "rock-valley-ia__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction rock valley' 0/mo) and no local angle",
@@ -5184,6 +5429,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "salem-sd__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration salem' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "salem-sd__deck-construction": {
    "pass": false,
@@ -5332,6 +5584,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "sibley-ia__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration sibley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "sibley-ia__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction sibley' 0/mo) and no local angle",
@@ -5478,6 +5737,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "sioux-center-ia__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: College town with sizable commercial district",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "sioux-center-ia__deck-construction": {
    "pass": false,
@@ -5626,6 +5892,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "slayton-mn__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration slayton' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "slayton-mn__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction slayton' 0/mo) and no local angle",
@@ -5772,6 +6045,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "tea-sd__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration tea' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "tea-sd__deck-construction": {
    "pass": false,
@@ -5920,6 +6200,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "volga-sd__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration volga' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "volga-sd__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction volga' 0/mo) and no local angle",
@@ -6066,6 +6353,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "worthing-sd__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration worthing' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "worthing-sd__deck-construction": {
    "pass": false,
@@ -6214,6 +6508,13 @@
    "src": "auto",
    "at": "2026-10-01"
   },
+  "worthington-mn__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: Meatpacking industry drives commercial contents needs",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "worthington-mn__deck-construction": {
    "pass": false,
    "why": "no local demand ('deck construction worthington' 0/mo) and no local angle",
@@ -6360,6 +6661,13 @@
    "vol": 0,
    "src": "auto",
    "at": "2026-10-01"
+  },
+  "yankton-sd__contents-restoration-storage": {
+   "pass": true,
+   "why": "local angle: Regional hub with hospital and retail base",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
   },
   "yankton-sd__deck-construction": {
    "pass": false,
@@ -6682,7 +6990,11 @@
   "water-heater-flood-cleanup": {
    "term": "water heater flood cleanup",
    "metro": 0
+  },
+  "contents-restoration-storage": {
+   "term": "contents restoration",
+   "metro": 0
   }
  },
- "updated_at": "2026-10-01T05:04:07+00:00"
+ "updated_at": "2026-10-02T04:31:22+00:00"
 }

@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning milford"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "4ffbaf9f0a63f234"
-generated_at: "2026-09-30T19:28:57.219847+00:00"
+plan_hash: "87b36b2ea4fa3c2c"
+generated_at: "2026-10-02T04:40:31.082667+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/milford-ma/", "/service-areas/milford-ma/fire-damage-restoration/", "/service-areas/milford-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/east-douglas-ma/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/milford-ma/", "/service-areas/milford-ma/fire-damage-restoration/", "/service-areas/milford-ma/mold-remediation/", "/service-areas/bellingham-ma/carpet-cleaning/", "/service-areas/framingham-ma/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Milford", "url": "/service-areas/milford-ma/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "milford-ma"

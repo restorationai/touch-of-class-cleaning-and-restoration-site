@@ -4,7 +4,1126 @@
   "combo_min": 10,
   "head_metro_min": 1000
  },
- "decisions": {},
+ "decisions": {
+  "bonsall-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "bonsall-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair bonsall' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bonsall-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal bonsall' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bonsall-ca__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration bonsall' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bonsall-ca__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1180/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "bonsall-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction bonsall' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "camp-pendleton-mainside-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "camp-pendleton-mainside-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair camp pendleton mainside' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "camp-pendleton-mainside-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal camp pendleton mainside' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "camp-pendleton-mainside-ca__flood-damage-restoration": {
+   "pass": true,
+   "why": "local angle: coastal base with flood-prone shoreline areas",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "camp-pendleton-mainside-ca__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1180/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "camp-pendleton-mainside-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction camp pendleton mainside' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "camp-pendleton-south-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "camp-pendleton-south-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair camp pendleton south' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "camp-pendleton-south-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal camp pendleton south' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "camp-pendleton-south-ca__flood-damage-restoration": {
+   "pass": true,
+   "why": "local angle: coastal base with flood-prone shoreline areas",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "camp-pendleton-south-ca__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1180/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "camp-pendleton-south-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction camp pendleton south' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "carlsbad-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "carlsbad-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair carlsbad' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "carlsbad-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal carlsbad' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "carlsbad-ca__flood-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'flood damage restoration carlsbad' 40/mo",
+   "vol": 40,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "carlsbad-ca__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor carlsbad' 170/mo",
+   "vol": 170,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "carlsbad-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction carlsbad' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chula-vista-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "chula-vista-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair chula vista' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chula-vista-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal chula vista' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chula-vista-ca__flood-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'flood damage restoration chula vista' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chula-vista-ca__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor chula vista' 40/mo",
+   "vol": 40,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "chula-vista-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction chula vista' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "del-mar-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "del-mar-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair del mar' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "del-mar-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal del mar' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "del-mar-ca__flood-damage-restoration": {
+   "pass": true,
+   "why": "local angle: coastal city with flood-prone beachfront zones",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "del-mar-ca__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1180/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "del-mar-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction del mar' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "el-cajon-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "el-cajon-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair el cajon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "el-cajon-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal el cajon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "el-cajon-ca__flood-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'flood damage restoration el cajon' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "el-cajon-ca__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor el cajon' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "el-cajon-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction el cajon' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "encinitas-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "encinitas-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair encinitas' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "encinitas-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal encinitas' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "encinitas-ca__flood-damage-restoration": {
+   "pass": true,
+   "why": "local angle: coastal city with flood-prone beachfront zones",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "encinitas-ca__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor encinitas' 30/mo",
+   "vol": 30,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "encinitas-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction encinitas' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "escondido-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "escondido-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair escondido' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "escondido-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal escondido' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "escondido-ca__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration escondido' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "escondido-ca__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor escondido' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "escondido-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction escondido' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fairbanks-ranch-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "fairbanks-ranch-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair fairbanks ranch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fairbanks-ranch-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal fairbanks ranch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fairbanks-ranch-ca__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration fairbanks ranch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fairbanks-ranch-ca__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1180/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fairbanks-ranch-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction fairbanks ranch' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fallbrook-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "fallbrook-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair fallbrook' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fallbrook-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal fallbrook' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fallbrook-ca__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration fallbrook' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fallbrook-ca__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1180/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "fallbrook-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction fallbrook' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "harmony-grove-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1180/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "hidden-meadows-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "hidden-meadows-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair hidden meadows' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "hidden-meadows-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal hidden meadows' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "hidden-meadows-ca__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration hidden meadows' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "hidden-meadows-ca__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1180/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "hidden-meadows-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction hidden meadows' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "la-mesa-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "la-mesa-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair la mesa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "la-mesa-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal la mesa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "la-mesa-ca__flood-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'flood damage restoration la mesa' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "la-mesa-ca__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor la mesa' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "la-mesa-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction la mesa' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "national-city-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "national-city-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair national city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "national-city-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal national city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "national-city-ca__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration national city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "national-city-ca__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1180/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "national-city-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction national city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oceanside-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "oceanside-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair oceanside' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oceanside-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal oceanside' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oceanside-ca__flood-damage-restoration": {
+   "pass": true,
+   "why": "local angle: coastal city with flood-prone beachfront areas",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oceanside-ca__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor oceanside' 110/mo",
+   "vol": 110,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "oceanside-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction oceanside' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pala-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "pala-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair pala' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pala-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal pala' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pala-ca__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration pala' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pala-ca__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1180/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pala-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction pala' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poway-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "poway-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair poway' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poway-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal poway' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poway-ca__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration poway' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poway-ca__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor poway' 30/mo",
+   "vol": 30,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poway-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction poway' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "rancho-santa-fe-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair rancho santa fe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal rancho santa fe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration rancho santa fe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1180/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction rancho santa fe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "san-marcos-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "san-marcos-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair san marcos' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "san-marcos-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal san marcos' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "san-marcos-ca__flood-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'flood damage restoration san marcos' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "san-marcos-ca__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1180/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "san-marcos-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction san marcos' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santee-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "santee-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair santee' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santee-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal santee' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santee-ca__flood-damage-restoration": {
+   "pass": true,
+   "why": "local angle: near San Diego River flood-prone areas",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santee-ca__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1180/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "santee-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction santee' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "solana-beach-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "solana-beach-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair solana beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "solana-beach-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal solana beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "solana-beach-ca__flood-damage-restoration": {
+   "pass": true,
+   "why": "local angle: coastal city with flood-prone beach bluffs",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "solana-beach-ca__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1180/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "solana-beach-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction solana beach' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "spring-valley-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "spring-valley-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair spring valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "spring-valley-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal spring valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "spring-valley-ca__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration spring valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "spring-valley-ca__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor spring valley' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "spring-valley-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction spring valley' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temecula-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "temecula-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair temecula' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temecula-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal temecula' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temecula-ca__flood-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'flood damage restoration temecula' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temecula-ca__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor temecula' 170/mo",
+   "vol": 170,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "temecula-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction temecula' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "valley-center-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "valley-center-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair valley center' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "valley-center-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal valley center' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "valley-center-ca__flood-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('flood damage restoration valley center' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "valley-center-ca__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1180/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "valley-center-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction valley center' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "vista-ca__basement-flooding-cleanup": {
+   "pass": false,
+   "why": "implausible here: Southern California homes rarely have basements",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "vista-ca__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair vista' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "vista-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal vista' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "vista-ca__flood-damage-restoration": {
+   "pass": true,
+   "why": "local demand: 'flood damage restoration vista' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "vista-ca__general-contracting": {
+   "pass": true,
+   "why": "local demand: 'general contractor vista' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "vista-ca__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction vista' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  }
+ },
  "offered": {
   "basement-flooding-cleanup": [
    "plan-input before core floor (2026-09-24)"
@@ -30,5 +1149,33 @@
    "plan-input before core floor (2026-09-24)",
    "truth table (companies.services)"
   ]
- }
+ },
+ "metro": "San Diego,California,United States",
+ "heads": {
+  "basement-flooding-cleanup": {
+   "term": "basement flooding cleanup",
+   "metro": 10
+  },
+  "burst-pipe-repair": {
+   "term": "burst pipe repair",
+   "metro": 20
+  },
+  "emergency-water-removal": {
+   "term": "emergency water removal",
+   "metro": 20
+  },
+  "flood-damage-restoration": {
+   "term": "flood damage restoration",
+   "metro": 30
+  },
+  "general-contracting": {
+   "term": "general contractor",
+   "metro": 1180
+  },
+  "reconstruction": {
+   "term": "restoration reconstruction",
+   "metro": 10
+  }
+ },
+ "updated_at": "2026-10-02T04:34:35+00:00"
 }

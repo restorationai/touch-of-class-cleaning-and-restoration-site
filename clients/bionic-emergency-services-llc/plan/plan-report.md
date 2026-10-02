@@ -1,22 +1,22 @@
 # Site Plan Report — BIONIC Emergency Services LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-10-02T04:02:11.814399+00:00
+- Generated: 2026-10-02T05:01:02.408186+00:00
 - Domain: `bionic24365.com`
 - Services selected: 21 of 91 catalog entries
-- Service areas: 9
+- Service areas: 10
 - Cross-product enabled: True
-- Total URLs: **75**
-- Total internal links: 464 (avg 6.2 per page)
+- Total URLs: **89**
+- Total internal links: 588 (avg 6.6 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 25 |
+| `service-area-service` | 38 |
 | `service-landing` | 21 |
 | `blog-post` | 12 |
-| `service-area` | 8 |
+| `service-area` | 9 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -60,6 +60,7 @@
 - `missouri-city-tx` — Missouri City, TX
 - `spring-tx` — Spring, TX
 - `katy-tx` — Katy, TX
+- `jersey-village-tx` — Jersey Village, TX
 
 ## Top 10 priority pages
 
