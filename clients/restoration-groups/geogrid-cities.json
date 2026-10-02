@@ -1,8 +1,8 @@
 [
  {
-  "label": "Kenilworth, NJ",
-  "lat": 40.6749,
-  "lng": -74.2957,
+  "label": "Fair Lawn, NJ",
+  "lat": 40.9358397,
+  "lng": -74.1175058,
   "miles_list": [
    6.5,
    9.5,
@@ -13,14 +13,6 @@
   "label": "Jersey City, NJ",
   "lat": 40.7216,
   "lng": -74.0475,
-  "miles_list": [
-   9.5
-  ]
- },
- {
-  "label": "Fair Lawn, NJ",
-  "lat": 40.9358,
-  "lng": -74.1175,
   "miles_list": [
    9.5
   ]

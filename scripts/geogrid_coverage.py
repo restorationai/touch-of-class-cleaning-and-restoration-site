@@ -89,7 +89,16 @@ def load_config(slug: str) -> tuple[list[str], list[dict]]:
     kws = list(dict.fromkeys(kws))
     cities = json.loads(ct_f.read_text()) if ct_f.exists() else []
     out = []
-    for c in cities:
+    for i, c in enumerate(cities):
+        # HOME CITY ONLY (Santino 2026-10-01: "we really only want to run map
+        # rankings for the city they're in, based on their address. It makes
+        # no sense to run map rankings for Coastal for Arroyo Grande ... his
+        # profile isn't listed there"). The first entry is the home grid; any
+        # other entry is scanned only when it is its OWN Google location
+        # ("gbp_location": true, e.g. a future second-office profile), so no
+        # writer that seeds rings from service areas can widen the scan.
+        if i > 0 and not c.get("gbp_location"):
+            continue
         c = dict(c)
         c["label"] = norm_label(c.get("label"))
         out.append(c)
