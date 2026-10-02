@@ -4542,8 +4542,8 @@ def file_request_violation(body: str) -> str | None:
     # amin.mashouf@gmail.com" describes where HIS leads go; it asks for no
     # file. A file request always points at us, so the address must be ours
     # (or the words say "us").
-    if m and not re.search(r"restorationai\.io|getrestorationai\.com|\bus\b",
-                           m.group(0), re.I):
+    if m and "@" in m.group(0) and not re.search(
+            r"restorationai\.io|getrestorationai\.com|\bus\b", m.group(0), re.I):
         m = None
     if m:
         return (f"draft tells the client to email us a file ({m.group(0)!r}). "
@@ -9616,14 +9616,42 @@ def flush_ops_pings(dry_run: bool) -> None:
     _OPS_PINGS[:0] = [tuple(h) for h in held]
     if held and not dry_run:
         kv_set("held-ops-pings", [])
+    # DRAIN NOW (Santino 2026-10-02: "Monica sent me the same All Pro message
+    # three times" -- it was nine). The /concierge-inbound webhook runs
+    # INSIDE the long-lived API process, and this module-level list was only
+    # cleared on the quiet-hours path, so every later client webhook re-sent
+    # All Pro plus whatever was new (Dry Bros, Coastal...). A whole-summary
+    # hash could never catch that because the summary grew each time.
+    items = list(_OPS_PINGS)
+    _OPS_PINGS.clear()
+    # PER-ITEM DEDUPE in shared ops_kv (every process: API webhooks, the
+    # Railway poll, GitHub runs): an item already texted within
+    # OPS_PING_DEDUPE_HOURS is never texted again, however the run's other
+    # items change.
+    pinged = kv_get("ops-pinged-items") or {}
+    now_utc = datetime.now(timezone.utc)
+    pinged = {k: v for k, v in pinged.items()
+              if (now_utc - datetime.fromisoformat(v)).total_seconds() < OPS_PING_DEDUPE_HOURS * 3600}
     lines = []
     seen = set()
-    for name, reason in _OPS_PINGS:
+    fresh_keys = []
+    for name, reason in items:
         key = (name, reason[:80])
-        if key in seen:
+        ikey = f"{name}|{reason[:80]}"
+        if key in seen or ikey in pinged:
             continue
         seen.add(key)
+        fresh_keys.append(ikey)
         lines.append(f"- {name}: {reason[:160]}")
+    if not lines:
+        print("  [ops-ping] every item already texted in the last "
+              f"{OPS_PING_DEDUPE_HOURS}h — skipping")
+        return
+    if not dry_run:
+        # claim BEFORE sending so a concurrent process skips these items
+        for k in fresh_keys:
+            pinged[k] = now_utc.isoformat()
+        kv_set("ops-pinged-items", pinged)
     body = (f"Concierge: {len(lines)} item(s) need a human:\n"
             + "\n".join(lines))[:900]
     import hashlib
@@ -13742,9 +13770,16 @@ def cmd_inbound(args) -> int:
     if open_reqs:
         try:
             adv_msgs = fetch_history(ADVICE_CONTACT_ID, max_msgs=10)
+            # handled-ids ledger (2026-10-02: "Which one is that for?" went
+            # out twice for one reply; two passes both saw it as new because
+            # an ambiguous reply was never marked handled)
+            adv_seen = set(kv_get("advice-replies-seen") or [])
             new_replies = [m for m in adv_msgs
                            if m.get("direction") == "in" and m.get("when")
-                           and m["when"] > since]
+                           and m["when"] > since and m.get("id") not in adv_seen]
+            if new_replies and not dry_run:
+                kv_set("advice-replies-seen",
+                       sorted(adv_seen | {m.get("id") for m in new_replies if m.get("id")})[-300:])
             for m in reversed(new_replies):
                 match = anthropic_json(
                     ADVICE_MATCH_SYSTEM,
