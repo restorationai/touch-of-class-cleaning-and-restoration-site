@@ -35,7 +35,8 @@
     "primary_color": "#0052b8",
     "dark_color": "#0b1f3a",
     "accent_color": "#f08000",
-    "hide_mobile_header_call": "true"
+    "hide_mobile_header_call": "true",
+    "legal_name": "TOPP WORKS LLC"
   },
   "services": [
     "asbestos-abatement",

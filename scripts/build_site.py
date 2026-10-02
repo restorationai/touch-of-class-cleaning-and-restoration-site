@@ -280,6 +280,35 @@ def _dba_name_from_app(client: dict) -> str:
         return ""
 
 
+def _legal_name_from_app(client: dict) -> str:
+    """The vaulted legal entity (company_phone_setup.legal_business_name, the
+    name the EIN is registered to). Twilio toll-free rejection 30484 for DryCor
+    2026-10-01: the site footer said "DRYCOR RESTORE" and nothing tied the
+    brand to Showalter Construction & Restoration, LLC, so the carrier could
+    not match the business to official records."""
+    try:
+        cid = client.get("company_id") or company_id_for_slug(client["slug"])
+        if not cid:
+            return ""
+        import requests as _rq
+        r = _rq.get(f"{os.environ['SUPABASE_URL']}/rest/v1/company_phone_setup",
+                    params={"id": f"eq.{cid}", "select": "legal_business_name"},
+                    headers={"apikey": os.environ["SUPABASE_SERVICE_ROLE_KEY"],
+                             "Authorization": "Bearer "
+                             + os.environ["SUPABASE_SERVICE_ROLE_KEY"]},
+                    timeout=15)
+        return str(((r.json() or [{}])[0] or {}).get("legal_business_name") or "").strip()
+    except Exception:  # noqa: BLE001 — never blocks a scaffold
+        return ""
+
+
+def _entity_key(name: str) -> str:
+    """Compare entity names ignoring punctuation and LLC/Inc/Corp suffixes."""
+    n = re.sub(r"[^a-z0-9 ]", " ", str(name or "").lower().replace("&", " and "))
+    n = re.sub(r"\b(llc|l l c|inc|incorporated|corp|corporation|co|company|ltd)\b", " ", n)
+    return re.sub(r"\s+", " ", n).strip()
+
+
 def resolve_tokens(client: dict, plan_input: dict, allow_missing_domain: bool = False) -> tuple[dict, dict]:
     """Return (string_tokens, json_tokens). JSON tokens substitute as bare
     JS literals (no surrounding quotes)."""
@@ -341,15 +370,23 @@ def resolve_tokens(client: dict, plan_input: dict, allow_missing_domain: bool = 
             state=primary_area.get("state", ""),
         )
 
+    # Footer reads "(c) {legal}, doing business as {dba}" on every page. The
+    # legal entity falls back to the vaulted EIN name, and when it is a
+    # different entity than the brand, the brand becomes the DBA line, so
+    # carriers (toll-free / A2P review) can tie the site to official records.
+    _legal = brand.get("legal_name") or _legal_name_from_app(client) or display_name
+    _dba = brand.get("dba_name") or _dba_name_from_app(client)
+    if not _dba and _entity_key(_legal) != _entity_key(display_name):
+        _dba = display_name
     string_tokens = {
         "BRAND_SLUG": slug,
         "BRAND_DISPLAY_NAME": display_name,
         "BRAND_SHORT_NAME": short_name,
-        "BRAND_LEGAL_NAME": brand.get("legal_name", display_name),
+        "BRAND_LEGAL_NAME": _legal,
         # DBA from the DB when plan-input lacks it (Heritage 2026-09-23:
         # every re-scaffold blanked dbaName and the nightly sync kept
         # re-healing it — the token now reads the rename_intent truth).
-        "BRAND_DBA_NAME": brand.get("dba_name") or _dba_name_from_app(client),
+        "BRAND_DBA_NAME": _dba,
         "BRAND_DOMAIN": domain,
         "BRAND_CANONICAL_URL": f"https://{domain}",
         "BRAND_PHONE": phone_display,

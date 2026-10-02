@@ -31,7 +31,8 @@
     "primary_color": "#123f85",
     "color_source": "sampled from the client-uploaded logo (branding bucket, 2026-08-05): shield navy #123f85 is the dominant saturated hue at 23.8% of logo pixels; water-blue #378ec4 and fire-orange #da6b29 are the secondary marks",
     "ga4_measurement_id": "G-QQDEBB808D",
-    "place_id": "ChIJHWRJjvrBM4gRsKk68P7eLjc"
+    "place_id": "ChIJHWRJjvrBM4gRsKk68P7eLjc",
+    "legal_name": "Direct Industrial Service & Supply LLC"
   },
   "services": [
     "air-duct-cleaning",
