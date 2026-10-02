@@ -103,6 +103,20 @@ def _site_unfinished_bits(slug: str) -> list[str]:
         bits.append(f"{pend} page(s) still rendering")
     return bits
 
+def preview_reveal_on(slug: str):
+    """Per-client reveal DATE (clients/{slug}.json "preview_reveal_on",
+    YYYY-MM-DD). Santino 2026-10-01: "send Bionic his website in exactly 3
+    days". When set it replaces the 10-day soak AND the finishing gate in
+    both reveal gates (this ledger + client_concierge): held before the
+    date, released on it. Returns a date or None."""
+    import datetime as _dt
+    try:
+        v = json.loads((CLIENTS_DIR / f"{slug}.json").read_text()).get("preview_reveal_on")
+        return _dt.date.fromisoformat(str(v)[:10]) if v else None
+    except (OSError, ValueError, json.JSONDecodeError):
+        return None
+
+
 def _norm_domain(d: str | None) -> str:
     d = (d or "").strip().lower()
     d = re.sub(r"^https?://", "", d).strip("/ ")
@@ -2216,6 +2230,10 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                 # placeholder long tail. "share now" still overrides both.
                 if not _in_window and _site_unfinished_bits(slug):
                     _in_window = True
+            _rv = preview_reveal_on(slug)
+            if _rv and not _site.get("apex_live"):
+                from zoneinfo import ZoneInfo as _ZI  # Santino's date (PT)
+                _in_window = _dtmod.datetime.now(_ZI("America/Los_Angeles")).date() < _rv
             if _in_window:
                 _release = any(
                     re.search(r"share\s+now|release\s+early|reveal\s+now",
@@ -2226,9 +2244,10 @@ def ensure_ledger(dry_run: bool, cid_to_slug: dict | None = None) -> list[str]:
                                  prefer="return=representation") or [])
                 if not _release:
                     attention.append(
-                        f"{slug}: site in the 10-day perception window "
+                        f"{slug}: site in the perception window "
                         f"(staged {_staged}) — preview reveal holds until "
-                        "day 10; note 'share now' to release early")
+                        + (f"{_rv} (set date)" if _rv else "day 10")
+                        + "; note 'share now' to release early")
             # pushed_main included 2026-09-11 (DryCor: a site pushed through
             # to the production pages.dev — but not cut over — sat with NO
             # preview reveal for 10 days because this gate only knew the

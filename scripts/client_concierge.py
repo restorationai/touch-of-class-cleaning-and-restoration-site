@@ -3248,6 +3248,24 @@ def filter_already_satisfied(company: dict, items: list[dict],
                                         or r0.get("updated_at") or "")
                 except Exception:  # noqa: BLE001 — unknown age: show it, don't stall
                     preview_ready_at = ""
+            # SET REVEAL DATE (Santino 2026-10-01, Bionic "exactly 3 days"):
+            # clients/{slug}.json preview_reveal_on replaces the soak clock
+            # and the finishing gate: hold before the date, show on it.
+            _rv = None
+            try:
+                from setup_ledger import preview_reveal_on
+                _rs = _sb("GET", "/rest/v1/marketing_sites?company_id=eq."
+                          f"{company.get('id')}&select=rank_ai_slug&limit=1") or []
+                if _rs and _rs[0].get("rank_ai_slug"):
+                    _rv = preview_reveal_on(_rs[0]["rank_ai_slug"])
+            except Exception:  # noqa: BLE001 — no override: normal soak
+                _rv = None
+            if _rv:
+                from zoneinfo import ZoneInfo as _ZI  # the date is Santino's (PT)
+                if datetime.now(_ZI("America/Los_Angeles")).date() < _rv:
+                    print(f"    [preview-soak] reveal date set to {_rv}; holding")
+                    continue
+                preview_ready_at = ""   # date reached: skip the soak below
             if preview_ready_at:
                 try:
                     built = datetime.fromisoformat(

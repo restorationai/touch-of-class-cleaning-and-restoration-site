@@ -19,5 +19,6 @@
     "github_repo": "restorationai/bionic-emergency-services-llc-site",
     "note": "restored 2026-10-01 from the staging deploy repo after ops-sync timeouts lost the monorepo copy"
   },
-  "build_status": "pushed_staging"
+  "build_status": "pushed_staging",
+  "preview_reveal_on": "2026-10-04"
 }
