@@ -11,7 +11,18 @@
     "template": "restoration",
     "template_version": "0.3.0",
     "url_count": 52,
-    "generated_at": "2026-10-02T05:40:38.356122+00:00"
+    "generated_at": "2026-10-02T05:41:37.542747+00:00"
   },
-  "updated_at": "2026-10-02T05:40:38.356128+00:00"
+  "updated_at": "2026-10-02T05:41:38.296720+00:00",
+  "indexnow_key": "9f8455f3128c4255968453fb92a70ba9",
+  "build": {
+    "scaffolded_at": "2026-10-02T05:41:38.296612+00:00",
+    "github_repo": "restorationai/touch-of-class-cleaning-and-restoration-site",
+    "pages_project": "rankai-touch-of-class-cleaning-and-restoration",
+    "starter_version": "0.1.0",
+    "url_count": 52,
+    "pages_status": "exists",
+    "last_rendered_at": "2026-10-02T05:52:06.291672+00:00"
+  },
+  "build_status": "content_partial"
 }
