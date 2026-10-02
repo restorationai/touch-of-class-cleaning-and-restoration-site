@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-10-01-best-water-damage-restoration-in-houston-tx",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-10-01T20:57:56Z",
       "priority": 1,
       "prioritized": true,
@@ -79,7 +79,8 @@
           "context": "Houston carries a 4.8-star rating from 64 reviews. It's part of a broader restoration gro",
           "reason": "listicle review-count 64 (competitor stat \u2014 verify it is not presented as ours)"
         }
-      ]
+      ],
+      "published_verified_at": "2026-10-02T10:31:17Z"
     },
     {
       "id": "2026-10-01-flood-damage-restoration-houston",

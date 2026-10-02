@@ -13,15 +13,16 @@
     "url_count": 89,
     "generated_at": "2026-10-02T05:01:02.408456+00:00"
   },
-  "updated_at": "2026-10-02T09:23:48.276880+00:00",
+  "updated_at": "2026-10-02T10:30:12.545008+00:00",
   "build": {
     "scaffolded_at": "2026-10-01T14:09:53.199826+00:00",
     "github_repo": "restorationai/bionic-emergency-services-llc-site",
     "note": "restored 2026-10-01 from the staging deploy repo after ops-sync timeouts lost the monorepo copy",
     "last_rendered_at": "2026-10-02T04:21:44.112785+00:00",
-    "last_pushed_staging_at": "2026-10-02T09:23:48.276861+00:00"
+    "last_pushed_staging_at": "2026-10-02T09:23:48.276861+00:00",
+    "last_pushed_main_at": "2026-10-02T10:30:12.544992+00:00"
   },
-  "build_status": "pushed_staging",
+  "build_status": "pushed_main",
   "preview_reveal_on": "2026-10-04",
   "cutover_prep": {
     "domain": "bionic24365.com",
@@ -30,5 +31,6 @@
     "backlinked_count": 32,
     "redirects_added": 45,
     "mapped_at": "2026-10-02T05:16:29+00:00"
-  }
+  },
+  "indexnow_key": "a5736240485c4ee29e4abac02b0de3f5"
 }
