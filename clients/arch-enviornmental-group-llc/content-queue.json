@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-10-02-who-to-call-for-asbestos-testing-in-kingsburg-ca",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-10-02T16:20:42Z",
       "priority": 1,
       "prioritized": true,
@@ -29,7 +29,8 @@
       ],
       "source": "best-of-seeder",
       "written_at": "2026-10-02T16:22:39Z",
-      "post_url": "https://archenviroservice.com/blog/who-to-call-for-asbestos-testing-in-kingsburg-ca/"
+      "post_url": "https://archenviroservice.com/blog/who-to-call-for-asbestos-testing-in-kingsburg-ca/",
+      "published_verified_at": "2026-10-02T16:25:20Z"
     },
     {
       "id": "2026-09-18-asbestos-testing-cost-ca",
