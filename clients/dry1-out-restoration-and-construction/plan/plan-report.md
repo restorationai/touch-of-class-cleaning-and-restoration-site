@@ -1,21 +1,21 @@
 # Site Plan Report — Dry1 Out Restoration and Construction
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-10-02T14:22:00.591783+00:00
+- Generated: 2026-10-02T18:24:34.092956+00:00
 - Domain: `dry1out.com`
 - Services selected: 28 of 91 catalog entries
-- Service areas: 22
+- Service areas: 23
 - Cross-product enabled: True
-- Total URLs: **208**
-- Total internal links: 1561 (avg 7.5 per page)
+- Total URLs: **214**
+- Total internal links: 1610 (avg 7.5 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 138 |
+| `service-area-service` | 143 |
 | `service-landing` | 28 |
-| `service-area` | 21 |
+| `service-area` | 22 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -80,6 +80,7 @@
 - `santa-cruz-ca` — Santa Cruz, CA
 - `harmony-grove-ca` — Harmony Grove, CA
 - `rancho-santa-fe-ca` — Rancho Santa Fe, CA
+- `hidden-meadows-ca` — Hidden Meadows, CA
 
 ## Top 10 priority pages
 

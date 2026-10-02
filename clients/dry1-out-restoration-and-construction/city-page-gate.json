@@ -1601,6 +1601,139 @@
    "src": "auto",
    "at": "2026-10-02"
   },
+  "rancho-santa-fe-ca__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup rancho santa fe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup rancho santa fe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__blood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('blood cleanup rancho santa fe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__carpet-water-extraction": {
+   "pass": false,
+   "why": "no local demand ('carpet water extraction rancho santa fe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__crime-scene-cleanup": {
+   "pass": false,
+   "why": "no local demand ('crime scene cleanup rancho santa fe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__emergency-board-up": {
+   "pass": false,
+   "why": "no local demand ('emergency board up rancho santa fe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal rancho santa fe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__fire-damage-restoration": {
+   "pass": true,
+   "why": "local angle: high wildfire exposure in brush-covered area",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1180/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection rancho santa fe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation rancho santa fe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal rancho santa fe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__post-construction-cleaning": {
+   "pass": true,
+   "why": "local angle: affluent area with extensive luxury home construction",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup rancho santa fe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__smoke-damage-restoration": {
+   "pass": true,
+   "why": "local angle: frequent wildfire smoke exposure in region",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration rancho santa fe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__vandalism-damage-cleanup-and-repair": {
+   "pass": false,
+   "why": "no local demand ('vandalism repair rancho santa fe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__vehicle-impact-damage-repair": {
+   "pass": false,
+   "why": "no local demand ('vehicle impact damage repair rancho santa fe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "rancho-santa-fe-ca__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup rancho santa fe' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "san-diego-ca__appliance-leak-cleanup": {
    "pass": false,
    "why": "no local demand ('appliance leak cleanup san diego' 0/mo) and no local angle",
@@ -2828,5 +2961,5 @@
    "metro": 30
   }
  },
- "updated_at": "2026-10-02T14:09:03+00:00"
+ "updated_at": "2026-10-02T18:15:41+00:00"
 }

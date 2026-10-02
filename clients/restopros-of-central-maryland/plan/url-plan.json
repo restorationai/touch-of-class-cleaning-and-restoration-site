@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-10-02T14:22:30.027277+00:00",
+  "generated_at": "2026-10-02T18:25:04.115556+00:00",
   "input_summary": {
     "service_count": 22,
-    "service_area_count": 22,
+    "service_area_count": 23,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -78,6 +78,7 @@
         "/service-areas/gaithersburg-md/",
         "/service-areas/germantown-md/",
         "/service-areas/glen-burnie-md/",
+        "/service-areas/honeygo-md/",
         "/service-areas/kingsville-md/",
         "/service-areas/owings-mills-md/",
         "/service-areas/perry-hall-md/",
@@ -184,6 +185,7 @@
         "/service-areas/gaithersburg-md/",
         "/service-areas/germantown-md/",
         "/service-areas/glen-burnie-md/",
+        "/service-areas/honeygo-md/",
         "/service-areas/kingsville-md/",
         "/service-areas/owings-mills-md/",
         "/service-areas/perry-hall-md/",
@@ -2044,6 +2046,44 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/perry-hall-md/water-damage-restoration/",
+        "/service-areas/annapolis-md/",
+        "/service-areas/aspen-hill-md/",
+        "/service-areas/bethesda-md/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/honeygo-md/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Honeygo, MD | RestoPros of Central Maryland",
+      "h1": "Restoration Services in Honeygo",
+      "meta_description": "Serving Honeygo, MD with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (240) 261-1639.",
+      "primary_keyword": "restoration services honeygo",
+      "secondary_keywords": [
+        "honeygo restoration company",
+        "damage restoration honeygo",
+        "honeygo disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/honeygo-md/water-damage-restoration/",
         "/service-areas/annapolis-md/",
         "/service-areas/aspen-hill-md/",
         "/service-areas/bethesda-md/"
@@ -5001,6 +5041,48 @@
       "internal_links_out": [
         "/services/water-damage-restoration/",
         "/service-areas/perry-hall-md/",
+        "/service-areas/annapolis-md/water-damage-restoration/",
+        "/service-areas/aspen-hill-md/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/honeygo-md/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Honeygo, MD | RestoPros of Central Maryland",
+      "h1": "24/7 Emergency Water Damage Restoration in Honeygo",
+      "meta_description": "24/7 emergency water damage restoration in Honeygo, MD. IICRC-certified, insurance billing accepted. Call (240) 261-1639.",
+      "primary_keyword": "water damage restoration honeygo",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/honeygo-md/",
         "/service-areas/annapolis-md/water-damage-restoration/",
         "/service-areas/aspen-hill-md/water-damage-restoration/",
         "/contact/"

@@ -150,6 +150,11 @@
       "city": "Perry Hall",
       "state": "MD",
       "slug": "perry-hall-md"
+    },
+    {
+      "city": "Honeygo",
+      "state": "MD",
+      "slug": "honeygo-md"
     }
   ],
   "template": "restoration",

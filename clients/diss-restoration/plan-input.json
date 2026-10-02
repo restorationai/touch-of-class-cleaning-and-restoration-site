@@ -172,6 +172,11 @@
       "city": "Poland",
       "state": "OH",
       "slug": "poland-oh"
+    },
+    {
+      "city": "Masury",
+      "state": "OH",
+      "slug": "masury-oh"
     }
   ],
   "template": "restoration",

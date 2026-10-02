@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-10-02T14:21:55.616532+00:00",
+  "generated_at": "2026-10-02T18:24:28.732652+00:00",
   "input_summary": {
     "service_count": 28,
-    "service_area_count": 23,
+    "service_area_count": 24,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -82,6 +82,7 @@
         "/service-areas/grove-city-pa/",
         "/service-areas/hermitage-pa/",
         "/service-areas/hubbard-oh/",
+        "/service-areas/masury-oh/",
         "/service-areas/mcdonald-oh/",
         "/service-areas/mercer-pa/",
         "/service-areas/mineral-ridge-oh/",
@@ -195,6 +196,7 @@
         "/service-areas/grove-city-pa/",
         "/service-areas/hermitage-pa/",
         "/service-areas/hubbard-oh/",
+        "/service-areas/masury-oh/",
         "/service-areas/mcdonald-oh/",
         "/service-areas/mercer-pa/",
         "/service-areas/mineral-ridge-oh/",
@@ -408,8 +410,8 @@
         "/service-areas/mcdonald-oh/asbestos-abatement/",
         "/service-areas/new-castle-pa/asbestos-abatement/",
         "/service-areas/niles-oh/asbestos-abatement/",
-        "/service-areas/struthers-oh/asbestos-abatement/",
-        "/service-areas/warren-oh/asbestos-abatement/"
+        "/service-areas/poland-oh/asbestos-abatement/",
+        "/service-areas/struthers-oh/asbestos-abatement/"
       ]
     },
     {
@@ -505,7 +507,7 @@
         "/service-areas/hubbard-oh/carpet-cleaning/",
         "/service-areas/new-castle-pa/carpet-cleaning/",
         "/service-areas/niles-oh/carpet-cleaning/",
-        "/service-areas/struthers-oh/carpet-cleaning/"
+        "/service-areas/poland-oh/carpet-cleaning/"
       ]
     },
     {
@@ -644,6 +646,7 @@
         "/service-areas/girard-oh/emergency-water-removal/",
         "/service-areas/hubbard-oh/emergency-water-removal/",
         "/service-areas/niles-oh/emergency-water-removal/",
+        "/service-areas/poland-oh/emergency-water-removal/",
         "/service-areas/struthers-oh/emergency-water-removal/",
         "/service-areas/warren-oh/emergency-water-removal/",
         "/services/water-damage-restoration/"
@@ -1032,8 +1035,8 @@
         "/service-areas/grove-city-pa/water-damage-restoration/",
         "/service-areas/hermitage-pa/water-damage-restoration/",
         "/service-areas/hubbard-oh/water-damage-restoration/",
+        "/service-areas/masury-oh/water-damage-restoration/",
         "/service-areas/mcdonald-oh/water-damage-restoration/",
-        "/service-areas/mercer-pa/water-damage-restoration/",
         "/services/emergency-water-removal/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -2551,6 +2554,47 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/poland-oh/water-damage-restoration/",
+        "/service-areas/poland-oh/emergency-water-removal/",
+        "/service-areas/poland-oh/asbestos-abatement/",
+        "/service-areas/poland-oh/carpet-cleaning/",
+        "/service-areas/austintown-oh/",
+        "/service-areas/boardman-oh/",
+        "/service-areas/campbell-oh/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/masury-oh/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Masury, OH | DISS Restoration",
+      "h1": "Restoration Services in Masury",
+      "meta_description": "Serving Masury, OH with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (724) 981-1441.",
+      "primary_keyword": "restoration services masury",
+      "secondary_keywords": [
+        "masury restoration company",
+        "damage restoration masury",
+        "masury disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/masury-oh/water-damage-restoration/",
         "/service-areas/austintown-oh/",
         "/service-areas/boardman-oh/",
         "/service-areas/campbell-oh/"
@@ -11104,6 +11148,139 @@
       ]
     },
     {
+      "url_path": "/service-areas/poland-oh/asbestos-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Abatement in Poland, OH | DISS Restoration",
+      "h1": "Asbestos Abatement in Poland",
+      "meta_description": "24/7 asbestos abatement in Poland, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "asbestos abatement poland",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-abatement/",
+        "/service-areas/poland-oh/",
+        "/service-areas/poland-oh/water-damage-restoration/",
+        "/service-areas/poland-oh/emergency-water-removal/",
+        "/service-areas/austintown-oh/asbestos-abatement/",
+        "/service-areas/boardman-oh/asbestos-abatement/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/poland-oh/carpet-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet Cleaning in Poland, OH | DISS Restoration",
+      "h1": "Carpet Cleaning in Poland",
+      "meta_description": "24/7 carpet cleaning in Poland, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "carpet cleaning poland",
+      "secondary_keywords": [
+        "professional carpet cleaning",
+        "deep carpet cleaning",
+        "carpet stain removal",
+        "commercial carpet cleaning",
+        "carpet sanitization"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-cleaning/",
+        "/service-areas/poland-oh/",
+        "/service-areas/poland-oh/water-damage-restoration/",
+        "/service-areas/poland-oh/emergency-water-removal/",
+        "/service-areas/austintown-oh/carpet-cleaning/",
+        "/service-areas/boardman-oh/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/poland-oh/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Removal & Cleanup in Poland, OH | DISS Restoration",
+      "h1": "24/7 Emergency Water Removal & Cleanup in Poland",
+      "meta_description": "24/7 emergency water removal & cleanup in Poland, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup poland",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/poland-oh/",
+        "/service-areas/poland-oh/water-damage-restoration/",
+        "/service-areas/poland-oh/asbestos-abatement/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/poland-oh/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11140,6 +11317,50 @@
       "internal_links_out": [
         "/services/water-damage-restoration/",
         "/service-areas/poland-oh/",
+        "/service-areas/poland-oh/emergency-water-removal/",
+        "/service-areas/poland-oh/asbestos-abatement/",
+        "/service-areas/austintown-oh/water-damage-restoration/",
+        "/service-areas/boardman-oh/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/masury-oh/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Masury, OH | DISS Restoration",
+      "h1": "24/7 Emergency Water Damage Restoration in Masury",
+      "meta_description": "24/7 emergency water damage restoration in Masury, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "water damage restoration masury",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/masury-oh/",
         "/service-areas/austintown-oh/water-damage-restoration/",
         "/service-areas/boardman-oh/water-damage-restoration/",
         "/contact/"

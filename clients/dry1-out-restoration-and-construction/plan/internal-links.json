@@ -42,6 +42,7 @@
     "/service-areas/fremont-ca/",
     "/service-areas/harmony-grove-ca/",
     "/service-areas/hayward-ca/",
+    "/service-areas/hidden-meadows-ca/",
     "/service-areas/oakland-ca/",
     "/service-areas/oceanside-ca/",
     "/service-areas/rancho-santa-fe-ca/",
@@ -97,6 +98,7 @@
     "/service-areas/fremont-ca/",
     "/service-areas/harmony-grove-ca/",
     "/service-areas/hayward-ca/",
+    "/service-areas/hidden-meadows-ca/",
     "/service-areas/oakland-ca/",
     "/service-areas/oceanside-ca/",
     "/service-areas/rancho-santa-fe-ca/",
@@ -192,10 +194,10 @@
     "/service-areas/fremont-ca/fire-damage-restoration/",
     "/service-areas/oakland-ca/fire-damage-restoration/",
     "/service-areas/oceanside-ca/fire-damage-restoration/",
+    "/service-areas/rancho-santa-fe-ca/fire-damage-restoration/",
     "/service-areas/san-diego-ca/fire-damage-restoration/",
     "/service-areas/san-francisco-ca/fire-damage-restoration/",
     "/service-areas/san-jose-ca/fire-damage-restoration/",
-    "/service-areas/san-marcos-ca/fire-damage-restoration/",
     "/blog/choosing-a-restoration-company/",
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
@@ -265,6 +267,7 @@
     "/contact/",
     "/service-areas/berkeley-ca/post-construction-cleaning/",
     "/service-areas/oakland-ca/post-construction-cleaning/",
+    "/service-areas/rancho-santa-fe-ca/post-construction-cleaning/",
     "/service-areas/san-diego-ca/post-construction-cleaning/",
     "/service-areas/san-francisco-ca/post-construction-cleaning/",
     "/service-areas/san-jose-ca/post-construction-cleaning/"
@@ -313,8 +316,8 @@
     "/service-areas/fremont-ca/water-damage-restoration/",
     "/service-areas/harmony-grove-ca/water-damage-restoration/",
     "/service-areas/hayward-ca/water-damage-restoration/",
+    "/service-areas/hidden-meadows-ca/water-damage-restoration/",
     "/service-areas/oakland-ca/water-damage-restoration/",
-    "/service-areas/oceanside-ca/water-damage-restoration/",
     "/services/emergency-water-removal/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
@@ -337,6 +340,7 @@
     "/contact/",
     "/service-areas/el-cajon-ca/smoke-damage-restoration/",
     "/service-areas/escondido-ca/smoke-damage-restoration/",
+    "/service-areas/rancho-santa-fe-ca/smoke-damage-restoration/",
     "/service-areas/san-diego-ca/smoke-damage-restoration/",
     "/service-areas/san-jose-ca/smoke-damage-restoration/",
     "/service-areas/temecula-ca/smoke-damage-restoration/",
@@ -647,7 +651,19 @@
   "/service-areas/rancho-santa-fe-ca/": [
     "/service-areas/",
     "/contact/",
+    "/service-areas/rancho-santa-fe-ca/fire-damage-restoration/",
     "/service-areas/rancho-santa-fe-ca/water-damage-restoration/",
+    "/service-areas/rancho-santa-fe-ca/smoke-damage-restoration/",
+    "/service-areas/rancho-santa-fe-ca/general-contracting/",
+    "/service-areas/rancho-santa-fe-ca/post-construction-cleaning/",
+    "/service-areas/berkeley-ca/",
+    "/service-areas/carlsbad-ca/",
+    "/service-areas/chula-vista-ca/"
+  ],
+  "/service-areas/hidden-meadows-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/hidden-meadows-ca/water-damage-restoration/",
     "/service-areas/berkeley-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/chula-vista-ca/"
@@ -1049,7 +1065,7 @@
     "/service-areas/oakland-ca/fire-damage-restoration/",
     "/service-areas/oakland-ca/mold-remediation/",
     "/service-areas/berkeley-ca/post-construction-cleaning/",
-    "/service-areas/san-diego-ca/post-construction-cleaning/",
+    "/service-areas/rancho-santa-fe-ca/post-construction-cleaning/",
     "/contact/"
   ],
   "/service-areas/oakland-ca/sewage-cleanup/": [
@@ -1300,7 +1316,7 @@
     "/service-areas/escondido-ca/fire-damage-restoration/",
     "/service-areas/escondido-ca/mold-remediation/",
     "/service-areas/el-cajon-ca/smoke-damage-restoration/",
-    "/service-areas/san-diego-ca/smoke-damage-restoration/",
+    "/service-areas/rancho-santa-fe-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/carlsbad-ca/crime-scene-cleanup/": [
@@ -1669,7 +1685,7 @@
     "/service-areas/el-cajon-ca/fire-damage-restoration/",
     "/service-areas/el-cajon-ca/mold-remediation/",
     "/service-areas/escondido-ca/smoke-damage-restoration/",
-    "/service-areas/san-diego-ca/smoke-damage-restoration/",
+    "/service-areas/rancho-santa-fe-ca/smoke-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/concord-ca/fire-damage-restoration/": [
@@ -1759,7 +1775,7 @@
     "/service-areas/berkeley-ca/mold-remediation/",
     "/service-areas/berkeley-ca/water-damage-restoration/",
     "/service-areas/oakland-ca/post-construction-cleaning/",
-    "/service-areas/san-diego-ca/post-construction-cleaning/",
+    "/service-areas/rancho-santa-fe-ca/post-construction-cleaning/",
     "/contact/"
   ],
   "/service-areas/berkeley-ca/water-damage-restoration/": [
@@ -1877,9 +1893,54 @@
     "/service-areas/carlsbad-ca/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/rancho-santa-fe-ca/fire-damage-restoration/": [
+    "/services/fire-damage-restoration/",
+    "/service-areas/rancho-santa-fe-ca/",
+    "/service-areas/rancho-santa-fe-ca/water-damage-restoration/",
+    "/service-areas/rancho-santa-fe-ca/smoke-damage-restoration/",
+    "/service-areas/carlsbad-ca/fire-damage-restoration/",
+    "/service-areas/chula-vista-ca/fire-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-santa-fe-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/rancho-santa-fe-ca/",
+    "/service-areas/rancho-santa-fe-ca/fire-damage-restoration/",
+    "/service-areas/rancho-santa-fe-ca/water-damage-restoration/",
+    "/service-areas/berkeley-ca/general-contracting/",
+    "/service-areas/carlsbad-ca/general-contracting/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-santa-fe-ca/post-construction-cleaning/": [
+    "/services/post-construction-cleaning/",
+    "/service-areas/rancho-santa-fe-ca/",
+    "/service-areas/rancho-santa-fe-ca/fire-damage-restoration/",
+    "/service-areas/rancho-santa-fe-ca/water-damage-restoration/",
+    "/service-areas/berkeley-ca/post-construction-cleaning/",
+    "/service-areas/oakland-ca/post-construction-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/rancho-santa-fe-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/rancho-santa-fe-ca/",
+    "/service-areas/rancho-santa-fe-ca/fire-damage-restoration/",
+    "/service-areas/rancho-santa-fe-ca/smoke-damage-restoration/",
+    "/service-areas/berkeley-ca/water-damage-restoration/",
+    "/service-areas/carlsbad-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-santa-fe-ca/smoke-damage-restoration/": [
+    "/services/smoke-damage-restoration/",
+    "/service-areas/rancho-santa-fe-ca/",
+    "/service-areas/rancho-santa-fe-ca/fire-damage-restoration/",
+    "/service-areas/rancho-santa-fe-ca/water-damage-restoration/",
+    "/service-areas/el-cajon-ca/smoke-damage-restoration/",
+    "/service-areas/escondido-ca/smoke-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/hidden-meadows-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/hidden-meadows-ca/",
     "/service-areas/berkeley-ca/water-damage-restoration/",
     "/service-areas/carlsbad-ca/water-damage-restoration/",
     "/contact/"

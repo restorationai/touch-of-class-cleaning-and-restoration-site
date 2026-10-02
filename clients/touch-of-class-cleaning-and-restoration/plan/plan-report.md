@@ -1,21 +1,21 @@
 # Site Plan Report — Touch of Class Cleaning and Restoration 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-10-02T14:22:39.977660+00:00
-- Domain: `None`
+- Generated: 2026-10-02T18:25:21.900351+00:00
+- Domain: `tofc.biz`
 - Services selected: 19 of 91 catalog entries
-- Service areas: 10
+- Service areas: 11
 - Cross-product enabled: True
-- Total URLs: **54**
-- Total internal links: 277 (avg 5.1 per page)
+- Total URLs: **56**
+- Total internal links: 291 (avg 5.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
 | `service-landing` | 19 |
-| `service-area` | 9 |
-| `service-area-service` | 9 |
+| `service-area` | 10 |
+| `service-area-service` | 10 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -59,6 +59,7 @@
 - `rowlett-tx` — Rowlett, TX
 - `wylie-tx` — Wylie, TX
 - `richwood-tx` — Richwood, TX
+- `clute-tx` — Clute, TX
 
 ## Top 10 priority pages
 

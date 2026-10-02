@@ -5,9 +5,14 @@
   "evidence": {
     "company_id": "CO-1789930183421",
     "gbp_title": "",
-    "rename_intent": {},
-    "chosen_names": []
+    "rename_intent": {
+      "decision": "rename",
+      "dba_name": "KCS Restore - 24/7 Emergency Water and Fire Damage Restoration"
+    },
+    "chosen_names": [
+      "KCS Restore - 24/7 Emergency Water and Fire Damage Restoration"
+    ]
   },
-  "checked_at": "2026-10-01T04:48:59+00:00",
+  "checked_at": "2026-10-02T18:15:56+00:00",
   "source": "supabase"
 }

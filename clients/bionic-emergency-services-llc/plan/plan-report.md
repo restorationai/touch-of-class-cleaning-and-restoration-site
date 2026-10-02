@@ -1,22 +1,22 @@
 # Site Plan Report — BIONIC Emergency Services LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-10-02T14:21:47.352273+00:00
+- Generated: 2026-10-02T18:24:20.533833+00:00
 - Domain: `bionic24365.com`
 - Services selected: 21 of 91 catalog entries
-- Service areas: 11
+- Service areas: 12
 - Cross-product enabled: True
-- Total URLs: **103**
-- Total internal links: 710 (avg 6.9 per page)
+- Total URLs: **107**
+- Total internal links: 744 (avg 7.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 51 |
+| `service-area-service` | 54 |
 | `service-landing` | 21 |
 | `blog-post` | 12 |
-| `service-area` | 10 |
+| `service-area` | 11 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -62,6 +62,7 @@
 - `katy-tx` — Katy, TX
 - `jersey-village-tx` — Jersey Village, TX
 - `hunters-creek-village-tx` — Hunters Creek Village, TX
+- `piney-point-village-tx` — Piney Point Village, TX
 
 ## Top 10 priority pages
 

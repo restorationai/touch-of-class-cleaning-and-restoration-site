@@ -11125,6 +11125,36 @@
       "triaged_at": "2026-10-02T04:45:23Z",
       "triage_model": "claude-sonnet-5"
     },
+    "gbp:gbp-AF1QipMCnOXSALxynqPl-ZGI17quJc-ktTfH2tA1iIwv": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMCnOXSALxynqPl-ZGI17quJc-ktTfH2tA1iIwv.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790805304013/job-photos/posted/gbp-AF1QipMCnOXSALxynqPl-ZGI17quJc-ktTfH2tA1iIwv.jpg",
+      "width": 2560,
+      "height": 1935,
+      "bytes": 963316,
+      "sha1": "499800ec993c2754",
+      "exif": {
+        "taken_at": "2024:02:03 19:08:59"
+      },
+      "category": "equipment",
+      "subject": "technician standing with large collection of air movers and dehumidifiers",
+      "quality": 70,
+      "slots": {
+        "hero": 40,
+        "team": 55,
+        "services": 75
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "emergency-water-removal"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Real equipment inventory shot with single technician, useful for services slot.",
+      "triaged_at": "2026-10-02T18:20:15Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "gbp:gbp-AF1QipMDlj_e43T6njE-4c9kXq_73le8HivSHP7T0CTY": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMDlj_e43T6njE-4c9kXq_73le8HivSHP7T0CTY.jpg",
@@ -13360,7 +13390,8 @@
       ],
       "reason": "Clear equipment lineup with technician, good services shot.",
       "triaged_at": "2026-10-02T04:47:32Z",
-      "triage_model": "claude-sonnet-5"
+      "triage_model": "claude-sonnet-5",
+      "duplicate_of": "gbp:gbp-AF1QipMCnOXSALxynqPl-ZGI17quJc-ktTfH2tA1iIwv"
     },
     "gbp:gbp-AF1QipOJStkjoS1YPOJxYdsmHMSHEm0K9g3kYlvTBqKf": {
       "source": "gbp",
@@ -15347,7 +15378,25 @@
       "height": 400,
       "bytes": 56886,
       "sha1": "516b3b89d6e2d92d",
-      "exif": {}
+      "exif": {},
+      "category": "graphic",
+      "subject": "stock photo of hand holding phone with water detected app over shower",
+      "quality": 55,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [
+        "water-leak-detection"
+      ],
+      "flags": [
+        "stock_photo",
+        "text_overlay"
+      ],
+      "reason": "Staged stock image with app graphic overlay, not an actual job photo.",
+      "triaged_at": "2026-10-02T18:20:15Z",
+      "triage_model": "claude-sonnet-5"
     },
     "web:5886319f1afd9953": {
       "source": "website",
@@ -15760,5 +15809,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-10-02T14:16:18Z"
+  "triaged_at": "2026-10-02T18:20:15Z"
 }

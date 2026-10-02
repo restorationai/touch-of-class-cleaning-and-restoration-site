@@ -71,6 +71,11 @@
       "city": "Richwood",
       "state": "TX",
       "slug": "richwood-tx"
+    },
+    {
+      "city": "Clute",
+      "state": "TX",
+      "slug": "clute-tx"
     }
   ],
   "template": "restoration",

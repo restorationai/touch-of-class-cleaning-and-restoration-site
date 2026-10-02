@@ -25,6 +25,7 @@
     "/services/water-leak-detection/",
     "/service-areas/allen-tx/",
     "/service-areas/carrollton-tx/",
+    "/service-areas/clute-tx/",
     "/service-areas/dallas-tx/",
     "/service-areas/garland-tx/",
     "/service-areas/mckinney-tx/",
@@ -59,6 +60,7 @@
     "/",
     "/service-areas/allen-tx/",
     "/service-areas/carrollton-tx/",
+    "/service-areas/clute-tx/",
     "/service-areas/dallas-tx/",
     "/service-areas/garland-tx/",
     "/service-areas/mckinney-tx/",
@@ -93,6 +95,7 @@
     "/contact/",
     "/service-areas/allen-tx/water-damage-restoration/",
     "/service-areas/carrollton-tx/water-damage-restoration/",
+    "/service-areas/clute-tx/water-damage-restoration/",
     "/service-areas/dallas-tx/water-damage-restoration/",
     "/service-areas/garland-tx/water-damage-restoration/",
     "/service-areas/mckinney-tx/water-damage-restoration/",
@@ -191,7 +194,7 @@
     "/service-areas/dallas-tx/water-damage-restoration/",
     "/service-areas/allen-tx/",
     "/service-areas/carrollton-tx/",
-    "/service-areas/garland-tx/"
+    "/service-areas/clute-tx/"
   ],
   "/service-areas/plano-tx/": [
     "/service-areas/",
@@ -199,7 +202,7 @@
     "/service-areas/plano-tx/water-damage-restoration/",
     "/service-areas/allen-tx/",
     "/service-areas/carrollton-tx/",
-    "/service-areas/dallas-tx/"
+    "/service-areas/clute-tx/"
   ],
   "/service-areas/garland-tx/": [
     "/service-areas/",
@@ -207,7 +210,7 @@
     "/service-areas/garland-tx/water-damage-restoration/",
     "/service-areas/allen-tx/",
     "/service-areas/carrollton-tx/",
-    "/service-areas/dallas-tx/"
+    "/service-areas/clute-tx/"
   ],
   "/service-areas/mckinney-tx/": [
     "/service-areas/",
@@ -215,23 +218,23 @@
     "/service-areas/mckinney-tx/water-damage-restoration/",
     "/service-areas/allen-tx/",
     "/service-areas/carrollton-tx/",
-    "/service-areas/dallas-tx/"
+    "/service-areas/clute-tx/"
   ],
   "/service-areas/carrollton-tx/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/carrollton-tx/water-damage-restoration/",
     "/service-areas/allen-tx/",
-    "/service-areas/dallas-tx/",
-    "/service-areas/garland-tx/"
+    "/service-areas/clute-tx/",
+    "/service-areas/dallas-tx/"
   ],
   "/service-areas/allen-tx/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/allen-tx/water-damage-restoration/",
     "/service-areas/carrollton-tx/",
-    "/service-areas/dallas-tx/",
-    "/service-areas/garland-tx/"
+    "/service-areas/clute-tx/",
+    "/service-areas/dallas-tx/"
   ],
   "/service-areas/rowlett-tx/": [
     "/service-areas/",
@@ -239,7 +242,7 @@
     "/service-areas/rowlett-tx/water-damage-restoration/",
     "/service-areas/allen-tx/",
     "/service-areas/carrollton-tx/",
-    "/service-areas/dallas-tx/"
+    "/service-areas/clute-tx/"
   ],
   "/service-areas/wylie-tx/": [
     "/service-areas/",
@@ -247,12 +250,20 @@
     "/service-areas/wylie-tx/water-damage-restoration/",
     "/service-areas/allen-tx/",
     "/service-areas/carrollton-tx/",
-    "/service-areas/dallas-tx/"
+    "/service-areas/clute-tx/"
   ],
   "/service-areas/richwood-tx/": [
     "/service-areas/",
     "/contact/",
     "/service-areas/richwood-tx/water-damage-restoration/",
+    "/service-areas/allen-tx/",
+    "/service-areas/carrollton-tx/",
+    "/service-areas/clute-tx/"
+  ],
+  "/service-areas/clute-tx/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/clute-tx/water-damage-restoration/",
     "/service-areas/allen-tx/",
     "/service-areas/carrollton-tx/",
     "/service-areas/dallas-tx/"
@@ -289,14 +300,14 @@
     "/services/water-damage-restoration/",
     "/service-areas/carrollton-tx/",
     "/service-areas/allen-tx/water-damage-restoration/",
-    "/service-areas/dallas-tx/water-damage-restoration/",
+    "/service-areas/clute-tx/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/allen-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/allen-tx/",
     "/service-areas/carrollton-tx/water-damage-restoration/",
-    "/service-areas/dallas-tx/water-damage-restoration/",
+    "/service-areas/clute-tx/water-damage-restoration/",
     "/contact/"
   ],
   "/service-areas/rowlett-tx/water-damage-restoration/": [
@@ -316,6 +327,13 @@
   "/service-areas/richwood-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/richwood-tx/",
+    "/service-areas/allen-tx/water-damage-restoration/",
+    "/service-areas/carrollton-tx/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/clute-tx/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/clute-tx/",
     "/service-areas/allen-tx/water-damage-restoration/",
     "/service-areas/carrollton-tx/water-damage-restoration/",
     "/contact/"

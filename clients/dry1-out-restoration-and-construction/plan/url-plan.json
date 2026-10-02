@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-10-02T14:22:00.579043+00:00",
+  "generated_at": "2026-10-02T18:24:34.084655+00:00",
   "input_summary": {
     "service_count": 28,
-    "service_area_count": 22,
+    "service_area_count": 23,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -82,6 +82,7 @@
         "/service-areas/fremont-ca/",
         "/service-areas/harmony-grove-ca/",
         "/service-areas/hayward-ca/",
+        "/service-areas/hidden-meadows-ca/",
         "/service-areas/oakland-ca/",
         "/service-areas/oceanside-ca/",
         "/service-areas/rancho-santa-fe-ca/",
@@ -194,6 +195,7 @@
         "/service-areas/fremont-ca/",
         "/service-areas/harmony-grove-ca/",
         "/service-areas/hayward-ca/",
+        "/service-areas/hidden-meadows-ca/",
         "/service-areas/oakland-ca/",
         "/service-areas/oceanside-ca/",
         "/service-areas/rancho-santa-fe-ca/",
@@ -628,10 +630,10 @@
         "/service-areas/fremont-ca/fire-damage-restoration/",
         "/service-areas/oakland-ca/fire-damage-restoration/",
         "/service-areas/oceanside-ca/fire-damage-restoration/",
+        "/service-areas/rancho-santa-fe-ca/fire-damage-restoration/",
         "/service-areas/san-diego-ca/fire-damage-restoration/",
         "/service-areas/san-francisco-ca/fire-damage-restoration/",
         "/service-areas/san-jose-ca/fire-damage-restoration/",
-        "/service-areas/san-marcos-ca/fire-damage-restoration/",
         "/blog/choosing-a-restoration-company/",
         "/blog/fire-damage-restoration-process/",
         "/blog/smoke-odor-removal-techniques/"
@@ -871,6 +873,7 @@
         "/contact/",
         "/service-areas/berkeley-ca/post-construction-cleaning/",
         "/service-areas/oakland-ca/post-construction-cleaning/",
+        "/service-areas/rancho-santa-fe-ca/post-construction-cleaning/",
         "/service-areas/san-diego-ca/post-construction-cleaning/",
         "/service-areas/san-francisco-ca/post-construction-cleaning/",
         "/service-areas/san-jose-ca/post-construction-cleaning/"
@@ -1077,8 +1080,8 @@
         "/service-areas/fremont-ca/water-damage-restoration/",
         "/service-areas/harmony-grove-ca/water-damage-restoration/",
         "/service-areas/hayward-ca/water-damage-restoration/",
+        "/service-areas/hidden-meadows-ca/water-damage-restoration/",
         "/service-areas/oakland-ca/water-damage-restoration/",
-        "/service-areas/oceanside-ca/water-damage-restoration/",
         "/services/emergency-water-removal/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
@@ -1237,6 +1240,7 @@
         "/contact/",
         "/service-areas/el-cajon-ca/smoke-damage-restoration/",
         "/service-areas/escondido-ca/smoke-damage-restoration/",
+        "/service-areas/rancho-santa-fe-ca/smoke-damage-restoration/",
         "/service-areas/san-diego-ca/smoke-damage-restoration/",
         "/service-areas/san-jose-ca/smoke-damage-restoration/",
         "/service-areas/temecula-ca/smoke-damage-restoration/",
@@ -2381,7 +2385,49 @@
       "internal_links_out": [
         "/service-areas/",
         "/contact/",
+        "/service-areas/rancho-santa-fe-ca/fire-damage-restoration/",
         "/service-areas/rancho-santa-fe-ca/water-damage-restoration/",
+        "/service-areas/rancho-santa-fe-ca/smoke-damage-restoration/",
+        "/service-areas/rancho-santa-fe-ca/general-contracting/",
+        "/service-areas/rancho-santa-fe-ca/post-construction-cleaning/",
+        "/service-areas/berkeley-ca/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/chula-vista-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hidden-meadows-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Hidden Meadows, CA | Dry1 Out Restoration and Construction",
+      "h1": "Restoration Services in Hidden Meadows",
+      "meta_description": "Serving Hidden Meadows, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (888) 379-1688.",
+      "primary_keyword": "restoration services hidden meadows",
+      "secondary_keywords": [
+        "hidden meadows restoration company",
+        "damage restoration hidden meadows",
+        "hidden meadows disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/hidden-meadows-ca/water-damage-restoration/",
         "/service-areas/berkeley-ca/",
         "/service-areas/carlsbad-ca/",
         "/service-areas/chula-vista-ca/"
@@ -4329,7 +4375,7 @@
         "/service-areas/oakland-ca/fire-damage-restoration/",
         "/service-areas/oakland-ca/mold-remediation/",
         "/service-areas/berkeley-ca/post-construction-cleaning/",
-        "/service-areas/san-diego-ca/post-construction-cleaning/",
+        "/service-areas/rancho-santa-fe-ca/post-construction-cleaning/",
         "/contact/"
       ]
     },
@@ -5558,7 +5604,7 @@
         "/service-areas/escondido-ca/fire-damage-restoration/",
         "/service-areas/escondido-ca/mold-remediation/",
         "/service-areas/el-cajon-ca/smoke-damage-restoration/",
-        "/service-areas/san-diego-ca/smoke-damage-restoration/",
+        "/service-areas/rancho-santa-fe-ca/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -7369,7 +7415,7 @@
         "/service-areas/el-cajon-ca/fire-damage-restoration/",
         "/service-areas/el-cajon-ca/mold-remediation/",
         "/service-areas/escondido-ca/smoke-damage-restoration/",
-        "/service-areas/san-diego-ca/smoke-damage-restoration/",
+        "/service-areas/rancho-santa-fe-ca/smoke-damage-restoration/",
         "/contact/"
       ]
     },
@@ -7810,7 +7856,7 @@
         "/service-areas/berkeley-ca/mold-remediation/",
         "/service-areas/berkeley-ca/water-damage-restoration/",
         "/service-areas/oakland-ca/post-construction-cleaning/",
-        "/service-areas/san-diego-ca/post-construction-cleaning/",
+        "/service-areas/rancho-santa-fe-ca/post-construction-cleaning/",
         "/contact/"
       ]
     },
@@ -8388,6 +8434,138 @@
       ]
     },
     {
+      "url_path": "/service-areas/rancho-santa-fe-ca/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Fire Damage Restoration in Rancho Santa Fe, CA | Dry1 Out Restoration and Construction",
+      "h1": "24/7 Emergency Fire Damage Restoration in Rancho Santa Fe",
+      "meta_description": "24/7 emergency fire damage restoration in Rancho Santa Fe, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688.",
+      "primary_keyword": "fire damage restoration rancho santa fe",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/rancho-santa-fe-ca/",
+        "/service-areas/rancho-santa-fe-ca/water-damage-restoration/",
+        "/service-areas/rancho-santa-fe-ca/smoke-damage-restoration/",
+        "/service-areas/carlsbad-ca/fire-damage-restoration/",
+        "/service-areas/chula-vista-ca/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rancho-santa-fe-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Rancho Santa Fe, CA | Dry1 Out Restoration and Construction",
+      "h1": "Renovations, Remodels and General Contracting in Rancho Santa Fe",
+      "meta_description": "24/7 renovations, remodels and general contracting in Rancho Santa Fe, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688.",
+      "primary_keyword": "renovations, remodels and general contracting rancho santa fe",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/rancho-santa-fe-ca/",
+        "/service-areas/rancho-santa-fe-ca/fire-damage-restoration/",
+        "/service-areas/rancho-santa-fe-ca/water-damage-restoration/",
+        "/service-areas/berkeley-ca/general-contracting/",
+        "/service-areas/carlsbad-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rancho-santa-fe-ca/post-construction-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction and Specialty Cleaning in Rancho Santa Fe, CA | Dry1 Out Restoration and Construction",
+      "h1": "Post-Construction and Specialty Cleaning in Rancho Santa Fe",
+      "meta_description": "24/7 post-construction and specialty cleaning in Rancho Santa Fe, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688.",
+      "primary_keyword": "post-construction and specialty cleaning rancho santa fe",
+      "secondary_keywords": [
+        "post construction cleanup",
+        "construction debris cleaning",
+        "final clean",
+        "deep cleaning after renovation"
+      ],
+      "search_intent": "local_service",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 2.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-cleaning/",
+        "/service-areas/rancho-santa-fe-ca/",
+        "/service-areas/rancho-santa-fe-ca/fire-damage-restoration/",
+        "/service-areas/rancho-santa-fe-ca/water-damage-restoration/",
+        "/service-areas/berkeley-ca/post-construction-cleaning/",
+        "/service-areas/oakland-ca/post-construction-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/rancho-santa-fe-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8424,6 +8602,94 @@
       "internal_links_out": [
         "/services/water-damage-restoration/",
         "/service-areas/rancho-santa-fe-ca/",
+        "/service-areas/rancho-santa-fe-ca/fire-damage-restoration/",
+        "/service-areas/rancho-santa-fe-ca/smoke-damage-restoration/",
+        "/service-areas/berkeley-ca/water-damage-restoration/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rancho-santa-fe-ca/smoke-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Smoke Damage Restoration in Rancho Santa Fe, CA | Dry1 Out Restoration and Construction",
+      "h1": "24/7 Emergency Smoke Damage Restoration in Rancho Santa Fe",
+      "meta_description": "24/7 emergency smoke damage restoration in Rancho Santa Fe, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688.",
+      "primary_keyword": "smoke damage restoration rancho santa fe",
+      "secondary_keywords": [
+        "smoke residue cleanup",
+        "smoke damage repair",
+        "post-fire smoke cleanup",
+        "smoke damage restoration services",
+        "wildfire smoke cleanup"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/smoke-damage-restoration/",
+        "/service-areas/rancho-santa-fe-ca/",
+        "/service-areas/rancho-santa-fe-ca/fire-damage-restoration/",
+        "/service-areas/rancho-santa-fe-ca/water-damage-restoration/",
+        "/service-areas/el-cajon-ca/smoke-damage-restoration/",
+        "/service-areas/escondido-ca/smoke-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hidden-meadows-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Hidden Meadows, CA | Dry1 Out Restoration and Construction",
+      "h1": "24/7 Emergency Water Damage Restoration in Hidden Meadows",
+      "meta_description": "24/7 emergency water damage restoration in Hidden Meadows, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688.",
+      "primary_keyword": "water damage restoration hidden meadows",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/hidden-meadows-ca/",
         "/service-areas/berkeley-ca/water-damage-restoration/",
         "/service-areas/carlsbad-ca/water-damage-restoration/",
         "/contact/"

@@ -282,6 +282,11 @@
       "city": "Hunters Creek Village",
       "state": "TX",
       "slug": "hunters-creek-village-tx"
+    },
+    {
+      "city": "Piney Point Village",
+      "state": "TX",
+      "slug": "piney-point-village-tx"
     }
   ],
   "site_brief": "Kickoff call 2026-10-01 (Shane): send the website draft within about 5 days (target 2026-10-08) and continue site scaffolding. OPEN BEFORE SCAFFOLD: (1) Shane is filing a DBA; the GBP will be renamed to the DBA name once filed, so confirm whether the site brand should launch under the DBA, the GBP title 'BIONIC Water Damage Restoration of Houston', or the legal name 'BIONIC Emergency Services LLC'. (2) Brand colors not captured in the brief (primary/accent empty); sample from logo via build_site.py autocolor. (3) Current site bionic24365.com advertises 24/7, a 45-minute average response, and '150+ Google reviews'; none is in this brand block yet, so the draft must not claim them until confirmed."

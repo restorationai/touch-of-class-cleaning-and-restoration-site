@@ -75,6 +75,77 @@
    "src": "auto",
    "at": "2026-10-02"
   },
+  "hunters-creek-village-tx__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair hunters creek village' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "hunters-creek-village-tx__commercial-restoration": {
+   "pass": false,
+   "why": "implausible here: Tiny affluent residential enclave, no commercial base",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "hunters-creek-village-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration hunters creek village' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "hunters-creek-village-tx__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal hunters creek village' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "hunters-creek-village-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration hunters creek village' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "hunters-creek-village-tx__mold-remediation": {
+   "pass": true,
+   "why": "local angle: Humid Houston climate promotes mold growth",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "hunters-creek-village-tx__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction hunters creek village' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "hunters-creek-village-tx__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup hunters creek village' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "hunters-creek-village-tx__storm-damage-restoration": {
+   "pass": true,
+   "why": "local angle: Houston-area hurricane and flash flood exposure",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "hunters-creek-village-tx__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup hunters creek village' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "jersey-village-tx__burst-pipe-repair": {
    "pass": false,
    "why": "no local demand ('burst pipe repair jersey village' 0/mo) and no local angle",
@@ -719,5 +790,5 @@
    "metro": 10
   }
  },
- "updated_at": "2026-10-02T14:08:21+00:00"
+ "updated_at": "2026-10-02T18:14:57+00:00"
 }

@@ -10,10 +10,10 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 128,
-    "generated_at": "2026-10-02T14:22:30.035896+00:00"
+    "url_count": 130,
+    "generated_at": "2026-10-02T18:25:04.121477+00:00"
   },
-  "updated_at": "2026-10-02T14:22:30.035903+00:00",
+  "updated_at": "2026-10-02T18:25:04.121481+00:00",
   "build": {
     "scaffolded_at": "2026-10-01T14:36:50.588252+00:00",
     "github_repo": "restorationai/restopros-of-central-maryland-site",

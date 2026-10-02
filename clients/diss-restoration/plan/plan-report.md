@@ -1,21 +1,21 @@
 # Site Plan Report — DISS Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-10-02T14:21:55.631893+00:00
+- Generated: 2026-10-02T18:24:28.742949+00:00
 - Domain: `dissrestoration.com`
 - Services selected: 28 of 91 catalog entries
-- Service areas: 23
+- Service areas: 24
 - Cross-product enabled: True
-- Total URLs: **262**
-- Total internal links: 2054 (avg 7.8 per page)
+- Total URLs: **267**
+- Total internal links: 2094 (avg 7.8 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 195 |
+| `service-area-service` | 199 |
 | `service-landing` | 28 |
-| `service-area` | 22 |
+| `service-area` | 23 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -81,6 +81,7 @@
 - `new-castle-pa` — New Castle, PA
 - `mcdonald-oh` — McDonald, OH
 - `poland-oh` — Poland, OH
+- `masury-oh` — Masury, OH
 
 ## Top 10 priority pages
 

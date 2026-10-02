@@ -1,7 +1,7 @@
 {
   "slug": "touch-of-class-cleaning-and-restoration",
   "display_name": "Touch of Class Cleaning and Restoration ",
-  "domain": null,
+  "domain": "tofc.biz",
   "tier": "standard",
   "vertical": "restoration",
   "contact": "touchofclasscc@yahoo.com",
@@ -10,10 +10,10 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 54,
-    "generated_at": "2026-10-02T14:22:39.978012+00:00"
+    "url_count": 56,
+    "generated_at": "2026-10-02T18:25:21.900630+00:00"
   },
-  "updated_at": "2026-10-02T14:22:39.978019+00:00",
+  "updated_at": "2026-10-02T18:25:21.900634+00:00",
   "indexnow_key": "9f8455f3128c4255968453fb92a70ba9",
   "build": {
     "scaffolded_at": "2026-10-02T05:41:38.296612+00:00",

@@ -1,21 +1,21 @@
 # Site Plan Report — RestoPros of Central Maryland
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-10-02T14:22:30.035569+00:00
+- Generated: 2026-10-02T18:25:04.121189+00:00
 - Domain: `None`
 - Services selected: 22 of 91 catalog entries
-- Service areas: 22
+- Service areas: 23
 - Cross-product enabled: True
-- Total URLs: **128**
-- Total internal links: 902 (avg 7.0 per page)
+- Total URLs: **130**
+- Total internal links: 915 (avg 7.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 68 |
+| `service-area-service` | 69 |
 | `service-landing` | 22 |
-| `service-area` | 21 |
+| `service-area` | 22 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -74,6 +74,7 @@
 - `owings-mills-md` — Owings Mills, MD
 - `kingsville-md` — Kingsville, MD
 - `perry-hall-md` — Perry Hall, MD
+- `honeygo-md` — Honeygo, MD
 
 ## Top 10 priority pages
 

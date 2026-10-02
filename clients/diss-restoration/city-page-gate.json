@@ -2000,6 +2000,139 @@
    "src": "auto",
    "at": "2026-10-02"
   },
+  "poland-oh__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning poland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poland-oh__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning poland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poland-oh__asbestos-abatement": {
+   "pass": true,
+   "why": "local angle: older Rust Belt homes often contain asbestos materials",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poland-oh__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup poland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poland-oh__carpet-cleaning": {
+   "pass": true,
+   "why": "local demand: 'carpet cleaning poland' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poland-oh__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning poland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poland-oh__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration poland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poland-oh__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration poland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poland-oh__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up poland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poland-oh__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: hard winter freezes cause burst pipes",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poland-oh__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration poland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poland-oh__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor poland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poland-oh__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation poland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poland-oh__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal poland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poland-oh__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning poland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poland-oh__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup poland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poland-oh__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration poland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poland-oh__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning poland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "poland-oh__water-cleanup": {
+   "pass": true,
+   "why": "local angle: hard winter freezes cause pipe bursts",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "sharon-pa__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning sharon' 0/mo) and no local angle",
@@ -2971,6 +3104,6 @@
    "metro": 10
   }
  },
- "updated_at": "2026-10-02T14:08:47+00:00",
+ "updated_at": "2026-10-02T18:15:18+00:00",
  "metro": "Greenville,Pennsylvania,United States"
 }

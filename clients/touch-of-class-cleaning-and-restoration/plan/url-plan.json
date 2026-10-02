@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-10-02T14:22:39.973021+00:00",
+  "generated_at": "2026-10-02T18:25:21.897363+00:00",
   "input_summary": {
     "service_count": 19,
-    "service_area_count": 10,
+    "service_area_count": 11,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -63,6 +63,7 @@
         "/services/water-leak-detection/",
         "/service-areas/allen-tx/",
         "/service-areas/carrollton-tx/",
+        "/service-areas/clute-tx/",
         "/service-areas/dallas-tx/",
         "/service-areas/garland-tx/",
         "/service-areas/mckinney-tx/",
@@ -154,6 +155,7 @@
         "/",
         "/service-areas/allen-tx/",
         "/service-areas/carrollton-tx/",
+        "/service-areas/clute-tx/",
         "/service-areas/dallas-tx/",
         "/service-areas/garland-tx/",
         "/service-areas/mckinney-tx/",
@@ -304,6 +306,7 @@
         "/contact/",
         "/service-areas/allen-tx/water-damage-restoration/",
         "/service-areas/carrollton-tx/water-damage-restoration/",
+        "/service-areas/clute-tx/water-damage-restoration/",
         "/service-areas/dallas-tx/water-damage-restoration/",
         "/service-areas/garland-tx/water-damage-restoration/",
         "/service-areas/mckinney-tx/water-damage-restoration/",
@@ -1041,7 +1044,7 @@
         "/service-areas/dallas-tx/water-damage-restoration/",
         "/service-areas/allen-tx/",
         "/service-areas/carrollton-tx/",
-        "/service-areas/garland-tx/"
+        "/service-areas/clute-tx/"
       ]
     },
     {
@@ -1079,7 +1082,7 @@
         "/service-areas/plano-tx/water-damage-restoration/",
         "/service-areas/allen-tx/",
         "/service-areas/carrollton-tx/",
-        "/service-areas/dallas-tx/"
+        "/service-areas/clute-tx/"
       ]
     },
     {
@@ -1117,7 +1120,7 @@
         "/service-areas/garland-tx/water-damage-restoration/",
         "/service-areas/allen-tx/",
         "/service-areas/carrollton-tx/",
-        "/service-areas/dallas-tx/"
+        "/service-areas/clute-tx/"
       ]
     },
     {
@@ -1155,7 +1158,7 @@
         "/service-areas/mckinney-tx/water-damage-restoration/",
         "/service-areas/allen-tx/",
         "/service-areas/carrollton-tx/",
-        "/service-areas/dallas-tx/"
+        "/service-areas/clute-tx/"
       ]
     },
     {
@@ -1192,8 +1195,8 @@
         "/contact/",
         "/service-areas/carrollton-tx/water-damage-restoration/",
         "/service-areas/allen-tx/",
-        "/service-areas/dallas-tx/",
-        "/service-areas/garland-tx/"
+        "/service-areas/clute-tx/",
+        "/service-areas/dallas-tx/"
       ]
     },
     {
@@ -1230,8 +1233,8 @@
         "/contact/",
         "/service-areas/allen-tx/water-damage-restoration/",
         "/service-areas/carrollton-tx/",
-        "/service-areas/dallas-tx/",
-        "/service-areas/garland-tx/"
+        "/service-areas/clute-tx/",
+        "/service-areas/dallas-tx/"
       ]
     },
     {
@@ -1269,7 +1272,7 @@
         "/service-areas/rowlett-tx/water-damage-restoration/",
         "/service-areas/allen-tx/",
         "/service-areas/carrollton-tx/",
-        "/service-areas/dallas-tx/"
+        "/service-areas/clute-tx/"
       ]
     },
     {
@@ -1307,7 +1310,7 @@
         "/service-areas/wylie-tx/water-damage-restoration/",
         "/service-areas/allen-tx/",
         "/service-areas/carrollton-tx/",
-        "/service-areas/dallas-tx/"
+        "/service-areas/clute-tx/"
       ]
     },
     {
@@ -1343,6 +1346,44 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/richwood-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/",
+        "/service-areas/carrollton-tx/",
+        "/service-areas/clute-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clute-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Clute, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Restoration Services in Clute",
+      "meta_description": "Serving Clute, TX with water, fire, mold, and storm damage restoration. Experienced team. Call (979) 418-6099.",
+      "primary_keyword": "restoration services clute",
+      "secondary_keywords": [
+        "clute restoration company",
+        "damage restoration clute",
+        "clute disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/clute-tx/water-damage-restoration/",
         "/service-areas/allen-tx/",
         "/service-areas/carrollton-tx/",
         "/service-areas/dallas-tx/"
@@ -1554,7 +1595,7 @@
         "/services/water-damage-restoration/",
         "/service-areas/carrollton-tx/",
         "/service-areas/allen-tx/water-damage-restoration/",
-        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/service-areas/clute-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1596,7 +1637,7 @@
         "/services/water-damage-restoration/",
         "/service-areas/allen-tx/",
         "/service-areas/carrollton-tx/water-damage-restoration/",
-        "/service-areas/dallas-tx/water-damage-restoration/",
+        "/service-areas/clute-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1721,6 +1762,48 @@
       "internal_links_out": [
         "/services/water-damage-restoration/",
         "/service-areas/richwood-tx/",
+        "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/carrollton-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clute-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Clute, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Water Damage Restoration in Clute",
+      "meta_description": "Emergency water damage restoration in Clute, TX. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "water damage restoration clute",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/clute-tx/",
         "/service-areas/allen-tx/water-damage-restoration/",
         "/service-areas/carrollton-tx/water-damage-restoration/",
         "/contact/"
