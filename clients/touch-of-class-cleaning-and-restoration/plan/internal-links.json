@@ -29,6 +29,7 @@
     "/service-areas/garland-tx/",
     "/service-areas/mckinney-tx/",
     "/service-areas/plano-tx/",
+    "/service-areas/richwood-tx/",
     "/service-areas/rowlett-tx/",
     "/service-areas/wylie-tx/"
   ],
@@ -62,6 +63,7 @@
     "/service-areas/garland-tx/",
     "/service-areas/mckinney-tx/",
     "/service-areas/plano-tx/",
+    "/service-areas/richwood-tx/",
     "/service-areas/rowlett-tx/",
     "/service-areas/wylie-tx/"
   ],
@@ -95,6 +97,7 @@
     "/service-areas/garland-tx/water-damage-restoration/",
     "/service-areas/mckinney-tx/water-damage-restoration/",
     "/service-areas/plano-tx/water-damage-restoration/",
+    "/service-areas/richwood-tx/water-damage-restoration/",
     "/service-areas/rowlett-tx/water-damage-restoration/",
     "/service-areas/wylie-tx/water-damage-restoration/",
     "/services/emergency-water-removal/",
@@ -246,6 +249,14 @@
     "/service-areas/carrollton-tx/",
     "/service-areas/dallas-tx/"
   ],
+  "/service-areas/richwood-tx/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/richwood-tx/water-damage-restoration/",
+    "/service-areas/allen-tx/",
+    "/service-areas/carrollton-tx/",
+    "/service-areas/dallas-tx/"
+  ],
   "/service-areas/dallas-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/dallas-tx/",
@@ -298,6 +309,13 @@
   "/service-areas/wylie-tx/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/wylie-tx/",
+    "/service-areas/allen-tx/water-damage-restoration/",
+    "/service-areas/carrollton-tx/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/richwood-tx/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/richwood-tx/",
     "/service-areas/allen-tx/water-damage-restoration/",
     "/service-areas/carrollton-tx/water-damage-restoration/",
     "/contact/"

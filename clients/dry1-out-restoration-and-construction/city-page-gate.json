@@ -1069,6 +1069,139 @@
    "src": "auto",
    "at": "2026-10-02"
   },
+  "harmony-grove-ca__appliance-leak-cleanup": {
+   "pass": false,
+   "why": "no local demand ('appliance leak cleanup harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__blood-cleanup": {
+   "pass": false,
+   "why": "no local demand ('blood cleanup harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__carpet-water-extraction": {
+   "pass": false,
+   "why": "no local demand ('carpet water extraction harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__crime-scene-cleanup": {
+   "pass": false,
+   "why": "no local demand ('crime scene cleanup harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__emergency-board-up": {
+   "pass": false,
+   "why": "no local demand ('emergency board up harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__general-contracting": {
+   "pass": true,
+   "why": "metro demand: 'general contractor' 1180/mo",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__mold-inspection-testing": {
+   "pass": false,
+   "why": "no local demand ('mold inspection harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__smoke-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('smoke damage restoration harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__vandalism-damage-cleanup-and-repair": {
+   "pass": false,
+   "why": "no local demand ('vandalism repair harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__vehicle-impact-damage-repair": {
+   "pass": false,
+   "why": "no local demand ('vehicle impact damage repair harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "harmony-grove-ca__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup harmony grove' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "hayward-ca__appliance-leak-cleanup": {
    "pass": false,
    "why": "no local demand ('appliance leak cleanup hayward' 0/mo) and no local angle",
@@ -2695,5 +2828,5 @@
    "metro": 30
   }
  },
- "updated_at": "2026-10-02T04:33:20+00:00"
+ "updated_at": "2026-10-02T14:09:03+00:00"
 }

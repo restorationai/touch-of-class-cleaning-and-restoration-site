@@ -167,6 +167,11 @@
       "city": "McDonald",
       "state": "OH",
       "slug": "mcdonald-oh"
+    },
+    {
+      "city": "Poland",
+      "state": "OH",
+      "slug": "poland-oh"
     }
   ],
   "template": "restoration",

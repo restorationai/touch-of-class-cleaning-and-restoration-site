@@ -142,6 +142,11 @@
       "city": "Kingsville",
       "state": "MD",
       "slug": "kingsville-md"
+    },
+    {
+      "city": "Perry Hall",
+      "state": "MD",
+      "slug": "perry-hall-md"
     }
   ],
   "template": "restoration",

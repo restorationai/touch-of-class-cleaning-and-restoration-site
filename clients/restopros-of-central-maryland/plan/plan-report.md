@@ -1,21 +1,21 @@
 # Site Plan Report — RestoPros of Central Maryland
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-10-02T05:02:31.406293+00:00
+- Generated: 2026-10-02T14:22:30.035569+00:00
 - Domain: `None`
 - Services selected: 22 of 91 catalog entries
-- Service areas: 21
+- Service areas: 22
 - Cross-product enabled: True
-- Total URLs: **126**
-- Total internal links: 889 (avg 7.1 per page)
+- Total URLs: **128**
+- Total internal links: 902 (avg 7.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 67 |
+| `service-area-service` | 68 |
 | `service-landing` | 22 |
-| `service-area` | 20 |
+| `service-area` | 21 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -73,6 +73,7 @@
 - `severn-md` — Severn, MD
 - `owings-mills-md` — Owings Mills, MD
 - `kingsville-md` — Kingsville, MD
+- `perry-hall-md` — Perry Hall, MD
 
 ## Top 10 priority pages
 

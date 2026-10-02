@@ -518,6 +518,15 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/rancho-santa-fe-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/san-diego-ca/biohazard-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1868,7 +1877,27 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/harmony-grove-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/harmony-grove-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rancho-santa-fe-ca/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

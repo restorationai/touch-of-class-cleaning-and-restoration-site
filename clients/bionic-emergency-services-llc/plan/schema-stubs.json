@@ -349,6 +349,15 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/hunters-creek-village-tx/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/pasadena-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -390,6 +399,16 @@
     "missing_stubs": []
   },
   "/service-areas/pasadena-tx/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/pasadena-tx/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -449,6 +468,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/pearland-tx/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/sugar-land-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -490,6 +519,26 @@
     "missing_stubs": []
   },
   "/service-areas/sugar-land-tx/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sugar-land-tx/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sugar-land-tx/commercial-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -549,6 +598,26 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/the-woodlands-tx/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/the-woodlands-tx/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/baytown-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -580,6 +649,16 @@
     "missing_stubs": []
   },
   "/service-areas/baytown-tx/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/baytown-tx/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -639,6 +718,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/missouri-city-tx/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/spring-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -660,6 +749,16 @@
     "missing_stubs": []
   },
   "/service-areas/spring-tx/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/spring-tx/mold-remediation/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -719,7 +818,47 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/katy-tx/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/jersey-village-tx/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/jersey-village-tx/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/jersey-village-tx/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hunters-creek-village-tx/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

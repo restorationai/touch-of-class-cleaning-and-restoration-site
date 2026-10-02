@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-10-02T05:01:14.745329+00:00",
+  "generated_at": "2026-10-02T14:21:55.616532+00:00",
   "input_summary": {
     "service_count": 28,
-    "service_area_count": 22,
+    "service_area_count": 23,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -87,6 +87,7 @@
         "/service-areas/mineral-ridge-oh/",
         "/service-areas/new-castle-pa/",
         "/service-areas/niles-oh/",
+        "/service-areas/poland-oh/",
         "/service-areas/sharon-pa/",
         "/service-areas/sharpsville-pa/",
         "/service-areas/struthers-oh/",
@@ -199,6 +200,7 @@
         "/service-areas/mineral-ridge-oh/",
         "/service-areas/new-castle-pa/",
         "/service-areas/niles-oh/",
+        "/service-areas/poland-oh/",
         "/service-areas/sharon-pa/",
         "/service-areas/sharpsville-pa/",
         "/service-areas/struthers-oh/",
@@ -403,11 +405,11 @@
         "/service-areas/farrell-pa/asbestos-abatement/",
         "/service-areas/girard-oh/asbestos-abatement/",
         "/service-areas/hubbard-oh/asbestos-abatement/",
+        "/service-areas/mcdonald-oh/asbestos-abatement/",
         "/service-areas/new-castle-pa/asbestos-abatement/",
         "/service-areas/niles-oh/asbestos-abatement/",
         "/service-areas/struthers-oh/asbestos-abatement/",
-        "/service-areas/warren-oh/asbestos-abatement/",
-        "/service-areas/wheatland-pa/asbestos-abatement/"
+        "/service-areas/warren-oh/asbestos-abatement/"
       ]
     },
     {
@@ -2510,6 +2512,45 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/mcdonald-oh/water-damage-restoration/",
+        "/service-areas/mcdonald-oh/asbestos-abatement/",
+        "/service-areas/austintown-oh/",
+        "/service-areas/boardman-oh/",
+        "/service-areas/campbell-oh/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/poland-oh/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Poland, OH | DISS Restoration",
+      "h1": "Restoration Services in Poland",
+      "meta_description": "Serving Poland, OH with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (724) 981-1441.",
+      "primary_keyword": "restoration services poland",
+      "secondary_keywords": [
+        "poland restoration company",
+        "damage restoration poland",
+        "poland disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/poland-oh/water-damage-restoration/",
         "/service-areas/austintown-oh/",
         "/service-areas/boardman-oh/",
         "/service-areas/campbell-oh/"
@@ -10977,6 +11018,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/mcdonald-oh/asbestos-abatement/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Asbestos Abatement in McDonald, OH | DISS Restoration",
+      "h1": "Asbestos Abatement in McDonald",
+      "meta_description": "24/7 asbestos abatement in McDonald, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "asbestos abatement mcdonald",
+      "secondary_keywords": [
+        "asbestos removal",
+        "asbestos testing",
+        "asbestos remediation",
+        "popcorn ceiling asbestos removal",
+        "asbestos inspection"
+      ],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.2,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/asbestos-abatement/",
+        "/service-areas/mcdonald-oh/",
+        "/service-areas/mcdonald-oh/water-damage-restoration/",
+        "/service-areas/austintown-oh/asbestos-abatement/",
+        "/service-areas/boardman-oh/asbestos-abatement/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/mcdonald-oh/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11013,6 +11097,49 @@
       "internal_links_out": [
         "/services/water-damage-restoration/",
         "/service-areas/mcdonald-oh/",
+        "/service-areas/mcdonald-oh/asbestos-abatement/",
+        "/service-areas/austintown-oh/water-damage-restoration/",
+        "/service-areas/boardman-oh/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/poland-oh/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Poland, OH | DISS Restoration",
+      "h1": "24/7 Emergency Water Damage Restoration in Poland",
+      "meta_description": "24/7 emergency water damage restoration in Poland, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "water damage restoration poland",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/poland-oh/",
         "/service-areas/austintown-oh/water-damage-restoration/",
         "/service-areas/boardman-oh/water-damage-restoration/",
         "/contact/"

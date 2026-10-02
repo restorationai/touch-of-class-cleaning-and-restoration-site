@@ -1,21 +1,21 @@
 # Site Plan Report — Restoration Resource 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-10-02T05:02:44.429983+00:00
+- Generated: 2026-10-02T14:22:33.652594+00:00
 - Domain: `restorationresource365.com`
 - Services selected: 20 of 91 catalog entries
-- Service areas: 16
+- Service areas: 17
 - Cross-product enabled: True
-- Total URLs: **93**
-- Total internal links: 614 (avg 6.6 per page)
+- Total URLs: **95**
+- Total internal links: 627 (avg 6.6 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 41 |
+| `service-area-service` | 42 |
 | `service-landing` | 20 |
-| `service-area` | 15 |
+| `service-area` | 16 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -66,6 +66,7 @@
 - `paterson-wa` — Paterson, WA
 - `kahlotus-wa` — Kahlotus, WA
 - `burbank-wa` — Burbank, WA
+- `grandview-wa` — Grandview, WA
 
 ## Top 10 priority pages
 

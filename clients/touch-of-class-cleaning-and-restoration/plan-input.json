@@ -66,6 +66,11 @@
       "city": "Wylie",
       "state": "TX",
       "slug": "wylie-tx"
+    },
+    {
+      "city": "Richwood",
+      "state": "TX",
+      "slug": "richwood-tx"
     }
   ],
   "template": "restoration",

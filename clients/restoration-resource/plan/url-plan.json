@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-10-02T05:02:44.425671+00:00",
+  "generated_at": "2026-10-02T14:22:33.646017+00:00",
   "input_summary": {
     "service_count": 20,
-    "service_area_count": 16,
+    "service_area_count": 17,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -69,6 +69,7 @@
         "/service-areas/burbank-wa/",
         "/service-areas/connell-wa/",
         "/service-areas/finley-wa/",
+        "/service-areas/grandview-wa/",
         "/service-areas/highland-wa/",
         "/service-areas/kahlotus-wa/",
         "/service-areas/kennewick-wa/",
@@ -167,6 +168,7 @@
         "/service-areas/burbank-wa/",
         "/service-areas/connell-wa/",
         "/service-areas/finley-wa/",
+        "/service-areas/grandview-wa/",
         "/service-areas/highland-wa/",
         "/service-areas/kahlotus-wa/",
         "/service-areas/kennewick-wa/",
@@ -325,13 +327,13 @@
         "/service-areas/burbank-wa/water-damage-restoration/",
         "/service-areas/connell-wa/water-damage-restoration/",
         "/service-areas/finley-wa/water-damage-restoration/",
+        "/service-areas/grandview-wa/water-damage-restoration/",
         "/service-areas/highland-wa/water-damage-restoration/",
         "/service-areas/kahlotus-wa/water-damage-restoration/",
         "/service-areas/kennewick-wa/water-damage-restoration/",
         "/service-areas/mesa-wa/water-damage-restoration/",
         "/service-areas/paterson-wa/water-damage-restoration/",
         "/service-areas/plymouth-wa/water-damage-restoration/",
-        "/service-areas/prosser-wa/water-damage-restoration/",
         "/services/emergency-water-removal/",
         "/services/water-cleanup/",
         "/blog/burst-pipe-emergency-checklist/",
@@ -1697,6 +1699,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/grandview-wa/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Grandview, WA | Restoration Resource ",
+      "h1": "Restoration Services in Grandview",
+      "meta_description": "Serving Grandview, WA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call +15095281166.",
+      "primary_keyword": "restoration services grandview",
+      "secondary_keywords": [
+        "grandview restoration company",
+        "damage restoration grandview",
+        "grandview disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/grandview-wa/water-damage-restoration/",
+        "/service-areas/basin-city-wa/",
+        "/service-areas/benton-city-wa/",
+        "/service-areas/burbank-wa/"
+      ]
+    },
+    {
       "url_path": "/service-areas/kennewick-wa/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2787,50 +2827,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/basin-city-wa/fire-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Fire Damage Restoration in Basin City, WA | Restoration Resource ",
-      "h1": "24/7 Emergency Fire Damage Restoration in Basin City",
-      "meta_description": "24/7 emergency fire damage restoration in Basin City, WA. IICRC-certified, insurance billing accepted. Call +15095281166.",
-      "primary_keyword": "fire damage restoration basin city",
-      "secondary_keywords": [
-        "fire cleanup",
-        "fire and smoke restoration",
-        "structural fire damage",
-        "post-fire restoration",
-        "fire damage repair"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/fire-damage-restoration/",
-        "/service-areas/basin-city-wa/",
-        "/service-areas/basin-city-wa/water-damage-restoration/",
-        "/service-areas/basin-city-wa/water-cleanup/",
-        "/service-areas/connell-wa/fire-damage-restoration/",
-        "/service-areas/highland-wa/fire-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/basin-city-wa/water-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3526,6 +3522,48 @@
       "internal_links_out": [
         "/services/water-damage-restoration/",
         "/service-areas/burbank-wa/",
+        "/service-areas/basin-city-wa/water-damage-restoration/",
+        "/service-areas/benton-city-wa/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/grandview-wa/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "24/7 Emergency Water Damage Restoration in Grandview, WA | Restoration Resource ",
+      "h1": "24/7 Emergency Water Damage Restoration in Grandview",
+      "meta_description": "24/7 emergency water damage restoration in Grandview, WA. IICRC-certified, insurance billing accepted. Call +15095281166.",
+      "primary_keyword": "water damage restoration grandview",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/grandview-wa/",
         "/service-areas/basin-city-wa/water-damage-restoration/",
         "/service-areas/benton-city-wa/water-damage-restoration/",
         "/contact/"

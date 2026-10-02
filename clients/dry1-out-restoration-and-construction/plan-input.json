@@ -582,6 +582,11 @@
       "city": "Harmony Grove",
       "state": "CA",
       "slug": "harmony-grove-ca"
+    },
+    {
+      "city": "Rancho Santa Fe",
+      "state": "CA",
+      "slug": "rancho-santa-fe-ca"
     }
   ],
   "site_brief": {

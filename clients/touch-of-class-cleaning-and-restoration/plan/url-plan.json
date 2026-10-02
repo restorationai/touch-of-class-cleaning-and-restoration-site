@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-10-02T05:41:37.535503+00:00",
+  "generated_at": "2026-10-02T14:22:39.973021+00:00",
   "input_summary": {
     "service_count": 19,
-    "service_area_count": 9,
+    "service_area_count": 10,
     "cross_product": true,
     "blog_seed_count": 8
   },
@@ -67,6 +67,7 @@
         "/service-areas/garland-tx/",
         "/service-areas/mckinney-tx/",
         "/service-areas/plano-tx/",
+        "/service-areas/richwood-tx/",
         "/service-areas/rowlett-tx/",
         "/service-areas/wylie-tx/"
       ]
@@ -157,6 +158,7 @@
         "/service-areas/garland-tx/",
         "/service-areas/mckinney-tx/",
         "/service-areas/plano-tx/",
+        "/service-areas/richwood-tx/",
         "/service-areas/rowlett-tx/",
         "/service-areas/wylie-tx/"
       ]
@@ -306,6 +308,7 @@
         "/service-areas/garland-tx/water-damage-restoration/",
         "/service-areas/mckinney-tx/water-damage-restoration/",
         "/service-areas/plano-tx/water-damage-restoration/",
+        "/service-areas/richwood-tx/water-damage-restoration/",
         "/service-areas/rowlett-tx/water-damage-restoration/",
         "/service-areas/wylie-tx/water-damage-restoration/",
         "/services/emergency-water-removal/",
@@ -1308,6 +1311,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/richwood-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Richwood, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Restoration Services in Richwood",
+      "meta_description": "Serving Richwood, TX with water, fire, mold, and storm damage restoration. Experienced team. Call (979) 418-6099.",
+      "primary_keyword": "restoration services richwood",
+      "secondary_keywords": [
+        "richwood restoration company",
+        "damage restoration richwood",
+        "richwood disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/richwood-tx/water-damage-restoration/",
+        "/service-areas/allen-tx/",
+        "/service-areas/carrollton-tx/",
+        "/service-areas/dallas-tx/"
+      ]
+    },
+    {
       "url_path": "/service-areas/dallas-tx/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1638,6 +1679,48 @@
       "internal_links_out": [
         "/services/water-damage-restoration/",
         "/service-areas/wylie-tx/",
+        "/service-areas/allen-tx/water-damage-restoration/",
+        "/service-areas/carrollton-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/richwood-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Richwood, TX | Touch of Class Cleaning and Restoration ",
+      "h1": "Emergency Water Damage Restoration in Richwood",
+      "meta_description": "Emergency water damage restoration in Richwood, TX. Insurance billing accepted. Call (979) 418-6099.",
+      "primary_keyword": "water damage restoration richwood",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/richwood-tx/",
         "/service-areas/allen-tx/water-damage-restoration/",
         "/service-areas/carrollton-tx/water-damage-restoration/",
         "/contact/"

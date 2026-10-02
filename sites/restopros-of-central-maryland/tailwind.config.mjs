@@ -27,21 +27,21 @@ export default {
           950: "#030712",
         },
         primary: {
-          DEFAULT: "#171717",
-          50: "#f7f7f7",
-          100: "#ebebeb",
-          200: "#d6d6d6",
-          300: "#b8b8b8",
-          400: "#9c9c9c",
-          500: "#808080",
+          DEFAULT: "#339df1",
+          50: "#f1f8fe",
+          100: "#d9edfc",
+          200: "#b3dafa",
+          300: "#79bff6",
+          400: "#45a6f2",
+          500: "#108cef",
           // 600/700 are the DARKENED rungs — brand-tinted TEXT on a white or
           // light surface (Hero's outline button, ProcessSection icons). They
           // are NOT the button fill; that is `cta` below.
-          600: "#171717",
-          700: "#0a0a0a",
-          800: "#050505",
-          900: "#050505",
-          950: "#050505",
+          600: "#0e77ca",
+          700: "#0b5fa2",
+          800: "#094c81",
+          900: "#073b64",
+          950: "#042239",
         },
         /* cta — the SOLID-FILL pair: `bg-cta` is every call-to-action's
            background and `text-cta-fg` is the label that sits on it. They are
@@ -52,14 +52,14 @@ export default {
            2026-08-05: "Action to call on the website need to match golds as
            the logo" — the fill is the logo gold now, the label moved instead. */
         cta: {
-          DEFAULT: "#171717",
-          hover: "#0a0a0a",
-          fg: "#ffffff",
+          DEFAULT: "#339df1",
+          hover: "#128def",
+          fg: "#161718",
         },
         accent: {
           // Same pair rule as cta — btn-accent renders text-accent-fg on this.
-          DEFAULT: "#171717",
-          fg: "#ffffff",
+          DEFAULT: "#339df1",
+          fg: "#161718",
         },
         muted: {
           DEFAULT: "#4b5563",

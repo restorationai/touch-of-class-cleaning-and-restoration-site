@@ -458,6 +458,15 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/perry-hall-md/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/columbia-md/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1119,6 +1128,16 @@
     "missing_stubs": []
   },
   "/service-areas/kingsville-md/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/perry-hall-md/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

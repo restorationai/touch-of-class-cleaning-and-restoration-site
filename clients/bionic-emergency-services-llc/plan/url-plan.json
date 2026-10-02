@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-10-02T05:01:02.404148+00:00",
+  "generated_at": "2026-10-02T14:21:47.345417+00:00",
   "input_summary": {
     "service_count": 21,
-    "service_area_count": 10,
+    "service_area_count": 11,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -64,6 +64,7 @@
         "/services/water-leak-detection/",
         "/services/contents-restoration-storage/",
         "/service-areas/baytown-tx/",
+        "/service-areas/hunters-creek-village-tx/",
         "/service-areas/jersey-village-tx/",
         "/service-areas/katy-tx/",
         "/service-areas/missouri-city-tx/",
@@ -157,6 +158,7 @@
       "internal_links_out": [
         "/",
         "/service-areas/baytown-tx/",
+        "/service-areas/hunters-creek-village-tx/",
         "/service-areas/jersey-village-tx/",
         "/service-areas/katy-tx/",
         "/service-areas/missouri-city-tx/",
@@ -311,6 +313,7 @@
         "/services/",
         "/contact/",
         "/service-areas/baytown-tx/water-damage-restoration/",
+        "/service-areas/hunters-creek-village-tx/water-damage-restoration/",
         "/service-areas/jersey-village-tx/water-damage-restoration/",
         "/service-areas/katy-tx/water-damage-restoration/",
         "/service-areas/missouri-city-tx/water-damage-restoration/",
@@ -532,6 +535,7 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/jersey-village-tx/water-cleanup/",
         "/service-areas/katy-tx/water-cleanup/",
         "/services/water-damage-restoration/",
         "/services/emergency-water-removal/"
@@ -573,6 +577,7 @@
         "/services/",
         "/contact/",
         "/service-areas/baytown-tx/emergency-water-removal/",
+        "/service-areas/jersey-village-tx/emergency-water-removal/",
         "/service-areas/katy-tx/emergency-water-removal/",
         "/service-areas/missouri-city-tx/emergency-water-removal/",
         "/service-areas/pasadena-tx/emergency-water-removal/",
@@ -772,6 +777,14 @@
       "internal_links_out": [
         "/services/",
         "/contact/",
+        "/service-areas/baytown-tx/mold-remediation/",
+        "/service-areas/katy-tx/mold-remediation/",
+        "/service-areas/missouri-city-tx/mold-remediation/",
+        "/service-areas/pasadena-tx/mold-remediation/",
+        "/service-areas/pearland-tx/mold-remediation/",
+        "/service-areas/spring-tx/mold-remediation/",
+        "/service-areas/sugar-land-tx/mold-remediation/",
+        "/service-areas/the-woodlands-tx/mold-remediation/",
         "/blog/choosing-a-restoration-company/",
         "/blog/how-to-test-for-mold/",
         "/blog/signs-of-hidden-mold/"
@@ -851,7 +864,9 @@
       "status": "planned",
       "internal_links_out": [
         "/services/",
-        "/contact/"
+        "/contact/",
+        "/service-areas/sugar-land-tx/commercial-restoration/",
+        "/service-areas/the-woodlands-tx/commercial-restoration/"
       ]
     },
     {
@@ -1153,13 +1168,14 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/pasadena-tx/fire-damage-restoration/",
+        "/service-areas/pasadena-tx/mold-remediation/",
         "/service-areas/pasadena-tx/water-damage-restoration/",
         "/service-areas/pasadena-tx/emergency-water-removal/",
         "/service-areas/pasadena-tx/sewage-cleanup/",
         "/service-areas/pasadena-tx/storm-damage-restoration/",
         "/service-areas/baytown-tx/",
-        "/service-areas/jersey-village-tx/",
-        "/service-areas/katy-tx/"
+        "/service-areas/hunters-creek-village-tx/",
+        "/service-areas/jersey-village-tx/"
       ]
     },
     {
@@ -1195,13 +1211,14 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/pearland-tx/fire-damage-restoration/",
+        "/service-areas/pearland-tx/mold-remediation/",
         "/service-areas/pearland-tx/water-damage-restoration/",
         "/service-areas/pearland-tx/emergency-water-removal/",
         "/service-areas/pearland-tx/sewage-cleanup/",
         "/service-areas/pearland-tx/storm-damage-restoration/",
         "/service-areas/baytown-tx/",
-        "/service-areas/jersey-village-tx/",
-        "/service-areas/katy-tx/"
+        "/service-areas/hunters-creek-village-tx/",
+        "/service-areas/jersey-village-tx/"
       ]
     },
     {
@@ -1237,13 +1254,15 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/sugar-land-tx/fire-damage-restoration/",
+        "/service-areas/sugar-land-tx/mold-remediation/",
         "/service-areas/sugar-land-tx/water-damage-restoration/",
+        "/service-areas/sugar-land-tx/commercial-restoration/",
         "/service-areas/sugar-land-tx/emergency-water-removal/",
         "/service-areas/sugar-land-tx/storm-damage-restoration/",
         "/service-areas/sugar-land-tx/contents-restoration-storage/",
         "/service-areas/baytown-tx/",
-        "/service-areas/jersey-village-tx/",
-        "/service-areas/katy-tx/"
+        "/service-areas/hunters-creek-village-tx/",
+        "/service-areas/jersey-village-tx/"
       ]
     },
     {
@@ -1279,13 +1298,15 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/the-woodlands-tx/fire-damage-restoration/",
+        "/service-areas/the-woodlands-tx/mold-remediation/",
         "/service-areas/the-woodlands-tx/water-damage-restoration/",
+        "/service-areas/the-woodlands-tx/commercial-restoration/",
         "/service-areas/the-woodlands-tx/emergency-water-removal/",
         "/service-areas/the-woodlands-tx/storm-damage-restoration/",
         "/service-areas/the-woodlands-tx/contents-restoration-storage/",
         "/service-areas/baytown-tx/",
-        "/service-areas/jersey-village-tx/",
-        "/service-areas/katy-tx/"
+        "/service-areas/hunters-creek-village-tx/",
+        "/service-areas/jersey-village-tx/"
       ]
     },
     {
@@ -1321,12 +1342,13 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/baytown-tx/fire-damage-restoration/",
+        "/service-areas/baytown-tx/mold-remediation/",
         "/service-areas/baytown-tx/water-damage-restoration/",
         "/service-areas/baytown-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/storm-damage-restoration/",
+        "/service-areas/hunters-creek-village-tx/",
         "/service-areas/jersey-village-tx/",
-        "/service-areas/katy-tx/",
-        "/service-areas/missouri-city-tx/"
+        "/service-areas/katy-tx/"
       ]
     },
     {
@@ -1362,13 +1384,14 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/missouri-city-tx/fire-damage-restoration/",
+        "/service-areas/missouri-city-tx/mold-remediation/",
         "/service-areas/missouri-city-tx/water-damage-restoration/",
         "/service-areas/missouri-city-tx/emergency-water-removal/",
         "/service-areas/missouri-city-tx/sewage-cleanup/",
         "/service-areas/missouri-city-tx/storm-damage-restoration/",
         "/service-areas/baytown-tx/",
-        "/service-areas/jersey-village-tx/",
-        "/service-areas/katy-tx/"
+        "/service-areas/hunters-creek-village-tx/",
+        "/service-areas/jersey-village-tx/"
       ]
     },
     {
@@ -1403,12 +1426,13 @@
       "internal_links_out": [
         "/service-areas/",
         "/contact/",
+        "/service-areas/spring-tx/mold-remediation/",
         "/service-areas/spring-tx/water-damage-restoration/",
         "/service-areas/spring-tx/emergency-water-removal/",
         "/service-areas/spring-tx/storm-damage-restoration/",
         "/service-areas/baytown-tx/",
-        "/service-areas/jersey-village-tx/",
-        "/service-areas/katy-tx/"
+        "/service-areas/hunters-creek-village-tx/",
+        "/service-areas/jersey-village-tx/"
       ]
     },
     {
@@ -1444,13 +1468,14 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/katy-tx/fire-damage-restoration/",
+        "/service-areas/katy-tx/mold-remediation/",
         "/service-areas/katy-tx/water-damage-restoration/",
         "/service-areas/katy-tx/emergency-water-removal/",
         "/service-areas/katy-tx/storm-damage-restoration/",
         "/service-areas/katy-tx/water-cleanup/",
         "/service-areas/baytown-tx/",
-        "/service-areas/jersey-village-tx/",
-        "/service-areas/missouri-city-tx/"
+        "/service-areas/hunters-creek-village-tx/",
+        "/service-areas/jersey-village-tx/"
       ]
     },
     {
@@ -1486,9 +1511,49 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/jersey-village-tx/water-damage-restoration/",
+        "/service-areas/jersey-village-tx/emergency-water-removal/",
+        "/service-areas/jersey-village-tx/water-cleanup/",
         "/service-areas/baytown-tx/",
-        "/service-areas/katy-tx/",
-        "/service-areas/missouri-city-tx/"
+        "/service-areas/hunters-creek-village-tx/",
+        "/service-areas/katy-tx/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hunters-creek-village-tx/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Hunters Creek Village, TX | BIONIC Services LLC",
+      "h1": "Restoration Services in Hunters Creek Village",
+      "meta_description": "Serving Hunters Creek Village, TX with water, fire, mold, and storm damage restoration. IICRC-certified team. Call (713) 338-2424.",
+      "primary_keyword": "restoration services hunters creek village",
+      "secondary_keywords": [
+        "hunters creek village restoration company",
+        "damage restoration hunters creek village",
+        "hunters creek village disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/hunters-creek-village-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/",
+        "/service-areas/jersey-village-tx/",
+        "/service-areas/katy-tx/"
       ]
     },
     {
@@ -1529,9 +1594,9 @@
         "/services/water-damage-restoration/",
         "/service-areas/pasadena-tx/",
         "/service-areas/pasadena-tx/fire-damage-restoration/",
-        "/service-areas/pasadena-tx/emergency-water-removal/",
+        "/service-areas/pasadena-tx/mold-remediation/",
         "/service-areas/baytown-tx/water-damage-restoration/",
-        "/service-areas/jersey-village-tx/water-damage-restoration/",
+        "/service-areas/hunters-creek-village-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1572,8 +1637,8 @@
       "internal_links_out": [
         "/services/fire-damage-restoration/",
         "/service-areas/pasadena-tx/",
+        "/service-areas/pasadena-tx/mold-remediation/",
         "/service-areas/pasadena-tx/water-damage-restoration/",
-        "/service-areas/pasadena-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/fire-damage-restoration/",
         "/service-areas/katy-tx/fire-damage-restoration/",
         "/contact/"
@@ -1617,7 +1682,7 @@
         "/services/storm-damage-restoration/",
         "/service-areas/pasadena-tx/",
         "/service-areas/pasadena-tx/fire-damage-restoration/",
-        "/service-areas/pasadena-tx/water-damage-restoration/",
+        "/service-areas/pasadena-tx/mold-remediation/",
         "/service-areas/baytown-tx/storm-damage-restoration/",
         "/service-areas/katy-tx/storm-damage-restoration/",
         "/contact/"
@@ -1661,7 +1726,7 @@
         "/services/sewage-cleanup/",
         "/service-areas/pasadena-tx/",
         "/service-areas/pasadena-tx/fire-damage-restoration/",
-        "/service-areas/pasadena-tx/water-damage-restoration/",
+        "/service-areas/pasadena-tx/mold-remediation/",
         "/service-areas/missouri-city-tx/sewage-cleanup/",
         "/service-areas/pearland-tx/sewage-cleanup/",
         "/contact/"
@@ -1704,9 +1769,53 @@
         "/services/emergency-water-removal/",
         "/service-areas/pasadena-tx/",
         "/service-areas/pasadena-tx/fire-damage-restoration/",
-        "/service-areas/pasadena-tx/water-damage-restoration/",
+        "/service-areas/pasadena-tx/mold-remediation/",
         "/service-areas/baytown-tx/emergency-water-removal/",
-        "/service-areas/katy-tx/emergency-water-removal/",
+        "/service-areas/jersey-village-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pasadena-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Pasadena, TX | BIONIC Services LLC",
+      "h1": "Mold Remediation in Pasadena",
+      "meta_description": "Mold remediation in Pasadena, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "mold remediation pasadena",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/pasadena-tx/",
+        "/service-areas/pasadena-tx/fire-damage-restoration/",
+        "/service-areas/pasadena-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/mold-remediation/",
+        "/service-areas/katy-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1748,9 +1857,9 @@
         "/services/water-damage-restoration/",
         "/service-areas/pearland-tx/",
         "/service-areas/pearland-tx/fire-damage-restoration/",
-        "/service-areas/pearland-tx/emergency-water-removal/",
+        "/service-areas/pearland-tx/mold-remediation/",
         "/service-areas/baytown-tx/water-damage-restoration/",
-        "/service-areas/jersey-village-tx/water-damage-restoration/",
+        "/service-areas/hunters-creek-village-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -1791,8 +1900,8 @@
       "internal_links_out": [
         "/services/fire-damage-restoration/",
         "/service-areas/pearland-tx/",
+        "/service-areas/pearland-tx/mold-remediation/",
         "/service-areas/pearland-tx/water-damage-restoration/",
-        "/service-areas/pearland-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/fire-damage-restoration/",
         "/service-areas/katy-tx/fire-damage-restoration/",
         "/contact/"
@@ -1836,7 +1945,7 @@
         "/services/storm-damage-restoration/",
         "/service-areas/pearland-tx/",
         "/service-areas/pearland-tx/fire-damage-restoration/",
-        "/service-areas/pearland-tx/water-damage-restoration/",
+        "/service-areas/pearland-tx/mold-remediation/",
         "/service-areas/baytown-tx/storm-damage-restoration/",
         "/service-areas/katy-tx/storm-damage-restoration/",
         "/contact/"
@@ -1880,7 +1989,7 @@
         "/services/sewage-cleanup/",
         "/service-areas/pearland-tx/",
         "/service-areas/pearland-tx/fire-damage-restoration/",
-        "/service-areas/pearland-tx/water-damage-restoration/",
+        "/service-areas/pearland-tx/mold-remediation/",
         "/service-areas/missouri-city-tx/sewage-cleanup/",
         "/service-areas/pasadena-tx/sewage-cleanup/",
         "/contact/"
@@ -1923,9 +2032,53 @@
         "/services/emergency-water-removal/",
         "/service-areas/pearland-tx/",
         "/service-areas/pearland-tx/fire-damage-restoration/",
-        "/service-areas/pearland-tx/water-damage-restoration/",
+        "/service-areas/pearland-tx/mold-remediation/",
         "/service-areas/baytown-tx/emergency-water-removal/",
-        "/service-areas/katy-tx/emergency-water-removal/",
+        "/service-areas/jersey-village-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pearland-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Pearland, TX | BIONIC Services LLC",
+      "h1": "Mold Remediation in Pearland",
+      "meta_description": "Mold remediation in Pearland, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "mold remediation pearland",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/pearland-tx/",
+        "/service-areas/pearland-tx/fire-damage-restoration/",
+        "/service-areas/pearland-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/mold-remediation/",
+        "/service-areas/katy-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -1967,9 +2120,9 @@
         "/services/water-damage-restoration/",
         "/service-areas/sugar-land-tx/",
         "/service-areas/sugar-land-tx/fire-damage-restoration/",
-        "/service-areas/sugar-land-tx/emergency-water-removal/",
+        "/service-areas/sugar-land-tx/mold-remediation/",
         "/service-areas/baytown-tx/water-damage-restoration/",
-        "/service-areas/jersey-village-tx/water-damage-restoration/",
+        "/service-areas/hunters-creek-village-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2010,8 +2163,8 @@
       "internal_links_out": [
         "/services/fire-damage-restoration/",
         "/service-areas/sugar-land-tx/",
+        "/service-areas/sugar-land-tx/mold-remediation/",
         "/service-areas/sugar-land-tx/water-damage-restoration/",
-        "/service-areas/sugar-land-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/fire-damage-restoration/",
         "/service-areas/katy-tx/fire-damage-restoration/",
         "/contact/"
@@ -2055,7 +2208,7 @@
         "/services/storm-damage-restoration/",
         "/service-areas/sugar-land-tx/",
         "/service-areas/sugar-land-tx/fire-damage-restoration/",
-        "/service-areas/sugar-land-tx/water-damage-restoration/",
+        "/service-areas/sugar-land-tx/mold-remediation/",
         "/service-areas/baytown-tx/storm-damage-restoration/",
         "/service-areas/katy-tx/storm-damage-restoration/",
         "/contact/"
@@ -2093,7 +2246,7 @@
         "/services/contents-restoration-storage/",
         "/service-areas/sugar-land-tx/",
         "/service-areas/sugar-land-tx/fire-damage-restoration/",
-        "/service-areas/sugar-land-tx/water-damage-restoration/",
+        "/service-areas/sugar-land-tx/mold-remediation/",
         "/service-areas/the-woodlands-tx/contents-restoration-storage/",
         "/contact/"
       ]
@@ -2135,9 +2288,96 @@
         "/services/emergency-water-removal/",
         "/service-areas/sugar-land-tx/",
         "/service-areas/sugar-land-tx/fire-damage-restoration/",
-        "/service-areas/sugar-land-tx/water-damage-restoration/",
+        "/service-areas/sugar-land-tx/mold-remediation/",
         "/service-areas/baytown-tx/emergency-water-removal/",
-        "/service-areas/katy-tx/emergency-water-removal/",
+        "/service-areas/jersey-village-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sugar-land-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Sugar Land, TX | BIONIC Services LLC",
+      "h1": "Mold Remediation in Sugar Land",
+      "meta_description": "Mold remediation in Sugar Land, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "mold remediation sugar land",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/sugar-land-tx/",
+        "/service-areas/sugar-land-tx/fire-damage-restoration/",
+        "/service-areas/sugar-land-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/mold-remediation/",
+        "/service-areas/katy-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sugar-land-tx/commercial-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Restoration in Sugar Land, TX | BIONIC Services LLC",
+      "h1": "Commercial Restoration in Sugar Land",
+      "meta_description": "Commercial restoration in Sugar Land, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "commercial restoration sugar land",
+      "secondary_keywords": [
+        "commercial water damage",
+        "commercial fire damage",
+        "business restoration",
+        "office restoration",
+        "retail restoration"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-restoration/",
+        "/service-areas/sugar-land-tx/",
+        "/service-areas/sugar-land-tx/fire-damage-restoration/",
+        "/service-areas/sugar-land-tx/mold-remediation/",
+        "/service-areas/the-woodlands-tx/commercial-restoration/",
         "/contact/"
       ]
     },
@@ -2179,9 +2419,9 @@
         "/services/water-damage-restoration/",
         "/service-areas/the-woodlands-tx/",
         "/service-areas/the-woodlands-tx/fire-damage-restoration/",
-        "/service-areas/the-woodlands-tx/emergency-water-removal/",
+        "/service-areas/the-woodlands-tx/mold-remediation/",
         "/service-areas/baytown-tx/water-damage-restoration/",
-        "/service-areas/jersey-village-tx/water-damage-restoration/",
+        "/service-areas/hunters-creek-village-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2222,8 +2462,8 @@
       "internal_links_out": [
         "/services/fire-damage-restoration/",
         "/service-areas/the-woodlands-tx/",
+        "/service-areas/the-woodlands-tx/mold-remediation/",
         "/service-areas/the-woodlands-tx/water-damage-restoration/",
-        "/service-areas/the-woodlands-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/fire-damage-restoration/",
         "/service-areas/katy-tx/fire-damage-restoration/",
         "/contact/"
@@ -2267,7 +2507,7 @@
         "/services/storm-damage-restoration/",
         "/service-areas/the-woodlands-tx/",
         "/service-areas/the-woodlands-tx/fire-damage-restoration/",
-        "/service-areas/the-woodlands-tx/water-damage-restoration/",
+        "/service-areas/the-woodlands-tx/mold-remediation/",
         "/service-areas/baytown-tx/storm-damage-restoration/",
         "/service-areas/katy-tx/storm-damage-restoration/",
         "/contact/"
@@ -2305,7 +2545,7 @@
         "/services/contents-restoration-storage/",
         "/service-areas/the-woodlands-tx/",
         "/service-areas/the-woodlands-tx/fire-damage-restoration/",
-        "/service-areas/the-woodlands-tx/water-damage-restoration/",
+        "/service-areas/the-woodlands-tx/mold-remediation/",
         "/service-areas/sugar-land-tx/contents-restoration-storage/",
         "/contact/"
       ]
@@ -2347,9 +2587,96 @@
         "/services/emergency-water-removal/",
         "/service-areas/the-woodlands-tx/",
         "/service-areas/the-woodlands-tx/fire-damage-restoration/",
-        "/service-areas/the-woodlands-tx/water-damage-restoration/",
+        "/service-areas/the-woodlands-tx/mold-remediation/",
         "/service-areas/baytown-tx/emergency-water-removal/",
-        "/service-areas/katy-tx/emergency-water-removal/",
+        "/service-areas/jersey-village-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/the-woodlands-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in The Woodlands, TX | BIONIC Services LLC",
+      "h1": "Mold Remediation in The Woodlands",
+      "meta_description": "Mold remediation in The Woodlands, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "mold remediation the woodlands",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/the-woodlands-tx/",
+        "/service-areas/the-woodlands-tx/fire-damage-restoration/",
+        "/service-areas/the-woodlands-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/mold-remediation/",
+        "/service-areas/katy-tx/mold-remediation/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/the-woodlands-tx/commercial-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Commercial Restoration in The Woodlands, TX | BIONIC Services LLC",
+      "h1": "Commercial Restoration in The Woodlands",
+      "meta_description": "Commercial restoration in The Woodlands, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "commercial restoration the woodlands",
+      "secondary_keywords": [
+        "commercial water damage",
+        "commercial fire damage",
+        "business restoration",
+        "office restoration",
+        "retail restoration"
+      ],
+      "search_intent": "local_b2b",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/commercial-restoration/",
+        "/service-areas/the-woodlands-tx/",
+        "/service-areas/the-woodlands-tx/fire-damage-restoration/",
+        "/service-areas/the-woodlands-tx/mold-remediation/",
+        "/service-areas/sugar-land-tx/commercial-restoration/",
         "/contact/"
       ]
     },
@@ -2391,9 +2718,9 @@
         "/services/water-damage-restoration/",
         "/service-areas/baytown-tx/",
         "/service-areas/baytown-tx/fire-damage-restoration/",
-        "/service-areas/baytown-tx/emergency-water-removal/",
+        "/service-areas/baytown-tx/mold-remediation/",
+        "/service-areas/hunters-creek-village-tx/water-damage-restoration/",
         "/service-areas/jersey-village-tx/water-damage-restoration/",
-        "/service-areas/katy-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2434,8 +2761,8 @@
       "internal_links_out": [
         "/services/fire-damage-restoration/",
         "/service-areas/baytown-tx/",
+        "/service-areas/baytown-tx/mold-remediation/",
         "/service-areas/baytown-tx/water-damage-restoration/",
-        "/service-areas/baytown-tx/emergency-water-removal/",
         "/service-areas/katy-tx/fire-damage-restoration/",
         "/service-areas/missouri-city-tx/fire-damage-restoration/",
         "/contact/"
@@ -2479,7 +2806,7 @@
         "/services/storm-damage-restoration/",
         "/service-areas/baytown-tx/",
         "/service-areas/baytown-tx/fire-damage-restoration/",
-        "/service-areas/baytown-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/mold-remediation/",
         "/service-areas/katy-tx/storm-damage-restoration/",
         "/service-areas/missouri-city-tx/storm-damage-restoration/",
         "/contact/"
@@ -2522,9 +2849,53 @@
         "/services/emergency-water-removal/",
         "/service-areas/baytown-tx/",
         "/service-areas/baytown-tx/fire-damage-restoration/",
-        "/service-areas/baytown-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/mold-remediation/",
+        "/service-areas/jersey-village-tx/emergency-water-removal/",
         "/service-areas/katy-tx/emergency-water-removal/",
-        "/service-areas/missouri-city-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/baytown-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Baytown, TX | BIONIC Services LLC",
+      "h1": "Mold Remediation in Baytown",
+      "meta_description": "Mold remediation in Baytown, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "mold remediation baytown",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/baytown-tx/",
+        "/service-areas/baytown-tx/fire-damage-restoration/",
+        "/service-areas/baytown-tx/water-damage-restoration/",
+        "/service-areas/katy-tx/mold-remediation/",
+        "/service-areas/missouri-city-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2566,9 +2937,9 @@
         "/services/water-damage-restoration/",
         "/service-areas/missouri-city-tx/",
         "/service-areas/missouri-city-tx/fire-damage-restoration/",
-        "/service-areas/missouri-city-tx/emergency-water-removal/",
+        "/service-areas/missouri-city-tx/mold-remediation/",
         "/service-areas/baytown-tx/water-damage-restoration/",
-        "/service-areas/jersey-village-tx/water-damage-restoration/",
+        "/service-areas/hunters-creek-village-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2609,8 +2980,8 @@
       "internal_links_out": [
         "/services/fire-damage-restoration/",
         "/service-areas/missouri-city-tx/",
+        "/service-areas/missouri-city-tx/mold-remediation/",
         "/service-areas/missouri-city-tx/water-damage-restoration/",
-        "/service-areas/missouri-city-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/fire-damage-restoration/",
         "/service-areas/katy-tx/fire-damage-restoration/",
         "/contact/"
@@ -2654,7 +3025,7 @@
         "/services/storm-damage-restoration/",
         "/service-areas/missouri-city-tx/",
         "/service-areas/missouri-city-tx/fire-damage-restoration/",
-        "/service-areas/missouri-city-tx/water-damage-restoration/",
+        "/service-areas/missouri-city-tx/mold-remediation/",
         "/service-areas/baytown-tx/storm-damage-restoration/",
         "/service-areas/katy-tx/storm-damage-restoration/",
         "/contact/"
@@ -2698,7 +3069,7 @@
         "/services/sewage-cleanup/",
         "/service-areas/missouri-city-tx/",
         "/service-areas/missouri-city-tx/fire-damage-restoration/",
-        "/service-areas/missouri-city-tx/water-damage-restoration/",
+        "/service-areas/missouri-city-tx/mold-remediation/",
         "/service-areas/pasadena-tx/sewage-cleanup/",
         "/service-areas/pearland-tx/sewage-cleanup/",
         "/contact/"
@@ -2741,9 +3112,53 @@
         "/services/emergency-water-removal/",
         "/service-areas/missouri-city-tx/",
         "/service-areas/missouri-city-tx/fire-damage-restoration/",
-        "/service-areas/missouri-city-tx/water-damage-restoration/",
+        "/service-areas/missouri-city-tx/mold-remediation/",
         "/service-areas/baytown-tx/emergency-water-removal/",
-        "/service-areas/katy-tx/emergency-water-removal/",
+        "/service-areas/jersey-village-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/missouri-city-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Missouri City, TX | BIONIC Services LLC",
+      "h1": "Mold Remediation in Missouri City",
+      "meta_description": "Mold remediation in Missouri City, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "mold remediation missouri city",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/missouri-city-tx/",
+        "/service-areas/missouri-city-tx/fire-damage-restoration/",
+        "/service-areas/missouri-city-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/mold-remediation/",
+        "/service-areas/katy-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2784,10 +3199,10 @@
       "internal_links_out": [
         "/services/water-damage-restoration/",
         "/service-areas/spring-tx/",
+        "/service-areas/spring-tx/mold-remediation/",
         "/service-areas/spring-tx/emergency-water-removal/",
-        "/service-areas/spring-tx/storm-damage-restoration/",
         "/service-areas/baytown-tx/water-damage-restoration/",
-        "/service-areas/jersey-village-tx/water-damage-restoration/",
+        "/service-areas/hunters-creek-village-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2828,8 +3243,8 @@
       "internal_links_out": [
         "/services/storm-damage-restoration/",
         "/service-areas/spring-tx/",
+        "/service-areas/spring-tx/mold-remediation/",
         "/service-areas/spring-tx/water-damage-restoration/",
-        "/service-areas/spring-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/storm-damage-restoration/",
         "/service-areas/katy-tx/storm-damage-restoration/",
         "/contact/"
@@ -2871,10 +3286,54 @@
       "internal_links_out": [
         "/services/emergency-water-removal/",
         "/service-areas/spring-tx/",
+        "/service-areas/spring-tx/mold-remediation/",
         "/service-areas/spring-tx/water-damage-restoration/",
-        "/service-areas/spring-tx/storm-damage-restoration/",
         "/service-areas/baytown-tx/emergency-water-removal/",
-        "/service-areas/katy-tx/emergency-water-removal/",
+        "/service-areas/jersey-village-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/spring-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Spring, TX | BIONIC Services LLC",
+      "h1": "Mold Remediation in Spring",
+      "meta_description": "Mold remediation in Spring, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "mold remediation spring",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/spring-tx/",
+        "/service-areas/spring-tx/water-damage-restoration/",
+        "/service-areas/spring-tx/emergency-water-removal/",
+        "/service-areas/baytown-tx/mold-remediation/",
+        "/service-areas/katy-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -2916,9 +3375,9 @@
         "/services/water-damage-restoration/",
         "/service-areas/katy-tx/",
         "/service-areas/katy-tx/fire-damage-restoration/",
-        "/service-areas/katy-tx/emergency-water-removal/",
+        "/service-areas/katy-tx/mold-remediation/",
         "/service-areas/baytown-tx/water-damage-restoration/",
-        "/service-areas/jersey-village-tx/water-damage-restoration/",
+        "/service-areas/hunters-creek-village-tx/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2959,8 +3418,8 @@
       "internal_links_out": [
         "/services/fire-damage-restoration/",
         "/service-areas/katy-tx/",
+        "/service-areas/katy-tx/mold-remediation/",
         "/service-areas/katy-tx/water-damage-restoration/",
-        "/service-areas/katy-tx/emergency-water-removal/",
         "/service-areas/baytown-tx/fire-damage-restoration/",
         "/service-areas/missouri-city-tx/fire-damage-restoration/",
         "/contact/"
@@ -3004,7 +3463,7 @@
         "/services/storm-damage-restoration/",
         "/service-areas/katy-tx/",
         "/service-areas/katy-tx/fire-damage-restoration/",
-        "/service-areas/katy-tx/water-damage-restoration/",
+        "/service-areas/katy-tx/mold-remediation/",
         "/service-areas/baytown-tx/storm-damage-restoration/",
         "/service-areas/missouri-city-tx/storm-damage-restoration/",
         "/contact/"
@@ -3048,7 +3507,8 @@
         "/services/water-cleanup/",
         "/service-areas/katy-tx/",
         "/service-areas/katy-tx/fire-damage-restoration/",
-        "/service-areas/katy-tx/water-damage-restoration/",
+        "/service-areas/katy-tx/mold-remediation/",
+        "/service-areas/jersey-village-tx/water-cleanup/",
         "/contact/"
       ]
     },
@@ -3089,9 +3549,53 @@
         "/services/emergency-water-removal/",
         "/service-areas/katy-tx/",
         "/service-areas/katy-tx/fire-damage-restoration/",
-        "/service-areas/katy-tx/water-damage-restoration/",
+        "/service-areas/katy-tx/mold-remediation/",
         "/service-areas/baytown-tx/emergency-water-removal/",
-        "/service-areas/missouri-city-tx/emergency-water-removal/",
+        "/service-areas/jersey-village-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/katy-tx/mold-remediation/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Mold Remediation in Katy, TX | BIONIC Services LLC",
+      "h1": "Mold Remediation in Katy",
+      "meta_description": "Mold remediation in Katy, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "mold remediation katy",
+      "secondary_keywords": [
+        "mold removal",
+        "black mold remediation",
+        "mold abatement",
+        "mold containment",
+        "mold cleanup"
+      ],
+      "search_intent": "local_health",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/mold-remediation/",
+        "/service-areas/katy-tx/",
+        "/service-areas/katy-tx/fire-damage-restoration/",
+        "/service-areas/katy-tx/water-damage-restoration/",
+        "/service-areas/baytown-tx/mold-remediation/",
+        "/service-areas/missouri-city-tx/mold-remediation/",
         "/contact/"
       ]
     },
@@ -3132,8 +3636,138 @@
       "internal_links_out": [
         "/services/water-damage-restoration/",
         "/service-areas/jersey-village-tx/",
+        "/service-areas/jersey-village-tx/emergency-water-removal/",
+        "/service-areas/jersey-village-tx/water-cleanup/",
         "/service-areas/baytown-tx/water-damage-restoration/",
-        "/service-areas/katy-tx/water-damage-restoration/",
+        "/service-areas/hunters-creek-village-tx/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/jersey-village-tx/water-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Cleanup in Jersey Village, TX | BIONIC Services LLC",
+      "h1": "Emergency Water Cleanup in Jersey Village",
+      "meta_description": "Emergency water cleanup in Jersey Village, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "emergency water cleanup jersey village",
+      "secondary_keywords": [
+        "water cleanup",
+        "water damage cleanup",
+        "water clean up",
+        "flood water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-cleanup/",
+        "/service-areas/jersey-village-tx/",
+        "/service-areas/jersey-village-tx/water-damage-restoration/",
+        "/service-areas/jersey-village-tx/emergency-water-removal/",
+        "/service-areas/katy-tx/water-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/jersey-village-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Jersey Village, TX | BIONIC Services LLC",
+      "h1": "Emergency Water Removal & Cleanup in Jersey Village",
+      "meta_description": "Emergency water removal & cleanup in Jersey Village, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "emergency water removal & cleanup jersey village",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/jersey-village-tx/",
+        "/service-areas/jersey-village-tx/water-damage-restoration/",
+        "/service-areas/jersey-village-tx/water-cleanup/",
+        "/service-areas/baytown-tx/emergency-water-removal/",
+        "/service-areas/katy-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hunters-creek-village-tx/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Hunters Creek Village | BIONIC Services LLC",
+      "h1": "Emergency Water Damage Restoration in Hunters Creek Village",
+      "meta_description": "Emergency water damage restoration in Hunters Creek Village, TX. IICRC-certified, insurance billing accepted. Call (713) 338-2424.",
+      "primary_keyword": "water damage restoration hunters creek village",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/hunters-creek-village-tx/",
+        "/service-areas/baytown-tx/water-damage-restoration/",
+        "/service-areas/jersey-village-tx/water-damage-restoration/",
         "/contact/"
       ]
     },

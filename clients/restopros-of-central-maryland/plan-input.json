@@ -24,7 +24,10 @@
     ],
     "short_name": "RestoPros",
     "insured": true,
-    "logo_url": "/images/logo.png"
+    "logo_url": "/images/logo.png",
+    "primary_color": "#339df1",
+    "dark_color": "#161718",
+    "color_source": "autocolor: existing site + logo"
   },
   "services": [
     "contents-restoration-storage",
@@ -142,6 +145,11 @@
       "city": "Kingsville",
       "state": "MD",
       "slug": "kingsville-md"
+    },
+    {
+      "city": "Perry Hall",
+      "state": "MD",
+      "slug": "perry-hall-md"
     }
   ],
   "template": "restoration",

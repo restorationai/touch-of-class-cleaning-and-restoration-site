@@ -393,6 +393,15 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/grandview-wa/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/kennewick-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -794,6 +803,16 @@
     "missing_stubs": []
   },
   "/service-areas/burbank-wa/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/grandview-wa/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

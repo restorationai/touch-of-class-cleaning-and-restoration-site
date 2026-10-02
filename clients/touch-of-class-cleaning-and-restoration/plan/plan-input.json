@@ -66,8 +66,21 @@
       "city": "Wylie",
       "state": "TX",
       "slug": "wylie-tx"
+    },
+    {
+      "city": "Richwood",
+      "state": "TX",
+      "slug": "richwood-tx"
     }
   ],
   "template": "restoration",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "commercial-restoration",
+    "emergency-water-removal",
+    "flood-damage-restoration"
+  ]
 }

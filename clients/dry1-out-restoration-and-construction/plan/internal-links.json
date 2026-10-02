@@ -44,6 +44,7 @@
     "/service-areas/hayward-ca/",
     "/service-areas/oakland-ca/",
     "/service-areas/oceanside-ca/",
+    "/service-areas/rancho-santa-fe-ca/",
     "/service-areas/san-diego-ca/",
     "/service-areas/san-francisco-ca/",
     "/service-areas/san-jose-ca/",
@@ -98,6 +99,7 @@
     "/service-areas/hayward-ca/",
     "/service-areas/oakland-ca/",
     "/service-areas/oceanside-ca/",
+    "/service-areas/rancho-santa-fe-ca/",
     "/service-areas/san-diego-ca/",
     "/service-areas/san-francisco-ca/",
     "/service-areas/san-jose-ca/",
@@ -209,10 +211,10 @@
     "/service-areas/encinitas-ca/general-contracting/",
     "/service-areas/escondido-ca/general-contracting/",
     "/service-areas/fremont-ca/general-contracting/",
+    "/service-areas/harmony-grove-ca/general-contracting/",
     "/service-areas/hayward-ca/general-contracting/",
     "/service-areas/oakland-ca/general-contracting/",
-    "/service-areas/oceanside-ca/general-contracting/",
-    "/service-areas/san-diego-ca/general-contracting/"
+    "/service-areas/oceanside-ca/general-contracting/"
   ],
   "/services/mold-inspection-testing/": [
     "/services/",
@@ -637,6 +639,15 @@
     "/service-areas/",
     "/contact/",
     "/service-areas/harmony-grove-ca/water-damage-restoration/",
+    "/service-areas/harmony-grove-ca/general-contracting/",
+    "/service-areas/berkeley-ca/",
+    "/service-areas/carlsbad-ca/",
+    "/service-areas/chula-vista-ca/"
+  ],
+  "/service-areas/rancho-santa-fe-ca/": [
+    "/service-areas/",
+    "/contact/",
+    "/service-areas/rancho-santa-fe-ca/water-damage-restoration/",
     "/service-areas/berkeley-ca/",
     "/service-areas/carlsbad-ca/",
     "/service-areas/chula-vista-ca/"
@@ -1850,9 +1861,25 @@
     "/service-areas/carlsbad-ca/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/harmony-grove-ca/general-contracting/": [
+    "/services/general-contracting/",
+    "/service-areas/harmony-grove-ca/",
+    "/service-areas/harmony-grove-ca/water-damage-restoration/",
+    "/service-areas/berkeley-ca/general-contracting/",
+    "/service-areas/carlsbad-ca/general-contracting/",
+    "/contact/"
+  ],
   "/service-areas/harmony-grove-ca/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/harmony-grove-ca/",
+    "/service-areas/harmony-grove-ca/general-contracting/",
+    "/service-areas/berkeley-ca/water-damage-restoration/",
+    "/service-areas/carlsbad-ca/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/rancho-santa-fe-ca/water-damage-restoration/": [
+    "/services/water-damage-restoration/",
+    "/service-areas/rancho-santa-fe-ca/",
     "/service-areas/berkeley-ca/water-damage-restoration/",
     "/service-areas/carlsbad-ca/water-damage-restoration/",
     "/contact/"

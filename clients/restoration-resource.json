@@ -10,10 +10,10 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 93,
-    "generated_at": "2026-10-02T05:02:44.430861+00:00"
+    "url_count": 95,
+    "generated_at": "2026-10-02T14:22:33.652921+00:00"
   },
-  "updated_at": "2026-10-02T10:30:14.187901+00:00",
+  "updated_at": "2026-10-02T14:22:33.652927+00:00",
   "build": {
     "scaffolded_at": "2026-10-01T14:22:38.781682+00:00",
     "github_repo": "restorationai/restoration-resource-site",

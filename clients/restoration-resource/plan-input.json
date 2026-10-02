@@ -30,7 +30,10 @@
       "24/7 Emergency Service",
       "Locally Owned & Operated"
     ],
-    "logo_url": "/images/logo.png"
+    "logo_url": "/images/logo.png",
+    "primary_color": "#8ec940",
+    "dark_color": "#171816",
+    "color_source": "autocolor: existing site + logo"
   },
   "services": [
     "water-damage-restoration",
@@ -121,6 +124,11 @@
       "city": "Burbank",
       "state": "WA",
       "slug": "burbank-wa"
+    },
+    {
+      "city": "Grandview",
+      "state": "WA",
+      "slug": "grandview-wa"
     }
   ],
   "template": "restoration",

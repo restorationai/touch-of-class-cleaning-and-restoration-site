@@ -566,7 +566,22 @@
       "height": 480,
       "bytes": 137982,
       "sha1": "a31cc05290512e10",
-      "exif": {}
+      "exif": {},
+      "category": "fleet",
+      "subject": "White pickup truck towing enclosed equipment trailer on gravel lot",
+      "quality": 62,
+      "slots": {
+        "hero": 55,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clean fleet shot with company truck and trailer, decent composition, sun flare slightly distracting.",
+      "triaged_at": "2026-10-02T14:11:21Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipNK3seSDDi1TAxDqpgVBp9Yibqbtx4lEMYySt1T": {
       "source": "gbp",
@@ -680,5 +695,5 @@
       "file": "/images/team.webp"
     }
   },
-  "triaged_at": "2026-10-02T04:41:05Z"
+  "triaged_at": "2026-10-02T14:11:21Z"
 }

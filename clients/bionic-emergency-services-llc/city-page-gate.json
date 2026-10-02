@@ -5,6 +5,20 @@
   "head_metro_min": 1000
  },
  "decisions": {
+  "baytown-tx__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair baytown' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baytown-tx__commercial-restoration": {
+   "pass": false,
+   "why": "no local demand ('commercial restoration baytown' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "baytown-tx__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration baytown' 0/mo) and no local angle",
@@ -22,6 +36,20 @@
   "baytown-tx__fire-damage-restoration": {
    "pass": true,
    "why": "local angle: large refinery and industrial complex fire risk",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baytown-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation baytown' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "baytown-tx__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction baytown' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-02"
@@ -47,6 +75,91 @@
    "src": "auto",
    "at": "2026-10-02"
   },
+  "jersey-village-tx__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair jersey village' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jersey-village-tx__commercial-restoration": {
+   "pass": false,
+   "why": "implausible here: tiny residential town, no commercial base",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02",
+   "implausible": true
+  },
+  "jersey-village-tx__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration jersey village' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jersey-village-tx__emergency-water-removal": {
+   "pass": true,
+   "why": "local angle: near Addicks Reservoir flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jersey-village-tx__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration jersey village' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jersey-village-tx__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation jersey village' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jersey-village-tx__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction jersey village' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jersey-village-tx__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup jersey village' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jersey-village-tx__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration jersey village' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "jersey-village-tx__water-cleanup": {
+   "pass": true,
+   "why": "local angle: near Addicks Reservoir flood zone",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "katy-tx__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair katy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "katy-tx__commercial-restoration": {
+   "pass": false,
+   "why": "no local demand ('commercial restoration katy' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "katy-tx__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration katy' 0/mo) and no local angle",
@@ -65,6 +178,20 @@
    "pass": true,
    "why": "local demand: 'fire damage restoration katy' 10/mo",
    "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "katy-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation katy' 70/mo",
+   "vol": 70,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "katy-tx__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction katy' 0/mo) and no local angle",
+   "vol": 0,
    "src": "auto",
    "at": "2026-10-02"
   },
@@ -89,6 +216,20 @@
    "src": "auto",
    "at": "2026-10-02"
   },
+  "missouri-city-tx__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair missouri city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "missouri-city-tx__commercial-restoration": {
+   "pass": false,
+   "why": "no local demand ('commercial restoration missouri city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "missouri-city-tx__contents-restoration-storage": {
    "pass": false,
    "why": "no local demand ('contents restoration missouri city' 0/mo) and no local angle",
@@ -110,6 +251,20 @@
    "src": "auto",
    "at": "2026-10-02"
   },
+  "missouri-city-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation missouri city' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "missouri-city-tx__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction missouri city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "missouri-city-tx__sewage-cleanup": {
    "pass": true,
    "why": "local demand: 'sewage cleanup missouri city' 10/mo",
@@ -127,6 +282,20 @@
   "missouri-city-tx__water-cleanup": {
    "pass": false,
    "why": "no local demand ('water cleanup missouri city' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pasadena-tx__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair pasadena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pasadena-tx__commercial-restoration": {
+   "pass": false,
+   "why": "no local demand ('commercial restoration pasadena' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-02"
@@ -152,6 +321,20 @@
    "src": "auto",
    "at": "2026-10-02"
   },
+  "pasadena-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation pasadena' 110/mo",
+   "vol": 110,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pasadena-tx__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction pasadena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "pasadena-tx__sewage-cleanup": {
    "pass": true,
    "why": "local demand: 'sewage cleanup pasadena' 10/mo",
@@ -169,6 +352,20 @@
   "pasadena-tx__water-cleanup": {
    "pass": false,
    "why": "no local demand ('water cleanup pasadena' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pearland-tx__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair pearland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pearland-tx__commercial-restoration": {
+   "pass": false,
+   "why": "no local demand ('commercial restoration pearland' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-02"
@@ -194,6 +391,20 @@
    "src": "auto",
    "at": "2026-10-02"
   },
+  "pearland-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation pearland' 20/mo",
+   "vol": 20,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "pearland-tx__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction pearland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "pearland-tx__sewage-cleanup": {
    "pass": true,
    "why": "local demand: 'sewage cleanup pearland' 10/mo",
@@ -211,6 +422,20 @@
   "pearland-tx__water-cleanup": {
    "pass": false,
    "why": "no local demand ('water cleanup pearland' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "spring-tx__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair spring' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "spring-tx__commercial-restoration": {
+   "pass": false,
+   "why": "no local demand ('commercial restoration spring' 0/mo) and no local angle",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-02"
@@ -236,6 +461,20 @@
    "src": "auto",
    "at": "2026-10-02"
   },
+  "spring-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation spring' 10/mo",
+   "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "spring-tx__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction spring' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "spring-tx__sewage-cleanup": {
    "pass": false,
    "why": "no local demand ('sewage cleanup spring' 0/mo) and no local angle",
@@ -253,6 +492,20 @@
   "spring-tx__water-cleanup": {
    "pass": false,
    "why": "no local demand ('water cleanup spring' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sugar-land-tx__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair sugar land' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sugar-land-tx__commercial-restoration": {
+   "pass": true,
+   "why": "local angle: large corporate office and business base",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-02"
@@ -278,6 +531,20 @@
    "src": "auto",
    "at": "2026-10-02"
   },
+  "sugar-land-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation sugar land' 90/mo",
+   "vol": 90,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "sugar-land-tx__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction sugar land' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "sugar-land-tx__sewage-cleanup": {
    "pass": false,
    "why": "no local demand ('sewage cleanup sugar land' 0/mo) and no local angle",
@@ -295,6 +562,20 @@
   "sugar-land-tx__water-cleanup": {
    "pass": false,
    "why": "no local demand ('water cleanup sugar land' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "the-woodlands-tx__burst-pipe-repair": {
+   "pass": false,
+   "why": "no local demand ('burst pipe repair the woodlands' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "the-woodlands-tx__commercial-restoration": {
+   "pass": true,
+   "why": "local angle: major commercial and office hub",
    "vol": 0,
    "src": "auto",
    "at": "2026-10-02"
@@ -317,6 +598,20 @@
    "pass": true,
    "why": "local demand: 'fire damage restoration the woodlands' 10/mo",
    "vol": 10,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "the-woodlands-tx__mold-remediation": {
+   "pass": true,
+   "why": "local demand: 'mold remediation the woodlands' 40/mo",
+   "vol": 40,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "the-woodlands-tx__reconstruction": {
+   "pass": false,
+   "why": "no local demand ('restoration reconstruction the woodlands' 0/mo) and no local angle",
+   "vol": 0,
    "src": "auto",
    "at": "2026-10-02"
   },
@@ -343,6 +638,12 @@
   }
  },
  "offered": {
+  "burst-pipe-repair": [
+   "GBP service in the client's words: 'Broken, Frozen, & Burst Pipe Repair'"
+  ],
+  "commercial-restoration": [
+   "GBP service in the client's words: 'Residential & Commercial Restoration Services'"
+  ],
   "contents-restoration-storage": [
    "explicit non-core plan-input service",
    "truth table (companies.services)"
@@ -352,6 +653,14 @@
   ],
   "fire-damage-restoration": [
    "truth table (companies.services)"
+  ],
+  "mold-remediation": [
+   "GBP service in the client's words: 'Mold Removal'"
+  ],
+  "reconstruction": [
+   "GBP service in the client's words: 'Complete Reconstruction Services'",
+   "GBP service in the client's words: 'Damage Reconstruction'",
+   "GBP service in the client's words: 'Home Reconstruction'"
   ],
   "sewage-cleanup": [
    "truth table (companies.services)"
@@ -392,7 +701,23 @@
   "emergency-water-removal": {
    "term": "emergency water removal",
    "metro": 130
+  },
+  "burst-pipe-repair": {
+   "term": "burst pipe repair",
+   "metro": 30
+  },
+  "commercial-restoration": {
+   "term": "commercial restoration",
+   "metro": 20
+  },
+  "mold-remediation": {
+   "term": "mold remediation",
+   "metro": 980
+  },
+  "reconstruction": {
+   "term": "restoration reconstruction",
+   "metro": 10
   }
  },
- "updated_at": "2026-10-02T04:30:46+00:00"
+ "updated_at": "2026-10-02T14:08:21+00:00"
 }

@@ -1335,6 +1335,139 @@
    "src": "auto",
    "at": "2026-10-02"
   },
+  "mcdonald-oh__air-duct-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct cleaning mcdonald' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mcdonald-oh__air-duct-hvac-cleaning": {
+   "pass": false,
+   "why": "no local demand ('air duct and hvac cleaning mcdonald' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mcdonald-oh__asbestos-abatement": {
+   "pass": true,
+   "why": "local angle: old industrial-era housing stock common here",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mcdonald-oh__biohazard-cleanup": {
+   "pass": false,
+   "why": "no local demand ('biohazard cleanup mcdonald' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mcdonald-oh__carpet-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet cleaning mcdonald' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mcdonald-oh__carpet-upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('carpet and upholstery cleaning mcdonald' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mcdonald-oh__contents-restoration": {
+   "pass": false,
+   "why": "no local demand ('contents restoration mcdonald' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mcdonald-oh__contents-restoration-storage": {
+   "pass": false,
+   "why": "no local demand ('contents restoration mcdonald' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mcdonald-oh__emergency-board-up-tarping": {
+   "pass": false,
+   "why": "no local demand ('emergency board up mcdonald' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mcdonald-oh__emergency-water-removal": {
+   "pass": false,
+   "why": "no local demand ('emergency water removal mcdonald' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mcdonald-oh__fire-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('fire damage restoration mcdonald' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mcdonald-oh__general-contracting": {
+   "pass": false,
+   "why": "no local demand ('general contractor mcdonald' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mcdonald-oh__mold-remediation": {
+   "pass": false,
+   "why": "no local demand ('mold remediation mcdonald' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mcdonald-oh__odor-removal": {
+   "pass": false,
+   "why": "no local demand ('odor removal mcdonald' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mcdonald-oh__post-construction-cleaning": {
+   "pass": false,
+   "why": "no local demand ('post construction cleaning mcdonald' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mcdonald-oh__sewage-cleanup": {
+   "pass": false,
+   "why": "no local demand ('sewage cleanup mcdonald' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mcdonald-oh__storm-damage-restoration": {
+   "pass": false,
+   "why": "no local demand ('storm damage restoration mcdonald' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mcdonald-oh__upholstery-cleaning": {
+   "pass": false,
+   "why": "no local demand ('upholstery cleaning mcdonald' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
+  "mcdonald-oh__water-cleanup": {
+   "pass": false,
+   "why": "no local demand ('water cleanup mcdonald' 0/mo) and no local angle",
+   "vol": 0,
+   "src": "auto",
+   "at": "2026-10-02"
+  },
   "mercer-pa__air-duct-cleaning": {
    "pass": false,
    "why": "no local demand ('air duct cleaning mercer' 0/mo) and no local angle",
@@ -2763,63 +2896,63 @@
  "heads": {
   "air-duct-cleaning": {
    "term": "air duct cleaning",
-   "metro": null
+   "metro": 20
   },
   "asbestos-abatement": {
    "term": "asbestos abatement",
-   "metro": null
+   "metro": 10
   },
   "biohazard-cleanup": {
    "term": "biohazard cleanup",
-   "metro": null
+   "metro": 10
   },
   "carpet-cleaning": {
    "term": "carpet cleaning",
-   "metro": null
+   "metro": 20
   },
   "contents-restoration": {
    "term": "contents restoration",
-   "metro": null
+   "metro": 0
   },
   "emergency-board-up-tarping": {
    "term": "emergency board up",
-   "metro": null
+   "metro": 0
   },
   "emergency-water-removal": {
    "term": "emergency water removal",
-   "metro": null
+   "metro": 10
   },
   "fire-damage-restoration": {
    "term": "fire damage restoration",
-   "metro": null
+   "metro": 0
   },
   "general-contracting": {
    "term": "general contractor",
-   "metro": null
+   "metro": 30
   },
   "mold-remediation": {
    "term": "mold remediation",
-   "metro": null
+   "metro": 20
   },
   "odor-removal": {
    "term": "odor removal",
-   "metro": null
+   "metro": 0
   },
   "post-construction-cleaning": {
    "term": "post construction cleaning",
-   "metro": null
+   "metro": 10
   },
   "sewage-cleanup": {
    "term": "sewage cleanup",
-   "metro": null
+   "metro": 10
   },
   "storm-damage-restoration": {
    "term": "storm damage restoration",
-   "metro": null
+   "metro": 0
   },
   "upholstery-cleaning": {
    "term": "upholstery cleaning",
-   "metro": null
+   "metro": 20
   },
   "air-duct-hvac-cleaning": {
    "term": "air duct and hvac cleaning",
@@ -2838,6 +2971,6 @@
    "metro": 10
   }
  },
- "updated_at": "2026-10-02T04:31:44+00:00",
+ "updated_at": "2026-10-02T14:08:47+00:00",
  "metro": "Greenville,Pennsylvania,United States"
 }

@@ -1,10 +1,10 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-10-02T05:01:25.287689+00:00",
+  "generated_at": "2026-10-02T14:22:00.579043+00:00",
   "input_summary": {
     "service_count": 28,
-    "service_area_count": 21,
+    "service_area_count": 22,
     "cross_product": true,
     "blog_seed_count": 12
   },
@@ -84,6 +84,7 @@
         "/service-areas/hayward-ca/",
         "/service-areas/oakland-ca/",
         "/service-areas/oceanside-ca/",
+        "/service-areas/rancho-santa-fe-ca/",
         "/service-areas/san-diego-ca/",
         "/service-areas/san-francisco-ca/",
         "/service-areas/san-jose-ca/",
@@ -195,6 +196,7 @@
         "/service-areas/hayward-ca/",
         "/service-areas/oakland-ca/",
         "/service-areas/oceanside-ca/",
+        "/service-areas/rancho-santa-fe-ca/",
         "/service-areas/san-diego-ca/",
         "/service-areas/san-francisco-ca/",
         "/service-areas/san-jose-ca/",
@@ -680,10 +682,10 @@
         "/service-areas/encinitas-ca/general-contracting/",
         "/service-areas/escondido-ca/general-contracting/",
         "/service-areas/fremont-ca/general-contracting/",
+        "/service-areas/harmony-grove-ca/general-contracting/",
         "/service-areas/hayward-ca/general-contracting/",
         "/service-areas/oakland-ca/general-contracting/",
-        "/service-areas/oceanside-ca/general-contracting/",
-        "/service-areas/san-diego-ca/general-contracting/"
+        "/service-areas/oceanside-ca/general-contracting/"
       ]
     },
     {
@@ -2341,6 +2343,45 @@
         "/service-areas/",
         "/contact/",
         "/service-areas/harmony-grove-ca/water-damage-restoration/",
+        "/service-areas/harmony-grove-ca/general-contracting/",
+        "/service-areas/berkeley-ca/",
+        "/service-areas/carlsbad-ca/",
+        "/service-areas/chula-vista-ca/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rancho-santa-fe-ca/",
+      "archetype": "service-area",
+      "vars_keys": [
+        "area"
+      ],
+      "title": "Restoration Services in Rancho Santa Fe, CA | Dry1 Out Restoration and Construction",
+      "h1": "Restoration Services in Rancho Santa Fe",
+      "meta_description": "Serving Rancho Santa Fe, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (888) 379-1688.",
+      "primary_keyword": "restoration services rancho santa fe",
+      "secondary_keywords": [
+        "rancho santa fe restoration company",
+        "damage restoration rancho santa fe",
+        "rancho santa fe disaster restoration"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1"
+      ],
+      "schema_stubs": [
+        "local-business",
+        "service",
+        "breadcrumb-list"
+      ],
+      "priority": 4.8,
+      "status": "planned",
+      "internal_links_out": [
+        "/service-areas/",
+        "/contact/",
+        "/service-areas/rancho-santa-fe-ca/water-damage-restoration/",
         "/service-areas/berkeley-ca/",
         "/service-areas/carlsbad-ca/",
         "/service-areas/chula-vista-ca/"
@@ -8260,6 +8301,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/harmony-grove-ca/general-contracting/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Renovations, Remodels and General Contracting in Harmony Grove, CA | Dry1 Out Restoration and Construction",
+      "h1": "Renovations, Remodels and General Contracting in Harmony Grove",
+      "meta_description": "24/7 renovations, remodels and general contracting in Harmony Grove, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688.",
+      "primary_keyword": "renovations, remodels and general contracting harmony grove",
+      "secondary_keywords": [
+        "general contractor",
+        "home renovation services",
+        "home remodeling",
+        "kitchen remodel",
+        "bathroom remodel",
+        "post-damage rebuild"
+      ],
+      "search_intent": "local_commercial",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 5.6,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/general-contracting/",
+        "/service-areas/harmony-grove-ca/",
+        "/service-areas/harmony-grove-ca/water-damage-restoration/",
+        "/service-areas/berkeley-ca/general-contracting/",
+        "/service-areas/carlsbad-ca/general-contracting/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/harmony-grove-ca/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8296,6 +8381,49 @@
       "internal_links_out": [
         "/services/water-damage-restoration/",
         "/service-areas/harmony-grove-ca/",
+        "/service-areas/harmony-grove-ca/general-contracting/",
+        "/service-areas/berkeley-ca/water-damage-restoration/",
+        "/service-areas/carlsbad-ca/water-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rancho-santa-fe-ca/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Damage Restoration in Rancho Santa Fe, CA | Dry1 Out Restoration and Construction",
+      "h1": "24/7 Emergency Water Damage Restoration in Rancho Santa Fe",
+      "meta_description": "24/7 emergency water damage restoration in Rancho Santa Fe, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688.",
+      "primary_keyword": "water damage restoration rancho santa fe",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/rancho-santa-fe-ca/",
         "/service-areas/berkeley-ca/water-damage-restoration/",
         "/service-areas/carlsbad-ca/water-damage-restoration/",
         "/contact/"

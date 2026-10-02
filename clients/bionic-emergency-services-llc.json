@@ -10,10 +10,10 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 89,
-    "generated_at": "2026-10-02T05:01:02.408456+00:00"
+    "url_count": 103,
+    "generated_at": "2026-10-02T14:21:47.352592+00:00"
   },
-  "updated_at": "2026-10-02T10:30:12.545008+00:00",
+  "updated_at": "2026-10-02T14:21:47.352599+00:00",
   "build": {
     "scaffolded_at": "2026-10-01T14:09:53.199826+00:00",
     "github_repo": "restorationai/bionic-emergency-services-llc-site",
