@@ -180,7 +180,7 @@
     },
     {
       "id": "2026-09-21-water-cleanup",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-21T22:24:12Z",
       "priority": 1,
       "content_type": "target_term",
@@ -189,7 +189,20 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": null,
-      "source": "app target-term (onboarding)"
+      "source": "app target-term (onboarding)",
+      "written_at": "2026-10-02T16:25:13Z",
+      "post_url": "https://katofskyconstruction.com/blog/water-cleanup/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-cleanup.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "water damage restoration",
+          "context": "00 standard](https://www.iicrc.org) for water damage restoration uses to define when mold amplification",
+          "reason": "names the 'water' service family but plan-input services are only: air-duct-cleaning, air-duct-hvac-cleaning, asbestos-abatement, biohazard-cleanup, carpet-cleaning, carpet-upholstery-cleaning"
+        }
+      ]
     },
     {
       "id": "2026-09-21-vandalism-graffiti-removal",
