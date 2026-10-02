@@ -6,7 +6,7 @@ export const brand = {
   slug: "frontline-fire-flood",
   displayName: "Frontline Fire & Flood",
   shortName: "Frontline Fire & Flood",
-  legalName: "TOPP WORKS LLC",
+  legalName: "Frontline Fire & Flood",
   // Registered DBA / trade name — filled by rename_site_sync.py the moment
   // the state approves the client's DBA filing (empty until then). When set,
   // the footer carries the "[legal] doing business as [DBA]" line and schema
