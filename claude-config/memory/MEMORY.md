@@ -95,3 +95,5 @@
 - [Shared-Owner Clients](shared-owner-clients.md) — Dry County+RT Olson (Bob), ProRestoration+All Pro (Jack): shared GHL contact is expected; attribute by message content
 - [Roadmap Status Doc](roadmap-status-doc.md) — docs/ROADMAP-STATUS.md = phases 1-3 status + waiting-on-Santino + planner/cover decisions; read at session start, keep current
 - [One Consolidated Reply](one-consolidated-reply.md) — 09-29: no spurts between tool runs; one complete answer at the end
+- [Afternoon Meetings](afternoon-meetings.md) — LAW 10-01: always push client calls to the afternoon; Monica's offers prefer PM slots
+- [Citations Rules 10-01](citations-rules-1001.md) — DBA uploaded or recorded keep only; Thumbtack/HomeAdvisor removed; FB Pages via Santino profile in Ignite portfolio; tracking line for verification codes; A2P must build in client subaccount
