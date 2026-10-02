@@ -157,6 +157,8 @@ monthly-reports, Paul Davis cadence). What remains:
 - Ops-sync + bootstrap commit with `if: always()`, alert on cancel, unbuffered logs; ops-sync budget 120 min. Pipeline watchdog has its own schedule (8:30 am/pm PT).
 - Rename pitch auto-queues ~20h after the kickoff call for new clients (rename_autoseed autopitch; kill switch ops_kv rename-autopitch).
 - Per-client reveal date: clients/{slug}.json `preview_reveal_on` (PT date) overrides the 10-day soak. Bionic = 2026-10-04.
+- 10-02: pipeline_watchdog `check_onboarding` (first-30-day clients: bootstrap, site built, preview reveal, rename pitch, Google path); client_followups.py every 6h (hand-shared previews recorded; client-owed items become Monica asks); safe_push.py for automation commits (render sweep lost 4 nights to a rebase conflict); `pages_paused` client flag (Paul Davis Charleston); call-mined rename items queue the pitch directly.
+- Katofsky: Profile Planner plan drafted for "KCS Restore - 24/7 Emergency Water and Fire Damage Restoration" (7/9 gates); waiting on his DBA filing + a Google account he connects (ask filed with the connect link).
 - Open (from the 10-01 audit): duplicate-checkout stub companies (logan t olsen, Daniel Restum) hold the real subscriptions; phone swap proceeds on a mismatch; pre-kickoff Monica asks; Katofsky Google never connected; Paul Davis Charleston missing prompts/_system.md.
 
 ## Queued for later (not phases)
