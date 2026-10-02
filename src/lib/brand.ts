@@ -13,8 +13,8 @@ export const brand = {
   // declares it as the business name, so Google/BrightLocal find the new
   // name corroborated on the site before and during the GBP rename.
   dbaName: "",
-  domain: "touch-of-class-cleaning-and-restoration.invalid",
-  canonicalUrl: "https://touch-of-class-cleaning-and-restoration.invalid",
+  domain: "tofc.biz",
+  canonicalUrl: "https://tofc.biz",
   phone: "(979) 418-6099",
   phoneRaw: "+19794186099",
   hideMobileHeaderCall: false,
@@ -48,7 +48,7 @@ export const brand = {
   lng: "-95.4099403",
   placeId: "",
   googleCid: "",
-  imagesBase: "https://images.touch-of-class-cleaning-and-restoration.invalid",
+  imagesBase: "https://images.tofc.biz",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "",
