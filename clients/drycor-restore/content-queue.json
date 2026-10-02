@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-10-01-who-to-call-for-water-damage-restoration-in-thonotosassa-fl",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-10-01T21:41:23Z",
       "priority": 1,
       "prioritized": true,
@@ -29,7 +29,8 @@
       ],
       "source": "best-of-seeder",
       "written_at": "2026-10-02T01:53:11Z",
-      "post_url": "https://drycor.com/blog/who-to-call-for-water-damage-restoration-in-thonotosassa-fl/"
+      "post_url": "https://drycor.com/blog/who-to-call-for-water-damage-restoration-in-thonotosassa-fl/",
+      "published_verified_at": "2026-10-02T01:55:21Z"
     },
     {
       "id": "2026-09-28-sewage-backup-cleanup-thonotosassa-fl",
