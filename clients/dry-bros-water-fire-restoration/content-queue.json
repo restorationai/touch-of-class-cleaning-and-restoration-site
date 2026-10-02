@@ -614,10 +614,10 @@
     },
     {
       "id": "2026-09-24-does-renters-insurance-cover-water-damage-chicago",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-24T20:28:17Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-10-02T01:47:35Z",
+      "post_url": "https://drybros.com/blog/does-renters-insurance-cover-water-damage-chicago/",
       "primary_keyword": "does renters insurance cover water damage",
       "intent": "informational",
       "volume": 1000,
@@ -651,7 +651,18 @@
       ],
       "notes": "HO-4 covers the renter's personal property and loss of use, not the building (landlord's policy). Cover sudden-and-accidental vs gradual leaks, upstairs-unit leaks in Chicago two-flats and condo buildings, and the landlord/HOA notification step. Contrast with the existing homeowners insurance post and link to it.",
       "source": "keyword-researcher",
-      "seed": "what to do after water damage"
+      "seed": "what to do after water damage",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/does-renters-insurance-cover-water-damage-chicago.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "when mold growth typically begins, per [IICRC](https://iicrc.org) drying guidelines.",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ]
     },
     {
       "id": "2026-09-24-how-to-fix-water-damage-on-ceiling-evanston",
